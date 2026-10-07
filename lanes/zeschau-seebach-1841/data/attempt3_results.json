@@ -1,0 +1,377 @@
+{
+ "anchors": {
+  "11": "la",
+  "70": "pre",
+  "82": "m",
+  "34": "i",
+  "29": "er",
+  "40": "e",
+  "46": "que"
+ },
+ "era_reference": {
+  "label": "tocqueville-1835-1840",
+  "words": 214861,
+  "n_ce": 1134,
+  "p_cela_bigram_given_ce": 0.0,
+  "unigram_ratio_cela_over_ce": 0.04144620811287478,
+  "n_cela": 47,
+  "n_ce_cela": 0,
+  "p_que_given_ce": 0.10758377425044091,
+  "n_ce_que": 122,
+  "p_qui_given_ce": 0.18783068783068782,
+  "n_ce_qui": 213,
+  "p_la_given_de": 0.19192471824050772,
+  "n_de_la": 1754,
+  "n_de": 9139,
+  "p_la_given_a": 0.12754158964879853,
+  "top_followers_of_ce": [
+   [
+    "qui",
+    213
+   ],
+   [
+    "que",
+    122
+   ],
+   [
+    "qu",
+    118
+   ],
+   [
+    "n",
+    90
+   ],
+   [
+    "sont",
+    59
+   ],
+   [
+    "point",
+    46
+   ],
+   [
+    "moment",
+    21
+   ],
+   [
+    "même",
+    18
+   ],
+   [
+    "fut",
+    16
+   ],
+   [
+    "droit",
+    15
+   ]
+  ],
+  "rank_qui": 13,
+  "rank_ce": 27,
+  "rank_que": 8,
+  "rank_cela": 508,
+  "p_next_given_m": {
+   "e": 0.3105,
+   "a": 0.1401,
+   "o": 0.0972,
+   "m": 0.0963,
+   "i": 0.0922,
+   "p": 0.0728,
+   "é": 0.0606,
+   "b": 0.0439
+  }
+ },
+ "lesmis_reference_recomputed": {
+  "label": "les-miserables-1862",
+  "words": 119514,
+  "n_ce": 1062,
+  "p_cela_bigram_given_ce": 0.0,
+  "unigram_ratio_cela_over_ce": 0.2777777777777778,
+  "n_cela": 295,
+  "n_ce_cela": 0,
+  "p_que_given_ce": 0.14030131826741996,
+  "n_ce_que": 149,
+  "p_qui_given_ce": 0.11770244821092278,
+  "n_ce_qui": 125,
+  "p_la_given_de": 0.1310375670840787,
+  "n_de_la": 586,
+  "n_de": 4472,
+  "p_la_given_a": 0.09751895244658856,
+  "top_followers_of_ce": [
+   [
+    "que",
+    149
+   ],
+   [
+    "qu",
+    135
+   ],
+   [
+    "qui",
+    125
+   ],
+   [
+    "n",
+    54
+   ],
+   [
+    "moment",
+    44
+   ],
+   [
+    "sont",
+    22
+   ],
+   [
+    "fut",
+    21
+   ],
+   [
+    "pas",
+    18
+   ],
+   [
+    "mot",
+    18
+   ],
+   [
+    "nom",
+    17
+   ]
+  ],
+  "rank_qui": 12,
+  "rank_ce": 18,
+  "rank_que": 9,
+  "rank_cela": 57,
+  "p_next_given_m": {
+   "e": 0.291,
+   "a": 0.19,
+   "o": 0.1225,
+   "m": 0.1047,
+   "i": 0.0743,
+   "p": 0.0596,
+   "b": 0.0446,
+   "#": 0.0348
+  }
+ },
+ "cipher": {
+  "n_87": 32,
+  "rank_87": 15,
+  "n_64": 46,
+  "rank_64": 4,
+  "count_87_64": 5,
+  "p_64_given_87": 0.1562,
+  "count_46_64_que_qui": 0,
+  "count_64_87": 0,
+  "p_87_given_64": 0.1087,
+  "followers_64_top12": [
+   [
+    "77",
+    3
+   ],
+   [
+    "96",
+    3
+   ],
+   [
+    "29",
+    3
+   ],
+   [
+    "59",
+    3
+   ],
+   [
+    "37",
+    3
+   ],
+   [
+    "98",
+    2
+   ],
+   [
+    "32",
+    2
+   ],
+   [
+    "31",
+    2
+   ],
+   [
+    "79",
+    2
+   ],
+   [
+    "26",
+    2
+   ],
+   [
+    "06",
+    2
+   ],
+   [
+    "47",
+    2
+   ]
+  ],
+  "predecessors_64_top12": [
+   [
+    "87",
+    5
+   ],
+   [
+    "03",
+    4
+   ],
+   [
+    "45",
+    3
+   ],
+   [
+    "37",
+    3
+   ],
+   [
+    "65",
+    3
+   ],
+   [
+    "39",
+    2
+   ],
+   [
+    "67",
+    2
+   ],
+   [
+    "92",
+    2
+   ],
+   [
+    "49",
+    2
+   ],
+   [
+    "21",
+    2
+   ],
+   [
+    "17",
+    1
+   ],
+   [
+    "56",
+    1
+   ]
+  ],
+  "followers_87_top12": [
+   [
+    "11",
+    7
+   ],
+   [
+    "64",
+    5
+   ],
+   [
+    "46",
+    3
+   ],
+   [
+    "01",
+    2
+   ],
+   [
+    "77",
+    2
+   ],
+   [
+    "78",
+    2
+   ],
+   [
+    "83",
+    2
+   ],
+   [
+    "14",
+    1
+   ],
+   [
+    "86",
+    1
+   ],
+   [
+    "98",
+    1
+   ],
+   [
+    "61",
+    1
+   ],
+   [
+    "59",
+    1
+   ]
+  ],
+  "p_11_given_87": 0.2188,
+  "p_que_given_87": 0.0938
+ },
+ "revalidate_87_ce_era": {
+  "verdict": "CONFIRMED",
+  "checks_passed": 3,
+  "of": 4,
+  "reasons": [
+   "rank(87)=15, common-word band (era-independent)",
+   "P(11|87)=0.219 vs era n(cela)/n(ce)=0.041 (lesmis 0.278) -- REGISTER GAP",
+   "P(que|87)=0.094 ~= era P(que|ce)=0.108",
+   "14 distinct predecessors (era-independent)"
+  ]
+ },
+ "verdict_H3_64_qui": {
+  "verdict": "CONFIRMED",
+  "checks_passed": 4,
+  "of": 4,
+  "reasons": [
+   "rank(64)=4 of 96 groups; era rank('qui')=13 (top word)",
+   "P(64|87)=0.1562 ~= era P(qui|ce)=0.1878",
+   "46=que -> 64 = 0, consistent with 'qui'",
+   "28 followers/28 predecessors, top share 0.07: free function word"
+  ]
+ },
+ "bonus_82_16_near_ce": {
+  "total_82_16": 11,
+  "with_87_within_3": 0
+ },
+ "drag_rerun": {
+  "n_anchors": 9,
+  "still_at_floor": false,
+  "top5": [
+   {
+    "group": "00",
+    "word": "vous",
+    "mean": -7.714
+   },
+   {
+    "group": "00",
+    "word": "votre",
+    "mean": -7.714
+   },
+   {
+    "group": "00",
+    "word": "toute",
+    "mean": -7.714
+   },
+   {
+    "group": "00",
+    "word": "tout",
+    "mean": -7.714
+   },
+   {
+    "group": "00",
+    "word": "tous",
+    "mean": -7.714
+   }
+  ]
+ }
+}

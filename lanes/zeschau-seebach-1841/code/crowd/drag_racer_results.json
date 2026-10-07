@@ -1,0 +1,716 @@
+{
+ "meta": {
+  "pairs": 1846,
+  "distinct_groups": 96,
+  "anchors": {
+   "11": "la",
+   "70": "pre",
+   "82": "m",
+   "34": "i",
+   "29": "er",
+   "40": "e",
+   "46": "que",
+   "87": "ce"
+  },
+  "anchor_coverage": 0.1278,
+  "corpus": "Tocqueville t1+t2 (1835/1840), pyphen-fr; WITHIN-word chain priors, CROSS-word window/bigram model (v2 fix)",
+  "syll_vocab": 5513,
+  "corpus_tokens": 215246,
+  "note": "87=ce provisional (attempt2 4/5). pyphen under-splits finals; m/i/e OOV (floor).",
+  "attempt2_correction": "attempt2 compared P(11|87)=0.219 (conditional) against Les Mis count(cela)/count(ce)=0.278 (a count ratio, not a conditional) -- not comparable. Correct comparator is cross-word P(la|ce); in Tocqueville it is 0.022, so the cipher is ~10x cela-heavier than the reference (register note, not anchor refutation)."
+ },
+ "D1_adjacent_anchor_pairs": {
+  "n_adjacent_anchored": 42,
+  "distinct_pairs": 18,
+  "top_pairs": [
+   [
+    "er",
+    "e",
+    9
+   ],
+   [
+    "ce",
+    "la",
+    7
+   ],
+   [
+    "er",
+    "ce",
+    3
+   ],
+   [
+    "ce",
+    "que",
+    3
+   ],
+   [
+    "er",
+    "m",
+    3
+   ],
+   [
+    "i",
+    "er",
+    2
+   ],
+   [
+    "la",
+    "er",
+    2
+   ],
+   [
+    "que",
+    "er",
+    2
+   ],
+   [
+    "e",
+    "er",
+    2
+   ],
+   [
+    "que",
+    "la",
+    1
+   ],
+   [
+    "e",
+    "pre",
+    1
+   ],
+   [
+    "pre",
+    "ce",
+    1
+   ]
+  ],
+  "mean_logp_obs": -7.5007,
+  "mean_logp_null64": -8.6483,
+  "z_vs_null": 4.178,
+  "note": "cross-word model; m/i/e out-of-vocabulary in pyphen (floor), conservative"
+ },
+ "D1b_pair_counts_vs_model": [
+  {
+   "pair": "er-e",
+   "groups": "29-40",
+   "obs": 9,
+   "n_first": 47,
+   "P_model": 0.0002,
+   "E": 0.01,
+   "z": null,
+   "interpretable": false
+  },
+  {
+   "pair": "ce-la",
+   "groups": "87-11",
+   "obs": 7,
+   "n_first": 32,
+   "P_model": 0.022,
+   "E": 0.7,
+   "z": 7.59,
+   "interpretable": true
+  },
+  {
+   "pair": "er-ce",
+   "groups": "29-87",
+   "obs": 3,
+   "n_first": 47,
+   "P_model": 0.0002,
+   "E": 0.01,
+   "z": null,
+   "interpretable": false
+  },
+  {
+   "pair": "ce-que",
+   "groups": "87-46",
+   "obs": 3,
+   "n_first": 32,
+   "P_model": 0.0547,
+   "E": 1.75,
+   "z": 0.97,
+   "interpretable": true
+  },
+  {
+   "pair": "er-m",
+   "groups": "29-82",
+   "obs": 3,
+   "n_first": 47,
+   "P_model": 0.0002,
+   "E": 0.01,
+   "z": null,
+   "interpretable": false
+  },
+  {
+   "pair": "i-er",
+   "groups": "34-29",
+   "obs": 2,
+   "n_first": 10,
+   "P_model": 0.0002,
+   "E": 0.0,
+   "z": null,
+   "interpretable": false
+  },
+  {
+   "pair": "la-er",
+   "groups": "11-29",
+   "obs": 2,
+   "n_first": 44,
+   "P_model": 0.0,
+   "E": 0.0,
+   "z": null,
+   "interpretable": false
+  },
+  {
+   "pair": "que-er",
+   "groups": "46-29",
+   "obs": 2,
+   "n_first": 29,
+   "P_model": 0.0,
+   "E": 0.0,
+   "z": null,
+   "interpretable": false
+  },
+  {
+   "pair": "e-er",
+   "groups": "40-29",
+   "obs": 2,
+   "n_first": 21,
+   "P_model": 0.0002,
+   "E": 0.0,
+   "z": null,
+   "interpretable": false
+  },
+  {
+   "pair": "que-la",
+   "groups": "46-11",
+   "obs": 1,
+   "n_first": 29,
+   "P_model": 0.0951,
+   "E": 2.76,
+   "z": -1.11,
+   "interpretable": true
+  },
+  {
+   "pair": "e-pre",
+   "groups": "40-70",
+   "obs": 1,
+   "n_first": 21,
+   "P_model": 0.0002,
+   "E": 0.0,
+   "z": null,
+   "interpretable": false
+  },
+  {
+   "pair": "pre-ce",
+   "groups": "70-87",
+   "obs": 1,
+   "n_first": 15,
+   "P_model": 0.0001,
+   "E": 0.0,
+   "z": null,
+   "interpretable": false
+  },
+  {
+   "pair": "la-pre",
+   "groups": "11-70",
+   "obs": 1,
+   "n_first": 44,
+   "P_model": 0.0094,
+   "E": 0.41,
+   "z": null,
+   "interpretable": false
+  },
+  {
+   "pair": "pre-m",
+   "groups": "70-82",
+   "obs": 1,
+   "n_first": 15,
+   "P_model": 0.0001,
+   "E": 0.0,
+   "z": null,
+   "interpretable": false
+  },
+  {
+   "pair": "m-i",
+   "groups": "82-34",
+   "obs": 1,
+   "n_first": 38,
+   "P_model": 0.0001,
+   "E": 0.01,
+   "z": null,
+   "interpretable": false
+  },
+  {
+   "pair": "la-la",
+   "groups": "11-11",
+   "obs": 1,
+   "n_first": 44,
+   "P_model": 0.0001,
+   "E": 0.01,
+   "z": null,
+   "interpretable": false
+  },
+  {
+   "pair": "que-pre",
+   "groups": "46-70",
+   "obs": 1,
+   "n_first": 29,
+   "P_model": 0.0,
+   "E": 0.0,
+   "z": null,
+   "interpretable": false
+  },
+  {
+   "pair": "m-que",
+   "groups": "82-46",
+   "obs": 1,
+   "n_first": 38,
+   "P_model": 0.0001,
+   "E": 0.01,
+   "z": null,
+   "interpretable": false
+  }
+ ],
+ "baseline": {
+  "n": 634,
+  "mean": -6.9558,
+  "sd": 2.0453
+ },
+ "drag_top25": [
+  {
+   "word": "législation",
+   "syllables": [
+    "lé",
+    "gis",
+    "la",
+    "tion"
+   ],
+   "k": 4,
+   "chain_prior": -3.0633,
+   "n_pos_min1": 23,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -3.5351,
+   "best_win": -3.0633,
+   "best_p": 237
+  },
+  {
+   "word": "législature",
+   "syllables": [
+    "lé",
+    "gis",
+    "la",
+    "ture"
+   ],
+   "k": 4,
+   "chain_prior": -3.1778,
+   "n_pos_min1": 23,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -3.735,
+   "best_win": -3.1778,
+   "best_p": 237
+  },
+  {
+   "word": "cependant",
+   "syllables": [
+    "ce",
+    "pen",
+    "dant"
+   ],
+   "k": 3,
+   "chain_prior": -3.2173,
+   "n_pos_min1": 21,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -4.1223,
+   "best_win": -3.2173,
+   "best_p": 174
+  },
+  {
+   "word": "législateurs",
+   "syllables": [
+    "lé",
+    "gis",
+    "la",
+    "teurs"
+   ],
+   "k": 4,
+   "chain_prior": -3.3053,
+   "n_pos_min1": 23,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -3.8556,
+   "best_win": -3.3053,
+   "best_p": 237
+  },
+  {
+   "word": "législateur",
+   "syllables": [
+    "lé",
+    "gis",
+    "la",
+    "teur"
+   ],
+   "k": 4,
+   "chain_prior": -3.368,
+   "n_pos_min1": 23,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -3.9036,
+   "best_win": -3.368,
+   "best_p": 237
+  },
+  {
+   "word": "législatif",
+   "syllables": [
+    "lé",
+    "gis",
+    "la",
+    "tif"
+   ],
+   "k": 4,
+   "chain_prior": -3.3732,
+   "n_pos_min1": 23,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -3.9102,
+   "best_win": -3.3732,
+   "best_p": 237
+  },
+  {
+   "word": "législative",
+   "syllables": [
+    "lé",
+    "gis",
+    "la",
+    "tive"
+   ],
+   "k": 4,
+   "chain_prior": -3.4381,
+   "n_pos_min1": 23,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -3.9686,
+   "best_win": -3.4381,
+   "best_p": 237
+  },
+  {
+   "word": "législatifs",
+   "syllables": [
+    "lé",
+    "gis",
+    "la",
+    "tifs"
+   ],
+   "k": 4,
+   "chain_prior": -3.4904,
+   "n_pos_min1": 23,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -3.9642,
+   "best_win": -3.4904,
+   "best_p": 237
+  },
+  {
+   "word": "population",
+   "syllables": [
+    "po",
+    "pu",
+    "la",
+    "tion"
+   ],
+   "k": 4,
+   "chain_prior": -3.6485,
+   "n_pos_min1": 23,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -4.0011,
+   "best_win": -3.6439,
+   "best_p": 237
+  },
+  {
+   "word": "législatives",
+   "syllables": [
+    "lé",
+    "gis",
+    "la",
+    "tives"
+   ],
+   "k": 4,
+   "chain_prior": -3.6468,
+   "n_pos_min1": 23,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -4.2099,
+   "best_win": -3.6468,
+   "best_p": 237
+  },
+  {
+   "word": "législatures",
+   "syllables": [
+    "lé",
+    "gis",
+    "la",
+    "tures"
+   ],
+   "k": 4,
+   "chain_prior": -3.7634,
+   "n_pos_min1": 23,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -4.3558,
+   "best_win": -3.7634,
+   "best_p": 237
+  },
+  {
+   "word": "celui",
+   "syllables": [
+    "ce",
+    "lui"
+   ],
+   "k": 2,
+   "chain_prior": -3.9076,
+   "n_pos_min1": 22,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -4.6118,
+   "best_win": -3.9076,
+   "best_p": 71
+  },
+  {
+   "word": "laquelle",
+   "syllables": [
+    "la",
+    "quelle"
+   ],
+   "k": 2,
+   "chain_prior": -4.3076,
+   "n_pos_min1": 40,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -4.6284,
+   "best_win": -3.96,
+   "best_p": 108
+  },
+  {
+   "word": "delaware",
+   "syllables": [
+    "de",
+    "la",
+    "ware"
+   ],
+   "k": 3,
+   "chain_prior": -5.6897,
+   "n_pos_min1": 31,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -4.6958,
+   "best_win": -3.9661,
+   "best_p": 238
+  },
+  {
+   "word": "proprement",
+   "syllables": [
+    "pro",
+    "pre",
+    "ment"
+   ],
+   "k": 3,
+   "chain_prior": -4.5947,
+   "n_pos_min1": 11,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -4.5338,
+   "best_win": -4.0825,
+   "best_p": 1116
+  },
+  {
+   "word": "entreprenant",
+   "syllables": [
+    "en",
+    "tre",
+    "pre",
+    "nant"
+   ],
+   "k": 4,
+   "chain_prior": -4.1079,
+   "n_pos_min1": 9,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -4.2948,
+   "best_win": -4.1079,
+   "best_p": 233
+  },
+  {
+   "word": "populations",
+   "syllables": [
+    "po",
+    "pu",
+    "la",
+    "tions"
+   ],
+   "k": 4,
+   "chain_prior": -4.1417,
+   "n_pos_min1": 23,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -4.5227,
+   "best_win": -4.1371,
+   "best_p": 237
+  },
+  {
+   "word": "relatif",
+   "syllables": [
+    "re",
+    "la",
+    "tif"
+   ],
+   "k": 3,
+   "chain_prior": -4.676,
+   "n_pos_min1": 31,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -5.1643,
+   "best_win": -4.2319,
+   "best_p": 1515
+  },
+  {
+   "word": "relative",
+   "syllables": [
+    "re",
+    "la",
+    "tive"
+   ],
+   "k": 3,
+   "chain_prior": -4.7626,
+   "n_pos_min1": 31,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -5.2379,
+   "best_win": -4.2968,
+   "best_p": 1515
+  },
+  {
+   "word": "ceci",
+   "syllables": [
+    "ce",
+    "ci"
+   ],
+   "k": 2,
+   "chain_prior": -4.3172,
+   "n_pos_min1": 22,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -4.9341,
+   "best_win": -4.3105,
+   "best_p": 71
+  },
+  {
+   "word": "relatifs",
+   "syllables": [
+    "re",
+    "la",
+    "tifs"
+   ],
+   "k": 3,
+   "chain_prior": -4.8323,
+   "n_pos_min1": 31,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -5.2683,
+   "best_win": -4.349,
+   "best_p": 1515
+  },
+  {
+   "word": "commencement",
+   "syllables": [
+    "com",
+    "men",
+    "ce",
+    "ment"
+   ],
+   "k": 4,
+   "chain_prior": -4.3916,
+   "n_pos_min1": 18,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -4.5833,
+   "best_win": -4.3745,
+   "best_p": 172
+  },
+  {
+   "word": "relations",
+   "syllables": [
+    "re",
+    "la",
+    "tions"
+   ],
+   "k": 3,
+   "chain_prior": -4.9205,
+   "n_pos_min1": 31,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -5.3817,
+   "best_win": -4.4152,
+   "best_p": 1515
+  },
+  {
+   "word": "premier",
+   "syllables": [
+    "pre",
+    "mier"
+   ],
+   "k": 2,
+   "chain_prior": -4.4167,
+   "n_pos_min1": 13,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -4.9435,
+   "best_win": -4.4167,
+   "best_p": 235
+  },
+  {
+   "word": "première",
+   "syllables": [
+    "pre",
+    "mière"
+   ],
+   "k": 2,
+   "chain_prior": -4.4708,
+   "n_pos_min1": 13,
+   "n_pos_min2": 0,
+   "n_exact": 0,
+   "mean_win": -4.8685,
+   "best_win": -4.4708,
+   "best_p": 235
+  }
+ ],
+ "n_candidates": 55,
+ "n_with_positions": 55,
+ "n_best_eq_chain_prior": 26,
+ "degeneracy": {
+  "distinct_best_win": 54,
+  "n_scored": 55
+ },
+ "followup": {
+  "best_vs_prior_top25": {
+   "n_best_gt_prior": 11,
+   "n_best_eq_prior": 14,
+   "max_lift": 1.7236
+  },
+  "P11_given_g_ranking": "87 is #1 predecessor of 11 (7/32=0.219; next 39: 2/12=0.167)",
+  "P46_given_g_ranking": "87 ranks #3 predecessor of 46 (3/32=0.094), within noise of top (97: 1/9=0.111)",
+  "cela_contexts_2before_3after": [
+   "14 24 | 87 11 | 00 11",
+   "94 24 | 87 11 | 24 82",
+   "67 76 | 87 11 | 92 63",
+   "02 79 | 87 11 | 59 42",
+   "01 24 | 87 11 | 77 76",
+   "77 81 | 87 11 | 00 33",
+   "77 81 | 87 11 | 00 11"
+  ],
+  "note_24": "group 24 immediately precedes 87-11 in 3/7 cela occurrences (14-24, 94-24, 01-24)",
+  "note_7781": "77 81 precedes 87-11 twice, both followed by 00"
+ }
+}

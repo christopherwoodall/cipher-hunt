@@ -66,14 +66,50 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   - Erratum to attempt-1 prose: "87→11 in 7/44" quoted P(87|11); the hypothesis-relevant
     rate is P(11|87)=7/32=21.9% (the 44 is the frequency of 11=la itself).
   - Full numeric output: `data/attempt2_results.json`.
+- **2026-10-07 (attempt 3 — era-matched reference + H3 64="qui", `code/attempt3.py`):**
+  executed. Operator constraint: Les Mis (novel, 1862) mismatches the 1841 diplomatic
+  despatch in era AND register. New reference: Tocqueville, *De la démocratie en
+  Amérique*, Tomes 1+2 (1835/1840, formal political prose), 214,861 words, fetched from
+  Project Gutenberg with provenance (`data/PROVENANCE-tocqueville.txt`, sha256 in
+  `data/SHA256SUMS.txt`). Method mirrors attempt 2 (same tokenizer, same factor-2 band).
+  - **Era-vs-LesMis rate comparison** (the point of the exercise): P(que|ce) 0.108 vs
+    0.140 ✓ agree; P(qui|ce) 0.188 vs 0.118 ✓ agree (era *closer* to the cipher's 0.156);
+    P(la|de) 0.192 vs 0.131 ✓; P(la|à) 0.128 vs 0.098 ✓. **One disagreement:**
+    n("cela")/n("ce") is 0.041 in Tocqueville vs 0.278 in Les Mis — a 6.7× register gap
+    (novels use "cela" in dialogue; formal prose almost never does). The cipher's
+    P(11|87)=0.219 sits with Les Mis, not Tocqueville.
+  - **87=ce re-validated vs era: CONFIRMED (3/4).** Rank band, P(que|87)=0.094 ≈ era
+    P(que|ce)=0.108, and 14 distinct predecessors all still pass. The "cela"-rate leg
+    now FAILS the factor-2 band against the era corpus (0.219 vs 0.041) and is downgraded
+    to register-dependent — it does not overturn the confirmation (the grammatical
+    refutation of 87="de"/"à" and the other legs stand), but attempt 2's 4/5 is now 3/4
+    on era-matched rates. Noted as a caveat, not a refutation.
+  - **H3 (64="qui"): CONFIRMED (4/4) → 9th anchor (provisional, lane-inferred).**
+    (a) rank(64)=4 of 96 groups; era rank("qui")=13 — top-word band. (b) P(64|87)=0.1562
+    ≈ era P(qui|ce)=0.1878 — and "qui" is the #1 follower of "ce" in Tocqueville (213×),
+    ahead of "que" (122×). (c) 46=que → 64 = 0: no "que qui" (negative control holds).
+    (d) 64 has 28 distinct followers / 28 distinct predecessors, top follower share 0.07 —
+    a free function word, not a fixed phrase. Rival reading 64="ci" ("ceci"=87+64):
+    P(87|64)=0.109 — 64 is not ceci-bound, favouring "qui" (diverse contexts).
+  - **Bonus (STATE.md next):** 82→16 occurs 11× total, **0× with 87=ce within ±3 groups**
+    — the 82→16 bigram avoids ce-windows entirely. Datum only; suggests re-examining
+    82→16 in qui-anchored windows next.
+  - **Drag re-run (9 anchors incl. provisional 64=qui): NULL — still no discrimination.**
+    Technical note: the anchors-only baseline now lifts off the quadgram floor on some
+    windows (density finally registering), but every (group, word) candidate still ties
+    at the floor — zero separation between candidates. The window-quadgram scorer remains
+    shelved; attempt 4 should consider a syllable-level scorer.
+  - Full numeric output: `data/attempt3_results.json`.
 
 ## Null results
 - **N1 (2026-10-07):** crib-anchored function-word drag (Phase C above) — degenerate at 7-anchor
   sparsity; all candidates tie at floor. Not a disproof of the crib-anchored strategy, only of
   this scorer at this sparsity.
-- **N2 (2026-10-07):** drag re-run with 8 anchors (7 pencil cribs + provisional lane-inferred
-  87=ce) — still degenerate; all top candidates tie at the quadgram floor (−7.714).
-  The window-quadgram crib-drag is shelved until anchor density or the scorer changes.
+- **N3 (2026-10-07):** drag re-run with 9 anchors (7 pencil cribs + provisional 87=ce +
+  provisional 64=qui) — still null. Anchors-only baseline lifts off the quadgram floor
+  on some windows (anchor density finally registering), but no (group, word) candidate
+  separates from the floor. The window-quadgram crib-drag stays shelved; a syllable-level
+  scorer is the candidate replacement.
 
 ## Verified findings
 - F1 (source: Bourdeau zeschau1841 page, 2026-09-21/24): the unit is pairs of digits; 96 of 100
@@ -100,6 +136,18 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
 - F8 (2026-10-07, this lane, erratum): attempt-1 prose "87→11 in 7/44" quoted P(87|11);
   the correct hypothesis rate is **P(11|87)=7/32=21.9%**. Raw counts in
   `data/attempt1_results.json` were always correct; only the prose ratio is corrected.
+- F9 (2026-10-07, this lane): **64="qui" — lane-inferred provisional anchor, CONFIRMED 4/4.**
+  87→64 ×5 ("ce qui"); P(64|87)=0.1562 ≈ era P(qui|ce)=0.1878 ("qui" is the #1 follower
+  of "ce" in Tocqueville, 213×); rank(64)=4 of 96 vs era rank("qui")=13; 46=que → 64 = 0;
+  28 followers/28 predecessors, top share 0.07. Rival 64="ci" disfavoured (P(87|64)=0.109).
+  9 anchors total. Evidence: `code/attempt3.py`, `data/attempt3_results.json`.
+- F10 (2026-10-07, this lane): **era-matched reference corpus built** (Tocqueville 1835/1840,
+  214,861 words, formal prose). Rate comparison vs Les Mis (1862 novel): P(que|ce),
+  P(qui|ce), P(la|de), P(la|à) all agree within factor 2; **n("cela")/n("ce") disagrees
+  6.7×** (0.041 era vs 0.278 Les Mis) — a register gap, not an era subtlety. Consequence:
+  attempt 2's "cela"-rate leg for 87=ce is downgraded to register-dependent; 87=ce
+  re-validates at 3/4 on era rates and stands. Evidence: `data/PROVENANCE-tocqueville.txt`,
+  `data/attempt3_results.json`.
 
 ## Data inventory
 Source: https://github.com/dbourdeau/cyphersolver `targets/zeschau1841/` (Daniel Bourdeau's
@@ -125,3 +173,10 @@ French reference text (Les Misérables Tome I, Project Gutenberg ebook 17489), c
 2026-10-07 from sibling lane catherine-medici-1567/data/gutenberg-17489-miserables1.txt
 for independent bigram/word-rate checks (attempt 2):
   a5de514ba7b9f2e1  data/gutenberg-17489-miserables1.txt (first 16 hex of sha256; full hash in SHA256SUMS.txt)
+Era-matched reference corpus (attempt 3, 2026-10-07) — Tocqueville, *De la démocratie
+en Amérique*, Tomes 1+2 (French, 1835/1840), formal political prose, 214,861 words.
+Supersedes Les Mis as the rate reference (era + register match to the 1841 despatch):
+  fafebe4f69bc8e7abc6ed95bd10c2257bd26a307b2c1071056187ef76154aeaa  data/gutenberg-30513-tocqueville-t1.txt
+  20e46d72bc398f1c903449908a35a691e0d32763234bc75b2376cd21dbe33ee9  data/gutenberg-30514-tocqueville-t2.txt
+  (provenance: data/PROVENANCE-tocqueville.txt; hashes appended to data/SHA256SUMS.txt)
+Attempt 3 outputs: `code/attempt3.py`, `data/attempt3_results.json`.

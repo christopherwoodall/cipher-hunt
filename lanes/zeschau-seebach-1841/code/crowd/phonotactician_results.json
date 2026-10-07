@@ -1,0 +1,781 @@
+{
+ "method": "simulated annealing, syllable-bigram log-likelihood, 8 anchors pinned",
+ "corpus": "gutenberg-17489-miserables1.txt (Hugo 1862; ERA CAVEAT: 21y after 1841 letter, not era-matched)",
+ "syllabifier": "rule-based maximal-onset FR orthographic; qu/ch/ph/gn unit onsets; C+l/r clusters",
+ "inventory": {
+  "K": 401,
+  "top400_token_coverage": 0.9479,
+  "anchors_missing_from_top400": [
+   "m"
+  ]
+ },
+ "groups": 96,
+ "free_groups": 88,
+ "pairs": 1846,
+ "annealing": {
+  "restarts": 12,
+  "iters_per_restart": 150000,
+  "T0": 10.0,
+  "T1": 0.1
+ },
+ "best_score": -9504.1,
+ "restart_scores": [
+  -9504.1,
+  -9716.6,
+  -9728.0,
+  -9801.8,
+  -9817.9,
+  -9840.0,
+  -9862.0,
+  -10136.4,
+  -10198.9,
+  -10236.0,
+  -10297.3,
+  -10328.7
+ ],
+ "baseline": {
+  "n": 500,
+  "mean": -12703.9,
+  "max": -12302.7,
+  "sd": 125.6
+ },
+ "delta_vs_baseline_max": 2798.6,
+ "delta_vs_baseline_mean": 3199.8,
+ "best_key": {
+  "00": "mat",
+  "01": "hi",
+  "02": "champ",
+  "03": "hi",
+  "04": "champ",
+  "06": "hi",
+  "07": "mat",
+  "08": "mat",
+  "09": "champ",
+  "10": "mat",
+  "11": "la",
+  "12": "mat",
+  "13": "hi",
+  "14": "hi",
+  "15": "hi",
+  "16": "hi",
+  "17": "champ",
+  "18": "hi",
+  "19": "champ",
+  "20": "champ",
+  "21": "champ",
+  "22": "mat",
+  "23": "hi",
+  "24": "mat",
+  "26": "champ",
+  "27": "quel",
+  "28": "hi",
+  "29": "er",
+  "30": "mat",
+  "31": "hi",
+  "32": "mat",
+  "33": "mat",
+  "34": "i",
+  "35": "mat",
+  "36": "champ",
+  "37": "mat",
+  "38": "mat",
+  "39": "mat",
+  "40": "e",
+  "41": "hi",
+  "42": "mat",
+  "43": "champ",
+  "44": "hi",
+  "45": "mat",
+  "46": "que",
+  "47": "hi",
+  "48": "hi",
+  "49": "champ",
+  "50": "champ",
+  "51": "champ",
+  "52": "champ",
+  "53": "champ",
+  "54": "ver",
+  "55": "mat",
+  "56": "champ",
+  "57": "mat",
+  "58": "mat",
+  "59": "champ",
+  "60": "mat",
+  "61": "mat",
+  "62": "mat",
+  "63": "hi",
+  "64": "mat",
+  "65": "mat",
+  "66": "hi",
+  "67": "champ",
+  "68": "hi",
+  "69": "mat",
+  "70": "pre",
+  "71": "champ",
+  "73": "ver",
+  "74": "mat",
+  "76": "mat",
+  "77": "mat",
+  "78": "mat",
+  "79": "mat",
+  "80": "champ",
+  "81": "hi",
+  "82": "m",
+  "83": "hi",
+  "84": "hi",
+  "85": "hi",
+  "86": "hi",
+  "87": "ce",
+  "88": "hi",
+  "89": "mat",
+  "90": "hu",
+  "91": "ver",
+  "92": "champ",
+  "93": "hi",
+  "94": "hi",
+  "95": "ve",
+  "96": "hi",
+  "97": "mat",
+  "98": "mat",
+  "99": "mat"
+ },
+ "stability": [
+  {
+   "group": "95",
+   "freq": 2,
+   "syllable": "ve",
+   "frac": 0.917
+  },
+  {
+   "group": "49",
+   "freq": 12,
+   "syllable": "sim",
+   "frac": 0.583
+  },
+  {
+   "group": "74",
+   "freq": 35,
+   "syllable": "pli",
+   "frac": 0.583
+  },
+  {
+   "group": "07",
+   "freq": 7,
+   "syllable": "sim",
+   "frac": 0.5
+  },
+  {
+   "group": "09",
+   "freq": 12,
+   "syllable": "pli",
+   "frac": 0.5
+  },
+  {
+   "group": "24",
+   "freq": 52,
+   "syllable": "pli",
+   "frac": 0.5
+  },
+  {
+   "group": "76",
+   "freq": 21,
+   "syllable": "pli",
+   "frac": 0.5
+  },
+  {
+   "group": "27",
+   "freq": 1,
+   "syllable": "quel",
+   "frac": 0.417
+  },
+  {
+   "group": "50",
+   "freq": 11,
+   "syllable": "pli",
+   "frac": 0.417
+  },
+  {
+   "group": "56",
+   "freq": 23,
+   "syllable": "pli",
+   "frac": 0.417
+  },
+  {
+   "group": "01",
+   "freq": 29,
+   "syllable": "sim",
+   "frac": 0.333
+  },
+  {
+   "group": "03",
+   "freq": 20,
+   "syllable": "pli",
+   "frac": 0.333
+  },
+  {
+   "group": "04",
+   "freq": 3,
+   "syllable": "pli",
+   "frac": 0.333
+  },
+  {
+   "group": "06",
+   "freq": 46,
+   "syllable": "pli",
+   "frac": 0.333
+  },
+  {
+   "group": "10",
+   "freq": 6,
+   "syllable": "sim",
+   "frac": 0.333
+  },
+  {
+   "group": "13",
+   "freq": 12,
+   "syllable": "sim",
+   "frac": 0.333
+  },
+  {
+   "group": "14",
+   "freq": 15,
+   "syllable": "sim",
+   "frac": 0.333
+  },
+  {
+   "group": "18",
+   "freq": 7,
+   "syllable": "pli",
+   "frac": 0.333
+  },
+  {
+   "group": "35",
+   "freq": 10,
+   "syllable": "sim",
+   "frac": 0.333
+  },
+  {
+   "group": "45",
+   "freq": 23,
+   "syllable": "qua",
+   "frac": 0.333
+  },
+  {
+   "group": "59",
+   "freq": 26,
+   "syllable": "pli",
+   "frac": 0.333
+  },
+  {
+   "group": "60",
+   "freq": 18,
+   "syllable": "sim",
+   "frac": 0.333
+  },
+  {
+   "group": "69",
+   "freq": 13,
+   "syllable": "sim",
+   "frac": 0.333
+  },
+  {
+   "group": "80",
+   "freq": 16,
+   "syllable": "sim",
+   "frac": 0.333
+  },
+  {
+   "group": "84",
+   "freq": 25,
+   "syllable": "sim",
+   "frac": 0.333
+  },
+  {
+   "group": "85",
+   "freq": 15,
+   "syllable": "sim",
+   "frac": 0.333
+  },
+  {
+   "group": "93",
+   "freq": 15,
+   "syllable": "pli",
+   "frac": 0.333
+  },
+  {
+   "group": "96",
+   "freq": 21,
+   "syllable": "pli",
+   "frac": 0.333
+  },
+  {
+   "group": "00",
+   "freq": 54,
+   "syllable": "sim",
+   "frac": 0.25
+  },
+  {
+   "group": "02",
+   "freq": 18,
+   "syllable": "pli",
+   "frac": 0.25
+  },
+  {
+   "group": "08",
+   "freq": 19,
+   "syllable": "pli",
+   "frac": 0.25
+  },
+  {
+   "group": "12",
+   "freq": 23,
+   "syllable": "sim",
+   "frac": 0.25
+  },
+  {
+   "group": "15",
+   "freq": 10,
+   "syllable": "pli",
+   "frac": 0.25
+  },
+  {
+   "group": "16",
+   "freq": 28,
+   "syllable": "sim",
+   "frac": 0.25
+  },
+  {
+   "group": "17",
+   "freq": 16,
+   "syllable": "sim",
+   "frac": 0.25
+  },
+  {
+   "group": "19",
+   "freq": 9,
+   "syllable": "pli",
+   "frac": 0.25
+  },
+  {
+   "group": "26",
+   "freq": 17,
+   "syllable": "pli",
+   "frac": 0.25
+  },
+  {
+   "group": "28",
+   "freq": 6,
+   "syllable": "ran",
+   "frac": 0.25
+  },
+  {
+   "group": "30",
+   "freq": 19,
+   "syllable": "sim",
+   "frac": 0.25
+  },
+  {
+   "group": "32",
+   "freq": 13,
+   "syllable": "sim",
+   "frac": 0.25
+  },
+  {
+   "group": "33",
+   "freq": 25,
+   "syllable": "pli",
+   "frac": 0.25
+  },
+  {
+   "group": "36",
+   "freq": 9,
+   "syllable": "pli",
+   "frac": 0.25
+  },
+  {
+   "group": "39",
+   "freq": 12,
+   "syllable": "sim",
+   "frac": 0.25
+  },
+  {
+   "group": "42",
+   "freq": 21,
+   "syllable": "sim",
+   "frac": 0.25
+  },
+  {
+   "group": "43",
+   "freq": 16,
+   "syllable": "pli",
+   "frac": 0.25
+  },
+  {
+   "group": "44",
+   "freq": 15,
+   "syllable": "pli",
+   "frac": 0.25
+  },
+  {
+   "group": "47",
+   "freq": 28,
+   "syllable": "sim",
+   "frac": 0.25
+  },
+  {
+   "group": "51",
+   "freq": 6,
+   "syllable": "pli",
+   "frac": 0.25
+  },
+  {
+   "group": "52",
+   "freq": 27,
+   "syllable": "qua",
+   "frac": 0.25
+  },
+  {
+   "group": "62",
+   "freq": 34,
+   "syllable": "sim",
+   "frac": 0.25
+  },
+  {
+   "group": "65",
+   "freq": 25,
+   "syllable": "sim",
+   "frac": 0.25
+  },
+  {
+   "group": "67",
+   "freq": 37,
+   "syllable": "sim",
+   "frac": 0.25
+  },
+  {
+   "group": "71",
+   "freq": 8,
+   "syllable": "sim",
+   "frac": 0.25
+  },
+  {
+   "group": "78",
+   "freq": 31,
+   "syllable": "pli",
+   "frac": 0.25
+  },
+  {
+   "group": "79",
+   "freq": 18,
+   "syllable": "qua",
+   "frac": 0.25
+  },
+  {
+   "group": "81",
+   "freq": 14,
+   "syllable": "pli",
+   "frac": 0.25
+  },
+  {
+   "group": "86",
+   "freq": 33,
+   "syllable": "pli",
+   "frac": 0.25
+  },
+  {
+   "group": "88",
+   "freq": 23,
+   "syllable": "sim",
+   "frac": 0.25
+  },
+  {
+   "group": "90",
+   "freq": 1,
+   "syllable": "sim",
+   "frac": 0.25
+  },
+  {
+   "group": "91",
+   "freq": 21,
+   "syllable": "pli",
+   "frac": 0.25
+  },
+  {
+   "group": "94",
+   "freq": 36,
+   "syllable": "pli",
+   "frac": 0.25
+  },
+  {
+   "group": "20",
+   "freq": 14,
+   "syllable": "pli",
+   "frac": 0.167
+  },
+  {
+   "group": "21",
+   "freq": 30,
+   "syllable": "dis",
+   "frac": 0.167
+  },
+  {
+   "group": "22",
+   "freq": 2,
+   "syllable": "pli",
+   "frac": 0.167
+  },
+  {
+   "group": "23",
+   "freq": 9,
+   "syllable": "qua",
+   "frac": 0.167
+  },
+  {
+   "group": "31",
+   "freq": 8,
+   "syllable": "pli",
+   "frac": 0.167
+  },
+  {
+   "group": "37",
+   "freq": 28,
+   "syllable": "dis",
+   "frac": 0.167
+  },
+  {
+   "group": "38",
+   "freq": 7,
+   "syllable": "ran",
+   "frac": 0.167
+  },
+  {
+   "group": "41",
+   "freq": 19,
+   "syllable": "dis",
+   "frac": 0.167
+  },
+  {
+   "group": "48",
+   "freq": 38,
+   "syllable": "pli",
+   "frac": 0.167
+  },
+  {
+   "group": "53",
+   "freq": 11,
+   "syllable": "dis",
+   "frac": 0.167
+  },
+  {
+   "group": "54",
+   "freq": 3,
+   "syllable": "pli",
+   "frac": 0.167
+  },
+  {
+   "group": "55",
+   "freq": 12,
+   "syllable": "dis",
+   "frac": 0.167
+  },
+  {
+   "group": "58",
+   "freq": 7,
+   "syllable": "dis",
+   "frac": 0.167
+  },
+  {
+   "group": "61",
+   "freq": 18,
+   "syllable": "pli",
+   "frac": 0.167
+  },
+  {
+   "group": "63",
+   "freq": 12,
+   "syllable": "dis",
+   "frac": 0.167
+  },
+  {
+   "group": "64",
+   "freq": 46,
+   "syllable": "sim",
+   "frac": 0.167
+  },
+  {
+   "group": "66",
+   "freq": 18,
+   "syllable": "sim",
+   "frac": 0.167
+  },
+  {
+   "group": "68",
+   "freq": 8,
+   "syllable": "hi",
+   "frac": 0.167
+  },
+  {
+   "group": "73",
+   "freq": 6,
+   "syllable": "ple",
+   "frac": 0.167
+  },
+  {
+   "group": "77",
+   "freq": 44,
+   "syllable": "dis",
+   "frac": 0.167
+  },
+  {
+   "group": "83",
+   "freq": 15,
+   "syllable": "pli",
+   "frac": 0.167
+  },
+  {
+   "group": "89",
+   "freq": 14,
+   "syllable": "ron",
+   "frac": 0.167
+  },
+  {
+   "group": "92",
+   "freq": 22,
+   "syllable": "dis",
+   "frac": 0.167
+  },
+  {
+   "group": "97",
+   "freq": 9,
+   "syllable": "dis",
+   "frac": 0.167
+  },
+  {
+   "group": "98",
+   "freq": 40,
+   "syllable": "dis",
+   "frac": 0.167
+  },
+  {
+   "group": "99",
+   "freq": 1,
+   "syllable": "ran",
+   "frac": 0.167
+  },
+  {
+   "group": "57",
+   "freq": 1,
+   "syllable": "ger",
+   "frac": 0.083
+  }
+ ],
+ "anchor_contexts_best_key": {
+  "after_82_m": [
+   {
+    "group": "16",
+    "n": 11,
+    "best_syll": "hi"
+   },
+   {
+    "group": "48",
+    "n": 4,
+    "best_syll": "hi"
+   },
+   {
+    "group": "06",
+    "n": 4,
+    "best_syll": "hi"
+   },
+   {
+    "group": "96",
+    "n": 3,
+    "best_syll": "hi"
+   },
+   {
+    "group": "94",
+    "n": 3,
+    "best_syll": "hi"
+   },
+   {
+    "group": "14",
+    "n": 2,
+    "best_syll": "hi"
+   }
+  ],
+  "before_11_la": [
+   {
+    "group": "87",
+    "n": 7,
+    "best_syll": "ce"
+   },
+   {
+    "group": "00",
+    "n": 4,
+    "best_syll": "mat"
+   },
+   {
+    "group": "06",
+    "n": 4,
+    "best_syll": "hi"
+   },
+   {
+    "group": "47",
+    "n": 3,
+    "best_syll": "hi"
+   },
+   {
+    "group": "67",
+    "n": 3,
+    "best_syll": "champ"
+   },
+   {
+    "group": "37",
+    "n": 2,
+    "best_syll": "mat"
+   }
+  ]
+ },
+ "decoded_head_400": "champmatmatchamphihihimatmathihimatmatmatmatverchampchampmatmatmchamperhimatmathimatimatmathimatmathimatvermatmathihimathichamphimatmathimatchampmatmatlamathimatmatchampmathimatieremathichampmathimatchampcehimatcelamatlaermatmatchampmathihihihimathimatchamphimathimatqueerhimatchampmathihichampmathimatquelachampchamphiermathichampchamphichampmathuchampmathimatmhilachampchampmathichampmatchampmathiv",
+ "degeneracy": {
+  "distinct_syllables_used_best_key": 15,
+  "distinct_nonanchor_syllables": 7,
+  "top_reuse": [
+   [
+    "mat",
+    34
+   ],
+   [
+    "hi",
+    27
+   ],
+   [
+    "champ",
+    21
+   ],
+   [
+    "ver",
+    3
+   ],
+   [
+    "la",
+    1
+   ],
+   [
+    "quel",
+    1
+   ]
+  ],
+  "free_groups": 88
+ },
+ "stronger_baseline": {
+  "name": "unigram-frequency-matched random (n=300, same anchors pinned)",
+  "mean": -13525.2,
+  "max": -13082.7,
+  "sd": 187.9,
+  "anneal_delta_vs_max": 3578.6,
+  "delta_in_sd": 19.0
+ },
+ "rank_corr_groupfreq_vs_syllablefreq": -0.106,
+ "verdict": "NULL: pure syllable-bigram likelihood is gameable; annealer collapses to degenerate 3-syllable reuse (mat/hi/champ for 82/88 free groups), decoded stream is syllable soup not French; only 1/88 groups stable >=0.75 across 12 restarts. The +3578 (19 sd) beat over the frequency-matched baseline measures optimizer exploitation of bigram smoothness, not key recovery. No crack claim.",
+ "try_next": "Add unicity/dispersion constraint (cap syllable reuse, or permutation over 96-syllable subset); add unigram prior + word-boundary/lexical scoring (decode must segment into real French words); or seed annealer from attempt-2/attempt-3 partial keys and use phonotactics only as a tiebreaker, not the objective."
+}

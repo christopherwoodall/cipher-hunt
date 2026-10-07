@@ -1,0 +1,15 @@
+Era-matched French reference corpus for attempt 3 (replaces Les Miserables 1862
+as the rate reference: era match AND register match).
+
+- gutenberg-30513-tocqueville-t1.txt : "De la Democratie en Amerique, tome premier"
+  (French), Alexis de Tocqueville, published 1835. Formal political prose.
+  URL: https://www.gutenberg.org/cache/epub/30513/pg30513.txt
+- gutenberg-30514-tocqueville-t2.txt : "De la Democratie en Amerique, tome deuxieme"
+  (French), published 1840. Same register.
+  URL: https://www.gutenberg.org/cache/epub/30514/pg30514.txt
+
+Retrieved 2026-10-07 ~12:35 UTC via curl through the egress proxy.
+License: Project Gutenberg (public domain in the US; Tocqueville d. 1859).
+Rationale: 1835/1840 formal French prose vs the 1841 diplomatic despatch under
+attack; vs Les Miserables Tome 1 (novel, 1862) used in attempt 2, which mismatches
+both era (+20y) and register (literary/dramatic vs diplomatic/official).
