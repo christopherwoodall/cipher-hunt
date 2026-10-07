@@ -1,0 +1,23 @@
+[negctrl] building Tocqueville syllable-bigram model (shared) ...
+[negctrl] model built in 2.0s, inventory=413
+[negctrl] ---- seed 184101 ----
+[negctrl]   12 restarts x 60000 in 23.5s
+[negctrl]   seed 184101: primary 3/89 = 0.0337 (chance 0.0223); truth-primary-in-inventory 3/79 = 0.0380
+[negctrl] ---- seed 184102 ----
+[negctrl]   12 restarts x 60000 in 24.5s
+[negctrl]   seed 184102: primary 3/89 = 0.0337 (chance 0.0220); truth-primary-in-inventory 3/82 = 0.0366
+[negctrl] ---- seed 184103 ----
+[negctrl]   12 restarts x 60000 in 30.8s
+[negctrl]   seed 184103: primary 4/89 = 0.0449 (chance 0.0222); truth-primary-in-inventory 4/80 = 0.0500
+[negctrl] ---- seed 184104 ----
+[negctrl]   12 restarts x 60000 in 35.6s
+[negctrl]   seed 184104: primary 4/89 = 0.0449 (chance 0.0206); truth-primary-in-inventory 4/81 = 0.0494
+[negctrl] ---- seed 184105 ----
+[negctrl]   12 restarts x 60000 in 42.3s
+[negctrl]   seed 184105: primary 4/89 = 0.0449 (chance 0.0220); truth-primary-in-inventory 4/81 = 0.0494
+[negctrl] ---- seed 184106 ----
+[negctrl]   12 restarts x 60000 in 57.1s
+[negctrl]   seed 184106: primary 4/89 = 0.0449 (chance 0.0207); truth-primary-in-inventory 4/82 = 0.0488
+[negctrl] mean_primary=0.0412 max=0.0449
+[negctrl] VERDICT: NEGATIVE-CONTROL-OK (≈chance)
+[negctrl] wall 215.9s

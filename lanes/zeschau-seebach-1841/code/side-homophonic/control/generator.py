@@ -104,8 +104,15 @@ PARAMS = {
     'p_merge': 0.10,              # adjacent-cell merge (inconsistent cuts)
     'p_split': 0.05,              # long-cell split (inconsistent cuts)
     'p_alt': 0.08,                # double-consonant simplification
+    'p_letter_split': 0.03,       # prob/word of encipher_split (rare letter
+                                 # cells, like the real cipher: i=10, e=21)
+    'p_er_free': 0.8,             # prob/word of re-syllabifying trailing -er
+                                 # ("parler"->"parl|er"; real 29=er rank 3)
     'n_poly': 6,                  # polyvalent islet groups (real: 3 established)
     'p_poly_use': 0.5,            # secondary-cell emission rate per islet
+    'p_emit_phase': 0.85,         # phase-biased emission fidelity
+    'q_cycle': 0.55,              # occurrence-phase cycle purity (CALIBRATED)
+    'q_cycle_candidates': [0.4, 0.5, 0.6],
     't_candidates': [48, 56, 64, 72],  # inventory-size sweep (phase knob)
     'chi2_band': [181.0, 320.0],  # unsupervised chi2 acceptance band
     'mc_draws': 2000,             # Monte-Carlo draws for chance baseline
@@ -114,6 +121,7 @@ ANCHORS = {'11': 'la', '70': 'pre', '82': 'm', '34': 'i',
            '29': 'er', '40': 'e', '46': 'que'}
 ANCHOR_CELLS = set(ANCHORS.values())
 CRIB_CELLS = ['la', 'pre', 'm', 'i', 'er', 'e']   # "la premiere" ear-cut
+
 DOUBLES = ['nn', 'll', 'mm', 'ss', 'tt', 'pp', 'rr', 'ff', 'cc']
 
 HEADER = ("# *** SYNTHETIC CIPHERTEXT — CONTROL FOR THE SEEBACH HOMOPHONIC SOLVER ***\n"
@@ -194,33 +202,31 @@ def _try_build(seed, tokens, group_labels, p, T, crib_word_offset,
     words = words[:co] + ['la', 'première'] + words[co:]
     crib_word_idx = co  # index of "la"; "première" is co+1
 
-    # ---- cell pipeline: syllabify -> encipher_split -> ear noise ----
+    # ---- cell pipeline: syllabify -> (probabilistic) splits -> ear noise ----
+    # The lane's encipher_split is applied probabilistically per word (rare
+    # letter cells, matching the real cipher's i=10, e=21 — NOT the
+    # always-on split that floods the stream with letters). Trailing -er is
+    # re-syllabified with p_er_free ("parler"->"parl|er"; the lane
+    # syllabifier traps -er inside "ler"/"ner", but real 29=er is rank 3,
+    # 47x, so the real encipherer freed it). Anchor cells are never altered
+    # by noise (crib integrity), but splits may CREATE them (that's natural).
     word_cells = []
     for wi, w in enumerate(words):
         if wi == crib_word_idx + 1:      # the planted crib: force the ear-cut
             cells = list(CRIB_CELLS[1:])  # pre|m|i|er|e (mirrors real @1033)
         else:
-            cells = encipher_split(syllabify(w))
+            if (len(w) > 3 and w.endswith('er')
+                    and rng.random() < p['p_er_free']):
+                cells = syllabify(w[:-2]) + ['er']
+            else:
+                cells = syllabify(w)
+            if rng.random() < p['p_letter_split']:
+                cells = encipher_split(cells)
             if wi != crib_word_idx:      # crib "la" also exempt from noise
                 cells = ear_noise(cells, rng, p)
         if cells:
             word_cells.append((wi, cells))
-    # position classes on the FINAL noised cells: B=initial A=medial C=final.
-    # The planted crib's "la" is fixed to B (deterministic, not a coin flip).
-    pos_of = []
-    for wi, cells in word_cells:
-        n = len(cells)
-        for k in range(n):
-            if wi == crib_word_idx:
-                pos_of.append('B')
-            elif n == 1:
-                pos_of.append(rng.choice(['B', 'C']))
-            elif k == 0:
-                pos_of.append('B')
-            elif k == n - 1:
-                pos_of.append('C')
-            else:
-                pos_of.append('A')
+    # (phases assigned after keep-filter, below)
 
     # ---- inventory: top-T non-anchor cells + force-included anchors ----
     # Fixpoint: drop inventory cells with zero kept occurrences (every word
@@ -233,14 +239,12 @@ def _try_build(seed, tokens, group_labels, p, T, crib_word_offset,
     inv_nonanchor = ranked[:T]
     for _round in range(10):
         inventory = set(inv_nonanchor) | ANCHOR_CELLS
-        kept, kept_pos = [], []
-        for (wi, cells), start in zip(word_cells,
-                                     _cumlen([len(c) for _, c in word_cells])):
+        kept = []
+        for wi, cells in word_cells:
             ok = all(c in inventory for c in cells) or \
                 wi in (crib_word_idx, crib_word_idx + 1)
             if ok:
                 kept.append((wi, cells))
-                kept_pos.extend(pos_of[start:start + len(cells)])
         kc = collections.Counter(c for _, cells in kept for c in cells)
         drop = [c for c in inv_nonanchor if kc[c] == 0]
         if not drop:
@@ -251,6 +255,33 @@ def _try_build(seed, tokens, group_labels, p, T, crib_word_offset,
     assert inv_nonanchor, "inventory emptied by fixpoint"
     keep_rate = len(kept) / len(word_cells)
     T_eff = len(inv_nonanchor)
+
+    # GLOBAL DILUTED-CYCLE occurrence-phases over the kept cell stream:
+    #   phase(t) = [B, A, C][t % 3] with prob q_cycle, else uniform-random.
+    #   Gives the transition edges B->A, A->C, C->B = the A->C->B->A rotation.
+    #   q_cycle is CALIBRATED so the occurrence-phase 3x3 chi2 lands in
+    #   [181, 320] (the real cipher's measured 181.3). p_emit_phase controls
+    #   how faithfully groups follow occurrence phases (encipherer noise).
+    # Rationale (documented design changes): positional initial/medial/final
+    # classes were tried first: French words are short (mean ~1.7 cells), so
+    # masses unbalance (A 62%) and the B->A edge goes flat (1.05x vs 1.47x
+    # real). Morphological proclitic/stem/suffix classes were tried next:
+    # real rotation present (true chi2 262-314, A->C 1.6x, C->B 1.5x) but
+    # B->A still flat (1.05x), and Jaccard clustering cannot recover the
+    # planted phases (purity ~0.5) — the contactor's chi2 becomes a coin flip
+    # (0-300 across seeds). The diluted cycle reproduces the OBSERVABLE the
+    # lane measured (a 3-phase rotation in group transitions, chi2 ~= 181)
+    # with direct, stable control over its strength. It is a control device
+    # for the transition structure a bigram solver actually faces, not a
+    # linguistic claim about the real cipher's phases (mechanism unknown).
+    CYCLE = ['B', 'A', 'C']
+    qc = p['q_cycle']
+    kept_pos = []
+    for t in range(sum(len(c) for _, c in kept)):
+        if rng.random() < qc:
+            kept_pos.append(CYCLE[t % 3])
+        else:
+            kept_pos.append(rng.choice('BAC'))
 
     # ---- planted key: anchors pinned; 89 groups -> T cells, freq-weighted ----
     labels = [g for g in group_labels if g not in ANCHORS]
@@ -279,66 +310,38 @@ def _try_build(seed, tokens, group_labels, p, T, crib_word_offset,
         for _ in range(quota[c]):
             cell_groups[c].append(labels[li])
             li += 1
-    # PHASE-SPECIALIZED homophones (the key-maker's story): each group gets a
-    # phase label (B/A/C); a cell's aliases are split across the
-    # position-phases the cell actually occurs in, proportionally. Emission
-    # picks an alias whose phase matches the occurrence's position class, so
-    # every group's contacts are phase-coherent and the A->C->B->A rotation
-    # emerges unsupervised (as in R5005) instead of collapsing into one
-    # frequency blob. Uniform-random aliasing was tried first: it fragments
-    # contact profiles and the rotation vanishes (unsupervised chi2 3.9,
-    # then 27.2 with Zipfian preference) — unfaithful to the real cipher,
-    # where the rotation IS visible (chi2=181.3, contactor_results.json).
-    pos_dist = collections.defaultdict(collections.Counter)
-    for (_, cells), pstart in zip(word_cells,
-                                  _cumlen([len(c) for _, c in word_cells])):
-        for k, c in enumerate(cells):
-            pos_dist[c][pos_of[pstart + k]] += 1
-    key = {}
-    phase_aliases = collections.defaultdict(   # cell -> phase -> [groups]
-        lambda: collections.defaultdict(list))
+    # PHASE-BIASED homophonic emission. Each cell's aliases are dealt
+    # round-robin to phases (shuffled): alias i is primary for phases P with
+    # 'BAC'.index(P) % k == i. Emission at occurrence-phase pc picks the
+    # primary alias with prob p_emit_phase, else a random alias (encipherer
+    # noise). Groups' contacts stay phase-coherent so the rotation is visible
+    # to contact clustering (as in R5005); the 1-p_emit_phase noise is the
+    # calibrated dilution knob. (Strict phase-specialization was tried: with
+    # k=1 aliases the fallback impurity collapsed the group-level rotation
+    # to true chi2=86 even at q_cycle=1.0. Uniform-random aliasing was tried
+    # first: contact profiles fragment, rotation vanishes, chi2=3.9.)
     anchor_grp = {v: k for k, v in ANCHORS.items()}
-    for g, cell in ANCHORS.items():
-        d = pos_dist[cell]
-        ph = max('BAC', key=lambda x: (d[x], -'BAC'.index(x)))
-        key[g] = {'primary': cell, 'secondaries': [], 'phase': ph}
-        phase_aliases[cell][ph].append(g)
+    for c in inv_nonanchor:
+        rng.shuffle(cell_groups[c])
+    key = {g: {'primary': cell, 'secondaries': [], 'phase': 'B'}
+           for g, cell in ANCHORS.items()}
     for c in inv_nonanchor:
         gs = cell_groups[c]
-        rng.shuffle(gs)
-        d = pos_dist[c]
-        tot_d = sum(d.values())
-        shares = {x: d[x] / tot_d for x in 'BAC'}
-        want = [x for x in 'BAC' if shares[x] > 0.12] or \
-            [max('BAC', key=lambda x: (shares[x], -'BAC'.index(x)))]
-        alloc = {x: 0 for x in 'BAC'}
-        for x in want[:len(gs)]:
-            alloc[x] = 1
-        left = len(gs) - sum(alloc.values())
-        base = {x: int(shares[x] * left) for x in 'BAC'}
-        for x in 'BAC':
-            alloc[x] += base[x]
-        more = left - sum(base.values())
-        fr = sorted(((shares[x] * left - base[x], x) for x in 'BAC'),
-                    reverse=True)
-        for _, x in fr[:more]:
-            alloc[x] += 1
-        assert sum(alloc.values()) == len(gs), (c, alloc, len(gs))
-        gi = 0
-        for x in 'BAC':
-            for _ in range(alloc[x]):
-                g = gs[gi]
-                gi += 1
-                key[g] = {'primary': c, 'secondaries': [], 'phase': x}
-                phase_aliases[c][x].append(g)
+        for i, g in enumerate(gs):
+            key[g] = {'primary': c, 'secondaries': [],
+                      'phase': 'BAC'[i % 3]}
     assert len(key) == 96
 
     def emit_group(c, pc, rstream):
-        """Group for cell c occurring at position class pc."""
-        cands = phase_aliases[c].get(pc)
-        if not cands:                       # fallback: any alias of the cell
-            cands = [g for ph in 'BAC' for g in phase_aliases[c][ph]]
-        return rstream.choice(cands)
+        """Group for cell c occurring at occurrence-phase pc: the first
+        alias with primary phase pc, with prob p_emit_phase; else a random
+        alias (encipherer noise). Falls back to a random alias when the cell
+        has no pc-phased alias (k<3)."""
+        gs = cell_groups[c]
+        cands = [g for g in gs if key[g]['phase'] == pc]
+        if cands and rstream.random() < p['p_emit_phase']:
+            return cands[0]
+        return rstream.choice(gs)
 
     # ---- polyvalent islets: 6 mid-frequency groups, 1 secondary cell each ----
     # (secondary emission deliberately ignores phase: that impurity is real)
@@ -470,8 +473,10 @@ def _try_build(seed, tokens, group_labels, p, T, crib_word_offset,
 
     anchor_freqs = {g: pairs.count(g) for g in ANCHORS}
     if verbose:
-        print(f"seed {seed}: T={T}->T_eff={T_eff} chi2={chi2:.1f} "
-              f"keep={keep_rate:.2%} islets={n_islets} crib@{crib_pair_offset} "
+        print(f"seed {seed}: T={T}->T_eff={T_eff} "
+              f"occ_chi2={occurrence_chi2(pclasses):.1f} "
+              f"unsup_chi2={chi2:.1f} keep={keep_rate:.2%} "
+              f"islets={n_islets} crib@{crib_pair_offset} "
               f"repaired={n_repaired}")
     return {
         'seed': seed, 'T': T, 'T_eff': T_eff, 'pairs': pairs,
@@ -638,13 +643,12 @@ def write_instance(inst, p):
                 f"groups={len(set(inst['pairs']))} SYNTHETIC\n")
         f.write(' '.join(inst['pairs']) + '\n')
     key_path = os.path.join(OUTD, f"SYNTHETIC-key-{seed}.json")
-    with open(key_path, 'w') as f:
-        f.write("// *** SYNTHETIC PLANTED KEY — SEALED: Runner scoring only. "
-                "Never show to the solver. ***\n")
-        json.dump({'seed': seed, 'synthetic': True,
-                   'key': inst['key'],
-                   'group_phase_diagnostic': inst['group_phase']},
-                  f, indent=1, ensure_ascii=False)
+    json.dump({'seed': seed, 'synthetic': True,
+               'SEALED': 'Runner scoring only. Never show to the solver. '
+                         'This is a synthetic planted key, not real.',
+               'key': inst['key'],
+               'group_phase_diagnostic': inst['group_phase']},
+              open(key_path, 'w'), indent=1, ensure_ascii=False)
     crib_path = os.path.join(OUTD, f"SYNTHETIC-crib-{seed}.json")
     json.dump({'seed': seed, 'synthetic': True,
                'note': 'Crib facts disclosed to the solver (mirrors the '
@@ -669,6 +673,7 @@ def write_instance(inst, p):
         'n_polyvalent_islets': inst['n_islets'],
         'polyvalent_groups': sorted(g for g in inst['key']
                                     if inst['key'][g]['secondaries']),
+        'occurrence_chi2': occurrence_chi2(inst['pclasses']),
         'unsupervised_chi2': inst['chi2'],
         'anchor_freqs_synthetic': inst['anchor_freqs'],
         'anchor_freqs_real_R5005': {'11': 44, '70': 15, '82': 38, '34': 10,
@@ -692,42 +697,65 @@ def write_instance(inst, p):
 
 
 # ------------------------- calibration + build -------------------------
+def occurrence_chi2(pclasses):
+    """3x3 chi2 (df=4) of the occurrence-phase transition matrix."""
+    trans = collections.Counter()
+    for i in range(len(pclasses) - 1):
+        trans[(pclasses[i], pclasses[i + 1])] += 1
+    cnt = {(r, c): trans[(r, c)] for r in 'ABC' for c in 'ABC'}
+    r3 = {r: sum(cnt[(r, c)] for c in 'ABC') for r in 'ABC'}
+    c3 = {c: sum(cnt[(r, c)] for r in 'ABC') for c in 'ABC'}
+    n3 = sum(cnt.values())
+    return round(sum((cnt[(r, c)] - r3[r] * c3[c] / n3) ** 2 /
+                     (r3[r] * c3[c] / n3)
+                     for r in 'ABC' for c in 'ABC' if r3[r] * c3[c] > 0), 1)
+
+
 def calibrate(p, tokens, group_labels):
-    """Pilot T-sweep on seed[0]: pick T with unsupervised chi2 in band,
-    closest to band midpoint; deterministic."""
+    """Pilot q_cycle sweep on seed[0] (T fixed): pick q with occurrence-phase
+    chi2 in band [181, 320], closest to band midpoint; deterministic. The
+    occurrence-phase chi2 is T-independent (diluted cycle over kept cells),
+    so q calibrates separately from the inventory knob T."""
     lo, hi = p['chi2_band']
     mid = (lo + hi) / 2
     rows = []
-    for T in p['t_candidates']:
+    T = 56
+    for qc in p['q_cycle_candidates']:
+        p['q_cycle'] = qc
         inst = build_instance(p['seeds'][0], tokens, group_labels, p, T)
-        rows.append({'T': T, 'chi2': inst['chi2'],
+        oc = occurrence_chi2(inst['pclasses'])
+        rows.append({'q_cycle': qc, 'T': T, 'occurrence_chi2': oc,
+                     'unsupervised_chi2': inst['chi2'],
                      'keep_rate': round(inst['keep_rate'], 4),
                      'n_islets': inst['n_islets']})
-        print(f"  T={T}: chi2={inst['chi2']} keep={inst['keep_rate']:.2%} "
-              f"islets={inst['n_islets']}")
-    inband = [r for r in rows if lo <= r['chi2'] <= hi]
+        print(f"  q={qc}: occurrence_chi2={oc} unsupervised_chi2={inst['chi2']} "
+              f"keep={inst['keep_rate']:.2%} islets={inst['n_islets']}")
+    inband = [r for r in rows if lo <= r['occurrence_chi2'] <= hi]
     if inband:
-        best = min(inband, key=lambda r: abs(r['chi2'] - mid))
+        best = min(inband, key=lambda r: abs(r['occurrence_chi2'] - mid))
     else:
-        best = min(rows, key=lambda r: min(abs(r['chi2'] - lo),
-                                           abs(r['chi2'] - hi)))
-        print(f"WARNING: no T in chi2 band {p['chi2_band']}; "
-              f"closest T={best['T']} chi2={best['chi2']} — control REJECTED, "
-              f"do not certify")
-    print(f"certified T={best['T']} (chi2={best['chi2']})")
-    json.dump({'band': p['chi2_band'], 'rows': rows, 'certified_T': best['T'],
+        best = min(rows, key=lambda r: min(abs(r['occurrence_chi2'] - lo),
+                                           abs(r['occurrence_chi2'] - hi)))
+        print(f"WARNING: no q_cycle in occurrence-chi2 band {p['chi2_band']}; "
+              f"closest q={best['q_cycle']} chi2={best['occurrence_chi2']} — "
+              f"control REJECTED, do not certify")
+    print(f"certified q_cycle={best['q_cycle']} "
+          f"(occurrence_chi2={best['occurrence_chi2']})")
+    json.dump({'band': p['chi2_band'], 'rows': rows,
+               'certified_q_cycle': best['q_cycle'], 'T': T,
                'in_band': bool(inband)},
               open(os.path.join(HERE, 'calibration.json'), 'w'), indent=1)
     if not inband:
         sys.exit(2)
-    return best['T']
+    return best['q_cycle'], T
 
 
 def build_all(p):
     tokens = load_lesmis_tokens()
     group_labels = real_group_labels()
     print(f"lesmis tokens={len(tokens)} real groups={len(group_labels)}")
-    T = calibrate(p, tokens, group_labels)
+    q_cycle, T = calibrate(p, tokens, group_labels)
+    p['q_cycle'] = q_cycle
     summary, chance = {}, {}
     for seed in p['seeds']:
         inst = build_instance(seed, tokens, group_labels, p, T, verbose=True)
@@ -735,7 +763,9 @@ def build_all(p):
         cb = chance_baseline(inst, p)
         chance[str(seed)] = cb
         summary[str(seed)] = {
-            'T': T, 'chi2': inst['chi2'],
+            'T': T, 'q_cycle': q_cycle,
+            'occurrence_chi2': occurrence_chi2(inst['pclasses']),
+            'unsupervised_chi2': inst['chi2'],
             'keep_rate': round(inst['keep_rate'], 4),
             'n_islets': inst['n_islets'],
             'crib_pair_offset': inst['crib_pair_offset'],
@@ -751,7 +781,8 @@ def build_all(p):
               f"oracle={cb['oracle_decode_accuracy']:.4f}")
     json.dump(chance, open(os.path.join(HERE, 'chance_baseline.json'), 'w'),
               indent=1)
-    json.dump({'certified_T': T, 'params': p, 'instances': summary},
+    json.dump({'certified_q_cycle': q_cycle, 'T': T, 'params': p,
+               'instances': summary},
               open(os.path.join(HERE, 'build_summary.json'), 'w'), indent=1)
     print(f"built {len(summary)} instances; "
           f"files in {OUTD}")

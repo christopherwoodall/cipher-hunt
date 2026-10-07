@@ -1,0 +1,76 @@
+{
+ "wall_seconds": 215.9,
+ "restarts": 12,
+ "iters": 60000,
+ "mean_primary": 0.0412,
+ "max_primary": 0.0449,
+ "verdict": "NEGATIVE-CONTROL-OK (\u2248chance)",
+ "per_seed": [
+  {
+   "seed": 184101,
+   "restarts": 12,
+   "iters": 60000,
+   "n_nonpin": 89,
+   "hits": 3,
+   "primary": 0.0337,
+   "primary_in_inventory": 0.038,
+   "n_truth_primary_in_inventory": 79,
+   "chance_mean": 0.0223
+  },
+  {
+   "seed": 184102,
+   "restarts": 12,
+   "iters": 60000,
+   "n_nonpin": 89,
+   "hits": 3,
+   "primary": 0.0337,
+   "primary_in_inventory": 0.0366,
+   "n_truth_primary_in_inventory": 82,
+   "chance_mean": 0.022
+  },
+  {
+   "seed": 184103,
+   "restarts": 12,
+   "iters": 60000,
+   "n_nonpin": 89,
+   "hits": 4,
+   "primary": 0.0449,
+   "primary_in_inventory": 0.05,
+   "n_truth_primary_in_inventory": 80,
+   "chance_mean": 0.0222
+  },
+  {
+   "seed": 184104,
+   "restarts": 12,
+   "iters": 60000,
+   "n_nonpin": 89,
+   "hits": 4,
+   "primary": 0.0449,
+   "primary_in_inventory": 0.0494,
+   "n_truth_primary_in_inventory": 81,
+   "chance_mean": 0.0206
+  },
+  {
+   "seed": 184105,
+   "restarts": 12,
+   "iters": 60000,
+   "n_nonpin": 89,
+   "hits": 4,
+   "primary": 0.0449,
+   "primary_in_inventory": 0.0494,
+   "n_truth_primary_in_inventory": 81,
+   "chance_mean": 0.022
+  },
+  {
+   "seed": 184106,
+   "restarts": 12,
+   "iters": 60000,
+   "n_nonpin": 89,
+   "hits": 4,
+   "primary": 0.0449,
+   "primary_in_inventory": 0.0488,
+   "n_truth_primary_in_inventory": 82,
+   "chance_mean": 0.0207
+  }
+ ]
+}

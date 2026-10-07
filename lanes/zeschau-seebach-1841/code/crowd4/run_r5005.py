@@ -62,7 +62,12 @@ def main():
     cells, weights = build_inventory(M, extra_cells=list(PROVISIONAL.values()))
     pairs, _, _ = load_pairs_repaired()
     assert len(pairs) == 1847 and len(set(pairs)) == 96
-    phase = load_phase_map()  # banked contactor phases (old parse); see note below
+    phase = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                         'phase_map_repaired.json')))
+    # RECOMPUTED Jaccard-k12 phases on the repaired 1,847-pair parse (2026-10-07).
+    # Banked contactor phases (old parse) are stale: 61/96 groups change phase
+    # under the repair (clustering sensitivity). Recomputed gives rotation
+    # chi2=366.3 vs 178.8 banked — the repaired parse's rotation is STRONGER.
     print('  inventory=%d cells' % len(cells), flush=True)
 
     print('[anneal] %d restarts x %d sweeps...' % (N_RESTARTS, SWEEPS),

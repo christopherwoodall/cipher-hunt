@@ -1,0 +1,35 @@
+{
+ "band": [
+  181.0,
+  320.0
+ ],
+ "rows": [
+  {
+   "q_cycle": 0.4,
+   "T": 56,
+   "occurrence_chi2": 73.8,
+   "unsupervised_chi2": 3.9,
+   "keep_rate": 0.4251,
+   "n_islets": 6
+  },
+  {
+   "q_cycle": 0.5,
+   "T": 56,
+   "occurrence_chi2": 257.0,
+   "unsupervised_chi2": 36.6,
+   "keep_rate": 0.4251,
+   "n_islets": 6
+  },
+  {
+   "q_cycle": 0.6,
+   "T": 56,
+   "occurrence_chi2": 531.0,
+   "unsupervised_chi2": 11.2,
+   "keep_rate": 0.4251,
+   "n_islets": 6
+  }
+ ],
+ "certified_q_cycle": 0.5,
+ "T": 56,
+ "in_band": true
+}

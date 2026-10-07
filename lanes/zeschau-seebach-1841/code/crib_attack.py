@@ -58,7 +58,7 @@ def load_quadgrams():
     q = json.load(open(os.path.join(DATA, 'french-quadgrams.json')))
     floor = q.pop('floor')
     q.pop('meta', None)
-    return q, floor
+    return q['logp'], floor  # FIX 2026-10-07: table is nested under 'logp'; qscore was returning the floor constant
 
 
 def qscore(s, q, floor):

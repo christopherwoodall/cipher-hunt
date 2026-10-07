@@ -1,0 +1,597 @@
+{
+ "seed": 184106,
+ "synthetic": true,
+ "SEALED": "Runner scoring only. Never show to the solver. This is a synthetic planted key, not real.",
+ "key": {
+  "11": {
+   "primary": "la",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "70": {
+   "primary": "pre",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "82": {
+   "primary": "m",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "34": {
+   "primary": "i",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "29": {
+   "primary": "er",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "40": {
+   "primary": "e",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "46": {
+   "primary": "que",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "90": {
+   "primary": "de",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "21": {
+   "primary": "de",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "68": {
+   "primary": "de",
+   "secondaries": [
+    "l"
+   ],
+   "phase": "C"
+  },
+  "06": {
+   "primary": "de",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "78": {
+   "primary": "l",
+   "secondaries": [
+    "les"
+   ],
+   "phase": "B"
+  },
+  "48": {
+   "primary": "l",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "57": {
+   "primary": "l",
+   "secondaries": [],
+   "phase": "C"
+  },
+  "66": {
+   "primary": "é",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "44": {
+   "primary": "é",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "76": {
+   "primary": "et",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "09": {
+   "primary": "et",
+   "secondaries": [
+    "d"
+   ],
+   "phase": "A"
+  },
+  "95": {
+   "primary": "et",
+   "secondaries": [
+    "le"
+   ],
+   "phase": "C"
+  },
+  "18": {
+   "primary": "en",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "16": {
+   "primary": "en",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "89": {
+   "primary": "il",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "28": {
+   "primary": "il",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "85": {
+   "primary": "il",
+   "secondaries": [],
+   "phase": "C"
+  },
+  "38": {
+   "primary": "a",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "19": {
+   "primary": "le",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "58": {
+   "primary": "le",
+   "secondaries": [
+    "u"
+   ],
+   "phase": "A"
+  },
+  "17": {
+   "primary": "les",
+   "secondaries": [
+    "à"
+   ],
+   "phase": "B"
+  },
+  "22": {
+   "primary": "les",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "96": {
+   "primary": "re",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "74": {
+   "primary": "d",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "73": {
+   "primary": "d",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "12": {
+   "primary": "ti",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "88": {
+   "primary": "on",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "60": {
+   "primary": "on",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "65": {
+   "primary": "à",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "94": {
+   "primary": "à",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "00": {
+   "primary": "te",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "80": {
+   "primary": "ne",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "79": {
+   "primary": "ne",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "08": {
+   "primary": "ce",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "33": {
+   "primary": "ce",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "37": {
+   "primary": "me",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "92": {
+   "primary": "se",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "64": {
+   "primary": "un",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "69": {
+   "primary": "un",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "77": {
+   "primary": "n",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "23": {
+   "primary": "n",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "02": {
+   "primary": "qui",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "54": {
+   "primary": "qui",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "07": {
+   "primary": "qu",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "15": {
+   "primary": "qu",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "43": {
+   "primary": "di",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "81": {
+   "primary": "té",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "13": {
+   "primary": "u",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "50": {
+   "primary": "u",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "42": {
+   "primary": "au",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "26": {
+   "primary": "ri",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "59": {
+   "primary": "lu",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "47": {
+   "primary": "lu",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "10": {
+   "primary": "tait",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "83": {
+   "primary": "tait",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "45": {
+   "primary": "si",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "55": {
+   "primary": "dans",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "32": {
+   "primary": "dans",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "71": {
+   "primary": "s",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "87": {
+   "primary": "s",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "56": {
+   "primary": "tre",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "97": {
+   "primary": "pas",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "04": {
+   "primary": "pas",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "24": {
+   "primary": "par",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "99": {
+   "primary": "est",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "86": {
+   "primary": "est",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "63": {
+   "primary": "c",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "20": {
+   "primary": "c",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "03": {
+   "primary": "des",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "62": {
+   "primary": "des",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "91": {
+   "primary": "son",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "53": {
+   "primary": "son",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "30": {
+   "primary": "sa",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "14": {
+   "primary": "pour",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "35": {
+   "primary": "pour",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "49": {
+   "primary": "vi",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "61": {
+   "primary": "in",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "36": {
+   "primary": "du",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "01": {
+   "primary": "du",
+   "secondaries": [],
+   "phase": "A"
+  },
+  "98": {
+   "primary": "es",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "52": {
+   "primary": "com",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "51": {
+   "primary": "li",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "27": {
+   "primary": "là",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "41": {
+   "primary": "con",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "31": {
+   "primary": "bi",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "93": {
+   "primary": "ces",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "67": {
+   "primary": "sé",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "39": {
+   "primary": "sur",
+   "secondaries": [],
+   "phase": "B"
+  },
+  "84": {
+   "primary": "ent",
+   "secondaries": [],
+   "phase": "B"
+  }
+ },
+ "group_phase_diagnostic": {
+  "11": "B",
+  "70": "B",
+  "82": "B",
+  "34": "B",
+  "29": "B",
+  "40": "B",
+  "46": "B",
+  "90": "B",
+  "21": "A",
+  "68": "C",
+  "06": "B",
+  "78": "B",
+  "48": "A",
+  "57": "C",
+  "66": "B",
+  "44": "A",
+  "76": "B",
+  "09": "A",
+  "95": "C",
+  "18": "B",
+  "16": "A",
+  "89": "B",
+  "28": "A",
+  "85": "C",
+  "38": "B",
+  "19": "B",
+  "58": "A",
+  "17": "B",
+  "22": "A",
+  "96": "B",
+  "74": "B",
+  "73": "A",
+  "12": "B",
+  "88": "B",
+  "60": "A",
+  "65": "B",
+  "94": "A",
+  "00": "B",
+  "80": "B",
+  "79": "A",
+  "08": "B",
+  "33": "A",
+  "37": "B",
+  "92": "B",
+  "64": "B",
+  "69": "A",
+  "77": "B",
+  "23": "A",
+  "02": "B",
+  "54": "A",
+  "07": "B",
+  "15": "A",
+  "43": "B",
+  "81": "B",
+  "13": "B",
+  "50": "A",
+  "42": "B",
+  "26": "B",
+  "59": "B",
+  "47": "A",
+  "10": "B",
+  "83": "A",
+  "45": "B",
+  "55": "B",
+  "32": "A",
+  "71": "B",
+  "87": "A",
+  "56": "B",
+  "97": "B",
+  "04": "A",
+  "24": "B",
+  "99": "B",
+  "86": "A",
+  "63": "B",
+  "20": "A",
+  "03": "B",
+  "62": "A",
+  "91": "B",
+  "53": "A",
+  "30": "B",
+  "14": "B",
+  "35": "A",
+  "49": "B",
+  "61": "B",
+  "36": "B",
+  "01": "A",
+  "98": "B",
+  "52": "B",
+  "51": "B",
+  "27": "B",
+  "41": "B",
+  "31": "B",
+  "93": "B",
+  "67": "B",
+  "39": "B",
+  "84": "B"
+ }
+}

@@ -1,18 +1,23 @@
 # STATE — zeschau-seebach-1841
 
-- **status:** `cracking` (crowd round 3 COMPLETE 2026-10-07: 9/9 executors merged after
-  red-team adjudication (13 rulings) + red-team-3b follow-up (7 adjudications).
-  Net: kills (06=/mɑ̃/ via crib contradiction, 01="ci" provisional, 24="de" scoped,
-  52="pas"-single scoped, H5 by round 2), eight demotions, ZERO promotions — the
-  bar held. 10 provisional values unchanged (7 pencil cribs + 87=ce + 64=qui +
-  96="par"); 94="ne" provisional-strong; 06=verb-stem-class provisional;
-  67="veut" provisional; 77="pas" disfavored-strong; 78="me" LEAD (promote
-  rejected); 87=ce provisional-strengthened; 64="qui" re-promotion BLOCKED.
-  **62="on" is the promotion candidate** (one independent check away). Lane
-  position: rigid syllabification DEAD as an instrument (F30) — no
-  era-syllable-conditional legs on morphological fragments; era word-space legs
-  survive; recover the syllabary via `data/upstream-syll*.py`)
-- **checkpoint:** Transcription fetched, hashed, verified (3,764 digits / 1,846 pairs / 96 groups).
+- **status:** `cracking` (crowd round 4 COMPLETE 2026-10-07: 8/8 executors merged after
+  red-team adjudication (4 rulings + homophony position). Net: ZERO promotions — the
+  bar held. Kills: 47="me" (uniform word, 3 independent). Demotions: 94="re"
+  live-rival→disfavored, 64="même" LEAD→disfavored (bounded). 77="le" LEAD-weak→LEAD
+  (accepted fenced). 62="on" third leg FOUND but promotion NOT granted (legs 1&3 share
+  the ear instrument) — stays STRONG LEAD. 94="en" co-value DENIED (independence fail).
+  **Canonical parse repaired mid-round (F32):** 1,847 pairs; "la première" TWICE
+  (@754 and @1034); all positions re-indexed (`code/crowd4/REINDEX.md`).
+  10 values: 7 pencil cribs (ground truth) + 87=ce (provisional-strengthened) +
+  64=qui (provisional, re-promotion BLOCKED) + 96="par" (CONFIRMED, inherits ce status).
+  94="ne" provisional-strong; 47="ce" LEAD (new); 06=verb-stem-class provisional
+  (06/86 complementary distribution discovered); 67="veut" provisional.
+  Lane position: polyvalence CONDITIONED, not free (F33) — 3/25 groups (12.0%) with
+  verified conditioning rules; code information-lossless in principle; 35.2% token coverage.
+  Joint engine: model-correct, search-broken on control (identifiability — N30).)
+- **checkpoint:** Transcription fetched, hashed, verified (3,764 digits / 1,847 pairs / 96 groups;
+  repaired canonical parse per F32 — `code/side-keyhunt/repaired_offsets.json` supersedes
+  `data/upstream-offsets.json`; "la première" @pairs 754 AND 1034).
   Attempt 1 (`code/crib_attack.py`) complete: repeats corrected to 2×/0× at pair alignment (F3);
   digit-count discrepancy 3,764 vs 3,969 recorded (F4); bigram 82→16 at 29% flagged (F5);
   function-word drag null at 7-anchor sparsity (N1). Results in `data/attempt1_results.json`.
@@ -38,8 +43,10 @@
     checks (a)/(d) non-discriminating; (c) weak (n=3). No alternative beats ce. Reframing:
     P(46|87,pre=96)=3/3 vs pre=24 0/10 — "que" licensed by 96, never 24. Status:
     provisional, best-tested, cela-leg register-dependent (attempt 3 re-validated 3/4).
-  - "la première" = 11-70-82-34-29-40 exactly once @pair 1033 — byte-level confirmed
-    from ground-truth anchors; mid-letter back-reference (F12, curator-verified).
+  - "la première" = 11-70-82-34-29-40 TWICE @pairs 754 (row a5_03, the manuscript gloss
+    line) and 1034 (row a6_03) — byte-level confirmed from ground-truth anchors; the
+    a5_03 occurrence is a mid-letter back-reference (F12 as repaired by F32; old
+    "exactly once @pair 1033" SUPERSEDED).
   - 3-phase rotational contact structure A→C→B→A (chi²=181.3, 4df; F11); 29=er anchors
     phase C (word-final-ish); 87↔82 strongest anchor-anchor Jaccard (0.423).
   - Phonotactic search NULL (N4 — scorer exploited); syllable-bigram annealing
@@ -119,32 +126,33 @@
     CONFIRMED promotions; methodology flags banked (F26): phase instrument VOID,
     'er'-rate checks uncalibrated, crib writes mute -e (kills phonetic models),
     V29 contaminated, mixed-register = robustness check only.
-- **next:** Round-4 work orders (crowd round 3 COMPLETE, curation 2026-10-07):
-  1. **Third independent leg for 62="on"** (ear lock + 62→94 "on ne" ×8 at
-     1.97× in-band) → first promotion since the demotions.
-  2. **Repair the battery** (B-78b marginal bug; L2prov in archived code,
-     word-space for function words) and re-run 77/78 cleanly; adjudicate the
-     77 three-way and the 78="me" promotion on fixed legs.
-  3. **Test 94="re"** ("-rement" 1.28× vs "-nement" 0.66×) — live rival to
-     provisional-strong 94="ne" (F24); full ≥2-check battery, symmetric.
-  4. **Resolve 47** (@148–150 jar; 802× "par me" contradiction vs "même" joint)
-     and **identify the 06 stem** via 06→29×5 (infinitive frames).
-  5. **Read `data/upstream-syll*.py` — recover the syllabary** (F30 rule:
-     fragment hypotheses test against it, not against rigid era syllabification).
-  6. **Round-4 drag on the 25 segmenter targets** (@1110-1112 [41 65 38],
-     @81-83 [51 62 16] first) with a pre-registered control (scorer lesson).
-  7. **64="même" vs 64="qui"** — adjudicate the rival; 64="qui" re-promotion
-     stays BLOCKED until resolved (F27, F31).
-  8. **Register-matched corpus or ci/te anchor for 87=ce** — the lane's central
-     open problem; the cela leg is genre-marked (F31).
-  9. **Joint decipherment** — annealing/EM over the full 96-group key (7 anchors
-     pinned, split-pair emission as structural prior), validated on the synthetic
-     control before touching R5005 (N16 direction).
-  10. **Explicit lane position on homophony** — 96 groups « ~700 French syllables;
-      polyvalence (06 /ɑ̃/ vs /mɑ̃/, 94 ne/en islets, 52 pas/se) is established
-      as the cipher's mechanism but unquantified (F25, F31).
-  Do NOT promote anything without ≥2 independent checks. New standing convention:
-  every executor leaves a report note at `code/crowd3/report_inbox/<name>-<topic>.md`
+- **next:** Round-5 work orders (crowd round 4 COMPLETE, curation 2026-10-07).
+  Canonical parse: repaired 1,847-pair (`code/side-keyhunt/repaired_offsets.json`);
+  positions per `code/crowd4/REINDEX.md` (repaired indexing; old n≥773 → n+1).
+  1. **Instrument-independent third leg for 62="on"** — the red team named the
+     exact gap (N28): legs 1&3 share the ear instrument. A statistical/structural
+     leg (not ear) promotes 62="on".
+  2. **47="ce" promotion battery** — needs C2 explained ("..er→ce" 12.6×),
+     unigram 2.87× addressed, and the 64-slot residual resolved (N29).
+  3. **Identify the 06 stem** — 4 infinitive frames (06→29 ×4, repaired count);
+     exploit the 06/86 complementary distribution (N29).
+  4. **Resolve @578 trigram host** — the fenced 94="re" revival thread (N24).
+  5. **78="me" vs 78="ver"** — adjudicate the 77→78 ×7 adverse frames; test the
+     word-internal "ver" hypothesis from the "gouvernement" trigram (N25).
+  6. **77="le" promotion battery** — 77→86 ×5 object-pronoun frame + L1 (N25).
+  7. **Attack the identifiability problem** — the joint engine is model-correct
+     but search-broken (N30): better search (parallel tempering, smarter
+     proposals) or shrink the space with the F33 conditioning rules.
+  8. **Mine the SECOND "la première" window** (@754, row a5_03 — never examined;
+     it was off-phase before the repair): comparative context mining 754 vs 1034.
+  9. **87=ce new angles** — cela leg dead (N27); pursue the 87-64-77-84
+     @1800–1803 «ce qui [verbe] 84» corroboration (resolve 84?) or a
+     non-circular anchor.
+  10. **Exploit the stronger rotation** — recomputed phases give chi²=366.3
+      (N30); cluster assignments are fragile but the transition structure is
+      robust — find what the rotation IS if not word-position (tuner NULL stands).
+  Do NOT promote anything without ≥2 independent checks. Standing convention:
+  every executor leaves a report note at `code/crowd<N>/report_inbox/<name>-<topic>.md`
   per REPORTING.md (swept into REPORT.md every 2h). Red team reviews ALL promotions
   before merge — no claim merges without its ruling.
 - **external acquisition: ON HOLD per operator directive (2026-10-07).** No new external material — the archive scan-order route (HStAD) and DECODE elevation are stood down. Round 3+ works with R5005 (3,764 digits) and the 10 current values only. (DECODE account "alexrivers" exists and logs in, but full-size private-ciphertext images need admin elevation — recorded in `code/crowd2/report_inbox/decode-access-2026-10-07.md`; not pursued further unless the operator reverses.)

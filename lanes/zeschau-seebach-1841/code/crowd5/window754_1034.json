@@ -1,0 +1,937 @@
+{
+ "npairs": 1847,
+ "windows": {
+  "754": [
+   {
+    "idx": 739,
+    "group": "00",
+    "row": "a5_02",
+    "rowoff": 18,
+    "phase": "C",
+    "annot": "",
+    "freq": 55
+   },
+   {
+    "idx": 740,
+    "group": "36",
+    "row": "a5_02",
+    "rowoff": 19,
+    "phase": "B",
+    "annot": "",
+    "freq": 9
+   },
+   {
+    "idx": 741,
+    "group": "20",
+    "row": "a5_02",
+    "rowoff": 20,
+    "phase": "A",
+    "annot": "",
+    "freq": 15
+   },
+   {
+    "idx": 742,
+    "group": "30",
+    "row": "a5_02",
+    "rowoff": 21,
+    "phase": "A",
+    "annot": "",
+    "freq": 19
+   },
+   {
+    "idx": 743,
+    "group": "67",
+    "row": "a5_02",
+    "rowoff": 22,
+    "phase": "A",
+    "annot": "veut [prov]",
+    "freq": 38
+   },
+   {
+    "idx": 744,
+    "group": "77",
+    "row": "a5_02",
+    "rowoff": 23,
+    "phase": "C",
+    "annot": "le [lead]",
+    "freq": 44
+   },
+   {
+    "idx": 745,
+    "group": "81",
+    "row": "a5_02",
+    "rowoff": 24,
+    "phase": "B",
+    "annot": "",
+    "freq": 14
+   },
+   {
+    "idx": 746,
+    "group": "85",
+    "row": "a5_02",
+    "rowoff": 25,
+    "phase": "R",
+    "annot": "",
+    "freq": 15
+   },
+   {
+    "idx": 747,
+    "group": "28",
+    "row": "a5_02",
+    "rowoff": 26,
+    "phase": "R",
+    "annot": "",
+    "freq": 6
+   },
+   {
+    "idx": 748,
+    "group": "00",
+    "row": "a5_03",
+    "rowoff": 0,
+    "phase": "C",
+    "annot": "",
+    "freq": 55
+   },
+   {
+    "idx": 749,
+    "group": "64",
+    "row": "a5_03",
+    "rowoff": 1,
+    "phase": "B",
+    "annot": "qui [prov]",
+    "freq": 47
+   },
+   {
+    "idx": 750,
+    "group": "02",
+    "row": "a5_03",
+    "rowoff": 2,
+    "phase": "A",
+    "annot": "",
+    "freq": 17
+   },
+   {
+    "idx": 751,
+    "group": "97",
+    "row": "a5_03",
+    "rowoff": 3,
+    "phase": "R",
+    "annot": "",
+    "freq": 10
+   },
+   {
+    "idx": 752,
+    "group": "40",
+    "row": "a5_03",
+    "rowoff": 4,
+    "phase": "A",
+    "annot": "e [GT]",
+    "freq": 21
+   },
+   {
+    "idx": 753,
+    "group": "67",
+    "row": "a5_03",
+    "rowoff": 5,
+    "phase": "A",
+    "annot": "veut [prov]",
+    "freq": 38
+   },
+   {
+    "idx": 754,
+    "group": "11",
+    "row": "a5_03",
+    "rowoff": 6,
+    "phase": "B",
+    "annot": "la [GT]",
+    "freq": 45
+   },
+   {
+    "idx": 755,
+    "group": "70",
+    "row": "a5_03",
+    "rowoff": 7,
+    "phase": "B",
+    "annot": "pre [GT]",
+    "freq": 15
+   },
+   {
+    "idx": 756,
+    "group": "82",
+    "row": "a5_03",
+    "rowoff": 8,
+    "phase": "A",
+    "annot": "m [GT]",
+    "freq": 39
+   },
+   {
+    "idx": 757,
+    "group": "34",
+    "row": "a5_03",
+    "rowoff": 9,
+    "phase": "B",
+    "annot": "i [GT]",
+    "freq": 11
+   },
+   {
+    "idx": 758,
+    "group": "29",
+    "row": "a5_03",
+    "rowoff": 10,
+    "phase": "C",
+    "annot": "er [GT]",
+    "freq": 45
+   },
+   {
+    "idx": 759,
+    "group": "40",
+    "row": "a5_03",
+    "rowoff": 11,
+    "phase": "A",
+    "annot": "e [GT]",
+    "freq": 21
+   },
+   {
+    "idx": 760,
+    "group": "20",
+    "row": "a5_03",
+    "rowoff": 12,
+    "phase": "A",
+    "annot": "",
+    "freq": 15
+   },
+   {
+    "idx": 761,
+    "group": "62",
+    "row": "a5_03",
+    "rowoff": 13,
+    "phase": "A",
+    "annot": "on [lead]",
+    "freq": 35
+   },
+   {
+    "idx": 762,
+    "group": "94",
+    "row": "a5_03",
+    "rowoff": 14,
+    "phase": "B",
+    "annot": "ne [prov]",
+    "freq": 37
+   },
+   {
+    "idx": 763,
+    "group": "59",
+    "row": "a5_03",
+    "rowoff": 15,
+    "phase": "C",
+    "annot": "",
+    "freq": 27
+   },
+   {
+    "idx": 764,
+    "group": "39",
+    "row": "a5_03",
+    "rowoff": 16,
+    "phase": "A",
+    "annot": "",
+    "freq": 13
+   },
+   {
+    "idx": 765,
+    "group": "88",
+    "row": "a5_03",
+    "rowoff": 17,
+    "phase": "R",
+    "annot": "",
+    "freq": 23
+   },
+   {
+    "idx": 766,
+    "group": "66",
+    "row": "a5_03",
+    "rowoff": 18,
+    "phase": "A",
+    "annot": "",
+    "freq": 19
+   },
+   {
+    "idx": 767,
+    "group": "98",
+    "row": "a5_03",
+    "rowoff": 19,
+    "phase": "R",
+    "annot": "",
+    "freq": 40
+   },
+   {
+    "idx": 768,
+    "group": "80",
+    "row": "a5_03",
+    "rowoff": 20,
+    "phase": "B",
+    "annot": "",
+    "freq": 17
+   },
+   {
+    "idx": 769,
+    "group": "10",
+    "row": "a5_03",
+    "rowoff": 21,
+    "phase": "R",
+    "annot": "",
+    "freq": 7
+   }
+  ],
+  "1034": [
+   {
+    "idx": 1019,
+    "group": "91",
+    "row": "a6_02",
+    "rowoff": 23,
+    "phase": "C",
+    "annot": "",
+    "freq": 21
+   },
+   {
+    "idx": 1020,
+    "group": "53",
+    "row": "a6_03",
+    "rowoff": 0,
+    "phase": "A",
+    "annot": "",
+    "freq": 11
+   },
+   {
+    "idx": 1021,
+    "group": "84",
+    "row": "a6_03",
+    "rowoff": 1,
+    "phase": "A",
+    "annot": "",
+    "freq": 25
+   },
+   {
+    "idx": 1022,
+    "group": "92",
+    "row": "a6_03",
+    "rowoff": 2,
+    "phase": "A",
+    "annot": "",
+    "freq": 22
+   },
+   {
+    "idx": 1023,
+    "group": "64",
+    "row": "a6_03",
+    "rowoff": 3,
+    "phase": "B",
+    "annot": "qui [prov]",
+    "freq": 47
+   },
+   {
+    "idx": 1024,
+    "group": "45",
+    "row": "a6_03",
+    "rowoff": 4,
+    "phase": "A",
+    "annot": "",
+    "freq": 22
+   },
+   {
+    "idx": 1025,
+    "group": "64",
+    "row": "a6_03",
+    "rowoff": 5,
+    "phase": "B",
+    "annot": "qui [prov]",
+    "freq": 47
+   },
+   {
+    "idx": 1026,
+    "group": "96",
+    "row": "a6_03",
+    "rowoff": 6,
+    "phase": "C",
+    "annot": "par [prov]",
+    "freq": 21
+   },
+   {
+    "idx": 1027,
+    "group": "43",
+    "row": "a6_03",
+    "rowoff": 7,
+    "phase": "B",
+    "annot": "me [lead]",
+    "freq": 16
+   },
+   {
+    "idx": 1028,
+    "group": "87",
+    "row": "a6_03",
+    "rowoff": 8,
+    "phase": "A",
+    "annot": "ce [prov]",
+    "freq": 32
+   },
+   {
+    "idx": 1029,
+    "group": "01",
+    "row": "a6_03",
+    "rowoff": 9,
+    "phase": "B",
+    "annot": "est [lead]",
+    "freq": 28
+   },
+   {
+    "idx": 1030,
+    "group": "03",
+    "row": "a6_03",
+    "rowoff": 10,
+    "phase": "B",
+    "annot": "",
+    "freq": 20
+   },
+   {
+    "idx": 1031,
+    "group": "29",
+    "row": "a6_03",
+    "rowoff": 11,
+    "phase": "C",
+    "annot": "er [GT]",
+    "freq": 45
+   },
+   {
+    "idx": 1032,
+    "group": "80",
+    "row": "a6_03",
+    "rowoff": 12,
+    "phase": "B",
+    "annot": "",
+    "freq": 17
+   },
+   {
+    "idx": 1033,
+    "group": "77",
+    "row": "a6_03",
+    "rowoff": 13,
+    "phase": "C",
+    "annot": "le [lead]",
+    "freq": 44
+   },
+   {
+    "idx": 1034,
+    "group": "11",
+    "row": "a6_03",
+    "rowoff": 14,
+    "phase": "B",
+    "annot": "la [GT]",
+    "freq": 45
+   },
+   {
+    "idx": 1035,
+    "group": "70",
+    "row": "a6_03",
+    "rowoff": 15,
+    "phase": "B",
+    "annot": "pre [GT]",
+    "freq": 15
+   },
+   {
+    "idx": 1036,
+    "group": "82",
+    "row": "a6_03",
+    "rowoff": 16,
+    "phase": "A",
+    "annot": "m [GT]",
+    "freq": 39
+   },
+   {
+    "idx": 1037,
+    "group": "34",
+    "row": "a6_03",
+    "rowoff": 17,
+    "phase": "B",
+    "annot": "i [GT]",
+    "freq": 11
+   },
+   {
+    "idx": 1038,
+    "group": "29",
+    "row": "a6_03",
+    "rowoff": 18,
+    "phase": "C",
+    "annot": "er [GT]",
+    "freq": 45
+   },
+   {
+    "idx": 1039,
+    "group": "40",
+    "row": "a6_03",
+    "rowoff": 19,
+    "phase": "A",
+    "annot": "e [GT]",
+    "freq": 21
+   },
+   {
+    "idx": 1040,
+    "group": "17",
+    "row": "a6_03",
+    "rowoff": 20,
+    "phase": "A",
+    "annot": "",
+    "freq": 15
+   },
+   {
+    "idx": 1041,
+    "group": "77",
+    "row": "a6_03",
+    "rowoff": 21,
+    "phase": "C",
+    "annot": "le [lead]",
+    "freq": 44
+   },
+   {
+    "idx": 1042,
+    "group": "82",
+    "row": "a6_03",
+    "rowoff": 22,
+    "phase": "A",
+    "annot": "m [GT]",
+    "freq": 39
+   },
+   {
+    "idx": 1043,
+    "group": "63",
+    "row": "a6_03",
+    "rowoff": 23,
+    "phase": "B",
+    "annot": "",
+    "freq": 12
+   },
+   {
+    "idx": 1044,
+    "group": "11",
+    "row": "a6_03",
+    "rowoff": 24,
+    "phase": "B",
+    "annot": "la [GT]",
+    "freq": 45
+   },
+   {
+    "idx": 1045,
+    "group": "67",
+    "row": "a6_04",
+    "rowoff": 0,
+    "phase": "A",
+    "annot": "veut [prov]",
+    "freq": 38
+   },
+   {
+    "idx": 1046,
+    "group": "76",
+    "row": "a6_04",
+    "rowoff": 1,
+    "phase": "C",
+    "annot": "",
+    "freq": 21
+   },
+   {
+    "idx": 1047,
+    "group": "85",
+    "row": "a6_04",
+    "rowoff": 2,
+    "phase": "R",
+    "annot": "",
+    "freq": 15
+   },
+   {
+    "idx": 1048,
+    "group": "41",
+    "row": "a6_04",
+    "rowoff": 3,
+    "phase": "R",
+    "annot": "",
+    "freq": 19
+   },
+   {
+    "idx": 1049,
+    "group": "88",
+    "row": "a6_04",
+    "rowoff": 4,
+    "phase": "R",
+    "annot": "",
+    "freq": 23
+   }
+  ]
+ },
+ "comparison": {
+  "type_jaccard_excl_crib": 0.17142857142857143,
+  "shared_types_excl_crib": [
+   "64",
+   "67",
+   "77",
+   "80",
+   "85",
+   "88"
+  ],
+  "phase_seq_754": "CBAAACBRRCBARAABBABCAAABCARARBR",
+  "phase_seq_1034": "CAAABABCBABBCBCBBABCAACABBACRRR",
+  "phase_seq_match_positions": 14,
+  "skeleton_754": [
+   [
+    743,
+    "67",
+    "veut [prov]"
+   ],
+   [
+    744,
+    "77",
+    "le [lead]"
+   ],
+   [
+    749,
+    "64",
+    "qui [prov]"
+   ],
+   [
+    752,
+    "40",
+    "e [GT]"
+   ],
+   [
+    753,
+    "67",
+    "veut [prov]"
+   ],
+   [
+    754,
+    "11",
+    "la [GT]"
+   ],
+   [
+    755,
+    "70",
+    "pre [GT]"
+   ],
+   [
+    756,
+    "82",
+    "m [GT]"
+   ],
+   [
+    757,
+    "34",
+    "i [GT]"
+   ],
+   [
+    758,
+    "29",
+    "er [GT]"
+   ],
+   [
+    759,
+    "40",
+    "e [GT]"
+   ],
+   [
+    761,
+    "62",
+    "on [lead]"
+   ],
+   [
+    762,
+    "94",
+    "ne [prov]"
+   ]
+  ],
+  "skeleton_1034": [
+   [
+    1023,
+    "64",
+    "qui [prov]"
+   ],
+   [
+    1025,
+    "64",
+    "qui [prov]"
+   ],
+   [
+    1026,
+    "96",
+    "par [prov]"
+   ],
+   [
+    1027,
+    "43",
+    "me [lead]"
+   ],
+   [
+    1028,
+    "87",
+    "ce [prov]"
+   ],
+   [
+    1029,
+    "01",
+    "est [lead]"
+   ],
+   [
+    1031,
+    "29",
+    "er [GT]"
+   ],
+   [
+    1033,
+    "77",
+    "le [lead]"
+   ],
+   [
+    1034,
+    "11",
+    "la [GT]"
+   ],
+   [
+    1035,
+    "70",
+    "pre [GT]"
+   ],
+   [
+    1036,
+    "82",
+    "m [GT]"
+   ],
+   [
+    1037,
+    "34",
+    "i [GT]"
+   ],
+   [
+    1038,
+    "29",
+    "er [GT]"
+   ],
+   [
+    1039,
+    "40",
+    "e [GT]"
+   ],
+   [
+    1041,
+    "77",
+    "le [lead]"
+   ],
+   [
+    1042,
+    "82",
+    "m [GT]"
+   ],
+   [
+    1044,
+    "11",
+    "la [GT]"
+   ],
+   [
+    1045,
+    "67",
+    "veut [prov]"
+   ]
+  ],
+  "windows_identical": false,
+  "frame_754": {
+   "pre": [
+    "97",
+    "40",
+    "67"
+   ],
+   "crib": [
+    "11",
+    "70",
+    "82",
+    "34",
+    "29",
+    "40"
+   ],
+   "post": [
+    "20",
+    "62",
+    "94"
+   ]
+  },
+  "frame_1034": {
+   "pre": [
+    "29",
+    "80",
+    "77"
+   ],
+   "crib": [
+    "11",
+    "70",
+    "82",
+    "34",
+    "29",
+    "40"
+   ],
+   "post": [
+    "17",
+    "77",
+    "82"
+   ]
+  },
+  "anchored_runs_754": [
+   [
+    [
+     754,
+     "11",
+     "la"
+    ],
+    [
+     755,
+     "70",
+     "pre"
+    ],
+    [
+     756,
+     "82",
+     "m"
+    ],
+    [
+     757,
+     "34",
+     "i"
+    ],
+    [
+     758,
+     "29",
+     "er"
+    ],
+    [
+     759,
+     "40",
+     "e"
+    ]
+   ]
+  ],
+  "anchored_runs_1034": [
+   [
+    [
+     1034,
+     "11",
+     "la"
+    ],
+    [
+     1035,
+     "70",
+     "pre"
+    ],
+    [
+     1036,
+     "82",
+     "m"
+    ],
+    [
+     1037,
+     "34",
+     "i"
+    ],
+    [
+     1038,
+     "29",
+     "er"
+    ],
+    [
+     1039,
+     "40",
+     "e"
+    ]
+   ]
+  ],
+  "provlead_frames_754": [
+   [
+    -11,
+    "67",
+    "veut [prov]"
+   ],
+   [
+    -10,
+    "77",
+    "le [lead]"
+   ],
+   [
+    -5,
+    "64",
+    "qui [prov]"
+   ],
+   [
+    -1,
+    "67",
+    "veut [prov]"
+   ],
+   [
+    7,
+    "62",
+    "on [lead]"
+   ],
+   [
+    8,
+    "94",
+    "ne [prov]"
+   ]
+  ],
+  "provlead_frames_1034": [
+   [
+    -11,
+    "64",
+    "qui [prov]"
+   ],
+   [
+    -9,
+    "64",
+    "qui [prov]"
+   ],
+   [
+    -8,
+    "96",
+    "par [prov]"
+   ],
+   [
+    -7,
+    "43",
+    "me [lead]"
+   ],
+   [
+    -6,
+    "87",
+    "ce [prov]"
+   ],
+   [
+    -5,
+    "01",
+    "est [lead]"
+   ],
+   [
+    -1,
+    "77",
+    "le [lead]"
+   ],
+   [
+    7,
+    "77",
+    "le [lead]"
+   ],
+   [
+    11,
+    "67",
+    "veut [prov]"
+   ]
+  ],
+  "rows_754": [
+   "a5_02",
+   "a5_03"
+  ],
+  "rows_1034": [
+   "a6_02",
+   "a6_03",
+   "a6_04"
+  ]
+ }
+}

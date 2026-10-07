@@ -70,7 +70,7 @@ EAR_SUBS = [('au', 'o'), ('eau', 'o'), ('ai', 'é'), ('ph', 'f'),
             ('ou', 'u'), ('ch', 'sch')]
 
 # --- control plaintext: Tocqueville t1, held-out span (words) ---
-SPAN = (40000, 41100)   # ~1100 words -> ~1900 cells, cf. R5005's 1846 pairs
+SPAN = (40000, 41100)   # ~1100 words -> ~1900 cells, cf. R5005's 1847 pairs (repaired parse)
 
 # --- rotation matrix for the generator: EMPIRICAL from R5005 (measured) ---
 # A->{A:.237,B:.261,C:.418,R:.084} B->{A:.476,B:.145,C:.301,R:.078}

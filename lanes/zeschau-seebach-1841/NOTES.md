@@ -17,9 +17,9 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   `ct_R5005.digits.txt`, `ct_R5005.txt`, `NOTES.md`, `offsets.json`, `profile.json`,
   `hsolve.py`, `syll.py`, `syll2.py`, `syll3.py` with provenance (see Data inventory).
 - **2026-10-07 (attempt 1 — crib-anchored attack, `code/crib_attack.py`):** executed, three phases.
-  - Phase A (verification): transcription = 70 lines, **3,764 digits** → 1,846 pairs after applying
-    upstream per-line offsets (32 lines offset 1; 28 odd-digit lines), 96 distinct groups — matches
-    upstream's 96/100 claim. **Discrepancy:** the web page claims 3,969 digits; the sha256-verified
+  - Phase A (verification): transcription = 70 lines, **3,764 digits** → 1,847 pairs after applying
+    per-line offsets (repaired canonical parse, F32 — supersedes the 1,846-pair upstream-EM parse;
+    `code/side-keyhunt/repaired_offsets.json` is now canonical), 96 distinct groups. **Discrepancy:** the web page claims 3,969 digits; the sha256-verified
     transcription files contain 3,764. Recorded as observed; not "corrected".
   - All seven crib groups present: 11=la ×44 (freq rank 6), 70=pre ×15 (rank 56), 82=m ×38 (rank 8),
     34=i ×10 (rank 70), 29=er ×47 (rank 2), 40=e ×21 (rank 36), 46=que ×29 (rank 19).
@@ -75,7 +75,8 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
     (`champmatmatchamphi…` soup); only 1/88 groups stable ≥0.75 across restarts.
     Verdict: scorer exploited, no signal. (`code/crowd/phonotactician.py`)
   - **Crib Surgeon** (positional attack on "la première"): the full 6-group sequence
-    11-70-82-34-29-40 occurs **exactly once @pair 1033 (56.0%)**, mid-letter in a
+    11-70-82-34-29-40 occurs **exactly once @pair 1033 (56.0%)** [old parse; SUPERSEDED by
+    F32 — repaired parse: TWICE, @pairs 754 and 1034], mid-letter in a
     back-reference context (`…87(ce) 01 03 29(er) 80 77 | la-pre-m-i-er-e | 17 77
     82(m) 63 11(la) 67…`) — "la première [fois/lettre]". Zero near-misses. Three
     value hypotheses (≥2 checks each, none promoted): **H1 24="est" (strong, 4 checks:**
@@ -506,6 +507,141 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   K7 (56="plus" as single reading) REJECTED (rests on unconfirmed 37="le" +
   unidentified 44). No promotions this round. **62="on" is the promotion
   candidate** — one independent check away.
+- **N24 (2026-10-07, crowd4/morphologist; red-team: DEMOTE ACCEPTED fenced):**
+  94="re" demoted live-rival→**disfavored**. Symmetric F30-legal battery:
+  word-space host odds 641 ("nement") vs 282 ("rement") = **2.27:1 for "ne"**;
+  "re" composes in **0/36** occurrences; the old 1.28× "re" leg VOID per F30
+  (worker's admission — artifact of the dead rigid-syllable instrument).
+  94="ne" holds provisional-strong on rebuilt legs. 94="en" coexists as a
+  CONDITIONED islet (iff pre=82 "m'en" ×3 or suc=87 "en ce" ×1, 4/4 — new
+  indices 1169/1576). Fence: @578 trigram host unidentified (revival thread).
+  Evidence: `code/crowd4/morph94_re_battery.py`/`.json`,
+  `code/crowd4/report_inbox/morphologist-94-re.md`.
+- **N25 (2026-10-07, crowd4/bigram-closer; red-team: no reversals):** battery
+  B-78b repaired (`code/crowd4/battery4.py` — L2 now divides by the context
+  marginal; N22 exclusions enforced in code; crowd3 files untouched). Headline
+  leg before/after: 1.658 (wrong marginal) → **2.259 out-of-band** (matches
+  red-team's recompute). Verdicts: 77="pas" DISFAVORED-strong (unchanged),
+  77="que" DISFAVORED (unchanged), 77="le" LEAD-weak→**LEAD** (ACCEPT fenced —
+  77→86 ×5 verified @430/798/877/950/1133 new), 78="me" LEAD (promotion not
+  granted; rival "e" live). New adverse evidence (fenced): 77→78 ×7 frames
+  under 78="me" ("pas me" era-0 kill-grade); 2/7 sit inside the "gouvernement"
+  trigram → 78="ver" word-internal there. Evidence:
+  `code/crowd4/battery4.py`, `code/crowd4/battery4_results.json`.
+- **N26 (2026-10-07, crowd4/segmenter):** control **PASS** pre-registered
+  (`code/crowd4/segmenter_control.md` — synthetic Tocqueville cipher, ear-cutting
+  noise; 0.721/0.939/0.258 vs thresholds 0.60/0.70/0.10). Drag of the 25
+  crib-targets: **0 proposed / 25 LEAD-held / 0 killed** — honest all-null (a
+  vacuous "14 PROPOSED" first pass was caught and corrected before reporting).
+  Tension: @81-83 zero era candidates under 62="on" (likely MAP-span merge
+  error — control M1=0.72 ⇒ ~28% miss rate — not a kill of 62="on").
+  Evidence: `code/crowd4/drag25.py`, `code/crowd4/drag25_results.json`.
+- **N27 (2026-10-07, crowd4/closer; red-team: DEMOTE ACCEPTED bounded):**
+  64="même" LEAD→**disfavored** (87→64 ×5 at 9.83× over era P(même|ce),
+  p=1.43e-4; verb-gap 6.3×; "même si" dead at 2.7e-5). 64="qui"
+  provisional-FAVORED; re-promotion block STAYS. Catch: 64→77×3 is one
+  byte-identical trigram **64-77-84 ×3** (new @144/1445/1801, n_eff=1 —
+  curator-verified) — prior rate arguments triple-counted one phrase. 87-leg:
+  register-matched reporter-voice subset FAILs pre-stated bar (0.0398 vs 0.0414
+  baseline; cela leg stays dead); ci/te anchor scan NULL. New corroboration
+  (not promotion): 87-64-77-84 @1800–1803 (new; curator-verified) parses as
+  «ce qui [verbe] 84» under (87=ce ∧ 64=qui ∧ 77=verb-adjacent). Evidence:
+  `code/crowd4/closer64_87.py`/`.json`.
+- **N28 (2026-10-07, crowd4/frenchman; red-team: promotion NOT granted):**
+  third leg for 62="on" FOUND but held at **STRONG LEAD** — fresh-window
+  subject triangulation: new @845–853 reads "…par écrit, **on me** [dit]…"
+  (curator-verified window 00 33 96 40 62 21 67 91 51), object pronoun 21="me"
+  forces a subject; zero counterexamples in 26 fresh windows; /ɔ̃/ rivals
+  (son/mon/nom/ont) killed. Red team: legs 1&3 share the ear instrument —
+  not independent; promotion needs an instrument-independent third leg.
+  Parse-repair update (curator): 62→94 is **9/35=0.2571 (2.18× era)** on the
+  repaired parse (was 8/34) — the repaired a5_03 region contributes a 9th
+  "on ne" @761. Discarded null: STRUCT boundary leg uncalibrated (GT control
+  fails its own signature). Enlightenment: the by-ear model PREDICTED the
+  46→62 ×0 absence ("qu'on"=/kɔ̃/ = one spoken syllable → one group).
+  Evidence: `code/crowd4/frenchman4_62.py`/`.json`.
+- **N29 (2026-10-07, crowd4/stem-hunter):** 47="me" as a uniform word
+  **KILLED** (3 independent: "par me" era n=0 — the 802× hardens to a hard
+  zero in word space; "me que" P=0; "me la" P=0). **47="ce" LEAD** (polyvalent
+  with 87): "ce que" 3/28=0.1071 vs era 0.1076 → **1.00× exact**
+  (curator-verified); "par ce" 2.85×; 47→11 ×3 "cela". The "même" joint
+  survives as a FRAGMENT reading only. @148–150 jar BOUNDED (@150–152 =
+  "par ce que" ✓; residual = the verbless 64 slot). 06 stem: bounded, NOT
+  identified (06-verb ≈13.6/1000 vs era "demand*" 0.20/1000 = 66× gap; no
+  single -er stem fits; /mɑ̃/ not revived). NEW mechanism: **06/86
+  complementary distribution** — 06 = finite/imperative stem (06→29 ×4,
+  06→11 ×4, 06→00 ×4), 86 = infinitive-complement stem (00→86 ×12 vs 00→06
+  ×0). Parse-repair correction (curator): 06→29 is **×4** on the repaired
+  parse — the old 5th (@760) was an off-phase artifact of row a5_03; the
+  infinitive-frame check survives on 4. Cutting rules banked
+  (`code/crowd4/syllabary4.py`): R1 cells 1–4 letters; R2 by-ear inconsistent
+  cuts ("personne" = 93|52|94 @160 vs 77|62|94 @507, positions verified);
+  R3 mute -e WRITTEN by default. Upstream 180-unit inventory is NOT the
+  encipherer's table (all three annealers failed on it). Evidence:
+  `code/crowd4/stem47_06_final.py`, `code/crowd4/stem47_06_results.json`.
+- **N30 (2026-10-07, crowd4/scorer-smith):** joint decipherment engine
+  (annealing/EM, polyvalent emission, rotation-aware transition prior, 7 pins)
+  is model-correct but **BROKEN-ON-CONTROL** — truth −2.65 beats annealed
+  −3.05, but search can't find truth's basin: **identifiability problem**
+  (flat landscape from the lossy 96-vs-~700 key), not a model problem. Gate
+  held: no R5005 run. Parse adopted mid-round (`code/crowd4/repaired_parse.py`).
+  Notable: recomputed phases on the repaired stream give rotation
+  chi²=**366.3** (vs 178.8 banked) — the rotation is much stronger under the
+  repaired parse — but cluster assignments are fragile (61/96 groups change
+  phase). Engine uses recomputed phases as a weak prior. Evidence:
+  `code/crowd4/report_inbox/scorer-smith-joint.md`.
+- **N31 (2026-10-07, crowd4/red-team):** 4 rulings, every number recomputed:
+  77="le" LEAD-weak→LEAD **ACCEPT (fenced)**; 64="même" LEAD→disfavored
+  **DEMOTE ACCEPTED (bounded, not killed)**; 94="re" live-rival→disfavored
+  **DEMOTE ACCEPTED (fenced on @578)**; 94="en" LEAD→provisional co-value
+  **DENY** — 4 instances/2 types = one evidential body (independence fail),
+  stays LEAD. Records: 78="me" LEAD, 62="on" STRONG LEAD, 87=ce unchanged,
+  94="ne" provisional-strong. Note: rulings computed on the old-parse stream;
+  values identical for n≥773 and no cited position in the repaired region
+  (REINDEX.md) — rulings stand. Evidence:
+  `code/crowd4/red_team_rulings.json`.
+- **N32 (2026-10-07, side-wordpattern/overwatch): word-pattern dictionary attack
+  honest NULL.** Instrument validity MIXED across two orthogonal dimensions.
+  Polyvalence dimension VALID-WITH-RESTRICTIONS: pattern survival 0.995 overall
+  (freq-weighted 0.998); per-islet 06: 0.993, 94: 0.992, 52: 0.994; worst case
+  "sérieuse"/"sérieusement" 0.38. Smart expansion (only words that can actually
+  produce the pattern) inflates candidates ≤6.0×; naive whole-closure expansion
+  (202×–2318×) is an instrument-killer and must never be done. Unit-inventory
+  dimension INVALID as built: the ground-truth control fails — the known
+  "première" tail @1035–1038 (82-34-29-40, four pencil-crib anchors) returns
+  ZERO lexicon candidates in both alphabets (red-team refinement: effectively
+  a single-unit test, 'm' drives 100% of the zero). All 26 would-be proposals
+  KILLED and restamped DEAD (A: "quiconque" ×7, pure echo of provisional
+  64=qui — caution: provisional anchors breed echoes; B: hapax accidents, all
+  freq ≤17, zero with ≥2 GT anchors; C: by-ear variant artifacts; Restriction 4
+  kills "pionnier" harder — needs 06="ni", inconsistent with every live 06
+  reading). Traceability flags: tester's §6 K≥3 synthetic numbers
+  (0.914/0.891/0.879) do NOT reproduce from archived code (~0.93–0.94 on
+  re-run) — regenerate, don't cite; old-parse islet counts stale (se weight
+  basis n=5→n=6, 0.380→0.375 — verdict robust). Evidence:
+  `code/side-wordpattern/`, `code/side-wordpattern/redteam/ADJUDICATION.md`.
+- **N33 (2026-10-07, side-wordpattern/overwatch): polyvalence gate
+  VALID-WITH-RESTRICTIONS** — governs recall, not positive evidence; promotes
+  nothing by itself. Red-team-amended restrictions R1–R8 banked: R1
+  strengthened (expanded index unconditional), R3 demoted to recommendation,
+  R6 extended to parse changes, R7 fenced non-implementable, new R8 (prefer
+  orth alphabet for repetition patterns — orth survival 1.000). Reusable by the
+  main fleet with these restrictions. Evidence:
+  `code/side-wordpattern/polyvalence/POLYVALENCE_REPORT.md`.
+- **N34 (2026-10-07, sidepath/overwatch): rapid crib-bootstrap loop honest NULL
+  after 1 of 5 passes** — VOID condition fired per pre-registered stop rule
+  (174 real accepts vs control mean 208.3; 174 < 2×208.3). Diagnosis: the fuzzy
+  scorer cannot separate signal from noise at 30.66% anchor sparsity; the
+  sharpest targets (all eight 62→94 windows, all W-47 sub-windows) emitted
+  nothing — the missing readings aren't in the frozen candidate set. Byproducts:
+  canonical recounts **n24=52, n52=27, n62=34** (old 42/13/32 were parse
+  artifacts — CAVEAT: pre-parse-repair counts, re-verify on the 1,847-pair
+  parse); skeleton at 30.66% stream coverage (566/1,846, sha256
+  18d48ccd…9373f); "montrera" as independent 94="re" support (S=0.917).
+  Methodology lesson: shuffling de-anchors windows so controls accept MORE than
+  real — future drags need ANCHOR-PRESERVING controls. Frame bug caught before
+  damage (first slider parsed 1,882 pairs vs canonical 1,846; re-parsed,
+  prereg amended v1.1). Evidence: `code/sidepath/`.
 
 ## Verified findings
 - F1 (source: Bourdeau zeschau1841 page, 2026-09-21/24): the unit is pairs of digits; 96 of 100
@@ -559,7 +695,9 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   `code/crowd/contactor.py`, `code/crowd/contactor_results.json`.
 - F12 (2026-10-07, crowd/crib-surgeon + formula-hunter, convergent; **curator-verified
   byte-level**): **"la première" = 11-70-82-34-29-40 occurs exactly once @pair 1033
-  (56.0%)** — six consecutive groups, every one a ground-truth pencil-crib anchor.
+  (56.0%)** [old parse; SUPERSEDED by F32 — repaired parse: TWICE, @pairs 754 (the
+  manuscript gloss line a5_03) and 1034] — six consecutive groups, every one a
+  ground-truth pencil-crib anchor.
   The lane's first multi-group word read from cribs alone. Mid-letter position in a
   back-reference context ("la première [fois/lettre]"). Zero single-group
   near-misses; 11-70 unique to that spot. Evidence: `code/crowd/crib_surgeon_results.json`,
@@ -740,10 +878,90 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   event-anaphora), not formality — expect political lexicon, diplomatic
   formulae, subjunctives; don't expect slang/« ça »/dropped « ne ».
   Evidence: `code/crowd3/frenchman_results.{md,json}`.
+- **F32 (2026-10-07, key-hunt side fleet, red-team methodology ruling R1 —
+  CANONICAL PARSE REPAIR):** the lane's 1,846-pair parse contradicted manuscript
+  gloss (i) — erased pencil "la pre m i er e" over `11 70 82 34 29 40` on row
+  a5_03, where the raw 12-digit crib `117082342940` starts at raw offset 1532
+  (even), requiring EVEN pair-phase; upstream's EM choice `offsets['a5_03']=1`
+  made it ODD. Repair: flip a5_03 1→0 (removes 2 dropped digits, an even count;
+  all rows after keep exact pair sequence). **New canonical facts: 1,847 pairs;
+  `11 70 82 34 29 40` at pairs 754 (a5_03, the gloss line) AND 1034 (a6_03) —
+  "la première" TWICE; a8_05 still ends `46` (@1692); same 96 groups, same pair
+  IC.** Old "1,846 pairs / pair 1033" facts SUPERSEDED everywhere. Re-index rule
+  (0-based): old n<748 unchanged; 748–772 = repaired region (re-paired, re-examine);
+  old n≥773 → n+1. Full remap: `code/crowd4/REINDEX.md`. Related fix:
+  `code/crib_attack.py::qscore` always returned the floor constant (−7.71) — the
+  quadgram table is nested under 'logp'; one-line fix applied. Caveat: manuscript
+  images not re-examined — if the a5_03 gloss line-tag is wrong, the old parse
+  revives. Evidence: `code/side-keyhunt/methodology-ruling.md`,
+  `code/side-keyhunt/repair_parse.py` (asserts pass),
+  `code/side-keyhunt/repaired_offsets.json` (now canonical).
+- **F33 (2026-10-07, crowd4/red-team): lane position — polyvalence is
+  CONDITIONED, not free.** 3 of 25 identified groups (12.0%) carry ≥2 live
+  readings, each with a verified positional/lexical conditioning rule
+  (06: trigram-internal "ent" vs verb-stem class, with naked adjacency of the
+  two readings; 52: "pas" iff negation-frame vs "so"/"se" elsewhere; 94: "ne" vs "en"
+  islets iff pre=82/suc=87). **Zero cases of free polyvalence.** The 96-group
+  code is therefore information-lossless in principle — recoverability is
+  bounded only by key identification, now at **35.2% token coverage**. Two
+  nulls recorded honestly: the kill-rate null does NOT reject misreading on
+  count alone (κ≈0.324, p≈0.095); the exemplar-direction null REJECTS
+  ear-cutting-inconsistency-alone — the encipherer's demonstrated noise is
+  allophony (1 sound→N groups; "personne" ×2 keeps 94 for the unchanged sound)
+  while every double runs the reverse (1 group→N distinct sounds). Falsifiable:
+  a single verified case of unconditioned 1-group→2-sounds breaks it.
+  Evidence: `code/crowd4/analyze_polyvalence.py`, `code/crowd4/red_team_rulings.json`.
+- **F34 (2026-10-07, side-wordpattern/overwatch): @507 NULL reframed** — matches
+  no French ?-on-ne word, but it is NOT a 77-datum: holds for every first
+  syllable; fully explained by the per|son|ne vs pers|on|ne cutting mismatch.
+  Corroborates F30 (rigid syllabification dead), nothing more. Evidence:
+  `code/side-wordpattern/redteam/ADJUDICATION.md`.
+- **F35 (2026-10-07, side-keyhunt/overwatch): R5005's 96-group shape belongs to
+  the documented French *petit-chiffre* tier** (~100-cell routine-correspondence
+  class). Structural priors for the lane: sparse homophones on frequent
+  syllables (a 1690 royal order *mandated* homophone use — consistent with
+  F33's conditioned polyvalence); French tradition used nulls but the
+  petit-chiffre table has NONE (matches upstream's null-digit negative —
+  don't hunt nulls); word-family packing, i.e. one group = an inflected family
+  (supports reading 06/86 as stem allomorphs rather than separate syllables);
+  two-part tables (chiffrante/déchiffrante); grand/petit tiering was formal
+  doctrine. Reference table: Petit Chiffre de la Grande Armée, 144 groups,
+  transcribed from the ARCSI reproduction of Bazeries 1901 pp. 275–277 —
+  RULED OUT as R5005's key (0/7 anchors: 11 absent; 70→ei, 82→es, 34→at,
+  29→bi, 40→co, 46→1), anachronistic, addressing-incompatible; stands as
+  family reference. Evidence: `code/side-keyhunt/tables.md`,
+  `code/side-keyhunt/tables/petit-chiffre-grande-armee.json`,
+  `code/side-keyhunt/verdict-petit-chiffre.md`.
+- **F36 (2026-10-07, side-keyhunt/overwatch): clean negative — no published
+  French diplomatic syllabary/code table of 1830–1848 exists** in the
+  searchable literature. Kahn's French material is all Rossignol/black-chamber
+  era; DECODE's own R5005–R5008 records have empty Key: fields (verified
+  live); no July-Monarchy code-system description found. One false lead killed
+  (Palluel's *Dictionnaire* is Napoleon's sayings, not a codebook). The
+  literature key-hunting channel is exhausted — do not repeat without a new
+  source class. Evidence: `code/side-keyhunt/search-log.md` (20 queries +
+  13 source checks).
+- **F37 (2026-10-07, side-wordpattern/overwatch): the syllable inventory must
+  be learned from the cribs, not adopted from standard French.** The
+  encipherer chunks by ear: standalone 'm' as a syllable is phonotactically
+  impossible in French but real here, proven by the pencil cribs — which is
+  why the ground-truth "première" tail returns zero hits in any standard
+  French syllabified lexicon. Any instrument assuming standard syllabification
+  (rate legs, drags, scorers, solver inventories) is searching the wrong unit
+  space. Reusable: the 11,870-word pattern lexicon (31 orth / 36 phon keys,
+  `code/side-wordpattern/lexicon/`) and the polyvalence-expansion method with
+  R1–R8. Cross-fleet status (2026-10-07): the homophonic solver's inventory
+  (`solver.py::load_inventory` from `data/upstream-syll.py` UNITS +
+  scorer_smith syllabifier) is NOT crib-learned — flagged to that fleet via
+  `code/crossfleet/memo-crib-inventory-to-homophonic.md`; its real-data adapter
+  (`ct_loader.py`) still uses the pre-repair offsets — flagged via
+  `code/crossfleet/memo-parse-repair-to-homophonic.md`. Evidence:
+  `code/side-wordpattern/redteam/ADJUDICATION.md`, `code/crossfleet/`.
 
 ## Open hypotheses (not promoted — each needs ≥2 independent checks)
-  Round-3 status after red-team adjudication (2026-10-07, 9/9 executors merged;
-  red-team 3b follow-up complete):
+  Round-4 status after red-team adjudication (2026-10-07, 8/8 executors merged;
+  canonical parse repaired mid-round per F32 — positions below use the repaired
+  1,847-pair indexing unless marked "old"):
 - H1: **24="est" — REFUTED** (N10, F20). 24 unidentified; with 87=ce
   strengthened-provisional, the closer's inversion redo (empty under era,
   Les Mis, AND the mixed-register union model) says 24 is likely NOT a plain
@@ -751,44 +969,57 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   « en plus » @73, « qu'en 85 » @952; rank-2 2.82% fits; the rate tension
   24→87×10 at 26–31× over era P(ce|en) does not kill it). 24="c'est" REFUTED
   (28.9×). 24="de" scoped kill inside « en ce qui » (N23).
-- H2: **77="pas" — DISFAVORED (strong)** (refined from inconclusive by
-  red-team-3b, N21). 77="que": disfavored stands (killed at its own crown
-  example). 77="le": LEAD-weak. Direction: 77 is verb-adjacent (« qui [verbe] »
-  + verb-stem predecessors 06×6, 67×6).
-- H3: **06 — working state F25**: verb-stem (class) PROVISIONAL general
-  reading (06→11=la ×4 "stem la" imperative corroborates); /mɑ̃/ "demand-"
-  specific model KILLED (N17); 06="ent" general REFUTED (N19), restricted-"ent"
-  PLAUSIBLE on the three 94-82-06 trigrams. 06="ne" dead. Polyvalence
-  (homophone-merging) plausible, not confirmed. **86=verb-stem class** is a
-  second stem (86→29 ×4) — two verb stems in the text (F31 lead, bigram closer).
+- H2: **77="pas" — DISFAVORED (strong)** (N21, N25). 77="que": disfavored stands.
+  77="le": **LEAD** (promoted from LEAD-weak, N25; red-team ACCEPT fenced —
+  77→86 ×5 = "le"+verb-stem object-pronoun frame). Direction: 77 is verb-adjacent
+  (« qui [verbe] » + verb-stem predecessors 06×6, 67×6).
+- H3: **06 — working state F25+N29**: verb-stem (class) PROVISIONAL general
+  reading; /mɑ̃/ "demand-" KILLED (N17); 06="ent" general REFUTED (N19),
+  restricted-"ent" PLAUSIBLE on the three 94-82-06 trigrams. 06="ne" dead.
+  Specific stem bounded, NOT identified (66× rate gap vs "demand*").
+  **06/86 complementary distribution** (N29): 06 = finite/imperative stem,
+  86 = infinitive-complement stem (00→86 ×12 vs 00→06 ×0). Parse-repair
+  correction: 06→29 is ×4 (the old 5th was an off-phase artifact).
+  Polyvalence now QUANTIFIED as conditioned (F33), not merely plausible.
 - H4: **96="par" — CONFIRMED 4/4**, provisional-inherits-87=ce-status, on the
   repaired C1 leg (F28). 96="de" REFUTED (N14). Tension: "ce qui 96 47 que"
   wants a verb.
 - H5: **REFUTED** (N11). Replaced by R4 "-ment" family: **94="ne"
-  provisional-strong** (F24), 82=m ✓, 06="ent" restricted. Live rival:
-  **94="re"** ("-rement" 1.28× vs "-nement" 0.66×) — round-4 lead.
-- **78="me" — LEAD** (promotion REJECTED, N20): rival "l'" killed (58×),
-  rival "e" live (L1 1.044); L1 1.108, L2b 0.731, L3b "la même" n=154 survive;
-  "même" joint era-coherent but circular (47/37 unconfirmed).
-- **62="on" — STRONG LEAD, promotion candidate** (F31): ear lock + 62→94
-  "on ne" ×8 at 1.97× in-band; L1 4.27× explained by polyvalence; one
-  independent check from promotion.
+  provisional-strong** (F24, N24 — holds on rebuilt F30-legal legs), 82=m ✓,
+  06="ent" restricted. Rival **94="re" DEMOTED → disfavored** (N24; 2.27:1
+  host odds for "ne", 0/36 composing instances; fence: @578 trigram host).
+  94="en" coexists as a CONDITIONED islet (pre=82/suc=87, 4/4); co-value
+  promotion DENIED (independence fail, N31).
+- **78="me" — LEAD** (promotion REJECTED, N20; N25 — B-78b fix verified, no
+  reversals): rival "l'" killed (58×), rival "e" live; new adverse 77→78 ×7
+  frames fenced on unconfirmed 78 ("pas me" era-0); 2/7 inside the
+  "gouvernement" trigram → 78="ver" word-internal hypothesis open.
+- **62="on" — STRONG LEAD** (N28; red-team: promotion NOT granted): ear lock +
+  62→94 "on ne" ×8 at 1.99× (old parse; **9/35=0.2571, 2.18× era on the
+  repaired parse** — curator) + fresh-window subject triangulation
+  (@845–853 "…par écrit, on me [dit]…", zero counterexamples in 26 windows,
+  /ɔ̃/ rivals killed). Held: legs 1&3 share the ear instrument — promotion
+  needs an instrument-independent third leg (round-5 target).
 - **52="pas" — STRONG, bounded** (F31; rival 52="se" stays LEAD; K5 forces
-  52 polyvalence). 59/52="se": provisional-flavored LEAD ("ne se" frames).
-- 64="qui": provisional; re-promotion BLOCKED; 64→77×3 reclassified as a
-  77-problem (F31); "même" rival live (stem-hunter lead, round 4).
-- 87="ce": provisional, strengthened (F27); still the best-tested reading of
-  87. Resolving 87 remains the lane's central open problem — needs a
-  register-matched corpus or a ci/te anchor.
+  52 polyvalence; F33 conditions it: "pas" iff negation-frame).
+- 64="qui": provisional-FAVORED (N27); re-promotion BLOCKED; rival
+  **64="même" DEMOTED → disfavored** (bounded, not killed). 64→77×3 =
+  one byte-identical trigram 64-77-84 ×3 (n_eff=1 — prior rate arguments
+  triple-counted). New corroboration: 87-64-77-84 @1800–1803 = «ce qui
+  [verbe] 84».
+- 87="ce": provisional, strengthened (F27); register-matched subset FAILs
+  pre-stated bar, ci/te scan NULL — cela leg stays dead (N27). Resolving 87
+  remains the lane's central open problem.
 - 67="veut": provisional (demoted from CONFIRMED, N18); 67="re" is a 1-leg
   lead ("les" killed 35.5×); modal-governor + 06 lexical-stem is the live
   verb-system picture.
-- 94="en" islets: LEAD-grade conditioned polyvalence (@1168, @1575).
+- **47="ce" — LEAD** (N29; polyvalent with 87): 47="me" as uniform word
+  KILLED (3 independent); "ce que" 3/28=0.1071 vs era 0.1076 → 1.00× exact;
+  @148–150 jar BOUNDED (@150–152 = "par ce que" ✓).
   01="ci": provisional kill (N23); 01="est" MEDIUM lead; 43="me" MEDIUM
   (« il me [v] » @43); 43="parmi" conditional kill; 37="le"/56="plus" MEDIUM;
-  74="te" lead; 21="me" lead (BUT "par me" 802× contradiction flagged);
-  17="fois" WEAK; @1741 unresolved under both readings; 47 unresolved
-  (@148–150 jar).
+  74="te" lead; 21="me" lead; 17="fois" WEAK; @1742 (old @1741) unresolved
+  under both readings.
 - 24→87→64 ×3 formula: promoted, value withheld (F17). 64 96 43 87 01 ×2:
   "qui … ce" reverse joints (F18). 41="der"/08="ni" INCONCLUSIVE (n=1) —
   refuted as general readings. 00 and 24 remain the top-frequency unknowns.
