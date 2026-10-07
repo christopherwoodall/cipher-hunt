@@ -1,0 +1,876 @@
+{
+ "prereg": "PREREG.md (written before any fresh era-count computation)",
+ "windows_rederived": {
+  "on48": [
+   {
+    "pos": 361,
+    "suc": 76
+   },
+   {
+    "pos": 426,
+    "suc": 76
+   },
+   {
+    "pos": 1316,
+    "suc": 98
+   },
+   {
+    "pos": 1350,
+    "suc": 77
+   },
+   {
+    "pos": 1465,
+    "suc": 21
+   },
+   {
+    "pos": 1570,
+    "suc": 56
+   }
+  ],
+  "m48": [
+   {
+    "pos": 126,
+    "suc": 11
+   },
+   {
+    "pos": 377,
+    "suc": 0
+   },
+   {
+    "pos": 398,
+    "suc": 6
+   },
+   {
+    "pos": 1229,
+    "suc": 29
+   }
+  ],
+  "pro48": [
+   {
+    "pos": 126,
+    "pre": 82,
+    "suc": 11,
+    "suc2": 2
+   },
+   {
+    "pos": 1076,
+    "pre": 12,
+    "suc": 77,
+    "suc2": 78
+   },
+   {
+    "pos": 1350,
+    "pre": 62,
+    "suc": 77,
+    "suc2": 78
+   }
+  ],
+  "pas48": [
+   283,
+   1737
+  ]
+ },
+ "N": 1847,
+ "n48": 38,
+ "corpus": {
+  "file": "nesselrode-v8.txt",
+  "n_tokens": 92594,
+  "tokenizer": "corpus9.tokenize_elision"
+ },
+ "pathA": {
+  "A0_census": [
+   {
+    "pos": 361,
+    "suc": 76
+   },
+   {
+    "pos": 426,
+    "suc": 76
+   },
+   {
+    "pos": 1316,
+    "suc": 98
+   },
+   {
+    "pos": 1350,
+    "suc": 77
+   },
+   {
+    "pos": 1465,
+    "suc": 21
+   },
+   {
+    "pos": 1570,
+    "suc": 56
+   }
+  ],
+  "A1_on_S_le": {
+   "à": {
+    "n": 0,
+    "top_W": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "et": {
+    "n": 0,
+    "top_W": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "de": {
+    "n": 0,
+    "top_W": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "a": {
+    "n": 0,
+    "top_W": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "es": {
+    "n": 0,
+    "top_W": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "il": {
+    "n": 0,
+    "top_W": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "les": {
+    "n": 0,
+    "top_W": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "te": {
+    "n": 0,
+    "top_W": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "un": {
+    "n": 0,
+    "top_W": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "com": {
+    "n": 0,
+    "top_W": [],
+    "verdict": "ADVERSE(fenced)"
+   }
+  },
+  "A2_on_S": {
+   "à": {
+    "n": 1,
+    "n_proper": 0,
+    "top_W": [
+     [
+      "à",
+      1
+     ]
+    ],
+    "top_proper_W": [],
+    "verdict": "PASS",
+    "note": "word-driven"
+   },
+   "et": {
+    "n": 0,
+    "n_proper": 0,
+    "top_W": [],
+    "top_proper_W": [],
+    "verdict": "ADVERSE(fenced)",
+    "note": ""
+   },
+   "de": {
+    "n": 2,
+    "n_proper": 0,
+    "top_W": [
+     [
+      "de",
+      2
+     ]
+    ],
+    "top_proper_W": [],
+    "verdict": "PASS",
+    "note": "word-driven"
+   },
+   "a": {
+    "n": 38,
+    "n_proper": 0,
+    "top_W": [
+     [
+      "a",
+      38
+     ]
+    ],
+    "top_proper_W": [],
+    "verdict": "PASS",
+    "note": "word-driven"
+   },
+   "es": {
+    "n": 2,
+    "n_proper": 2,
+    "top_W": [
+     [
+      "espère",
+      1
+     ],
+     [
+      "esterhazï",
+      1
+     ]
+    ],
+    "top_proper_W": [
+     [
+      "espère",
+      1
+     ],
+     [
+      "esterhazï",
+      1
+     ]
+    ],
+    "verdict": "PASS",
+    "note": "proper-syllable support"
+   },
+   "il": {
+    "n": 2,
+    "n_proper": 0,
+    "top_W": [
+     [
+      "il",
+      2
+     ]
+    ],
+    "top_proper_W": [],
+    "verdict": "PASS",
+    "note": "word-driven"
+   },
+   "les": {
+    "n": 4,
+    "n_proper": 0,
+    "top_W": [
+     [
+      "les",
+      4
+     ]
+    ],
+    "top_proper_W": [],
+    "verdict": "PASS",
+    "note": "word-driven"
+   },
+   "te": {
+    "n": 0,
+    "n_proper": 0,
+    "top_W": [],
+    "top_proper_W": [],
+    "verdict": "ADVERSE(fenced)",
+    "note": ""
+   },
+   "un": {
+    "n": 2,
+    "n_proper": 0,
+    "top_W": [
+     [
+      "un",
+      2
+     ]
+    ],
+    "top_proper_W": [],
+    "verdict": "PASS",
+    "note": "word-driven"
+   },
+   "com": {
+    "n": 3,
+    "n_proper": 3,
+    "top_W": [
+     [
+      "commence",
+      3
+     ]
+    ],
+    "top_proper_W": [
+     [
+      "commence",
+      3
+     ]
+    ],
+    "verdict": "PASS",
+    "note": "proper-syllable support"
+   }
+  },
+  "A3_single_S_verdict": {
+   "à": "FENCED",
+   "et": "FENCED",
+   "de": "FENCED",
+   "a": "FENCED",
+   "es": "FENCED",
+   "il": "FENCED",
+   "les": "FENCED",
+   "te": "FENCED",
+   "un": "FENCED",
+   "com": "FENCED"
+  },
+  "A3_reading": "FENCED — no S coheres at the on-frames"
+ },
+ "pathB": {
+  "B0_census": [
+   {
+    "pos": 126,
+    "suc": 11
+   },
+   {
+    "pos": 377,
+    "suc": 0
+   },
+   {
+    "pos": 398,
+    "suc": 6
+   },
+   {
+    "pos": 1229,
+    "suc": 29
+   }
+  ],
+  "premise": "82=\"m'\" (elided me) => 48 vowel-initial (work-order-mandated, conditional)",
+  "B1_m_S_la": {
+   "a": {
+    "n": 0,
+    "top_W": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "es": {
+    "n": 0,
+    "top_W": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "et": {
+    "n": 0,
+    "top_W": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "il": {
+    "n": 0,
+    "top_W": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "un": {
+    "n": 0,
+    "top_W": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "à": {
+    "n": 0,
+    "top_W": [],
+    "verdict": "ADVERSE(fenced)"
+   }
+  },
+  "B2_m_S_er": {
+   "a": {
+    "n_parse_i": 0,
+    "n_parse_ii": 0,
+    "ex_parse_i": [],
+    "ex_parse_ii": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "es": {
+    "n_parse_i": 0,
+    "n_parse_ii": 0,
+    "ex_parse_i": [],
+    "ex_parse_ii": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "et": {
+    "n_parse_i": 0,
+    "n_parse_ii": 0,
+    "ex_parse_i": [],
+    "ex_parse_ii": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "il": {
+    "n_parse_i": 0,
+    "n_parse_ii": 0,
+    "ex_parse_i": [],
+    "ex_parse_ii": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "un": {
+    "n_parse_i": 0,
+    "n_parse_ii": 0,
+    "ex_parse_i": [],
+    "ex_parse_ii": [],
+    "verdict": "ADVERSE(fenced)"
+   },
+   "à": {
+    "n_parse_i": 0,
+    "n_parse_ii": 0,
+    "ex_parse_i": [],
+    "ex_parse_ii": [],
+    "verdict": "ADVERSE(fenced)"
+   }
+  },
+  "B3_unidentified_sucs": {
+   "377": "suc 0 (unidentified) — recorded, no bar",
+   "398": "suc 6 (unidentified) — recorded, no bar"
+  },
+  "B0_m_S_bigram": {
+   "a": {
+    "n": 145,
+    "top_W": [
+     [
+      "a",
+      145
+     ]
+    ]
+   },
+   "es": {
+    "n": 0,
+    "top_W": []
+   },
+   "et": {
+    "n": 0,
+    "top_W": []
+   },
+   "il": {
+    "n": 0,
+    "top_W": []
+   },
+   "un": {
+    "n": 0,
+    "top_W": []
+   },
+   "à": {
+    "n": 0,
+    "top_W": []
+   }
+  },
+  "B4_single_S_verdict": {
+   "a": "FENCED",
+   "es": "FENCED",
+   "et": "FENCED",
+   "il": "FENCED",
+   "un": "FENCED",
+   "à": "FENCED"
+  },
+  "B4_premise": "premise FENCED for 48 — no vowel-initial S coheres at the m'-frames",
+  "consonant_init_note": "de/les/te/com INCOHERENT with m'-premise (recorded; not killed as 48-values)"
+ },
+ "pathD": {
+  "D0_footprint": [
+   {
+    "pos": 126,
+    "pre": 82,
+    "suc": 11,
+    "suc2": 2
+   },
+   {
+    "pos": 1076,
+    "pre": 12,
+    "suc": 77,
+    "suc2": 78
+   },
+   {
+    "pos": 1350,
+    "pre": 62,
+    "suc": 77,
+    "suc2": 78
+   }
+  ],
+  "D1": {
+   "n_de_le": 29,
+   "de_le_X": [
+    [
+     "faire",
+     6
+    ],
+    [
+     "voir",
+     4
+    ],
+    [
+     "prévoir",
+     2
+    ],
+    [
+     "recevoir",
+     2
+    ],
+    [
+     "contrecarrer",
+     1
+    ],
+    [
+     "mettre",
+     1
+    ],
+    [
+     "laisser",
+     1
+    ],
+    [
+     "renouveler",
+     1
+    ],
+    [
+     "défendre",
+     1
+    ],
+    [
+     "rencontrer",
+     1
+    ],
+    [
+     "dénoncer",
+     1
+    ],
+    [
+     "proposer",
+     1
+    ],
+    [
+     "rappeler",
+     1
+    ],
+    [
+     "remettre",
+     1
+    ],
+    [
+     "gêner",
+     1
+    ],
+    [
+     "composer",
+     1
+    ],
+    [
+     "rehausser",
+     1
+    ],
+    [
+     "revoir",
+     1
+    ],
+    [
+     "croire",
+     1
+    ]
+   ],
+   "de_le_all_INF_verified": true,
+   "frac_de_le_INF": 1.0,
+   "n_de_la": 439,
+   "de_la_INF_verified": [
+    [
+     "voir",
+     2
+    ],
+    [
+     "soigner",
+     1
+    ],
+    [
+     "réaliser",
+     1
+    ],
+    [
+     "défendre",
+     1
+    ],
+    [
+     "rattacher",
+     1
+    ],
+    [
+     "reprendre",
+     1
+    ],
+    [
+     "brûler",
+     1
+    ],
+    [
+     "déclarer",
+     1
+    ],
+    [
+     "faire",
+     1
+    ],
+    [
+     "soutenir",
+     1
+    ],
+    [
+     "refuser",
+     1
+    ],
+    [
+     "tirer",
+     1
+    ]
+   ],
+   "n_de_la_INF": 13,
+   "de_la_nonINF_top40": [
+    [
+     "france",
+     22
+    ],
+    [
+     "prusse",
+     19
+    ],
+    [
+     "grande",
+     15
+    ],
+    [
+     "grèce",
+     14
+    ],
+    [
+     "syrie",
+     11
+    ],
+    [
+     "russie",
+     10
+    ],
+    [
+     "princesse",
+     10
+    ],
+    [
+     "guerre",
+     9
+    ],
+    [
+     "famille",
+     7
+    ],
+    [
+     "question",
+     7
+    ],
+    [
+     "chambre",
+     6
+    ],
+    [
+     "justice",
+     6
+    ],
+    [
+     "paix",
+     6
+    ],
+    [
+     "cour",
+     6
+    ],
+    [
+     "religieuse",
+     6
+    ],
+    [
+     "police",
+     5
+    ],
+    [
+     "société",
+     5
+    ],
+    [
+     "manière",
+     5
+    ],
+    [
+     "suisse",
+     5
+    ],
+    [
+     "peine",
+     4
+    ],
+    [
+     "dépêche",
+     4
+    ],
+    [
+     "même",
+     4
+    ],
+    [
+     "situation",
+     4
+    ],
+    [
+     "part",
+     4
+    ],
+    [
+     "loi",
+     3
+    ],
+    [
+     "reine",
+     3
+    ],
+    [
+     "crise",
+     3
+    ],
+    [
+     "redorte",
+     3
+    ],
+    [
+     "porte",
+     3
+    ],
+    [
+     "maison",
+     3
+    ],
+    [
+     "régence",
+     3
+    ],
+    [
+     "mission",
+     2
+    ],
+    [
+     "semaine",
+     2
+    ],
+    [
+     "note",
+     2
+    ],
+    [
+     "marche",
+     2
+    ],
+    [
+     "commission",
+     2
+    ],
+    [
+     "confédération",
+     2
+    ],
+    [
+     "légion",
+     2
+    ],
+    [
+     "conduite",
+     2
+    ],
+    [
+     "dernière",
+     2
+    ]
+   ],
+   "classification": "hand-verified per-X [FR-JUDGMENT]; full lists disclosed",
+   "licensed_bar": "LICENSED"
+  },
+  "D2a_on_de": {
+   "n": 2,
+   "contexts": [
+    "communication | que | vous | a | faite | notre | excellent | bai | on | de | werther | sur | la | réduction",
+    "croît | en | faveur | et | est | en | passe | dit | on | de | devenir | ministre | c' | est"
+   ],
+   "classification": {
+    "@6759": "'notre excellent bai on de werther' — uninterpretable OCR-adjacent/name context [FR-JUDGMENT]; NOT a clean standalone-'on'+'de'",
+    "@48138": "'dit on de devenir' = 'dit-on' verb-inversion + 'de' [FR-JUDGMENT]; NOT standalone subject 'on'"
+   },
+   "n_genuine_standalone_on_de": 0,
+   "note": "@1350's 'on de' needs >=1 genuine standalone-'on'+'de': 0/2. @1350 ALSO pre-excluded: R-c owns @1351-1356 (N51, settled); 78=R-c-nominal _|_ 78=infinitive.",
+   "at1350": "OUT of narrow path (R-c exclusion pre-registered; 'on de' unlicensed 0/2)"
+  },
+  "D2b_at1076": {
+   "frame": "12-48-77-78 (pre=12 unidentified, suc2=78 unidentified)",
+   "de_le_L1_top": [
+    [
+     "facile",
+     2
+    ],
+    [
+     "chargé",
+     2
+    ],
+    [
+     "et",
+     2
+    ],
+    [
+     "courage",
+     2
+    ],
+    [
+     "plaisir",
+     2
+    ],
+    [
+     "regretté",
+     1
+    ],
+    [
+     "donnée",
+     1
+    ],
+    [
+     "est",
+     1
+    ],
+    [
+     "plaira",
+     1
+    ],
+    [
+     "occasion",
+     1
+    ],
+    [
+     "moyen",
+     1
+    ],
+    [
+     "étonnement",
+     1
+    ]
+   ],
+   "de_le_L1_note": "context for ML-2: the era licensors of 'de le [inf]' — pre=12 must be verb/verb-final of this class",
+   "status": "IN-PENDING",
+   "missing": [
+    "ML-1: identify @1077 (grp 78 here) as infinitive(-initial)",
+    "ML-2: identify pre=12 as verb/verb-final licensing '[V] de le [inf]'"
+   ]
+  },
+  "D2c_at126": {
+   "frame": "82-48-11-2 (82='m' GT, 48->11=la GT, @127=grp 2 unidentified)",
+   "n_mword_de_la": 0,
+   "mword_de_la_examples": [],
+   "mword_de_la_plus_INF": {},
+   "n_mword_de_la_plus_INF": 0,
+   "status": "OUT (left context unlicensed)"
+  },
+  "D3_gate5": {
+   "missing_ne_veto": "does not fire — 48='de' is not a verb/verb-stem",
+   "clitic_order_veto": "stays BANKED — conditional on 48=transitive-verb; 48='de' is not a transitive verb; no trip",
+   "V1_48pas": "conditional does not claim @283/@1737 — escape via conditioning (recorded)"
+  },
+  "D4": "FENCED — construction licensed (D1) but no claiming window has >=2 independent checks; missing legs: ML-1: identify @1077 (grp 78 here) as infinitive(-initial); ML-2: identify pre=12 as verb/verb-final licensing '[V] de le [inf]'"
+ },
+ "note_de_ce": {
+  "windows_48_47": [
+   [
+    863,
+    46
+   ],
+   [
+    1658,
+    98
+   ]
+  ],
+  "note": "'de ce' x2 (@863, @1658) is a DIFFERENT construction ('de ce que'/'de ce + noun'), not pronoun+infinitive — out of scope for the narrow path; recorded only."
+ }
+}

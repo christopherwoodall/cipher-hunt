@@ -868,6 +868,26 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   carried forward).** @1351 under triple fenced pressure (top round-10
   watch item). Evidence: `code/crowd9/`,
   `code/crowd9/redteam/RULINGS-ROUND9.md`.
+- **N51 (2026-10-07, crowd10/curator):** round-10 curation. 10 agents (9
+  executors + red team; baselines re-run 114/114→132/132 and 82/82→89/89
+  with R10BANK + ROUND10-LEDGER, 6/6 battery preregs timestamp-audited
+  PASS, then a separate independent adjudicator ruled all 9 packages —
+  no coordinator-applied bars). All load-bearing numbers re-derived by
+  curator on the repaired 1,847-pair stream. Net: **0 promotions (bar held
+  a ninth round); 1 islet registered (ISLET 10, 59 conditioned
+  «est»/«-este», LEAD — unconditioned-59 REFUTED kill-grade, F52 refined
+  not killed), 1 refutation (H4g 06-4-gram, kill-grade by prereg literal
+  formula), 1 window resolved (@1351–1356 → R-c «le [78] ne ment pas»;
+  R-b "gouvernement" OUT at @1351, HIGH), 0 kills of banked statuses.**
+  @1248 NEITHER-fence STANDS (non-finite arms "peu"/infinitive banked WEAK,
+  fenced); 67 fork SUPPORTED (0/6 residuals classified, bar held ninth);
+  48 UNIDENTIFIED (S-word killed for 30; syllable shortlist rate-band
+  only); 62-WO3 refuted for @1248 only (scoped). Procedural: one
+  unattributed "finalizer" insertion into R10BANK relabeled (no baseline
+  insertions without red-team ruling — F26-17); one redundant second
+  finalizer shut down. Registry: ISLET 10 appended; ISLET 3 gloss corrected
+  (R5); ISLET 8 follow-up BANKED; ISLET 1 @1189 re-read. Evidence:
+  `code/crowd10/`, `code/crowd10/redteam/RULINGS-ROUND10.md`.
 
 ## Verified findings
 - F1 (source: Bourdeau zeschau1841 page, 2026-09-21/24): the unit is pairs of digits; 96 of 100
@@ -1555,6 +1575,85 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   descriptive, zero leg weight (M_hom-window recycling flagged).
   C1–C4 banked tested-NULL. Mehemet-Ali/@1248 blocker NOT lifted.
   Evidence: `code/crowd9/resolver62/`.
+- **F70 (2026-10-07, crowd10/resolver1351; adjudicator: GRANT):** @1351–1356
+  RESOLVED — R-c owns the window: «le [78] ne ment pas» (byte-exact
+  @1349–1362 = 62 48 | 77 78 94 82 06 52 | 37 64 35 13 92 62). R-b
+  ("gouvernement") OUT at @1351, HIGH: «gouvernement pas» 0/40 and
+  ungrammatical (needs intervening verb+ne); 52="pas" needs the negation
+  frame only R-a/R-c supply via 94="ne"@1353 (no other 94 in @1340–1370).
+  D3 fires 77="le" via F37's conditioned default (fenced "gou" exception
+  at @1351 dissolved — it existed only for the 5-mer). 77="le" GAINS @1351
+  (application, stays provisional-conditioned). 06-islet loses NOTHING
+  (positional membership; n=4/n_eff=3 unchanged; no registry edit).
+  77="gouv"→@1180-only (LEAD, n=2→1, no kill). 78="ver" by-ear gloss @1352
+  dies (positional membership kept; fork unresolved). H1c MOOT; H1d narrows
+  to {37="le" MEDIUM, 64="qui" prov} — «le qui» 0/391,210 survives, flagged
+  for 37/64 lanes (not adjudicated). Gate-5 clitic veto banked as future-48
+  constraint. Evidence: `code/crowd10/resolver1351/`.
+- **F71 (2026-10-07, crowd10/conditioner59; adjudicator:
+  GRANT-WITH-MODIFICATION):** ISLET 10 REGISTERED (LEAD): 59=word-«est»
+  iff pre∈{64,94,93} (est-arm 6/6: «qui est»×3, «n'est»×2, «l'est»×1);
+  59=verb-final «-este» iff pre=84 (este-arm 4/4: @1190/@1448/@1804 firm,
+  @1291 fenced). The executor's proposed pre=06/{61,44}/86 extensions are
+  EXCLUDED (post-hoc, F33) — banked as fenced LEAD sub-tiers, not rule
+  members. Unconditioned 59="est" REFUTED, kill-grade (8 adverses incl.
+  @463 «la est» era-0). F52's provisional REFINED into the islet, not
+  killed; F52 caveat-3 DISSOLVED (L2 honestly failed on S4#1 @216; the
+  «[06-59] que» verb parse supplies the structural explanation — the S4
+  "adverse" was never an «est que» datum). -este verb ID set-valued
+  {manifeste 131, atteste 35, proteste 20, conteste 19, déteste 23}; reste
+  EXCLUDED at «qui le» (intransitive). S1 preserved 1.07× (unigram was
+  always a mixture). ISLET 8's follow-up BANKED; ISLET 1's @1189 re-read
+  as @1190 verb-unit. Evidence: `code/crowd10/conditioner59/`,
+  registry `code/crowd9/conditioner/islet_registry.md` (ISLET 10).
+- **F72 (2026-10-07, crowd10/watch06; adjudicator:
+  GRANT-WITH-MODIFICATION):** H4g (94-82-06-06 4-gram refinement) REFUTED
+  — the executor's p_comb=0.0410 used an un-licensed method; recomputed
+  under the PREREG's literal formula p_comb=0.0508 > 0.05 → REFUTED per the
+  pre-registered bar (knife-edge 0.0008 above — the bar is the bar).
+  H4g closes as post-hoc coincidence (not "untestable-at-n=2"). The
+  06-islet stands unchanged (all 3 falsifiers unfired; 82→06 census =
+  [580,738,1184,1355] exactly as predicted; 94-82-06 trigrams only at
+  islet positions; n_eff=3 fragility banked). Evidence:
+  `code/crowd10/watch06/`.
+- **F73 (2026-10-07, crowd10/arm1248; adjudicator:
+  GRANT-WITH-MODIFICATION):** @1248 NEITHER-fence STANDS, not lifted.
+  Non-finite arms built but thin: "peu" 2/4 legs (L2+L3; L1 fail, L4
+  indeterminate), infinitive-class "empêcher" 2/4 legs (same thinness) —
+  banked as WEAK fenced arms. "cela" REFUTED on substance (v8 «pour cela
+  que»×3 are clause-boundary artefacts or unhostable cleft; 67→46 also
+  @471). Médiatrice-class DEAD (0 legs). Gate 4 REVISED: cela-class
+  REMOVED (frenchman corroboration). 62-WO3 blocker REFUTED for @1248 only
+  (scoped: zero group-62 in ±6). Any @1248-scoped reading is n_eff=1.
+  Evidence: `code/crowd10/arm1248/`.
+- **F74 (2026-10-07, crowd10/finisher67; adjudicator: GRANT):** 0/6
+  residuals classified — all stay open-residual with explicit missing legs;
+  clean null. Fork stays SUPPORTED with amended scope (fenced n=2);
+  29/36 classified. The bar held a ninth round. Decider named for
+  @1450/@1623: 33's class (infinitive → veut lives; nominal → et favored).
+  @1248 counterdatum = scope amendment, not refutation. Evidence:
+  `code/crowd10/finisher67/`.
+- **F75 (2026-10-07, crowd10/syllabicist48; adjudicator:
+  GRANT-WITH-MODIFICATION):** 48 stays UNIDENTIFIED. S-word class KILLED
+  for 30 candidates (report said 31 — "les" double-counted; structural
+  pincer: "la" takes nominals, "on" takes verbs — no single French word
+  at 2.06% follows both; kill survives loss of 62="on"). The 10 S-syl
+  LEAD-weaks NOT granted as statuses — banked as a rate-band shortlist
+  datum (S1 was the selection criterion; zero discrimination). H_stem NULL,
+  stays UNTESTED (0.40 signature bar miscalibrated — lane's own reference
+  stem 06 scores 0.318). Follow-up: successor-word anchoring at the six
+  "on 48" windows, or 82="m"×4 frames as a second syllable-discriminating
+  leg. Evidence: `code/crowd10/syllabicist48/`.
+- **F76 (2026-10-07, crowd10/frenchman; adjudicator: NOTED):** 14 era vetoes
+  (EV1–EV14). EV10 converges with ISLET 10 (vetoes word-"est" @1447/@1803).
+  48 V1 GENERALIZED: «X pas»-adverb without «ne» era-0 for ALL word
+  candidates X (sole exception «grand pas» noun); 48="de" CONDITIONAL
+  (narrow pronoun+infinitive path), 48="com" NEUTRAL, {en,nous,vous} die
+  V1 — no interaction with R6's syllable shortlist. Gate-4 revision banked
+  (cela-class VOID). Key enlightenment: reading hits beats counting them
+  («pour cela que»×3 never bare constituents; 29 «de le»/15 «à le» all
+  pronoun+infinitive, never article). Evidence:
+  `code/crowd10/frenchman/`.
 - **F26-14 (2026-10-07, crowd6/red-team):** chiasmus scoping — F42's chiasmus
   holds on the adjacent instances (67→11 @753 immediately before the @754
   crib; 11→67 @1044 immediately after the @1034 crib); the full 67→11
@@ -1572,6 +1671,86 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   directly (49/49 extended baseline inherited, N28/N35 case law). All
   "curator: ..." adjudication marks in N39–N44/F45–F51 are coordinator-
   applied, NOT agent-adjudicated — round-7 red team must review them.
+- **N52 (2026-10-07, crowd11/curator):** round-11 curation. 7 executors +
+  3 sequential red-team adjudicators (successor chain; no coordinator-applied
+  bars anywhere), all 7 packages ruled (R1–R7). Baselines extended in place:
+  132/132→**148/148** (R11BANK: 16 cipher-side checks) and 89/89→**100/100**
+  (ROUND11-LEDGER: 21-entry status ledger + 6 corpus drift guards). Net: **0
+  promotions, 0 kills, 0 demotions — the bar held a tenth round.** Scoreboard
+  unchanged: 12 values (7 pencil GT + 87=ce/64=qui/96=par/59=est provisional
+  + 77="le" provisional-conditioned) + 10-islet registry + leads.
+- **F77 (2026-10-07, crowd11/watch06; adjudicator: GRANT):** all three 06
+  falsifiers UNFIRED — FIRE-PART (82→06 census [580,738,1184,1355] exact),
+  FIRE-IN (zero forced adverses; @1355 carries the F70 «ne ment pas» gloss,
+  byte-exact), FIRE-OUT (0/40 pre≠82 06-windows under the ISLET-10-tightened
+  by-ear rule). ISLET 3 (06="ent" iff pre=82) stands, LEAD conditioned,
+  n=4/n_eff=3; fragility banked. Methodology flags banked: Nesselrode v8's 54
+  "ment" tokens are archive.org OCR word-splits (v8 phrase zeros VOID as
+  French); the clean 3.96M diplomatic corpus attests «ne ment pas»=1 —
+  the @1355 gloss is rare-but-real in the diplomatic genre. Evidence:
+  `code/crowd11/watch06/`.
+- **F78 (2026-10-07, crowd11/smith_liaison; adjudicator: BANK):** memo banked
+  as constraint (`code/crowd11/smith_liaison/smith-constraints-round11.md`).
+  Rebuild tracks A/B/C all GO, none executed yet (Track A reference
+  validated, Track B 9-step order cleared with the Guizot-offset exclusion,
+  Track C decode plumbing done). Main-fleet search scope stays ZERO until C1
+  passes on the gapped family. Evidence: `code/crowd11/smith_liaison/`.
+- **F79 (2026-10-07, crowd11/census33; adjudicator: GRANT):** 33 =
+  infinitive-class (C1 PASS: 3 independent infinitive signature kinds —
+  I1 pre==00 ×8 @186/@408/@467/@846/@936/@1088/@1245/@1630, I4 suc==29 ×5,
+  I2 pre==67 ×1; nominal signatures effectively zero). @1450/@1623 →
+  lean-veut per the F74 decider, grade capped LEAN (lane ≥2-check rule); 67
+  stays provisional, fork stays SUPPORTED. Two immaterial deviations
+  recomputed under the prereg's literal formula (H4g/F72 case law); window-
+  level re-derivation byte-exact on all 23 in-census windows. Evidence:
+  `code/crowd11/census33/`.
+- **F80 (2026-10-07, crowd11/este_verb; adjudicator: GRANT):** H0 holds — the
+  -este verb stays set-valued {manifeste, atteste, proteste, conteste,
+  déteste}. a3-monovalence banked as data: for all five, stem@1447 ∉
+  by-ear mid-options@1189 ⇒ 84 is polyvalent across these windows OR
+  @1190's verb ≠ @1448/@1804's. 77→84 ×7 (3× «qui le [84]»). @1291↔@1804
+  share a byte-identical 5-mer suffix [35,94,52,80,4] (fenced-lean support
+  for @1291's verb parse; conditional discriminator narrows to
+  {manifeste, proteste} under verb-parse+[35]=subject, fenced). T1–T5
+  tie-breakers named. Evidence: `code/crowd11/este_verb/`.
+- **F81 (2026-10-07, crowd11/arm1248; adjudicator: GRANT):** "peu"
+  STRENGTHENED 4/8 — P-A: 13/13 genuine "pour peu que"+subjunctive in new
+  corpora (11× RDM 1841, 2× Guizot despatches; no longer hapax-anchored);
+  P-B: construction-shape S=(verb-offset 3, clause-length 4) matches the
+  cipher clause. Infinitive-class "empêcher" stays WEAK-FENCED 3/7 (E-A:
+  28 distinct genuine infinitives in "pour INF que"). Sharpest gap named:
+  the double-pour stack "pour 33 16 pour 67 que" has NO era license in
+  ~16.5MB of 1840s formal French (P-D and E-C both zero). **LABEL
+  CORRECTION (R7):** the 11-token frame spans pairs[1244:1255], not
+  "@1244–1256" as labeled in the R5 ruling — values were byte-exact, the
+  label was +2. Downstream notes citing "@1244–1256" should read
+  "@1244–1254". Evidence: `code/crowd11/arm1248/`.
+- **F82 (2026-10-07, crowd11/finisher67; adjudicator: GRANT):** @633 →
+  et-CONDITIONAL(C1:08="l'", C2) — the round's single classification
+  (92:2 "l' * et" vs "l' * veut" in Nesselrode v8; L2 n(11→52)=3). Clean
+  nulls: @1519 (31 contested, leaning verbal — prereg flaw caught: 08="l'"
+  is article/pronoun-ambiguous, can't license nominals unconditionally;
+  PRECEDENT SET: a caught prereg flaw disclosed with the conservative
+  outcome stands), @1372 (no denser era frame), @902 (92 contested —
+  banked as infinitive/noun contest datum, conditioned-polyvalence
+  candidate). @1450/@1623 open-residual with the WO-3 decider applied
+  (veut-arm lives; no veut-bar exists). Fork stays SUPPORTED (38 tally:
+  29 classified + 2 conditional + 5 open + 2 fenced). Evidence:
+  `code/crowd11/finisher67/`.
+- **F83 (2026-10-07, crowd11/anchorer48; adjudicator: GRANT):** 3 fences, 0
+  promotions, 0 kills — 48 stays UNIDENTIFIED. Path A ("on 48" windows)
+  FENCED: no S coheres; A1 0/10 is a real zero (frame attested in v8 with
+  verb/"ne"/pronoun in the 48 slot — tension points at the premises, 62=
+  "on" ear-only is the load-bearing weak link). Path B (82="m'" premise)
+  FENCED: conditional discrimination recorded, zero positive support.
+  Path D (48="de"-conditional, pronoun+infinitive) FENCED with explicit
+  missing legs: D1 LICENSED ("de le"+INF 29/29=1.00, 19 distinct X
+  hand-verified, instrument repair disclosed and honest); @1350 OUT
+  (pre-registered R-c exclusion); @126 OUT (left context unlicensed);
+  @1076 IN-PENDING (ML-1: @1077 infinitive-ID; ML-2: pre=12 licensor-ID,
+  adj/noun/participle per era L1, not just verbs). Follow-up pointer (not
+  a leg): @863 = 48-47-46 reads "de ce que" (10× v8) — a second "de"-frame
+  outside the narrow path. Evidence: `code/crowd11/anchorer48/`.
 
 ## Open hypotheses (not promoted — each needs ≥2 independent checks)
   Round-4 status after red-team adjudication (2026-10-07, 8/8 executors merged;

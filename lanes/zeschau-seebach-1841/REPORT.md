@@ -1509,6 +1509,395 @@ transition prior, never a hard label.*
   `code/side-period/{cribs-adjudicated.md,cribs.md,sources.md,
   corpus/PROVENANCE.md,work/*/mine.json}` (this sweep).
 
+### Round-8 addenda (2026-10-07, crowd8 — 12/12 agents merged, adjudicated; NOTES.md F59–F63)
+
+- **F59-AMENDED** — **RdDM "293×" VERIFIED (flag lifted):** exact clean-form
+  count of 'Méhémet-Ali' = **293** in the full 1841 Revue des Deux Mondes
+  run (4 tomes; 318 incl. variants; 7 unaccented attestations matching the
+  cipher's accentless shape; zero 'mohamed'/'mehemed' — cite with OCR
+  caveat). **"Mehemet-Ali" @8 DEMOTED LEAD→LEAD-weak** — 62-tension adverse
+  (the me|he|met|a|li tiling needs 62='a' vs lane STRONG LEAD 62="on"; no
+  alternative len-5 me-initial tiling in the by-ear top-8 avoids /a/ on
+  62) + "mêleront" (me|le|r|on|t) is a fully 62-compatible common-word
+  rival; M2 (spelling/topicality) stands, so demotion not kill. **16="i":
+  position-conditioned alternative NOT SUPPORTED** — T1 Fisher p=0.9398 in
+  the WRONG direction (S1 GT-only p=1.0); T2 "premier"/"première" frame
+  vacuous (masculine frame 0 occurrences); 16 stays unconditioned LEAD.
+  **M3 'he'-purity adverse STRUCK** (scoped German phonetics: AZ renders
+  "Mehemed Ali" 75×, pronounced with /h/ — by-ear under the lane's
+  German-thought premise; the general German-interference premise is NOT
+  banked). Lesson: grep multibyte brackets fail under the C locale
+  (7 near-false-refutation hits); recount multibyte text in Python. Trace:
+  `code/crowd8/patternist/{round8.py,round8_results.json}`.
+- **F60** — **48="ne"-allophone REFUTED (kill-grade):** H2 kill leg fires
+  (merged word-rate **4.78×** > 3× bar; 94 alone already 2.36× — no room
+  for a second "ne" group); H5 adverse ("ne ce que" @863 with 46="que" GT;
+  "en ne ce" @1657–1660); H6 adverse (−0.585 nats predecessor fit). H1
+  (F56 interchangeability template) does NOT fire — methodology finding:
+  interchangeability is necessary but NOT sufficient for homophony. 48
+  never enters the status line. Residual (untested here): 48 as
+  verb/verb-stem. Trace: `code/crowd8/homophonist/`.
+- **F61** — **{93,8}="l'" LEAD (unconditioned homophones):** joint
+  n=32 vs E=31.26 dead-center (two-sided p 0.47–0.60, in-band all diplo
+  slices); shared predecessors {67,85,45}/followers {52,29,62} freely
+  intermixed (no complementary split); "ne l'est" @101–103 ("on ne l'" ×3
+  era); fenced costs 93→52=2 ("l'pas", era-0 — needs a vowel-initial
+  third reading of 52) and 87→8=1 ("ce l'"). 93="l'" ALONE rate-KILLED
+  (**p=4.1e-4**, holds every diplo slice). N46's "shape-STRONG" does NOT
+  reproduce (vow=1; archived `u2_lcell.json` lacks 93 — traceability flag).
+  **62="on" +2 non-ear legs** (L_B: 46→62=0, LR=**21.3** for "on" via
+  qu'-elision rate asymmetry; L_A conditional on M_hom, 4 windows vs diplo
+  l'+il=0) — stays fenced STRONG LEAD; 62="il" → DISFAVORED-STRONG
+  (conditional, not fully killed). **06="ent" iff pre=82 → conditioned
+  LEAD** (n=4, n_eff=3, F33-form with stated falsifier — watch banked).
+  Trace: `code/crowd8/frenchman/{s1_data.py,s2_allophony.py,s3_gouv.py,s4_verdicts.py,results.json}`.
+- **F62** — **84 en-islet RE-SCOPED:** «qu'en» legs @310/@473 WITHDRAWN
+  ("qu'en en" era-0 = 0/4,220,440; 24="en" holds locally); byte-identical
+  5-gram 46-84-24-37-78 ×2 stays an open residual formula. Surviving islet:
+  84="en" iff pre∈{82} (GT-anchored "m'en" @167, n_eff=1) ∪ pre∈{66,89}
+  (conditional on 66/89 classes). **Noun identity NULL STANDS** — no
+  candidate at era rate (best: pas 0.38×, fait 0.11×, 13×+ gaps); the
+  «qui le 84 est» ×2 formula (@1447/@1803) is NOT article+noun ("qui le X
+  est" 2/4.2M, both rescued/broken) — reads pronoun+verb → NEW LEAD
+  **«qui le [verb=84-59]» ×2** (64-77-84-59, needs unbanked 59-as-syllable;
+  referred, not claimed). 13 free windows: 4 EN-EXTENSION (conditional),
+  9 RESIDUAL. Rate-model lesson: mixed-language reference pools inflate
+  overs ~2× — B1 9.14×→**3.91×**, B3→**3.19×** French-only (residual
+  floor 2.73×). Trace: `code/crowd8/conditioner84/{analyze84.py,analyze84b.py,conditioner84_results.json}`,
+  `code/crowd8/ratemodel/`.
+- **F63** — **WO-6 "second 64-96-47 window" criterion RETIRED** —
+  impossibility proof: exactly ONE 64-96-47 window (@149–151) and exactly
+  ONE 96 with suc==47 (@150) in the whole stream — singleton by
+  construction, the promotion bar is logically unmeetable. 96=verb-stem
+  stays LEAD at n_eff=1 (promotion must come from adjacent islets or
+  corpus legs). NEW adjacent-islet lead: **qui-96-43 ×2 formula**
+  (@341–345/@1025–1029 share 45-64-96-43-87-01, diverge 06-70 vs 03-29).
+  Downstream-verb hunt: null again (@153–175 no verb cell). **Columns
+  refuge: all 4 concretizations DEAD** (momentum z=−65…−112;
+  lane-faithful k=12/top-96 ARI≈0 vs random nulls); schema survives only
+  LOGICALLY-OPEN-NO-EVIDENCE; full kill needs key recovery (standing).
+  Trace: `code/crowd8/morphologist/{prereg.md,results_r8.json}`,
+  `code/crowd8/segmenter/{recoverability.json,diag_k12_top96.json}`.
+
+### Round-9 addenda (2026-10-07, crowd9 — 10/10 agents merged, adjudicated; NOTES.md F64–F69)
+
+**Net: 0 promotions — the bar held an eighth round.** Scoreboard 12
+values (7 GT + 87=ce/64=qui/96=par/59=est provisional + 77="le"
+provisional-conditioned). Baselines extended to 114/114 and 82/82 PASS;
+7/7 battery preregs timestamp-audited (watch06 PASS WITH NOTE — disclosed
+post-census addendum, no bar-fitting).
+
+- **F64** — **H_verb (48 = conjugated verb) KILLED** — K2 fired per
+  pre-registered terms: V2 ADVERSE (0/2 "48 pas" windows ne-licensed,
+  span-robust to i−10) AND V3 predecessor verb-licensing 31.6% < 40% bar;
+  steelman denied as post-hoc rescue. H_stem (96-family) UNTESTED
+  (predecessor cosine 0.387 < 0.60, n96=21 underpowered — explicitly not
+  adverse). **48 stays UNIDENTIFIED.** Datum correction: 48 has **29
+  distinct/38** successors (not 19 — old-parse figure). "on 48"×6
+  association real (E=0.72, p=**7.6e-05**) but carries no verbal
+  signature; "48 pas"×2 not significant alone (E=0.555, p=0.106).
+  Round-10 lead: frequent syllable cell ("on"+verb-initial syllable).
+  Trace: `code/crowd9/successor48/{PRE-REGISTER.md,battery48_verb.py,battery48_verb_results.json}`.
+- **F65** — **86=que-family REFUTED (kill-grade, 4 legs):** L2 «pour qu'»
+  12/55=0.218 vs era 0.0104 (**21×** over); L5 elision kills «qu'»
+  (86→70/52×2/56×4 = 7/32 consonant-initial successors); L6 77-86 ×5 at
+  era P≈**0.00007**; L4 profile parity fails (Jaccard 0.33/0.25). B3
+  dissolution caveat DEAD twice over (era number was 0.0343 French-only,
+  not 0.31) — **B3 (3.19×) STANDS.** 86's value NULL (honest);
+  F40 verb-stem-class stands as working hypothesis. **66-class CONFIRMED**
+  (broadened {noun, infinitive, nous/vous-type} — all en-compatible) and
+  **89 noun-class CONFIRMED** (77-89 ×2, 29-89 ×5, 89-48 ×3; fenced
+  tension 52-89 ×2) — 84-islet's pre∈{66,89} dependencies hold.
+  qui-96-43 ×2 formula HOLD (@341/@1025; **43="me" clitic-order adverse**
+  banked in this frame — weak globally, not here). «qui le [verb=84-59]»
+  REFINED: noun+"est" parse DEAD at @1447/@1803; 59="est"-as-word era-0
+  there (fenced n=2 adverse) — bisyllabic-verb unit
+  hypothesis-internal (needs unbanked 59 conditioned polyvalence). 84's 9
+  residuals all classified RESIDUAL (no islet change; @857 lean withdrawn
+  — depended on killed 48="ne"). **Islet registry built:** 9 conditioned
+  islets with rules, n/n_eff, falsifiers, leftovers
+  (`code/crowd9/conditioner/islet_registry.md`).
+- **F66** — **@1351–1356 under TRIPLE FENCED PRESSURE** (top round-10
+  watch): H1c ("on" in L1..L2 of "gouvernement" = **0/641** diplo; @1351
+  has 62="on" STRONG LEAD at L2), H1d ("le qui" = **0/391,210** vs the
+  right frame under banked 37="le" MEDIUM + 64="qui" prov), frenchman
+  triple collision (06-islet "ne ment pas" era-good vs gouv
+  "gouvernement pas" era-0 in 40 tokens vs 77="le" — mutually exclusive;
+  era picks the 06-islet parse). 77="gouv" holds LEAD per the n≥3 rule.
+  **H3a NEW WEAK LEG for fork-tine (c):** er|ne boundary productive (52
+  tokens/22 types) vs ver|ne zero genuine common words (**10.4×**, Fisher
+  p=**3.2e-11**; gouvernement-family excluded to avoid circularity) —
+  lean (c) strengthened, fork unresolved. 06="ent" by-ear mixed: @1355
+  clean, @580 fenced admissible, @1184 adverse-fenced ("ne
+  mentent/entendent est" ungrammatical with 59="est"-as-word), @738
+  fenced. The 06-islet survives watch06's hunt (all 3 falsifiers unfired;
+  n_eff=3 fragility banked; post-hoc: both suc=6 windows are islet
+  windows, p=0.0063 — possible 94-82-06-06 4-gram refinement for round
+  10). Trace: `code/crowd9/{hunter7778,watch06,frenchman}/`.
+- **F67** — **@1248 NEITHER-fence UPHELD** (new arm declined with
+  evidence: "pour * que" middles {cela:3, empêcher:1}, no single-syllable
+  X with era support; finite-verb arm vetoed by frenchman Gate 4).
+  @199 NEITHER-fence CONDITIONAL on 08="l'". @630 et-CONDITIONAL (Bar E2,
+  C1∧C2 explicit — not a classification). 6 open-residual (no ≥2-leg
+  bar). **Fork stays SUPPORTED with amended scope (fenced n=2).**
+  R_veut4 dropped at design time ("me veut"=0 voids the legs). 62-WO3
+  blocker carried forward (no substantive 62-interaction found).
+- **F68** — **germanist clearance + liaison:** M3's 'he'-cell adverse
+  STRUCK (scoped German phonetics — AZ "Mehemed Ali" 75×, the h is
+  pronounced; under the Zeschau-thought-in-German premise the 'he' cell
+  is by-ear; the general interference premise is NOT banked). "Mohammed"
+  15× = Dost Mohammed (Afghan emir) — formally excluded as a Mehemet-Ali
+  variant. No German-interference vetoes on any live reading; watch-items
+  banked as standing conditionals (standalone 78="er" → German "er"
+  rival; 67@1248="cela/ça" → "dafür daß" calque test). Crib candidates
+  banked with AZ provenance (Thiers 76×, "Ibrahim Pacha", Ponsonby 4×,
+  "question d'Orient", Bugeaud 18×, Valée…). Liaison: rebuild2 healthy
+  (red-team 0 KILL / 4 UPHELD / 6 CONCERN / 3 GO; tracks A/B/C executing
+  per PREREG, no results yet); constraints memo banked
+  (`code/crowd9/liaison/smith-constraints.md`): F33 rules, anchor set,
+  5 discriminating windows, must-NOT-break list. Main-fleet search scope
+  ZERO until C1. Trace: `code/crowd9/germanist/az_evidence.json`,
+  `code/crowd9/liaison/`.
+- **F69** — **62 on/il HONEST HOLD** — N35 independent-cell battery 0/4
+  (C1 p_two_il=0.072 sub-bar lean, no quiet upgrade; C2/C3/C4 null).
+  62="on" stays fenced STRONG LEAD; 62="il" stays DISFAVORED-STRONG (not
+  killed). @100 "62 ne l'est" fenced n=1 descriptive, zero leg weight.
+  C1–C4 banked tested-NULL. Mehemet-Ali/@1248 blocker NOT lifted.
+- **Methodology (rounds 8–9, for the record):** the F56
+  interchangeability template's NON-firing is itself a finding (necessary
+  ≠ sufficient for homophony); mixed-language reference pools inflate
+  era overs ~2× (B1/B3 correction); grep multibyte brackets fail under
+  the C locale — recount multibyte text in Python (near-false-refutation
+  on RdDM); phase-of-neighbor tests must control for the group's own
+  phase (F4 lesson); **the over-splitting lens** (round-9 frenchman
+  register gate: the cipher over-splits relative to spoken French —
+  46=que writes /k/ as its own cell, 82|06 at @1355 writes one spoken
+  syllable /mɑ̃/ as two cells — any by-ear argument treating a cipher
+  cell as a spoken syllable assumes spoken-syllable alignment and is
+  flagged); rate bars run Nesselrode-v8-strict (the {93,8} joint model
+  is in-band at v8 E=32.9 but collapses to E=11.9 if levant is pooled —
+  register heterogeneity, not one number); 7/7 round-9 battery preregs
+  timestamp-audited (watch06 PASS WITH NOTE — disclosed post-census
+  addendum, no bar-fitting).
+
+### Round-10 addenda (2026-10-07, crowd10 — 10 agents, adjudicated; NOTES.md F70–F76)
+
+**Net: 0 promotions — the bar held a ninth round.** 1 islet registered
+(ISLET 10), 2 refutations (unconditioned-59 kill-grade; H4g kill-grade by
+prereg literal formula), 1 window resolved (@1351–1356), 0 kills of
+banked statuses. Baselines 132/132 + 89/89 PASS.
+
+- **F70** — **@1351–1356 RESOLVED → R-c owns the window: «le [78] ne ment
+  pas»** (byte-exact @1349–1362 = 62 48 | 77 78 94 82 06 52 | 37 64 35 13
+  92 62). R-b ("gouvernement") OUT at @1351 HIGH: «gouvernement pas»
+  0/40 and ungrammatical (needs intervening verb+ne); 52="pas" (STRONG)
+  needs the negation frame only R-a/R-c supply via 94="ne"@1353 (no
+  other 94 in @1340–1370). D3 fires 77="le" via F37's conditioned default
+  (the fenced "gou" exception at @1351 existed only for the 5-mer). **77="le"
+  GAINS @1351** (application, stays provisional-conditioned);
+  **77="gouv"→@1180-only** (LEAD, n=2→1, no kill); 78="ver" by-ear gloss
+  @1352 dies (positional membership kept — fork unresolved). The 06-islet
+  loses NOTHING (membership is positional; n=4/n_eff=3; no registry
+  edit — its by-ear gloss at @1355 is now "ne ment pas"). H1c MOOT; H1d
+  NARROWS to {37="le" MEDIUM @1357, 64="qui" prov @1358} — "le qui"
+  **0/391,210** survives the ruling, flagged for the 37/64 lanes (not
+  adjudicated here). Caveat: the exact trigram «ne ment pas» is 0/92k
+  v8 (grammatical, unattested — later attested 1/3.96M diplo, round-11
+  watch). Trace: `code/crowd10/resolver1351/{PREREG.md,derive1351.py,derive1351.json}`.
+- **F71** — **ISLET 10 REGISTERED (LEAD): 59=word-«est» iff
+  pre∈{64,94,93}** («qui est»×3, «n'est»×2, «l'est»×1 — est-arm 6/6);
+  **59=verb-final «-este» iff pre=84** (@1190/@1448/@1804 firm, @1291
+  fenced — este-arm 4/4). Full census: **n59=27** (27/27 classified: 6
+  EST + 1 NEUTRAL + 5 ESTE-firm + 2 frame-forced + 1 lean + 2 FENCED +
+  10 LEFTOVER). The executor's proposed pre=06/{61,44}/86
+  extensions EXCLUDED (post-hoc, F33) — banked as fenced LEAD sub-tiers,
+  not rule members. **Unconditioned 59="est" REFUTED, kill-grade** (8
+  adverses incl. @463 «la est» era-0, 0/3.96M). F52's provisional REFINED
+  into the islet, not killed; F52 caveat-3 DISSOLVED (L2 honestly failed
+  on S4#1 @216 — the «[06-59] que» verb parse supplies the structural
+  explanation; the S4 "adverse" was never an «est que» datum). -este verb
+  ID set-valued **{manifeste 131, atteste 35, proteste 20, conteste 19,
+  déteste 23}**; reste EXCLUDED at «qui le» (intransitive). S1 preserved
+  1.07× (the unigram was always a mixture). ISLET 8 follow-up banked;
+  ISLET 1 @1189 re-read as @1190 verb-unit. Registry:
+  `code/crowd9/conditioner/islet_registry.md` (ISLET 10 appended).
+- **F72** — **H4g (94-82-06-06 4-gram refinement) REFUTED by the prereg's
+  literal formula** — the executor's p_comb=0.0410 used an un-licensed
+  method; recomputed under the PREREG's literal formula
+  p_comb=**0.0508** > 0.05 → REFUTED per the pre-registered bar
+  (knife-edge 0.0008 above — the bar is the bar). H4g closes as post-hoc
+  coincidence, NOT "untestable-at-n=2". The 06-islet stands unchanged
+  (all 3 falsifiers unfired; 82→06 census = [580,738,1184,1355] exactly
+  as predicted; 94-82-06 trigrams islet-only; n_eff=3 fragility banked).
+  Trace: `code/crowd10/watch06/{PREREG.md,fourgram_test.py,fourgram_test.log}`.
+- **F73** — **@1248 NEITHER-fence STANDS (not lifted).** Non-finite arms
+  built but thin: "peu" 2/4 legs (L2+L3; L1 fail hapax, L4
+  indeterminate), infinitive-class "empêcher" 2/4 — banked as WEAK fenced
+  arms. "cela" REFUTED on substance (v8 «pour cela que»×3 are
+  clause-boundary artefacts or an unhostable cleft; bare-constituent
+  «pour cela que»=0). Médiatrice-class DEAD (0 legs). Gate 4 REVISED:
+  cela-class REMOVED (frenchman corroboration). **62-WO3 blocker REFUTED
+  for @1248 only** (scoped: zero group-62 in ±6). Any @1248-scoped
+  reading is n_eff=1. Trace:
+  `code/crowd10/arm1248/{PREREG.md,arm1248.py,arm1248_results.json}`.
+- **F74** — **0/6 67 residuals classified — all stay open-residual with
+  explicit missing legs** (clean null). Fork stays SUPPORTED with
+  amended scope; 29/36 classified. Decider named for @1450/@1623: **33's
+  class** (infinitive → veut-arm lives; nominal → et favored). @1248
+  counterdatum = scope amendment, not refutation. The bar held a ninth
+  round.
+- **F75** — **48 stays UNIDENTIFIED. S-word class KILLED for 30**
+  candidates (report said 31 — "les" double-counted): the structural
+  pincer ("la" GT takes nominals, "on" fenced STRONG LEAD takes verbs —
+  no single French word at 2.06% follows both) kills 25/31 on S2 alone;
+  S1+S3 corroborate; kill survives loss of 62="on". The **10 S-syl
+  LEAD-weaks NOT granted as statuses** — banked as a rate-band shortlist
+  datum (S1 was the selection criterion; zero discrimination). H_stem
+  NULL, stays UNTESTED (the 0.40 signature bar is miscalibrated — the
+  lane's own reference stem 06 scores 0.318). Follow-up: successor-word
+  anchoring at the six "on 48" windows, or 82="m"×4 frames as a second
+  syllable-discriminating leg. Trace:
+  `code/crowd10/syllabicist48/{PREREG.md,battery48_syllable.py}`.
+- **F76** — **14 era vetoes (EV1–EV14).** EV10 converges with ISLET 10
+  (vetoes word-"est" @1447/@1803). **V1 GENERALIZED:** «X pas»-adverb
+  without «ne» is era-0 for ALL word candidates X (sole exception «grand
+  pas» noun); 48="de" CONDITIONAL (narrow pronoun+infinitive path:
+  «de le»[art]=0 but 29 «de le» are pronoun+infinitive), 48="com"
+  NEUTRAL (fragment), {en,nous,vous} die V1. Gate-4 revision banked
+  (cela-class VOID). Key enlightenment: **read the hits, don't count
+  them** («pour cela que»×3 never bare constituents; 29 «de le»/15 «à
+  le» all pronoun+infinitive, never article). Trace:
+  `code/crowd10/frenchman/{era_gates10.py,era_gates10_out.json}`.
+- **Methodology:** the prereg literal-formula discipline paid twice this
+  round (H4g overrule; ISLET-10 narrowing) — the bar is the bar, even at
+  0.0008 over. Interchangeability ≠ homophony (F60) keeps paying. The
+  unauthorized "finalizer" insertion into R10BANK was relabeled — no
+  baseline insertions without red-team ruling (procedural case law).
+  Liaison: round-10 constraints memo banked
+  (`code/crowd10/liaison/smith-constraints.md`, supersedes round-9 memo);
+  rebuild2 tracks executing per PREREG; scope-zero-until-C1 holds.
+
+### Round-11 addenda (2026-10-07, crowd11 — executor-grade, LARGELY UNADJUDICATED)
+
+**Red-team docket opened 2026-10-07 ~16:00 CDT EMPTY** — a full lane sweep
+found no round-11 executor packages on disk; baselines re-verified
+132/132 + 89/89 PASS green; audit bars pre-committed before any executor
+data. Later rulings: **R1 GRANT** (watch06 — all three falsifiers
+UNFIRED; ISLET 3 survives round 11 intact) and **R2 BANK**
+(smith-liaison delta memo); no kills, no demotions, no promotions.
+Register check bit twice, honestly: v8's 54 "ment" tokens are
+archive.org OCR word-splits (v8 phrase zeros VOID as French
+measurements); the clean 3.96M-token diplomatic corpus attests **«ne
+ment pas»=1** — the F70 @1355 gloss is rare-but-real, matching the F31
+genre reclassification. **No executor package below is adjudicated unless
+stated — treat all verdicts as provisional recommendations.** Interim
+kills: none. Five executors still running at R1/R2 time.
+
+- **este-verb-id (WO1): H0 HOLDS — no promotion, no demotion, no kill.**
+  The -este verb ID stays set-valued {manifeste, atteste, proteste,
+  conteste, déteste}. Three non-discriminating checks by construction:
+  (a) en-condition predecessor-gated (never fires at the este windows);
+  (b) v8 rates descriptive-only (manifeste 1, proteste 1, déteste 2,
+  atteste 0, conteste 0 — consistent with banked F-B era-neutrality);
+  (c) all five grammatical at every firm window. Two real findings: (1)
+  **a3-monovalence FAILS for every candidate** — @1190 (84 = middle
+  syllable) requires stem fragments that never equal the first-syllable
+  stems, so 84 is polyvalent across these windows OR @1190's verb ≠
+  @1448/@1804's verb (pre-registered: not a kill; polyvalence live
+  lane-wide); (2) **@1291 has a conditional discriminator** — @1291 and
+  firm @1804 share the byte-identical 5-mer suffix [35,94,52,80,4];
+  under the verb parse [35] is the «ne»-clause subject, so V must be
+  objectless → {manifeste, proteste} survive (intransitive-capable),
+  {atteste, conteste, déteste} excluded — CONDITIONAL (verb parse +
+  35's role), fenced, no demotion. Tie-breakers that would work: (T1) an
+  independent 84 stem ID outside the este frames; (T2) the «le»
+  antecedent or 36/35 with selectional force; (T3) 06's ID at @1190;
+  (T4) 17/35 resolving @1291; (T5) a second «qui le [84-59]» token.
+  Trace: `code/crowd11/este_verb/{PREREG.md,este_verb.py,este_verb_results.json}`.
+- **anchorer48 (WO2): 3 fences, 0 promotions, 0 kills.** PATH A (six "on
+  48" → suc): FENCED — A1 ("on"+W+"le") 0/10 PASS (("on",*,"le")=11 v8,
+  zero shortlist W; @1350's frame wants a VERB/"ne"/pronoun — but H_verb
+  killed 48-as-verb and 48="ne" is killed); A2 8/10 PASS but 6 are
+  word-driven. PATH B (four 82→48 under the mandated "m'"-premise):
+  premise FENCED (v8 ("m'",W)=verbs+pronouns only; under 82="m'", 48's
+  options collapse to killed classes). PATH D (48="de"-conditional):
+  FENCED with explicit missing legs — **D1 LICENSED** ("de le"+INF
+  29/29 hand-verified: faire×6, voir×4, …; "de la"+INF 13/439). @1350 OUT
+  (R-c exclusion + "on de" 0/2 genuine), @126 OUT ([m]+"de la" 0/92,594),
+  **@1076 IN-PENDING**. The narrow path has exactly 1 independent check
+  (D1 era); promotion needs a cipher-side suc2=infinitive ID — missing.
+  Out-of-scope observation (not a leg): @863 = 48-47-46 reads "de ce
+  que" ("de ce que"=10× v8) — a SECOND "de"-word frame outside the
+  narrow path; candidate follow-up. All fences conditional on non-GT
+  premises (62="on" fenced LEAD etc.) — none kills any 48 value. Trace:
+  `code/crowd11/anchorer48/{PREREG.md,anchor48.py,anchor48_results.json}`.
+- **census33 (WO3): 33 = infinitive-class (C1 PASS) → lean-veut at
+  @1450/@1623.** Census of 23 windows, all bars pre-registered: three
+  independent infinitive kinds — I1 pre==00 "pour" ×8 (E=0.68, p≈0), I4
+  suc==29 "-er" ×5 (E=0.56, p=0.0002), I2 pre==67-veut@1423 ×1; ZERO
+  GT-anchored nominal hits (the 2 N3/N6 hits chance-consistent, p=0.17).
+  The fork's own history corroborates unprompted: "et 33-er" ×2
+  (@273,@1477 — et coordinating infinitives), "veut 33-er" (@1423–1425 —
+  textbook modal+infinitive). Decider windows' own suc==46 ambiguous per
+  prereg (anti-circularity held). Grade capped at LEAN — 67="veut" stays
+  provisional, fork stays SUPPORTED, @1248 scope amendment untouched.
+  Caveats: 33's specific value unverified; 9/23 windows unclassified
+  (silence, not counterevidence); "pour" is lead-grade so I1 carries the
+  mark. Trace:
+  `code/crowd11/census33/{PREREG.md,census33_results.json}`.
+- **finisher67 (WO4): 1 of 6 classifies — @633 → et-CONDITIONAL (C1∧C2).**
+  New left-conditioned era frame "l' * et" vs "l' * veut" (conditions on
+  08="l'" lead): v8 **92:2** (ratio 46:1; middles noun-dominant —
+  "l'empereur et l'impératrice"-type coordination); L2 n(11→52)=3.
+  Frenchman check: the *"je l' X veut"* split-pronoun reading is
+  ungrammatical, so the veut-arm counts article-frames only — rate test
+  stays honest. The other 5: @1519 null (31 contested, leaning verbal;
+  V-1519b withdrawn — 08="l'" article/pronoun ambiguity voids it as an
+  unconditional nominal licensor), @1372 null (no dense frame: "et pour"
+  14<20), @902 null (92 contested: 00→92 ×6 verbal vs 11→92 ×3 nominal;
+  16-as-word unmeetable), @1450/@1623 open with the WO-3 decider applied
+  (33=C1-infinitive → veut-arm lives; no veut-arm bar exists — designing
+  one now would fit known data — so both stay open-residual).
+  Enlightenment: the productive move was left-conditioning — round 10
+  only tried right-conditioned frames; GT-anchored "la" (11) remains the
+  only clean nominal licensor. **Tally if granted: 29 classified + 2
+  conditional (@630, @633) + 5 open + 2 fenced = 38.** All counts on the
+  repaired 1,847-pair parse + Nesselrode v8 (NW=92,123). Trace:
+  `code/crowd11/finisher67/{PREREG.md,score67_r11.py,results_r11.json}`.
+- **arm1248 (WO5): "peu" STRENGTHENED 4/8; infinitive-class 3/7
+  WEAK-FENCED.** P-A PASS: **13** genuine "pour peu que"+subjunctive in
+  the new pool (11 RdM, 2 Guizot-DIP incl. Palmerston/Aberdeen
+  contexts) — every hit constituency-read, 0 artefacts; no longer
+  hapax-anchored in the broader 1841 record (v8 L1 stays failed). P-B
+  PASS: clause-shape S=(verb-offset 3, clause-length 4); PA-5 "pour peu
+  que cette lutte dure encore" matches exactly; modal offset-3 in 5/13.
+  E-A PASS (massively): **28 DISTINCT** genuine infinitives in "pour INF
+  que" (49/52 genuine); "empêcher" re-attested ×2 incl. EA-39 in
+  Eastern-Question register (ne-explétif + subjunctive). Fails: E-B/E-C/P-D
+  (0 everywhere). The sharper exposure: the double-pour stack "pour 33 16
+  pour 67 que" has NO era license anywhere checked, for either arm; @471
+  unhosted for both. The NEITHER-fence stands. Missing-leg inventory
+  banked per arm (v8 L1, L4 closure, @471 host, stacked-pour license,
+  n_eff=1). Trace:
+  `code/crowd11/arm1248/{PREREG.md,arm1248_strengthen.py,arm1248_strengthen_results.json}`.
+- **watch06 (WO6): all three falsifiers UNFIRED (round 11).** Census
+  identical rounds 9–11 ([580,738,1184,1355]; n06=44, n82=39 — no parse
+  drift). F66 @1184 fenced adverse re-audited, stays FENCED (both
+  candidate parses require unbanked readings the islet excludes — a
+  reminder that by-ear adverses must be checked against the conditioning
+  they attack). FIRE-OUT coverage limitation honestly reported (1/40
+  windows fully glossed — the ← leg is defended by anchor sparsity as
+  much as by evidence). n_eff=3 fragility banked: one clean falsifier
+  kills the islet. Trace:
+  `code/crowd11/watch06/{PREREG.md,watch11.py,watch11.log}`.
+- **smith-liaison (WO7): delta memo banked**
+  (`code/crowd11/smith_liaison/smith-constraints-round11.md` — carries
+  forward the round-10 memo, adds round-10 adjudication deltas). 3 GO /
+  0 KILL / 0 scored comparisons (no results dirs on any track; no file
+  newer than redteam/RULINGS.md); **10 islets in the registry**; 132/132
+  R10BANK + 89/89 ROUND10-LEDGER PASS; main-fleet scope stays ZERO until
+  C1.
+
 ---
 
 ## 5. Failures & null results (N-series)
@@ -1758,10 +2147,63 @@ P("la"|"ce"-syllable) ≤ 0.1805, and the observed 0.2188 *exceeds* it
 (non-discriminating); check (c) is n=3. Demoted to provisional/plausible.
 No alternative beats "ce" — the kill failed on alternatives and succeeded
 on scorecard integrity. Round-2's F13 dissolution and round-3's rival
-elimination (F19) strengthened the reading without re-promoting it; round-4's
-register FAIL (N18) killed the last statistical leg (cela). The reading
-now stands on ear-corroboration and rival-exhaustion, with kill authority
-held by the red team.
+  elimination (F19) strengthened the reading without re-promoting it; round-4's
+  register FAIL (N18) killed the last statistical leg (cela). The reading
+  now stands on ear-corroboration and rival-exhaustion, with kill authority
+  held by the red team.
+
+### Rounds 8–10 kill batch (adjudicated 2026-10-07; NOTES.md F60–F76)
+
+- **N33** — 48="ne"-allophone **REFUTED** (crowd8/homophonist, kill-grade
+  F60): merged word-rate 4.78× > 3× bar; "ne ce que" @863 (46="que" GT)
+  + "en ne ce" @1657–1660 adverses; −0.585 nats predecessor fit. 48 never
+  enters the status line; H_verb/H_stem tested separately in round 9.
+- **N34** — 93="l'" ALONE **rate-KILLED** (crowd8/frenchman, F61):
+  n=14 vs diplo E=31.26, exact P(X≤14)=4.1e-4, holds in every diplo slice
+  (v8 strict E=32.9, p=0.0003). Rescue: {93,8}="l'" unconditioned
+  homophones → LEAD.
+- **N35** — 86=que-family **REFUTED** (crowd9/conditioner, kill-grade
+  F65): «pour qu'» 21× over, «pour que» 9.2× over, «qu'pre/qu'pas/qu'plus»
+  impossible at 7/32 windows, 77-86 ×5 at era P≈0.00007, profile parity
+  fails (Jaccard 0.33/0.25). 86's value NULL; F40 verb-stem-class stands
+  as working hypothesis.
+- **N36** — Unconditioned 59="est" **REFUTED** (crowd10/conditioner59,
+  kill-grade F71): 8 independent adverses incl. @463 «la est» era-0
+  (0/3.96M). F52's provisional REFINED into ISLET 10 (59=word-«est» iff
+  pre∈{64,94,93}; 59=verb-final «-este» iff pre=84).
+- **N37** — H4g 94-82-06-06 4-gram refinement **REFUTED by the prereg's
+  literal formula** (crowd10/watch06, F72): executor p_comb=0.0410 used an
+  un-licensed method; recomputed under the literal formula p_comb=0.0508
+  > 0.05 → REFUTED (knife-edge 0.0008 — the bar is the bar). Closes as
+  post-hoc coincidence, NOT "untestable-at-n=2".
+- **N38** — 48=H_verb (conjugated verb) **KILLED** (crowd9/successor48,
+  F64): K2 fired — 0/2 "48 pas" windows ne-licensed (span-robust) AND
+  predecessor verb-licensing 31.6% < 40% bar; steelman denied as
+  post-hoc rescue. H_stem UNTESTED (cosine 0.387 < 0.60, n96=21
+  underpowered — explicitly not adverse).
+- **N39** — 48=S-word class **KILLED for 30** (crowd10/syllabicist48,
+  F75): structural pincer — "la" (GT) takes nominals, "on" (fenced
+  STRONG LEAD) takes verbs; no single French word at 2.06% follows both;
+  kill survives loss of 62="on". F76 EV1–EV9 individually veto
+  48={à,a,es,et,il,les,te,un,se,des}; 48="de" CONDITIONAL (narrow
+  pronoun+infinitive path); 48="com" NEUTRAL (fragment).
+- **N40** — Refuge concretizations ALL DEAD (crowd8/segmenter, F63):
+  four syllable classes run through signature + recoverability —
+  momentum z=−65…−112, ARI≈0 vs random nulls; schema survives only
+  LOGICALLY-OPEN-NO-EVIDENCE; full kill needs key recovery (standing).
+- **N41** — 67@1248 finite-verb third arm **vetoed era-0** (frenchman Gate
+  4, F67/F76): zero finite verbs in «pour X que» middles on every corpus
+  (the lone «dit» 1/4.2M is a past participle). cela-arm REFUTED on
+  substance (F73: v8 «pour cela que»×3 never bare constituents;
+  bare-constituent count = 0). Médiatrice-class DEAD (0 legs).
+- **N42** — **Honest-null battery:** 67's 6 residuals 0/6 classified
+  (crowd10/finisher67, F74); 62 on/il battery 0/4 (crowd9/resolver62,
+  F69); este-verb ID H0 holds (crowd11, round-11, unadjudicated).
+  Round-8–10 net: 0 promotions, 3 lead-tier status refinements
+  (Mehemet-Ali→LEAD-weak; 59 provisional→conditioned ISLET 10; 16="i"
+  stays unconditioned LEAD, B1-redirect exhausted), scoreboard 12 values
+  (7 GT + 4 provisional + 77="le"
+  provisional-conditioned). Baselines: 132/132 + 89/89 PASS.
 
 ---
 
@@ -1789,10 +2231,20 @@ held by the red team.
   inventory. New fence: "on-vs-il discrimination needs a non-ear
   resolution the current inventory cannot supply." Ranked unblockers:
   the "qu'on" whole-word cell, the l'-cell ("l'on" test), an
-  impersonal-verb cell, 48/98/16. Trace:
+  impersonal-verb cell, 48/98/16. Round 8 adds two non-ear legs
+  (crowd8/frenchman — F61): L_B 46→62=0 (LR=**21.3** for "on" via
+  qu'-elision rate asymmetry, M_hom-independent) and L_A (conditional on
+  M_hom: (93|8)→62 ×4 vs diplo l'+il=0); 62="il" → DISFAVORED-STRONG
+  (conditional, not fully killed). Round 9 (crowd9/resolver62 — F69):
+  N35 independent-cell battery **HONEST HOLD, 0/4** (C1 p_two_il=0.072
+  sub-bar lean — no quiet upgrade; C2/C3/C4 null; C1–C4 banked
+  tested-NULL); @100 "62 ne l'est" fenced n=1 descriptive, zero leg
+  weight. The Mehemet-Ali/@1248 blocker is NOT lifted. Trace:
   `code/crowd5/frenchman62_leg3_results.json`,
   `code/crowd5/redteam/rulings.md`,
-  `code/crowd6/frenchman62/battery62_results.json` (this sweep).
+  `code/crowd6/frenchman62/battery62_results.json`,
+  `code/crowd8/frenchman/results.json`, `code/crowd9/resolver62/`
+  (this sweep).
 - **78 three-way (WO1 adjudicated)** — "me"-WORD **disfavored-strong**
   (L1w 22.76×, audit-verified; no formal kill); "me"-SYLLABLE holds LEAD
   (L1s 1.131× in-band, F29-letter clear); **78={ver,er} fork**
@@ -1803,12 +2255,34 @@ held by the red team.
   alternative; the "≠me" core stands; n_eff=1). **COEXIST —
   neither kills the other.** The N11/N14-era adverse (77→78 ×7) was a
   category error (word "me" tested against a syllable bigram) — dissolves
-  under the syllable reading. Trace: `code/crowd5/bigram78_77_578.py`,
-  audit, `code/crowd7/report_inbox/redteam-f26-17-t4.md`.
+  under the syllable reading. **Round 9 (F66): H3a NEW WEAK LEG for
+  tine (c)** — er|ne boundary productive (52 tokens/22 types) vs ver|ne
+  zero genuine common words (**10.4×**, Fisher p=**3.2e-11**, pre-registered
+  bar passed; gouvernement-family excluded) — lean (c) strengthened, fork
+  unresolved, lean (c) now has lexicon-lean + H3a + H3b (crib-inventory:
+  (c) needs 1 novel syllable {gouv}, (a2) needs 2 {gou,ver}). @1351–1356
+  era-frame: @1180's frame is era-modal ("le"+gouvernement) but @1351's is
+  era-anomalous both sides (H1c: "on" at L2 = 0/641; H1d: "le qui" =
+  0/391,210). **Round 10 (F70): @1351–1356 resolved R-c** («le [78] ne
+  ment pas») — the gouv parse is OUT at @1351; 78="ver" by-ear gloss
+  @1352 dies (positional membership kept, next=94); fork {ver,er}
+  UNRESOLVED. **Germanist watch-item (F68):** if a STANDALONE 78="er"
+  window is ever found outside the formula, German "er" (= he/him)
+  becomes a live rival to French er-final-syllable readings — flag then,
+  not now. Trace: `code/crowd5/bigram78_77_578.py`,
+  audit, `code/crowd7/report_inbox/redteam-f26-17-t4.md`,
+  `code/crowd9/hunter7778/{h1_h2_h4.py,h3_fork.py,h3a_results.json}`,
+  `code/crowd10/resolver1351/` (this sweep).
 - **77="le"** — PROMOTED → **provisional (CONDITIONED)** (F31): 77→86 ×5
   object-pronoun frame + verb-stem; adverses fenced ("ce le"×2, "le me"×7
   conditional, 4.07× overshoot); "gou"@1180/@1351 exception fenced
-  (n_eff=1). Trace: `code/crowd5/redteam/rulings.md` Ruling 2.
+  (n_eff=1). **Round 10 (F70): 77="le" GAINS @1351** — the fenced "gou"
+  exception existed only for the 5-mer; with R-b dead at @1351, 77@1351
+  falls back to F37's conditioned default; the "gou" exception shrinks to
+  @1180-only (untouched, out of scope). No re-litigation of F56's killed
+  unconditioned {77,00}="le" merger (distinct from the conditioned
+  reading). Trace: `code/crowd5/redteam/rulings.md` Ruling 2,
+  `code/crowd10/resolver1351/` (this sweep).
 - **47="ce"** — LEAD strengthened (F34): B1 0.996× exact (Wilson
   [0.037,0.272]); Q1 qui/que complementarity + Q2 fragment rule as
   F33-form conditions; C2 dissolved (F29-void); unigram 2.13/1.446;
@@ -1837,7 +2311,11 @@ held by the red team.
   "me le"×2 (@258/@1305, 77="le" prov) + weak "que me"×1 + weak "il me"×1
   (88="il" unestablished) vs adverse "me ce"×2/n_eff=1 (formula), "la me"×1,
   "ce me"×1, "le me"×3 (conditional on 37="le" [MEDIUM]). Kill rule n≥3
-  not met → no kill; adverses outweigh supports → WEAK. Cleanest repair
+  not met → no kill; adverses outweigh supports → WEAK. Round-9 (F65):
+  **43="me" suffers a clitic-order adverse IN THE qui-96-43 FRAME** («qui
+  [V] me» ungrammatical — object clitics precede the verb) — banked
+  datum; 43="me" WEAK stands globally, not here. qui-96-43 ×2 formula
+  HOLD (@341/@1025; not @1024 — shift verified). Cleanest repair
   remains conditioned polyvalence (43="me" iff pre≠96) or 43≠"me".
 - **24** — unidentified: "en" strong (24→87 ×10 at 26–31× over era
   P(ce|en); "en ce qui"=24-87-64 ×2 kills "de" there); "tout" 1.6× weak;
@@ -1850,24 +2328,81 @@ held by the red team.
 - **67="veut"** — provisional (veut-class): 67→33→29 ×3 ("veut parler");
   "les veut" 21→67 ×8 → *vouloir*; red-team-3 demoted its CONFIRMED →
   provisional (circular compat: 06→77 counted while 77="pas" under test).
-- **59="est"** — STRONG LEAD (executor-grade, pending red-team — F44):
-  the unique rate-survivor for 84's top follower (1.39×); "qui est" ✓;
-  "n'est" at era P=0.238 (n=324); "on n'est" ✓; "c'est" @824. Fenced
-  adverse: 59→37 ×6 reads 6.47× over era, conditional on 37="le"
-  [MEDIUM]. Interacts with the 01="est" lead (/ɛ/→{01,59} allophony vs
-  01≠"est"; touches A1's "c'est" count) — a red-team call. Subsumes the
-  bigram closer's 59="verb" [LEAD] as the specific form.
+- **67 et/veut fork (round-8–11 state)** — **SUPPORTED, fenced scope**
+  (F67/F74, adjudicated; round-11 finisher/census33 unadjudicated):
+  round-9: 29/38 classified standing; @1248 NEITHER-fence UPHELD (option
+  (c); new finite arm declined with evidence; "pour * que" middles
+  {cela:3, empêcher:1}; finite-verb arm era-0 vetoed — Gate 4 revised:
+  bound = {peu}-class + infinitive only); @199 NEITHER-fence CONDITIONAL
+  on 08="l'"; @630 et-CONDITIONAL (C1∧C2 explicit — not a
+  classification); 6 open-residual (no ≥2-leg bar); R_veut4 dropped at
+  design time ("me veut"=0). **Round-10 (F74):** 0/6 residuals
+  classified — clean null; 29/36 classified; **decider for
+  @1450/@1623: 33's class.** **Round-11 (recommendations, red-team
+  pending):** census33 finds **33 = infinitive-class** (C1 PASS: three
+  independent kinds — I1 pre==00 "pour" ×8 E=0.68 p≈0; I4 suc==29
+  "-er" ×5 E=0.56 p=0.0002; I2 pre==67-veut@1423 ×1; zero GT-anchored
+  nominal hits) → **lean-veut at @1450/@1623** (67="veut" stays
+  provisional; fork's own history corroborates unprompted: "et 33-er" ×2
+  @273/@1477, "veut 33-er" @1423–1425); finisher classifies 1/6 — **@633
+  → et-CONDITIONAL (C1∧C2)** on the new left-conditioned frame "l' *
+  et" vs "l' * veut" (v8 **92:2**, ratio 46:1; L2 n(11→52)=3);
+  @1519/@1372/@902 null (31 contested verbal-lean; 92 contested
+  verbal/nominal; no dense frames); @1450/@1623 open with the decider
+  applied. **Tally if granted: 29 classified + 2 conditional + 5 open +
+  2 fenced = 38.** Round-8 morphologist note: @1248 is a genuine fork
+  counterdatum (bound, not kill — "pour et que"/"pour veut que"
+  double-zero across 4.2M tokens; fork not universal at @1248);
+  red-team upheld the fence. Germanist watch-item: if @1248's X ever
+  resolves to "cela/ça", that is a "dafür daß" calque (evidence FOR
+  German interference). Trace: `code/crowd9/finisher67/`,
+  `code/crowd10/finisher67/`, `code/crowd11/{census33,finisher67}/`
+  (this sweep).
+- **59 — ISLET 10 (conditioned polyvalence), LEAD (round-10, adjudicated
+  F71; the provisional F52 is REFINED, not killed):** 59=word-«est» iff
+  pre(59)∈{64,94,93} (est-arm 6/6: «qui est»×3, «n'est»×2, «l'est»×1;
+  rates in-band on Nesselrode v8: P(59|64)=0.0638 vs P(est|qui)=0.0852);
+  59=verb-final «-este» iff pre=84 (este-arm 4/4: @1190/@1448/@1804
+  firm, @1291 fenced). Proposed pre=06/{61,44}/86 extensions EXCLUDED as
+  post-hoc (fenced LEAD sub-tiers, not rule members). **Unconditioned
+  59="est" REFUTED kill-grade** (8 adverses incl. @463 «la est» era-0,
+  0/3.96M). F52 caveat-3 dissolved (S4#1 @216 = «[06-59] que» verb
+  parse). -este verb ID set-valued {manifeste 131, atteste 35, proteste
+  20, conteste 19, déteste 23} (diplo counts /3.96M); reste EXCLUDED at
+  «qui le» (intransitive); round-11 (unadjudicated): H0 holds — a3
+  monovalence fails for every candidate (84 polyvalent across @1190 vs
+  @1448/@1804, or different verb there); @1291 has a conditional
+  discriminator (shares byte-identical 5-mer suffix [35,94,52,80,4] with
+  firm @1804 → {manifeste, proteste} if verb-parse + 35=subject holds).
+  S1 unigram preserved 1.07× (mixture, not excess). Trace:
+  `code/crowd9/conditioner/islet_registry.md` (ISLET 10),
+  `code/crowd10/conditioner59/{PREREG.md,ISLET10-PROPOSAL.md,classification.json}`,
+  `code/crowd11/este_verb/` (this sweep).
 - **00="pour"** — STRONG LEAD (executor-grade, pending red-team — F45):
   M1 governor frame (00→86 ×12 "pour [inf]" vs 00→06 ×0) + conditional
   rates + full rival sweep (à/de/en/par/dans/sur/avec/avant/afin/pendant/
   sans/après/et all killed); promotion blocked on rates (unigram 6.22×,
   "pour que" 3.85× — needs the diplomatic corpus).
-- **84="en" vs 84=noun-class** — UNRESOLVED EXECUTOR CONFLICT (both LEAD,
-  F46): closer reads "en" (E1 1.10×, E2 1.36×, "l'en" 141×/63× blocking);
-  bigram closer reads masculine noun, identity NULL ("le 84" ×7, "que 84"
-  ×2, "fait" 6.75×/ "gouvernement" 6.12× kills). Resolution hypothesis:
-  conditioned polyvalence (84="en" iff pre∈{46,94,82}, noun iff
-  pre∈{77,11}) — untested, needs its own battery (round-7 work order).
+- **84="en" vs 84=noun-class** — RESOLVED toward conditioned polyvalence
+  (crowd8/9, F62/F65, adjudicated): 84="en" iff pre∈{82} (GT-anchored
+  "m'en" @167, n_eff=1) ∪ pre∈{66,89} (conditional on CONFIRMED 66-class
+  {noun, infinitive, nous/vous-type} and 89 noun-class — F65); the
+  «qu'en» core is DEAD («qu'en» legs @310/@473 withdrawn: "qu'en en"
+  era-0 0/4.2M; 24="en" holds locally; F53's stated rule falsified).
+  **Noun identity NULL STANDS** (not one era-rate masculine noun: best
+  pas 0.38×, fait 0.11× — 13×+ gaps); «qui le 84 est» ×2
+  (@1447/@1803) is NOT article+noun — reads pronoun+verb → «qui le
+  [verb=84-59]» ×2 lead, refined round-9 (noun+"est" dead at @1447/@1803;
+  59="est"-as-word era-0 there, fenced n=2; bisyllabic-verb unit
+  hypothesis-internal, needs unbanked 59 polyvalence → became ISLET 10).
+  13 free windows: 4 EN-EXTENSION (conditional), 9 RESIDUAL (classified,
+  no islet change). 84="en" frame notes: @391 en-lean n=1; @788 «s'en»
+  conditional on unadjudicated 65="se"; @857 adverse-lean withdrawn
+  (depended on killed 48="ne"); @1501 adverse-lean fenced (74="te"
+  LEAD); @1189/@1290 en-lean («en est» era-real but subjectless frame
+  strained); @1418 plain. Trace: `code/crowd8/conditioner84/`,
+  `code/crowd9/conditioner/{census_results.json,era9_results.json,islet_registry.md}`
+  (this sweep).
 - **78-45="même"** — LEAD (executor-grade, pending red-team — F47):
   0.57× in-band with era locks ("le même" 87×, "même qui" 11×); @313 =
   "le même qui" (grammatical lock under 37="le" [MEDIUM]); implies 45/78
@@ -1876,48 +2411,136 @@ held by the red team.
 - **Medium leads:** 37="le", 01="est", 56="plus", 17="fois"
   (weak). 21="les" weakened (21→64×2 era-zero under both 64-reads).
   43="me" demoted MEDIUM→WEAK (F48/F61 — has its own entry above).
-- **16="i" (second i-group)** — NEW LEAD (executor-grade, n=1, NOT
-  established — F55): the "parmi" @1196–1198 [96,82,16] proposal entails
-  16="i"; 34=i is GT, so this is a second 'i' group (parallel to 87/47
-  for "ce"). Supporting: 82→16 ×11 (29% of 82's followers) reads m|i, and
-  16's top predecessor is 82=m. Needs its own battery — round-6 work per
-  the note.
+- **16="i" (second i-group)** — LEAD, unconditioned (executor-grade —
+  F55; crowd8/patternist F59-amended, adjudicated GRANTED): the B1-redirect
+  position-conditioned alternative is NOT SUPPORTED (T1 Fisher p=0.9398
+  in the wrong direction — S1 GT-only p=1.0; T2 "premier"/"première"
+  frame vacuous — masculine frame 0 occurrences). The redirect is
+  exhausted; 16 stays unconditioned LEAD on its B2/B3 legs; no
+  conditioned rule exists. Caveat: T1's WI set leans on provisional
+  values (bounded by the GT-only sensitivity, which also fails).
 - **00="le" ×3** — NEW LEAD (executor-grade — F60): 96-00 "par le" ×3
   (@47/@465/@960, mutually consistent on 00="le"; null 64/11,870 = 0.5%
   @465). **TENSIONS F40 00="pour"** (flagged, not resolved) — a dedicated
   battery must adjudicate 00="le" vs 00="pour". Trace:
   `code/crowd6/period_drag/results.json`.
-- **"Mehemet-Ali" @8** — NEW LEAD (executor-grade — F60):
-  [78,18,93,62,98] = me|he|met|a|li, anchor-bearing on the 78={me,ver}
-  islet, null 33/11,870 = 0.28%, despatch-opening position. Needs its own
-  battery (10 anchor-bearing windows exist; LEAD-grade islet dependency).
-  Trace: `code/crowd6/period_drag/t7_anchored.json`.
+- **"Mehemet-Ali" @8** — **LEAD-weak** (DEMOTED from LEAD, crowd8/patternist
+  — F59-amended, adjudicated GRANTED): **62-tension adverse** — the
+  me|he|met|a|li tiling needs 62='a' vs lane STRONG LEAD 62="on"; zero
+  len-5 me-initial tilings in the by-ear top-8 avoid /a/ on 62
+  (conditioned-62 polyvalence dissolves it only at the cost of a new
+  posit); **"mêleront"** (me|le|r|on|t) is a fully 62-compatible
+  common-word rival (33/33 @8 fitters reproduce exactly; only ONE
+  compatible with 62="on"). M2 (spelling/topicality) stands — demotion,
+  not kill. **RdDM "293×" VERIFIED exact** (F59 UNVERIFIED flag LIFTED):
+  293 clean-form 'Méhémet-Ali' in the 1841 RdDM 4-tome run (318 incl.
+  variants; cite with OCR caveat); AZ German "Mehemed Ali" 75×
+  (pronounced /h/ — under the German-thought premise the 'he' cell is
+  by-ear; M3's purity adverse STRUCK, scoped to German phonetics — the
+  general interference premise is NOT banked); "Mohammed" 15× = Dost
+  Mohammed (formally excluded). Promotion blocked on 62="on"
+  resolution (F69 blocker NOT lifted). Trace:
+  `code/crowd8/patternist/{round8.py,round8_results.json}`,
+  `code/crowd9/germanist/az_evidence.json` (this sweep).
 - **T4 (c) "gouvernement"** — LEAD (red-team adjudicated — F61): tiling
   (c) gouv|er|ne|m|ent SURVIVES, (a) le|gou|ver|m|ent DISFAVORED; 94="ne"
   and 77="le" keep their status. (c)'s 77="gouv"/78="er" islets are
-  n_eff=1 and need independent support before any promotion. Trace:
-  `code/crowd7/report_inbox/redteam-f26-17-t4.md`.
+  n_eff=1 and need independent support before any promotion.
+  **Round-10 update (F70):** the @1351 leg is gone — 77="gouv" is now
+  @1180-only (n=2→1, no kill); 78="ver" by-ear gloss @1352 died
+  (positional membership kept). Trace:
+  `code/crowd7/report_inbox/redteam-f26-17-t4.md`,
+  `code/crowd10/resolver1351/` (this sweep).
+- **48 UNIDENTIFIED** (rounds 8–11; F60/F64/F75/F76, adjudicated;
+  round-11 anchorer unadjudicated): n48=38 confirmed (predecessors 19
+  distinct, successors 29 distinct/38 — repaired-parse correction).
+  KILLED: 48="ne"-allophone (F60), H_verb conjugated-verb (F64 — K2:
+  0/2 "48 pas" ne-licensed, V3 31.6%<40%), S-word class for 30 (F75 —
+  structural pincer; F76 EV1–EV9 veto 48={à,a,es,et,il,les,te,un,se,des}
+  individually). LIVE-RESIDUAL: **10 S-syl LEAD-weaks NOT granted as
+  statuses** (rate-band shortlist datum only — de 0.66× … com 2.37×;
+  mutually exclusive; S1 cannot separate them; "de" carries @1525
+  tension vs 96="par" prov); **48="de" CONDITIONAL** (narrow
+  pronoun+infinitive path: «de le»+INF 29/29 hand-verified; @1350 and
+  @126 OUT, @1076 IN-PENDING — round-11 recommendation); 48="com"
+  NEUTRAL (fragment). H_stem (96-family) UNTESTED (cosine 0.387 < 0.60,
+  n96=21 underpowered — explicitly not adverse; the 0.40 signature bar
+  miscalibrated: lane's own reference stem 06 scores 0.318). "on 48"×6
+  association real (p=7.6e-05) but no verbal signature; "48 pas"×2
+  statistically null. V1 generalized: «X pas»-bare era-0 for ALL word X
+  — 48's escape must be structural (52-polyvalence, ne-merger, or
+  fragment), not lexical. Trace: `code/crowd8/homophonist/`,
+  `code/crowd9/successor48/`, `code/crowd10/syllabicist48/`,
+  `code/crowd10/frenchman/`, `code/crowd11/anchorer48/` (this sweep).
+- **{93,8}="l'" LEAD (unconditioned homophones)** (crowd8/frenchman —
+  F61, adjudicated GRANT): joint n=32 vs diplo E=31.26 dead-center
+  (p 0.47–0.60 all slices); free intermixing (shared pre {67,85,45},
+  shared fol {52,29,62}); "ne l'est" @101–103; both cells pass B1 shape.
+  93="l'" ALONE rate-KILLED (p=4.1e-4). Fenced costs: 93→52=2 / 8→52=1
+  ("l'pas", era-0 — needs a vowel-initial third reading of 52; the
+  (93/8="l'")∧(52="pas") conjunction vetoed per-window), 87→8=1.
+  Rate-saturation corollary: 32≈31.3 leaves no room for fused l'V
+  cells — caps the model space. Trace:
+  `code/crowd8/frenchman/{s1_data.py,s2_allophony.py,results.json}`,
+  `code/crowd9/frenchman/` Gate 1 (this sweep).
+- **06="ent" iff pre=82 — ISLET 3, conditioned LEAD** (crowd8/frenchman
+  F61 → watch06 rounds 9–11, adjudicated R1s): n=4
+  (@580/@738/@1184/@1355), n_eff=3; F33-form with a banked falsifier.
+  FIRE-PART/FIRE-IN/FIRE-OUT all unfired three rounds running; census
+  identical rounds 9–11 (no parse drift). Coincidence probe P(X≥4)=
+  0.0138, 4.31× (honest middle band — neither adverse nor "selection
+  real"; one window from the fence). **n_eff=3 fragility banked as a
+  standing caveat: one clean falsifier kills the islet.** By-ear: @1355
+  now glossed «le [78] ne ment pas» (F70); @580 fenced admissible; @1184
+  adverse-fenced (argues against the islet with a reading the islet
+  excludes); @738 fenced (lone 82-06, no 94 prefix). H4g 4-gram
+  refinement REFUTED (F72, literal-formula). Post-hoc observation: both
+  suc=6 windows are islet windows (not scored). v8 register caveat: v8's
+  54 "ment" tokens are OCR word-splits (phrase zeros void); «ne ment
+  pas»=1 on the clean 3.96M diplo corpus (round-11 register check —
+  attested, rare-but-real). Trace:
+  `code/crowd9/conditioner/islet_registry.md` (ISLET 3),
+  `code/crowd9/watch06/`, `code/crowd10/watch06/`,
+  `code/crowd11/watch06/` + `code/crowd11/redteam/RULINGS-ROUND11.md`
+  (this sweep).
+- **96=verb-stem iff pre==64 & suc==47, LEAD at n_eff=1**
+  (F55/F63, adjudicated): the WO-6 "second window before promotion"
+  criterion is RETIRED (impossibility proof — singleton by
+  construction). Promotion must come from adjacent islets or corpus
+  legs. Adjacent-islet lead: **qui-96-43 ×2 formula** (45-64-96-43-87-01
+  @341/@1025, diverge 06-70 vs 03-29; HOLD — classification denied per
+  F33's no-post-hoc-expansion rule). 96="par" stays provisional
+  (F44); the verb-stem reading is distinct from it. Downstream-verb
+  hunt for the @151 parenthetical: null (round-7 null stands; diplo's 5
+  "ce qui __ ce que" frames all verb-led, but the cipher's downstream is
+  unidentified). Trace: `code/crowd8/morphologist/{prereg.md,results_r8.json}`
+  (this sweep).
 - **REFUTED (closed):** 24="est", 06="ne", 06=/mɑ̃/ (killed by GT mute-e),
   06="ent" general, H5 "J'ai l'honneur de" (82 is the GT 'm' cell),
   96="de", 77="plus", 77="ne"-swap, 06="de"/"le", 96="pour", 96="a/à",
   41="ter"/"mer", 64="même" (bounded), 78="me" promotion (rejected → LEAD),
   47="me" (word reading, hard zero), 01="ci", 84="plus" (via 59="est"),
-  84="a", 84=verb-class.
+  84="a", 84=verb-class. **Added this sweep:** 48="ne"-allophone (F60,
+  kill-grade); 93="l'"-alone (F61, p=4.1e-4); 86=que-family (F65,
+  kill-grade); unconditioned 59="est" (F71, kill-grade); H4g 4-gram
+  refinement (F72, literal-formula); 48=H_verb (F64, K2 fired);
+  48=S-word class ×30 (F75, structural pincer);
+  48={à,a,es,et,il,les,te,un,se,des} word-readings (F76 EV1–EV9);
+  67@1248 finite-verb arm (Gate 4, era-0); «pour cela que»
+  bare-constituent (F73, 0/3); médiatrice-class (F73, 0 legs);
+  «qui le [V] est»-as-word @1447/@1803 (F76 EV10); R_veut4 (dropped at
+  design time, F67); the «qu'en» core of 84's condition (F62 — 46-part
+  falsified); WO-6 second-window criterion (retired, F63); refuge
+  concretizations ×4 (F63 — schema open-no-evidence); refuge
+  columns-coda concretization (N43-flagged); {77,00}="le" unconditioned
+  merger (F56).
 
 ---
 
 ## 7. Next steps (from STATE.md, round-5 work orders + adjudications, round-6 sweep)
 
-1. **Refresh fig5** — round-5 rows already banked (fig5 png current,
-   2026-10-07). NOT regenerated this sweep: none of
-   `make_report_figures.py`'s input data files (repaired parse,
-   `data/attempt3_results.json`, `code/crowd4/phase_map_repaired.json`)
-   changed; `scorer_identifiability.json` is not a figure input. The
-   board list is HARDCODED in the script — adding round-6, round-7, bedrock,
-   and side-rotation rows requires editing the `board` list and re-running the
-   script exactly as documented; queue for the next sweep. Figs 1–4/6 are
-   current (fig6's χ²=366.3 annotation carries the memo3 noisy-detector
-   caveat — F62).
+1. **Refresh fig5** — superseded by item 16 below (rounds 6–11 rows
+   still queued).
 2. **Rebuild the skeleton ledger and repair the tester harness** on the
    1,847 parse (`code/sidepath/build_skeleton.py` asserts the old 1,846;
    `code/side-keyhunt/test_table.py` likewise). Still not done. Bedrock
@@ -2010,6 +2633,34 @@ held by the red team.
     archived crowd5 JSON holds only 9 descents (1/3, 2/3, 0/3), which
     explains the original flag. The 105-descent record now rests on the
     round-6 re-derivation (`code/crowd6/scorer/step0_baseline.json`).
+15. **Rounds 8–11 complete (2026-10-07)** — 0 promotions across all
+    three rounds (bar held the 8th/9th/10th rounds); adjudicated net:
+    ISLET 10 registered, 7 kill-grade refutations
+    (48="ne", 93-alone, 86=que-family, unconditioned-59, H4g,
+    48-H_verb, 48-S-word), @1351–1356 resolved R-c, refuge schema
+    open-no-evidence. **Round-11 recommendations await red-team
+    adjudication:** este-verb H0 (set stays), anchorer48's 3 fences
+    (A/B/D with @1076 in-pending), census33's C1-infinitive (→ lean-veut
+    at @1450/@1623), @633 et-CONDITIONAL, "peu" 4/8 strengthened /
+    infinitive-class 3/7, watch06 all-unfired (granted R1). Round-12
+    work orders: adjudicate the round-11 packages; tie-break ISLET 10's
+    -este verb (T1–T5); cipher-side suc2=infinitive ID for the 48="de"
+    narrow path (@1076); red-team-approved veut-arm bar for
+    @1450/@1623; pool re-run of @471/P-C for @1248 arms; keep the 06
+    falsifier watch standing (n_eff=3 — one clean falsifier kills the
+    islet); Smith round 2 remains rebuild2-side (main-fleet scope ZERO
+    until C1).
+16. **Fig5 refresh still queued** — the board list in
+    `code/make_report_figures.py` is hardcoded through crowd rounds
+    1–5 + sidepaths; rounds 6–11 rows (62 battery, redteam F26-17, T4,
+    bedrock, F60–F76, ISLET 10, @1351, @1248 arms) require editing the
+    `board` list and re-running exactly as documented. **Not done this
+    sweep: fig inputs in `data/` (attempt1–3_results.json, quadgrams,
+    Gutenberg texts, upstream R5005 files — all mtime ≤12:32 today) are
+    unchanged since the PNGs were built (16:09 today), so no figure was
+    regenerated — the underlying data did not change.** Figs 1–4/6 are
+    current; fig6's χ²=366.3 annotation carries the memo3
+    noisy-detector caveat (F62).
 
 **Blockers:** R5006–R5008 NOT obtainable (operator registered `alexrivers`
 on de-crypt.org 2026-10-07, but full-size images need admin elevation —

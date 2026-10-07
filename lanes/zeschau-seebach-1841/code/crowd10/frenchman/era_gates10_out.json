@@ -1,0 +1,1326 @@
+{
+ "corpus_sizes": {
+  "v8": 92594,
+  "primary": 372668,
+  "diplo_ness8_guizot": 391210,
+  "all": 4218106
+ },
+ "Q1_1351": {
+  "window_1348_1359": {
+   "groups": [
+    34,
+    62,
+    48,
+    77,
+    78,
+    94,
+    82,
+    6,
+    52,
+    37,
+    64,
+    35
+   ],
+   "labels": "73=? 34=i 62=? 48=? 77=? 78=? [94=?] 82=m 6=? 52=? 37=? 64=? 35=?"
+  },
+  "ne_ment_pas_v8": 0,
+  "ne_mentent_pas_v8": 0,
+  "ne_ment_v8": 0,
+  "ment_pas_bare_v8": 0,
+  "ne_ment_pas_primary": 0,
+  "ne_mentent_pas_primary": 0,
+  "ne_ment_primary": 0,
+  "ment_pas_bare_primary": 0,
+  "ne_ment_pas_all": 1,
+  "ne_mentent_pas_all": 0,
+  "ne_ment_all": 1,
+  "ment_pas_bare_all": 2,
+  "ne_V_pas_trigrams_v8": 242,
+  "n_gouvernement_diplo": 641,
+  "gouvernement_pas_adjacent_diplo": 0,
+  "gouvernement_pas_within3_diplo": 5,
+  "on_L1L2_gouvernement_diplo": 0,
+  "on_L1L2_gouvernement_v8": 0,
+  "le_qui_diplo": 0,
+  "le_qui_v8": 0,
+  "pas_le_qui_diplo": 0,
+  "le_ver_v8": 0,
+  "le_ver_diplo": 0,
+  "le_ver_all": 9,
+  "ver_initial_words_v8_top": [
+   [
+    "vers",
+    11
+   ],
+   [
+    "verrez",
+    9
+   ],
+   [
+    "verrons",
+    9
+   ],
+   [
+    "verbalement",
+    5
+   ],
+   [
+    "verrai",
+    4
+   ],
+   [
+    "verra",
+    3
+   ],
+   [
+    "vernement",
+    3
+   ],
+   [
+    "verstes",
+    2
+   ],
+   [
+    "vera",
+    2
+   ],
+   [
+    "verre",
+    2
+   ],
+   [
+    "version",
+    2
+   ],
+   [
+    "verez",
+    2
+   ]
+  ]
+ },
+ "Q2_59frames": {
+  "n59": 27,
+  "windows_59": {
+   "103": {
+    "pre": 93,
+    "suc": 45
+   },
+   "216": {
+    "pre": 6,
+    "suc": 46
+   },
+   "316": {
+    "pre": 64,
+    "suc": 32
+   },
+   "448": {
+    "pre": 61,
+    "suc": 32
+   },
+   "463": {
+    "pre": 11,
+    "suc": 42
+   },
+   "528": {
+    "pre": 44,
+    "suc": 37
+   },
+   "554": {
+    "pre": 86,
+    "suc": 34
+   },
+   "559": {
+    "pre": 94,
+    "suc": 30
+   },
+   "624": {
+    "pre": 14,
+    "suc": 37
+   },
+   "763": {
+    "pre": 94,
+    "suc": 39
+   },
+   "825": {
+    "pre": 87,
+    "suc": 38
+   },
+   "834": {
+    "pre": 76,
+    "suc": 35
+   },
+   "912": {
+    "pre": 83,
+    "suc": 37
+   },
+   "1178": {
+    "pre": 48,
+    "suc": 37
+   },
+   "1186": {
+    "pre": 6,
+    "suc": 42
+   },
+   "1190": {
+    "pre": 84,
+    "suc": 46
+   },
+   "1210": {
+    "pre": 64,
+    "suc": 32
+   },
+   "1291": {
+    "pre": 84,
+    "suc": 35
+   },
+   "1443": {
+    "pre": 68,
+    "suc": 37
+   },
+   "1448": {
+    "pre": 84,
+    "suc": 36
+   },
+   "1496": {
+    "pre": 15,
+    "suc": 24
+   },
+   "1511": {
+    "pre": 61,
+    "suc": 39
+   },
+   "1715": {
+    "pre": 44,
+    "suc": 30
+   },
+   "1777": {
+    "pre": 64,
+    "suc": 19
+   },
+   "1796": {
+    "pre": 94,
+    "suc": 37
+   },
+   "1804": {
+    "pre": 84,
+    "suc": 35
+   },
+   "1833": {
+    "pre": 16,
+    "suc": 36
+   }
+  },
+  "qui_le_V_est_all": 2,
+  "qui_le_V_est_diplo": 0,
+  "qui_le_X_est_v8": 0,
+  "este_verbs": {
+   "déteste": {
+    "v8": 2,
+    "qui_le_vb_v8": 0,
+    "qui_le_vb_diplo": 0,
+    "qui_le_vb_all": 0
+   },
+   "conteste": {
+    "v8": 0,
+    "qui_le_vb_v8": 0,
+    "qui_le_vb_diplo": 0,
+    "qui_le_vb_all": 0
+   },
+   "atteste": {
+    "v8": 0,
+    "qui_le_vb_v8": 0,
+    "qui_le_vb_diplo": 0,
+    "qui_le_vb_all": 0
+   },
+   "proteste": {
+    "v8": 1,
+    "qui_le_vb_v8": 0,
+    "qui_le_vb_diplo": 0,
+    "qui_le_vb_all": 0
+   },
+   "manifeste": {
+    "v8": 1,
+    "qui_le_vb_v8": 0,
+    "qui_le_vb_diplo": 0,
+    "qui_le_vb_all": 0
+   },
+   "reste": {
+    "v8": 34,
+    "qui_le_vb_v8": 0,
+    "qui_le_vb_diplo": 0,
+    "qui_le_vb_all": 0
+   },
+   "teste": {
+    "v8": 1,
+    "qui_le_vb_v8": 0,
+    "qui_le_vb_diplo": 0,
+    "qui_le_vb_all": 0
+   },
+   "déneste": {
+    "v8": 0,
+    "qui_le_vb_v8": 0,
+    "qui_le_vb_diplo": 0,
+    "qui_le_vb_all": 0
+   },
+   "infeste": {
+    "v8": 0,
+    "qui_le_vb_v8": 0,
+    "qui_le_vb_diplo": 0,
+    "qui_le_vb_all": 0
+   },
+   "peste": {
+    "v8": 1,
+    "qui_le_vb_v8": 0,
+    "qui_le_vb_diplo": 0,
+    "qui_le_vb_all": 0
+   }
+  },
+  "n_prime_est_v8": 139,
+  "qui_est_v8": 66,
+  "c_prime_est_v8": 352,
+  "l_prime_est_v8": 6,
+  "la_est_bare_v8": 0,
+  "ne_est_bare_v8": 0,
+  "est_que_v8": 51
+ },
+ "Q3_48": {
+  "n48": 38,
+  "windows_48": {
+   "126": {
+    "pre": 82,
+    "suc": 11
+   },
+   "170": {
+    "pre": 12,
+    "suc": 21
+   },
+   "283": {
+    "pre": 42,
+    "suc": 52
+   },
+   "361": {
+    "pre": 62,
+    "suc": 76
+   },
+   "365": {
+    "pre": 78,
+    "suc": 49
+   },
+   "377": {
+    "pre": 82,
+    "suc": 0
+   },
+   "398": {
+    "pre": 82,
+    "suc": 6
+   },
+   "426": {
+    "pre": 62,
+    "suc": 76
+   },
+   "450": {
+    "pre": 32,
+    "suc": 79
+   },
+   "542": {
+    "pre": 29,
+    "suc": 42
+   },
+   "641": {
+    "pre": 89,
+    "suc": 20
+   },
+   "710": {
+    "pre": 12,
+    "suc": 71
+   },
+   "729": {
+    "pre": 86,
+    "suc": 88
+   },
+   "810": {
+    "pre": 12,
+    "suc": 24
+   },
+   "856": {
+    "pre": 32,
+    "suc": 84
+   },
+   "863": {
+    "pre": 74,
+    "suc": 47
+   },
+   "872": {
+    "pre": 89,
+    "suc": 20
+   },
+   "928": {
+    "pre": 96,
+    "suc": 82
+   },
+   "972": {
+    "pre": 98,
+    "suc": 51
+   },
+   "987": {
+    "pre": 89,
+    "suc": 1
+   },
+   "1076": {
+    "pre": 12,
+    "suc": 77
+   },
+   "1177": {
+    "pre": 32,
+    "suc": 59
+   },
+   "1212": {
+    "pre": 32,
+    "suc": 96
+   },
+   "1221": {
+    "pre": 24,
+    "suc": 30
+   },
+   "1229": {
+    "pre": 82,
+    "suc": 29
+   },
+   "1276": {
+    "pre": 76,
+    "suc": 56
+   },
+   "1279": {
+    "pre": 85,
+    "suc": 53
+   },
+   "1316": {
+    "pre": 62,
+    "suc": 98
+   },
+   "1350": {
+    "pre": 62,
+    "suc": 77
+   },
+   "1398": {
+    "pre": 78,
+    "suc": 40
+   },
+   "1465": {
+    "pre": 62,
+    "suc": 21
+   },
+   "1525": {
+    "pre": 11,
+    "suc": 96
+   },
+   "1570": {
+    "pre": 62,
+    "suc": 56
+   },
+   "1589": {
+    "pre": 65,
+    "suc": 29
+   },
+   "1614": {
+    "pre": 71,
+    "suc": 31
+   },
+   "1658": {
+    "pre": 24,
+    "suc": 47
+   },
+   "1737": {
+    "pre": 12,
+    "suc": 52
+   },
+   "1779": {
+    "pre": 19,
+    "suc": 74
+   }
+  },
+  "pos_48_pas": [
+   283,
+   1737
+  ],
+  "pos_62_48": [
+   361,
+   426,
+   1316,
+   1350,
+   1465,
+   1570
+  ],
+  "pos_48_le": [
+   1076,
+   1350
+  ],
+  "battery": {
+   "en": {
+    "on_X_v8": 11,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 1,
+    "X_le_v8": 6,
+    "n_v8": 1291
+   },
+   "de": {
+    "on_X_v8": 2,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 29,
+    "n_v8": 4485
+   },
+   "le": {
+    "on_X_v8": 13,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 1,
+    "X_le_v8": 0,
+    "n_v8": 1854
+   },
+   "les": {
+    "on_X_v8": 4,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 1,
+    "X_le_v8": 0,
+    "n_v8": 1096
+   },
+   "dans": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 73,
+    "n_v8": 580
+   },
+   "son": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 0,
+    "n_v8": 294
+   },
+   "sur": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 52,
+    "n_v8": 372
+   },
+   "tout": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 34,
+    "n_v8": 377
+   },
+   "bien": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 5,
+    "n_v8": 314
+   },
+   "fort": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 1,
+    "n_v8": 83
+   },
+   "grand": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 1,
+    "X_pas_bare_diplo": 4,
+    "X_le_v8": 0,
+    "n_v8": 104
+   },
+   "con": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 0,
+    "n_v8": 21
+   },
+   "com": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 0,
+    "n_v8": 22
+   },
+   "ter": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 0,
+    "n_v8": 6
+   },
+   "ser": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 0,
+    "n_v8": 0
+   },
+   "ver": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 0,
+    "n_v8": 0
+   },
+   "des": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 2,
+    "X_le_v8": 0,
+    "n_v8": 622
+   },
+   "re": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 0,
+    "n_v8": 4
+   },
+   "te": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 0,
+    "n_v8": 33
+   },
+   "se": {
+    "on_X_v8": 20,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 0,
+    "n_v8": 448
+   },
+   "dont": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 9,
+    "n_v8": 92
+   },
+   "sans": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 2,
+    "n_v8": 119
+   },
+   "nous": {
+    "on_X_v8": 11,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 12,
+    "n_v8": 656
+   },
+   "vous": {
+    "on_X_v8": 7,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 35,
+    "n_v8": 892
+   },
+   "ment": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 3,
+    "n_v8": 54
+   },
+   "plus": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 5,
+    "n_v8": 465
+   },
+   "tant": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 1,
+    "n_v8": 52
+   },
+   "point": {
+    "on_X_v8": 0,
+    "X_pas_bare_v8": 0,
+    "X_pas_bare_diplo": 0,
+    "X_le_v8": 3,
+    "n_v8": 45
+   }
+  },
+  "gouvernement_L1_top_diplo": [
+   [
+    "le",
+    318
+   ],
+   [
+    "du",
+    123
+   ],
+   [
+    "au",
+    58
+   ],
+   [
+    "son",
+    41
+   ],
+   [
+    "un",
+    21
+   ],
+   [
+    "mon",
+    17
+   ],
+   [
+    "votre",
+    13
+   ],
+   [
+    "de",
+    12
+   ],
+   [
+    "ce",
+    7
+   ],
+   [
+    "chaque",
+    5
+   ],
+   [
+    "leur",
+    3
+   ],
+   [
+    "aucun",
+    3
+   ],
+   [
+    "nouveau",
+    3
+   ],
+   [
+    "propre",
+    2
+   ],
+   [
+    "bon",
+    2
+   ]
+  ]
+ },
+ "Q4_1248": {
+  "window_1248": {
+   "groups": [
+    87,
+    11,
+    0,
+    33,
+    16,
+    0,
+    67,
+    46,
+    26,
+    30,
+    6,
+    65,
+    46
+   ]
+  },
+  "pour_X_que_v8": [
+   [
+    "cela",
+    3
+   ],
+   [
+    "empêcher",
+    1
+   ]
+  ],
+  "pour_X_que_total_v8": 4,
+  "pour_X_que_primary": [
+   [
+    "cela",
+    6
+   ],
+   [
+    "empêcher",
+    1
+   ],
+   [
+    "médiatrice",
+    1
+   ],
+   [
+    "peu",
+    1
+   ],
+   [
+    "egypte",
+    1
+   ]
+  ],
+  "pour_X_que_total_primary": 10,
+  "pour_X_que_diplo": [
+   [
+    "certain",
+    6
+   ],
+   [
+    "cela",
+    3
+   ],
+   [
+    "peu",
+    2
+   ],
+   [
+    "moi",
+    2
+   ],
+   [
+    "empêcher",
+    1
+   ],
+   [
+    "rappeler",
+    1
+   ],
+   [
+    "avoirquel",
+    1
+   ],
+   [
+    "tous",
+    1
+   ],
+   [
+    "proclamer",
+    1
+   ],
+   [
+    "constater",
+    1
+   ],
+   [
+    "débarquer",
+    1
+   ],
+   [
+    "agir",
+    1
+   ],
+   [
+    "lui",
+    1
+   ],
+   [
+    "désirer",
+    1
+   ],
+   [
+    "entrevoir",
+    1
+   ],
+   [
+    "établir",
+    1
+   ]
+  ],
+  "pour_X_que_total_diplo": 25,
+  "pour_X_que_all": [
+   [
+    "cela",
+    28
+   ],
+   [
+    "peu",
+    16
+   ],
+   [
+    "moi",
+    15
+   ],
+   [
+    "nous",
+    14
+   ],
+   [
+    "certain",
+    13
+   ],
+   [
+    "lui",
+    12
+   ],
+   [
+    "prouver",
+    10
+   ],
+   [
+    "établir",
+    7
+   ],
+   [
+    "empêcher",
+    6
+   ],
+   [
+    "vous",
+    6
+   ],
+   [
+    "croire",
+    5
+   ],
+   [
+    "eux",
+    5
+   ],
+   [
+    "elle",
+    5
+   ],
+   [
+    "montrer",
+    5
+   ],
+   [
+    "but",
+    4
+   ],
+   [
+    "savoir",
+    4
+   ],
+   [
+    "déclarer",
+    4
+   ],
+   [
+    "tous",
+    3
+   ],
+   [
+    "ce",
+    3
+   ],
+   [
+    "demander",
+    3
+   ],
+   [
+    "dire",
+    2
+   ],
+   [
+    "reconnaître",
+    2
+   ],
+   [
+    "obtenir",
+    2
+   ],
+   [
+    "rappeler",
+    2
+   ],
+   [
+    "constater",
+    2
+   ]
+  ],
+  "pour_X_que_total_all": 256,
+  "pour_X_que_all_full": [
+   [
+    "cela",
+    28
+   ],
+   [
+    "peu",
+    16
+   ],
+   [
+    "moi",
+    15
+   ],
+   [
+    "nous",
+    14
+   ],
+   [
+    "certain",
+    13
+   ],
+   [
+    "lui",
+    12
+   ],
+   [
+    "prouver",
+    10
+   ],
+   [
+    "établir",
+    7
+   ],
+   [
+    "empêcher",
+    6
+   ],
+   [
+    "vous",
+    6
+   ],
+   [
+    "croire",
+    5
+   ],
+   [
+    "eux",
+    5
+   ],
+   [
+    "elle",
+    5
+   ],
+   [
+    "montrer",
+    5
+   ],
+   [
+    "but",
+    4
+   ],
+   [
+    "savoir",
+    4
+   ],
+   [
+    "déclarer",
+    4
+   ],
+   [
+    "tous",
+    3
+   ],
+   [
+    "ce",
+    3
+   ],
+   [
+    "demander",
+    3
+   ],
+   [
+    "dire",
+    2
+   ],
+   [
+    "reconnaître",
+    2
+   ],
+   [
+    "obtenir",
+    2
+   ],
+   [
+    "rappeler",
+    2
+   ],
+   [
+    "constater",
+    2
+   ],
+   [
+    "agir",
+    2
+   ],
+   [
+    "admettre",
+    2
+   ],
+   [
+    "empecher",
+    2
+   ],
+   [
+    "démontrer",
+    2
+   ],
+   [
+    "objet",
+    2
+   ],
+   [
+    "chef",
+    2
+   ],
+   [
+    "preuve",
+    2
+   ],
+   [
+    "indiquer",
+    2
+   ],
+   [
+    "supposer",
+    1
+   ],
+   [
+    "espérer",
+    1
+   ],
+   [
+    "rome",
+    1
+   ],
+   [
+    "mars",
+    1
+   ],
+   [
+    "avoirquel",
+    1
+   ],
+   [
+    "proclamer",
+    1
+   ],
+   [
+    "débarquer",
+    1
+   ],
+   [
+    "désirer",
+    1
+   ],
+   [
+    "entrevoir",
+    1
+   ],
+   [
+    "médiatrice",
+    1
+   ],
+   [
+    "egypte",
+    1
+   ],
+   [
+    "guides",
+    1
+   ],
+   [
+    "eile",
+    1
+   ],
+   [
+    "eviter",
+    1
+   ],
+   [
+    "reconnaitre",
+    1
+   ],
+   [
+    "limites",
+    1
+   ],
+   [
+    "palmerston",
+    1
+   ],
+   [
+    "commander",
+    1
+   ],
+   [
+    "règle",
+    1
+   ],
+   [
+    "ennemi",
+    1
+   ],
+   [
+    "réponse",
+    1
+   ],
+   [
+    "dit",
+    1
+   ],
+   [
+    "appui",
+    1
+   ],
+   [
+    "provisions",
+    1
+   ],
+   [
+    "garcia",
+    1
+   ],
+   [
+    "celui",
+    1
+   ],
+   [
+    "histoire",
+    1
+   ],
+   [
+    "soutenir",
+    1
+   ],
+   [
+    "comprendre",
+    1
+   ],
+   [
+    "julie",
+    1
+   ],
+   [
+    "amie",
+    1
+   ],
+   [
+    "signifier",
+    1
+   ],
+   [
+    "compagnie",
+    1
+   ],
+   [
+    "convaincre",
+    1
+   ],
+   [
+    "vivre",
+    1
+   ],
+   [
+    "rez",
+    1
+   ],
+   [
+    "découvrir",
+    1
+   ],
+   [
+    "quel",
+    1
+   ],
+   [
+    "auxiliaires",
+    1
+   ],
+   [
+    "résultat",
+    1
+   ],
+   [
+    "cargaison",
+    1
+   ],
+   [
+    "éviter",
+    1
+   ],
+   [
+    "française",
+    1
+   ],
+   [
+    "peintres",
+    1
+   ],
+   [
+    "lesueur",
+    1
+   ],
+   [
+    "témoigner",
+    1
+   ],
+   [
+    "asile",
+    1
+   ],
+   [
+    "titre",
+    1
+   ],
+   [
+    "armes",
+    1
+   ],
+   [
+    "motif",
+    1
+   ],
+   [
+    "dieu",
+    1
+   ],
+   [
+    "aristide",
+    1
+   ],
+   [
+    "résolu",
+    1
+   ],
+   [
+    "condition",
+    1
+   ],
+   [
+    "auditeurs",
+    1
+   ],
+   [
+    "ornement",
+    1
+   ],
+   [
+    "prétendre",
+    1
+   ],
+   [
+    "observer",
+    1
+   ],
+   [
+    "toujours",
+    1
+   ],
+   [
+    "deviner",
+    1
+   ],
+   [
+    "réelles",
+    1
+   ],
+   [
+    "eultés",
+    1
+   ]
+  ],
+  "cela_letters": 4,
+  "peu_letters": 3
+ }
+}

@@ -37,8 +37,9 @@ starts; n84=25 verified this round.
   conditional on 48="ne", KILLED F60; 48's identity is open);
   @1501 (74-84-33: RESIDUAL, adverse-lean — «te en» unelided strained,
   fenced on 74="te"-LEAD);
-  @1189 (06-84-59: RESIDUAL, en-lean — «en est» bigram era-real
-  P=0.0156, but subjectless «[V-stem] en est» strained);
+  @1189 (06-84-59: RESIDUAL — en-lean SUPERSEDED by the @1190 verb-unit
+  re-read (ISLET 10, R7); «en est» bigram era-real P=0.0156 but the
+  subjectless «[V-stem] en est» was self-described strained);
   @1290 (17-84-59: RESIDUAL, en-lean — «fois en est» subject-strained,
   fenced on 17="fois"-WEAK);
   @1418 (32-84-79: RESIDUAL, plain, 32 unknown).
@@ -69,7 +70,9 @@ starts; n84=25 verified this round.
   [579, 737, 1183, 1354] → 06 at [580, 738, 1184, 1355] (verified this
   round on the repaired stream).
 - **n/n_eff:** n=4, n_eff=3 (@1184/@1355 are the byte-identical 5-mer
-  repeat 77-78-94-82-06 @1180/@1351, "gouvernement" frame gouv|er|ne|m|ent).
+  repeat 77-78-94-82-06 @1180/@1351 — byte-level repeat; R5 (round 10):
+  @1351–1356 reads «le [78] ne ment pas», NOT "gouvernement"; n_eff=3
+  stands).
 - **Banked falsifier + status:** OWNED BY the 06-falsifier-watch agent
   (round 9) — FIRE-IN (pre=82 adverse inside domain) / FIRE-OUT
   (pre≠82 clean "ent") / FIRE-PART (W06 incomplete). See
@@ -148,11 +151,12 @@ starts; n84=25 verified this round.
 - **Status:** STRENGTHENED at frame level; the UNIT reading
   (84-59 = one bisyllabic verb) is HYPOTHESIS-INTERNAL — it needs 59
   conditioned polyvalence (59="est"-word vs 59=verb-final-syllable),
-  which is UNBANKED and has no statable clean split yet (59's pre:
-  84 ×4, 64 ×3, 94 ×3, 06 ×2, … — no clean partition).
-- **Follow-up needed:** 59 conditioned-polyvalence battery (word-"est"
-  vs verb-syllable contexts); identify the -este verb (84's first
-  syllable vs era candidates).
+  BANKED by ISLET 10 (round 10, R7 GRANT-WITH-MODIFICATION): 59=word-«est»
+  iff pre∈{64,94,93}; 59=verb-final iff pre=84 (firm); the pre=06/{61,44}/86
+  extensions are fenced LEAD sub-tiers, not rule members.
+- **Follow-up needed:** ~~59 conditioned-polyvalence battery (word-"est"
+  vs verb-syllable contexts)~~ DONE — ISLET 10 (round 10). Remaining:
+  identify the -este verb (84's first syllable vs era candidates).
 - **Banked falsifier:** find «qui le [V] est» (V any) at era-nonzero in
   a second independent corpus → reopens 59="est"-word here and kills
   the syllable requirement.
@@ -222,3 +226,70 @@ starts; n84=25 verified this round.
 - 48-successor / 77-78-hunter: @857's lean change (adverse-lean
   withdrawn — was conditional on killed 48="ne") and ISLET 8's 59/77
   dependencies are flagged for their lanes.
+
+## ISLET 10 — 59 conditioned «est» / verb-final «-este» — LEAD (F52 refined, R7 GRANT-WITH-MODIFICATION)
+
+- **Conditioning rule (exact):** 59 reads word-«est» iff pre(59)∈{64,94,93}
+  («qui est»/«n'est»/«l'est» proclitic frames); 59 reads verb-final syllable
+  («-este» family) iff pre(59)=84. All other predecessors → UNCLASSIFIED
+  (no claim). The pre=06 verb-unit (@216, @1186), the frame-forced
+  pre∈{61,44} (@448, @1715) and the pre=86 lean (@554) are NOT rule members
+  (post-hoc extensions, F33 — red-team R7) — fenced LEAD sub-tiers inside
+  this proposal, detailed below.
+- **n/n_eff:** est-arm n=6, n_eff=6 — @103 («on ne l'est»), @316/@1210/@1777
+  («qui est» ×3), @559/@763 («n'est» ×2); ±3 7-mers all distinct (census).
+  este-arm n=4, n_eff=4 — @1190/@1448/@1804 firm, @1291 FENCED (all four
+  ±3 7-mers distinct).
+- **Supporting windows (0-based 59-positions):** @103: 62-94-93-[59]-45-28
+  («[on] ne l'est»); @316: 45-64-[59]-32-94 («qui est»); @1210:
+  65-64-[59]-32-48 («qui est»); @1777: 87-64-[59]-19-48 («ce qui est»);
+  @559: 86-94-[59]-30-67 («n'est»); @763: 62-94-[59]-39-88 («on n'est»);
+  @1190: 06-84-[59]-46-07 («[06-84-59] que», 3-cell verb + que-clause);
+  @1448: 64-77-84-[59]-36-67 («[37] qui le [V-este]»); @1804:
+  64-77-84-[59]-35-94 («[ce] qui le [V-este]»); @1291 FENCED:
+  11-17-84-[59]-35-94 (verb vs «la [17-84] est» ambiguous — needs 17/35).
+- **Legs (pre-registered, ≥2 independent):** A — rates in-band on Ness v8:
+  P(59|64)=3/47=0.0638 vs P(est|qui)=0.0852 (0.75×),
+  P(59|94)=3/37=0.0811 vs P(est|n')=0.2298 (0.35×). B — 6/6 est-arm frames
+  parse clean («qui est» ×3, «n'est» ×2, «l'est» ×1; era «l'est»=6,
+  «qui est»=66, «n'est»=139, «c'est»=352, «la est»=0/3.96M). C — -este verb
+  ID SET-VALUED (pre-registered fallback): {manifeste 131, atteste 35,
+  proteste 20, conteste 19, déteste 23} viable at «qui le» windows
+  (transitive-only; reste EXCLUDED intransitive); unique ID unattainable
+  (84 stem unknown; «qui le»+specific-verb 0/3.96M all — rare-verb
+  expectation, not a kill); inventory diplomatic-corpus-based, era-neutral
+  on specifics per frenchman F-B. D — pre=84 residuals admit the verb parse
+  (@1190 firm, @1291 fenced-ambiguous); F2 unfired. E — 27/27 census
+  classified. S1 preserved: P(59)=0.01462 vs era P(est)+P(-este-verbs)=
+  0.01369 → 1.07× (the unigram was always a mixture).
+- **Banked falsifier + status:** F1 — a pre∉{64,94,93} window REQUIRING
+  word-«est» (none found; @1496 fenced-ambiguous, @1511/@1833 leftover).
+  F2 — a pre=84 window admitting NO era-real -este verb (none). F3 — a
+  pre∈{64,94,93} window where «X est» is era-absent (none; @1796 «n'est le»
+  is S5-fenced, fence stands). F4 — novel proclitic-«est» frame (fired once:
+  {64,94}→{64,94,93} via @103 «l'est»; widening pre-registered).
+  Unconditioned 59="est" REFUTED (kill-grade, 8 adverses: @463 «la est»
+  era-0, @1448/@1804 F65 + frenchman F-A 0/4.2M, @216 cleft-hostile,
+  @1186, @1190, @448, @1715). F52's provisional is REFINED here, not killed.
+- **Dependencies:** 64="qui" prov, 94="ne" prov-strong, {93,8}="l'" LEAD,
+  86 verb-stem-class (F40 working), 62="on" fenced STRONG LEAD (@448),
+  46="que" GT, 11="la" GT (@463), 77="le" prov-cond (ISLET-8 frames). If any
+  falls, the dependent arm re-opens.
+- **Leftover unclassified (10):** @463 («la/cela [59]» — «la est» era-0,
+  value open; verb parse has clitic-order problem); @834 («[76] [59]
+  [35]»); @1511 («[61] [59] [39]»); @1833 («i [59] [36]»); S5-fenced ×6
+  (@528, @624, @912, @1178, @1443, @1796 — NOT re-litigated). Separately
+  fenced/neutral (not leftovers): @825 NEUTRAL per I3 (RULINGS-ROUND7);
+  @1496 FENCED («[15] est en [89-noun]» vs «[15-59=reste] en [89]» —
+  needs 15). Fenced LEAD sub-tiers inside this proposal (not rule members,
+  F33 — red-team R7): @216 («[06-59] que» — F52 caveat-3 DISSOLVED here;
+  @1184 islet-"ent" adjacency noted), @1186 («ne me [06-59] [42]»),
+  @448 («on [61-59] [32]» frame-forced), @1715 («ne [44-59] [30]»
+  frame-forced), @554 («[86-59] i» lean, successor open). @528 (pre=44,
+  S5-fenced) and @1511 (pre=61, leftover) are NOT frame-forced — the
+  frame-forced tier does not over-generate.
+- **Registry coordination:** ISLET 8's "UNBANKED — needs 59 conditioned
+  polyvalence" follow-up is BANKED by this entry — update ISLET 8's note.
+  ISLET 1's @1189 residual en-lean («[V] en est», self-described strained)
+  is SUPERSEDED by the @1190 verb-unit re-read; @1290's residual stays
+  FENCED per this entry (no change to the en-islet rule itself).

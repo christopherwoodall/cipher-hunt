@@ -1,0 +1,66 @@
+=== stream re-verified: N=1847, n06=44 ===
+
+[FIRE-PART] 82->06 windows (06-pos): [580, 738, 1184, 1355]
+  predicted: [580, 738, 1184, 1355]
+  partition defect: does not fire
+
+[F_suc] successor values count>=2:
+  suc=0: k=4 p_single=0.000007 in_islet=1
+  suc=6: k=2 p_single=0.006342 in_islet=2 <<OBSERVED
+  suc=11: k=4 p_single=0.000007 in_islet=0
+  suc=21: k=2 p_single=0.006342 in_islet=0
+  suc=29: k=4 p_single=0.000007 in_islet=0
+  suc=52: k=2 p_single=0.006342 in_islet=1
+  suc=59: k=2 p_single=0.006342 in_islet=0
+  suc=60: k=2 p_single=0.006342 in_islet=0
+  suc=65: k=2 p_single=0.006342 in_islet=0
+  suc=67: k=3 p_single=0.000302 in_islet=0
+  suc=77: k=6 p_single=0.000110 in_islet=0
+  family-wise p_fw_suc = 0.037875
+
+[F_pre2] prepre values count>=2 (event: >=3/4 islet share):
+  pre2=26: K=3 p_single=0.000302 in_islet=0
+  pre2=47: K=3 p_single=0.000302 in_islet=0
+  pre2=56: K=3 p_single=0.000302 in_islet=0
+  pre2=70: K=2 p_single=0.000000 in_islet=0
+  pre2=79: K=2 p_single=0.000000 in_islet=0
+  pre2=82: K=4 p_single=0.001186 in_islet=0
+  pre2=94: K=4 p_single=0.001186 in_islet=3 <<OBSERVED(3/4)
+  family-wise p_fw_pre2 = 0.003274
+
+  COMBINED p_comb = 0.041025
+  bar: confirm<0.01 / null 0.01-0.05 / refute>0.05  =>  NULL-leg
+
+=== §C content leg: 94-82-06-06 windows ===
+@578: 55 61 94=ne 82=m 6 6 50 10   (4-gram @ 578..581)
+@1182: 77=le 78 94=ne 82=m 6 6 59=est 42   (4-gram @ 1182..1185)
+  suc-06 @581: pre=6 suc=50 | pre=06!=82 -> F21 06-verb-stem general reading
+  suc-06 @1185: pre=6 suc=59=est | pre=06!=82 -> F21 06-verb-stem general reading
+
+=== n_eff: ±6 context of @578 vs @1182 ===
+@572-589: [87, 78, 45, 13, 55, 61, 94, 82, 6, 6, 50, 10, 19, 18, 14, 0, 97, 41]
+@1176-1193: [32, 48, 59, 37, 77, 78, 94, 82, 6, 6, 59, 42, 6, 84, 59, 46, 7, 24]
+4-gram itself byte-identical by construction (94,82,06,06).
++2 differs (50 vs 59); -1/-2 differ (55,61 vs 77,78) => n_eff=2 unless longer repeat found
+all 94-82-06-06 starts: [578, 1182]
+
+=== [FIRE-IN] islet window contact audit ===
+@580: prepre=94=ne pre=82=m [06] suc=6
+   adverse: none (pre=82=m GT; suc=6 unknown group; no GT fusion)
+@738: prepre=18 pre=82=m [06] suc=0
+   adverse: none (pre=82=m GT; suc=0 unknown group; no GT fusion)
+@1184: prepre=94=ne pre=82=m [06] suc=6
+   adverse: none (pre=82=m GT; suc=6 unknown group; no GT fusion)
+@1355: prepre=94=ne pre=82=m [06] suc=52
+   adverse: none (pre=82=m GT; suc=52 unknown group; no GT fusion)
+
+=== [FIRE-OUT] pre!=82 06-windows, by-ear rule ===
+(counts iff [gloss(pre)]+"ent"+[gloss(suc)] is a French word tail; unknown gloss => NOT counted)
+windows with BOTH pre and suc glossed: 1
+  @319: "ne"+"ent"+"la" = neentla -> by-ear: NOT a French word tail (no era word of this shape)
+[FIRE-OUT] result: 0 counted windows => does not fire
+94-82-06 trigrams (06-pos): [580, 1184, 1355] all islet: True
+
+=== [F4] @1351-1356 region ±6 (for resolver) ===
+86 66 73 34=i 62 48 77=le 78 94=ne 82=m 6 52 37 64=qui 35 13 92 62
+raw: [86, 66, 73, 34, 62, 48, 77, 78, 94, 82, 6, 52, 37, 64, 35, 13, 92, 62]

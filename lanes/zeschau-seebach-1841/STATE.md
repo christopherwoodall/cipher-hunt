@@ -1,23 +1,88 @@
 # STATE — zeschau-seebach-1841
 
-- **status:** `cracking` (crowd round 9 COMPLETE 2026-10-07: 10/10 agents merged —
-  red team extended baselines 77/77→114/114 and 58/58→82/82, 7/7 battery
-  preregs timestamp-audited, then a separate independent adjudicator ruled
-  all 9 packages — no coordinator-applied bars. Curator re-derived all
-  load-bearing numbers. Net: **0 promotions (bar held an eighth round);
-  1 kill upheld (H_verb for 48, K2 fired — 48 UNIDENTIFIED), 1 refutation
-  (86=que-family kill-grade; B3 3.19× STANDS), 1 new weak leg (H3a for
-  fork-tine (c)), 1 adverse struck (M3 'he'-cell, German-phonetics
-  scoped), 1 registry built (9 conditioned islets), 2 fences upheld
-  (@1248 NEITHER, @199 NEITHER-conditional), 1 hold (62 on/il — blocker
-  carried forward).** @1351 under triple fenced pressure (top round-10
-  watch). 06-islet survives (n_eff=3 fragility banked). 66/89 classes
-  confirmed. 84's 9 residuals classified. Scoreboard: 12 values + leads —
-  7 pencil GT + 87=ce/64=qui/96=par/59=est provisional + 77="le"
-  provisional-conditioned; leads: {93,8}="l'", 06="ent"-iff-82, 84
-  en-islet, 00="pour" (strong), 00="le" islet, 47="ce", 96=verb-stem,
-  67 fork, 16="i", 78-45="même", 77="gouv", 78="er" ({ver,er} fork).)
-- **next:** Round-10 work orders (crowd round 9 COMPLETE, curation 2026-10-07).
+- **status:** `cracking` (crowd round 11 COMPLETE 2026-10-07: 7/7 executor
+  packages merged — three sequential red-team adjudicators ruled R1–R7 with
+  no coordinator-applied bars; baselines extended in place 132/132→148/148
+  (R11BANK, 16 cipher-side checks) and 89/89→100/100 (ROUND11-LEDGER, 21
+  status entries + 6 corpus drift guards). Net: **0 promotions, 0 kills, 0
+  demotions — the bar held a tenth round.** R1 watch06 GRANT (falsifiers
+  unfired, ISLET 3 stands); R2 smith-liaison BANK; R3 33 GRANT
+  (infinitive-class, lean-veut @1450/@1623); R4 este-verb GRANT (H0 holds,
+  set-valued); R5 @1248 GRANT ("peu" strengthened 4/8, "empêcher"
+  weak-fenced 3/7); R6 67 GRANT (@633 et-CONDITIONAL, one classification;
+  fork SUPPORTED, 38 tally); R7 anchorer48 GRANT (3 fences, 48
+  UNIDENTIFIED). Label correction: the double-pour frame is
+  pairs[1244:1255], not "@1244–1256". Scoreboard: 12 values + 10-islet
+  registry + leads — 7 pencil GT + 87=ce/64=qui/96=par/59=est provisional
+  (ISLET 10) + 77="le" provisional-conditioned.)
+- **next:** Round-12 work orders (crowd round 11 COMPLETE, curation 2026-10-07).
+  Canonical parse: repaired 1,847-pair (`code/side-keyhunt/repaired_offsets.json`);
+  positions per `code/crowd4/REINDEX.md` (repaired indexing). Red-team baseline:
+  extend, don't rebuild (148/148 + 100/100). No coordinator-applied bars — red team
+  adjudicates every status change.
+  1. **33's specific value** — the 8 "pour 33" frames as an identification
+     battery (era "pour [inf]" rates on Nesselrode v8; 33 is infinitive-class
+     per F79).
+  2. **@1450/@1623 second leg** — lean-veut needs a second independent check:
+     pre-side of 36 @1449 / 66 @1622, or another infinitive-governed 33 frame;
+     a pre-registered veut-arm bar is needed before any classification.
+  3. **31-class battery** — 31 contested, leaning verbal (F82); needs 08
+     disambiguation or a second GT-anchored nominal contact.
+  4. **92-class battery** — 92 infinitive/noun contest datum (F82);
+     conditioned-polyvalence candidate.
+  5. **48 follow-ups** — ML-1 (@1077 infinitive-ID) and ML-2 (pre=12
+     licensor-ID, adj/noun/participle per era L1); @863 "de ce que" second
+     de-frame follow-up (10× v8).
+  6. **@1248 P-C re-run** — pool-registered: "[verb] peu que" hosts in
+     Guizot-DIP ("il lui importe peu que", "se souciait peu que"); the
+     double-pour stack (pairs[1244:1255]) still has no era license.
+  7. **-este verb tie-breakers** — T1–T5 (F80): 84 stem ID outside este
+     frames; «le» antecedents at @1448/@1804; 06's ID at @1190 (06="pro" ⇒
+     proteste); 17/35 for @1291 (verb-parse + [35]=subject ⇒ {manifeste,
+     proteste}); a second «qui le [84-59]» token.
+  8. **Smith round 2** belongs to side-homophonic-rebuild2 (tracks A/B/C);
+     main-fleet search scope ZERO until C1 passes on the gapped family;
+     liaison banks constraints only.
+  9. **No re-litigation of:** unconditioned-59, H4g, 48="ne", H_verb,
+     86=que-family, unconditioned 84s, three mergers, column-refuge
+     concretizations, retired WO-6 bar, "cela", médiatrice-class, settled
+     round-11 fences (@1519/@1372/@902 nulls, 48's three fences).
+- **next:** Round-11 work orders (crowd round 10 COMPLETE, curation 2026-10-07).
+  Canonical parse: repaired 1,847-pair (`code/side-keyhunt/repaired_offsets.json`);
+  positions per `code/crowd4/REINDEX.md` (repaired indexing). Red-team baseline:
+  extend, don't rebuild (132/132 + 89/89). No coordinator-applied bars — red team
+  adjudicates every status change.
+  1. **-este verb ID** — ISLET 10's este-arm needs its verb: set-valued
+     {manifeste, atteste, proteste, conteste, déteste}; 84's first syllable vs
+     era candidates; @1291 fenced needs 17/35. (Unique ID unattainable at
+     «qui le» windows — say what would break the tie.)
+  2. **48 successor-word anchoring** — the six "on 48" windows as a second
+     syllable-discriminating leg; or 82="m"×4 frames («m'»-elision licenses
+     vowel-initial S). 48="de"-conditional narrow path (pronoun+infinitive)
+     is the only live word-reading — test it or fence it.
+  3. **33's class** — decider for @1450/@1623 (infinitive → veut lives;
+     nominal → et favored). Census 33's contact profile.
+  4. **67 residuals** — 6 open-residuals with explicit missing legs: 31's
+     second leg (@1519), denser era frame for @1372, board-grade readings
+     for 52/63 (@633) and 92/16 (@902).
+  5. **@1248 weak arms** — "peu"/infinitive arms are WEAK and fenced;
+     strengthen with new legs or leave fenced. Gate-4 revised bound:
+     {peu}-class + infinitive only.
+  6. **06 falsifier watch continues** — n_eff=3 fragility; H4g dead (post-hoc
+     coincidence). ISLET 3 gloss corrected per R5.
+  7. **Smith round 2** belongs to side-homophonic-rebuild2 — main-fleet
+     search scope ZERO until C1 passes on the gapped family; liaison banks
+     constraints only.
+  8. **No re-litigation of:** unconditioned-59, H4g, 48="ne", H_verb, 86=que-family,
+     unconditioned 84s, three mergers, refuge concretizations, retired WO-6 bar.
+     (37/64 «le qui» bigram flagged for 37/64 lanes — cross-window item, not
+     adjudicated.)
+  Do NOT promote anything without ≥2 independent checks. Standing convention:
+  every executor leaves a report note at `code/crowd<N>/report_inbox/<name>-<topic>.md`
+  per REPORTING.md (swept into REPORT.md every 2h). Red team reviews ALL promotions
+  before merge — no claim merges without its ruling. Cross-fleet memo standing
+  constraints: no nulls; published-key channel exhausted; anchor-preserving
+  controls on all future drags; crib-derived inventory only (F34/F44).
   Canonical parse: repaired 1,847-pair (`code/side-keyhunt/repaired_offsets.json`);
   positions per `code/crowd4/REINDEX.md` (repaired indexing); citation source
   for corrected positions: `code/crowd8/redteam/PREREG-ROUND8.md` bars +

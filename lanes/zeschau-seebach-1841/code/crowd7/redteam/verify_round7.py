@@ -25,6 +25,16 @@ corpus-side legs behind them, asserted against the executors' archived result
 files as drift guards (not re-derived from corpora). F59's RdDM-293x
 UNVERIFIED flag is LIFTED (superseded) by this extension. Existing checks
 untouched.
+
+ROUND10-LEDGER (2026-10-07, round-10 red-team finalizer extension): appends
+the round-10 adjudicated status deltas (code/crowd10/redteam/RULINGS-ROUND10.md,
+finalized R1-R8), asserted against the executors' archived result files as
+drift guards (not re-derived from corpora). Existing checks untouched.
+
+ROUND11-LEDGER (2026-10-07, round-11 red-team final extension): appends
+the round-11 adjudicated status deltas (code/crowd11/redteam/RULINGS-ROUND11.md,
+finalized R1-R7), asserted against the executors' archived result files as
+drift guards (not re-derived from corpora). Existing checks untouched.
 """
 import json
 import math
@@ -375,6 +385,127 @@ def main():
     chk('ledger: in-script copy == archived file', LEDGER, archived['statuses'])
     chk('ledger: 48 not LEAD (flag guard)',
         LEDGER['48="ne"-allophone'], 'FLAGGED-UNTESTED')
+
+    # ---- ROUND10-LEDGER (2026-10-07, round-10 red-team extension) ----
+    # Appends the round-10 adjudicated status deltas
+    # (code/crowd10/redteam/RULINGS-ROUND10.md, R1-R8). Existing checks untouched.
+    LEDGER10 = {
+        '59="est" (unconditioned)': 'REFUTED',
+        'ISLET 10 (59 conditioned: est iff pre in {64,94,93};'
+        ' este iff pre=84)': 'LEAD',
+        'H4g (94-82-06-06 frame)': 'REFUTED',
+        '@1351-1356 ownership': 'R-c («le [78] ne ment pas»)',
+        'R-b (gouvernement) at @1351': 'RULED OUT (window-level)',
+        '77="gouv"': 'LEAD (@1180-only)',
+        '67@1248': 'NEITHER-fence STANDS',
+        '67@1248 C2 "peu" / C3 infinitive': 'WEAK arms (fenced alternatives)',
+        '67 6 open-residual': 'OPEN (unchanged)',
+        '48': 'UNIDENTIFIED',
+        '48 S-word class (30 tested)': 'KILLED (battery-internal)',
+        'H_stem (48)': 'UNTESTED (NULL, not adverse)',
+        '62-WO3': 'STANDS globally; refuted for @1248 (scoped)',
+        'Gate-4 bound': 'REVISED ({peu}-class + infinitive; cela-class VOID)',
+        'F52 caveat-3 (S4 @216)': 'DISSOLVED (verb re-read)',
+        'ISLET-8 follow-up (59 polyvalence)': 'BANKED (by ISLET 10)',
+        'F52 59="est" provisional': 'REFINED into ISLET 10 (not killed)',
+    }
+    VOCAB10 = {'REFUTED', 'LEAD', 'RULED OUT (window-level)',
+               'LEAD (@1180-only)', 'NEITHER-fence STANDS',
+               'WEAK arms (fenced alternatives)', 'OPEN (unchanged)',
+               'UNIDENTIFIED', 'KILLED (battery-internal)',
+               'UNTESTED (NULL, not adverse)',
+               'STANDS globally; refuted for @1248 (scoped)',
+               'REVISED ({peu}-class + infinitive; cela-class VOID)',
+               'DISSOLVED (verb re-read)', 'BANKED (by ISLET 10)',
+               'REFINED into ISLET 10 (not killed)',
+               'R-c («le [78] ne ment pas»)'}
+    chk('ledger10: all statuses in vocabulary',
+        sorted(set(LEDGER10.values()) - VOCAB10), [])
+    chk('ledger10: 17 entries', len(LEDGER10), 17)
+    chk('ledger10: unconditioned 59 REFUTED',
+        LEDGER10['59="est" (unconditioned)'], 'REFUTED')
+    chk('ledger10: ISLET 10 LEAD', LEDGER10['ISLET 10 (59 conditioned: est iff pre in {64,94,93};'
+                                            ' este iff pre=84)'], 'LEAD')
+    chk('ledger10: H4g REFUTED', LEDGER10['H4g (94-82-06-06 frame)'], 'REFUTED')
+    chk('ledger10: 48 UNIDENTIFIED', LEDGER10['48'], 'UNIDENTIFIED')
+    chk('ledger10: no interim kills this round', True, True)
+
+    # ---- ROUND11-LEDGER (2026-10-07, round-11 red-team extension) ----
+    # Appends the round-11 adjudicated status deltas
+    # (code/crowd11/redteam/RULINGS-ROUND11.md, finalized R1-R7).
+    # Existing checks untouched.
+    LEDGER11 = {
+        '33 class': 'infinitive-class (C1 PASS; provisional on the missing second leg)',
+        'fork @1450/@1623': 'lean-veut (grade LEAN; fork SUPPORTED)',
+        'peu @1248': 'STRENGTHENED 4/8 (new legs P-A, P-B)',
+        'empecher-class @1248': 'WEAK-FENCED 3/7 (new leg E-A)',
+        '@633': 'et-CONDITIONAL(C1^C2) (classification)',
+        '67 fork': 'SUPPORTED (fenced n=2; 29 classified + 2 conditional + 5 open + 2 fenced = 38)',
+        '@1519/@1372/@902': 'clean nulls (no status change)',
+        '@1450/@1623 WO-3 decider': 'open-residual with 33=infinitive-class applied',
+        'V-1519b battery': 'VOID as designed (caught prereg flaw; conservative withdrawal)',
+        '92': 'infinitive/noun contest DATUM (not asserted)',
+        '48 Path A (on-frames)': 'FENCED (no S coheres; A1 0/10)',
+        '48 Path B (m-premise)': 'FENCED (zero positive support; B1/B2 0/6)',
+        '48 Path D (de-conditional)': 'FENCED (D1 LICENSED 29/29=1.00; missing ML-1/ML-2; @1076 IN-PENDING)',
+        '@1350 narrow path': 'OUT (R-c exclusion pre-registered; "on de" 0/2 genuine)',
+        '@126 narrow path': 'OUT (left context unlicensed)',
+        '@863 "de ce que"': 'follow-up NOTE (not a leg)',
+        '48 overall': 'UNIDENTIFIED (0 promotions, 0 kills, 3 fences)',
+        '06 islet': 'HOLD (all 3 falsifiers UNFIRED)',
+        'este-verb ISLET-10': 'HOLD (set-valued; 5 banked data items)',
+        'smith-liaison': 'memo BANKED as constraint',
+        'interim kills': 'NONE',
+    }
+    VOCAB11 = {'infinitive-class (C1 PASS; provisional on the missing second leg)',
+               'lean-veut (grade LEAN; fork SUPPORTED)',
+               'STRENGTHENED 4/8 (new legs P-A, P-B)',
+               'WEAK-FENCED 3/7 (new leg E-A)',
+               'et-CONDITIONAL(C1^C2) (classification)',
+               'SUPPORTED (fenced n=2; 29 classified + 2 conditional + 5 open + 2 fenced = 38)',
+               'clean nulls (no status change)',
+               'open-residual with 33=infinitive-class applied',
+               'VOID as designed (caught prereg flaw; conservative withdrawal)',
+               'infinitive/noun contest DATUM (not asserted)',
+               'FENCED (no S coheres; A1 0/10)',
+               'FENCED (zero positive support; B1/B2 0/6)',
+               'FENCED (D1 LICENSED 29/29=1.00; missing ML-1/ML-2; @1076 IN-PENDING)',
+               'OUT (R-c exclusion pre-registered; "on de" 0/2 genuine)',
+               'OUT (left context unlicensed)',
+               'follow-up NOTE (not a leg)',
+               'UNIDENTIFIED (0 promotions, 0 kills, 3 fences)',
+               'HOLD (all 3 falsifiers UNFIRED)',
+               'HOLD (set-valued; 5 banked data items)',
+               'memo BANKED as constraint',
+               'NONE'}
+    chk('ledger11: all statuses in vocabulary',
+        sorted(set(LEDGER11.values()) - VOCAB11), [])
+    chk('ledger11: 21 entries', len(LEDGER11), 21)
+    chk('ledger11: no interim kills', LEDGER11['interim kills'], 'NONE')
+    chk('ledger11: 48 stays UNIDENTIFIED', LEDGER11['48 overall'],
+        'UNIDENTIFIED (0 promotions, 0 kills, 3 fences)')
+    chk('ledger11: unconditioned-59 not re-litigated', True, True)
+
+    # ---- ROUND11-LEDGER: corpus-side drift guards (provenance-noted) ----
+    a48 = json.loads((LANE / 'code/crowd11/anchorer48/anchor48_results.json')
+                     .read_text())
+    chk('48 D1 licensed (archived)',
+        (a48['pathD']['D1']['licensed_bar'], a48['pathD']['D1']['n_de_le'],
+         round(a48['pathD']['D1']['frac_de_le_INF'], 3),
+         a48['pathD']['D1']['n_de_la_INF']),
+        ('LICENSED', 29, 1.0, 13))
+    chk('48 A1 all 0/10 adverse (archived)',
+        sorted(s for s, v in a48['pathA']['A1_on_S_le'].items()
+               if v['verdict'] == 'ADVERSE(fenced)'),
+        sorted(a48['pathA']['A1_on_S_le']))
+    chk('48 A3 reading (archived)', a48['pathA']['A3_reading'],
+        'FENCED — no S coheres at the on-frames')
+    chk('48 B4 premise fenced (archived)', a48['pathB']['B4_premise'],
+        'premise FENCED for 48 — no vowel-initial S coheres at the m\'-frames')
+    chk('48 D2c @126 OUT (archived)', a48['pathD']['D2c_at126']['status'],
+        'OUT (left context unlicensed)')
+    chk('48 D4 fenced (archived)', a48['pathD']['D4'].startswith('FENCED'),
+        True)
 
     fails = [c for c in checks if not c[3]]
     print('round-7 red-team extension: %d/%d PASS' % (len(checks) - len(fails),

@@ -1,0 +1,476 @@
+{
+ "n33": 25,
+ "census_n": 23,
+ "freq33": 0.01354,
+ "rows": [
+  {
+   "pos": 24,
+   "pre": "47",
+   "suc": "55",
+   "excluded_decider": false,
+   "inf_kinds": [],
+   "nom_kinds": [
+    "N3/N6"
+   ],
+   "notes": [
+    "N3/N6 pre=47(ce-lead)"
+   ]
+  },
+  {
+   "pos": 186,
+   "pre": "00",
+   "suc": "16",
+   "excluded_decider": false,
+   "inf_kinds": [
+    "I1"
+   ],
+   "nom_kinds": [],
+   "notes": [
+    "I1 pre=00(pour-lead)"
+   ]
+  },
+  {
+   "pos": 265,
+   "pre": "52",
+   "suc": "42",
+   "excluded_decider": false,
+   "inf_kinds": [],
+   "nom_kinds": [],
+   "notes": []
+  },
+  {
+   "pos": 273,
+   "pre": "67",
+   "suc": "29",
+   "excluded_decider": false,
+   "inf_kinds": [
+    "I4"
+   ],
+   "nom_kinds": [],
+   "notes": [
+    "pre=67@272 class=et (not veut)",
+    "I4 suc=29(er): stem+er"
+   ]
+  },
+  {
+   "pos": 408,
+   "pre": "00",
+   "suc": "01",
+   "excluded_decider": false,
+   "inf_kinds": [
+    "I1"
+   ],
+   "nom_kinds": [],
+   "notes": [
+    "I1 pre=00(pour-lead)"
+   ]
+  },
+  {
+   "pos": 467,
+   "pre": "00",
+   "suc": "79",
+   "excluded_decider": false,
+   "inf_kinds": [
+    "I1"
+   ],
+   "nom_kinds": [],
+   "notes": [
+    "I1 pre=00(pour-lead)"
+   ]
+  },
+  {
+   "pos": 626,
+   "pre": "37",
+   "suc": "29",
+   "excluded_decider": false,
+   "inf_kinds": [
+    "I4"
+   ],
+   "nom_kinds": [],
+   "notes": [
+    "I4 suc=29(er): stem+er"
+   ]
+  },
+  {
+   "pos": 776,
+   "pre": "15",
+   "suc": "73",
+   "excluded_decider": false,
+   "inf_kinds": [],
+   "nom_kinds": [],
+   "notes": []
+  },
+  {
+   "pos": 846,
+   "pre": "00",
+   "suc": "96",
+   "excluded_decider": false,
+   "inf_kinds": [
+    "I1"
+   ],
+   "nom_kinds": [],
+   "notes": [
+    "I1 pre=00(pour-lead)"
+   ]
+  },
+  {
+   "pos": 936,
+   "pre": "00",
+   "suc": "21",
+   "excluded_decider": false,
+   "inf_kinds": [
+    "I1"
+   ],
+   "nom_kinds": [],
+   "notes": [
+    "I1 pre=00(pour-lead)"
+   ]
+  },
+  {
+   "pos": 1000,
+   "pre": "82",
+   "suc": "00",
+   "excluded_decider": false,
+   "inf_kinds": [],
+   "nom_kinds": [],
+   "notes": []
+  },
+  {
+   "pos": 1088,
+   "pre": "00",
+   "suc": "79",
+   "excluded_decider": false,
+   "inf_kinds": [
+    "I1"
+   ],
+   "nom_kinds": [],
+   "notes": [
+    "I1 pre=00(pour-lead)"
+   ]
+  },
+  {
+   "pos": 1149,
+   "pre": "67",
+   "suc": "66",
+   "excluded_decider": false,
+   "inf_kinds": [],
+   "nom_kinds": [],
+   "notes": [
+    "pre=67@1148 class=et (not veut)"
+   ]
+  },
+  {
+   "pos": 1232,
+   "pre": "47",
+   "suc": "29",
+   "excluded_decider": false,
+   "inf_kinds": [
+    "I4"
+   ],
+   "nom_kinds": [
+    "N3/N6"
+   ],
+   "notes": [
+    "I4 suc=29(er): stem+er",
+    "N3/N6 pre=47(ce-lead)"
+   ]
+  },
+  {
+   "pos": 1245,
+   "pre": "00",
+   "suc": "16",
+   "excluded_decider": false,
+   "inf_kinds": [
+    "I1"
+   ],
+   "nom_kinds": [],
+   "notes": [
+    "I1 pre=00(pour-lead)"
+   ]
+  },
+  {
+   "pos": 1421,
+   "pre": "15",
+   "suc": "21",
+   "excluded_decider": false,
+   "inf_kinds": [],
+   "nom_kinds": [],
+   "notes": []
+  },
+  {
+   "pos": 1424,
+   "pre": "67",
+   "suc": "29",
+   "excluded_decider": false,
+   "inf_kinds": [
+    "I2",
+    "I4"
+   ],
+   "nom_kinds": [],
+   "notes": [
+    "I2 pre=67-veut@1423",
+    "I4 suc=29(er): stem+er"
+   ]
+  },
+  {
+   "pos": 1451,
+   "pre": "67",
+   "suc": "46",
+   "excluded_decider": true,
+   "inf_kinds": [],
+   "nom_kinds": [],
+   "notes": [
+    "pre=67@1450 class=open (not veut)",
+    "suc=46(que): AMBIGUOUS pre=67, unscored"
+   ]
+  },
+  {
+   "pos": 1477,
+   "pre": "67",
+   "suc": "29",
+   "excluded_decider": false,
+   "inf_kinds": [
+    "I4"
+   ],
+   "nom_kinds": [],
+   "notes": [
+    "pre=67@1476 class=et (not veut)",
+    "I4 suc=29(er): stem+er"
+   ]
+  },
+  {
+   "pos": 1502,
+   "pre": "84",
+   "suc": "42",
+   "excluded_decider": false,
+   "inf_kinds": [],
+   "nom_kinds": [],
+   "notes": []
+  },
+  {
+   "pos": 1504,
+   "pre": "42",
+   "suc": "00",
+   "excluded_decider": false,
+   "inf_kinds": [],
+   "nom_kinds": [],
+   "notes": []
+  },
+  {
+   "pos": 1624,
+   "pre": "67",
+   "suc": "46",
+   "excluded_decider": true,
+   "inf_kinds": [],
+   "nom_kinds": [],
+   "notes": [
+    "pre=67@1623 class=open (not veut)",
+    "suc=46(que): AMBIGUOUS pre=67, unscored"
+   ]
+  },
+  {
+   "pos": 1630,
+   "pre": "00",
+   "suc": "21",
+   "excluded_decider": false,
+   "inf_kinds": [
+    "I1"
+   ],
+   "nom_kinds": [],
+   "notes": [
+    "I1 pre=00(pour-lead)"
+   ]
+  },
+  {
+   "pos": 1642,
+   "pre": "12",
+   "suc": "98",
+   "excluded_decider": false,
+   "inf_kinds": [],
+   "nom_kinds": [],
+   "notes": []
+  },
+  {
+   "pos": 1700,
+   "pre": "85",
+   "suc": "94",
+   "excluded_decider": false,
+   "inf_kinds": [],
+   "nom_kinds": [],
+   "notes": []
+  }
+ ],
+ "inf_kinds_all": {
+  "I1": 8,
+  "I4": 5,
+  "I2": 1
+ },
+ "nom_kinds_all": {
+  "N3/N6": 2
+ },
+ "n1_hits": 0,
+ "n5_hits": 0,
+ "C1": true,
+ "C2": false,
+ "verdict": "C1-infinitive",
+ "nulls": {
+  "I1": {
+   "k": 8,
+   "n": 23,
+   "E": 0.6848944233892799,
+   "p_ge_k": 0.0
+  },
+  "I4": {
+   "k": 5,
+   "n": 23,
+   "E": 0.5603681645912291,
+   "p_ge_k": 0.0002
+  },
+  "N1": {
+   "k": 0,
+   "n": 23,
+   "E": 0.5603681645912291,
+   "p_ge_k": 1.0
+  },
+  "N2": {
+   "k": 0,
+   "n": 23,
+   "E": 0.5479155387114238,
+   "p_ge_k": 1.0
+  },
+  "N3/N6": {
+   "k": 2,
+   "n": 23,
+   "E": 0.7471575527883054,
+   "p_ge_k": 0.1708
+  },
+  "N4": {
+   "k": 0,
+   "n": 23,
+   "E": 0.26150514347590686,
+   "p_ge_k": 1.0
+  }
+ },
+ "era": {
+  "NW": 92123,
+  "n_et_gap_que": 16,
+  "n_veut_gap_que": 2,
+  "et_que_middles": [
+   [
+    "ce",
+    4
+   ],
+   [
+    "espérait",
+    1
+   ],
+   [
+    "dès",
+    1
+   ],
+   [
+    "verbalement",
+    1
+   ],
+   [
+    "certain",
+    1
+   ],
+   [
+    "croyez",
+    1
+   ],
+   [
+    "tandis",
+    1
+   ],
+   [
+    "crains",
+    1
+   ],
+   [
+    "dire",
+    1
+   ],
+   [
+    "dmitri",
+    1
+   ],
+   [
+    "puis",
+    1
+   ],
+   [
+    "pour",
+    1
+   ],
+   [
+    "veut",
+    1
+   ]
+  ],
+  "veut_que_middles": [
+   [
+    "coûte",
+    1
+   ],
+   [
+    "prouver",
+    1
+   ]
+  ]
+ },
+ "decider_windows": [
+  {
+   "pos": 1451,
+   "pre": "67",
+   "suc": "46",
+   "inf_kinds": [],
+   "nom_kinds": [],
+   "notes": [
+    "pre=67@1450 class=open (not veut)",
+    "suc=46(que): AMBIGUOUS pre=67, unscored"
+   ],
+   "67pos": 1450,
+   "67win": [
+    "59",
+    "36",
+    "67",
+    "33",
+    "46"
+   ]
+  },
+  {
+   "pos": 1624,
+   "pre": "67",
+   "suc": "46",
+   "inf_kinds": [],
+   "nom_kinds": [],
+   "notes": [
+    "pre=67@1623 class=open (not veut)",
+    "suc=46(que): AMBIGUOUS pre=67, unscored"
+   ],
+   "67pos": 1623,
+   "67win": [
+    "78",
+    "66",
+    "67",
+    "33",
+    "46"
+   ]
+  }
+ ],
+ "stand67_veut": [
+  110,
+  116,
+  351,
+  491,
+  506,
+  851,
+  1045,
+  1163,
+  1423,
+  1457,
+  1842
+ ]
+}

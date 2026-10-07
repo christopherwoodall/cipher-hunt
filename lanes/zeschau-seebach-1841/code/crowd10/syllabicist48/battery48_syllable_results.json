@@ -1,0 +1,1453 @@
+{
+ "prereg": "PREREG.md v1.1 (2026-10-07T20:38:55Z, amended +2m pre-run)",
+ "N": 1847,
+ "n48": 38,
+ "P48": 0.02057390362750406,
+ "n96": 21,
+ "corpus": {
+  "file": "nesselrode-v8.txt",
+  "n_tokens": 92594,
+  "n_syllables": 152534
+ },
+ "selection": {
+  "rule": "top-40 by-ear syllables minus exclusions, top-10 by |log(rate/P48)|",
+  "syllable_candidates": [
+   {
+    "s": "à",
+    "era_rate": 0.01604232498983833
+   },
+   {
+    "s": "et",
+    "era_rate": 0.0142656719157696
+   },
+   {
+    "s": "de",
+    "era_rate": 0.031179933654136127
+   },
+   {
+    "s": "a",
+    "era_rate": 0.012266117718016967
+   },
+   {
+    "s": "es",
+    "era_rate": 0.011944877863296052
+   },
+   {
+    "s": "il",
+    "era_rate": 0.010338678589691478
+   },
+   {
+    "s": "les",
+    "era_rate": 0.010292787181874204
+   },
+   {
+    "s": "te",
+    "era_rate": 0.010174780704629788
+   },
+   {
+    "s": "un",
+    "era_rate": 0.009938767750140952
+   },
+   {
+    "s": "com",
+    "era_rate": 0.008686587908269632
+   }
+  ],
+  "word_candidates": [
+   {
+    "s": "et",
+    "era_rate": 0.020886882519385707,
+    "src": "top3"
+   },
+   {
+    "s": "il",
+    "era_rate": 0.014720176253320949,
+    "src": "top3"
+   },
+   {
+    "s": "les",
+    "era_rate": 0.011836620083374733,
+    "src": "top3"
+   },
+   {
+    "s": "de",
+    "era_rate": 0.04843726375359095,
+    "src": "seeded"
+   },
+   {
+    "s": "à",
+    "era_rate": 0.025347214722336222,
+    "src": "seeded"
+   },
+   {
+    "s": "se",
+    "era_rate": 0.004838326457437847,
+    "src": "seeded"
+   },
+   {
+    "s": "des",
+    "era_rate": 0.006717497894032011,
+    "src": "seeded"
+   },
+   {
+    "s": "plus",
+    "era_rate": 0.005021923666760265,
+    "src": "seeded"
+   },
+   {
+    "s": "tout",
+    "era_rate": 0.004071538112620688,
+    "src": "seeded"
+   },
+   {
+    "s": "bien",
+    "era_rate": 0.003391148454543491,
+    "src": "seeded"
+   },
+   {
+    "s": "sur",
+    "era_rate": 0.004017538933408212,
+    "src": "seeded"
+   },
+   {
+    "s": "sans",
+    "era_rate": 0.0012851804652569282,
+    "src": "seeded"
+   },
+   {
+    "s": "dans",
+    "era_rate": 0.0062639047886472125,
+    "src": "seeded"
+   },
+   {
+    "s": "encore",
+    "era_rate": 0.0021815668401840294,
+    "src": "seeded"
+   },
+   {
+    "s": "aussi",
+    "era_rate": 0.001328379808626909,
+    "src": "seeded"
+   },
+   {
+    "s": "leur",
+    "era_rate": 0.0009935848975095578,
+    "src": "seeded"
+   },
+   {
+    "s": "son",
+    "era_rate": 0.003175151737693587,
+    "src": "seeded"
+   },
+   {
+    "s": "mais",
+    "era_rate": 0.0031427522301661014,
+    "src": "seeded"
+   },
+   {
+    "s": "car",
+    "era_rate": 0.001112383091777005,
+    "src": "seeded"
+   },
+   {
+    "s": "donc",
+    "era_rate": 0.0010367842408795386,
+    "src": "seeded"
+   },
+   {
+    "s": "ni",
+    "era_rate": 0.0006911894939196924,
+    "src": "seeded"
+   },
+   {
+    "s": "y",
+    "era_rate": 0.003067153379268635,
+    "src": "seeded"
+   },
+   {
+    "s": "point",
+    "era_rate": 0.00048599261291228373,
+    "src": "seeded"
+   },
+   {
+    "s": "lettre",
+    "era_rate": 0.0014147784953668704,
+    "src": "seeded"
+   },
+   {
+    "s": "dépêche",
+    "era_rate": 0.00083158735987213,
+    "src": "seeded"
+   },
+   {
+    "s": "gouvernement",
+    "era_rate": 0.00043199343369980777,
+    "src": "seeded"
+   },
+   {
+    "s": "majesté",
+    "era_rate": 0.00028079573190487506,
+    "src": "seeded"
+   },
+   {
+    "s": "affaire",
+    "era_rate": 0.0011231829276195002,
+    "src": "seeded"
+   },
+   {
+    "s": "cour",
+    "era_rate": 0.0004103937620148174,
+    "src": "seeded"
+   },
+   {
+    "s": "ministre",
+    "era_rate": 0.0011879819426744713,
+    "src": "seeded"
+   }
+  ]
+ },
+ "frames": {
+  "on48": [
+   361,
+   426,
+   1316,
+   1350,
+   1465,
+   1570
+  ],
+  "la48": [
+   1525
+  ],
+  "pas48": [
+   283,
+   1737
+  ]
+ },
+ "battery": [
+  {
+   "candidate": "à",
+   "class": "S-syl",
+   "legs": {
+    "S1_rate": {
+     "verdict": "PASS",
+     "ratio": 1.28247642661124,
+     "era_rate": 0.01604232498983833
+    },
+    "S2_la_frame": {
+     "verdict": "NEUTRAL",
+     "n_la_word_starting_with_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "NEUTRAL",
+     "n_on_word_starting_with_S": 1,
+     "n_wordEndingS_followed_by_le": 3
+    },
+    "S4_pas_frames": {
+     "verdict": "NEUTRAL",
+     "note": "word boundary before pas; no prediction"
+    }
+   },
+   "passes": 1,
+   "kills": 0,
+   "recommendation": "LEAD-weak"
+  },
+  {
+   "candidate": "et",
+   "class": "S-syl",
+   "legs": {
+    "S1_rate": {
+     "verdict": "PASS",
+     "ratio": 1.4421966065798273,
+     "era_rate": 0.0142656719157696
+    },
+    "S2_la_frame": {
+     "verdict": "NEUTRAL",
+     "n_la_word_starting_with_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "NEUTRAL",
+     "n_on_word_starting_with_S": 0,
+     "n_wordEndingS_followed_by_le": 2
+    },
+    "S4_pas_frames": {
+     "verdict": "NEUTRAL",
+     "note": "word boundary before pas; no prediction"
+    }
+   },
+   "passes": 1,
+   "kills": 0,
+   "recommendation": "LEAD-weak"
+  },
+  {
+   "candidate": "de",
+   "class": "S-syl",
+   "legs": {
+    "S1_rate": {
+     "verdict": "PASS",
+     "ratio": 0.6598443683594837,
+     "era_rate": 0.031179933654136127
+    },
+    "S2_la_frame": {
+     "verdict": "NEUTRAL",
+     "n_la_word_starting_with_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "NEUTRAL",
+     "n_on_word_starting_with_S": 2,
+     "n_wordEndingS_followed_by_le": 4
+    },
+    "S4_pas_frames": {
+     "verdict": "NEUTRAL",
+     "note": "word boundary before pas; no prediction"
+    }
+   },
+   "passes": 1,
+   "kills": 0,
+   "recommendation": "LEAD-weak"
+  },
+  {
+   "candidate": "a",
+   "class": "S-syl",
+   "legs": {
+    "S1_rate": {
+     "verdict": "PASS",
+     "ratio": 1.6772954654824714,
+     "era_rate": 0.012266117718016967
+    },
+    "S2_la_frame": {
+     "verdict": "NEUTRAL",
+     "n_la_word_starting_with_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "NEUTRAL",
+     "n_on_word_starting_with_S": 38,
+     "n_wordEndingS_followed_by_le": 14
+    },
+    "S4_pas_frames": {
+     "verdict": "NEUTRAL",
+     "note": "word boundary before pas; no prediction"
+    }
+   },
+   "passes": 1,
+   "kills": 0,
+   "recommendation": "LEAD-weak"
+  },
+  {
+   "candidate": "es",
+   "class": "S-syl",
+   "legs": {
+    "S1_rate": {
+     "verdict": "PASS",
+     "ratio": 1.722403850668334,
+     "era_rate": 0.011944877863296052
+    },
+    "S2_la_frame": {
+     "verdict": "NEUTRAL",
+     "n_la_word_starting_with_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "NEUTRAL",
+     "n_on_word_starting_with_S": 2,
+     "n_wordEndingS_followed_by_le": 8
+    },
+    "S4_pas_frames": {
+     "verdict": "NEUTRAL",
+     "note": "word boundary before pas; no prediction"
+    }
+   },
+   "passes": 1,
+   "kills": 0,
+   "recommendation": "LEAD-weak"
+  },
+  {
+   "candidate": "il",
+   "class": "S-syl",
+   "legs": {
+    "S1_rate": {
+     "verdict": "PASS",
+     "ratio": 1.9899935421164898,
+     "era_rate": 0.010338678589691478
+    },
+    "S2_la_frame": {
+     "verdict": "NEUTRAL",
+     "n_la_word_starting_with_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "NEUTRAL",
+     "n_on_word_starting_with_S": 2,
+     "n_wordEndingS_followed_by_le": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "NEUTRAL",
+     "note": "word boundary before pas; no prediction"
+    }
+   },
+   "passes": 1,
+   "kills": 0,
+   "recommendation": "LEAD-weak"
+  },
+  {
+   "candidate": "les",
+   "class": "S-syl",
+   "legs": {
+    "S1_rate": {
+     "verdict": "PASS",
+     "ratio": 1.9988661247883468,
+     "era_rate": 0.010292787181874204
+    },
+    "S2_la_frame": {
+     "verdict": "NEUTRAL",
+     "n_la_word_starting_with_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "NEUTRAL",
+     "n_on_word_starting_with_S": 4,
+     "n_wordEndingS_followed_by_le": 3
+    },
+    "S4_pas_frames": {
+     "verdict": "NEUTRAL",
+     "note": "word boundary before pas; no prediction"
+    }
+   },
+   "passes": 1,
+   "kills": 0,
+   "recommendation": "LEAD-weak"
+  },
+  {
+   "candidate": "te",
+   "class": "S-syl",
+   "legs": {
+    "S1_rate": {
+     "verdict": "PASS",
+     "ratio": 2.022048850462438,
+     "era_rate": 0.010174780704629788
+    },
+    "S2_la_frame": {
+     "verdict": "NEUTRAL",
+     "n_la_word_starting_with_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "NEUTRAL",
+     "n_on_word_starting_with_S": 0,
+     "n_wordEndingS_followed_by_le": 8
+    },
+    "S4_pas_frames": {
+     "verdict": "NEUTRAL",
+     "note": "word boundary before pas; no prediction"
+    }
+   },
+   "passes": 1,
+   "kills": 0,
+   "recommendation": "LEAD-weak"
+  },
+  {
+   "candidate": "un",
+   "class": "S-syl",
+   "legs": {
+    "S1_rate": {
+     "verdict": "PASS",
+     "ratio": 2.07006584163437,
+     "era_rate": 0.009938767750140952
+    },
+    "S2_la_frame": {
+     "verdict": "NEUTRAL",
+     "n_la_word_starting_with_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "NEUTRAL",
+     "n_on_word_starting_with_S": 2,
+     "n_wordEndingS_followed_by_le": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "NEUTRAL",
+     "note": "word boundary before pas; no prediction"
+    }
+   },
+   "passes": 1,
+   "kills": 0,
+   "recommendation": "LEAD-weak"
+  },
+  {
+   "candidate": "com",
+   "class": "S-syl",
+   "legs": {
+    "S1_rate": {
+     "verdict": "PASS",
+     "ratio": 2.368467785598267,
+     "era_rate": 0.008686587908269632
+    },
+    "S2_la_frame": {
+     "verdict": "NEUTRAL",
+     "n_la_word_starting_with_S": 56
+    },
+    "S3_on_frames": {
+     "verdict": "NEUTRAL",
+     "n_on_word_starting_with_S": 3,
+     "n_wordEndingS_followed_by_le": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "NEUTRAL",
+     "note": "word boundary before pas; no prediction"
+    }
+   },
+   "passes": 1,
+   "kills": 0,
+   "recommendation": "LEAD-weak"
+  },
+  {
+   "candidate": "et",
+   "class": "S-word",
+   "src": "top3",
+   "legs": {
+    "S1_rate": {
+     "verdict": "PASS",
+     "ratio": 0.9850155286893024,
+     "era_rate": 0.020886882519385707
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "PASS",
+     "n_S_pas": 1
+    }
+   },
+   "passes": 2,
+   "kills": 2,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "il",
+   "class": "S-word",
+   "src": "top3",
+   "legs": {
+    "S1_rate": {
+     "verdict": "PASS",
+     "ratio": 1.3976669350587756,
+     "era_rate": 0.014720176253320949
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 2,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "PASS",
+     "n_S_pas": 8
+    }
+   },
+   "passes": 2,
+   "kills": 2,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "les",
+   "class": "S-word",
+   "src": "top3",
+   "legs": {
+    "S1_rate": {
+     "verdict": "PASS",
+     "ratio": 1.738156963946269,
+     "era_rate": 0.011836620083374733
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "PASS",
+     "n_on_S": 4,
+     "n_que_S": 92
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 2,
+   "kills": 2,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "de",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "PASS",
+     "ratio": 0.42475363043146286,
+     "era_rate": 0.04843726375359095
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "PASS",
+     "n_on_S": 2,
+     "n_que_S": 33
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 2,
+   "kills": 2,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "à",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "PASS",
+     "ratio": 0.8116830134150451,
+     "era_rate": 0.025347214722336222
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 1,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "PASS",
+     "n_S_pas": 2
+    }
+   },
+   "passes": 2,
+   "kills": 2,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "se",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "NULL",
+     "ratio": 4.252276858225694,
+     "era_rate": 0.004838326457437847
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "PASS",
+     "n_on_S": 20,
+     "n_que_S": 1
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 1,
+   "kills": 2,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "des",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "NULL",
+     "ratio": 3.0627331711979275,
+     "era_rate": 0.006717497894032011
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 13
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 0,
+   "kills": 3,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "plus",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "NULL",
+     "ratio": 4.096817274161529,
+     "era_rate": 0.005021923666760265
+    },
+    "S2_la_frame": {
+     "verdict": "PASS",
+     "n_la_S": 22
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 1,
+   "kills": 2,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "tout",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 5.053103534443265,
+     "era_rate": 0.004071538112620688
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 18
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 0,
+   "kills": 4,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "bien",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 6.066942778615003,
+     "era_rate": 0.003391148454543491
+    },
+    "S2_la_frame": {
+     "verdict": "PASS",
+     "n_la_S": 1
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 1,
+   "kills": 3,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "sur",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 5.121021592701911,
+     "era_rate": 0.004017538933408212
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 6
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 0,
+   "kills": 4,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "sans",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 16.008571701555553,
+     "era_rate": 0.0012851804652569282
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 1
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 0,
+   "kills": 4,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "dans",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "NULL",
+     "ratio": 3.2845172973881223,
+     "era_rate": 0.0062639047886472125
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 15
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 0,
+   "kills": 3,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "encore",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 9.430792240025301,
+     "era_rate": 0.0021815668401840294
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 0,
+   "kills": 4,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "aussi",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 15.48796774378139,
+     "era_rate": 0.001328379808626909
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 1,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 0,
+   "kills": 4,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "leur",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 20.706739483533816,
+     "era_rate": 0.0009935848975095578
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "PASS",
+     "n_on_S": 2,
+     "n_que_S": 1
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 1,
+   "kills": 3,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "son",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 6.479659974439153,
+     "era_rate": 0.003175151737693587
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 12
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 0,
+   "kills": 4,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "mais",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 6.54646059273234,
+     "era_rate": 0.0031427522301661014
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "PASS",
+     "n_S_pas": 3
+    }
+   },
+   "passes": 1,
+   "kills": 3,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "car",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 18.495340121214667,
+     "era_rate": 0.001112383091777005
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 0,
+   "kills": 4,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "donc",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 19.843958671719907,
+     "era_rate": 0.0010367842408795386
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "PASS",
+     "n_S_pas": 9
+    }
+   },
+   "passes": 1,
+   "kills": 3,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "ni",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 29.76593800757986,
+     "era_rate": 0.0006911894939196924
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 1
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 0,
+   "kills": 4,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "y",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 6.707817015792644,
+     "era_rate": 0.003067153379268635
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 4,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 0,
+   "kills": 4,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "point",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 42.33377849966913,
+     "era_rate": 0.00048599261291228373
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 0,
+   "kills": 4,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "lettre",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 14.5421376525581,
+     "era_rate": 0.0014147784953668704
+    },
+    "S2_la_frame": {
+     "verdict": "PASS",
+     "n_la_S": 24
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 1,
+   "kills": 3,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "dépêche",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 24.74051990240404,
+     "era_rate": 0.00083158735987213
+    },
+    "S2_la_frame": {
+     "verdict": "PASS",
+     "n_la_S": 19
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 1,
+   "kills": 3,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "gouvernement",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 47.625500812127775,
+     "era_rate": 0.00043199343369980777
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 0,
+   "kills": 4,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "majesté",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 73.27000124942734,
+     "era_rate": 0.00028079573190487506
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 0,
+   "kills": 4,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "affaire",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 18.317500312356835,
+     "era_rate": 0.0011231829276195002
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 0,
+   "kills": 4,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "cour",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 50.132106118029235,
+     "era_rate": 0.0004103937620148174
+    },
+    "S2_la_frame": {
+     "verdict": "PASS",
+     "n_la_S": 30
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 1,
+   "kills": 3,
+   "recommendation": "NULL"
+  },
+  {
+   "candidate": "ministre",
+   "class": "S-word",
+   "src": "seeded",
+   "legs": {
+    "S1_rate": {
+     "verdict": "KILL",
+     "ratio": 17.31836393168283,
+     "era_rate": 0.0011879819426744713
+    },
+    "S2_la_frame": {
+     "verdict": "KILL",
+     "n_la_S": 0
+    },
+    "S3_on_frames": {
+     "verdict": "KILL",
+     "n_on_S": 0,
+     "n_que_S": 0
+    },
+    "S4_pas_frames": {
+     "verdict": "KILL",
+     "n_S_pas": 0
+    }
+   },
+   "passes": 0,
+   "kills": 4,
+   "recommendation": "NULL"
+  }
+ ],
+ "S5_diagnostic": {
+  "n48_to_suffix": 3,
+  "n48_to_wordboundary": 3,
+  "n48": 38,
+  "frac_suffix": 0.07894736842105263,
+  "frac_wordboundary": 0.07894736842105263,
+  "note": "diagnostic only (T7); stems take suffix followers, words take word-initial followers"
+ },
+ "S6_H_stem": {
+  "a_cosine": {
+   "cosine_pre_48_96": 0.38698360907245144,
+   "bar": 0.6,
+   "floor_median_vs_n>=20": 0.11871280764951228,
+   "verdict": "FAIL"
+  },
+  "b_fisher": {
+   "shared_top_followers": [
+    21
+   ],
+   "table": [
+    [
+     1,
+     8
+    ],
+    [
+     5,
+     82
+    ]
+   ],
+   "fisher_two_sided": 0.4552804025193492,
+   "verdict": "FAIL"
+  },
+  "c_signature": {
+   "top3_share_48": 0.15789473684210525,
+   "top3_cells_48": [
+    [
+     21,
+     2
+    ],
+    [
+     52,
+     2
+    ],
+    [
+     76,
+     2
+    ]
+   ],
+   "top3_share_96_calibration": 0.42857142857142855,
+   "top3_cells_96": [
+    [
+     0,
+     3
+    ],
+    [
+     87,
+     3
+    ],
+    [
+     21,
+     3
+    ]
+   ],
+   "bar": 0.4,
+   "verdict": "FAIL"
+  },
+  "verdict": "NULL (explicitly not adverse — underpowered, F64)"
+ },
+ "summary": {
+  "leads": [],
+  "lead_weaks": [
+   "à",
+   "et",
+   "de",
+   "a",
+   "es",
+   "il",
+   "les",
+   "te",
+   "un",
+   "com"
+  ],
+  "killed": [
+   "et",
+   "il",
+   "les",
+   "de",
+   "à",
+   "se",
+   "des",
+   "plus",
+   "tout",
+   "bien",
+   "sur",
+   "sans",
+   "dans",
+   "encore",
+   "aussi",
+   "leur",
+   "son",
+   "mais",
+   "car",
+   "donc",
+   "ni",
+   "y",
+   "point",
+   "lettre",
+   "dépêche",
+   "gouvernement",
+   "majesté",
+   "affaire",
+   "cour",
+   "ministre"
+  ]
+ }
+}

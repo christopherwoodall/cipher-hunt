@@ -21,6 +21,18 @@ R9BANK (2026-10-07): round-9 red-team extension appending the round-8
 adjudicated facts (code/crowd8/adjudicator/RULINGS-FINAL.md), cipher-side
 stream numbers only; corpus-side legs are banked with provenance in the
 verify_round7.py ROUND8-LEDGER extension. Existing checks untouched.
+
+R10BANK (2026-10-07): round-10 red-team finalizer extension appending the
+round-10 adjudicated facts (code/crowd10/redteam/RULINGS-ROUND10.md,
+finalized R1-R8), cipher-side stream numbers only; the round-10 status
+deltas are banked in the verify_round7.py ROUND10-LEDGER extension.
+Existing checks untouched.
+
+R11BANK (2026-10-07): round-11 red-team final extension appending the
+round-11 adjudicated facts (code/crowd11/redteam/RULINGS-ROUND11.md,
+finalized R1-R7), cipher-side stream numbers only; the round-11 status
+deltas are banked in the verify_round7.py ROUND11-LEDGER extension.
+Existing checks untouched.
 """
 import json, sys
 from collections import Counter
@@ -223,6 +235,100 @@ def main():
     # Finisher67 windows
     chk('@199 ctx', pairs[197:202], [60,8,67,76,87])
     chk('@630 ctx', pairs[629:633], [78,67,8,52])
+
+    # ---- R10BANK (2026-10-07, round-10 red-team extension) ----
+    # Round-10 adjudicated facts (code/crowd10/redteam/RULINGS-ROUND10.md),
+    # cipher-side stream numbers only. Existing checks untouched.
+    # R7 conditioner59 — ISLET 10 (granted with F33 narrowing)
+    chk('59 est-arm windows (pre in {64,94,93}, excl S5-fenced @1796)',
+        sorted(i for i in range(1847)
+               if pairs[i] == 59 and pairs[i-1] in (64,94,93) and i != 1796),
+        [103,316,559,763,1210,1777])
+    chk('59 pre=94 @1796 is S5-fenced (suc=37)', pairs[1797], 37)
+    chk('59 este-arm pre=84 windows', sorted(i for i in range(1847)
+                                             if pairs[i] == 59 and pairs[i-1] == 84),
+        [1190,1291,1448,1804])
+    chk('59->46 (S4, both re-read verb+que)', pos2(59,46), [216,1190])
+    chk('@463 pre=11 (anti-unconditioned datum)', (pairs[462],pairs[464]), (11,42))
+    chk('@103 ctx', pairs[100:105], [62,94,93,59,45])
+    # R7: pre=06/61/44/86 windows are F33-fenced OBSERVATIONS per R7
+    # (post-hoc condition expansions — NOT islet legs; @216's verb re-read
+    # granted only as F52-caveat-3 dissolution). Positions banked as drift guards.
+    chk('59 pre=06 windows (F33-fenced observations, not islet legs)',
+        sorted(i for i in range(1847) if pairs[i]==59 and pairs[i-1]==6),
+        [216,1186])
+    chk('59 pre in {61,44} windows (@448/@1715 frame-forced observations;'
+        ' @528 S5-fenced, @1511 leftover)', sorted(i for i in range(1847)
+                                                  if pairs[i]==59 and pairs[i-1] in (61,44)),
+        [448,528,1511,1715])
+    chk('59 pre=86 window (F33-fenced lean observation)', [i for i in range(1847)
+                                       if pairs[i]==59 and pairs[i-1]==86], [554])
+    # R5 resolver1351 — @1351-1356 window
+    chk('@1351-1356', pairs[1351:1357], [77,78,94,82,6,52])
+    chk('other 94 in 1340-1370', [i for i in range(1340,1371) if pairs[i]==94],
+        [1353,1363])
+    # R4 arm1248
+    chk('67->46 positions', [i for i in range(1846)
+                             if pairs[i]==67 and pairs[i+1]==46], [471,1248])
+    chk('00->67 singleton', [i for i in range(1846)
+                             if pairs[i]==0 and pairs[i+1]==67], [1247])
+    chk('no 62 in @1242-1255', [i for i in range(1242,1255) if pairs[i]==62], [])
+    # R3 finisher67 round-10 L2 contacts
+    chk('11->31 / 11->98 / 11->33', (big[(11,31)],big[(11,98)],big[(11,33)]),
+        (1,0,0))
+    chk('64->31 adverse', big[(64,31)], 2)
+    # R2 watch06 — H4g frame positions (REFUTED per pre-registered bar)
+    chk('94-82-06-06 starts', [i for i in range(1844)
+                               if pairs[i:i+4]==[94,82,6,6]], [578,1182])
+    def _p_comb_fn():
+        import math as _m
+        def _plit(k):
+            return _m.comb(4,k)/_m.comb(44,k) if k <= 4 else 0.0
+        _p_suc = 1 - (1-_plit(2))**6*(1-_plit(4))**3*(1-_plit(3))*(1-_plit(6))
+        _p_pre2 = 1 - (1-_plit(2))**2*(1-_plit(3))**3*(1-_plit(4))**2
+        return 1 - (1-_p_suc)*(1-_p_pre2)
+    chk('H4g p_comb literal (PREREG "same p_k form")',
+        round((_p_comb_fn()),6), 0.050810)
+
+    # ---- R11BANK (2026-10-07, round-11 red-team extension) ----
+    # Round-11 adjudicated facts (code/crowd11/redteam/RULINGS-ROUND11.md,
+    # finalized R1-R7), cipher-side stream numbers only; corpus-side legs are
+    # banked with provenance in the verify_round7.py ROUND11-LEDGER extension.
+    # Existing checks untouched.
+    # R3 census33 — 33 = infinitive-class (C1); fork @1450/@1623 lean-veut LEAN
+    chk('n33', groups[33], 25)
+    chk('00->33 x8', big[(0,33)], 8)
+    chk('33->29 x5', big[(33,29)], 5)
+    # R5 arm1248 — peu STRENGTHENED 4/8; empêcher-class WEAK-FENCED 3/7
+    # (label corrected: the 11-token frame spans 1244-1254; the R5 ruling's
+    # "@1244-1256" label is +2 — values byte-exact)
+    chk('@1244-1254 pour 33 16 pour 67 que frame', pairs[1244:1255],
+        [0,33,16,0,67,46,26,30,6,65,46])
+    chk('@470-473', pairs[470:474], [6,67,46,84])
+    # R6 finisher67 — @633 -> et-CONDITIONAL(C1^C2); fork SUPPORTED, fenced n=2
+    chk('@631-635', pairs[631:636], [8,52,67,63,74])
+    chk('11->52 / 08->52', (big[(11,52)], big[(8,52)]), (3,1))
+    chk('11->31 / 64->31 / 08->31', (big[(11,31)], big[(64,31)], big[(8,31)]),
+        (1,2,3))
+    chk('@1421-1426 veut-arm window', pairs[1421:1427], [33,21,67,33,29,87])
+    chk('n92 / 00->92 / 46->92 / 11->92', (groups[92], big[(0,92)],
+                                          big[(46,92)], big[(11,92)]),
+        (22,6,1,3))
+    chk('11->98 / n98 / 46->16 / 11->16', (big[(11,98)], groups[98],
+                                           big[(46,16)], big[(11,16)]),
+        (0,40,0,0))
+    # R7 anchorer48 — 3 fences (A, B-premise, D-conditional); cipher-side windows
+    chk('62->48 48-positions (on-frames)', sorted(i for i in range(1,1847)
+        if pairs[i] == 48 and pairs[i-1] == 62), [361,426,1316,1350,1465,1570])
+    chk('82->48 48-positions (m-frames)', sorted(i for i in range(1,1847)
+        if pairs[i] == 48 and pairs[i-1] == 82), [126,377,398,1229])
+    chk('48->(77|11) pronoun-cell windows',
+        sorted(i for i in range(1846) if pairs[i] == 48 and pairs[i+1] in (77,11)),
+        [126,1076,1350])
+    chk('@1076 frame pre=12', pairs[1075:1080], [12,48,77,78,64])
+    chk('48->47 window starts (@863, @1658)',
+        sorted(i for i in range(1846) if pairs[i] == 48 and pairs[i+1] == 47),
+        [863,1658])
 
     print(f'F26-17 adjudication stream: {len(pairs)} pairs')
     allok = True

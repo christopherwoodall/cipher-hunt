@@ -1,0 +1,302 @@
+{
+ "windows": {
+  "w1190": {
+   "p59": 1190,
+   "p84": 1189,
+   "ctx12": [
+    59,
+    37,
+    77,
+    78,
+    94,
+    82,
+    6,
+    6,
+    59,
+    42,
+    6,
+    84,
+    59,
+    46,
+    7,
+    24,
+    82,
+    16,
+    96,
+    82,
+    16,
+    64,
+    29,
+    45,
+    58
+   ],
+   "pre84": 6
+  },
+  "w1448": {
+   "p59": 1448,
+   "p84": 1447,
+   "ctx12": [
+    82,
+    16,
+    24,
+    85,
+    1,
+    52,
+    68,
+    59,
+    37,
+    64,
+    77,
+    84,
+    59,
+    36,
+    67,
+    33,
+    46,
+    92,
+    62,
+    61,
+    21,
+    67,
+    86,
+    66,
+    79
+   ],
+   "pre84": 77
+  },
+  "w1804": {
+   "p59": 1804,
+   "p84": 1803,
+   "ctx12": [
+    86,
+    56,
+    42,
+    94,
+    59,
+    37,
+    91,
+    79,
+    87,
+    64,
+    77,
+    84,
+    59,
+    35,
+    94,
+    52,
+    80,
+    4,
+    61,
+    15,
+    93,
+    50,
+    42,
+    6,
+    29
+   ],
+   "pre84": 77
+  },
+  "w1291": {
+   "p59": 1291,
+   "p84": 1290,
+   "ctx12": [
+    48,
+    53,
+    61,
+    56,
+    32,
+    98,
+    55,
+    68,
+    0,
+    11,
+    17,
+    84,
+    59,
+    35,
+    94,
+    52,
+    80,
+    4,
+    62,
+    16,
+    2,
+    70,
+    37,
+    8,
+    43
+   ],
+   "pre84": 17
+  }
+ },
+ "n84": 25,
+ "pre84_profile": {
+  "6": 1,
+  "11": 1,
+  "17": 1,
+  "32": 1,
+  "46": 2,
+  "48": 1,
+  "53": 2,
+  "65": 1,
+  "66": 2,
+  "74": 1,
+  "77": 7,
+  "82": 1,
+  "89": 2,
+  "91": 1,
+  "94": 1
+ },
+ "en_arm_positions": [
+  154,
+  167,
+  276,
+  1151,
+  1378
+ ],
+ "este_84_positions": [
+  1189,
+  1447,
+  1803,
+  1290
+ ],
+ "este_84_pre_in_en_arm": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "a3": {
+  "manifeste": {
+   "stem_first": "manif",
+   "mid_options_1190": [
+    "if",
+    "nif",
+    "f"
+   ],
+   "monovalent_compatible": false
+  },
+  "atteste": {
+   "stem_first": "att",
+   "mid_options_1190": [
+    "tt",
+    "t"
+   ],
+   "monovalent_compatible": false
+  },
+  "proteste": {
+   "stem_first": "prot",
+   "mid_options_1190": [
+    "t",
+    "ot",
+    "rot"
+   ],
+   "monovalent_compatible": false
+  },
+  "conteste": {
+   "stem_first": "cont",
+   "mid_options_1190": [
+    "t",
+    "nt",
+    "ont"
+   ],
+   "monovalent_compatible": false
+  },
+  "déteste": {
+   "stem_first": "dét",
+   "mid_options_1190": [
+    "t",
+    "ét"
+   ],
+   "monovalent_compatible": false
+  }
+ },
+ "v8": {
+  "N": 92594,
+  "per_candidate": {
+   "manifeste": {
+    "n": 1,
+    "qui_le_V": 0,
+    "le_V": 0,
+    "V_le": 0,
+    "V_que": 0,
+    "ne_V_pas": 0
+   },
+   "atteste": {
+    "n": 0,
+    "qui_le_V": 0,
+    "le_V": 0,
+    "V_le": 0,
+    "V_que": 0,
+    "ne_V_pas": 0
+   },
+   "proteste": {
+    "n": 1,
+    "qui_le_V": 0,
+    "le_V": 0,
+    "V_le": 0,
+    "V_que": 0,
+    "ne_V_pas": 0
+   },
+   "conteste": {
+    "n": 0,
+    "qui_le_V": 0,
+    "le_V": 0,
+    "V_le": 0,
+    "V_que": 0,
+    "ne_V_pas": 0
+   },
+   "déteste": {
+    "n": 2,
+    "qui_le_V": 0,
+    "le_V": 0,
+    "V_le": 0,
+    "V_que": 0,
+    "ne_V_pas": 0
+   }
+  }
+ },
+ "a2": {
+  "manif_standalone_v8": 0
+ },
+ "c_verdicts": {
+  "manifeste": {
+   "w1448": "grammatical",
+   "w1804": "grammatical",
+   "w1190": "grammatical (que-clause attested, leg C)",
+   "w1291_verbparse": "SURVIVES (intransitive-capable) - CONDITIONAL, fenced"
+  },
+  "atteste": {
+   "w1448": "grammatical",
+   "w1804": "grammatical",
+   "w1190": "grammatical (que-clause attested, leg C)",
+   "w1291_verbparse": "EXCLUDED (strictly transitive; [35] is ne-clause subject by @1804-parallelism) - CONDITIONAL, fenced"
+  },
+  "proteste": {
+   "w1448": "grammatical",
+   "w1804": "grammatical",
+   "w1190": "grammatical (que-clause attested, leg C)",
+   "w1291_verbparse": "SURVIVES (intransitive-capable) - CONDITIONAL, fenced"
+  },
+  "conteste": {
+   "w1448": "grammatical",
+   "w1804": "grammatical",
+   "w1190": "grammatical (que-clause grammatical, leg C)",
+   "w1291_verbparse": "EXCLUDED (strictly transitive) - CONDITIONAL, fenced"
+  },
+  "déteste": {
+   "w1448": "grammatical",
+   "w1804": "grammatical",
+   "w1190": "grammatical (que-clause grammatical, leg C)",
+   "w1291_verbparse": "EXCLUDED (strictly transitive) - CONDITIONAL, fenced"
+  }
+ },
+ "overall": "H0 HOLDS: set stays {manifeste, atteste, proteste, conteste, déteste}; no promotion, no demotion, no kill.",
+ "new_data": [
+  "a1-verified: pre(84)@1447/@1803=77 (7/25 of 84 preds are 77); en-arm pres only at the 5 banked en-windows [154,167,276,1151,1378]; este-window 84s never in en-arm.",
+  "a3-monovalence: for ALL five, stem@1447(@1803) not in mid-options@1189 -> 84 polyvalent here OR @1190 verb != @1448/@1804 verb.",
+  "77->84 x7, 3x preceded by 64 (qui-le-84 pattern @146/@1447/@1803): 84=stem-after-le generally.",
+  "@1291/@1804 share byte-identical 5-mer suffix [35,94,52,80,4]: structural support for @1291 verb-parse (fenced-lean).",
+  "@1291 verb-parse conditional discriminator: [35] as ne-clause subject (by @1804 parallelism) forces V objectless -> {manifeste,proteste} survive; {atteste,conteste,déteste} excluded. CONDITIONAL on verb-parse + 35 role; fenced."
+ ]
+}

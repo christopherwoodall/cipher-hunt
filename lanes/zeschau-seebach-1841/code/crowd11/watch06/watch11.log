@@ -1,0 +1,47 @@
+=== census-fidelity gate ===
+N = 1847 (expect 1847)
+n06 = 44 (expect 44); n82 = 39 (expect 39)
+
+=== FIRE-PART: 82->06 census ===
+observed: [580, 738, 1184, 1355]
+predicted: [580, 738, 1184, 1355]
+missing from prediction: [] | NOT on predicted list: []
+FIRE-PART: does not fire
+
+=== 94-82-06 trigram census ===
+94-82-06 trigrams (06-pos): [580, 1184, 1355] | all islet: True
+94-82-06 trigrams OUTSIDE islet: []
+
+=== FIRE-IN: islet contact audit (round-11 glosses) ===
+@580: 55 61 94=ne 82=m 6 6 50 10 19
+   forced adverse: none
+@738: 93 76 18 82=m 6 0 36 20 30
+   forced adverse: none
+@1184: 77=le 78 94=ne 82=m 6 6 59? 42 6
+   forced adverse: none
+@1355: 77=le 78 94=ne 82=m 6 52 37 64=qui 35
+   forced adverse: none
+
+=== @1355 F70-check: is the 94-82-06-52 block byte-exact? ===
+pairs @1349-1362: 62 48 77=le 78 94=ne 82=m 6 52 37 64=qui 35 13 92 62
+
+=== FIRE-OUT: pre!=82 06-windows, ISLET-10-tightened by-ear rule ===
+(counts iff [gloss(pre)]+"ent"+[gloss(suc)] is an era-French word tail; unknown=>NOT counted)
+  @319: "94=ne"+"ent"+"11=la"
+windows with both pre and suc glossed: 1
+counted (French word tail): NONE => FIRE-OUT does not fire
+
+=== coincidence probe (cipher-internal exact binomial) ===
+E[82->06]=0.93; obs=4; enrichment=4.31x; P(X>=4)=0.0138
+prereg read: p>0.05 => adverse to conditioner; p<0.01 => selection real
+
+=== Frenchman register check: Nesselrode v8 word-space ===
+v8 tokens: 92677
+  ne ment: n = 0
+  ment pas: n = 0
+  ne mentent: n = 0
+  words ending in -ment (len>4): 951 types: 279
+  sample: ['absolument', 'accouchement', 'acharnement', 'acquittement', 'actuellement', 'admirablement', 'affranchissement', 'agréablement', 'agrément', 'aiment', 'aisément', 'ajournement', 'alternativement', 'amendement', 'ameublement']
+
+=== islet-window successor profile (re-derive) ===
+islet suc: Counter({6: 2, 0: 1, 52: 1})

@@ -1,0 +1,79 @@
+{
+ "N": 92594,
+ "este_inventory": [
+  [
+   "funeste",
+   3
+  ],
+  [
+   "d\u00e9teste",
+   2
+  ],
+  [
+   "manifeste",
+   1
+  ],
+  [
+   "indigeste",
+   1
+  ],
+  [
+   "proteste",
+   1
+  ]
+ ],
+ "este_frames": {
+  "funeste": {
+   "n": 3,
+   "qui_le_V": 0,
+   "V_que": 0,
+   "la_V": 0,
+   "V_le": 0,
+   "ne_V_pas": 0
+  },
+  "d\u00e9teste": {
+   "n": 2,
+   "qui_le_V": 0,
+   "V_que": 0,
+   "la_V": 0,
+   "V_le": 0,
+   "ne_V_pas": 0
+  },
+  "manifeste": {
+   "n": 1,
+   "qui_le_V": 0,
+   "V_que": 0,
+   "la_V": 0,
+   "V_le": 0,
+   "ne_V_pas": 0
+  },
+  "indigeste": {
+   "n": 1,
+   "qui_le_V": 0,
+   "V_que": 1,
+   "la_V": 0,
+   "V_le": 0,
+   "ne_V_pas": 0
+  },
+  "proteste": {
+   "n": 1,
+   "qui_le_V": 0,
+   "V_que": 0,
+   "la_V": 0,
+   "V_le": 0,
+   "ne_V_pas": 0
+  }
+ },
+ "misc": {
+  "l_est": 6,
+  "c_est": 352,
+  "en_est_que": 1,
+  "P_le_given_est": 0.019464720194647202,
+  "n_est_le": 24,
+  "n_est": 1233,
+  "n_est_le_pat": 0,
+  "la_est": 0,
+  "P_est_given_qui": 0.08516129032258064,
+  "P_est_given_np": 0.22975206611570248
+ }
+}

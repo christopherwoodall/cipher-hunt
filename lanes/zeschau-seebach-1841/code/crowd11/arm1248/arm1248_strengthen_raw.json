@@ -1,0 +1,578 @@
+{
+ "corpora": {
+  "RDM-1841-q1": {
+   "chars": 3013552,
+   "tokens": 459176
+  },
+  "RDM-1841-q2": {
+   "chars": 2964405,
+   "tokens": 449677
+  },
+  "RDM-1841-q3": {
+   "chars": 3054350,
+   "tokens": 463283
+  },
+  "RDM-1841-q4": {
+   "chars": 3165234,
+   "tokens": 478398
+  },
+  "Guizot-DIP": {
+   "chars": 1992545,
+   "tokens": 298765
+  }
+ },
+ "v8_docs": 97,
+ "P-A": {
+  "n": 13,
+  "hits": [
+   {
+    "corpus": "RDM-1841-q1",
+    "tokpos": 33127,
+    "context": "bière ou revue des deux mondes de genièvre s il est riche sa bouteille de vin et alors pour peu que le lieu lui plaise que sa femme ne cherche pas trop à l entraîner dehors ou"
+   },
+   {
+    "corpus": "RDM-1841-q1",
+    "tokpos": 334674,
+    "context": "brochure de notre ami edgar quinet a réveillé avec toute sa fougue l esprit de la vieille teutonie pour peu que cette effervescence allemande con tinue les choses en viendront au point que nous n oserons plus"
+   },
+   {
+    "corpus": "RDM-1841-q2",
+    "tokpos": 244070,
+    "context": "le courant des croyances y portait directement mais il n était pas tout à fait inévi table et pour peu que l entramement national eût rencontré une autre issue il aurait pu tourner l écueil au lieu"
+   },
+   {
+    "corpus": "RDM-1841-q2",
+    "tokpos": 261147,
+    "context": "sont pas moins ingrats que les peuples et la faveur n est pas plus durable que la popularité pour peu que l on sacrifie son devoir à l une de ces fragiles espérances on se prépare des"
+   },
+   {
+    "corpus": "RDM-1841-q2",
+    "tokpos": 399811,
+    "context": "échange encore des complimens mais ce sont des complimens qui laissent apercevoir de longues griffes sous leur velours pour peu que ce système de guerre couverte et de politesse armée se perfectionne la salle du palais des"
+   },
+   {
+    "corpus": "RDM-1841-q3",
+    "tokpos": 35081,
+    "context": "amhara se résignent à recevoir un chef spirituel mais ils ne veulent pas être rançonnés à cette occasion pour peu que cette lutte dure encore l abyssinie apprendra sans doute à se passer de la médiation du"
+   },
+   {
+    "corpus": "RDM-1841-q3",
+    "tokpos": 200248,
+    "context": "et le second le polythéisme répand encore trop de lumière pendant le troisième il est trop dégradé ainsi pour peu que m guiraud se fût rendu compte des conditions histo riques et littéraires de son sujet il"
+   },
+   {
+    "corpus": "RDM-1841-q3",
+    "tokpos": 308800,
+    "context": "pas les fautes les plus graves dès lors il est à la merci de ses ennemis et succombe pour peu que ses adversaires sachent tirer parti des circonstances en attendant une dépêche télégraphique annonce que palafox a"
+   },
+   {
+    "corpus": "RDM-1841-q3",
+    "tokpos": 381056,
+    "context": "bien aises de nous montrer de nous faire en tendre nous sommes toujours prêts à croiser le fer pour peu que l ennemi vaille la peine d un combat quoi qu il en soit la chute du"
+   },
+   {
+    "corpus": "RDM-1841-q3",
+    "tokpos": 389305,
+    "context": "se contente de vous donner le ton puis laisse votre ame chanter quand elle a de la voix pour peu que la mélancolie des lieux et le penchant de votre humeur s y prêtent le lied va"
+   },
+   {
+    "corpus": "RDM-1841-q4",
+    "tokpos": 414695,
+    "context": "traité de londres sans intéresser l honneur des puissances et sans porter atteinte au principe même du traité pour peu que lord palmerston eût désiré la paix et qu il eût regretté l alliance française il devait"
+   },
+   {
+    "corpus": "Guizot-DIP",
+    "tokpos": 68250,
+    "context": "de grands efforts sont nécessaires la situation de lord palmerston sera très mauvaise et la nôtre très forte pour peu que nous prenions soin de ne pas irriter les passions anglaises nous aurons our nous les inté"
+   },
+   {
+    "corpus": "Guizot-DIP",
+    "tokpos": 212923,
+    "context": "que nous poursuivions lord aberdeen est revenu à la charge sur divers points qu il avait entamés et pour peu que je m y fusse prêté nous serions entrés tout de suite dans le fond même de"
+   }
+  ],
+  "clauses": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ "E-A": {
+  "n": 52,
+  "hits": [
+   {
+    "corpus": "RDM-1841-q1",
+    "tokpos": 38647,
+    "inf": "croire",
+    "context": "j allumai ma lan terne et me dirigeai vers le petit bois de sapins oùj avais mes raisons pour croire que la bande s était instauée depuis quelques jours déjà de loin j aperçus une fumée ardente"
+   },
+   {
+    "corpus": "RDM-1841-q1",
+    "tokpos": 68216,
+    "inf": "demander",
+    "context": "paris et qui choisit m thiers pour président et pour rapporteur le lendomaiii toutes les opinions se réunissent pour demander que les armemens terri sitcxvtion polïtique foriaux et maritimes soient en isil et élevés jusqu au petit"
+   },
+   {
+    "corpus": "RDM-1841-q1",
+    "tokpos": 216571,
+    "inf": "histoire",
+    "context": "fragile qui traîna ses jours méprisés dans l infamie et la douleur humble créature qui n a eu pour histoire que ces mots elle aima le christ et pleura près de sa tombe elle aima tout lui"
+   },
+   {
+    "corpus": "RDM-1841-q1",
+    "tokpos": 224869,
+    "inf": "démontrer",
+    "context": "puissances du nord que l alliance anglo française gênait et inquiétait avaient fait à paris de grands efforts pour démontrer que cette alliance était funeste et que la france si elle voulait y moins tenir trouverait ailleurs"
+   },
+   {
+    "corpus": "RDM-1841-q1",
+    "tokpos": 232730,
+    "inf": "obtenir",
+    "context": "n est rien il faut pour expliquer la rupture de l alliance grandir le traité outre mesure et pour obtenir que l al liance se renoue réduire le môme traité aux plus minces propor tions il faut"
+   },
+   {
+    "corpus": "RDM-1841-q1",
+    "tokpos": 253267,
+    "inf": "montrer",
+    "context": "d alexandrie il est de la grande école psychologique française c est à la louange de m lamennais pour montrer que son entreprise était humainement possible et que ses théories ont leurs racines dans l histoire que"
+   },
+   {
+    "corpus": "RDM-1841-q1",
+    "tokpos": 262460,
+    "inf": "soutenir",
+    "context": "m lamennais déclare que nous ne pouvons rien connaître c est sur cette affirmation qu il se fonde pour soutenir que dans le dernier atome de la matière il y a sous une certaine forme et à"
+   },
+   {
+    "corpus": "RDM-1841-q1",
+    "tokpos": 263097,
+    "inf": "comprendre",
+    "context": "ci soit altérée dimi nuée changée il n est pas nécessaire d entendre à fond la méta physique pour comprendre que le mot substance est pris ici dans deux acceptions différentes c est d ailleurs expliquer un"
+   },
+   {
+    "corpus": "RDM-1841-q1",
+    "tokpos": 370403,
+    "inf": "reconnaître",
+    "context": "nous nous sommes pleinement satisfaits en résumé il suffit d avoir vu la chambre pendant ces trois journées pour reconnaître que nul ne se souciait du débat qu on avait essayé de lui impo ser la discussion"
+   },
+   {
+    "corpus": "RDM-1841-q1",
+    "tokpos": 396208,
+    "inf": "signifier",
+    "context": "qu ils ont des pieds et que les bottes de sept lieues du petit poucet sont un mythe pour signifier que l enfance ferait le tour du monde sans s en apercevoir enfin je me laissai entraîner"
+   },
+   {
+    "corpus": "RDM-1841-q1",
+    "tokpos": 414353,
+    "inf": "convaincre",
+    "context": "longue période ne soit éclairée que de quelques lueurs historiques bien pâles il reste cependant des indices sufiisans pour convaincre que ces cités acquirent en grèce la môme force d organisation qu elles avaient en orient ainsi"
+   },
+   {
+    "corpus": "RDM-1841-q1",
+    "tokpos": 439287,
+    "inf": "vivre",
+    "context": "contrée et c est là une des principales causes de la misère de la population qui n a pour vivre que ses troupeaux et son industrie peu productive aux environs d asiago la capitale du pays les"
+   },
+   {
+    "corpus": "RDM-1841-q2",
+    "tokpos": 5906,
+    "inf": "découvrir",
+    "context": "différent car ses défauts sont évidens et pour ainsi dire élémentaires il ne faut pas une pénétration extraordinaire pour découvrir que dans sa prise de consla itinople l action est en partie obscure en partie insignifiante que"
+   },
+   {
+    "corpus": "RDM-1841-q2",
+    "tokpos": 194799,
+    "inf": "prouver",
+    "context": "qu éprouvait souvent la domination cartha ginoise secousses qu il est bon de rappeler ne fût ce que pour prouver que même sous les carthaginois même pendant cette do mination qui a duré sept cents ans l"
+   },
+   {
+    "corpus": "RDM-1841-q2",
+    "tokpos": 221268,
+    "inf": "rappeler",
+    "context": "de la classe la plus nombreuse et la plus pauvre il se trouva heureuse ment des esprits sévères pour rappeler que l intention ne justifie pas toujours les moyens un cri d alarme retentit jusqu au sein"
+   },
+   {
+    "corpus": "RDM-1841-q2",
+    "tokpos": 221985,
+    "inf": "établir",
+    "context": "uvre pour éviter le double écueil contre lequel viennent échouer ordinairement les novateurs elle s épuise en démonstrations pour établir que la propriété est respectée dans le phalanstère puisque suivant le v u du maître les bé"
+   },
+   {
+    "corpus": "RDM-1841-q2",
+    "tokpos": 289362,
+    "inf": "établir",
+    "context": "des expériences ou par des inductions tirées de certains faits les inductions ne manquent pas il est vrai pour établir que philosophie de m buchez la perception d un corps extérieur est accompagnée d une modifica tion"
+   },
+   {
+    "corpus": "RDM-1841-q2",
+    "tokpos": 289727,
+    "inf": "montrer",
+    "context": "la succession de quelques actions qui produit en nous l idée d infini il serait superflu d insister pour montrer que c est là du sensualisme tout pur m bûchez n avouera peut être pas cette der"
+   },
+   {
+    "corpus": "RDM-1841-q2",
+    "tokpos": 292096,
+    "inf": "prouver",
+    "context": "suffit de tenir compte des observations que nous avons exposées dans le viii p ainsi m bûchez qui pour prouver que les doctrines de m lamennais contiennent le panthéisme nous renvoyait à l étude du buddhisme se"
+   },
+   {
+    "corpus": "RDM-1841-q2",
+    "tokpos": 298118,
+    "inf": "prouver",
+    "context": "nous ont intéressé dans la première de ses brochures écrite en français et d une façon assez correcte pour prouver que l auteur a fait une étude particulière de notre langue m yenedey examine nos idées d"
+   },
+   {
+    "corpus": "RDM-1841-q2",
+    "tokpos": 313445,
+    "inf": "savoir",
+    "context": "à cent le nombre des régimens d infanterie il n est pas besoin d être homme de guerre pour savoir que les bons cadres font ggo revue des deux mondes promptement les bonnes années surtout lorsque les"
+   },
+   {
+    "corpus": "RDM-1841-q2",
+    "tokpos": 345248,
+    "inf": "éviter",
+    "context": "point nommé un grand homme romain qui pût faire le pendant d un grand homme grec et réciproquement pour éviter que ses héros ne se trouvassent dépareillés n a t il pas été souvent réduit à de"
+   },
+   {
+    "corpus": "RDM-1841-q2",
+    "tokpos": 370317,
+    "inf": "déclarer",
+    "context": "cette ordonnance mais se renfermant dans le même objet or s il a suffi d une ordonnance en pour déclarer que les dépenses devaient être justifiées apparemment une ordon nance eût suffi de même en pour déclarer"
+   },
+   {
+    "corpus": "RDM-1841-q2",
+    "tokpos": 370334,
+    "inf": "déclarer",
+    "context": "en pour déclarer que les dépenses devaient être justifiées apparemment une ordon nance eût suffi de même en pour déclarer que les justifica tions n étaient pas nécessaires l article du décret de bien qu il soit"
+   },
+   {
+    "corpus": "RDM-1841-q2",
+    "tokpos": 406342,
+    "inf": "prouver",
+    "context": "s appela grotius mais que dire du renégat jean de gorp qui après avoir écrit tout un livre pour prouver que la langue du paradis ter restre la langue dans laquelle adam adressait son cantique d amour"
+   },
+   {
+    "corpus": "RDM-1841-q3",
+    "tokpos": 11833,
+    "inf": "constater",
+    "context": "n avait jamais eu cependant le roi qui avait repris avec ardeur les embellissemens de fontaine bleau comme pour constater que la royauté continuait son uvre faisait depuis quelques années travailler sous les ordres de dubreuil ambroise"
+   },
+   {
+    "corpus": "RDM-1841-q3",
+    "tokpos": 107930,
+    "inf": "établir",
+    "context": "isthme qui sépare les deux mers lebeau larcher mm le père etrozière ont regardé ce passage comme décisif pour établir que sous les derniers lagides la communication par le canal n existait plus et en effet s"
+   },
+   {
+    "corpus": "RDM-1841-q3",
+    "tokpos": 145200,
+    "inf": "témoigner",
+    "context": "unité religieuse mais le réveil de l esprit municipal mais les gouvernemens locaux ne sont ils pas là pour témoigner que l union en tendant au fédéralisme préparait au royaume une organisation pareille à celle des cantons"
+   },
+   {
+    "corpus": "RDM-1841-q3",
+    "tokpos": 178387,
+    "inf": "prouver",
+    "context": "soit encore embarrassé il ne manque pas plus en angleterre qu en france d écrivains et d orateurs pour prouver que e beau idéal pour chaque nation est de produire elle même tout ce qu elle consomme"
+   },
+   {
+    "corpus": "RDM-1841-q3",
+    "tokpos": 178408,
+    "inf": "établir",
+    "context": "e beau idéal pour chaque nation est de produire elle même tout ce qu elle consomme de philosophes pour établir que le peuple n est jamais plus heureux et plus riche que lorsqu il paie très cher"
+   },
+   {
+    "corpus": "RDM-1841-q3",
+    "tokpos": 186135,
+    "inf": "croire",
+    "context": "étendre son commerce extérieur et devenir le pourvoyeur du monde entier or sir robert peel est trop éclairé pour croire que l angleterre puisse vendre sans acheter fournir à l étranger ses produits sans prendre en revanche"
+   },
+   {
+    "corpus": "RDM-1841-q3",
+    "tokpos": 189556,
+    "inf": "empêcher",
+    "context": "pour lequel il est juste qu elle souffre de m plumptree qui tous les ans présente un bill pour empêcher que le dimanche les cochers puissent conduire une voiture les bou langers cuire une livre de pain"
+   },
+   {
+    "corpus": "RDM-1841-q3",
+    "tokpos": 246157,
+    "inf": "déclarer",
+    "context": "songe pas que le roi doit être maintenu dans la justice ou s il y songe c est pour déclarer que les rois ne doivent compte qu à dieu du gouvernement de leurs peuples toute action des"
+   },
+   {
+    "corpus": "RDM-1841-q3",
+    "tokpos": 254307,
+    "inf": "titre",
+    "context": "il l appelait quelques chapitres de y essai sur l origine des langues par exemple celui qui a pour titre que le premier langage dut être figuré ou le cha pitre second que la première invention de"
+   },
+   {
+    "corpus": "RDM-1841-q3",
+    "tokpos": 361617,
+    "inf": "montrer",
+    "context": "entre dans sa nouvelle habitation on lui présente un morceau de pain qu elle partage avec son époux pour montrer que désormais ils doivent lun et l autre mettre en connuun tout ce qui leur appartient et"
+   },
+   {
+    "corpus": "RDM-1841-q3",
+    "tokpos": 442512,
+    "inf": "indiquer",
+    "context": "nation soudaine traversa l esprit de m de la charnaye elle porta la main à son front comme pour indiquer que cet homme n avait plus sa tète et lui tenant le bras elle fit des épaules"
+   },
+   {
+    "corpus": "RDM-1841-q3",
+    "tokpos": 459766,
+    "inf": "montrer",
+    "context": "la presse anglaise humeur qu un journal a qualifiée de comique et qui l est en effet suffirait pour montrer que cette convention peut avoir pour nous des avantages tout cela est vrai sérieux digne d attention"
+   },
+   {
+    "corpus": "RDM-1841-q4",
+    "tokpos": 157029,
+    "inf": "croire",
+    "context": "l un et dans l autre sens toujours est il qu il faudrait les preuves les plus irrécusables pour croire que notre gouvernement est sorti de son rôle de spectateur à l égard de l espagne nous"
+   },
+   {
+    "corpus": "RDM-1841-q4",
+    "tokpos": 294359,
+    "inf": "montrer",
+    "context": "en dehors de l école éclecti ue s est livré à une analyse approfondie de l intel ligence pour montrer que tout ne vient pas des sens si quelque autre que m de biran a tiré des"
+   },
+   {
+    "corpus": "RDM-1841-q4",
+    "tokpos": 350436,
+    "inf": "empêcher",
+    "context": "ne se trouveraient pas mises en présence vous d un côté nous de l autre nous serions là pour empêcher que l armée égyptienne ne vînt à fran chir le canal de constantinople d ailleurs la disproportion"
+   },
+   {
+    "corpus": "RDM-1841-q4",
+    "tokpos": 404812,
+    "inf": "dire",
+    "context": "projet les ratifications sont pour un traité ce que la promulgation est pour une loi faire une convention pour dire que l on exécutera un traité qui n a pas été ratifié c est dire que l"
+   },
+   {
+    "corpus": "RDM-1841-q4",
+    "tokpos": 416174,
+    "inf": "prétendre",
+    "context": "du sultan on ne voit pas bien sur quel motif la france ou toute autre puissance se fonderait pour prétendre que le sultan ne devait pas exercer à l égard de méhémet ali le droit qui appartient"
+   },
+   {
+    "corpus": "RDM-1841-q4",
+    "tokpos": 416898,
+    "inf": "déclarer",
+    "context": "il existe entre eux un dissentiment sur les termes de la note la majorité du minis tère penche pour déclarer que le gouvernement français considérera l exécution du firman comme un cas de guerre tandis que quatre"
+   },
+   {
+    "corpus": "RDM-1841-q4",
+    "tokpos": 435330,
+    "inf": "indiquer",
+    "context": "peintre a si richement habillé son raphaël si c est en toute liberté avec intention et par exemple pour indiquer que ce grand génie s élève au dessus de ses rivaux comme un prince au dessus de"
+   },
+   {
+    "corpus": "Guizot-DIP",
+    "tokpos": 54840,
+    "inf": "rappeler",
+    "context": "cinq puissances et la paix rétablie en orient j écoutais le baron de brûnnow ne l interrompant que pour rappeler que nous avions toujours voulu la paix en orient et un arrangement pacifiquement conclu entre le sultan"
+   },
+   {
+    "corpus": "Guizot-DIP",
+    "tokpos": 173467,
+    "inf": "proclamer",
+    "context": "du traité du io juillet et la france au miheu de ces dispositions diverses il était naturel que pour proclamer que le but du traité lu i juillet était atteint on attendît de savoir si la so"
+   },
+   {
+    "corpus": "Guizot-DIP",
+    "tokpos": 176792,
+    "inf": "constater",
+    "context": "la question égyptienne bien réellement close on me demanda alors qu au moins les deux actes fussent parafés pour constater que nous les approuvions en attendant le moment de la signature définitive j y autorisai le baron"
+   },
+   {
+    "corpus": "Guizot-DIP",
+    "tokpos": 208949,
+    "inf": "débarquer",
+    "context": "bruit immenses en témoignage de joie nationale et pacifique entrés et mouillés dans le port nous atten dîmes pour débarquer que le train par lequel le prince albert venait au devant du roi fût arrivé à gosport"
+   },
+   {
+    "corpus": "Guizot-DIP",
+    "tokpos": 216731,
+    "inf": "agir",
+    "context": "chrétiens maronites invoquaient noscapitulations nos traditions notre foi commune le nom de la france je n attendis pas pour agir que leurs lamentations et leurs instances eussent retenti dans nos chambres c eût été une grande méprise"
+   },
+   {
+    "corpus": "Guizot-DIP",
+    "tokpos": 249674,
+    "inf": "désirer",
+    "context": "fait partie de la minorité mais elle le déclare en finissant elle a été fermement et constamment unanime pour désirer que le projet de loi ait un utile résultat que toutes les opi nions de détail après"
+   },
+   {
+    "corpus": "Guizot-DIP",
+    "tokpos": 251497,
+    "inf": "entrevoir",
+    "context": "l examen des motifs au nom desquels la réforme électorale était réclamée ne fallait pas une grande sagacité pour entrevoir que e suffrage universel était au fond comme au bout de ce mouvement et que ses partisans"
+   },
+   {
+    "corpus": "Guizot-DIP",
+    "tokpos": 276611,
+    "inf": "établir",
+    "context": "devait le lire si l on eût voulu prouver la faiblesse de argument tiré de la constitution espagnole pour établir que la reine ne pouvait intervenir dans la remise des lettres de créance si ton s était"
+   }
+  ]
+ },
+ "E-C": {
+  "n": 0,
+  "hits": []
+ },
+ "P-D": {
+  "n": 0,
+  "hits": []
+ },
+ "E-B": {
+  "n": 0,
+  "hits": []
+ },
+ "P-C": {
+  "n": 1,
+  "x_counts": {
+   "aussi": 1
+  },
+  "hits": [
+   {
+    "corpus": "v8-doc48",
+    "charpos": 7006,
+    "x": "aussi",
+    "context": "e compliquer une affaire qui était fort simple : il n'a pas eu le courage de dire non à lord Aberdeen, comme il l'avait dit six semaines auparavant à lord Palmerston ; car, dans le fond de l'âme, il se soucie aussi peu que nous de reconnaître Espartero. Remerciez Maltzahn de la manière délicate dont il a recommandé à Brassier de se mettre sur la même ligne que ses collègues d'Autriche et de Russie. Cela devient toujours plus nécessa"
+   }
+  ]
+ },
+ "cipher06": {
+  "n06": 44,
+  "positions": [
+   6,
+   85,
+   184,
+   206,
+   215,
+   267,
+   271,
+   319,
+   346,
+   370,
+   399,
+   470,
+   522,
+   544,
+   580,
+   581,
+   666,
+   738,
+   773,
+   789,
+   890,
+   967,
+   1080,
+   1091,
+   1096,
+   1120,
+   1122,
+   1184,
+   1185,
+   1188,
+   1252,
+   1328,
+   1355,
+   1388,
+   1475,
+   1537,
+   1562,
+   1667,
+   1709,
+   1720,
+   1734,
+   1747,
+   1762,
+   1815
+  ],
+  "followers": {
+   "77": 6,
+   "88": 1,
+   "00": 4,
+   "59": 2,
+   "73": 1,
+   "67": 3,
+   "11": 4,
+   "70": 1,
+   "21": 2,
+   "55": 1,
+   "06": 2,
+   "50": 1,
+   "94": 1,
+   "52": 2,
+   "43": 1,
+   "29": 4,
+   "14": 1,
+   "84": 1,
+   "65": 2,
+   "62": 1,
+   "60": 2,
+   "91": 1
+  },
+  "predecessors": {
+   "41": 1,
+   "14": 2,
+   "37": 1,
+   "42": 5,
+   "78": 1,
+   "11": 1,
+   "94": 1,
+   "01": 1,
+   "17": 1,
+   "48": 1,
+   "80": 2,
+   "77": 1,
+   "82": 4,
+   "06": 2,
+   "62": 2,
+   "07": 1,
+   "84": 1,
+   "86": 1,
+   "24": 1,
+   "64": 2,
+   "81": 1,
+   "12": 2,
+   "30": 4,
+   "16": 1,
+   "60": 1,
+   "68": 1,
+   "40": 1,
+   "93": 1
+  },
+  "as_67_predecessor": [
+   272,
+   471,
+   1476
+  ]
+ },
+ "w471": [
+  "465:96",
+  "466:00",
+  "467:33",
+  "468:79",
+  "469:80",
+  "470:06",
+  "471:67",
+  "472:46",
+  "473:84",
+  "474:24",
+  "475:37",
+  "476:78",
+  "477:74",
+  "478:45",
+  "479:93"
+ ]
+}

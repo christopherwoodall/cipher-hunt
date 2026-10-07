@@ -1,0 +1,82 @@
+{
+ "pc1_peu_que_hits": [
+  {
+   "tokpos": 4255,
+   "x": "xxvir",
+   "context": "une certaine mesure d alliance avec le côté gauche comme inévitables du moins pour quelque temps il craignait chapitre xxvir peu que m thiers se livrât tout à fait ou qu on ne pût pas au besoin l arrêter sur cette"
+  },
+  {
+   "tokpos": 68251,
+   "x": "pour",
+   "context": "si de grands efforts sont nécessaires la situation de lord palmerston sera très mauvaise et la nôtre très forte pour peu que nous prenions soin de ne pas irriter les passions anglaises nous aurons our nous les inté rêts anglais les"
+  },
+  {
+   "tokpos": 103405,
+   "x": "importait",
+   "context": "pas nous avons hautement et constamment dit que la distribution des territoires entre le sultan et le pacha nous importait peu que si le pacha voulait rendre au sultan la syrie nous n y objections point que la prévoyance de son"
+  },
+  {
+   "tokpos": 151728,
+   "x": "souciait",
+   "context": "prusse avaient grande ment à c ur le maintien de la paix l empereur nico las lui même se souciait peu que sa malveillance fût obligée de devenir hardie loin donc de craindre qu on essayât en europe d aggraver et"
+  },
+  {
+   "tokpos": 209568,
+   "x": "un",
+   "context": "préoccupait le plus il s ap pliquait à la placer en dehors des querelles de parti et il espérait un peu que lord john russell pourrait s y prêter lord palmerston au contraire dans la précé dente session du parlement avait"
+  },
+  {
+   "tokpos": 212924,
+   "x": "pour",
+   "context": "but que nous poursuivions lord aberdeen est revenu à la charge sur divers points qu il avait entamés et pour peu que je m y fusse prêté nous serions entrés tout de suite dans le fond même de la discussion si"
+  }
+ ],
+ "dp_strict_peu": [],
+ "dp_strict_inf": [],
+ "dp_kdepth_peu": [],
+ "dp_kdepth_inf": [
+  {
+   "corpus": "RDM-1841-q4",
+   "tokpos": 404806,
+   "k": 5,
+   "mid": [
+    "une",
+    "loi",
+    "faire",
+    "une",
+    "convention"
+   ],
+   "inf": "dire",
+   "context": "ratifié jusque là ce n est qu un projet les ratifications sont pour un traité ce que la promulgation est pour une loi faire une convention pour dire que l on exécutera un traité qui n a pas été ratifié c"
+  }
+ ],
+ "corpus_bytes": {
+  "RDM-1841-q1": 3013552,
+  "RDM-1841-q2": 2964405,
+  "RDM-1841-q3": 3054350,
+  "RDM-1841-q4": 3165234,
+  "Guizot-DIP": 1992545,
+  "nesselrode-v7": 521560,
+  "nesselrode-v9": 498642,
+  "nesselrode-v10": 556659,
+  "pozzo-di-borgo-v1": 1001901,
+  "nesselrode-v8": 614206,
+  "guizot-t1-gutenberg": 769437,
+  "guizot-t2-gutenberg": 830700,
+  "guizot-t3-gutenberg": 852681
+ },
+ "v8_strict_peu": [],
+ "v8_strict_inf": [],
+ "summary": {
+  "pc1_n_hits": 6,
+  "dp_strict_peu_n": 0,
+  "dp_strict_inf_n": 0,
+  "dp_kdepth_peu_n": 0,
+  "dp_kdepth_inf_n": 1,
+  "v8_strict_peu_n": 0,
+  "v8_strict_inf_n": 0,
+  "guizot_dip_tokens": 298765,
+  "primary_tokens": 2543760,
+  "secondary_tokens": 419786
+ }
+}
