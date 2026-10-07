@@ -1,1 +1,212 @@
-{"authority":"kill authority over every promotion","baseline":{"canonical_parse":"code/side-keyhunt/repaired_offsets.json","checks":29,"passed":29,"script":"code/crowd5/redteam/verify_baseline.py","self_corrections":["47->64: invented want=2 -> recomputed 0 (ce qui routes via 87, never 47)","n06: old-parse stale 46 -> repaired 44; P(77|06)=6/44=0.1364","n78: no banked value -> recorded 31 from stream","94->82 positions: old [578,1181,1352,1741] -> repaired [578,1182,1353,1742] per REINDEX rule"],"stream":{"distinct_groups":96,"la_premiere_at":[754,1034],"pairs":1847}},"date":"2026-10-07","docket":[],"docket_status":"empty","expected_claims":[{"claim":"62=on third leg","executor":"frenchman","required":"instrument-independent statistical/structural leg; ear shared by legs 1&3 is one instrument"},{"claim":"47=ce promotion battery","executor":"morphologist","required":"C2 explained + 64-slot residual; F33 conditioning rule for any polyvalence"},{"claim":"06 stem identification","executor":"morphologist","required":"specific stem, >=2 independent checks, clear 66x demand* rate gap; F30 fragment rules"},{"claim":"77=le","executor":"bigram_closer","required":"object-pronoun frame + L1 independent; 77->78 x7 adverse frames adjudicated"},{"claim":"78=me vs 78=ver","executor":"bigram_closer","required":"78=ver word-internal needs stated conditioning rule (F33)"},{"claim":"87=ce new angles","executor":"closer","required":"non-circular leg; N3 parce-frame circular, R1 dead-number void"},{"claim":"rotation meaning","executor":"segmenter","required":"falsifiable positive claim; phase->position mapping VOID per N15"},{"claim":"inventory","executor":"inventorist","required":"crib-derived base only (F34); R1-R8; tester K>=3 numbers do not reproduce"}],"kill_ledger":{"demotions":0,"fenced_leads":0,"kills":0,"net_promotions":0,"nulls":1,"promotions":0},"methodology_flags_enforced":["N22","F30","F33","old-parse-void","traceability-json-over-prose","instrument-independence"],"notes":"NULL round: no round-5 executor claims landed. Session persistent; rulings follow claims as they arrive.","role":"red_team","round":5,"rulings":[]}
+{
+ "authority": "kill authority over every promotion",
+ "baseline": {
+  "canonical_parse": "code/side-keyhunt/repaired_offsets.json",
+  "checks": 29,
+  "passed": 29,
+  "script": "code/crowd5/redteam/verify_baseline.py",
+  "self_corrections": [
+   "47->64: invented want=2 -> recomputed 0 (ce qui routes via 87, never 47)",
+   "n06: old-parse stale 46 -> repaired 44; P(77|06)=6/44=0.1364",
+   "n78: no banked value -> recorded 31 from stream",
+   "94->82 positions: old [578,1181,1352,1741] -> repaired [578,1182,1353,1742] per REINDEX rule"
+  ],
+  "stream": {
+   "distinct_groups": 96,
+   "la_premiere_at": [
+    754,
+    1034
+   ],
+   "pairs": 1847
+  }
+ },
+ "date": "2026-10-07",
+ "docket": [
+  {
+   "executor": "frenchman",
+   "claim": "62=on leg-3 (A+E subject battery + Check C profile)",
+   "ruling": "FENCED-LEAD",
+   "promotion": "DENIED",
+   "status_after": "STRONG LEAD (unchanged)",
+   "reasons": [
+    "A+E: subject-battery framing inherits undisclosed ear premise (legs 1&3); unigram rates favor il (1.50x) and qui (1.77x) over on (2.59x)",
+    "il-differential p=0.041 is assumption-maximal: qu'il no-merger asymmetry asserted; same ear merges /kil/ too -> null expected under both hypotheses",
+    "qui blocked only by provisional 64=qui",
+    "Check C: chi2 p=0.024 invalid (3/4 named cells expected<5); exact multinomial p=0.045 full, 0.0675 minus recycled ne cell (62->94=9, legs-1&3 datum)",
+    "profile fits il equally: exact p=0.0386 under P(.|il), logL favors il by 0.50; me/que cells (n=1) lean on 21=[me] LEAD / 94=[ne] provisional-strong unfenced",
+    "46->62=0/29 double duty: Check B marked corroboration (honest), Check E load-bearing but ear-contingent",
+    "2.59x unigram overage: adverse, disclosed; genre defense plausible but untested, band uncalibrated (F20)"
+   ],
+   "methodology_flags": [
+    "F26-5: chi2 with expected<5, no exact test (0.024 claimed vs 0.045 exact)",
+    "F26-6: asserted ear-merger asymmetry inside non-ear leg",
+    "F26-7: undisclosed ear-derived premise in Check A framing",
+    "F26-8: recycled datum 62->94=9 re-entered in Check C"
+   ],
+   "audit": "code/crowd5/redteam/audit_frenchman62.py; cipher counts + era marginals reproduce exactly (era tokens 221027 byte-identical); auditor denominator bug caught and corrected"
+  },
+  {
+   "executor": "bigram_closer",
+   "claim": "WO1 78=me/ver + WO2 77=le + WO3 @578 host",
+   "rulings": [
+    {
+     "wo": "WO1",
+     "ruling": "ACCEPT",
+     "verdict": "COEXIST: me-WORD->disfavored-strong (L1w 22.76x, no formal kill); me-SYLLABLE holds LEAD (L1s 1.131x as context, F30-letter clear); 77->78x7 adverse dissolution conditional on syllable LEAD; ver islet LEAD with n_eff=1 (both instances in x2 5-mer); F33 grows to 4 groups; rival l-kill stands (N20 precedent), rival e live",
+     "reasons": [
+      "all cipher counts + era word-space numbers reproduce exactly",
+      "L1s is unigram not conditional -> outside F30 letter; me not in tuner-flagged class",
+      "ver positional rule exceptionless but n_eff=1 per N27 standard"
+     ]
+    },
+    {
+     "wo": "WO2",
+     "ruling": "PROMOTE",
+     "from": "LEAD",
+     "to": "provisional (CONDITIONED)",
+     "reasons": [
+      "independent legs: 77->86x5 frame (verified @430/798/877/950/1133; 86->29 @431 confirms le+stem+er) + diversity 20/22 structural + unigram 1.152x context",
+      "Leg B provisional-leaning (64/67/06 anchors) -> fenced, not a promotion leg",
+      "Leg A recomputed 1.154x not 1.024x (minor traceability flag); category mismatch noted by worker; corroboration-grade",
+      "adverses fenced: ce le x2 @515/@869 (87=ce-prov, genuine tension n=2); le me x7 dissolution conditional on 78=me-syllable-LEAD",
+      "gou@1180/@1351 exception FENCED (trigger=gouvernement stack unconfirmed, n_eff=1)",
+      "first promotion in five rounds"
+     ],
+     "dependencies": [
+      "78=me-syllable LEAD (if falls, le me x7 adverse revives)",
+      "87=ce provisional (ce le x2 tension)"
+     ]
+    },
+    {
+     "wo": "WO3",
+     "ruling": "ACCEPT (scoped to @578)",
+     "verdict": "@578 revival thread CLOSED, fence lifts; 94=re general stays DISFAVORED; BURY accepted as scoped thread-closure not general kill",
+     "reasons": [
+      "sixmer 78-45-13-55-61-94 x2 @573/@1164 verified; continuation 94->87 @1170 verified (F33 en-islet applies)",
+      "particle argument sound conditional on (94=en-LEAD + 87=ce-prov + sixmer-identity fenced-but-reasonable)",
+      "lexical vernement 554/verrement 0 + host odds 2.27:1 verified; @578 lexical leg needs 61=ver (untested, disclosed)",
+      "no positive re support at any trigram (1.28x leg VOID per F30, N24)",
+      "montrera S=0.917 weighed: VOIDED pass (174<2x208.3), weak general corroboration only; does not dent @578; keeps re disfavored not dead"
+     ]
+    }
+   ],
+   "audit": "code/crowd5/redteam/audit_bigram78_77_578.py",
+   "methodology_flags": [
+    "F26-9: F14 5-mer positions @1179/@1350 old-parse stale; repaired @1180/@1351",
+    "F26-10: Leg A era P(inf|le) 507 vs recomputed 450 (1.024x vs 1.154x), both in-band"
+   ]
+  },
+  {
+   "executor": "morphologist",
+   "claim": "WO1 47=ce battery + WO2 06 stem + WO3 06/86 M1",
+   "rulings": [
+    {
+     "wo": "WO1",
+     "ruling": "LEAD (strengthened), promotion BLOCKED - AGREE",
+     "verdict": "47=ce stays LEAD",
+     "reasons": [
+      "Q1 ACCEPT as F33-form: falsifiable, explicit falsifiers; caveats n=2 thin, provisional-leaning (87=ce, 64=qui), Fisher one-sided 0.0476 borderline",
+      "Q2 ACCEPT as F33-form islet rule: clean partition 9/9, 0 overlap; caveats 13/28 unclassified, fragment sound unidentified, zero-overlap partly definitional",
+      "C2 dissolution legitimate: F30-void rate self-killed (N22-class precedent cited); cipher-side = Q2 pre==29 context; cross-allophone 29->87 x3 shows ce-level not 47-level",
+      "unigram .md numbers (4.11x/2.79x) do not reproduce from JSON (2.13/1.446) - trust JSON; substantive point stands",
+      "rival battery ce unique survivor under stated kill rule; B2=121.5 cela-tension unaddressed (F10/F31 covers, unstated)",
+      "promotion blocked on @148-152 (worker own call, upheld): era attestation zero all readings; unblockers = 96 conditioned-verb battery, fragment sound, diplomatic corpus"
+     ],
+     "audit": "code/crowd5/redteam/audit_morph47_06.py - all load-bearing numbers verify exactly"
+    },
+    {
+     "wo": "WO2",
+     "ruling": "NULL - ACCEPT as honest",
+     "reasons": [
+      "06->29 x4 positions verified; 86->29 x4 verified",
+      "single-stem-for-all-06 KILLED on rate 17.1x (verified)",
+      "donner conditional properly fenced UNVERIFIED (19x register inflation)",
+      "67 et/veut fork 114:1 unpromoted lead, 8/38 classified; T1/T2/@1709 fenced; no over-claiming"
+     ]
+    },
+    {
+     "wo": "WO3",
+     "ruling": "ACCEPT (F33-grade distributional rule; allomorph = working hypothesis)",
+     "reasons": [
+      "M1 verified: 00->86 x12 vs 00->06 x0; 86->11/77/00 = 0/0/0; falsifiers all zero; Fisher 7.278e-06; binomial 6.292e-11; enrichment 12.59x",
+      "allomorph interpretation consistent with M1 + petit-chiffre prior but fenced: T1 rate tension, T2 self-coordination, ->29 shared unfenced",
+      "00=pour out of scope; no nulls posited (standing constraint compliant)"
+     ]
+    }
+   ],
+   "methodology_flags": [
+    "F26-11: .md unigram 4.11x/2.79x vs JSON 2.13/1.446",
+    "F26-12: Q2 zero-overlap partly definitional; 13/28 unclassified; sound unidentified",
+    "F26-13: rival battery B2=121.5 cela-tension unaddressed"
+   ]
+  }
+ ],
+ "docket_status": "3 adjudicated, 3 pending",
+ "expected_claims": [
+  {
+   "claim": "62=on third leg",
+   "executor": "frenchman",
+   "required": "instrument-independent statistical/structural leg; ear shared by legs 1&3 is one instrument"
+  },
+  {
+   "claim": "47=ce promotion battery",
+   "executor": "morphologist",
+   "required": "C2 explained + 64-slot residual; F33 conditioning rule for any polyvalence"
+  },
+  {
+   "claim": "06 stem identification",
+   "executor": "morphologist",
+   "required": "specific stem, >=2 independent checks, clear 66x demand* rate gap; F30 fragment rules"
+  },
+  {
+   "claim": "77=le",
+   "executor": "bigram_closer",
+   "required": "object-pronoun frame + L1 independent; 77->78 x7 adverse frames adjudicated"
+  },
+  {
+   "claim": "78=me vs 78=ver",
+   "executor": "bigram_closer",
+   "required": "78=ver word-internal needs stated conditioning rule (F33)"
+  },
+  {
+   "claim": "87=ce new angles",
+   "executor": "closer",
+   "required": "non-circular leg; N3 parce-frame circular, R1 dead-number void"
+  },
+  {
+   "claim": "rotation meaning",
+   "executor": "segmenter",
+   "required": "falsifiable positive claim; phase->position mapping VOID per N15"
+  },
+  {
+   "claim": "inventory",
+   "executor": "inventorist",
+   "required": "crib-derived base only (F34); R1-R8; tester K>=3 numbers do not reproduce"
+  }
+ ],
+ "kill_ledger": {
+  "promotions": 1,
+  "demotions": 0,
+  "kills": 0,
+  "fenced_leads": 1,
+  "nulls": 0,
+  "net_promotions": 1
+ },
+ "methodology_flags_enforced": [
+  "N22",
+  "F30",
+  "F33",
+  "old-parse-void",
+  "traceability-json-over-prose",
+  "instrument-independence"
+ ],
+ "notes": "Round 5: 3 claims adjudicated. Frenchman 62=on -> FENCED-LEAD (DENIED). Bigram Closer: WO1 ACCEPT, WO2 PROMOTE 77=le (first promotion in five rounds), WO3 ACCEPT scoped. Morphologist: WO1 LEAD strengthened (promotion blocked, agreed), WO2 NULL honest, WO3 M1 ACCEPTED (F33-grade rule). 3 pending (Closer 87=ce, Segmenter rotation, Inventorist inventory).",
+ "role": "red_team",
+ "round": 5,
+ "rulings": [],
+ "standing_constraints": {
+  "no_nulls": "petit-chiffre reference table has no nulls; null-group claims pre-voided",
+  "key_channel": "EXHAUSTED (20 queries + 13 source checks, clean negative); no round-5/6 effort",
+  "baseline_extension": "n24=52 unmoved, n52=27 unmoved, n62=35 (was 34); verify_baseline.py 31/31 PASS"
+ }
+}

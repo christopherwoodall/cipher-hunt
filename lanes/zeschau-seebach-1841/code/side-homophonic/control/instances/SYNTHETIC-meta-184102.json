@@ -2,52 +2,6 @@
  "seed": 184102,
  "synthetic": true,
  "generator": "code/side-homophonic/control/generator.py",
- "params": {
-  "n_seeds": 6,
-  "seeds": [
-   184101,
-   184102,
-   184103,
-   184104,
-   184105,
-   184106
-  ],
-  "slice_words": 4000,
-  "crib_word_offsets": [
-   400,
-   800,
-   1200,
-   1600,
-   2000
-  ],
-  "target_pairs": 1846,
-  "p_mute_e": 0.15,
-  "p_merge": 0.1,
-  "p_split": 0.05,
-  "p_alt": 0.08,
-  "p_letter_split": 0.03,
-  "p_er_free": 0.8,
-  "n_poly": 6,
-  "p_poly_use": 0.5,
-  "p_emit_phase": 0.85,
-  "q_cycle": 0.5,
-  "q_cycle_candidates": [
-   0.4,
-   0.5,
-   0.6
-  ],
-  "t_candidates": [
-   48,
-   56,
-   64,
-   72
-  ],
-  "chi2_band": [
-   181.0,
-   320.0
-  ],
-  "mc_draws": 2000
- },
  "anchors": {
   "11": "la",
   "70": "pre",
@@ -67,14 +21,6 @@
  "n_groups": 96,
  "keep_rate": 0.4684,
  "n_polyvalent_islets": 6,
- "polyvalent_groups": [
-  "17",
-  "28",
-  "53",
-  "54",
-  "73",
-  "80"
- ],
  "occurrence_chi2": 252.9,
  "unsupervised_chi2": 0.4,
  "anchor_freqs_synthetic": {
@@ -105,5 +51,7 @@
   "plaintext": "data/gutenberg-17489-miserables1.txt (Les Miserables T1, 1862; sha256 in data/SHA256SUMS.txt)",
   "syllabifier": "code/crowd2/scorer_smith.py syllabify + encipher_split (lane instruments)",
   "group_labels": "identical 96 labels to R5005 (data/attempt1_results.json via load_pairs)"
- }
+ },
+ "polyvalent_groups_sealed": true,
+ "params_sealed": true
 }

@@ -1,0 +1,7 @@
+usage: control_harness.py [-h] [--ct CT] [--truth TRUTH] [--crib CRIB]
+                          [--anchors ANCHORS] [--lm LM] [--out OUT]
+                          [--config CONFIG] [--seed SEED]
+                          [--restarts RESTARTS] [--iters ITERS] [--no-phase]
+                          [--no-word] [--no-poly] [--no-contact]
+                          [--aggregate REPORT REPORT REPORT REPORT REPORT REPORT]
+control_harness.py: error: unrecognized arguments: --chance 0.021335689938139123

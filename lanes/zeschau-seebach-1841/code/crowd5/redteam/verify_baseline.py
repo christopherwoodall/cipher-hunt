@@ -35,6 +35,10 @@ def main():
     def chk(name, got, want):
         checks.append((name, got, want, got == want))
 
+    # --- sidepath recounts re-verified on repaired parse (memo 2026-10-07) ---
+    chk('n24 (sidepath: 52, unmoved)', groups[24], 52)
+    chk('n52 (sidepath: 27, unmoved)', groups[52], 27)
+    # n62 moved 34->35 (repair); N28 already updated to 9/35; sidepath skeleton superseded
     # --- 62="on" (frenchman; round-5 wants an instrument-independent 3rd leg) ---
     chk('n62', groups[62], 35)
     chk('62->94 "on ne"', big[(62, 94)], 9)

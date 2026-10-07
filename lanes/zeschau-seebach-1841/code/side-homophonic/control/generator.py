@@ -647,7 +647,19 @@ def write_instance(inst, p):
                'SEALED': 'Runner scoring only. Never show to the solver. '
                          'This is a synthetic planted key, not real.',
                'key': inst['key'],
-               'group_phase_diagnostic': inst['group_phase']},
+               'group_phase_diagnostic': inst['group_phase'],
+               # KILL-2 fix (2026-10-07): per-position planted cells, required
+               # for the registered SECONDARY (decode accuracy). SEALED with
+               # the key; the solver never sees this file.
+               'planted': inst['planted'],
+               # CONCERN-6 fix (2026-10-07): key-adjacent metadata sealed
+               # here, not in the open meta/ file.
+               'sealed_meta': {
+                   'polyvalent_groups': sorted(
+                       g for g in inst['key']
+                       if inst['key'][g]['secondaries']),
+                   'params': {k: v for k, v in p.items()},
+               }},
               open(key_path, 'w'), indent=1, ensure_ascii=False)
     crib_path = os.path.join(OUTD, f"SYNTHETIC-crib-{seed}.json")
     json.dump({'seed': seed, 'synthetic': True,
@@ -662,7 +674,10 @@ def write_instance(inst, p):
     meta = {
         'seed': seed, 'synthetic': True,
         'generator': 'code/side-homophonic/control/generator.py',
-        'params': {k: v for k, v in p.items()},
+        # CONCERN-6 (2026-10-07): 'params' and 'polyvalent_groups' are
+        # key-adjacent and live in the SEALED key file, not here.
+        'params_sealed': True,
+        'polyvalent_groups_sealed': True,
         'anchors': ANCHORS,
         'slice_word_offsets': inst['slice'],
         'T_inventory_nominal': inst['T'],
@@ -671,8 +686,6 @@ def write_instance(inst, p):
         'n_groups': len(set(inst['pairs'])),
         'keep_rate': round(inst['keep_rate'], 4),
         'n_polyvalent_islets': inst['n_islets'],
-        'polyvalent_groups': sorted(g for g in inst['key']
-                                    if inst['key'][g]['secondaries']),
         'occurrence_chi2': occurrence_chi2(inst['pclasses']),
         'unsupervised_chi2': inst['chi2'],
         'anchor_freqs_synthetic': inst['anchor_freqs'],

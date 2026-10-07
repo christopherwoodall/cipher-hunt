@@ -10,3 +10,6 @@
 [solver] restart 5: best=5810.6 final=5810.6 acc=0.228 npoly=1 (639s)
 [solver] restart 6: best=5822.9 final=5822.9 acc=0.238 npoly=4 (863s)
 [solver] restart 7: best=5810.5 final=5810.5 acc=0.258 npoly=1 (1053s)
+[solver] restart 8: best=5793.1 final=5793.1 acc=0.244 npoly=3 (1268s)
+[solver] restart 9: best=5810.8 final=5810.8 acc=0.241 npoly=1 (1451s)
+[solver] restart 10: best=5816.7 final=5811.0 acc=0.238 npoly=1 (1618s)

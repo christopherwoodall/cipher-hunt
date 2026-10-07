@@ -1,0 +1,3952 @@
+{
+ "N_pairs": 1847,
+ "N_era_words": 214861,
+ "WO1_47ce": {
+  "n": 28,
+  "followers": {
+   "41": 1,
+   "33": 2,
+   "46": 3,
+   "01": 1,
+   "11": 3,
+   "78": 5,
+   "14": 1,
+   "44": 1,
+   "77": 1,
+   "91": 1,
+   "03": 2,
+   "43": 1,
+   "76": 1,
+   "86": 1,
+   "98": 2,
+   "08": 1,
+   "68": 1
+  },
+  "predecessors": {
+   "51": 1,
+   "29": 4,
+   "96": 1,
+   "56": 2,
+   "73": 1,
+   "92": 1,
+   "76": 4,
+   "88": 1,
+   "97": 1,
+   "24": 1,
+   "58": 2,
+   "74": 2,
+   "48": 2,
+   "78": 1,
+   "64": 2,
+   "38": 1,
+   "68": 1
+  },
+  "windows": [
+   [
+    4,
+    [
+     "00",
+     "97",
+     "51",
+     "47",
+     "41",
+     "06",
+     "77"
+    ]
+   ],
+   [
+    23,
+    [
+     "82",
+     "43",
+     "29",
+     "47",
+     "33",
+     "55",
+     "81"
+    ]
+   ],
+   [
+    151,
+    [
+     "87",
+     "64",
+     "96",
+     "47",
+     "46",
+     "66",
+     "84"
+    ]
+   ],
+   [
+    194,
+    [
+     "87",
+     "98",
+     "56",
+     "47",
+     "01",
+     "21",
+     "60"
+    ]
+   ],
+   [
+    269,
+    [
+     "42",
+     "06",
+     "73",
+     "47",
+     "11",
+     "06",
+     "67"
+    ]
+   ],
+   [
+    357,
+    [
+     "92",
+     "98",
+     "92",
+     "47",
+     "11",
+     "21",
+     "62"
+    ]
+   ],
+   [
+    363,
+    [
+     "62",
+     "48",
+     "76",
+     "47",
+     "78",
+     "48",
+     "49"
+    ]
+   ],
+   [
+    423,
+    [
+     "49",
+     "36",
+     "29",
+     "47",
+     "14",
+     "62",
+     "48"
+    ]
+   ],
+   [
+    498,
+    [
+     "02",
+     "79",
+     "88",
+     "47",
+     "11",
+     "29",
+     "40"
+    ]
+   ],
+   [
+    526,
+    [
+     "55",
+     "81",
+     "97",
+     "47",
+     "44",
+     "59",
+     "37"
+    ]
+   ],
+   [
+    548,
+    [
+     "00",
+     "46",
+     "24",
+     "47",
+     "46",
+     "55",
+     "81"
+    ]
+   ],
+   [
+    611,
+    [
+     "64",
+     "02",
+     "58",
+     "47",
+     "77",
+     "87",
+     "83"
+    ]
+   ],
+   [
+    818,
+    [
+     "49",
+     "74",
+     "74",
+     "47",
+     "78",
+     "40",
+     "95"
+    ]
+   ],
+   [
+    864,
+    [
+     "74",
+     "74",
+     "48",
+     "47",
+     "46",
+     "00",
+     "86"
+    ]
+   ],
+   [
+    981,
+    [
+     "92",
+     "07",
+     "76",
+     "47",
+     "78",
+     "45",
+     "01"
+    ]
+   ],
+   [
+    1004,
+    [
+     "00",
+     "86",
+     "56",
+     "47",
+     "91",
+     "11",
+     "52"
+    ]
+   ],
+   [
+    1013,
+    [
+     "79",
+     "80",
+     "78",
+     "47",
+     "03",
+     "24",
+     "41"
+    ]
+   ],
+   [
+    1104,
+    [
+     "82",
+     "94",
+     "74",
+     "47",
+     "78",
+     "65",
+     "63"
+    ]
+   ],
+   [
+    1203,
+    [
+     "29",
+     "45",
+     "58",
+     "47",
+     "43",
+     "55",
+     "61"
+    ]
+   ],
+   [
+    1231,
+    [
+     "82",
+     "48",
+     "29",
+     "47",
+     "33",
+     "29",
+     "85"
+    ]
+   ],
+   [
+    1272,
+    [
+     "30",
+     "20",
+     "64",
+     "47",
+     "76",
+     "87",
+     "76"
+    ]
+   ],
+   [
+    1344,
+    [
+     "64",
+     "52",
+     "38",
+     "47",
+     "86",
+     "66",
+     "73"
+    ]
+   ],
+   [
+    1396,
+    [
+     "89",
+     "16",
+     "76",
+     "47",
+     "78",
+     "48",
+     "40"
+    ]
+   ],
+   [
+    1578,
+    [
+     "82",
+     "94",
+     "76",
+     "47",
+     "98",
+     "24",
+     "53"
+    ]
+   ],
+   [
+    1591,
+    [
+     "65",
+     "48",
+     "29",
+     "47",
+     "08",
+     "81",
+     "03"
+    ]
+   ],
+   [
+    1659,
+    [
+     "11",
+     "24",
+     "48",
+     "47",
+     "98",
+     "98",
+     "80"
+    ]
+   ],
+   [
+    1718,
+    [
+     "59",
+     "30",
+     "64",
+     "47",
+     "68",
+     "06",
+     "11"
+    ]
+   ],
+   [
+    1789,
+    [
+     "96",
+     "21",
+     "68",
+     "47",
+     "03",
+     "00",
+     "86"
+    ]
+   ]
+  ],
+  "legs": {
+   "B1_ce_que": {
+    "cipher": 0.1071,
+    "cipher_n": "3/28",
+    "era": 0.1076,
+    "ratio": 0.996,
+    "wilson95": [
+     0.0371,
+     0.272
+    ]
+   },
+   "B2_cela": {
+    "n": 3
+   },
+   "C1_par_ce": {
+    "cipher": 0.0357,
+    "era": 0.0125,
+    "ratio": 2.846
+   },
+   "A_uni": {
+    "cipher": 0.01516,
+    "era": 0.00528,
+    "ratio": 2.872
+   }
+  },
+  "C2": {
+   "n": 4,
+   "frames": [
+    [
+     22,
+     [
+      "53",
+      "17",
+      "64",
+      "98",
+      "82",
+      "43",
+      "29",
+      "47",
+      "33",
+      "55",
+      "81",
+      "00",
+      "34"
+     ]
+    ],
+    [
+     422,
+     [
+      "49",
+      "74",
+      "74",
+      "46",
+      "49",
+      "36",
+      "29",
+      "47",
+      "14",
+      "62",
+      "48",
+      "76",
+      "42"
+     ]
+    ],
+    [
+     1230,
+     [
+      "20",
+      "57",
+      "64",
+      "79",
+      "82",
+      "48",
+      "29",
+      "47",
+      "33",
+      "29",
+      "85",
+      "56",
+      "10"
+     ]
+    ],
+    [
+     1590,
+     [
+      "00",
+      "36",
+      "70",
+      "64",
+      "65",
+      "48",
+      "29",
+      "47",
+      "08",
+      "81",
+      "03",
+      "29",
+      "80"
+     ]
+    ]
+   ]
+  },
+  "frame_classes": {
+   "ce_frames": [
+    {
+     "pos": 151,
+     "pre": "96",
+     "suc": "46",
+     "ctx": [
+      "29",
+      "87",
+      "64",
+      "96",
+      "47",
+      "46",
+      "66",
+      "84",
+      "26"
+     ],
+     "class": "ce-frame"
+    },
+    {
+     "pos": 269,
+     "pre": "73",
+     "suc": "11",
+     "ctx": [
+      "33",
+      "42",
+      "06",
+      "73",
+      "47",
+      "11",
+      "06",
+      "67",
+      "33"
+     ],
+     "class": "ce-frame"
+    },
+    {
+     "pos": 357,
+     "pre": "92",
+     "suc": "11",
+     "ctx": [
+      "40",
+      "92",
+      "98",
+      "92",
+      "47",
+      "11",
+      "21",
+      "62",
+      "48"
+     ],
+     "class": "ce-frame"
+    },
+    {
+     "pos": 498,
+     "pre": "88",
+     "suc": "11",
+     "ctx": [
+      "94",
+      "02",
+      "79",
+      "88",
+      "47",
+      "11",
+      "29",
+      "40",
+      "56"
+     ],
+     "class": "ce-frame"
+    },
+    {
+     "pos": 548,
+     "pre": "24",
+     "suc": "46",
+     "ctx": [
+      "06",
+      "00",
+      "46",
+      "24",
+      "47",
+      "46",
+      "55",
+      "81",
+      "00"
+     ],
+     "class": "ce-frame"
+    },
+    {
+     "pos": 864,
+     "pre": "48",
+     "suc": "46",
+     "ctx": [
+      "49",
+      "74",
+      "74",
+      "48",
+      "47",
+      "46",
+      "00",
+      "86",
+      "70"
+     ],
+     "class": "ce-frame"
+    }
+   ],
+   "frag_frames": [
+    {
+     "pos": 23,
+     "pre": "29",
+     "suc": "33",
+     "ctx": [
+      "98",
+      "82",
+      "43",
+      "29",
+      "47",
+      "33",
+      "55",
+      "81",
+      "00"
+     ],
+     "class": "fragment-frame"
+    },
+    {
+     "pos": 363,
+     "pre": "76",
+     "suc": "78",
+     "ctx": [
+      "21",
+      "62",
+      "48",
+      "76",
+      "47",
+      "78",
+      "48",
+      "49",
+      "61"
+     ],
+     "class": "fragment-frame"
+    },
+    {
+     "pos": 423,
+     "pre": "29",
+     "suc": "14",
+     "ctx": [
+      "46",
+      "49",
+      "36",
+      "29",
+      "47",
+      "14",
+      "62",
+      "48",
+      "76"
+     ],
+     "class": "fragment-frame"
+    },
+    {
+     "pos": 818,
+     "pre": "74",
+     "suc": "78",
+     "ctx": [
+      "29",
+      "49",
+      "74",
+      "74",
+      "47",
+      "78",
+      "40",
+      "95",
+      "13"
+     ],
+     "class": "fragment-frame"
+    },
+    {
+     "pos": 981,
+     "pre": "76",
+     "suc": "78",
+     "ctx": [
+      "00",
+      "92",
+      "07",
+      "76",
+      "47",
+      "78",
+      "45",
+      "01",
+      "24"
+     ],
+     "class": "fragment-frame"
+    },
+    {
+     "pos": 1104,
+     "pre": "74",
+     "suc": "78",
+     "ctx": [
+      "52",
+      "82",
+      "94",
+      "74",
+      "47",
+      "78",
+      "65",
+      "63",
+      "00"
+     ],
+     "class": "fragment-frame"
+    },
+    {
+     "pos": 1231,
+     "pre": "29",
+     "suc": "33",
+     "ctx": [
+      "79",
+      "82",
+      "48",
+      "29",
+      "47",
+      "33",
+      "29",
+      "85",
+      "56"
+     ],
+     "class": "fragment-frame"
+    },
+    {
+     "pos": 1396,
+     "pre": "76",
+     "suc": "78",
+     "ctx": [
+      "29",
+      "89",
+      "16",
+      "76",
+      "47",
+      "78",
+      "48",
+      "40",
+      "67"
+     ],
+     "class": "fragment-frame"
+    },
+    {
+     "pos": 1591,
+     "pre": "29",
+     "suc": "08",
+     "ctx": [
+      "64",
+      "65",
+      "48",
+      "29",
+      "47",
+      "08",
+      "81",
+      "03",
+      "29"
+     ],
+     "class": "fragment-frame"
+    }
+   ],
+   "other_frames": [
+    {
+     "pos": 4,
+     "pre": "51",
+     "suc": "41",
+     "ctx": [
+      "09",
+      "00",
+      "97",
+      "51",
+      "47",
+      "41",
+      "06",
+      "77",
+      "78"
+     ],
+     "class": "other"
+    },
+    {
+     "pos": 194,
+     "pre": "56",
+     "suc": "01",
+     "ctx": [
+      "24",
+      "87",
+      "98",
+      "56",
+      "47",
+      "01",
+      "21",
+      "60",
+      "08"
+     ],
+     "class": "other"
+    },
+    {
+     "pos": 526,
+     "pre": "97",
+     "suc": "44",
+     "ctx": [
+      "06",
+      "55",
+      "81",
+      "97",
+      "47",
+      "44",
+      "59",
+      "37",
+      "64"
+     ],
+     "class": "other"
+    },
+    {
+     "pos": 611,
+     "pre": "58",
+     "suc": "77",
+     "ctx": [
+      "39",
+      "64",
+      "02",
+      "58",
+      "47",
+      "77",
+      "87",
+      "83",
+      "70"
+     ],
+     "class": "other"
+    },
+    {
+     "pos": 1004,
+     "pre": "56",
+     "suc": "91",
+     "ctx": [
+      "33",
+      "00",
+      "86",
+      "56",
+      "47",
+      "91",
+      "11",
+      "52",
+      "35"
+     ],
+     "class": "other"
+    },
+    {
+     "pos": 1013,
+     "pre": "78",
+     "suc": "03",
+     "ctx": [
+      "18",
+      "79",
+      "80",
+      "78",
+      "47",
+      "03",
+      "24",
+      "41",
+      "15"
+     ],
+     "class": "other"
+    },
+    {
+     "pos": 1203,
+     "pre": "58",
+     "suc": "43",
+     "ctx": [
+      "64",
+      "29",
+      "45",
+      "58",
+      "47",
+      "43",
+      "55",
+      "61",
+      "21"
+     ],
+     "class": "other"
+    },
+    {
+     "pos": 1272,
+     "pre": "64",
+     "suc": "76",
+     "ctx": [
+      "24",
+      "30",
+      "20",
+      "64",
+      "47",
+      "76",
+      "87",
+      "76",
+      "48"
+     ],
+     "class": "other"
+    },
+    {
+     "pos": 1344,
+     "pre": "38",
+     "suc": "86",
+     "ctx": [
+      "65",
+      "64",
+      "52",
+      "38",
+      "47",
+      "86",
+      "66",
+      "73",
+      "34"
+     ],
+     "class": "other"
+    },
+    {
+     "pos": 1578,
+     "pre": "76",
+     "suc": "98",
+     "ctx": [
+      "52",
+      "82",
+      "94",
+      "76",
+      "47",
+      "98",
+      "24",
+      "53",
+      "12"
+     ],
+     "class": "other"
+    },
+    {
+     "pos": 1659,
+     "pre": "48",
+     "suc": "98",
+     "ctx": [
+      "37",
+      "11",
+      "24",
+      "48",
+      "47",
+      "98",
+      "98",
+      "80",
+      "22"
+     ],
+     "class": "other"
+    },
+    {
+     "pos": 1718,
+     "pre": "64",
+     "suc": "68",
+     "ctx": [
+      "44",
+      "59",
+      "30",
+      "64",
+      "47",
+      "68",
+      "06",
+      "11",
+      "52"
+     ],
+     "class": "other"
+    },
+    {
+     "pos": 1789,
+     "pre": "68",
+     "suc": "03",
+     "ctx": [
+      "82",
+      "96",
+      "21",
+      "68",
+      "47",
+      "03",
+      "00",
+      "86",
+      "56"
+     ],
+     "class": "other"
+    }
+   ],
+   "n_ce": 6,
+   "n_frag": 9,
+   "n_other": 13
+  },
+  "fragment_conditioning": {
+   "rule": "fragment reading iff suc==78 or pre==29",
+   "n_covered": 9,
+   "pre_dist": {
+    "29": 4,
+    "76": 3,
+    "74": 2
+   },
+   "suc_dist": {
+    "33": 2,
+    "78": 5,
+    "14": 1,
+    "08": 1
+   },
+   "ce_with_suc78_or_pre29": 0,
+   "frag_with_ce_features": 0
+  },
+  "ce_proper_unigram": {
+   "n": 19,
+   "ratio_vs_era_ce": 1.949
+  },
+  "jar148": {
+   "window_140_165": [
+    "66",
+    "14",
+    "74",
+    "67",
+    "64",
+    "77",
+    "84",
+    "29",
+    "87",
+    "64",
+    "96",
+    "47",
+    "46",
+    "66",
+    "84",
+    "26",
+    "35",
+    "58",
+    "35",
+    "93",
+    "52",
+    "94",
+    "24",
+    "87",
+    "11",
+    "24"
+   ],
+   "wide": [
+    [
+     140,
+     "66"
+    ],
+    [
+     141,
+     "14"
+    ],
+    [
+     142,
+     "74"
+    ],
+    [
+     143,
+     "67"
+    ],
+    [
+     144,
+     "64"
+    ],
+    [
+     145,
+     "77"
+    ],
+    [
+     146,
+     "84"
+    ],
+    [
+     147,
+     "29"
+    ],
+    [
+     148,
+     "87"
+    ],
+    [
+     149,
+     "64"
+    ],
+    [
+     150,
+     "96"
+    ],
+    [
+     151,
+     "47"
+    ],
+    [
+     152,
+     "46"
+    ],
+    [
+     153,
+     "66"
+    ],
+    [
+     154,
+     "84"
+    ],
+    [
+     155,
+     "26"
+    ],
+    [
+     156,
+     "35"
+    ],
+    [
+     157,
+     "58"
+    ],
+    [
+     158,
+     "35"
+    ],
+    [
+     159,
+     "93"
+    ],
+    [
+     160,
+     "52"
+    ],
+    [
+     161,
+     "94"
+    ],
+    [
+     162,
+     "24"
+    ],
+    [
+     163,
+     "87"
+    ],
+    [
+     164,
+     "11"
+    ],
+    [
+     165,
+     "24"
+    ]
+   ],
+   "era_attestation": {
+    "ce_qui_par_ce_que": 0,
+    "ce_qui_parce_que": 0,
+    "ce_meme_parce_que": 0,
+    "ce_qui_par": 0
+   },
+   "downstream_153_175": [
+    "66",
+    "84",
+    "26",
+    "35",
+    "58",
+    "35",
+    "93",
+    "52",
+    "94",
+    "24",
+    "87",
+    "11",
+    "24",
+    "82",
+    "84",
+    "53",
+    "12",
+    "48",
+    "21",
+    "60",
+    "09",
+    "87",
+    "86"
+   ]
+  },
+  "g66_profile": {
+   "n": 19,
+   "followers": {
+    "98": 3,
+    "14": 2,
+    "84": 2,
+    "24": 1,
+    "91": 2,
+    "01": 1,
+    "21": 1,
+    "86": 1,
+    "73": 3,
+    "79": 1,
+    "15": 1,
+    "67": 1
+   },
+   "predecessors": {
+    "77": 1,
+    "58": 1,
+    "13": 2,
+    "46": 1,
+    "00": 7,
+    "12": 1,
+    "88": 1,
+    "15": 1,
+    "33": 1,
+    "86": 2,
+    "78": 1
+   }
+  },
+  "f47_78": {
+   "pos": [
+    363,
+    818,
+    981,
+    1104,
+    1396
+   ],
+   "frames": [
+    [
+     363,
+     [
+      "47",
+      "11",
+      "21",
+      "62",
+      "48",
+      "76",
+      "47",
+      "78",
+      "48",
+      "49",
+      "61",
+      "70",
+      "17"
+     ]
+    ],
+    [
+     818,
+     [
+      "65",
+      "14",
+      "29",
+      "49",
+      "74",
+      "74",
+      "47",
+      "78",
+      "40",
+      "95",
+      "13",
+      "24",
+      "87"
+     ]
+    ],
+    [
+     981,
+     [
+      "08",
+      "01",
+      "00",
+      "92",
+      "07",
+      "76",
+      "47",
+      "78",
+      "45",
+      "01",
+      "24",
+      "89",
+      "48"
+     ]
+    ],
+    [
+     1104,
+     [
+      "67",
+      "86",
+      "52",
+      "82",
+      "94",
+      "74",
+      "47",
+      "78",
+      "65",
+      "63",
+      "00",
+      "66",
+      "73"
+     ]
+    ],
+    [
+     1396,
+     [
+      "67",
+      "86",
+      "29",
+      "89",
+      "16",
+      "76",
+      "47",
+      "78",
+      "48",
+      "40",
+      "67",
+      "77",
+      "81"
+     ]
+    ]
+   ]
+  },
+  "rival_battery": [
+   {
+    "w": "ce",
+    "era_n": 1134,
+    "A_uni": 2.872,
+    "B1_que": 0.996,
+    "B2_la": 121.5,
+    "C1_par": 2.846
+   },
+   {
+    "w": "se",
+    "era_n": 1524,
+    "A_uni": 2.137,
+    "B1_que": "KILL_zero",
+    "B2_la": "KILL_zero",
+    "C1_par": 7.4
+   },
+   {
+    "w": "le",
+    "era_n": 4570,
+    "A_uni": 0.713,
+    "B1_que": "KILL_zero",
+    "B2_la": "KILL_zero",
+    "C1_par": 0.462
+   },
+   {
+    "w": "les",
+    "era_n": 6359,
+    "A_uni": 0.512,
+    "B1_que": "KILL_zero",
+    "B2_la": "KILL_zero",
+    "C1_par": 0.27
+   },
+   {
+    "w": "en",
+    "era_n": 2714,
+    "A_uni": 1.2,
+    "B1_que": 145.393,
+    "B2_la": 26.435,
+    "C1_par": 18.5
+   },
+   {
+    "w": "ne",
+    "era_n": 1793,
+    "A_uni": 1.817,
+    "B1_que": "KILL_zero",
+    "B2_la": 12.007,
+    "C1_par": "KILL_zero"
+   },
+   {
+    "w": "me",
+    "era_n": 163,
+    "A_uni": 19.983,
+    "B1_que": "KILL_zero",
+    "B2_la": "KILL_zero",
+    "C1_par": "KILL_zero"
+   },
+   {
+    "w": "même",
+    "era_n": 816,
+    "A_uni": 3.992,
+    "B1_que": 5.829,
+    "B2_la": 17.486,
+    "C1_par": "KILL_zero"
+   },
+   {
+    "w": "y",
+    "era_n": 881,
+    "A_uni": 3.697,
+    "B1_que": "KILL_zero",
+    "B2_la": "KILL_zero",
+    "C1_par": 37.0
+   },
+   {
+    "w": "de",
+    "era_n": 9139,
+    "A_uni": 0.356,
+    "B1_que": 979.179,
+    "B2_la": 0.558,
+    "C1_par": 5.286
+   },
+   {
+    "w": "on",
+    "era_n": 1594,
+    "A_uni": 2.043,
+    "B1_que": 28.464,
+    "B2_la": 8.989,
+    "C1_par": "KILL_zero"
+   },
+   {
+    "w": "il",
+    "era_n": 2795,
+    "A_uni": 1.165,
+    "B1_que": 99.821,
+    "B2_la": 21.39,
+    "C1_par": "KILL_zero"
+   },
+   {
+    "w": "tout",
+    "era_n": 384,
+    "A_uni": 8.482,
+    "B1_que": "KILL_zero",
+    "B2_la": "KILL_zero",
+    "C1_par": "KILL_zero"
+   },
+   {
+    "w": "plus",
+    "era_n": 1505,
+    "A_uni": 2.164,
+    "B1_que": 5.375,
+    "B2_la": 11.518,
+    "C1_par": 37.0
+   },
+   {
+    "w": "bien",
+    "era_n": 295,
+    "A_uni": 11.041,
+    "B1_que": 1.505,
+    "B2_la": "KILL_zero",
+    "C1_par": "KILL_zero"
+   },
+   {
+    "w": "dans",
+    "era_n": 2445,
+    "A_uni": 1.332,
+    "B1_que": "KILL_zero",
+    "B2_la": 0.693,
+    "C1_par": "KILL_zero"
+   }
+  ]
+ },
+ "WO2_06stem": {
+  "n": 44,
+  "followers": {
+   "77": 6,
+   "88": 1,
+   "00": 4,
+   "59": 2,
+   "73": 1,
+   "67": 3,
+   "11": 4,
+   "70": 1,
+   "21": 2,
+   "55": 1,
+   "06": 2,
+   "50": 1,
+   "94": 1,
+   "52": 2,
+   "43": 1,
+   "29": 4,
+   "14": 1,
+   "84": 1,
+   "65": 2,
+   "62": 1,
+   "60": 2,
+   "91": 1
+  },
+  "predecessors": {
+   "41": 1,
+   "14": 2,
+   "37": 1,
+   "42": 5,
+   "78": 1,
+   "11": 1,
+   "94": 1,
+   "01": 1,
+   "17": 1,
+   "48": 1,
+   "80": 2,
+   "77": 1,
+   "82": 4,
+   "06": 2,
+   "62": 2,
+   "07": 1,
+   "84": 1,
+   "86": 1,
+   "24": 1,
+   "64": 2,
+   "81": 1,
+   "12": 2,
+   "30": 4,
+   "16": 1,
+   "60": 1,
+   "68": 1,
+   "40": 1,
+   "93": 1
+  },
+  "f06_29": {
+   "n": 4,
+   "pos": [
+    1096,
+    1388,
+    1709,
+    1815
+   ],
+   "frames": [
+    [
+     1096,
+     [
+      "33",
+      "79",
+      "80",
+      "06",
+      "43",
+      "07",
+      "55",
+      "81",
+      "06",
+      "29",
+      "67",
+      "86",
+      "52",
+      "82",
+      "94",
+      "74",
+      "47"
+     ]
+    ],
+    [
+     1388,
+     [
+      "69",
+      "13",
+      "24",
+      "65",
+      "68",
+      "52",
+      "82",
+      "16",
+      "06",
+      "29",
+      "67",
+      "86",
+      "29",
+      "89",
+      "16",
+      "76",
+      "47"
+     ]
+    ],
+    [
+     1709,
+     [
+      "94",
+      "30",
+      "20",
+      "62",
+      "94",
+      "88",
+      "26",
+      "12",
+      "06",
+      "29",
+      "40",
+      "65",
+      "94",
+      "44",
+      "59",
+      "30",
+      "64"
+     ]
+    ],
+    [
+     1815,
+     [
+      "52",
+      "80",
+      "04",
+      "61",
+      "15",
+      "93",
+      "50",
+      "42",
+      "06",
+      "29",
+      "37",
+      "01",
+      "02",
+      "09",
+      "19",
+      "00",
+      "97"
+     ]
+    ]
+   ]
+  },
+  "f86_29": {
+   "n": 4,
+   "pos": [
+    431,
+    1375,
+    1391,
+    1825
+   ],
+   "frames": [
+    [
+     431,
+     [
+      "47",
+      "14",
+      "62",
+      "48",
+      "76",
+      "42",
+      "63",
+      "77",
+      "86",
+      "29",
+      "82",
+      "16",
+      "78",
+      "63",
+      "45",
+      "46",
+      "43"
+     ]
+    ],
+    [
+     1375,
+     [
+      "03",
+      "30",
+      "82",
+      "16",
+      "91",
+      "67",
+      "98",
+      "00",
+      "86",
+      "29",
+      "89",
+      "84",
+      "92",
+      "69",
+      "13",
+      "24",
+      "65"
+     ]
+    ],
+    [
+     1391,
+     [
+      "65",
+      "68",
+      "52",
+      "82",
+      "16",
+      "06",
+      "29",
+      "67",
+      "86",
+      "29",
+      "89",
+      "16",
+      "76",
+      "47",
+      "78",
+      "48",
+      "40"
+     ]
+    ],
+    [
+     1825,
+     [
+      "37",
+      "01",
+      "02",
+      "09",
+      "19",
+      "00",
+      "97",
+      "00",
+      "86",
+      "29",
+      "82",
+      "38",
+      "83",
+      "24",
+      "82",
+      "16",
+      "59"
+     ]
+    ]
+   ]
+  },
+  "formula_06_29_67_86": {
+   "n": 2,
+   "pos": [
+    1096,
+    1388
+   ]
+  },
+  "g67_profile": {
+   "n": 38,
+   "followers": {
+    "93": 1,
+    "14": 1,
+    "64": 2,
+    "76": 2,
+    "33": 6,
+    "78": 4,
+    "46": 2,
+    "77": 6,
+    "11": 4,
+    "08": 2,
+    "63": 1,
+    "91": 1,
+    "16": 1,
+    "96": 1,
+    "86": 3,
+    "98": 1
+   },
+   "predecessors": {
+    "21": 8,
+    "74": 2,
+    "08": 1,
+    "06": 3,
+    "34": 1,
+    "20": 3,
+    "30": 2,
+    "78": 1,
+    "52": 1,
+    "60": 2,
+    "40": 3,
+    "92": 1,
+    "11": 1,
+    "29": 2,
+    "86": 1,
+    "00": 1,
+    "91": 2,
+    "36": 1,
+    "80": 1,
+    "66": 1
+   }
+  },
+  "era_after_infinitive": {
+   "n_inf_tokens": 3963,
+   "top20": [
+    [
+     "les",
+     317
+    ],
+    [
+     "à",
+     232
+    ],
+    [
+     "la",
+     215
+    ],
+    [
+     "de",
+     193
+    ],
+    [
+     "le",
+     192
+    ],
+    [
+     "l",
+     165
+    ],
+    [
+     "dans",
+     131
+    ],
+    [
+     "des",
+     126
+    ],
+    [
+     "et",
+     113
+    ],
+    [
+     "en",
+     101
+    ],
+    [
+     "une",
+     91
+    ],
+    [
+     "d",
+     88
+    ],
+    [
+     "un",
+     88
+    ],
+    [
+     "au",
+     87
+    ],
+    [
+     "que",
+     86
+    ],
+    [
+     "aux",
+     72
+    ],
+    [
+     "qu",
+     52
+    ],
+    [
+     "son",
+     47
+    ],
+    [
+     "ce",
+     47
+    ],
+    [
+     "avec",
+     47
+    ]
+   ]
+  },
+  "battery_67": [
+   {
+    "w": "et",
+    "era_n": 4700,
+    "era_P_after_inf": 0.02851,
+    "era_n_after_inf": 113
+   },
+   {
+    "w": "en",
+    "era_n": 2714,
+    "era_P_after_inf": 0.02549,
+    "era_n_after_inf": 101
+   },
+   {
+    "w": "avec",
+    "era_n": 468,
+    "era_P_after_inf": 0.01186,
+    "era_n_after_inf": 47
+   },
+   {
+    "w": "pour",
+    "era_n": 1058,
+    "era_P_after_inf": 0.00908,
+    "era_n_after_inf": 36
+   },
+   {
+    "w": "sans",
+    "era_n": 578,
+    "era_P_after_inf": 0.00858,
+    "era_n_after_inf": 34
+   },
+   {
+    "w": "comme",
+    "era_n": 614,
+    "era_P_after_inf": 0.00782,
+    "era_n_after_inf": 31
+   },
+   {
+    "w": "plus",
+    "era_n": 1505,
+    "era_P_after_inf": 0.0053,
+    "era_n_after_inf": 21
+   },
+   {
+    "w": "tout",
+    "era_n": 384,
+    "era_P_after_inf": 0.00328,
+    "era_n_after_inf": 13
+   },
+   {
+    "w": "est",
+    "era_n": 2331,
+    "era_P_after_inf": 0.00303,
+    "era_n_after_inf": 12
+   },
+   {
+    "w": "bien",
+    "era_n": 295,
+    "era_P_after_inf": 0.00101,
+    "era_n_after_inf": 4
+   },
+   {
+    "w": "veut",
+    "era_n": 52,
+    "era_P_after_inf": 0.00025,
+    "era_n_after_inf": 1
+   },
+   {
+    "w": "y",
+    "era_n": 881,
+    "era_P_after_inf": 0.0,
+    "era_n_after_inf": 0
+   },
+   {
+    "w": "faire",
+    "era_n": 389,
+    "era_P_after_inf": 0.0,
+    "era_n_after_inf": 0
+   },
+   {
+    "w": "dire",
+    "era_n": 213,
+    "era_P_after_inf": 0.0,
+    "era_n_after_inf": 0
+   },
+   {
+    "w": "dont",
+    "era_n": 325,
+    "era_P_after_inf": 0.0,
+    "era_n_after_inf": 0
+   }
+  ],
+  "n_06_29_67": 2,
+  "rate_frame": {
+   "n06": 44,
+   "N_pairs": 1847,
+   "est_words": 957,
+   "cipher_stem_per_1000w": 45.98
+  },
+  "stem_rates": [
+   {
+    "stem": "pri",
+    "infinitive": "prier",
+    "era_inf_n": 3,
+    "stem_per_1000w": 2.685
+   },
+   {
+    "stem": "jou",
+    "infinitive": "jouer",
+    "era_inf_n": 5,
+    "stem_per_1000w": 1.941
+   },
+   {
+    "stem": "trouv",
+    "infinitive": "trouver",
+    "era_inf_n": 45,
+    "stem_per_1000w": 1.527
+   },
+   {
+    "stem": "pass",
+    "infinitive": "passer",
+    "era_inf_n": 35,
+    "stem_per_1000w": 1.466
+   },
+   {
+    "stem": "rest",
+    "infinitive": "rester",
+    "era_inf_n": 35,
+    "stem_per_1000w": 1.224
+   },
+   {
+    "stem": "donn",
+    "infinitive": "donner",
+    "era_inf_n": 82,
+    "stem_per_1000w": 1.168
+   },
+   {
+    "stem": "port",
+    "infinitive": "porter",
+    "era_inf_n": 14,
+    "stem_per_1000w": 1.019
+   },
+   {
+    "stem": "sembl",
+    "infinitive": "sembler",
+    "era_inf_n": 0,
+    "stem_per_1000w": 0.973
+   },
+   {
+    "stem": "pens",
+    "infinitive": "penser",
+    "era_inf_n": 12,
+    "stem_per_1000w": 0.935
+   },
+   {
+    "stem": "mont",
+    "infinitive": "monter",
+    "era_inf_n": 1,
+    "stem_per_1000w": 0.638
+   },
+   {
+    "stem": "appel",
+    "infinitive": "appeler",
+    "era_inf_n": 21,
+    "stem_per_1000w": 0.61
+   },
+   {
+    "stem": "parl",
+    "infinitive": "parler",
+    "era_inf_n": 46,
+    "stem_per_1000w": 0.596
+   },
+   {
+    "stem": "march",
+    "infinitive": "marcher",
+    "era_inf_n": 23,
+    "stem_per_1000w": 0.568
+   },
+   {
+    "stem": "charg",
+    "infinitive": "charger",
+    "era_inf_n": 5,
+    "stem_per_1000w": 0.484
+   },
+   {
+    "stem": "cherch",
+    "infinitive": "chercher",
+    "era_inf_n": 29,
+    "stem_per_1000w": 0.465
+   },
+   {
+    "stem": "montr",
+    "infinitive": "montrer",
+    "era_inf_n": 20,
+    "stem_per_1000w": 0.424
+   },
+   {
+    "stem": "regard",
+    "infinitive": "regarder",
+    "era_inf_n": 5,
+    "stem_per_1000w": 0.424
+   },
+   {
+    "stem": "assur",
+    "infinitive": "assurer",
+    "era_inf_n": 12,
+    "stem_per_1000w": 0.307
+   },
+   {
+    "stem": "compt",
+    "infinitive": "compter",
+    "era_inf_n": 6,
+    "stem_per_1000w": 0.265
+   },
+   {
+    "stem": "aim",
+    "infinitive": "aimer",
+    "era_inf_n": 4,
+    "stem_per_1000w": 0.251
+   },
+   {
+    "stem": "défend",
+    "infinitive": "défender",
+    "era_inf_n": 0,
+    "stem_per_1000w": 0.251
+   },
+   {
+    "stem": "demand",
+    "infinitive": "demander",
+    "era_inf_n": 7,
+    "stem_per_1000w": 0.205
+   },
+   {
+    "stem": "travaill",
+    "infinitive": "travailler",
+    "era_inf_n": 12,
+    "stem_per_1000w": 0.195
+   },
+   {
+    "stem": "gard",
+    "infinitive": "garder",
+    "era_inf_n": 4,
+    "stem_per_1000w": 0.177
+   },
+   {
+    "stem": "command",
+    "infinitive": "commander",
+    "era_inf_n": 13,
+    "stem_per_1000w": 0.163
+   },
+   {
+    "stem": "mand",
+    "infinitive": "mander",
+    "era_inf_n": 0,
+    "stem_per_1000w": 0.107
+   },
+   {
+    "stem": "tourn",
+    "infinitive": "tourner",
+    "era_inf_n": 5,
+    "stem_per_1000w": 0.102
+   },
+   {
+    "stem": "ordonn",
+    "infinitive": "ordonner",
+    "era_inf_n": 4,
+    "stem_per_1000w": 0.093
+   },
+   {
+    "stem": "écout",
+    "infinitive": "écouter",
+    "era_inf_n": 1,
+    "stem_per_1000w": 0.061
+   },
+   {
+    "stem": "ador",
+    "infinitive": "adorer",
+    "era_inf_n": 1,
+    "stem_per_1000w": 0.042
+   },
+   {
+    "stem": "suppli",
+    "infinitive": "supplier",
+    "era_inf_n": 0,
+    "stem_per_1000w": 0.028
+   },
+   {
+    "stem": "inform",
+    "infinitive": "informer",
+    "era_inf_n": 0,
+    "stem_per_1000w": 0.014
+   }
+  ],
+  "frame_scores": [
+   {
+    "stem": "ordonn",
+    "infinitive": "ordonner",
+    "era_inf_n": 4,
+    "stem_per_1000w": 0.093,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.5,
+    "n_et_after_inf": 2,
+    "P_estart_after_inf": 0.5,
+    "n_estart_after_inf": 2,
+    "top_followers": [
+     [
+      "et",
+      2
+     ],
+     [
+      "l",
+      1
+     ],
+     [
+      "au",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "aim",
+    "infinitive": "aimer",
+    "era_inf_n": 4,
+    "stem_per_1000w": 0.251,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.25,
+    "n_et_after_inf": 1,
+    "P_estart_after_inf": 0.25,
+    "n_estart_after_inf": 1,
+    "top_followers": [
+     [
+      "leur",
+      1
+     ],
+     [
+      "pour",
+      1
+     ],
+     [
+      "et",
+      1
+     ],
+     [
+      "le",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "gard",
+    "infinitive": "garder",
+    "era_inf_n": 4,
+    "stem_per_1000w": 0.177,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.25,
+    "n_et_after_inf": 1,
+    "P_estart_after_inf": 0.25,
+    "n_estart_after_inf": 1,
+    "top_followers": [
+     [
+      "et",
+      1
+     ],
+     [
+      "d",
+      1
+     ],
+     [
+      "aussi",
+      1
+     ],
+     [
+      "l",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "tourn",
+    "infinitive": "tourner",
+    "era_inf_n": 5,
+    "stem_per_1000w": 0.102,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.2,
+    "n_et_after_inf": 1,
+    "P_estart_after_inf": 0.2,
+    "n_estart_after_inf": 1,
+    "top_followers": [
+     [
+      "au",
+      1
+     ],
+     [
+      "leurs",
+      1
+     ],
+     [
+      "et",
+      1
+     ],
+     [
+      "sans",
+      1
+     ],
+     [
+      "la",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "pens",
+    "infinitive": "penser",
+    "era_inf_n": 12,
+    "stem_per_1000w": 0.935,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.1667,
+    "n_et_after_inf": 2,
+    "P_estart_after_inf": 0.1667,
+    "n_estart_after_inf": 2,
+    "top_followers": [
+     [
+      "que",
+      4
+     ],
+     [
+      "qu",
+      3
+     ],
+     [
+      "et",
+      2
+     ],
+     [
+      "à",
+      1
+     ],
+     [
+      "ainsi",
+      1
+     ],
+     [
+      "par",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "compt",
+    "infinitive": "compter",
+    "era_inf_n": 6,
+    "stem_per_1000w": 0.265,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.1667,
+    "n_et_after_inf": 1,
+    "P_estart_after_inf": 0.1667,
+    "n_estart_after_inf": 1,
+    "top_followers": [
+     [
+      "qu",
+      2
+     ],
+     [
+      "que",
+      1
+     ],
+     [
+      "et",
+      1
+     ],
+     [
+      "cependant",
+      1
+     ],
+     [
+      "sur",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "command",
+    "infinitive": "commander",
+    "era_inf_n": 13,
+    "stem_per_1000w": 0.163,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.1538,
+    "n_et_after_inf": 2,
+    "P_estart_after_inf": 0.1538,
+    "n_estart_after_inf": 2,
+    "top_followers": [
+     [
+      "la",
+      2
+     ],
+     [
+      "et",
+      2
+     ],
+     [
+      "descend",
+      1
+     ],
+     [
+      "celui",
+      1
+     ],
+     [
+      "mais",
+      1
+     ],
+     [
+      "souverainement",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "pass",
+    "infinitive": "passer",
+    "era_inf_n": 35,
+    "stem_per_1000w": 1.466,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.0857,
+    "n_et_after_inf": 3,
+    "P_estart_after_inf": 0.1143,
+    "n_estart_after_inf": 4,
+    "top_followers": [
+     [
+      "d",
+      4
+     ],
+     [
+      "dans",
+      4
+     ],
+     [
+      "de",
+      4
+     ],
+     [
+      "et",
+      3
+     ],
+     [
+      "le",
+      2
+     ],
+     [
+      "son",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "port",
+    "infinitive": "porter",
+    "era_inf_n": 14,
+    "stem_per_1000w": 1.019,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.0714,
+    "n_et_after_inf": 1,
+    "P_estart_after_inf": 0.0714,
+    "n_estart_after_inf": 1,
+    "top_followers": [
+     [
+      "les",
+      2
+     ],
+     [
+      "des",
+      2
+     ],
+     [
+      "accusateur",
+      1
+     ],
+     [
+      "le",
+      1
+     ],
+     [
+      "vers",
+      1
+     ],
+     [
+      "l",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "montr",
+    "infinitive": "montrer",
+    "era_inf_n": 20,
+    "stem_per_1000w": 0.424,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.05,
+    "n_et_after_inf": 1,
+    "P_estart_after_inf": 0.05,
+    "n_estart_after_inf": 1,
+    "top_followers": [
+     [
+      "ce",
+      2
+     ],
+     [
+      "le",
+      2
+     ],
+     [
+      "par",
+      2
+     ],
+     [
+      "quelle",
+      2
+     ],
+     [
+      "la",
+      1
+     ],
+     [
+      "aux",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "donn",
+    "infinitive": "donner",
+    "era_inf_n": 82,
+    "stem_per_1000w": 1.168,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0122,
+    "n_est_after_inf": 1,
+    "P_et_after_inf": 0.0122,
+    "n_et_after_inf": 1,
+    "P_estart_after_inf": 0.0244,
+    "n_estart_after_inf": 2,
+    "top_followers": [
+     [
+      "à",
+      15
+     ],
+     [
+      "au",
+      8
+     ],
+     [
+      "un",
+      6
+     ],
+     [
+      "aux",
+      6
+     ],
+     [
+      "le",
+      5
+     ],
+     [
+      "des",
+      5
+     ]
+    ]
+   },
+   {
+    "stem": "pri",
+    "infinitive": "prier",
+    "era_inf_n": 3,
+    "stem_per_1000w": 2.685,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.0,
+    "n_et_after_inf": 0,
+    "P_estart_after_inf": 0.0,
+    "n_estart_after_inf": 0,
+    "top_followers": [
+     [
+      "dieu",
+      1
+     ],
+     [
+      "m",
+      1
+     ],
+     [
+      "au",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "jou",
+    "infinitive": "jouer",
+    "era_inf_n": 5,
+    "stem_per_1000w": 1.941,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.0,
+    "n_et_after_inf": 0,
+    "P_estart_after_inf": 0.0,
+    "n_estart_after_inf": 0,
+    "top_followers": [
+     [
+      "ni",
+      1
+     ],
+     [
+      "un",
+      1
+     ],
+     [
+      "le",
+      1
+     ],
+     [
+      "de",
+      1
+     ],
+     [
+      "sa",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "trouv",
+    "infinitive": "trouver",
+    "era_inf_n": 45,
+    "stem_per_1000w": 1.527,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.0,
+    "n_et_after_inf": 0,
+    "P_estart_after_inf": 0.0889,
+    "n_estart_after_inf": 4,
+    "top_followers": [
+     [
+      "un",
+      7
+     ],
+     [
+      "dans",
+      5
+     ],
+     [
+      "l",
+      3
+     ],
+     [
+      "des",
+      3
+     ],
+     [
+      "le",
+      2
+     ],
+     [
+      "en",
+      2
+     ]
+    ]
+   },
+   {
+    "stem": "rest",
+    "infinitive": "rester",
+    "era_inf_n": 35,
+    "stem_per_1000w": 1.224,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.0,
+    "n_et_after_inf": 0,
+    "P_estart_after_inf": 0.0286,
+    "n_estart_after_inf": 1,
+    "top_followers": [
+     [
+      "unis",
+      7
+     ],
+     [
+      "libres",
+      3
+     ],
+     [
+      "libre",
+      2
+     ],
+     [
+      "long",
+      2
+     ],
+     [
+      "présente",
+      1
+     ],
+     [
+      "immobile",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "appel",
+    "infinitive": "appeler",
+    "era_inf_n": 21,
+    "stem_per_1000w": 0.61,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.0,
+    "n_et_after_inf": 0,
+    "P_estart_after_inf": 0.0,
+    "n_estart_after_inf": 0,
+    "top_followers": [
+     [
+      "les",
+      4
+     ],
+     [
+      "à",
+      4
+     ],
+     [
+      "au",
+      3
+     ],
+     [
+      "le",
+      3
+     ],
+     [
+      "de",
+      2
+     ],
+     [
+      "la",
+      2
+     ]
+    ]
+   },
+   {
+    "stem": "parl",
+    "infinitive": "parler",
+    "era_inf_n": 46,
+    "stem_per_1000w": 0.596,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.0,
+    "n_et_after_inf": 0,
+    "P_estart_after_inf": 0.0435,
+    "n_estart_after_inf": 2,
+    "top_followers": [
+     [
+      "de",
+      14
+     ],
+     [
+      "des",
+      4
+     ],
+     [
+      "que",
+      3
+     ],
+     [
+      "d",
+      2
+     ],
+     [
+      "du",
+      2
+     ],
+     [
+      "en",
+      2
+     ]
+    ]
+   },
+   {
+    "stem": "march",
+    "infinitive": "marcher",
+    "era_inf_n": 23,
+    "stem_per_1000w": 0.568,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.0,
+    "n_et_after_inf": 0,
+    "P_estart_after_inf": 0.087,
+    "n_estart_after_inf": 2,
+    "top_followers": [
+     [
+      "au",
+      3
+     ],
+     [
+      "dans",
+      2
+     ],
+     [
+      "sans",
+      2
+     ],
+     [
+      "vous",
+      2
+     ],
+     [
+      "pour",
+      1
+     ],
+     [
+      "d",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "charg",
+    "infinitive": "charger",
+    "era_inf_n": 5,
+    "stem_per_1000w": 0.484,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.0,
+    "n_et_after_inf": 0,
+    "P_estart_after_inf": 0.0,
+    "n_estart_after_inf": 0,
+    "top_followers": [
+     [
+      "les",
+      2
+     ],
+     [
+      "leur",
+      1
+     ],
+     [
+      "aucune",
+      1
+     ],
+     [
+      "d",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "cherch",
+    "infinitive": "chercher",
+    "era_inf_n": 29,
+    "stem_per_1000w": 0.465,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.0,
+    "n_et_after_inf": 0,
+    "P_estart_after_inf": 0.0,
+    "n_estart_after_inf": 0,
+    "top_followers": [
+     [
+      "des",
+      4
+     ],
+     [
+      "un",
+      4
+     ],
+     [
+      "fortune",
+      3
+     ],
+     [
+      "ailleurs",
+      3
+     ],
+     [
+      "à",
+      2
+     ],
+     [
+      "le",
+      2
+     ]
+    ]
+   },
+   {
+    "stem": "regard",
+    "infinitive": "regarder",
+    "era_inf_n": 5,
+    "stem_per_1000w": 0.424,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.0,
+    "n_et_after_inf": 0,
+    "P_estart_after_inf": 0.0,
+    "n_estart_after_inf": 0,
+    "top_followers": [
+     [
+      "comme",
+      2
+     ],
+     [
+      "de",
+      1
+     ],
+     [
+      "cette",
+      1
+     ],
+     [
+      "la",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "assur",
+    "infinitive": "assurer",
+    "era_inf_n": 12,
+    "stem_per_1000w": 0.307,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.0,
+    "n_et_after_inf": 0,
+    "P_estart_after_inf": 0.0,
+    "n_estart_after_inf": 0,
+    "top_followers": [
+     [
+      "la",
+      4
+     ],
+     [
+      "l",
+      3
+     ],
+     [
+      "son",
+      2
+     ],
+     [
+      "le",
+      1
+     ],
+     [
+      "d",
+      1
+     ],
+     [
+      "au",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "demand",
+    "infinitive": "demander",
+    "era_inf_n": 7,
+    "stem_per_1000w": 0.205,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.0,
+    "n_et_after_inf": 0,
+    "P_estart_after_inf": 0.0,
+    "n_estart_after_inf": 0,
+    "top_followers": [
+     [
+      "des",
+      1
+     ],
+     [
+      "au",
+      1
+     ],
+     [
+      "la",
+      1
+     ],
+     [
+      "de",
+      1
+     ],
+     [
+      "asile",
+      1
+     ],
+     [
+      "humblement",
+      1
+     ]
+    ]
+   },
+   {
+    "stem": "travaill",
+    "infinitive": "travailler",
+    "era_inf_n": 12,
+    "stem_per_1000w": 0.195,
+    "P_veut_after_inf": 0.0,
+    "n_veut_after_inf": 0,
+    "P_est_after_inf": 0.0,
+    "n_est_after_inf": 0,
+    "P_et_after_inf": 0.0,
+    "n_et_after_inf": 0,
+    "P_estart_after_inf": 0.0,
+    "n_estart_after_inf": 0,
+    "top_followers": [
+     [
+      "à",
+      2
+     ],
+     [
+      "de",
+      1
+     ],
+     [
+      "ceux",
+      1
+     ],
+     [
+      "au",
+      1
+     ],
+     [
+      "sans",
+      1
+     ],
+     [
+      "dans",
+      1
+     ]
+    ]
+   }
+  ],
+  "ere_noun_rival_1709": {
+   "top15": [
+    [
+     "manière",
+     178
+    ],
+    [
+     "première",
+     105
+    ],
+    [
+     "caractère",
+     72
+    ],
+    [
+     "matière",
+     54
+    ],
+    [
+     "entière",
+     46
+    ],
+    [
+     "dernière",
+     28
+    ],
+    [
+     "sphère",
+     27
+    ],
+    [
+     "misère",
+     24
+    ],
+    [
+     "guère",
+     22
+    ],
+    [
+     "carrière",
+     21
+    ],
+    [
+     "particulière",
+     18
+    ],
+    [
+     "considère",
+     18
+    ],
+    [
+     "lumière",
+     14
+    ],
+    [
+     "opère",
+     11
+    ],
+    [
+     "étrangère",
+     10
+    ]
+   ]
+  },
+  "P_et_after_inf_dist": {
+   "ordonner": 0.5,
+   "aimer": 0.25,
+   "garder": 0.25,
+   "tourner": 0.2,
+   "penser": 0.1667,
+   "compter": 0.1667,
+   "commander": 0.1538,
+   "passer": 0.0857,
+   "porter": 0.0714,
+   "montrer": 0.05,
+   "donner": 0.0122,
+   "prier": 0.0,
+   "jouer": 0.0,
+   "trouver": 0.0,
+   "rester": 0.0,
+   "appeler": 0.0,
+   "parler": 0.0,
+   "marcher": 0.0,
+   "charger": 0.0,
+   "chercher": 0.0,
+   "regarder": 0.0,
+   "assurer": 0.0,
+   "demander": 0.0,
+   "travailler": 0.0
+  }
+ },
+ "WO3_06086": {
+  "profiles": {
+   "n00": 55,
+   "n86": 32,
+   "n06": 44,
+   "F00": {
+    "97": 4,
+    "34": 1,
+    "92": 6,
+    "11": 4,
+    "46": 4,
+    "33": 8,
+    "66": 7,
+    "13": 1,
+    "86": 12,
+    "20": 1,
+    "36": 3,
+    "64": 1,
+    "98": 1,
+    "67": 1,
+    "44": 1
+   },
+   "P00": {
+    "09": 2,
+    "81": 3,
+    "96": 3,
+    "11": 4,
+    "28": 3,
+    "06": 4,
+    "16": 4,
+    "43": 3,
+    "63": 4,
+    "19": 2,
+    "48": 1,
+    "26": 3,
+    "93": 1,
+    "14": 1,
+    "07": 1,
+    "46": 1,
+    "02": 2,
+    "01": 1,
+    "33": 2,
+    "98": 3,
+    "68": 1,
+    "44": 3,
+    "24": 1,
+    "03": 1,
+    "97": 1
+   },
+   "F86": {
+    "21": 1,
+    "91": 1,
+    "29": 4,
+    "59": 1,
+    "94": 1,
+    "50": 1,
+    "24": 2,
+    "01": 2,
+    "48": 1,
+    "44": 1,
+    "70": 1,
+    "78": 1,
+    "06": 1,
+    "16": 1,
+    "96": 1,
+    "56": 4,
+    "52": 2,
+    "20": 1,
+    "67": 1,
+    "71": 1,
+    "66": 2,
+    "12": 1
+   },
+   "P86": {
+    "87": 1,
+    "97": 1,
+    "77": 5,
+    "00": 12,
+    "17": 1,
+    "11": 1,
+    "66": 1,
+    "83": 2,
+    "96": 1,
+    "67": 3,
+    "37": 1,
+    "98": 1,
+    "47": 1,
+    "52": 1
+   },
+   "F06": {
+    "77": 6,
+    "88": 1,
+    "00": 4,
+    "59": 2,
+    "73": 1,
+    "67": 3,
+    "11": 4,
+    "70": 1,
+    "21": 2,
+    "55": 1,
+    "06": 2,
+    "50": 1,
+    "94": 1,
+    "52": 2,
+    "43": 1,
+    "29": 4,
+    "14": 1,
+    "84": 1,
+    "65": 2,
+    "62": 1,
+    "60": 2,
+    "91": 1
+   },
+   "P06": {
+    "41": 1,
+    "14": 2,
+    "37": 1,
+    "42": 5,
+    "78": 1,
+    "11": 1,
+    "94": 1,
+    "01": 1,
+    "17": 1,
+    "48": 1,
+    "80": 2,
+    "77": 1,
+    "82": 4,
+    "06": 2,
+    "62": 2,
+    "07": 1,
+    "84": 1,
+    "86": 1,
+    "24": 1,
+    "64": 2,
+    "81": 1,
+    "12": 2,
+    "30": 4,
+    "16": 1,
+    "60": 1,
+    "68": 1,
+    "40": 1,
+    "93": 1
+   }
+  },
+  "complementary": {
+   "c00_86": 12,
+   "c00_06": 0,
+   "n00": 55
+  },
+  "frames_06": {
+   "c06_11": 4,
+   "c06_77": 6,
+   "c06_00": 4,
+   "c06_29": 4
+  },
+  "frames_86_in_06_slots": {
+   "c86_11": 0,
+   "c86_77": 0,
+   "c86_00": 0,
+   "c86_29": 4
+  },
+  "pred_86_top": [
+   [
+    "00",
+    12
+   ],
+   [
+    "77",
+    5
+   ],
+   [
+    "67",
+    3
+   ],
+   [
+    "83",
+    2
+   ],
+   [
+    "87",
+    1
+   ],
+   [
+    "97",
+    1
+   ],
+   [
+    "17",
+    1
+   ],
+   [
+    "11",
+    1
+   ],
+   [
+    "66",
+    1
+   ],
+   [
+    "96",
+    1
+   ]
+  ],
+  "c86_06": {
+   "n": 1,
+   "pos": [
+    889
+   ],
+   "frames": [
+    [
+     889,
+     [
+      "08",
+      "31",
+      "79",
+      "68",
+      "37",
+      "03",
+      "02",
+      "00",
+      "86",
+      "06",
+      "77",
+      "76",
+      "01",
+      "98",
+      "82",
+      "14",
+      "98"
+     ]
+    ]
+   ]
+  },
+  "f00_86": {
+   "pos": [
+    552,
+    660,
+    727,
+    866,
+    888,
+    961,
+    1001,
+    1127,
+    1374,
+    1505,
+    1791,
+    1824
+   ],
+   "frames": [
+    [
+     552,
+     [
+      "24",
+      "47",
+      "46",
+      "55",
+      "81",
+      "00",
+      "86",
+      "59",
+      "34",
+      "17",
+      "86"
+     ]
+    ],
+    [
+     660,
+     [
+      "26",
+      "30",
+      "03",
+      "62",
+      "16",
+      "00",
+      "86",
+      "50",
+      "80",
+      "03",
+      "62"
+     ]
+    ],
+    [
+     727,
+     [
+      "03",
+      "91",
+      "65",
+      "64",
+      "11",
+      "00",
+      "86",
+      "48",
+      "88",
+      "11",
+      "24"
+     ]
+    ],
+    [
+     866,
+     [
+      "74",
+      "74",
+      "48",
+      "47",
+      "46",
+      "00",
+      "86",
+      "70",
+      "87",
+      "77",
+      "89"
+     ]
+    ],
+    [
+     888,
+     [
+      "79",
+      "68",
+      "37",
+      "03",
+      "02",
+      "00",
+      "86",
+      "06",
+      "77",
+      "76",
+      "01"
+     ]
+    ],
+    [
+     961,
+     [
+      "85",
+      "04",
+      "20",
+      "67",
+      "96",
+      "00",
+      "86",
+      "56",
+      "41",
+      "19",
+      "24"
+     ]
+    ],
+    [
+     1001,
+     [
+      "67",
+      "11",
+      "96",
+      "82",
+      "33",
+      "00",
+      "86",
+      "56",
+      "47",
+      "91",
+      "11"
+     ]
+    ],
+    [
+     1127,
+     [
+      "06",
+      "11",
+      "52",
+      "37",
+      "43",
+      "00",
+      "86",
+      "52",
+      "37",
+      "86",
+      "24"
+     ]
+    ],
+    [
+     1374,
+     [
+      "82",
+      "16",
+      "91",
+      "67",
+      "98",
+      "00",
+      "86",
+      "29",
+      "89",
+      "84",
+      "92"
+     ]
+    ],
+    [
+     1505,
+     [
+      "74",
+      "84",
+      "33",
+      "42",
+      "33",
+      "00",
+      "86",
+      "56",
+      "41",
+      "12",
+      "61"
+     ]
+    ],
+    [
+     1791,
+     [
+      "96",
+      "21",
+      "68",
+      "47",
+      "03",
+      "00",
+      "86",
+      "56",
+      "42",
+      "94",
+      "59"
+     ]
+    ],
+    [
+     1824,
+     [
+      "02",
+      "09",
+      "19",
+      "00",
+      "97",
+      "00",
+      "86",
+      "29",
+      "82",
+      "38",
+      "83"
+     ]
+    ]
+   ]
+  },
+  "f06_00": {
+   "pos": [
+    184,
+    544,
+    666,
+    738
+   ],
+   "frames": [
+    [
+     184,
+     [
+      "24",
+      "87",
+      "64",
+      "23",
+      "37",
+      "06",
+      "00",
+      "33",
+      "16",
+      "00",
+      "66"
+     ]
+    ],
+    [
+     544,
+     [
+      "12",
+      "44",
+      "29",
+      "48",
+      "42",
+      "06",
+      "00",
+      "46",
+      "24",
+      "47",
+      "46"
+     ]
+    ],
+    [
+     666,
+     [
+      "86",
+      "50",
+      "80",
+      "03",
+      "62",
+      "06",
+      "00",
+      "20",
+      "67",
+      "11",
+      "86"
+     ]
+    ],
+    [
+     738,
+     [
+      "85",
+      "93",
+      "76",
+      "18",
+      "82",
+      "06",
+      "00",
+      "36",
+      "20",
+      "30",
+      "67"
+     ]
+    ]
+   ]
+  },
+  "significance": {
+   "P_pre00_given_86": 0.375,
+   "baseline_P00_first": 0.0298,
+   "enrichment": 12.59,
+   "binom_P_ge12": 6.291657080860188e-11,
+   "P06_given_pre00": 0.0,
+   "n00_bigrams": 55
+  },
+  "falsifier_scan": {
+   "any_00_06": 0,
+   "any_86_11_77_00": {
+    "c86_11": 0,
+    "c86_77": 0,
+    "c86_00": 0
+   },
+   "any_06_after_00": 0,
+   "any_86_06": 1
+  },
+  "post_er_neighbors": {
+   "after_06_29": {
+    "67": 2,
+    "40": 1,
+    "37": 1
+   },
+   "after_86_29": {
+    "82": 2,
+    "89": 2
+   }
+  },
+  "g00_followers_top15": [
+   [
+    "86",
+    12
+   ],
+   [
+    "33",
+    8
+   ],
+   [
+    "66",
+    7
+   ],
+   [
+    "92",
+    6
+   ],
+   [
+    "97",
+    4
+   ],
+   [
+    "11",
+    4
+   ],
+   [
+    "46",
+    4
+   ],
+   [
+    "36",
+    3
+   ],
+   [
+    "34",
+    1
+   ],
+   [
+    "13",
+    1
+   ],
+   [
+    "20",
+    1
+   ],
+   [
+    "64",
+    1
+   ],
+   [
+    "98",
+    1
+   ],
+   [
+    "67",
+    1
+   ],
+   [
+    "44",
+    1
+   ]
+  ]
+ },
+ "followup": {
+  "c29_87": {
+   "n": 3,
+   "pos": [
+    147,
+    627,
+    1425
+   ],
+   "frames": [
+    [
+     147,
+     [
+      "14",
+      "74",
+      "67",
+      "64",
+      "77",
+      "84",
+      "29",
+      "87",
+      "64",
+      "96",
+      "47",
+      "46",
+      "66"
+     ]
+    ],
+    [
+     627,
+     [
+      "76",
+      "82",
+      "14",
+      "59",
+      "37",
+      "33",
+      "29",
+      "87",
+      "78",
+      "67",
+      "08",
+      "52",
+      "67"
+     ]
+    ],
+    [
+     1425,
+     [
+      "79",
+      "15",
+      "33",
+      "21",
+      "67",
+      "33",
+      "29",
+      "87",
+      "63",
+      "91",
+      "61",
+      "12",
+      "16"
+     ]
+    ]
+   ]
+  },
+  "c29_47": {
+   "n": 4
+  },
+  "fisher_00_86_vs_06": 7.278446786607345e-06,
+  "era_ce_elision": {
+   "U_ce": 1134,
+   "U_c": 395,
+   "P_ce_or_c": 0.007116228631533875
+  },
+  "g67_fork": {
+   "et_frames": {
+    "06_67": [
+     271,
+     470,
+     1475
+    ],
+    "inf_67": [
+     1096,
+     1388
+    ]
+   },
+   "veut_frames": {
+    "21_67_86": [
+     1457
+    ],
+    "67_78": [
+     351,
+     491,
+     1163,
+     1842
+    ]
+   },
+   "note": "et: era P(et|inf)=0.02851 vs P(veut|inf)=0.00025 (114:1); cipher: 06+et grammatical, 06+veut not; et+qui grammatical, veut+qui not; veut+me grammatical, et+me not"
+  },
+  "g21_profile": {
+   "n": 30,
+   "followers": {
+    "62": 5,
+    "67": 8,
+    "60": 4,
+    "65": 4,
+    "69": 1,
+    "35": 1,
+    "80": 1,
+    "64": 2,
+    "85": 1,
+    "43": 1,
+    "02": 1,
+    "68": 1
+   },
+   "predecessors": {
+    "08": 1,
+    "11": 2,
+    "68": 2,
+    "14": 1,
+    "64": 1,
+    "48": 2,
+    "86": 1,
+    "01": 2,
+    "96": 3,
+    "06": 2,
+    "66": 1,
+    "02": 1,
+    "62": 1,
+    "33": 3,
+    "83": 3,
+    "61": 2,
+    "43": 1,
+    "46": 1
+   },
+   "note": "96->21 x3 (\"par 21\"); era P(me|par)=0 hardens against 21=me (N29 x802)"
+  },
+  "unigram_recal": {
+   "A_uni_naive_pair_vs_word": 2.872,
+   "A_uni_elision_corrected": 2.13,
+   "A_uni_ceproper19_elision_corrected": 1.446,
+   "note": "naive leg compares pair-rate to word-rate; elision: era c-est counted under U[c], cipher writes ce-cell"
+  },
+  "Q1_qui_que_complementarity": {
+   "c47_64": 0,
+   "n47": 28,
+   "c87_64": 5,
+   "n87": 32,
+   "binom_p_vs_era": 0.0029,
+   "binom_p_vs_cipher": 0.0086,
+   "f47_46_by_pre": {
+    "96": 151,
+    "24": 548,
+    "48": 864
+   },
+   "f87_46_by_pre": {
+    "96": 1527
+   },
+   "f87_64_pres": [
+    "29",
+    "24",
+    "24",
+    "24",
+    "79"
+   ],
+   "f47_01": [
+    194
+   ],
+   "f87_01": [
+    344,
+    1028
+   ],
+   "fisher_qui_relque_p": 0.0476,
+   "rule": "Q1: relative-pronoun complement after ce is cell-conditioned: 87 before qui (5/5 of 87->64; 47->64=0/28); 47 before relative que (2/2 of pre!=96 47->46; 87->relative-que=0/32). Fused parce que (pre=96), cela, cest take either. Falsifiers: one 47->64; one 87->46 with pre!=96.",
+   "note": "folds in Closer A2 (code/crowd5/closer87_angles.json): P(64|47)=0/28 vs era P(qui|ce)=0.188, binom p=0.0030"
+  },
+  "allomorph_framing": {
+   "framing": "memo-round5-briefing: petit-chiffre word-family packing -> 06/86 as stem ALLOMORPHS (same stem, mood-conditioned: 06=finite/imperative, 86=infinitive-complement), not two unrelated syllables. Adopted as working hypothesis for M1.",
+   "M1_restated": "M1-allomorph: the verb-stem cell is 86 in the 00-governor environment (12/12 stem-takes), 06 in finite/imperative environments (->11 x4, ->77 x6, ->00 x4; 86 never: 0/14). The ->29 infinitive slot is shared (conditioning unfenced). Falsifiers: one 00->06; one 86->{11,77,00}; one 06 with pre=00. Fisher p=7.3e-06; binomial P(>=12/32 at baseline)=6.3e-11.",
+   "rate_tension_T1": {
+    "stem_family_tokens": 76,
+    "est_words": 957,
+    "per_1000w": 79.4,
+    "note": "79.4/1000w exceeds any single French verb family (~40/1000w max, etre). Either the despatch is pathologically repetitive for this verb, or 06/86 cover >1 stem (class cells with slot-conditioning), or the word count is off. Identifying the stem adjudicates."
+   },
+   "self_coordination_T2": {
+    "frame": "pairs[1386:1393] = 82 16 06 29 67 86 29 = m/en [inf-A] et [inf-B]",
+    "note": "Under one-stem, inf-A=inf-B (\"donner et donner\" - odd). Under two-verbs/class-cells, fine. Fenced."
+   },
+   "shared_er_slot_T3": "Both allomorphs precede 29=er (06->29 x4, 86->29 x4); the allomorph conditioning for the infinitive slot itself is unfenced.",
+   "one_infinitive_test": {
+    "independent_events": 7,
+    "left_governors": {
+     "1096": "81",
+     "1388": "16",
+     "1709": "12",
+     "1815": "42",
+     "431": "77",
+     "1375": "00",
+     "1825": "00"
+    },
+    "right_neighbors": {
+     "1096": "67",
+     "1388": "67",
+     "1709": "40",
+     "1815": "37",
+     "431": "82",
+     "1375": "89",
+     "1825": "82"
+    },
+    "governor_table": {
+     "donner": {
+      "n": 82,
+      "le": 1,
+      "pour": 1,
+      "de": 15,
+      "en": 1
+     },
+     "passer": {
+      "n": 35,
+      "le": 0,
+      "pour": 1,
+      "de": 2,
+      "en": 5
+     },
+     "prier": {
+      "n": 3,
+      "le": 1,
+      "pour": 0,
+      "de": 0,
+      "en": 0
+     },
+     "assurer": {
+      "n": 12,
+      "le": 0,
+      "pour": 2,
+      "de": 0,
+      "en": 0
+     },
+     "parler": {
+      "n": 46,
+      "le": 0,
+      "pour": 2,
+      "de": 11,
+      "en": 3
+     }
+    },
+    "best_conditional": "donner (only candidate taking all four governors le/pour/de/en in era)",
+    "rate_vs_donner": "expected 957*82/214861=0.37 vs 7 observed = 19x over -> diplomatic-register inflation required; UNVERIFIED",
+    "verdict": "NULL: no Tocqueville -er infinitive reaches the needed rate; donner leads conditionally only"
+   },
+   "no_nulls": "No null groups posited in any reading (compliant with petit-chiffre reference: no nulls; lane null-digit negative).",
+   "royal_order_1690": "Mandated sparse homophones on frequent syllables -> historical prior for F33 conditioned doubles; cited for 47-Q2 fragment and generally."
+  }
+ }
+}

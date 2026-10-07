@@ -98,7 +98,8 @@ DEFAULTS = {
     'lambda_conc': 5.0,   # concentration penalty weight
     'conc_cap': 6,         # max groups/value before quadratic penalty
     'jaccard_floor': 0.1,
-    'inventory_mode': 'extended',   # or 'units' (strict task-brief)
+    'inventory_mode': 'crib',   # 'crib' (default, cross-fleet memo 2026-10-07),
+                               # 'extended', or 'units' (strict task-brief)
     'init': 'random',               # or 'freqmatch'
     'refine': True,
     'seed': 1841,
@@ -203,15 +204,40 @@ def load_inventory(mode, pins, soft, lex_wt):
     'units': exactly data/upstream-syll.py UNITS (task-brief literal).
     'extended' (default): UNITS + top-200 encipher_split cells from the
       Tocqueville reference (the control generator plants from encipher_split
-      cells; strict UNITS misses ~20% of them -- measured in METHOD.md)."""
+      cells; strict UNITS misses ~20% of them -- measured in METHOD.md).
+    'crib' (cross-fleet memo 2026-10-07, F34/N32): crib-derived bottom-up.
+      Tier 1 (crib-attested: 7 anchors + by-ear personne + polyvalence islets)
+      first with high proposal weight, then Tier 2 (by-ear extended), then
+      Tier 3 (UNITS + top-200, suspect per N29, low weight). The true by-ear
+      units ('m', 'nne', 'pers', ...) are guaranteed present and prioritized.
+    """
     import re
     lane = os.path.abspath(os.path.join(HERE, '..', '..', '..'))
     src = open(os.path.join(lane, 'data', 'upstream-syll.py')).read()
     m = re.search(r"UNITS = list\('([^']+)'\) \+ '''(.*?)'''\.split\(\)",
                   src, re.S)
     units = list(m.group(1)) + m.group(2).split()
-    inv = list(units)
-    if mode == 'extended':
+
+    if mode == 'crib':
+        from crib_inventory import get_crib_core, get_by_ear_extended
+        crib_core = get_crib_core()
+        by_ear = get_by_ear_extended()
+        # build tiered inventory: crib first, then by-ear, then standard
+        inv = []
+        tier = {}
+        for v in crib_core:
+            if v not in tier:
+                tier[v] = 1
+                inv.append(v)
+        for v in by_ear:
+            if v not in tier:
+                tier[v] = 2
+                inv.append(v)
+        for v in units:
+            if v not in tier:
+                tier[v] = 3
+                inv.append(v)
+        # top-200 encipher_split (Tier 3)
         sys.path.insert(0, os.path.join(lane, 'code', 'crowd2'))
         from scorer_smith import syllabify, encipher_split  # noqa: E402
         from build_lm import load_words  # noqa: E402
@@ -220,12 +246,32 @@ def load_inventory(mode, pins, soft, lex_wt):
             for c in encipher_split(syllabify(w)):
                 cnt[c] += 1
         for c, _ in cnt.most_common(200):
-            if c not in inv:
+            if c not in tier:
+                tier[c] = 3
                 inv.append(c)
+        # weights: Tier 1 highest, Tier 3 lowest (suspect per N29)
+        tier_w = {1: 3.0, 2: 2.0, 3: 1.0}
+        weights = [tier_w[tier[v]] + lex_wt.get(project(v), 0.0)
+                   for v in inv]
+    else:
+        inv = list(units)
+        if mode == 'extended':
+            sys.path.insert(0, os.path.join(lane, 'code', 'crowd2'))
+            from scorer_smith import syllabify, encipher_split  # noqa: E402
+            from build_lm import load_words  # noqa: E402
+            cnt = collections.Counter()
+            for w in load_words():
+                for c in encipher_split(syllabify(w)):
+                    cnt[c] += 1
+            for c, _ in cnt.most_common(200):
+                if c not in inv:
+                    inv.append(c)
+        weights = [1.0 + lex_wt.get(project(v), 0.0) for v in inv]
+
     for v in list(pins.values()) + list(soft.values()):
         if v not in inv:
             inv.append(v)
-    weights = [1.0 + lex_wt.get(project(v), 0.0) for v in inv]
+            weights.append(3.0)  # pins/soft get crib-tier weight
     return inv, weights
 
 
@@ -525,8 +571,11 @@ class Solver:
 
     # -- moves -----------------------------------------------------------------
     def propose_value(self, g, exclude=()):
-        # 20%: copy a contact-neighbor's v1 (homophone-pool proposal)
-        if self.rng.random() < 0.20 and self.adj[g]:
+        # 20%: copy a contact-neighbor's v1 (homophone-pool proposal).
+        # Disabled under --no-contact (DEMOTE-1/CONCERN-4: isolates the
+        # Jaccard contact machinery for the ablation matrix).
+        if not self.cfg.get('no_contact') and \
+                self.rng.random() < 0.20 and self.adj[g]:
             cands = [h for h, _ in self.adj[g][:5] if h not in self.pins]
             if cands:
                 v = self.v1[self.rng.choice(cands)]
@@ -590,7 +639,17 @@ class Solver:
     def propose_move(self, g):
         """Draw and apply one move on non-pin g. Returns (delta, snap)."""
         r = self.rng.random()
-        if r < 0.55:
+        # --no-contact disables block moves (DEMOTE-1/CONCERN-4)
+        if self.cfg.get('no_contact'):
+            if r < 0.65:
+                branch = 'chg1'
+            elif r < 0.80:
+                branch = 'swap'
+            elif r < 0.90:
+                branch = 'poly'
+            else:
+                branch = 'chg2'
+        elif r < 0.55:
             branch = 'chg1'
         elif r < 0.70:
             branch = 'swap'
@@ -837,7 +896,7 @@ def load_pairs_file(path):
 
 
 def build_solver(pairs, pins, soft, lm_path, cfg, seed, no_phase, no_word,
-                 no_poly, no_soft, inventory_mode, init):
+                 no_poly, no_soft, inventory_mode, init, no_contact=False):
     lm_data = json.load(open(lm_path))
     lm = CharLM(lm_data)
     ac = None
@@ -851,6 +910,7 @@ def build_solver(pairs, pins, soft, lm_path, cfg, seed, no_phase, no_word,
         phase_info = dict(phase_info, gate=0.0)
     cfg = dict(cfg)
     cfg['init'] = init
+    cfg['no_contact'] = no_contact
     if no_poly:
         cfg = dict(cfg)
     rng = random.Random(seed)
@@ -862,7 +922,8 @@ def build_solver(pairs, pins, soft, lm_path, cfg, seed, no_phase, no_word,
 
 def run_restarts(pairs, pins, soft, lm_path, cfg, out_dir, seed,
                  no_phase=False, no_word=False, no_poly=False, no_soft=False,
-                 inventory_mode=None, init=None, refine=None):
+                 inventory_mode=None, init=None, refine=None,
+                 no_contact=False):
     cfg = dict(DEFAULTS, **cfg)
     inventory_mode = inventory_mode or cfg['inventory_mode']
     init = init or cfg['init']
@@ -879,7 +940,7 @@ def run_restarts(pairs, pins, soft, lm_path, cfg, out_dir, seed,
         rs = seed + 7919 * r
         solver, lm_data, phase_info = build_solver(
             pairs, pins, soft, lm_path, cfg, rs, no_phase, no_word, no_poly,
-            no_soft, inventory_mode, init)
+            no_soft, inventory_mode, init, no_contact)
         if beta0 is None:
             beta0 = solver.beta
         if r == 0:
@@ -928,7 +989,8 @@ def run_restarts(pairs, pins, soft, lm_path, cfg, out_dir, seed,
     for i in range(20):
         solver, _, _ = build_solver(pairs, pins, soft, lm_path, cfg,
                                     seed + 50000 + i, no_phase, no_word,
-                                    no_poly, no_soft, inventory_mode, init)
+                                    no_poly, no_soft, inventory_mode, init,
+                                    no_contact)
         solver.init_key()
         rb.append(solver.total())
     baseline = {'n': len(rb), 'max': round(max(rb), 1),
@@ -984,6 +1046,9 @@ def main():
     ap.add_argument('--no-word', action='store_true')
     ap.add_argument('--no-poly', action='store_true')
     ap.add_argument('--no-soft', action='store_true')
+    ap.add_argument('--no-contact', action='store_true',
+                    help='DEMOTE-1/CONCERN-4: uniform proposals, no block '
+                         'moves (isolates Jaccard contact machinery)')
     ap.add_argument('--no-refine', action='store_true')
     ap.add_argument('--self-test', action='store_true',
                     help='verify incremental scoring, then exit')
@@ -1014,7 +1079,8 @@ def main():
     run_restarts(pairs, pins, soft, a.lm, cfg, a.out, a.seed,
                  no_phase=a.no_phase, no_word=a.no_word, no_poly=a.no_poly,
                  no_soft=a.no_soft, inventory_mode=a.inventory_mode,
-                 init=a.init, refine=not a.no_refine)
+                 init=a.init, refine=not a.no_refine,
+                 no_contact=a.no_contact)
 
 
 if __name__ == '__main__':

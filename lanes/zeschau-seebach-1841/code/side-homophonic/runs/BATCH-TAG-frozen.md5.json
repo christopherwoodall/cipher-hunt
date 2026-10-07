@@ -1,0 +1,16 @@
+{
+ "frozen_code_md5": {
+  "solver.py": "d30dae03f22f060348ae29cbb7fc5096",
+  "phonetics.py": "e85c9002fadf4526aa25b443f2191add",
+  "build_lm.py": "a3ed8df274c6d67a3fc8987ba15657a4",
+  "phase.py": "9587f494b8b20b2b8734fb4ed196d21d",
+  "control_harness.py": "33fe06f695e00e8c9fbae79a68e77c2b",
+  "ct_loader.py": "bc0c9622cc9ff3fec5886c947ddf27ed",
+  "crib_inventory.py": "f7c10dff9052d323693fd19c05ad0e29",
+  "config.json": "ecea1a49cd6604529e9941699f475179",
+  "METHOD.md": "0b23357ef4108d16fb6d325f73b3d4cf",
+  "README.md": "0240c2fd8e80375ec0a5646e62867197"
+ },
+ "batch": "frozen 6-instance control, inventory_mode=crib, restarts=12, iters=40000, seed=1841",
+ "parse_version_note": "control scoring on synthetic 1846-pair instances (unchanged); R5005 gate verdict will carry repaired_offsets.json md5"
+}

@@ -194,59 +194,98 @@ therefore makes **no linguistic claim** about the phases. It uses them twice:
 2. **Potts prior, chi2-gated:** β·Σ J(g,h)·[v1[g]==v1[h]] over pairs with
    J ≥ 0.1, β = 2.0·gate(χ²), gate = σ((χ²−80)/12). The χ² instrument is a
    **verbatim copy** of the control generator's `unsupervised_chi2`
-   (`phase.py::reference_chi2`) -- the control is calibrated to χ²∈[181,320]
-   by that exact function, so the gate is calibrated to the same ruler.
-   Null streams (uniform random) measure χ²∈[2,33] → gate < 0.02; R5005 and
-   the control → gate ≈ 1. On a stream without the rhythm the prior shuts
-   itself off. It is also proposal-relevant (20% of change-moves copy a
-   contact-neighbor's value) and fully ablatable (`--no-phase`).
+   (`phase.py::reference_chi2`).
+
+**Honest calibration status (DEMOTE-1, red-team 2026-10-07):** the χ²
+instrument is a *noisy detector*. On the 6 control instances (true
+occurrence-phase χ² 181–272) it reads **36.6, 0.4, 787.3, 375.5, 6.2, 2.9**
+-- in-band on 0/6. The gate is ≤0.026 (effectively OFF) on 4/6 instances;
+on the 2 where it fires (787, 375) it over-reads above the calibration
+band. The "R5005 and the control → gate ≈ 1" claim is WITHDRAWN for the
+control. What the control *does* certify: contact-coherent aliasing at
+fixed strength -- planted-phase Jaccard purity 0.62–0.66 (non-anchor) on
+all six instances regardless of the χ² reading (red-team verified). The
+solver's Jaccard proposal machinery faces this on all 6. What it does NOT
+certify: the Potts prior's weight/gating -- untestable here on 4/6.
+Null streams (uniform random) measure χ²∈[2,33] → gate < 0.02, so on a
+stream without the rhythm the prior shuts itself off (that part holds).
+
+**Ablation hygiene:** `--no-phase` only zeroes the gate; the Jaccard
+adjacency still drives the 20% homophone-pool proposals and block moves.
+`--no-contact` (added 2026-10-07) isolates the contact machinery fully:
+uniform proposals, no block moves. The Runner's ablation matrix should use
+`--no-contact`, not `--no-phase`, to test the contact graph's contribution.
 
 The block labels (A/B/C/R) are recomputed from the input stream every run;
 nothing is banked from R5005, so the same code runs on controls.
 
-## 6. Inventory: a task-brief/control conflict, and its resolution
+## 6. Inventory: crib-derived, not standard-French
 
-The task brief says: draw values from `data/upstream-syll.py` UNITS (180
-items). The landed control generator (`code/side-homophonic/control/
-generator.py`) plants from **encipher_split cells** (top-T + anchors,
-T∈{48,56,64,72}). Measured overlap (lane instruments, Tocqueville
-reference): UNITS covers only **78-83%** of the top-T encipher_split cells;
-missing are high-frequency cells ('é', 'à', 'dans', 'est', 'pas', 'plus',
-'tr', 'res', …). Strict UNITS would cap PRIMARY recovery at ~0.80 *by
-construction* -- a false negative on the method.
+**Cross-fleet memo 2026-10-07 (F34/N32):** the word-pattern fleet falsified
+the standard-French syllable inventory for this cipher. Ground truth: the
+encipherer chunks *by ear* -- 'm' as a standalone syllable (82=m) is
+phonotactically impossible in French but real here, proven by the 7 pencil
+cribs. "personne" appears as per|so|nne AND pers|on|ne (two spellings, one
+cipher). If the inventory cannot represent by-ear units, the true assignment
+is unreachable regardless of search quality.
 
-**Resolution:** default inventory = UNITS ∪ top-200 encipher_split cells
-(~300 items, deduped; pins/soft forced in). `--inventory-mode units` restores
-strict task-brief compliance for ablation. The solver reports projection
-collisions (values indistinguishable to the char LM, e.g. 'res'→'re' vs
-'re'→'re'): 65/180 in UNITS mode -- a known, quantified limitation; ties
-break post-hoc by lexicon weight.
+**The task-brief/control conflict:** the brief says draw from UNITS (180
+items); the control generator plants from encipher_split cells. Measured:
+UNITS covers only 78-83% of top-T encipher_split cells. Strict UNITS caps
+PRIMARY at ~0.80 by construction.
+
+**Resolution (bottom-up, not top-down):** default `inventory_mode='crib'`
+(`solver/crib_inventory.py`):
+- **Tier 1 (crib-attested, weight 3.0):** 7 pencil cribs (la, pre, m, i, er,
+  e, que) + by-ear "personne" (per, so, nne, pers, on, ne) + polyvalence
+  islets (ent/06, ne/en/94, pas/so/52). Guaranteed present, prioritized.
+- **Tier 2 (by-ear extended, weight 2.0):** Frenchman-attested chunks from
+  phonetic_rules.md.
+- **Tier 3 (standard French, weight 1.0, suspect per N29):** UNITS +
+  top-200 encipher_split cells. Included for coverage, deprioritized.
+
+**Audit results (2026-10-07):**
+- The control generator DOES plant by-ear chunks ('m' on all 6 instances;
+  'on','ne','en' on all 6; 'pas' on 5/6; 'ent' on 2/6) -- the control is
+  NOT circular on this axis and CAN validate the inventory.
+- The old 'extended' inventory was MISSING 'nne' and 'pers' (real by-ear
+  chunks from "personne") -- the instrument-validity gap was real. The
+  'crib' inventory has zero missing by-ear chunks (16/16 present).
+- `data/upstream-syll.py` is NOT adopted uncritically (N29): it sits in
+  Tier 3 with the lowest weight.
+
+`--inventory-mode units` restores strict task-brief compliance for ablation;
+`--inventory-mode extended` restores the pre-memo default. The solver reports
+projection collisions: 65/180 in UNITS mode.
 
 ## 7. Coordination: the control interface
 
 `control_harness.py` implements `load_synthetic(path) → run →
-scored assignment`:
+scored assignment → gate_6instance`:
 - `load_synthetic` parses the Designer's `SYNTHETIC-ct-<seed>.pairs.txt`
   (`#` comments skipped). Anchors come from the disclosed crib file
   (`--crib`) or `--anchors`.
-- `run` calls `solver.run_restarts` with `--no-soft` forced. **The sealed
-  key file is loaded only in `score()`, after solver output is written.**
-- Metrics mirror the Designer's (`chance_baseline`): PRIMARY (exact primary
-  recovery, 89 non-anchor groups), SECONDARY (frequency-weighted primary
-  agreement per position -- proxy; per-position planted cells are not
-  persisted by the generator, flagged to the Designer), ISLET secondaries,
-  MRR over restart marginals, pins-intact, best-vs-random20 margin.
-- **Proposed pre-registered bars** (CONTROL-DESIGN.md finalizes): pins 7/7;
-  PRIMARY ≥ 0.50; PRIMARY ≥ chance+0.30; islets ≥ 4/6 (secondary found with
-  primary ranked #1); best − random20.max ≥ 200 nats; MRR ≥ 0.60. All six →
-  CONTROL-PASS, else BROKEN-ON-CONTROL. Ablation matrix for the Runner:
-  {full, --no-phase, --no-word, --no-poly, --inventory-mode units} × control
-  instances; the winning config is frozen for R5005.
+- `run` calls `solver.run_restarts` with `--no-soft` forced (soft priors
+  are R5005-only). The solver never sees the truth.
+- `score_assignment` computes PRIMARY (exact, 89 non-anchor), SECONDARY
+  (true decode accuracy via per-position `planted`, KILL-2), PROJ-EQUIV
+  (projection-equivalent, DEMOTE-2 diagnostic), MRR and islets (diagnostics).
+- `gate_6instance` applies the REGISTERED §4 bars (CONTROL-DESIGN.md §4):
+  PRIMARY mean ≥ 0.20 / min ≥ 0.10; SECONDARY mean ≥ 0.30 / min ≥ 0.22;
+  both means ≥ μ+5σ. All six → CONTROL-PASS, else CONTROL-FAIL.
+  (KILL-1: the harness's earlier 0.50 proposal is superseded.)
+- `--aggregate` takes 6 per-instance `control_report.json` files and emits
+  the §4 verdict (`control_verdict.json`).
+
+Ablation matrix for the Runner:
+{full, --no-contact, --no-word, --no-poly, --inventory-mode units} × control
+instances. (`--no-contact`, not `--no-phase`, isolates the Jaccard contact
+machinery per DEMOTE-1/CONCERN-4.) The winning config is frozen for R5005.
 
 LM independence: the reference LM is Tocqueville-only; the control
 plaintext is Les Misérables -- disjoint by construction. The harness asserts
-this. `build_lm.py --exclude-span A B` exists for any future control that
-shares the reference corpus.
+this (`'mis' not in LM corpus`). `build_lm.py --exclude-span A B` exists for
+any future control that shares the reference corpus.
 
 ## 8. Known limitations
 
@@ -267,3 +306,8 @@ shares the reference corpus.
 6. **Not run on R5005.** No real-data execution until the control passes;
    `solver.py` has no R5005 default input, and `ct_loader.py` (the real-data
    adapter) is import-isolated from the solver core and the harness.
+   **FIX A (2026-10-07, cross-fleet memo):** `ct_loader.py` now uses the
+   CANONICAL repaired parse (`code/side-keyhunt/repaired_offsets.json`,
+   F32: a5_03 1→0), asserting **1,847 pairs / 96 groups** with byte-verified
+   "la première" landmarks @754 and @1034 (REINDEX.md). The old 1,846-pair
+   parse is superseded; synthetics stay 1,846 (self-consistent).

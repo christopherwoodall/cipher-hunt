@@ -1,0 +1,402 @@
+{
+ "SYNTHETIC": true,
+ "stages": {
+  "model_correct": {
+   "truth_lam10": {
+    "total": -32.431,
+    "s_let": -3.4313,
+    "s_pos": -8.6249,
+    "S_prior": 1.0,
+    "n_poly": 3,
+    "S_hom": -0.0
+   },
+   "truth_lam0": {
+    "total": -2.431,
+    "s_let": -3.4313,
+    "s_pos": -8.6249,
+    "S_prior": 1.0,
+    "n_poly": 3,
+    "S_hom": -0.0
+   },
+   "truth_monovalent_decode": {
+    "total": -2.639,
+    "s_let": -3.6393,
+    "s_pos": -7.559,
+    "S_prior": 1.0,
+    "n_poly": 0,
+    "S_hom": -0.0
+   }
+  },
+  "identifiability": {
+   "bar_groups": [
+    {
+     "group": "07",
+     "n": 302,
+     "kind": "shared",
+     "true_primary": "ri",
+     "p_emitted_is_primary": 0.033,
+     "modal_emitted": "ri",
+     "p_modal": 0.033,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 187,
+     "entropy": 5.05
+    },
+    {
+     "group": "41",
+     "n": 274,
+     "kind": "shared",
+     "true_primary": "ri",
+     "p_emitted_is_primary": 0.018,
+     "modal_emitted": "mi",
+     "p_modal": 0.022,
+     "primary_is_modal": false,
+     "n_distinct_emitted": 160,
+     "entropy": 4.9
+    },
+    {
+     "group": "85",
+     "n": 61,
+     "kind": "shared",
+     "true_primary": "dans",
+     "p_emitted_is_primary": 0.164,
+     "modal_emitted": "dans",
+     "p_modal": 0.164,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 30,
+     "entropy": 3.12
+    },
+    {
+     "group": "88",
+     "n": 54,
+     "kind": "shared",
+     "true_primary": "on",
+     "p_emitted_is_primary": 0.296,
+     "modal_emitted": "on",
+     "p_modal": 0.296,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 22,
+     "entropy": 2.53
+    },
+    {
+     "group": "51",
+     "n": 36,
+     "kind": "shared",
+     "true_primary": "de",
+     "p_emitted_is_primary": 0.972,
+     "modal_emitted": "de",
+     "p_modal": 0.972,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 2,
+     "entropy": 0.13
+    },
+    {
+     "group": "42",
+     "n": 36,
+     "kind": "shared",
+     "true_primary": "le",
+     "p_emitted_is_primary": 0.389,
+     "modal_emitted": "le",
+     "p_modal": 0.389,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 10,
+     "entropy": 1.78
+    },
+    {
+     "group": "22",
+     "n": 34,
+     "kind": "shared",
+     "true_primary": "re",
+     "p_emitted_is_primary": 0.441,
+     "modal_emitted": "re",
+     "p_modal": 0.441,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 12,
+     "entropy": 1.95
+    },
+    {
+     "group": "89",
+     "n": 29,
+     "kind": "shared",
+     "true_primary": "re",
+     "p_emitted_is_primary": 0.345,
+     "modal_emitted": "re",
+     "p_modal": 0.345,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 11,
+     "entropy": 1.96
+    },
+    {
+     "group": "68",
+     "n": 28,
+     "kind": "shared",
+     "true_primary": "en",
+     "p_emitted_is_primary": 0.643,
+     "modal_emitted": "en",
+     "p_modal": 0.643,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 6,
+     "entropy": 1.14
+    },
+    {
+     "group": "59",
+     "n": 26,
+     "kind": "islet",
+     "true_primary": "de",
+     "p_emitted_is_primary": 0.731,
+     "modal_emitted": "de",
+     "p_modal": 0.731,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 2,
+     "entropy": 0.58
+    },
+    {
+     "group": "09",
+     "n": 23,
+     "kind": "shared",
+     "true_primary": "ce",
+     "p_emitted_is_primary": 0.652,
+     "modal_emitted": "ce",
+     "p_modal": 0.652,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 5,
+     "entropy": 1.07
+    },
+    {
+     "group": "00",
+     "n": 23,
+     "kind": "islet",
+     "true_primary": "le",
+     "p_emitted_is_primary": 0.739,
+     "modal_emitted": "le",
+     "p_modal": 0.739,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 2,
+     "entropy": 0.57
+    },
+    {
+     "group": "71",
+     "n": 23,
+     "kind": "shared",
+     "true_primary": "me",
+     "p_emitted_is_primary": 0.565,
+     "modal_emitted": "me",
+     "p_modal": 0.565,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 7,
+     "entropy": 1.34
+    },
+    {
+     "group": "15",
+     "n": 23,
+     "kind": "shared",
+     "true_primary": "me",
+     "p_emitted_is_primary": 0.391,
+     "modal_emitted": "me",
+     "p_modal": 0.391,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 9,
+     "entropy": 1.83
+    },
+    {
+     "group": "21",
+     "n": 22,
+     "kind": "shared",
+     "true_primary": "ce",
+     "p_emitted_is_primary": 0.5,
+     "modal_emitted": "ce",
+     "p_modal": 0.5,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 8,
+     "entropy": 1.58
+    },
+    {
+     "group": "49",
+     "n": 22,
+     "kind": "shared",
+     "true_primary": "la",
+     "p_emitted_is_primary": 0.909,
+     "modal_emitted": "la",
+     "p_modal": 0.909,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 3,
+     "entropy": 0.37
+    },
+    {
+     "group": "31",
+     "n": 22,
+     "kind": "shared",
+     "true_primary": "pas",
+     "p_emitted_is_primary": 0.182,
+     "modal_emitted": "pa",
+     "p_modal": 0.318,
+     "primary_is_modal": false,
+     "n_distinct_emitted": 9,
+     "entropy": 1.9
+    },
+    {
+     "group": "28",
+     "n": 21,
+     "kind": "shared",
+     "true_primary": "en",
+     "p_emitted_is_primary": 0.476,
+     "modal_emitted": "en",
+     "p_modal": 0.476,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 9,
+     "entropy": 1.73
+    },
+    {
+     "group": "04",
+     "n": 21,
+     "kind": "shared",
+     "true_primary": "il",
+     "p_emitted_is_primary": 0.714,
+     "modal_emitted": "il",
+     "p_modal": 0.714,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 5,
+     "entropy": 0.98
+    },
+    {
+     "group": "43",
+     "n": 21,
+     "kind": "shared",
+     "true_primary": "ne",
+     "p_emitted_is_primary": 0.81,
+     "modal_emitted": "ne",
+     "p_modal": 0.81,
+     "primary_is_modal": true,
+     "n_distinct_emitted": 5,
+     "entropy": 0.75
+    }
+   ],
+   "n_primary_not_modal": 2,
+   "max_achievable_top1": 0.9,
+   "note": "groups whose truth primary is not the modal emitted cell cannot be recovered by ANY likelihood-based top-1 (the modal cell always wins)."
+  },
+  "route_a_baseline": [
+   {
+    "restart": 0,
+    "best": -2.63,
+    "acc_rate": 0.805,
+    "components": {
+     "total": -3.633,
+     "s_let": -3.6331,
+     "s_pos": -8.9661,
+     "S_prior": 0.0,
+     "n_poly": 0,
+     "S_hom": 0.0
+    },
+    "primary_top1": 0.1,
+    "islets": 0
+   },
+   {
+    "restart": 1,
+    "best": -2.59,
+    "acc_rate": 0.806,
+    "components": {
+     "total": -3.616,
+     "s_let": -3.6158,
+     "s_pos": -9.447,
+     "S_prior": 0.0,
+     "n_poly": 0,
+     "S_hom": 0.0
+    },
+    "primary_top1": 0.0,
+    "islets": 0
+   },
+   {
+    "restart": 2,
+    "best": -2.81,
+    "acc_rate": 0.806,
+    "components": {
+     "total": -3.607,
+     "s_let": -3.6068,
+     "s_pos": -10.2962,
+     "S_prior": 0.0,
+     "n_poly": 0,
+     "S_hom": 0.0
+    },
+    "primary_top1": 0.05,
+    "islets": 0
+   }
+  ],
+  "route_a_PT": {
+   "chains": 6,
+   "sweeps_per_chain": 600,
+   "temps": [
+    2.0,
+    0.796,
+    0.317,
+    0.126,
+    0.05,
+    0.02
+   ],
+   "gbest": -2.88,
+   "components": {
+    "total": -2.884,
+    "s_let": -3.0843,
+    "s_pos": -10.5868,
+    "S_prior": 0.2,
+    "n_poly": 0,
+    "S_hom": 0.0
+   },
+   "primary_top1": 0.05,
+   "islets": 0,
+   "elapsed_s": 571.5
+  },
+  "route_a_smart": [
+   {
+    "restart": 0,
+    "best": -2.66,
+    "components": {
+     "total": -3.585,
+     "s_let": -3.5852,
+     "s_pos": -9.4021,
+     "S_prior": 0.0,
+     "n_poly": 0,
+     "S_hom": 0.0
+    },
+    "primary_top1": 0.05,
+    "islets": 0
+   },
+   {
+    "restart": 1,
+    "best": -2.69,
+    "components": {
+     "total": -3.646,
+     "s_let": -3.6457,
+     "s_pos": -9.2256,
+     "S_prior": 0.0,
+     "n_poly": 0,
+     "S_hom": 0.0
+    },
+    "primary_top1": 0.1,
+    "islets": 0
+   },
+   {
+    "restart": 2,
+    "best": -3.05,
+    "components": {
+     "total": -3.616,
+     "s_let": -3.6158,
+     "s_pos": -9.2782,
+     "S_prior": 0.0,
+     "n_poly": 0,
+     "S_hom": 0.0
+    },
+    "primary_top1": 0.0,
+    "islets": 0
+   }
+  ]
+ },
+ "meta": {
+  "seed": 1841,
+  "span": [
+   40000,
+   41100
+  ],
+  "updated": "2026-10-07T16:15:34Z",
+  "contact_graph": "jaccard-top10, k=8 neighbors"
+ }
+}

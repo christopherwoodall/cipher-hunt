@@ -3,7 +3,7 @@
  "beta0": 2.0,
  "conc_cap": 6,
  "init": "random",
- "inventory_mode": "extended",
+ "inventory_mode": "crib",
  "iters": 40000,
  "jaccard_floor": 0.1,
  "lambda_conc": 5.0,

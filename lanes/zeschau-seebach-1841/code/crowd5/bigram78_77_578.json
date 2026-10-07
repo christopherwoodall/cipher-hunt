@@ -1,0 +1,263 @@
+{
+ "meta": {
+  "worker": "bigram_closer_round5",
+  "date": "2026-10-07",
+  "cipher": "R5005 REPAIRED parse: 1847 pairs / 96 groups",
+  "era": "Tocqueville t1+t2 (elision-split word model + battery4 syllabifier)",
+  "methods": [
+   "B-78b: ePpre divides by context marginal",
+   "N22: 29/82/34 excluded all legs; 40 excluded conditionals",
+   "F30: word-space legs only; no era-syllable legs on fragments",
+   "kill rule: cipher n>=3 AND era count 0"
+  ],
+  "band": "0.5-2.0 UNCALIBRATED: rates are context, never promotion alone"
+ },
+ "WO1_78": {
+  "counts": {
+   "n78": 31,
+   "P78": 0.01678,
+   "pos_77_78": [
+    7,
+    213,
+    647,
+    1077,
+    1180,
+    1351,
+    1542
+   ],
+   "pos_78_94": [
+    1181,
+    1352
+   ],
+   "n_11_78": 2,
+   "n_47_78": 5,
+   "n_87_78": 2,
+   "n_67_78": 4,
+   "n_78_94": 2,
+   "n_78_40": 3
+  },
+  "word_legs": {
+   "L1w": {
+    "cipher_rate": 0.01678,
+    "era_word_rate": 0.000737,
+    "ratio": 22.76,
+    "in_band": false,
+    "verdict": "ADVERSE (22x over era word rate)"
+   },
+   "grammatical_adverses": [
+    {
+     "frame": "la me",
+     "cipher_n": 2,
+     "era_n": 0,
+     "era_P": 0.0,
+     "era_zero": true
+    },
+    {
+     "frame": "ce me",
+     "cipher_n": 5,
+     "era_n": 1,
+     "era_P": 0.000882,
+     "era_zero": false
+    },
+    {
+     "frame": "ce me",
+     "cipher_n": 2,
+     "era_n": 1,
+     "era_P": 0.000882,
+     "era_zero": false
+    },
+    {
+     "frame": "me ne",
+     "cipher_n": 2,
+     "era_n": 0,
+     "era_P": 0.0,
+     "era_zero": true
+    },
+    {
+     "frame": "le me",
+     "cipher_n": 7,
+     "era_n": 0,
+     "era_P": 0.0,
+     "era_zero": true
+    }
+   ]
+  },
+  "syllable_legs": {
+   "L1s": {
+    "cipher_rate": 0.01678,
+    "era_syll_rate": 0.014838,
+    "ratio": 1.131,
+    "in_band": true
+   }
+  },
+  "ver_legs": {
+   "pos_78_94": [
+    1181,
+    1352
+   ],
+   "in_trigram_94_82_06": 2,
+   "positional_rule": "78=ver iff next=94: 2/2, 0 exceptions outside trigram",
+   "era_vernement_tokens": 554,
+   "era_verrement_tokens": 0,
+   "me_ne_era_zero": true,
+   "n_78_94": 2
+  },
+  "rival_legs": {
+   "l_quote": {
+    "n": 2,
+    "cipher_P": 0.0444,
+    "era_P_l_given_la": 0.000781,
+    "ratio": 56.9,
+    "grammatical": "\"la l'\" ungrammatical",
+    "status": "KILLED (stands)"
+   },
+   "e_fragment": {
+    "L1_ratio": 1.043,
+    "status": "live rival (fragment)"
+   }
+  }
+ },
+ "WO2_77": {
+  "legs": {
+   "A_follower_frame": {
+    "cipher": "P(86|77) = 5/44 = 0.1136",
+    "era": "P(inf|le) = 507/4570 = 0.1109",
+    "ratio": 1.024,
+    "in_band": true,
+    "positions": [
+     430,
+     798,
+     877,
+     950,
+     1133
+    ],
+    "note": "86 = infinitive-complement stem (N29, provisional); 77->86->29 @430 = le+stem+er (F22 strip)",
+    "caveat": "86 is one stem, not all infinitives: near-exact match is consistency, not identification"
+   },
+   "B_predecessor_frames": {
+    "64_77_84": {
+     "n": 3,
+     "note": "qui le [84] x3 byte-identical (n_eff=1); grammatical",
+     "era_P_le_given_qui": 0.01568,
+     "cipher_P_77_given_64": 0.0638
+    },
+    "67_77_81": {
+     "n_67_77": 6,
+     "n_67_77_81": 4,
+     "note": "veut le [81] x4 = verb+article+noun (grammatical); fenced on 67=veut provisional",
+     "era_P_le_given_veut": 0.03846,
+     "cipher_P_77_given_67": 0.1579
+    },
+    "06_77": {
+     "n": 6,
+     "note": "verb-stem + le: imperative-le (demandez-le) or verb + le[noun]; 06 verb-stem-class provisional"
+    }
+   },
+   "C_unigram": {
+    "cipher_rate": 0.02382,
+    "era_word_rate": 0.020673,
+    "ratio": 1.152,
+    "in_band": true,
+    "note": "context only"
+   },
+   "L2b": {
+    "cipher_top3": 0.432,
+    "era_top3": 0.116,
+    "ratio": 3.709,
+    "note": "context only"
+   }
+  },
+  "adverses": {
+   "ce_le": {
+    "cipher_n_87_77": 2,
+    "positions": [
+     515,
+     869
+    ],
+    "era_n_ce_le": 0,
+    "era_zero": true,
+    "note": "fenced on provisional 87=ce; genuine tension, not kill"
+   },
+   "rate_overshoot": {
+    "P77_given_64_vs_era": 4.07,
+    "note": "band uncalibrated (F20); grammatical frames pass"
+   },
+   "joint_le_me": {
+    "cipher_n_77_78": 7,
+    "era_n_le_me": 0,
+    "note": "era-0 as WORD bigram; DISSOLVED under 78=me-syllable (category error: syllable bigram vs word bigram); fenced on unconfirmed 78"
+   }
+  },
+  "diversity": {
+   "cipher_distinct_followers": 20,
+   "cipher_top_share": 0.159,
+   "cipher_distinct_predecessors": 22,
+   "era_distinct_followers": 765,
+   "era_top_share": 0.0403,
+   "era_distinct_predecessors": 1481,
+   "note": "both free-function-word profiles"
+  }
+ },
+ "WO3_578": {
+  "trigram_positions": [
+   578,
+   1182,
+   1353
+  ],
+  "sixmer_78_45_13_55_61_94": [
+   573,
+   1164
+  ],
+  "second_sixmer_continuation": {
+   "pos": 1164,
+   "94_suc": "87",
+   "87_suc": "83",
+   "note": "94 followed by 87=ce: only grammatical reading is en+ce (ne ce = 0 era; re ce incoherent with free-word ce)"
+  },
+  "era_hosts": {
+   "nement_tokens": 641,
+   "rement_tokens": 282,
+   "host_odds_ne_vs_re": 2.27,
+   "vernement_tokens": 554,
+   "verrement_tokens": 0
+  },
+  "particle_argument": {
+   "claim": "at the sixmer #2 (@1169), 94=en (F33 islet, suc=87); 94 is a PARTICLE at the sixmer right edge, incompatible with word-internal re (no free word \"re\" exists)",
+   "fence": "assumes the byte-identical sixmer carries the same segmentation at both positions (by-ear inconsistency attested but unparsimonious here)"
+  },
+  "g61": {
+   "n": 18,
+   "followers_top": [
+    [
+     "96",
+     2
+    ],
+    [
+     "59",
+     2
+    ],
+    [
+     "94",
+     2
+    ],
+    [
+     "21",
+     2
+    ],
+    [
+     "20",
+     1
+    ],
+    [
+     "42",
+     1
+    ]
+   ],
+   "pos_61_94": [
+    577,
+    1168
+   ],
+   "note": "61->94 x2 mirrors 78->94 x2 (allophony candidate: ver->{78,61}; 1 sound->N groups permitted by N33)"
+  }
+ }
+}
