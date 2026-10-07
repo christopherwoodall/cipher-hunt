@@ -1,0 +1,470 @@
+{
+ "meta": {
+  "title": "Petit Chiffre de la Grande Armée — table chiffrante",
+  "source": "Association des Réservistes du Chiffre et de la Sécurité de l'Information (ARCSI), doc Tant/371",
+  "source_url": "https://www.arcsi.fr/doc/Tant/371.pdf",
+  "via": "Reproduced from Commandant Étienne Bazeries, Les chiffres secrets dévoilés, Paris: Charpentier et Fasquelle, 1901, pp. 275-277",
+  "original_date": "Napoleonic era (Grande Armée); published 1901 — public domain",
+  "transcribed": "2026-10-07 by bibliographer (Seebach key-hunt side fleet), hand-transcribed from the ARCSI PDF text layer",
+  "group_count": 144,
+  "group_range": [
+   1,
+   182
+  ],
+  "digit_groups": {
+   "0": "Zéro",
+   "1": "Un",
+   "2": "Deux",
+   "3": "Trois",
+   "5": "Cinq",
+   "9": "Neuf"
+  },
+  "reading_note": "Each group maps to a syllable stem plus listed completions (stem+completion reads as a word family, e.g. 39 -> al / Allemagne / aland / als / ales; 22 -> ar / arme / are / ars / armement / armements). Single letters have dedicated groups (case distinguished: 37=B vs 9=ba...; 87/89/119=I,J triple homophone). Digits 0,1,2,3,5,9 have dedicated groups (4,6,7,8 not listed — presumably spelled). No null groups listed.",
+  "homophones": {
+   "I": [
+    "87",
+    "89",
+    "119"
+   ],
+   "ar": [
+    "22",
+    "25"
+   ],
+   "ca": [
+    "4",
+    "32"
+   ],
+   "di": [
+    "67",
+    "75"
+   ],
+   "es": [
+    "82",
+    "86",
+    "182"
+   ],
+   "fo": [
+    "17",
+    "71"
+   ],
+   "ga": [
+    "51",
+    "78"
+   ],
+   "in": [
+    "48",
+    "118"
+   ],
+   "la": [
+    "106",
+    "109"
+   ],
+   "pu": [
+    "160",
+    "162"
+   ]
+  },
+  "harness_note": "Groups are 1-3 digits (1..182), NOT two-digit: this table cannot be fed to side-keyhunt/test_table.py as-is (it requires \\d{2} keys). Provided as structural/family reference: the French petit-chiffre syllabary class.",
+  "homophone_note": "Homophones computed on PRIMARY readings only (completion fragments like plural -s excluded). True homophones: I,J x3 (87,89,119); es x3 (82,86,182); la x2 (106,109); pu x2 (160,162); ar x2 (22,25); ca x2 (4,32); di x2 (75,67); fo x2 (17,71); ga x2 (51,78); in x2 (118,48)."
+ },
+ "table": {
+  "7": "0",
+  "46": "1",
+  "44": "2",
+  "26": "3",
+  "1": "5",
+  "2": "9",
+  "19": "a",
+  "15": "A",
+  "18": "ab",
+  "21": "ac",
+  "24": "ad",
+  "36": "ai",
+  "39": "al",
+  "22": "ar",
+  "25": "ar",
+  "34": "at",
+  "37": "B",
+  "9": "ba",
+  "13": "bataill",
+  "29": "bi",
+  "35": "bo",
+  "3": "bu",
+  "6": "C",
+  "4": "ca",
+  "32": "ca",
+  "45": "car",
+  "20": "ce",
+  "40": "co",
+  "10": "d",
+  "23": "D",
+  "16": "da",
+  "12": "Dantzig",
+  "52": "de",
+  "75": "di",
+  "67": "di",
+  "56": "do",
+  "76": "du",
+  "53": "E",
+  "74": "effet",
+  "59": "eg",
+  "70": "ei",
+  "63": "el",
+  "55": "em",
+  "68": "en",
+  "62": "er",
+  "82": "es",
+  "86": "es",
+  "182": "es",
+  "50": "et",
+  "73": "F",
+  "69": "fa",
+  "58": "fe",
+  "83": "fi",
+  "17": "fo",
+  "71": "fo",
+  "81": "G",
+  "51": "ga",
+  "78": "ga",
+  "60": "ge",
+  "79": "gi",
+  "65": "go",
+  "54": "gu",
+  "85": "H",
+  "72": "ha",
+  "61": "he",
+  "77": "hi",
+  "66": "ho",
+  "87": "I",
+  "89": "I",
+  "119": "I",
+  "113": "ig",
+  "108": "il",
+  "97": "im",
+  "118": "in",
+  "48": "in",
+  "122": "is",
+  "92": "it",
+  "123": "j'ai",
+  "96": "l",
+  "106": "la",
+  "109": "la",
+  "117": "le",
+  "93": "li",
+  "110": "lo",
+  "103": "lu",
+  "114": "M",
+  "141": "m",
+  "107": "ma",
+  "99": "me",
+  "95": "mi",
+  "111": "mo",
+  "105": "mu",
+  "115": "n",
+  "91": "na",
+  "94": "ne",
+  "116": "ni",
+  "121": "no",
+  "104": "nu",
+  "90": "O",
+  "147": "o",
+  "128": "of",
+  "139": "oi",
+  "133": "om",
+  "149": "on",
+  "153": "ot",
+  "137": "P",
+  "156": "pa",
+  "165": "pe",
+  "127": "pi",
+  "152": "po",
+  "160": "pu",
+  "162": "pu",
+  "173": "q",
+  "136": "que",
+  "154": "qui",
+  "169": "r",
+  "146": "ra",
+  "126": "re",
+  "148": "ri",
+  "159": "ro",
+  "140": "ru",
+  "167": "S",
+  "171": "sa",
+  "177": "se",
+  "134": "si",
+  "168": "so",
+  "174": "su",
+  "176": "T",
+  "158": "ta",
+  "131": "te",
+  "145": "ti",
+  "157": "to",
+  "150": "tu",
+  "138": "U",
+  "164": "u",
+  "170": "va",
+  "132": "ve",
+  "161": "vi",
+  "175": "vo",
+  "124": "vu",
+  "151": "X",
+  "142": "Y",
+  "166": "Z",
+  "155": "ze"
+ },
+ "variants": {
+  "46": [
+   "1",
+   "e",
+   "s"
+  ],
+  "15": [
+   "A",
+   "u"
+  ],
+  "18": [
+   "ab",
+   "s"
+  ],
+  "36": [
+   "ai",
+   "t"
+  ],
+  "39": [
+   "al",
+   "lemagne",
+   "and",
+   "s",
+   "es"
+  ],
+  "22": [
+   "ar",
+   "me",
+   "e",
+   "s",
+   "ment",
+   "ments"
+  ],
+  "25": [
+   "ar",
+   "tillerie"
+  ],
+  "9": [
+   "ba",
+   "l",
+   "s"
+  ],
+  "13": [
+   "bataill",
+   "s",
+   "on",
+   "s"
+  ],
+  "35": [
+   "bo",
+   "r",
+   "d"
+  ],
+  "3": [
+   "bu",
+   "t",
+   "e",
+   "e",
+   "r",
+   "s"
+  ],
+  "4": [
+   "ca",
+   "l",
+   "s"
+  ],
+  "32": [
+   "ca",
+   "val",
+   "erie",
+   "ier"
+  ],
+  "45": [
+   "car",
+   "gaison",
+   "s"
+  ],
+  "40": [
+   "co",
+   "lonie",
+   "s",
+   "ale",
+   "s"
+  ],
+  "52": [
+   "de",
+   "fense"
+  ],
+  "75": [
+   "di",
+   "rection"
+  ],
+  "67": [
+   "di",
+   "vision",
+   "s"
+  ],
+  "56": [
+   "do",
+   "m",
+   "age",
+   "s"
+  ],
+  "74": [
+   "effet",
+   "s",
+   "ectif",
+   "ve",
+   "s",
+   "ment"
+  ],
+  "63": [
+   "el",
+   "s"
+  ],
+  "68": [
+   "en",
+   "nemi",
+   "s",
+   "e",
+   "s"
+  ],
+  "58": [
+   "fe",
+   "u"
+  ],
+  "71": [
+   "fo",
+   "r",
+   "ce",
+   "s",
+   "t",
+   "te",
+   "s",
+   "ment"
+  ],
+  "51": [
+   "ga",
+   "r"
+  ],
+  "78": [
+   "ga",
+   "rnison"
+  ],
+  "60": [
+   "ge",
+   "néral"
+  ],
+  "79": [
+   "gi",
+   "r",
+   "s",
+   "t"
+  ],
+  "72": [
+   "ha",
+   "i"
+  ],
+  "87": [
+   "I",
+   "J"
+  ],
+  "89": [
+   "I",
+   "J"
+  ],
+  "119": [
+   "I",
+   "J"
+  ],
+  "108": [
+   "il",
+   "s"
+  ],
+  "97": [
+   "im",
+   "mense"
+  ],
+  "118": [
+   "in",
+   "cendie"
+  ],
+  "48": [
+   "in",
+   "fanterie"
+  ],
+  "107": [
+   "ma",
+   "gasin",
+   "s"
+  ],
+  "111": [
+   "mo",
+   "uvement",
+   "s"
+  ],
+  "156": [
+   "pa",
+   "r"
+  ],
+  "165": [
+   "pe",
+   "rte",
+   "s"
+  ],
+  "152": [
+   "po",
+   "se",
+   "er",
+   "s",
+   "sition",
+   "s"
+  ],
+  "136": [
+   "que",
+   "l",
+   "s",
+   "le",
+   "s"
+  ],
+  "177": [
+   "se",
+   "s"
+  ],
+  "168": [
+   "so",
+   "ldat"
+  ],
+  "174": [
+   "su",
+   "r"
+  ],
+  "145": [
+   "ti",
+   "on",
+   "s"
+  ],
+  "138": [
+   "U",
+   "v"
+  ],
+  "164": [
+   "u",
+   "V"
+  ],
+  "132": [
+   "ve",
+   "s"
+  ],
+  "161": [
+   "vi",
+   "s"
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+[control] building era models (control span excluded from LM)...
+  control plaintext: 1100 words (t1 [40000,41100))
+  inventory: 617 cells
+[control] noisy segmentation (ear-cutting)...
+  1947 cells, 556 distinct; top: [('de', 61), ('la', 43), ('le', 37), ('on', 30), ('ne', 29), ('en', 28), ('d', 27), ('les', 26)]
+[control] building 96-group codebook...
+  groups=96 kinds={'anchor': 7, 'shared': 63, 'anchor-hom': 3, 'islet': 3, 'driver': 20}
+[control] encrypting with phase cycling...
+  stream: 1947 groups, 96 distinct
+  oracle-phase rotation chi2=33.6 (R5005 banked: 181.3); Jaccard-derived chi2=21.8, ARI=0.333
+  soft hints (all correct): {'07': 'ri', '41': 'ri', '85': 'dans', '88': 'on', '51': 'de'}
+[control] ground truth saved (SYNTHETIC label).
+[ablation] lam_rot x lam_poly grid (3 restarts x 600 sweeps)...
+    lam_rot=0.0 lam_poly=10.0 restart=0 acc=0.100 islet=0.00 best=-5804.3
+    lam_rot=0.0 lam_poly=10.0 restart=1 acc=0.050 islet=0.00 best=-5990.8
+    lam_rot=0.0 lam_poly=10.0 restart=2 acc=0.050 islet=0.00 best=-5750.5
+    lam_rot=0.0 lam_poly=20.0 restart=0 acc=0.100 islet=0.00 best=-5796.0

@@ -16,9 +16,11 @@ F30 COMPLIANCE (rigid syllabification is dead):
   fragments. The sequential plaintext model is at the LETTER level: the
   encipherer "spells by ear and cuts inconsistently" (frenchman, F30), so the
   letters are the reliable level — whatever the cutting, the concatenated
-  letters approximate French spelling. Era letter trigram log-probs score the
-  decoded letter stream. The rule syllabifier is used ONLY to build the
-  CANDIDATE cell inventory (a word list, not a conditional model).
+  letters approximate French spelling. Era letter 7-gram log-probs score the
+  decoded letter stream (n=7 is the minimum that prefers real French over
+  frequent-word repetition; n<=6 collapses). The rule syllabifier is used
+  ONLY to build the CANDIDATE cell inventory (a word list, not a conditional
+  model).
 
 STATE SPACE
 -----------
@@ -32,9 +34,11 @@ per-occurrence argmax over {v1,v2} of local trigram score + log weight
 SCORE (to maximize)
 -------------------
 S(K) = S_letter + LAM_ROT * S_phase + S_prior - LAM_POLY * n_poly, where
-  S_letter = sum_t F(pcell[t-1], pcell[t])   [era letter trigram log-probs;
-             F(ca,cb) scores cb's letters given ca's last 2 letters; t=0 uses
-             a start sentinel]
+  S_letter = (sum_t F(pcell[t-1], pcell[t])) / total_letters
+             [era letter 7-gram log-probs, LENGTH-NORMALIZED (per-letter).
+             Without normalization the model prefers shorter cells
+             ('e' over 'ri'). F(ca,cb) scores cb's letters given ca's last
+             n-1 letters; t=0 uses a start sentinel]
   S_phase  = sum_{v,phi} n(v,phi) * log((n(v,phi)+a)/(n(v)+4a))
              [rotation-aware transition prior: profile log-likelihood of the
              group phase given the decoded cell. Phases are the banked
@@ -44,6 +48,11 @@ S(K) = S_letter + LAM_ROT * S_phase + S_prior - LAM_POLY * n_poly, where
              no era conditionals.]
   S_prior  = BETA_PROV * #{g: v1[g] == provisional hint}   [soft priors]
   n_poly   = #{g: v2[g] is not None}                      [sparsity penalty]
+  S_hom    = -LAM_HOM * sum_c max(0, n_c - HOM_MAX)^2      [homophone prior:
+             n_c = #groups with v1=c. A real codebook spreads groups across
+             cells; without this the letter-LM collapses to ~10 frequent
+             cells (mode collapse: 26 groups -> 'de'). Penalizes only the
+             pathological concentration n_c > 3.]
 
 All terms maintained incrementally; a move touching group g re-scores only
 g's occurrences (+ neighbor relaxation for adjacent polyvalent groups).
@@ -77,11 +86,16 @@ DATA = os.path.join(LANE, 'data')
 OUTD = os.path.join(LANE, 'code', 'crowd4')
 
 SEED = 1841
-ALPHA_TRI = 0.1      # add-alpha for the letter trigram
+N_GRAM = 7           # letter n-gram order (n<=6 collapses to repetition;
+                     # n>=7 required: 7-gram prefers real French over
+                     # "pourpour..." repetition)
+ALPHA_NG = 0.1       # add-alpha for the letter n-gram
 ALPHA_PH = 1.0       # add-alpha for the phase profile
-BETA_PROV = 3.0      # soft-prior bonus per matched provisional (nats)
+BETA_PROV = 0.2      # soft-prior bonus per matched provisional (per-letter scale)
 LAM_ROT = 1.0        # default; ablated on the control
-LAM_POLY = 15.0      # default; ablated on the control
+LAM_POLY = 0.1       # default; ablated on the control (per-letter scale)
+LAM_HOM = 0.0        # homophone penalty OFF by default; ablated
+HOM_MAX = 3          # soft cap on #groups sharing one cell
 INVENTORY_TOP = 600  # top-N corpus syllable units in the candidate inventory
 
 PINS = {'11': 'la', '70': 'pre', '82': 'm', '34': 'i',
@@ -93,22 +107,35 @@ START = '^'  # letter-stream start sentinel
 
 
 # ---------------------------------------------------------------- models
-def build_letter_trigram(M):
-    """Era letter trigram log-probs from the running letter stream of
-    Tocqueville t1+t2 (same tokenization as crowd2). add-alpha smoothed."""
-    letters = ''.join(M['toks'])
-    tri = collections.Counter()
-    bi = collections.Counter()
-    nV = len(set(letters)) + 1  # + START sentinel
-    p0 = START + START + letters
-    for a, b, c in zip(p0, p0[1:], p0[2:]):
-        tri[(a, b, c)] += 1
-        bi[(a, b)] += 1
+def build_letter_ngram(M, n=N_GRAM, exclude=None):
+    """Era letter n-gram log-probs from the running letter stream of
+    Tocqueville t1+t2 (same tokenization as crowd2). add-alpha smoothed.
+    exclude: optional (a,b) token-index span to skip (control independence).
+    Returns (lp function, n_letters). lp(*ctx, ch) takes n-1 context chars."""
+    toks = M['toks']
+    letters = ''.join(toks[:exclude[0]] + toks[exclude[1]:]) if exclude \
+        else ''.join(toks)
+    ngram = collections.Counter()
+    n1 = collections.Counter()
+    V = len(set(letters)) + 1  # + START
+    p0 = START * (n - 1) + letters
+    for i in range(len(p0) - n + 1):
+        ng = tuple(p0[i:i + n])
+        ngram[ng] += 1
+        n1[ng[:-1]] += 1
 
-    def lp(a, b, c):
-        n = tri.get((a, b, c), 0)
-        return math.log((n + ALPHA_TRI) / (bi.get((a, b), 0) + ALPHA_TRI * nV))
+    def lp(*args):
+        # args = (c1..c_{n-1}, ch)
+        ctx, ch = args[:-1], args[-1]
+        ng = ctx + (ch,)
+        return math.log((ngram.get(ng, 0) + ALPHA_NG) /
+                        (n1.get(ctx, 0) + ALPHA_NG * V))
     return lp, len(letters)
+
+
+# backwards-compat alias
+def build_letter_trigram(M, exclude=None):
+    return build_letter_ngram(M, n=3, exclude=exclude)
 
 
 def build_inventory(M, extra_cells=()):
@@ -158,18 +185,21 @@ def load_phase_map():
 class JointModel:
     """Incremental joint scorer over the full key."""
 
-    def __init__(self, stream, phase, lp_tri, pins, provisional, cells,
-                 weights, lam_rot=LAM_ROT, lam_poly=LAM_POLY, rng=None):
+    def __init__(self, stream, phase, lp_ng, pins, provisional, cells,
+                 weights, lam_rot=LAM_ROT, lam_poly=LAM_POLY, lam_hom=LAM_HOM,
+                 n=N_GRAM, rng=None):
         self.gs = list(stream)
         self.N = len(stream)
         self.phase = dict(phase)
-        self.lp = lp_tri
+        self.lp = lp_ng
+        self.n = n
         self.pins = dict(pins)
         self.prov = dict(provisional)
         self.cells = list(cells)
         self.weights = list(weights)
         self.lam_rot = lam_rot
         self.lam_poly = lam_poly
+        self.lam_hom = lam_hom
         self.rng = rng or random.Random(SEED)
         self.groups = sorted(set(stream))
         self.nonpin = [g for g in self.groups if g not in self.pins]
@@ -182,8 +212,11 @@ class JointModel:
         self.lscore = [0.0] * self.N
         self.n_vphi = collections.Counter()
         self.n_v = collections.Counter()
+        self.n_c = collections.Counter()  # cell -> #groups with v1=cell
         self.n_poly = 0
         self.S_prior = 0.0
+        self.S_hom = 0.0
+        self.total_letters = 0  # sum of len(pcell[t]) — for length norm
         self._cumw = None
 
     # -- inventory sampling ------------------------------------------------
@@ -208,19 +241,21 @@ class JointModel:
             v = self._lets[c] = list(c)
         return v
 
-    # -- F: letter-trigram score of cell cb given cell ca -------------------
+    # -- F: letter n-gram score of cell cb given cell ca ---------------------
     def F(self, ca, cb):
-        lp = self.lp
+        """Sum over cb's letters of log P(l | prev n-1 letters); the history
+        starts as ca's last n-1 letters (START-padded)."""
+        n = self.n
         if ca == START:
-            p1, p2 = START, START
+            hist = [START] * (n - 1)
         else:
             la = self._letters(ca)
-            p1 = la[-2] if len(la) >= 2 else START
-            p2 = la[-1] if la else START
+            tail = la[-(n - 1):]
+            hist = [START] * (n - 1 - len(tail)) + tail
         t = 0.0
         for ch in self._letters(cb):
-            t += lp(p1, p2, ch)
-            p1, p2 = p2, ch
+            t += self.lp(*hist, ch)
+            hist = hist[1:] + [ch]
         return t
 
     # -- decode / recompute --------------------------------------------------
@@ -239,6 +274,9 @@ class JointModel:
         self.pcell = [self.v1[g] for g in self.gs]
         self._refresh_scores()
 
+    def _hom_pen(self, n):
+        return self.lam_hom * max(0, n - HOM_MAX) ** 2
+
     def _refresh_scores(self):
         self.lscore = [0.0] * self.N
         for t in range(self.N):
@@ -250,6 +288,9 @@ class JointModel:
             v, ph = self.pcell[t], self.phase[g]
             self.n_vphi[(v, ph)] += 1
             self.n_v[v] += 1
+        self.n_c = collections.Counter(self.v1.values())
+        self.S_hom = -sum(self._hom_pen(n) for n in self.n_c.values())
+        self.total_letters = sum(len(v) for v in self.pcell)
         self.n_poly = sum(1 for g in self.groups if self.v2[g] is not None)
         self.S_prior = sum(BETA_PROV for g, c in self.prov.items()
                            if self.v1.get(g) == c)
@@ -262,8 +303,30 @@ class JointModel:
         return t
 
     def total(self):
-        return (sum(self.lscore) + self.lam_rot * self._phase_score()
-                + self.S_prior - self.lam_poly * self.n_poly)
+        # Length-normalized: S_letter is per-letter (perplexity-like);
+        # otherwise the model prefers shorter cells ('e' over 'ri').
+        # S_phase is per-position. Priors are on the key (small).
+        s_let = sum(self.lscore) / max(self.total_letters, 1)
+        s_ph = self._phase_score() / max(self.N, 1)
+        return (s_let + self.lam_rot * s_ph
+                + self.S_prior - self.lam_poly * self.n_poly + self.S_hom)
+
+    def _move_v1(self, g, new):
+        """Set v1[g]=new, maintaining n_c/S_hom/S_prior incrementally."""
+        old = self.v1[g]
+        if old == new:
+            return
+        self.S_hom += self._hom_pen(self.n_c[old])  # remove old contribution
+        self.n_c[old] -= 1
+        self.S_hom -= self._hom_pen(self.n_c[old])
+        self.S_hom += self._hom_pen(self.n_c[new])
+        self.n_c[new] += 1
+        self.S_hom -= self._hom_pen(self.n_c[new])
+        if old == self.prov.get(g):
+            self.S_prior -= BETA_PROV
+        self.v1[g] = new
+        if new == self.prov.get(g):
+            self.S_prior += BETA_PROV
 
     # -- per-occurrence polyvalent choice (hard E-step) ----------------------
     def _choose(self, t):
@@ -288,6 +351,7 @@ class JointModel:
         self.n_v[old] -= 1
         self.n_vphi[(v, ph)] += 1
         self.n_v[v] += 1
+        self.total_letters += len(v) - len(old)
         self.pcell[t] = v
         ca = self.pcell[t - 1] if t > 0 else START
         self.lscore[t] = self.F(ca, v)
@@ -334,7 +398,9 @@ class JointModel:
                         for g in groups},
                 'pcell': {t: self.pcell[t] for t in aff},
                 'n_vphi': dict(self.n_vphi), 'n_v': dict(self.n_v),
-                'n_poly': self.n_poly, 'S_prior': self.S_prior}
+                'n_c': dict(self.n_c),
+                'n_poly': self.n_poly, 'S_prior': self.S_prior,
+                'S_hom': self.S_hom, 'total_letters': self.total_letters}
 
     def revert(self, snap):
         for g, (a, b, w) in snap['key'].items():
@@ -351,8 +417,11 @@ class JointModel:
                                             self.pcell[t + 1])
         self.n_vphi = collections.Counter(snap['n_vphi'])
         self.n_v = collections.Counter(snap['n_v'])
+        self.n_c = collections.Counter(snap['n_c'])
         self.n_poly = snap['n_poly']
         self.S_prior = snap['S_prior']
+        self.S_hom = snap['S_hom']
+        self.total_letters = snap['total_letters']
 
     # -- moves ---------------------------------------------------------------
     def propose_move(self, g, rng=None):
@@ -378,23 +447,18 @@ class JointModel:
         if branch == 'chg1':
             new = self.sample_cell(exclude=(self.v1[g], self.v2[g]))
             if new == self.v2[g]:
-                self.v1[g], self.v2[g] = self.v2[g], self.v1[g]
+                # promote collision: v1<->v2 swap
+                old_a, old_b = self.v1[g], self.v2[g]
+                self._move_v1(g, old_b)  # v1[g]=old_b, n_c/S_prior updated
+                self.v2[g] = old_a       # v2 not tracked in n_c
             else:
-                if self.v1[g] == self.prov.get(g):
-                    self.S_prior -= BETA_PROV
-                self.v1[g] = new
-                if new == self.prov.get(g):
-                    self.S_prior += BETA_PROV
+                self._move_v1(g, new)
             mv = 'chg1'
         elif branch == 'swap':
             h = next(x for x in touched if x != g)
-            for gg in (g, h):
-                if self.v1[gg] == self.prov.get(gg):
-                    self.S_prior -= BETA_PROV
-            self.v1[g], self.v1[h] = self.v1[h], self.v1[g]
-            for gg in (g, h):
-                if self.v1[gg] == self.prov.get(gg):
-                    self.S_prior += BETA_PROV
+            vg, vh = self.v1[g], self.v1[h]
+            self._move_v1(g, vh)
+            self._move_v1(h, vg)
             mv = 'swap'
         elif branch == 'poly':
             if self.v2[g] is None:
@@ -488,12 +552,12 @@ class JointModel:
 
 
 def random_key_baseline(gs, phase, lp_tri, pins, provisional, cells, weights,
-                        lam_rot, lam_poly, n=20, seed=999):
+                        lam_rot, lam_poly, lam_hom=LAM_HOM, n=20, seed=999):
     """Best total over n random keys (sanity floor for annealing)."""
     best = float('-inf')
     for i in range(n):
         m = JointModel(gs, phase, lp_tri, pins, provisional, cells, weights,
-                       lam_rot, lam_poly, rng=random.Random(seed + i))
+                       lam_rot, lam_poly, lam_hom, rng=random.Random(seed + i))
         m.init_key()
         best = max(best, m.total())
     return best

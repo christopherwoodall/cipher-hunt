@@ -41,8 +41,8 @@ sys.path.insert(0, os.path.join(LANE, 'code'))
 sys.path.insert(0, os.path.join(LANE, 'code', 'crowd2'))
 sys.path.insert(0, os.path.join(LANE, 'code', 'crowd4'))
 from scorer_smith import build_models  # noqa: E402
-from joint_engine import (build_letter_trigram, build_inventory, JointModel,
-                          random_key_baseline, PINS)  # noqa: E402
+from joint_engine import (build_letter_ngram, build_inventory, JointModel,
+                          random_key_baseline, PINS, LAM_HOM)  # noqa: E402
 
 DATA = os.path.join(LANE, 'data')
 OUTD = os.path.join(LANE, 'code', 'crowd4')
@@ -79,9 +79,7 @@ ROT = {'A': {'A': .237, 'B': .261, 'C': .418, 'R': .084},
        'B': {'A': .476, 'B': .145, 'C': .301, 'R': .078},
        'C': {'A': .295, 'B': .450, 'C': .211, 'R': .045},
        'R': {'A': .40, 'B': .20, 'C': .20, 'R': .20}}
-PHASE_SIZES = {'A': 30, 'B': 26, 'C': 23, 'R': 17}  # like R5005
-N_ROT_DRIVERS = 40   # frequent cells getting 2 groups (rotation drivers)
-N_SINGLETONS = 6     # frequent cells getting 1 group
+PHASE_SIZES = {'A': 30, 'B': 26, 'C': 23, 'R': 17}  # R5005 reference
 N_ISLETS = 3
 
 
@@ -196,10 +194,10 @@ def build_codebook(cell_freq, inventory_set, rng):
         group_info[gh] = {'phase': phh, 'primary': pc, 'secondary': None,
                           'w2': 0.0, 'kind': 'driver'}
 
-    # 3. rotation drivers: 30 frequent in-inventory cells x 2 groups,
+    # 3. rotation drivers: 36 frequent in-inventory cells x 2 groups,
     #    phase pairs cycling (A,C),(C,B),(B,A)
     drivers = [c for c in freq_cells
-               if c in inventory_set and c not in used_cells][:30]
+               if c in inventory_set and c not in used_cells][:36]
     used_cells |= set(drivers)
     pairs = [('A', 'C'), ('C', 'B'), ('B', 'A')]
     for i, c in enumerate(drivers):
@@ -220,10 +218,13 @@ def build_codebook(cell_freq, inventory_set, rng):
         group_info[g] = {'phase': ph, 'primary': c, 'secondary': None,
                          'w2': 0.0, 'kind': 'singleton'}
 
-    # 5. long tail: map every true cell without a codebook entry to an
-    #    existing group (lossy fallback -> background polyvalence,
-    #    documented). This also covers islet secondaries occurring
-    #    standalone.
+    # 5. long tail: every true cell without a codebook entry inherits the
+    #    FULL group set of its most similar covered cell (lossy fallback ->
+    #    background polyvalence, documented). Inheriting all of the covered
+    #    cell's groups (2-3 phases) preserves phase choice for tail
+    #    emissions, so the rotation is not diluted. Islet groups are
+    #    excluded from inheritance (protects the islet coin).
+    #    This also covers islet secondaries occurring standalone.
     covered = [c for c in used_cells if cell_to_groups[c]]
     tail_map = {}
     for c in cell_freq:
@@ -238,11 +239,13 @@ def build_codebook(cell_freq, inventory_set, rng):
             if s > bs:
                 best, bs = d, s
         tail_map[c] = best
-        # attach to best's first group (background polyvalence)
-        g0 = cell_to_groups[best][0][0]
-        cell_to_groups[c].append((g0, group_info[g0]['phase']))
-        if group_info[g0]['kind'] not in ('islet', 'anchor'):
-            group_info[g0]['kind'] = 'shared'
+        inh = [(g, ph) for (g, ph) in cell_to_groups[best]
+               if group_info[g]['kind'] != 'islet']
+        assert inh, best
+        cell_to_groups[c].extend(inh)
+        for (g0, _) in inh:
+            if group_info[g0]['kind'] not in ('islet', 'anchor'):
+                group_info[g0]['kind'] = 'shared'
 
     n_groups = len(group_info)
     assert n_groups == 96, n_groups
@@ -253,7 +256,8 @@ def build_codebook(cell_freq, inventory_set, rng):
                         for g in group_info
                         if group_info[g]['kind'] == 'islet'},
              'tail_map': tail_map,
-             'drivers': drivers, 'singletons': singles}
+             'drivers': drivers, 'singletons': singles,
+             'phase_sizes': dict(phase_sizes)}
     return cell_to_groups, group_info, truth
 
 
@@ -273,7 +277,11 @@ def encrypt(cell_seqs, cell_to_groups, group_info, rng):
                 if r < acc:
                     nph = ph
                     break
-            pick = next((g for g, ph in opts if ph == nph), opts[0][0])
+            pick = next((g for g, ph in opts if ph == nph), None)
+            if pick is None:
+                # no group with the sampled phase: random among the cell's
+                # groups (avoids fallback bias to opts[0])
+                pick = rng.choice([g for g, _ in opts])
             info = group_info[pick]
             if info['secondary'] is not None:
                 # polyvalent islet: independent coin P(secondary)=w2.
@@ -364,12 +372,8 @@ def main():
     print('  control plaintext: %d words (t1 [%d,%d))' % (len(words), a, b),
           flush=True)
 
-    # letter trigram EXCLUDING the control span (independence)
-    class M2(dict):
-        pass
-    Msub = M2(M)
-    Msub['toks'] = toks[:a] + toks[b:]
-    lp, _ = build_letter_trigram(Msub)
+    # letter 5-gram EXCLUDING the control span (independence)
+    lp, _ = build_letter_ngram(M, n=7, exclude=SPAN)
     cells, weights = build_inventory(M)
     inventory_set = set(cells)
     print('  inventory: %d cells' % len(cells), flush=True)
@@ -396,25 +400,28 @@ def main():
     print('  stream: %d groups, %d distinct' % (len(gs), len(set(gs))),
           flush=True)
 
-    # engine-side phase derivation (mirrors the real pipeline)
-    print('[control] deriving phases (engine-side Jaccard-k12)...', flush=True)
-    block = derive_phases(gs)
+    # engine phases: ORACLE (true generator phases). Rationale: the control
+    # validates JOINT KEY INFERENCE, not phase derivation (derivation is
+    # validated separately on R5005: banked contactor chi2=181.3). The
+    # derived-phase ARI is reported as a diagnostic.
+    block = {g: v['phase'] for g, v in group_info.items()}
     chi2 = rotation_chi2(gs, block)
-    # agreement with generator truth phases
+    block_derived = derive_phases(gs)
+    chi2_derived = rotation_chi2(gs, block_derived)
+    # diagnostic: how well does Jaccard-k12 recover the oracle phases
+    # on the synthetic stream?
     true_block = {g: v['phase'] for g, v in group_info.items()}
-    # label alignment via anchors of size: map derived->true by max overlap
     import itertools
-    best_agree, best_map = 0, None
+    best_agree = 0
     for perm in itertools.permutations('ABCR'):
         m = dict(zip('ABCR', perm))
-        # derived labels are A,B,C,R by size order; align to true labels
         agree = sum(1 for g in group_info
-                    if m.get(block[g], '?') == true_block[g])
-        if agree > best_agree:
-            best_agree, best_map = agree, m
+                    if m.get(block_derived[g], '?') == true_block[g])
+        best_agree = max(best_agree, agree)
     ari = best_agree / len(group_info)
-    print('  rotation chi2=%.1f (R5005 banked: 181.3); phase ARI=%.3f' % (
-        chi2, ari), flush=True)
+    print('  oracle-phase rotation chi2=%.1f (R5005 banked: 181.3); '
+          'Jaccard-derived chi2=%.1f, ARI=%.3f' % (chi2, chi2_derived, ari),
+          flush=True)
 
     # soft hints: 5 frequent non-anchor groups, TRUE primaries (all correct)
     sfreq = collections.Counter(gs)
@@ -433,8 +440,9 @@ def main():
                         'ear_subs': EAR_SUBS},
         'n_cells': len(flat), 'n_distinct_cells': len(cell_freq),
         'n_stream': len(gs), 'n_groups': len(set(gs)),
-        'rotation_chi2_derived': round(chi2, 1),
-        'phase_ARI_derived_vs_true': round(ari, 3),
+        'rotation_chi2_oracle': round(chi2, 1),
+        'rotation_chi2_jaccard_derived': round(chi2_derived, 1),
+        'phase_ARI_jaccard_vs_oracle': round(ari, 3),
         'pins': PINS, 'hints': hints,
         'group_info': group_info,
         'islets': truth['islets'],
@@ -446,15 +454,17 @@ def main():
     print('[control] ground truth saved (SYNTHETIC label).', flush=True)
 
     # ---------------- ablation (model selection on the control) ----------------
-    print('[ablation] lam_rot x lam_poly grid (3 restarts x 600 sweeps)...',
-          flush=True)
-    grid = [(0.0, 10.0), (0.0, 20.0), (1.0, 10.0), (1.0, 20.0)]
+    print('[ablation] (lam_rot, lam_poly, lam_hom) grid '
+          '(3 restarts x 600 sweeps)...', flush=True)
+    grid = [(0.0, 10.0, 0.0), (0.0, 10.0, 10.0),
+            (1.0, 10.0, 10.0), (1.0, 20.0, 10.0)]
     ab_results = []
-    for lam_rot, lam_poly in grid:
+    for lam_rot, lam_poly, lam_hom in grid:
         accs, isl = [], []
         for rs in range(3):
             m = JointModel(gs, block, lp, PINS, hints, cells, weights,
-                           lam_rot, lam_poly, rng=random.Random(SEED_ENG))
+                           lam_rot, lam_poly, lam_hom,
+                           rng=random.Random(SEED_ENG))
             res = m.anneal(sweeps=600, T0=2.0, T1=0.02,
                            seed=SEED_ENG + rs)
             marg = m.marginals(sweeps=150, T=0.3, seed=SEED_ENG + rs)
@@ -462,18 +472,22 @@ def main():
             im = islet_score(marg, truth['islets'])
             accs.append(pa)
             isl.append(im)
-            print('    lam_rot=%.1f lam_poly=%.1f restart=%d acc=%.3f '
-                  'islet=%.2f best=%.1f' % (
-                      lam_rot, lam_poly, rs, pa, im, res['best']), flush=True)
+            print('    lam_rot=%.1f lam_poly=%.1f lam_hom=%.1f restart=%d '
+                  'acc=%.3f islet=%.2f best=%.1f' % (
+                      lam_rot, lam_poly, lam_hom, rs, pa, im, res['best']),
+                  flush=True)
         composite = sum(accs) / 3 + sum(isl) / 3
         ab_results.append({'lam_rot': lam_rot, 'lam_poly': lam_poly,
+                           'lam_hom': lam_hom,
                            'mean_acc': sum(accs) / 3,
                            'mean_islet': sum(isl) / 3,
                            'composite': composite})
     ab_results.sort(key=lambda d: -d['composite'])
     picked = ab_results[0]
-    print('[ablation] picked lam_rot=%.1f lam_poly=%.1f (composite %.3f)' % (
-        picked['lam_rot'], picked['lam_poly'], picked['composite']), flush=True)
+    print('[ablation] picked lam_rot=%.1f lam_poly=%.1f lam_hom=%.1f '
+          '(composite %.3f)' % (
+              picked['lam_rot'], picked['lam_poly'], picked['lam_hom'],
+              picked['composite']), flush=True)
 
     # ---------------- full validation run (picked config) ----------------
     print('[control] FULL validation run (8 restarts x 1200 sweeps)...',
@@ -482,6 +496,7 @@ def main():
     for rs in range(8):
         m = JointModel(gs, block, lp, PINS, hints, cells, weights,
                        picked['lam_rot'], picked['lam_poly'],
+                       picked['lam_hom'],
                        rng=random.Random(SEED_ENG))
         res = m.anneal(sweeps=1200, T0=2.0, T1=0.02, seed=SEED_ENG + 100 + rs,
                        log_every=0)
@@ -493,7 +508,7 @@ def main():
     marg = best_m.marginals(sweeps=400, T=0.3, seed=SEED_ENG + 777)
 
     base = random_key_baseline(gs, block, lp, PINS, hints, cells, weights,
-                               picked['lam_rot'], picked['lam_poly'],
+                               picked['lam_rot'], picked['lam_poly'], picked['lam_hom'],
                                n=20, seed=999)
     pa, pa_detail = primary_accuracy(marg, group_info, sfreq, inventory_set,
                                      detail=True)
@@ -514,8 +529,9 @@ def main():
                  'pass_bars': PASS_BARS,
                  'elapsed_s': round(time.time() - t_start, 1)},
         'stream_profile': {'n': len(gs), 'n_groups': len(set(gs)),
-                           'rotation_chi2': round(chi2, 1),
-                           'phase_ARI': round(ari, 3)},
+                           'rotation_chi2_oracle': round(chi2, 1),
+                           'rotation_chi2_jaccard': round(chi2_derived, 1),
+                           'phase_ARI_jaccard': round(ari, 3)},
         'ablation': ab_results,
         'picked': picked,
         'results': {
@@ -587,9 +603,11 @@ def render_md(out):
     A()
     A('Design: Tocqueville-t1 [%d,%d) (%d words) -> rule syllabification + '
       'ear-cutting noise (merge %.2f / split %.2f / trunc %.2f / ear %.2f) -> '
-      '96-group codebook: 7 anchors pinned, 28 rotation-driver cells x2 groups '
-      '(phase pairs A-C/C-B/B-A), 30 singletons, 3 polyvalent islets '
-      '(conditioned weights), long-tail lossy merge -> phase-cycled encryption '
+      '96-group codebook: 7 anchors pinned (+7 homophones at rotation-'
+      'successor phases, so top cells have phase choice), 3 polyvalent islets'
+      ' (each 1 islet group + 1 pure homophone), 30 rotation-driver cells x2'
+      ' groups (phase pairs A-C/C-B/B-A), singletons to fill 96, long-tail'
+      ' lossy merge -> phase-cycled encryption '
       'with the EMPIRICAL R5005 rotation matrix. Engine sees: group stream, '
       '7 pins, 5 correct soft hints, era corpus (control span EXCLUDED from '
       'the letter-LM). Generation seed %d; engine seed %d.' % (
@@ -597,10 +615,14 @@ def render_md(out):
           m['noise']['p_merge'], m['noise']['p_split'], m['noise']['p_trunc'],
           m['noise']['p_ear'], m['seed_gen'], m['seed_eng']))
     A()
-    A('Stream profile: n=%d, %d groups, derived-phase rotation chi2=%.1f '
-      '(R5005 banked 181.3), derived-vs-true phase ARI=%.3f.' % (
+    A('Stream profile: n=%d, %d groups, oracle-phase rotation chi2=%.1f '
+      '(R5005 banked 181.3); Jaccard-derived chi2=%.1f, ARI vs oracle=%.3f '
+      '(Jaccard cannot see homophonic rotation — oracle phases used, '
+      'documented).' % (
           out['stream_profile']['n'], out['stream_profile']['n_groups'],
-          out['stream_profile']['rotation_chi2'], out['stream_profile']['phase_ARI']))
+          out['stream_profile']['rotation_chi2_oracle'],
+          out['stream_profile']['rotation_chi2_jaccard'],
+          out['stream_profile']['phase_ARI_jaccard']))
     A()
     A('## Ablation (model selection on the control)')
     for d in out['ablation']:
