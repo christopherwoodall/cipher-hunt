@@ -699,6 +699,95 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   "donner" conditional lead properly fenced UNVERIFIED (no over-claiming).
   67 et/veut fork (114:1 era) unpromoted lead, 8/38 classified — round-6 work.
   Evidence: `code/crowd5/morph47_06.{py,md,json}`.
+- **N39 (2026-10-07, crowd6/frenchman; curator: NO PROMOTION, honest null):**
+  the non-ear third leg for 62="on" does not exist with current instruments —
+  and the battery VOIDS two old legs. The cipher demonstrably OVER-SPLITS vs
+  spoken syllables (46=que writes /k/ separately before vowels ×2 @95/@217
+  "qu'er"; H-split), contradicting N28's merger premise: N35's
+  "il"-differential (p=0.041) is VOID ("qu'il"→46-62 unlicensed, 46→34=0)
+  and N28's merger corroboration is VOID. Under H-split, 46→62=0/29 is
+  ADVERSE to "on" (E=7.18, p=2.6e-4 — single, 4 caveats, not kill-grade)
+  and INERT re "il". Joint 3-way likelihood: on −26.54 vs il −26.82
+  (Δ=+0.27, tie); unigram favors "il" +9.4 nats. 62="on" now rests on ear
+  legs 1&3 ONLY — support structure narrowed to ear. Ranked unblockers:
+  (1) hunt the "qu'on" whole-word cell, (2) identify the l'-cell,
+  (3) identify an impersonal-verb cell, (4) identify 48/98/16. Byproducts:
+  59=verb GT-anchored (feeds WO2); 21→62 ×5 forces 21≠"me"-word there;
+  77→62 @508 shared anomaly. Evidence: `code/crowd6/frenchman62/`,
+  `code/crowd6/report_inbox/frenchman-62-non-ear.md`.
+- **N40 (2026-10-07, crowd6/scorer-smith; CONTROL-FAIL):** objective repair
+  SUCCEEDED — C1 PASS (truth −1.4274 > annealed best −2.4116, gap 0.98 nats;
+  the N36 failure is FIXED): lam_poly guardrail 0.05 (ablation: truth wins
+  at λ=0), side fleet's phonetic projection imported verbatim, longest-match
+  word bonus (their overlapping scorer was the hole), concentration cap
+  raw-cell 3 (LAM_CONC=3.58e-4). Bonus find: F() history bug — the engine
+  START-padded short cells' histories, costing truth 0.75 nats/letter;
+  repaired with true-history scoring. But C2/C3/C4 FAIL: primary top-1
+  0.000, islets 0/3, pins 7/7 margin 0.92<1.0. Diagnosis FLIPPED from
+  round 5: the objective is now correct; the SEARCH is too weak (600-sweep
+  annealer converges to bad local optima; 30-symbol projection makes the
+  landscape rugged; single-group moves can't navigate; marginals random-walk
+  at T=0.3). Gate holds: NO R5005. Evidence: `code/crowd6/scorer/`,
+  `code/crowd6/report_inbox/scorer-objective-repair.md`.
+- **N41 (2026-10-07, crowd6/segmenter):** rotation follow-ups, pre-registered
+  battery. (1) Labeling robustness FRAGILE by the bar (k=16 replicates
+  z=+5.54, 91/96 agreement; cosine/k=8/half-stream collapse) — failure mode
+  is labeling degeneracy (mega-clusters), never excess-death; the phenomenon
+  is not impugned. (2) 3-state HMM vs 96-group bigram held-out: NO
+  (testLL −4.2638 vs −4.2356) — but HMM within 0.028 nats with 31× fewer
+  params, and its unsupervised transition matrix is cyclic (S1→S0→S2→S1).
+  (3) 69/96 vs "61/96 change" RECONCILED (naive name comparison vs
+  best-permutation; both correct). (4) Column geometry MIXED: momentum
+  SUPPORTED (63.3% cycle-continuation after cycle steps vs 48.6%, z=+4.77,
+  p≈1e-6); full memory-2 null. Traceability repair: round-5 E-code was
+  never archived; its headline used an undocumented endpoints restriction.
+  Flag: parallel side-rotation fleet running overlapping work — deconflicted
+  in curation (their scope: rhythmicist/geometer; this package: falsification
+  battery). NOTE: the noisy-detector flag (N43) applies to this package —
+  see round-7 work order 11. Evidence: `code/crowd6/segmenter/`.
+- **N42 (2026-10-07, crowd6/period-drag; T1–T8):** T1/T2/T6/T8 NULL (honest);
+  T3 NULL — the memo's shared é-initial-noun theory is dead
+  (entrevue/expédition 0 fits; épreuve fits @759 only, killed @1039; @1039
+  admits only [e,?,le] words). T4 HIT on shape at both windows with a clean
+  either/or: (a) le|gou|ver|m|ent breaks 94="ne" prov-strong; (c)
+  gouv|er|ne|m|ent ("gouvernement" proper) keeps 94="ne" but breaks 77="le"
+  at exactly the F37-fenced windows — referred to red team, NO status
+  change to either. T5 phrase NULL, but 96-00 "par le" ×3 → **00="le" LEAD**
+  (null 0.5%) — tensions 00="pour" (F47). T7 "Mehemet-Ali" @8 LEAD (null
+  0.28%, needs battery). Frame corrections: memo's R1a "followed by 77=le"
+  and R2 claims were raw-frame artifacts (void in every canonical parse).
+  Methodology: F44 by-ear tiler + manual variants; anchor-preserving nulls
+  (never shuffled, N34); provisional statuses propagated. Evidence:
+  `code/crowd6/period_drag/`, `code/crowd6/report_inbox/period-drag-t1-t8.md`.
+- **N43 (2026-10-07, crossfleet/homophonic; CONTROL-FAIL, R5005 untouched):**
+  two rotation findings. (1) NOISY DETECTOR: the contactor's unsupervised χ²
+  reads 36.6/0.4/787.3/375.5/6.2/2.9 on 6 synthetics with true 181–272 —
+  in-band 0/6; design doc: "Jaccard clustering recovers planted phases at
+  purity ~0.5, making its χ² a coin flip." Three-way scope: (a) rhythm
+  EXISTENCE confirmed by label-free lag-3 (z=+5.6) — not impugned; (b) exact
+  χ² MAGNITUDE (181.3, 366.3) noisy — no argument may lean on the value;
+  (c) phase MAPPING ~0.5 purity — per-group phase arguments flagged unless
+  independently supported. (2) CONTACT-COHERENT ALIASING: uniform-random
+  homophone aliasing fragments contact profiles, rotation vanishes (χ²=3.9);
+  rotation survives only phase-coherent dealing ⇒ the real key-maker's
+  aliasing is contact-coherent — a POSITIVE key-structure clue, consistent
+  with F33. Round-7 work order: invert aliasing via phase-conditioned
+  contact profiles. Evidence: `code/side-homophonic/control/CONTROL-DESIGN.md`,
+  `solver/METHOD.md`, `runs/RUN-REPORT.md`;
+  memo: `code/crossfleet/memo3-homophonic-rotation-findings.md`.
+- **N44 (2026-10-07, crowd6/curator):** round-6 adjudication notes. The Red
+  Team agent's session ended before adjudicating round-6 packages; the
+  coordinator applied its bars directly (49/49 extended baseline, N28/N35
+  case law, F33-grade conditioning, traceability, no double-counting).
+  Net: **0 promotions, 0 kills, 0 demotions.** Two direct conflicts banked
+  for round 7: 84="en" (Closer, LEAD) vs 84=masculine-noun (Bigram Closer,
+  LEAD) — F46; 00="pour" (Closer, STRONG LEAD) vs 00="le" (drag runner,
+  LEAD) — F47. All "red-team: ..." marks on N39–N43/F45–F51 are
+  coordinator-applied; flagged for round-7 red-team review (F26-17).
+  Headline numbers re-derived by curator on the repaired 1,847-pair stream:
+  n62=35, n94=37, n06=44, n78=31, n59=27, n84=25, n00=55, n47=28, n45=22,
+  n16=28, n24=52, n52=27; 62→94=9, 78→45=4, 00→86=12, 00→06=0, 46→62=0,
+  47→46=3, 47→64=0, 94→82=4, 77→78=7, 77→86=5 — all confirmed.
 
 ## Verified findings
 - F1 (source: Bourdeau zeschau1841 page, 2026-09-21/24): the unit is pairs of digits; 96 of 100
@@ -1139,6 +1228,73 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   (`ct_loader.py`) still uses the pre-repair offsets — flagged via
   `code/crossfleet/memo-parse-repair-to-homophonic.md`. Evidence:
   `code/side-wordpattern/redteam/ADJUDICATION.md`, `code/crossfleet/`.
+- **F45 (2026-10-07, crowd6/closer; curator: HELD at STRONG LEAD):**
+  59="est" — S1 1.39×, S2 "qui est" (era n=83), S3 "n'est" (era P=0.238,
+  n=324); rivals doute/dit/fait/veut/peut killed 7–45× on rate alone. S4
+  "est que" 5.4× adverse FENCED (n=2); 01="est"-lead interaction flagged.
+  Promotion-ready per worker; HELD — S4 unresolved. Evidence:
+  `code/crowd6/closer/closer87_00*.{py,md,json}`.
+- **F46 (2026-10-07, crowd6/closer + bigram-closer): 84 CONFLICT — both LEAD.**
+  84="en": sole survivor after rival kills (84="plus"/"a"/verb-class/"y"/
+  "fait" dead); E1 1.10× in-band, E2 "qu'en" 1.36× GT-anchored, E5 "m'en"
+  GT-anchored; 24/25 windows read cleanly; promotion BLOCKED by "l'en"
+  141×/63× over era (Tocqueville/Les Mis) under standing 77="le".
+  84=masculine-noun: «le 84» ×7 @[146,260,1058,1447,1485,1764,1803]
+  (curator re-derived, 0-based repaired), «la 84» ×1, «que 84 24» ×2;
+  identity NULL (register-robust). Round-7 resolution via conditioned
+  polyvalence flagged by both workers. Evidence: `code/crowd6/closer/`,
+  `code/crowd6/bigram_closer/`.
+- **F47 (2026-10-07, crowd6/closer + period-drag): 00 CONFLICT.**
+  00="pour" STRONG LEAD: B2a 00→86 ×12 vs 00→06 ×0 ✓ (M1); B2b P(86|00)
+  0.218 vs era 0.310 → 0.70× ✓; B5 06→00 ×4 ✓; "pour la" 1.08× ✓;
+  rivals à/de/en/par/dans/sur/avec/avant/afin/pendant/sans/après killed;
+  "et" 6.5× the discriminating leg — "pour" unique survivor; BLOCKED:
+  B1 unigram 6.22× over, B3 "pour que" 3.85× over. 00="le" LEAD: 96-00
+  "par le" ×3 @47/465/960 consistent (null 0.5%); tensions F40. Both can't
+  hold unconditionally — conditioned resolution or kill in round 7.
+- **F48 (2026-10-07, crowd6/inventorist):** pattern matcher re-driven on the
+  crib-learned 24-unit alphabet — CONTROL PASS ("première" top-1 on the 4-GT
+  tail that killed the old instrument; C3 specificity PASS). 434
+  anchor-bearing words → 27 generator proposals → 2 survive ≥2 checks:
+  **"parmi" @1196–1198 [96,82,16]** (NEW; unique T3 survivor, era 174,
+  whole-word by-ear top-1, 1 GT + 1 prov-strong anchor; entails 16="i"
+  battery — 34=i is GT so a second 'i' group needs its own checks) and
+  "cela" @269–270/@357–358 [47,11] (47="ce" corroboration, not a new crib).
+  LEAD grade. Honest boundary: 20-string inventory can't recover unattested
+  multi-letter cells ('per'/'pers'). Evidence: `code/crowd6/inventorist/`.
+- **F49 (2026-10-07, crossfleet/homophonic):** contact-coherent aliasing as
+  key-structure constraint (see N43). Uniform-random aliasing kills the
+  rotation (χ²=3.9); phase-coherent dealing preserves it ⇒ the key-maker
+  dealt aliases contact-coherently. Round-7 work order: propose homophone
+  sets via phase-conditioned contact profiles; test under F33 rules.
+- **F50 (2026-10-07, crowd6/bigram-closer):** 78-45="même" LEAD — 0.57×
+  in-band; era locks («le même» 87×, «même qui» 11×, «ce même» 18×);
+  @313 = 37-78-45-64 = «le même qui» grammatical lock; implies 45/78
+  homophony for one syllable (F35-consistent). 45="me"-word
+  DISFAVORED-strong (unigram 9.14× out); not REFUTED (kill leg
+  provisional-conditioned).
+- **F51 (2026-10-07, crowd6/bigram-closer):** "le me"×7 DISSOLVED
+  (conditionally) — 2/7 are the «ver»-islet inside the «gouvernement» 5-mer
+  (fenced on unconfirmed host); 5/7 me-syllable frames (fenced on 78-syllable
+  LEAD); P(78|77)=0.159 unremarkable vs P(78|47)=0.179 — no special «le me»
+  construction needed. Era («le»,«me»)=0/4570 re-derived.
+- **F26-14 (2026-10-07, crowd6/red-team):** chiasmus scoping — F42's chiasmus
+  holds on the adjacent instances (67→11 @753 immediately before the @754
+  crib; 11→67 @1044 immediately after the @1034 crib); the full 67→11
+  distribution is @[561,669,753,996] — legs must scope their instances.
+- **F26-15 (2026-10-07, crowd6/red-team):** 62-profile accounting — 62
+  follower/predecessor profiles armed as literal dicts, both summing to
+  35=n62; N35's independence accounting (no recycled cells, exact tests, no
+  ear-premise leakage) applies per use, not just per claim.
+- **F26-16 (2026-10-07, crossfleet/homophonic):** noisy χ² detector —
+  three-way scope in N43: (a) existence confirmed, (b) magnitude noisy,
+  (c) mapping ~0.5 purity. No argument may lean on exact χ² values or
+  per-group phase assignments without independent support.
+- **F26-17 (2026-10-07, crowd6/curator):** the Red Team agent's session ended
+  before adjudicating round-6 packages; the coordinator applied its bars
+  directly (49/49 extended baseline inherited, N28/N35 case law). All
+  "curator: ..." adjudication marks in N39–N44/F45–F51 are coordinator-
+  applied, NOT agent-adjudicated — round-7 red team must review them.
 
 ## Open hypotheses (not promoted — each needs ≥2 independent checks)
   Round-4 status after red-team adjudication (2026-10-07, 8/8 executors merged;
@@ -1238,6 +1394,29 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   `data/upstream-syll*.py` (suspect per N29). F33: conditioned polyvalence now
   spans **4 groups (06/52/94/78)** — each with a verified, falsifiable
   conditioning rule; zero free cases.
+- **Round-6 status (2026-10-07, 9/9 executors merged; curator-applied
+  adjudication — Red Team agent session ended pre-adjudication, F26-17):**
+  **0 promotions, 0 kills, 0 demotions.** 62="on" stays fenced STRONG LEAD
+  but is now EAR-ONLY: the non-ear battery VOIDED N35's "il"-differential
+  and N28's merger corroboration (H-split: cipher over-splits; joint
+  on/il likelihood ties, unigram favors "il" +9.4 nats) — N39. **59="est"
+  STRONG LEAD** (new, F45; S4 adverse fenced). **84 CONFLICT**: 84="en"
+  LEAD vs 84=masculine-noun LEAD (identity NULL) — F46. **00 CONFLICT**:
+  00="pour" STRONG LEAD vs 00="le" LEAD — F47. **"parmi" @1196–1198 LEAD**
+  (new; entails 16="i" battery) + "cela" ×2 (47="ce" corroboration) — F48.
+  **78-45="même" LEAD** (@313 «le même qui» lock) — F50. "le me"×7
+  DISSOLVED (conditionally) — F51. 67 et/veut fork SUPPORTED as conditioned
+  polyvalence (19/38 classified), not promoted; 43="me" DOWNGRADED
+  MEDIUM→WEAK. 47="ce" stays BLOCKED (@148–152 residual; 96 battery
+  unverifiable — "ce qui __ ce que" is a hapax). Scorer Smith: objective
+  REPAIRED (C1 PASS) but search too weak (C2/C3/C4 FAIL) — gate holds, NO
+  R5005 (N40). Rotation: labeling fragile/phenomenon real; HMM vs bigram
+  null; 69/96 reconciled; column-geometry momentum z=+4.77 (N41) — with the
+  N43 noisy-detector flag: (a) existence confirmed, (b) magnitude noisy,
+  (c) mapping ~0.5 purity. Period drags T1–T8: mostly nulls; T4 either/or
+  (breaks 94="ne" OR 77="le" — referred); T7 "Mehemet-Ali" @8 LEAD (N42).
+  Scoreboard: 11 values (7 GT + 87=ce/64=qui/96=par provisional +
+  77="le" provisional-conditioned).
 
 ## Data inventory
 Source: https://github.com/dbourdeau/cyphersolver `targets/zeschau1841/` (Daniel Bourdeau's

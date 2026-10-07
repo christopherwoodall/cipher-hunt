@@ -1,0 +1,1364 @@
+{
+ "targets": {
+  "T1": {
+   "window": [
+    "09",
+    "00",
+    "97",
+    "51",
+    "47",
+    "41"
+   ],
+   "cands": {
+    "Monsieur le Baron": [],
+    "Mon cher Baron": []
+   },
+   "null_6": [
+    78,
+    11870
+   ],
+   "null_5": [
+    108,
+    11870
+   ],
+   "verdict": "NULL",
+   "note": "Neither address fits @0 under standing anchors (47={ce} islet blocks cell4). Releasing the islet makes the fit vacuous (null~1). Honest null."
+  },
+  "T2": {
+   "cands": {
+    "Votre depeche du": {
+     "n_windows": 25,
+     "positions": [
+      9,
+      10,
+      11,
+      12,
+      39,
+      40,
+      41,
+      53,
+      54,
+      55
+     ],
+     "null_at_first": [
+      8076,
+      11870
+     ]
+    },
+    "J'ai recu votre depeche du": {
+     "n_windows": 7,
+     "positions": [
+      9,
+      79,
+      80,
+      81,
+      82,
+      83,
+      116
+     ],
+     "null_at_first": [
+      3810,
+      11870
+     ]
+    }
+   },
+   "verdict": "NULL",
+   "note": "25/7 windows fit but ALL are anchor-free (null 0.68/0.32); zero anchor-bearing placements. Unconstraining fits, not evidence."
+  },
+  "T3": {
+   "A": {
+    "entrevue": {
+     "fits": [],
+     "null_759": [
+      14,
+      11870
+     ]
+    },
+    "expedition": {
+     "fits": [],
+     "null_759": [
+      0,
+      11870
+     ]
+    },
+    "epreuve": {
+     "fits": [
+      {
+       "start": 759,
+       "cells": [
+        "e",
+        "pre",
+        "uve"
+       ],
+       "notes": {
+        "overrides": [],
+        "islet_reads": [],
+        "free_reads": {},
+        "collisions": []
+       }
+      },
+      {
+       "start": 759,
+       "cells": [
+        "e",
+        "preu",
+        "ve"
+       ],
+       "notes": {
+        "overrides": [],
+        "islet_reads": [],
+        "free_reads": {},
+        "collisions": []
+       }
+      }
+     ],
+     "null_759": [
+      14,
+      11870
+     ]
+    },
+    "epoque": {
+     "fits": [
+      {
+       "start": 759,
+       "cells": [
+        "e",
+        "po",
+        "que"
+       ],
+       "notes": {
+        "overrides": [],
+        "islet_reads": [],
+        "free_reads": {},
+        "collisions": []
+       }
+      },
+      {
+       "start": 759,
+       "cells": [
+        "e",
+        "poqu",
+        "e"
+       ],
+       "notes": {
+        "overrides": [],
+        "islet_reads": [],
+        "free_reads": {},
+        "collisions": [
+         [
+          "e",
+          [
+           "40",
+           "62"
+          ]
+         ]
+        ]
+       }
+      }
+     ],
+     "null_759": [
+      244,
+      11870
+     ]
+    }
+   },
+   "B": {},
+   "invert": {
+    "@760[20,62,94,59]": [
+     [
+      [
+       "d\u00e9fense",
+       9,
+       [
+        "d",
+        "ef",
+        "en",
+        "se"
+       ]
+      ],
+      [
+       "d\u00e9pense",
+       8,
+       [
+        "d",
+        "ep",
+        "en",
+        "se"
+       ]
+      ],
+      [
+       "d\u00e9pens\u00e9",
+       3,
+       [
+        "d",
+        "ep",
+        "en",
+        "se"
+       ]
+      ],
+      [
+       "offens\u00e9",
+       1,
+       [
+        "o",
+        "ff",
+        "en",
+        "se"
+       ]
+      ]
+     ],
+     4
+    ],
+    "@1040[17,77,82,63]": [
+     [
+      [
+       "\u00e9l\u00e9ment",
+       17,
+       [
+        "e",
+        "le",
+        "m",
+        "ent"
+       ]
+      ],
+      [
+       "parlement",
+       10,
+       [
+        "par",
+        "le",
+        "m",
+        "ent"
+       ]
+      ],
+      [
+       "probl\u00e8me",
+       8,
+       [
+        "prob",
+        "le",
+        "m",
+        "e"
+       ]
+      ],
+      [
+       "nullement",
+       5,
+       [
+        "nul",
+        "le",
+        "m",
+        "ent"
+       ]
+      ],
+      [
+       "solemn",
+       1,
+       [
+        "so",
+        "le",
+        "m",
+        "n"
+       ]
+      ],
+      [
+       "roulement",
+       1,
+       [
+        "rou",
+        "le",
+        "m",
+        "ent"
+       ]
+      ],
+      [
+       "doublement",
+       1,
+       [
+        "doub",
+        "le",
+        "m",
+        "ent"
+       ]
+      ]
+     ],
+     7
+    ],
+    "@759[40,20,62]": [
+     [
+      [
+       "est",
+       2331,
+       [
+        "e",
+        "s",
+        "t"
+       ]
+      ],
+      [
+       "\u00e9tats",
+       979,
+       [
+        "e",
+        "t",
+        "ats"
+       ]
+      ],
+      [
+       "elle",
+       784,
+       [
+        "e",
+        "l",
+        "le"
+       ]
+      ],
+      [
+       "\u00e9tat",
+       666,
+       [
+        "e",
+        "t",
+        "at"
+       ]
+      ],
+      [
+       "\u00eatre",
+       474,
+       [
+        "e",
+        "tr",
+        "e"
+       ]
+      ],
+      [
+       "encore",
+       429,
+       [
+        "e",
+        "ncor",
+        "e"
+       ]
+      ],
+      [
+       "eux",
+       363,
+       [
+        "e",
+        "u",
+        "x"
+       ]
+      ],
+      [
+       "entre",
+       327,
+       [
+        "e",
+        "ntr",
+        "e"
+       ]
+      ],
+      [
+       "\u00e9t\u00e9",
+       277,
+       [
+        "e",
+        "t",
+        "e"
+       ]
+      ],
+      [
+       "\u00e9tait",
+       253,
+       [
+        "e",
+        "t",
+        "ait"
+       ]
+      ],
+      [
+       "elles",
+       249,
+       [
+        "e",
+        "lle",
+        "s"
+       ]
+      ],
+      [
+       "europe",
+       196,
+       [
+        "e",
+        "urop",
+        "e"
+       ]
+      ],
+      [
+       "esprit",
+       180,
+       [
+        "e",
+        "s",
+        "prit"
+       ]
+      ],
+      [
+       "efforts",
+       104,
+       [
+        "e",
+        "ffor",
+        "ts"
+       ]
+      ],
+      [
+       "existe",
+       87,
+       [
+        "e",
+        "xist",
+        "e"
+       ]
+      ]
+     ],
+     244
+    ],
+    "@1039[40,17,77]": [
+     [
+      [
+       "elle",
+       784,
+       [
+        "e",
+        "l",
+        "le"
+       ]
+      ],
+      [
+       "\u00e9gale",
+       14,
+       [
+        "e",
+        "ga",
+        "le"
+       ]
+      ],
+      [
+       "\u00e9cole",
+       9,
+       [
+        "e",
+        "co",
+        "le"
+       ]
+      ],
+      [
+       "\u00e9chelle",
+       3,
+       [
+        "e",
+        "chel",
+        "le"
+       ]
+      ],
+      [
+       "\u00e9coule",
+       2,
+       [
+        "e",
+        "cou",
+        "le"
+       ]
+      ],
+      [
+       "\u00e9tale",
+       1,
+       [
+        "e",
+        "ta",
+        "le"
+       ]
+      ],
+      [
+       "\u00e9mule",
+       1,
+       [
+        "e",
+        "mu",
+        "le"
+       ]
+      ],
+      [
+       "\u00e9coul\u00e9",
+       1,
+       [
+        "e",
+        "cou",
+        "le"
+       ]
+      ],
+      [
+       "\u00e9branl\u00e9",
+       1,
+       [
+        "e",
+        "bran",
+        "le"
+       ]
+      ],
+      [
+       "\u00e9branle",
+       1,
+       [
+        "e",
+        "bran",
+        "le"
+       ]
+      ],
+      [
+       "exile",
+       1,
+       [
+        "e",
+        "xi",
+        "le"
+       ]
+      ],
+      [
+       "envole",
+       1,
+       [
+        "e",
+        "nvo",
+        "le"
+       ]
+      ],
+      [
+       "enr\u00f4le",
+       1,
+       [
+        "e",
+        "nro",
+        "le"
+       ]
+      ]
+     ],
+     13
+    ]
+   },
+   "verdict": "NULL",
+   "kills": [
+    "entrevue: 0 fits. Killed @759 by 94=\"ne\" prov-strong (4th cell vue/di vs ne); killed @1039 by 77=le (2nd cell). Survives IFF 94!=ne @759 (override of prov-strong).",
+    "expedition: 0 fits. Killed @759 by 94=ne (4th cell di vs ne); killed @1039 by 77=le. Same conditional survival.",
+    "epreuve: fits @759 ONLY ([e,pre,uve]/[e,preu,ve] on 40-20-62), killed @1039 by 77=le. @759 fit has 244/11870 nulls (3-cell [e,?,?]) \u2014 unconstraining. NOT a shared-noun hit.",
+    "epoque: fits @759 ([e,po,que], 62=que) but 62=\"on\" STRONG LEAD tensions 62=que; killed @1039 by 77=le. Not a hit."
+   ],
+   "note": "The memo's shared e-initial-noun theory does not survive: no candidate fits BOTH windows. @1039 admits only [e,?,le] words (13 fitters: elle/egale/ecole/echelle...), none memo candidates. Alignment-B inversions: @760 n_fit=4 (defense/depense/depense/offense, 94=en islet \u2014 no discrimination); @1040 n_fit=7 (element/parlement/nullement... \u2014 no grammatical noun phrase)."
+  },
+  "T4": {
+   "windows": {
+    "1180": [
+     "77",
+     "78",
+     "94",
+     "82",
+     "06"
+    ],
+    "1351": [
+     "77",
+     "78",
+     "94",
+     "82",
+     "06"
+    ]
+   },
+   "le_gouverment": {
+    "1180": [
+     {
+      "start": 1180,
+      "cells": [
+       "le",
+       "gouv",
+       "er",
+       "m",
+       "ent"
+      ],
+      "notes": {
+       "overrides": [],
+       "islet_reads": [],
+       "free_reads": {
+        "77": "le",
+        "78": "gouv",
+        "94": "er",
+        "06": "ent"
+       },
+       "collisions": []
+      }
+     },
+     {
+      "start": 1180,
+      "cells": [
+       "le",
+       "gou",
+       "ver",
+       "m",
+       "ent"
+      ],
+      "notes": {
+       "overrides": [],
+       "islet_reads": [],
+       "free_reads": {
+        "77": "le",
+        "78": "gou",
+        "94": "ver",
+        "06": "ent"
+       },
+       "collisions": []
+      }
+     }
+    ],
+    "1351": [
+     {
+      "start": 1351,
+      "cells": [
+       "le",
+       "gouv",
+       "er",
+       "m",
+       "ent"
+      ],
+      "notes": {
+       "overrides": [],
+       "islet_reads": [],
+       "free_reads": {
+        "77": "le",
+        "78": "gouv",
+        "94": "er",
+        "06": "ent"
+       },
+       "collisions": []
+      }
+     },
+     {
+      "start": 1351,
+      "cells": [
+       "le",
+       "gou",
+       "ver",
+       "m",
+       "ent"
+      ],
+      "notes": {
+       "overrides": [],
+       "islet_reads": [],
+       "free_reads": {
+        "77": "le",
+        "78": "gou",
+        "94": "ver",
+        "06": "ent"
+       },
+       "collisions": []
+      }
+     }
+    ]
+   },
+   "family_le_?_?_m_ent": {
+    "1180": {
+     "n": 1,
+     "sample": [
+      [
+       "l\u00e9galement",
+       "ga",
+       "le"
+      ]
+     ]
+    },
+    "1351": {
+     "n": 1,
+     "sample": [
+      [
+       "l\u00e9galement",
+       "ga",
+       "le"
+      ]
+     ]
+    }
+   },
+   "cell94_readings": {
+    "1180": [
+     [
+      "le",
+      1
+     ]
+    ],
+    "1351": [
+     [
+      "le",
+      1
+     ]
+    ]
+   },
+   "cell78_readings": {
+    "1180": [
+     [
+      "ga",
+      1
+     ]
+    ],
+    "1351": [
+     [
+      "ga",
+      1
+     ]
+    ]
+   },
+   "trigram_@578_94_readings": [
+    [
+     "e",
+     47
+    ],
+    [
+     "i",
+     43
+    ],
+    [
+     "o",
+     34
+    ],
+    [
+     "m",
+     24
+    ],
+    [
+     "er",
+     17
+    ],
+    [
+     "la",
+     12
+    ],
+    [
+     "r",
+     11
+    ],
+    [
+     "u",
+     9
+    ],
+    [
+     "or",
+     8
+    ],
+    [
+     "le",
+     7
+    ],
+    [
+     "a",
+     5
+    ],
+    [
+     "sti",
+     4
+    ]
+   ],
+   "trigram_@578_nfitters": 272,
+   "verdict": "HIT (shape @2/2 windows; 94-reading REFERRED)",
+   "redteam_referral": "94=\"ne\" provisional-strong NOT adopted/demoted here. Tension: T4 needs 94=ver (2 windows); banked 94=\"ne\" legs (unigram 1.025x, trigram x3 @ 1.054x era -nement with 82=m centered, 94->52/59 \"ne se\" x5) stand. See cell94_readings + trigram_@578_94_readings for the quantified split.",
+   "tilings_live": {
+    "a_legouverment": {
+     "cells": [
+      "le",
+      "gou",
+      "ver",
+      "m",
+      "ent"
+     ],
+     "reads": {
+      "77": "le",
+      "78": "gou",
+      "94": "ver",
+      "82": "m",
+      "06": "ent"
+     },
+     "note": "memo hypothesis; needs 94=ver, TENSIONS 94=\"ne\" prov-strong"
+    },
+    "b_legouverment_er": {
+     "cells": [
+      "le",
+      "gouv",
+      "er",
+      "m",
+      "ent"
+     ],
+     "reads": {
+      "77": "le",
+      "78": "gouv",
+      "94": "er",
+      "82": "m",
+      "06": "ent"
+     },
+     "note": "94=er collides with GT 29=er (two er-groups)"
+    },
+    "c_gouvernement": {
+     "cells": [
+      "gouv",
+      "er",
+      "ne",
+      "m",
+      "ent"
+     ],
+     "reads": {
+      "77": "gouv",
+      "78": "er",
+      "94": "ne",
+      "82": "m",
+      "06": "ent"
+     },
+     "note": "\"gouvernement\" proper (lexicon word); keeps 94=\"ne\" prov-strong + 06=ent restricted + 82=m GT; needs 77=gouv/78=er (77 FENCED at these windows per F37, so allowed)"
+    }
+   },
+   "checks": [
+    "C1: exact by-ear fits at BOTH windows @1180 and @1351 (independent), 82=m GT-anchored.",
+    "C2: shape rarity \u2014 [le,?,?,m,ent] family: 1/11870 lexicon words (\"legalement\"); general null 289/11870=2.43% per window.",
+    "C3: 94-reading among lexicon fitters @T4: ne x10 / ver x0 / er x3; independent @578 trigram: ne x3 / ver x0 / er x17.",
+    "C4 (memo context, CORRECTED): \"R1a followed by 77=le\" is a RAW-FRAME ARTIFACT (void in all canonical parses); memo R2 VOID (raw-only)."
+   ]
+  },
+  "T5": {
+   "n96": 21,
+   "cands": {
+    "par le dernier courrier": {
+     "n_windows": 3,
+     "positions": [
+      465,
+      914,
+      960
+     ]
+    }
+   },
+   "par_le_bigram_96_77": 0,
+   "null_@150": [
+    0,
+    11870
+   ],
+   "verdict": "NULL (phrase); LEAD: 00=\"le\" x2",
+   "detail": "\"par le dernier courrier\" [par,le,der,nier,cour,rier] fits @465/@914/@960, but the three placements imply MUTUALLY INCONSISTENT assignments (le->00 vs 09; der->33 vs 02; nier->79 vs 24) \u2014 no joint phrase. Structural kill: 96->77 is 0/21, so the memo's 96|77|... shape never occurs. LEAD: @465 and @960 agree on 00=\"le\" (96-00 \"par le\" x2, null 64/11870=0.5% @465) \u2014 needs its own battery (tensions 77=le). 96-00 \"par le\" x3 (@47/@465/@960) all consistent with 00=\"le\" \u2014 TENSIONS F40 00=\"pour\" lead (\"pour que\" 00->46 x4); conditioned polyvalence or rival reading; flagged, not resolved here."
+  },
+  "T6": {
+   "cands": {
+    "consideration": {
+     "n_windows": 9,
+     "positions": [
+      1808,
+      1809,
+      1810,
+      1811,
+      1817,
+      1818,
+      1819,
+      1837
+     ],
+     "null_at_first": [
+      7496,
+      11870
+     ]
+    },
+    "distinguee": {
+     "n_windows": 12,
+     "positions": [
+      1808,
+      1809,
+      1810,
+      1811,
+      1812,
+      1817,
+      1818,
+      1819
+     ],
+     "null_at_first": [
+      5851,
+      11870
+     ]
+    },
+    "Adieu, mon cher baron": {
+     "n_windows": 6,
+     "positions": [
+      1808,
+      1809,
+      1810,
+      1817,
+      1818,
+      1837
+     ],
+     "null_at_first": [
+      8076,
+      11870
+     ]
+    },
+    "Tout a vous": {
+     "n_windows": 18,
+     "positions": [
+      1808,
+      1809,
+      1810,
+      1811,
+      1812,
+      1813,
+      1817,
+      1818
+     ],
+     "null_at_first": [
+      3750,
+      11870
+     ]
+    },
+    "haute consideration": {
+     "n_windows": 3,
+     "positions": [
+      1808,
+      1809,
+      1817
+     ],
+     "null_at_first": [
+      7357,
+      11870
+     ]
+    }
+   },
+   "verdict": "NULL",
+   "note": "All closing candidates fit only at anchor-free windows (nulls 0.32-0.68). No anchor-bearing placement. Tail inversions: nothing closing-shaped."
+  },
+  "T7": {
+   "cands": {
+    "Metternich(29=er)": {
+     "n_windows": 630,
+     "positions": [
+      0,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      24,
+      33,
+      34,
+      39
+     ],
+     "null_at_first": [
+      5851,
+      11870
+     ]
+    },
+    "Nesselrode(94=ne)": {
+     "n_windows": 640,
+     "positions": [
+      0,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      24,
+      33,
+      34,
+      39,
+      40
+     ],
+     "null_at_first": [
+      5851,
+      11870
+     ]
+    },
+    "Ibrahim(34=i)": {
+     "n_windows": 827,
+     "positions": [
+      0,
+      1,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      24,
+      25
+     ],
+     "null_at_first": [
+      5851,
+      11870
+     ]
+    },
+    "Saxe(40=e)": {
+     "n_windows": 1070,
+     "positions": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "null_at_first": [
+      2005,
+      11870
+     ]
+    },
+    "Mehemet-Ali(78 islet me)": {
+     "n_windows": 446,
+     "positions": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      33,
+      39,
+      40,
+      41,
+      42,
+      53
+     ],
+     "null_at_first": [
+      33,
+      11870
+     ]
+    },
+    "l'Empereur(no anchor: vacuous)": {
+     "n_windows": 811,
+     "positions": [
+      0,
+      1,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      24,
+      25
+     ],
+     "null_at_first": [
+      3750,
+      11870
+     ]
+    },
+    "Guizot(no anchor: vacuous)": {
+     "n_windows": 1062,
+     "positions": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "null_at_first": [
+      2005,
+      11870
+     ]
+    },
+    "Damas(no anchor: vacuous)": {
+     "n_windows": 1082,
+     "positions": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "null_at_first": [
+      3750,
+      11870
+     ]
+    }
+   },
+   "verdict": "NULL per name; one LEAD",
+   "anchored_recount": {
+    "Metternich[29=er@2]": {
+     "n_bearing": 18,
+     "positions": [
+      110,
+      272,
+      372,
+      539,
+      778,
+      812,
+      1029,
+      1095,
+      1141,
+      1153,
+      1256,
+      1319,
+      1374,
+      1387,
+      1390
+     ],
+     "null_at_first": [
+      198,
+      11870
+     ],
+     "null_sample": [
+      "mani\u00e8re",
+      "g\u00e9n\u00e9ral",
+      "guerre",
+      "mati\u00e8re",
+      "dangers",
+      "exerce",
+      "enti\u00e8re",
+      "divers"
+     ],
+     "first_groups": [
+      "67",
+      "93",
+      "29",
+      "89"
+     ],
+     "first_cells": [
+      "met",
+      "t",
+      "er",
+      "nich"
+     ]
+    },
+    "Nesselrode[94=ne@0]": {
+     "n_bearing": 15,
+     "positions": [
+      65,
+      250,
+      651,
+      699,
+      762,
+      774,
+      785,
+      841,
+      1293,
+      1363,
+      1549,
+      1687,
+      1705,
+      1795,
+      1806
+     ],
+     "null_at_first": [
+      147,
+      11870
+     ],
+     "null_sample": [
+      "encore",
+      "n\u00e8gres",
+      "enti\u00e8re",
+      "ensuite",
+      "ensemble",
+      "ennemis",
+      "entier",
+      "enfants"
+     ],
+     "first_groups": [
+      "94",
+      "92",
+      "69",
+      "13",
+      "24"
+     ],
+     "first_cells": [
+      "ne",
+      "se",
+      "l",
+      "ro",
+      "de"
+     ]
+    },
+    "Ibrahim[34=i@0]": {
+     "n_bearing": 4,
+     "positions": [
+      28,
+      404,
+      1348,
+      1749
+     ],
+     "null_at_first": [
+      157,
+      11870
+     ],
+     "null_sample": [
+      "influence",
+      "int\u00e9r\u00eat",
+      "id\u00e9e",
+      "indiens",
+      "id\u00e9es",
+      "instant",
+      "indien",
+      "individu"
+     ],
+     "first_groups": [
+      "34",
+      "24",
+      "30",
+      "03"
+     ],
+     "first_cells": [
+      "i",
+      "b",
+      "ra",
+      "him"
+     ]
+    },
+    "Saxe[40=e@1]": {
+     "n_bearing": 8,
+     "positions": [
+      334,
+      751,
+      920,
+      942,
+      1237,
+      1398,
+      1556,
+      1745
+     ],
+     "null_at_first": [
+      502,
+      11870
+     ],
+     "null_sample": [
+      "de",
+      "le",
+      "que",
+      "ne",
+      "une",
+      "se",
+      "ce",
+      "m\u00eame"
+     ],
+     "first_groups": [
+      "88",
+      "40"
+     ],
+     "first_cells": [
+      "sax",
+      "e"
+     ]
+    },
+    "Mehemet-Ali[78=me@0]": {
+     "n_bearing": 10,
+     "positions": [
+      8,
+      443,
+      476,
+      573,
+      879,
+      982,
+      1105,
+      1164,
+      1670,
+      1758
+     ],
+     "null_at_first": [
+      33,
+      11870
+     ],
+     "null_sample": [
+      "membres",
+      "mesure",
+      "mettre",
+      "mesures",
+      "mexique",
+      "m\u00e9rite",
+      "membre",
+      "m\u00e9pris"
+     ],
+     "first_groups": [
+      "78",
+      "18",
+      "93",
+      "62",
+      "98"
+     ],
+     "first_cells": [
+      "me",
+      "he",
+      "met",
+      "a",
+      "li"
+     ]
+    }
+   },
+   "detail": "Anchor-bearing recount (tilings engaging the anchor cell only): Metternich 18 windows (null 1.7%), Nesselrode 13-15 (null 0.8-1.2%), Ibrahim 4-5 (null 0.6-1.3%), Saxe 8 (null 4.2%) \u2014 no discrimination, honest nulls. Ibrahim+\"pacha\" follow-up VACUOUS (2-cell words fit any 2 unanchored groups). l'Empereur/Guizot/Damas: vacuous by method (no anchors). LEAD: Mehemet-Ali @8 [78,18,93,62,98] \"me|he|met|a|li\" \u2014 anchor-bearing on the 78={me,ver} islet, null 33/11870=0.28%, despatch-opening position; but 10 bearing windows and LEAD-grade islet \u2014 needs its own battery, not a hit."
+  },
+  "T8": {
+   "cands": {
+    "le traite de Londres": {
+     "n_77engaged": 8,
+     "positions": [
+      207,
+      453,
+      677,
+      798,
+      870,
+      968,
+      1133,
+      1216
+     ],
+     "null": [
+      30,
+      11870
+     ],
+     "note": "77=le engaged at cell0; remaining 5-6 cells unanchored"
+    },
+    "le traite du 15 juillet": {
+     "n_77engaged": 6,
+     "positions": [
+      453,
+      677,
+      798,
+      870,
+      968,
+      1216
+     ],
+     "null": [
+      21,
+      11870
+     ],
+     "note": "6/8 windows shared with the Londres surface \u2014 surfaces not discriminated"
+    }
+   },
+   "verdict": "NULL",
+   "note": "77-engaged recount: 8/6 candidate windows (null 0.25%/0.18%) but no second anchor in any phrase window and no discrimination among windows; the two surfaces share 6 windows. Honest null \u2014 candidate set recorded, no promotion."
+  }
+ },
+ "frame_notes": [
+  "la premiere 11-70-82-34-29-40 @754 and @1034 repaired (memo raw 766/1054) VERIFIED",
+  "R1 77-78-94-82-06 @1180 and @1351 repaired (memo raw 884/1204). raw@884 9-mer (follow 77-44-91-67) ABSENT from repaired stream: the memo claim \"R1a followed by 77=le (sentence break)\" is a RAW-FRAME ARTIFACT, void in every canonical parse (old 1846 and repaired 1847).",
+  "memo R2 06-77-78-18-71-10-01 @raw1429: 0x in repaired stream (and 0x in old 1846 parse per crowd round). Raw-only artifact straddling dropped digits; the \"06|77|78 = ent le gou\" cross-check cannot be run. VOID.",
+  "94-82-06 trigram x3 @578/@1182/@1353 repaired; @1182/@1353 sit INSIDE the T4 windows (@1180/@1351 +2). The T4 windows ARE two of the three \"restricted-ent PLAUSIBLE\" trigrams.",
+  "96=par x21 repaired @47/131/150/224/230/342/465/602/847/914/927/947/952/960/998/1026/1063/1196/1213/1526/1786. 96->77 is 0/21: \"par le\" never occurs as 96-77."
+ ]
+}

@@ -1,0 +1,302 @@
+{
+ "check": "Mehemet-Ali@8",
+ "M0": {
+  "n_bearing": 10,
+  "positions": [
+   8,
+   443,
+   476,
+   573,
+   879,
+   982,
+   1105,
+   1164,
+   1670,
+   1758
+  ],
+  "null_at_8": [
+   33,
+   11870
+  ]
+ },
+ "M1": {
+  "n_78_windows": 30,
+  "expected_bearings": 0.028,
+  "observed_bearings": 10,
+  "pass": false,
+  "audit": {
+   "n78_windows": 30,
+   "finding": "VOID as pre-registered: the bearing criterion (manual me|he|met|a|li fits) and the null criterion (by-ear lexicon fitter exists) differ, and -- decisively -- the manual tiling fits EVERY 78-window whose positions 1-4 carry no conflicting hard/islet anchor (verified: all 20 non-bearing windows fail on anchor conflicts: 40=e vs he x3, 46=que vs li/a x4, 94=ne vs met/he x4, etc.). The count \"10 bearings\" is structurally determined by anchor placement, not by the name being real. No excess information. M1 contributes nothing for or against.",
+   "verdict": "VOID"
+  }
+ },
+ "M2": {
+  "corpus_check": "Tocqueville T1+T2 (1835/1840) and Les Mis T1: ZERO attestations of mehemet/mehemed/mohamed+ali -- the name does not occur in the on-VM period corpora.",
+  "rddm_293x": "UNVERIFIED: no Revue des Deux Mondes corpus on the VM; the \"293x\" figure attributed to the period fleet could not be reproduced or falsified here. Flagged, not cited.",
+  "web_check": "\"Mehemet-Ali\" (hyphenated, unaccented) and \"Mehemet-Ali\" (accented) both attested in French sources: fr.wikisource \"Mehemet-Ali durant ses dernieres annees\" uses BOTH forms; Driault (L'Egypte et l'Europe: la crise de 1839-1841, apud journals.openedition.org/cdlm/16391) quotes \"Mehemet-Ali\". Accent-stripping is the lane's disclosed convention, so the cipher form matches the contemporary spelling.",
+  "topical_jan1841": "Muhammad Ali Pasha (d. 1849): London Convention 15 Jul 1840, hereditary pashalik settlement running into early 1841 (firman Feb 1841) -- the name was front-page topical in Jan 1841 French diplomacy.",
+  "pass": true,
+  "audit": {
+   "finding": "Spelling verified: \"Mehemet-Ali\" hyphenated+unaccented and \"Mehemet-Ali\" accented both attested in French sources (Wikisource \"Mehemet-Ali durant ses dernieres annees\" uses both; Driault 1839-1841 crisis correspondence quotes \"Mehemet-Ali\"); accent-strip is disclosed lane convention. Topical Jan 1841: London Convention 15 Jul 1840, hereditary-pashalik settlement into early 1841. The \"293x in Revue des Deux Mondes\" figure is UNVERIFIED -- no RdDM corpus on the VM; Tocqueville 1835/1840 and Les Mis T1 attest ZERO occurrences (expected: neither discusses Egypt). Do not cite 293x.",
+   "verdict": "PASS"
+  }
+ },
+ "M3": {
+  "n_fitters": 33,
+  "categories": {
+   "common-word": 33
+  },
+  "name_like_fits": [],
+  "name_like_sample": [],
+  "common_word_sample": [
+   [
+    "membres",
+    [
+     "me",
+     "m",
+     "br",
+     "e",
+     "s"
+    ]
+   ],
+   [
+    "mesure",
+    [
+     "me",
+     "s",
+     "u",
+     "r",
+     "e"
+    ]
+   ],
+   [
+    "mettre",
+    [
+     "me",
+     "t",
+     "t",
+     "r",
+     "e"
+    ]
+   ],
+   [
+    "mesures",
+    [
+     "me",
+     "s",
+     "ur",
+     "e",
+     "s"
+    ]
+   ],
+   [
+    "mexique",
+    [
+     "me",
+     "x",
+     "i",
+     "qu",
+     "e"
+    ]
+   ],
+   [
+    "m\u00e9rite",
+    [
+     "me",
+     "r",
+     "i",
+     "t",
+     "e"
+    ]
+   ],
+   [
+    "membre",
+    [
+     "me",
+     "m",
+     "b",
+     "r",
+     "e"
+    ]
+   ],
+   [
+    "m\u00e9pris",
+    [
+     "me",
+     "p",
+     "r",
+     "i",
+     "s"
+    ]
+   ],
+   [
+    "m\u00e9prise",
+    [
+     "me",
+     "p",
+     "r",
+     "i",
+     "se"
+    ]
+   ],
+   [
+    "m\u00e9moire",
+    [
+     "me",
+     "m",
+     "o",
+     "i",
+     "re"
+    ]
+   ],
+   [
+    "m\u00e9lange",
+    [
+     "me",
+     "la",
+     "n",
+     "g",
+     "e"
+    ]
+   ],
+   [
+    "mettait",
+    [
+     "me",
+     "t",
+     "ta",
+     "i",
+     "t"
+    ]
+   ],
+   [
+    "m\u00e8tres",
+    [
+     "me",
+     "t",
+     "r",
+     "e",
+     "s"
+    ]
+   ],
+   [
+    "m\u00e9connue",
+    [
+     "me",
+     "c",
+     "on",
+     "nu",
+     "e"
+    ]
+   ],
+   [
+    "m\u00eal\u00e9es",
+    [
+     "me",
+     "l",
+     "e",
+     "e",
+     "s"
+    ]
+   ]
+  ],
+  "rival_tests": {
+   "me|e|met|a|li": [
+    [
+     [
+      "me",
+      "e",
+      "met",
+      "a",
+      "li"
+     ],
+     "FITS"
+    ]
+   ],
+   "me|he|med|a|li": [
+    [
+     [
+      "me",
+      "he",
+      "med",
+      "a",
+      "li"
+     ],
+     "FITS"
+    ]
+   ],
+   "mo|ha|med|a|li": [
+    [
+     [
+      "mo",
+      "ha",
+      "med",
+      "a",
+      "li"
+     ],
+     "no-fit"
+    ]
+   ],
+   "me|h|me|t|a|li(k=6)": [
+    [
+     [
+      "me",
+      "h",
+      "me",
+      "t",
+      "a",
+      "li"
+     ],
+     "DEAD: arity != 5"
+    ]
+   ],
+   "me|he|met|a|li(repeat)": [
+    [
+     [
+      "me",
+      "he",
+      "met",
+      "a",
+      "li"
+     ],
+     "FITS"
+    ]
+   ]
+  },
+  "he_cell_adverse": "'he' writes a SILENT h (Mehemet pronounced [me.e.mE]); etymological, not by-ear -- weak adverse vs the F44 model; not kill-grade (R4 mixed table allows letter-cells)",
+  "unique_name": true,
+  "cleaner_common_word_fits": [],
+  "n_cleaner": 0,
+  "pass": true,
+  "audit": {
+   "finding": "Mechanical pass per pre-reg bar (unique name among by-ear fitters -- VACUOUS, the name is not in the by-ear lexicon; zero cleaner common-word fits), BUT: 33 common words fit the @8 window at the same 0.28% null (mesure, mettre, membres, merite, mexique, ...). The name is not discriminated from common words by cipher data; it is distinguished only by near-opening position (@8, preceded by [09,00,97,51,47,41,06,77]) and the manual tiling. Rival spellings: Mohamed (mo|ha|med|a|li) DEAD (78=mo unlicensed -- clean falsification leg); by-ear-pure me|e|met|a|li FITS (the silent-h adverse is discharged -- the reading does not need the etymological h); k=6 manual variant arity-DEAD (traceability nit on the T7 drag: the second manual tiling could never fit a 5-group window).",
+   "verdict": "WEAK PASS (non-exclusion, not discrimination)"
+  }
+ },
+ "M4": {
+  "other_windows": [
+   443,
+   476,
+   573,
+   879,
+   982,
+   1105,
+   1164,
+   1670,
+   1758
+  ],
+  "after_8": [
+   "76",
+   "45",
+   "91",
+   "53",
+   "17",
+   "64"
+  ],
+  "pacha_note": "P[13:19]=[76,45,91,53,17,64]: \"pacha\"-shaped follow-up is anchor-free => VACUOUS by method (same as Ibrahim+\"pacha\", N42); reported, not scored."
+ },
+ "n_pass": 1,
+ "kill_triggered": false,
+ "verdict": "HOLD",
+ "verdict_reason": "M1 VOID (bearing count structurally determined); M2 PASS (spelling contemporary + topical Jan 1841; 293x RdDM figure UNVERIFIED, do not cite); M3 WEAK PASS (name possible but not discriminated from 33 common-word fitters at the same 0.28% null). One solid new leg (M2) does not clear the >=2 promotion bar. T7 LEAD stands, unweakened: nothing adverse found (Mohamed excluded, silent-h adverse discharged by the by-ear-pure fit, no cleaner rival). Dependency: 78=\"me\" islet LEAD."
+}

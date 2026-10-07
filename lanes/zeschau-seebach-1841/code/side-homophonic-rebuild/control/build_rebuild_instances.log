@@ -1,0 +1,18 @@
+lesmis tokens=119659 real groups=96
+certified q_cycle=0.5 T=56
+seed 184201: already built (checkpoint), skipping
+seed 184202: already built (checkpoint), skipping
+seed 184203: already built (checkpoint), skipping
+seed 184204: already built (checkpoint), skipping
+seed 184207: T=56->T_eff=56 occ_chi2=242.3 unsup_chi2=587.6 keep=45.71% islets=6 crib@184 repaired=0
+seed 184207: CHECKPOINTED chance_primary=0.0209±0.0150 chance_secondary=0.1338±0.0168 oracle=0.9252
+seed 184206: already built (checkpoint), skipping
+
+=== VERIFICATION ===
+  seed 184201: pairs=1846 groups=96 crib_hits=1@305 chi2=195.1 INBAND sealed=yes -> OK
+  seed 184202: pairs=1846 groups=96 crib_hits=1@194 chi2=222.9 INBAND sealed=yes -> OK
+  seed 184203: pairs=1846 groups=96 crib_hits=1@229 chi2=183.2 INBAND sealed=yes -> OK
+  seed 184204: pairs=1846 groups=96 crib_hits=1@190 chi2=245.3 INBAND sealed=yes -> OK
+  seed 184207: pairs=1846 groups=96 crib_hits=1@184 chi2=242.3 INBAND sealed=yes -> OK
+  seed 184206: pairs=1846 groups=96 crib_hits=1@44 chi2=285.3 INBAND sealed=yes -> OK
+VERIFICATION: ALL OK

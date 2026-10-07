@@ -6,8 +6,9 @@ Uses calibrated LAM_POLY/LAM_CONC from step4_ablate.json.
 import sys, os, json, time, math, random, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from models import get_models
-from objective import (RepairedModel, PINS, LAM_WORD, LAM_ROT, BETA_PROV,
+from objective import (RepairedModel, PINS,
                        CONC_CAP, N_GRAM)
+LAM_WORD, LAM_ROT = 1.0, 0.0
 
 t0 = time.time()
 def log(*a):
@@ -22,7 +23,7 @@ GI = GT['group_info']
 sfreq = collections.Counter(GS)
 inv_set = set(M['CELLS'])
 
-CAL = json.load(open('step4_ablate.json'))
+CAL = json.load(open('step4_calibrated.json'))
 LAM_POLY = CAL['LAM_POLY']
 LAM_CONC = CAL['LAM_CONC']
 log('calibrated: LAM_POLY=%.4g LAM_CONC=%.4g' % (LAM_POLY, LAM_CONC))
@@ -32,11 +33,14 @@ def make(seed):
     return RepairedModel(GS, BLOCK, M['LP_PROJ'], PINS, HINTS, M['CELLS'],
                          M['WEIGHTS'], M['AC'], lam_poly=LAM_POLY,
                          lam_conc=LAM_CONC, lam_word=LAM_WORD,
-                         lam_rot=LAM_ROT, beta_prov=BETA_PROV,
+                         lam_rot=LAM_ROT,
                          conc_cap=CONC_CAP, n=N_GRAM,
                          rng=random.Random(seed))
 
 # truth on the repaired objective
+# NOTE: pcell = EMITTED (actual plaintext), NOT [v1[g]].
+# v1 holds codebook primaries (covered cells after tail inheritance);
+# the truth DECODE is the emitted sequence. (step123_truth.py §truth.)
 mt = make(0)
 for g, v in GI.items():
     mt.v1[g] = v['primary']
@@ -44,7 +48,7 @@ for g, v in GI.items():
         mt.v2[g], mt.w2[g] = v['secondary'], v['w2']
     else:
         mt.v2[g], mt.w2[g] = None, 0.0
-mt._recompute_all()
+mt.pcell = list(GT['emitted'])
 mt._refresh_scores()
 # E-step for polyvalent groups (true-history decode of the truth key)
 for g in mt.nonpin:

@@ -1,0 +1,348 @@
+{
+ "SYNTHETIC": true,
+ "lam_poly": 0.05,
+ "lam_conc": 0.00035767982693347755,
+ "runs": [
+  {
+   "restart": 0,
+   "best": -2.7457,
+   "acc_rate": 0.933
+  },
+  {
+   "restart": 1,
+   "best": -2.445,
+   "acc_rate": 0.939
+  },
+  {
+   "restart": 2,
+   "best": -2.4116,
+   "acc_rate": 0.938
+  }
+ ],
+ "truth_total": -1.4274,
+ "truth_components": {
+  "total": -1.4274,
+  "s_let_proj": -2.6037,
+  "S_word": 0.3263,
+  "s_ph": -0.7823,
+  "S_prior": 1.0,
+  "n_poly": 3,
+  "S_conc": -0.0,
+  "max_n_c": 2,
+  "lam_poly": 0.05,
+  "lam_conc": 0.00035767982693347755
+ },
+ "annealed_best": -2.4116,
+ "annealed_components": {
+  "total": -5.0768,
+  "s_let_proj": -3.4338,
+  "S_word": 0.057,
+  "s_ph": -0.266,
+  "S_prior": 0,
+  "n_poly": 34,
+  "S_conc": -0.0,
+  "max_n_c": 3,
+  "lam_poly": 0.05,
+  "lam_conc": 0.00035767982693347755
+ },
+ "random_baseline": -3.3325,
+ "C1_truth_beats_annealed": {
+  "pass": true,
+  "truth": -1.4274,
+  "annealed_best": -2.4116,
+  "gap": 0.9842
+ },
+ "C2_primary_top1": {
+  "pass": false,
+  "acc": 0.0,
+  "hits": "0/20",
+  "detail": [
+   {
+    "group": "07",
+    "n": 302,
+    "true": "ri",
+    "top1": "le",
+    "top1_p": 0.027,
+    "hit": false,
+    "kind": "shared"
+   },
+   {
+    "group": "41",
+    "n": 274,
+    "true": "ri",
+    "top1": "tre",
+    "top1_p": 0.028,
+    "hit": false,
+    "kind": "shared"
+   },
+   {
+    "group": "85",
+    "n": 61,
+    "true": "dans",
+    "top1": "de",
+    "top1_p": 0.034,
+    "hit": false,
+    "kind": "shared"
+   },
+   {
+    "group": "88",
+    "n": 54,
+    "true": "on",
+    "top1": "de",
+    "top1_p": 0.049,
+    "hit": false,
+    "kind": "shared"
+   },
+   {
+    "group": "51",
+    "n": 36,
+    "true": "de",
+    "top1": "s",
+    "top1_p": 0.045,
+    "hit": false,
+    "kind": "shared"
+   },
+   {
+    "group": "42",
+    "n": 36,
+    "true": "le",
+    "top1": "de",
+    "top1_p": 0.041,
+    "hit": false,
+    "kind": "shared"
+   },
+   {
+    "group": "22",
+    "n": 34,
+    "true": "re",
+    "top1": "te",
+    "top1_p": 0.032,
+    "hit": false,
+    "kind": "shared"
+   },
+   {
+    "group": "89",
+    "n": 29,
+    "true": "re",
+    "top1": "de",
+    "top1_p": 0.03,
+    "hit": false,
+    "kind": "shared"
+   },
+   {
+    "group": "68",
+    "n": 28,
+    "true": "en",
+    "top1": "sé",
+    "top1_p": 0.035,
+    "hit": false,
+    "kind": "shared"
+   },
+   {
+    "group": "59",
+    "n": 26,
+    "true": "de",
+    "top1": "on",
+    "top1_p": 0.032,
+    "hit": false,
+    "kind": "islet"
+   },
+   {
+    "group": "09",
+    "n": 23,
+    "true": "ce",
+    "top1": "te",
+    "top1_p": 0.032,
+    "hit": false,
+    "kind": "shared"
+   },
+   {
+    "group": "00",
+    "n": 23,
+    "true": "le",
+    "top1": "in",
+    "top1_p": 0.042,
+    "hit": false,
+    "kind": "islet"
+   },
+   {
+    "group": "71",
+    "n": 23,
+    "true": "me",
+    "top1": "a",
+    "top1_p": 0.034,
+    "hit": false,
+    "kind": "shared"
+   },
+   {
+    "group": "15",
+    "n": 23,
+    "true": "me",
+    "top1": "u",
+    "top1_p": 0.035,
+    "hit": false,
+    "kind": "shared"
+   },
+   {
+    "group": "21",
+    "n": 22,
+    "true": "ce",
+    "top1": "à",
+    "top1_p": 0.055,
+    "hit": false,
+    "kind": "shared"
+   },
+   {
+    "group": "49",
+    "n": 22,
+    "true": "la",
+    "top1": "l",
+    "top1_p": 0.058,
+    "hit": false,
+    "kind": "shared"
+   },
+   {
+    "group": "31",
+    "n": 22,
+    "true": "pas",
+    "top1": "é",
+    "top1_p": 0.062,
+    "hit": false,
+    "kind": "shared"
+   },
+   {
+    "group": "28",
+    "n": 21,
+    "true": "en",
+    "top1": "ti",
+    "top1_p": 0.028,
+    "hit": false,
+    "kind": "shared"
+   },
+   {
+    "group": "04",
+    "n": 21,
+    "true": "il",
+    "top1": "é",
+    "top1_p": 0.047,
+    "hit": false,
+    "kind": "shared"
+   },
+   {
+    "group": "43",
+    "n": 21,
+    "true": "ne",
+    "top1": "en",
+    "top1_p": 0.03,
+    "hit": false,
+    "kind": "shared"
+   }
+  ]
+ },
+ "C3_islets": {
+  "pass": false,
+  "score": 0,
+  "detail": [
+   {
+    "group": "59",
+    "primary": "de",
+    "secondary": "ne",
+    "w2_true": 0.35,
+    "top5": [
+     [
+      "on",
+      0.032
+     ],
+     [
+      "l",
+      0.03
+     ],
+     [
+      "e",
+      0.025
+     ],
+     [
+      "que",
+      0.022
+     ],
+     [
+      "ti",
+      0.017
+     ]
+    ],
+    "both_in_top3": false,
+    "dominant_first": false,
+    "pass": false
+   },
+   {
+    "group": "00",
+    "primary": "le",
+    "secondary": "en",
+    "w2_true": 0.3,
+    "top5": [
+     [
+      "in",
+      0.042
+     ],
+     [
+      "te",
+      0.032
+     ],
+     [
+      "re",
+      0.027
+     ],
+     [
+      "ne",
+      0.025
+     ],
+     [
+      "est",
+      0.022
+     ]
+    ],
+    "both_in_top3": false,
+    "dominant_first": false,
+    "pass": false
+   },
+   {
+    "group": "16",
+    "primary": "on",
+    "secondary": "d",
+    "w2_true": 0.4,
+    "top5": [
+     [
+      "et",
+      0.03
+     ],
+     [
+      "du",
+      0.025
+     ],
+     [
+      "re",
+      0.023
+     ],
+     [
+      "des",
+      0.023
+     ],
+     [
+      "te",
+      0.02
+     ]
+    ],
+    "both_in_top3": false,
+    "dominant_first": false,
+    "pass": false
+   }
+  ]
+ },
+ "C4_pins_and_baseline": {
+  "pass": false,
+  "pins": "7/7",
+  "margin": 0.921
+ },
+ "verdict": "CONTROL-FAIL",
+ "elapsed_min": 13.7
+}

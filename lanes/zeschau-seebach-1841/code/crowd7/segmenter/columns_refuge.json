@@ -1,0 +1,258 @@
+{
+ "C1_corpus": {
+  "tocqueville": {
+   "n_words": 214983,
+   "n_syllables": 417943,
+   "class_dist": {
+    "OPEN": 241559,
+    "OBS": 108506,
+    "SON": 67878
+   },
+   "lag3": {
+    "n": 417940,
+    "obs": 0.4369,
+    "exp": 0.4278,
+    "z": 11.9
+   },
+   "momentum": {
+    "cycle": "OPEN->OBS->SON->OPEN",
+    "r1": 0.2705,
+    "n1": 127395,
+    "r0": 0.3938,
+    "n0": 117948,
+    "z": -64.91,
+    "p_one_sided": 1.0
+   }
+  },
+  "lesmis": {
+   "n_words": 119381,
+   "n_syllables": 225264,
+   "class_dist": {
+    "OPEN": 133743,
+    "OBS": 52730,
+    "SON": 38791
+   },
+   "lag3": {
+    "n": 225261,
+    "obs": 0.4463,
+    "exp": 0.437,
+    "z": 8.89
+   },
+   "momentum": {
+    "cycle": "OPEN->OBS->SON->OPEN",
+    "r1": 0.2679,
+    "n1": 69354,
+    "r0": 0.3979,
+    "n0": 61375,
+    "z": -49.92,
+    "p_one_sided": 1.0
+   }
+  }
+ },
+ "C1_verdict": {
+  "verdict": "INCONCLUSIVE",
+  "lag3_z_gt_2": true,
+  "momentum_hit": false
+ },
+ "C2_anchor_probe": {
+  "n": 16,
+  "contingency": {
+   "A": {
+    "OPEN": 2,
+    "SON": 2,
+    "OBS": 0
+   },
+   "B": {
+    "OPEN": 6,
+    "SON": 0,
+    "OBS": 0
+   },
+   "C": {
+    "OPEN": 2,
+    "SON": 3,
+    "OBS": 1
+   },
+   "R": {
+    "OPEN": 0,
+    "SON": 0,
+    "OBS": 0
+   }
+  },
+  "chi2_obs": 6.933,
+  "p_mc_10k": 0.1247,
+  "rows": [
+   {
+    "group": "11",
+    "value": "la",
+    "coda": "OPEN",
+    "phase": "B",
+    "note": "GT"
+   },
+   {
+    "group": "70",
+    "value": "pre",
+    "coda": "OPEN",
+    "phase": "B",
+    "note": "GT"
+   },
+   {
+    "group": "82",
+    "value": "m",
+    "coda": "SON",
+    "phase": "A",
+    "note": "GT lone-consonant edge"
+   },
+   {
+    "group": "34",
+    "value": "i",
+    "coda": "OPEN",
+    "phase": "B",
+    "note": "GT"
+   },
+   {
+    "group": "29",
+    "value": "er",
+    "coda": "SON",
+    "phase": "C",
+    "note": "GT"
+   },
+   {
+    "group": "40",
+    "value": "e",
+    "coda": "OPEN",
+    "phase": "A",
+    "note": "GT"
+   },
+   {
+    "group": "46",
+    "value": "que",
+    "coda": "OPEN",
+    "phase": "B",
+    "note": "GT"
+   },
+   {
+    "group": "87",
+    "value": "ce",
+    "coda": "OPEN",
+    "phase": "A",
+    "note": "provisional"
+   },
+   {
+    "group": "64",
+    "value": "qui",
+    "coda": "OPEN",
+    "phase": "B",
+    "note": "provisional"
+   },
+   {
+    "group": "96",
+    "value": "par",
+    "coda": "SON",
+    "phase": "C",
+    "note": "provisional"
+   },
+   {
+    "group": "77",
+    "value": "le",
+    "coda": "OPEN",
+    "phase": "C",
+    "note": "provisional-conditioned"
+   },
+   {
+    "group": "59",
+    "value": "est",
+    "coda": "OBS",
+    "phase": "C",
+    "note": "STRONG LEAD"
+   },
+   {
+    "group": "00",
+    "value": "pour",
+    "coda": "SON",
+    "phase": "C",
+    "note": "STRONG LEAD"
+   },
+   {
+    "group": "16",
+    "value": "i",
+    "coda": "OPEN",
+    "phase": "B",
+    "note": "LEAD"
+   },
+   {
+    "group": "78",
+    "value": "me",
+    "coda": "OPEN",
+    "phase": "C",
+    "note": "LEAD F51-conditional"
+   },
+   {
+    "group": "62",
+    "value": "on",
+    "coda": "SON",
+    "phase": "A",
+    "note": "STRONG LEAD ear-only"
+   }
+  ]
+ },
+ "C2_verdict": "inconclusive",
+ "threadC_verdict": "WEAKENED \u2014 the coda-sonority concretization (the natural 3-column form): formal pre-reg bar gave INCONCLUSIVE (lag-3 z=+11.9 hit, momentum missed), but follow-up shows the lag-3 hit is a DIFFERENT phenomenon (flat bursty profile, no spike vs the cipher sharp spike) and the momentum sign is robustly OPPOSITE (anti-momentum z=-65, stable under 50%-purity noise: attenuated to z~-12, never flipped). Onset-sonority variant dead outright (lag-3 z=-5.85). Anchor probe inconclusive (p=0.12, n=16). The general refuge (\"some other untested linguistic class\") remains logically open but has NO concretization with positive evidence. Full KILL of the refuge needs key recovery (phase-perp-class at n>>), per pre-reg.",
+ "C1_exploratory_shape": {
+  "note": "NOT pre-registered; follow-up to interpret the lag-3 z=+11.9 hit.",
+  "tocqueville_lag_profile_1to6": [
+   0.413,
+   0.4344,
+   0.4369,
+   0.4397,
+   0.4365,
+   0.4318
+  ],
+  "cipher_labeled_lag_profile_1to6": [
+   0.1511,
+   0.2596,
+   0.3579,
+   0.2442,
+   0.2986,
+   0.2852
+  ],
+  "finding": "plaintext coda-class lag profile is FLAT (0.41-0.44, no spike); the cipher labeled stream has a SHARP lag-3 spike (0.36 vs 0.24-0.30). The z=+11.9 is elevation over Markov expectation in a flat profile (burstiness), NOT the cipher periodicity phenomenon."
+ },
+ "C1_noise_stability": {
+  "note": "NOT pre-registered; tests whether N43(c) 50%-purity noise can flip momentum sign.",
+  "method": "Tocqueville-T1 coda stream; 3 trials of random relabeling (keep w.p. 0.5 else random class); P2a recomputed.",
+  "true": {
+   "r1": 0.2698,
+   "r0": 0.3922,
+   "z": -43.5
+  },
+  "noisy_trials_z": [
+   -13.4,
+   -11.9,
+   -11.0
+  ],
+  "finding": "50%-purity noise ATTENUATES anti-momentum (z -43.5 -> ~-12) but does NOT flip its sign. The cipher positive momentum (z=+4.77) cannot arise from a coda-class anti-momentum process seen through random 50%-purity labeling. Sign flip would need a specific systematic-mislabeling story (none proposed)."
+ },
+ "C1_onset_variant_exploratory": {
+  "note": "NOT pre-registered; second natural 3-class concretization (onset sonority: VOW/SON/OBS).",
+  "tocqueville": {
+   "n": 417943,
+   "lag3_z": -5.85,
+   "lag_profile_1to6": [
+    0.3326,
+    0.3556,
+    0.3579,
+    0.362,
+    0.3619,
+    0.3597
+   ],
+   "momentum": {
+    "r1": 0.3358,
+    "n1": 144558,
+    "r0": 0.3564,
+    "n0": 134362,
+    "z": -11.4
+   }
+  },
+  "finding": "Onset-sonority columns DEAD: lag-3 BELOW Markov expectation (z=-5.85), flat profile, anti-momentum."
+ }
+}

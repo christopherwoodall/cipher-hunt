@@ -1,0 +1,92 @@
+{
+ "calibrated": {
+  "q_cycle": 0.5,
+  "T": 56
+ },
+ "seeds_done": {
+  "184201": {
+   "T": 56,
+   "q_cycle": 0.5,
+   "occurrence_chi2": 195.1,
+   "unsupervised_chi2": 9.0,
+   "keep_rate": 0.4236,
+   "n_islets": 6,
+   "crib_pair_offset": 305,
+   "chance_primary_mean": 0.02164,
+   "chance_primary_sd": 0.01539,
+   "chance_secondary_mean": 0.1687,
+   "chance_secondary_sd": 0.01737,
+   "oracle_decode_accuracy": 0.92579
+  },
+  "184202": {
+   "T": 56,
+   "q_cycle": 0.5,
+   "occurrence_chi2": 222.9,
+   "unsupervised_chi2": 336.4,
+   "keep_rate": 0.4701,
+   "n_islets": 6,
+   "crib_pair_offset": 194,
+   "chance_primary_mean": 0.0218,
+   "chance_primary_sd": 0.01512,
+   "chance_secondary_mean": 0.14283,
+   "chance_secondary_sd": 0.01711,
+   "oracle_decode_accuracy": 0.90141
+  },
+  "184203": {
+   "T": 56,
+   "q_cycle": 0.5,
+   "occurrence_chi2": 183.2,
+   "unsupervised_chi2": 211.0,
+   "keep_rate": 0.4471,
+   "n_islets": 6,
+   "crib_pair_offset": 229,
+   "chance_primary_mean": 0.02278,
+   "chance_primary_sd": 0.01596,
+   "chance_secondary_mean": 0.13347,
+   "chance_secondary_sd": 0.01716,
+   "oracle_decode_accuracy": 0.90303
+  },
+  "184204": {
+   "T": 56,
+   "q_cycle": 0.5,
+   "occurrence_chi2": 245.3,
+   "unsupervised_chi2": 5.1,
+   "keep_rate": 0.4733,
+   "n_islets": 6,
+   "crib_pair_offset": 190,
+   "chance_primary_mean": 0.02077,
+   "chance_primary_sd": 0.01503,
+   "chance_secondary_mean": 0.14046,
+   "chance_secondary_sd": 0.01516,
+   "oracle_decode_accuracy": 0.90683
+  },
+  "184206": {
+   "T": 56,
+   "q_cycle": 0.5,
+   "occurrence_chi2": 285.3,
+   "unsupervised_chi2": 48.4,
+   "keep_rate": 0.4711,
+   "n_islets": 6,
+   "crib_pair_offset": 44,
+   "chance_primary_mean": 0.02131,
+   "chance_primary_sd": 0.01542,
+   "chance_secondary_mean": 0.12341,
+   "chance_secondary_sd": 0.01754,
+   "oracle_decode_accuracy": 0.90249
+  },
+  "184207": {
+   "T": 56,
+   "q_cycle": 0.5,
+   "occurrence_chi2": 242.3,
+   "unsupervised_chi2": 587.6,
+   "keep_rate": 0.4571,
+   "n_islets": 6,
+   "crib_pair_offset": 184,
+   "chance_primary_mean": 0.02092,
+   "chance_primary_sd": 0.01502,
+   "chance_secondary_mean": 0.13375,
+   "chance_secondary_sd": 0.01681,
+   "oracle_decode_accuracy": 0.92524
+  }
+ }
+}

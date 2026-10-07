@@ -1,0 +1,475 @@
+{
+ "check": "16=\"i\"",
+ "B1": {
+  "n_fol": [
+   28,
+   11
+  ],
+  "cos_fol": 0.21,
+  "p_fol": 0.8374,
+  "jaccard_fol": 0.1111,
+  "n_pre": [
+   28,
+   11
+  ],
+  "cos_pre": 0.5307,
+  "p_pre": 0.9291,
+  "jaccard_pre": 0.1765,
+  "pass": false
+ },
+ "B2": {
+  "windows": [
+   {
+    "start": 381,
+    "left": [
+     "i"
+    ],
+    "right": [
+     "i"
+    ],
+    "multi_sample": [
+     [
+      "impose",
+      "po"
+     ],
+     [
+      "impos\u00e9",
+      "po"
+     ],
+     [
+      "amasse",
+      "as"
+     ],
+     [
+      "maison",
+      "ai"
+     ]
+    ],
+    "n_multi": 6
+   },
+   {
+    "start": 433,
+    "left": [],
+    "right": [
+     "e",
+     "i",
+     "o"
+    ],
+    "multi_sample": [
+     [
+      "mahomet",
+      "aho"
+     ]
+    ],
+    "n_multi": 1
+   },
+   {
+    "start": 536,
+    "left": [
+     "a",
+     "b",
+     "e",
+     "i",
+     "m",
+     "o",
+     "p",
+     "t",
+     "u"
+    ],
+    "right": [
+     "a",
+     "e",
+     "i",
+     "o",
+     "u"
+    ],
+    "multi_sample": [
+     [
+      "hommes",
+      "me"
+     ],
+     [
+      "nombre",
+      "br"
+     ],
+     [
+      "semble",
+      "bl"
+     ],
+     [
+      "chambre",
+      "br"
+     ]
+    ],
+    "n_multi": 355
+   },
+   {
+    "start": 1194,
+    "left": [],
+    "right": [],
+    "multi_sample": [],
+    "n_multi": 0
+   },
+   {
+    "start": 1197,
+    "left": [],
+    "right": [],
+    "multi_sample": [],
+    "n_multi": 0
+   },
+   {
+    "start": 1369,
+    "left": [
+     "a",
+     "b",
+     "e",
+     "i",
+     "m",
+     "o",
+     "p",
+     "t",
+     "u"
+    ],
+    "right": [
+     "a",
+     "e",
+     "i",
+     "o",
+     "u"
+    ],
+    "multi_sample": [
+     [
+      "hommes",
+      "me"
+     ],
+     [
+      "nombre",
+      "br"
+     ],
+     [
+      "semble",
+      "bl"
+     ],
+     [
+      "chambre",
+      "br"
+     ]
+    ],
+    "n_multi": 355
+   },
+   {
+    "start": 1386,
+    "left": [
+     "b",
+     "e",
+     "m"
+    ],
+    "right": [
+     "a",
+     "e"
+    ],
+    "multi_sample": [
+     [
+      "semble",
+      "bl"
+     ],
+     [
+      "semblent",
+      "bl"
+     ],
+     [
+      "semblable",
+      "blab"
+     ],
+     [
+      "sommes",
+      "me"
+     ]
+    ],
+    "n_multi": 24
+   },
+   {
+    "start": 1436,
+    "left": [
+     "b",
+     "e",
+     "m"
+    ],
+    "right": [
+     "a",
+     "e",
+     "i",
+     "o",
+     "u"
+    ],
+    "multi_sample": [
+     [
+      "semble",
+      "bl"
+     ],
+     [
+      "semblent",
+      "bl"
+     ],
+     [
+      "semblable",
+      "blab"
+     ],
+     [
+      "sommes",
+      "me"
+     ]
+    ],
+    "n_multi": 203
+   },
+   {
+    "start": 1479,
+    "left": [],
+    "right": [
+     "a",
+     "e",
+     "i",
+     "o",
+     "u"
+    ],
+    "multi_sample": [
+     [
+      "moins",
+      "oi"
+     ],
+     [
+      "m\u00eames",
+      "em"
+     ],
+     [
+      "monde",
+      "on"
+     ],
+     [
+      "mani\u00e8re",
+      "ani"
+     ]
+    ],
+    "n_multi": 191
+   },
+   {
+    "start": 1651,
+    "left": [
+     "a",
+     "b",
+     "e",
+     "i",
+     "m",
+     "o",
+     "p",
+     "t",
+     "u"
+    ],
+    "right": [
+     "a",
+     "e",
+     "i",
+     "o",
+     "u"
+    ],
+    "multi_sample": [
+     [
+      "hommes",
+      "me"
+     ],
+     [
+      "nombre",
+      "br"
+     ],
+     [
+      "semble",
+      "bl"
+     ],
+     [
+      "chambre",
+      "br"
+     ]
+    ],
+    "n_multi": 355
+   },
+   {
+    "start": 1831,
+    "left": [
+     "i"
+    ],
+    "right": [
+     "i"
+    ],
+    "multi_sample": [
+     [
+      "impose",
+      "po"
+     ],
+     [
+      "impos\u00e9",
+      "po"
+     ],
+     [
+      "amasse",
+      "as"
+     ],
+     [
+      "masses",
+      "as"
+     ]
+    ],
+    "n_multi": 4
+   }
+  ],
+  "tally_incl_1197": {
+   "i": 8,
+   "o": 6,
+   "e": 7,
+   "m": 5,
+   "p": 3,
+   "a": 6,
+   "t": 3,
+   "b": 5,
+   "u": 5
+  },
+  "i_windows": 8,
+  "best_rival_windows": 7,
+  "pass_incl_1197": true,
+  "tally_excl_1197": {
+   "i": 8,
+   "o": 6,
+   "e": 7,
+   "m": 5,
+   "p": 3,
+   "a": 6,
+   "t": 3,
+   "b": 5,
+   "u": 5
+  },
+  "i_windows_excl": 8,
+  "best_rival_excl": 7,
+  "pass_excl_1197": true,
+  "pass": true,
+  "audit_informative": {
+   "informative_windows": {
+    "381": {
+     "votes": [
+      "i"
+     ],
+     "note": "'i'-UNIQUE: admise/remise/chemise [ad|m|i|se] (L), miseres/misere/mises [m|i|se|..] (R)"
+    },
+    "433": {
+     "votes": [
+      "e",
+      "i",
+      "o"
+     ],
+     "note": "shared"
+    },
+    "1386": {
+     "votes_L": [
+      "b",
+      "e",
+      "m"
+     ],
+     "votes_R": [
+      "a",
+      "e"
+     ],
+     "note": "'i' excluded both shapes -- DISCOUNTED: lexicon coverage artifact ('miser' absent from 11,870-word lexicon)"
+    },
+    "1436": {
+     "votes_L": [
+      "b",
+      "e",
+      "m"
+     ],
+     "votes_R": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u"
+     ],
+     "note": "mixed"
+    },
+    "1479": {
+     "votes": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u"
+     ],
+     "note": "shared"
+    },
+    "1831": {
+     "votes": [
+      "i"
+     ],
+     "note": "'i'-UNIQUE: same mise/misere family as @381 (59->'se' islet-licensed)"
+    }
+   },
+   "uninformative_allfree": [
+    536,
+    1369,
+    1651
+   ],
+   "silent_arity": [
+    1194,
+    1197
+   ],
+   "tally_informative": {
+    "i": 5,
+    "e": 4,
+    "o": 3,
+    "a": 3,
+    "m": 2,
+    "b": 2,
+    "u": 2
+   },
+   "i_unique_windows": [
+    381,
+    1831
+   ],
+   "finding": "'i' is the UNIQUE fitter at 2/6 informative windows (@381,@1831, mise/misere family); plurality 5/6 informative (i:5, e:4, a:3, o:3); @1386 exclusion is a lexicon-coverage artifact, discounted not adverse; the 3 all-free windows and 2 arity-silent windows carry no discrimination. B2 support is REAL but THIN -- below promotion strength alone."
+  }
+ },
+ "B3": {
+  "n46_pre_16": 0,
+  "n16_fol_46": 0,
+  "hsplit_ok": true,
+  "frames": [
+   {
+    "kind": "fol",
+    "group": "29",
+    "n": 1,
+    "note": "16->29=er @1142 (62-16-29): '?|i|er' -- neutral"
+   },
+   {
+    "kind": "fol",
+    "group": "64",
+    "n": 1,
+    "note": "16->64=qui @1198 ('parmi|qui'): 'parmi qui' ungrammatical alone -- mild adverse to the PARMI word, not to 16='i'"
+   },
+   {
+    "kind": "fol",
+    "group": "77",
+    "n": 1,
+    "note": "neutral"
+   },
+   {
+    "kind": "fol",
+    "group": "96",
+    "n": 1,
+    "note": "16->96=par @1195 (82-16-96): 'mi|par' word boundary -- consistent"
+   }
+  ],
+  "n_distinct_frames": 4,
+  "adverse_vs_i": [],
+  "pass": true
+ },
+ "n_pass": 2,
+ "verdict": "HOLD",
+ "verdict_reason": "B2 meets the pre-registered bar mechanically (i=8/11, plurality) but the informativeness audit shows only 2 clean 'i'-unique windows (@381,@1831); B1 fails clean (p=0.84/0.93 -- no homophone-profile similarity, redirecting to an UNTESTED position-conditioned 16=word-final-/i/ rule); B3 passes but is weak (H-split consistency is necessary-not-sufficient). Two thin passes do not clear the promotion bar. 16='i' stays LEAD, strengthened."
+}

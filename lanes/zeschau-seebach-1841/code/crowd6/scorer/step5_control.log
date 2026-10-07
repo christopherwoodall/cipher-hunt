@@ -1,0 +1,9 @@
+[step5] calibrated: LAM_POLY=0.05 LAM_CONC=0.0003577
+[step5] truth on repaired objective: total=-1.4274 {'total': -1.4274, 's_let_proj': -2.6037, 'S_word': 0.3263, 's_ph': -0.7823, 'S_prior': 1.0, 'n_poly': 3, 'S_conc': -0.0, 'max_n_c': 2, 'lam_poly': 0.05, 'lam_conc': 0.00035767982693347755}
+[step5] restart 0: best=-2.7457 acc=0.933
+[step5] restart 1: best=-2.4450 acc=0.939
+[step5] restart 2: best=-2.4116 acc=0.938
+[step5] marginals (400 sweeps @ T=0.3)...
+[step5] random-20 baseline...
+[step5] verdict: CONTROL-FAIL  C1=True C2=False(0.000) C3=False(0/3) C4=False(pins 7/7, margin 0.92)
+[step5] wrote step5_control.json in 13.7 min

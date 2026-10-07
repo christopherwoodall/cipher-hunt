@@ -1,0 +1,57 @@
+{
+ "band": [
+  181.0,
+  320.0
+ ],
+ "method": "per-occurrence phase (pclasses) via deterministic rebuild, q_cycle=0.5, T=56; R7-fixed 2026-10-07",
+ "rows": [
+  {
+   "seed": 184201,
+   "occ_chi2_reported": 195.1,
+   "occ_chi2_recomputed": 195.1,
+   "recomputed_matches_reported": true,
+   "in_band": true,
+   "structural_ok": true
+  },
+  {
+   "seed": 184202,
+   "occ_chi2_reported": 222.9,
+   "occ_chi2_recomputed": 222.9,
+   "recomputed_matches_reported": true,
+   "in_band": true,
+   "structural_ok": true
+  },
+  {
+   "seed": 184203,
+   "occ_chi2_reported": 183.2,
+   "occ_chi2_recomputed": 183.2,
+   "recomputed_matches_reported": true,
+   "in_band": true,
+   "structural_ok": true
+  },
+  {
+   "seed": 184204,
+   "occ_chi2_reported": 245.3,
+   "occ_chi2_recomputed": 245.3,
+   "recomputed_matches_reported": true,
+   "in_band": true,
+   "structural_ok": true
+  },
+  {
+   "seed": 184207,
+   "occ_chi2_reported": 242.3,
+   "occ_chi2_recomputed": 242.3,
+   "recomputed_matches_reported": true,
+   "in_band": true,
+   "structural_ok": true
+  },
+  {
+   "seed": 184206,
+   "occ_chi2_reported": 285.3,
+   "occ_chi2_recomputed": 285.3,
+   "recomputed_matches_reported": true,
+   "in_band": true,
+   "structural_ok": true
+  }
+ ]
+}

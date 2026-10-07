@@ -1,0 +1,4 @@
+[baseline 184207] restart 0: best=-3.3311 acc=0.947 (177s)
+[baseline 184207] restart 1: best=-3.3264 acc=0.947 (329s)
+[baseline 184207] restart 2: best=-3.2898 acc=0.948 (484s)
+[baseline 184207] wrote asg-184207.json best=-3.2898 exact=-3.2898 in 8.1 min

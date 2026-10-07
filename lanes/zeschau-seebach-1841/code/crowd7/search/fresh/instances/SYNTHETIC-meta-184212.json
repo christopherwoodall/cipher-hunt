@@ -1,0 +1,57 @@
+{
+ "seed": 184212,
+ "synthetic": true,
+ "generator": "code/side-homophonic/control/generator.py",
+ "params_sealed": true,
+ "polyvalent_groups_sealed": true,
+ "anchors": {
+  "11": "la",
+  "70": "pre",
+  "82": "m",
+  "34": "i",
+  "29": "er",
+  "40": "e",
+  "46": "que"
+ },
+ "slice_word_offsets": [
+  40000,
+  44000
+ ],
+ "T_inventory_nominal": 56,
+ "T_inventory_effective": 51,
+ "n_pairs": 1846,
+ "n_groups": 96,
+ "keep_rate": 0.4605,
+ "n_polyvalent_islets": 6,
+ "occurrence_chi2": 248.0,
+ "unsupervised_chi2": 464.3,
+ "anchor_freqs_synthetic": {
+  "11": 85,
+  "70": 2,
+  "82": 1,
+  "34": 26,
+  "29": 4,
+  "40": 15,
+  "46": 40
+ },
+ "anchor_freqs_real_R5005": {
+  "11": 44,
+  "70": 15,
+  "82": 38,
+  "34": 10,
+  "29": 47,
+  "40": 21,
+  "46": 29
+ },
+ "truncated_mid_word": false,
+ "sha256": {
+  "SYNTHETIC-ct-184212.pairs.txt": "58eb238ac2cae7ee8e3ee3e0e3a0847a3f949f5eac9acc3ba696c701973f0753",
+  "SYNTHETIC-key-184212.json": "992a4e0de7d3443992c6ed8279e5323c4156a4f88d104f63802e020fb37c0552",
+  "SYNTHETIC-crib-184212.json": "d7997de3413af17527f243a2068896547ad45f830af0f4b11c04a664fbb46fb6"
+ },
+ "provenance": {
+  "plaintext": "data/gutenberg-17489-miserables1.txt (Les Miserables T1, 1862; sha256 in data/SHA256SUMS.txt)",
+  "syllabifier": "code/crowd2/scorer_smith.py syllabify + encipher_split (lane instruments)",
+  "group_labels": "identical 96 labels to R5005 (data/attempt1_results.json via load_pairs)"
+ }
+}

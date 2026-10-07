@@ -1,0 +1,209 @@
+{
+ "Metternich[29=er@2]": {
+  "n_bearing": 18,
+  "positions": [
+   110,
+   272,
+   372,
+   539,
+   778,
+   812,
+   1029,
+   1095,
+   1141,
+   1153,
+   1256,
+   1319,
+   1374,
+   1387,
+   1390
+  ],
+  "null_at_first": [
+   198,
+   11870
+  ],
+  "null_sample": [
+   "mani\u00e8re",
+   "g\u00e9n\u00e9ral",
+   "guerre",
+   "mati\u00e8re",
+   "dangers",
+   "exerce",
+   "enti\u00e8re",
+   "divers"
+  ],
+  "first_groups": [
+   "67",
+   "93",
+   "29",
+   "89"
+  ],
+  "first_cells": [
+   "met",
+   "t",
+   "er",
+   "nich"
+  ]
+ },
+ "Nesselrode[94=ne@0]": {
+  "n_bearing": 15,
+  "positions": [
+   65,
+   250,
+   651,
+   699,
+   762,
+   774,
+   785,
+   841,
+   1293,
+   1363,
+   1549,
+   1687,
+   1705,
+   1795,
+   1806
+  ],
+  "null_at_first": [
+   147,
+   11870
+  ],
+  "null_sample": [
+   "encore",
+   "n\u00e8gres",
+   "enti\u00e8re",
+   "ensuite",
+   "ensemble",
+   "ennemis",
+   "entier",
+   "enfants"
+  ],
+  "first_groups": [
+   "94",
+   "92",
+   "69",
+   "13",
+   "24"
+  ],
+  "first_cells": [
+   "ne",
+   "se",
+   "l",
+   "ro",
+   "de"
+  ]
+ },
+ "Ibrahim[34=i@0]": {
+  "n_bearing": 4,
+  "positions": [
+   28,
+   404,
+   1348,
+   1749
+  ],
+  "null_at_first": [
+   157,
+   11870
+  ],
+  "null_sample": [
+   "influence",
+   "int\u00e9r\u00eat",
+   "id\u00e9e",
+   "indiens",
+   "id\u00e9es",
+   "instant",
+   "indien",
+   "individu"
+  ],
+  "first_groups": [
+   "34",
+   "24",
+   "30",
+   "03"
+  ],
+  "first_cells": [
+   "i",
+   "b",
+   "ra",
+   "him"
+  ]
+ },
+ "Saxe[40=e@1]": {
+  "n_bearing": 8,
+  "positions": [
+   334,
+   751,
+   920,
+   942,
+   1237,
+   1398,
+   1556,
+   1745
+  ],
+  "null_at_first": [
+   502,
+   11870
+  ],
+  "null_sample": [
+   "de",
+   "le",
+   "que",
+   "ne",
+   "une",
+   "se",
+   "ce",
+   "m\u00eame"
+  ],
+  "first_groups": [
+   "88",
+   "40"
+  ],
+  "first_cells": [
+   "sax",
+   "e"
+  ]
+ },
+ "Mehemet-Ali[78=me@0]": {
+  "n_bearing": 10,
+  "positions": [
+   8,
+   443,
+   476,
+   573,
+   879,
+   982,
+   1105,
+   1164,
+   1670,
+   1758
+  ],
+  "null_at_first": [
+   33,
+   11870
+  ],
+  "null_sample": [
+   "membres",
+   "mesure",
+   "mettre",
+   "mesures",
+   "mexique",
+   "m\u00e9rite",
+   "membre",
+   "m\u00e9pris"
+  ],
+  "first_groups": [
+   "78",
+   "18",
+   "93",
+   "62",
+   "98"
+  ],
+  "first_cells": [
+   "me",
+   "he",
+   "met",
+   "a",
+   "li"
+  ]
+ }
+}

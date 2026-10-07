@@ -1,0 +1,94 @@
+{
+ "bars": {
+  "primary_mean": 0.2,
+  "primary_min": 0.1,
+  "secondary_mean": 0.3,
+  "secondary_min": 0.22,
+  "primary_5sigma": 0.098,
+  "secondary_5sigma": 0.227
+ },
+ "verdict": "CONTROL-FAIL",
+ "checks": [
+  {
+   "bar": "primary mean >= 0.20",
+   "pass": false,
+   "value": "0.0019"
+  },
+  {
+   "bar": "primary min >= 0.10",
+   "pass": false,
+   "value": "0.0000"
+  },
+  {
+   "bar": "secondary mean >= 0.30",
+   "pass": false,
+   "value": "0.1244"
+  },
+  {
+   "bar": "secondary min >= 0.22",
+   "pass": false,
+   "value": "0.1073"
+  },
+  {
+   "bar": "primary mean >= μ+5σ (0.098)",
+   "pass": false,
+   "value": "0.0019"
+  },
+  {
+   "bar": "secondary mean >= μ+5σ (0.227)",
+   "pass": false,
+   "value": "0.1244"
+  }
+ ],
+ "diagnostics": {
+  "primary_per_instance": [
+   0.0,
+   0.0,
+   0.0,
+   0.0112,
+   0.0,
+   0.0
+  ],
+  "secondary_per_instance": [
+   0.1473,
+   0.1241,
+   0.1073,
+   0.1387,
+   0.1203,
+   0.1089
+  ],
+  "proj_equiv_per_instance": [
+   0.0,
+   0.0225,
+   0.0,
+   0.0112,
+   0.0337,
+   0.0112
+  ],
+  "pins_intact_per_instance": [
+   7,
+   7,
+   7,
+   7,
+   7,
+   7
+  ],
+  "islets_ok_per_instance": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "mrr_per_instance": [
+   0.0262,
+   0.0169,
+   0.0112,
+   0.015,
+   0.0275,
+   0.015
+  ]
+ },
+ "date": "2026-10-07T18:32:27Z"
+}

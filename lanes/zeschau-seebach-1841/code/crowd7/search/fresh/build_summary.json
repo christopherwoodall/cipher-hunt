@@ -1,0 +1,81 @@
+{
+ "seeds": [
+  184207,
+  184208,
+  184209,
+  184210,
+  184211,
+  184212
+ ],
+ "q_cycle": 0.5,
+ "T": 56,
+ "chi2_band": [
+  181.0,
+  320.0
+ ],
+ "instances": {
+  "184206": {
+   "occurrence_chi2": 172.6,
+   "unsupervised_chi2": 3.9,
+   "keep_rate": 0.4606,
+   "n_islets": 6,
+   "crib_pair_offset": 168,
+   "T_eff": 55,
+   "in_band": false
+  },
+  "184207": {
+   "occurrence_chi2": 222.0,
+   "unsupervised_chi2": 118.1,
+   "keep_rate": 0.4679,
+   "n_islets": 6,
+   "crib_pair_offset": 24,
+   "T_eff": 55,
+   "in_band": true
+  },
+  "184208": {
+   "occurrence_chi2": 188.2,
+   "unsupervised_chi2": 0.8,
+   "keep_rate": 0.472,
+   "n_islets": 6,
+   "crib_pair_offset": 191,
+   "T_eff": 53,
+   "in_band": true
+  },
+  "184209": {
+   "occurrence_chi2": 302.4,
+   "unsupervised_chi2": 5.8,
+   "keep_rate": 0.4754,
+   "n_islets": 6,
+   "crib_pair_offset": 221,
+   "T_eff": 55,
+   "in_band": true
+  },
+  "184210": {
+   "occurrence_chi2": 275.6,
+   "unsupervised_chi2": 11.7,
+   "keep_rate": 0.4738,
+   "n_islets": 6,
+   "crib_pair_offset": 204,
+   "T_eff": 55,
+   "in_band": true
+  },
+  "184211": {
+   "occurrence_chi2": 239.0,
+   "unsupervised_chi2": 1.9,
+   "keep_rate": 0.4839,
+   "n_islets": 6,
+   "crib_pair_offset": 17,
+   "T_eff": 54,
+   "in_band": true
+  },
+  "184212": {
+   "occurrence_chi2": 248.0,
+   "unsupervised_chi2": 464.3,
+   "keep_rate": 0.4605,
+   "n_islets": 6,
+   "crib_pair_offset": 425,
+   "T_eff": 51,
+   "in_band": true
+  }
+ }
+}

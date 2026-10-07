@@ -8,7 +8,8 @@ slopes away, they don't.
 import sys, os, json, time, random, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from models import get_models
-from objective import RepairedModel, PINS, LAM_WORD, LAM_ROT, BETA_PROV, CONC_CAP, N_GRAM
+from objective import RepairedModel, PINS, CONC_CAP, N_GRAM
+LAM_WORD, LAM_ROT, BETA_PROV = 1.0, 0.0, 0.2
 
 t0 = time.time()
 def log(*a):
@@ -21,7 +22,7 @@ HINTS = GT['hints']
 BLOCK = {g: v['phase'] for g, v in GT['group_info'].items()}
 GI = GT['group_info']
 
-CAL = json.load(open('step4_ablate.json'))
+CAL = json.load(open('step4_calibrated.json'))
 LAM_POLY = CAL['LAM_POLY']
 LAM_CONC = CAL['LAM_CONC']
 log('LAM_POLY=%.4g LAM_CONC=%.4g' % (LAM_POLY, LAM_CONC))
@@ -38,7 +39,7 @@ def make_from_key(v1, v2, w2, seed):
     m = RepairedModel(GS, BLOCK, M['LP_PROJ'], PINS, HINTS, M['CELLS'],
                       M['WEIGHTS'], M['AC'], lam_poly=LAM_POLY,
                       lam_conc=LAM_CONC, lam_word=LAM_WORD, lam_rot=LAM_ROT,
-                      beta_prov=BETA_PROV, conc_cap=CONC_CAP, n=N_GRAM,
+                      conc_cap=CONC_CAP, n=N_GRAM,
                       rng=random.Random(seed))
     for g in GI:
         m.v1[g] = v1[g]

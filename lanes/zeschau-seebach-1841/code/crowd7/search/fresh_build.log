@@ -1,0 +1,54 @@
+lesmis tokens=119659 real groups=96
+seed 184201: T=56->T_eff=54 occ_chi2=195.1 unsup_chi2=9.0 keep=42.36% islets=6 crib@305 repaired=0
+seed 184201: occurrence_chi2=195.1 in_band[181,320]=True keep=0.424 islets=6 crib@305
+seed 184202: T=56->T_eff=55 occ_chi2=222.9 unsup_chi2=336.4 keep=47.01% islets=6 crib@194 repaired=0
+seed 184202: occurrence_chi2=222.9 in_band[181,320]=True keep=0.470 islets=6 crib@194
+seed 184203: T=56->T_eff=53 occ_chi2=183.2 unsup_chi2=211.0 keep=44.71% islets=6 crib@229 repaired=0
+seed 184203: occurrence_chi2=183.2 in_band[181,320]=True keep=0.447 islets=6 crib@229
+seed 184204: T=56->T_eff=55 occ_chi2=245.3 unsup_chi2=5.1 keep=47.33% islets=6 crib@190 repaired=0
+seed 184204: occurrence_chi2=245.3 in_band[181,320]=True keep=0.473 islets=6 crib@190
+seed 184205: T=56->T_eff=52 occ_chi2=329.5 unsup_chi2=13.1 keep=45.54% islets=6 crib@187 repaired=0
+seed 184205: occurrence_chi2=329.5 in_band[181,320]=False keep=0.455 islets=6 crib@187
+Traceback (most recent call last):
+  File "/home/hatch/workspace/cipher-hunt/lanes/zeschau-seebach-1841/code/crowd7/search/build_fresh.py", line 47, in <module>
+    assert inband, 'fresh instance %d fails the certified chi2 band' % seed
+           ^^^^^^
+AssertionError: fresh instance 184205 fails the certified chi2 band
+lesmis tokens=119659 real groups=96
+seed 184201: already built, skipping
+seed 184202: already built, skipping
+seed 184203: already built, skipping
+seed 184204: already built, skipping
+seed 184206: T=56->T_eff=55 occ_chi2=172.6 unsup_chi2=3.9 keep=46.06% islets=6 crib@168 repaired=0
+seed 184206: occurrence_chi2=172.6 in_band[181,320]=False keep=0.461 islets=6 crib@168
+Traceback (most recent call last):
+  File "/home/hatch/workspace/cipher-hunt/lanes/zeschau-seebach-1841/code/crowd7/search/build_fresh.py", line 59, in <module>
+    assert inband, 'fresh instance %d fails the certified chi2 band' % seed
+           ^^^^^^
+AssertionError: fresh instance 184206 fails the certified chi2 band
+Traceback (most recent call last):
+  File "/home/hatch/workspace/cipher-hunt/lanes/zeschau-seebach-1841/code/crowd7/search/build_fresh.py", line 32, in <module>
+    p['seeds'] = list(FRESH_SEEDS)
+                      ^^^^^^^^^^^
+NameError: name 'FRESH_SEEDS' is not defined
+lesmis tokens=119659 real groups=96
+seed 184201: already built, OUT of band, rejected
+seed 184202: already built, OUT of band, rejected
+seed 184203: already built, OUT of band, rejected
+seed 184204: already built, OUT of band, rejected
+seed 184206: T=56->T_eff=55 occ_chi2=172.6 unsup_chi2=3.9 keep=46.06% islets=6 crib@168 repaired=0
+seed 184206: occurrence_chi2=172.6 in_band[181,320]=False keep=0.461 islets=6 crib@168
+seed 184207: T=56->T_eff=55 occ_chi2=222.0 unsup_chi2=118.1 keep=46.79% islets=6 crib@24 repaired=0
+seed 184207: occurrence_chi2=222.0 in_band[181,320]=True keep=0.468 islets=6 crib@24
+seed 184208: T=56->T_eff=53 occ_chi2=188.2 unsup_chi2=0.8 keep=47.20% islets=6 crib@191 repaired=1
+seed 184208: occurrence_chi2=188.2 in_band[181,320]=True keep=0.472 islets=6 crib@191
+seed 184209: T=56->T_eff=55 occ_chi2=302.4 unsup_chi2=5.8 keep=47.54% islets=6 crib@221 repaired=0
+seed 184209: occurrence_chi2=302.4 in_band[181,320]=True keep=0.475 islets=6 crib@221
+seed 184210: T=56->T_eff=55 occ_chi2=275.6 unsup_chi2=11.7 keep=47.38% islets=6 crib@204 repaired=0
+seed 184210: occurrence_chi2=275.6 in_band[181,320]=True keep=0.474 islets=6 crib@204
+seed 184211: T=56->T_eff=54 occ_chi2=239.0 unsup_chi2=1.9 keep=48.39% islets=6 crib@17 repaired=0
+seed 184211: occurrence_chi2=239.0 in_band[181,320]=True keep=0.484 islets=6 crib@17
+seed 184212: T=56->T_eff=51 occ_chi2=248.0 unsup_chi2=464.3 keep=46.05% islets=6 crib@425 repaired=0
+seed 184212: occurrence_chi2=248.0 in_band[181,320]=True keep=0.461 islets=6 crib@425
+FRESH_SEEDS = [184207, 184208, 184209, 184210, 184211, 184212]
+wrote 7 fresh instances to /home/hatch/workspace/cipher-hunt/lanes/zeschau-seebach-1841/code/crowd7/search/fresh/instances

@@ -1,0 +1,427 @@
+{
+ "rules": {
+  "R_et1": "pre in {06,86} (M1 stem frames)",
+  "R_et2": "suc == 64 (qui) \u2014 \"et qui\" era 99 vs \"veut qui\" 0",
+  "R_et3": "pre2 in {06,86} and pre == 29 (infinitive formula)",
+  "R_et4": "suc == 11 (la) \u2014 era \"et la\"=196 vs \"veut la\"=0; trigrams clean",
+  "R_et5": "suc == 77 (le) \u2014 era \"et le\"=185 vs \"veut le\"=2 (both non-clitic); FENCED: not when pre in {21,11}",
+  "R_et6": "suc == 96 (par) \u2014 era \"et par\"=38 vs \"veut par\"=1 (instrumental, unfitting); n=1",
+  "R_veut1": "pre == 21 \u2014 rests on 21=\"le/les\" lead; era \"le veut\"=2 vs \"le et\"=0",
+  "R_veut2": "suc == 78 \u2014 \"veut me\"-syllable frames (round-5/6)",
+  "R_veut3": "pre == 11 (la) \u2014 \"la veut\" era-attested; \"la et\"=0"
+ },
+ "n": 38,
+ "tally": {
+  "veut": 11,
+  "et": 18,
+  "open": 9
+ },
+ "rows": [
+  {
+   "pos": 110,
+   "class": "veut",
+   "et_rules": [],
+   "veut_rules": [
+    "R_veut1"
+   ],
+   "pre": "21",
+   "suc": "93"
+  },
+  {
+   "pos": 116,
+   "class": "veut",
+   "et_rules": [],
+   "veut_rules": [
+    "R_veut1"
+   ],
+   "pre": "21",
+   "suc": "14"
+  },
+  {
+   "pos": 143,
+   "class": "et",
+   "et_rules": [
+    "R_et2"
+   ],
+   "veut_rules": [],
+   "pre": "74",
+   "suc": "64"
+  },
+  {
+   "pos": 199,
+   "class": "open",
+   "et_rules": [],
+   "veut_rules": [],
+   "pre": "08",
+   "suc": "76"
+  },
+  {
+   "pos": 272,
+   "class": "et",
+   "et_rules": [
+    "R_et1"
+   ],
+   "veut_rules": [],
+   "pre": "06",
+   "suc": "33"
+  },
+  {
+   "pos": 351,
+   "class": "veut",
+   "et_rules": [],
+   "veut_rules": [
+    "R_veut2"
+   ],
+   "pre": "74",
+   "suc": "78"
+  },
+  {
+   "pos": 394,
+   "class": "et",
+   "et_rules": [
+    "R_et2"
+   ],
+   "veut_rules": [],
+   "pre": "34",
+   "suc": "64"
+  },
+  {
+   "pos": 471,
+   "class": "et",
+   "et_rules": [
+    "R_et1"
+   ],
+   "veut_rules": [],
+   "pre": "06",
+   "suc": "46"
+  },
+  {
+   "pos": 491,
+   "class": "veut",
+   "et_rules": [],
+   "veut_rules": [
+    "R_veut2"
+   ],
+   "pre": "20",
+   "suc": "78"
+  },
+  {
+   "pos": 506,
+   "class": "veut",
+   "et_rules": [],
+   "veut_rules": [
+    "R_veut1"
+   ],
+   "pre": "21",
+   "suc": "77"
+  },
+  {
+   "pos": 561,
+   "class": "et",
+   "et_rules": [
+    "R_et4"
+   ],
+   "veut_rules": [],
+   "pre": "30",
+   "suc": "11"
+  },
+  {
+   "pos": 630,
+   "class": "open",
+   "et_rules": [],
+   "veut_rules": [],
+   "pre": "78",
+   "suc": "08"
+  },
+  {
+   "pos": 633,
+   "class": "open",
+   "et_rules": [],
+   "veut_rules": [],
+   "pre": "52",
+   "suc": "63"
+  },
+  {
+   "pos": 638,
+   "class": "et",
+   "et_rules": [
+    "R_et5"
+   ],
+   "veut_rules": [],
+   "pre": "60",
+   "suc": "77"
+  },
+  {
+   "pos": 669,
+   "class": "et",
+   "et_rules": [
+    "R_et4"
+   ],
+   "veut_rules": [],
+   "pre": "20",
+   "suc": "11"
+  },
+  {
+   "pos": 743,
+   "class": "et",
+   "et_rules": [
+    "R_et5"
+   ],
+   "veut_rules": [],
+   "pre": "30",
+   "suc": "77"
+  },
+  {
+   "pos": 753,
+   "class": "et",
+   "et_rules": [
+    "R_et4"
+   ],
+   "veut_rules": [],
+   "pre": "40",
+   "suc": "11"
+  },
+  {
+   "pos": 851,
+   "class": "veut",
+   "et_rules": [],
+   "veut_rules": [
+    "R_veut1"
+   ],
+   "pre": "21",
+   "suc": "91"
+  },
+  {
+   "pos": 902,
+   "class": "open",
+   "et_rules": [],
+   "veut_rules": [],
+   "pre": "92",
+   "suc": "16"
+  },
+  {
+   "pos": 959,
+   "class": "et",
+   "et_rules": [
+    "R_et6"
+   ],
+   "veut_rules": [],
+   "pre": "20",
+   "suc": "96"
+  },
+  {
+   "pos": 996,
+   "class": "et",
+   "et_rules": [
+    "R_et4"
+   ],
+   "veut_rules": [],
+   "pre": "60",
+   "suc": "11"
+  },
+  {
+   "pos": 1045,
+   "class": "veut",
+   "et_rules": [],
+   "veut_rules": [
+    "R_veut3"
+   ],
+   "pre": "11",
+   "suc": "76"
+  },
+  {
+   "pos": 1098,
+   "class": "et",
+   "et_rules": [
+    "R_et3"
+   ],
+   "veut_rules": [],
+   "pre": "29",
+   "suc": "86"
+  },
+  {
+   "pos": 1148,
+   "class": "et",
+   "et_rules": [
+    "R_et1"
+   ],
+   "veut_rules": [],
+   "pre": "86",
+   "suc": "33"
+  },
+  {
+   "pos": 1163,
+   "class": "veut",
+   "et_rules": [],
+   "veut_rules": [
+    "R_veut1",
+    "R_veut2"
+   ],
+   "pre": "21",
+   "suc": "78"
+  },
+  {
+   "pos": 1239,
+   "class": "et",
+   "et_rules": [
+    "R_et5"
+   ],
+   "veut_rules": [],
+   "pre": "40",
+   "suc": "77"
+  },
+  {
+   "pos": 1248,
+   "class": "open",
+   "et_rules": [],
+   "veut_rules": [],
+   "pre": "00",
+   "suc": "46"
+  },
+  {
+   "pos": 1372,
+   "class": "open",
+   "et_rules": [],
+   "veut_rules": [],
+   "pre": "91",
+   "suc": "98"
+  },
+  {
+   "pos": 1390,
+   "class": "et",
+   "et_rules": [
+    "R_et3"
+   ],
+   "veut_rules": [],
+   "pre": "29",
+   "suc": "86"
+  },
+  {
+   "pos": 1400,
+   "class": "et",
+   "et_rules": [
+    "R_et5"
+   ],
+   "veut_rules": [],
+   "pre": "40",
+   "suc": "77"
+  },
+  {
+   "pos": 1423,
+   "class": "veut",
+   "et_rules": [],
+   "veut_rules": [
+    "R_veut1"
+   ],
+   "pre": "21",
+   "suc": "33"
+  },
+  {
+   "pos": 1450,
+   "class": "open",
+   "et_rules": [],
+   "veut_rules": [],
+   "pre": "36",
+   "suc": "33"
+  },
+  {
+   "pos": 1457,
+   "class": "veut",
+   "et_rules": [],
+   "veut_rules": [
+    "R_veut1"
+   ],
+   "pre": "21",
+   "suc": "86"
+  },
+  {
+   "pos": 1476,
+   "class": "et",
+   "et_rules": [
+    "R_et1"
+   ],
+   "veut_rules": [],
+   "pre": "06",
+   "suc": "33"
+  },
+  {
+   "pos": 1519,
+   "class": "open",
+   "et_rules": [],
+   "veut_rules": [],
+   "pre": "91",
+   "suc": "08"
+  },
+  {
+   "pos": 1597,
+   "class": "et",
+   "et_rules": [
+    "R_et5"
+   ],
+   "veut_rules": [],
+   "pre": "80",
+   "suc": "77"
+  },
+  {
+   "pos": 1623,
+   "class": "open",
+   "et_rules": [],
+   "veut_rules": [],
+   "pre": "66",
+   "suc": "33"
+  },
+  {
+   "pos": 1842,
+   "class": "veut",
+   "et_rules": [],
+   "veut_rules": [
+    "R_veut1",
+    "R_veut2"
+   ],
+   "pre": "21",
+   "suc": "78"
+  }
+ ],
+ "fences": {
+  "R_et5_fence": "does not fire when pre in {21,11} (veut pre-markers). At @506 (pre=21 AND suc=77): under the standing 21=\"le/les\" lead, \"le et\"/\"les et\"=0 is a GRAMMATICAL kill of et, outranking the statistical suc==77 leg (185:2); the fork is binary, so 506=veut. Era \"le veut le\"=1 (boundary-mediated \"s'il le veut, le rejeter\"). The residual trigram strain (\"le veut le 62\") is a frame-parse problem (77/62/21 all provisional-or-lead), not a classification problem.",
+  "506_resolution": "veut (pre-marker priority, principled: grammatical kill outranks statistical preference; binary fork; no status change vs round-6)."
+ },
+ "era_legs": {
+  "et_la": [
+   196,
+   0
+  ],
+  "et_le": [
+   185,
+   2
+  ],
+  "et_par": [
+   38,
+   1
+  ],
+  "la_et": [
+   0,
+   0
+  ],
+  "la_veut": [
+   0,
+   1
+  ],
+  "le_veut": [
+   2,
+   0
+  ],
+  "le_et": [
+   0,
+   0
+  ],
+  "et_la_premiere_tri": [
+   1,
+   0
+  ],
+  "et_la_INF_tri": [
+   1,
+   0
+  ]
+ }
+}

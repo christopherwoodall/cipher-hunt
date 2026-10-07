@@ -1,0 +1,22 @@
+q_cycle=0.0 (scrubbed) T=56 seeds=[184213, 184214, 184215, 184216, 184217, 184218]
+seed 184213: T=56->T_eff=53 occ_chi2=6.4 unsup_chi2=18.6 keep=42.21% islets=6 crib@289 repaired=0
+  seed 184213: occ_chi2=6.4 (scrub target: noise floor ~4) oracle=0.9041
+seed 184214: T=56->T_eff=56 occ_chi2=0.8 unsup_chi2=8.6 keep=47.01% islets=6 crib@200 repaired=0
+  seed 184214: occ_chi2=0.8 (scrub target: noise floor ~4) oracle=0.9285
+seed 184215: T=56->T_eff=56 occ_chi2=8.8 unsup_chi2=12.9 keep=44.34% islets=6 crib@228 repaired=0
+  seed 184215: occ_chi2=8.8 (scrub target: noise floor ~4) oracle=0.9144
+seed 184216: T=56->T_eff=56 occ_chi2=1.3 unsup_chi2=222.5 keep=47.10% islets=6 crib@195 repaired=0
+  seed 184216: occ_chi2=1.3 (scrub target: noise floor ~4) oracle=0.9112
+seed 184217: T=56->T_eff=53 occ_chi2=2.6 unsup_chi2=35.6 keep=45.91% islets=6 crib@171 repaired=0
+  seed 184217: occ_chi2=2.6 (scrub target: noise floor ~4) oracle=0.9187
+seed 184218: T=56->T_eff=54 occ_chi2=3.8 unsup_chi2=26.6 keep=46.61% islets=6 crib@62 repaired=0
+  seed 184218: occ_chi2=3.8 (scrub target: noise floor ~4) oracle=0.9193
+
+=== SCRUB VERIFICATION ===
+  184213: pairs=1846 groups=96 crib_hits=1 occ_chi2=6.4 -> SCRUBBED struct=True
+  184214: pairs=1846 groups=96 crib_hits=1 occ_chi2=0.8 -> SCRUBBED struct=True
+  184215: pairs=1846 groups=96 crib_hits=1 occ_chi2=8.8 -> SCRUBBED struct=True
+  184216: pairs=1846 groups=96 crib_hits=1 occ_chi2=1.3 -> SCRUBBED struct=True
+  184217: pairs=1846 groups=96 crib_hits=1 occ_chi2=2.6 -> SCRUBBED struct=True
+  184218: pairs=1846 groups=96 crib_hits=1 occ_chi2=3.8 -> SCRUBBED struct=True
+ABLATION SET: OK - rhythm scrubbed on all 6

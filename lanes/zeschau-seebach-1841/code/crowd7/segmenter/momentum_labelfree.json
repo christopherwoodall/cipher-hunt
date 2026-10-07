@@ -1,0 +1,61 @@
+{
+ "fit": {
+  "trainLL": -4962.13,
+  "best_restart": 8,
+  "A": [
+   [
+    0.0856,
+    0.2098,
+    0.7046
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.6721,
+    0.3279
+   ]
+  ]
+ },
+ "gate_B0": {
+  "max_abs_diff_vs_round6": 0.000429,
+  "pass": true
+ },
+ "guard_B1": {
+  "cycle": "0->2->1->0",
+  "fwd_mass": 2.377,
+  "rev_mass": 0.21,
+  "ratio": 11.33,
+  "pass": true
+ },
+ "momentum_heldout": {
+  "r1": 0.7729,
+  "n1": 480,
+  "r0": 1.0,
+  "n0": 49,
+  "z": -3.7436,
+  "p_one_sided": 0.9999
+ },
+ "guard_B2": {
+  "n1": 480,
+  "n0": 49,
+  "pass": false
+ },
+ "permutation_null": {
+  "n_perm": 2000,
+  "empirical_p_one_sided": 1.0,
+  "obs_diff": -0.2271
+ },
+ "labeled_reference_testsplit": {
+  "r1": 0.6245,
+  "n1": 253,
+  "r0": 0.4656,
+  "n0": 131,
+  "z": 2.9813,
+  "p_one_sided": 0.0014
+ },
+ "verdict": "INCONCLUSIVE (underpowered)"
+}

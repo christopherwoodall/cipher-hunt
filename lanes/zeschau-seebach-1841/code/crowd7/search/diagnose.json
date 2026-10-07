@@ -1,0 +1,24 @@
+{
+ "seed": "184207",
+ "truth_total": -3.5269,
+ "truth_components": {
+  "total": -3.5269,
+  "s_let_proj": -3.3521,
+  "S_word": 0.1252,
+  "s_ph": -0.0841,
+  "S_prior": 0,
+  "n_poly": 6,
+  "S_conc": -0.0,
+  "max_n_c": 3,
+  "lam_poly": 0.05,
+  "lam_conc": 0.00035767982693347755
+ },
+ "truth_max_n_c": 3,
+ "truth_S_conc": -0.0,
+ "missing_primaries": [],
+ "groups_missing": 0,
+ "random20_max": -3.2998,
+ "random20_mean": -3.3464,
+ "quick_sa_best": -3.2857,
+ "gap": -0.2412
+}

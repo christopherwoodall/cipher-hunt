@@ -408,6 +408,9 @@ class RepairedModel(JointModel):
     def revert(self, snap):
         for g, (a, b, w) in snap['key'].items():
             self.v1[g], self.v2[g], self.w2[g] = a, b, w
+        # keep the parent's n_poly attribute in sync (propose_move maintains
+        # it; total() computes it fresh, but external code reads the attr)
+        self.n_poly = sum(1 for g in self.groups if self.v2[g] is not None)
         # pass 1: restore pcell + counters (no scoring yet — histories would
         # be wrong mid-restore)
         for t, v in snap['pcell'].items():

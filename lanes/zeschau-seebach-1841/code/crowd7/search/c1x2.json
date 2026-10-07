@@ -1,0 +1,16 @@
+{
+ "184208": {
+  "truth": -3.5818,
+  "truth_S_word": 0.1267,
+  "truth_n_poly": 6,
+  "random5_max": -3.3044,
+  "random5_mean": -3.3387
+ },
+ "184209": {
+  "truth": -3.5727,
+  "truth_S_word": 0.111,
+  "truth_n_poly": 6,
+  "random5_max": -3.331,
+  "random5_mean": -3.3522
+ }
+}

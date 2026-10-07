@@ -1,0 +1,25 @@
+{
+ "seed": 184211,
+ "synthetic": true,
+ "note": "Crib facts disclosed to the solver (mirrors the erased-pencil cribs of R5005).",
+ "anchors": {
+  "11": "la",
+  "70": "pre",
+  "82": "m",
+  "34": "i",
+  "29": "er",
+  "40": "e",
+  "46": "que"
+ },
+ "crib_phrase_cells": [
+  "la",
+  "pre",
+  "m",
+  "i",
+  "er",
+  "e"
+ ],
+ "crib_word_offset": 400,
+ "crib_pair_offset": 17,
+ "natural_premiere_scrubbed": 1
+}

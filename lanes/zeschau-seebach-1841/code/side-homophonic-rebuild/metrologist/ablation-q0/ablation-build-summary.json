@@ -1,0 +1,130 @@
+{
+ "q_cycle": 0.0,
+ "T": 56,
+ "seeds": [
+  184213,
+  184214,
+  184215,
+  184216,
+  184217,
+  184218
+ ],
+ "purpose": "phase-rhythm ablation: q_cycle=0 scrubs the occurrence-phase rotation. The rebuilt solver must beat the bar on the fresh q=0.5 set WITHOUT depending on the rhythm (see FINDINGS.md).",
+ "generator": "code/side-homophonic-rebuild/control/generator.py (byte-identical to frozen except seed list)",
+ "instances": {
+  "184213": {
+   "T": 56,
+   "q_cycle": 0.0,
+   "occurrence_chi2": 6.4,
+   "unsupervised_chi2": 18.6,
+   "keep_rate": 0.4221,
+   "n_islets": 6,
+   "crib_pair_offset": 289,
+   "chance_primary_mean": 0.02195,
+   "chance_primary_sd": 0.01568,
+   "chance_secondary_mean": 0.16819,
+   "chance_secondary_sd": 0.0171,
+   "oracle_decode_accuracy": 0.90412,
+   "sha256": {
+    "SYNTHETIC-ct-184213.pairs.txt": "850a6203d507c9bd605ad99c93cc93ee49cfa2d8e832f02769f7a5b451157ab2",
+    "SYNTHETIC-key-184213.json": "ca6a488fa5b6ad818cb544e52cdc559d957c9c9b31eb15975feb68b0fa10a215",
+    "SYNTHETIC-crib-184213.json": "df666944e721cc337e507fc994c7d173767f04220d26603705c355af7686fef1"
+   }
+  },
+  "184214": {
+   "T": 56,
+   "q_cycle": 0.0,
+   "occurrence_chi2": 0.8,
+   "unsupervised_chi2": 8.6,
+   "keep_rate": 0.4701,
+   "n_islets": 6,
+   "crib_pair_offset": 200,
+   "chance_primary_mean": 0.02134,
+   "chance_primary_sd": 0.01519,
+   "chance_secondary_mean": 0.14569,
+   "chance_secondary_sd": 0.01673,
+   "oracle_decode_accuracy": 0.92849,
+   "sha256": {
+    "SYNTHETIC-ct-184214.pairs.txt": "0780b933899a7157136dfe3bec14b69a0e95ca24832446e7dff5163448e15b8a",
+    "SYNTHETIC-key-184214.json": "96db1cd037c42a5b86ce3c233e32746670ca7ea9b728583fd876048f7eb8994b",
+    "SYNTHETIC-crib-184214.json": "fba4447af7e1f870d727b0f54ed1aee88e167ecd13e780fab895f6bbcf7aecea"
+   }
+  },
+  "184215": {
+   "T": 56,
+   "q_cycle": 0.0,
+   "occurrence_chi2": 8.8,
+   "unsupervised_chi2": 12.9,
+   "keep_rate": 0.4434,
+   "n_islets": 6,
+   "crib_pair_offset": 228,
+   "chance_primary_mean": 0.02139,
+   "chance_primary_sd": 0.01534,
+   "chance_secondary_mean": 0.13349,
+   "chance_secondary_sd": 0.01736,
+   "oracle_decode_accuracy": 0.91441,
+   "sha256": {
+    "SYNTHETIC-ct-184215.pairs.txt": "1233cf4991a95b427643ddaeb0c3ae9a820e4afbab508087b3c545df12fb3345",
+    "SYNTHETIC-key-184215.json": "ea9b3ddbcf7a059620039a90fa079680ebff8cd28ec13f6cfbb5b6a3d212d85d",
+    "SYNTHETIC-crib-184215.json": "a3c95cb6822871c9c1278accb5055b16d7d02f837f0529232a407c5a229e5054"
+   }
+  },
+  "184216": {
+   "T": 56,
+   "q_cycle": 0.0,
+   "occurrence_chi2": 1.3,
+   "unsupervised_chi2": 222.5,
+   "keep_rate": 0.471,
+   "n_islets": 6,
+   "crib_pair_offset": 195,
+   "chance_primary_mean": 0.02043,
+   "chance_primary_sd": 0.01533,
+   "chance_secondary_mean": 0.13833,
+   "chance_secondary_sd": 0.01584,
+   "oracle_decode_accuracy": 0.91116,
+   "sha256": {
+    "SYNTHETIC-ct-184216.pairs.txt": "35d2b852f8066e52688c27a24983a284e0f0b14a94e0f42ee16a07a00dc660fe",
+    "SYNTHETIC-key-184216.json": "82d614d118304a23494268d67690ccce36b9535dcf1a9852234becb99f42fe48",
+    "SYNTHETIC-crib-184216.json": "a1bacba234befbea687c910313d7deed6c676425ecf1200dd72eaa331530e631"
+   }
+  },
+  "184217": {
+   "T": 56,
+   "q_cycle": 0.0,
+   "occurrence_chi2": 2.6,
+   "unsupervised_chi2": 35.6,
+   "keep_rate": 0.4591,
+   "n_islets": 6,
+   "crib_pair_offset": 171,
+   "chance_primary_mean": 0.02167,
+   "chance_primary_sd": 0.01549,
+   "chance_secondary_mean": 0.13447,
+   "chance_secondary_sd": 0.01599,
+   "oracle_decode_accuracy": 0.91874,
+   "sha256": {
+    "SYNTHETIC-ct-184217.pairs.txt": "9bb29a5136dc948abf43f065a494244e6b97b4e990dd74231a316399d71124c4",
+    "SYNTHETIC-key-184217.json": "38ed07fad389cae14366c31c3279e5e11ffaf28c80ac8a45d7d793c879348814",
+    "SYNTHETIC-crib-184217.json": "b9262f5e64b33c18ec99d51e32b3e842c7558b22200561fedf283dbf48eae2d5"
+   }
+  },
+  "184218": {
+   "T": 56,
+   "q_cycle": 0.0,
+   "occurrence_chi2": 3.8,
+   "unsupervised_chi2": 26.6,
+   "keep_rate": 0.4661,
+   "n_islets": 6,
+   "crib_pair_offset": 62,
+   "chance_primary_mean": 0.02215,
+   "chance_primary_sd": 0.01586,
+   "chance_secondary_mean": 0.13191,
+   "chance_secondary_sd": 0.01715,
+   "oracle_decode_accuracy": 0.91928,
+   "sha256": {
+    "SYNTHETIC-ct-184218.pairs.txt": "b874b3fd3a448982aa3837f5c1bac4c79411c19cc6d54ee47b8e6b7e4b952791",
+    "SYNTHETIC-key-184218.json": "09326c1f207f6d2e8974a32695373317f890589c5a0ef1efa9e9af58c114f762",
+    "SYNTHETIC-crib-184218.json": "3a7a99013f77c42c4a5b13bf5b5a11aa45e438d692e2c671cd565790316031cc"
+   }
+  }
+ }
+}

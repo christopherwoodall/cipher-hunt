@@ -1,0 +1,288 @@
+{
+ "n_tokens": 4008284,
+ "ce_qui_gap_ce_que": {
+  "n": 5,
+  "fillers": {
+   "est et": 1,
+   "est et attendons": 1,
+   "paraît certain": 1,
+   "renverse tout": 1,
+   "arriva": 1
+  },
+  "rate_per_100k": 0.12474166002209423
+ },
+ "ce_qui_par_ce_que_5gram": 0,
+ "ce_qui_parce_que_4gram": 0,
+ "par_ce_que_3gram": 8,
+ "n_ce_qui": 3073,
+ "n_ce_que": 2677,
+ "after_ce_qui": {
+  "n": 3073,
+  "top30": [
+   [
+    "est",
+    403
+   ],
+   [
+    "se",
+    229
+   ],
+   [
+    "a",
+    162
+   ],
+   [
+    "ne",
+    97
+   ],
+   [
+    "s'est",
+    93
+   ],
+   [
+    "me",
+    87
+   ],
+   [
+    "lui",
+    78
+   ],
+   [
+    "concerne",
+    68
+   ],
+   [
+    "fait",
+    65
+   ],
+   [
+    "peut",
+    57
+   ],
+   [
+    "en",
+    56
+   ],
+   [
+    "nous",
+    54
+   ],
+   [
+    "était",
+    54
+   ],
+   [
+    "n'est",
+    44
+   ],
+   [
+    "le",
+    38
+   ],
+   [
+    "regarde",
+    37
+   ],
+   [
+    "serait",
+    34
+   ],
+   [
+    "m'a",
+    34
+   ],
+   [
+    "touche",
+    31
+   ],
+   [
+    "leur",
+    29
+   ],
+   [
+    "arrive",
+    29
+   ],
+   [
+    "dans",
+    28
+   ],
+   [
+    "les",
+    27
+   ],
+   [
+    "avait",
+    27
+   ],
+   [
+    "s'était",
+    27
+   ],
+   [
+    "pourrait",
+    25
+   ],
+   [
+    "pouvait",
+    24
+   ],
+   [
+    "vient",
+    23
+   ],
+   [
+    "doit",
+    22
+   ],
+   [
+    "s'y",
+    21
+   ]
+  ],
+  "verbish_top": [
+   [
+    "fait",
+    65
+   ],
+   [
+    "était",
+    54
+   ],
+   [
+    "serait",
+    34
+   ],
+   [
+    "avait",
+    27
+   ],
+   [
+    "s'était",
+    27
+   ],
+   [
+    "pourrait",
+    25
+   ],
+   [
+    "pouvait",
+    24
+   ],
+   [
+    "aurait",
+    18
+   ],
+   [
+    "venait",
+    16
+   ],
+   [
+    "devait",
+    12
+   ],
+   [
+    "n'était",
+    10
+   ],
+   [
+    "manquait",
+    8
+   ]
+  ]
+ },
+ "tocqueville": {
+  "n_tokens": 214861,
+  "ce_qui_gap_ce_que": {
+   "n": 0,
+   "fillers": {},
+   "rate_per_100k": 0.0
+  },
+  "ce_qui_par_ce_que_5gram": 0,
+  "ce_qui_parce_que_4gram": 0,
+  "par_ce_que_3gram": 0,
+  "n_ce_qui": 213,
+  "after_ce_qui_top20": [
+   [
+    "est",
+    32
+   ],
+   [
+    "se",
+    28
+   ],
+   [
+    "a",
+    11
+   ],
+   [
+    "ne",
+    10
+   ],
+   [
+    "n",
+    9
+   ],
+   [
+    "précède",
+    9
+   ],
+   [
+    "lui",
+    8
+   ],
+   [
+    "fait",
+    6
+   ],
+   [
+    "doit",
+    5
+   ],
+   [
+    "arrive",
+    5
+   ],
+   [
+    "suit",
+    5
+   ],
+   [
+    "s",
+    4
+   ],
+   [
+    "donne",
+    4
+   ],
+   [
+    "leur",
+    4
+   ],
+   [
+    "nous",
+    3
+   ],
+   [
+    "concerne",
+    3
+   ],
+   [
+    "frappe",
+    3
+   ],
+   [
+    "rend",
+    3
+   ],
+   [
+    "en",
+    3
+   ],
+   [
+    "peut",
+    2
+   ]
+  ]
+ }
+}

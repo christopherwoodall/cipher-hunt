@@ -80,6 +80,23 @@ S(K) = S_let_proj + LAM_WORD·S_word + LAM_ROT·S_phase + S_prior
   observed collapse; no truth labels). **Set LAM_CONC = 2·G** (2× margin —
   the penalty must dominate the word-driven part of the collapse
   incentive; the letter term already disfavors collapse on its own).
+- **AMENDMENTS 2026-10-07 (pre-full-control, measurement-driven):**
+  (a) LAM_POLY: the 2λ* rule assumed C_abl > C_truth. Measured:
+      C_abl=−1.9917 < C_truth=−1.3045 → λ*=−0.01527 < 0, rule void
+      (the repaired objective already ranks truth first at λ=0).
+      AMENDED to guardrail LAM_POLY=0.05 — the empirically relevant
+      scale (step-0 crossover was 0.0538). Truth pays 0.15; n_poly=48
+      pays 2.4. (Also fixed: the ablation's n_poly attribute was stale
+      — missing sync in revert(); recomputed from v2.)
+  (b) LAM_CONC: the ablation exhibited NO raw-cell collapse
+      (max_n_c=3, S_word≤0.54), so G=0 by the stated rule. AMENDED to
+      calibrate against the OBSERVED extreme meme-collapse (step123):
+      profit 1.3227 / (89−3)²=7396 → G=1.79e−4, LAM_CONC=3.58e−4.
+      Truth pays 0 (max_n_c=2 < 3).
+  (c) CONC_CAP: 6 (projected) → 3 (raw cells). Measured on the sealed
+      control: truth's projected 'e' has n_p=10 (raw e/es/et/é/est ×2
+      groups each) — cap 6 would penalize truth. Raw cap 3 safe BY
+      CONSTRUCTION (build_codebook: max 2 groups/cell).
 
 ## Pass bars (frozen; same idiom as round 4/5)
 

@@ -1,0 +1,91 @@
+{
+ "verdicts": {
+  "U1_quon_cell": "NULL",
+  "U2_lcell": "NULL",
+  "U3_impersonal": "NULL",
+  "U4_48": "LEAD ne-allophone -> WO6",
+  "U4_98": "WEAK re-syllable (weakened)",
+  "U4_16": "LEAD i (F48); WO4 battery",
+  "U5_gouv": "NULL outside T4",
+  "U5_er": "NULL independent; ruling corroborated",
+  "62_on": "NO CHANGE (fenced STRONG LEAD)"
+ },
+ "u1": {
+  "screens": 3,
+  "best_candidates": {
+   "35": "killed: syllable chains, no verb fol",
+   "36": "killed: 36->62 x1",
+   "44": "killed: n=15 (4.5x over), pre-profile wrong",
+   "68": "killed: 68->21(me) x2",
+   "83": "killed: 83->21(me) x3, 83->82=m x3"
+  },
+  "era_quon_E_n_diplo": 2.63
+ },
+ "u2": {
+  "candidates_screened": 21,
+  "killed": 17,
+  "survivors": {
+   "93": "shape-STRONG rate-KILLED",
+   "8": "weak",
+   "14": "weak"
+  },
+  "g93": {
+   "n": 14,
+   "to62": 2,
+   "ne_lest_at": 102,
+   "E_n_diplo": 32.0,
+   "P_le_14": 0.000294
+  },
+  "diplo_P_pre_l_on": 0.0365,
+  "diplo_P_pre_l_il": 0.00043,
+  "E_X_to_62_diplo": 1.28
+ },
+ "u3": {
+  "screen_hits": {
+   "74": "killed as word-verb (74->74 x6); plus-reading not impersonal",
+   "92": "killed: la 92 x3",
+   "93": "l-candidate",
+   "2": "weak",
+   "6": "killed",
+   "30": "weak"
+  },
+  "frames_62_94_V": "no impersonal V (only 59=est has V->46)"
+ },
+ "u4": {
+  "48": {
+   "n": 38,
+   "pre_cos_vs_94": 0.735,
+   "verdict": "LEAD ne-allophone -> WO6",
+   "tension": "48->47 x2 (ne ce)"
+  },
+  "98": {
+   "n": 40,
+   "trigram_98_83_82_x3_E": 0.007,
+   "E_62_to_98_diplo": 0.52,
+   "obs": 5,
+   "verdict": "WEAK re-syllable, weakened"
+  },
+  "16": {
+   "verdict": "i LEAD-entailed (F48); WO4 battery",
+   "consistency": "82->16 x11 mi-prefix"
+  }
+ },
+ "u5": {
+  "77_gouv_outside_T4": "NULL (other 77-78s are le|me-shaped, F51)",
+  "era_gouv_E": 6.3,
+  "obs_T4": 2,
+  "78_er_independent": "NULL",
+  "78_ver_general": "rate-killed",
+  "phase_78_vs_29": "both C (weak instrument)",
+  "ruling_corrob": {
+   "vernement": 554,
+   "verrement": 0,
+   "ernement": 478
+  }
+ },
+ "leg1c_diplo": {
+  "E": 8.96,
+  "p": 2.23e-05,
+  "status": "adverse stands, still single-datum + 4 caveats"
+ }
+}

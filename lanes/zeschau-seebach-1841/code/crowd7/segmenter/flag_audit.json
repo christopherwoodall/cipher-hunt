@@ -1,0 +1,121 @@
+{
+ "A1_gate_rederived": {
+  "n": 1510,
+  "obs": 0.4219,
+  "exp": 0.3505,
+  "z": 5.81
+ },
+ "A2_p2a_rederived": {
+  "r1": 0.6327,
+  "n1": 765,
+  "r0": 0.4856,
+  "n0": 383,
+  "z": 4.77,
+  "p_one_sided": 1e-06
+ },
+ "flag_audit": {
+  "T1_labeling_robustness": {
+   "round6_verdict": "FRAGILE (verdict_robust=false); k=16 replicates z=+5.54, 91/96 agree; others degenerate",
+   "flag_check": {
+    "leans_on_exact_chi2": false,
+    "leans_on_per_group_phases": "partial \u2014 91/96 agreement is instrument-vs-instrument metrology, names no cipher claim",
+    "failure_mode": {
+     "A": 82,
+     "B": 4,
+     "C": 1,
+     "R": 9
+    }
+   },
+   "verdict": "SURVIVES*",
+   "reason": "Failure mode is labeling degeneracy (mega-clusters), never excess-death; the lag-3 excess is not impugned. 91/96 k=16 agreement measures instrument consistency, not mapping truth (both instruments ~0.5 purity per N43(c))."
+  },
+  "T2_hmm_vs_bigram": {
+   "round6_verdict": "NO (bigram testLL/trans -4.2356 beats HMM -4.2638 by 0.028; BIC favors HMM on parsimony); A cyclic",
+   "flag_check": {
+    "leans_on_exact_chi2": false,
+    "leans_on_per_group_phases": false,
+    "labels_in_fit": false
+   },
+   "verdict": "SURVIVES",
+   "reason": "No chi2, no labels in the EM fit. The unsupervised cyclic transition matrix (S1->S0 1.0, S0->S2 0.705, S2->S1 0.672) is label-free corroboration of cyclic structure \u2014 independent support under N43(c). Viterbi contingency was not verdict-driving (stays fenced)."
+  },
+  "T3_reconciliation": {
+   "round6_verdict": "naive 35/96 (N30 61-change) vs best-perm 69/96 (N37) \u2014 definitional difference",
+   "flag_check": {
+    "leans_on_exact_chi2": false,
+    "leans_on_per_group_phases": "metrology only \u2014 compares two labelings, asserts nothing about the cipher"
+   },
+   "verdict": "SURVIVES*",
+   "reason": "Definitional reconciliation stands. Neither 69 nor 35 measures mapping truth under N43(c) (~0.5 purity on both sides)."
+  },
+  "P2b_memory2": {
+   "round6_verdict": "FALSIFIED(null): 2nd-order LL/trans -1.2189 < 1st-order -1.2143 held-out",
+   "flag_check": {
+    "leans_on_exact_chi2": false,
+    "leans_on_per_group_phases": "uses label stream, but verdict is a NULL"
+   },
+   "verdict": "SURVIVES",
+   "reason": "Null verdict needs no flag protection. Caveat under N43(c): ~0.5-purity labels reduce power \u2014 absence of FULL memory-2 on the noisy label stream does not preclude structured second-order effects (P2a is the live alternative)."
+  },
+  "P2c_fixed_order": {
+   "round6_verdict": "FALSIFIED: halves fwd/fwd but variants flip (cos rev, half1 rev, half2 rev)",
+   "flag_check": {
+    "leans_on_exact_chi2": false,
+    "leans_on_per_group_phases": true,
+    "variant_partitions": {
+     "V_cos": {
+      "A": 82,
+      "B": 4,
+      "C": 1,
+      "R": 9
+     },
+     "V_k8": {
+      "A": 76,
+      "B": 5,
+      "C": 4,
+      "R": 11
+     },
+     "V_k16": {
+      "A": 32,
+      "B": 23,
+      "C": 16,
+      "R": 25
+     },
+     "V_half1": {
+      "A": 72,
+      "B": 5,
+      "C": 5,
+      "R": 14
+     },
+     "V_half2": {
+      "A": 72,
+      "B": 4,
+      "C": 4,
+      "R": 16
+     }
+    }
+   },
+   "verdict": "DOWNGRADED to INCONCLUSIVE",
+   "reason": "Direction flips are computed on degenerate partitions (V_cos C=1 group; V_half1 B=5/C=5; V_half2 B=4/C=4) \u2014 under N43(c) (~0.5 purity) these cannot falsify \"one column order\"; the instrument is invalid for the question. Halves-consistency (fwd/fwd) on the reference instrument SURVIVES as an observation. Bedrock: F11 cycle direction is labeling-relative \u2014 direction was never intrinsic."
+  },
+  "P2a_momentum": {
+   "round6_verdict": "SUPPORT: r1=0.6327 (n=765) vs r0=0.4856 (n=383), z=+4.77",
+   "flag_check": {
+    "leans_on_exact_chi2": false,
+    "leans_on_per_group_phases": false,
+    "note": "Population-level conditional rate \u2014 names no group phase. Uses banked labels (~0.5 purity); label noise ATTENUATES r1-r0, so the existence signal is conservative under N43(c). Circularity caveat: labels fit on the same stream (addressed by Thread B)."
+   },
+   "verdict": "SURVIVES* PENDING Thread B",
+   "reason": "Does not lean on chi2 magnitude or any per-group phase claim. Independent label-free confirmation is the Thread-B test."
+  },
+  "gate_E1": {
+   "round6_verdict": "z=+5.81 (obs 0.4219, exp 0.3505, n=1510)",
+   "flag_check": {
+    "leans_on_exact_chi2": false,
+    "leans_on_per_group_phases": false
+   },
+   "verdict": "SURVIVES",
+   "reason": "Flag N43(a) explicitly confirms: rhythm existence by label-free lag-3, not impugned."
+  }
+ }
+}

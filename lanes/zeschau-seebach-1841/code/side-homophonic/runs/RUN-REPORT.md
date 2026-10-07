@@ -74,20 +74,47 @@ mean 0.1294, min 0.1073. The §4 min bars are already dead; verdict FAIL is
 locked regardless of 184105/184106. Remaining two run for completeness of
 the failure record.
 
-### seeds 184105/184106 — PENDING (parallel batch in flight, started 17:25/17:26Z)
+### seeds 184105/184106 — COMPLETE (detached relaunch, survived; rc=0)
+- 184105: primary = **0.0000** (0/89), proj_equiv = 0.0337, secondary = 0.1203,
+  mrr = 0.0275, pins_intact = 7/7, islets = 0/6, margin = +15578.9 nats.
+  Report: runs/run3-184105/control_report.json (rescore-match=True)
+- 184106: primary = **0.0000** (0/89), proj_equiv = 0.0112, secondary = 0.1089,
+  mrr = 0.0150, pins_intact = 7/7, islets = 0/6, margin = +15985.9 nats.
+  Report: runs/run3-184106/control_report.json (rescore-match=True)
 
-**INFRA EVENT #3:** at ~17:56Z the parallel batch's 184105/184106 were ALSO
-killed (logs stop at restart 6; no DONE lines; zero control_harness processes
-on the box). Three infra kills in ~2h (15:50Z, ~17:4xZ, ~17:56Z), each wiping
-all running solver processes. Mitigation: re-launched 184105/184106 DETACHED
-(setsid+nohup, own sessions, PIDs 1907/1908, 2026-10-07T17:59:10Z, out dirs
-run3-*), polled via log files not session handles. Two streams (matches the
-lane's own run_frozen_batch.sh 2-stream design) to halve exposure time.
-NOTE: if the other worker relaunches its batch, up to 4 streams may contend;
-results are deterministic so no correctness risk.
+## Final verdict (re-derived from per-instance numbers, §4 gate)
 
-Verdict status: FAIL is mathematically locked on 4/6 (min bars dead).
-184105/184106 complete the failure record; they cannot change the verdict.
+| seed | primary | proj_equiv | secondary | mrr | source |
+|---|---|---|---|---|---|
+| 184101 | 0.0000 | 0.0000 | 0.1473 | 0.0262 | run2 (mine, rc=0, 2326s) |
+| 184102 | 0.0000 | 0.0225 | 0.1241 | 0.0169 | run2 (mine, rc=0, 3038s) |
+| 184103 | 0.0000 | 0.0000 | 0.1073 | 0.0112 | frozen-ctl (adopted, verified) |
+| 184104 | 0.0112 | 0.0112 | 0.1387 | 0.0150 | frozen-ctl (adopted, verified) |
+| 184105 | 0.0000 | 0.0337 | 0.1203 | 0.0275 | run3 (mine, detached, rc=0) |
+| 184106 | 0.0000 | 0.0112 | 0.1089 | 0.0150 | run3 (mine, detached, rc=0) |
+
+- PRIMARY: mean **0.0019** (bar ≥ 0.20) FAIL; min **0.0000** (bar ≥ 0.10) FAIL.
+- SECONDARY: mean **0.1244** (bar ≥ 0.30) FAIL; min **0.1073** (bar ≥ 0.22) FAIL.
+  Secondary sits AT/BELOW chance (0.1434±0.0167) on every instance.
+- μ+5σ checks: 0.0019 < 0.098 FAIL; 0.1244 < 0.227 FAIL.
+- **VERDICT: CONTROL-FAIL** (all six registered checks fail; harness
+  --aggregate agrees; runs/CONTROL-VERDICT.json).
+- R5005 NOT TOUCHED. No R5005 run, no ranked assignments — gated.
+
+The single non-anchor hit (184104, 1/89) is consistent with chance
+(chance mean 0.0216 ≈ 1.9/89).
+
+## Provenance of every number
+- Frozen code md5s verified pre-run (see header). config.json inventory_mode='crib'.
+- 184101/184102/184105/184106: executed by this Runner, control_harness.py
+  single-instance mode, scored by the harness against sealed keys at completion.
+- 184103/184104: executed by the parallel frozen batch (same frozen code —
+  restart trajectories bit-identical to my partial runs); adopted only after
+  independent re-scoring with frozen score_assignment (rescore-match=True).
+- Aggregation: control_harness.py --aggregate on the 6 control_report.json
+  files; output runs/AGGREGATE-GATE.txt + runs/CONTROL-VERDICT.json.
+- Negative control: runs/negative-control/negctrl_results.json (pre-existing,
+  methodology verified, deterministic — not re-run).
 
 ## Diagnosis (instance 184101, post-scoring, sealed truth used for diagnosis only)
 

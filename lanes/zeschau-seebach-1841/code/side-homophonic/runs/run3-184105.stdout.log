@@ -14,3 +14,8 @@
 [solver] restart 9: best=4459.7 final=4363.2 acc=0.289 npoly=60 (1484s)
 [solver] restart 10: best=4099.3 final=3998.6 acc=0.254 npoly=55 (1652s)
 [solver] restart 11: best=4136.5 final=4095.0 acc=0.268 npoly=55 (1777s)
+[solver] BEST restart 73112: 4459.7 vs random20 max -11119.2 (margin +15578.9 nats)
+[solver] wrote ../runs/run3-184105/result.json
+[harness] primary=0.0000 proj_equiv=0.0337 secondary=0.1203 mrr=0.0275 islets=0/6 margin=+15578.9nats
+[harness] wrote ../runs/run3-184105/control_report.json
+[harness] no verdict at instance level; use --aggregate for §4

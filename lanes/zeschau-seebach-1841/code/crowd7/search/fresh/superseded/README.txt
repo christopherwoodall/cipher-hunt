@@ -1,0 +1,1 @@
+Superseded during the draw: seeds 184201-184204 were in-band (chi2 195.1/222.9/183.2/245.3) but replaced by 184207-184212 for a clean consecutive scored set. The SCORED set is exactly fresh/build_summary.json -> seeds [184207..184212].

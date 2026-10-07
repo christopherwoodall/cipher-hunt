@@ -1,0 +1,348 @@
+# METHOD — joint-inference homophonic solver (side fleet, solver-smith)
+
+> **REBUILD 2026-10-07.** This copy documents the REBUILD
+> (`code/side-homophonic-rebuild/`), not the frozen CONTROL-FAIL solver.
+> Rebuild deltas vs frozen: (D2) S_word rewritten to length-normalized
+> no-overlap lexicon coverage with min hit length 6; (D2b) S_char is now a
+> per-pair length-normalized rate (S_char degeneracy guard); (D3)
+> λ_poly 20 → 50 with principled justification; (D4) Tier-1 inventory +5
+> accented by-ear forms. Full delta log: `REBUILD.md`. Untouched: annealer,
+> moves, 7 pins, phase/Potts, polyvalence E-step, S_conc, lexicon/weights
+> source (`lm_ref`).
+
+## 1. Method choice: simulated annealing over the full key
+
+**Choice:** stochastic local search (simulated annealing, Metropolis moves,
+geometric cooling, multiple restarts, best-key retention) over the complete
+96-group → value assignment, maximizing a joint objective. Not EM, not Gibbs.
+
+**Why SA, and why it fits this problem's structure:**
+
+1. **The failure was the objective, not the sampler.** Round 1
+   (`code/crowd/anneal.py`) already did joint SA and scored 1/88 ≈ chance on
+   its control (`code/crowd/annealer_results.md`). Its SA explored fine
+   (z = +17.7 vs baseline, stable modal assignments across 24 restarts) and
+   converged *confidently to the wrong answer*. Swapping the sampler cannot
+   fix an uninformative likelihood. The scorer-smith's diagnosis
+   (`code/crowd3/scorer_smith_results.md`, "the N12-style finding") is
+   precise: bigram contexts underdetermine each cell; the true value is
+   *consistent but not distinctive*. What was missing is a **discriminative
+   joint objective**, which is what this solver builds (Sections 3-5).
+   SA is the minimal, lane-validated sampler for it.
+
+2. **Discrete constrained space.** The key has hard pins (7 groups never move)
+   and a sparse polyvalence penalty; values are strings from a ~300-item
+   inventory. SA enforces hard constraints by construction (never propose a
+   pinned move). EM wants a soft/probabilistic key plus a projection step;
+   Gibbs wants carefully designed conditionals for the Potts term and the
+   per-occurrence E-step. Both add machinery without adding escapes from the
+   glassy landscape that trapped round 1.
+
+3. **EM is greedier, Gibbs is richer but the lane needs a decision.** EM
+   (deterministic hill-climbing on a soft key) is *more* prone than SA to the
+   local optima that killed round 1 — it has no temperature. Gibbs with
+   annealing is approximately SA with extra bookkeeping; its real advantage
+   (posterior marginals) is recovered here more cheaply via cross-restart
+   consensus (marginals = fraction of restarts agreeing), which is also the
+   lane's established idiom (round-1 stability table).
+
+4. **Validation protocol exists for SA.** Restarts / random-key baselines /
+   modal votes / recovery rates are the lane's control idiom
+   (`annealer_results.md`, `scorer_smith_results.md`, crowd4's `synth_control.py`
+   PASS_BARS). The Runner reuses it unchanged. A new sampler would need new
+   diagnostics and a new gate argument.
+
+**How this SA avoids round-1's specific failure modes:**
+- *Letters were inexpressible.* Round 1 scored letters as syllables in a
+  syllable-bigram LM, so the true key (containing 82=m, 34=i, 40=e) could
+  never win; everything collapsed to de/la/le. Here every value is a string
+  and the LM is a **character** 5-gram over the concatenated decode: letters
+  and syllables compete on equal footing, and the degenerate de/la collapse
+  scores terribly ("dedede…" has no French 5-grams).
+- *Single-group moves in a glassy landscape.* Added: swap moves, block moves
+  over contact-neighborhoods (so Potts-coupled groups move together), and a
+  homophone-pool proposal (20% of changes copy a contact-neighbor's value).
+  Plus a greedy refine pass with the full objective.
+- *Uninformative likelihood.* The objective (Sections 3-5) is built so the
+  true key is *distinctive*, not merely consistent: character 5-grams over
+  phoneticized French (local), word-salad bonus (long-range), contact Potts
+  (structural). The control decides whether this is true; the pre-registered
+  bars are in Section 7.
+
+**Relationship to crowd4's joint engine** (`code/crowd4/joint_engine.py`,
+same lane, parallel effort): that engine is also SA over the full key with a
+letter n-gram + phase term + v1/v2 polyvalence, and its control run was still
+in flight when this solver was written (early ablation: 0.05-0.10 recovery vs
+a 0.50 bar). This solver differs in four load-bearing ways: (a) a **phonetic
+projection** absorbs by-ear spelling noise (their engine scores raw letters,
+so their own control's ear-substitutions cost likelihood); (b) a **word-level
+term** adds long-range coherence beyond 5-grams; (c) the inventory defaults
+to UNITS ∪ top encipher_split cells (~300) instead of top-600 corpus units
+(tighter search, and it covers the Designer's planted inventory -- Section 6);
+(d) the phase term is a chi2-gated **contact Potts** rather than a
+cell-phase profile likelihood, with no R5005-banked phase map (recomputed
+per stream, so it works on controls).
+
+## 2. Key model
+
+- `v1[g]`: primary value string per group. **Many-to-one allowed** (no
+  injectivity constraint): this is the task's "polyvalence
+  (many-groups→one-syllable)", i.e. homophony. The historical table spreads
+  common cells over many groups; forbidding it would be a model error.
+- `v2[g]` ∈ {None} ∪ inventory, `w2[g]` ∈ [0,1]: optional secondary value.
+  Per-occurrence **hard E-step**: each occurrence decodes to
+  argmax over {v1, v2} of local char-5-gram score + log weight, with a closed-
+  form M-step for w2 after each move. This is the lane's R5 polyvalence
+  (one group, several readings: 94=ne/en, 52=pas/so, 06=-ent/stem;
+  `code/sidepath/phonetic_rules.md`), penalized by λ_poly = 50 nats per
+  polyvalent group (sparsity; ablatable via --no-poly). **Why 50 (R4):**
+  λ_poly is the price of a secondary: a secondary must improve the data
+  likelihood via the E-step by more than λ_poly to pay for itself. Measured
+  on 184101 under the rebuild objective: the 6 genuine polyvalent islets
+  (R5) buy **57.6 nats/secondary** of S_char; 60 spurious degenerate
+  secondaries buy **36.7 nats/secondary** (average; the hard E-step's
+  max-selection inflates both — Viterbi bias). 50 sits between: genuine
+  alternation survives, noise-fitting does not. It is a statement about
+  per-secondary information content, not about the count 6 — and the
+  truth-vs-degenerate verdict is insensitive to the exact value
+  (margins +475/+1,555/+2,635 nats at λ_poly ∈ {30,50,70};
+  `solver/diag_rescore.py`).
+- **Hard pins** (never proposed, no secondary): 11=la, 70=pre, 82=m, 34=i,
+  29=er, 40=e, 46=que -- the pencil-crib ground truth
+  (`data/upstream-NOTES.md`, STATE.md).
+- **Soft priors** (bonus w_soft = 3.0 nats each, NOT pins): 87=ce, 64=qui,
+  96=par -- provisional lane inferences (red-team authority: provisional,
+  `phonetic_rules.md` FORBIDDEN #10). 3 nats is ~7:1 odds: strong enough to
+  bias, weak enough that ~5 occurrences of contrary evidence overturn it.
+  **Disabled for synthetic controls** (--no-soft; the harness forces it):
+  they are R5005-specific and would be false priors on a control. The
+  control validates the method on 7 pins alone; the R5005 run enables them,
+  with a with/without robustness check (mirroring scorer3's table10/table7).
+
+## 3. Language model
+
+**Character 5-gram LM over phoneticized French** (`build_lm.py`,
+`phonetics.py`), trained on Tocqueville T1 (1835) + T2 (1840), Gutenberg
+30513/30514 -- 214,861 words, 768,532 projected chars, 29-symbol alphabet,
+134,855 distinct 5-grams, held-out perplexity 6.4/char (see `lm_stats.md`
+from any build).
+
+- **No syllabifier in the scorer.** Deliberate (F30 compliance):
+  rigid syllabification is dead as an instrument (`phonetic_rules.md`
+  FORBIDDEN #2; the encipherer cuts inconsistently, R2). The decode is scored
+  as a **character stream**; cuts never enter the objective. The lane's rule
+  syllabifier (`code/crowd2/scorer_smith.py`) is used only to build the
+  *candidate inventory* (a word list, never a conditional model) -- same
+  discipline as crowd4.
+- **Spaceless training.** The corpus is projected word-by-word, then
+  concatenated with no boundaries: the deciphered stream has no word
+  boundaries either, so train and decode see the same object.
+- **Smoothing:** interpolated (order-5 → unigram backoff, α = 0.5), cached.
+- **Word-coverage bonus** (λ_word = 1.0, ablatable; REBUILD 2026-10-07 rewrites
+  the frozen overlapping Aho-Corasick scorer): per-char best-hit,
+  length-normalized, no-overlap lexicon coverage over the projected era
+  lexicon (3,546 words, freq ≥ 3, projected length ≥ 4, weight log(1+freq);
+  R10.1 correction). `S_cov = Σ_c max_{hits h covering c, len(h)≥6}
+  w_h/len_h`: each character counted at most once, each hit contributing
+  exactly its weight spread over its chars. The frozen overlapping sum let
+  degenerate fragment repetition score 13,510 vs 779 on the true decode
+  (~17×, R10.5-corrected). The **min hit length 6** (`word_minlen`) kills the
+  manufacturable len≤5 fragment hits ('meme'/'leur'/'leurs': 99% of the
+  frozen degenerate's coverage); by-ear chunks are 1–4 chars, so len≥6
+  needs ≥2 chunks AND a real French word. `S_word = S_cov −
+  Σ_t single_wt[pcell[t]]` (unchanged anti-word-value prior: a key whose
+  VALUES are common words is penalized per occurrence). It is a *scoring
+  function*, not a parse: it rewards long-range French-word coherence the
+  5-gram cannot see, and it degrades gracefully under by-ear spelling.
+  Exact windowed delta scoring, verified by `solver.py --self-test`
+  (incremental vs full recompute: max err ~2e-10 over 300 random moves).
+- **S_char degeneracy guard** (REBUILD 2026-10-07): S_char is now the
+  **per-pair rate** Σ_t F(pcell[t−1],pcell[t])/len(pcell[t]), not the raw
+  char sum. The raw sum biases toward SHORT values (fewer negative logp
+  terms): pilot-measured, a 1-char fragment salad scores −3.16/pair vs
+  truth −4.11/pair at equal per-char rates (−2.44 vs −2.47 nats/char) —
+  ~99% of its ~1,750-nat S_char edge is decode length, not French-likeness.
+  Normalization collapses the salad's S_char edge to ~50 nats. Each pair's
+  term stays local in t, so exact delta scoring is preserved; the E-step
+  now compares readings by per-char quality. (The hard E-step's
+  max-selection still inflates S_char for many-secondary keys — Viterbi
+  bias — which λ_poly=50 prices; see §2.)
+- **Concentration penalty** (λ_conc = 5.0, conc_cap = 6; added 2026-10-07
+  after pilot 2/89): `−λ_conc·Σ_p max(0, n_p−6)²`, n_p = #groups whose v1
+  PROJECTS to p (over projected values, so 'me'/'mê'/'mè' collude -- the
+  solver would otherwise evade the cap via accent variants). Kills the
+  *repetition exploit*: mapping 50+ groups to 'me' so that 'me'+'me'="meme"
+  (spanning!) hits the lexicon at every position, earning +10,178 nats of
+  word bonus for a degenerate key. The true codebook spreads 89 groups over
+  ~60 cells (max quota 3–5 by largest-remainder), so cap=6 is safe for the
+  truth. This is the homophonic-cipher analogue of the one-to-one constraint
+  that makes substitution-cipher SA work.
+- **Register caveat** (standing): 1835-1840 formal prose vs an 1841
+  diplomatic despatch. Function words and morphology transfer; content
+  vocabulary does not. Both LM terms degrade gracefully (Section 1). The
+  control is deliberately register-gapped (Les Mis 1862 vs Tocqueville),
+  which tests exactly this.
+
+## 4. Phonetic equivalence
+
+`phonetics.py` implements the projection π (30 classes), applied identically
+to corpus, lexicon, inventory values, and every decode. Each rule carries an
+evidence grade (SOLID / PROVISIONAL / SPECULATIVE, per the
+`phonetic_rules.md` legend):
+
+- SOLID: lowercase; accent classes (é/è/ê/ë **merged** -- the crib writes
+  plain 'e' for è inside "premiere", so the ear doesn't split e-open/e-closed);
+  ç→S; h-deletion; digraphs eau,au→o, ai,ei→e, ou→u, ph→f, th→t, qu→k,
+  ch→C, gn→N; geminate collapse (R8: "erre"→er|e), except ss→S (the /s/-/z/
+  distinction is real: "poisson" vs "poison").
+- PROVISIONAL: context-sensitive nasals (ain,ein,ien,yen,oin→I; an,en,am,em→A;
+  on,om→O; in→I; un,um→U) **only when not followed by a vowel or n/m**.
+  The guard is load-bearing: without it the ground-truth crib "première"
+  mis-projects to "prAiere" ("ennemi"→enemi, "premier"→premier stay oral).
+  y→i, w→v; final-x-after-vowel deletes ("deux"→deu), else x→ks.
+- PROVISIONAL (R11 generalization): silent word-final d,t,s,x,p,b,g,z delete
+  **after a vowel/nasal-class char only** (R3 SOLID for -d in "prend"→"pre").
+  The vowel guard is load-bearing (fixed 2026-10-07): without it the real
+  inventory value "st" projected to "" -- an empty projection scores exactly 0
+  and became a degenerate attractor the annealer exploited (80/89 groups → 'st').
+  Safe *because it applies to both sides*: it removes a spelling choice the
+  by-ear encipherer makes inconsistently.
+- NEVER: final -e (R1: 40="e" is written), -r (29=er), single-letter values.
+
+**Deliberate non-modeling:** by-ear *losses* (dropped nasals: "prend"→"pre";
+vowel confusions) are not imitated -- they are noise the 5-gram absorbs.
+Modeling the encipherer's exact ear is a rabbit hole; tolerance beats
+imitation. Self-test: `python3 phonetics.py` (42 anchored cases, all pass).
+
+## 5. Phase rhythm as a structural prior
+
+The A→C→B→A rotation is real (χ² = 181.3, df = 4; `code/crowd/
+contactor_results.md`), but the tuner KILLED the word-position reading
+(`code/crowd3/tuner_results.md`; red-team M1 VOID; FORBIDDEN #2). This solver
+therefore makes **no linguistic claim** about the phases. It uses them twice:
+
+1. **Homophone-pool graph.** Jaccard similarity on top-10 contact sets
+   (contactor's PRIMARY similarity). Under uniform homophone emission,
+   homophones of one cell have statistically identical contacts, so
+   contact-similar groups are the natural homophone pool -- a claim about
+   *table structure*, not word positions.
+2. **Potts prior, chi2-gated:** β·Σ J(g,h)·[v1[g]==v1[h]] over pairs with
+   J ≥ 0.1, β = 2.0·gate(χ²), gate = σ((χ²−80)/12). The χ² instrument is a
+   **verbatim copy** of the control generator's `unsupervised_chi2`
+   (`phase.py::reference_chi2`).
+
+**Honest calibration status (DEMOTE-1, red-team 2026-10-07):** the χ²
+instrument is a *noisy detector*. On the 6 control instances (true
+occurrence-phase χ² 181–272) it reads **36.6, 0.4, 787.3, 375.5, 6.2, 2.9**
+-- in-band on 0/6. The gate is ≤0.026 (effectively OFF) on 4/6 instances;
+on the 2 where it fires (787, 375) it over-reads above the calibration
+band. The "R5005 and the control → gate ≈ 1" claim is WITHDRAWN for the
+control. What the control *does* certify: contact-coherent aliasing at
+fixed strength -- planted-phase Jaccard purity 0.62–0.66 (non-anchor) on
+all six instances regardless of the χ² reading (red-team verified). The
+solver's Jaccard proposal machinery faces this on all 6. What it does NOT
+certify: the Potts prior's weight/gating -- untestable here on 4/6.
+Null streams (uniform random) measure χ²∈[2,33] → gate < 0.02, so on a
+stream without the rhythm the prior shuts itself off (that part holds).
+
+**Ablation hygiene:** `--no-phase` only zeroes the gate; the Jaccard
+adjacency still drives the 20% homophone-pool proposals and block moves.
+`--no-contact` (added 2026-10-07) isolates the contact machinery fully:
+uniform proposals, no block moves. The Runner's ablation matrix should use
+`--no-contact`, not `--no-phase`, to test the contact graph's contribution.
+
+The block labels (A/B/C/R) are recomputed from the input stream every run;
+nothing is banked from R5005, so the same code runs on controls.
+
+## 6. Inventory: crib-derived, not standard-French
+
+**Cross-fleet memo 2026-10-07 (F34/N32):** the word-pattern fleet falsified
+the standard-French syllable inventory for this cipher. Ground truth: the
+encipherer chunks *by ear* -- 'm' as a standalone syllable (82=m) is
+phonotactically impossible in French but real here, proven by the 7 pencil
+cribs. "personne" appears as per|so|nne AND pers|on|ne (two spellings, one
+cipher). If the inventory cannot represent by-ear units, the true assignment
+is unreachable regardless of search quality.
+
+**The task-brief/control conflict:** the brief says draw from UNITS (180
+items); the control generator plants from encipher_split cells. Measured:
+UNITS covers only 78-83% of top-T encipher_split cells. Strict UNITS caps
+PRIMARY at ~0.80 by construction.
+
+**Resolution (bottom-up, not top-down):** default `inventory_mode='crib'`
+(`solver/crib_inventory.py`):
+- **Tier 1 (crib-attested, weight 3.0):** 7 pencil cribs (la, pre, m, i, er,
+  e, que) + by-ear "personne" (per, so, nne, pers, on, ne) + polyvalence
+  islets (ent/06, ne/en/94, pas/so/52). Guaranteed present, prioritized.
+- **Tier 2 (by-ear extended, weight 2.0):** Frenchman-attested chunks from
+  phonetic_rules.md.
+- **Tier 3 (standard French, weight 1.0, suspect per N29):** UNITS +
+  top-200 encipher_split cells. Included for coverage, deprioritized.
+
+**Audit results (2026-10-07):**
+- The control generator DOES plant by-ear chunks ('m' on all 6 instances;
+  'on','ne','en' on all 6; 'pas' on 5/6; 'ent' on 2/6) -- the control is
+  NOT circular on this axis and CAN validate the inventory.
+- The old 'extended' inventory was MISSING 'nne' and 'pers' (real by-ear
+  chunks from "personne") -- the instrument-validity gap was real. The
+  'crib' inventory has zero missing by-ear chunks (16/16 present).
+- `data/upstream-syll.py` is NOT adopted uncritically (N29): it sits in
+  Tier 3 with the lowest weight.
+
+`--inventory-mode units` restores strict task-brief compliance for ablation;
+`--inventory-mode extended` restores the pre-memo default. The solver reports
+projection collisions: 65/180 in UNITS mode.
+
+## 7. Coordination: the control interface
+
+`control_harness.py` implements `load_synthetic(path) → run →
+scored assignment → gate_6instance`:
+- `load_synthetic` parses the Designer's `SYNTHETIC-ct-<seed>.pairs.txt`
+  (`#` comments skipped). Anchors come from the disclosed crib file
+  (`--crib`) or `--anchors`.
+- `run` calls `solver.run_restarts` with `--no-soft` forced (soft priors
+  are R5005-only). The solver never sees the truth.
+- `score_assignment` computes PRIMARY (exact, 89 non-anchor), SECONDARY
+  (true decode accuracy via per-position `planted`, KILL-2), PROJ-EQUIV
+  (projection-equivalent, DEMOTE-2 diagnostic), MRR and islets (diagnostics).
+- `gate_6instance` applies the REGISTERED §4 bars (CONTROL-DESIGN.md §4):
+  PRIMARY mean ≥ 0.20 / min ≥ 0.10; SECONDARY mean ≥ 0.30 / min ≥ 0.22;
+  both means ≥ μ+5σ. All six → CONTROL-PASS, else CONTROL-FAIL.
+  (KILL-1: the harness's earlier 0.50 proposal is superseded.)
+- `--aggregate` takes 6 per-instance `control_report.json` files and emits
+  the §4 verdict (`control_verdict.json`).
+
+Ablation matrix for the Runner:
+{full, --no-contact, --no-word, --no-poly, --inventory-mode units} × control
+instances. (`--no-contact`, not `--no-phase`, isolates the Jaccard contact
+machinery per DEMOTE-1/CONCERN-4.) The winning config is frozen for R5005.
+
+LM independence: the reference LM is Tocqueville-only; the control
+plaintext is Les Misérables -- disjoint by construction. The harness asserts
+this (`'mis' not in LM corpus`). `build_lm.py --exclude-span A B` exists for
+any future control that shares the reference corpus.
+
+## 8. Known limitations
+
+1. One-to-many polyvalence is limited to **one** secondary per group (the
+   control plants one; the real cipher's extent is unquantified, R5).
+2. Position-conditioned readings (R10: the conditioning variable is
+   unidentified) are approximated by the local E-step only.
+3. The word bonus allows overlapping hits and uses a fixed λ_word; it is a
+   secondary term by design.
+4. Annealing hyperparameters (T0=60, Tmin=0.05, 12×40k) are defaults from a
+   toy pilot, not tuned on the control; the Runner should check acceptance
+   traces (logged per restart) and scale restarts/iters with available
+   compute.
+5. The phonetic projection is a normalization, not a transcription: residual
+   by-ear deviations are n-gram noise. If the control's ear noise is heavier
+   than the Designer's documented rates, expect graceful degradation, not a
+   cliff.
+6. **Not run on R5005.** No real-data execution until the control passes;
+   `solver.py` has no R5005 default input, and `ct_loader.py` (the real-data
+   adapter) is import-isolated from the solver core and the harness.
+   **FIX A (2026-10-07, cross-fleet memo):** `ct_loader.py` now uses the
+   CANONICAL repaired parse (`code/side-keyhunt/repaired_offsets.json`,
+   F32: a5_03 1→0), asserting **1,847 pairs / 96 groups** with byte-verified
+   "la première" landmarks @754 and @1034 (REINDEX.md). The old 1,846-pair
+   parse is superseded; synthetics stay 1,846 (self-consistent).
