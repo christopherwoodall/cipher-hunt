@@ -1,14 +1,20 @@
 # STATE — zeschau-seebach-1841
 
-- **status:** `cracking` (attempt 1 done 2026-10-07: verification + anchor profiling solid; function-word drag null)
+- **status:** `cracking` (attempt 2 done 2026-10-07: 87=ce confirmed 4/5 as provisional
+  anchor; 87=de/à refuted; H1 82→16 inconclusive; drag re-run null)
 - **checkpoint:** Transcription fetched, hashed, verified (3,764 digits / 1,846 pairs / 96 groups).
   Attempt 1 (`code/crib_attack.py`) complete: repeats corrected to 2×/0× at pair alignment (F3);
   digit-count discrepancy 3,764 vs 3,969 recorded (F4); bigram 82→16 at 29% flagged (F5);
   function-word drag null at 7-anchor sparsity (N1). Results in `data/attempt1_results.json`.
-- **next:** Attempt 2 — test 82→16 and 87→11 as anchor *hypotheses* (not cribs): fit candidate
-  French syllables/words against bigram-frequency expectations; if either resolves plausibly,
-  re-run the drag with 9 anchors. Do NOT promote hypotheses to anchors without a second
-  independent check.
+  Attempt 2 (`code/attempt2.py`) complete: **87="ce" CONFIRMED (4/5)** — "cela" ×7 and
+  "ce que" ×3 at Les-Mis-matching rates; joins as lane-inferred provisional anchor
+  (8 anchors total; F6). 87="de"/"à" REFUTED by 87→que ×3. H1 (82→16 as "ma") PLAUSIBLE
+  (1/4), not promoted (F7). Drag re-run with 8 anchors still degenerate (N2).
+  Results in `data/attempt2_results.json`. French reference: Les Mis Tome 1 in `data/`.
+- **next:** Attempt 3 — exploit 87=ce: test **64="qui"** (87→64 ×5, "ce qui" is the
+  natural reading; 64 is rank 4 at 46×); profile predecessors/followers of ce for
+  further function words; re-examine 82→16 in ce-anchored windows. Do NOT promote
+  64=qui (or anything else) without ≥2 independent checks.
 - **blockers:**
   - R5006–R5008 (sibling letters, 2+3+3 pp) NOT obtainable: DECODE records public at
     de-crypt.org/decrypt-web/RecordsView/{5006,5007,5008} but all "Authentication required";

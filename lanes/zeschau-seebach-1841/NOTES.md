@@ -40,11 +40,40 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
     Verdict: window-quadgram crib-drag cannot work at this anchor sparsity. Shelved, not retried
     without denser anchors or a different scorer.
   - Full numeric output: `data/attempt1_results.json`.
+- **2026-10-07 (attempt 2 — bigram-hypothesis tests, `code/attempt2.py`):** executed.
+  Tested H1 (82=m → 16, 11/38) and H2 (87 → 11=la, 7/32) against French
+  expectations, with Les Misérables Tome 1 as an independent reference
+  (119,514 words; P(la|de)=0.131, P(la|à)=0.098, P(cela|ce)=0.278, P(que|ce)=0.140;
+  P(a|m)=0.19, P(e|m)=0.29 — 'a' is NOT the dominant follower of m in French).
+  - **H1 (82→16 as "ma", 16="a"): PLAUSIBLE (1/4) — not confirmed.** rank(16)=22 sits
+    in the vowel band (e:36, i:70), but P(82|16)=0.39 (16 not bound to m; other
+    predecessors 62×4, 12×3, 33×2, 42×2), the mi/me controls are absent
+    (82→34=1, 82→40=0 — no letter-spelling pattern), and Les Mis P(a|m)=0.19 is not
+    dominant. 16 remains unidentified.
+  - **H2 (87="de"/"à"): REFUTED.** 87→46=que occurs **3×** — "de que" and "à que"
+    are ungrammatical in French. The two passing checks (rate match, predecessor
+    diversity) do not survive the contradiction.
+  - **H2b (87="ce"): CONFIRMED (4/5 independent checks).** The very 87→que hits that
+    refute de/à are what "ce" predicts: 87→11=**"cela" ×7** with P(11|87)=0.219 ≈
+    Les Mis P(cela|ce)=0.278, and 87→46=**"ce que" ×3** with P(que|87)=0.094 ≈ Les Mis
+    P(que|ce)=0.140; rank(87)=15 is common-word band; 14 distinct predecessors
+    (free function word). The 24-87-46 "est-ce que" trigram did not fire (0×) —
+    the one miss. 87=ce joins as a **lane-inferred provisional anchor** (not a
+    pencil crib): 8 anchors total.
+  - **Drag re-run (8 anchors incl. provisional 87=ce): NULL — still degenerate.**
+    All top candidates tie at the quadgram floor (mean −7.714); no discrimination.
+    The window-quadgram scorer cannot work at this anchor density either.
+  - Erratum to attempt-1 prose: "87→11 in 7/44" quoted P(87|11); the hypothesis-relevant
+    rate is P(11|87)=7/32=21.9% (the 44 is the frequency of 11=la itself).
+  - Full numeric output: `data/attempt2_results.json`.
 
 ## Null results
 - **N1 (2026-10-07):** crib-anchored function-word drag (Phase C above) — degenerate at 7-anchor
   sparsity; all candidates tie at floor. Not a disproof of the crib-anchored strategy, only of
   this scorer at this sparsity.
+- **N2 (2026-10-07):** drag re-run with 8 anchors (7 pencil cribs + provisional lane-inferred
+  87=ce) — still degenerate; all top candidates tie at the quadgram floor (−7.714).
+  The window-quadgram crib-drag is shelved until anchor density or the scorer changes.
 
 ## Verified findings
 - F1 (source: Bourdeau zeschau1841 page, 2026-09-21/24): the unit is pairs of digits; 96 of 100
@@ -60,6 +89,17 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   `data/upstream-ct_R5005.txt` (same).
 - F5 (2026-10-07, this lane): bigram **82→16 occurs 11/38 (29%)** — the strongest anchor-adjacent
   pattern in the text; candidate anchor-hypothesis for attempt 2. Evidence: Phase B output.
+- F6 (2026-10-07, this lane): **87="ce" — lane-inferred provisional anchor, CONFIRMED 4/5.**
+  87→11="cela" ×7 (P=0.219 ≈ Les Mis P(cela|ce)=0.278) and 87→46="ce que" ×3 (P=0.094 ≈
+  Les Mis P(que|ce)=0.140); rank 15; 14 distinct predecessors. The rival readings 87="de"/"à"
+  are REFUTED by 87→que ×3 ("de que"/"à que" ungrammatical). Status: provisional anchor
+  (not pencil-crib); 8 anchors total. Evidence: `code/attempt2.py`, `data/attempt2_results.json`.
+- F7 (2026-10-07, this lane): H1 (82→16 as "ma", 16="a") **not confirmed** — PLAUSIBLE (1/4):
+  rank(16)=22 in vowel band, but P(82|16)=0.39, mi/me controls absent (82→34=1, 82→40=0),
+  Les Mis P(a|m)=0.19 not dominant. 16 unidentified. Evidence: same as F6.
+- F8 (2026-10-07, this lane, erratum): attempt-1 prose "87→11 in 7/44" quoted P(87|11);
+  the correct hypothesis rate is **P(11|87)=7/32=21.9%**. Raw counts in
+  `data/attempt1_results.json` were always correct; only the prose ratio is corrected.
 
 ## Data inventory
 Source: https://github.com/dbourdeau/cyphersolver `targets/zeschau1841/` (Daniel Bourdeau's
@@ -79,4 +119,9 @@ sha256:
 Copied from sibling lane catherine-medici-1567/data/french-quadgrams.json (French letter-quadgram
 model built 2026-10-07 for that lane; reused as scorer here):
   a7ef886356b67030d6984dca3556568a5551fc97833fda69438515b4d1de843f  french-quadgrams.json
-This lane's outputs: `code/crib_attack.py`, `data/attempt1_results.json`.
+This lane's outputs: `code/crib_attack.py`, `data/attempt1_results.json`,
+`code/attempt2.py`, `data/attempt2_results.json`.
+French reference text (Les Misérables Tome I, Project Gutenberg ebook 17489), copied
+2026-10-07 from sibling lane catherine-medici-1567/data/gutenberg-17489-miserables1.txt
+for independent bigram/word-rate checks (attempt 2):
+  a5de514ba7b9f2e1  data/gutenberg-17489-miserables1.txt (first 16 hex of sha256; full hash in SHA256SUMS.txt)
