@@ -66,6 +66,84 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   - Erratum to attempt-1 prose: "87→11 in 7/44" quoted P(87|11); the hypothesis-relevant
     rate is P(11|87)=7/32=21.9% (the 44 is the frequency of 11=la itself).
   - Full numeric output: `data/attempt2_results.json`.
+- **2026-10-07 (crowd round — 9 executors, coordinator-curated):** nine diverse
+  attackers fanned out in parallel, each writing only to `code/crowd/<name>_results.{md,json}`;
+  the coordinator verified every merged claim against the lane data before recording.
+  - **Phonotactician** (constrained syllabary search, French syllable-structure scorer,
+    8 anchors pinned): NULL — the optimizer beat baselines by +2798 (uniform) / +3578
+    (freq-matched) but degenerately: best key uses 4 syllables for all 88 free groups
+    (`champmatmatchamphi…` soup); only 1/88 groups stable ≥0.75 across restarts.
+    Verdict: scorer exploited, no signal. (`code/crowd/phonotactician.py`)
+  - **Crib Surgeon** (positional attack on "la première"): the full 6-group sequence
+    11-70-82-34-29-40 occurs **exactly once @pair 1033 (56.0%)**, mid-letter in a
+    back-reference context (`…87(ce) 01 03 29(er) 80 77 | la-pre-m-i-er-e | 17 77
+    82(m) 63 11(la) 67…`) — "la première [fois/lettre]". Zero near-misses. Three
+    value hypotheses (≥2 checks each, none promoted): **H1 24="est" (strong, 4 checks:**
+    rank-1 band, P(ce|24)=0.192 vs 1.7% base, "qu'est" elision ×3; anomaly: "est cela"
+    ×3), **H2 77="pas" (3 checks**; caveat: rival "ne"-like predecessor 67→77 ×6),
+    **H3 06="ne" (3 checks)**. The 5-group chain 64-96-43-87(ce)-01 recurs ×2
+    (@341, @1024) — positional hard constraint, no value assigned.
+  - **Contactor** (contact-chain clustering, 96 groups): **3-phase rotational contact
+    structure A→C→B→A** — P(A→C)=0.418, P(C→B)=0.450, P(B→A)=0.476 (all 1.35–1.52×
+    over independence), chi-square=181.3 on 4 df (p≪1e-6), self-transitions suppressed
+    (0.51–0.74×). 29=er anchors phase C (word-final-ish: prev-A 0.77, next-B 0.89).
+    Both pre-registered predictions FAILED as stated (P1: 34=i/40=e vowel-class
+    contacts; P2: 87 function-word-like) — but 40=e is 34=i's 2nd-nearest anchor
+    (Jaccard 0.241) and **87's nearest anchor is 82=m at Jaccard 0.423** (highest
+    anchor-anchor value by far; shared C→X→A block signature) — compatible with 87=ce
+    as proclitic, but a caution flag since 87 doesn't pattern with la/que.
+  - **Red Team** (kill authority over 87=ce): **VERDICT — WEAKENED, demote to
+    PLAUSIBLE/provisional.** All attempt-2 counts reproduce, but the scorecard is
+    unsound: check (b)'s "P(cela|ce)=0.278" was **n_cela/n_ce, a count ratio, not a
+    conditional** — the honest syllable-level bound is P("la"|"ce"-syllable) ≤ 0.1805,
+    and observed 0.2188 *exceeds* it (check void); checks (a)/(d) also passed for the
+    refuted de/à (non-discriminating); check (c) is n=3, Wilson CI [0.032,0.242]
+    (weak). New reframing: **P(46|87,pre=96)=3/3 vs P(46|87,pre=24)=0/10** — the "que"
+    is licensed by predecessor 96, never 24. If 24=est (surgeon's H1), the 24-87-46
+    0/10 becomes a joint contradiction (binomial p=9.1e-04 under Les Mis rates).
+    No alternative beats ce ("pour" loses honestly, "sans" refuted, de/à refutation
+    upheld) — the kill fails on alternatives, succeeds on scorecard integrity.
+  - **Drag Racer** (function-word drag v2, syllable-level scorer): PARTIAL — the
+    syllable scorer discriminates where letter-quadgrams tied (54/55 distinct scores,
+    no floor degeneracy), but the discrimination is **word-prior, not placement**:
+    at 12.8% anchor sparsity the best window for ~half the candidates is the isolated
+    word (best == chain prior for 26/55). Only exact multi-anchor placement is
+    cela=87-11 ×7. Model-free corroboration: 87 is the #1 predecessor of 11
+    (P=0.219); ce-la observed 7 vs E=0.7 (z=+7.6). Independently caught attempt-2's
+    ratio error (true cross-word P(la|ce)=0.022 — the cipher is ~10× cela-denser
+    than Tocqueville; register note, not anchor refutation). Granularity warning:
+    cipher cells include single letters m/i/e and hyper-frequent "er" (rank 3),
+    which hyphenation-based syllable units almost never emit — er/m/i/e bigram
+    expectations are uncalibrated (v1 z=+33..+101 retracted as artifact).
+  - **Historian** (archive-side research): key NOT FOUND in any published source —
+    but both blockers now have concrete resolutions (see F14). DECODE registration is
+    free and self-service; HStAD Dresden accepts mail-in scan orders.
+  - **Formula Hunter** (repeat census at pair alignment): repeats are **discourse-level
+    set phrases, not letter-framing formulas** — 13/16 long repeats (L≥5) are
+    body/body; **no repeat is exclusive to the opening or closing 100 groups**.
+    Longest repeat `56 69 26 00 33 21 64 37 01` ×2 @931/@1625 (unread — top crib-drag
+    target). `96 87 46` ×3 ("parce que"/"de ce que", unchecked). `24 87 64` ×3
+    ("[pour|en] ce qui" — blocked on attempt-3's 64="qui"). `77 78 94 82 06` ×2
+    re-verified @1179/@1350 ("-ment/-nement" word family, weak). Nulls: no Dresde /
+    Saint-Pétersbourg / janvier / title evidence by repetition; `06 77 78 18 71 10 01`
+    re-verified 0×; `24 87 46` = 0×.
+  - **Annealer** (24 restarts × 60k iters, 8 anchors pinned, syllable-bigram scorer):
+    **method-broken-on-control → NULL.** Synthetic control recovers **1/88 planted
+    assignments (≈chance)**; the planted true key scores −5.36 per-pair logp while the
+    annealer's "best" nonsense scores −2.90 — the scorer's global optimum sits ~2.5
+    nats/pair *above* real French. Stability table shows the degeneracy: ~20 groups
+    collapse to "de" at 20–24/24 recurrence. Same failure mode as Bourdeau's syllable
+    solvers ("drift to fluent nonsense"), now proven by control rather than inferred.
+  - **Linguist** (1841 French priors): **register mismatch with Les Mis is more
+    dangerous than era mismatch** — a despatch is first-person formulaic administrative
+    French; Les Mis is third-person narration + dialogue + argot. Orthography is
+    post-1835/pre-1878 (cribs must read "collége", "poëte", "asyle"); "cela" beats
+    "ça" 47:1 in 1835–1850 print ("ça" ≈ absent from diplomatic register).
+    Syllable tiers from Meisel 1826 diplomatic corpus (98k words); diplomatic formulae
+    with syllable segmentations (openings, closings, "Par ma dépêche du…", "En réponse
+    à la dépêche de Votre Excellence du…"). New crib HYPOTHESIS: the ×5 repeat
+    `77 78 94 82 06` = **"J'ai l'honneur de"** (5 syllable units: j'ai·l'·hon·neur·de;
+    test the l'-position as a single-letter consonant, check hon–neur adjacency).
 - **2026-10-07 (attempt 3 — era-matched reference + H3 64="qui", `code/attempt3.py`):**
   executed. Operator constraint: Les Mis (novel, 1862) mismatches the 1841 diplomatic
   despatch in era AND register. New reference: Tocqueville, *De la démocratie en
@@ -105,11 +183,51 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
 - **N1 (2026-10-07):** crib-anchored function-word drag (Phase C above) — degenerate at 7-anchor
   sparsity; all candidates tie at floor. Not a disproof of the crib-anchored strategy, only of
   this scorer at this sparsity.
+- **N2 (2026-10-07):** drag re-run with 8 anchors (7 pencil cribs + provisional
+  lane-inferred 87=ce) — still degenerate; all top candidates tie at the quadgram
+  floor (−7.714). The window-quadgram crib-drag is shelved until anchor density or
+  the scorer changes.
 - **N3 (2026-10-07):** drag re-run with 9 anchors (7 pencil cribs + provisional 87=ce +
   provisional 64=qui) — still null. Anchors-only baseline lifts off the quadgram floor
   on some windows (anchor density finally registering), but no (group, word) candidate
   separates from the floor. The window-quadgram crib-drag stays shelved; a syllable-level
   scorer is the candidate replacement.
+- **N4 (2026-10-07, crowd/phonotactician):** phonotactic syllabary search — NULL.
+  Beat uniform (+2798) and freq-matched (+3578, 19.0 sd) baselines degenerately: best key
+  assigns 4 syllables to all 88 free groups (`champmatmatchamphi…` soup); only 1/88 groups
+  stable ≥0.75 across 12 restarts. The scorer is exploited, not informative. Fix candidates:
+  unicity/dispersion constraint, unigram prior, lexical word-segmentation scoring.
+  Evidence: `code/crowd/phonotactician_results.{md,json}`.
+- **N5 (2026-10-07, crowd/annealer):** syllable-bigram annealing — **method-broken-on-control.**
+  Synthetic control (Les Mis French through a known random syllabary, 8 anchors pinned):
+  1/88 planted assignments recovered (≈chance). Planted true key scores −5.36 per-pair
+  logp vs the annealer's "best" nonsense at −2.90 — the scorer's global optimum sits
+  ~2.5 nats/pair above real French. ~20 groups collapse to "de" at 20–24/24 recurrence.
+  Real-ciphertext assignments are null; promote none. Same failure mode as Bourdeau's
+  syllable solvers, now proven by control. Fix candidates: word-level scoring, unigram
+  prior — each needs its own synthetic control first.
+  Evidence: `code/crowd/annealer_results.{md,json}`.
+- **N6 (2026-10-07, crowd/drag-racer):** syllable-level function-word drag — PARTIAL.
+  Discriminates where letter-quadgrams tied (54/55 distinct scores, no floor degeneracy),
+  but the discrimination is word-prior, not placement: at 12.8% anchor sparsity the best
+  window for ~half the candidates is the isolated word itself. Only exact multi-anchor
+  placement: cela=87-11 ×7. Min2 (≥2 anchor coincidences) placements: exactly one
+  candidate. Letter-drag death diagnosed: ±6 windows decode to ~1.7 anchored groups.
+  Granularity warning: pyphen hyphenation units almost never emit er/m/i/e (cipher cells
+  include single letters) — er/m/i/e bigram expectations uncalibrated.
+  Evidence: `code/crowd/drag_racer_results.{md,json}`.
+- **N7 (2026-10-07, crowd/historian):** no 1840s Saxon cipher key in any published source
+  or catalogue checked (DECODE Dresden keys stop at 1799–1806; Rous 2023 covers 1500–1763
+  only). Search trail in `code/crowd/historian_results.md`.
+- **N8 (2026-10-07, crowd/contactor):** both pre-registered contact predictions failed as
+  stated — P1 (34=i/40=e share vowel-class contacts: different clusters A vs B; 40=e not
+  in 34=i's top-10 Jaccard neighbors) and P2 (87 function-word-like: lands in B with
+  82=m, zero function-word anchors in top-10). Suggestive residuals: 40=e is 34=i's
+  2nd-nearest anchor (0.241); 87's nearest anchor is 82=m (0.423).
+  Evidence: `code/crowd/contactor_results.{md,json}`.
+- **N9 (2026-10-07, crowd/crib-surgeon):** no 46=que within ±10 of the "la première"
+  crib; no second "première" anywhere; 11-70 ("la pre") unique to @1033.
+  Evidence: `code/crowd/crib_surgeon_results.{md,json}`.
 
 ## Verified findings
 - F1 (source: Bourdeau zeschau1841 page, 2026-09-21/24): the unit is pairs of digits; 96 of 100
@@ -125,17 +243,101 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   `data/upstream-ct_R5005.txt` (same).
 - F5 (2026-10-07, this lane): bigram **82→16 occurs 11/38 (29%)** — the strongest anchor-adjacent
   pattern in the text; candidate anchor-hypothesis for attempt 2. Evidence: Phase B output.
-- F6 (2026-10-07, this lane): **87="ce" — lane-inferred provisional anchor, CONFIRMED 4/5.**
-  87→11="cela" ×7 (P=0.219 ≈ Les Mis P(cela|ce)=0.278) and 87→46="ce que" ×3 (P=0.094 ≈
-  Les Mis P(que|ce)=0.140); rank 15; 14 distinct predecessors. The rival readings 87="de"/"à"
-  are REFUTED by 87→que ×3 ("de que"/"à que" ungrammatical). Status: provisional anchor
-  (not pencil-crib); 8 anchors total. Evidence: `code/attempt2.py`, `data/attempt2_results.json`.
+- F6 (2026-10-07, this lane; **REVISED by Red Team 2026-10-07 — demoted**):
+  87="ce" was scored CONFIRMED 4/5 in attempt 2; the scorecard does not survive.
+  Check (b)'s "P(cela|ce)=0.278" was n_cela/n_ce, a count ratio, not a conditional —
+  honest syllable-level bound P("la"|"ce"-syllable) ≤ 0.1805, and observed 0.2188
+  exceeds it (check void); checks (a)/(d) also passed for the refuted de/à
+  (non-discriminating); check (c) is n=3, Wilson CI [0.032,0.242] (weak). Status now:
+  **PLAUSIBLE provisional hypothesis — best-tested reading, unsound scorecard.**
+  No alternative beats it ("pour" loses, "sans" refuted, de/à refutation upheld).
+  Surviving model-free support: 87 is the #1 predecessor of 11 (P=0.219); ce-la
+  observed 7 vs E=0.7 (z=+7.6) — drag-racer corroboration. Caution flags: 87 clusters
+  with 82=m, not with la/que (contactor); P(46|87,pre=96)=3/3 vs pre=24 0/10 — the
+  "que" is licensed by predecessor 96, never 24. Everything downstream that used
+  87=ce (N2 drag re-run) inherits this uncertainty. **Update (attempt 3, same day):**
+  re-validated against the era-matched Tocqueville corpus at **CONFIRMED 3/4** —
+  P(que|87)=0.094 ≈ era P(que|ce)=0.108; the "cela"-rate leg is downgraded to
+  register-dependent (era n(cela)/n(ce)=0.041 vs Les Mis 0.278 — a 6.7× register gap;
+  the cipher's P(11|87)=0.219 sits with Les Mis, not the era corpus). Net status:
+  **provisional anchor, best-tested reading, cela-leg register-dependent.**
+  Evidence: `code/attempt2.py`,
+  `data/attempt2_results.json`, `code/crowd/red_team_results.{md,json}`,
+  `code/attempt3.py`, `data/attempt3_results.json`.
 - F7 (2026-10-07, this lane): H1 (82→16 as "ma", 16="a") **not confirmed** — PLAUSIBLE (1/4):
   rank(16)=22 in vowel band, but P(82|16)=0.39, mi/me controls absent (82→34=1, 82→40=0),
   Les Mis P(a|m)=0.19 not dominant. 16 unidentified. Evidence: same as F6.
 - F8 (2026-10-07, this lane, erratum): attempt-1 prose "87→11 in 7/44" quoted P(87|11);
   the correct hypothesis rate is **P(11|87)=7/32=21.9%**. Raw counts in
   `data/attempt1_results.json` were always correct; only the prose ratio is corrected.
+- F11 (2026-10-07, crowd/contactor): **3-phase rotational contact structure A→C→B→A**
+  over the 96 groups — P(A→C)=0.418, P(C→B)=0.450, P(B→A)=0.476 (1.35–1.52× over
+  independence), chi-square=181.3 on 4 df (p≪1e-6), self-transitions suppressed
+  (0.51–0.74×). Shape matches word-position phonotactics: 29=er anchors phase C
+  (prev-A 0.77, next-B 0.89 — word-final-ish, "er" = classic French final syllable;
+  C→B is the word-boundary edge). 87↔82 is the highest anchor-anchor Jaccard
+  (0.423) with an identical C→X→A block signature — 87 patterns as proclitic/onset,
+  compatible with 87=ce but a caution flag on its provisional status. Evidence:
+  `code/crowd/contactor.py`, `code/crowd/contactor_results.json`.
+- F12 (2026-10-07, crowd/crib-surgeon + formula-hunter, convergent; **curator-verified
+  byte-level**): **"la première" = 11-70-82-34-29-40 occurs exactly once @pair 1033
+  (56.0%)** — six consecutive groups, every one a ground-truth pencil-crib anchor.
+  The lane's first multi-group word read from cribs alone. Mid-letter position in a
+  back-reference context ("la première [fois/lettre]"). Zero single-group
+  near-misses; 11-70 unique to that spot. Evidence: `code/crowd/crib_surgeon_results.json`,
+  `code/crowd/formula_hunter_results.json`; independently re-derived by curator.
+- F13 (2026-10-07, crowd/red-team; curator-verified): attempt-2's "P(cela|ce)=0.278"
+  was a count ratio, not a conditional (see revised F6); additionally,
+  **P(46|87,pre=96)=3/3 vs P(46|87,pre=24)=0/10** — the "que" after 87 is licensed by
+  predecessor 96, never by 24. If 24=est (surgeon's H1), the 24-87-46 0/10 is a joint
+  contradiction (binomial p=9.1e-04 under Les Mis rates — re-validate era-matched).
+  The drag racer independently caught the ratio error (true cross-word P(la|ce)=0.022).
+  Evidence: `code/crowd/red_team_results.json`; curator re-derivation matches.
+- F14 (2026-10-07, crowd/formula-hunter): repeat census at pair alignment — repeats are
+  **discourse-level set phrases, not letter-framing formulas**: 13/16 long repeats
+  (L≥5) are body/body, none exclusive to the opening or closing 100 groups (the
+  valediction occurs once, unrecoverable by repetition). Longest repeat
+  `56 69 26 00 33 21 64 37 01` ×2 @931/@1625 (unread — top crib-drag target).
+  `96 87 46` ×3 ("parce que"/"de ce que", unchecked). `24 87 64` ×3 ("[pour|en] ce
+  qui" — blocked on 64="qui"). `77 78 94 82 06` ×2 re-verified @1179/@1350.
+  Evidence: `code/crowd/formula_hunter_results.json`.
+- F15 (2026-10-07, crowd/linguist): **register mismatch with Les Mis is more dangerous
+  than era mismatch** — despatch French is first-person formulaic administrative prose;
+  Les Mis is third-person narration + dialogue + argot (the likely mechanism behind the
+  "fluent nonsense" solver drift). Orthography post-1835/pre-1878 ("collége", "poëte",
+  "asyle", "français", "était"); "cela":"ça" = 47:1 in 1835–1850 print. Syllable tiers
+  from Meisel 1826 diplomatic corpus (98k words); diplomatic formulae with syllable
+  segmentations recorded (openings, closings, "Par ma dépêche du…", "En réponse à la
+  dépêche de Votre Excellence du…"). New crib HYPOTHESIS (not finding): the ×5 repeat
+  `77 78 94 82 06` = **"J'ai l'honneur de"** (j'ai·l'·hon·neur·de, 5 syllable units).
+  Evidence: `code/crowd/linguist_results.{md,json}` (per-claim OBS/DER/INF marks).
+- F16 (2026-10-07, crowd/historian): identities established — Heinrich Anton von Zeschau
+  (1789–1870), Saxon finance minister 1831–1848, took over Foreign Affairs 1835, writing
+  as minister to his envoy Albin Leo von Seebach (1811–1884), Geschäftsträger 1839 /
+  Ministerresident 1840 / Envoy 1847, in St Petersburg 1839–1852, married to Russian
+  chancellor Nesselrode's daughter. Concrete routes: **DECODE registration is free and
+  self-service** (https://de-crypt.org/decrypt-web/register — unlocks R5006–R5008 full
+  images); **HStAD Dresden accepts mail-in scan orders** ("Antrag auf Herstellung von
+  Kopien" → poststelle@sta.smi.sachsen.de), shelfmark verbatim "Sächsisches
+  Staatsarchiv, 10731 Sächsische Gesandtschaft für Russland, St. Petersburg, Nr. 12";
+  key-candidate files **10731 Nr. 12** (the letters themselves) and **10717 Nr. 3332
+  (1841) / 3333 (1842)** "Korrespondenz des Ministeriums mit der Gesandtschaft
+  Petersburg" (the ministry/Dresden side). Evidence:
+  `code/crowd/historian_results.{md,json}`.
+
+## Open hypotheses (not promoted — each needs ≥2 independent checks)
+- H1 (crib surgeon): **24="est"** — strong, 4 checks (rank-1 band; P(ce|24)=0.192 vs
+  1.7% base; "qu'est" elision ×3; Les Mis P(ce|est)=0.118 within 2×). Anomalies:
+  "est-ce que"=0×; "est cela"×3 (disfavors rival "c'est" by rate). If confirmed, the
+  24-87-46 0/10 becomes a hard joint problem for 87=ce (F11).
+- H2 (crib surgeon): **77="pas"** — 3 checks (rank-5 band; 06/77 ratio 1.045 ≈ Les Mis
+  ne/pas 0.959; 06→77 13% vs 2.4% base). Caveats: rival "ne"-like predecessor 67→77
+  ×6; 77 also leads the proper-noun-like r1 repeat.
+- H3 (crib surgeon): **06="ne"** — 3 checks (rank-3 band, ratio, bigram).
+- H4 (formula hunter): **96="par"/"de"** (licenses 96-87-46 "parce/de ce que" ×3);
+  **41="der"/08="ni"** ("dernière" @59–63, test).
+- H5 (linguist): **×5 repeat 77 78 94 82 06 = "J'ai l'honneur de"** — test l'-position
+  as single-letter consonant; check hon–neur adjacency.
 - F9 (2026-10-07, this lane): **64="qui" — lane-inferred provisional anchor, CONFIRMED 4/4.**
   87→64 ×5 ("ce qui"); P(64|87)=0.1562 ≈ era P(qui|ce)=0.1878 ("qui" is the #1 follower
   of "ce" in Tocqueville, 213×); rank(64)=4 of 96 vs era rank("qui")=13; 46=que → 64 = 0;
@@ -173,6 +375,18 @@ French reference text (Les Misérables Tome I, Project Gutenberg ebook 17489), c
 2026-10-07 from sibling lane catherine-medici-1567/data/gutenberg-17489-miserables1.txt
 for independent bigram/word-rate checks (attempt 2):
   a5de514ba7b9f2e1  data/gutenberg-17489-miserables1.txt (first 16 hex of sha256; full hash in SHA256SUMS.txt)
+Crowd round (2026-10-07) — nine executors, coordinator-curated; each wrote only to
+`code/crowd/<name>_results.{md,json}` (the curator alone edited NOTES.md/STATE.md):
+  code/crowd/phonotactician.py, phonotactician_results.{md,json}
+  code/crowd/crib_surgeon_results.{md,json}
+  code/crowd/contactor.py, contactor_results.{md,json}
+  code/crowd/red_team_results.{md,json}
+  code/crowd/drag_racer_results.{md,json}
+  code/crowd/historian_results.{md,json}
+  code/crowd/formula_hunter_results.{md,json}
+  code/crowd/anneal.py, annealer_results.{md,json}
+  code/crowd/linguist_results.{md,json}
+  (plus __pycache__/ — regenerable, not evidence)
 Era-matched reference corpus (attempt 3, 2026-10-07) — Tocqueville, *De la démocratie
 en Amérique*, Tomes 1+2 (French, 1835/1840), formal political prose, 214,861 words.
 Supersedes Les Mis as the rate reference (era + register match to the 1841 despatch):

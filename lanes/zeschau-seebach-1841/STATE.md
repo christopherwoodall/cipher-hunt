@@ -1,7 +1,9 @@
 # STATE — zeschau-seebach-1841
 
-- **status:** `cracking` (attempt 3 done 2026-10-07: 64=qui confirmed 4/4 as provisional
-  anchor 9; 87=ce re-validated 3/4 vs era-matched Tocqueville corpus; drag still null)
+- **status:** `cracking` (crowd round done 2026-10-07: 9 executors, coordinator-curated;
+  9 anchors — 7 pencil cribs + provisional 87=ce + provisional 64=qui; Red Team demoted
+  87=ce from 4/5-confirmed to best-tested-provisional; first byte-level word read
+  "la première" @1033)
 - **checkpoint:** Transcription fetched, hashed, verified (3,764 digits / 1,846 pairs / 96 groups).
   Attempt 1 (`code/crib_attack.py`) complete: repeats corrected to 2×/0× at pair alignment (F3);
   digit-count discrepancy 3,764 vs 3,969 recorded (F4); bigram 82→16 at 29% flagged (F5);
@@ -22,17 +24,51 @@
   87=ce re-validated 3/4 on era rates (cela-leg downgraded to register-dependent, stands).
   Drag re-run with 9 anchors still null — no candidate separates (N3). Bonus: 82→16
   never occurs within ±3 groups of 87=ce (0/11). Results in `data/attempt3_results.json`.
-- **next:** Attempt 4 — exploit 64=qui: examine the five "ce qui" contexts and the
-  followers of 64 for verb-group candidates; profile joint 87/64 ("ce"/"qui") windows
-  for further function words; re-examine 82→16 in qui-anchored windows (it avoids
-  ce-windows entirely); consider a syllable-level scorer to replace the shelved
-  window-quadgram drag. Do NOT promote anything without ≥2 independent checks.
+  **Crowd round** (9 executors, `code/crowd/`, coordinator-verified then merged):
+  - 87=ce DEMOTED by Red Team (F6 revised): attempt-2's "P(cela|ce)=0.278" was a count
+    ratio, not a conditional (honest syllable bound 0.1805 < observed 0.2188 — check void);
+    checks (a)/(d) non-discriminating; (c) weak (n=3). No alternative beats ce. Reframing:
+    P(46|87,pre=96)=3/3 vs pre=24 0/10 — "que" licensed by 96, never 24. Status:
+    provisional, best-tested, cela-leg register-dependent (attempt 3 re-validated 3/4).
+  - "la première" = 11-70-82-34-29-40 exactly once @pair 1033 — byte-level confirmed
+    from ground-truth anchors; mid-letter back-reference (F12, curator-verified).
+  - 3-phase rotational contact structure A→C→B→A (chi²=181.3, 4df; F11); 29=er anchors
+    phase C (word-final-ish); 87↔82 strongest anchor-anchor Jaccard (0.423).
+  - Phonotactic search NULL (N4 — scorer exploited); syllable-bigram annealing
+    method-broken-on-control (N5 — synthetic control 1/88 ≈ chance); syllable drag
+    PARTIAL (N6 — discriminates but word-prior, not placement); no 1840s Saxon key
+    published (N7); contact predictions P1/P2 failed as stated (N8); no que near the
+    crib, no second "première" (N9).
+  - New hypotheses (not promoted): 24="est" (4 checks, strong — if confirmed, 24-87-46
+    0/10 becomes a joint contradiction for 87=ce); 77="pas" (3 checks); 06="ne"
+    (3 checks); 96="par"/"de"; 41="der"/08="ni"; ×5 repeat 77 78 94 82 06 =
+    "J'ai l'honneur de" (linguist).
+  - Historian: identities established (Zeschau 1789–1870; Seebach 1811–1884, envoy
+    St Petersburg 1839–1852); DECODE registration free/self-service (unlocks R5006–R5008);
+    HStAD mail-in scan order (poststelle@sta.smi.sachsen.de), shelfmark 10731 Nr. 12;
+    key-candidate files 10731 Nr. 12 + 10717 Nr. 3332/3333 (F16).
+- **next:** Best 3 next steps (crowd curation 2026-10-07):
+  1. **Resolve 24="est"** (surgeon H1, 4 checks: rank-1 band, P(ce|24)=0.192, "qu'est"
+     elision ×3). If confirmed, the 24-87-46 0/10 becomes a hard joint contradiction
+     for 87=ce (F11/F13) — either way it breaks the 87 deadlock. Re-validate the
+     "est cela"×3 anomaly against the era corpus while at it.
+  2. **Test the linguist's "J'ai l'honneur de" crib** on the ×5 repeat 77 78 94 82 06
+     (5 syllable units; l'-position as single-letter consonant; hon–neur adjacency);
+     crib-drag the 9-mer 56…01 @931/@1625 against the era corpus.
+  3. **DECODE registration** (needs BigSexyWarlock69's word — standing rule: no personal
+     info into new accounts) to unlock R5006–R5008 full images; **HStAD scan order**
+     for 10731 Nr. 12 + 10717 Nr. 3332/3333 (poststelle@sta.smi.sachsen.de).
+  Do NOT promote anything without ≥2 independent checks.
 - **blockers:**
   - R5006–R5008 (sibling letters, 2+3+3 pp) NOT obtainable: DECODE records public at
     de-crypt.org/decrypt-web/RecordsView/{5006,5007,5008} but all "Authentication required";
     200×150px thumbnails are public (verified) yet unusable for transcription; full-size image
-    URLs return a black 986×568 placeholder without a session. Needs DECODE login or an HStAD
-    (Dresden) scan order. Checked 2026-10-07.
+    URLs return a black 986×568 placeholder without a session. Checked 2026-10-07.
+    **Route now concrete (crowd/historian):** DECODE registration is free and self-service
+    at https://de-crypt.org/decrypt-web/register (email + activation link) — needs
+    BigSexyWarlock69's word (standing rule: no personal info into new accounts). Alternative:
+    HStAD Dresden mail-in scan order ("Antrag auf Herstellung von Kopien" →
+    poststelle@sta.smi.sachsen.de) for 10731 Nr. 12 + 10717 Nr. 3332/3333.
   - No 1840s Saxon key on DECODE (latest Dresden key 1799–1806, different fonds).
   - Erased pencil decipherment would need UV/multispectral imaging (physical access, HStAD).
 
