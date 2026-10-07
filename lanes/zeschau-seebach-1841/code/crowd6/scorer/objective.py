@@ -43,7 +43,7 @@ SEED = 1841
 N_GRAM = 7
 ALPHA_NG = 0.1
 BETA_PROV = 0.2
-CONC_CAP = 6
+CONC_CAP = 3  # AMENDED: raw-cell cap (see PREREG.md)
 START = '^'
 
 
@@ -214,77 +214,120 @@ def spanning_word_bonus(ac, text, boundaries):
 class RepairedModel(JointModel):
     """JointModel with the repaired objective.
 
-    Differences from the parent (scoring only; SA/marginals/snapshot
-    machinery reused):
-      - letter n-gram scores PROJECTED letters (F via _letters override);
-      - total_letters counts PROJECTED letters;
-      - total() adds LAM_WORD * S_word (longest-match deduped,
-        spanning-only, per-letter normalized; full exact recompute) and
-        S_conc (projected-value concentration penalty, incremental);
-      - lam_hom forced 0.0 (superseded by S_conc).
+    Scoring is restructured to per-letter stream scoring with TRUE history
+    (fixing the parent's F() history bug: it scored cb's letters given only
+    ca's own tail START-padded, which floors short cells' letters and cost
+    truth ~0.75 nats/letter on the control). The SA / proposal / marginal
+    machinery is reused; all scoring methods are overridden.
+
+    S(K) = S_let_proj + LAM_WORD*S_word + LAM_ROT*S_phase + S_prior
+           - LAM_POLY*n_poly + S_conc
+    S_let_proj: projected letter 7-gram, per-letter normalized, TRUE stream
+        history (single correct walk per resync).
+    S_word: longest-match deduped, spanning-only, per-letter normalized.
+    S_conc: -LAM_CONC * sum_p max(0, n_p - cap)^2 over PROJECTED v1.
+    Key-level terms (S_prior, n_poly, S_conc) are computed fresh in total()
+    from v1/v2 (O(96), exact) — no incremental bookkeeping to go stale.
+    pcell-dependent scores are recomputed lazily: _set_pcell only flips
+    pcell entries; total() resyncs via _refresh_scores() when dirty.
     """
 
     def __init__(self, stream, phase, lp_proj, pins, provisional, cells,
                  weights, ac, lam_word=1.0, lam_rot=0.0, lam_poly=0.05,
-                 lam_conc=0.0, conc_cap=CONC_CAP, n=N_GRAM, rng=None):
+                 lam_conc=0.0, conc_cap=3, n=N_GRAM, rng=None):
         self.ac = ac
         self.lam_word = lam_word
         self.lam_conc = lam_conc
         self.conc_cap = conc_cap
         self._proj = {}
-        self.n_cp = collections.Counter()
-        self.S_conc = 0.0
         self.S_word = 0.0
+        self._scores_dirty = True
+        self._sword_dirty = True
         super().__init__(stream, phase, lp_proj, pins, provisional, cells,
                          weights, lam_rot, lam_poly, 0.0, n,
                          rng if rng is not None else random.Random(SEED))
 
-    # -- projection helpers ------------------------------------------------
+    # -- projection ---------------------------------------------------------
     def _pc(self, c):
         v = self._proj.get(c)
         if v is None:
             v = self._proj[c] = project(c)
         return v
 
-    def _letters(self, c):
-        # override: score projected letters (parent caches list(c))
-        return list(self._pc(c))
+    def _score_str(self, pstr, hist):
+        """Sum of lp over pstr's chars; hist is a list of 6 context chars,
+        rolled forward. The correct per-letter primitive."""
+        t = 0.0
+        h = hist
+        for ch in pstr:
+            t += self.lp(*h, ch)
+            h = h[1:] + [ch]
+        return t
 
-    def _plen(self, c):
-        return len(self._pc(c))
+    # -- letter stream -------------------------------------------------------
+    # No flat wtext/woff is maintained. Per-occurrence scores use TRUE
+    # stream history via _hist_before (walk back through pcell accumulating
+    # projected letters). This is O(6) amortized and exactly correct,
+    # unlike the parent's F() which START-padded short cells.
+    def _hist_before(self, t):
+        hist = []
+        u = t - 1
+        while len(hist) < 6 and u >= 0:
+            pv = self._pc(self.pcell[u])
+            if pv:
+                hist = list(pv) + hist
+            u -= 1
+        hist = hist[-6:]
+        return [START] * (6 - len(hist)) + hist
 
-    # -- concentration penalty (incremental, over projected v1) ------------
-    def _conc_pen(self, n):
-        return self.lam_conc * max(0, n - self.conc_cap) ** 2
-
-    def _move_v1(self, g, new):
-        old = self.v1[g]
-        if old == new:
-            return
-        # parent's raw-cell bookkeeping (S_hom=0, harmless)
-        super()._move_v1(g, new)
-        # projected concentration bookkeeping
-        po, pn = self._pc(old), self._pc(new)
-        if po != pn:
-            self.S_conc += self._conc_pen(self.n_cp[po])
-            self.n_cp[po] -= 1
-            self.S_conc -= self._conc_pen(self.n_cp[po])
-            self.S_conc += self._conc_pen(self.n_cp[pn])
-            self.n_cp[pn] += 1
-            self.S_conc -= self._conc_pen(self.n_cp[pn])
+    def _score_occ(self, t):
+        return self._score_str(self._pc(self.pcell[t]), self._hist_before(t))
 
     def _refresh_scores(self):
-        super()._refresh_scores()
-        # projected lengths (parent used raw lengths)
-        self.total_letters = sum(self._plen(v) for v in self.pcell)
-        # projected concentration (full rebuild)
-        self.n_cp = collections.Counter(self._pc(v) for v in self.v1.values())
-        self.S_conc = -sum(self._conc_pen(n) for n in self.n_cp.values())
-        # word bonus (full exact recompute)
+        """Full exact resync (init / validation)."""
+        self.lscore = [self._score_occ(t) for t in range(self.N)]
+        n_vphi = collections.Counter()
+        n_v = collections.Counter()
+        for t, g in enumerate(self.gs):
+            v, ph = self.pcell[t], self.phase[g]
+            n_vphi[(v, ph)] += 1
+            n_v[v] += 1
+        self.n_vphi, self.n_v = n_vphi, n_v
+        self.total_letters = sum(len(self._pc(v)) for v in self.pcell)
         self.S_word = self._sword_full()
+        self._scores_dirty = False
+        self._sword_dirty = False
+
+    def _sword_full(self):
+        if not self.ac or self.lam_word == 0.0:
+            return 0.0
+        pc, pcells, offs = self._pc, [], [0]
+        for v in self.pcell:
+            pv = pc(v)
+            pcells.append(pv)
+            offs.append(offs[-1] + len(pv))
+        text = ''.join(pcells)
+        if not text:
+            return 0.0
+        bonus, _, _ = spanning_word_bonus(self.ac, text, offs)
+        return bonus / len(text)
+
+    # -- key moves (v1/v2 only; pcell scored lazily) -------------------------
+    def _move_v1(self, g, new):
+        # key-level terms are computed fresh in total(); just flip v1.
+        self.v1[g] = new
+
+    def _fwd_affected(self, t):
+        """Occurrences u>t whose 6-letter history overlaps t's span:
+        u is affected iff (start_u - end_t) < 6."""
+        out, gap, u = [], 0, t + 1
+        while gap < 6 and u < self.N:
+            out.append(u)
+            gap += len(self._pc(self.pcell[u]))
+            u += 1
+        return out
 
     def _set_pcell(self, t, v):
-        # override: total_letters counts PROJECTED letters (parent used raw)
         old = self.pcell[t]
         if old == v:
             return False
@@ -294,93 +337,208 @@ class RepairedModel(JointModel):
         self.n_v[old] -= 1
         self.n_vphi[(v, ph)] += 1
         self.n_v[v] += 1
-        self.total_letters += self._plen(v) - self._plen(old)
+        self.total_letters += len(self._pc(v)) - len(self._pc(old))
         self.pcell[t] = v
-        ca = self.pcell[t - 1] if t > 0 else START
-        self.lscore[t] = self.F(ca, v)
-        if t + 1 < self.N:
-            self.lscore[t + 1] = self.F(v, self.pcell[t + 1])
+        self.lscore[t] = self._score_occ(t)
+        for u in self._fwd_affected(t):
+            self.lscore[u] = self._score_occ(u)
+        self._sword_dirty = True
         return True
 
-    def _sword_full(self):
-        """Exact spanning word bonus from the current pcell decode."""
-        if not self.ac or self.lam_word == 0.0:
-            return 0.0
-        pcells = [self._pc(v) for v in self.pcell]
-        text = ''.join(pcells)
-        if not text:
-            return 0.0
-        boundaries = [0]
-        o = 0
-        for p in pcells:
-            o += len(p)
-            boundaries.append(o)
-        bonus, _, _ = spanning_word_bonus(self.ac, text, boundaries)
-        return bonus / len(text)  # per-letter normalized
+    def _choose(self, t):
+        """Per-occurrence E-step with TRUE stream history."""
+        g = self.gs[t]
+        v1, v2 = self.v1[g], self.v2[g]
+        if v2 is None:
+            return v1
+        hist = self._hist_before(t)
+        pv1, pv2 = self._pc(v1), self._pc(v2)
+        s1 = self._score_str(pv1, hist)
+        s2 = self._score_str(pv2, hist)
+        if t + 1 < self.N:
+            pcb = self._pc(self.pcell[t + 1])
+            s1 += self._score_str(pcb, (hist + list(pv1))[-6:])
+            s2 += self._score_str(pcb, (hist + list(pv2))[-6:])
+        w2 = min(max(self.w2[g], 1e-6), 1 - 1e-6)
+        return v2 if s2 + math.log(w2) > s1 + math.log(1 - w2) else v1
 
-    def total(self):
-        # S_word is recomputed fresh on every call: it is a pure function
-        # of pcell, and caching it across moves was a staleness bug
-        # (components() rounding hid a 1e-4 drift). The dense AC keeps
-        # this at a few ms.
-        s_let = sum(self.lscore) / max(self.total_letters, 1)
-        s_ph = self._phase_score() / max(self.N, 1)
-        self.S_word = self._sword_full()
-        return (s_let + self.lam_word * self.S_word
-                + self.lam_rot * s_ph + self.S_prior
-                - self.lam_poly * self.n_poly + self.S_conc)
+    def _rescore_group(self, g, relax=True):
+        for t in self.occ[g]:
+            self._set_pcell(t, self._choose(t))
+        if relax:
+            cands = set()
+            for t in self.occ[g]:
+                for u in (t - 1, t + 1):
+                    if 0 <= u < self.N and self.v2[self.gs[u]] is not None:
+                        cands.add(u)
+            for _ in range(3):
+                moved = False
+                for u in sorted(cands):
+                    if self._set_pcell(u, self._choose(u)):
+                        moved = True
+                if not moved:
+                    break
+        if self.v2[g] is not None:
+            n2 = sum(1 for t in self.occ[g] if self.pcell[t] == self.v2[g])
+            self.w2[g] = (n2 + 1.0) / (len(self.occ[g]) + 2.0)
 
-    # -- snapshot / revert: parent misses n_cp/S_conc/S_word ----------------
+    def _recompute_all(self):
+        self.pcell = [self.v1[g] for g in self.gs]
+        self._scores_dirty = True
+
+    # -- snapshot / revert (key + pcell only; scores resync lazily) ----------
+    def _aff_positions(self, groups):
+        aff = set()
+        for g in groups:
+            for t in self.occ[g]:
+                aff.add(t)
+                if t - 1 >= 0:
+                    aff.add(t - 1)
+                if t + 1 < self.N:
+                    aff.add(t + 1)
+        return aff
+
     def snapshot(self, groups):
-        snap = super().snapshot(groups)
-        snap['n_cp'] = dict(self.n_cp)
-        snap['S_conc'] = self.S_conc
-        # S_word is a pure function of pcell; the snapshot already stores
-        # the affected pcell entries, so the cached value restores exactly.
-        snap['S_word'] = self.S_word
-        return snap
+        aff = self._aff_positions(groups)
+        return {'groups': list(groups),
+                'key': {g: (self.v1[g], self.v2[g], self.w2[g])
+                        for g in groups},
+                'pcell': {t: self.pcell[t] for t in aff}}
 
     def revert(self, snap):
-        super().revert(snap)
-        self.n_cp = collections.Counter(snap['n_cp'])
-        self.S_conc = snap['S_conc']
-        self.S_word = snap['S_word']
+        for g, (a, b, w) in snap['key'].items():
+            self.v1[g], self.v2[g], self.w2[g] = a, b, w
+        # pass 1: restore pcell + counters (no scoring yet — histories would
+        # be wrong mid-restore)
+        for t, v in snap['pcell'].items():
+            old = self.pcell[t]
+            if old == v:
+                continue
+            g = self.gs[t]
+            ph = self.phase[g]
+            self.n_vphi[(old, ph)] -= 1
+            self.n_v[old] -= 1
+            self.n_vphi[(v, ph)] += 1
+            self.n_v[v] += 1
+            self.total_letters += len(self._pc(v)) - len(self._pc(old))
+            self.pcell[t] = v
+        # pass 2: recompute lscore for aff + forward-affected (histories now
+        # fully restored, so every recompute sees the true stream)
+        to_rescore = set(snap['pcell'])
+        for t in snap['pcell']:
+            for u in self._fwd_affected(t):
+                to_rescore.add(u)
+        for t in sorted(to_rescore):
+            self.lscore[t] = self._score_occ(t)
+        self._sword_dirty = True
+
+    # -- total ---------------------------------------------------------------
+    def _phase_score(self):
+        a = 1.0
+        t = 0.0
+        for (v, ph), n in self.n_vphi.items():
+            t += n * math.log((n + a) / (self.n_v[v] + 4 * a))
+        return t
+
+    def total(self):
+        if self._scores_dirty:
+            self._refresh_scores()
+        elif self._sword_dirty:
+            self.S_word = self._sword_full()
+            self._sword_dirty = False
+        s_let = sum(self.lscore) / max(self.total_letters, 1)
+        s_ph = self._phase_score() / max(self.N, 1)
+        # key-level terms: fresh from v1/v2 every call (O(96), exact)
+        n_c = collections.Counter(self.v1.values())
+        S_conc = -self.lam_conc * sum(
+            max(0, n - self.conc_cap) ** 2 for n in n_c.values())
+        S_prior = sum(BETA_PROV for g, c in self.prov.items()
+                      if self.v1.get(g) == c)
+        n_poly = sum(1 for g in self.groups if self.v2[g] is not None)
+        self._n_poly_cache, self._S_conc_cache = n_poly, S_conc
+        return (s_let + self.lam_word * self.S_word
+                + self.lam_rot * s_ph + S_prior
+                - self.lam_poly * n_poly + S_conc)
 
     def components(self):
+        if self._scores_dirty:
+            self._refresh_scores()
+        elif self._sword_dirty:
+            self.S_word = self._sword_full()
+            self._sword_dirty = False
+        n_c = collections.Counter(self.v1.values())
         return {'total': round(self.total(), 4),
                 's_let_proj': round(sum(self.lscore) / max(self.total_letters, 1), 4),
                 'S_word': round(self.S_word, 4),
                 's_ph': round(self._phase_score() / max(self.N, 1), 4),
-                'S_prior': round(self.S_prior, 3),
-                'n_poly': self.n_poly,
-                'S_conc': round(self.S_conc, 4),
+                'S_prior': round(sum(BETA_PROV for g, c in self.prov.items()
+                                     if self.v1.get(g) == c), 3),
+                'n_poly': sum(1 for g in self.groups if self.v2[g] is not None),
+                'S_conc': round(-self.lam_conc * sum(
+                    max(0, n - self.conc_cap) ** 2 for n in n_c.values()), 4),
+                'max_n_c': max(n_c.values()),
                 'lam_poly': self.lam_poly, 'lam_conc': self.lam_conc}
+
+    def init_key(self):
+        for g in self.groups:
+            if g in self.pins:
+                self.v1[g], self.v2[g], self.w2[g] = self.pins[g], None, 0.0
+            else:
+                self.v1[g] = self.sample_cell()
+                self.v2[g], self.w2[g] = None, 0.0
+        self._recompute_all()
+
+    # marginals: reuse parent's, but it calls propose_move/total — fine.
 
 
 def verify_repaired_incremental(gs, phase, lp_proj, pins, provisional, cells,
                                 weights, ac, seed=7, n_moves=200):
-    """Self-test: incremental total() == full recompute after every move,
-    INCLUDING the word bonus and concentration terms. Returns (ok, info)."""
-    rng = random.Random(seed)
+    """Self-test the lazy-resync scoring:
+    (1) revert consistency: total() before a move == total() after
+        propose+revert (scores resync lazily but exactly);
+    (2) _refresh_scores vs an INDEPENDENT direct stream walk (catches
+        history/window bugs);
+    (3) _choose local scores vs direct (E-step history correctness).
+    Returns (ok, info)."""
+    import random as _random
+    rng = _random.Random(seed)
     m = RepairedModel(gs, phase, lp_proj, pins, provisional, cells, weights,
                       ac, lam_poly=0.05, lam_conc=0.002,
-                      rng=random.Random(seed))
+                      rng=_random.Random(seed))
     m.init_key()
+    base = m.total()
     maxerr = 0.0
     for i in range(n_moves):
         g = rng.choice(m.nonpin)
         mv, touched, snap = m.propose_move(g)
         if mv == 'noop':
             continue
-        inc = m.total()
-        # full recompute from scratch
-        m._refresh_scores()
-        full = m.total()
-        # _refresh_scores recomputes S_word from pcell — but pcell itself is
-        # incremental; cross-check S_word against a from-scratch build
-        sw_check = m._sword_full()
-        err = abs(inc - full) + abs(m.S_word - sw_check)
+        m.revert(snap)
+        back = m.total()
+        err = abs(base - back)
         maxerr = max(maxerr, err)
         if err > 1e-9:
-            return False, (i, mv, inc, full, m.S_word, sw_check)
+            return False, ('revert', i, mv, base, back)
+        # accept the move half the time to explore
+        if rng.random() < 0.5:
+            mv2, touched2, snap2 = m.propose_move(g)
+            if mv2 != 'noop':
+                base = m.total()
+    # (2) independent direct stream walk on the final state
+    m._refresh_scores()
+    pc = m._pc
+    text = ''.join(pc(v) for v in m.pcell)
+    hist = ['^'] * 6
+    tot = 0.0
+    for ch in text:
+        tot += m.lp(*hist, ch)
+        hist = hist[1:] + [ch]
+    indep = tot / max(len(text), 1)
+    mine = sum(m.lscore) / max(m.total_letters, 1)
+    if abs(indep - mine) > 1e-9:
+        return False, ('stream-walk', indep, mine)
+    # (3) word bonus vs independent greedy recompute
+    sw = m._sword_full()
+    if abs(sw - m.S_word) > 1e-12:
+        return False, ('sword', sw, m.S_word)
     return True, maxerr

@@ -1,0 +1,15585 @@
+{
+ "top_words": [
+  [
+   "der",
+   7897
+  ],
+  [
+   "die",
+   7735
+  ],
+  [
+   "und",
+   6280
+  ],
+  [
+   "den",
+   3062
+  ],
+  [
+   "von",
+   2744
+  ],
+  [
+   "lui",
+   2079
+  ],
+  [
+   "avait",
+   1839
+  ],
+  [
+   "ist",
+   1732
+  ],
+  [
+   "das",
+   1699
+  ],
+  [
+   "dem",
+   1697
+  ],
+  [
+   "sich",
+   1652
+  ],
+  [
+   "qu'il",
+   1602
+  ],
+  [
+   "était",
+   1534
+  ],
+  [
+   "mit",
+   1494
+  ],
+  [
+   "daß",
+   1459
+  ],
+  [
+   "auf",
+   1440
+  ],
+  [
+   "roi",
+   1402
+  ],
+  [
+   "nicht",
+   1381
+  ],
+  [
+   "sans",
+   1246
+  ],
+  [
+   "ein",
+   1228
+  ],
+  [
+   "eine",
+   1212
+  ],
+  [
+   "france",
+   1168
+  ],
+  [
+   "als",
+   1077
+  ],
+  [
+   "sie",
+   1061
+  ],
+  [
+   "été",
+   1015
+  ],
+  [
+   "fut",
+   998
+  ],
+  [
+   "gouvernement",
+   967
+  ],
+  [
+   "für",
+   960
+  ],
+  [
+   "c'est",
+   912
+  ],
+  [
+   "man",
+   907
+  ],
+  [
+   "sont",
+   887
+  ],
+  [
+   "nach",
+   872
+  ],
+  [
+   "wie",
+   843
+  ],
+  [
+   "auch",
+   823
+  ],
+  [
+   "point",
+   808
+  ],
+  [
+   "hat",
+   801
+  ],
+  [
+   "peu",
+   791
+  ],
+  [
+   "durch",
+   780
+  ],
+  [
+   "werden",
+   776
+  ],
+  [
+   "aus",
+   774
+  ],
+  [
+   "deux",
+   764
+  ],
+  [
+   "d'une",
+   756
+  ],
+  [
+   "ont",
+   744
+  ],
+  [
+   "politique",
+   738
+  ],
+  [
+   "paris",
+   736
+  ],
+  [
+   "sous",
+   729
+  ],
+  [
+   "d'un",
+   720
+  ],
+  [
+   "aber",
+   707
+  ],
+  [
+   "wird",
+   699
+  ],
+  [
+   "noch",
+   697
+  ],
+  [
+   "bei",
+   681
+  ],
+  [
+   "mon",
+   681
+  ],
+  [
+   "temps",
+   675
+  ],
+  [
+   "contre",
+   638
+  ],
+  [
+   "général",
+   617
+  ],
+  [
+   "welche",
+   612
+  ],
+  [
+   "nur",
+   611
+  ],
+  [
+   "sind",
+   610
+  ],
+  [
+   "prince",
+   608
+  ],
+  [
+   "über",
+   605
+  ],
+  [
+   "pouvoir",
+   598
+  ],
+  [
+   "avaient",
+   596
+  ],
+  [
+   "quelques",
+   592
+  ],
+  [
+   "quand",
+   586
+  ],
+  [
+   "hommes",
+   582
+  ],
+  [
+   "grand",
+   580
+  ],
+  [
+   "the",
+   578
+  ],
+  [
+   "qu'on",
+   577
+  ],
+  [
+   "étaient",
+   556
+  ],
+  [
+   "haben",
+   544
+  ],
+  [
+   "einer",
+   541
+  ],
+  [
+   "cabinet",
+   537
+  ],
+  [
+   "wir",
+   536
+  ],
+  [
+   "notre",
+   522
+  ],
+  [
+   "zur",
+   519
+  ],
+  [
+   "chambre",
+   513
+  ],
+  [
+   "loi",
+   512
+  ],
+  [
+   "jour",
+   510
+  ],
+  [
+   "oder",
+   509
+  ],
+  [
+   "duc",
+   503
+  ],
+  [
+   "non",
+   498
+  ],
+  [
+   "liberté",
+   483
+  ],
+  [
+   "qu'elle",
+   479
+  ],
+  [
+   "einen",
+   477
+  ],
+  [
+   "droit",
+   474
+  ],
+  [
+   "jan",
+   472
+  ],
+  [
+   "unter",
+   470
+  ],
+  [
+   "ministre",
+   470
+  ],
+  [
+   "uns",
+   462
+  ],
+  [
+   "diese",
+   459
+  ],
+  [
+   "war",
+   459
+  ],
+  [
+   "soit",
+   455
+  ],
+  [
+   "qu'ils",
+   455
+  ],
+  [
+   "moi",
+   454
+  ],
+  [
+   "j'ai",
+   451
+  ],
+  [
+   "parti",
+   451
+  ],
+  [
+   "gegen",
+   450
+  ],
+  [
+   "pays",
+   446
+  ],
+  [
+   "talleyrand",
+   441
+  ],
+  [
+   "c'était",
+   438
+  ],
+  [
+   "l'état",
+   438
+  ],
+  [
+   "seine",
+   428
+  ],
+  [
+   "dieser",
+   427
+  ],
+  [
+   "grande",
+   421
+  ],
+  [
+   "zum",
+   420
+  ],
+  [
+   "quelque",
+   419
+  ],
+  [
+   "trop",
+   417
+  ],
+  [
+   "louis",
+   416
+  ],
+  [
+   "moment",
+   414
+  ],
+  [
+   "affaires",
+   408
+  ],
+  [
+   "nos",
+   405
+  ],
+  [
+   "wenn",
+   397
+  ],
+  [
+   "vie",
+   393
+  ],
+  [
+   "publique",
+   393
+  ],
+  [
+   "vor",
+   390
+  ],
+  [
+   "rien",
+   389
+  ],
+  [
+   "jours",
+   389
+  ],
+  [
+   "mes",
+   387
+  ],
+  [
+   "société",
+   383
+  ],
+  [
+   "part",
+   381
+  ],
+  [
+   "vom",
+   378
+  ],
+  [
+   "google",
+   376
+  ],
+  [
+   "bis",
+   375
+  ],
+  [
+   "einem",
+   375
+  ],
+  [
+   "fois",
+   368
+  ],
+  [
+   "votre",
+   368
+  ],
+  [
+   "mir",
+   363
+  ],
+  [
+   "dire",
+   363
+  ],
+  [
+   "eux",
+   363
+  ],
+  [
+   "alle",
+   362
+  ],
+  [
+   "l'instruction",
+   362
+  ],
+  [
+   "l'esprit",
+   359
+  ],
+  [
+   "révolution",
+   355
+  ],
+  [
+   "cet",
+   353
+  ],
+  [
+   "l'empereur",
+   353
+  ],
+  [
+   "napoléon",
+   351
+  ],
+  [
+   "n'est",
+   350
+  ],
+  [
+   "paix",
+   349
+  ],
+  [
+   "l'ordre",
+   349
+  ],
+  [
+   "conseil",
+   348
+  ],
+  [
+   "ans",
+   346
+  ],
+  [
+   "beaucoup",
+   345
+  ],
+  [
+   "guerre",
+   341
+  ],
+  [
+   "mêmes",
+   341
+  ],
+  [
+   "mehr",
+   336
+  ],
+  [
+   "hier",
+   330
+  ],
+  [
+   "ihre",
+   325
+  ],
+  [
+   "situation",
+   323
+  ],
+  [
+   "ihm",
+   319
+  ],
+  [
+   "nom",
+   319
+  ],
+  [
+   "public",
+   316
+  ],
+  [
+   "selbst",
+   314
+  ],
+  [
+   "mémoires",
+   310
+  ],
+  [
+   "pouvait",
+   310
+  ],
+  [
+   "zeit",
+   306
+  ],
+  [
+   "seulement",
+   301
+  ],
+  [
+   "députés",
+   301
+  ],
+  [
+   "serait",
+   298
+  ],
+  [
+   "was",
+   297
+  ],
+  [
+   "worden",
+   296
+  ],
+  [
+   "ministère",
+   296
+  ],
+  [
+   "force",
+   296
+  ],
+  [
+   "ich",
+   294
+  ],
+  [
+   "premier",
+   294
+  ],
+  [
+   "seul",
+   294
+  ],
+  [
+   "gutenberg",
+   293
+  ],
+  [
+   "question",
+   292
+  ],
+  [
+   "idées",
+   291
+  ],
+  [
+   "regierung",
+   289
+  ],
+  [
+   "propre",
+   286
+  ],
+  [
+   "n'y",
+   283
+  ],
+  [
+   "sein",
+   282
+  ],
+  [
+   "amis",
+   282
+  ],
+  [
+   "tant",
+   280
+  ],
+  [
+   "trois",
+   280
+  ],
+  [
+   "donner",
+   280
+  ],
+  [
+   "l'un",
+   279
+  ],
+  [
+   "assez",
+   278
+  ],
+  [
+   "seiner",
+   277
+  ],
+  [
+   "côté",
+   275
+  ],
+  [
+   "chambres",
+   274
+  ],
+  [
+   "eines",
+   273
+  ],
+  [
+   "n'avait",
+   272
+  ],
+  [
+   "caractère",
+   271
+  ],
+  [
+   "cour",
+   269
+  ],
+  [
+   "nouveau",
+   268
+  ],
+  [
+   "besoin",
+   267
+  ],
+  [
+   "jetzt",
+   266
+  ],
+  [
+   "project",
+   266
+  ],
+  [
+   "saint",
+   264
+  ],
+  [
+   "faut",
+   264
+  ],
+  [
+   "aucune",
+   263
+  ],
+  [
+   "succès",
+   261
+  ],
+  [
+   "n'en",
+   259
+  ],
+  [
+   "périer",
+   257
+  ],
+  [
+   "dieses",
+   256
+  ],
+  [
+   "sera",
+   256
+  ],
+  [
+   "sehr",
+   254
+  ],
+  [
+   "aucun",
+   254
+  ],
+  [
+   "grands",
+   253
+  ],
+  [
+   "bsb",
+   252
+  ],
+  [
+   "nouvelle",
+   252
+  ],
+  [
+   "monde",
+   251
+  ],
+  [
+   "schon",
+   250
+  ],
+  [
+   "mal",
+   250
+  ],
+  [
+   "place",
+   249
+  ],
+  [
+   "peuple",
+   249
+  ],
+  [
+   "régime",
+   248
+  ],
+  [
+   "lois",
+   248
+  ],
+  [
+   "ver",
+   246
+  ],
+  [
+   "presque",
+   246
+  ],
+  [
+   "l'autre",
+   246
+  ],
+  [
+   "lieu",
+   245
+  ],
+  [
+   "wieder",
+   243
+  ],
+  [
+   "kann",
+   242
+  ],
+  [
+   "ihrer",
+   242
+  ],
+  [
+   "wurde",
+   242
+  ],
+  [
+   "fort",
+   241
+  ],
+  [
+   "n'a",
+   241
+  ],
+  [
+   "politiques",
+   239
+  ],
+  [
+   "homme",
+   239
+  ],
+  [
+   "plusieurs",
+   238
+  ],
+  [
+   "n'était",
+   237
+  ],
+  [
+   "comte",
+   237
+  ],
+  [
+   "devant",
+   234
+  ],
+  [
+   "confiance",
+   233
+  ],
+  [
+   "ohne",
+   232
+  ],
+  [
+   "français",
+   231
+  ],
+  [
+   "fit",
+   230
+  ],
+  [
+   "maréchal",
+   230
+  ],
+  [
+   "chez",
+   229
+  ],
+  [
+   "esprit",
+   229
+  ],
+  [
+   "qu'à",
+   228
+  ],
+  [
+   "suis",
+   226
+  ],
+  [
+   "près",
+   226
+  ],
+  [
+   "partie",
+   225
+  ],
+  [
+   "puis",
+   225
+  ],
+  [
+   "you",
+   225
+  ],
+  [
+   "s'y",
+   225
+  ],
+  [
+   "personne",
+   225
+  ],
+  [
+   "devait",
+   225
+  ],
+  [
+   "madame",
+   224
+  ],
+  [
+   "hatte",
+   223
+  ],
+  [
+   "aller",
+   223
+  ],
+  [
+   "prendre",
+   223
+  ],
+  [
+   "dès",
+   222
+  ],
+  [
+   "s'en",
+   221
+  ],
+  [
+   "surtout",
+   220
+  ],
+  [
+   "première",
+   220
+  ],
+  [
+   "eût",
+   219
+  ],
+  [
+   "frankreich",
+   217
+  ],
+  [
+   "chaque",
+   217
+  ],
+  [
+   "ministres",
+   217
+  ],
+  [
+   "justice",
+   216
+  ],
+  [
+   "voir",
+   216
+  ],
+  [
+   "souvent",
+   216
+  ],
+  [
+   "ihn",
+   215
+  ],
+  [
+   "nombre",
+   215
+  ],
+  [
+   "bon",
+   214
+  ],
+  [
+   "cause",
+   214
+  ],
+  [
+   "l'on",
+   214
+  ],
+  [
+   "intérêts",
+   213
+  ],
+  [
+   "casimir",
+   213
+  ],
+  [
+   "and",
+   212
+  ],
+  [
+   "ihr",
+   211
+  ],
+  [
+   "d'orléans",
+   211
+  ],
+  [
+   "doch",
+   210
+  ],
+  [
+   "divers",
+   210
+  ],
+  [
+   "peine",
+   210
+  ],
+  [
+   "habe",
+   209
+  ],
+  [
+   "état",
+   208
+  ],
+  [
+   "aurait",
+   208
+  ],
+  [
+   "mort",
+   207
+  ],
+  [
+   "parmi",
+   206
+  ],
+  [
+   "laquelle",
+   206
+  ],
+  [
+   "états",
+   206
+  ],
+  [
+   "garde",
+   205
+  ],
+  [
+   "générale",
+   205
+  ],
+  [
+   "doit",
+   205
+  ],
+  [
+   "ihnen",
+   204
+  ],
+  [
+   "l'histoire",
+   204
+  ],
+  [
+   "allen",
+   202
+  ],
+  [
+   "d'autres",
+   202
+  ],
+  [
+   "époque",
+   201
+  ],
+  [
+   "esprits",
+   201
+  ],
+  [
+   "soll",
+   200
+  ],
+  [
+   "travail",
+   200
+  ],
+  [
+   "diesem",
+   199
+  ],
+  [
+   "charte",
+   199
+  ],
+  [
+   "mettre",
+   199
+  ],
+  [
+   "moyens",
+   199
+  ],
+  [
+   "but",
+   198
+  ],
+  [
+   "würde",
+   197
+  ],
+  [
+   "principes",
+   197
+  ],
+  [
+   "ganz",
+   195
+  ],
+  [
+   "mouvement",
+   195
+  ],
+  [
+   "sentiments",
+   194
+  ],
+  [
+   "d'être",
+   194
+  ],
+  [
+   "lyon",
+   191
+  ],
+  [
+   "bonne",
+   191
+  ],
+  [
+   "cours",
+   190
+  ],
+  [
+   "monsieur",
+   190
+  ],
+  [
+   "furent",
+   190
+  ],
+  [
+   "membres",
+   190
+  ],
+  [
+   "droits",
+   190
+  ],
+  [
+   "denn",
+   189
+  ],
+  [
+   "aujourd'hui",
+   188
+  ],
+  [
+   "s'il",
+   187
+  ],
+  [
+   "maison",
+   187
+  ],
+  [
+   "art",
+   186
+  ],
+  [
+   "rendre",
+   186
+  ],
+  [
+   "famille",
+   186
+  ],
+  [
+   "eben",
+   185
+  ],
+  [
+   "vers",
+   185
+  ],
+  [
+   "l'europe",
+   185
+  ],
+  [
+   "mesure",
+   184
+  ],
+  [
+   "seyn",
+   183
+  ],
+  [
+   "nation",
+   183
+  ],
+  [
+   "projet",
+   181
+  ],
+  [
+   "sentiment",
+   180
+  ],
+  [
+   "mois",
+   180
+  ],
+  [
+   "juillet",
+   180
+  ],
+  [
+   "keine",
+   179
+  ],
+  [
+   "seit",
+   179
+  ],
+  [
+   "nun",
+   178
+  ],
+  [
+   "großen",
+   178
+  ],
+  [
+   "charles",
+   178
+  ],
+  [
+   "seule",
+   178
+  ],
+  [
+   "l'empire",
+   177
+  ],
+  [
+   "travaux",
+   177
+  ],
+  [
+   "corps",
+   176
+  ],
+  [
+   "partout",
+   176
+  ],
+  [
+   "können",
+   175
+  ],
+  [
+   "nationale",
+   175
+  ],
+  [
+   "fût",
+   175
+  ],
+  [
+   "nécessité",
+   175
+  ],
+  [
+   "werde",
+   174
+  ],
+  [
+   "seinen",
+   173
+  ],
+  [
+   "longtemps",
+   173
+  ],
+  [
+   "personnes",
+   173
+  ],
+  [
+   "mourut",
+   173
+  ],
+  [
+   "gens",
+   172
+  ],
+  [
+   "grandes",
+   172
+  ],
+  [
+   "questions",
+   172
+  ],
+  [
+   "ten",
+   171
+  ],
+  [
+   "milieu",
+   171
+  ],
+  [
+   "fallait",
+   171
+  ],
+  [
+   "due",
+   171
+  ],
+  [
+   "ville",
+   171
+  ],
+  [
+   "deutschen",
+   170
+  ],
+  [
+   "welcher",
+   170
+  ],
+  [
+   "proc",
+   170
+  ],
+  [
+   "pensée",
+   170
+  ],
+  [
+   "choses",
+   170
+  ],
+  [
+   "président",
+   170
+  ],
+  [
+   "pris",
+   169
+  ],
+  [
+   "raison",
+   169
+  ],
+  [
+   "qu'un",
+   169
+  ],
+  [
+   "devoir",
+   169
+  ],
+  [
+   "devint",
+   169
+  ],
+  [
+   "quatre",
+   169
+  ],
+  [
+   "wohl",
+   168
+  ],
+  [
+   "lettre",
+   168
+  ],
+  [
+   "l'intérieur",
+   168
+  ],
+  [
+   "qu'en",
+   168
+  ],
+  [
+   "lutte",
+   168
+  ],
+  [
+   "zwei",
+   167
+  ],
+  [
+   "mieux",
+   167
+  ],
+  [
+   "neue",
+   166
+  ],
+  [
+   "passions",
+   166
+  ],
+  [
+   "libre",
+   165
+  ],
+  [
+   "nécessaire",
+   165
+  ],
+  [
+   "écoles",
+   165
+  ],
+  [
+   "viel",
+   164
+  ],
+  [
+   "sens",
+   164
+  ],
+  [
+   "monarchie",
+   164
+  ],
+  [
+   "d'état",
+   164
+  ],
+  [
+   "loin",
+   164
+  ],
+  [
+   "compte",
+   163
+  ],
+  [
+   "waren",
+   162
+  ],
+  [
+   "restauration",
+   162
+  ],
+  [
+   "dessen",
+   161
+  ],
+  [
+   "gen",
+   160
+  ],
+  [
+   "l'administration",
+   160
+  ],
+  [
+   "partis",
+   160
+  ],
+  [
+   "conduite",
+   160
+  ],
+  [
+   "jahre",
+   159
+  ],
+  [
+   "faits",
+   159
+  ],
+  [
+   "voulait",
+   159
+  ],
+  [
+   "zwischen",
+   158
+  ],
+  [
+   "telle",
+   158
+  ],
+  [
+   "neuen",
+   157
+  ],
+  [
+   "machen",
+   157
+  ],
+  [
+   "chef",
+   157
+  ],
+  [
+   "tantôt",
+   157
+  ],
+  [
+   "j'avais",
+   156
+  ],
+  [
+   "s'était",
+   156
+  ],
+  [
+   "parce",
+   156
+  ],
+  [
+   "rapports",
+   156
+  ],
+  [
+   "enfin",
+   156
+  ]
+ ],
+ "top_cap_runs": [
+  [
+   "France",
+   990
+  ],
+  [
+   "Roi",
+   658
+  ],
+  [
+   "Paris",
+   566
+  ],
+  [
+   "Chambre",
+   465
+  ],
+  [
+   "C'est",
+   303
+  ],
+  [
+   "Napoléon",
+   290
+  ],
+  [
+   "Zeit",
+   282
+  ],
+  [
+   "Google",
+   278
+  ],
+  [
+   "Regierung",
+   226
+  ],
+  [
+   "Chambres",
+   224
+  ],
+  [
+   "Die",
+   217
+  ],
+  [
+   "Louis",
+   216
+  ],
+  [
+   "Talleyrand",
+   208
+  ],
+  [
+   "Casimir Périer",
+   195
+  ],
+  [
+   "C'était",
+   194
+  ],
+  [
+   "Charte",
+   168
+  ],
+  [
+   "Project Gutenberg",
+   162
+  ],
+  [
+   "Frankreich",
+   158
+  ],
+  [
+   "Lyon",
+   157
+  ],
+  [
+   "J'ai",
+   148
+  ],
+  [
+   "Révolution",
+   148
+  ],
+  [
+   "Jahre",
+   142
+  ],
+  [
+   "Man",
+   139
+  ],
+  [
+   "Villèle",
+   136
+  ],
+  [
+   "Quand",
+   129
+  ],
+  [
+   "Conseil",
+   128
+  ],
+  [
+   "Jahr",
+   127
+  ],
+  [
+   "Restauration",
+   127
+  ],
+  [
+   "Charles",
+   126
+  ],
+  [
+   "Art",
+   123
+  ],
+  [
+   "Jan",
+   121
+  ],
+  [
+   "Mann",
+   116
+  ],
+  [
+   "Chateaubriand",
+   113
+  ],
+  [
+   "Fayette",
+   112
+  ],
+  [
+   "Louis Philippe",
+   111
+  ],
+  [
+   "Der",
+   107
+  ],
+  [
+   "Stadt",
+   105
+  ],
+  [
+   "Schweiz",
+   105
+  ],
+  [
+   "Theil",
+   101
+  ],
+  [
+   "Jahren",
+   96
+  ],
+  [
+   "Ver",
+   94
+  ],
+  [
+   "Land",
+   93
+  ],
+  [
+   "Français",
+   92
+  ],
+  [
+   "Monsieur",
+   91
+  ],
+  [
+   "Broglie",
+   91
+  ],
+  [
+   "Cour",
+   88
+  ],
+  [
+   "Note",
+   86
+  ],
+  [
+   "Landes",
+   84
+  ],
+  [
+   "Londres",
+   84
+  ],
+  [
+   "Januar",
+   83
+  ],
+  [
+   "Sie",
+   83
+  ],
+  [
+   "Deutschland",
+   82
+  ],
+  [
+   "Tage",
+   82
+  ],
+  [
+   "Wir",
+   82
+  ],
+  [
+   "Mon",
+   79
+  ],
+  [
+   "Berlin",
+   79
+  ],
+  [
+   "Russie",
+   78
+  ],
+  [
+   "Alexandre",
+   77
+  ],
+  [
+   "Royer Collard",
+   76
+  ],
+  [
+   "Rome",
+   73
+  ],
+  [
+   "Stelle",
+   71
+  ],
+  [
+   "Geschichte",
+   71
+  ],
+  [
+   "Dec",
+   70
+  ],
+  [
+   "Thiers",
+   70
+  ],
+  [
+   "Folge",
+   70
+  ],
+  [
+   "Frage",
+   70
+  ],
+  [
+   "Sache",
+   70
+  ],
+  [
+   "Sire",
+   70
+  ],
+  [
+   "Tagen",
+   69
+  ],
+  [
+   "Guizot",
+   69
+  ],
+  [
+   "États",
+   69
+  ],
+  [
+   "Das",
+   68
+  ],
+  [
+   "Hand",
+   67
+  ],
+  [
+   "Ordonnance",
+   66
+  ],
+  [
+   "Seite",
+   65
+  ],
+  [
+   "Pforte",
+   64
+  ],
+  [
+   "England",
+   63
+  ],
+  [
+   "Truppen",
+   63
+  ],
+  [
+   "Richelieu",
+   63
+  ],
+  [
+   "Volk",
+   62
+  ],
+  [
+   "Vienne",
+   62
+  ],
+  [
+   "Auf",
+   61
+  ],
+  [
+   "Dieu",
+   61
+  ],
+  [
+   "Prusse",
+   61
+  ],
+  [
+   "Madrid",
+   59
+  ],
+  [
+   "Ich",
+   59
+  ],
+  [
+   "Leben",
+   59
+  ],
+  [
+   "Fall",
+   59
+  ],
+  [
+   "Votre Majesté",
+   59
+  ],
+  [
+   "Laffitte",
+   59
+  ],
+  [
+   "Paix",
+   59
+  ],
+  [
+   "Ende",
+   58
+  ],
+  [
+   "Weise",
+   58
+  ],
+  [
+   "Interesse",
+   58
+  ],
+  [
+   "Bourbon",
+   58
+  ],
+  [
+   "Armee",
+   57
+  ],
+  [
+   "Non",
+   57
+  ],
+  [
+   "Europa",
+   56
+  ],
+  [
+   "Macht",
+   56
+  ],
+  [
+   "Convention",
+   56
+  ],
+  [
+   "Nation",
+   56
+  ],
+  [
+   "König",
+   56
+  ],
+  [
+   "Mittel",
+   55
+  ],
+  [
+   "Sprache",
+   55
+  ],
+  [
+   "Staaten",
+   55
+  ],
+  [
+   "Pièces",
+   55
+  ],
+  [
+   "Angleterre",
+   55
+  ],
+  [
+   "Namen",
+   54
+  ],
+  [
+   "Tag",
+   54
+  ],
+  [
+   "Krieg",
+   54
+  ],
+  [
+   "Auch",
+   54
+  ],
+  [
+   "Wie",
+   54
+  ],
+  [
+   "Bonaparte",
+   54
+  ],
+  [
+   "Dès",
+   54
+  ],
+  [
+   "Pologne",
+   54
+  ],
+  [
+   "Lande",
+   53
+  ],
+  [
+   "Mémoires",
+   53
+  ],
+  [
+   "Wenn",
+   52
+  ],
+  [
+   "Personen",
+   52
+  ],
+  [
+   "Millionen",
+   52
+  ],
+  [
+   "Quant",
+   52
+  ],
+  [
+   "Decazes",
+   52
+  ],
+  [
+   "Vor",
+   51
+  ],
+  [
+   "Belgique",
+   51
+  ],
+  [
+   "Moniteur",
+   50
+  ],
+  [
+   "London",
+   49
+  ],
+  [
+   "Lage",
+   49
+  ],
+  [
+   "Ein",
+   49
+  ],
+  [
+   "Aber",
+   49
+  ],
+  [
+   "Handel",
+   49
+  ],
+  [
+   "Grund",
+   49
+  ],
+  [
+   "Wege",
+   48
+  ],
+  [
+   "Aegypten",
+   48
+  ],
+  [
+   "Was",
+   48
+  ],
+  [
+   "Société",
+   48
+  ],
+  [
+   "Europe",
+   48
+  ],
+  [
+   "Quelques",
+   48
+  ],
+  [
+   "Mit",
+   47
+  ],
+  [
+   "Von",
+   47
+  ],
+  [
+   "Werke",
+   47
+  ],
+  [
+   "Portugal",
+   47
+  ],
+  [
+   "Dupin",
+   47
+  ],
+  [
+   "Werk",
+   46
+  ],
+  [
+   "Soult",
+   46
+  ],
+  [
+   "Majesté",
+   46
+  ],
+  [
+   "Partei",
+   45
+  ],
+  [
+   "Bevölkerung",
+   45
+  ],
+  [
+   "Recht",
+   45
+  ],
+  [
+   "Preis",
+   45
+  ],
+  [
+   "Franzosen",
+   45
+  ],
+  [
+   "J'avais",
+   45
+  ],
+  [
+   "Augenblick",
+   44
+  ],
+  [
+   "Nach",
+   44
+  ],
+  [
+   "Dinge",
+   44
+  ],
+  [
+   "Mehemed Ali",
+   44
+  ],
+  [
+   "Unter",
+   44
+  ],
+  [
+   "Verhältnisse",
+   44
+  ],
+  [
+   "Befestigung",
+   44
+  ],
+  [
+   "Uhr",
+   44
+  ],
+  [
+   "Loi",
+   44
+  ],
+  [
+   "Deux",
+   44
+  ],
+  [
+   "États Unis",
+   44
+  ],
+  [
+   "Ferdinand",
+   44
+  ],
+  [
+   "Staats",
+   43
+  ],
+  [
+   "Wien",
+   43
+  ],
+  [
+   "Aus",
+   43
+  ],
+  [
+   "Briefe",
+   43
+  ],
+  [
+   "Beschluß",
+   43
+  ],
+  [
+   "Artikel",
+   43
+  ],
+  [
+   "Mes",
+   43
+  ],
+  [
+   "Périer",
+   43
+  ],
+  [
+   "Verfassung",
+   42
+  ],
+  [
+   "Syrien",
+   42
+  ],
+  [
+   "Ihnen",
+   42
+  ],
+  [
+   "Zustand",
+   42
+  ],
+  [
+   "Interessen",
+   42
+  ],
+  [
+   "Männer",
+   42
+  ],
+  [
+   "Journal",
+   42
+  ],
+  [
+   "XVIIIe",
+   42
+  ],
+  [
+   "Hauptstadt",
+   41
+  ],
+  [
+   "Ministerium",
+   41
+  ],
+  [
+   "Leipzig",
+   41
+  ],
+  [
+   "Quelle",
+   41
+  ],
+  [
+   "J'étais",
+   41
+  ],
+  [
+   "Tuileries",
+   41
+  ],
+  [
+   "Nachrichten",
+   40
+  ],
+  [
+   "Werth",
+   40
+  ],
+  [
+   "Politik",
+   40
+  ],
+  [
+   "Parmi",
+   40
+  ],
+  [
+   "Arbeiten",
+   39
+  ],
+  [
+   "Anzahl",
+   39
+  ],
+  [
+   "Alles",
+   39
+  ],
+  [
+   "Engländer",
+   39
+  ],
+  [
+   "Fonds",
+   39
+  ],
+  [
+   "United States",
+   39
+  ],
+  [
+   "J'en",
+   39
+  ],
+  [
+   "Welt",
+   38
+  ],
+  [
+   "Kammer",
+   38
+  ],
+  [
+   "That",
+   38
+  ],
+  [
+   "Nachricht",
+   38
+  ],
+  [
+   "Handels",
+   38
+  ],
+  [
+   "Stande",
+   37
+  ],
+  [
+   "Gesellschaft",
+   37
+  ],
+  [
+   "Juillet",
+   37
+  ],
+  [
+   "Ordnung",
+   36
+  ],
+  [
+   "Rath",
+   36
+  ],
+  [
+   "Loose",
+   36
+  ],
+  [
+   "Geist",
+   36
+  ],
+  [
+   "Und",
+   36
+  ],
+  [
+   "Flotte",
+   35
+  ],
+  [
+   "Rußland",
+   35
+  ],
+  [
+   "Innern",
+   35
+  ],
+  [
+   "Dieß",
+   35
+  ],
+  [
+   "Beziehung",
+   35
+  ],
+  [
+   "Seiten",
+   35
+  ],
+  [
+   "Publicum",
+   35
+  ],
+  [
+   "Jahres",
+   35
+  ],
+  [
+   "Schweizer",
+   35
+  ],
+  [
+   "Sous",
+   35
+  ],
+  [
+   "Enfin",
+   35
+  ],
+  [
+   "Zweifel",
+   34
+  ],
+  [
+   "Friedens",
+   34
+  ],
+  [
+   "Natur",
+   34
+  ],
+  [
+   "Angelegenheiten",
+   34
+  ],
+  [
+   "Zahl",
+   34
+  ],
+  [
+   "Menschen",
+   34
+  ],
+  [
+   "Minister",
+   34
+  ],
+  [
+   "Monaten",
+   34
+  ],
+  [
+   "État",
+   34
+  ],
+  [
+   "Sans",
+   34
+  ],
+  [
+   "Serre",
+   34
+  ],
+  [
+   "Rhin",
+   34
+  ],
+  [
+   "Einfluß",
+   33
+  ],
+  [
+   "Tod",
+   33
+  ],
+  [
+   "Bericht",
+   33
+  ],
+  [
+   "Proc",
+   33
+  ],
+  [
+   "Wissenschaft",
+   33
+  ],
+  [
+   "Verbindung",
+   33
+  ],
+  [
+   "Rede",
+   33
+  ],
+  [
+   "Rechte",
+   33
+  ],
+  [
+   "Malgré",
+   33
+  ],
+  [
+   "Universités",
+   33
+  ],
+  [
+   "République",
+   33
+  ],
+  [
+   "Asturies",
+   33
+  ],
+  [
+   "Calonne",
+   33
+  ],
+  [
+   "Bei",
+   32
+  ],
+  [
+   "Inhalt",
+   32
+  ],
+  [
+   "Waffen",
+   32
+  ],
+  [
+   "Frankfurt",
+   32
+  ],
+  [
+   "Staat",
+   32
+  ],
+  [
+   "Rien",
+   32
+  ],
+  [
+   "Hollande",
+   32
+  ],
+  [
+   "Stellung",
+   31
+  ],
+  [
+   "Provinzen",
+   31
+  ],
+  [
+   "Betreff",
+   31
+  ],
+  [
+   "Bezug",
+   31
+  ],
+  [
+   "Schreiben",
+   31
+  ],
+  [
+   "Länder",
+   31
+  ],
+  [
+   "Als",
+   31
+  ],
+  [
+   "Ausführung",
+   31
+  ],
+  [
+   "Bildung",
+   31
+  ],
+  [
+   "Kosten",
+   31
+  ],
+  [
+   "Summe",
+   31
+  ],
+  [
+   "Spanien",
+   31
+  ],
+  [
+   "Cet",
+   31
+  ],
+  [
+   "Dupont",
+   31
+  ],
+  [
+   "Gefahr",
+   30
+  ],
+  [
+   "Rhein",
+   30
+  ],
+  [
+   "Bahn",
+   30
+  ],
+  [
+   "Sinne",
+   30
+  ],
+  [
+   "Hoffnung",
+   30
+  ],
+  [
+   "Seit",
+   30
+  ],
+  [
+   "Freunde",
+   30
+  ],
+  [
+   "Verfasser",
+   30
+  ],
+  [
+   "Ehre",
+   30
+  ],
+  [
+   "Zweck",
+   30
+  ],
+  [
+   "Bankaktien",
+   30
+  ],
+  [
+   "Seine",
+   30
+  ],
+  [
+   "Bedeutung",
+   30
+  ],
+  [
+   "Daß",
+   30
+  ],
+  [
+   "Bürger",
+   30
+  ],
+  [
+   "Hinsicht",
+   30
+  ],
+  [
+   "Mitglieder",
+   30
+  ],
+  [
+   "Frieden",
+   30
+  ],
+  [
+   "You",
+   30
+  ],
+  [
+   "Suisse",
+   30
+  ],
+  [
+   "Pourtant",
+   30
+  ],
+  [
+   "Espagne",
+   30
+  ],
+  [
+   "Sébastiani",
+   30
+  ],
+  [
+   "Meinung",
+   29
+  ],
+  [
+   "Mehrheit",
+   29
+  ],
+  [
+   "München",
+   29
+  ],
+  [
+   "Feind",
+   29
+  ],
+  [
+   "Kriegs",
+   29
+  ],
+  [
+   "Kirche",
+   29
+  ],
+  [
+   "Gesetz",
+   29
+  ],
+  [
+   "Zeiten",
+   29
+  ],
+  [
+   "Zukunft",
+   29
+  ],
+  [
+   "Commission",
+   29
+  ],
+  [
+   "S'il",
+   29
+  ],
+  [
+   "Toulouse",
+   29
+  ],
+  [
+   "Personne",
+   29
+  ],
+  [
+   "Verwaltung",
+   28
+  ],
+  [
+   "Vertrauen",
+   28
+  ],
+  [
+   "Ruhe",
+   28
+  ],
+  [
+   "Damaskus",
+   28
+  ],
+  [
+   "Buchhandlungen",
+   28
+  ],
+  [
+   "Gränze",
+   28
+  ],
+  [
+   "Leitung",
+   27
+  ],
+  [
+   "Jan Die",
+   27
+  ],
+  [
+   "Wahl",
+   27
+  ],
+  [
+   "Auge",
+   27
+  ],
+  [
+   "Leute",
+   27
+  ],
+  [
+   "Plan",
+   27
+  ],
+  [
+   "Anfang",
+   27
+  ],
+  [
+   "Presse",
+   27
+  ],
+  [
+   "Ausgaben",
+   27
+  ],
+  [
+   "Charakter",
+   27
+  ],
+  [
+   "Gewalt",
+   27
+  ],
+  [
+   "Erfurt",
+   27
+  ],
+  [
+   "Erfolg",
+   27
+  ],
+  [
+   "Rémusat",
+   27
+  ],
+  [
+   "Montesquiou",
+   27
+  ],
+  [
+   "Madame",
+   27
+  ],
+  [
+   "Polignac",
+   27
+  ],
+  [
+   "Comment",
+   27
+  ],
+  [
+   "Italie",
+   27
+  ],
+  [
+   "Reich",
+   26
+  ],
+  [
+   "Völker",
+   26
+  ],
+  [
+   "Deutschen",
+   26
+  ],
+  [
+   "Fürsten",
+   26
+  ],
+  [
+   "Weg",
+   26
+  ],
+  [
+   "Nov",
+   26
+  ],
+  [
+   "Für",
+   26
+  ],
+  [
+   "Sinn",
+   26
+  ],
+  [
+   "Volks",
+   26
+  ],
+  [
+   "Titel",
+   26
+  ],
+  [
+   "Hände",
+   26
+  ],
+  [
+   "Hr Thiers",
+   26
+  ],
+  [
+   "Königs",
+   26
+  ],
+  [
+   "Herrschaft",
+   26
+  ],
+  [
+   "Nacht",
+   26
+  ],
+  [
+   "Ausland",
+   26
+  ],
+  [
+   "Quoique",
+   26
+  ],
+  [
+   "Notre",
+   26
+  ],
+  [
+   "Député",
+   26
+  ],
+  [
+   "Hamburg",
+   25
+  ],
+  [
+   "Sitzung",
+   25
+  ],
+  [
+   "Stuttgart",
+   25
+  ],
+  [
+   "Türken",
+   25
+  ],
+  [
+   "Soldaten",
+   25
+  ],
+  [
+   "Diese",
+   25
+  ],
+  [
+   "Küste",
+   25
+  ],
+  [
+   "Ansichten",
+   25
+  ],
+  [
+   "Eine",
+   25
+  ],
+  [
+   "Kräfte",
+   25
+  ],
+  [
+   "Rthlr",
+   25
+  ],
+  [
+   "Ueber",
+   25
+  ],
+  [
+   "Schritt",
+   25
+  ],
+  [
+   "Bischof",
+   25
+  ],
+  [
+   "Ansicht",
+   25
+  ],
+  [
+   "Stände",
+   25
+  ],
+  [
+   "Geld",
+   25
+  ],
+  [
+   "Odilon Barrot",
+   25
+  ],
+  [
+   "Laîné",
+   25
+  ],
+  [
+   "Trois",
+   25
+  ],
+  [
+   "Varsovie",
+   25
+  ],
+  [
+   "Gérard",
+   25
+  ],
+  [
+   "Ideen",
+   24
+  ],
+  [
+   "Augen",
+   24
+  ],
+  [
+   "Wort",
+   24
+  ],
+  [
+   "Zürich",
+   24
+  ],
+  [
+   "Aargau",
+   24
+  ],
+  [
+   "Stand",
+   24
+  ],
+  [
+   "Post",
+   24
+  ],
+  [
+   "Bedingungen",
+   24
+  ],
+  [
+   "Niemand",
+   24
+  ],
+  [
+   "Gegenstand",
+   24
+  ],
+  [
+   "Hier",
+   24
+  ],
+  [
+   "Freiheit",
+   24
+  ],
+  [
+   "Buch",
+   24
+  ],
+  [
+   "Gedanken",
+   24
+  ],
+  [
+   "Provinz",
+   24
+  ],
+  [
+   "Vertrag",
+   24
+  ],
+  [
+   "Berichte",
+   24
+  ],
+  [
+   "Holland",
+   24
+  ],
+  [
+   "Gouvernement",
+   24
+  ],
+  [
+   "Project Gutenberg License",
+   24
+  ],
+  [
+   "Berry",
+   24
+  ],
+  [
+   "Palais Royal",
+   24
+  ],
+  [
+   "Gebiet",
+   23
+  ],
+  [
+   "Volkes",
+   23
+  ],
+  [
+   "Absicht",
+   23
+  ],
+  [
+   "Hülfe",
+   23
+  ],
+  [
+   "Blätter",
+   23
+  ],
+  [
+   "Hälfte",
+   23
+  ],
+  [
+   "Pascha",
+   23
+  ],
+  [
+   "Verlust",
+   23
+  ],
+  [
+   "Sicherheit",
+   23
+  ],
+  [
+   "Rom",
+   23
+  ],
+  [
+   "Menge",
+   23
+  ],
+  [
+   "Punkte",
+   23
+  ],
+  [
+   "Doch",
+   23
+  ],
+  [
+   "März",
+   23
+  ],
+  [
+   "Worte",
+   23
+  ],
+  [
+   "Berg",
+   23
+  ],
+  [
+   "Bibliothèque",
+   23
+  ],
+  [
+   "Rumford",
+   23
+  ],
+  [
+   "Pasquier",
+   23
+  ],
+  [
+   "Peu",
+   23
+  ],
+  [
+   "Piémont",
+   23
+  ],
+  [
+   "Montalivet",
+   23
+  ],
+  [
+   "Mennais",
+   23
+  ],
+  [
+   "Februar",
+   22
+  ],
+  [
+   "Hof",
+   22
+  ],
+  [
+   "Lebens",
+   22
+  ],
+  [
+   "Volke",
+   22
+  ],
+  [
+   "Mitglied",
+   22
+  ],
+  [
+   "Falle",
+   22
+  ],
+  [
+   "Umstände",
+   22
+  ],
+  [
+   "Jahrs",
+   22
+  ],
+  [
+   "Städte",
+   22
+  ],
+  [
+   "Kraft",
+   22
+  ],
+  [
+   "Corps",
+   22
+  ],
+  [
+   "Monat",
+   22
+  ],
+  [
+   "Zimmer",
+   22
+  ],
+  [
+   "Punkt",
+   22
+  ],
+  [
+   "Arbeit",
+   22
+  ],
+  [
+   "Ganzen",
+   22
+  ],
+  [
+   "Masse",
+   22
+  ],
+  [
+   "Wer",
+   22
+  ],
+  [
+   "Bischofs",
+   22
+  ],
+  [
+   "Regie",
+   22
+  ],
+  [
+   "Versammlung",
+   22
+  ],
+  [
+   "Bewegung",
+   22
+  ],
+  [
+   "Litteratur",
+   22
+  ],
+  [
+   "Christen",
+   22
+  ],
+  [
+   "Versailles",
+   22
+  ],
+  [
+   "Section",
+   22
+  ],
+  [
+   "Plusieurs",
+   22
+  ],
+  [
+   "Naples",
+   22
+  ],
+  [
+   "Montmorency",
+   22
+  ],
+  [
+   "Vive",
+   22
+  ],
+  [
+   "Solothurn",
+   21
+  ],
+  [
+   "Verhandlungen",
+   21
+  ],
+  [
+   "Frank",
+   21
+  ],
+  [
+   "Hrn Thiers",
+   21
+  ],
+  [
+   "Reihe",
+   21
+  ],
+  [
+   "Lehrer",
+   21
+  ],
+  [
+   "Kunst",
+   21
+  ],
+  [
+   "Republik",
+   21
+  ],
+  [
+   "Journale",
+   21
+  ],
+  [
+   "Die Regierung",
+   21
+  ],
+  [
+   "Würde",
+   21
+  ],
+  [
+   "Reise",
+   21
+  ],
+  [
+   "Fuß",
+   21
+  ],
+  [
+   "Schon",
+   21
+  ],
+  [
+   "Konstantinopel",
+   21
+  ],
+  [
+   "Alerandria",
+   21
+  ],
+  [
+   "Erklärung",
+   21
+  ],
+  [
+   "Buchhandlung",
+   21
+  ],
+  [
+   "Algier",
+   21
+  ],
+  [
+   "Bell",
+   21
+  ],
+  [
+   "Gelegenheit",
+   21
+  ],
+  [
+   "Constitution",
+   21
+  ],
+  [
+   "Beweis",
+   21
+  ],
+  [
+   "Ard",
+   21
+  ],
+  [
+   "Schlüsse",
+   21
+  ],
+  [
+   "Königin",
+   21
+  ],
+  [
+   "Schrift",
+   21
+  ],
+  [
+   "Verkehr",
+   21
+  ],
+  [
+   "Chartres",
+   21
+  ],
+  [
+   "Humann",
+   21
+  ],
+  [
+   "Bayonne",
+   21
+  ],
+  [
+   "Cuvier",
+   21
+  ],
+  [
+   "Martignac",
+   21
+  ],
+  [
+   "Anglais",
+   21
+  ],
+  [
+   "Project Gutenberg Literary Archive Foundation",
+   21
+  ],
+  [
+   "Ministre",
+   21
+  ],
+  [
+   "Opposition",
+   20
+  ],
+  [
+   "Antheil",
+   20
+  ],
+  [
+   "Schriften",
+   20
+  ],
+  [
+   "Napoleon",
+   20
+  ],
+  [
+   "Entwurf",
+   20
+  ],
+  [
+   "Stunden",
+   20
+  ],
+  [
+   "Kampf",
+   20
+  ],
+  [
+   "Noch",
+   20
+  ],
+  [
+   "Thlr",
+   20
+  ],
+  [
+   "Opfer",
+   20
+  ],
+  [
+   "Form",
+   20
+  ],
+  [
+   "Preußen",
+   20
+  ],
+  [
+   "Allein",
+   20
+  ],
+  [
+   "Herzen",
+   20
+  ],
+  [
+   "Gouverneur",
+   20
+  ],
+  [
+   "December",
+   20
+  ],
+  [
+   "Vers",
+   20
+  ],
+  [
+   "Aussicht",
+   20
+  ],
+  [
+   "Rosas",
+   20
+  ],
+  [
+   "Cabinet",
+   20
+  ],
+  [
+   "Klöster",
+   20
+  ]
+ ],
+ "top_cap1": [
+  [
+   "france",
+   1165
+  ],
+  [
+   "die",
+   966
+  ],
+  [
+   "roi",
+   732
+  ],
+  [
+   "paris",
+   727
+  ],
+  [
+   "der",
+   533
+  ],
+  [
+   "chambre",
+   477
+  ],
+  [
+   "jan",
+   471
+  ],
+  [
+   "louis",
+   407
+  ],
+  [
+   "google",
+   376
+  ],
+  [
+   "napoléon",
+   351
+  ],
+  [
+   "c'est",
+   325
+  ],
+  [
+   "zeit",
+   303
+  ],
+  [
+   "regierung",
+   286
+  ],
+  [
+   "chambres",
+   258
+  ],
+  [
+   "project",
+   253
+  ],
+  [
+   "périer",
+   253
+  ],
+  [
+   "hr",
+   252
+  ],
+  [
+   "gutenberg",
+   251
+  ],
+  [
+   "saint",
+   242
+  ],
+  [
+   "das",
+   234
+  ],
+  [
+   "talleyrand",
+   233
+  ],
+  [
+   "frankreich",
+   217
+  ],
+  [
+   "casimir",
+   208
+  ],
+  [
+   "c'était",
+   204
+  ],
+  [
+   "lyon",
+   191
+  ],
+  [
+   "charte",
+   191
+  ],
+  [
+   "charles",
+   176
+  ],
+  [
+   "man",
+   175
+  ],
+  [
+   "révolution",
+   165
+  ],
+  [
+   "j'ai",
+   162
+  ],
+  [
+   "jahre",
+   159
+  ],
+  [
+   "in",
+   155
+  ],
+  [
+   "art",
+   154
+  ],
+  [
+   "schweiz",
+   152
+  ],
+  [
+   "restauration",
+   149
+  ],
+  [
+   "hrn",
+   148
+  ],
+  [
+   "villèle",
+   147
+  ],
+  [
+   "le",
+   144
+  ],
+  [
+   "quand",
+   143
+  ],
+  [
+   "jahr",
+   142
+  ],
+  [
+   "philippe",
+   142
+  ],
+  [
+   "conseil",
+   140
+  ],
+  [
+   "majesté",
+   138
+  ],
+  [
+   "états",
+   135
+  ],
+  [
+   "thiers",
+   134
+  ],
+  [
+   "chateaubriand",
+   132
+  ],
+  [
+   "st",
+   131
+  ],
+  [
+   "deutschland",
+   130
+  ],
+  [
+   "il",
+   129
+  ],
+  [
+   "mann",
+   125
+  ],
+  [
+   "wir",
+   124
+  ],
+  [
+   "fayette",
+   123
+  ],
+  [
+   "stadt",
+   122
+  ],
+  [
+   "berlin",
+   121
+  ],
+  [
+   "monsieur",
+   120
+  ],
+  [
+   "theil",
+   116
+  ],
+  [
+   "sie",
+   112
+  ],
+  [
+   "alexandre",
+   111
+  ],
+  [
+   "ver",
+   110
+  ],
+  [
+   "guizot",
+   108
+  ],
+  [
+   "diese",
+   107
+  ],
+  [
+   "sire",
+   106
+  ],
+  [
+   "votre",
+   106
+  ],
+  [
+   "français",
+   105
+  ],
+  [
+   "januar",
+   104
+  ],
+  [
+   "je",
+   103
+  ],
+  [
+   "jahren",
+   102
+  ],
+  [
+   "land",
+   101
+  ],
+  [
+   "londres",
+   101
+  ],
+  [
+   "ein",
+   99
+  ],
+  [
+   "staaten",
+   98
+  ],
+  [
+   "dec",
+   97
+  ],
+  [
+   "mit",
+   97
+  ],
+  [
+   "note",
+   96
+  ],
+  [
+   "tage",
+   96
+  ],
+  [
+   "broglie",
+   96
+  ],
+  [
+   "russie",
+   94
+  ],
+  [
+   "mon",
+   93
+  ],
+  [
+   "royer",
+   92
+  ],
+  [
+   "zeitung",
+   91
+  ],
+  [
+   "collard",
+   91
+  ],
+  [
+   "von",
+   90
+  ],
+  [
+   "cour",
+   90
+  ],
+  [
+   "geschichte",
+   89
+  ],
+  [
+   "landes",
+   88
+  ],
+  [
+   "millionen",
+   88
+  ],
+  [
+   "rath",
+   87
+  ],
+  [
+   "la",
+   87
+  ],
+  [
+   "folge",
+   85
+  ],
+  [
+   "frage",
+   85
+  ],
+  [
+   "london",
+   84
+  ],
+  [
+   "könig",
+   84
+  ],
+  [
+   "ich",
+   83
+  ],
+  [
+   "im",
+   83
+  ],
+  [
+   "rome",
+   82
+  ],
+  [
+   "mehemed",
+   81
+  ],
+  [
+   "nach",
+   81
+  ],
+  [
+   "stelle",
+   80
+  ],
+  [
+   "auf",
+   80
+  ],
+  [
+   "preis",
+   80
+  ],
+  [
+   "bonaparte",
+   79
+  ],
+  [
+   "england",
+   78
+  ],
+  [
+   "ende",
+   78
+  ],
+  [
+   "sache",
+   78
+  ],
+  [
+   "pforte",
+   77
+  ],
+  [
+   "wie",
+   77
+  ],
+  [
+   "madrid",
+   76
+  ],
+  [
+   "vienne",
+   76
+  ],
+  [
+   "laffitte",
+   75
+  ],
+  [
+   "richelieu",
+   75
+  ],
+  [
+   "general",
+   74
+  ],
+  [
+   "tagen",
+   74
+  ],
+  [
+   "bourbon",
+   74
+  ],
+  [
+   "prusse",
+   74
+  ],
+  [
+   "ali",
+   73
+  ],
+  [
+   "aber",
+   73
+  ],
+  [
+   "seite",
+   73
+  ],
+  [
+   "dieu",
+   73
+  ],
+  [
+   "truppen",
+   72
+  ],
+  [
+   "hand",
+   71
+  ],
+  [
+   "paix",
+   71
+  ],
+  [
+   "volk",
+   70
+  ],
+  [
+   "wenn",
+   69
+  ],
+  [
+   "namen",
+   69
+  ],
+  [
+   "auch",
+   69
+  ],
+  [
+   "convention",
+   68
+  ],
+  [
+   "briefe",
+   68
+  ],
+  [
+   "sprache",
+   68
+  ],
+  [
+   "pologne",
+   68
+  ],
+  [
+   "macht",
+   67
+  ],
+  [
+   "wien",
+   67
+  ],
+  [
+   "angleterre",
+   67
+  ],
+  [
+   "aegypten",
+   66
+  ],
+  [
+   "armee",
+   66
+  ],
+  [
+   "journal",
+   66
+  ],
+  [
+   "les",
+   66
+  ],
+  [
+   "ordonnance",
+   66
+  ],
+  [
+   "minister",
+   65
+  ],
+  [
+   "leben",
+   65
+  ],
+  [
+   "non",
+   65
+  ],
+  [
+   "europa",
+   64
+  ],
+  [
+   "tag",
+   64
+  ],
+  [
+   "lage",
+   64
+  ],
+  [
+   "unter",
+   64
+  ],
+  [
+   "uhr",
+   64
+  ],
+  [
+   "portugal",
+   64
+  ],
+  [
+   "mittel",
+   63
+  ],
+  [
+   "aus",
+   63
+  ],
+  [
+   "weise",
+   63
+  ],
+  [
+   "interesse",
+   63
+  ],
+  [
+   "fall",
+   63
+  ],
+  [
+   "mémoires",
+   63
+  ],
+  [
+   "foundation",
+   63
+  ],
+  [
+   "moniteur",
+   62
+  ],
+  [
+   "personen",
+   62
+  ],
+  [
+   "was",
+   62
+  ],
+  [
+   "preußen",
+   62
+  ],
+  [
+   "pascha",
+   61
+  ],
+  [
+   "vor",
+   61
+  ],
+  [
+   "nachrichten",
+   61
+  ],
+  [
+   "krieg",
+   61
+  ],
+  [
+   "decazes",
+   61
+  ],
+  [
+   "nation",
+   60
+  ],
+  [
+   "werke",
+   60
+  ],
+  [
+   "lande",
+   60
+  ],
+  [
+   "handel",
+   60
+  ],
+  [
+   "münchen",
+   59
+  ],
+  [
+   "europe",
+   58
+  ],
+  [
+   "bevölkerung",
+   57
+  ],
+  [
+   "leipzig",
+   57
+  ],
+  [
+   "jean",
+   57
+  ],
+  [
+   "belgique",
+   57
+  ],
+  [
+   "dupin",
+   56
+  ],
+  [
+   "soult",
+   55
+  ],
+  [
+   "handels",
+   55
+  ],
+  [
+   "loose",
+   55
+  ],
+  [
+   "seine",
+   55
+  ],
+  [
+   "spanien",
+   55
+  ],
+  [
+   "mes",
+   55
+  ],
+  [
+   "ferdinand",
+   55
+  ],
+  [
+   "pièces",
+   55
+  ],
+  [
+   "quelques",
+   55
+  ],
+  [
+   "quant",
+   55
+  ],
+  [
+   "bei",
+   54
+  ],
+  [
+   "werk",
+   54
+  ],
+  [
+   "ihnen",
+   54
+  ],
+  [
+   "grund",
+   54
+  ],
+  [
+   "artikel",
+   54
+  ],
+  [
+   "dès",
+   54
+  ],
+  [
+   "beschluß",
+   53
+  ],
+  [
+   "franzosen",
+   53
+  ],
+  [
+   "joseph",
+   53
+  ],
+  [
+   "tuileries",
+   53
+  ],
+  [
+   "deux",
+   53
+  ],
+  [
+   "sr",
+   52
+  ],
+  [
+   "anzahl",
+   52
+  ],
+  [
+   "wege",
+   52
+  ],
+  [
+   "zürich",
+   52
+  ],
+  [
+   "eine",
+   52
+  ],
+  [
+   "sainte",
+   52
+  ],
+  [
+   "ministerium",
+   51
+  ],
+  [
+   "alles",
+   51
+  ],
+  [
+   "verhältnisse",
+   51
+  ],
+  [
+   "palais",
+   51
+  ],
+  [
+   "société",
+   51
+  ],
+  [
+   "j'avais",
+   51
+  ],
+  [
+   "tod",
+   50
+  ],
+  [
+   "rußland",
+   50
+  ],
+  [
+   "recht",
+   50
+  ],
+  [
+   "frankreichs",
+   50
+  ],
+  [
+   "on",
+   50
+  ],
+  [
+   "staats",
+   49
+  ],
+  [
+   "partei",
+   49
+  ],
+  [
+   "bericht",
+   49
+  ],
+  [
+   "politik",
+   49
+  ],
+  [
+   "syrien",
+   49
+  ],
+  [
+   "buchhandlung",
+   49
+  ],
+  [
+   "interessen",
+   49
+  ],
+  [
+   "unis",
+   49
+  ],
+  [
+   "es",
+   48
+  ],
+  [
+   "ibrahim",
+   48
+  ],
+  [
+   "lord",
+   48
+  ],
+  [
+   "frankfurt",
+   48
+  ],
+  [
+   "marie",
+   48
+  ],
+  [
+   "verfassung",
+   47
+  ],
+  [
+   "augenblick",
+   47
+  ],
+  [
+   "befestigung",
+   47
+  ],
+  [
+   "schweizer",
+   47
+  ],
+  [
+   "état",
+   47
+  ],
+  [
+   "gesellschaft",
+   46
+  ],
+  [
+   "dinge",
+   46
+  ],
+  [
+   "dieser",
+   46
+  ],
+  [
+   "als",
+   46
+  ],
+  [
+   "proc",
+   46
+  ],
+  [
+   "zustand",
+   46
+  ],
+  [
+   "und",
+   46
+  ],
+  [
+   "united",
+   46
+  ],
+  [
+   "innern",
+   45
+  ],
+  [
+   "schreiben",
+   45
+  ],
+  [
+   "states",
+   45
+  ],
+  [
+   "zahl",
+   44
+  ],
+  [
+   "arbeiten",
+   44
+  ],
+  [
+   "kammer",
+   44
+  ],
+  [
+   "dieß",
+   44
+  ],
+  [
+   "madame",
+   44
+  ],
+  [
+   "hauptstadt",
+   44
+  ],
+  [
+   "nachricht",
+   44
+  ],
+  [
+   "fonds",
+   44
+  ],
+  [
+   "l'empereur",
+   44
+  ],
+  [
+   "l'abbé",
+   44
+  ],
+  [
+   "loi",
+   44
+  ],
+  [
+   "augsburg",
+   43
+  ],
+  [
+   "verfasser",
+   43
+  ],
+  [
+   "männer",
+   43
+  ],
+  [
+   "archive",
+   43
+  ],
+  [
+   "xviiie",
+   43
+  ],
+  [
+   "j'étais",
+   43
+  ],
+  [
+   "serre",
+   43
+  ],
+  [
+   "aargau",
+   42
+  ],
+  [
+   "bern",
+   42
+  ],
+  [
+   "werth",
+   42
+  ],
+  [
+   "engländer",
+   42
+  ],
+  [
+   "geist",
+   42
+  ],
+  [
+   "jahres",
+   42
+  ],
+  [
+   "cent",
+   42
+  ],
+  [
+   "quelle",
+   42
+  ],
+  [
+   "staat",
+   42
+  ],
+  [
+   "sous",
+   42
+  ],
+  [
+   "parmi",
+   42
+  ],
+  [
+   "république",
+   42
+  ],
+  [
+   "dupont",
+   42
+  ],
+  [
+   "stuttgart",
+   41
+  ],
+  [
+   "stellung",
+   41
+  ],
+  [
+   "zweifel",
+   41
+  ],
+  [
+   "alle",
+   41
+  ],
+  [
+   "angelegenheiten",
+   41
+  ],
+  [
+   "thlr",
+   41
+  ],
+  [
+   "publicum",
+   41
+  ],
+  [
+   "paul",
+   41
+  ],
+  [
+   "juillet",
+   41
+  ],
+  [
+   "welt",
+   40
+  ],
+  [
+   "stande",
+   40
+  ],
+  [
+   "provinz",
+   40
+  ],
+  [
+   "daß",
+   40
+  ],
+  [
+   "menge",
+   40
+  ],
+  [
+   "ueber",
+   40
+  ],
+  [
+   "j'en",
+   40
+  ],
+  [
+   "enfin",
+   40
+  ],
+  [
+   "that",
+   39
+  ],
+  [
+   "stände",
+   39
+  ],
+  [
+   "inhalt",
+   39
+  ],
+  [
+   "rechte",
+   39
+  ],
+  [
+   "rhin",
+   39
+  ],
+  [
+   "literary",
+   39
+  ],
+  [
+   "oesterreich",
+   38
+  ],
+  [
+   "verwaltung",
+   38
+  ],
+  [
+   "pari",
+   38
+  ],
+  [
+   "ordnung",
+   38
+  ],
+  [
+   "beziehung",
+   38
+  ],
+  [
+   "königs",
+   38
+  ]
+ ],
+ "bigrams": [
+  [
+   "und die",
+   396
+  ],
+  [
+   "und der",
+   281
+  ],
+  [
+   "daß die",
+   272
+  ],
+  [
+   "project gutenberg",
+   261
+  ],
+  [
+   "von der",
+   255
+  ],
+  [
+   "für die",
+   239
+  ],
+  [
+   "auf die",
+   237
+  ],
+  [
+   "prince talleyrand",
+   218
+  ],
+  [
+   "casimir périer",
+   211
+  ],
+  [
+   "mémoires prince",
+   206
+  ],
+  [
+   "von den",
+   196
+  ],
+  [
+   "über die",
+   195
+  ],
+  [
+   "avait été",
+   195
+  ],
+  [
+   "qu'il avait",
+   194
+  ],
+  [
+   "chambre députés",
+   192
+  ],
+  [
+   "l'instruction publique",
+   166
+  ],
+  [
+   "durch die",
+   159
+  ],
+  [
+   "ont été",
+   155
+  ],
+  [
+   "mit dem",
+   145
+  ],
+  [
+   "mit der",
+   140
+  ],
+  [
+   "non seulement",
+   140
+  ],
+  [
+   "duc d'orléans",
+   139
+  ],
+  [
+   "auf den",
+   138
+  ],
+  [
+   "roi louis",
+   138
+  ],
+  [
+   "louis philippe",
+   132
+  ],
+  [
+   "von dem",
+   122
+  ],
+  [
+   "und den",
+   120
+  ],
+  [
+   "daß der",
+   115
+  ],
+  [
+   "gegen die",
+   111
+  ],
+  [
+   "ist die",
+   108
+  ],
+  [
+   "eux mêmes",
+   107
+  ],
+  [
+   "l'instruction primaire",
+   107
+  ],
+  [
+   "welche die",
+   106
+  ],
+  [
+   "auch die",
+   105
+  ],
+  [
+   "als die",
+   101
+  ],
+  [
+   "the project",
+   99
+  ],
+  [
+   "die regierung",
+   98
+  ],
+  [
+   "bei der",
+   97
+  ],
+  [
+   "auf der",
+   95
+  ],
+  [
+   "auf dem",
+   95
+  ],
+  [
+   "für den",
+   93
+  ],
+  [
+   "royer collard",
+   91
+  ],
+  [
+   "duc broglie",
+   90
+  ],
+  [
+   "daß sie",
+   87
+  ],
+  [
+   "l'un l'autre",
+   85
+  ],
+  [
+   "côté droit",
+   84
+  ],
+  [
+   "mit den",
+   83
+  ],
+  [
+   "l'empereur alexandre",
+   83
+  ],
+  [
+   "und das",
+   82
+  ],
+  [
+   "und dem",
+   81
+  ],
+  [
+   "affaires étrangères",
+   80
+  ],
+  [
+   "louis xviii",
+   80
+  ],
+  [
+   "votre majesté",
+   79
+  ],
+  [
+   "sich die",
+   77
+  ],
+  [
+   "sans doute",
+   77
+  ],
+  [
+   "google mémoires",
+   77
+  ],
+  [
+   "daß man",
+   76
+  ],
+  [
+   "aus dem",
+   76
+  ],
+  [
+   "ist der",
+   76
+  ],
+  [
+   "nach dem",
+   75
+  ],
+  [
+   "avaient été",
+   75
+  ],
+  [
+   "nach der",
+   74
+  ],
+  [
+   "projet loi",
+   74
+  ],
+  [
+   "der regierung",
+   73
+  ],
+  [
+   "n'y avait",
+   73
+  ],
+  [
+   "durch den",
+   72
+  ],
+  [
+   "quelques uns",
+   71
+  ],
+  [
+   "wie die",
+   69
+  ],
+  [
+   "l'empereur napoléon",
+   69
+  ],
+  [
+   "nicht mehr",
+   67
+  ],
+  [
+   "auf das",
+   66
+  ],
+  [
+   "die der",
+   66
+  ],
+  [
+   "bei dem",
+   65
+  ],
+  [
+   "bei den",
+   65
+  ],
+  [
+   "bon sens",
+   65
+  ],
+  [
+   "unter den",
+   64
+  ],
+  [
+   "grand nombre",
+   64
+  ],
+  [
+   "garde nationale",
+   64
+  ],
+  [
+   "prince paix",
+   64
+  ],
+  [
+   "hat die",
+   63
+  ],
+  [
+   "jan die",
+   63
+  ],
+  [
+   "über den",
+   63
+  ],
+  [
+   "quelque chose",
+   63
+  ],
+  [
+   "pièces historiques",
+   63
+  ],
+  [
+   "und daß",
+   62
+  ],
+  [
+   "die sich",
+   62
+  ],
+  [
+   "chaque jour",
+   62
+  ],
+  [
+   "qu'il était",
+   61
+  ],
+  [
+   "chambre pairs",
+   61
+  ],
+  [
+   "sind die",
+   60
+  ],
+  [
+   "der schweiz",
+   60
+  ],
+  [
+   "duc richelieu",
+   60
+  ],
+  [
+   "unter dem",
+   59
+  ],
+  [
+   "und mit",
+   59
+  ],
+  [
+   "die von",
+   59
+  ],
+  [
+   "ministre l'intérieur",
+   59
+  ],
+  [
+   "für das",
+   57
+  ],
+  [
+   "wie der",
+   57
+  ],
+  [
+   "mehemed ali",
+   56
+  ],
+  [
+   "noch nicht",
+   56
+  ],
+  [
+   "aus der",
+   56
+  ],
+  [
+   "eût été",
+   56
+  ],
+  [
+   "lui avait",
+   56
+  ],
+  [
+   "ist ein",
+   55
+  ],
+  [
+   "hat sich",
+   55
+  ],
+  [
+   "sich der",
+   55
+  ],
+  [
+   "von paris",
+   55
+  ],
+  [
+   "gegen den",
+   55
+  ],
+  [
+   "als eine",
+   54
+  ],
+  [
+   "werden die",
+   54
+  ],
+  [
+   "wird die",
+   54
+  ],
+  [
+   "als der",
+   54
+  ],
+  [
+   "gutenberg electronic",
+   54
+  ],
+  [
+   "mehr als",
+   53
+  ],
+  [
+   "nur die",
+   53
+  ],
+  [
+   "cet égard",
+   53
+  ],
+  [
+   "politique résistance",
+   53
+  ],
+  [
+   "jan der",
+   52
+  ],
+  [
+   "nicht nur",
+   51
+  ],
+  [
+   "auch der",
+   51
+  ],
+  [
+   "jeunes gens",
+   51
+  ],
+  [
+   "peu près",
+   51
+  ],
+  [
+   "mes amis",
+   51
+  ],
+  [
+   "sous nom",
+   51
+  ],
+  [
+   "états généraux",
+   51
+  ],
+  [
+   "und eine",
+   50
+  ],
+  [
+   "aber die",
+   50
+  ],
+  [
+   "man sich",
+   50
+  ],
+  [
+   "mit einem",
+   49
+  ],
+  [
+   "bis zum",
+   49
+  ],
+  [
+   "fut nommé",
+   49
+  ],
+  [
+   "aus den",
+   48
+  ],
+  [
+   "die schweiz",
+   48
+  ],
+  [
+   "qu'il faut",
+   48
+  ],
+  [
+   "electronic works",
+   48
+  ],
+  [
+   "with the",
+   48
+  ],
+  [
+   "this agreement",
+   48
+  ],
+  [
+   "der deutschen",
+   47
+  ],
+  [
+   "und durch",
+   47
+  ],
+  [
+   "und man",
+   47
+  ],
+  [
+   "l'ancien régime",
+   47
+  ],
+  [
+   "états unis",
+   47
+  ],
+  [
+   "maréchal soult",
+   47
+  ],
+  [
+   "war die",
+   46
+  ],
+  [
+   "und von",
+   45
+  ],
+  [
+   "united states",
+   45
+  ],
+  [
+   "nos jours",
+   45
+  ],
+  [
+   "due d'orléans",
+   45
+  ],
+  [
+   "sie sich",
+   44
+  ],
+  [
+   "bis jetzt",
+   44
+  ],
+  [
+   "von einem",
+   44
+  ],
+  [
+   "haben die",
+   43
+  ],
+  [
+   "durch das",
+   43
+  ],
+  [
+   "unter der",
+   43
+  ],
+  [
+   "c'est dire",
+   43
+  ],
+  [
+   "sie die",
+   42
+  ],
+  [
+   "ist daß",
+   42
+  ],
+  [
+   "nach den",
+   42
+  ],
+  [
+   "the united",
+   42
+  ],
+  [
+   "der letzten",
+   41
+  ],
+  [
+   "durch eine",
+   41
+  ],
+  [
+   "und nach",
+   41
+  ],
+  [
+   "und ein",
+   41
+  ],
+  [
+   "wenn sie",
+   41
+  ],
+  [
+   "roi lui",
+   41
+  ],
+  [
+   "man die",
+   40
+  ],
+  [
+   "xviiie siècle",
+   40
+  ],
+  [
+   "quelque temps",
+   40
+  ],
+  [
+   "qu'il fallait",
+   40
+  ],
+  [
+   "sans cesse",
+   40
+  ],
+  [
+   "gouvernement roi",
+   40
+  ],
+  [
+   "côté gauche",
+   40
+  ],
+  [
+   "président conseil",
+   40
+  ],
+  [
+   "wenn man",
+   39
+  ],
+  [
+   "ist eine",
+   39
+  ],
+  [
+   "daß das",
+   39
+  ],
+  [
+   "sondern auch",
+   39
+  ],
+  [
+   "wie sie",
+   39
+  ],
+  [
+   "the terms",
+   39
+  ],
+  [
+   "sous l'empire",
+   39
+  ],
+  [
+   "coup sûr",
+   39
+  ],
+  [
+   "lui donner",
+   39
+  ],
+  [
+   "ministre affaires",
+   39
+  ],
+  [
+   "qu'elle avait",
+   39
+  ],
+  [
+   "liberté presse",
+   39
+  ],
+  [
+   "jour jour",
+   39
+  ],
+  [
+   "qu'il n'y",
+   39
+  ],
+  [
+   "gutenberg literary",
+   39
+  ],
+  [
+   "literary archive",
+   39
+  ],
+  [
+   "archive foundation",
+   39
+  ],
+  [
+   "écoles primaires",
+   39
+  ],
+  [
+   "nicht die",
+   38
+  ],
+  [
+   "und seine",
+   38
+  ],
+  [
+   "als ein",
+   38
+  ],
+  [
+   "der stadt",
+   38
+  ],
+  [
+   "l'une l'autre",
+   38
+  ],
+  [
+   "d'un grand",
+   38
+  ],
+  [
+   "louis xvi",
+   38
+  ],
+  [
+   "peu jours",
+   38
+  ],
+  [
+   "société française",
+   38
+  ],
+  [
+   "madame duchesse",
+   38
+  ],
+  [
+   "qu'ils avaient",
+   38
+  ],
+  [
+   "sich mit",
+   37
+  ],
+  [
+   "die ganze",
+   37
+  ],
+  [
+   "quelques jours",
+   37
+  ],
+  [
+   "cent jours",
+   37
+  ],
+  [
+   "n'a été",
+   37
+  ],
+  [
+   "lieutenant général",
+   37
+  ],
+  [
+   "der könig",
+   36
+  ],
+  [
+   "über das",
+   36
+  ],
+  [
+   "der sich",
+   36
+  ],
+  [
+   "sich nicht",
+   36
+  ],
+  [
+   "ministère l'intérieur",
+   36
+  ],
+  [
+   "garde sceaux",
+   36
+  ],
+  [
+   "l'état siège",
+   36
+  ],
+  [
+   "sich von",
+   35
+  ],
+  [
+   "und sich",
+   35
+  ],
+  [
+   "ist nicht",
+   35
+  ],
+  [
+   "wer den",
+   35
+  ],
+  [
+   "roi charles",
+   35
+  ],
+  [
+   "gardes nationales",
+   35
+  ],
+  [
+   "ministère l'instruction",
+   35
+  ],
+  [
+   "sich auf",
+   34
+  ],
+  [
+   "selbst die",
+   34
+  ],
+  [
+   "und ist",
+   34
+  ],
+  [
+   "das ganze",
+   34
+  ],
+  [
+   "conseil d'état",
+   34
+  ],
+  [
+   "maison bourbon",
+   34
+  ],
+  [
+   "pair france",
+   34
+  ],
+  [
+   "der pforte",
+   33
+  ],
+  [
+   "und zwar",
+   33
+  ],
+  [
+   "die den",
+   33
+  ],
+  [
+   "wird der",
+   33
+  ],
+  [
+   "wie man",
+   33
+  ],
+  [
+   "die pforte",
+   33
+  ],
+  [
+   "ist und",
+   33
+  ],
+  [
+   "daß wir",
+   33
+  ],
+  [
+   "auf eine",
+   33
+  ],
+  [
+   "vor dem",
+   33
+  ],
+  [
+   "gutenberg license",
+   33
+  ],
+  [
+   "l'esprit révolutionnaire",
+   33
+  ],
+  [
+   "louis xiv",
+   33
+  ],
+  [
+   "affaires d'espagne",
+   33
+  ],
+  [
+   "electronic work",
+   33
+  ],
+  [
+   "the work",
+   33
+  ],
+  [
+   "prince asturies",
+   33
+  ],
+  [
+   "der von",
+   32
+  ],
+  [
+   "hat der",
+   32
+  ],
+  [
+   "welche sich",
+   32
+  ],
+  [
+   "mir dem",
+   32
+  ],
+  [
+   "die man",
+   32
+  ],
+  [
+   "eine große",
+   32
+  ],
+  [
+   "nicht der",
+   32
+  ],
+  [
+   "vor der",
+   32
+  ],
+  [
+   "und wie",
+   32
+  ],
+  [
+   "odilon barrot",
+   32
+  ],
+  [
+   "pouvoir absolu",
+   32
+  ],
+  [
+   "cinq ans",
+   32
+  ],
+  [
+   "qu'on lui",
+   32
+  ],
+  [
+   "conseil royal",
+   32
+  ],
+  [
+   "der zeit",
+   31
+  ],
+  [
+   "mit einer",
+   31
+  ],
+  [
+   "die sache",
+   31
+  ],
+  [
+   "d'un esprit",
+   31
+  ],
+  [
+   "n'avait point",
+   31
+  ],
+  [
+   "d'une grande",
+   31
+  ],
+  [
+   "avait besoin",
+   31
+  ],
+  [
+   "comte d'artois",
+   31
+  ],
+  [
+   "d'une manière",
+   31
+  ],
+  [
+   "grand duc",
+   31
+  ],
+  [
+   "entrevue d'erfurt",
+   31
+  ],
+  [
+   "ist aber",
+   30
+  ],
+  [
+   "der that",
+   30
+  ],
+  [
+   "die durch",
+   30
+  ],
+  [
+   "sie nicht",
+   30
+  ],
+  [
+   "wegen der",
+   30
+  ],
+  [
+   "und andere",
+   30
+  ],
+  [
+   "der die",
+   30
+  ],
+  [
+   "werden und",
+   30
+  ],
+  [
+   "www gutenberg",
+   30
+  ],
+  [
+   "gutenberg org",
+   30
+  ],
+  [
+   "tour tour",
+   30
+  ],
+  [
+   "contre lui",
+   30
+  ],
+  [
+   "dès lors",
+   30
+  ],
+  [
+   "régime constitutionnel",
+   30
+  ],
+  [
+   "parce qu'il",
+   30
+  ],
+  [
+   "général sébastiani",
+   30
+  ],
+  [
+   "d'instruction publique",
+   30
+  ],
+  [
+   "cour pairs",
+   30
+  ],
+  [
+   "this work",
+   30
+  ],
+  [
+   "terms this",
+   30
+  ],
+  [
+   "von einer",
+   29
+  ],
+  [
+   "wenn die",
+   29
+  ],
+  [
+   "von ihm",
+   29
+  ],
+  [
+   "und auf",
+   29
+  ],
+  [
+   "ist das",
+   29
+  ],
+  [
+   "bezug auf",
+   29
+  ],
+  [
+   "die stadt",
+   29
+  ],
+  [
+   "handels und",
+   29
+  ],
+  [
+   "die auf",
+   29
+  ],
+  [
+   "seit dem",
+   29
+  ],
+  [
+   "berlin jan",
+   29
+  ],
+  [
+   "n'est point",
+   29
+  ],
+  [
+   "lui était",
+   29
+  ],
+  [
+   "sous yeux",
+   29
+  ],
+  [
+   "chez lui",
+   29
+  ],
+  [
+   "première fois",
+   29
+  ],
+  [
+   "huit jours",
+   29
+  ],
+  [
+   "secrétaire d'état",
+   29
+  ],
+  [
+   "palais royal",
+   29
+  ],
+  [
+   "allgemeine zeitung",
+   28
+  ],
+  [
+   "zahl der",
+   28
+  ],
+  [
+   "und sie",
+   28
+  ],
+  [
+   "sich auch",
+   28
+  ],
+  [
+   "der dinge",
+   28
+  ],
+  [
+   "eine neue",
+   28
+  ],
+  [
+   "von hier",
+   28
+  ],
+  [
+   "den letzten",
+   28
+  ],
+  [
+   "und nicht",
+   28
+  ],
+  [
+   "noch immer",
+   28
+  ],
+  [
+   "l'abbé montesquiou",
+   28
+  ],
+  [
+   "gouvernement libre",
+   28
+  ],
+  [
+   "roi avait",
+   28
+  ],
+  [
+   "peine mort",
+   28
+  ],
+  [
+   "deux ans",
+   28
+  ],
+  [
+   "mon cher",
+   28
+  ],
+  [
+   "daß diese",
+   27
+  ],
+  [
+   "paris jan",
+   27
+  ],
+  [
+   "vom jan",
+   27
+  ],
+  [
+   "briefe aus",
+   27
+  ],
+  [
+   "sich nach",
+   27
+  ],
+  [
+   "theil der",
+   27
+  ],
+  [
+   "zum theil",
+   27
+  ],
+  [
+   "war der",
+   27
+  ],
+  [
+   "nicht bloß",
+   27
+  ],
+  [
+   "proc proc",
+   27
+  ],
+  [
+   "bis auf",
+   27
+  ],
+  [
+   "gegen das",
+   27
+  ],
+  [
+   "mon temps",
+   27
+  ],
+  [
+   "you may",
+   27
+  ],
+  [
+   "mon cours",
+   27
+  ],
+  [
+   "grande partie",
+   27
+  ],
+  [
+   "sociétés secrètes",
+   27
+  ],
+  [
+   "ministre l'instruction",
+   27
+  ],
+  [
+   "the foundation",
+   27
+  ],
+  [
+   "the full",
+   27
+  ],
+  [
+   "l'abbé mennais",
+   27
+  ],
+  [
+   "majesté l'empereur",
+   27
+  ],
+  [
+   "nur ein",
+   26
+  ],
+  [
+   "die stelle",
+   26
+  ],
+  [
+   "die sie",
+   26
+  ],
+  [
+   "regierung von",
+   26
+  ],
+  [
+   "einer der",
+   26
+  ],
+  [
+   "den ersten",
+   26
+  ],
+  [
+   "gar nicht",
+   26
+  ],
+  [
+   "die befestigung",
+   26
+  ],
+  [
+   "die frage",
+   26
+  ],
+  [
+   "aber der",
+   26
+  ],
+  [
+   "daß sich",
+   26
+  ],
+  [
+   "und als",
+   26
+  ],
+  [
+   "zwischen den",
+   26
+  ],
+  [
+   "vie publique",
+   26
+  ],
+  [
+   "dix huit",
+   26
+  ],
+  [
+   "qu'il soit",
+   26
+  ],
+  [
+   "guerre civile",
+   26
+  ],
+  [
+   "d'entre eux",
+   26
+  ],
+  [
+   "qu'ils ont",
+   26
+  ],
+  [
+   "dupont l'eure",
+   26
+  ],
+  [
+   "droits l'homme",
+   26
+  ],
+  [
+   "mourut google",
+   26
+  ],
+  [
+   "nicht daß",
+   25
+  ],
+  [
+   "der den",
+   25
+  ],
+  [
+   "wenn auch",
+   25
+  ],
+  [
+   "der verfasser",
+   25
+  ],
+  [
+   "ist auch",
+   25
+  ],
+  [
+   "folge der",
+   25
+  ],
+  [
+   "der neuen",
+   25
+  ],
+  [
+   "durch einen",
+   25
+  ],
+  [
+   "befestigung von",
+   25
+  ],
+  [
+   "der französischen",
+   25
+  ],
+  [
+   "der fall",
+   25
+  ],
+  [
+   "ist von",
+   25
+  ],
+  [
+   "sich durch",
+   25
+  ],
+  [
+   "j'ai été",
+   25
+  ],
+  [
+   "l'assemblée constituante",
+   25
+  ],
+  [
+   "autour lui",
+   25
+  ],
+  [
+   "qu'il ait",
+   25
+  ],
+  [
+   "projets loi",
+   25
+  ],
+  [
+   "l'esprit humain",
+   25
+  ],
+  [
+   "conseiller d'état",
+   25
+  ],
+  [
+   "maréchal gérard",
+   25
+  ],
+  [
+   "tiers parti",
+   25
+  ],
+  [
+   "werden kann",
+   24
+  ],
+  [
+   "sie den",
+   24
+  ],
+  [
+   "ist noch",
+   24
+  ],
+  [
+   "welcher die",
+   24
+  ],
+  [
+   "die erste",
+   24
+  ],
+  [
+   "mir der",
+   24
+  ],
+  [
+   "auf diese",
+   24
+  ],
+  [
+   "die französische",
+   24
+  ]
+ ],
+ "trigrams": [
+  [
+   "mémoires prince talleyrand",
+   191
+  ],
+  [
+   "roi louis philippe",
+   112
+  ],
+  [
+   "the project gutenberg",
+   99
+  ],
+  [
+   "google mémoires prince",
+   73
+  ],
+  [
+   "project gutenberg electronic",
+   54
+  ],
+  [
+   "the united states",
+   42
+  ],
+  [
+   "project gutenberg literary",
+   39
+  ],
+  [
+   "gutenberg literary archive",
+   39
+  ],
+  [
+   "literary archive foundation",
+   39
+  ],
+  [
+   "gutenberg electronic works",
+   36
+  ],
+  [
+   "ministère l'instruction publique",
+   35
+  ],
+  [
+   "ministre affaires étrangères",
+   34
+  ],
+  [
+   "project gutenberg license",
+   33
+  ],
+  [
+   "www gutenberg org",
+   30
+  ],
+  [
+   "ministre l'instruction publique",
+   27
+  ],
+  [
+   "terms this agreement",
+   27
+  ],
+  [
+   "the terms this",
+   24
+  ],
+  [
+   "befestigung von paris",
+   23
+  ],
+  [
+   "note pièces historiques",
+   23
+  ],
+  [
+   "roi louis xviii",
+   22
+  ],
+  [
+   "full project gutenberg",
+   21
+  ],
+  [
+   "die zahl der",
+   20
+  ],
+  [
+   "conseil royal l'instruction",
+   20
+  ],
+  [
+   "royal l'instruction publique",
+   20
+  ],
+  [
+   "die befestigung von",
+   19
+  ],
+  [
+   "société droits l'homme",
+   19
+  ],
+  [
+   "bezug auf die",
+   18
+  ],
+  [
+   "mémoires servir l'histoire",
+   18
+  ],
+  [
+   "servir l'histoire mon",
+   18
+  ],
+  [
+   "l'histoire mon temps",
+   18
+  ],
+  [
+   "notre conseil royal",
+   18
+  ],
+  [
+   "the full project",
+   18
+  ],
+  [
+   "gutenberg electronic work",
+   18
+  ],
+  [
+   "madame duchesse berry",
+   18
+  ],
+  [
+   "sciences morales politiques",
+   18
+  ],
+  [
+   "die regierung von",
+   16
+  ],
+  [
+   "nach und nach",
+   16
+  ],
+  [
+   "qu'il n'y avait",
+   16
+  ],
+  [
+   "ministre secrétaire d'état",
+   16
+  ],
+  [
+   "the terms the",
+   15
+  ],
+  [
+   "gouvion saint cyr",
+   15
+  ],
+  [
+   "états unis d'amérique",
+   15
+  ],
+  [
+   "not protected copyright",
+   15
+  ],
+  [
+   "project gutenberg trademark",
+   15
+  ],
+  [
+   "this work any",
+   15
+  ],
+  [
+   "archive foundation the",
+   15
+  ],
+  [
+   "project gutenberg works",
+   15
+  ],
+  [
+   "project gutenberg work",
+   15
+  ],
+  [
+   "grand duc berg",
+   15
+  ],
+  [
+   "allgemeine zeitung augsburg",
+   14
+  ],
+  [
+   "zeitung augsburg source",
+   14
+  ],
+  [
+   "augsburg source digipress",
+   14
+  ],
+  [
+   "source digipress digitale",
+   14
+  ],
+  [
+   "digipress digitale sammlungen",
+   14
+  ],
+  [
+   "digitale sammlungen issue",
+   14
+  ],
+  [
+   "sammlungen issue bsb",
+   14
+  ],
+  [
+   "issue bsb bsb",
+   14
+  ],
+  [
+   "bsb bsb ocr",
+   14
+  ],
+  [
+   "bsb ocr hocr",
+   14
+  ],
+  [
+   "ocr hocr bsb",
+   14
+  ],
+  [
+   "unter dem titel",
+   14
+  ],
+  [
+   "bsb nro beilage",
+   13
+  ],
+  [
+   "nro beilage zur",
+   13
+  ],
+  [
+   "vingt cinq ans",
+   13
+  ],
+  [
+   "mes amis moi",
+   13
+  ],
+  [
+   "maréchal gouvion saint",
+   13
+  ],
+  [
+   "général gardes nationales",
+   13
+  ],
+  [
+   "von seite der",
+   12
+  ],
+  [
+   "und die schweiz",
+   12
+  ],
+  [
+   "von der regierung",
+   12
+  ],
+  [
+   "mehr und mehr",
+   12
+  ],
+  [
+   "mon temps tome",
+   12
+  ],
+  [
+   "you are located",
+   12
+  ],
+  [
+   "dissolution chambre députés",
+   12
+  ],
+  [
+   "mon cher ami",
+   12
+  ],
+  [
+   "secrétaire d'état département",
+   12
+  ],
+  [
+   "protected copyright law",
+   12
+  ],
+  [
+   "the phrase project",
+   12
+  ],
+  [
+   "phrase project gutenberg",
+   12
+  ],
+  [
+   "copies project gutenberg",
+   12
+  ],
+  [
+   "the copyright holder",
+   12
+  ],
+  [
+   "section information about",
+   12
+  ],
+  [
+   "lieutenant général royaume",
+   12
+  ],
+  [
+   "saint germain l'auxerrois",
+   12
+  ],
+  [
+   "hautes parties contractantes",
+   12
+  ],
+  [
+   "wien jan metall",
+   11
+  ],
+  [
+   "ist für die",
+   11
+  ],
+  [
+   "der letzten zeit",
+   11
+  ],
+  [
+   "beilage zur allgemeinen",
+   11
+  ],
+  [
+   "zur allgemeinen zeitung",
+   11
+  ],
+  [
+   "garde nationale paris",
+   11
+  ],
+  [
+   "gouvernement roi louis",
+   11
+  ],
+  [
+   "sire votre majesté",
+   11
+  ],
+  [
+   "loi l'instruction primaire",
+   11
+  ],
+  [
+   "google affaires d'espagne",
+   11
+  ],
+  [
+   "zwischen frankreich und",
+   10
+  ],
+  [
+   "auf diese weise",
+   10
+  ],
+  [
+   "und daß die",
+   10
+  ],
+  [
+   "handels und börsennachrichten",
+   10
+  ],
+  [
+   "die von der",
+   10
+  ],
+  [
+   "sich auf die",
+   10
+  ],
+  [
+   "eine große anzahl",
+   10
+  ],
+  [
+   "ist erschienen und",
+   10
+  ],
+  [
+   "und der schweiz",
+   10
+  ],
+  [
+   "vor einigen tagen",
+   10
+  ],
+  [
+   "metall proc proc",
+   10
+  ],
+  [
+   "den vereinigten staaten",
+   10
+  ],
+  [
+   "auf dem wege",
+   10
+  ],
+  [
+   "daß die regierung",
+   10
+  ],
+  [
+   "d'état département l'intérieur",
+   10
+  ],
+  [
+   "gardes nationales royaume",
+   10
+  ],
+  [
+   "mort casimir périer",
+   10
+  ],
+  [
+   "ministère casimir périer",
+   10
+  ],
+  [
+   "google entrevue d'erfurt",
+   10
+  ],
+  [
+   "ist daß die",
+   9
+  ],
+  [
+   "maj der könig",
+   9
+  ],
+  [
+   "seit einiger zeit",
+   9
+  ],
+  [
+   "ein theil der",
+   9
+  ],
+  [
+   "rechte linke paris",
+   9
+  ],
+  [
+   "auch bei den",
+   9
+  ],
+  [
+   "daß man sich",
+   9
+  ],
+  [
+   "eine zeit lang",
+   9
+  ],
+  [
+   "die stelle der",
+   9
+  ],
+  [
+   "auf die dauer",
+   9
+  ],
+  [
+   "der vereinigten staaten",
+   9
+  ],
+  [
+   "über die befestigung",
+   9
+  ],
+  [
+   "der fall ist",
+   9
+  ],
+  [
+   "ist noch nicht",
+   9
+  ],
+  [
+   "project gutenberg ebook",
+   9
+  ],
+  [
+   "gutenberg ebook mémoires",
+   9
+  ],
+  [
+   "ebook mémoires servir",
+   9
+  ],
+  [
+   "this ebook for",
+   9
+  ],
+  [
+   "for the use",
+   9
+  ],
+  [
+   "united states and",
+   9
+  ],
+  [
+   "terms the project",
+   9
+  ],
+  [
+   "online www gutenberg",
+   9
+  ],
+  [
+   "gutenberg org you",
+   9
+  ],
+  [
+   "located the united",
+   9
+  ],
+  [
+   "check the laws",
+   9
+  ],
+  [
+   "the laws the",
+   9
+  ],
+  [
+   "where you are",
+   9
+  ],
+  [
+   "secrétaire général ministère",
+   9
+  ],
+  [
+   "lui avait été",
+   9
+  ],
+  [
+   "distributing project gutenberg",
+   9
+  ],
+  [
+   "the trademark license",
+   9
+  ],
+  [
+   "complying with the",
+   9
+  ],
+  [
+   "project gutenberg ebooks",
+   9
+  ],
+  [
+   "work any other",
+   9
+  ],
+  [
+   "all the terms",
+   9
+  ],
+  [
+   "this agreement you",
+   9
+  ],
+  [
+   "the person entity",
+   9
+  ],
+  [
+   "set forth paragraph",
+   9
+  ],
+  [
+   "you can with",
+   9
+  ],
+  [
+   "the work you",
+   9
+  ],
+  [
+   "permission the copyright",
+   9
+  ],
+  [
+   "this electronic work",
+   9
+  ],
+  [
+   "any project gutenberg",
+   9
+  ],
+  [
+   "donations the project",
+   9
+  ],
+  [
+   "right replacement refund",
+   9
+  ],
+  [
+   "you received the",
+   9
+  ],
+  [
+   "received the work",
+   9
+  ],
+  [
+   "commandant général gardes",
+   9
+  ],
+  [
+   "procès ministres charles",
+   9
+  ],
+  [
+   "pape grégoire xvi",
+   9
+  ],
+  [
+   "places guerre postes",
+   9
+  ],
+  [
+   "guerre postes militaires",
+   9
+  ],
+  [
+   "établissements d'instruction publique",
+   9
+  ],
+  [
+   "classe sciences morales",
+   9
+  ],
+  [
+   "majesté l'empereur français",
+   9
+  ],
+  [
+   "großbritannien london jan",
+   8
+  ],
+  [
+   "und durch die",
+   8
+  ],
+  [
+   "buchhandlung stuttgart bsb",
+   8
+  ],
+  [
+   "stuttgart bsb nro",
+   8
+  ],
+  [
+   "und durch alle",
+   8
+  ],
+  [
+   "nicht nur die",
+   8
+  ],
+  [
+   "daß sie die",
+   8
+  ],
+  [
+   "allgemeinen zeitung januar",
+   8
+  ],
+  [
+   "der nacht vom",
+   8
+  ],
+  [
+   "frankfurt jan proc",
+   8
+  ],
+  [
+   "staaten von nordamerika",
+   8
+  ],
+  [
+   "bericht über die",
+   8
+  ],
+  [
+   "quoi qu'il soit",
+   8
+  ],
+  [
+   "cabinet duc richelieu",
+   8
+  ],
+  [
+   "l'empereur alexandre était",
+   8
+  ],
+  [
+   "d'un grand nombre",
+   8
+  ],
+  [
+   "qu'il n'avait point",
+   8
+  ],
+  [
+   "portefeuille affaires étrangères",
+   8
+  ],
+  [
+   "dix huit ans",
+   8
+  ],
+  [
+   "département affaires étrangères",
+   8
+  ],
+  [
+   "général monuments historiques",
+   8
+  ],
+  [
+   "homme d'un esprit",
+   8
+  ],
+  [
+   "relatifs l'histoire france",
+   8
+  ],
+  [
+   "député états généraux",
+   8
+  ],
+  [
+   "und von den",
+   7
+  ],
+  [
+   "london jan consols",
+   7
+  ],
+  [
+   "augsb münch eis",
+   7
+  ],
+  [
+   "jan metall proc",
+   7
+  ],
+  [
+   "sondern auch die",
+   7
+  ],
+  [
+   "unter dem namen",
+   7
+  ],
+  [
+   "von hier nach",
+   7
+  ],
+  [
+   "die nachricht von",
+   7
+  ],
+  [
+   "für die zukunft",
+   7
+  ],
+  [
+   "sich mit der",
+   7
+  ],
+  [
+   "tag und nacht",
+   7
+  ],
+  [
+   "sich über die",
+   7
+  ],
+  [
+   "pari jan consol",
+   7
+  ],
+  [
+   "für das jahr",
+   7
+  ],
+  [
+   "deutschland und die",
+   7
+  ],
+  [
+   "paris jan die",
+   7
+  ],
+  [
+   "bis auf die",
+   7
+  ],
+  [
+   "sich durch die",
+   7
+  ],
+  [
+   "der sitzung vom",
+   7
+  ],
+  [
+   "worden und die",
+   7
+  ],
+  [
+   "die frage der",
+   7
+  ],
+  [
+   "j'insère pièces historiques",
+   7
+  ],
+  [
+   "grand maître l'université",
+   7
+  ],
+  [
+   "mort louis xvi",
+   7
+  ],
+  [
+   "dès premier jour",
+   7
+  ],
+  [
+   "dès premier moment",
+   7
+  ],
+  [
+   "qu'il avait été",
+   7
+  ],
+  [
+   "gouvernement côté droit",
+   7
+  ],
+  [
+   "nouvelle société française",
+   7
+  ],
+  [
+   "côté droit côté",
+   7
+  ],
+  [
+   "droit côté gauche",
+   7
+  ],
+  [
+   "n'ai rien dire",
+   7
+  ],
+  [
+   "notre ministre secrétaire",
+   7
+  ],
+  [
+   "professeurs philosophie rhétorique",
+   7
+  ],
+  [
+   "chateaubriand comte decazes",
+   7
+  ],
+  [
+   "humble obéissant serviteur",
+   7
+  ],
+  [
+   "décembre ordonnance l'organisation",
+   7
+  ],
+  [
+   "mise état siège",
+   7
+  ],
+  [
+   "votre majesté impériale",
+   7
+  ],
+  [
+   "majesté impériale royale",
+   7
+  ],
+  [
+   "matière d'instruction publique",
+   7
+  ],
+  [
+   "muséum d'histoire naturelle",
+   7
+  ],
+  [
+   "projet loi l'instruction",
+   7
+  ],
+  [
+   "inspecteurs écoles primaires",
+   7
+  ],
+  [
+   "l'académie sciences morales",
+   7
+  ],
+  [
+   "collection documents inédits",
+   7
+  ],
+  [
+   "inédits relatifs l'histoire",
+   7
+  ],
+  [
+   "vingt quatre heures",
+   7
+  ],
+  [
+   "place saint jean",
+   7
+  ],
+  [
+   "pair france sous",
+   7
+  ],
+  [
+   "fut nommé ministre",
+   7
+  ],
+  [
+   "deux hautes parties",
+   7
+  ],
+  [
+   "membre confédération rhin",
+   7
+  ],
+  [
+   "privilegien januar uebersicht",
+   6
+  ],
+  [
+   "mit der größten",
+   6
+  ],
+  [
+   "die neue verfassung",
+   6
+  ],
+  [
+   "der auswärtigen angelegenheiten",
+   6
+  ],
+  [
+   "wird von der",
+   6
+  ],
+  [
+   "mehemed ali die",
+   6
+  ],
+  [
+   "sich auch die",
+   6
+  ],
+  [
+   "einfluß auf die",
+   6
+  ],
+  [
+   "stück agio bayer",
+   6
+  ],
+  [
+   "agio bayer act",
+   6
+  ],
+  [
+   "bayer act semester",
+   6
+  ],
+  [
+   "sem polnische loose",
+   6
+  ],
+  [
+   "mon frankfurt mon",
+   6
+  ],
+  [
+   "frankfurt mon nürnberg",
+   6
+  ],
+  [
+   "mon nürnberg berlin",
+   6
+  ],
+  [
+   "nürnberg berlin leipzig",
+   6
+  ],
+  [
+   "berlin leipzig london",
+   6
+  ],
+  [
+   "machte eine erplosion",
+   6
+  ],
+  [
+   "auch von den",
+   6
+  ],
+  [
+   "bell und longworth",
+   6
+  ],
+  [
+   "stuttgart und tübingen",
+   6
+  ],
+  [
+   "dem haag jan",
+   6
+  ],
+  [
+   "der regierung von",
+   6
+  ],
+  [
+   "den letzten jahren",
+   6
+  ],
+  [
+   "bankaktien belg bank",
+   6
+  ],
+  [
+   "amsterdam jan proc",
+   6
+  ],
+  [
+   "auch für die",
+   6
+  ],
+  [
+   "und mit der",
+   6
+  ],
+  [
+   "und den übrigen",
+   6
+  ],
+  [
+   "sich von der",
+   6
+  ],
+  [
+   "von jahr jahr",
+   6
+  ],
+  [
+   "ist und die",
+   6
+  ],
+  [
+   "die von den",
+   6
+  ],
+  [
+   "die für die",
+   6
+  ],
+  [
+   "auf den ersten",
+   6
+  ],
+  [
+   "nacht vom auf",
+   6
+  ],
+  [
+   "vom auf den",
+   6
+  ],
+  [
+   "zum behuf der",
+   6
+  ],
+  [
+   "frankreich pari jan",
+   6
+  ],
+  [
+   "die französische regierung",
+   6
+  ],
+  [
+   "für die schweiz",
+   6
+  ],
+  [
+   "die lage der",
+   6
+  ],
+  [
+   "für den augenblick",
+   6
+  ],
+  [
+   "datum der börsen",
+   6
+  ],
+  [
+   "der große rath",
+   6
+  ],
+  [
+   "und daß der",
+   6
+  ],
+  [
+   "zwischen den beiden",
+   6
+  ],
+  [
+   "daß sie sich",
+   6
+  ],
+  [
+   "der öffentlichen meinung",
+   6
+  ],
+  [
+   "eine summe von",
+   6
+  ],
+  [
+   "der dänischen sprache",
+   6
+  ],
+  [
+   "für die laufende",
+   6
+  ],
+  [
+   "rücksicht auf die",
+   6
+  ],
+  [
+   "ebook for the",
+   6
+  ]
+ ],
+ "formulas": {
+  "j'?ai l'?honneur de [^.;!?]{0,80}": [
+   [
+    "j'ai l'honneur de vous adresser copie de ma protestation",
+    1
+   ],
+   [
+    "j'ai l'honneur de vous envoyer copie de la protestation que j'ai faite\net de la lettre que je vien",
+    1
+   ],
+   [
+    "j'ai l'honneur de solliciter l'approbation\nde votre majeste me parait un des meilleurs moyens de l",
+    1
+   ],
+   [
+    "j'ai l'honneur de proposer, en consequence, a votre majeste, de vouloir\nbien donner son approbatio",
+    1
+   ],
+   [
+    "j'ai l'honneur de proposer a votre majeste sera un\nmonument tout a fait digne d'elle et de la fran",
+    1
+   ]
+  ],
+  "j'?ai l'?honneur d'?ê?tre[^.;!?]{0,60}": [
+   [
+    "j'ai l'honneur d'etre,\n\nmonsieur le vicomte,\n\nvotre tres-humble et tres-obeissant",
+    1
+   ],
+   [
+    "j'ai l'honneur d'etre, monsieur le comte, votre tres-humble et\ntres-obeissant ser",
+    1
+   ],
+   [
+    "j'ai l'honneur d'etre,\n\nvotre tres-humble serviteur,\n\nberanger",
+    1
+   ],
+   [
+    "j'ai l'honneur d'etre,\nde votre excellence,\nle tres-humble et tres-obeissant serv",
+    1
+   ]
+  ],
+  "agréez [^.;!?]{0,90}": [
+   [
+    "agreez de nouveau, je vous en prie, l'assurance de ma haute\nconsideration, de mon devouement sinc",
+    1
+   ],
+   [
+    "agreez de nouveau, monsieur, je vous en prie, l'assurance de ma haute\nconsideration et de mon dev",
+    1
+   ]
+  ],
+  "l'?assurance de (ma|mes) [^.;!?]{0,60}": [
+   [
+    "l'assurance de ma haute\nconsideration, de mon devouement sincere, et, si vous",
+    1
+   ],
+   [
+    "l'assurance de ma profonde estime et de ma haute\nconsideration",
+    1
+   ],
+   [
+    "l'assurance de ma haute\nestime, de ma reconnaissance et de mon devouement",
+    1
+   ],
+   [
+    "l'assurance de ma haute\nconsideration et de mon devouement sincere, et, si vou",
+    1
+   ],
+   [
+    "l'assurance de ma haute consideration et\nde mon inviolable attachement",
+    1
+   ],
+   [
+    "l'assurance de ma respectueuse consideration",
+    1
+   ],
+   [
+    "l'assurance de ma consideration distinguee",
+    1
+   ],
+   [
+    "l'assurance de ma parfaite consideration",
+    1
+   ],
+   [
+    "l'assurance de mes sentiments les plus distingues",
+    1
+   ],
+   [
+    "l'assurance de ma consideration la plus distinguee",
+    1
+   ]
+  ],
+  "haute considération[^.;!?]{0,30}": [
+   [
+    "haute consideration et\nde mon inviolable attachem",
+    1
+   ],
+   [
+    "haute consideration\navec laquelle j'ai l'honneur",
+    1
+   ],
+   [
+    "haute consideration",
+    1
+   ],
+   [
+    "haute consideration,\n\n_le pair de france, ministr",
+    1
+   ]
+  ],
+  "considération (la plus |très )?distinguée[^.;!?]{0,20}": [
+   [
+    "consideration distinguee",
+    1
+   ],
+   [
+    "consideration la plus distinguee",
+    1
+   ]
+  ],
+  "profond respect[^.;!?]{0,40}": [
+   [
+    "profond respect,\nsire,\nde votre majeste,\nle tres-humble",
+    4
+   ],
+   [
+    "profond respect, etc",
+    1
+   ],
+   [
+    "profond respect, de votre majeste,\n\nsire, le tres-humbl",
+    1
+   ]
+  ],
+  "obéissant serviteur[^.;!?]{0,20}": [
+   [
+    "obeissant serviteur,\n\nsigne: comte deca",
+    1
+   ],
+   [
+    "obeissant serviteur",
+    1
+   ],
+   [
+    "obeissant serviteur,\nl'abbe j",
+    1
+   ],
+   [
+    "obeissant serviteur,\n\n_signe_: lakanal",
+    1
+   ],
+   [
+    "obeissant serviteur et fidele sujet,\n\nl",
+    1
+   ]
+  ],
+  "monsieur le (comte|baron|prince|duc|marquis)[^.;!?]{0,60}": [
+   [
+    "monsieur le marquis, pensez-vous que la\ncour doive inscrire la reponse de la pr",
+    1
+   ],
+   [
+    "monsieur le comte,\n\nj'ai ete chez vous pour vous temoigner ma surprise",
+    1
+   ],
+   [
+    "monsieur le comte, n'a pas pu me\nlaisser oublier ce que je devais a ma dignit",
+    1
+   ],
+   [
+    "monsieur le comte,\n\nj'ai recu la lettre que vous m'avez fait l'honneur de m'e",
+    1
+   ],
+   [
+    "monsieur le comte,\nje ne puis recevoir de lecon et je pourrais servir d'exemp",
+    1
+   ],
+   [
+    "monsieur le comte, votre tres-humble et\ntres-obeissant serviteur",
+    1
+   ],
+   [
+    "monsieur le baron,\n\nmonsieur le garde des sceaux, en m'annoncant que je viens",
+    1
+   ],
+   [
+    "monsieur le baron, de\nverifier ce fait, et je vous prie de vouloir bien le fa",
+    1
+   ],
+   [
+    "monsieur le comte,\nen repondant a la lettre que vous m'avez ecrite pour me re",
+    1
+   ],
+   [
+    "monsieur le comte,\nsur votre bonne et utile cooperation dans cette circonstan",
+    1
+   ],
+   [
+    "monsieur le comte, les assurances de ma haute consideration",
+    1
+   ],
+   [
+    "monsieur le duc d'orleans",
+    1
+   ]
+  ],
+  "mon (cher|très cher) [^.;!?]{0,40}": [
+   [
+    "mon cher ami, a voir si vous ne devez pas\nsaisir",
+    1
+   ],
+   [
+    "mon cher villele,\nchevalier de mes ordres",
+    1
+   ],
+   [
+    "mon cher collegue, la lettre que j'ai\nrecue hier",
+    1
+   ],
+   [
+    "mon cher ami, je ne vous ai pas ecrit dans toutes",
+    1
+   ],
+   [
+    "mon cher ami",
+    1
+   ],
+   [
+    "mon cher ami,\nqu'il convient de demeurer garrotte",
+    1
+   ],
+   [
+    "mon cher ami, que je vous parle avec la plus brut",
+    1
+   ],
+   [
+    "mon cher ami,\nque je n'ai pas lu hier _le moniteu",
+    1
+   ],
+   [
+    "mon cher ami, je ne saurais vous dire tout le pla",
+    1
+   ],
+   [
+    "mon cher ami,\ntout aussi peu jacobin que vous",
+    1
+   ],
+   [
+    "mon cher ami, je termine par un mot",
+    1
+   ],
+   [
+    "mon cher marechal, votre lettre datee de macon le",
+    1
+   ],
+   [
+    "mon cher ami, ne m'a\npas seulement emu",
+    1
+   ],
+   [
+    "mon cher ami, que ma presence\na paris serait sans",
+    1
+   ],
+   [
+    "mon cher ministre, j'ai lu avec bien de l'interet",
+    1
+   ],
+   [
+    "mon cher dupin, ce que j'ai de mieux a faire, c'e",
+    1
+   ],
+   [
+    "mon cher duc",
+    1
+   ],
+   [
+    "mon cher monsieur guizot, je n'ai pas eu le temps",
+    1
+   ],
+   [
+    "mon cher ami, vous avez toute raison de croire a",
+    1
+   ],
+   [
+    "mon cher de lille, disait modestement \nm",
+    1
+   ],
+   [
+    "mon cher de lille, n'ont pas bisoin d'etre \ndevel",
+    1
+   ],
+   [
+    "mon cher dazincourt, en \nvoila assez, prevenez vo",
+    1
+   ],
+   [
+    "mon cher talleyrand,je sais que c'est la votre \no",
+    1
+   ]
+  ],
+  "sa majesté (impériale|le roi|l'?empereur)?[^.;!?]{0,50}": [
+   [
+    "sa majeste vient de rendre: «le sieur comte de villele, presi",
+    1
+   ],
+   [
+    "sa majeste y aurait appeles repondaient que c'est la volonte",
+    1
+   ],
+   [
+    "sa majeste a resolu de prendre les mesures necessaires pour l",
+    1
+   ],
+   [
+    "sa majeste l'ont\nrecue au haut du grand escalier pour la cond",
+    1
+   ],
+   [
+    "sa majeste la reine etait presente, ainsi\nque ll",
+    1
+   ],
+   [
+    "sa majeste de vouloir bien nous recevoir : nous desirions, \n+",
+    1
+   ],
+   [
+    "sa majeste ne l'avertissait pas qu'elle \nvenue au sein de son",
+    1
+   ],
+   [
+    "sa majeste l'empere \n\n\n\n\n\nr des francais, roi d'italie, ci",
+    1
+   ],
+   [
+    "sa majeste l'empereur des francais, \n\n\n\n\n\nie general de division michel",
+    1
+   ],
+   [
+    "sa majeste catholique le roi d'espagne, don eugene \nizquierdo",
+    1
+   ],
+   [
+    "sa majeste le roi d'etrurie, sous le litre de \nroi de lusitanie sep",
+    1
+   ],
+   [
+    "sa majeste le \nroi d'etrurie, conformement aux lois de succes",
+    1
+   ],
+   [
+    "sa majeste le roi d'espagne",
+    1
+   ],
+   [
+    "sa majeste le roi d'e",
+    1
+   ],
+   [
+    "sa majeste \nle roi d'espagne, a la condition qu'ils ne seront",
+    1
+   ],
+   [
+    "sa majeste le roi d'etrurie cede en toute \npromiete et souverainete",
+    1
+   ],
+   [
+    "sa majeste \nl'empereur des francais, roi d'ilalie",
+    1
+   ],
+   [
+    "sa majeste l'empereur des francais, roi \nd'italie, garantit a sa majest",
+    1
+   ],
+   [
+    "sa majeste l'empereur des francais, roi \nd'italie, consent a reconnaitr",
+    1
+   ],
+   [
+    "sa majeste catholique le roi \nd’espagne, comme empereur des d",
+    1
+   ],
+   [
+    "sa majeste catholique pour \nprendre ce titre, laquelle aura l",
+    1
+   ],
+   [
+    "sa majeste l'empereur des francais, roi d'ialie, ete",
+    1
+   ],
+   [
+    "sa majeste avait \nvus le matin, et devant qui elle avait form",
+    1
+   ],
+   [
+    "sa majeste et de toute la \ncour",
+    1
+   ],
+   [
+    "sa majeste imperiale, l'affaire du prince de la paix",
+    1
+   ]
+  ],
+  "l'?empereur [^.;!?]{0,60}": [
+   [
+    "l'empereur alexandre",
+    12
+   ],
+   [
+    "l'empereur napoleon",
+    3
+   ],
+   [
+    "l'empereur nicolas,--de l'autriche et de la prusse",
+    2
+   ],
+   [
+    "l'empereur nicolas",
+    2
+   ],
+   [
+    "l'empereur napoleon: genie incomparablement actif et puissant, admirabl",
+    1
+   ],
+   [
+    "l'empereur napoleon,\nvainqueur de l'europe et maitre absolu de la franc",
+    1
+   ],
+   [
+    "l'empereur etait ou voulait paraitre preoccupe, l'echange\ndes prisonnie",
+    1
+   ],
+   [
+    "l'empereur ne voulut\nserieusement l'echange, je mis soigneusement en lu",
+    1
+   ],
+   [
+    "l'empereur napoleon, regardant les prisonniers anglais qu'il avait en\nf",
+    1
+   ],
+   [
+    "l'empereur se faisait quelquefois\nrendre compte par lui de ces seances",
+    1
+   ],
+   [
+    "l'empereur vint donner lui-meme a leurs idees une\nconsistance et une pu",
+    1
+   ],
+   [
+    "l'empereur napoleon\navait conclu, en quinze ans, plus de traites de pai",
+    1
+   ],
+   [
+    "l'empereur rentre a paris, je retournai a la faculte\ndes lettres, decid",
+    1
+   ],
+   [
+    "l'empereur napoleon, de devouement et de\nperseverance",
+    1
+   ],
+   [
+    "l'empereur napoleon et sur les chances\nde son avenir",
+    1
+   ],
+   [
+    "l'empereur causant un jour\navec quelques personnes des pertes de l'arme",
+    1
+   ],
+   [
+    "l'empereur napoleon s'etait complu sans doute\ndans son calcul et dans s",
+    1
+   ],
+   [
+    "l'empereur alexandre et\nles souverains d'angleterre et d'autriche, la d",
+    1
+   ],
+   [
+    "l'empereur en passant pour aller mourir",
+    1
+   ],
+   [
+    "l'empereur des chefs et des armes",
+    1
+   ],
+   [
+    "l'empereur dans\nla cour des tuileries",
+    1
+   ],
+   [
+    "l'empereur mele a des chants qui rappelaient une epoque trop fameuse",
+    1
+   ],
+   [
+    "l'empereur des rapports pour signaler le mal et reclamer des mesures de",
+    1
+   ],
+   [
+    "l'empereur alexandre etait\nrentre particulierement irrite contre la mai",
+    1
+   ],
+   [
+    "l'empereur alexandre arrivait, le 10 juillet 1815, a paris,\nfroid et pl",
+    1
+   ]
+  ],
+  "j'?ai reçu [^.;!?]{0,90}": [
+   [
+    "j'ai recu la lettre que vous m'avez fait l'honneur de m'ecrire le 18 de\nce mois",
+    1
+   ],
+   [
+    "j'ai recu hier, prince, avec les ratifications belges que vous\nm'avez envoyees, votre depeche du",
+    1
+   ],
+   [
+    "j'ai recu de ce journal, sauf dans une circonstance dont je\nparlerai a son temps, le plus decide et",
+    1
+   ],
+   [
+    "j'ai recu ici, le jugement que je devais porter sur l'etat de ce pays",
+    1
+   ],
+   [
+    "j'ai recu ici l'accueil le plus aimable et le plus amical de tous\nles professeurs de l'universite qu",
+    1
+   ]
+  ],
+  "j'?ai appris [^.;!?]{0,90}": [
+   [
+    "j'ai appris a etre juste envers\nl'empereur napoleon: genie incomparablement actif et puissant, admirab",
+    1
+   ],
+   [
+    "j'ai appris d'eux plus que de personne a porter dans\nla pratique de la vie cette large equite et ce re",
+    1
+   ],
+   [
+    "j'ai appris que \nvotre majeste parlait volontiers de taciteet ne l'aimait pas",
+    1
+   ]
+  ],
+  "je me fais un devoir [^.;!?]{0,80}": [
+   [
+    "je me fais un devoir d'exprimer ici un regret ne d'une faute que\nj'aurais du, pour ma part, m'appliqu",
+    1
+   ]
+  ],
+  "par ordre de [^.;!?]{0,60}": [
+   [
+    "par ordre de primogeniture, en ligne naturelle, directe et legitime\nseule",
+    1
+   ],
+   [
+    "par ordre de siecles",
+    1
+   ],
+   [
+    "par ordre de dates, \n\n\nn \n\n\n\n\n\nsnique el bouffonne, avait imsulte tous le",
+    1
+   ],
+   [
+    "par ordre de l'inquisition",
+    1
+   ]
+  ],
+  "je vous prie [^.;!?]{0,80}": [
+   [
+    "je vous prie de remercier beaucoup\npour moi",
+    1
+   ],
+   [
+    "je vous prie de me renvoyer ces pieces, qui\nne doivent recevoir aucune publicite",
+    1
+   ],
+   [
+    "je vous prie de vouloir bien le faire pour m",
+    1
+   ],
+   [
+    "je vous prie de m'envoyer de suite un ou deux bataillons de\nla garde nationale",
+    1
+   ],
+   [
+    "je vous prie de donner des ordres soit pour que le\nposte de trente hommes qui s'est place ce",
+    1
+   ],
+   [
+    "je vous prie aussi de\npermettre que l'on nous donne du pain de munition, que l'ecole paiera",
+    1
+   ],
+   [
+    "je vous prie de demander a m",
+    1
+   ]
+  ],
+  "à l'?égard de [^.;!?]{0,60}": [
+   [
+    "a l'egard de la chambre des deputes",
+    1
+   ],
+   [
+    "a l'egard de 5 inspecteurs generaux\net de 14 recteurs d'academie sur 25",
+    1
+   ],
+   [
+    "a l'egard de m",
+    1
+   ],
+   [
+    "a l'egard de l'etat des changements survenus\npendant chaque trimestre par",
+    1
+   ],
+   [
+    "a l'egard de la france, au moment du depart de \nbonaparte",
+    1
+   ],
+   [
+    "a l'egard de l'empereur, qu'on ue conuais- \nsait pas suffisamment, que pa",
+    1
+   ],
+   [
+    "a l'egard de la porte \nottomane, serait place de maniere a etre peu eloig",
+    1
+   ],
+   [
+    "a l'egard de la porte ottomane",
+    1
+   ]
+  ],
+  "à l'?occasion de [^.;!?]{0,60}": [
+   [
+    "a l'occasion de la saisie de son ouvrage",
+    1
+   ],
+   [
+    "a l'occasion de la saisie de la _monarchie\n  selon la charte_, pour cause de",
+    1
+   ],
+   [
+    "a l'occasion de la destitution de m",
+    1
+   ],
+   [
+    "a l'occasion de ce projet, la situation de m",
+    1
+   ],
+   [
+    "a l'occasion de ce service, dans l'eglise meme de\nsaint-germain-l'auxerrois,",
+    1
+   ],
+   [
+    "a l'occasion de l'impot sur les boissons, et en ont\nmomentanement suspendu l",
+    1
+   ],
+   [
+    "a l'occasion de son cours\ndevenaient presque une affaire de gouvernement, le",
+    1
+   ],
+   [
+    "a l'occasion de m'y faire \n\n\n1",
+    1
+   ],
+   [
+    "a l'occasion de son entreprise sur l'espagne",
+    1
+   ]
+  ],
+  "rendre compte [^.;!?]{0,50}": [
+   [
+    "rendre compte par lui de ces seances",
+    1
+   ],
+   [
+    "rendre compte de l'etat de l'instruction publique dans\nnotre roy",
+    1
+   ],
+   [
+    "rendre compte a la chambre de l'une et de\nl'autre propositions,",
+    1
+   ],
+   [
+    "rendre compte de l'usage\nqu'elle en avait fait",
+    1
+   ],
+   [
+    "rendre compte de ce qui se passait",
+    1
+   ],
+   [
+    "rendre compte au public",
+    1
+   ],
+   [
+    "rendre compte devant eux des affaires qui etaient \ndans leurs at",
+    1
+   ],
+   [
+    "rendre compte de cette importante question",
+    1
+   ]
+  ],
+  "je suis [^.;!?]{0,40}": [
+   [
+    "je suis avec le plus profond respect,\nsire,\nde v",
+    4
+   ],
+   [
+    "je suis le plus fort",
+    2
+   ],
+   [
+    "je suis encore la pour en repondre",
+    1
+   ],
+   [
+    "je suis attriste, mais\npoint trouble de ses reve",
+    1
+   ],
+   [
+    "je suis sure que vous\njoueriez tres-bien la trag",
+    1
+   ],
+   [
+    "je suis de ceux que l'elan de 1789 a eleves et q",
+    1
+   ],
+   [
+    "je suis profondement devoue\na la liberte de cons",
+    1
+   ],
+   [
+    "je suis etonne, lui dit l'empereur, que vous me",
+    1
+   ],
+   [
+    "je suis decide",
+    1
+   ],
+   [
+    "je suis honteux de dire a\nvotre majeste qu'elle",
+    1
+   ],
+   [
+    "je suis de ceux que la presse a beaucoup servis",
+    1
+   ],
+   [
+    "je suis frappe aujourd'hui,\ncomme le seront sans",
+    1
+   ],
+   [
+    "je suis charge,\net n'y mets pas la moindre passi",
+    1
+   ],
+   [
+    "je suis ne pour\nla fin des revolutions",
+    1
+   ],
+   [
+    "je suis venu aux affaires, et une des causes pou",
+    1
+   ],
+   [
+    "je suis ne pour\nla fin des revolutions,» avait-i",
+    1
+   ],
+   [
+    "je suis elu depute a lisieux",
+    1
+   ],
+   [
+    "je suis contrarie d'y trouver toutes\nces petites",
+    1
+   ],
+   [
+    "je suis encore de ce monde",
+    1
+   ],
+   [
+    "je suis peu propre a servir une politique flotta",
+    1
+   ],
+   [
+    "je suis appele",
+    1
+   ],
+   [
+    "je suis a ma chaumiere, monsieur, ou je serai en",
+    1
+   ],
+   [
+    "je suis oblige de rester aupres d'elle",
+    1
+   ],
+   [
+    "je suis sur qu'elle ecrirait comme une folle a l",
+    1
+   ],
+   [
+    "je suis fort aise d'etre rassure sur ce point",
+    1
+   ]
+  ],
+  "les sentiments de [^.;!?]{0,80}": [
+   [
+    "les sentiments de la minorite moderee, et la soutenait de\nson influence morale, quelquefois meme d",
+    1
+   ],
+   [
+    "les sentiments de respect et de fidelite etaient\nconfus et en conflit dans bien des ames",
+    1
+   ],
+   [
+    "les sentiments de cette\nportion de la france qui avait ardemment, indistinctement et obstinement\ns",
+    1
+   ],
+   [
+    "les sentiments de respect et d'amitie que je vous ai\nvoues pour la vie",
+    1
+   ],
+   [
+    "les sentiments de gratitude qui l'animent pour la brave\ngarnison dont l'heroisme a sauve votre cit",
+    1
+   ]
+  ],
+  "permettez-moi [^.;!?]{0,60}": [
+   [
+    "permettez-moi de vous dire que vous avez tort,\net veuillez charger un autr",
+    1
+   ]
+  ],
+  "votre (très |plus )?dévoué [^.;!?]{0,40}": [
+   [
+    "votre devoue serviteur,\n\nauguste comte",
+    1
+   ]
+  ],
+  "je m'?empresse [^.;!?]{0,80}": [
+   [
+    "je m'empresse de profiter de la premiere disponibilite de\nquelques exemplaires pour satisfaire",
+    1
+   ]
+  ],
+  "porter à la connaissance [^.;!?]{0,60}": [
+   [
+    "porter a la connaissance des troupes placees sous ses ordres\nl'adresse suivante votee",
+    1
+   ]
+  ],
+  "prendre connaissance [^.;!?]{0,40}": [
+   [
+    "prendre connaissance d'une œuvre \nd’une haute valeur, objet d",
+    1
+   ]
+  ],
+  "avec les sentiments [^.;!?]{0,80}": [
+   [
+    "avec les sentiments eleves, avec les embarras de la \nvie",
+    1
+   ]
+  ]
+ },
+ "topic_concordance": {
+  "levant_mehemet": {
+   "ali": [
+    [
+     "Mehemed",
+     36
+    ],
+    [
+     "Die",
+     35
+    ],
+    [
+     "Jan",
+     30
+    ],
+    [
+     "Ali",
+     24
+    ],
+    [
+     "Pascha",
+     22
+    ],
+    [
+     "Dec",
+     18
+    ],
+    [
+     "Syrien",
+     18
+    ],
+    [
+     "Pforte",
+     16
+    ],
+    [
+     "Aegypten",
+     16
+    ],
+    [
+     "Der",
+     15
+    ],
+    [
+     "Ali's",
+     14
+    ],
+    [
+     "Ibrahim",
+     14
+    ],
+    [
+     "Armee",
+     13
+    ],
+    [
+     "Admiral",
+     12
+    ],
+    [
+     "Sie",
+     12
+    ],
+    [
+     "Zeit",
+     12
+    ],
+    [
+     "Proc",
+     12
+    ],
+    [
+     "Befehl",
+     10
+    ],
+    [
+     "Folge",
+     10
+    ],
+    [
+     "Sultan",
+     10
+    ]
+   ],
+   "ibrahim": [
+    [
+     "Die",
+     26
+    ],
+    [
+     "Jan",
+     20
+    ],
+    [
+     "Ibrahim",
+     15
+    ],
+    [
+     "Christen",
+     11
+    ],
+    [
+     "Syrien",
+     10
+    ],
+    [
+     "Paris",
+     10
+    ],
+    [
+     "Mehemed",
+     10
+    ],
+    [
+     "Pascha",
+     10
+    ],
+    [
+     "Ali",
+     9
+    ],
+    [
+     "Handels",
+     8
+    ],
+    [
+     "Fonds",
+     8
+    ],
+    [
+     "Bank",
+     8
+    ],
+    [
+     "London",
+     7
+    ],
+    [
+     "China",
+     7
+    ],
+    [
+     "Wien",
+     7
+    ],
+    [
+     "Loose",
+     7
+    ],
+    [
+     "Berlin",
+     7
+    ],
+    [
+     "Bedingungen",
+     6
+    ],
+    [
+     "Pari",
+     6
+    ],
+    [
+     "Mon",
+     6
+    ]
+   ],
+   "egypte": [
+    [
+     "Bonaparte",
+     18
+    ],
+    [
+     "Chambre",
+     8
+    ],
+    [
+     "France",
+     8
+    ],
+    [
+     "Cobenzl",
+     8
+    ],
+    [
+     "Napoleon",
+     6
+    ],
+    [
+     "Louis",
+     6
+    ],
+    [
+     "Munich",
+     6
+    ],
+    [
+     "Vienne",
+     6
+    ],
+    [
+     "Saxe",
+     6
+    ],
+    [
+     "Francais",
+     4
+    ],
+    [
+     "C'est",
+     4
+    ],
+    [
+     "Duval",
+     4
+    ],
+    [
+     "Voltaire",
+     4
+    ],
+    [
+     "Grace",
+     4
+    ],
+    [
+     "Google",
+     4
+    ],
+    [
+     "Tuileries",
+     4
+    ],
+    [
+     "Guillaume",
+     4
+    ],
+    [
+     "Charles",
+     4
+    ],
+    [
+     "Cornwallis",
+     4
+    ],
+    [
+     "Amiens",
+     4
+    ]
+   ],
+   "hereditaire": [
+    [
+     "Votre",
+     16
+    ],
+    [
+     "Majeste",
+     16
+    ],
+    [
+     "France",
+     14
+    ],
+    [
+     "Sire",
+     12
+    ],
+    [
+     "Napoleon",
+     12
+    ],
+    [
+     "Revolution",
+     6
+    ],
+    [
+     "Louis",
+     4
+    ],
+    [
+     "Suard",
+     4
+    ],
+    [
+     "Chambre",
+     4
+    ],
+    [
+     "Royer",
+     4
+    ],
+    [
+     "Collard",
+     4
+    ],
+    [
+     "Thiers",
+     4
+    ],
+    [
+     "Non",
+     4
+    ],
+    [
+     "Yarmouth",
+     4
+    ],
+    [
+     "Grenville",
+     4
+    ],
+    [
+     "Lauderdale",
+     4
+    ],
+    [
+     "Alexandre",
+     4
+    ],
+    [
+     "Vincent",
+     4
+    ],
+    [
+     "T'Autriche",
+     4
+    ],
+    [
+     "Tilsit",
+     4
+    ]
+   ],
+   "evacuation": [
+    [
+     "France",
+     6
+    ],
+    [
+     "Reuss",
+     6
+    ],
+    [
+     "Prusse",
+     4
+    ],
+    [
+     "Richelieu",
+     2
+    ],
+    [
+     "Roi",
+     2
+    ],
+    [
+     "Nul",
+     2
+    ],
+    [
+     "Marseille",
+     2
+    ],
+    [
+     "Grenoble",
+     2
+    ],
+    [
+     "Dauphinois",
+     2
+    ],
+    [
+     "Lyon",
+     2
+    ],
+    [
+     "Guillotiere",
+     2
+    ],
+    [
+     "Terreaux",
+     2
+    ],
+    [
+     "Saint",
+     2
+    ],
+    [
+     "Pierre",
+     2
+    ],
+    [
+     "Prosbourg",
+     2
+    ],
+    [
+     "Venise",
+     2
+    ],
+    [
+     "Joseph",
+     2
+    ],
+    [
+     "Naples",
+     2
+    ],
+    [
+     "Etats",
+     2
+    ],
+    [
+     "Jerome",
+     2
+    ]
+   ],
+   "investiture": [
+    [
+     "Roi",
+     1
+    ],
+    [
+     "Louvre",
+     1
+    ],
+    [
+     "Vivent",
+     1
+    ],
+    [
+     "Francais",
+     1
+    ],
+    [
+     "Murat",
+     1
+    ],
+    [
+     "Paix",
+     1
+    ],
+    [
+     "Google",
+     1
+    ]
+   ],
+   "syrie": [
+    [
+     "Saxe",
+     3
+    ],
+    [
+     "Duval",
+     2
+    ],
+    [
+     "Guillaume",
+     2
+    ],
+    [
+     "Munich",
+     2
+    ],
+    [
+     "Vienne",
+     2
+    ],
+    [
+     "Charles",
+     2
+    ],
+    [
+     "Cornwallis",
+     2
+    ],
+    [
+     "Chambre",
+     2
+    ],
+    [
+     "Amiens",
+     2
+    ],
+    [
+     "France",
+     1
+    ],
+    [
+     "Fontenelle",
+     1
+    ],
+    [
+     "Mairan",
+     1
+    ],
+    [
+     "Descartes",
+     1
+    ],
+    [
+     "Pierre",
+     1
+    ],
+    [
+     "Breaute",
+     1
+    ],
+    [
+     "Normandie",
+     1
+    ],
+    [
+     "Olto",
+     1
+    ],
+    [
+     "Mosloy",
+     1
+    ],
+    [
+     "Londres",
+     1
+    ],
+    [
+     "Bonaparte",
+     1
+    ]
+   ]
+  },
+  "straits": {
+   "convention": [
+    [
+     "France",
+     16
+    ],
+    [
+     "Napoleon",
+     14
+    ],
+    [
+     "Google",
+     14
+    ],
+    [
+     "Convention",
+     10
+    ],
+    [
+     "Die",
+     7
+    ],
+    [
+     "Der",
+     6
+    ],
+    [
+     "Franzosen",
+     6
+    ],
+    [
+     "Regierung",
+     6
+    ],
+    [
+     "Revolution",
+     6
+    ],
+    [
+     "Rhin",
+     6
+    ],
+    [
+     "Talleyrand",
+     6
+    ],
+    [
+     "C'est",
+     6
+    ],
+    [
+     "Bonaparte",
+     6
+    ],
+    [
+     "Paris",
+     5
+    ],
+    [
+     "Rosas",
+     5
+    ],
+    [
+     "Buenos",
+     5
+    ],
+    [
+     "Bade",
+     5
+    ],
+    [
+     "Bougainville",
+     5
+    ],
+    [
+     "Sire",
+     5
+    ],
+    [
+     "Pforte",
+     4
+    ]
+   ],
+   "skelessi": [
+    [
+     "Frankreich",
+     3
+    ],
+    [
+     "Frieden",
+     2
+    ],
+    [
+     "Blatter",
+     2
+    ],
+    [
+     "Das",
+     2
+    ],
+    [
+     "Weise",
+     2
+    ],
+    [
+     "Punkt",
+     2
+    ],
+    [
+     "Fruhjahr",
+     1
+    ],
+    [
+     "Aus",
+     1
+    ],
+    [
+     "Krieges",
+     1
+    ],
+    [
+     "Die",
+     1
+    ],
+    [
+     "Umstande",
+     1
+    ],
+    [
+     "Krafte",
+     1
+    ],
+    [
+     "Vorsicht",
+     1
+    ],
+    [
+     "Cabinetten",
+     1
+    ],
+    [
+     "Großmachte",
+     1
+    ],
+    [
+     "Wunfch",
+     1
+    ],
+    [
+     "Bestrebungen",
+     1
+    ],
+    [
+     "Erfolge",
+     1
+    ],
+    [
+     "Den",
+     1
+    ],
+    [
+     "Nachrichten",
+     1
+    ]
+   ],
+   "traite": [
+    [
+     "Napoleon",
+     90
+    ],
+    [
+     "France",
+     80
+    ],
+    [
+     "Google",
+     48
+    ],
+    [
+     "Paris",
+     38
+    ],
+    [
+     "Majeste",
+     34
+    ],
+    [
+     "Charles",
+     30
+    ],
+    [
+     "Russie",
+     28
+    ],
+    [
+     "Asturies",
+     24
+    ],
+    [
+     "Alexandre",
+     22
+    ],
+    [
+     "Etats",
+     22
+    ],
+    [
+     "Votre",
+     22
+    ],
+    [
+     "Louis",
+     20
+    ],
+    [
+     "Talleyrand",
+     20
+    ],
+    [
+     "Roi",
+     16
+    ],
+    [
+     "Maurepas",
+     16
+    ],
+    [
+     "Bonaparte",
+     16
+    ],
+    [
+     "Bade",
+     16
+    ],
+    [
+     "Sire",
+     16
+    ],
+    [
+     "Paix",
+     14
+    ],
+    [
+     "Imperiale",
+     14
+    ]
+   ],
+   "dardanelles": [
+    [
+     "Saxe",
+     4
+    ],
+    [
+     "Erfurt",
+     3
+    ],
+    [
+     "Bose",
+     3
+    ],
+    [
+     "Dresde",
+     3
+    ],
+    [
+     "Marcdlini",
+     2
+    ],
+    [
+     "Funck",
+     2
+    ],
+    [
+     "Gutschmidt",
+     2
+    ],
+    [
+     "Thiele",
+     2
+    ],
+    [
+     "Gablenz",
+     2
+    ],
+    [
+     "Marxhansky",
+     2
+    ],
+    [
+     "Schunberg",
+     2
+    ],
+    [
+     "Bourgoing",
+     2
+    ],
+    [
+     "France",
+     2
+    ],
+    [
+     "Gotha",
+     2
+    ],
+    [
+     "Weimar",
+     1
+    ],
+    [
+     "Frederic",
+     1
+    ],
+    [
+     "Guillaume",
+     1
+    ],
+    [
+     "Stockholm",
+     1
+    ]
+   ],
+   "bosphore": [
+    [
+     "Reuss",
+     2
+    ],
+    [
+     "Rhin",
+     2
+    ],
+    [
+     "Hohenællern",
+     1
+    ],
+    [
+     "Sigmaringen",
+     1
+    ],
+    [
+     "Schlei",
+     1
+    ],
+    [
+     "Falkenstein",
+     1
+    ],
+    [
+     "Guillaume",
+     1
+    ],
+    [
+     "Baviere",
+     1
+    ],
+    [
+     "Dal",
+     1
+    ],
+    [
+     "Leopout",
+     1
+    ],
+    [
+     "Dessau",
+     1
+    ],
+    [
+     "France",
+     1
+    ],
+    [
+     "Greiz",
+     1
+    ],
+    [
+     "Ebersdurf",
+     1
+    ],
+    [
+     "Lobenstein",
+     1
+    ],
+    [
+     "Schbiz",
+     1
+    ],
+    [
+     "Membre",
+     1
+    ]
+   ]
+  },
+  "powers_people": {
+   "thiers": [
+    [
+     "Thiers",
+     49
+    ],
+    [
+     "Die",
+     41
+    ],
+    [
+     "Paris",
+     36
+    ],
+    [
+     "Der",
+     25
+    ],
+    [
+     "Roi",
+     24
+    ],
+    [
+     "Regierung",
+     23
+    ],
+    [
+     "Frankreich",
+     19
+    ],
+    [
+     "Kammer",
+     17
+    ],
+    [
+     "Commission",
+     17
+    ],
+    [
+     "Forts",
+     17
+    ],
+    [
+     "Hrn",
+     13
+    ],
+    [
+     "Man",
+     12
+    ],
+    [
+     "Jan",
+     12
+    ],
+    [
+     "Barrot",
+     10
+    ],
+    [
+     "Broglie",
+     10
+    ],
+    [
+     "Das",
+     9
+    ],
+    [
+     "Ministerium",
+     9
+    ],
+    [
+     "Lyon",
+     9
+    ],
+    [
+     "Befestigung",
+     8
+    ],
+    [
+     "Bericht",
+     8
+    ]
+   ],
+   "sultan": [
+    [
+     "Die",
+     10
+    ],
+    [
+     "Der",
+     8
+    ],
+    [
+     "Mehemed",
+     7
+    ],
+    [
+     "Ali",
+     6
+    ],
+    [
+     "Stadt",
+     5
+    ],
+    [
+     "Aegypten",
+     5
+    ],
+    [
+     "Jan",
+     5
+    ],
+    [
+     "Fußen",
+     5
+    ],
+    [
+     "Syrien",
+     4
+    ],
+    [
+     "Mar",
+     4
+    ],
+    [
+     "Pascha",
+     4
+    ],
+    [
+     "Mann",
+     4
+    ],
+    [
+     "Soldaten",
+     3
+    ],
+    [
+     "Admiral",
+     3
+    ],
+    [
+     "Das",
+     3
+    ],
+    [
+     "Tage",
+     3
+    ],
+    [
+     "Pforte",
+     3
+    ],
+    [
+     "Umstande",
+     3
+    ],
+    [
+     "Handen",
+     3
+    ],
+    [
+     "Griechen",
+     3
+    ]
+   ],
+   "guizot": [
+    [
+     "Gutenberg",
+     89
+    ],
+    [
+     "Project",
+     87
+    ],
+    [
+     "Guizot",
+     34
+    ],
+    [
+     "United",
+     20
+    ],
+    [
+     "States",
+     20
+    ],
+    [
+     "See",
+     15
+    ],
+    [
+     "Paris",
+     14
+    ],
+    [
+     "Foundation",
+     14
+    ],
+    [
+     "There",
+     13
+    ],
+    [
+     "Redistribution",
+     10
+    ],
+    [
+     "Frankreich",
+     9
+    ],
+    [
+     "Mann",
+     8
+    ],
+    [
+     "Monsieur",
+     8
+    ],
+    [
+     "Krieg",
+     7
+    ],
+    [
+     "You",
+     7
+    ],
+    [
+     "The",
+     7
+    ],
+    [
+     "Literary",
+     7
+    ],
+    [
+     "Archive",
+     7
+    ],
+    [
+     "Thiers",
+     6
+    ],
+    [
+     "Perier",
+     6
+    ]
+   ],
+   "ponsonby": [
+    [
+     "Jan",
+     4
+    ],
+    [
+     "Aegyptens",
+     3
+    ],
+    [
+     "London",
+     3
+    ],
+    [
+     "Dec",
+     3
+    ],
+    [
+     "Besitz",
+     2
+    ],
+    [
+     "Hand",
+     2
+    ],
+    [
+     "Admiral",
+     2
+    ],
+    [
+     "Instructionen",
+     2
+    ],
+    [
+     "Großmachte",
+     2
+    ],
+    [
+     "Lord",
+     2
+    ],
+    [
+     "Handels",
+     2
+    ],
+    [
+     "Borsennachrichten",
+     2
+    ],
+    [
+     "Ibrahim",
+     2
+    ],
+    [
+     "Pascha",
+     2
+    ],
+    [
+     "Aegypten",
+     2
+    ],
+    [
+     "Mehemed",
+     1
+    ],
+    [
+     "Ali",
+     1
+    ],
+    [
+     "Mir",
+     1
+    ],
+    [
+     "Depesche",
+     1
+    ],
+    [
+     "Commodore",
+     1
+    ]
+   ],
+   "espartero": [
+    [
+     "Uhr",
+     6
+    ],
+    [
+     "Kirche",
+     6
+    ],
+    [
+     "Stunde",
+     3
+    ],
+    [
+     "Tage",
+     2
+    ],
+    [
+     "Abends",
+     2
+    ],
+    [
+     "Katholik",
+     2
+    ],
+    [
+     "Diese",
+     2
+    ],
+    [
+     "Morder",
+     2
+    ],
+    [
+     "Nutze",
+     2
+    ],
+    [
+     "Alle",
+     2
+    ],
+    [
+     "Domherren",
+     2
+    ],
+    [
+     "Gegen",
+     2
+    ],
+    [
+     "Zeit",
+     2
+    ],
+    [
+     "Diener",
+     2
+    ],
+    [
+     "Erfahrung",
+     1
+    ],
+    [
+     "Pfarrkirche",
+     1
+    ],
+    [
+     "Tagen",
+     1
+    ],
+    [
+     "Ostundige",
+     1
+    ],
+    [
+     "Gebet",
+     1
+    ],
+    [
+     "AbendS",
+     1
+    ]
+   ],
+   "palmerston": [
+    [
+     "Jan",
+     4
+    ],
+    [
+     "Die",
+     3
+    ],
+    [
+     "Regierung",
+     3
+    ],
+    [
+     "Der",
+     3
+    ],
+    [
+     "Frankreich",
+     2
+    ],
+    [
+     "Ministerium",
+     2
+    ],
+    [
+     "Lord",
+     2
+    ],
+    [
+     "Englander",
+     2
+    ],
+    [
+     "Buchara",
+     2
+    ],
+    [
+     "Umstanden",
+     2
+    ],
+    [
+     "Note",
+     2
+    ],
+    [
+     "Paris",
+     2
+    ],
+    [
+     "Thiers",
+     2
+    ],
+    [
+     "Bericht",
+     2
+    ],
+    [
+     "Casimir",
+     2
+    ],
+    [
+     "Perier",
+     2
+    ],
+    [
+     "Fayette",
+     2
+    ],
+    [
+     "Angriffspunkt",
+     1
+    ],
+    [
+     "Punkt",
+     1
+    ],
+    [
+     "Irland",
+     1
+    ]
+   ],
+   "metternich": [
+    [
+     "France",
+     5
+    ],
+    [
+     "Thlr",
+     4
+    ],
+    [
+     "Loose",
+     3
+    ],
+    [
+     "Napoleon",
+     3
+    ],
+    [
+     "Villele",
+     3
+    ],
+    [
+     "Roi",
+     3
+    ],
+    [
+     "Sainte",
+     3
+    ],
+    [
+     "Perier",
+     3
+    ],
+    [
+     "Serbien",
+     2
+    ],
+    [
+     "Synd",
+     2
+    ],
+    [
+     "Ard",
+     2
+    ],
+    [
+     "Disconto",
+     2
+    ],
+    [
+     "Louis",
+     2
+    ],
+    [
+     "Montmorency",
+     2
+    ],
+    [
+     "Chateaubriand",
+     2
+    ],
+    [
+     "Londres",
+     2
+    ],
+    [
+     "Quand",
+     2
+    ],
+    [
+     "Belgique",
+     2
+    ],
+    [
+     "Casimir",
+     2
+    ],
+    [
+     "Remusat",
+     2
+    ]
+   ],
+   "louis-philippe": [
+    [
+     "Roi",
+     47
+    ],
+    [
+     "France",
+     33
+    ],
+    [
+     "Perier",
+     28
+    ],
+    [
+     "Paris",
+     27
+    ],
+    [
+     "Casimir",
+     27
+    ],
+    [
+     "Louis",
+     21
+    ],
+    [
+     "Chambres",
+     19
+    ],
+    [
+     "Philippe",
+     18
+    ],
+    [
+     "Gutenberg",
+     16
+    ],
+    [
+     "Project",
+     15
+    ],
+    [
+     "Tuileries",
+     13
+    ],
+    [
+     "Laffitte",
+     11
+    ],
+    [
+     "Chambre",
+     10
+    ],
+    [
+     "Talleyrand",
+     10
+    ],
+    [
+     "Londres",
+     9
+    ],
+    [
+     "Fayette",
+     9
+    ],
+    [
+     "Lyon",
+     9
+    ],
+    [
+     "Etat",
+     7
+    ],
+    [
+     "Soult",
+     7
+    ],
+    [
+     "Broglie",
+     7
+    ]
+   ],
+   "nicolas": [
+    [
+     "Paris",
+     7
+    ],
+    [
+     "Chambres",
+     6
+    ],
+    [
+     "Casimir",
+     5
+    ],
+    [
+     "Perier",
+     5
+    ],
+    [
+     "France",
+     4
+    ],
+    [
+     "Roi",
+     4
+    ],
+    [
+     "Project",
+     4
+    ],
+    [
+     "Gutenberg",
+     4
+    ],
+    [
+     "Louis",
+     3
+    ],
+    [
+     "Philippe",
+     3
+    ],
+    [
+     "Europe",
+     3
+    ],
+    [
+     "Pologne",
+     3
+    ],
+    [
+     "Parti",
+     3
+    ],
+    [
+     "Belgique",
+     2
+    ],
+    [
+     "Rapports",
+     2
+    ],
+    [
+     "Chambre",
+     2
+    ],
+    [
+     "Varsovie",
+     2
+    ],
+    [
+     "Rome",
+     2
+    ],
+    [
+     "Napoleon",
+     2
+    ],
+    [
+     "Saxe",
+     2
+    ]
+   ],
+   "louis philippe": [
+    [
+     "France",
+     2
+    ],
+    [
+     "Roi",
+     2
+    ],
+    [
+     "Chambres",
+     2
+    ],
+    [
+     "Casimir",
+     2
+    ],
+    [
+     "Perier",
+     2
+    ],
+    [
+     "Napoleon",
+     2
+    ],
+    [
+     "J'admets",
+     1
+    ],
+    [
+     "Louis",
+     1
+    ],
+    [
+     "Philippe",
+     1
+    ],
+    [
+     "Paris",
+     1
+    ],
+    [
+     "Compte",
+     1
+    ],
+    [
+     "Manifeste",
+     1
+    ],
+    [
+     "Corsaire",
+     1
+    ],
+    [
+     "Vendome",
+     1
+    ],
+    [
+     "Correspondant",
+     1
+    ],
+    [
+     "Hambourg",
+     1
+    ],
+    [
+     "Lostain",
+     1
+    ],
+    [
+     "Mon",
+     1
+    ],
+    [
+     "Montholan",
+     1
+    ],
+    [
+     "Sainte",
+     1
+    ]
+   ],
+   "louis\nphilippe": [
+    [
+     "Casimir",
+     3
+    ],
+    [
+     "Perier",
+     3
+    ],
+    [
+     "Principe",
+     2
+    ],
+    [
+     "Paris",
+     1
+    ],
+    [
+     "Visite",
+     1
+    ],
+    [
+     "Dieu",
+     1
+    ],
+    [
+     "Mort",
+     1
+    ],
+    [
+     "Cuvier",
+     1
+    ],
+    [
+     "Maladie",
+     1
+    ],
+    [
+     "Etat",
+     1
+    ],
+    [
+     "Insurrection",
+     1
+    ],
+    [
+     "Mme",
+     1
+    ],
+    [
+     "Berry",
+     1
+    ]
+   ],
+   "frederic": [
+    [
+     "Google",
+     14
+    ],
+    [
+     "Napoleon",
+     10
+    ],
+    [
+     "Louis",
+     6
+    ],
+    [
+     "Paris",
+     6
+    ],
+    [
+     "Sire",
+     6
+    ],
+    [
+     "Alexandre",
+     6
+    ],
+    [
+     "France",
+     4
+    ],
+    [
+     "Miromesnil",
+     4
+    ],
+    [
+     "Paix",
+     4
+    ],
+    [
+     "L'empereur",
+     4
+    ],
+    [
+     "Votre",
+     4
+    ],
+    [
+     "Majeste",
+     4
+    ],
+    [
+     "Jean",
+     2
+    ],
+    [
+     "Jacques",
+     2
+    ],
+    [
+     "Dortous",
+     2
+    ],
+    [
+     "Mairan",
+     2
+    ],
+    [
+     "Beziers",
+     2
+    ],
+    [
+     "Voila",
+     2
+    ],
+    [
+     "Memoires",
+     2
+    ],
+    [
+     "Anglais",
+     2
+    ]
+   ]
+  },
+  "capitals": {
+   "paris": [
+    [
+     "Paris",
+     233
+    ],
+    [
+     "France",
+     129
+    ],
+    [
+     "Roi",
+     80
+    ],
+    [
+     "Die",
+     73
+    ],
+    [
+     "Google",
+     64
+    ],
+    [
+     "Der",
+     56
+    ],
+    [
+     "Louis",
+     54
+    ],
+    [
+     "Jan",
+     51
+    ],
+    [
+     "Perier",
+     51
+    ],
+    [
+     "Thiers",
+     48
+    ],
+    [
+     "Chambre",
+     47
+    ],
+    [
+     "Casimir",
+     46
+    ],
+    [
+     "Frankreich",
+     41
+    ],
+    [
+     "Napoleon",
+     41
+    ],
+    [
+     "Befestigung",
+     32
+    ],
+    [
+     "Ordonnance",
+     30
+    ],
+    [
+     "Wir",
+     29
+    ],
+    [
+     "C'est",
+     29
+    ],
+    [
+     "Chambres",
+     27
+    ],
+    [
+     "Talleyrand",
+     27
+    ]
+   ],
+   "berlin": [
+    [
+     "Die",
+     44
+    ],
+    [
+     "Jan",
+     31
+    ],
+    [
+     "Der",
+     22
+    ],
+    [
+     "Jahre",
+     22
+    ],
+    [
+     "Dec",
+     20
+    ],
+    [
+     "Berlin",
+     15
+    ],
+    [
+     "Preußen",
+     15
+    ],
+    [
+     "Personen",
+     14
+    ],
+    [
+     "Zeit",
+     12
+    ],
+    [
+     "Schweiz",
+     12
+    ],
+    [
+     "Munchen",
+     11
+    ],
+    [
+     "Frankreich",
+     10
+    ],
+    [
+     "Napoleon",
+     10
+    ],
+    [
+     "Leipzig",
+     9
+    ],
+    [
+     "Bahn",
+     9
+    ],
+    [
+     "Deutschland",
+     9
+    ],
+    [
+     "Effecten",
+     9
+    ],
+    [
+     "Rath",
+     9
+    ],
+    [
+     "France",
+     9
+    ],
+    [
+     "Google",
+     9
+    ]
+   ],
+   "france": [
+    [
+     "France",
+     392
+    ],
+    [
+     "Roi",
+     132
+    ],
+    [
+     "Paris",
+     123
+    ],
+    [
+     "Napoleon",
+     113
+    ],
+    [
+     "Louis",
+     113
+    ],
+    [
+     "Chambre",
+     87
+    ],
+    [
+     "C'est",
+     74
+    ],
+    [
+     "Google",
+     70
+    ],
+    [
+     "Talleyrand",
+     58
+    ],
+    [
+     "Etats",
+     55
+    ],
+    [
+     "Chambres",
+     50
+    ],
+    [
+     "Charte",
+     48
+    ],
+    [
+     "Charles",
+     45
+    ],
+    [
+     "Philippe",
+     42
+    ],
+    [
+     "Perier",
+     41
+    ],
+    [
+     "Revolution",
+     40
+    ],
+    [
+     "Alexandre",
+     40
+    ],
+    [
+     "Restauration",
+     38
+    ],
+    [
+     "C'etait",
+     36
+    ],
+    [
+     "J'ai",
+     35
+    ]
+   ],
+   "dresde": [
+    [
+     "Crr",
+     6
+    ],
+    [
+     "Napoleon",
+     4
+    ],
+    [
+     "France",
+     4
+    ],
+    [
+     "Paix",
+     4
+    ],
+    [
+     "Alexandre",
+     3
+    ],
+    [
+     "Vorrath",
+     2
+    ],
+    [
+     "Der",
+     2
+    ],
+    [
+     "Jahre",
+     2
+    ],
+    [
+     "Roi",
+     2
+    ],
+    [
+     "C'etait",
+     2
+    ],
+    [
+     "Louis",
+     2
+    ],
+    [
+     "L'empereur",
+     2
+    ],
+    [
+     "Lous",
+     2
+    ],
+    [
+     "Alle",
+     2
+    ],
+    [
+     "Gwthe",
+     2
+    ],
+    [
+     "Ausdehnung",
+     1
+    ],
+    [
+     "Artikel",
+     1
+    ],
+    [
+     "Die",
+     1
+    ],
+    [
+     "Zuckereinfuhr",
+     1
+    ],
+    [
+     "Anfuhr",
+     1
+    ]
+   ],
+   "londres": [
+    [
+     "France",
+     29
+    ],
+    [
+     "Talleyrand",
+     24
+    ],
+    [
+     "Roi",
+     20
+    ],
+    [
+     "Perier",
+     16
+    ],
+    [
+     "Paris",
+     15
+    ],
+    [
+     "Casimir",
+     15
+    ],
+    [
+     "Londres",
+     14
+    ],
+    [
+     "Louis",
+     10
+    ],
+    [
+     "Chambres",
+     10
+    ],
+    [
+     "Guizot",
+     10
+    ],
+    [
+     "Charles",
+     9
+    ],
+    [
+     "Chateaubriand",
+     9
+    ],
+    [
+     "Chambre",
+     8
+    ],
+    [
+     "Google",
+     8
+    ],
+    [
+     "Villele",
+     7
+    ],
+    [
+     "Montmorency",
+     7
+    ],
+    [
+     "Conference",
+     7
+    ],
+    [
+     "Napoleon",
+     7
+    ],
+    [
+     "Fayette",
+     7
+    ],
+    [
+     "Europe",
+     6
+    ]
+   ],
+   "vienne": [
+    [
+     "France",
+     26
+    ],
+    [
+     "Roi",
+     13
+    ],
+    [
+     "Vienne",
+     13
+    ],
+    [
+     "Google",
+     13
+    ],
+    [
+     "Paris",
+     11
+    ],
+    [
+     "Napoleon",
+     11
+    ],
+    [
+     "Talleyrand",
+     9
+    ],
+    [
+     "Etats",
+     9
+    ],
+    [
+     "Louis",
+     8
+    ],
+    [
+     "Perier",
+     7
+    ],
+    [
+     "Europe",
+     6
+    ],
+    [
+     "Alexandre",
+     6
+    ],
+    [
+     "Sainte",
+     6
+    ],
+    [
+     "Casimir",
+     5
+    ],
+    [
+     "Rome",
+     5
+    ],
+    [
+     "Londres",
+     5
+    ],
+    [
+     "C'est",
+     5
+    ],
+    [
+     "Metternich",
+     4
+    ],
+    [
+     "Revolution",
+     4
+    ],
+    [
+     "Apres",
+     4
+    ]
+   ],
+   "petersbourg": [
+    [
+     "Majeste",
+     14
+    ],
+    [
+     "France",
+     8
+    ],
+    [
+     "Pologne",
+     8
+    ],
+    [
+     "Google",
+     8
+    ],
+    [
+     "Excellence",
+     8
+    ],
+    [
+     "Sire",
+     6
+    ],
+    [
+     "Napoleon",
+     6
+    ],
+    [
+     "Alexandre",
+     6
+    ],
+    [
+     "Louis",
+     4
+    ],
+    [
+     "Chambres",
+     4
+    ],
+    [
+     "Votre",
+     4
+    ],
+    [
+     "Necker",
+     4
+    ],
+    [
+     "Caulain",
+     4
+    ],
+    [
+     "Romanzoff",
+     4
+    ],
+    [
+     "Francais",
+     4
+    ],
+    [
+     "Jean",
+     4
+    ],
+    [
+     "Baptiste",
+     4
+    ],
+    [
+     "Nompere",
+     4
+    ],
+    [
+     "Champagny",
+     4
+    ],
+    [
+     "Loutes",
+     4
+    ]
+   ],
+   "prusse": [
+    [
+     "Napoleon",
+     26
+    ],
+    [
+     "Google",
+     23
+    ],
+    [
+     "France",
+     22
+    ],
+    [
+     "Alexandre",
+     12
+    ],
+    [
+     "Louis",
+     8
+    ],
+    [
+     "Paix",
+     8
+    ],
+    [
+     "Pologne",
+     7
+    ],
+    [
+     "Paris",
+     6
+    ],
+    [
+     "Majeste",
+     6
+    ],
+    [
+     "Russie",
+     5
+    ],
+    [
+     "Madrid",
+     5
+    ],
+    [
+     "Sire",
+     5
+    ],
+    [
+     "L'empereur",
+     5
+    ],
+    [
+     "C'est",
+     4
+    ],
+    [
+     "Francais",
+     4
+    ],
+    [
+     "Talleyrand",
+     4
+    ],
+    [
+     "Chambres",
+     4
+    ],
+    [
+     "Etats",
+     4
+    ],
+    [
+     "Joseph",
+     4
+    ],
+    [
+     "Portugal",
+     4
+    ]
+   ],
+   "autriche": [
+    [
+     "France",
+     31
+    ],
+    [
+     "Napoleon",
+     22
+    ],
+    [
+     "Google",
+     11
+    ],
+    [
+     "Roi",
+     9
+    ],
+    [
+     "Louis",
+     9
+    ],
+    [
+     "Prusse",
+     8
+    ],
+    [
+     "Talleyrand",
+     6
+    ],
+    [
+     "Chambres",
+     6
+    ],
+    [
+     "C'est",
+     6
+    ],
+    [
+     "Paix",
+     6
+    ],
+    [
+     "Majeste",
+     6
+    ],
+    [
+     "Francais",
+     5
+    ],
+    [
+     "Perier",
+     5
+    ],
+    [
+     "Pologne",
+     5
+    ],
+    [
+     "Sainte",
+     5
+    ],
+    [
+     "Ministre",
+     5
+    ],
+    [
+     "Paul",
+     5
+    ],
+    [
+     "Russie",
+     5
+    ],
+    [
+     "Varsovie",
+     5
+    ],
+    [
+     "Madrid",
+     4
+    ]
+   ],
+   "angleterre": [
+    [
+     "France",
+     78
+    ],
+    [
+     "Louis",
+     27
+    ],
+    [
+     "Roi",
+     27
+    ],
+    [
+     "Napoleon",
+     26
+    ],
+    [
+     "Google",
+     25
+    ],
+    [
+     "Paris",
+     24
+    ],
+    [
+     "Talleyrand",
+     23
+    ],
+    [
+     "Etats",
+     21
+    ],
+    [
+     "C'est",
+     20
+    ],
+    [
+     "Francais",
+     14
+    ],
+    [
+     "Charles",
+     14
+    ],
+    [
+     "Guizot",
+     14
+    ],
+    [
+     "Sire",
+     14
+    ],
+    [
+     "Angleterre",
+     13
+    ],
+    [
+     "Alexandre",
+     13
+    ],
+    [
+     "Philippe",
+     12
+    ],
+    [
+     "Londres",
+     12
+    ],
+    [
+     "Votre",
+     11
+    ],
+    [
+     "Majeste",
+     10
+    ],
+    [
+     "Apres",
+     9
+    ]
+   ],
+   "russie": [
+    [
+     "France",
+     29
+    ],
+    [
+     "Napoleon",
+     15
+    ],
+    [
+     "Google",
+     11
+    ],
+    [
+     "Alexandre",
+     9
+    ],
+    [
+     "Sire",
+     9
+    ],
+    [
+     "Majeste",
+     9
+    ],
+    [
+     "Louis",
+     7
+    ],
+    [
+     "Monsieur",
+     7
+    ],
+    [
+     "Piemont",
+     7
+    ],
+    [
+     "Pologne",
+     7
+    ],
+    [
+     "Rhin",
+     7
+    ],
+    [
+     "Paris",
+     6
+    ],
+    [
+     "J'ai",
+     6
+    ],
+    [
+     "Russie",
+     6
+    ],
+    [
+     "Bonaparte",
+     6
+    ],
+    [
+     "Don",
+     6
+    ],
+    [
+     "Asturies",
+     6
+    ],
+    [
+     "Votre",
+     6
+    ],
+    [
+     "Francais",
+     5
+    ],
+    [
+     "C'est",
+     5
+    ]
+   ],
+   "constantinople": [
+    [
+     "Napoleon",
+     3
+    ],
+    [
+     "Saxe",
+     3
+    ],
+    [
+     "Paris",
+     2
+    ],
+    [
+     "Bonaparte",
+     2
+    ],
+    [
+     "Enfin",
+     2
+    ],
+    [
+     "Google",
+     2
+    ],
+    [
+     "Louis",
+     2
+    ],
+    [
+     "Cobenzl",
+     2
+    ],
+    [
+     "L'abbe",
+     1
+    ],
+    [
+     "Harli",
+     1
+    ],
+    [
+     "Suze",
+     1
+    ],
+    [
+     "J'eus",
+     1
+    ],
+    [
+     "Hulot",
+     1
+    ],
+    [
+     "Memoires",
+     1
+    ],
+    [
+     "Stael",
+     1
+    ],
+    [
+     "Bougainville",
+     1
+    ],
+    [
+     "Ale",
+     1
+    ],
+    [
+     "Marengo",
+     1
+    ],
+    [
+     "Chambre",
+     1
+    ],
+    [
+     "Village",
+     1
+    ]
+   ],
+   "saxe": [
+    [
+     "Napoleon",
+     12
+    ],
+    [
+     "Google",
+     11
+    ],
+    [
+     "Paix",
+     7
+    ],
+    [
+     "Labrador",
+     5
+    ],
+    [
+     "Wieland",
+     5
+    ],
+    [
+     "L'empereur",
+     4
+    ],
+    [
+     "Cevallos",
+     3
+    ],
+    [
+     "Alexandre",
+     3
+    ],
+    [
+     "Gwthe",
+     3
+    ],
+    [
+     "L'empe",
+     3
+    ],
+    [
+     "Muller",
+     3
+    ],
+    [
+     "Suard",
+     3
+    ],
+    [
+     "Vienne",
+     2
+    ],
+    [
+     "Rhin",
+     2
+    ],
+    [
+     "Ilalie",
+     2
+    ],
+    [
+     "J'avais",
+     2
+    ],
+    [
+     "Royale",
+     2
+    ],
+    [
+     "Celi",
+     2
+    ],
+    [
+     "Tour",
+     2
+    ],
+    [
+     "Deux",
+     2
+    ]
+   ],
+   "turquie": [
+    [
+     "France",
+     6
+    ],
+    [
+     "Tolstoi",
+     4
+    ],
+    [
+     "L'abbe",
+     3
+    ],
+    [
+     "Google",
+     3
+    ],
+    [
+     "Napoleon",
+     3
+    ],
+    [
+     "Majeste",
+     3
+    ],
+    [
+     "Russie",
+     3
+    ],
+    [
+     "Francois",
+     2
+    ],
+    [
+     "Bonaparte",
+     2
+    ],
+    [
+     "Paul",
+     2
+    ],
+    [
+     "Louis",
+     2
+    ],
+    [
+     "Alexandre",
+     2
+    ],
+    [
+     "Porte",
+     2
+    ],
+    [
+     "L'empereur",
+     2
+    ],
+    [
+     "Constantin",
+     2
+    ],
+    [
+     "Romanzof",
+     2
+    ],
+    [
+     "Wolkonski",
+     2
+    ],
+    [
+     "Oxzarowski",
+     2
+    ],
+    [
+     "Saxe",
+     2
+    ],
+    [
+     "Helene",
+     2
+    ]
+   ]
+  },
+  "other_1841": {
+   "opium": [
+    [
+     "Vorstand",
+     4
+    ],
+    [
+     "Chinesen",
+     3
+    ],
+    [
+     "Hof",
+     3
+    ],
+    [
+     "Einwohner",
+     3
+    ],
+    [
+     "England",
+     3
+    ],
+    [
+     "Zeit",
+     3
+    ],
+    [
+     "Macao",
+     2
+    ],
+    [
+     "Regierung",
+     2
+    ],
+    [
+     "Mißkrrdir",
+     2
+    ],
+    [
+     "Angst",
+     2
+    ],
+    [
+     "Emporung",
+     2
+    ],
+    [
+     "Alle",
+     2
+    ],
+    [
+     "Dschun",
+     2
+    ],
+    [
+     "Fallen",
+     2
+    ],
+    [
+     "Kuste",
+     2
+    ],
+    [
+     "Tschusan",
+     2
+    ],
+    [
+     "Diese",
+     2
+    ],
+    [
+     "Insel",
+     2
+    ],
+    [
+     "Folge",
+     2
+    ],
+    [
+     "Das",
+     2
+    ]
+   ],
+   "zollverein": [
+    [
+     "General",
+     8
+    ],
+    [
+     "Schweiz",
+     6
+    ],
+    [
+     "Der",
+     4
+    ],
+    [
+     "Stamme",
+     4
+    ],
+    [
+     "Zollverein",
+     3
+    ],
+    [
+     "Interessen",
+     3
+    ],
+    [
+     "Stadt",
+     3
+    ],
+    [
+     "Zur",
+     3
+    ],
+    [
+     "Hand",
+     2
+    ],
+    [
+     "Handel",
+     2
+    ],
+    [
+     "Frankreich",
+     2
+    ],
+    [
+     "Drittel",
+     2
+    ],
+    [
+     "Wenn",
+     2
+    ],
+    [
+     "Holland",
+     2
+    ],
+    [
+     "London",
+     2
+    ],
+    [
+     "Interesse",
+     2
+    ],
+    [
+     "Handels",
+     2
+    ],
+    [
+     "Zuckerfrage",
+     2
+    ],
+    [
+     "Ucberfall",
+     2
+    ],
+    [
+     "Werke",
+     2
+    ]
+   ],
+   "douane": [
+    [
+     "Ordonnance",
+     4
+    ],
+    [
+     "Conservatoire",
+     1
+    ],
+    [
+     "Poissy",
+     1
+    ],
+    [
+     "Gros",
+     1
+    ],
+    [
+     "Caillou",
+     1
+    ],
+    [
+     "Septembre",
+     1
+    ],
+    [
+     "Novembre",
+     1
+    ]
+   ],
+   "polonais": [
+    [
+     "Pologne",
+     10
+    ],
+    [
+     "France",
+     9
+    ],
+    [
+     "Paris",
+     7
+    ],
+    [
+     "Casimir",
+     6
+    ],
+    [
+     "Perier",
+     6
+    ],
+    [
+     "Mortemart",
+     5
+    ],
+    [
+     "Varsovie",
+     4
+    ],
+    [
+     "Europe",
+     3
+    ],
+    [
+     "Nouvion",
+     3
+    ],
+    [
+     "Chambres",
+     3
+    ],
+    [
+     "Amis",
+     2
+    ],
+    [
+     "Societe",
+     2
+    ],
+    [
+     "Mon",
+     2
+    ],
+    [
+     "Visite",
+     2
+    ],
+    [
+     "Dieu",
+     2
+    ],
+    [
+     "Mort",
+     2
+    ],
+    [
+     "Cuvier",
+     2
+    ],
+    [
+     "Maladie",
+     2
+    ],
+    [
+     "Vienne",
+     2
+    ],
+    [
+     "C'etait",
+     2
+    ]
+   ],
+   "pologne": [
+    [
+     "Pologne",
+     44
+    ],
+    [
+     "France",
+     22
+    ],
+    [
+     "C'est",
+     10
+    ],
+    [
+     "Paris",
+     8
+    ],
+    [
+     "Napoleon",
+     8
+    ],
+    [
+     "Louis",
+     7
+    ],
+    [
+     "Philippe",
+     7
+    ],
+    [
+     "Mortemart",
+     7
+    ],
+    [
+     "Etats",
+     6
+    ],
+    [
+     "Polonais",
+     6
+    ],
+    [
+     "Varsovie",
+     6
+    ],
+    [
+     "Russie",
+     5
+    ],
+    [
+     "Roi",
+     5
+    ],
+    [
+     "Perier",
+     5
+    ],
+    [
+     "Francais",
+     5
+    ],
+    [
+     "Saintete",
+     5
+    ],
+    [
+     "Casimir",
+     4
+    ],
+    [
+     "Trois",
+     4
+    ],
+    [
+     "Asturies",
+     4
+    ],
+    [
+     "Chlopicki",
+     4
+    ]
+   ]
+  }
+ },
+ "topic_vol": {
+  "levant_mehemet": {
+   "allgemeine-zeitung-augsburg-1841-01-12.txt": 21,
+   "allgemeine-zeitung-augsburg-1841-01-13.txt": 4,
+   "allgemeine-zeitung-augsburg-1841-01-14.txt": 10,
+   "allgemeine-zeitung-augsburg-1841-01-16.txt": 3,
+   "allgemeine-zeitung-augsburg-1841-01-17.txt": 12,
+   "allgemeine-zeitung-augsburg-1841-01-19.txt": 6,
+   "allgemeine-zeitung-augsburg-1841-01-20.txt": 13,
+   "allgemeine-zeitung-augsburg-1841-01-21.txt": 10,
+   "allgemeine-zeitung-augsburg-1841-01-22.txt": 9,
+   "allgemeine-zeitung-augsburg-1841-01-23.txt": 21,
+   "allgemeine-zeitung-augsburg-1841-01-24.txt": 17,
+   "allgemeine-zeitung-augsburg-1841-01-25.txt": 19,
+   "guizot-memoires-t1-gutenberg.txt": 16,
+   "guizot-memoires-t2-gutenberg.txt": 7,
+   "guizot-memoires-t3-gutenberg.txt": 6,
+   "talleyrand-memoires-v1.txt": 72
+  },
+  "straits": {
+   "allgemeine-zeitung-augsburg-1841-01-12.txt": 1,
+   "allgemeine-zeitung-augsburg-1841-01-13.txt": 2,
+   "allgemeine-zeitung-augsburg-1841-01-14.txt": 1,
+   "allgemeine-zeitung-augsburg-1841-01-19.txt": 1,
+   "allgemeine-zeitung-augsburg-1841-01-20.txt": 3,
+   "allgemeine-zeitung-augsburg-1841-01-21.txt": 3,
+   "allgemeine-zeitung-augsburg-1841-01-22.txt": 6,
+   "allgemeine-zeitung-augsburg-1841-01-23.txt": 1,
+   "allgemeine-zeitung-augsburg-1841-01-25.txt": 3,
+   "guizot-memoires-t1-gutenberg.txt": 31,
+   "guizot-memoires-t2-gutenberg.txt": 42,
+   "guizot-memoires-t3-gutenberg.txt": 52,
+   "talleyrand-memoires-v1.txt": 277
+  },
+  "powers_people": {
+   "allgemeine-zeitung-augsburg-1841-01-12.txt": 5,
+   "allgemeine-zeitung-augsburg-1841-01-13.txt": 12,
+   "allgemeine-zeitung-augsburg-1841-01-14.txt": 3,
+   "allgemeine-zeitung-augsburg-1841-01-15.txt": 7,
+   "allgemeine-zeitung-augsburg-1841-01-16.txt": 11,
+   "allgemeine-zeitung-augsburg-1841-01-17.txt": 9,
+   "allgemeine-zeitung-augsburg-1841-01-18.txt": 11,
+   "allgemeine-zeitung-augsburg-1841-01-19.txt": 15,
+   "allgemeine-zeitung-augsburg-1841-01-20.txt": 11,
+   "allgemeine-zeitung-augsburg-1841-01-21.txt": 12,
+   "allgemeine-zeitung-augsburg-1841-01-22.txt": 16,
+   "allgemeine-zeitung-augsburg-1841-01-23.txt": 14,
+   "allgemeine-zeitung-augsburg-1841-01-24.txt": 4,
+   "allgemeine-zeitung-augsburg-1841-01-25.txt": 5,
+   "guizot-memoires-t1-gutenberg.txt": 45,
+   "guizot-memoires-t2-gutenberg.txt": 147,
+   "guizot-memoires-t3-gutenberg.txt": 109,
+   "talleyrand-memoires-v1.txt": 32
+  },
+  "capitals": {
+   "allgemeine-zeitung-augsburg-1841-01-12.txt": 18,
+   "allgemeine-zeitung-augsburg-1841-01-13.txt": 25,
+   "allgemeine-zeitung-augsburg-1841-01-14.txt": 16,
+   "allgemeine-zeitung-augsburg-1841-01-15.txt": 19,
+   "allgemeine-zeitung-augsburg-1841-01-16.txt": 13,
+   "allgemeine-zeitung-augsburg-1841-01-17.txt": 13,
+   "allgemeine-zeitung-augsburg-1841-01-18.txt": 18,
+   "allgemeine-zeitung-augsburg-1841-01-19.txt": 32,
+   "allgemeine-zeitung-augsburg-1841-01-20.txt": 43,
+   "allgemeine-zeitung-augsburg-1841-01-21.txt": 33,
+   "allgemeine-zeitung-augsburg-1841-01-22.txt": 33,
+   "allgemeine-zeitung-augsburg-1841-01-23.txt": 17,
+   "allgemeine-zeitung-augsburg-1841-01-24.txt": 23,
+   "allgemeine-zeitung-augsburg-1841-01-25.txt": 10,
+   "guizot-memoires-t1-gutenberg.txt": 474,
+   "guizot-memoires-t2-gutenberg.txt": 631,
+   "guizot-memoires-t3-gutenberg.txt": 346,
+   "talleyrand-memoires-v1.txt": 1010
+  },
+  "other_1841": {
+   "allgemeine-zeitung-augsburg-1841-01-12.txt": 2,
+   "allgemeine-zeitung-augsburg-1841-01-14.txt": 4,
+   "allgemeine-zeitung-augsburg-1841-01-16.txt": 2,
+   "allgemeine-zeitung-augsburg-1841-01-17.txt": 4,
+   "allgemeine-zeitung-augsburg-1841-01-18.txt": 3,
+   "allgemeine-zeitung-augsburg-1841-01-23.txt": 4,
+   "guizot-memoires-t1-gutenberg.txt": 1,
+   "guizot-memoires-t2-gutenberg.txt": 69,
+   "guizot-memoires-t3-gutenberg.txt": 3,
+   "talleyrand-memoires-v1.txt": 16
+  }
+ },
+ "words_by_vol": {
+  "allgemeine-zeitung-augsburg-1841-01-12.txt": {
+   "der": 538,
+   "die": 500,
+   "und": 427,
+   "den": 185,
+   "von": 175,
+   "das": 122,
+   "dem": 117,
+   "sich": 117,
+   "mit": 116,
+   "eine": 112,
+   "auf": 90,
+   "ein": 87,
+   "ist": 86,
+   "nicht": 83,
+   "daß": 71,
+   "sie": 68,
+   "als": 65,
+   "nach": 65,
+   "man": 61,
+   "bei": 58,
+   "durch": 53,
+   "auch": 53,
+   "für": 49,
+   "wie": 48,
+   "aus": 46,
+   "zur": 45,
+   "über": 42,
+   "einer": 42,
+   "wir": 41,
+   "welche": 41,
+   "werden": 40,
+   "zum": 40,
+   "aber": 40,
+   "wird": 40,
+   "eines": 36,
+   "hat": 36,
+   "noch": 36,
+   "mir": 34,
+   "wenn": 33,
+   "unter": 33,
+   "war": 32,
+   "oder": 31,
+   "vor": 31,
+   "ihm": 30,
+   "einen": 28,
+   "jan": 27,
+   "bis": 27,
+   "selbst": 27,
+   "sind": 27,
+   "uns": 26,
+   "einem": 26,
+   "seine": 26,
+   "nur": 24,
+   "dieser": 24,
+   "hier": 24,
+   "vom": 23,
+   "seiner": 22,
+   "haben": 22,
+   "gegen": 21,
+   "zwei": 21,
+   "sehr": 20,
+   "eben": 20,
+   "wurde": 20,
+   "mehemed": 19,
+   "diese": 19,
+   "zeit": 19,
+   "alle": 19,
+   "bsb": 18,
+   "würde": 18,
+   "ali": 17,
+   "mehr": 17,
+   "ver": 17,
+   "nun": 17,
+   "diesem": 16,
+   "habe": 16,
+   "worden": 16,
+   "hatte": 16,
+   "schon": 16,
+   "ich": 16,
+   "wäre": 15,
+   "soll": 15,
+   "ohne": 15,
+   "kann": 15,
+   "ihrer": 15,
+   "dec": 14,
+   "letzten": 14,
+   "macht": 14,
+   "jeder": 14,
+   "paris": 14,
+   "seit": 14,
+   "was": 14,
+   "seyn": 13,
+   "ihn": 13,
+   "sein": 13,
+   "dann": 13,
+   "welcher": 13,
+   "wurden": 13,
+   "gen": 12,
+   "pforte": 12,
+   "deutschen": 12,
+   "andern": 12,
+   "möglich": 12,
+   "mann": 12,
+   "personen": 12,
+   "allen": 12,
+   "sondern": 12,
+   "januar": 11,
+   "frankreich": 11,
+   "ihr": 11,
+   "doch": 11,
+   "jetzt": 11,
+   "dieß": 11,
+   "wieder": 11,
+   "regierung": 11,
+   "bereits": 11,
+   "kein": 11,
+   "tage": 11,
+   "dieses": 11,
+   "drei": 11,
+   "ward": 11,
+   "tschusan": 11,
+   "bell": 11,
+   "neue": 10,
+   "london": 10,
+   "ihre": 10,
+   "jahre": 10,
+   "zwischen": 10,
+   "dessen": 10,
+   "neuen": 10,
+   "dort": 10,
+   "viel": 10,
+   "heute": 10,
+   "zugleich": 10,
+   "ersten": 10,
+   "denen": 10,
+   "folge": 10,
+   "erplosion": 10,
+   "seinen": 10,
+   "geschichte": 10,
+   "seines": 9,
+   "pascha": 9,
+   "rußland": 9,
+   "machte": 9,
+   "könnte": 9,
+   "ganz": 9,
+   "denn": 9,
+   "ihrem": 9,
+   "indem": 9,
+   "genommen": 9,
+   "sechs": 9,
+   "immer": 9,
+   "tagen": 9,
+   "ganzen": 9,
+   "ging": 9,
+   "hätten": 9,
+   "ganze": 9,
+   "dampfbooten": 9,
+   "scheiterten": 9,
+   "jahr": 9,
+   "wilken": 9,
+   "jesu": 9,
+   "verfassung": 8,
+   "deutschland": 8,
+   "sehen": 8,
+   "konnte": 8,
+   "recht": 8,
+   "allein": 8,
+   "wohl": 8,
+   "verfasser": 8,
+   "waren": 8,
+   "werde": 8,
+   "nachdem": 8,
+   "aller": 8,
+   "lassen": 8,
+   "liebe": 8,
+   "seinem": 8,
+   "sey": 8,
+   "statt": 8,
+   "alles": 8,
+   "weise": 8,
+   "preis": 8,
+   "bloß": 8,
+   "bald": 8,
+   "flotte": 7,
+   "england": 7,
+   "will": 7,
+   "hätte": 7,
+   "vielleicht": 7,
+   "weil": 7,
+   "art": 7,
+   "könig": 7,
+   "sinne": 7,
+   "truppen": 7,
+   "gab": 7,
+   "stadt": 7,
+   "erhalten": 7,
+   "großen": 7,
+   "andere": 7,
+   "mehrere": 7,
+   "ihnen": 7
+  },
+  "allgemeine-zeitung-augsburg-1841-01-13.txt": {
+   "der": 582,
+   "die": 536,
+   "und": 483,
+   "von": 208,
+   "den": 207,
+   "ist": 127,
+   "sich": 119,
+   "das": 118,
+   "auf": 117,
+   "dem": 110,
+   "daß": 102,
+   "ein": 98,
+   "als": 90,
+   "eine": 87,
+   "mit": 80,
+   "nicht": 75,
+   "sie": 73,
+   "durch": 68,
+   "wie": 65,
+   "aus": 64,
+   "man": 63,
+   "auch": 62,
+   "für": 56,
+   "wird": 56,
+   "werden": 54,
+   "hat": 49,
+   "nach": 48,
+   "einer": 48,
+   "jan": 47,
+   "sind": 47,
+   "über": 46,
+   "welche": 46,
+   "bei": 46,
+   "aber": 42,
+   "noch": 41,
+   "bis": 41,
+   "oder": 40,
+   "vom": 36,
+   "diese": 36,
+   "mir": 35,
+   "zur": 35,
+   "unter": 34,
+   "alle": 33,
+   "wir": 32,
+   "vor": 31,
+   "nur": 31,
+   "seine": 30,
+   "dieses": 30,
+   "gegen": 30,
+   "dieser": 30,
+   "war": 29,
+   "ihre": 28,
+   "einen": 28,
+   "haben": 28,
+   "zum": 27,
+   "einem": 24,
+   "worden": 24,
+   "wenn": 23,
+   "hier": 23,
+   "schon": 23,
+   "proc": 23,
+   "sehr": 22,
+   "ich": 22,
+   "seiner": 21,
+   "jahr": 21,
+   "mehr": 20,
+   "neue": 19,
+   "wurde": 19,
+   "jahre": 19,
+   "bsb": 18,
+   "ihm": 18,
+   "wieder": 18,
+   "ihrer": 18,
+   "zeit": 18,
+   "was": 18,
+   "ihr": 18,
+   "wurden": 17,
+   "seyn": 17,
+   "ohne": 16,
+   "würde": 16,
+   "eben": 16,
+   "paris": 15,
+   "ganz": 15,
+   "hatte": 15,
+   "waren": 15,
+   "habe": 15,
+   "selbst": 15,
+   "eines": 14,
+   "bell": 14,
+   "dec": 14,
+   "soll": 14,
+   "dieß": 14,
+   "seinen": 14,
+   "zwischen": 14,
+   "großen": 14,
+   "ihren": 14,
+   "jetzt": 14,
+   "personen": 14,
+   "regierung": 13,
+   "andere": 13,
+   "scheint": 13,
+   "machen": 13,
+   "doch": 13,
+   "können": 13,
+   "ver": 13,
+   "deren": 13,
+   "dessen": 13,
+   "diesen": 13,
+   "neuen": 13,
+   "zwei": 13,
+   "januar": 12,
+   "kann": 12,
+   "einige": 12,
+   "sey": 12,
+   "derselben": 12,
+   "diesem": 12,
+   "welcher": 12,
+   "seinem": 12,
+   "bekannt": 12,
+   "bereits": 12,
+   "wohl": 12,
+   "briefe": 11,
+   "erhalten": 11,
+   "große": 11,
+   "nun": 11,
+   "früher": 11,
+   "viele": 11,
+   "kein": 11,
+   "ward": 11,
+   "allen": 11,
+   "münchen": 10,
+   "mitglieder": 10,
+   "wäre": 10,
+   "mehrere": 10,
+   "denn": 10,
+   "seit": 10,
+   "lassen": 10,
+   "keine": 10,
+   "sondern": 10,
+   "uns": 10,
+   "ten": 10,
+   "nachrichten": 10,
+   "schreiben": 10,
+   "zeitung": 9,
+   "augsburg": 9,
+   "jahres": 9,
+   "frankreich": 9,
+   "sehen": 9,
+   "gestern": 9,
+   "wollen": 9,
+   "ende": 9,
+   "ans": 9,
+   "letzten": 9,
+   "england": 9,
+   "admiral": 9,
+   "viel": 9,
+   "ganzen": 9,
+   "ganze": 9,
+   "sollen": 9,
+   "weise": 9,
+   "beiden": 9,
+   "seite": 9,
+   "baron": 9,
+   "berlin": 9,
+   "bruderschaft": 9,
+   "besni": 9,
+   "december": 9,
+   "pforte": 8,
+   "drei": 8,
+   "übrigen": 8,
+   "dadurch": 8,
+   "gen": 8,
+   "london": 8,
+   "andern": 8,
+   "monat": 8,
+   "stelle": 8,
+   "namentlich": 8,
+   "commodore": 8,
+   "gefunden": 8,
+   "land": 8,
+   "gleich": 8,
+   "heute": 8,
+   "sprache": 8,
+   "indem": 8,
+   "guizot": 8,
+   "leipzig": 7,
+   "immer": 7,
+   "mag": 7,
+   "muß": 7,
+   "welchem": 7,
+   "landes": 7,
+   "darf": 7,
+   "geben": 7,
+   "theil": 7,
+   "erst": 7,
+   "alles": 7,
+   "ihnen": 7,
+   "allein": 7,
+   "zwar": 7,
+   "hatten": 7
+  },
+  "allgemeine-zeitung-augsburg-1841-01-14.txt": {
+   "der": 550,
+   "die": 535,
+   "und": 472,
+   "den": 220,
+   "von": 196,
+   "dem": 159,
+   "sich": 131,
+   "das": 122,
+   "mit": 121,
+   "nicht": 114,
+   "ist": 112,
+   "auf": 103,
+   "eine": 94,
+   "ein": 92,
+   "daß": 91,
+   "als": 88,
+   "sie": 82,
+   "nach": 76,
+   "aus": 67,
+   "war": 67,
+   "durch": 66,
+   "man": 64,
+   "noch": 63,
+   "hat": 63,
+   "bei": 62,
+   "wie": 61,
+   "auch": 59,
+   "für": 52,
+   "aber": 51,
+   "werden": 51,
+   "nur": 50,
+   "welche": 44,
+   "wird": 43,
+   "einer": 42,
+   "haben": 41,
+   "zur": 41,
+   "über": 40,
+   "unter": 40,
+   "sind": 39,
+   "wir": 38,
+   "einen": 36,
+   "hatte": 35,
+   "zum": 35,
+   "einem": 33,
+   "oder": 33,
+   "bis": 33,
+   "alle": 33,
+   "gegen": 33,
+   "seine": 32,
+   "vor": 31,
+   "jan": 31,
+   "ihm": 31,
+   "dieser": 29,
+   "ihn": 29,
+   "hier": 29,
+   "uns": 29,
+   "schweiz": 28,
+   "ihre": 27,
+   "jetzt": 27,
+   "deutschen": 27,
+   "vom": 26,
+   "zeit": 25,
+   "sehr": 24,
+   "wieder": 24,
+   "seiner": 23,
+   "wenn": 23,
+   "selbst": 23,
+   "sein": 23,
+   "ich": 22,
+   "werde": 22,
+   "waren": 21,
+   "mehr": 21,
+   "schon": 20,
+   "dieses": 20,
+   "diese": 20,
+   "eines": 20,
+   "worden": 19,
+   "mir": 19,
+   "bsb": 18,
+   "ihrer": 18,
+   "doch": 18,
+   "dieß": 18,
+   "seit": 18,
+   "was": 17,
+   "jahr": 17,
+   "deutschland": 16,
+   "sondern": 16,
+   "viel": 16,
+   "allein": 16,
+   "seinen": 16,
+   "erst": 16,
+   "ohne": 16,
+   "wurde": 16,
+   "ihr": 15,
+   "kann": 15,
+   "eben": 15,
+   "welcher": 15,
+   "andern": 15,
+   "proc": 15,
+   "hatten": 14,
+   "alten": 14,
+   "ihnen": 14,
+   "ver": 14,
+   "bald": 14,
+   "reich": 13,
+   "diesem": 13,
+   "seinem": 13,
+   "soll": 13,
+   "seyn": 13,
+   "regierung": 13,
+   "ihren": 13,
+   "wenig": 13,
+   "denn": 12,
+   "macht": 12,
+   "würde": 12,
+   "zwar": 12,
+   "alles": 12,
+   "einige": 12,
+   "erhalten": 12,
+   "ser": 12,
+   "preis": 12,
+   "rath": 12,
+   "denen": 12,
+   "allen": 12,
+   "wohl": 12,
+   "sprache": 12,
+   "geschichte": 12,
+   "schweizer": 12,
+   "frankreich": 11,
+   "neue": 11,
+   "weisse": 11,
+   "drei": 11,
+   "nichts": 11,
+   "bildung": 11,
+   "wäre": 11,
+   "unserer": 11,
+   "ten": 11,
+   "können": 11,
+   "weil": 11,
+   "ganzen": 11,
+   "große": 11,
+   "diesen": 11,
+   "mann": 11,
+   "besonders": 11,
+   "wurden": 11,
+   "finden": 11,
+   "damals": 10,
+   "ersten": 10,
+   "gewesen": 10,
+   "gen": 10,
+   "dessen": 10,
+   "seite": 10,
+   "steht": 10,
+   "freunde": 10,
+   "bloß": 10,
+   "andere": 10,
+   "theil": 10,
+   "nnd": 10,
+   "habe": 10,
+   "machen": 10,
+   "jahren": 10,
+   "aller": 10,
+   "dann": 10,
+   "nun": 10,
+   "immer": 10,
+   "jahre": 10,
+   "kaiser": 10,
+   "ans": 9,
+   "weder": 9,
+   "paris": 9,
+   "namen": 9,
+   "keine": 9,
+   "dort": 9,
+   "wollen": 9,
+   "zwischen": 9,
+   "ganz": 9,
+   "seines": 9,
+   "tod": 8,
+   "bereits": 8,
+   "zwei": 8,
+   "gegeben": 8,
+   "nachrichten": 8,
+   "art": 8,
+   "grund": 8,
+   "etwas": 8,
+   "stand": 8,
+   "england": 8,
+   "gemacht": 8,
+   "letzten": 8,
+   "konnte": 8,
+   "verhältnisse": 8,
+   "überhaupt": 8,
+   "deutsche": 8,
+   "heute": 8,
+   "anzahl": 8,
+   "sache": 8,
+   "oesterreich": 8,
+   "ward": 8,
+   "dir": 8,
+   "reg": 8
+  },
+  "allgemeine-zeitung-augsburg-1841-01-15.txt": {
+   "die": 591,
+   "der": 575,
+   "und": 431,
+   "den": 235,
+   "von": 204,
+   "das": 165,
+   "ist": 132,
+   "sich": 127,
+   "dem": 126,
+   "daß": 101,
+   "mit": 99,
+   "sie": 91,
+   "auf": 89,
+   "nicht": 85,
+   "für": 83,
+   "eine": 83,
+   "ein": 81,
+   "als": 70,
+   "hat": 68,
+   "sind": 57,
+   "nach": 56,
+   "aber": 53,
+   "man": 53,
+   "nur": 53,
+   "wird": 51,
+   "bei": 48,
+   "werden": 48,
+   "wie": 47,
+   "einer": 47,
+   "durch": 47,
+   "noch": 47,
+   "gegen": 46,
+   "aus": 45,
+   "dieser": 43,
+   "welche": 42,
+   "diese": 41,
+   "war": 41,
+   "auch": 41,
+   "über": 40,
+   "einen": 40,
+   "haben": 39,
+   "zur": 38,
+   "unter": 37,
+   "ich": 37,
+   "oder": 36,
+   "mir": 35,
+   "jan": 32,
+   "vor": 32,
+   "wir": 31,
+   "seine": 30,
+   "schweiz": 30,
+   "mehr": 29,
+   "bis": 28,
+   "wenn": 27,
+   "alle": 26,
+   "jetzt": 25,
+   "zum": 25,
+   "einem": 24,
+   "wurde": 24,
+   "hier": 24,
+   "ihm": 22,
+   "nun": 22,
+   "ihre": 21,
+   "eben": 21,
+   "uhr": 21,
+   "frankreich": 20,
+   "seiner": 20,
+   "ihr": 20,
+   "keine": 20,
+   "vom": 19,
+   "selbst": 19,
+   "kann": 19,
+   "regierung": 19,
+   "bsb": 18,
+   "habe": 18,
+   "eines": 18,
+   "doch": 18,
+   "was": 18,
+   "neuen": 17,
+   "zeit": 17,
+   "sehr": 17,
+   "uns": 17,
+   "worden": 17,
+   "seit": 17,
+   "land": 16,
+   "diesem": 16,
+   "denn": 16,
+   "schon": 16,
+   "ganz": 16,
+   "viel": 16,
+   "ihnen": 16,
+   "allen": 15,
+   "ohne": 15,
+   "machen": 15,
+   "kein": 15,
+   "sein": 15,
+   "ihrer": 15,
+   "ihren": 15,
+   "hatten": 15,
+   "theil": 15,
+   "deutschen": 15,
+   "new": 15,
+   "deutschland": 14,
+   "großen": 14,
+   "ihn": 14,
+   "waren": 14,
+   "ans": 14,
+   "wieder": 14,
+   "dessen": 14,
+   "werde": 14,
+   "dieses": 14,
+   "hatte": 14,
+   "hrn": 14,
+   "jahr": 13,
+   "dann": 13,
+   "letzten": 13,
+   "andern": 13,
+   "ver": 13,
+   "welcher": 13,
+   "bereits": 13,
+   "tagen": 13,
+   "schweizer": 13,
+   "journal": 12,
+   "paris": 12,
+   "zwischen": 12,
+   "können": 12,
+   "besonders": 12,
+   "gehen": 12,
+   "namen": 12,
+   "wohl": 12,
+   "europa": 12,
+   "vork": 12,
+   "jahre": 11,
+   "seinen": 11,
+   "sey": 11,
+   "weit": 11,
+   "dieß": 11,
+   "zahl": 11,
+   "macht": 11,
+   "wäre": 11,
+   "allein": 11,
+   "zwei": 10,
+   "bald": 10,
+   "volk": 10,
+   "während": 10,
+   "nehmen": 10,
+   "gleich": 10,
+   "aegypten": 10,
+   "tage": 10,
+   "würde": 10,
+   "einige": 10,
+   "gewesen": 10,
+   "deutsche": 10,
+   "zeitung": 9,
+   "mann": 9,
+   "staaten": 9,
+   "immer": 9,
+   "gut": 9,
+   "erst": 9,
+   "mich": 9,
+   "sagt": 9,
+   "weil": 9,
+   "zwar": 9,
+   "darf": 9,
+   "wurden": 9,
+   "ihrem": 9,
+   "stelle": 9,
+   "statt": 9,
+   "recht": 9,
+   "hätte": 9,
+   "seyn": 9,
+   "dort": 9,
+   "stadt": 9,
+   "große": 9,
+   "aller": 9,
+   "heute": 9,
+   "bischofs": 9,
+   "mörder": 9,
+   "kirche": 9,
+   "lage": 8,
+   "indem": 8,
+   "o'connell": 8,
+   "irland": 8,
+   "mein": 8,
+   "nen": 8,
+   "ins": 8,
+   "wegen": 8,
+   "sondern": 8,
+   "dcs": 8,
+   "indien": 8,
+   "neue": 8,
+   "dec": 8,
+   "welches": 8,
+   "stellen": 8,
+   "viele": 8,
+   "daher": 8,
+   "seite": 8,
+   "ent": 8,
+   "gebracht": 8,
+   "mehreren": 8
+  },
+  "allgemeine-zeitung-augsburg-1841-01-16.txt": {
+   "die": 640,
+   "der": 546,
+   "und": 440,
+   "von": 232,
+   "den": 203,
+   "ist": 143,
+   "das": 126,
+   "dem": 123,
+   "daß": 117,
+   "nicht": 116,
+   "mit": 104,
+   "sich": 103,
+   "auf": 90,
+   "ein": 82,
+   "sie": 81,
+   "als": 73,
+   "eine": 73,
+   "wie": 68,
+   "für": 68,
+   "man": 66,
+   "aber": 66,
+   "werden": 65,
+   "hat": 64,
+   "noch": 62,
+   "aus": 57,
+   "nach": 57,
+   "wird": 57,
+   "haben": 50,
+   "auch": 50,
+   "nur": 50,
+   "sind": 49,
+   "bei": 44,
+   "durch": 44,
+   "unter": 42,
+   "zur": 41,
+   "oder": 40,
+   "über": 38,
+   "welche": 38,
+   "mehr": 35,
+   "diese": 33,
+   "einen": 31,
+   "war": 31,
+   "bis": 30,
+   "worden": 30,
+   "mir": 30,
+   "seine": 29,
+   "was": 29,
+   "jan": 29,
+   "ich": 29,
+   "wenn": 28,
+   "alle": 27,
+   "zum": 27,
+   "gegen": 27,
+   "einer": 27,
+   "regierung": 25,
+   "einem": 24,
+   "dieses": 24,
+   "hier": 24,
+   "ihre": 24,
+   "hatte": 23,
+   "jetzt": 23,
+   "sehr": 23,
+   "schweiz": 22,
+   "dieser": 22,
+   "vom": 21,
+   "wir": 21,
+   "zeit": 21,
+   "selbst": 21,
+   "immer": 20,
+   "gen": 20,
+   "ihnen": 20,
+   "kann": 20,
+   "ihrer": 19,
+   "denn": 19,
+   "bsb": 18,
+   "seit": 18,
+   "dann": 18,
+   "ihm": 18,
+   "viel": 18,
+   "wurde": 18,
+   "vor": 17,
+   "waren": 17,
+   "stadt": 17,
+   "nun": 17,
+   "ohne": 17,
+   "bereits": 17,
+   "wohl": 17,
+   "ver": 17,
+   "diesem": 16,
+   "eines": 16,
+   "ganz": 16,
+   "soll": 15,
+   "keine": 15,
+   "habe": 15,
+   "muß": 15,
+   "ganze": 15,
+   "engländer": 15,
+   "allen": 14,
+   "weil": 14,
+   "machen": 14,
+   "neue": 14,
+   "schon": 14,
+   "andern": 13,
+   "nichts": 13,
+   "zwar": 13,
+   "ihr": 13,
+   "ten": 13,
+   "einige": 13,
+   "deutschen": 13,
+   "bern": 13,
+   "octroi": 12,
+   "nachrichten": 12,
+   "wieder": 12,
+   "minister": 12,
+   "werde": 12,
+   "heute": 12,
+   "lassen": 12,
+   "ihren": 12,
+   "alles": 12,
+   "können": 12,
+   "zürich": 12,
+   "wurden": 12,
+   "doch": 12,
+   "dessen": 12,
+   "staaten": 12,
+   "landes": 11,
+   "mehrere": 11,
+   "nnd": 11,
+   "wäre": 11,
+   "allein": 11,
+   "andere": 11,
+   "welchen": 11,
+   "kommen": 11,
+   "zwischen": 11,
+   "truppen": 11,
+   "lange": 11,
+   "mann": 11,
+   "paris": 10,
+   "müssen": 10,
+   "scheint": 10,
+   "gemacht": 10,
+   "darüber": 10,
+   "sache": 10,
+   "sen": 10,
+   "würde": 10,
+   "besser": 10,
+   "diesen": 10,
+   "whigs": 10,
+   "tories": 10,
+   "theil": 10,
+   "fast": 10,
+   "interessen": 10,
+   "dcr": 10,
+   "zwei": 10,
+   "sollen": 10,
+   "damit": 10,
+   "land": 9,
+   "afghanistan": 9,
+   "sey": 9,
+   "würden": 9,
+   "während": 9,
+   "sowohl": 9,
+   "große": 9,
+   "kein": 9,
+   "lord": 9,
+   "daher": 9,
+   "eben": 9,
+   "general": 9,
+   "sondern": 9,
+   "seiner": 9,
+   "neuen": 9,
+   "steht": 9,
+   "aller": 9,
+   "ministerium": 8,
+   "letzten": 8,
+   "könig": 8,
+   "sein": 8,
+   "uns": 8,
+   "statt": 8,
+   "sten": 8,
+   "welcher": 8,
+   "erfolg": 8,
+   "dost": 8,
+   "nen": 8,
+   "ihn": 8,
+   "keinen": 8,
+   "befestigung": 8,
+   "wenig": 8,
+   "jahre": 8,
+   "neu": 8,
+   "gleich": 8,
+   "basel": 8,
+   "stehen": 8,
+   "bevölkerung": 8,
+   "beide": 8,
+   "wien": 8,
+   "mich": 8,
+   "einigen": 8,
+   "januar": 7,
+   "frankreich": 7
+  },
+  "allgemeine-zeitung-augsburg-1841-01-17.txt": {
+   "der": 559,
+   "die": 501,
+   "und": 491,
+   "den": 220,
+   "von": 189,
+   "ist": 136,
+   "dem": 121,
+   "sich": 120,
+   "das": 119,
+   "daß": 119,
+   "nicht": 111,
+   "ein": 108,
+   "mit": 103,
+   "auf": 103,
+   "sie": 101,
+   "eine": 91,
+   "für": 82,
+   "man": 81,
+   "hat": 77,
+   "auch": 70,
+   "als": 69,
+   "wie": 65,
+   "nach": 61,
+   "bei": 61,
+   "noch": 58,
+   "wird": 57,
+   "aber": 57,
+   "über": 51,
+   "durch": 50,
+   "nur": 49,
+   "aus": 47,
+   "haben": 47,
+   "einen": 45,
+   "sind": 44,
+   "zum": 40,
+   "einer": 39,
+   "jan": 38,
+   "einem": 38,
+   "oder": 37,
+   "werden": 35,
+   "wir": 34,
+   "gegen": 34,
+   "alle": 33,
+   "war": 32,
+   "seine": 32,
+   "hier": 30,
+   "vor": 29,
+   "welche": 28,
+   "vom": 27,
+   "zur": 26,
+   "denn": 26,
+   "ihm": 26,
+   "schweiz": 25,
+   "mir": 24,
+   "ich": 24,
+   "seiner": 23,
+   "hrn": 23,
+   "dieses": 23,
+   "jetzt": 23,
+   "diese": 23,
+   "wenn": 22,
+   "ganz": 22,
+   "eines": 22,
+   "was": 22,
+   "ver": 21,
+   "dieser": 21,
+   "frankreich": 20,
+   "ihre": 20,
+   "ohne": 20,
+   "schon": 20,
+   "wieder": 20,
+   "unter": 20,
+   "bis": 20,
+   "seyn": 19,
+   "selbst": 19,
+   "wurde": 19,
+   "allen": 19,
+   "bsb": 18,
+   "neuen": 18,
+   "uns": 18,
+   "worden": 18,
+   "hatte": 17,
+   "mehr": 17,
+   "keine": 17,
+   "ten": 16,
+   "kann": 16,
+   "gen": 16,
+   "zeit": 16,
+   "eben": 16,
+   "holland": 15,
+   "soll": 15,
+   "seinen": 15,
+   "ihnen": 15,
+   "deutschen": 15,
+   "muß": 15,
+   "wer": 15,
+   "stadt": 15,
+   "schweizer": 15,
+   "dann": 14,
+   "ihn": 14,
+   "seit": 14,
+   "doch": 14,
+   "gemacht": 14,
+   "neue": 13,
+   "seinem": 13,
+   "wenig": 13,
+   "zwei": 13,
+   "drei": 13,
+   "bischofs": 13,
+   "proc": 13,
+   "deutschland": 12,
+   "wohl": 12,
+   "regierung": 12,
+   "machen": 12,
+   "einige": 12,
+   "wäre": 12,
+   "großen": 12,
+   "immer": 12,
+   "sehr": 12,
+   "ihr": 12,
+   "habe": 12,
+   "ihrer": 12,
+   "bischof": 12,
+   "jahre": 12,
+   "werde": 11,
+   "besonders": 11,
+   "sondern": 11,
+   "große": 11,
+   "rath": 11,
+   "seines": 11,
+   "dec": 11,
+   "kein": 11,
+   "scheint": 10,
+   "sey": 10,
+   "diesen": 10,
+   "lange": 10,
+   "zwar": 10,
+   "weil": 10,
+   "sieht": 10,
+   "wurden": 10,
+   "unserer": 10,
+   "sehen": 10,
+   "weiß": 10,
+   "theil": 10,
+   "früher": 10,
+   "einmal": 10,
+   "nnd": 10,
+   "recht": 10,
+   "volk": 10,
+   "singh": 10,
+   "italien": 9,
+   "preußen": 9,
+   "art": 9,
+   "krieg": 9,
+   "europa": 9,
+   "sogar": 9,
+   "nichts": 9,
+   "diesem": 9,
+   "hand": 9,
+   "können": 9,
+   "wollen": 9,
+   "sein": 9,
+   "gewiß": 9,
+   "wenigstens": 9,
+   "alles": 9,
+   "macht": 9,
+   "stark": 9,
+   "uhr": 9,
+   "indem": 9,
+   "mann": 9,
+   "feine": 9,
+   "leute": 9,
+   "thlr": 9,
+   "land": 8,
+   "schreiben": 8,
+   "jedoch": 8,
+   "gewesen": 8,
+   "zwischen": 8,
+   "politik": 8,
+   "könnte": 8,
+   "vielen": 8,
+   "würde": 8,
+   "ganzen": 8,
+   "etwa": 8,
+   "denen": 8,
+   "geben": 8,
+   "daher": 8,
+   "leben": 8,
+   "beiden": 8,
+   "beim": 8,
+   "alten": 8,
+   "sagen": 8,
+   "stehen": 8,
+   "unsere": 8,
+   "ins": 8,
+   "heute": 8,
+   "finden": 8,
+   "ans": 8,
+   "ter": 8,
+   "ersten": 8
+  },
+  "allgemeine-zeitung-augsburg-1841-01-18.txt": {
+   "die": 529,
+   "der": 522,
+   "und": 460,
+   "den": 225,
+   "von": 201,
+   "ist": 165,
+   "das": 155,
+   "dem": 123,
+   "sich": 112,
+   "daß": 105,
+   "nicht": 104,
+   "mit": 102,
+   "ein": 100,
+   "auf": 87,
+   "eine": 77,
+   "für": 70,
+   "als": 70,
+   "hat": 66,
+   "wie": 64,
+   "sie": 64,
+   "noch": 64,
+   "auch": 62,
+   "nach": 60,
+   "aus": 59,
+   "aber": 58,
+   "nur": 55,
+   "man": 54,
+   "werden": 52,
+   "wird": 52,
+   "sind": 51,
+   "wir": 45,
+   "durch": 43,
+   "jan": 42,
+   "welche": 41,
+   "über": 41,
+   "bei": 38,
+   "wenn": 38,
+   "uns": 38,
+   "haben": 38,
+   "einer": 37,
+   "was": 36,
+   "dieser": 36,
+   "einem": 35,
+   "einen": 34,
+   "zum": 33,
+   "zur": 33,
+   "regierung": 32,
+   "diese": 31,
+   "gegen": 30,
+   "zeit": 30,
+   "war": 29,
+   "seine": 28,
+   "vom": 27,
+   "selbst": 27,
+   "alle": 26,
+   "ihre": 26,
+   "oder": 25,
+   "ver": 24,
+   "frankreich": 24,
+   "kann": 24,
+   "unter": 23,
+   "hier": 22,
+   "ihnen": 22,
+   "eines": 22,
+   "ihr": 22,
+   "bis": 22,
+   "mehr": 22,
+   "worden": 21,
+   "vor": 20,
+   "denn": 20,
+   "seiner": 19,
+   "nun": 19,
+   "land": 19,
+   "diesem": 19,
+   "deutschen": 19,
+   "bsb": 18,
+   "ich": 18,
+   "doch": 18,
+   "seinen": 17,
+   "sein": 17,
+   "jetzt": 17,
+   "wieder": 16,
+   "deren": 16,
+   "soll": 16,
+   "eben": 16,
+   "ihm": 15,
+   "sehr": 15,
+   "ihn": 15,
+   "ohne": 15,
+   "würde": 14,
+   "seinem": 14,
+   "stadt": 14,
+   "aller": 14,
+   "habe": 14,
+   "welcher": 14,
+   "zwischen": 14,
+   "werde": 14,
+   "könig": 13,
+   "holland": 13,
+   "ihren": 13,
+   "wer": 13,
+   "lassen": 13,
+   "bereits": 13,
+   "schon": 13,
+   "dieses": 13,
+   "großen": 13,
+   "mir": 13,
+   "große": 12,
+   "deutschland": 12,
+   "wurde": 12,
+   "wenig": 12,
+   "viel": 12,
+   "dann": 12,
+   "einige": 12,
+   "seyn": 12,
+   "hrn": 12,
+   "keine": 12,
+   "dessen": 12,
+   "zeitung": 11,
+   "können": 11,
+   "gen": 11,
+   "erhalten": 11,
+   "unserer": 11,
+   "neue": 11,
+   "sey": 11,
+   "muß": 11,
+   "damit": 11,
+   "thiers": 10,
+   "letzten": 10,
+   "andere": 10,
+   "daher": 10,
+   "andern": 10,
+   "theil": 10,
+   "welches": 10,
+   "seit": 10,
+   "ihrer": 10,
+   "sondern": 10,
+   "zwei": 10,
+   "waren": 10,
+   "januar": 9,
+   "spanien": 9,
+   "wegen": 9,
+   "paris": 9,
+   "franzosen": 9,
+   "berlin": 9,
+   "staaten": 9,
+   "gar": 9,
+   "einigen": 9,
+   "mann": 9,
+   "geld": 9,
+   "reich": 9,
+   "machen": 9,
+   "ten": 9,
+   "allen": 9,
+   "früher": 9,
+   "stand": 9,
+   "heute": 9,
+   "macht": 9,
+   "ganzen": 9,
+   "zwar": 9,
+   "französischen": 9,
+   "ganze": 9,
+   "kein": 9,
+   "seines": 9,
+   "ganz": 9,
+   "preis": 9,
+   "proc": 9,
+   "allgemeine": 8,
+   "neuesten": 8,
+   "daö": 8,
+   "bringen": 8,
+   "mehrere": 8,
+   "hatte": 8,
+   "volk": 8,
+   "wohl": 8,
+   "nen": 8,
+   "hatten": 8,
+   "meine": 8,
+   "beiden": 8,
+   "schen": 8,
+   "fremden": 8,
+   "diesen": 8,
+   "unsere": 8,
+   "nichts": 8,
+   "recht": 8,
+   "keinen": 8,
+   "dcr": 8,
+   "nnd": 8,
+   "weit": 8,
+   "interesse": 8,
+   "inhalt": 8,
+   "portugal": 7,
+   "hamburg": 7,
+   "höchst": 7,
+   "lich": 7,
+   "scheint": 7,
+   "dieß": 7,
+   "erwartet": 7,
+   "jahr": 7,
+   "besteht": 7
+  },
+  "allgemeine-zeitung-augsburg-1841-01-19.txt": {
+   "der": 565,
+   "die": 531,
+   "und": 407,
+   "den": 188,
+   "von": 175,
+   "daß": 115,
+   "ist": 113,
+   "das": 112,
+   "nicht": 106,
+   "ein": 103,
+   "auf": 98,
+   "dem": 96,
+   "mit": 92,
+   "sich": 89,
+   "als": 85,
+   "für": 85,
+   "eine": 84,
+   "sie": 70,
+   "durch": 61,
+   "auch": 59,
+   "werden": 58,
+   "wie": 57,
+   "aus": 54,
+   "man": 53,
+   "wird": 52,
+   "nach": 50,
+   "aber": 50,
+   "oder": 50,
+   "hat": 47,
+   "einen": 45,
+   "bei": 42,
+   "gegen": 41,
+   "nur": 41,
+   "über": 38,
+   "sind": 38,
+   "jan": 37,
+   "noch": 37,
+   "war": 35,
+   "haben": 35,
+   "wir": 35,
+   "wenn": 33,
+   "unter": 32,
+   "vom": 32,
+   "welche": 32,
+   "einer": 31,
+   "einem": 30,
+   "zum": 30,
+   "seine": 30,
+   "bis": 29,
+   "diese": 29,
+   "mehr": 29,
+   "worden": 28,
+   "alle": 27,
+   "zeit": 26,
+   "regierung": 26,
+   "uns": 25,
+   "ihm": 25,
+   "dieser": 24,
+   "paris": 23,
+   "selbst": 23,
+   "vor": 21,
+   "sehr": 21,
+   "kann": 21,
+   "ver": 20,
+   "sey": 20,
+   "wurde": 20,
+   "frankreich": 19,
+   "allen": 19,
+   "proc": 19,
+   "bsb": 18,
+   "jahre": 18,
+   "großen": 18,
+   "mir": 18,
+   "keine": 17,
+   "zwei": 17,
+   "sondern": 17,
+   "aller": 17,
+   "diesem": 17,
+   "dessen": 17,
+   "hier": 17,
+   "zur": 17,
+   "deutschen": 17,
+   "jacquard": 16,
+   "hatte": 16,
+   "eines": 16,
+   "seiner": 16,
+   "sein": 16,
+   "doch": 16,
+   "schon": 16,
+   "was": 16,
+   "denn": 16,
+   "jetzt": 16,
+   "zwischen": 15,
+   "ten": 15,
+   "mann": 15,
+   "ihn": 15,
+   "ihre": 15,
+   "soll": 15,
+   "dieß": 15,
+   "habe": 14,
+   "machen": 14,
+   "seinem": 14,
+   "thiers": 13,
+   "deutschland": 13,
+   "können": 13,
+   "wohl": 13,
+   "waren": 13,
+   "ganz": 13,
+   "ihnen": 13,
+   "erst": 12,
+   "jahr": 12,
+   "allein": 12,
+   "diesen": 12,
+   "nie": 12,
+   "dieses": 12,
+   "stand": 12,
+   "ohne": 12,
+   "webstuhl": 12,
+   "staaten": 11,
+   "letzten": 11,
+   "wurden": 11,
+   "werde": 11,
+   "seyn": 11,
+   "erhalten": 11,
+   "ihr": 11,
+   "wäre": 11,
+   "frage": 11,
+   "gen": 11,
+   "jede": 11,
+   "seit": 11,
+   "seinen": 11,
+   "sollte": 11,
+   "dec": 10,
+   "tage": 10,
+   "stelle": 10,
+   "andern": 10,
+   "welcher": 10,
+   "viel": 10,
+   "weit": 10,
+   "könig": 10,
+   "gallen": 10,
+   "unserer": 10,
+   "rath": 10,
+   "bericht": 9,
+   "befestigung": 9,
+   "galler": 9,
+   "tag": 9,
+   "ward": 9,
+   "immer": 9,
+   "mehrere": 9,
+   "ihrer": 9,
+   "nichts": 9,
+   "hrn": 9,
+   "commission": 9,
+   "endlich": 9,
+   "sache": 9,
+   "wieder": 9,
+   "neue": 9,
+   "neuen": 9,
+   "gut": 9,
+   "bereits": 9,
+   "folge": 9,
+   "recht": 9,
+   "bahn": 9,
+   "also": 9,
+   "lieferung": 9,
+   "lieferungen": 9,
+   "london": 8,
+   "schweiz": 8,
+   "rotteck": 8,
+   "berlin": 8,
+   "deutsche": 8,
+   "hoffen": 8,
+   "männer": 8,
+   "während": 8,
+   "lassen": 8,
+   "presse": 8,
+   "würde": 8,
+   "große": 8,
+   "sollen": 8,
+   "arbeiten": 8,
+   "jeder": 8,
+   "gibt": 8,
+   "kaum": 8,
+   "dazu": 8,
+   "nnd": 8,
+   "stände": 8,
+   "lyon": 8,
+   "crr": 8,
+   "nation": 8,
+   "sgr": 8,
+   "rhein": 7,
+   "sprache": 7,
+   "öffentlichen": 7,
+   "gleich": 7,
+   "drei": 7,
+   "stadt": 7,
+   "welchem": 7,
+   "lande": 7,
+   "wegen": 7
+  },
+  "allgemeine-zeitung-augsburg-1841-01-20.txt": {
+   "der": 571,
+   "die": 570,
+   "und": 429,
+   "den": 235,
+   "von": 182,
+   "das": 119,
+   "daß": 117,
+   "ist": 117,
+   "sich": 114,
+   "nicht": 114,
+   "dem": 110,
+   "auf": 101,
+   "mit": 98,
+   "sie": 88,
+   "ein": 83,
+   "für": 80,
+   "nach": 77,
+   "wie": 75,
+   "eine": 73,
+   "als": 69,
+   "man": 66,
+   "werden": 60,
+   "auch": 58,
+   "bei": 57,
+   "durch": 55,
+   "aber": 53,
+   "wir": 52,
+   "wird": 51,
+   "noch": 49,
+   "nur": 47,
+   "vor": 47,
+   "hat": 46,
+   "oder": 46,
+   "zur": 44,
+   "diese": 43,
+   "aus": 42,
+   "über": 37,
+   "haben": 36,
+   "sind": 36,
+   "einer": 36,
+   "welche": 36,
+   "wenn": 35,
+   "paris": 34,
+   "war": 34,
+   "jan": 33,
+   "unter": 33,
+   "dieser": 33,
+   "uns": 31,
+   "zeit": 29,
+   "vom": 28,
+   "alle": 27,
+   "gegen": 26,
+   "dieses": 26,
+   "eines": 25,
+   "seiner": 25,
+   "einen": 24,
+   "können": 24,
+   "hier": 23,
+   "ich": 23,
+   "zum": 22,
+   "ihm": 22,
+   "frankreich": 21,
+   "würde": 21,
+   "ihrer": 21,
+   "wieder": 20,
+   "schon": 20,
+   "mehr": 20,
+   "bis": 19,
+   "seine": 19,
+   "ihre": 19,
+   "bsb": 18,
+   "einem": 18,
+   "was": 18,
+   "mir": 18,
+   "wegen": 17,
+   "großen": 17,
+   "ten": 17,
+   "ihr": 17,
+   "selbst": 16,
+   "ganz": 16,
+   "jahre": 16,
+   "doch": 16,
+   "regierung": 15,
+   "kann": 15,
+   "habe": 15,
+   "sey": 15,
+   "diesem": 15,
+   "allen": 15,
+   "wurde": 15,
+   "seyn": 14,
+   "sondern": 14,
+   "welcher": 14,
+   "zwei": 14,
+   "welches": 14,
+   "einige": 14,
+   "ihn": 14,
+   "denn": 14,
+   "jetzt": 13,
+   "eben": 13,
+   "könnte": 13,
+   "nun": 13,
+   "allein": 13,
+   "neue": 13,
+   "jeder": 13,
+   "geben": 12,
+   "keine": 12,
+   "ohne": 12,
+   "worden": 12,
+   "immer": 12,
+   "muß": 12,
+   "viel": 12,
+   "kein": 12,
+   "aller": 12,
+   "deutschen": 12,
+   "soll": 11,
+   "deutsche": 11,
+   "seinen": 11,
+   "folge": 11,
+   "könig": 11,
+   "nehmen": 11,
+   "diesen": 11,
+   "große": 11,
+   "ihnen": 11,
+   "jahr": 11,
+   "unserer": 11,
+   "ver": 11,
+   "will": 11,
+   "ihren": 11,
+   "dort": 11,
+   "wohl": 11,
+   "seinem": 11,
+   "euch": 11,
+   "deutschland": 10,
+   "wollen": 10,
+   "dieß": 10,
+   "hauptstadt": 10,
+   "erst": 10,
+   "jener": 10,
+   "lange": 10,
+   "müssen": 10,
+   "england": 10,
+   "sehr": 10,
+   "mann": 10,
+   "gefahr": 10,
+   "dürfte": 10,
+   "admiral": 10,
+   "stände": 10,
+   "frage": 9,
+   "berlin": 9,
+   "alles": 9,
+   "zwischen": 9,
+   "deren": 9,
+   "thiers": 9,
+   "macht": 9,
+   "bereits": 9,
+   "könne": 9,
+   "machen": 9,
+   "ersten": 9,
+   "dessen": 9,
+   "französische": 9,
+   "jedoch": 9,
+   "ganzen": 9,
+   "jene": 8,
+   "litteratur": 8,
+   "krieg": 8,
+   "briefe": 8,
+   "seit": 8,
+   "innern": 8,
+   "armee": 8,
+   "indem": 8,
+   "land": 8,
+   "befestigung": 8,
+   "wäre": 8,
+   "gemacht": 8,
+   "ende": 8,
+   "ganze": 8,
+   "damit": 8,
+   "sturm": 8,
+   "truppen": 8,
+   "wer": 8,
+   "nen": 8,
+   "lassen": 8,
+   "sein": 8,
+   "anker": 8,
+   "worin": 8,
+   "rthlr": 8,
+   "fürsten": 8,
+   "januar": 8,
+   "ren": 7,
+   "neu": 7,
+   "erklärt": 7,
+   "provinzen": 7,
+   "werde": 7,
+   "glaubt": 7,
+   "men": 7,
+   "franzosen": 7,
+   "welchen": 7,
+   "jenen": 7,
+   "weil": 7,
+   "tage": 7
+  },
+  "allgemeine-zeitung-augsburg-1841-01-21.txt": {
+   "der": 547,
+   "die": 499,
+   "und": 394,
+   "den": 212,
+   "von": 180,
+   "ist": 135,
+   "dem": 122,
+   "sich": 114,
+   "daß": 111,
+   "mit": 106,
+   "eine": 103,
+   "nicht": 102,
+   "das": 99,
+   "auf": 93,
+   "man": 81,
+   "sie": 80,
+   "ein": 75,
+   "für": 71,
+   "hat": 70,
+   "als": 59,
+   "werden": 57,
+   "nach": 53,
+   "wie": 53,
+   "sind": 52,
+   "oder": 50,
+   "noch": 46,
+   "einer": 46,
+   "durch": 46,
+   "haben": 44,
+   "welche": 43,
+   "bei": 42,
+   "wir": 41,
+   "zur": 40,
+   "auch": 40,
+   "aus": 39,
+   "nur": 39,
+   "diese": 38,
+   "wird": 37,
+   "über": 35,
+   "ihre": 34,
+   "aber": 33,
+   "einen": 31,
+   "einem": 31,
+   "mir": 30,
+   "jan": 29,
+   "selbst": 29,
+   "wenn": 28,
+   "gegen": 27,
+   "würde": 27,
+   "paris": 26,
+   "vor": 25,
+   "unter": 25,
+   "geschichte": 25,
+   "vom": 24,
+   "ich": 23,
+   "uns": 23,
+   "regierung": 22,
+   "alle": 22,
+   "zeit": 22,
+   "dieser": 21,
+   "jetzt": 21,
+   "zum": 21,
+   "mehr": 20,
+   "kann": 20,
+   "worden": 20,
+   "ihr": 20,
+   "ihm": 19,
+   "unserer": 19,
+   "ihrer": 19,
+   "bsb": 18,
+   "werde": 18,
+   "bis": 18,
+   "dieß": 18,
+   "was": 18,
+   "ohne": 18,
+   "seyn": 18,
+   "soll": 18,
+   "keine": 17,
+   "ver": 17,
+   "wäre": 17,
+   "unsere": 17,
+   "war": 16,
+   "können": 16,
+   "lassen": 16,
+   "letzten": 15,
+   "wohl": 15,
+   "seit": 15,
+   "schon": 15,
+   "zwei": 15,
+   "ihnen": 15,
+   "zwischen": 15,
+   "deutschen": 15,
+   "sehr": 15,
+   "armee": 14,
+   "diesen": 14,
+   "doch": 14,
+   "welcher": 14,
+   "große": 14,
+   "seine": 14,
+   "historiker": 14,
+   "frankreich": 13,
+   "wegen": 13,
+   "eines": 13,
+   "seiner": 13,
+   "bald": 13,
+   "dann": 13,
+   "immer": 13,
+   "staaten": 13,
+   "hier": 13,
+   "publicum": 12,
+   "tage": 12,
+   "hrn": 12,
+   "andern": 12,
+   "eben": 12,
+   "großen": 12,
+   "bevölkerung": 12,
+   "allein": 12,
+   "ten": 12,
+   "proc": 12,
+   "ganz": 11,
+   "muß": 11,
+   "nun": 11,
+   "deren": 11,
+   "ringmauer": 11,
+   "viel": 11,
+   "pforte": 10,
+   "aegypten": 10,
+   "ward": 10,
+   "müssen": 10,
+   "heißt": 10,
+   "fall": 10,
+   "gen": 10,
+   "bereits": 10,
+   "nehmen": 10,
+   "mann": 10,
+   "aller": 10,
+   "machen": 10,
+   "forts": 10,
+   "allen": 10,
+   "dcr": 9,
+   "deutschland": 9,
+   "deutsche": 9,
+   "schreiben": 9,
+   "wurden": 9,
+   "einigen": 9,
+   "erhalten": 9,
+   "hatten": 9,
+   "würden": 9,
+   "ans": 9,
+   "unser": 9,
+   "wieder": 9,
+   "diesem": 9,
+   "drei": 9,
+   "wurde": 9,
+   "wer": 9,
+   "waren": 9,
+   "macht": 9,
+   "sevn": 9,
+   "nichts": 9,
+   "historischen": 9,
+   "schweiz": 8,
+   "ben": 8,
+   "habe": 8,
+   "dieses": 8,
+   "neue": 8,
+   "sollte": 8,
+   "stadt": 8,
+   "ins": 8,
+   "her": 8,
+   "erst": 8,
+   "thiers": 8,
+   "halten": 8,
+   "ersten": 8,
+   "schen": 8,
+   "erste": 8,
+   "könnte": 8,
+   "dessen": 8,
+   "übrigen": 8,
+   "interessen": 8,
+   "seinen": 8,
+   "dort": 8,
+   "jahre": 8,
+   "vereinigten": 8,
+   "rthlr": 8,
+   "berlin": 7,
+   "ganzen": 7,
+   "tagen": 7,
+   "ihren": 7,
+   "minister": 7,
+   "heute": 7,
+   "dieselbe": 7,
+   "damit": 7,
+   "hauptstadt": 7,
+   "sten": 7,
+   "alte": 7,
+   "zweiten": 7,
+   "einmal": 7,
+   "fast": 7,
+   "stets": 7,
+   "denn": 7
+  },
+  "allgemeine-zeitung-augsburg-1841-01-22.txt": {
+   "der": 587,
+   "die": 580,
+   "und": 404,
+   "den": 251,
+   "von": 197,
+   "ist": 145,
+   "daß": 116,
+   "sich": 110,
+   "dem": 107,
+   "auf": 103,
+   "nicht": 98,
+   "mit": 97,
+   "das": 91,
+   "als": 89,
+   "auch": 81,
+   "eine": 75,
+   "man": 68,
+   "sie": 65,
+   "wie": 61,
+   "für": 61,
+   "aus": 59,
+   "werden": 58,
+   "durch": 56,
+   "bei": 55,
+   "wird": 55,
+   "ein": 55,
+   "noch": 54,
+   "nach": 54,
+   "welche": 53,
+   "über": 48,
+   "zur": 47,
+   "einer": 47,
+   "aber": 47,
+   "haben": 46,
+   "oder": 45,
+   "nur": 45,
+   "hat": 41,
+   "wir": 41,
+   "dieser": 37,
+   "sind": 37,
+   "jan": 35,
+   "diese": 35,
+   "regierung": 34,
+   "wenn": 34,
+   "einen": 32,
+   "gegen": 31,
+   "unter": 27,
+   "mir": 26,
+   "seine": 26,
+   "paris": 25,
+   "vom": 25,
+   "dieses": 25,
+   "ihrer": 25,
+   "uns": 24,
+   "ihre": 24,
+   "habe": 24,
+   "soll": 24,
+   "worden": 23,
+   "werde": 23,
+   "hier": 22,
+   "was": 22,
+   "einem": 22,
+   "vor": 22,
+   "mehr": 21,
+   "alle": 21,
+   "zum": 20,
+   "bis": 20,
+   "wieder": 20,
+   "war": 19,
+   "sehr": 19,
+   "ver": 19,
+   "bsb": 18,
+   "eines": 18,
+   "würde": 18,
+   "neuen": 18,
+   "doch": 18,
+   "seyn": 18,
+   "scheidemünze": 18,
+   "jetzt": 17,
+   "welcher": 17,
+   "gen": 17,
+   "kann": 17,
+   "proc": 17,
+   "große": 16,
+   "dessen": 16,
+   "allen": 16,
+   "selbst": 16,
+   "seit": 16,
+   "wohl": 16,
+   "nun": 15,
+   "seiner": 15,
+   "zeit": 15,
+   "neue": 14,
+   "aller": 14,
+   "unsere": 14,
+   "ich": 14,
+   "jahr": 14,
+   "schon": 13,
+   "ihr": 13,
+   "minister": 13,
+   "wer": 13,
+   "ihm": 13,
+   "wäre": 13,
+   "öffentlichen": 13,
+   "machen": 13,
+   "ten": 13,
+   "scheint": 13,
+   "rath": 13,
+   "andern": 12,
+   "ganz": 12,
+   "deren": 12,
+   "können": 12,
+   "lassen": 12,
+   "viele": 12,
+   "diesem": 12,
+   "hrn": 12,
+   "viel": 12,
+   "immer": 11,
+   "denn": 11,
+   "ersten": 11,
+   "nichts": 11,
+   "seinem": 11,
+   "ohne": 11,
+   "mittel": 11,
+   "eben": 11,
+   "münchen": 10,
+   "großen": 10,
+   "dabei": 10,
+   "müssen": 10,
+   "hand": 10,
+   "tage": 10,
+   "waren": 10,
+   "keine": 10,
+   "land": 10,
+   "einige": 10,
+   "rechte": 10,
+   "zwischen": 10,
+   "angelegenheiten": 10,
+   "allein": 10,
+   "andere": 10,
+   "jede": 10,
+   "theil": 10,
+   "sey": 10,
+   "ständeversammlung": 10,
+   "mill": 10,
+   "frankreich": 9,
+   "eröffnung": 9,
+   "weit": 9,
+   "innern": 9,
+   "ministerium": 9,
+   "nehmen": 9,
+   "ans": 9,
+   "gewesen": 9,
+   "werth": 9,
+   "staaten": 9,
+   "guizot": 9,
+   "denen": 9,
+   "einmal": 9,
+   "ganzen": 9,
+   "folge": 9,
+   "gemacht": 9,
+   "jene": 9,
+   "erste": 9,
+   "münzen": 9,
+   "stelle": 8,
+   "pforte": 8,
+   "lande": 8,
+   "deutschland": 8,
+   "preußen": 8,
+   "berlin": 8,
+   "hatte": 8,
+   "betreff": 8,
+   "übrigen": 8,
+   "solche": 8,
+   "weise": 8,
+   "sollen": 8,
+   "art": 8,
+   "wollen": 8,
+   "ihren": 8,
+   "wünschen": 8,
+   "stadt": 8,
+   "drei": 8,
+   "macht": 8,
+   "derselben": 8,
+   "stand": 8,
+   "grund": 8,
+   "diesen": 8,
+   "bedarf": 8,
+   "jahres": 8,
+   "sondern": 8,
+   "schen": 7,
+   "indem": 7,
+   "während": 7,
+   "lichen": 7,
+   "sowohl": 7,
+   "beiden": 7,
+   "maj": 7,
+   "genommen": 7,
+   "ihnen": 7,
+   "dieß": 7
+  },
+  "allgemeine-zeitung-augsburg-1841-01-23.txt": {
+   "die": 570,
+   "der": 564,
+   "und": 476,
+   "den": 228,
+   "von": 207,
+   "sich": 137,
+   "auf": 136,
+   "dem": 135,
+   "das": 126,
+   "mit": 123,
+   "ist": 118,
+   "daß": 115,
+   "nicht": 100,
+   "eine": 97,
+   "ein": 97,
+   "als": 89,
+   "man": 89,
+   "sie": 77,
+   "nach": 72,
+   "aus": 69,
+   "hat": 65,
+   "für": 63,
+   "wie": 60,
+   "aber": 59,
+   "auch": 57,
+   "über": 55,
+   "durch": 53,
+   "noch": 53,
+   "diese": 51,
+   "sind": 50,
+   "welche": 49,
+   "nur": 49,
+   "wird": 47,
+   "werden": 46,
+   "unter": 44,
+   "haben": 44,
+   "gegen": 43,
+   "wir": 43,
+   "einen": 41,
+   "ihn": 40,
+   "dieser": 38,
+   "zum": 37,
+   "vom": 35,
+   "ohne": 34,
+   "ihm": 34,
+   "frankreich": 33,
+   "bei": 33,
+   "mehr": 32,
+   "ich": 32,
+   "bis": 31,
+   "vor": 30,
+   "worden": 30,
+   "jan": 29,
+   "seine": 29,
+   "sehr": 28,
+   "selbst": 27,
+   "zur": 27,
+   "seiner": 26,
+   "mir": 26,
+   "einer": 26,
+   "einem": 25,
+   "zeit": 25,
+   "regierung": 24,
+   "wurde": 24,
+   "wenn": 24,
+   "wieder": 24,
+   "hier": 23,
+   "alle": 23,
+   "war": 23,
+   "ihnen": 22,
+   "oder": 22,
+   "uns": 22,
+   "ver": 21,
+   "seinen": 21,
+   "ihre": 20,
+   "habe": 20,
+   "christen": 20,
+   "allen": 19,
+   "bsb": 18,
+   "hatte": 18,
+   "große": 18,
+   "ihrer": 18,
+   "general": 18,
+   "was": 18,
+   "jetzt": 18,
+   "großen": 18,
+   "schon": 17,
+   "millionen": 17,
+   "syrien": 16,
+   "dieses": 16,
+   "können": 16,
+   "eines": 16,
+   "land": 16,
+   "würde": 16,
+   "ganz": 16,
+   "rosas": 15,
+   "viel": 15,
+   "ward": 15,
+   "kann": 15,
+   "ihren": 15,
+   "sein": 15,
+   "mann": 15,
+   "ibrahim": 15,
+   "dort": 14,
+   "paris": 14,
+   "hrn": 14,
+   "sey": 14,
+   "wurden": 14,
+   "dcr": 14,
+   "welcher": 13,
+   "letzten": 13,
+   "bereits": 13,
+   "seyn": 13,
+   "sondern": 13,
+   "waren": 13,
+   "gemacht": 13,
+   "damaskus": 12,
+   "weil": 12,
+   "wohl": 12,
+   "immer": 12,
+   "ihr": 12,
+   "keine": 12,
+   "jahre": 12,
+   "deren": 12,
+   "diesem": 12,
+   "muß": 12,
+   "machen": 12,
+   "welches": 12,
+   "unsere": 12,
+   "truppen": 12,
+   "stadt": 12,
+   "türken": 12,
+   "länder": 11,
+   "während": 11,
+   "zwischen": 11,
+   "finden": 11,
+   "einige": 11,
+   "andere": 11,
+   "andern": 11,
+   "ten": 11,
+   "ganzen": 11,
+   "erst": 11,
+   "theil": 11,
+   "wäre": 11,
+   "kein": 10,
+   "neue": 10,
+   "gar": 10,
+   "nun": 10,
+   "macht": 10,
+   "dieselben": 10,
+   "einmal": 10,
+   "frankreichs": 10,
+   "denn": 10,
+   "alten": 10,
+   "nichts": 10,
+   "denen": 10,
+   "doch": 10,
+   "allgemeinen": 10,
+   "hand": 10,
+   "rath": 10,
+   "pascha": 10,
+   "türkischen": 10,
+   "handel": 10,
+   "jacquard": 10,
+   "deutsche": 10,
+   "indianer": 9,
+   "bald": 9,
+   "seit": 9,
+   "england": 9,
+   "erhalten": 9,
+   "aller": 9,
+   "seines": 9,
+   "früher": 9,
+   "werde": 9,
+   "gränze": 9,
+   "gibt": 9,
+   "sagt": 9,
+   "zwei": 9,
+   "dessen": 9,
+   "ganze": 9,
+   "nnd": 9,
+   "besonders": 9,
+   "geschichte": 9,
+   "viele": 9,
+   "barrere": 9,
+   "dec": 8,
+   "london": 8,
+   "nov": 8,
+   "daher": 8,
+   "englischen": 8,
+   "französischen": 8,
+   "jenen": 8,
+   "gouverneur": 8,
+   "vertrags": 8,
+   "ans": 8,
+   "soldaten": 8,
+   "leicht": 8,
+   "dann": 8,
+   "frage": 8,
+   "journal": 8
+  },
+  "allgemeine-zeitung-augsburg-1841-01-24.txt": {
+   "der": 648,
+   "die": 577,
+   "und": 539,
+   "den": 231,
+   "von": 218,
+   "sich": 135,
+   "dem": 130,
+   "das": 127,
+   "mit": 110,
+   "daß": 107,
+   "auf": 102,
+   "ist": 100,
+   "nach": 94,
+   "eine": 92,
+   "als": 92,
+   "ein": 87,
+   "welche": 80,
+   "werden": 78,
+   "nicht": 73,
+   "durch": 72,
+   "aus": 58,
+   "für": 58,
+   "sie": 56,
+   "wie": 55,
+   "auch": 52,
+   "hat": 51,
+   "über": 50,
+   "aber": 50,
+   "man": 50,
+   "noch": 49,
+   "zur": 46,
+   "wird": 46,
+   "war": 43,
+   "unter": 40,
+   "sind": 39,
+   "bei": 38,
+   "nur": 37,
+   "einer": 37,
+   "zum": 37,
+   "dieser": 34,
+   "jan": 33,
+   "haben": 33,
+   "einen": 33,
+   "seine": 32,
+   "bis": 32,
+   "gegen": 30,
+   "mir": 30,
+   "diese": 30,
+   "wir": 29,
+   "ihre": 29,
+   "einem": 28,
+   "oder": 28,
+   "selbst": 26,
+   "vor": 26,
+   "schon": 26,
+   "regierung": 25,
+   "hatte": 25,
+   "worden": 24,
+   "vom": 23,
+   "was": 23,
+   "wurde": 23,
+   "ihrer": 22,
+   "diesem": 22,
+   "zeit": 21,
+   "alle": 21,
+   "mehr": 21,
+   "hier": 21,
+   "wenn": 20,
+   "ihr": 20,
+   "dieses": 20,
+   "seiner": 20,
+   "eines": 20,
+   "hrn": 19,
+   "jetzt": 19,
+   "ihm": 19,
+   "großen": 19,
+   "bsb": 18,
+   "jahre": 18,
+   "proc": 18,
+   "doch": 17,
+   "ihren": 17,
+   "wieder": 17,
+   "ihn": 17,
+   "ihnen": 16,
+   "seinen": 16,
+   "habe": 16,
+   "andere": 16,
+   "soll": 15,
+   "folge": 15,
+   "erhalten": 15,
+   "diesen": 15,
+   "rath": 15,
+   "weil": 15,
+   "nnd": 15,
+   "gallen": 15,
+   "berlin": 14,
+   "ten": 14,
+   "ohne": 14,
+   "sondern": 14,
+   "alles": 14,
+   "immer": 14,
+   "ver": 14,
+   "corporation": 14,
+   "frankreich": 13,
+   "beschluß": 13,
+   "theil": 13,
+   "allen": 13,
+   "wurden": 13,
+   "nun": 13,
+   "welcher": 13,
+   "sein": 13,
+   "sprache": 13,
+   "ward": 13,
+   "neuen": 12,
+   "neue": 12,
+   "innern": 12,
+   "dessen": 12,
+   "stadt": 12,
+   "gen": 12,
+   "waren": 12,
+   "uns": 12,
+   "direktorium": 12,
+   "keine": 11,
+   "mehemed": 11,
+   "littrow": 11,
+   "afrika": 11,
+   "staaten": 11,
+   "eben": 11,
+   "werde": 11,
+   "ganz": 11,
+   "können": 11,
+   "zwei": 11,
+   "lassen": 11,
+   "stelle": 11,
+   "seinem": 11,
+   "konnte": 11,
+   "bereits": 11,
+   "andern": 11,
+   "staat": 11,
+   "jener": 11,
+   "gallas": 11,
+   "erst": 10,
+   "post": 10,
+   "ali": 10,
+   "daher": 10,
+   "darauf": 10,
+   "könne": 10,
+   "landes": 10,
+   "welches": 10,
+   "kann": 10,
+   "dann": 10,
+   "würde": 10,
+   "ich": 10,
+   "jahren": 10,
+   "aegypten": 10,
+   "stuttgart": 10,
+   "frankfurt": 9,
+   "sehr": 9,
+   "geben": 9,
+   "dazu": 9,
+   "letzten": 9,
+   "seit": 9,
+   "deren": 9,
+   "scheint": 9,
+   "sollte": 9,
+   "jungen": 9,
+   "öffentlichen": 9,
+   "paris": 9,
+   "beiden": 9,
+   "deö": 9,
+   "wohl": 9,
+   "studien": 9,
+   "rechte": 9,
+   "kleinen": 9,
+   "archiv": 9,
+   "zeitung": 8,
+   "schweiz": 8,
+   "sevn": 8,
+   "solche": 8,
+   "nothwendig": 8,
+   "lang": 8,
+   "art": 8,
+   "machen": 8,
+   "gesetz": 8,
+   "tage": 8,
+   "früher": 8,
+   "namentlich": 8,
+   "könig": 8,
+   "ernannt": 8,
+   "zugleich": 8,
+   "punkt": 8,
+   "sehen": 8,
+   "ließ": 8,
+   "jeder": 8,
+   "ben": 8,
+   "millionen": 8,
+   "wege": 8,
+   "hatten": 8,
+   "lich": 8,
+   "heute": 8
+  },
+  "allgemeine-zeitung-augsburg-1841-01-25.txt": {
+   "die": 569,
+   "der": 539,
+   "und": 427,
+   "den": 220,
+   "von": 179,
+   "auf": 128,
+   "sich": 124,
+   "dem": 116,
+   "ist": 102,
+   "mit": 100,
+   "nicht": 100,
+   "das": 95,
+   "für": 82,
+   "auch": 79,
+   "ein": 76,
+   "werden": 74,
+   "daß": 72,
+   "eine": 71,
+   "als": 69,
+   "durch": 66,
+   "sie": 65,
+   "wie": 64,
+   "aus": 60,
+   "hat": 58,
+   "bei": 57,
+   "man": 56,
+   "wird": 55,
+   "wir": 53,
+   "seine": 52,
+   "nach": 49,
+   "aber": 48,
+   "über": 44,
+   "sind": 44,
+   "haben": 41,
+   "nur": 41,
+   "unter": 40,
+   "zur": 39,
+   "welche": 39,
+   "noch": 38,
+   "einer": 36,
+   "dieser": 35,
+   "vom": 32,
+   "mehr": 32,
+   "gegen": 31,
+   "diese": 30,
+   "jan": 29,
+   "einen": 29,
+   "wenn": 29,
+   "wieder": 29,
+   "war": 28,
+   "ihre": 28,
+   "vor": 28,
+   "ihm": 27,
+   "zum": 26,
+   "selbst": 26,
+   "oder": 26,
+   "seiner": 25,
+   "mir": 24,
+   "kann": 23,
+   "zeit": 22,
+   "jetzt": 22,
+   "uns": 21,
+   "schon": 21,
+   "ihn": 21,
+   "bis": 21,
+   "alle": 21,
+   "ihrer": 21,
+   "soll": 20,
+   "ganz": 20,
+   "ich": 20,
+   "neuen": 19,
+   "ihnen": 19,
+   "sehr": 19,
+   "bsb": 18,
+   "regierung": 18,
+   "ten": 18,
+   "allen": 18,
+   "ver": 18,
+   "ohne": 17,
+   "einem": 17,
+   "was": 17,
+   "eines": 17,
+   "proc": 17,
+   "sollen": 16,
+   "wurde": 16,
+   "millionen": 16,
+   "hatte": 16,
+   "januar": 15,
+   "scheint": 15,
+   "diesen": 15,
+   "doch": 15,
+   "wurden": 15,
+   "während": 15,
+   "denen": 15,
+   "seyn": 15,
+   "jahren": 15,
+   "spanien": 14,
+   "neue": 14,
+   "staaten": 14,
+   "eben": 14,
+   "gen": 14,
+   "sey": 14,
+   "hier": 14,
+   "keine": 14,
+   "dieses": 14,
+   "worden": 14,
+   "zwischen": 13,
+   "machen": 13,
+   "seinen": 13,
+   "denn": 13,
+   "große": 13,
+   "dieß": 13,
+   "völker": 13,
+   "stelle": 12,
+   "asien": 12,
+   "dessen": 12,
+   "habe": 12,
+   "einige": 12,
+   "andern": 12,
+   "viel": 12,
+   "wollen": 12,
+   "erst": 12,
+   "deren": 11,
+   "gleich": 11,
+   "diesem": 11,
+   "werde": 11,
+   "unsere": 11,
+   "wohl": 11,
+   "andere": 11,
+   "sein": 11,
+   "alles": 11,
+   "würden": 11,
+   "mann": 11,
+   "portugal": 11,
+   "aller": 11,
+   "mittel": 11,
+   "ihren": 11,
+   "mehemed": 11,
+   "großen": 10,
+   "jahr": 10,
+   "wien": 10,
+   "rußland": 10,
+   "pascha": 10,
+   "liegt": 10,
+   "ersten": 10,
+   "können": 10,
+   "kaum": 10,
+   "spaniens": 10,
+   "lassen": 10,
+   "macht": 10,
+   "seit": 10,
+   "jahre": 10,
+   "duero": 9,
+   "london": 9,
+   "zwei": 9,
+   "littrow": 9,
+   "verhältnisse": 9,
+   "welcher": 9,
+   "darauf": 9,
+   "lage": 9,
+   "würde": 9,
+   "seinem": 9,
+   "beiden": 9,
+   "nichts": 9,
+   "grund": 9,
+   "art": 9,
+   "wäre": 9,
+   "nen": 9,
+   "bereits": 9,
+   "allein": 9,
+   "nun": 8,
+   "politik": 8,
+   "glauben": 8,
+   "landes": 8,
+   "letzten": 8,
+   "weit": 8,
+   "sache": 8,
+   "ganze": 8,
+   "sollte": 8,
+   "dabei": 8,
+   "besonders": 8,
+   "zwar": 8,
+   "bald": 8,
+   "wegen": 8,
+   "schen": 8,
+   "seines": 8,
+   "weniger": 8,
+   "gerade": 8,
+   "summe": 8,
+   "unserer": 8,
+   "herrschaft": 8,
+   "ganzen": 8,
+   "ali": 8,
+   "namen": 8,
+   "zeitung": 7,
+   "werke": 7,
+   "frankreich": 7,
+   "deutschland": 7,
+   "stände": 7,
+   "pforte": 7
+  },
+  "guizot-memoires-t1-gutenberg.txt": {
+   "lui": 528,
+   "avait": 397,
+   "roi": 346,
+   "qu'il": 344,
+   "sans": 339,
+   "france": 304,
+   "était": 299,
+   "gouvernement": 297,
+   "point": 231,
+   "chambre": 225,
+   "pouvoir": 220,
+   "peu": 218,
+   "contre": 211,
+   "mon": 208,
+   "été": 203,
+   "politique": 197,
+   "sont": 193,
+   "quand": 193,
+   "the": 190,
+   "droit": 189,
+   "c'est": 186,
+   "d'un": 186,
+   "deux": 185,
+   "parti": 183,
+   "liberté": 179,
+   "temps": 169,
+   "loi": 162,
+   "sous": 158,
+   "côté": 154,
+   "d'une": 152,
+   "hommes": 150,
+   "ont": 148,
+   "notre": 147,
+   "cabinet": 146,
+   "non": 145,
+   "fut": 144,
+   "villèle": 139,
+   "c'était": 132,
+   "qu'on": 129,
+   "avaient": 128,
+   "trop": 127,
+   "étaient": 127,
+   "j'ai": 126,
+   "régime": 125,
+   "chateaubriand": 124,
+   "révolution": 124,
+   "mes": 123,
+   "qu'ils": 122,
+   "grand": 121,
+   "députés": 118,
+   "jour": 117,
+   "pays": 115,
+   "moi": 111,
+   "charte": 111,
+   "soit": 110,
+   "idées": 109,
+   "duc": 108,
+   "conseil": 105,
+   "beaucoup": 102,
+   "quelques": 102,
+   "ministre": 100,
+   "fois": 99,
+   "jours": 98,
+   "gutenberg": 97,
+   "amis": 96,
+   "publique": 96,
+   "situation": 96,
+   "public": 95,
+   "société": 94,
+   "l'état": 94,
+   "qu'elle": 93,
+   "restauration": 91,
+   "part": 91,
+   "nos": 91,
+   "project": 88,
+   "quelque": 88,
+   "affaires": 88,
+   "ministère": 87,
+   "n'est": 86,
+   "l'esprit": 86,
+   "mêmes": 86,
+   "moment": 85,
+   "nouvelle": 85,
+   "louis": 85,
+   "chambres": 85,
+   "paris": 84,
+   "vie": 84,
+   "eux": 83,
+   "force": 83,
+   "votre": 83,
+   "propre": 82,
+   "lois": 81,
+   "rien": 80,
+   "caractère": 79,
+   "ordonnance": 79,
+   "grande": 78,
+   "politiques": 78,
+   "monsieur": 78,
+   "n'avait": 78,
+   "napoléon": 77,
+   "seulement": 77,
+   "tant": 76,
+   "dire": 76,
+   "l'ordre": 76,
+   "you": 75,
+   "cause": 75,
+   "besoin": 74,
+   "assez": 73,
+   "mal": 73,
+   "général": 72,
+   "n'y": 72,
+   "guerre": 72,
+   "cours": 71,
+   "l'autre": 71,
+   "n'en": 71,
+   "paix": 70,
+   "homme": 70,
+   "ans": 70,
+   "succès": 70,
+   "esprit": 69,
+   "and": 68,
+   "seul": 68,
+   "divers": 67,
+   "qu'à": 67,
+   "trois": 67,
+   "s'en": 67,
+   "cet": 66,
+   "nom": 66,
+   "tantôt": 65,
+   "raison": 65,
+   "partis": 65,
+   "passions": 65,
+   "élections": 65,
+   "sentiments": 64,
+   "peuple": 64,
+   "richelieu": 64,
+   "royer": 63,
+   "justice": 63,
+   "aucune": 63,
+   "intérêts": 63,
+   "confiance": 63,
+   "art": 63,
+   "collard": 62,
+   "grands": 62,
+   "quoique": 61,
+   "libre": 61,
+   "principes": 61,
+   "nécessité": 61,
+   "decazes": 61,
+   "s'y": 60,
+   "xviii": 60,
+   "ministres": 60,
+   "l'empire": 59,
+   "époque": 59,
+   "nouveau": 59,
+   "l'un": 59,
+   "suis": 58,
+   "pouvait": 58,
+   "aujourd'hui": 57,
+   "coup": 57,
+   "but": 57,
+   "cour": 57,
+   "l'histoire": 56,
+   "aucun": 56,
+   "bon": 56,
+   "presse": 56,
+   "d'autres": 55,
+   "n'était": 55,
+   "devant": 55,
+   "droits": 55,
+   "lutte": 55,
+   "d'état": 54,
+   "lieu": 54,
+   "mieux": 54,
+   "surtout": 54,
+   "question": 54,
+   "avons": 53,
+   "esprits": 53,
+   "classes": 53,
+   "serait": 52,
+   "sera": 52,
+   "sens": 52,
+   "pourtant": 51,
+   "souvent": 51,
+   "sentiment": 50,
+   "compte": 50,
+   "parmi": 50,
+   "fit": 50,
+   "l'ancien": 50,
+   "donner": 50,
+   "gauche": 50,
+   "presque": 49,
+   "l'empereur": 49,
+   "eût": 49,
+   "près": 49,
+   "nombre": 49,
+   "chaque": 49,
+   "majorité": 49,
+   "tour": 48,
+   "n'a": 48
+  },
+  "guizot-memoires-t2-gutenberg.txt": {
+   "lui": 494,
+   "roi": 420,
+   "avait": 392,
+   "gouvernement": 373,
+   "sans": 361,
+   "était": 340,
+   "qu'il": 326,
+   "france": 292,
+   "politique": 266,
+   "été": 260,
+   "périer": 239,
+   "point": 231,
+   "ont": 213,
+   "sont": 211,
+   "c'est": 208,
+   "casimir": 194,
+   "d'une": 194,
+   "the": 192,
+   "temps": 186,
+   "peu": 186,
+   "d'un": 184,
+   "général": 182,
+   "deux": 175,
+   "sous": 172,
+   "paris": 170,
+   "fut": 169,
+   "cabinet": 167,
+   "non": 164,
+   "étaient": 164,
+   "avaient": 162,
+   "quand": 161,
+   "contre": 160,
+   "hommes": 149,
+   "notre": 144,
+   "pouvoir": 143,
+   "pays": 138,
+   "mon": 134,
+   "l'état": 131,
+   "révolution": 130,
+   "jour": 130,
+   "quelques": 130,
+   "qu'ils": 130,
+   "louis": 130,
+   "chambre": 129,
+   "grand": 128,
+   "l'ordre": 125,
+   "qu'elle": 125,
+   "c'était": 124,
+   "soit": 121,
+   "parti": 120,
+   "qu'on": 120,
+   "société": 119,
+   "duc": 118,
+   "nos": 117,
+   "droit": 114,
+   "paix": 114,
+   "guerre": 111,
+   "chambres": 109,
+   "liberté": 109,
+   "question": 109,
+   "députés": 108,
+   "l'esprit": 108,
+   "amis": 107,
+   "quelque": 106,
+   "affaires": 104,
+   "moment": 104,
+   "loi": 102,
+   "grande": 101,
+   "seulement": 100,
+   "rien": 100,
+   "propre": 98,
+   "jours": 98,
+   "gutenberg": 97,
+   "part": 96,
+   "public": 95,
+   "moi": 94,
+   "eux": 94,
+   "ministres": 92,
+   "force": 92,
+   "philippe": 92,
+   "mes": 91,
+   "situation": 91,
+   "project": 88,
+   "fayette": 88,
+   "n'est": 88,
+   "ministre": 87,
+   "n'en": 87,
+   "vie": 86,
+   "fois": 86,
+   "trop": 86,
+   "nouveau": 85,
+   "conseil": 85,
+   "dire": 84,
+   "mêmes": 84,
+   "j'ai": 83,
+   "monde": 82,
+   "besoin": 82,
+   "l'autre": 82,
+   "français": 82,
+   "l'intérieur": 81,
+   "mouvement": 81,
+   "l'un": 81,
+   "peuple": 79,
+   "n'y": 79,
+   "intérêts": 79,
+   "eût": 78,
+   "état": 77,
+   "mort": 77,
+   "beaucoup": 77,
+   "sentiment": 76,
+   "seul": 76,
+   "garde": 76,
+   "tant": 76,
+   "you": 75,
+   "s'y": 75,
+   "n'avait": 75,
+   "nationale": 74,
+   "trois": 74,
+   "cet": 74,
+   "justice": 73,
+   "serait": 73,
+   "ministère": 73,
+   "nom": 72,
+   "presque": 72,
+   "faut": 72,
+   "idées": 71,
+   "place": 71,
+   "and": 70,
+   "politiques": 69,
+   "sera": 69,
+   "aucun": 68,
+   "sentiments": 68,
+   "succès": 68,
+   "lieu": 68,
+   "juillet": 67,
+   "peine": 67,
+   "l'europe": 67,
+   "laffitte": 66,
+   "grands": 66,
+   "publique": 66,
+   "lois": 66,
+   "aucune": 66,
+   "mesure": 66,
+   "surtout": 65,
+   "devant": 65,
+   "siège": 65,
+   "cour": 64,
+   "parmi": 63,
+   "dès": 63,
+   "générale": 62,
+   "pouvait": 62,
+   "devoir": 62,
+   "mal": 62,
+   "n'a": 62,
+   "aujourd'hui": 61,
+   "votre": 61,
+   "esprits": 60,
+   "charte": 60,
+   "s'en": 60,
+   "milieu": 60,
+   "caractère": 60,
+   "divers": 59,
+   "fût": 59,
+   "pensée": 59,
+   "personne": 59,
+   "saint": 58,
+   "travail": 58,
+   "révolutionnaire": 58,
+   "nécessité": 58,
+   "n'était": 58,
+   "suis": 58,
+   "l'administration": 58,
+   "monarchie": 57,
+   "résistance": 57,
+   "questions": 57,
+   "mettre": 57,
+   "seule": 57,
+   "principes": 57,
+   "maréchal": 57,
+   "l'autorité": 57,
+   "chez": 56,
+   "confiance": 56,
+   "lutte": 56,
+   "d'orléans": 55,
+   "prendre": 55,
+   "gens": 55,
+   "partout": 54,
+   "envers": 54,
+   "grandes": 54,
+   "états": 54,
+   "bon": 53,
+   "but": 53,
+   "donner": 53,
+   "mois": 53,
+   "dehors": 53,
+   "bonne": 53,
+   "pologne": 53,
+   "telle": 52,
+   "compte": 52,
+   "passions": 51
+  },
+  "guizot-memoires-t3-gutenberg.txt": {
+   "lui": 369,
+   "avait": 344,
+   "sont": 330,
+   "qu'il": 315,
+   "sans": 306,
+   "l'instruction": 292,
+   "c'est": 287,
+   "était": 286,
+   "ont": 281,
+   "été": 278,
+   "gouvernement": 239,
+   "loi": 219,
+   "politique": 211,
+   "roi": 205,
+   "france": 202,
+   "d'une": 196,
+   "the": 193,
+   "publique": 192,
+   "fut": 189,
+   "cabinet": 179,
+   "sous": 178,
+   "temps": 171,
+   "d'un": 170,
+   "deux": 168,
+   "liberté": 167,
+   "votre": 166,
+   "point": 165,
+   "qu'on": 164,
+   "hommes": 164,
+   "quelques": 164,
+   "quand": 162,
+   "l'état": 161,
+   "peu": 159,
+   "notre": 158,
+   "mon": 151,
+   "nos": 149,
+   "général": 147,
+   "pouvoir": 146,
+   "écoles": 144,
+   "soit": 141,
+   "contre": 139,
+   "société": 138,
+   "avaient": 137,
+   "qu'elle": 134,
+   "grand": 134,
+   "j'ai": 133,
+   "jour": 133,
+   "primaire": 132,
+   "chambre": 128,
+   "non": 127,
+   "étaient": 122,
+   "grande": 119,
+   "droit": 117,
+   "lyon": 117,
+   "moment": 113,
+   "mêmes": 111,
+   "fois": 110,
+   "qu'ils": 110,
+   "eux": 110,
+   "cet": 109,
+   "ministre": 107,
+   "travaux": 105,
+   "part": 103,
+   "public": 101,
+   "beaucoup": 100,
+   "moi": 99,
+   "situation": 98,
+   "gutenberg": 97,
+   "parti": 96,
+   "place": 96,
+   "pays": 95,
+   "jours": 95,
+   "rien": 95,
+   "paris": 94,
+   "dire": 94,
+   "c'était": 93,
+   "saint": 93,
+   "ville": 93,
+   "vie": 91,
+   "doit": 90,
+   "ministère": 89,
+   "question": 89,
+   "seulement": 89,
+   "project": 88,
+   "donner": 88,
+   "trop": 88,
+   "l'histoire": 87,
+   "n'est": 87,
+   "succès": 86,
+   "faut": 86,
+   "l'ordre": 86,
+   "plusieurs": 86,
+   "affaires": 85,
+   "duc": 85,
+   "l'esprit": 83,
+   "quelque": 82,
+   "l'un": 81,
+   "mes": 80,
+   "établissements": 79,
+   "travail": 79,
+   "sera": 79,
+   "politiques": 78,
+   "lois": 78,
+   "esprits": 77,
+   "générale": 77,
+   "maréchal": 77,
+   "l'université": 76,
+   "chambres": 76,
+   "membres": 76,
+   "conseil": 76,
+   "you": 75,
+   "lieu": 75,
+   "trois": 75,
+   "partout": 74,
+   "caractère": 73,
+   "divers": 72,
+   "diverses": 72,
+   "nouvelle": 71,
+   "surtout": 71,
+   "nombre": 71,
+   "serait": 71,
+   "régime": 70,
+   "l'église": 70,
+   "and": 69,
+   "n'a": 69,
+   "tant": 68,
+   "vos": 68,
+   "projet": 68,
+   "d'instruction": 67,
+   "presque": 67,
+   "dès": 67,
+   "aucun": 67,
+   "chaque": 67,
+   "monsieur": 67,
+   "soldats": 67,
+   "nom": 66,
+   "députés": 66,
+   "force": 66,
+   "insurgés": 66,
+   "parmi": 65,
+   "mal": 65,
+   "idées": 64,
+   "besoin": 64,
+   "droits": 63,
+   "d'autres": 63,
+   "suis": 63,
+   "prendre": 63,
+   "seul": 63,
+   "souvent": 63,
+   "broglie": 62,
+   "grands": 62,
+   "loin": 61,
+   "premier": 61,
+   "faits": 61,
+   "assez": 60,
+   "nouveau": 60,
+   "bonne": 60,
+   "s'y": 60,
+   "propre": 60,
+   "comité": 60,
+   "amis": 59,
+   "qu'elles": 59,
+   "mettre": 59,
+   "rapport": 59,
+   "guerre": 59,
+   "but": 58,
+   "quatre": 57,
+   "enfin": 57,
+   "moyens": 56,
+   "uns": 56,
+   "cours": 56,
+   "esprit": 56,
+   "département": 56,
+   "n'y": 56,
+   "avril": 56,
+   "pièces": 56,
+   "nationale": 55,
+   "résistance": 55,
+   "confiance": 55,
+   "première": 55,
+   "qu'à": 55,
+   "feu": 55,
+   "n'en": 54,
+   "personnes": 54,
+   "personne": 54,
+   "l'administration": 54,
+   "l'autorité": 54,
+   "furent": 54,
+   "devant": 54,
+   "primaires": 54,
+   "historiques": 54,
+   "état": 53,
+   "libre": 53,
+   "bon": 53,
+   "thiers": 53,
+   "cause": 53,
+   "études": 53,
+   "fort": 53,
+   "aucune": 53,
+   "sociétés": 52
+  },
+  "talleyrand-memoires-v1.txt": {
+   "avait": 706,
+   "lui": 688,
+   "qu'il": 617,
+   "était": 609,
+   "prince": 539,
+   "fut": 496,
+   "roi": 431,
+   "google": 376,
+   "france": 366,
+   "talleyrand": 325,
+   "été": 274,
+   "mémoires": 265,
+   "l'empereur": 261,
+   "sans": 239,
+   "deux": 236,
+   "napoléon": 236,
+   "c'est": 231,
+   "peu": 228,
+   "sous": 216,
+   "général": 216,
+   "d'une": 214,
+   "grand": 197,
+   "quelques": 196,
+   "duc": 192,
+   "point": 181,
+   "d'un": 180,
+   "paris": 176,
+   "ministre": 176,
+   "mon": 170,
+   "avaient": 169,
+   "mourut": 168,
+   "qu'on": 164,
+   "sont": 153,
+   "due": 153,
+   "louis": 152,
+   "moi": 150,
+   "temps": 147,
+   "d'orléans": 144,
+   "étaient": 143,
+   "quelque": 143,
+   "pouvait": 143,
+   "paix": 137,
+   "premier": 136,
+   "puis": 135,
+   "comte": 135,
+   "madame": 131,
+   "affaires": 131,
+   "devint": 130,
+   "contre": 128,
+   "qu'elle": 127,
+   "vie": 125,
+   "jour": 123,
+   "grande": 120,
+   "hommes": 119,
+   "aurait": 119,
+   "trop": 116,
+   "rien": 114,
+   "nom": 114,
+   "l'on": 112,
+   "j'ai": 109,
+   "dire": 108,
+   "chez": 108,
+   "traité": 108,
+   "cet": 104,
+   "moment": 104,
+   "états": 104,
+   "ont": 102,
+   "serait": 102,
+   "partie": 101,
+   "devait": 100,
+   "pays": 98,
+   "guerre": 98,
+   "jours": 98,
+   "assez": 96,
+   "cour": 95,
+   "nommé": 95,
+   "famille": 93,
+   "qu'ils": 93,
+   "alexandre": 92,
+   "majesté": 92,
+   "mes": 91,
+   "part": 91,
+   "près": 91,
+   "ans": 90,
+   "donner": 89,
+   "princes": 89,
+   "n'est": 89,
+   "pouvoir": 89,
+   "c'était": 89,
+   "seul": 87,
+   "laquelle": 87,
+   "n'était": 87,
+   "voir": 86,
+   "fit": 85,
+   "soit": 83,
+   "parlement": 83,
+   "français": 83,
+   "l'esprit": 82,
+   "maison": 82,
+   "mort": 81,
+   "aucune": 81,
+   "rendre": 81,
+   "conseil": 80,
+   "première": 80,
+   "fort": 79,
+   "homme": 78,
+   "monde": 77,
+   "n'y": 76,
+   "eux": 76,
+   "n'avait": 76,
+   "d'espagne": 76,
+   "saint": 75,
+   "charles": 75,
+   "membre": 75,
+   "plusieurs": 74,
+   "révolution": 73,
+   "notre": 73,
+   "fois": 73,
+   "fallait": 72,
+   "russie": 71,
+   "eut": 71,
+   "bonaparte": 70,
+   "quand": 70,
+   "généraux": 70,
+   "corps": 70,
+   "celte": 69,
+   "maréchal": 69,
+   "prendre": 67,
+   "chose": 67,
+   "l'empire": 67,
+   "l'angleterre": 66,
+   "beaucoup": 66,
+   "faisait": 66,
+   "politique": 64,
+   "trois": 64,
+   "nouveau": 64,
+   "s'il": 64,
+   "personne": 64,
+   "choses": 64,
+   "voulait": 64,
+   "aucun": 63,
+   "grands": 63,
+   "reine": 63,
+   "clergé": 63,
+   "l'ordre": 62,
+   "l'europe": 62,
+   "n'a": 62,
+   "moyens": 62,
+   "vers": 61,
+   "non": 61,
+   "prusse": 61,
+   "parce": 61,
+   "tant": 60,
+   "ment": 60,
+   "suite": 60,
+   "mêmes": 60,
+   "d'état": 60,
+   "fils": 60,
+   "d'être": 60,
+   "devant": 60,
+   "faut": 60,
+   "l'armée": 60,
+   "caractère": 59,
+   "confiance": 59,
+   "j'avais": 58,
+   "l'un": 58,
+   "lettre": 58,
+   "presque": 58,
+   "votre": 58,
+   "l'assemblée": 57,
+   "qu'un": 57,
+   "député": 57,
+   "manière": 56,
+   "époque": 56,
+   "sera": 56,
+   "heures": 56,
+   "gouvernement": 56,
+   "baron": 56,
+   "qu'à": 55,
+   "force": 55,
+   "marquis": 55,
+   "peuple": 55,
+   "entra": 55,
+   "d'abord": 54,
+   "directoire": 54,
+   "pris": 54,
+   "s'était": 54,
+   "sire": 54,
+   "quatre": 53,
+   "personnes": 53,
+   "esprit": 53,
+   "droit": 53,
+   "chaque": 53,
+   "genre": 53,
+   "souvent": 53,
+   "l'autre": 53,
+   "président": 53,
+   "ensuite": 52,
+   "furent": 52,
+   "parti": 52
+  }
+ }
+}

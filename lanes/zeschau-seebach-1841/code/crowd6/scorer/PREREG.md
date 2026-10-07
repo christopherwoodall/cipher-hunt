@@ -38,6 +38,19 @@ S(K) = S_let_proj + LAM_WORD·S_word + LAM_ROT·S_phase + S_prior
   design). Cap 6: safe for the control truth (max quota 2: drivers/anchors/
   islet-primaries all have exactly 2 groups) and for the petit-chiffre
   family (max quota 3–5 by largest remainder).
+- **AMENDMENT 2026-10-07 (pre-run, measurement-driven):** the projected cap
+  is UNSAFE. Measured on the sealed control: truth's projected 'e' has
+  n_p=10 (raw cells e/es/et/é/est ×2 groups each all project to 'e') —
+  cap 6 would penalize truth itself. The projection legitimately collapses
+  distinct raw cells, so a projected cap cannot distinguish the exploit
+  (89 groups → one raw cell) from legitimate collapse. REVISED: S_conc over
+  RAW v1 cells, cap=3 (the joint engine's original HOM_MAX). Safe BY
+  CONSTRUCTION: build_codebook gives every non-singleton cell exactly 2
+  groups (anchors, islet primaries, drivers), singletons 1 → max raw n_c=2
+  < 3; petit-chiffre max quota 3–5, so 3 is the conservative end. The
+  accent-evasion case (me/mê/mè split across raw cells) is a hypothetical
+  second-order threat — if the ablation exhibits it, a projected tier is
+  added; otherwise the design stays minimal.
 
 ## Frozen hyperparameters (no truth labels used)
 

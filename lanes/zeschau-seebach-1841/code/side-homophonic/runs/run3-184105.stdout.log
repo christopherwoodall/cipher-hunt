@@ -1,0 +1,16 @@
+[harness] synthetic control: 1846 pairs, 96 groups, seed=184105
+[solver] pairs=1846 groups=96 config={"restarts": 12, "iters": 40000, "t0": 60.0, "tmin": 0.05, "lambda_word": 1.0, "beta0": 2.0, "w_soft": 3.0, "lambda_poly": 20.0}
+[solver] inventory=291 chi2=6.2 gate=0.0021 beta=0.004 maxw=15
+[solver] inventory projection collisions: 143 values share a projected form
+[solver] restart 0: best=4051.2 final=4031.1 acc=0.259 npoly=53 (227s)
+[solver] restart 1: best=4289.9 final=4280.5 acc=0.300 npoly=53 (370s)
+[solver] restart 2: best=4358.4 final=4300.9 acc=0.271 npoly=55 (516s)
+[solver] restart 3: best=4226.8 final=4146.8 acc=0.273 npoly=53 (655s)
+[solver] restart 4: best=4329.4 final=4129.4 acc=0.284 npoly=60 (787s)
+[solver] restart 5: best=4413.8 final=4216.6 acc=0.273 npoly=58 (907s)
+[solver] restart 6: best=4403.4 final=4192.2 acc=0.263 npoly=61 (1038s)
+[solver] restart 7: best=3985.1 final=3898.6 acc=0.237 npoly=54 (1187s)
+[solver] restart 8: best=4351.5 final=4207.8 acc=0.292 npoly=58 (1331s)
+[solver] restart 9: best=4459.7 final=4363.2 acc=0.289 npoly=60 (1484s)
+[solver] restart 10: best=4099.3 final=3998.6 acc=0.254 npoly=55 (1652s)
+[solver] restart 11: best=4136.5 final=4095.0 acc=0.268 npoly=55 (1777s)

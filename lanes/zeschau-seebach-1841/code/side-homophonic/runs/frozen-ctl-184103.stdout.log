@@ -14,3 +14,8 @@
 [solver] restart 9: best=4534.8 final=4488.8 acc=0.241 npoly=55 (1896s)
 [solver] restart 10: best=4538.6 final=4431.7 acc=0.234 npoly=55 (2417s)
 [solver] restart 11: best=4811.3 final=4593.5 acc=0.214 npoly=57 (2767s)
+[solver] BEST restart 1841: 4814.7 vs random20 max -11262.4 (margin +16077.1 nats)
+[solver] wrote ../runs/frozen-ctl-184103/result.json
+[harness] primary=0.0000 proj_equiv=0.0000 secondary=0.1073 mrr=0.0112 islets=0/6 margin=+16077.1nats
+[harness] wrote ../runs/frozen-ctl-184103/control_report.json
+[harness] no verdict at instance level; use --aggregate for §4

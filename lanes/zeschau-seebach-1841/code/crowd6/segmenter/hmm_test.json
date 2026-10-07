@@ -1,0 +1,72 @@
+{
+ "thread2": {
+  "split": "train=pairs[0:1231] test=pairs[1231:]",
+  "n_train_trans": 1230,
+  "n_test_trans": 615,
+  "M_big": {
+   "k": 9120,
+   "trainLL": -4609.1,
+   "testLL_per_trans": -4.2356,
+   "BIC": 74104.9
+  },
+  "M_hmm": {
+   "k": 293,
+   "trainLL": -4962.13,
+   "best_restart": 8,
+   "restart_trainLLs": [
+    -4976.28,
+    -5078.39,
+    -5153.2,
+    -5178.83,
+    -4987.76,
+    -5189.62,
+    -5167.66,
+    -5134.73,
+    -4962.13,
+    -5088.32
+   ],
+   "testLL_per_trans": -4.2638,
+   "BIC": 12008.9,
+   "A": [
+    [
+     0.086,
+     0.21,
+     0.705
+    ],
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.672,
+     0.328
+    ]
+   ],
+   "pi": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "M_phm": {
+   "k": 395,
+   "trainLL": -5442.19,
+   "testLL_per_trans": -4.5348,
+   "BIC": 13694.7
+  },
+  "verdict_hmm_beats_bigram": false,
+  "viterbi_banked_contingency": {
+   "S1/C": 2,
+   "S0/B": 16,
+   "S2/A": 8,
+   "S1/A": 21,
+   "S2/B": 10,
+   "S2/C": 10,
+   "S0/A": 3,
+   "S0/C": 5,
+   "S1/B": 1
+  }
+ }
+}

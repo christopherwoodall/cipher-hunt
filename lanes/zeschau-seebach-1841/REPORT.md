@@ -5,10 +5,12 @@
 seven ground-truth pencil cribs + seven provisional lane-inferred values
 (87=ce, 64=qui, 96=par, 94=ne, 06=verb-stem class, 67=veut class, 77="le"
 conditioned) + leads (62="on" fenced-lead, 78="me"-syllable, 78="ver" islet,
-52="pas", 24="en", 47="ce", 43="me" fenced). No decryption; three attempts,
-five crowd rounds, and four sidepaths have produced a repaired canonical
-parse, a second "la première" occurrence, a quantified conditioned-polyvalence
-model, and twenty-two documented nulls.
+52="pas", 24="en", 47="ce", 59="est" strong-lead [pre-red-team],
+00="pour" strong-lead [pre-red-team], 78-45="même", 84="en" vs
+84=noun-class [unresolved conflict, both LEAD], 43="me" WEAK). No decryption;
+three attempts, six crowd rounds, and six side fleets have produced a repaired
+canonical parse (bedrock-audited, F41), a second "la première" occurrence, a
+quantified conditioned-polyvalence model, and thirty-one documented nulls.
 
 Lane: `lanes/zeschau-seebach-1841/` · Report date: 2026-10-07 ·
 Methodology log: `NOTES.md` · Checkpoint: `STATE.md`
@@ -117,9 +119,9 @@ unidentified/leads.*
 
 Three phases. **Phase A (verification):** transcription loads to 70 lines,
 3,764 digits, 96 groups — matches upstream's 96/100 claim.
-All seven cribs present (old-parse counts; repaired-parse counts in fig 1):
-11=la ×44, 70=pre ×15, 82=m ×38, 34=i ×10, 29=er ×47 (rank 2 on the old
-parse — consistent with 'er' as a top French syllable), 40=e ×21, 46=que
+All seven cribs present (repaired-parse counts; bedrock-verified):
+11=la ×45, 70=pre ×15, 82=m ×39, 34=i ×11, 29=er ×45 (rank 4 on the
+repaired parse — still a top French syllable), 40=e ×21, 46=que
 ×29. **Phase B (anchor-context profiling):** strongest bigram 82→16 in
 11/39 cases (28.2% on the repaired parse); 87→11 in 7/32 (21.9%, "87 la").
 Followers of 46=que diffuse.
@@ -246,6 +248,94 @@ N20) with a period-3 rhythm lead (E1, F38); **87=ce new legs** (A1
 exclusions — F37). Red-team kill ledger: promotions 1, demotions 0, kills
 0, fenced 1; armed baseline 29/29 PASS.
 
+### Crowd round 6 (`code/crowd6/`) — EXECUTOR-GRADE, PRE-RED-TEAM
+
+Round-6 red-team adjudications have NOT landed (0/7 dockets;
+`code/crowd6/redteam/rulings.md` ledger empty — the armed baseline was
+extended first: 30 inherited + 19 round-6 checks = **49/49 PASS** against
+the repaired stream; methodology flags F26-14/F26-15 banked). Everything
+below is executor-graded LEAD/NULL — nothing promoted, nothing killed
+until the rulings land.
+
+- **Bigram closer (exploit 77="le"):** 84 = masculine NOUN **LEAD-grade**,
+  identity NULL (honest, register-robust — F46): article-frame ×8
+  ("le 84" ×7, "la 84" ×1) + que-clause-subject ×3 ("que 84" ×2, "que le
+  84 24" ×1); 84="fait" re-killed 6.75×, 84="gouvernement" 6.12×. The
+  slot re-parsed: **84→59 is ×4, not ×2** (earlier undercount corrected),
+  and 59→46 ×2 / 59→37 ×6 make 59="verb" a LEAD — so 64-77-84-59 ×2 =
+  "qui le [noun] [verb]": **the verb slot is 59, not 84**. The "le me"×7
+  DISSOLVES per-instance, both fences mapped, zero holdouts (2/7 the
+  "ver"-islet inside the ×2 5-mer; 5/7 me-syllable frames; P(78|77)=0.159
+  vs P(78|47)=0.179 — 77 is unremarkable, no special "le me" construction).
+  45="me"-word **disfavored-strong** (unigram 9.14× out, "par me" ×2
+  era-0, "me qui" ×3 era-0 fenced on 64="qui"); **78-45="même" LEAD**
+  (0.57× in-band, "le même qui" lock @313 under 37="le"). Trace:
+  `code/crowd6/bigram_closer/{closer6.py,closer6.md,closer6*.json}`,
+  `report_inbox/bigram-closer-77le.md` (this sweep).
+- **Closer WO-A (84 from the 87-side) + WO-B (00="pour"):** **84="en"
+  LEAD** (sole survivor; promotion BLOCKED): unigram 1.10×, "qu'en"
+  1.36× (GT-anchored), "n'en" common, "m'en" on GT 82=m; but "l'en"
+  runs **141×/63× over era** under the standing 77="le" [prov] — kill-grade,
+  blocks promotion; 24/25 windows read cleanly. Rival kills banked:
+  84="plus" KILLED (via 59="est": "plus est" era ~0), 84="a" KILLED,
+  84=verb-class KILLED. **DIRECT CONFLICT with the bigram closer** (84=noun
+  vs 84="en"): untested resolution flagged for round 7 — conditioned
+  polyvalence (84="en" iff pre∈{46,94,82}, 84=noun iff pre∈{77,11});
+  9/25 predecessors unclassified, so a battery, not adjudication.
+  **59="est" STRONG LEAD** (1.39×; "qui est" ✓; "n'est" at era P=0.238,
+  n=324; fenced adverse: 59→37 ×6 reads 6.47× over era conditional on
+  37="le" [MEDIUM]; interacts with the 01="est" lead — red-team call).
+  **00="pour" STRONG LEAD**: M1 governor frame (00→86 ×12 "pour [inf]"
+  vs 00→06 ×0) + conditional rates + full rival sweep all pass, but the
+  unigram is 6.22× over era and "pour que" 3.85× — promotion blocked on
+  rates. Elision discipline matters: the cipher writes UNELIDED
+  ("c'est"=87-01), so cipher "que"+"en" compares to era "qu"+"en", not
+  "que"+"en". Trace: `code/crowd6/closer/closer87_00.{py,md,json}`,
+  `report_inbox/closer-87ce-00pour.md` (this sweep).
+- **Frenchman (62="on" non-ear battery):** NO PROMOTION — 62="on" stays
+  STRONG LEAD (fenced); honest null (N25): on≈il tie on clean pieces
+  (joint −26.54 vs −26.82, Δ=+0.27 nats; "qui" weakly disfavored −6.2).
+  Cipher-internal calibration **voids the old "il"-differential AND the
+  merger corroboration**: the encipherer writes /k/+V SPLIT (46→29 ×2
+  "qu'er", never before /i//e/), not merged. One caveated adverse datum
+  for "on" under H-split (46→62=0/29, E=7.18, p=2.6e-4 — single,
+  four-ways caveated, adverse not kill-grade). The profile route is proven
+  unbridgeable with the current inventory; 59=verb banked (GT-anchored:
+  11→59 ×1, 59→46 ×2, 59→37 ×6). Trace:
+  `code/crowd6/frenchman62/{battery62.py,era_rates.py,qu_rates.py,que_contexts.py,windows.py,battery62_results.json,frenchman62_round6.md}`,
+  `report_inbox/frenchman-62-non-ear.md` (this sweep).
+- **Morphologist:** WO-A (96 conditioned-verb battery, the ranked-#1
+  unblocker for 47="ce" promotion) = **UNVERIFIABLE — honest null** (N26):
+  the "ce qui __ ce que" frame (87-64-X-47-46) is a hapax (1/1,847); 20/21
+  other 96-frames are clean "par" (parce_que ×4 @150/@224/@952/@1526,
+  par_43 ×2, par+NP ×14); era "ce qui"+verb 213/213 in Tocqueville.
+  47="ce" promotion stays BLOCKED. WO-B (67 classification): et/veut fork
+  **SUPPORTED as conditioned polyvalence (F33-form), NOT promoted** —
+  19/38 classified with ZERO cross-contamination (et-side 8 kill "veut";
+  veut-side 11 kill "et"; fork ratio 113.0); "la veut" @1044–1045 pins a
+  3sg transitive verb, NOT uniquely "veut"; 19/38 open. **43="me"
+  DOWNGRADED MEDIUM→WEAK** ("par 43"×2 n_eff=1, era "par me"=0). Trace:
+  `code/crowd6/morphologist/{battery96_67.py,battery96_67_results.json}`,
+  `report_inbox/morphologist-96-67.md` (this sweep).
+- **Scorer (round 6):** repaired-objective re-run PRE-REGISTERED
+  (`code/crowd6/scorer/PREREG.md`; `objective.py`, `phonetics.py`,
+  `models.py`, `selftest_objective.py`, `step0_baseline.py`): frozen
+  objective S = S_let_proj + LAM_WORD·S_word + LAM_ROT·S_phase + S_prior −
+  LAM_POLY·n_poly + S_conc — phonetic projection, longest-match
+  non-overlapping spanning word bonus (the side fleet's D2 overlapping-hit
+  bug explicitly NOT imported), concentration penalty ON, LAM_POLY set by
+  crossover calibration at 2× margin, LAM_ROT=0 held out, inventory top-600
+  rule units + letters. Steps 0/0.5/2/3 LANDED (executor-grade, IN PROGRESS —
+  F56); steps 1 (lam_poly calibration) and 4 (concentration penalty)
+  pending; control verdict (pre-registered bars C1–C4) not landed — gate
+  holds. The side fleet's frozen control is failing (seed 184101: primary
+  0.0000, secondary 0.1473 ≈ chance 0.1434; planted truth −6,959.9 vs
+  annealed best +4,127.4 — the objective's optimum is at the wrong place),
+  so their word bonus is imported D2-REPAIRED (longest-match dedupe,
+  non-overlapping, spanning-only, per-letter), not verbatim — per their
+  own repair direction (a). Their `phonetics.py` (30 classes, 42/42
+  self-tests PASS) imported verbatim.
+
 ![Fig 5](report_assets/fig5_verdict_board.png)
 
 *Fig 5 — Verdict board: attempts 1–3, crowd rounds 1–5, side fleets.*
@@ -301,6 +391,144 @@ exclusions — F37). Red-team kill ledger: promotions 1, demotions 0, kills
   move; pre-registered gate bars proposed (PRIMARY ≥0.50, islets ≥4/6,
   best−random20 ≥200 nats, MRR ≥0.60); pilot PRIMARY was still TBD (run in
   flight) at note time. No R5005 execution — the gate stays closed.
+- **side-rotation (rotation fleet):** prereg-first falsification battery for
+  the column-geometry hypothesis H_col (K1 number-range, K2
+  homophone-cycling, K3 clerk simulation [the hard DEAD gate], K4
+  linguistic-coherence [strongest falsifier], K5 boundary-independence —
+  written 16:55, before ANY executor result merged; binding rules R1–R6;
+  red-team R-0 compliance). **Phonetician: NULL 6/6** (open/closed
+  p=0.2500, tier p=0.3465, sonority p=0.7752, n=16; T-Pa2 p=0.0242 fails
+  the pre-registered Bonferroni 0.0167; red-team independently re-derived
+  all 6 to <1e-6 — R-1) — the third granularity where phases refuse
+  linguistic meaning. **Rhythmicist:** WO1b labeling-robustness **FAILED
+  as stated** — only 1/5 fresh-clustering variants survive (Jaccard k=16:
+  chi²=354.9, z=+4.71, agree 0.948; cosine z=+0.51, k=8 z=+0.20, half1
+  z=+0.28, half2 z=+0.23 all die; agreements 0.344–0.458 except k=16) —
+  structure robust under one clustering, membership fragile (N30); WO3:
+  **3-state HMM does NOT beat the 96-group bigram decisively** (held-out
+  −4.2938 vs −4.3774/pos, bigram wins; ΔBIC=+59824.3 but the conjunction
+  fails; second split −4.2356 vs −4.2638 replicates) — executor-grade;
+  WO2 pre-registered tests **VOID by construction** (phase is a
+  deterministic function of group; exact-repeat phrases share their start
+  group — post-hoc salvage: 6 distinct formula starts all in {B,C},
+  H1 p=0.0093 / H2 p=0.034 / H3 p=0.049, descriptive only, no claim);
+  E1-pipeline refinement: the banked z=+5.6 reproduces on the
+  ABC-restricted construction (obs=0.4219, exp=0.3505/0.3530, z=+5.6–5.8);
+  the full 4-state pipeline gives z=+5.29 — significance stands, exact z
+  is pipeline-dependent. **Segmenter thread-4 (executor-grade):** P2a
+  momentum **SUPPORT** (after a cycle step, the cycle continues: r1=0.6327
+  vs r0=0.4856, z=+4.77, one-sided p≈0 — moving-finger mechanism's
+  sequential prediction holds); P2b **FALSIFIED** (2nd-order Markov no
+  better than 1st-order on held-out: −1.2189 vs −1.2143/pos); P2c
+  **FALSIFIED** ("one column order" — the dominant directed 3-cycle FLIPS
+  across stream halves and clustering variants: halves rev/fwd, V_cos rev,
+  V_half1/V_half2 rev — consistent with bedrock's labeling-relative
+  ruling). **Geometer (executor-grade, pre-red-team):** WO1 number-range
+  NULL (p=0.569/0.883, Cramér's V 0.14/0.09); WO2 homophone-cycling NULL
+  (94 p=0.809 powered, 52 p=0.219, 06 untestable/vacuous; non-vacuous
+  Fisher combined p~0.48 — the literal 3-way p=0.036 is manufactured by
+  the vacuous 06 component and NOT claimed); WO3 clerk simulation 0/6
+  behaviors pass the screening bars (no behavior reproduces the signature
+  M1/chi²/M2z/M3/ARI; screening design per R-3, K3's joint bars untouched).
+  **Label-agreement reconciled (R-4):** 69/96 best-permutation (27/96 =
+  28% membership change); the naive-identity 61/96 figure retired as the
+  fragility headline (overstated 2.3×). **FLEET SYNTHESIS (2026-10-07,
+  coordinator verdict — red-team adjudication of the underlying executor
+  results still pending): COLUMN-GEOMETRY IN ITS ARBITRARY-COLUMN FORM IS
+  KILLED** (F54) — the pre-registered binding kill conditions fired on four
+  independent legs: (1) WO3 generative: no clerk behavior reaches observed
+  strength (best derived M1=30.8 vs 366.3; best derived z=+1.00 vs +5.61 —
+  `GEOMETER-FINDINGS.md`); (2) K1 number-range: NULL — column-contiguous
+  and row-major print layouts dead; (3) K2 homophone-cycling: NULL where
+  powered; (4) the STRUCTURAL falsification: contact clustering can NEVER
+  recover linguistically-arbitrary columns (B6 deterministic rotation
+  ARI=0.000, B7 strong-soft ARI=0.043; ARI≈0 from null through
+  deterministic — contact profiles are dominated by syllable linguistics),
+  yet the observed phases WERE found by contact clustering — so they cannot
+  be arbitrary table columns. Two sharp sub-results: a taboo-2 "don't
+  reuse a column used in the last 2 steps" memory DOES make lag-3
+  z≈+8-class rhythm at the process level (B3 true-col z=+8.34) while pure
+  first-order rotation does not (z≈0.3–0.8) — the observed z=+5.6 would
+  need ≥2nd-order memory IF columnar at all; and the 3-state HMM's EM
+  recovers phase-like states unsupervised (state1: P(A)=0.719, state2:
+  P(B)=0.597, state0: P(C)=0.437) — the one surviving thread. **Narrow
+  surviving refuge (a DIFFERENT, weaker hypothesis):** columns = an untested
+  linguistic class (e.g. onset/coda phonotactics) — testable only with key
+  recovery, inherits none of the killed form's evidence. Honest statement
+  of the rotation now: real (z≈+5.6, global, distributed, survives
+  formula-masking), partition-dependent (Jaccard-k12/k16 only), no
+  phase-free corroboration, no discourse coupling, no linguistic mapping at
+  four granularities, no number structure, no homophone cycling, no
+  simulable clerk process — UNEXPLAINED; a constraint on the key, not an
+  explanation. Trace:
+  `code/side-rotation/{FLEET-SYNTHESIS.md,prereg_falsification.md,
+  geometer/{GEOMETER-FINDINGS.md,wo3_exploratory.{py,json}},
+  redteam/RULINGS.md}`,
+  `report_inbox/{geometer-wo1-number-range,geometer-wo2-homophone-cycling,
+  geometer-wo3-clerk-simulation,rotation-fleet-synthesis-2026-10-07,
+  overwatch2-status-2026-10-07}.md` (this sweep). Trace:
+  `code/side-rotation/{prereg_falsification.md,prereg_{phonetician,geometer}.md,phonetician/,rhythmicist/,geometer/,redteam/RULINGS.md,redteam/agreement_reconciliation.md}`,
+  `report_inbox/{phonetician-cv-structure,redteam-rotation-prereg-gate}.md`
+  (this sweep); `code/crowd6/segmenter/{PREREG.md,rotation_r6.json,hmm_test.json}`.
+- **bedrock (independent-verification lane):** two independent verifiers
+  (separate code, no shared logic, no lane code imported) + a red-team
+  adjudicator with a THIRD derivation from scratch — primary sources only
+  (`upstream-ct_R5005.digits.txt`, `upstream-offsets.json`,
+  `repaired_offsets.json`). **Foundation SOLID**: transcription (70
+  lines, 3,764 digits), 1,847-pair parse, 96 groups, repair locality
+  (exactly a5_03 1→0, all other rows byte-identical), crib positions
+  @754/@1034, all windows/bigrams/trigrams (62→94 ×9, 24-87-64 ×3,
+  64-96-43-87-01 ×2, 00→86 ×12 vs 00→06 ×0, 77→86 ×5, 94→82 ×4, 87-64-77-84
+  @1800) — all PASS; chi²=366.3 reproduced to the decimal (df=4, p≈5e-78);
+  an independent Hellinger-geometry k-means finds the 3-cycle independently
+  (chi²=555.4/561.3). **Six stale counts corrected** (the lane updated
+  n62/n06 after the repair but missed six — all six = the pre-repair
+  1,846-parse values exactly): n64 46→**47**, n00 54→**55**, n11 44→**45**,
+  n82 38→**39**, n34 10→**11**, n29 47→**45**. 13 downstream cites traced —
+  **ZERO verdict flips**. Repair premise ruled **"conditionally canonical"**
+  — VALID given the gloss-over-a5_03 premise, UNVERIFIABLE without
+  manuscript images. **Cycle direction is labeling-relative** (independent
+  cosine geometry flips the dominant direction — F11's fixed direction
+  names dropped; only the 3-phase structure, suppressed self-transitions,
+  and the chi² are robust). Lag-3 significance stands, decimals softened
+  (z≈+5; verifier B gets 4.6–4.8 vs the lane's +5.6 on pipeline variants);
+  **lag-2 z=−3.18 unchecked by any independent derivation** — flag, not
+  refute. Verifiers agree on 100% of overlapping facts with zero
+  disagreements — every mismatch is lane staleness, never derivation
+  ambiguity. Required follow-ups banked: re-run
+  `crowd4/closer64_87_results.json` and `crowd3/morphologist_results.json`
+  on the repaired parse (both old-parse via `crib_attack.load_pairs`),
+  pin a rank convention. Trace: `code/bedrock/{BEDROCK.md,
+  verifier_a.{py,json},verifier_a_ledger.md,verifier_b.{py,json},
+  verifier_b_ledger.md,redteam_adjudication.md}`,
+  `report_inbox/bedrock-redteam.md` (this sweep).
+- **side-homophonic (frozen control batch, run2):** prior pre-freeze batch
+  VOID (inventory 288 ≠ frozen 291; removed `--chance` flag, rc=2);
+  negative control OK (mean_primary=0.0412 ≈ chance 0.0216 — the dead
+  annealer stays dead on the harder control). Frozen seeds:
+  **184101: primary=0.0000 (0/89), proj_equiv=0.0, secondary=0.1473 ≈
+  chance 0.1434, mrr=0.0262, islets 0/6, baseline margin +15050.3 nats** —
+  DEAD; the frozen rerun of 184101 reproduces it EXACTLY (reproducibility
+  datum); **frozen-ctl-184102: primary=0.0, proj_equiv=0.0225,
+  secondary=0.1241, mrr=0.0169, islets 0/6** — DEAD; seeds 184103/184104
+  still running. Diagnosis (sealed truth, control-only): **D1 objective
+  misalignment** — planted truth scores −6959.9 nats under the solver's
+  own objective vs annealed best +4127.4 (the true key is 11,087 nats
+  WORSE than a completely wrong key — the optimizer works, the
+  objective's optimum is at the wrong place); **D2 the word scorer is the
+  hole** — S_ac=13,510 overlapping short-word hits on degenerate
+  pseudo-French
+  ("titdeemenirereiemeprendceemeniremeiiemeprendceemeetereiiimesleursquelqueemeetdtemeniremequeleurscrececemais...")
+  vs ~2,500 on the true Les Mis decode (outscores real text 15× — no
+  length/normalization penalty on overlapping substring hits); **D3
+  polyvalence runaway** (n_poly 49–60 vs truth 6 — the penalty is dwarfed);
+  **D4 inventory gap** (6/96 truth primaries absent from the 291-item
+  inventory: 'vê'×2, 'té', 'né', 'vres', 'my' — true primary ceiling
+  83/89=0.933). Repair list: longest-match dedupe + normalization for
+  S_word, retune lambda_poly by marginal usage, extend Tier 1 with accented
+  by-ear forms, re-run on FRESH seeds. Trace:
+  `code/side-homophonic/runs/{RUN-REPORT.md,RUN2-BATCH.log,run2-184101/,
+  run2-184102/,frozen-ctl-18410{1,2}/,frozen_batch.log}`.
 
 ### Standing methodology rules (red-team-hardened)
 
@@ -372,7 +600,8 @@ transition prior, never a hard label.*
   `code/crowd4/closer64_87.py`.
 - **F7** — 82→16 as "ma" (16="a") not confirmed: PLAUSIBLE (1/4).
 - **F8** — Erratum: "87→11 in 7/44" quoted P(87|11); correct rate
-  P(11|87)=7/32=21.9%.
+  P(11|87)=7/32=21.9%. Bedrock 2026-10-07: the P(87|11) gloss's denominator
+  is the repaired n11=45 — the gloss reads "7/45".
 - **F9 (revised)** — 64="qui": CONFIRMED 4/4 (attempt 3) → **DEMOTED to
   provisional** by red-team-2 (factor-2 band admits "qu'" 1.50 and "n'" 1.97
   — the band doesn't identify "qui"). Round-4 symmetric battery 6–1–1 for
@@ -384,21 +613,31 @@ transition prior, never a hard label.*
   214,861 words); the 6.7× "cela" register gap found.
 - **F11 (revised)** — 3-phase rotational contact structure: rotation
   **re-verified on the repaired parse with recomputed phases,
-  chi²=366.3** (old-parse banked phases: 181.3 — stale). Under the repaired
-  phases the dominant 3-cycle reads **C→A→B→C** (C→A 0.624, A→B 0.545,
-  B→C 0.498; 1.60–1.71× over independence) — the reverse of the old
-  A→C→B→A, likely a label-permutation artifact of the Jaccard
-  re-clustering (61/96 groups changed phase) rather than a real rotation
-  flip. Self-transitions suppressed (0.36–0.55×). T0 verified: re-derived
+  chi²=366.3** (old-parse banked phases: 181.3 — stale); bedrock
+  2026-10-07 reproduces chi²=366.3 to the decimal (df=4, p≈5e-78), and an
+  independent Hellinger-geometry k-means finds the 3-cycle independently
+  (chi²=555.4/561.3 on 4df). **Cycle direction is labeling-relative — no
+  fixed direction is cited** (the repaired-labels dominant cycle flips
+  again under independent cosine geometry, and P2c falsified "one column
+  order" — thread-4 F50): robust facts are the 3 phases, the dominant
+  directed 3-cycle (1.60–1.71× over independence on banked labels),
+  suppressed self-transitions (0.36–0.55×), and the chi². Label agreement
+  banked vs old parse: **69/96 at best permutation (27/96 = 28% membership
+  change)** — the naive-identity "61/96 changed" figure is retired as the
+  fragility headline (overstated 2.3×; R-4). T0 verified: re-derived
   Jaccard-k12 phases match `phase_map_repaired.json` exactly (chi²=366.3
-  reproduced). Linguistic mappings all killed or null (N20); the live
-  hypothesis is enciphering-process table geometry (F38). **But phases are NOT
-  word-position classes** (tuner LOO 2/34 vs unconstrained 6/34; 0 of 4
-  A-phase anchors modal-medial). 29=er anchors phase C (word-final-ish).
-  87↔82 is the highest anchor-anchor Jaccard (0.423) with identical
-  C→X→A block signature. Trace: `code/crowd/contactor.py`,
+  reproduced). Linguistic mappings all killed or null (N20/N27); the live
+  hypothesis is enciphering-process table geometry (F38/F50). **But phases
+  are NOT word-position classes** (tuner LOO 2/34 vs unconstrained 6/34;
+  0 of 4 A-phase anchors modal-medial). 29=er anchors phase C
+  (word-final-ish). 87↔82 is the highest anchor-anchor Jaccard (0.423).
+  Lag-3: significance stands, decimals pipeline-dependent (banked +5.6–5.8
+  on the ABC-restricted pipeline; independent +4.6–4.8 on the 4-state
+  pipeline); **lag-2 z=−3.18 UNVERIFIED** — unchecked by any independent
+  derivation (flag, not refute). Trace: `code/crowd/contactor.py`,
   `code/crowd3/tuner.py`, `code/crowd4/phase_map_repaired.json`,
-  scorer-smith-joint note, figure-recompute note (this sweep).
+  `code/bedrock/`, `code/side-rotation/redteam/RULINGS.md`,
+  `code/side-rotation/redteam/agreement_reconciliation.md`.
 - **F12 (revised)** — **"la première" = 11-70-82-34-29-40 occurs TWICE:**
   0-based @754 (gloss line a5_03 — uncovered by the parse repair) and @1034
   (the lane's original @1033 on the old parse). Six consecutive
@@ -641,6 +880,387 @@ transition prior, never a hard label.*
   cela+X NULLs = non-evidence. Trace:
   `code/side-wordpattern/redteam/ADJUDICATION.md`.
 
+### Round-6 addenda (2026-10-07, this sweep)
+
+- **F41** — **Bedrock foundation audit** (ground-truth-grade for the
+  mechanical facts; value assignments remain manuscript/inference):
+  two independent verifiers + a third from-scratch red-team derivation
+  confirm the parse (1,847 pairs, 70 lines, 3,764 digits), the repair
+  locality (exactly a5_03 1→0), crib positions @754/@1034, all
+  windows/bigrams/trigrams, and chi²=366.3 to the decimal. **Six stale
+  counts corrected**: n64 46→47, n00 54→55, n11 44→45, n82 38→39,
+  n34 10→11, n29 47→45 (all six = the pre-repair 1,846-parse values —
+  the lane updated n62/n06 post-repair but missed these; all six deltas
+  confined to row a5_03). 13 downstream cites traced, **ZERO verdict
+  flips**. Repair premise ruled **"conditionally canonical"** (VALID given
+  the gloss-over-a5_03 premise, UNVERIFIABLE without manuscript images).
+  Banked follow-ups: re-run `crowd4/closer64_87_results.json` and
+  `crowd3/morphologist_results.json` on the repaired parse (both old-parse
+  via `crib_attack.load_pairs`); pin a rank convention. Trace:
+  `code/bedrock/{BEDROCK.md,verifier_a.{py,json},verifier_a_ledger.md,
+  verifier_b.{py,json},verifier_b_ledger.md,redteam_adjudication.md}`,
+  `code/bedrock/report_inbox/bedrock-redteam.md`.
+- **F42** — **French petit-chiffre doctrine** (context, not a claim):
+  the 1690 royal order *mandated* homophone use ("not always repeat the
+  same cipher character") — F33's conditioned polyvalence is expected
+  design, not anomaly; "free" polyvalence would violate the doctrine,
+  independently supporting conditioned-not-free. Word-family packing (one
+  group = stem + listed completions, e.g. petit-chiffre 39→
+  al/Allemagne/aland/als/ales) explains the 06/86 complementary
+  distribution as stem allomorphs and predicts some unidentified groups
+  are family completions of held groups. R5005's 96-of-100 groups = the
+  petit-chiffre tier (~100-cell routine class): design grammar for
+  sanity-checking reconstructions — ≈100 cells, 10–20% homophone budget,
+  no nulls, two-part tables. Caveats: Kahn via unofficial full text
+  (verify against print); the petit-chiffre table is Napoleonic family
+  reference (ruled out 0/7 as the key), not the 1841 table; no published
+  1830–1848 French diplomatic table exists (clean negative).
+  Trace: `data/historical-context/french-petit-chiffre-doctrine.md`,
+  `report_inbox/doctrine-writeup-2026-10-07.md`.
+- **F43** — **Label-agreement reconciliation (R-4, ground-truth-grade):**
+  69/96 best-permutation agreement = **27/96 = 28% membership change** —
+  the correct clustering-agreement number; the naive-identity 61/96
+  "change" figure is arithmetically right but methodologically misleading
+  (it counts the A→C→B→A vs A→B→C→A label-permutation flip as change) and
+  is retired as the fragility headline. Fragility is real (28% ≫ the ~0%
+  a stable clustering would show) but the naive figure overstated it
+  2.3×. Inconsistencies across NOTES.md/rotation_mystery.md/
+  unit_inventory/homophonic_synergy.md/scorer_identifiability.md/
+  crowd5-redteam rulings should be corrected to the best-permutation
+  figure. Trace:
+  `code/side-rotation/redteam/agreement_reconciliation.md`.
+- **F44** — **59="est" STRONG LEAD (executor-grade, pending red-team):**
+  the unique rate-survivor for 84's top follower (1.39×); "qui est" ✓;
+  "n'est" at era P=0.238 (n=324); "on n'est" ✓; "c'est" @824. Fenced
+  adverse: 59→37 ×6 reads 6.47× over era, conditional on 37="le"
+  [MEDIUM]. Interacts with the 01="est" lead (/ɛ/→{01,59} allophony vs
+  01≠"est"; touches A1's "c'est" count) — a red-team call. Compatible with
+  the bigram closer's 59="verb" [LEAD] — "est" is the specific form.
+  Trace: `code/crowd6/closer/closer87_00_results.json`,
+  `code/crowd6/closer/closer87_00.md`,
+  `code/crowd6/report_inbox/closer-87ce-00pour.md`.
+- **F45** — **00="pour" STRONG LEAD (executor-grade, pending red-team):**
+  the M1 governor frame (00→86 ×12 "pour [inf]" vs 00→06 ×0) + conditional
+  rates + a full rival sweep (à/de/en/par/dans/sur/avec/avant/afin/pendant/
+  sans/après/et all killed) all pass; promotion blocked on rates (unigram
+  6.22× over era, "pour que" 3.85×). Needs the diplomatic corpus for the
+  B1/B3 residuals. Trace: `code/crowd6/closer/closer87_00_results.json`,
+  `code/crowd6/closer/closer87_00b.py`.
+- **F46** — **84: unresolved executor conflict** — closer: 84="en" LEAD
+  (sole survivor; E1 unigram 1.10×, E2 "qu'en" 1.36× on GT 46=que, E3
+  "n'en" common, E5 "m'en" on GT 82=m; 24/25 windows read cleanly;
+  promotion BLOCKED on "l'en" 141×/63× over era) vs bigram closer:
+  84=masculine-NOUN LEAD-grade (identity NULL — honest, register-robust;
+  "le 84" ×7, "la 84" ×1, "que 84 24" ×2, "que le 84 24" ×1; "fait"
+  re-killed 6.75×, "gouvernement" 6.12×). Crux: noun fails "ne 84"/"m' 84"/
+  "que 84" (grammatical zeros, n=1/1/2); "en" fails the "l'en" rate (141×,
+  n=7). Untested resolution flagged for round 7: conditioned polyvalence
+  (84="en" iff pre∈{46,94,82}, 84=noun iff pre∈{77,11}); 9/25 predecessors
+  unclassified — a battery, not adjudication. NOTE: the two notes' 84
+  counts cross-check (84→59 ×4; 59→46 ×2; 59→37 ×6). Trace:
+  `code/crowd6/closer/closer87_00_results.json`,
+  `code/crowd6/bigram_closer/closer6{,_era,_quesub}.json`,
+  `code/crowd6/report_inbox/{closer-87ce-00pour,bigram-closer-77le}.md`.
+- **F47** — **78-45="même" LEAD (executor-grade, pending red-team):**
+  0.57× in-band with era locks ("le même" 87×, "même qui" 11×); @313 =
+  "le même qui" — a grammatical lock under 37="le" [MEDIUM]. The
+  "même"=me|me reading implies 45/78 homophony for one syllable
+  (F23-consistent, untested beyond the bigram). 45="me"-word
+  disfavored-strong (unigram 9.14× out; "par me" ×2 era-0; "me qui" ×3
+  era-0 fenced on 64="qui") — kill-shaped but fenced, not refuted. Trace:
+  `code/crowd6/bigram_closer/closer6.json`,
+  `code/crowd6/report_inbox/bigram-closer-77le.md`.
+- **F48** — **67 et/veut fork: conditioned polyvalence SUPPORTED
+  (executor-grade, pending red-team), NOT promoted:** 19/38 classified
+  with ZERO cross-contamination (F33-form: positional, falsifiable) —
+  et-side 8 ("veut" killed in all 8: 67→64 ×2 "veut qui" impossible,
+  06-29-67 ×2 "[inf] veut [inf]" impossible, pre∈{06,86} ×4 verb-verb
+  kills "veut"; fork ratio re-derived 113.0) vs veut-side 11 ("et" killed
+  grammatically in all 11; "veut" survives: "veut me [inf]" ✓, "la veut"
+  ✓, era attestation thin n=52); 19/38 still open. "la veut" @1044–1045
+  pins 67@1045 as a 3sg transitive verb (kills "et" there) — NOT uniquely
+  "veut". 7/11 veut-frames rest on the pre=21 condition with a
+  grammatical strain under the 21="me" lead ("me veut me" @1841 is broken)
+  — this tensions 21's value, flagged not resolved. **43="me" DOWNGRADED
+  MEDIUM→WEAK** ("par 43"×2 n_eff=1, era "par me"=0 — grammatical adverse;
+  adverses outweigh supports; kill rule n≥3 not met). Trace:
+  `code/crowd6/morphologist/battery96_67_results.json`,
+  `code/crowd6/report_inbox/morphologist-96-67.md`.
+- **F49** — **Side-rotation prereg-first gate (methodology finding):**
+  the hypothesis-level falsification battery (K1–K5 with kill/strengthen
+  thresholds + binding rules R1–R6) was written 16:55, BEFORE any executor
+  result merged — prereg-first satisfied (R-0). The Phonetician's own
+  pre-registered Bonferroni bar killed its T-Pa2 near-miss (p=0.0242 <
+  0.05 but > 0.0167) before any red-team intervention — the bar did its
+  job exactly as designed (R-1). Rhythmicist prereg PASS with a required
+  R3 amendment (WO2 Test A must use an exact test — asymptotic chi² VOID
+  at expected 4.68/4.29/3.67/1.36); Geometer prereg PASS with calibration
+  notes (WO3 bars are screening-level, not K3-kill-level). Trace:
+  `code/side-rotation/prereg_falsification.md`,
+  `code/side-rotation/redteam/RULINGS.md`,
+  `code/side-rotation/report_inbox/redteam-rotation-prereg-gate.md`.
+- **F50** — **Segmenter thread-4 column-geometry probes (executor-grade,
+  pending red-team):** P2a momentum **SUPPORT** (on ABC-only triples:
+  r1=P(continue cycle | prior step was a cycle step)=0.6327 (n=765) vs
+  r0=0.4856 (n=383), one-sided two-proportion z=+4.77, p≈0 — the
+  moving-finger sequential mechanism's concrete prediction holds);
+  P2b **FALSIFIED** (held-out order selection: 2nd-order Markov
+  −1.2189/pos vs 1st-order −1.2143/pos — no genuine memory-2); P2c
+  **FALSIFIED** ("fixed column order": the dominant directed 3-cycle
+  reads fwd in halves+variants selectively and rev in V_cos/V_half1/
+  V_half2 — one global column order is dead, consistent with bedrock's
+  labeling-relative ruling). Honest scope: these probe the SEQUENTIAL
+  mechanism only; they cannot confirm table columns without key recovery.
+  Trace: `code/crowd6/segmenter/{PREREG.md,rotation_r6.json,hmm_test.json}`.
+- **F51** — **Scorer-smith identifiability FINAL (round 5, work order 7):**
+  N30's "model-correct" framing is refuted — the joint engine's objective
+  ranks truth ~30 nats below its own fluent nonsense. Route (a) better
+  search: baseline 3×600 sweeps best −2.59..−2.81 / top1 0.00–0.10;
+  parallel tempering (6 chains × 600) gbest −2.88 / top1 0.05; pool-copy +
+  Gibbs proposals best −2.66..−3.05 / top1 0.00–0.10; islets 0/3
+  everywhere — no variant beats the best baseline restart; **search is not
+  the bottleneck**. Basin test: 9 descents (3 per k) walk AWAY from truth
+  (ends −2.47..−2.90) — no basin around truth. Route (b) shrink space: b1
+  (12 hard pins, 3 islets fixed, 301-cell inventory) reaches best
+  −33.54..−33.56 vs the truth ceiling −33.43 (**within 0.13 nats** — the
+  search DOES reach truth's neighborhood once the space is shrunk;
+  top1 0.35–0.40 = 4× baseline, islets 1/3); b2 (conditioned polyvalence)
+  0/15 verify, 0/3 islets — honest negative (control islets are
+  unconditioned coins; documents a control-vs-reality gap); b3 (small
+  inventory alone) top1 0.05 — no better. Model bugs (both load-bearing):
+  (1) **lam_poly=10 is ~100× over scale** — truth beats the annealed best
+  only at lam_poly < 0.09; at 10 the v2 machinery is dead by construction;
+  (2) the raw-letter 7-gram alone prefers the annealed key (−3.11/letter)
+  over truth (−3.64/letter); the E-step recovers only 42/63 of the truth's
+  islet emissions. Control-design findings: 2/20 bar groups unidentifiable
+  BY CONSTRUCTION (max achievable top1 = 0.90 — the control validates
+  machinery, not the unit set; only 23/89 truth primaries are in the
+  24-unit crib-derived set). Traceability flag: the .md's basin
+  denominators ("3/105: 1/15, 2/30, 0/60") do NOT reproduce from the
+  archived JSON (9 descents: 1/3, 2/3, 0/3; the .md's own line "all 9
+  descents" agrees with the JSON) — numerators match, denominators flagged.
+  Trace: `code/crowd5/{scorer_identifiability.py,scorer_identifiability.md,
+  scorer_identifiability.json}`,
+  `code/crowd5/report_inbox/scorer-smith-identifiability-final.md`.
+- **F52** — **Side-homophonic frozen-control diagnosis D1–D4
+  (control-only, never R5005):** D1 — objective misalignment: planted
+  truth −6959.9 nats vs annealed best +4127.4 (true key 11,087 nats WORSE
+  than a completely wrong key — optimizer works, objective's optimum is
+  at the wrong place); D2 — the word scorer is the hole: Aho-Corasick
+  counts thousands of OVERLAPPING short-word hits on degenerate
+  repetition-garbage (S_ac=13,510) vs ~2,500 on the true Les Mis decode
+  (outscores real text 15× — S_word has no length/normalization penalty);
+  D3 — polyvalence runaway (n_poly 49–60 invented vs truth 6 — the
+  penalty is dwarfed); D4 — inventory gap (6/96 truth primaries absent
+  from the 291-item inventory: 'vê'×2, 'té', 'né', 'vres', 'my' — true
+  primary ceiling 83/89=0.933). The side fleet independently found the
+  same disease the main fleet's scorer-smith found (pilot: salad
+  −3.89/pair beats truth −4.44/pair). Repair list: dedupe overlapping
+  hits (longest-match), normalize S_word by stream length or gate on
+  match length, retune lambda_poly by marginal usage, extend Tier 1 with
+  accented by-ear forms, re-run on FRESH seeds per the freeze protocol.
+  Trace: `code/side-homophonic/runs/{RUN-REPORT.md,RUN2-BATCH.log,
+  run2-184101/control_report.json,frozen-ctl-18410{1,2}/control_report.json,
+  frozen_batch.log}`.
+- **F53** — **62="on" non-ear battery (round 6):** NO PROMOTION — stays
+  STRONG LEAD (fenced); honest null (N25). On clean disjoint pieces the
+  three-way likelihood is on≈il (joint −26.54 vs −26.82, Δ=+0.27 nats;
+  "qui" −32.77 weakly disfavored −6.2); the unigram favors "il" +9.4 nats
+  (granularity-hedged, already known). The H-split calibration (46 writes
+  /k/ before vowel-initial 29=er ×2, never before /i//e/) **voids both**
+  N35's "il"-differential (p=0.041) and the merger corroboration; under
+  H-split, 46→62=0/29 is ADVERSE to "on" (E=7.18, p=2.6e-4 — single,
+  four-ways caveated, adverse not kill-grade). The profile route is proven
+  unbridgeable with the current inventory (no 62 cell is BOTH mappable AND
+  discriminative with n≫2; all grammatical-asymmetry sub-routes blocked).
+  Ranked unblockers: hunt the "qu'on" whole-word cell; identify the
+  l'-cell ("l'on" test, era P=0.0619 vs 0); identify an impersonal-verb
+  cell; identify 48/98/16. Enlightenment: the "qu'on"-merger was the
+  by-ear model's "genuine predicted zero" — but the cipher's own habit
+  (46-29 ×2, 87-01 ×2: monosyllabic /k/+V, /s/+V → two groups) points to
+  over-splitting, not merging; merger premises need cipher-internal
+  calibration, never phonetic assertion. Trace:
+  `code/crowd6/frenchman62/{battery62.py,battery62_results.json,
+  frenchman62_round6.md}`, `code/crowd6/report_inbox/frenchman-62-non-ear.md`.
+- **F54** — **Column-geometry hypothesis (arbitrary-column form) KILLED
+  — rotation-fleet synthesis 2026-10-07.** Four independent legs fired the
+  pre-registered binding kill conditions: (1) **WO3 generative**: 8 clerk
+  behaviors × 20 replicates, toy 3-column table (~90 groups), lane's own
+  Jaccard-k12 pipeline on every simulated stream — NO behavior reaches
+  observed strength (best derived M1=30.8 vs 366.3; best derived z=+1.00
+  vs +5.61; `GEOMETER-FINDINGS.md` table, `wo3_exploratory.json` B6/B7
+  post-hoc); (2) **K1 number-range**: NULL (p=0.569/0.883, V≤0.14, runs
+  p=0.76 — column-contiguous and row-major layouts dead); (3) **K2
+  homophone-cycling**: NULL where powered (94 p=0.809, 52 p=0.219); (4)
+  **structural falsification**: contact clustering NEVER recovers
+  linguistically-arbitrary columns (ARI=0.000 deterministic, 0.043
+  strong-soft — contact profiles are dominated by syllable linguistics),
+  yet the observed phases WERE found by contact clustering — so they
+  cannot be arbitrary table columns. Sharp sub-results: taboo-2 memory
+  (B3 true-col z=+8.34) is the only mechanism generating lag-3-class
+  rhythm (pure first-order rotation: z≈0.3–0.8); the 3-state HMM's EM
+  recovers phase-like states unsupervised (state1: P(A)=0.719, state2:
+  P(B)=0.597, state0: P(C)=0.437). The period-3 rhythm itself (F38)
+  stands: real, global, distributed, survives formula-masking, but
+  partition-dependent (Jaccard-k12/k16 only), phase-free-null, UNEXPLAINED
+  — a constraint on the key, not an explanation. **Narrow refuge** (a
+  different, weaker hypothesis): columns = an untested linguistic class
+  (e.g. onset/coda phonotactics) — testable only with key recovery,
+  inherits none of the killed form's evidence. Caveats: toy simulation
+  (45-syllable inventory, random columns, crude syllabifier); ARI≈0 is a
+  toy result, not a theorem; the verdict is the FLEET COORDINATOR's —
+  red-team adjudication of the underlying executor results is still
+  pending (0/7 dockets), and the geometer's own note requests red-team
+  re-derivation of WO3 (seeds archived). Two synthesis-only claims could
+  NOT be traced to result files and are flagged claimed-not-verified:
+  "block structure 366.3 vs max 63.3 over 2,000 label permutations" and
+  "group lag-3 z=+0.15" — do not cite. Trace:
+  `code/side-rotation/{FLEET-SYNTHESIS.md,prereg_falsification.md,
+  geometer/{wo1.json,wo2.json,wo3.json,wo3_exploratory.json,GEOMETER-FINDINGS.md},
+  redteam/RULINGS.md}`,
+  `report_inbox/{rotation-fleet-synthesis-2026-10-07,
+  geometer-wo1-number-range,geometer-wo2-homophone-cycling,
+  geometer-wo3-clerk-simulation}.md` (this sweep).
+- **F55** — **Inventorist pattern re-drive (round 6, executor-grade,
+  pending red-team):** the word-pattern matcher re-driven on the round-5
+  24-unit inventory (F37 — the note's "F44" is its own stale numbering),
+  replacing the standard-French syllabification that killed the old
+  instrument. **CONTROL PASSES — the alphabet is repaired** (the
+  ground-truth control that killed the old version now works): C1 (full
+  "première" [70,82,34,29,40], 5 GT anchors): "première" top-1
+  (2 candidates: première, premières); C2 (tail [82,34,29,40] = m|i|er|e,
+  4 GT anchors — the old zero): **"première" top-1** (5 candidates:
+  première, lumières, premières, lumière, chaumière) — the old
+  instrument's zero is repaired; C3 (specificity: contradictory GT anchor
+  [11,34,29,40]): 0 candidates, "première" correctly excluded — the
+  instrument is anchor-driven. **Proposals (2, NOT promoted — await
+  red-team ruling):** (1) **"parmi" @1196–1198 [96,82,16]** — NEW:
+  unique T3 survivor (only by-ear [par,m,?] in 11,870 words), era freq
+  174, whole-word by-ear match [par,m,i] top-1 tiling score 9.0, 1 GT
+  anchor (82=m) + 1 PROV-STRONG (96=par, CONFIRMED 4/4). Entails
+  **16="i"** (n=1, new claim — 34=i is GT, so a second 'i' group, parallel
+  to 87/47 for "ce"): 82→16 ×11 (29% of 82's followers) reads m|i, and
+  16's top predecessor is 82=m. Needs its own battery — NOT established.
+  (2) **"cela" @269–270 and @357–358 [47,11]** — 47→11 ×3 corpus-wide
+  (@269/@357/@498), era freq 47, whole-word [ce,la]; anchors 47=ce
+  (LEAD) + 11=la (GT). A **47="ce" corroboration**, not a new crib (the
+  lane already banks 47→11 "cela"). Leads not proposed (<2 checks):
+  "seulement" @1041/@1158 (freq 136, fragment "lement", 108 T3
+  candidates), "donner" (freq 82, 0 GT anchors), "acquière" (hapax,
+  Class-B shape), "ensemble", "général", "comparer", "confédération",
+  "nationale", "circonstances", "établissements", "semble", "raison",
+  "cinquième", "acquièrent". **Recommended KILL (register pollution,
+  executor recommendation — NOT a red-team kill):** "meeting" ×2
+  (@352/@819, English, freq 2), "maryland" (@376, US state, freq 11),
+  "chancelantes" ×2 (@200/@1242, freq 2). Instrument numbers: by-ear
+  tiler `byear.py` (20-string inventory, 1–4-letter cells, top-8 tilings;
+  calibration: "première"→[pre,m,i,er,e] top-1, "cela"→[ce,la] top-1,
+  "lumière"→[lu,m,i,er,e] rank 3 — limitation: unattested multi-letter
+  cells like per/pers not generated); subsequence pattern index
+  `build_index.py`: **846,748 subsequences, 7,297 keys**, smart
+  polyvalence expansion only (3,451 extra filings vs 202×–2318× naive);
+  sweep: 434 anchor-bearing viterbi words → 27 generator proposals →
+  **2 survive the ≥2-check bar**. Enlightenment: the binding change is
+  not just the 20 strings — it is the **unit SHAPES** (single letters
+  legal, onset clusters atomic, mute-e written) plus **subsequence
+  matching**; the old instrument failed on a single unit ('m'), the new
+  passes because the tiler EMITS 'm' and the index tolerates the
+  segmenter's mis-cut. The cost: fragment matches ("onner", "lement") —
+  controlled by the whole-word/fragment distinction and the ≥2-check bar.
+  Anchor tiers per the note: 77="le" PROV, 87=ce prov-strengthened,
+  94="ne" prov-strong, 96="par" CONFIRMED-inheriting; 06 not an anchor.
+  Trace: `code/crowd6/inventorist/{byear.py,build_index.py,
+  byear_index.json,matcher.py,control.json,sweep.py,sweep_results.json}`,
+  `code/crowd6/report_inbox/inventorist-pattern-redrive.md` (this sweep).
+- **F56** — **Scorer objective repair (round 6, IN PROGRESS,
+  executor-grade):** N36's ordered import list executed per PREREG.
+  **Step 0 — N36 re-derived EXACTLY:** truth lam=10 −32.431 (s_let
+  −3.4313, n_poly 3) vs annealed best −2.592 (runs −2.631/−2.592/−2.811);
+  crossover **λ*=0.0538** (N36's <0.09 tightened); basin test 3/105
+  recovered (1/15, 2/30, 0/60) — all 9 low-T descents walk AWAY from
+  truth. The full 105-descent battery was re-run and reproduces the
+  .md's denominators — **the F51 traceability flag's denominator question
+  is resolved in favor of the .md** (fresh run, executor-grade). Verdict:
+  the objective is wrong, not the search. **Step 0.5 — F() history bug
+  (discovered during re-derivation, repaired):** the parent engine's
+  F(ca,cb) scored cb's letters given only ca's tail START-padded — cost
+  truth 0.75 nats/letter (−3.38 buggy vs −2.63 correct stream walk,
+  identical text); repaired to per-letter scoring with true rolling
+  history (`_hist_before` walk-back); self-test PASS (revert consistency
+  0.0, stream-walk exact, E-step history exact). **Step 2 — phonetic
+  projection:** truth s_let raw −3.4313 → projected −2.6275; meme-collapse
+  s_let_proj −3.3647 vs truth −2.6275 — the letter term now correctly
+  penalizes degenerate repetition (the earlier +0.054 delta was confounded
+  by the F() bug). **Step 3 — spanning word bonus (D2-repaired):**
+  truth S_word 0.3231/letter; meme-collapse 1.6458/letter — dedupe halves
+  the degenerate profit vs frozen overlapping-hit style (3.234 → 1.6458,
+  2.0×) but 'meme' (wt 6.98, lexicon #1) IS a genuine longest match, so
+  dedupe cannot kill it — this is why the concentration penalty is in the
+  import list, ordered last. With the F() fix, truth total −1.3045 >
+  meme-collapse −1.7189 even before step 4. **Pending:** step 1 (lam_poly
+  calibration) and step 4 (concentration penalty); PREREG AMENDMENT
+  (pre-run): projected cap 6 → RAW-cell cap 3 — measured on the sealed
+  control, truth's projected 'e' has n_p=10 (raw e/es/et/é/est ×2 groups
+  each project to 'e'), so cap 6 would penalize truth itself; raw cap 3
+  is safe BY CONSTRUCTION (build_codebook: every non-singleton cell has
+  exactly 2 groups; petit-chiffre max quota 3–5). Control verdict
+  (pre-registered bars C1–C4) not landed. Trace:
+  `code/crowd6/scorer/{PREREG.md,objective.py,phonetics.py,models.py,
+  step0_baseline.{py,json},step123_truth.json,selftest_objective.py}`,
+  `code/crowd6/report_inbox/scorer-objective-repair.md` (this sweep).
+- **F57** — **Segmenter rotation round-6 follow-ups (executor-grade,
+  pre-registered PREREG.md, amendments A1–A3):** four verdicts.
+  **(1) Labeling-robustness: FRAGILE by the pre-registered bar**, with a
+  precise diagnosis: the gate reproduced F43's E1 EXACTLY (obs=0.4219,
+  z=5.81 vs banked 5.6) ONLY after pinning the construction round 5 never
+  archived — lag-3 pairs with BOTH endpoints in ABC (n=1,510), Markov
+  expectation conditioned on endpoints-ABC. Battery: k=16 replicates
+  z=+5.54, 91/96 agreement; cosine (z=−1.30), k=8 (+0.40), half-stream
+  (−0.26/−0.28) all fail — but the failure mode is **LABELING DEGENERACY**
+  (one mega-cluster: A=82/76/72), never excess-death under a valid
+  3-block labeling. With FIXED full-stream labels the excess is GLOBAL —
+  halves z=+3.49/+4.76, all four quarters z≥+2.00. Dominant directed cycle
+  A→B→C→A everywhere measurable (ref 836/425; k=16 post-alignment
+  786/392). **(2) HMM vs 96-group bigram: NO**, the 3-state HMM does not
+  win held-out (−4.2638 vs −4.2356 testLL/trans; bigram wins by 0.028
+  nats/trans despite 31× the parameters, 9,120 vs 293; BIC favors HMM
+  12,009 vs 74,105 — the AND-bar fails). The unsupervised HMM's
+  transition matrix is itself cyclic (S1→S0→S2→S1 dominant) — suggestive,
+  not a finding; banked labels as observed states are worst (−4.5348).
+  First attempt diverged numerically (emission collapse, −332); fixed with
+  MAP-EM eps=1e-4 smoothing (A3). **(3) 69/96 vs "61/96 change":
+  RECONCILED** — N30's "61/96" = naive label-name comparison (35/96
+  agree), N37's "69/96" = best-permutation agreement (perm BACR =
+  old-A↔new-B swap); cycle direction preserved under the permutation —
+  no data contradiction (consistent with F43's retirement of the naive
+  figure). **(4) Column geometry: MIXED, with an UNRESOLVED CONFLICT.**
+  P2a momentum SUPPORT (after a cycle step the cycle continues 63.3%
+  (n=765) vs 48.6% after non-cycle ABC steps (n=383), z=+4.77, p≈1e-6);
+  P2b FALSIFIED (2nd-order Markov −1.2189 vs 1st-order −1.2143/pos on
+  held-out — genuine second-order structure is concentrated in the
+  cycle-continuation contrast; a full memory-2 model doesn't generalize).
+  **P2c CONFLICT:** this thread reports one fixed column order
+  A→B→C→A in both halves (422/198, 414/226), the variant leg void —
+  while the side-rotation fleet reports P2c **FALSIFIED** (the dominant
+  directed 3-cycle flips across stream halves and clustering variants,
+  F50). The note carries its own OVERLAP FLAG: a parallel side-rotation
+  fleet is running similar work
+  (`code/side-rotation/rhythmicist/{hmm_compare.py,robustness.py}`,
+  `geometer/wo2_homophone_cycling.py`) — **deconflict before merging
+  conclusions**; the P2c question stays OPEN. Enlightenment: the round-5
+  E-code was never archived and the headline number came from an
+  undocumented endpoints-ABC restriction — the gate caught it (naive
+  full-stream gives obs=0.3579, z=5.90: same z, wrong construction); the
+  "fragile phases" story splits in two — the ASSIGNMENT is fragile
+  (metric/cut/sample-size) but the EXCESS survives every labeling that
+  recovers a real 3-block structure, and the rhythm is global under fixed
+  labels. Fragility of the instrument ≠ fragility of the phenomenon.
+  Caveat: the Viterbi/banked contingency doesn't map cleanly (states mix
+  banked phases) — the HMM's cycle is in transition structure, not state
+  identity. Trace: `code/crowd6/segmenter/{PREREG.md,rotation_r6.py,
+  rotation_r6.json,hmm_test.py}`, `code/crowd6/report_inbox/
+  segmenter-rotation.md` (this sweep).
+
 ---
 
 ## 5. Failures & null results (N-series)
@@ -773,6 +1393,81 @@ not an absence of trying.
   67→78 "veut me" ×4 (unpromoted); "donner" conditional lead fenced (19×
   register inflation). Trace: `code/crowd5/morph47_06_results.json`,
   `audit_morph47_06.py`.
+- **N23** — Side-homophonic frozen control (run2): solver **DEAD** —
+  frozen seed 184101: primary=0.0000 (0/89), proj_equiv=0.0,
+  secondary=0.1473 (≈ chance 0.1434), mrr=0.0262, islets 0/6, margin
+  +15050.3 nats; frozen-ctl-184102: primary=0.0, proj_equiv=0.0225,
+  secondary=0.1241, mrr=0.0169, islets 0/6. The frozen rerun of 184101
+  reproduces 184101's numbers EXACTLY (reproducibility datum). D1–D4:
+  objective misalignment (truth −6959.9 vs annealed +4127.4), the word
+  scorer is the hole (overlapping hits outscore real text 15×),
+  polyvalence runaway (n_poly 49–60 vs truth 6), inventory gap (6/96
+  primaries absent; ceiling 0.933). Gate holds — no R5005. Trace:
+  `code/side-homophonic/runs/{RUN-REPORT.md,control_report.json files,
+  frozen_batch.log}`.
+- **N24** — Scorer-smith identifiability FINAL: route (a) proves search is
+  NOT the bottleneck — PT gbest −2.88/top1 0.05; basin test 9 descents all
+  walk AWAY from truth (ends −2.47..−2.90) — no basin; route (b) proves
+  the search works given constraints — b1 reaches truth's neighborhood
+  (−33.54..−33.56 vs ceiling −33.43, within 0.13 nats; top1 0.35–0.40, 4×
+  baseline); b2 (conditioned polyvalence) honest negative (0/15, 0/3
+  islets — control-vs-reality gap documented). The disease: lam_poly=10 is
+  ~100× over scale (truth beats annealed only at lam_poly < 0.09) and the
+  letter 7-gram alone prefers annealed over truth (−3.11 vs −3.64/letter).
+  Traceability flag on the .md's basin denominators (see F51).
+  Trace: `code/crowd5/scorer_identifiability.{py,md,json}`.
+- **N25** — 62="on" non-ear battery: NO PROMOTION — honest null: on≈il
+  tie on clean pieces (Δ=+0.27 nats); H-split calibration VOIDS the old
+  "il"-kill and the merger corroboration; one four-ways-caveated adverse
+  datum for "on" (p=2.6e-4 — adverse, not kill-grade, not a demotion);
+  the profile route is proven unbridgeable with the current inventory
+  (no 62 cell both mappable and discriminative with n≫2). Ranked
+  unblockers: qu'on whole-word cell, l'-cell, impersonal-verb cell,
+  48/98/16. Trace: `code/crowd6/frenchman62/`.
+- **N26** — 96 conditioned-verb battery: **UNVERIFIABLE** (honest null) —
+  the "ce qui __ ce que" frame is a hapax (1/1,847); conditioned readings
+  on n=1 are unfalsifiable (F33-grade conditioning requires a verified,
+  falsifiable rule). 20/21 other 96-frames clean "par"; era "ce qui"+verb
+  213/213. 47="ce" promotion stays BLOCKED. Trace:
+  `code/crowd6/morphologist/battery96_67_results.json`.
+- **N27** — Phonetician CV-structure: **NULL on all 6 subtests**
+  (open/closed p=0.2500, tier p=0.3465, sonority p=0.7752, n=16; T-Pa2
+  p=0.0242 fails the pre-registered Bonferroni 0.0167; T-Pa3 p=0.0687,
+  T-Pc2 p=1.0 — red-team re-derived 6/6 to <1e-6, R-1). The third
+  granularity where phases refuse linguistic meaning (position →
+  morphology → fine phonetics); the null tightens the table-geometry
+  fence, doesn't touch E1. Trace: `code/side-rotation/phonetician/`,
+  `code/side-rotation/redteam/RULINGS.md`.
+- **N28** — Geometer WO1/WO2: **NULL** (executor-grade, pre-red-team) —
+  number-range (WO1a p=0.569, WO1b p=0.883, Cramér's V 0.14/0.09);
+  homophone-cycling (94 p=0.809 powered, 52 p=0.219, 06
+  untestable/vacuous, non-vacuous Fisher combined p~0.48; the literal
+  3-way p=0.036 manufactured by the vacuous 06 component NOT claimed);
+  WO3 clerk simulation **0/6 behaviors pass screening** (no behavior
+  reproduces M1/chi²/M2z/M3/ARI — screening-level, K3's joint DEAD bars
+  untouched). Trace: `code/side-rotation/geometer/wo{1,2,3}.json`.
+- **N29** — Rhythmicist HMM-vs-bigram: **no decisive HMM win**
+  (executor-grade) — held-out bigram −4.2938 vs HMM-3 −4.3774/pos (bigram
+  wins; ΔBIC=+59824.3 but the pre-registered conjunction requires BOTH);
+  a second split replicates (−4.2356 vs −4.2638). P2b FALSIFIED
+  (2nd-order Markov −1.2189 vs 1st-order −1.2143/pos on held-out — no
+  genuine memory-2). Trace: `code/side-rotation/rhythmicist/
+  hmm_results.json`, `code/crowd6/segmenter/{rotation_r6.json,hmm_test.json}`.
+- **N30** — Rhythmicist WO1b labeling-robustness: **FAILED as stated**
+  (executor-grade) — only 1/5 fresh-clustering variants survive (Jaccard
+  k=16: chi²=354.9, z=+4.71, agree 0.948); cosine, k=8, and both
+  half-stream clusterings die (z=+0.51/+0.20/+0.28/+0.23; agreements
+  0.344–0.458). The rotation's structure is robust under one clustering;
+  its membership is fragile — as claimed, quantified. Trace:
+  `code/side-rotation/rhythmicist/robustness_results.json`.
+- **N31** — Rhythmicist WO2 pre-registered tests: **VOID by construction**
+  (honest catch, pre-computation logic error): phase is a deterministic
+  function of group, and exact-repeat phrases share their start group —
+  "all occurrences start on the same phase" holds with probability 1, so
+  Tests A/B/C test nothing. Post-hoc salvage (6 distinct formula starts
+  all in {B,C}: H1 p=0.0093, H2 p=0.034, H3 p=0.049) is descriptive only —
+  post-hoc, no claim, no promotion. Trace:
+  `code/side-rotation/rhythmicist/phaselock_posthoc.{py,json}`.
 
 **The red-team demotion (the lane's most consequential null).** Attempt 2
 scored 87="ce" CONFIRMED 4/5. The red team reproduced every count, then
@@ -793,7 +1488,8 @@ held by the red team.
 ## 6. Open hypotheses (not promoted — each needs ≥2 independent checks)
 
 - **62="on"** — FENCED-LEAD (STRONG LEAD, promotion DENIED by red team,
-  Ruling 1): leg-2 re-derivation 62→94 **×9/35=0.2571 (1.62× era with
+  Ruling 1; round-6 non-ear battery: NO PROMOTION, honest null — N25):
+  leg-2 re-derivation 62→94 **×9/35=0.2571 (1.62× era with
   ne+n'-forms)** — supersedes the old ×8/34; third leg = fresh-window
   subject-triangulation @848 ("00 33 [par] e 62 21 67 91 51" → "…par
   écrit, on me [dit]…", 21="me" established without 62, no circularity);
@@ -803,13 +1499,20 @@ held by the red team.
   same ear merges /kil/); unigrams favor "il" (1.50×) and "qui" (1.77×)
   over "on" (2.59×); Check C χ² **invalid as reported** (3/4 cells
   expected<5 — exact MC p=0.0450, 0.0675 minus recycled ne cell; profile
-  fits "il" equally, exact p=0.0386). New fence: "on-vs-il discrimination
-  is ear-contingent — needs a non-ear resolution (n≫2 independent-cell
-  profile, word-space grammatical asymmetry, or independent qu'il-merger
-  calibration)". Prediction (not anomaly): 46=que→62 ×0 — "qu'on" is one
-  spoken syllable; era expects 2.3. Trace:
+  fits "il" equally, exact p=0.0386). Round 6 tightens the fence: the
+  cipher-internal H-split calibration (46→29 ×2 "qu'er", never before
+  /i//e/) **VOIDS both the "il"-differential and the merger
+  corroboration**; on clean disjoint pieces on≈il (joint −26.54 vs −26.82,
+  Δ=+0.27 nats); one four-ways-caveated adverse datum for "on"
+  (46→62=0/29, E=7.18, p=2.6e-4 — adverse, not kill-grade, not a
+  demotion); the profile route is proven unbridgeable with the current
+  inventory. New fence: "on-vs-il discrimination needs a non-ear
+  resolution the current inventory cannot supply." Ranked unblockers:
+  the "qu'on" whole-word cell, the l'-cell ("l'on" test), an
+  impersonal-verb cell, 48/98/16. Trace:
   `code/crowd5/frenchman62_leg3_results.json`,
-  `code/crowd5/redteam/rulings.md`.
+  `code/crowd5/redteam/rulings.md`,
+  `code/crowd6/frenchman62/battery62_results.json` (this sweep).
 - **78 three-way (WO1 adjudicated)** — "me"-WORD **disfavored-strong**
   (L1w 22.76×, audit-verified; no formal kill); "me"-SYLLABLE holds LEAD
   (L1s 1.131× in-band, F29-letter clear); **78="ver" joins as LEAD
@@ -827,15 +1530,32 @@ held by the red team.
   [0.037,0.272]); Q1 qui/que complementarity + Q2 fragment rule as
   F33-form conditions; C2 dissolved (F29-void); unigram 2.13/1.446;
   promotion blocked on @148–152 (unblockers: 96 conditioned-verb battery,
-  fragment sound, diplomatic corpus). 47 is NOT 87's "ce"
+  fragment sound, diplomatic corpus). Round-6 WO-A battery: the ranked-#1
+  unblocker is **UNVERIFIABLE** (N26) — the "ce qui __ ce que" frame is a
+  hapax (1/1,847), and conditioned readings on n=1 are unfalsifiable;
+  the parenthetical reading ("ce qui, par ce que 66 84, [V]") survives
+  unfalsified-but-unverified (era "par ce que"=0, downstream verb
+  unidentified). Promotion stays BLOCKED. 47 is NOT 87's "ce"
   (Jaccard(87,47)=0.435 but P(64|47)=0/28 vs era 0.188, binom p=0.0030 —
   bounds the reading).
 - **67="veut"** — provisional; et/veut fork: "et" beats "veut" 114:1
   post-infinitive in era → "veut" survives only as conditioned on 67→78
   "veut me" ×4 (unpromoted). "la veut" @1044-1045 supports the pin.
-- **43="me"** — FENCED (conditioned-or-dead): 96→43 ×2 both inside
-  64-96-43-87-01; "par me" era-dead (n=0); cleanest repair is conditioned
-  polyvalence (43="me" iff pre≠96) or 43≠"me".
+  Round 6 (executor-grade, F48): the fork is **SUPPORTED as conditioned
+  polyvalence (F33-form), NOT promoted** — 19/38 classified with zero
+  cross-contamination (et-side 8 kill "veut", veut-side 11 kill "et",
+  fork ratio 113.0); "la veut"@1044 pins a 3sg transitive verb, not
+  uniquely "veut"; 19/38 open. The 7/11 veut-frames' pre=21 condition
+  has a grammatical strain under the 21="me" lead ("me veut me" @1841 is
+  broken) — this tensions **21's** value, flagged not resolved.
+- **43="me"** — **WEAK** (downgraded from MEDIUM, round-6 executor-grade,
+  F48): "par 43"×2 is n_eff=1 (byte-identical formula 64-96-43-87-01),
+  era "par me"=0 — grammatical adverse; full inventory: supporting
+  "me le"×2 (@258/@1305, 77="le" prov) + weak "que me"×1 + weak "il me"×1
+  (88="il" unestablished) vs adverse "me ce"×2/n_eff=1 (formula), "la me"×1,
+  "ce me"×1, "le me"×3 (conditional on 37="le" [MEDIUM]). Kill rule n≥3
+  not met → no kill; adverses outweigh supports → WEAK. Cleanest repair
+  remains conditioned polyvalence (43="me" iff pre≠96) or 43≠"me".
 - **24** — unidentified: "en" strong (24→87 ×10 at 26–31× over era
   P(ce|en); "en ce qui"=24-87-64 ×2 kills "de" there); "tout" 1.6× weak;
   "est" **REFUTED** (19.5×/74× era kills; inversion sweep over 45 words:
@@ -847,53 +1567,132 @@ held by the red team.
 - **67="veut"** — provisional (veut-class): 67→33→29 ×3 ("veut parler");
   "les veut" 21→67 ×8 → *vouloir*; red-team-3 demoted its CONFIRMED →
   provisional (circular compat: 06→77 counted while 77="pas" under test).
+- **59="est"** — STRONG LEAD (executor-grade, pending red-team — F44):
+  the unique rate-survivor for 84's top follower (1.39×); "qui est" ✓;
+  "n'est" at era P=0.238 (n=324); "on n'est" ✓; "c'est" @824. Fenced
+  adverse: 59→37 ×6 reads 6.47× over era, conditional on 37="le"
+  [MEDIUM]. Interacts with the 01="est" lead (/ɛ/→{01,59} allophony vs
+  01≠"est"; touches A1's "c'est" count) — a red-team call. Subsumes the
+  bigram closer's 59="verb" [LEAD] as the specific form.
+- **00="pour"** — STRONG LEAD (executor-grade, pending red-team — F45):
+  M1 governor frame (00→86 ×12 "pour [inf]" vs 00→06 ×0) + conditional
+  rates + full rival sweep (à/de/en/par/dans/sur/avec/avant/afin/pendant/
+  sans/après/et all killed); promotion blocked on rates (unigram 6.22×,
+  "pour que" 3.85× — needs the diplomatic corpus).
+- **84="en" vs 84=noun-class** — UNRESOLVED EXECUTOR CONFLICT (both LEAD,
+  F46): closer reads "en" (E1 1.10×, E2 1.36×, "l'en" 141×/63× blocking);
+  bigram closer reads masculine noun, identity NULL ("le 84" ×7, "que 84"
+  ×2, "fait" 6.75×/ "gouvernement" 6.12× kills). Resolution hypothesis:
+  conditioned polyvalence (84="en" iff pre∈{46,94,82}, noun iff
+  pre∈{77,11}) — untested, needs its own battery (round-7 work order).
+- **78-45="même"** — LEAD (executor-grade, pending red-team — F47):
+  0.57× in-band with era locks ("le même" 87×, "même qui" 11×); @313 =
+  "le même qui" (grammatical lock under 37="le" [MEDIUM]); implies 45/78
+  homophony for one syllable (F23-consistent, untested). 45="me"-word
+  disfavored-strong (not refuted).
 - **Medium leads:** 37="le", 01="est", 56="plus", 43="me", 17="fois"
   (weak). 21="les" weakened (21→64×2 era-zero under both 64-reads).
+- **16="i" (second i-group)** — NEW LEAD (executor-grade, n=1, NOT
+  established — F55): the "parmi" @1196–1198 [96,82,16] proposal entails
+  16="i"; 34=i is GT, so this is a second 'i' group (parallel to 87/47
+  for "ce"). Supporting: 82→16 ×11 (29% of 82's followers) reads m|i, and
+  16's top predecessor is 82=m. Needs its own battery — round-6 work per
+  the note.
 - **REFUTED (closed):** 24="est", 06="ne", 06=/mɑ̃/ (killed by GT mute-e),
   06="ent" general, H5 "J'ai l'honneur de" (82 is the GT 'm' cell),
   96="de", 77="plus", 77="ne"-swap, 06="de"/"le", 96="pour", 96="a/à",
   41="ter"/"mer", 64="même" (bounded), 78="me" promotion (rejected → LEAD),
-  47="me" (word reading, hard zero), 01="ci".
+  47="me" (word reading, hard zero), 01="ci", 84="plus" (via 59="est"),
+  84="a", 84=verb-class.
 
 ---
 
-## 7. Next steps (from STATE.md, round-5 work orders + adjudications)
+## 7. Next steps (from STATE.md, round-5 work orders + adjudications, round-6 sweep)
 
-1. **Refresh fig5 only** with round-5 rows (62="on" denied, bigram-closer
-   WO1/WO2/WO3, morphologist WO1/WO2/WO3, closer-87 angles, window754/1034,
-   segmenter rotation verdicts, scorer identifiability reversal,
-   inventorist inventory) — figs 1–4/6 are current.
+1. **Refresh fig5** — round-5 rows already banked (fig5 png current,
+   2026-10-07). NOT regenerated this sweep: none of
+   `make_report_figures.py`'s input data files (repaired parse,
+   `data/attempt3_results.json`, `code/crowd4/phase_map_repaired.json`)
+   changed; `scorer_identifiability.json` is not a figure input. The
+   board list is HARDCODED in the script — adding round-6, bedrock, and
+   side-rotation rows requires editing the `board` list and re-running the
+   script exactly as documented; queue for the next sweep. Figs 1–4/6 are
+   current.
 2. **Rebuild the skeleton ledger and repair the tester harness** on the
    1,847 parse (`code/sidepath/build_skeleton.py` asserts the old 1,846;
-   `code/side-keyhunt/test_table.py` likewise). Still not done.
-3. **62="on" — promotion DENIED → FENCED-LEAD** (red-team Ruling 1). The
-   fence: on-vs-il discrimination is ear-contingent — needs a non-ear
-   resolution (n≫2 independent-cell profile, word-space grammatical
-   asymmetry, or independent qu'il-merger calibration).
+   `code/side-keyhunt/test_table.py` likewise). Still not done. Bedrock
+   adds two more stale artifacts to re-run on the repaired parse:
+   `code/crowd4/closer64_87_results.json` and
+   `code/crowd3/morphologist_results.json` (both old-parse via
+   `crib_attack.load_pairs`) — plus pin a rank convention.
+3. **62="on" — promotion DENIED → FENCED-LEAD** (red-team Ruling 1);
+   round-6 non-ear battery: NO PROMOTION (honest null, N25). The fence:
+   on-vs-il discrimination needs a non-ear resolution the current
+   inventory cannot supply. Ranked unblockers: the "qu'on" whole-word
+   cell, the l'-cell ("l'on" test, era P=0.0619 vs 0), an impersonal-verb
+   cell, 48/98/16.
 4. **M1 accepted** (06 finite/imperative vs 86 infinitive-complement); 06
-   stem single-reading NULL (honest, N22); 67 et/veut fork: "veut" only as
-   conditioned on 67→78 ×4.
-5. **47="ce" promotion blocked** on @148–152: ranked unblockers — 96
-   conditioned-verb battery, fragment sound (Q2), diplomatic corpus.
+   stem single-reading NULL (honest, N22); 67 et/veut fork SUPPORTED as
+   conditioned polyvalence (executor-grade, F48) — 19/38 open; 67@1045
+   pins a 3sg verb, not "veut".
+5. **47="ce" promotion blocked** on @148–152: the ranked-#1 unblocker
+   (96 conditioned-verb battery) is **UNVERIFIABLE** (N26 — hapax
+   1/1,847); remaining unblockers: fragment sound (Q2), diplomatic
+   corpus; or a second "ce qui __ ce que" frame.
 6. @578 trigram host — **CLOSED** (revival thread buried; sixmer ×2
    @573/@1164 is a new prime crib-drag target, right edge {ne,en}).
 7. **78="me" vs 78="ver"** — adjudicated: **COEXIST** (word reading
    disfavored-strong, syllable LEAD, ver conditioned islet). Adjudication
-   done.
+   done. New: 78-45="même" LEAD (executor-grade, F47).
 8. 77="le" — **DONE** (promoted → provisional, conditioned).
-9. **Attack the objective bug, not the search** — the joint engine is
-   model-broken, not search-broken (N19): fix lam_poly scale, phonetic
-   projection, spanning word bonus, concentration penalty ON, per-stream
-   chi2-gated phase. Routes (a)/(b) in flight; R5005 gate holds.
-10. @754 vs @1034 — **DONE** (F36). Follow-ups: follow 59 for the 62
-    battery; pin 67="veut" (@1044-1045); adjudicate 43 (fence pre=96);
-    17="fois" @1040 stays WEAK.
-11. **87=ce new angles** — A1/A3 legs landed (F35); 84 still unresolved
-    (84="fait" killed, thread n_eff=1). Pursue non-circular anchors or the
-    "c'est" leg's 01="est" joint.
-12. **Rotation mappings** — linguistic mappings killed/null (N20); the
-    live hypothesis is enciphering-process table geometry (F38) — design
-    a falsifiable test for the soft column-rotation model.
+9. **Attack the objective bug, not the search** — joint engine
+   model-broken, not search-broken (N19, hardened in F51, F56: lam_poly=10
+   is ~100× over scale — crossover λ*=0.0538 re-derived; letter 7-gram
+   prefers annealed −3.11/letter over truth −3.64/letter). Round-6 scorer
+   repair **IN PROGRESS** (F56): steps 0/0.5/2/3 landed — N36 re-derived
+   exactly (basin 3/105 reproduced, resolving the F51 denominator flag),
+   F() history bug found+repaired (0.75 nats/letter on truth), phonetic
+   projection imported verbatim (42/42 self-tests), D2-repaired spanning
+   word bonus (truth total −1.3045 > meme-collapse −1.7189 even before
+   step 4); steps 1/4 pending, control verdict (C1–C4) not landed —
+   R5005 gate holds. The side fleet's frozen batch diagnosed the same
+   disease (D1–D4): S_word needs longest-match dedupe + normalization,
+   lambda_poly by marginal usage, Tier 1 extended with accented by-ear
+   forms — re-run on FRESH seeds (seeds 184103/184104 still running).
+10. @754 vs @1034 — **DONE** (F36). Follow-ups: 59=verb banked
+    (GT-anchored; now 59="est" STRONG LEAD, F44); pin 67="veut" → partial
+    (verb pinned, not "veut" — F48); adjudicate 43 (fence pre=96) → 43
+    downgraded MEDIUM→WEAK (F48); 17="fois" @1040 stays WEAK.
+11. **87=ce new angles** — A1/A3 legs landed (F35); 84 split
+    **UNRESOLVED** (84="en" vs 84=noun-class, both LEAD — F46); round-7
+    work order: conditioned-polyvalence battery for 84 (pre∈{46,94,82}
+    vs pre∈{77,11}); pursue the 01="est" joint (A1's "c'est" count
+    touches both 01="est" and 59="est").
+12. **Rotation mappings** — linguistic mappings killed/null (N20, N27);
+    **column-geometry (arbitrary-column form) KILLED by the rotation-fleet
+    synthesis** (F54 — four independent legs: WO3 generative 0/8, K1 NULL,
+    K2 NULL where powered, contact-clustering structural falsification);
+    red-team adjudication of the underlying executor results still pending.
+    Surviving threads: the 3-state HMM's unsupervised phase-like states,
+    the untested-linguistic-class refuge (needs key recovery). The rhythm
+    itself stands — real, partition-dependent, unexplained: a constraint
+    on the key, not an explanation. **Segmenter round-6 follow-ups (F57):
+    labeling-robustness FRAGILE by bar but excess global under fixed
+    labels; HMM loses held-out (−4.2638 vs −4.2356), wins BIC; 69/96 vs
+    61/96 reconciled; P2c CONFLICT — segmenter: one fixed column order
+    both halves vs side-rotation: cycle flips across variants → P2c
+    falsified. Deconflict before merging conclusions.**
+13. **Round-6 red-team adjudications PENDING** — 0/7 dockets
+    (`code/crowd6/redteam/rulings.md`): all round-6 claims stay
+    executor-grade until the rulings land. The side-rotation red team also
+    has pending: Geometer WO1/WO2/WO3 results, Rhythmicist WO1/WO1b/WO2/WO3
+    results, battery K4 full version (n=23 coherence permutation).
+14. **Traceability flag RESOLVED (executor-grade)** — the round-6
+    scorer re-ran the full 105-descent basin battery and reproduced the
+    .md's denominators exactly (3/105: 1/15, 2/30, 0/60 — F56); the
+    archived crowd5 JSON holds only 9 descents (1/3, 2/3, 0/3), which
+    explains the original flag. The 105-descent record now rests on the
+    round-6 re-derivation (`code/crowd6/scorer/step0_baseline.json`).
 
 **Blockers:** R5006–R5008 NOT obtainable (operator registered `alexrivers`
 on de-crypt.org 2026-10-07, but full-size images need admin elevation —
@@ -920,7 +1719,9 @@ zeschau-seebach-1841/
 ├── NOTES.md                   ← full methodology log
 ├── STATE.md                   ← status / checkpoint / next / blockers
 ├── report_inbox/              ← worker notes land here; processed/ after sweep
-│   └── processed/             ← folded into REPORT.md (this sweep: 45 notes)
+│   └── processed/             ← folded into REPORT.md (63 notes total:
+│       45 prior + 3 + 5 root + 1 crowd5 + 5 crowd6 + 1 bedrock this
+│       sweep, plus crowd-local processed/ dirs next to their inboxes)
 ├── report_assets/
 │   ├── fig1_frequency.png         group frequency rank chart (1,847 pairs)
 │   ├── fig2_bigrams.png           anchor-adjacency bigrams (repaired parse)
@@ -943,12 +1744,45 @@ zeschau-seebach-1841/
 │   │                              morph94_re_battery, drag25, stem47_06, red_team,
 │   │                              repaired_parse.py, phase_map_repaired.json,
 │   │                              REINDEX.md, joint_engine.py, syllabary4.py
+│   ├── crowd5/                    round-5: bigram78_77_578, morph47_06,
+│   │                              frenchman62_leg3, closer87_angles,
+│   │                              window754_1034, scorer_identifiability
+│   │                              (F51 FINAL), redteam/ (verify_baseline.py
+│   │                              31/31, rulings, audits)
+│   ├── crowd6/                    round-6 (EXECUTOR-GRADE, pre-red-team):
+│   │                              bigram_closer (77="le" exploit: 84=NOUN,
+│   │                              59=verb, 45, "le me"×7 dissolution),
+│   │                              closer (WO-A 84="en", WO-B 00="pour"),
+│   │                              frenchman62 (62="on" non-ear battery),
+│   │                              morphologist (battery96_67: 96-battery,
+│   │                              67 fork), scorer (PREREG repaired
+│   │                              objective — results pending),
+│   │                              segmenter (rotation_r6: thread-4 P2a/P2b/
+│   │                              P2c, HMM thread-2), inventorist (by-ear
+│   │                              word sweep: 434 spans, 27 crib-proposals),
+│   │                              redteam/ (verify_baseline.py 49/49;
+│   │                              rulings.md — 0/7 dockets adjudicated)
+│   ├── bedrock/                   independent verification lane: BEDROCK.md,
+│   │                              verifier_a.{py,json}, verifier_a_ledger.md,
+│   │                              verifier_b.{py,json}, verifier_b_ledger.md,
+│   │                              redteam_adjudication.md
+│   ├── side-rotation/             rotation fleet: prereg_falsification.md
+│   │                              (K1–K5 battery, written before results),
+│   │                              prereg_{phonetician,geometer}.md,
+│   │                              phonetician/ (CV-structure NULL 6/6),
+│   │                              rhythmicist/ (WO1b/HMM/WO2, redteam_verify),
+│   │                              geometer/ (WO1/WO2/WO3 — unruled),
+│   │                              redteam/ (RULINGS.md R-0..R-4,
+│   │                              agreement_reconciliation.md)
 │   ├── sidepath/                  Slider (pre-registered), skeleton ledger,
 │   │                              phonetic_rules.md, redteam_sla.md
 │   ├── side-keyhunt/              Petit Chiffre table, parse repair
 │   │                              (repaired_offsets.json), tester harness
 │   ├── side-wordpattern/          lexicon, pattern matcher, polyvalence tester
-│   └── side-homophonic/           gating control suite (CONTROL-DESIGN.md)
+│   └── side-homophonic/           gating control suite (CONTROL-DESIGN.md);
+│                                  runs/ (frozen batch: RUN-REPORT.md,
+│                                  control_report.json per seed,
+│                                  frozen_batch.log — 184103/104 in flight)
 └── data/
     ├── upstream-*.{txt,json,py,md}   Bourdeau transcription + solvers (hashed)
     ├── french-quadgrams.json        letter-quadgram scorer (shelved)
@@ -958,7 +1792,10 @@ zeschau-seebach-1841/
     ├── SHA256SUMS.txt             authoritative hashes (trust over §2 table)
     ├── attempt1_results.json
     ├── attempt2_results.json
-    └── attempt3_results.json
+    ├── attempt3_results.json
+    └── historical-context/
+        └── french-petit-chiffre-doctrine.md  1690 homophone mandate,
+            word-family packing, petit-chiffre tier grammar (F42)
 ```
 
 Anchor key (ground truth vs provisional vs leads, used throughout):
@@ -984,11 +1821,18 @@ Anchor key (ground truth vs provisional vs leads, used throughout):
 | 78 | ver | lead — conditioned islet (iff next=94; n_eff=1) |
 | 52 | pas | lead — vs "se"/"so" rivals (F23/F26) |
 | 24 | en | lead — strong; "est" refuted |
-| 47 | ce | lead — polyvalent with 87; strengthened (F34); 47≠87's "ce" (F35) |
+| 47 | ce | lead — polyvalent with 87; strengthened (F34); 47≠87's "ce" (F35); promotion blocked (N26) |
+| 59 | est | STRONG LEAD — executor-grade, pending red-team (F44); 1.39×, "n'est" n=324; adverse 59→37 ×6 at 6.47× (fenced on 37="le") |
+| 00 | pour | STRONG LEAD — executor-grade, pending red-team (F45); 00→86 ×12 governor frame; blocked on rates (6.22×, 3.85×) |
+| 84 | en | LEAD — executor-grade, pending red-team (F46); sole survivor; promotion BLOCKED on "l'en" 141×/63× |
+| 84 | masculine noun | LEAD-grade — executor-grade, pending red-team (F46); identity NULL; **conflicts with 84="en" — unresolved** |
+| 78-45 | même | LEAD — executor-grade, pending red-team (F47); 0.57×, "le même qui" lock @313 |
 
 Banned (asserted-absent, from the skeleton ledger + adjudications):
 77=pas, 77=que, 06=ent general, 06=/mɑ̃/, 96="de", 47="me" (word reading),
-01="ci". Fenced (conditioned-or-dead): 43="me" (96→43 "par me" era-dead).
+01="ci", 84="plus" (via 59="est"), 84="a", 84=verb-class. Fenced
+(conditioned-or-dead): 43="me" (downgraded MEDIUM→WEAK — 96→43 "par me"
+era-dead; F48).
 
 *Rank convention: figure labels use 1-based positions in the frequency-sorted
 list; lane code and NOTES.md use 0-based indices (figure #N = code rank N−1).

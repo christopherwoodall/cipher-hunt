@@ -30,6 +30,65 @@
 - mrr = 0.0262, pins_intact = 7/7, islets = 0/6, baseline_margin = +15050.3 nats
 - Report: runs/run2-184101/control_report.json
 
+### seed 184102 — COMPLETE (rc=0, wall 3038s)
+- primary = **0.0000** (0/89) — bar min ≥ 0.10: DEAD
+- proj_equiv = 0.0225
+- secondary = 0.1241 — bar min ≥ 0.22: DEAD (below chance 0.1434)
+- mrr = 0.0169, pins_intact = 7/7, islets = 0/6, baseline_margin = +15775.3 nats
+- Report: runs/run2-184102/control_report.json
+- Failure is systematic: 2/2 instances at primary=0.0, margins +15–15.8k nats.
+
+### seed 184103 — RUNNING (launched after 184102 checkpoint)
+
+**INFRA EVENT #2 + PARALLEL-BATCH DISCOVERY:** the run2-184103 background exec
+vanished mid-run (log stops at restart 6; process gone, session dropped —
+same infra-kill signature as the first event). While investigating I found a
+SECOND, independent batch running the same frozen code: `run_frozen_batch.sh`
+(writing to runs/frozen-ctl-*), started 2026-10-07T15:5xZ by another lane
+worker, 2-stream. Its completed runs are BIT-DETERMINISTIC vs mine:
+frozen-ctl-184103 restart 0–6 scores are byte-identical to my killed run2-184103
+restart 0–6 (same frozen code + config + seeds → same trajectory; per-restart
+times differ only by CPU contention). Cross-check: frozen-ctl-184101/184102
+report metrics ≡ my run2-184101/184102 reports (primary/secondary/proj/mrr/hits
+all equal). I adopt the frozen-ctl-* reports for 184103/184104 AFTER
+independent re-scoring with frozen harness score_assignment (verify_report.py):
+both reproduce exactly. No unverified numbers enter the verdict.
+
+### seed 184103 — COMPLETE (parallel batch, verified by re-score; rc=0, wall 3073s)
+- primary = **0.0000** (0/89)
+- proj_equiv = 0.0000
+- secondary = 0.1073 (below chance 0.1434)
+- mrr = 0.0112, pins_intact = 7/7
+- Report: runs/frozen-ctl-184103/control_report.json (rescore-match=True)
+
+### seed 184104 — COMPLETE (parallel batch, verified by re-score; rc=0, wall 3118s)
+- primary = **0.0112** (1/89 — the ONLY non-anchor hit across 4 instances)
+- proj_equiv = 0.0112
+- secondary = 0.1387 (≈ chance)
+- mrr = 0.015, pins_intact = 7/7
+- Report: runs/frozen-ctl-184104/control_report.json (rescore-match=True)
+
+Running aggregate after 4/6: primary [0.0000, 0.0000, 0.0000, 0.0112] →
+mean 0.0028, min 0.0000. Secondary [0.1473, 0.1241, 0.1073, 0.1387] →
+mean 0.1294, min 0.1073. The §4 min bars are already dead; verdict FAIL is
+locked regardless of 184105/184106. Remaining two run for completeness of
+the failure record.
+
+### seeds 184105/184106 — PENDING (parallel batch in flight, started 17:25/17:26Z)
+
+**INFRA EVENT #3:** at ~17:56Z the parallel batch's 184105/184106 were ALSO
+killed (logs stop at restart 6; no DONE lines; zero control_harness processes
+on the box). Three infra kills in ~2h (15:50Z, ~17:4xZ, ~17:56Z), each wiping
+all running solver processes. Mitigation: re-launched 184105/184106 DETACHED
+(setsid+nohup, own sessions, PIDs 1907/1908, 2026-10-07T17:59:10Z, out dirs
+run3-*), polled via log files not session handles. Two streams (matches the
+lane's own run_frozen_batch.sh 2-stream design) to halve exposure time.
+NOTE: if the other worker relaunches its batch, up to 4 streams may contend;
+results are deterministic so no correctness risk.
+
+Verdict status: FAIL is mathematically locked on 4/6 (min bars dead).
+184105/184106 complete the failure record; they cannot change the verdict.
+
 ## Diagnosis (instance 184101, post-scoring, sealed truth used for diagnosis only)
 
 **D1 — Objective misalignment (verdict B).** Planted truth scores **-6959.9 nats**

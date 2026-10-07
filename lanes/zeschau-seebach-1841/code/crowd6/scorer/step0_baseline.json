@@ -1,0 +1,135 @@
+{
+ "SYNTHETIC": true,
+ "objective": "OLD (raw letters, lam_rot=0)",
+ "meta": {
+  "seed": 1841,
+  "span": [
+   40000,
+   41100
+  ],
+  "elapsed_s": 2220.2
+ },
+ "truth_vs_annealed": {
+  "truth_lam10": {
+   "total": -32.431,
+   "s_let": -3.4313,
+   "S_prior": 1.0,
+   "n_poly": 3,
+   "S_hom": -0.0
+  },
+  "truth_lam0": {
+   "total": -2.431,
+   "s_let": -3.4313,
+   "S_prior": 1.0,
+   "n_poly": 3,
+   "S_hom": -0.0
+  },
+  "annealed_runs": [
+   {
+    "restart": 0,
+    "best": -2.631,
+    "acc": 0.805,
+    "components": {
+     "total": -2.631,
+     "s_let": -3.2311,
+     "S_prior": 0.6,
+     "n_poly": 0,
+     "S_hom": -0.0
+    }
+   },
+   {
+    "restart": 1,
+    "best": -2.592,
+    "acc": 0.806,
+    "components": {
+     "total": -2.592,
+     "s_let": -3.1924,
+     "S_prior": 0.6,
+     "n_poly": 0,
+     "S_hom": -0.0
+    }
+   },
+   {
+    "restart": 2,
+    "best": -2.811,
+    "acc": 0.806,
+    "components": {
+     "total": -2.811,
+     "s_let": -3.4105,
+     "S_prior": 0.6,
+     "n_poly": 0,
+     "S_hom": -0.0
+    }
+   }
+  ],
+  "annealed_best": -2.592
+ },
+ "crossover": {
+  "A0_annealed_lam0": -2.5924,
+  "n_poly_abl": 0,
+  "T0_truth_lam0": -2.431,
+  "n_poly_truth": 3,
+  "lambda_star": 0.0538,
+  "interpretation": "truth beats annealed best iff lam_poly < 0.0538"
+ },
+ "basin": {
+  "detail": [
+   {
+    "k": 5,
+    "rep": 0,
+    "recovered": 0,
+    "end": -2.466
+   },
+   {
+    "k": 5,
+    "rep": 1,
+    "recovered": 1,
+    "end": -2.594
+   },
+   {
+    "k": 5,
+    "rep": 2,
+    "recovered": 0,
+    "end": -2.588
+   },
+   {
+    "k": 10,
+    "rep": 0,
+    "recovered": 1,
+    "end": -2.709
+   },
+   {
+    "k": 10,
+    "rep": 1,
+    "recovered": 0,
+    "end": -2.512
+   },
+   {
+    "k": 10,
+    "rep": 2,
+    "recovered": 1,
+    "end": -2.812
+   },
+   {
+    "k": 20,
+    "rep": 0,
+    "recovered": 0,
+    "end": -2.895
+   },
+   {
+    "k": 20,
+    "rep": 1,
+    "recovered": 0,
+    "end": -2.626
+   },
+   {
+    "k": 20,
+    "rep": 2,
+    "recovered": 0,
+    "end": -2.882
+   }
+  ],
+  "recovered": "3/105",
+  "interpretation": "NO basin around truth (landscape slopes away)"
+ }
+}

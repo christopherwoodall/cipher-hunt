@@ -1,0 +1,57 @@
+{
+ "SYNTHETIC": true,
+ "truth_repaired_lam0": {
+  "total": -1.3045,
+  "s_let_proj": -2.6275,
+  "S_word": 0.3231,
+  "s_ph": -0.7815,
+  "S_prior": 1.0,
+  "n_poly": 3,
+  "S_conc": -0.0,
+  "max_n_cp": 10,
+  "lam_poly": 0.0,
+  "lam_conc": 0.0
+ },
+ "projection": {
+  "s_let_proj_truth": -2.6275,
+  "projected_letters": 3873,
+  "note": "compare vs step0 truth s_let (raw); delta ~= ear-noise cost"
+ },
+ "meme_collapse": {
+  "total": -1.7189,
+  "s_let_proj": -3.3647,
+  "S_word": 1.6458,
+  "s_ph": -1.1175,
+  "S_prior": 0,
+  "n_poly": 0,
+  "S_conc": -0.0,
+  "max_n_cp": 89,
+  "lam_poly": 0.0,
+  "lam_conc": 0.0,
+  "top_projected_conc": [
+   [
+    "me",
+    89
+   ],
+   [
+    "la",
+    1
+   ],
+   [
+    "er",
+    1
+   ],
+   [
+    "i",
+    1
+   ],
+   [
+    "e",
+    1
+   ]
+  ],
+  "sum_max0_n_minus_6_sq": 6889,
+  "S_word_overlapping_frozen_style": 3.234,
+  "note": "overlapping-hit style (side fleet frozen bug) vs longest-match dedupe: the dedupe must collapse the degenerate profit"
+ }
+}

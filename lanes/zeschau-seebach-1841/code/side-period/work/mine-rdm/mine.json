@@ -1,0 +1,12306 @@
+{
+ "top_words": [
+  [
+   "lui",
+   6275
+  ],
+  [
+   "qu'il",
+   5584
+  ],
+  [
+   "deux",
+   4739
+  ],
+  [
+   "c'est",
+   4630
+  ],
+  [
+   "sans",
+   4280
+  ],
+  [
+   "sont",
+   3890
+  ],
+  [
+   "avait",
+   3855
+  ],
+  [
+   "d'un",
+   3514
+  ],
+  [
+   "d'une",
+   3472
+  ],
+  [
+   "était",
+   3412
+  ],
+  [
+   "ont",
+   2647
+  ],
+  [
+   "temps",
+   2632
+  ],
+  [
+   "été",
+   2454
+  ],
+  [
+   "france",
+   2450
+  ],
+  [
+   "sous",
+   2400
+  ],
+  [
+   "qu'on",
+   2365
+  ],
+  [
+   "peu",
+   2277
+  ],
+  [
+   "n'est",
+   2196
+  ],
+  [
+   "fut",
+   2118
+  ],
+  [
+   "revue",
+   2030
+  ],
+  [
+   "point",
+   1872
+  ],
+  [
+   "contre",
+   1859
+  ],
+  [
+   "pays",
+   1857
+  ],
+  [
+   "quelques",
+   1841
+  ],
+  [
+   "mondes",
+   1810
+  ],
+  [
+   "notre",
+   1697
+  ],
+  [
+   "nos",
+   1643
+  ],
+  [
+   "grand",
+   1633
+  ],
+  [
+   "rien",
+   1633
+  ],
+  [
+   "qu'elle",
+   1595
+  ],
+  [
+   "dire",
+   1543
+  ],
+  [
+   "quand",
+   1527
+  ],
+  [
+   "jour",
+   1506
+  ],
+  [
+   "gouvernement",
+   1489
+  ],
+  [
+   "cet",
+   1454
+  ],
+  [
+   "fois",
+   1443
+  ],
+  [
+   "quelque",
+   1438
+  ],
+  [
+   "n'a",
+   1426
+  ],
+  [
+   "mon",
+   1385
+  ],
+  [
+   "l'on",
+   1381
+  ],
+  [
+   "hommes",
+   1377
+  ],
+  [
+   "faut",
+   1357
+  ],
+  [
+   "monde",
+   1290
+  ],
+  [
+   "vie",
+   1261
+  ],
+  [
+   "politique",
+   1253
+  ],
+  [
+   "soit",
+   1214
+  ],
+  [
+   "non",
+   1196
+  ],
+  [
+   "qu'ils",
+   1196
+  ],
+  [
+   "grande",
+   1180
+  ],
+  [
+   "vers",
+   1176
+  ],
+  [
+   "trop",
+   1167
+  ],
+  [
+   "tant",
+   1159
+  ],
+  [
+   "lord",
+   1095
+  ],
+  [
+   "roi",
+   1091
+  ],
+  [
+   "trois",
+   1055
+  ],
+  [
+   "serait",
+   1052
+  ],
+  [
+   "l'autre",
+   1041
+  ],
+  [
+   "avaient",
+   1033
+  ],
+  [
+   "homme",
+   1026
+  ],
+  [
+   "étaient",
+   1005
+  ],
+  [
+   "parti",
+   984
+  ],
+  [
+   "fort",
+   977
+  ],
+  [
+   "n'y",
+   940
+  ],
+  [
+   "assez",
+   934
+  ],
+  [
+   "long",
+   926
+  ],
+  [
+   "ment",
+   915
+  ],
+  [
+   "ans",
+   905
+  ],
+  [
+   "qu'un",
+   903
+  ],
+  [
+   "nom",
+   903
+  ],
+  [
+   "pouvoir",
+   898
+  ],
+  [
+   "force",
+   897
+  ],
+  [
+   "voir",
+   894
+  ],
+  [
+   "question",
+   889
+  ],
+  [
+   "enfin",
+   887
+  ],
+  [
+   "droit",
+   886
+  ],
+  [
+   "chaque",
+   885
+  ],
+  [
+   "dieu",
+   882
+  ],
+  [
+   "jeune",
+   872
+  ],
+  [
+   "jours",
+   867
+  ],
+  [
+   "guerre",
+   866
+  ],
+  [
+   "doit",
+   859
+  ],
+  [
+   "c'était",
+   846
+  ],
+  [
+   "peuple",
+   844
+  ],
+  [
+   "s'est",
+   842
+  ],
+  [
+   "moi",
+   839
+  ],
+  [
+   "puis",
+   837
+  ],
+  [
+   "seul",
+   835
+  ],
+  [
+   "aujourd'hui",
+   831
+  ],
+  [
+   "docteur",
+   820
+  ],
+  [
+   "chose",
+   818
+  ],
+  [
+   "saint",
+   817
+  ],
+  [
+   "l'angleterre",
+   816
+  ],
+  [
+   "eux",
+   814
+  ],
+  [
+   "premier",
+   812
+  ],
+  [
+   "part",
+   809
+  ],
+  [
+   "qu'à",
+   809
+  ],
+  [
+   "doute",
+   795
+  ],
+  [
+   "moment",
+   789
+  ],
+  [
+   "beaucoup",
+   779
+  ],
+  [
+   "qu'une",
+   779
+  ],
+  [
+   "presque",
+   775
+  ],
+  [
+   "main",
+   774
+  ],
+  [
+   "votre",
+   771
+  ],
+  [
+   "côté",
+   761
+  ],
+  [
+   "s'il",
+   760
+  ],
+  [
+   "chez",
+   757
+  ],
+  [
+   "môme",
+   754
+  ],
+  [
+   "s'en",
+   746
+  ],
+  [
+   "plusieurs",
+   737
+  ],
+  [
+   "ville",
+   733
+  ],
+  [
+   "jusqu'à",
+   731
+  ],
+  [
+   "souvent",
+   728
+  ],
+  [
+   "près",
+   728
+  ],
+  [
+   "français",
+   728
+  ],
+  [
+   "peine",
+   725
+  ],
+  [
+   "nature",
+   725
+  ],
+  [
+   "devant",
+   724
+  ],
+  [
+   "terre",
+   723
+  ],
+  [
+   "surtout",
+   721
+  ],
+  [
+   "lieu",
+   719
+  ],
+  [
+   "seulement",
+   708
+  ],
+  [
+   "n'en",
+   708
+  ],
+  [
+   "con",
+   707
+  ],
+  [
+   "chambre",
+   706
+  ],
+  [
+   "bon",
+   703
+  ],
+  [
+   "coup",
+   702
+  ],
+  [
+   "yeux",
+   701
+  ],
+  [
+   "pouvait",
+   698
+  ],
+  [
+   "loin",
+   696
+  ],
+  [
+   "porte",
+   696
+  ],
+  [
+   "anglais",
+   694
+  ],
+  [
+   "quel",
+   693
+  ],
+  [
+   "siècle",
+   689
+  ],
+  [
+   "nombre",
+   688
+  ],
+  [
+   "donner",
+   687
+  ],
+  [
+   "mort",
+   684
+  ],
+  [
+   "cœur",
+   684
+  ],
+  [
+   "reste",
+   682
+  ],
+  [
+   "milieu",
+   676
+  ],
+  [
+   "mieux",
+   674
+  ],
+  [
+   "choses",
+   673
+  ],
+  [
+   "n'avait",
+   672
+  ],
+  [
+   "j'ai",
+   671
+  ],
+  [
+   "grands",
+   669
+  ],
+  [
+   "partie",
+   666
+  ],
+  [
+   "l'europe",
+   662
+  ],
+  [
+   "n'était",
+   659
+  ],
+  [
+   "première",
+   656
+  ],
+  [
+   "général",
+   642
+  ],
+  [
+   "fit",
+   639
+  ],
+  [
+   "aurait",
+   637
+  ],
+  [
+   "vrai",
+   632
+  ],
+  [
+   "d'autres",
+   631
+  ],
+  [
+   "nouvelle",
+   629
+  ],
+  [
+   "loi",
+   629
+  ],
+  [
+   "quatre",
+   623
+  ],
+  [
+   "prendre",
+   620
+  ],
+  [
+   "voix",
+   619
+  ],
+  [
+   "dès",
+   618
+  ],
+  [
+   "ici",
+   617
+  ],
+  [
+   "seule",
+   616
+  ],
+  [
+   "mêmes",
+   616
+  ],
+  [
+   "traité",
+   614
+  ],
+  [
+   "raison",
+   612
+  ],
+  [
+   "l'esprit",
+   606
+  ],
+  [
+   "russie",
+   605
+  ],
+  [
+   "sait",
+   604
+  ],
+  [
+   "pensée",
+   598
+  ],
+  [
+   "l'état",
+   597
+  ],
+  [
+   "père",
+   594
+  ],
+  [
+   "devait",
+   592
+  ],
+  [
+   "tion",
+   591
+  ],
+  [
+   "idées",
+   589
+  ],
+  [
+   "mes",
+   588
+  ],
+  [
+   "eût",
+   587
+  ],
+  [
+   "d'être",
+   585
+  ],
+  [
+   "affaires",
+   584
+  ],
+  [
+   "mal",
+   581
+  ],
+  [
+   "puissance",
+   580
+  ],
+  [
+   "mille",
+   578
+  ],
+  [
+   "mot",
+   574
+  ],
+  [
+   "œuvre",
+   571
+  ],
+  [
+   "sera",
+   570
+  ],
+  [
+   "l'un",
+   570
+  ],
+  [
+   "effet",
+   569
+  ],
+  [
+   "caractère",
+   568
+  ],
+  [
+   "liberté",
+   566
+  ],
+  [
+   "moyen",
+   563
+  ],
+  [
+   "nouveau",
+   561
+  ],
+  [
+   "l'homme",
+   553
+  ],
+  [
+   "voilà",
+   551
+  ],
+  [
+   "l'histoire",
+   550
+  ],
+  [
+   "mer",
+   550
+  ],
+  [
+   "qu'en",
+   547
+  ],
+  [
+   "furent",
+   543
+  ],
+  [
+   "sorte",
+   542
+  ],
+  [
+   "d'abord",
+   541
+  ],
+  [
+   "parmi",
+   539
+  ],
+  [
+   "beau",
+   536
+  ],
+  [
+   "femme",
+   533
+  ],
+  [
+   "veut",
+   533
+  ],
+  [
+   "ministère",
+   533
+  ],
+  [
+   "forme",
+   529
+  ],
+  [
+   "besoin",
+   528
+  ],
+  [
+   "eut",
+   525
+  ],
+  [
+   "place",
+   524
+  ],
+  [
+   "manière",
+   512
+  ],
+  [
+   "personne",
+   510
+  ],
+  [
+   "s'y",
+   509
+  ],
+  [
+   "poésie",
+   509
+  ],
+  [
+   "dernier",
+   507
+  ],
+  [
+   "n'ont",
+   506
+  ],
+  [
+   "avons",
+   504
+  ],
+  [
+   "années",
+   503
+  ],
+  [
+   "intérêts",
+   500
+  ],
+  [
+   "mettre",
+   500
+  ],
+  [
+   "trouve",
+   499
+  ],
+  [
+   "système",
+   499
+  ],
+  [
+   "rendre",
+   498
+  ],
+  [
+   "s'était",
+   498
+  ],
+  [
+   "laquelle",
+   494
+  ],
+  [
+   "maître",
+   491
+  ],
+  [
+   "parce",
+   490
+  ],
+  [
+   "pris",
+   489
+  ],
+  [
+   "commerce",
+   485
+  ],
+  [
+   "corps",
+   483
+  ],
+  [
+   "fils",
+   483
+  ],
+  [
+   "mois",
+   481
+  ],
+  [
+   "succès",
+   479
+  ],
+  [
+   "bientôt",
+   479
+  ],
+  [
+   "cour",
+   479
+  ],
+  [
+   "mains",
+   478
+  ],
+  [
+   "quoi",
+   478
+  ],
+  [
+   "vue",
+   477
+  ],
+  [
+   "but",
+   476
+  ],
+  [
+   "quelle",
+   475
+  ],
+  [
+   "com",
+   474
+  ],
+  [
+   "vient",
+   474
+  ],
+  [
+   "juillet",
+   474
+  ],
+  [
+   "sens",
+   473
+  ],
+  [
+   "paris",
+   472
+  ],
+  [
+   "tête",
+   472
+  ],
+  [
+   "conseil",
+   471
+  ],
+  [
+   "semble",
+   468
+  ],
+  [
+   "tour",
+   468
+  ],
+  [
+   "d'ailleurs",
+   468
+  ],
+  [
+   "française",
+   466
+  ],
+  [
+   "comment",
+   466
+  ],
+  [
+   "société",
+   466
+  ],
+  [
+   "fond",
+   464
+  ],
+  [
+   "pourrait",
+   464
+  ],
+  [
+   "faits",
+   463
+  ],
+  [
+   "chef",
+   459
+  ],
+  [
+   "situation",
+   459
+  ],
+  [
+   "ait",
+   458
+  ],
+  [
+   "cause",
+   457
+  ],
+  [
+   "aucun",
+   456
+  ],
+  [
+   "passé",
+   454
+  ],
+  [
+   "paix",
+   452
+  ],
+  [
+   "voit",
+   451
+  ],
+  [
+   "vingt",
+   449
+  ],
+  [
+   "famille",
+   449
+  ],
+  [
+   "puissances",
+   448
+  ],
+  [
+   "bonne",
+   447
+  ],
+  [
+   "lettres",
+   438
+  ],
+  [
+   "esprit",
+   438
+  ],
+  [
+   "vieux",
+   436
+  ],
+  [
+   "cabinet",
+   434
+  ],
+  [
+   "reine",
+   432
+  ],
+  [
+   "d'état",
+   431
+  ],
+  [
+   "tel",
+   431
+  ],
+  [
+   "palmerston",
+   431
+  ],
+  [
+   "travail",
+   430
+  ],
+  [
+   "telle",
+   428
+  ],
+  [
+   "sujet",
+   428
+  ],
+  [
+   "l'a",
+   426
+  ],
+  [
+   "cinq",
+   425
+  ],
+  [
+   "croire",
+   425
+  ],
+  [
+   "grandes",
+   425
+  ],
+  [
+   "génie",
+   424
+  ],
+  [
+   "prince",
+   423
+  ],
+  [
+   "petit",
+   422
+  ],
+  [
+   "propre",
+   420
+  ],
+  [
+   "gens",
+   420
+  ],
+  [
+   "donne",
+   420
+  ],
+  [
+   "don",
+   418
+  ],
+  [
+   "aucune",
+   418
+  ],
+  [
+   "philosophie",
+   418
+  ],
+  [
+   "l'empire",
+   418
+  ],
+  [
+   "livre",
+   417
+  ],
+  [
+   "dix",
+   417
+  ],
+  [
+   "plutôt",
+   414
+  ],
+  [
+   "herbeau",
+   414
+  ],
+  [
+   "suis",
+   413
+  ],
+  [
+   "donné",
+   412
+  ],
+  [
+   "époque",
+   409
+  ],
+  [
+   "mouvement",
+   409
+  ],
+  [
+   "poète",
+   409
+  ],
+  [
+   "état",
+   409
+  ],
+  [
+   "sentiment",
+   408
+  ],
+  [
+   "l'art",
+   407
+  ],
+  [
+   "maison",
+   407
+  ],
+  [
+   "fût",
+   406
+  ],
+  [
+   "histoire",
+   405
+  ],
+  [
+   "contraire",
+   405
+  ],
+  [
+   "pourtant",
+   405
+  ],
+  [
+   "malgré",
+   404
+  ],
+  [
+   "grâce",
+   403
+  ],
+  [
+   "science",
+   401
+  ],
+  [
+   "lois",
+   398
+  ],
+  [
+   "public",
+   397
+  ],
+  [
+   "ali",
+   397
+  ],
+  [
+   "pro",
+   393
+  ],
+  [
+   "belle",
+   392
+  ],
+  [
+   "peuples",
+   390
+  ],
+  [
+   "quant",
+   390
+  ],
+  [
+   "fin",
+   389
+  ],
+  [
+   "qu'elles",
+   389
+  ],
+  [
+   "esprits",
+   386
+  ],
+  [
+   "états",
+   386
+  ],
+  [
+   "d'avoir",
+   384
+  ],
+  [
+   "ciel",
+   381
+  ],
+  [
+   "principe",
+   377
+  ],
+  [
+   "sommes",
+   376
+  ],
+  [
+   "vérité",
+   374
+  ],
+  [
+   "cours",
+   373
+  ],
+  [
+   "hollande",
+   372
+  ],
+  [
+   "révolution",
+   371
+  ],
+  [
+   "faisait",
+   370
+  ],
+  [
+   "nord",
+   369
+  ],
+  [
+   "tard",
+   369
+  ],
+  [
+   "trouver",
+   368
+  ],
+  [
+   "foi",
+   366
+  ],
+  [
+   "autant",
+   366
+  ],
+  [
+   "chefs",
+   365
+  ],
+  [
+   "haut",
+   365
+  ],
+  [
+   "selon",
+   365
+  ],
+  [
+   "nation",
+   359
+  ],
+  [
+   "moyens",
+   358
+  ],
+  [
+   "mesure",
+   356
+  ],
+  [
+   "l'auteur",
+   355
+  ],
+  [
+   "chacun",
+   354
+  ],
+  [
+   "mis",
+   352
+  ],
+  [
+   "parler",
+   351
+  ],
+  [
+   "paraît",
+   351
+  ],
+  [
+   "riquemont",
+   351
+  ],
+  [
+   "six",
+   350
+  ],
+  [
+   "uns",
+   350
+  ],
+  [
+   "ton",
+   349
+  ],
+  [
+   "lutte",
+   348
+  ],
+  [
+   "cas",
+   347
+  ],
+  [
+   "possible",
+   346
+  ],
+  [
+   "amis",
+   345
+  ],
+  [
+   "ministre",
+   345
+  ],
+  [
+   "d'en",
+   344
+  ],
+  [
+   "littérature",
+   344
+  ],
+  [
+   "passer",
+   342
+  ],
+  [
+   "l'armée",
+   341
+  ],
+  [
+   "titre",
+   341
+  ],
+  [
+   "voulu",
+   339
+  ],
+  [
+   "sais",
+   338
+  ],
+  [
+   "simple",
+   338
+  ],
+  [
+   "vos",
+   338
+  ],
+  [
+   "provinces",
+   336
+  ],
+  [
+   "pourquoi",
+   335
+  ],
+  [
+   "venait",
+   334
+  ],
+  [
+   "guère",
+   333
+  ],
+  [
+   "méhémet",
+   330
+  ],
+  [
+   "partout",
+   329
+  ],
+  [
+   "compte",
+   328
+  ],
+  [
+   "nouvelles",
+   327
+  ],
+  [
+   "savoir",
+   327
+  ],
+  [
+   "travaux",
+   327
+  ],
+  [
+   "sultan",
+   327
+  ],
+  [
+   "route",
+   326
+  ],
+  [
+   "l'ordre",
+   325
+  ],
+  [
+   "rome",
+   323
+  ],
+  [
+   "disait",
+   323
+  ],
+  [
+   "suite",
+   323
+  ],
+  [
+   "louise",
+   323
+  ],
+  [
+   "langue",
+   322
+  ],
+  [
+   "villes",
+   322
+  ],
+  [
+   "tandis",
+   322
+  ],
+  [
+   "ayant",
+   320
+  ],
+  [
+   "l'avenir",
+   320
+  ],
+  [
+   "l'espagne",
+   318
+  ],
+  [
+   "dernière",
+   316
+  ],
+  [
+   "goût",
+   316
+  ],
+  [
+   "partis",
+   316
+  ],
+  [
+   "bras",
+   315
+  ],
+  [
+   "lettre",
+   314
+  ],
+  [
+   "fallait",
+   314
+  ],
+  [
+   "mots",
+   314
+  ],
+  [
+   "cent",
+   311
+  ],
+  [
+   "dessus",
+   311
+  ],
+  [
+   "prix",
+   311
+  ],
+  [
+   "mœurs",
+   310
+  ],
+  [
+   "enfans",
+   310
+  ],
+  [
+   "maintenant",
+   310
+  ],
+  [
+   "principes",
+   308
+  ]
+ ],
+ "top_cap_runs": [
+  [
+   "France",
+   2017
+  ],
+  [
+   "C'est",
+   1487
+  ],
+  [
+   "Dieu",
+   657
+  ],
+  [
+   "Russie",
+   491
+  ],
+  [
+   "Quand",
+   383
+  ],
+  [
+   "Paris",
+   369
+  ],
+  [
+   "Palmerston",
+   339
+  ],
+  [
+   "Riquemont",
+   305
+  ],
+  [
+   "Louise",
+   288
+  ],
+  [
+   "Herbeau",
+   287
+  ],
+  [
+   "Rome",
+   282
+  ],
+  [
+   "C'était",
+   267
+  ],
+  [
+   "Porte",
+   256
+  ],
+  [
+   "Méhémet Ali",
+   251
+  ],
+  [
+   "Sans",
+   245
+  ],
+  [
+   "Quant",
+   235
+  ],
+  [
+   "Syrie",
+   228
+  ],
+  [
+   "Hollande",
+   219
+  ],
+  [
+   "Voilà",
+   217
+  ],
+  [
+   "Londres",
+   210
+  ],
+  [
+   "J'ai",
+   208
+  ],
+  [
+   "Anglais",
+   203
+  ],
+  [
+   "Louis",
+   196
+  ],
+  [
+   "Angleterre",
+   186
+  ],
+  [
+   "Savenay",
+   181
+  ],
+  [
+   "Galilée",
+   178
+  ],
+  [
+   "Enfin",
+   175
+  ],
+  [
+   "Dès",
+   171
+  ],
+  [
+   "Charles",
+   169
+  ],
+  [
+   "Français",
+   168
+  ],
+  [
+   "Grèce",
+   165
+  ],
+  [
+   "Suisse",
+   148
+  ],
+  [
+   "Charnaye",
+   148
+  ],
+  [
+   "Rien",
+   145
+  ],
+  [
+   "Quelques",
+   145
+  ],
+  [
+   "Ximenès",
+   145
+  ],
+  [
+   "Prusse",
+   144
+  ],
+  [
+   "Marie",
+   141
+  ],
+  [
+   "Aristide",
+   141
+  ],
+  [
+   "Russes",
+   139
+  ],
+  [
+   "Célestin",
+   139
+  ],
+  [
+   "Italie",
+   138
+  ],
+  [
+   "Guizot",
+   137
+  ],
+  [
+   "Quoi",
+   135
+  ],
+  [
+   "Dante",
+   135
+  ],
+  [
+   "Thiers",
+   125
+  ],
+  [
+   "Non",
+   124
+  ],
+  [
+   "Rosas",
+   124
+  ],
+  [
+   "S'il",
+   123
+  ],
+  [
+   "Bonald",
+   123
+  ],
+  [
+   "Voici",
+   122
+  ],
+  [
+   "Afrique",
+   122
+  ],
+  [
+   "Comment",
+   121
+  ],
+  [
+   "Robert Peel",
+   121
+  ],
+  [
+   "Pourquoi",
+   120
+  ],
+  [
+   "Cet",
+   120
+  ],
+  [
+   "Mon",
+   116
+  ],
+  [
+   "Sous",
+   116
+  ],
+  [
+   "Portugal",
+   112
+  ],
+  [
+   "Quel",
+   112
+  ],
+  [
+   "Chine",
+   111
+  ],
+  [
+   "Puis",
+   109
+  ],
+  [
+   "Romains",
+   108
+  ],
+  [
+   "Hollandais",
+   108
+  ],
+  [
+   "Orient",
+   108
+  ],
+  [
+   "Chaque",
+   107
+  ],
+  [
+   "Nord",
+   106
+  ],
+  [
+   "Espagne",
+   104
+  ],
+  [
+   "Bûchez",
+   102
+  ],
+  [
+   "Saint Léonard",
+   102
+  ],
+  [
+   "Allemagne",
+   100
+  ],
+  [
+   "Ici",
+   98
+  ],
+  [
+   "Constantinople",
+   97
+  ],
+  [
+   "Aujourd'hui",
+   96
+  ],
+  [
+   "Europe",
+   96
+  ],
+  [
+   "Jean",
+   94
+  ],
+  [
+   "Qu'on",
+   93
+  ],
+  [
+   "Parmi",
+   91
+  ],
+  [
+   "Deux",
+   90
+  ],
+  [
+   "Lamennais",
+   89
+  ],
+  [
+   "Guette",
+   89
+  ],
+  [
+   "Quelle",
+   88
+  ],
+  [
+   "Oui",
+   88
+  ],
+  [
+   "Napoléon",
+   85
+  ],
+  [
+   "Majorque",
+   82
+  ],
+  [
+   "D'ailleurs",
+   80
+  ],
+  [
+   "Histoire",
+   79
+  ],
+  [
+   "Grecs",
+   79
+  ],
+  [
+   "Henri",
+   78
+  ],
+  [
+   "Malgré",
+   78
+  ],
+  [
+   "Capodistrias",
+   78
+  ],
+  [
+   "Voyez",
+   75
+  ],
+  [
+   "Vienne",
+   75
+  ],
+  [
+   "Florence",
+   75
+  ],
+  [
+   "Buénos Ayres",
+   74
+  ],
+  [
+   "Pym",
+   74
+  ],
+  [
+   "Biran",
+   74
+  ],
+  [
+   "D'un",
+   73
+  ],
+  [
+   "Turquie",
+   73
+  ],
+  [
+   "Arabes",
+   73
+  ],
+  [
+   "Jacqueline",
+   72
+  ],
+  [
+   "Christ",
+   71
+  ],
+  [
+   "Rhin",
+   70
+  ],
+  [
+   "Espagnols",
+   70
+  ],
+  [
+   "Malheureusement",
+   70
+  ],
+  [
+   "Rivera",
+   69
+  ],
+  [
+   "Tel",
+   67
+  ],
+  [
+   "L'Angleterre",
+   67
+  ],
+  [
+   "Lavalle",
+   67
+  ],
+  [
+   "Certes",
+   66
+  ],
+  [
+   "Guiraud",
+   66
+  ],
+  [
+   "Egypte",
+   65
+  ],
+  [
+   "Ferdinand",
+   64
+  ],
+  [
+   "Java",
+   64
+  ],
+  [
+   "Baretty",
+   64
+  ],
+  [
+   "Belgique",
+   63
+  ],
+  [
+   "Revue",
+   63
+  ],
+  [
+   "Nos",
+   62
+  ],
+  [
+   "Franklin",
+   62
+  ],
+  [
+   "Indes",
+   61
+  ],
+  [
+   "Notre",
+   61
+  ],
+  [
+   "Lebrun",
+   61
+  ],
+  [
+   "Madrid",
+   61
+  ],
+  [
+   "Naples",
+   60
+  ],
+  [
+   "Goethe",
+   60
+  ],
+  [
+   "Venise",
+   60
+  ],
+  [
+   "Lesueur",
+   60
+  ],
+  [
+   "États Unis",
+   59
+  ],
+  [
+   "Witt",
+   59
+  ],
+  [
+   "Colette",
+   59
+  ],
+  [
+   "Italiens",
+   58
+  ],
+  [
+   "Peu",
+   58
+  ],
+  [
+   "Turcs",
+   58
+  ],
+  [
+   "Adélaïde",
+   58
+  ],
+  [
+   "Stanley",
+   58
+  ],
+  [
+   "Grande Bretagne",
+   57
+  ],
+  [
+   "Espartero",
+   56
+  ],
+  [
+   "Caucase",
+   56
+  ],
+  [
+   "L'un",
+   55
+  ],
+  [
+   "Chacun",
+   55
+  ],
+  [
+   "Qu'est",
+   55
+  ],
+  [
+   "Thierry",
+   55
+  ],
+  [
+   "Tant",
+   54
+  ],
+  [
+   "Hélas",
+   54
+  ],
+  [
+   "Vers",
+   54
+  ],
+  [
+   "Bientôt",
+   53
+  ],
+  [
+   "Maintenant",
+   53
+  ],
+  [
+   "Méditerranée",
+   53
+  ],
+  [
+   "Amyot",
+   53
+  ],
+  [
+   "Genève",
+   53
+  ],
+  [
+   "Dépêche",
+   53
+  ],
+  [
+   "Voltaire",
+   52
+  ],
+  [
+   "Nil",
+   52
+  ],
+  [
+   "Grenouille",
+   52
+  ],
+  [
+   "Marie Stuart",
+   51
+  ],
+  [
+   "Homère",
+   51
+  ],
+  [
+   "Soult",
+   51
+  ],
+  [
+   "Platon",
+   51
+  ],
+  [
+   "Carthaginois",
+   50
+  ],
+  [
+   "Emile Deschamps",
+   50
+  ],
+  [
+   "Votre",
+   49
+  ],
+  [
+   "Bible",
+   49
+  ],
+  [
+   "Julie",
+   49
+  ],
+  [
+   "Telle",
+   48
+  ],
+  [
+   "Tandis",
+   48
+  ],
+  [
+   "Portugais",
+   48
+  ],
+  [
+   "Lespinasse",
+   48
+  ],
+  [
+   "Raphaël",
+   48
+  ],
+  [
+   "Plusieurs",
+   47
+  ],
+  [
+   "Ponsonby",
+   47
+  ],
+  [
+   "Richomme",
+   47
+  ],
+  [
+   "Bertaut",
+   47
+  ],
+  [
+   "J'en",
+   46
+  ],
+  [
+   "Ibid",
+   46
+  ],
+  [
+   "Qu'il",
+   46
+  ],
+  [
+   "Allemands",
+   46
+  ],
+  [
+   "N'est",
+   46
+  ],
+  [
+   "Corneille",
+   46
+  ],
+  [
+   "Metternich",
+   46
+  ],
+  [
+   "Carthage",
+   46
+  ],
+  [
+   "L'auteur",
+   45
+  ],
+  [
+   "Loin",
+   45
+  ],
+  [
+   "Berlin",
+   45
+  ],
+  [
+   "Palma",
+   45
+  ],
+  [
+   "Maures",
+   45
+  ],
+  [
+   "Paulet",
+   45
+  ],
+  [
+   "Maléchard",
+   45
+  ],
+  [
+   "Alexandrie",
+   44
+  ],
+  [
+   "Poussin",
+   44
+  ],
+  [
+   "Castille",
+   44
+  ],
+  [
+   "Rochet",
+   44
+  ],
+  [
+   "Philippe",
+   43
+  ],
+  [
+   "Bothwell",
+   43
+  ],
+  [
+   "Souvent",
+   43
+  ],
+  [
+   "Jésus",
+   43
+  ],
+  [
+   "Lord Palmerston",
+   43
+  ],
+  [
+   "Catherine",
+   42
+  ],
+  [
+   "Pierre",
+   42
+  ],
+  [
+   "Kader",
+   42
+  ],
+  [
+   "Choa",
+   42
+  ],
+  [
+   "Granville",
+   42
+  ],
+  [
+   "Ecosse",
+   41
+  ],
+  [
+   "Allons",
+   41
+  ],
+  [
+   "Providence",
+   41
+  ],
+  [
+   "Pologne",
+   41
+  ],
+  [
+   "Lamartine",
+   41
+  ],
+  [
+   "Toscane",
+   41
+  ],
+  [
+   "Montevideo",
+   41
+  ],
+  [
+   "Chinois",
+   41
+  ],
+  [
+   "Walter Scott",
+   40
+  ],
+  [
+   "Nul",
+   40
+  ],
+  [
+   "Perse",
+   40
+  ],
+  [
+   "Antoni Deschamps",
+   40
+  ],
+  [
+   "Elisabeth",
+   39
+  ],
+  [
+   "Renard",
+   39
+  ],
+  [
+   "Jeannette",
+   39
+  ],
+  [
+   "Alexandre",
+   38
+  ],
+  [
+   "Cousin",
+   38
+  ],
+  [
+   "Monsieur",
+   38
+  ],
+  [
+   "L'homme",
+   38
+  ],
+  [
+   "Lisbonne",
+   38
+  ],
+  [
+   "Asie",
+   38
+  ],
+  [
+   "Nesselrode",
+   38
+  ],
+  [
+   "États",
+   38
+  ],
+  [
+   "Gaston",
+   38
+  ],
+  [
+   "Alpes",
+   37
+  ],
+  [
+   "Jean Jacques",
+   37
+  ],
+  [
+   "Quoique",
+   37
+  ],
+  [
+   "Isabelle",
+   37
+  ],
+  [
+   "Jupiter",
+   37
+  ],
+  [
+   "Elliot",
+   37
+  ],
+  [
+   "Meurdrac",
+   37
+  ],
+  [
+   "Gaulois",
+   37
+  ],
+  [
+   "Darnley",
+   36
+  ],
+  [
+   "Grand",
+   36
+  ],
+  [
+   "Seulement",
+   36
+  ],
+  [
+   "Jésus Christ",
+   36
+  ],
+  [
+   "Rouge",
+   36
+  ],
+  [
+   "Cosaques",
+   36
+  ],
+  [
+   "Vierge",
+   36
+  ],
+  [
+   "Montpellier",
+   36
+  ],
+  [
+   "Wrangel",
+   36
+  ],
+  [
+   "Provinces Unies",
+   36
+  ],
+  [
+   "Alger",
+   35
+  ],
+  [
+   "Racine",
+   35
+  ],
+  [
+   "Sédaine",
+   35
+  ],
+  [
+   "Plutarque",
+   35
+  ],
+  [
+   "Garcia",
+   35
+  ],
+  [
+   "Galatie",
+   35
+  ],
+  [
+   "Basnage Annales",
+   35
+  ],
+  [
+   "Knox",
+   34
+  ],
+  [
+   "D'autres",
+   34
+  ],
+  [
+   "Ali",
+   34
+  ],
+  [
+   "Mort",
+   34
+  ],
+  [
+   "Leonardo",
+   34
+  ],
+  [
+   "Géorgie",
+   34
+  ],
+  [
+   "Script",
+   34
+  ],
+  [
+   "Personne",
+   33
+  ],
+  [
+   "Quelque",
+   33
+  ],
+  [
+   "Grâce",
+   33
+  ],
+  [
+   "Trois",
+   33
+  ],
+  [
+   "Cuba",
+   33
+  ],
+  [
+   "Bulwer",
+   33
+  ],
+  [
+   "Beauvale",
+   33
+  ],
+  [
+   "François",
+   32
+  ],
+  [
+   "Médicis",
+   32
+  ],
+  [
+   "Chez",
+   32
+  ],
+  [
+   "Beaucoup",
+   32
+  ],
+  [
+   "Presque",
+   32
+  ],
+  [
+   "L'histoire",
+   32
+  ],
+  [
+   "Schiller",
+   32
+  ],
+  [
+   "Brésil",
+   32
+  ],
+  [
+   "Heureusement",
+   32
+  ],
+  [
+   "Wellington",
+   32
+  ],
+  [
+   "Canton",
+   32
+  ],
+  [
+   "Surville",
+   32
+  ],
+  [
+   "Vendœuvre",
+   32
+  ],
+  [
+   "Aussitôt",
+   31
+  ],
+  [
+   "L'Europe",
+   31
+  ],
+  [
+   "Selon",
+   31
+  ],
+  [
+   "Rousseau",
+   31
+  ],
+  [
+   "Turin",
+   31
+  ],
+  [
+   "Satan",
+   31
+  ],
+  [
+   "Loewe",
+   31
+  ],
+  [
+   "Duprez",
+   31
+  ],
+  [
+   "Piémont",
+   31
+  ],
+  [
+   "Bombay",
+   31
+  ],
+  [
+   "Numides",
+   31
+  ],
+  [
+   "Guillaume",
+   30
+  ],
+  [
+   "Partout",
+   30
+  ],
+  [
+   "J'étais",
+   30
+  ],
+  [
+   "Saint Jean",
+   30
+  ],
+  [
+   "Villemain",
+   30
+  ],
+  [
+   "Mole",
+   30
+  ],
+  [
+   "Miguel",
+   30
+  ],
+  [
+   "L'une",
+   30
+  ],
+  [
+   "Amérique",
+   30
+  ],
+  [
+   "Européens",
+   30
+  ],
+  [
+   "D'après",
+   30
+  ],
+  [
+   "Locke",
+   30
+  ],
+  [
+   "Abd",
+   30
+  ],
+  [
+   "Clotilde",
+   30
+  ],
+  [
+   "Mes",
+   29
+  ],
+  [
+   "Candie",
+   29
+  ],
+  [
+   "Pays Bas",
+   29
+  ],
+  [
+   "Majorquins",
+   29
+  ],
+  [
+   "Outre",
+   29
+  ],
+  [
+   "Aucun",
+   29
+  ],
+  [
+   "Faut",
+   29
+  ],
+  [
+   "Ton",
+   29
+  ],
+  [
+   "Wood",
+   29
+  ],
+  [
+   "Rubens",
+   29
+  ],
+  [
+   "Pedro",
+   29
+  ],
+  [
+   "O'Connell",
+   29
+  ],
+  [
+   "Baude",
+   29
+  ],
+  [
+   "Mirabeau",
+   28
+  ],
+  [
+   "Jacques",
+   28
+  ],
+  [
+   "Lui",
+   28
+  ],
+  [
+   "Hol",
+   28
+  ],
+  [
+   "Saint Pétersbourg",
+   28
+  ],
+  [
+   "L'Autriche",
+   28
+  ],
+  [
+   "D'une",
+   28
+  ],
+  [
+   "Carné",
+   28
+  ],
+  [
+   "Salvandy",
+   28
+  ],
+  [
+   "Victor Hugo",
+   28
+  ],
+  [
+   "Paul",
+   28
+  ],
+  [
+   "L'idée",
+   28
+  ],
+  [
+   "Berne",
+   28
+  ],
+  [
+   "Descartes",
+   28
+  ],
+  [
+   "John Russell",
+   28
+  ],
+  [
+   "Leibnitz",
+   28
+  ],
+  [
+   "Danton",
+   28
+  ],
+  [
+   "Sémida",
+   28
+  ],
+  [
+   "Flamborough",
+   28
+  ],
+  [
+   "Brunnow",
+   28
+  ],
+  [
+   "Midi",
+   27
+  ],
+  [
+   "Suède",
+   27
+  ],
+  [
+   "C'étaient",
+   27
+  ],
+  [
+   "Haye",
+   27
+  ],
+  [
+   "Sicile",
+   27
+  ],
+  [
+   "Combien",
+   27
+  ],
+  [
+   "Péninsule",
+   27
+  ],
+  [
+   "Turenne",
+   27
+  ],
+  [
+   "L'esprit",
+   27
+  ],
+  [
+   "Chartreuse",
+   27
+  ],
+  [
+   "Philosophie",
+   27
+  ],
+  [
+   "Her",
+   27
+  ],
+  [
+   "Gueux",
+   27
+  ],
+  [
+   "D'abord",
+   26
+  ],
+  [
+   "Seph",
+   26
+  ],
+  [
+   "Quels",
+   26
+  ],
+  [
+   "Bosphore",
+   26
+  ],
+  [
+   "INous",
+   26
+  ],
+  [
+   "Laurens",
+   26
+  ],
+  [
+   "Barcelone",
+   26
+  ],
+  [
+   "J'avais",
+   26
+  ],
+  [
+   "Michel Ange",
+   26
+  ],
+  [
+   "Tolède",
+   26
+  ],
+  [
+   "Caspienne",
+   26
+  ],
+  [
+   "Romilly",
+   26
+  ],
+  [
+   "Mainvielle",
+   26
+  ],
+  [
+   "Mémoires",
+   25
+  ],
+  [
+   "Vénus",
+   25
+  ],
+  [
+   "Levant",
+   25
+  ],
+  [
+   "D'où",
+   25
+  ],
+  [
+   "Américains",
+   25
+  ],
+  [
+   "Pétersbourg",
+   25
+  ],
+  [
+   "Maistre",
+   25
+  ],
+  [
+   "Mouny",
+   25
+  ],
+  [
+   "Javanais",
+   25
+  ],
+  [
+   "Borrow",
+   25
+  ],
+  [
+   "Kirghiz Kazaks",
+   25
+  ],
+  [
+   "Edimbourg",
+   24
+  ],
+  [
+   "Amsterdam",
+   24
+  ],
+  [
+   "Lorsqu'il",
+   24
+  ],
+  [
+   "Dardanelles",
+   24
+  ],
+  [
+   "Melbourne",
+   24
+  ],
+  [
+   "Grenade",
+   24
+  ],
+  [
+   "Quatre",
+   24
+  ],
+  [
+   "Plata",
+   24
+  ],
+  [
+   "Autant",
+   24
+  ],
+  [
+   "Gaule",
+   24
+  ],
+  [
+   "Soumet",
+   24
+  ],
+  [
+   "Louison",
+   24
+  ],
+  [
+   "Laissez",
+   23
+  ],
+  [
+   "Sud",
+   23
+  ],
+  [
+   "France Il",
+   23
+  ],
+  [
+   "Voyons",
+   23
+  ],
+  [
+   "Assurément",
+   23
+  ],
+  [
+   "Néanmoins",
+   23
+  ],
+  [
+   "Hugo",
+   23
+  ],
+  [
+   "Parana",
+   23
+  ],
+  [
+   "Laissons",
+   23
+  ],
+  [
+   "Calderon",
+   23
+  ],
+  [
+   "Puisque",
+   23
+  ],
+  [
+   "L'Espagne",
+   23
+  ],
+  [
+   "Guibert",
+   23
+  ],
+  [
+   "Sibérie",
+   23
+  ],
+  [
+   "Constantin",
+   23
+  ],
+  [
+   "Canning",
+   23
+  ],
+  [
+   "États Généraux",
+   23
+  ],
+  [
+   "L'armée",
+   22
+  ],
+  [
+   "Beyrouth",
+   22
+  ],
+  [
+   "Pal",
+   22
+  ],
+  [
+   "Mars",
+   22
+  ],
+  [
+   "Byron",
+   22
+  ],
+  [
+   "Pourtant",
+   22
+  ],
+  [
+   "Jeanne",
+   22
+  ],
+  [
+   "Aristote",
+   22
+  ],
+  [
+   "Thomas",
+   22
+  ],
+  [
+   "Rubini",
+   22
+  ],
+  [
+   "Spinosa",
+   22
+  ],
+  [
+   "Greg Turon Hist Franc",
+   22
+  ],
+  [
+   "Guises",
+   21
+  ],
+  [
+   "Madame",
+   21
+  ],
+  [
+   "Flandre",
+   21
+  ],
+  [
+   "L'art",
+   21
+  ],
+  [
+   "Quelquefois",
+   21
+  ],
+  [
+   "L'amour",
+   21
+  ],
+  [
+   "Versailles",
+   21
+  ],
+  [
+   "Vive",
+   21
+  ],
+  [
+   "Durant",
+   21
+  ],
+  [
+   "Charlemagne",
+   21
+  ],
+  [
+   "Jeune",
+   21
+  ],
+  [
+   "Zélée",
+   21
+  ],
+  [
+   "Astrolabe",
+   21
+  ],
+  [
+   "Maria",
+   21
+  ],
+  [
+   "Quinzaine Histoire",
+   21
+  ],
+  [
+   "Daghestan",
+   21
+  ],
+  [
+   "George",
+   21
+  ],
+  [
+   "Arius",
+   21
+  ],
+  [
+   "Vouet",
+   21
+  ],
+  [
+   "Ancelot",
+   21
+  ],
+  [
+   "Vauvert",
+   21
+  ],
+  [
+   "Limoges",
+   21
+  ],
+  [
+   "Rique",
+   21
+  ],
+  [
+   "Grippard",
+   21
+  ],
+  [
+   "Murray",
+   20
+  ],
+  [
+   "Tantôt",
+   20
+  ],
+  [
+   "Bonaparte",
+   20
+  ],
+  [
+   "Moïse",
+   20
+  ],
+  [
+   "César",
+   20
+  ],
+  [
+   "Mahmoud",
+   20
+  ],
+  [
+   "Méhémet",
+   20
+  ],
+  [
+   "Quelles",
+   20
+  ],
+  [
+   "IMais",
+   20
+  ],
+  [
+   "Autour",
+   20
+  ],
+  [
+   "Virgile",
+   20
+  ],
+  [
+   "Nantes",
+   20
+  ],
+  [
+   "Chateaubriand",
+   20
+  ],
+  [
+   "Lettre",
+   20
+  ],
+  [
+   "Richelieu",
+   20
+  ],
+  [
+   "Rios",
+   20
+  ],
+  [
+   "Crespo",
+   20
+  ],
+  [
+   "Vie",
+   20
+  ],
+  [
+   "Ibrahim",
+   20
+  ],
+  [
+   "L'influence",
+   20
+  ],
+  [
+   "Trinité",
+   20
+  ],
+  [
+   "Soit",
+   20
+  ],
+  [
+   "Weber",
+   20
+  ],
+  [
+   "Barbier",
+   20
+  ],
+  [
+   "Strafford",
+   20
+  ],
+  [
+   "Padoue",
+   20
+  ],
+  [
+   "Aucune",
+   20
+  ],
+  [
+   "Tiflis",
+   20
+  ],
+  [
+   "Idaméel",
+   20
+  ],
+  [
+   "Reybaud",
+   20
+  ],
+  [
+   "Frédégonde",
+   20
+  ],
+  [
+   "Brizeux",
+   20
+  ],
+  [
+   "Kohi",
+   20
+  ],
+  [
+   "Syriens",
+   20
+  ],
+  [
+   "L'Ecosse",
+   19
+  ],
+  [
+   "Allez",
+   19
+  ],
+  [
+   "Charles Quint",
+   19
+  ],
+  [
+   "Société",
+   19
+  ],
+  [
+   "L'administration",
+   19
+  ],
+  [
+   "Ajoutons",
+   19
+  ],
+  [
+   "Molière",
+   19
+  ],
+  [
+   "OEuvres",
+   19
+  ],
+  [
+   "Ronsard",
+   19
+  ],
+  [
+   "L'amiral",
+   19
+  ],
+  [
+   "Stoltz",
+   19
+  ],
+  [
+   "Robert",
+   19
+  ],
+  [
+   "Baltique",
+   19
+  ],
+  [
+   "Mora",
+   19
+  ],
+  [
+   "Chronique",
+   19
+  ],
+  [
+   "Caravage",
+   19
+  ],
+  [
+   "Adam",
+   19
+  ],
+  [
+   "Slick",
+   19
+  ],
+  [
+   "Desportes",
+   19
+  ],
+  [
+   "Malherbe",
+   19
+  ],
+  [
+   "Groot",
+   19
+  ],
+  [
+   "Lettres",
+   18
+  ],
+  [
+   "Cecil",
+   18
+  ],
+  [
+   "Moi",
+   18
+  ],
+  [
+   "Écossais",
+   18
+  ],
+  [
+   "Joseph",
+   18
+  ],
+  [
+   "Adieu",
+   18
+  ],
+  [
+   "Tacite",
+   18
+  ],
+  [
+   "Près",
+   18
+  ]
+ ],
+ "top_cap1": [
+  [
+   "france",
+   2295
+  ],
+  [
+   "c'est",
+   1659
+  ],
+  [
+   "dieu",
+   773
+  ],
+  [
+   "russie",
+   560
+  ],
+  [
+   "saint",
+   531
+  ],
+  [
+   "paris",
+   465
+  ],
+  [
+   "palmerston",
+   431
+  ],
+  [
+   "quand",
+   423
+  ],
+  [
+   "il",
+   411
+  ],
+  [
+   "ali",
+   394
+  ],
+  [
+   "le",
+   379
+  ],
+  [
+   "herbeau",
+   360
+  ],
+  [
+   "riquemont",
+   351
+  ],
+  [
+   "méhémet",
+   330
+  ],
+  [
+   "rome",
+   323
+  ],
+  [
+   "louise",
+   323
+  ],
+  [
+   "c'était",
+   313
+  ],
+  [
+   "la",
+   293
+  ],
+  [
+   "les",
+   283
+  ],
+  [
+   "porte",
+   273
+  ],
+  [
+   "syrie",
+   273
+  ],
+  [
+   "sans",
+   272
+  ],
+  [
+   "quant",
+   271
+  ],
+  [
+   "hollande",
+   268
+  ],
+  [
+   "jean",
+   266
+  ],
+  [
+   "marie",
+   258
+  ],
+  [
+   "charles",
+   255
+  ],
+  [
+   "louis",
+   236
+  ],
+  [
+   "londres",
+   235
+  ],
+  [
+   "anglais",
+   235
+  ],
+  [
+   "voilà",
+   235
+  ],
+  [
+   "angleterre",
+   228
+  ],
+  [
+   "j'ai",
+   224
+  ],
+  [
+   "savenay",
+   223
+  ],
+  [
+   "français",
+   220
+  ],
+  [
+   "on",
+   216
+  ],
+  [
+   "galilée",
+   215
+  ],
+  [
+   "enfin",
+   208
+  ],
+  [
+   "grèce",
+   196
+  ],
+  [
+   "dès",
+   190
+  ],
+  [
+   "robert",
+   186
+  ],
+  [
+   "suisse",
+   184
+  ],
+  [
+   "italie",
+   178
+  ],
+  [
+   "célestin",
+   176
+  ],
+  [
+   "aristide",
+   173
+  ],
+  [
+   "ce",
+   171
+  ],
+  [
+   "ximenès",
+   169
+  ],
+  [
+   "dante",
+   166
+  ],
+  [
+   "rien",
+   162
+  ],
+  [
+   "prusse",
+   161
+  ],
+  [
+   "léonard",
+   161
+  ],
+  [
+   "charnaye",
+   161
+  ],
+  [
+   "quelques",
+   159
+  ],
+  [
+   "rosas",
+   157
+  ],
+  [
+   "russes",
+   156
+  ],
+  [
+   "don",
+   154
+  ],
+  [
+   "mon",
+   153
+  ],
+  [
+   "peel",
+   152
+  ],
+  [
+   "non",
+   150
+  ],
+  [
+   "je",
+   149
+  ],
+  [
+   "guizot",
+   149
+  ],
+  [
+   "cet",
+   144
+  ],
+  [
+   "afrique",
+   144
+  ],
+  [
+   "voici",
+   143
+  ],
+  [
+   "quoi",
+   143
+  ],
+  [
+   "états",
+   143
+  ],
+  [
+   "thiers",
+   143
+  ],
+  [
+   "histoire",
+   141
+  ],
+  [
+   "comment",
+   138
+  ],
+  [
+   "mais",
+   136
+  ],
+  [
+   "pourquoi",
+   135
+  ],
+  [
+   "chine",
+   135
+  ],
+  [
+   "bonald",
+   133
+  ],
+  [
+   "s'il",
+   132
+  ],
+  [
+   "lord",
+   130
+  ],
+  [
+   "sous",
+   129
+  ],
+  [
+   "espagne",
+   129
+  ],
+  [
+   "christ",
+   127
+  ],
+  [
+   "nord",
+   126
+  ],
+  [
+   "portugal",
+   126
+  ],
+  [
+   "romains",
+   126
+  ],
+  [
+   "orient",
+   126
+  ],
+  [
+   "en",
+   125
+  ],
+  [
+   "henri",
+   124
+  ],
+  [
+   "allemagne",
+   122
+  ],
+  [
+   "europe",
+   122
+  ],
+  [
+   "constantinople",
+   121
+  ],
+  [
+   "quel",
+   120
+  ],
+  [
+   "hollandais",
+   117
+  ],
+  [
+   "chaque",
+   116
+  ],
+  [
+   "puis",
+   115
+  ],
+  [
+   "deux",
+   114
+  ],
+  [
+   "qu'on",
+   109
+  ],
+  [
+   "aujourd'hui",
+   108
+  ],
+  [
+   "ayres",
+   107
+  ],
+  [
+   "ici",
+   106
+  ],
+  [
+   "bûchez",
+   104
+  ],
+  [
+   "oui",
+   103
+  ],
+  [
+   "deschamps",
+   102
+  ],
+  [
+   "majorque",
+   101
+  ],
+  [
+   "jacques",
+   100
+  ],
+  [
+   "parmi",
+   100
+  ],
+  [
+   "notre",
+   99
+  ],
+  [
+   "napoléon",
+   99
+  ],
+  [
+   "buénos",
+   99
+  ],
+  [
+   "quelle",
+   98
+  ],
+  [
+   "cette",
+   98
+  ],
+  [
+   "guette",
+   98
+  ],
+  [
+   "nous",
+   97
+  ],
+  [
+   "garcia",
+   97
+  ],
+  [
+   "grecs",
+   96
+  ],
+  [
+   "jésus",
+   96
+  ],
+  [
+   "lamennais",
+   95
+  ],
+  [
+   "florence",
+   94
+  ],
+  [
+   "vienne",
+   92
+  ],
+  [
+   "capodistrias",
+   92
+  ],
+  [
+   "turquie",
+   91
+  ],
+  [
+   "rhin",
+   90
+  ],
+  [
+   "d'ailleurs",
+   89
+  ],
+  [
+   "pym",
+   88
+  ],
+  [
+   "malgré",
+   87
+  ],
+  [
+   "voyez",
+   86
+  ],
+  [
+   "bretagne",
+   86
+  ],
+  [
+   "dans",
+   84
+  ],
+  [
+   "arabes",
+   84
+  ],
+  [
+   "indes",
+   82
+  ],
+  [
+   "espagnols",
+   82
+  ],
+  [
+   "jacqueline",
+   81
+  ],
+  [
+   "pierre",
+   80
+  ],
+  [
+   "rivera",
+   80
+  ],
+  [
+   "franklin",
+   80
+  ],
+  [
+   "certes",
+   79
+  ],
+  [
+   "d'un",
+   78
+  ],
+  [
+   "egypte",
+   78
+  ],
+  [
+   "malheureusement",
+   78
+  ],
+  [
+   "grande",
+   78
+  ],
+  [
+   "lavalle",
+   78
+  ],
+  [
+   "l'angleterre",
+   76
+  ],
+  [
+   "biran",
+   76
+  ],
+  [
+   "belgique",
+   75
+  ],
+  [
+   "unis",
+   75
+  ],
+  [
+   "ferdinand",
+   75
+  ],
+  [
+   "guiraud",
+   75
+  ],
+  [
+   "goethe",
+   74
+  ],
+  [
+   "venise",
+   74
+  ],
+  [
+   "java",
+   74
+  ],
+  [
+   "tel",
+   73
+  ],
+  [
+   "revue",
+   73
+  ],
+  [
+   "lebrun",
+   73
+  ],
+  [
+   "caucase",
+   72
+  ],
+  [
+   "genève",
+   71
+  ],
+  [
+   "méditerranée",
+   71
+  ],
+  [
+   "colette",
+   71
+  ],
+  [
+   "ponsonby",
+   70
+  ],
+  [
+   "adélaïde",
+   70
+  ],
+  [
+   "grenouille",
+   70
+  ],
+  [
+   "emile",
+   70
+  ],
+  [
+   "stuart",
+   69
+  ],
+  [
+   "crespo",
+   69
+  ],
+  [
+   "turcs",
+   68
+  ],
+  [
+   "madrid",
+   68
+  ],
+  [
+   "alexandre",
+   67
+  ],
+  [
+   "thierry",
+   67
+  ],
+  [
+   "homère",
+   66
+  ],
+  [
+   "platon",
+   66
+  ],
+  [
+   "naples",
+   66
+  ],
+  [
+   "lesueur",
+   66
+  ],
+  [
+   "baretty",
+   66
+  ],
+  [
+   "ces",
+   65
+  ],
+  [
+   "nos",
+   65
+  ],
+  [
+   "pétersbourg",
+   65
+  ],
+  [
+   "stanley",
+   65
+  ],
+  [
+   "italiens",
+   64
+  ],
+  [
+   "qu'est",
+   64
+  ],
+  [
+   "au",
+   63
+  ],
+  [
+   "espartero",
+   63
+  ],
+  [
+   "scott",
+   62
+  ],
+  [
+   "l'un",
+   62
+  ],
+  [
+   "peu",
+   62
+  ],
+  [
+   "si",
+   62
+  ],
+  [
+   "voltaire",
+   62
+  ],
+  [
+   "vers",
+   62
+  ],
+  [
+   "amyot",
+   62
+  ],
+  [
+   "elle",
+   61
+  ],
+  [
+   "george",
+   61
+  ],
+  [
+   "hélas",
+   61
+  ],
+  [
+   "nil",
+   61
+  ],
+  [
+   "chacun",
+   61
+  ],
+  [
+   "witt",
+   61
+  ],
+  [
+   "et",
+   60
+  ],
+  [
+   "bientôt",
+   60
+  ],
+  [
+   "carthaginois",
+   59
+  ],
+  [
+   "tant",
+   58
+  ],
+  [
+   "paul",
+   58
+  ],
+  [
+   "carthage",
+   58
+  ],
+  [
+   "votre",
+   57
+  ],
+  [
+   "poussin",
+   57
+  ],
+  [
+   "hugo",
+   57
+  ],
+  [
+   "philippe",
+   56
+  ],
+  [
+   "bible",
+   56
+  ],
+  [
+   "maintenant",
+   56
+  ],
+  [
+   "monsieur",
+   56
+  ],
+  [
+   "dépêche",
+   56
+  ],
+  [
+   "soult",
+   55
+  ],
+  [
+   "sainte",
+   55
+  ],
+  [
+   "castille",
+   55
+  ],
+  [
+   "john",
+   55
+  ],
+  [
+   "raphaël",
+   55
+  ],
+  [
+   "julie",
+   55
+  ],
+  [
+   "ecosse",
+   54
+  ],
+  [
+   "un",
+   54
+  ],
+  [
+   "alexandrie",
+   54
+  ],
+  [
+   "maures",
+   54
+  ],
+  [
+   "lespinasse",
+   54
+  ],
+  [
+   "granville",
+   54
+  ],
+  [
+   "allemands",
+   53
+  ],
+  [
+   "berlin",
+   53
+  ],
+  [
+   "palma",
+   53
+  ],
+  [
+   "michel",
+   53
+  ],
+  [
+   "pedro",
+   53
+  ],
+  [
+   "metternich",
+   53
+  ],
+  [
+   "pacha",
+   53
+  ],
+  [
+   "richomme",
+   53
+  ],
+  [
+   "maléchard",
+   53
+  ],
+  [
+   "walter",
+   52
+  ],
+  [
+   "catherine",
+   52
+  ],
+  [
+   "ibid",
+   52
+  ],
+  [
+   "asie",
+   52
+  ],
+  [
+   "l'europe",
+   52
+  ],
+  [
+   "corneille",
+   52
+  ],
+  [
+   "paulet",
+   52
+  ],
+  [
+   "l'auteur",
+   51
+  ],
+  [
+   "bertaut",
+   51
+  ],
+  [
+   "darnley",
+   50
+  ],
+  [
+   "plusieurs",
+   50
+  ],
+  [
+   "qu'il",
+   50
+  ],
+  [
+   "guillaume",
+   50
+  ],
+  [
+   "telle",
+   50
+  ],
+  [
+   "de",
+   50
+  ],
+  [
+   "perse",
+   50
+  ],
+  [
+   "provinces",
+   50
+  ],
+  [
+   "unies",
+   50
+  ],
+  [
+   "souvent",
+   49
+  ],
+  [
+   "bas",
+   49
+  ],
+  [
+   "tandis",
+   49
+  ],
+  [
+   "rousseau",
+   49
+  ],
+  [
+   "lope",
+   49
+  ],
+  [
+   "antoni",
+   49
+  ],
+  [
+   "j'en",
+   48
+  ],
+  [
+   "n'est",
+   48
+  ],
+  [
+   "loin",
+   48
+  ],
+  [
+   "portugais",
+   48
+  ],
+  [
+   "loewe",
+   48
+  ],
+  [
+   "flamborough",
+   48
+  ],
+  [
+   "trois",
+   47
+  ],
+  [
+   "bothwell",
+   47
+  ],
+  [
+   "quoique",
+   47
+  ],
+  [
+   "van",
+   47
+  ],
+  [
+   "pour",
+   47
+  ],
+  [
+   "pologne",
+   47
+  ],
+  [
+   "kader",
+   47
+  ],
+  [
+   "choa",
+   47
+  ],
+  [
+   "elisabeth",
+   46
+  ],
+  [
+   "ils",
+   46
+  ],
+  [
+   "rouge",
+   46
+  ],
+  [
+   "miguel",
+   46
+  ],
+  [
+   "toscane",
+   46
+  ],
+  [
+   "cousin",
+   46
+  ],
+  [
+   "jupiter",
+   46
+  ],
+  [
+   "nouvelle",
+   46
+  ],
+  [
+   "rochet",
+   46
+  ],
+  [
+   "françois",
+   45
+  ],
+  [
+   "chez",
+   45
+  ],
+  [
+   "providence",
+   45
+  ],
+  [
+   "lamartine",
+   45
+  ],
+  [
+   "isabelle",
+   45
+  ],
+  [
+   "montevideo",
+   45
+  ],
+  [
+   "lisbonne",
+   45
+  ],
+  [
+   "gaulois",
+   45
+  ],
+  [
+   "mouny",
+   45
+  ],
+  [
+   "annales",
+   45
+  ],
+  [
+   "une",
+   44
+  ],
+  [
+   "médicis",
+   44
+  ],
+  [
+   "allons",
+   44
+  ],
+  [
+   "grand",
+   44
+  ],
+  [
+   "franc",
+   44
+  ],
+  [
+   "renard",
+   44
+  ],
+  [
+   "soumet",
+   44
+  ],
+  [
+   "chinois",
+   44
+  ],
+  [
+   "montpellier",
+   44
+  ],
+  [
+   "jeannette",
+   44
+  ],
+  [
+   "knox",
+   43
+  ],
+  [
+   "son",
+   43
+  ],
+  [
+   "l'histoire",
+   43
+  ],
+  [
+   "alpes",
+   43
+  ],
+  [
+   "victor",
+   43
+  ],
+  [
+   "ange",
+   43
+  ],
+  [
+   "thomas",
+   42
+  ],
+  [
+   "d'autres",
+   42
+  ],
+  [
+   "nul",
+   42
+  ]
+ ],
+ "bigrams": [
+  [
+   "deux mondes",
+   1699
+  ],
+  [
+   "revue deux",
+   1611
+  ],
+  [
+   "long temps",
+   676
+  ],
+  [
+   "sans doute",
+   571
+  ],
+  [
+   "lord palmerston",
+   426
+  ],
+  [
+   "qu'il avait",
+   403
+  ],
+  [
+   "ont été",
+   346
+  ],
+  [
+   "quelque chose",
+   328
+  ],
+  [
+   "avait été",
+   312
+  ],
+  [
+   "c'est dire",
+   303
+  ],
+  [
+   "méhémet ali",
+   297
+  ],
+  [
+   "docteur herbeau",
+   268
+  ],
+  [
+   "conseil d'état",
+   256
+  ],
+  [
+   "qu'il soit",
+   219
+  ],
+  [
+   "qu'il faut",
+   218
+  ],
+  [
+   "peu près",
+   213
+  ],
+  [
+   "l'un l'autre",
+   191
+  ],
+  [
+   "eux mêmes",
+   191
+  ],
+  [
+   "jeune homme",
+   190
+  ],
+  [
+   "grand nombre",
+   184
+  ],
+  [
+   "sans cesse",
+   177
+  ],
+  [
+   "non seulement",
+   176
+  ],
+  [
+   "chaque jour",
+   168
+  ],
+  [
+   "qu'il était",
+   158
+  ],
+  [
+   "point vue",
+   152
+  ],
+  [
+   "sir robert",
+   152
+  ],
+  [
+   "n'y avait",
+   149
+  ],
+  [
+   "d'un côté",
+   147
+  ],
+  [
+   "lui avait",
+   146
+  ],
+  [
+   "traité juillet",
+   146
+  ],
+  [
+   "saint léonard",
+   141
+  ],
+  [
+   "robert peel",
+   134
+  ],
+  [
+   "qu'on lui",
+   132
+  ],
+  [
+   "peu peu",
+   132
+  ],
+  [
+   "quelques années",
+   130
+  ],
+  [
+   "parce qu'il",
+   130
+  ],
+  [
+   "d'une manière",
+   129
+  ],
+  [
+   "c'est qu'il",
+   128
+  ],
+  [
+   "quelques uns",
+   128
+  ],
+  [
+   "avaient été",
+   128
+  ],
+  [
+   "louis xiv",
+   127
+  ],
+  [
+   "qu'ils ont",
+   125
+  ],
+  [
+   "n'est point",
+   123
+  ],
+  [
+   "moyen âge",
+   121
+  ],
+  [
+   "quelque sorte",
+   120
+  ],
+  [
+   "n'a été",
+   118
+  ],
+  [
+   "quoi qu'il",
+   118
+  ],
+  [
+   "buénos ayres",
+   118
+  ],
+  [
+   "première fois",
+   117
+  ],
+  [
+   "n'a rien",
+   116
+  ],
+  [
+   "gouvernement français",
+   116
+  ],
+  [
+   "eût été",
+   115
+  ],
+  [
+   "dès lors",
+   111
+  ],
+  [
+   "cet homme",
+   111
+  ],
+  [
+   "l'une l'autre",
+   111
+  ],
+  [
+   "question d'orient",
+   110
+  ],
+  [
+   "qu'il n'y",
+   110
+  ],
+  [
+   "dix ans",
+   107
+  ],
+  [
+   "qu'il ait",
+   104
+  ],
+  [
+   "l'empire ottoman",
+   104
+  ],
+  [
+   "d'un air",
+   103
+  ],
+  [
+   "d'un grand",
+   100
+  ],
+  [
+   "qu'elle avait",
+   98
+  ],
+  [
+   "vingt ans",
+   98
+  ],
+  [
+   "lui môme",
+   98
+  ],
+  [
+   "tour tour",
+   96
+  ],
+  [
+   "cour comptes",
+   95
+  ],
+  [
+   "d'une grande",
+   93
+  ],
+  [
+   "jeune fille",
+   92
+  ],
+  [
+   "chaque année",
+   92
+  ],
+  [
+   "mille hommes",
+   91
+  ],
+  [
+   "qu'il lui",
+   90
+  ],
+  [
+   "contre lui",
+   89
+  ],
+  [
+   "deux trois",
+   89
+  ],
+  [
+   "qu'ils avaient",
+   89
+  ],
+  [
+   "qu'il fallait",
+   89
+  ],
+  [
+   "bon sens",
+   86
+  ],
+  [
+   "sous nom",
+   85
+  ],
+  [
+   "quelque temps",
+   84
+  ],
+  [
+   "n'a point",
+   84
+  ],
+  [
+   "nos jours",
+   84
+  ],
+  [
+   "d'un homme",
+   84
+  ],
+  [
+   "quelques jours",
+   83
+  ],
+  [
+   "lui donner",
+   81
+  ],
+  [
+   "tou jours",
+   81
+  ],
+  [
+   "mon père",
+   81
+  ],
+  [
+   "gouvernement anglais",
+   81
+  ],
+  [
+   "revue chronique",
+   80
+  ],
+  [
+   "chambre pairs",
+   80
+  ],
+  [
+   "deux ans",
+   79
+  ],
+  [
+   "chambre députés",
+   79
+  ],
+  [
+   "gouverne ment",
+   78
+  ],
+  [
+   "chefs œuvre",
+   78
+  ],
+  [
+   "marie stuart",
+   77
+  ],
+  [
+   "d'une part",
+   76
+  ],
+  [
+   "sous rapport",
+   76
+  ],
+  [
+   "d'une voix",
+   75
+  ],
+  [
+   "d'une fois",
+   75
+  ],
+  [
+   "quel ques",
+   75
+  ],
+  [
+   "bonne foi",
+   75
+  ],
+  [
+   "revue littéraire",
+   75
+  ],
+  [
+   "cinq ans",
+   73
+  ],
+  [
+   "chez lui",
+   73
+  ],
+  [
+   "gou vernement",
+   73
+  ],
+  [
+   "xvi siècle",
+   72
+  ],
+  [
+   "qu'on avait",
+   72
+  ],
+  [
+   "grande partie",
+   71
+  ],
+  [
+   "états unis",
+   71
+  ],
+  [
+   "modernes france",
+   71
+  ],
+  [
+   "mon ami",
+   71
+  ],
+  [
+   "sous yeux",
+   70
+  ],
+  [
+   "avait pris",
+   69
+  ],
+  [
+   "cet égard",
+   69
+  ],
+  [
+   "vice roi",
+   69
+  ],
+  [
+   "parti conservateur",
+   69
+  ],
+  [
+   "lord ponsonby",
+   69
+  ],
+  [
+   "deux fois",
+   68
+  ],
+  [
+   "lui était",
+   68
+  ],
+  [
+   "sous forme",
+   67
+  ],
+  [
+   "gouver nement",
+   67
+  ],
+  [
+   "diplomatique question",
+   67
+  ],
+  [
+   "qu'il fût",
+   66
+  ],
+  [
+   "peu temps",
+   66
+  ],
+  [
+   "grande bretagne",
+   66
+  ],
+  [
+   "chambre communes",
+   65
+  ],
+  [
+   "nulle part",
+   65
+  ],
+  [
+   "chef œuvre",
+   65
+  ],
+  [
+   "d'un coup",
+   64
+  ],
+  [
+   "lui fit",
+   64
+  ],
+  [
+   "môme temps",
+   64
+  ],
+  [
+   "poètes romanciers",
+   64
+  ],
+  [
+   "petit nombre",
+   64
+  ],
+  [
+   "qu'il serait",
+   64
+  ],
+  [
+   "france l'angleterre",
+   63
+  ],
+  [
+   "pacha d'egypte",
+   63
+  ],
+  [
+   "gouvernement représentatif",
+   63
+  ],
+  [
+   "histoire diplomatique",
+   63
+  ],
+  [
+   "mon cœur",
+   62
+  ],
+  [
+   "rien n'est",
+   62
+  ],
+  [
+   "s'il était",
+   62
+  ],
+  [
+   "n'est qu'un",
+   61
+  ],
+  [
+   "cet état",
+   61
+  ],
+  [
+   "qu'il eût",
+   60
+  ],
+  [
+   "l'on veut",
+   59
+  ],
+  [
+   "lui ont",
+   59
+  ],
+  [
+   "cent mille",
+   59
+  ],
+  [
+   "quatre puissances",
+   59
+  ],
+  [
+   "trois ans",
+   58
+  ],
+  [
+   "jeunes gens",
+   58
+  ],
+  [
+   "dix huit",
+   58
+  ],
+  [
+   "quelque peu",
+   58
+  ],
+  [
+   "affaires étrangères",
+   58
+  ],
+  [
+   "faut dire",
+   58
+  ],
+  [
+   "jean jacques",
+   58
+  ],
+  [
+   "vers fin",
+   58
+  ],
+  [
+   "xviii siècle",
+   58
+  ],
+  [
+   "lord stanley",
+   58
+  ],
+  [
+   "quelques unes",
+   57
+  ],
+  [
+   "romanciers modernes",
+   57
+  ],
+  [
+   "d'un ton",
+   56
+  ],
+  [
+   "autour lui",
+   56
+  ],
+  [
+   "mon fils",
+   56
+  ],
+  [
+   "tome xxvii",
+   56
+  ],
+  [
+   "deux pays",
+   55
+  ],
+  [
+   "aurait été",
+   55
+  ],
+  [
+   "vis vis",
+   55
+  ],
+  [
+   "bonne heure",
+   55
+  ],
+  [
+   "tome xxvi",
+   55
+  ],
+  [
+   "chez eux",
+   54
+  ],
+  [
+   "poli tique",
+   54
+  ],
+  [
+   "d'entre eux",
+   54
+  ],
+  [
+   "l'angleterre russie",
+   54
+  ],
+  [
+   "lui seul",
+   54
+  ],
+  [
+   "vrai dire",
+   54
+  ],
+  [
+   "tome xxv",
+   53
+  ],
+  [
+   "d'un seul",
+   53
+  ],
+  [
+   "vingt cinq",
+   53
+  ],
+  [
+   "hiver midi",
+   53
+  ],
+  [
+   "non sans",
+   52
+  ],
+  [
+   "guerre civile",
+   52
+  ],
+  [
+   "deux cents",
+   52
+  ],
+  [
+   "lui sont",
+   52
+  ],
+  [
+   "lui donne",
+   52
+  ],
+  [
+   "maréchal soult",
+   52
+  ],
+  [
+   "qu'ils sont",
+   52
+  ],
+  [
+   "emile deschamps",
+   52
+  ],
+  [
+   "lord granville",
+   52
+  ],
+  [
+   "c'est qu'on",
+   51
+  ],
+  [
+   "grand duc",
+   51
+  ],
+  [
+   "saint jean",
+   51
+  ],
+  [
+   "d'une main",
+   51
+  ],
+  [
+   "qu'on puisse",
+   51
+  ],
+  [
+   "général rosas",
+   51
+  ],
+  [
+   "dire qu'il",
+   50
+  ],
+  [
+   "n'avait été",
+   50
+  ],
+  [
+   "était venu",
+   50
+  ],
+  [
+   "midi l'europe",
+   50
+  ],
+  [
+   "l'instruction publique",
+   50
+  ],
+  [
+   "tome xxviii",
+   50
+  ],
+  [
+   "walter scott",
+   49
+  ],
+  [
+   "plusieurs fois",
+   49
+  ],
+  [
+   "notre gouvernement",
+   49
+  ],
+  [
+   "s'il avait",
+   49
+  ],
+  [
+   "n'est qu'une",
+   49
+  ],
+  [
+   "capitaine grenouille",
+   49
+  ],
+  [
+   "pen dant",
+   48
+  ],
+  [
+   "chaque instant",
+   48
+  ],
+  [
+   "trois cents",
+   48
+  ],
+  [
+   "six mois",
+   48
+  ],
+  [
+   "l'asie mineure",
+   48
+  ],
+  [
+   "sous prétexte",
+   48
+  ],
+  [
+   "sous titre",
+   48
+  ],
+  [
+   "rendre compte",
+   47
+  ],
+  [
+   "aujour d'hui",
+   47
+  ],
+  [
+   "c'est lui",
+   47
+  ],
+  [
+   "france avait",
+   47
+  ],
+  [
+   "d'une façon",
+   47
+  ],
+  [
+   "provinces unies",
+   47
+  ],
+  [
+   "l'archipel d'asie",
+   47
+  ],
+  [
+   "quelques mois",
+   46
+  ],
+  [
+   "d'une telle",
+   46
+  ],
+  [
+   "sous main",
+   46
+  ],
+  [
+   "qu'on appelle",
+   46
+  ],
+  [
+   "per sonne",
+   46
+  ],
+  [
+   "qu'il n'a",
+   46
+  ],
+  [
+   "parce qu'ils",
+   46
+  ],
+  [
+   "prince d'orange",
+   46
+  ],
+  [
+   "dépêche lord",
+   46
+  ],
+  [
+   "n'y rien",
+   45
+  ],
+  [
+   "coup œil",
+   45
+  ],
+  [
+   "qu'un seul",
+   45
+  ],
+  [
+   "plusieurs années",
+   45
+  ],
+  [
+   "jésus christ",
+   45
+  ],
+  [
+   "dès qu'il",
+   45
+  ],
+  [
+   "vingt quatre",
+   45
+  ],
+  [
+   "ministère mars",
+   45
+  ],
+  [
+   "l'autriche prusse",
+   45
+  ],
+  [
+   "l'esprit humain",
+   45
+  ],
+  [
+   "don lope",
+   45
+  ],
+  [
+   "capitaine gueux",
+   45
+  ],
+  [
+   "lord flamborough",
+   45
+  ],
+  [
+   "lui dire",
+   44
+  ],
+  [
+   "deux mille",
+   44
+  ],
+  [
+   "lui qu'il",
+   44
+  ],
+  [
+   "mer rouge",
+   44
+  ],
+  [
+   "l'opinion publique",
+   44
+  ],
+  [
+   "notre temps",
+   44
+  ],
+  [
+   "qu'il aurait",
+   44
+  ],
+  [
+   "don pedro",
+   44
+  ],
+  [
+   "votre majesté",
+   43
+  ],
+  [
+   "sans peine",
+   43
+  ],
+  [
+   "d'un peuple",
+   43
+  ],
+  [
+   "jour jour",
+   43
+  ],
+  [
+   "état choses",
+   43
+  ],
+  [
+   "parce qu'elle",
+   43
+  ],
+  [
+   "sais quel",
+   43
+  ],
+  [
+   "beau coup",
+   43
+  ],
+  [
+   "mon cher",
+   43
+  ],
+  [
+   "tant d'autres",
+   43
+  ],
+  [
+   "devant lui",
+   42
+  ],
+  [
+   "jeune femme",
+   42
+  ],
+  [
+   "trop souvent",
+   42
+  ],
+  [
+   "ait été",
+   42
+  ],
+  [
+   "grandes puissances",
+   42
+  ],
+  [
+   "loin d'être",
+   42
+  ],
+  [
+   "tant qu'il",
+   42
+  ],
+  [
+   "s'il faut",
+   42
+  ],
+  [
+   "lui fut",
+   42
+  ],
+  [
+   "deux ndes",
+   42
+  ],
+  [
+   "révolution juillet",
+   42
+  ],
+  [
+   "qu'il n'avait",
+   42
+  ],
+  [
+   "xxv revue",
+   41
+  ],
+  [
+   "lui donna",
+   41
+  ],
+  [
+   "hommes d'état",
+   41
+  ],
+  [
+   "qu'il pouvait",
+   41
+  ],
+  [
+   "sous ordres",
+   41
+  ],
+  [
+   "deux hommes",
+   41
+  ],
+  [
+   "concert européen",
+   41
+  ],
+  [
+   "l'an gleterre",
+   41
+  ],
+  [
+   "n'ont été",
+   41
+  ],
+  [
+   "projet loi",
+   41
+  ],
+  [
+   "n'avait rien",
+   41
+  ],
+  [
+   "sous l'empire",
+   41
+  ],
+  [
+   "dedx mondes",
+   41
+  ],
+  [
+   "dernières années",
+   41
+  ],
+  [
+   "mon frère",
+   41
+  ],
+  [
+   "antoni deschamps",
+   41
+  ],
+  [
+   "milieu d'une",
+   40
+  ],
+  [
+   "l'état actuel",
+   40
+  ],
+  [
+   "qu'on pourrait",
+   40
+  ],
+  [
+   "certain nombre",
+   40
+  ],
+  [
+   "chronique quinzaine",
+   40
+  ],
+  [
+   "derniers temps",
+   40
+  ],
+  [
+   "xxvi revue",
+   40
+  ],
+  [
+   "l'on voit",
+   39
+  ],
+  [
+   "trente ans",
+   39
+  ],
+  [
+   "cinq six",
+   39
+  ],
+  [
+   "quinze ans",
+   39
+  ],
+  [
+   "quelques instans",
+   39
+  ],
+  [
+   "convention juillet",
+   39
+  ],
+  [
+   "coup sûr",
+   39
+  ],
+  [
+   "situation actuelle",
+   39
+  ],
+  [
+   "sou vent",
+   39
+  ],
+  [
+   "états généraux",
+   39
+  ],
+  [
+   "haut degré",
+   39
+  ],
+  [
+   "xxvii revue",
+   39
+  ],
+  [
+   "mon dieu",
+   38
+  ],
+  [
+   "cent cinquante",
+   38
+  ],
+  [
+   "l'angle terre",
+   38
+  ],
+  [
+   "qu'elle était",
+   38
+  ],
+  [
+   "nul doute",
+   38
+  ],
+  [
+   "cepen dant",
+   38
+  ],
+  [
+   "nou velle",
+   38
+  ],
+  [
+   "politique extérieure",
+   38
+  ],
+  [
+   "fort peu",
+   38
+  ],
+  [
+   "part d'autre",
+   38
+  ],
+  [
+   "victor hugo",
+   38
+  ],
+  [
+   "sans trop",
+   38
+  ],
+  [
+   "général lavalle",
+   38
+  ],
+  [
+   "qu'elles ont",
+   38
+  ],
+  [
+   "l'un d'eux",
+   38
+  ],
+  [
+   "jusqu'à présent",
+   38
+  ],
+  [
+   "don miguel",
+   38
+  ],
+  [
+   "provinces caucase",
+   38
+  ],
+  [
+   "champ bataille",
+   37
+  ],
+  [
+   "cents ans",
+   37
+  ],
+  [
+   "trois quatre",
+   37
+  ],
+  [
+   "cet esprit",
+   37
+  ],
+  [
+   "sans rien",
+   37
+  ],
+  [
+   "certain point",
+   37
+  ],
+  [
+   "c'est surtout",
+   37
+  ],
+  [
+   "d'un parti",
+   37
+  ],
+  [
+   "avait donné",
+   37
+  ],
+  [
+   "quelques mots",
+   37
+  ],
+  [
+   "sous domination",
+   37
+  ],
+  [
+   "poésie lyrique",
+   37
+  ],
+  [
+   "lord john",
+   37
+  ],
+  [
+   "faut croire",
+   37
+  ],
+  [
+   "vie privée",
+   36
+  ],
+  [
+   "huit ans",
+   36
+  ],
+  [
+   "deux mois",
+   36
+  ],
+  [
+   "eut lieu",
+   36
+  ],
+  [
+   "quatre heures",
+   36
+  ],
+  [
+   "sept ans",
+   36
+  ],
+  [
+   "trois jours",
+   36
+  ],
+  [
+   "trois fois",
+   36
+  ],
+  [
+   "carac tère",
+   36
+  ],
+  [
+   "révolution française",
+   36
+  ],
+  [
+   "trois mille",
+   36
+  ],
+  [
+   "bon marché",
+   36
+  ],
+  [
+   "point départ",
+   36
+  ],
+  [
+   "grands hommes",
+   36
+  ],
+  [
+   "lui demander",
+   36
+  ],
+  [
+   "anglo française",
+   36
+  ],
+  [
+   "prendre part",
+   36
+  ],
+  [
+   "était trop",
+   36
+  ],
+  [
+   "l'afrique septentrionale",
+   36
+  ],
+  [
+   "lord beauvale",
+   36
+  ],
+  [
+   "basnage annales",
+   36
+  ],
+  [
+   "sans crainte",
+   35
+  ],
+  [
+   "tel qu'il",
+   35
+  ],
+  [
+   "grand homme",
+   35
+  ],
+  [
+   "ayant été",
+   35
+  ],
+  [
+   "peu chose",
+   35
+  ],
+  [
+   "quelques heures",
+   35
+  ],
+  [
+   "l'autre côté",
+   35
+  ],
+  [
+   "quelque part",
+   35
+  ],
+  [
+   "tôt tard",
+   35
+  ],
+  [
+   "était impossible",
+   35
+  ],
+  [
+   "saint pétersbourg",
+   35
+  ],
+  [
+   "d'un jour",
+   35
+  ],
+  [
+   "pou vait",
+   35
+  ],
+  [
+   "ques tion",
+   35
+  ],
+  [
+   "plu sieurs",
+   35
+  ],
+  [
+   "deux heures",
+   34
+  ],
+  [
+   "l'his toire",
+   34
+  ],
+  [
+   "cents hommes",
+   34
+  ],
+  [
+   "n'est rien",
+   34
+  ],
+  [
+   "pays bas",
+   34
+  ],
+  [
+   "notre pays",
+   34
+  ],
+  [
+   "chaque fois",
+   34
+  ],
+  [
+   "nos yeux",
+   34
+  ],
+  [
+   "point d'appui",
+   34
+  ],
+  [
+   "cabinet anglais",
+   34
+  ],
+  [
+   "c'est grand",
+   34
+  ],
+  [
+   "pre mier",
+   34
+  ],
+  [
+   "qu'il devait",
+   34
+  ],
+  [
+   "jusqu'à certain",
+   34
+  ],
+  [
+   "qu'il fut",
+   34
+  ],
+  [
+   "l'angleterre france",
+   34
+  ],
+  [
+   "xvii siècle",
+   34
+  ],
+  [
+   "xxviii revue",
+   34
+  ],
+  [
+   "apud script",
+   34
+  ],
+  [
+   "seule ment",
+   33
+  ],
+  [
+   "cinq cents",
+   33
+  ],
+  [
+   "l'eu rope",
+   33
+  ],
+  [
+   "deux choses",
+   33
+  ],
+  [
+   "sous règne",
+   33
+  ],
+  [
+   "sais quelle",
+   33
+  ],
+  [
+   "cinquante ans",
+   33
+  ]
+ ],
+ "trigrams": [
+  [
+   "revue deux mondes",
+   1510
+  ],
+  [
+   "sir robert peel",
+   134
+  ],
+  [
+   "quoi qu'il soit",
+   97
+  ],
+  [
+   "histoire diplomatique question",
+   62
+  ],
+  [
+   "diplomatique question d'orient",
+   58
+  ],
+  [
+   "romanciers modernes france",
+   56
+  ],
+  [
+   "poètes romanciers modernes",
+   55
+  ],
+  [
+   "hiver midi l'europe",
+   45
+  ],
+  [
+   "tome xxv revue",
+   39
+  ],
+  [
+   "tome xxvi revue",
+   38
+  ],
+  [
+   "tome xxvii revue",
+   38
+  ],
+  [
+   "xxv revue deux",
+   37
+  ],
+  [
+   "qu'il n'y avait",
+   37
+  ],
+  [
+   "xxvi revue deux",
+   36
+  ],
+  [
+   "xxvii revue deux",
+   36
+  ],
+  [
+   "revue deux ndes",
+   34
+  ],
+  [
+   "jusqu'à certain point",
+   33
+  ],
+  [
+   "tome xxviii revue",
+   33
+  ],
+  [
+   "apud script rer",
+   33
+  ],
+  [
+   "l'alliance anglo française",
+   32
+  ],
+  [
+   "revue dedx mondes",
+   32
+  ],
+  [
+   "xxviii revue deux",
+   31
+  ],
+  [
+   "lord john russell",
+   30
+  ],
+  [
+   "ministre affaires étrangères",
+   29
+  ],
+  [
+   "crise actuelle angleterre",
+   29
+  ],
+  [
+   "situation actuelle france",
+   29
+  ],
+  [
+   "script rer gallic",
+   29
+  ],
+  [
+   "revde deux mondes",
+   28
+  ],
+  [
+   "vingt cinq ans",
+   27
+  ],
+  [
+   "rer gallic francic",
+   27
+  ],
+  [
+   "affaires buénos ayres",
+   26
+  ],
+  [
+   "poésie lyrique allemagne",
+   25
+  ],
+  [
+   "greg turon hist",
+   25
+  ],
+  [
+   "turon hist franc",
+   25
+  ],
+  [
+   "franc lib cap",
+   25
+  ],
+  [
+   "l'intégrité l'empire ottoman",
+   23
+  ],
+  [
+   "hist franc lib",
+   23
+  ],
+  [
+   "c'est quelque chose",
+   22
+  ],
+  [
+   "vingt quatre heures",
+   22
+  ],
+  [
+   "puissance anglaise l'inde",
+   22
+  ],
+  [
+   "esclaves colonies espagnoles",
+   22
+  ],
+  [
+   "lord pal merston",
+   21
+  ],
+  [
+   "anglaise l'inde chine",
+   21
+  ],
+  [
+   "guerre négociations hollande",
+   21
+  ],
+  [
+   "cent mille hommes",
+   20
+  ],
+  [
+   "l'académie royale musique",
+   19
+  ],
+  [
+   "quinzaine histoire politique",
+   19
+  ],
+  [
+   "basnage annales etc",
+   19
+  ],
+  [
+   "d'un bout l'autre",
+   18
+  ],
+  [
+   "chronique quinzaine histoire",
+   18
+  ],
+  [
+   "traité d'unkiar skelessi",
+   18
+  ],
+  [
+   "assez grand nombre",
+   17
+  ],
+  [
+   "revce deux mondes",
+   17
+  ],
+  [
+   "sous point vue",
+   17
+  ],
+  [
+   "été long temps",
+   17
+  ],
+  [
+   "saint jean d'acre",
+   16
+  ],
+  [
+   "qu'il avait été",
+   16
+  ],
+  [
+   "avait long temps",
+   16
+  ],
+  [
+   "cerisier histoire générale",
+   16
+  ],
+  [
+   "inédits marie stuart",
+   15
+  ],
+  [
+   "dix huit ans",
+   15
+  ],
+  [
+   "ministère l'instruction publique",
+   15
+  ],
+  [
+   "lord palmerston lord",
+   15
+  ],
+  [
+   "philosophes publicistes modernes",
+   15
+  ],
+  [
+   "russie midi russie",
+   15
+  ],
+  [
+   "midi russie nord",
+   15
+  ],
+  [
+   "bon gré mal",
+   14
+  ],
+  [
+   "gré mal gré",
+   14
+  ],
+  [
+   "sans nul doute",
+   14
+  ],
+  [
+   "ministre l'instruction publique",
+   14
+  ],
+  [
+   "sans aucun doute",
+   14
+  ],
+  [
+   "revue decx mondes",
+   14
+  ],
+  [
+   "esquisse d'une philosophie",
+   14
+  ],
+  [
+   "cet état choses",
+   14
+  ],
+  [
+   "robert peel lord",
+   14
+  ],
+  [
+   "cap apud script",
+   14
+  ],
+  [
+   "qu'un petit nombre",
+   13
+  ],
+  [
+   "lui avait été",
+   13
+  ],
+  [
+   "d'un seul coup",
+   13
+  ],
+  [
+   "trop long temps",
+   13
+  ],
+  [
+   "sous nos yeux",
+   13
+  ],
+  [
+   "lord palmerston avait",
+   13
+  ],
+  [
+   "contre méhémet ali",
+   13
+  ],
+  [
+   "l'influence française italie",
+   13
+  ],
+  [
+   "voyage l'abyssinie méridionale",
+   13
+  ],
+  [
+   "mon ami louise",
+   13
+  ],
+  [
+   "politique france italie",
+   13
+  ],
+  [
+   "jean jacques rousseau",
+   12
+  ],
+  [
+   "assez long temps",
+   12
+  ],
+  [
+   "contre amiral leblanc",
+   12
+  ],
+  [
+   "qu'il soit permis",
+   12
+  ],
+  [
+   "lui avait donné",
+   12
+  ],
+  [
+   "n'a point été",
+   12
+  ],
+  [
+   "quoi qu'on dise",
+   12
+  ],
+  [
+   "revue littéraire l'allemagne",
+   12
+  ],
+  [
+   "sous domination française",
+   12
+  ],
+  [
+   "wilberforce romilly dudley",
+   12
+  ],
+  [
+   "galerie royale turin",
+   12
+  ],
+  [
+   "louis xiv iii",
+   12
+  ],
+  [
+   "dépêche lord granville",
+   12
+  ],
+  [
+   "l'école beaux arts",
+   12
+  ],
+  [
+   "bevue deux mondes",
+   11
+  ],
+  [
+   "qu'on lui avait",
+   11
+  ],
+  [
+   "qu'il n'y ait",
+   11
+  ],
+  [
+   "qu'il avait lui",
+   11
+  ],
+  [
+   "don josé ramirez",
+   11
+  ],
+  [
+   "avait quelque chose",
+   11
+  ],
+  [
+   "cinq cents hommes",
+   11
+  ],
+  [
+   "huit mois ministère",
+   11
+  ],
+  [
+   "s'il faut croire",
+   11
+  ],
+  [
+   "grand duc toscane",
+   11
+  ],
+  [
+   "parce qu'il était",
+   11
+  ],
+  [
+   "force gouvernement actuel",
+   11
+  ],
+  [
+   "non seule ment",
+   11
+  ],
+  [
+   "d'un jour l'autre",
+   11
+  ],
+  [
+   "anciens poètes français",
+   11
+  ],
+  [
+   "sir henri roper",
+   11
+  ],
+  [
+   "sultan méhémet ali",
+   11
+  ],
+  [
+   "oeuvres louis xiv",
+   11
+  ],
+  [
+   "dépêche lord beauvale",
+   11
+  ],
+  [
+   "russie l'asie centrale",
+   11
+  ],
+  [
+   "dès premiers jours",
+   10
+  ],
+  [
+   "documens inédits marie",
+   10
+  ],
+  [
+   "quelques années tard",
+   10
+  ],
+  [
+   "deux cents ans",
+   10
+  ],
+  [
+   "dix sept ans",
+   10
+  ],
+  [
+   "sont peu près",
+   10
+  ],
+  [
+   "jusqu'à quel point",
+   10
+  ],
+  [
+   "mois ministère l'instruction",
+   10
+  ],
+  [
+   "d'un côté l'autre",
+   10
+  ],
+  [
+   "n'y avait rien",
+   10
+  ],
+  [
+   "mon compagnon voyage",
+   10
+  ],
+  [
+   "d'un grand poids",
+   10
+  ],
+  [
+   "peel lord stanley",
+   10
+  ],
+  [
+   "anciens auteurs français",
+   10
+  ],
+  [
+   "publications historiques italie",
+   10
+  ],
+  [
+   "lib cap xxxv",
+   10
+  ],
+  [
+   "cap xxxv apud",
+   10
+  ],
+  [
+   "xxxv apud script",
+   10
+  ],
+  [
+   "docteur her beau",
+   10
+  ],
+  [
+   "s'écria docteur herbeau",
+   10
+  ],
+  [
+   "manuscrit xxvi liv",
+   10
+  ],
+  [
+   "histoire générale etc",
+   10
+  ],
+  [
+   "lord granville lord",
+   10
+  ],
+  [
+   "pag revue deux",
+   9
+  ],
+  [
+   "mai revue deux",
+   9
+  ],
+  [
+   "jeune homme avait",
+   9
+  ],
+  [
+   "d'un grand nombre",
+   9
+  ],
+  [
+   "n'y avait qu'un",
+   9
+  ],
+  [
+   "chaque fois qu'il",
+   9
+  ],
+  [
+   "trois mille ans",
+   9
+  ],
+  [
+   "point vue politique",
+   9
+  ],
+  [
+   "cinq cent mille",
+   9
+  ],
+  [
+   "grasset saint sauveur",
+   9
+  ],
+  [
+   "d'une main ferme",
+   9
+  ],
+  [
+   "c'est sans doute",
+   9
+  ],
+  [
+   "commission chambre députés",
+   9
+  ],
+  [
+   "etc revue deux",
+   9
+  ],
+  [
+   "puissance l'intelligence l'amour",
+   9
+  ],
+  [
+   "siècle notre ère",
+   9
+  ],
+  [
+   "serait sans doute",
+   9
+  ],
+  [
+   "tant soit peu",
+   9
+  ],
+  [
+   "dès long temps",
+   9
+  ],
+  [
+   "deux trois ans",
+   9
+  ],
+  [
+   "sir james graham",
+   9
+  ],
+  [
+   "kevue deux mondes",
+   9
+  ],
+  [
+   "cap bonne espérance",
+   9
+  ],
+  [
+   "l'afrique sous domination",
+   9
+  ],
+  [
+   "per sonne n'a",
+   9
+  ],
+  [
+   "d'un demi siècle",
+   9
+  ],
+  [
+   "quoi s'en tenir",
+   9
+  ],
+  [
+   "littérature philosophie catholique",
+   9
+  ],
+  [
+   "auteurs espagnols contemporains",
+   9
+  ],
+  [
+   "basnage annales provinces",
+   9
+  ],
+  [
+   "corneille jean witt",
+   9
+  ],
+  [
+   "salle prix l'école",
+   9
+  ],
+  [
+   "prix l'école beaux",
+   9
+  ],
+  [
+   "progrès russie l'asie",
+   9
+  ],
+  [
+   "vingt mille hommes",
+   8
+  ],
+  [
+   "cent mille âmes",
+   8
+  ],
+  [
+   "deux trois fois",
+   8
+  ],
+  [
+   "oui sans doute",
+   8
+  ],
+  [
+   "sous forme d'une",
+   8
+  ],
+  [
+   "l'état actuel choses",
+   8
+  ],
+  [
+   "supplément revue deux",
+   8
+  ],
+  [
+   "quoi qu'il arrive",
+   8
+  ],
+  [
+   "rester long temps",
+   8
+  ],
+  [
+   "province buénos ayres",
+   8
+  ],
+  [
+   "qu'il faut chercher",
+   8
+  ],
+  [
+   "d'un point vue",
+   8
+  ],
+  [
+   "premier coup œil",
+   8
+  ],
+  [
+   "mille cinq cents",
+   8
+  ],
+  [
+   "gouver nement français",
+   8
+  ],
+  [
+   "d'un coup œil",
+   8
+  ],
+  [
+   "lui revue deux",
+   8
+  ],
+  [
+   "sans coup férir",
+   8
+  ],
+  [
+   "s'il eût été",
+   8
+  ],
+  [
+   "politique lord palmerston",
+   8
+  ],
+  [
+   "sir robert inglis",
+   8
+  ],
+  [
+   "lord palmerston lui",
+   8
+  ],
+  [
+   "duc wellington sir",
+   8
+  ],
+  [
+   "wellington sir robert",
+   8
+  ],
+  [
+   "faut qu'il ait",
+   8
+  ],
+  [
+   "était peu près",
+   8
+  ],
+  [
+   "uevue deux mondes",
+   8
+  ],
+  [
+   "revue littéraire allemagne",
+   8
+  ],
+  [
+   "long temps sans",
+   8
+  ],
+  [
+   "connue sous nom",
+   8
+  ],
+  [
+   "avait sans doute",
+   8
+  ],
+  [
+   "deux mondes pays",
+   8
+  ],
+  [
+   "plusieurs d'entre eux",
+   8
+  ],
+  [
+   "deux mondes grande",
+   8
+  ],
+  [
+   "mit pied terre",
+   8
+  ],
+  [
+   "nouvelles lettres l'histoire",
+   8
+  ],
+  [
+   "lettres l'histoire france",
+   8
+  ],
+  [
+   "mon cher fils",
+   8
+  ],
+  [
+   "dépêche lord palmerston",
+   8
+  ],
+  [
+   "annales provinces unies",
+   8
+  ],
+  [
+   "granville lord palmerston",
+   8
+  ],
+  [
+   "six mille hommes",
+   7
+  ],
+  [
+   "jeter coup œil",
+   7
+  ],
+  [
+   "deux cent mille",
+   7
+  ],
+  [
+   "sous forme d'un",
+   7
+  ],
+  [
+   "contre pacha d'egypte",
+   7
+  ],
+  [
+   "signé traité juillet",
+   7
+  ],
+  [
+   "ministère mars avait",
+   7
+  ],
+  [
+   "dès premier jour",
+   7
+  ],
+  [
+   "lord ponsonby lord",
+   7
+  ],
+  [
+   "c'est première fois",
+   7
+  ],
+  [
+   "revue deux siondes",
+   7
+  ],
+  [
+   "d'une rive l'autre",
+   7
+  ],
+  [
+   "j'ai sous yeux",
+   7
+  ],
+  [
+   "lui quelque chose",
+   7
+  ],
+  [
+   "fut sans doute",
+   7
+  ],
+  [
+   "devait s'y attendre",
+   7
+  ],
+  [
+   "josé ramirez arellano",
+   7
+  ],
+  [
+   "quel qu'il soit",
+   7
+  ],
+  [
+   "d'un jeune homme",
+   7
+  ],
+  [
+   "deux trois cents",
+   7
+  ],
+  [
+   "deux trois mille",
+   7
+  ],
+  [
+   "deux mondes france",
+   7
+  ],
+  [
+   "contre amiral dupotet",
+   7
+  ],
+  [
+   "tel état choses",
+   7
+  ],
+  [
+   "long temps qu'il",
+   7
+  ],
+  [
+   "été tour tour",
+   7
+  ],
+  [
+   "revie deux mondes",
+   7
+  ],
+  [
+   "sans cesser d'être",
+   7
+  ],
+  [
+   "soixante mille hommes",
+   7
+  ],
+  [
+   "deux mondes ment",
+   7
+  ],
+  [
+   "qu'on s'y trompe",
+   7
+  ],
+  [
+   "d'un instant l'autre",
+   7
+  ],
+  [
+   "qu'elles ont été",
+   7
+  ],
+  [
+   "sans aucune espèce",
+   7
+  ],
+  [
+   "soixante dix ans",
+   7
+  ],
+  [
+   "quelques uns ont",
+   7
+  ],
+  [
+   "france concert européen",
+   7
+  ],
+  [
+   "sans qu'il ait",
+   7
+  ],
+  [
+   "sept cents ans",
+   7
+  ],
+  [
+   "sont loin d'être",
+   7
+  ],
+  [
+   "deux mondes sont",
+   7
+  ],
+  [
+   "qu'il avait reçues",
+   7
+  ],
+  [
+   "vingt sept ans",
+   7
+  ],
+  [
+   "sans mot dire",
+   7
+  ],
+  [
+   "vingt huit ans",
+   7
+  ],
+  [
+   "historiens modernes france",
+   7
+  ],
+  [
+   "lui ont été",
+   7
+  ],
+  [
+   "avaient long temps",
+   7
+  ],
+  [
+   "deux grands partis",
+   7
+  ],
+  [
+   "arrêts cour comptes",
+   7
+  ],
+  [
+   "méhémet ali gouvernement",
+   7
+  ],
+  [
+   "conseil d'état n'a",
+   7
+  ],
+  [
+   "travaux conseil d'état",
+   7
+  ],
+  [
+   "lib cap apud",
+   7
+  ],
+  [
+   "docteur d'un air",
+   7
+  ],
+  [
+   "histoire inédite wicquefort",
+   7
+  ],
+  [
+   "dépôt affaires étrangères",
+   7
+  ],
+  [
+   "générale etc vii",
+   7
+  ],
+  [
+   "sous pavillon égyptien",
+   7
+  ],
+  [
+   "deux choses l'une",
+   6
+  ],
+  [
+   "deux mille hommes",
+   6
+  ],
+  [
+   "sans forme procès",
+   6
+  ],
+  [
+   "quatre vingt mille",
+   6
+  ],
+  [
+   "l'une contre l'autre",
+   6
+  ],
+  [
+   "résister long temps",
+   6
+  ],
+  [
+   "qu'il avait perdu",
+   6
+  ],
+  [
+   "avait pris parti",
+   6
+  ],
+  [
+   "ont besoin d'être",
+   6
+  ],
+  [
+   "gouvernement repré sentatif",
+   6
+  ],
+  [
+   "centre gauche gauche",
+   6
+  ],
+  [
+   "l'un contre l'autre",
+   6
+  ],
+  [
+   "point sont choses",
+   6
+  ],
+  [
+   "lord palmerston s'est",
+   6
+  ],
+  [
+   "n'est quelque chose",
+   6
+  ],
+  [
+   "cinq heures matin",
+   6
+  ],
+  [
+   "avons sous yeux",
+   6
+  ],
+  [
+   "c'est qu'il faut",
+   6
+  ],
+  [
+   "qu'on lui donne",
+   6
+  ],
+  [
+   "deux cent cinquante",
+   6
+  ],
+  [
+   "société biblique londres",
+   6
+  ],
+  [
+   "quoi qu'on fasse",
+   6
+  ]
+ ],
+ "formulas": {
+  "l'?empereur [^.;!?]{0,60}": [
+   [
+    "l'empereur",
+    2
+   ],
+   [
+    "l'empereur  a  ete  trompe",
+    2
+   ],
+   [
+    "l'empereur  lui-meme,  au  moment  des  campagnes, \nil  passait  denomb",
+    1
+   ],
+   [
+    "l'empereur  ou  le  consul ,  qui  soignait  deja  sa  pepiniere \nde  s",
+    1
+   ],
+   [
+    "l'empereur  lui  accorde \nune  pension  de  6,000  fr",
+    1
+   ],
+   [
+    "l'empereur  s'est  souvenu \ndes  promesses  du  prytanee",
+    1
+   ],
+   [
+    "l'empereur  pour  son  ode  «  la \ngrande  armee  lui  fut  otee  par",
+    1
+   ],
+   [
+    "l'empereur  sut  cette  situa- \ntion ,  en  fut  touche ,  et  douze  c",
+    1
+   ],
+   [
+    "l'empereur  joseph  ii  et  du  jeune  fils \nde  l'imperatrice  catheri",
+    1
+   ],
+   [
+    "l'empereur  avaient  imagine  dans  leur  vive  solli- \ncitude pour  la",
+    1
+   ],
+   [
+    "l'empereur  repond  naivement:  —  moi,  j'ai  coutume \naussi  de  vole",
+    1
+   ],
+   [
+    "l'empereur  de  rome  sont  entres  dans  l'ord--  do \nrenardie",
+    1
+   ],
+   [
+    "l'empereur  julien,  n'a  point  reussi  dans  sa \ntentative,  d'ailleu",
+    1
+   ],
+   [
+    "l'empereur \nnicolas,  et  pour  reprocher  a  lord  palmerston  d'avoir",
+    1
+   ],
+   [
+    "l'empereur  julef,  deux  mille  mariages  furent  casses  par  le  mag",
+    1
+   ],
+   [
+    "l'empereur  apprit  ces \ndetails  avec  une  telle  indignation ,  qu'i",
+    1
+   ],
+   [
+    "l'empereur  se  hata  de  retablir  le  divorce",
+    1
+   ],
+   [
+    "l'empereur  etait  le  chff, \nle  roi  de  france,  au  xiv'=  siecle,",
+    1
+   ],
+   [
+    "l'empereur  se  trouve  souvent \nforce  de  laisser  en  place  des  go",
+    1
+   ],
+   [
+    "l'empereur  en  1837,  pour  m  commuai- \n\n\nles  provinces  du  caucase",
+    1
+   ],
+   [
+    "l'empereur  lui  arracha \nen  pleine  revue,  en  presence  du  general",
+    1
+   ],
+   [
+    "l'empereur  tout  le  littoral  de  la  mer  koir",
+    1
+   ],
+   [
+    "l'empereur  d'introduire  en  georgie  le  systeme  civil  des  autres",
+    1
+   ],
+   [
+    "l'empereur  veut  que  le  gouvernement  du  caucase  soit  tout-a-fait",
+    1
+   ],
+   [
+    "l'empereur  veut  accorder  aux  populations  du  caucase  en  les  ass",
+    1
+   ]
+  ],
+  "permettez-moi [^.;!?]{0,60}": [
+   [
+    "permettez-moi  de  baiser  votre  main",
+    1
+   ],
+   [
+    "permettez-moi  de  vous  dire  deux  mots  en  secret",
+    1
+   ],
+   [
+    "permettez-moi  de  remettre  entre  vos  mains  un \npeu  de  mon  superflu",
+    1
+   ],
+   [
+    "permettez-moi  vous-meme  d'adresser  a  madame  les  remercie- \nmens  que",
+    1
+   ],
+   [
+    "permettez-moi  de  n'en  rien  croire",
+    1
+   ],
+   [
+    "permettez-moi  de  rappeler  a  votre  excellence  les \nservices  qui  lui",
+    1
+   ],
+   [
+    "permettez-moi  de \ncroire  que  vous  aimez  mon  fils  et  que  saint-leo",
+    1
+   ]
+  ],
+  "daignez [^.;!?]{0,80}": [
+   [
+    "daignez  donc  point  leur  experience",
+    1
+   ],
+   [
+    "daignez  encore  vous  servir  d'elle,  toute  indigne  et \ntoute  coupable  qu'elle  es",
+    1
+   ],
+   [
+    "daignez  m'ecouter",
+    1
+   ]
+  ]
+ },
+ "topic_concordance": {
+  "levant_mehemet": {
+   "mehemet": [
+    [
+     "France",
+     102
+    ],
+    [
+     "C'est",
+     36
+    ],
+    [
+     "Palmerston",
+     30
+    ],
+    [
+     "Ali",
+     20
+    ],
+    [
+     "Saint",
+     18
+    ],
+    [
+     "Rome",
+     18
+    ],
+    [
+     "Syrie",
+     18
+    ],
+    [
+     "Londres",
+     16
+    ],
+    [
+     "Richard",
+     16
+    ],
+    [
+     "Mehemet",
+     16
+    ],
+    [
+     "Guizot",
+     16
+    ],
+    [
+     "Russie",
+     14
+    ],
+    [
+     "Quand",
+     14
+    ],
+    [
+     "Suisse",
+     14
+    ],
+    [
+     "Thiers",
+     14
+    ],
+    [
+     "Porte",
+     14
+    ],
+    [
+     "Dieu",
+     12
+    ],
+    [
+     "Quant",
+     12
+    ],
+    [
+     "Jean",
+     12
+    ],
+    [
+     "Nord",
+     12
+    ]
+   ],
+   "ali": [
+    [
+     "France",
+     63
+    ],
+    [
+     "C'est",
+     25
+    ],
+    [
+     "Palmerston",
+     21
+    ],
+    [
+     "Ali",
+     17
+    ],
+    [
+     "Saint",
+     13
+    ],
+    [
+     "J'ai",
+     13
+    ],
+    [
+     "Quand",
+     12
+    ],
+    [
+     "Mehemet",
+     12
+    ],
+    [
+     "Biaise",
+     11
+    ],
+    [
+     "Syrie",
+     10
+    ],
+    [
+     "Guizot",
+     10
+    ],
+    [
+     "Londres",
+     9
+    ],
+    [
+     "Russie",
+     9
+    ],
+    [
+     "Zuecca",
+     9
+    ],
+    [
+     "Thiers",
+     9
+    ],
+    [
+     "Quant",
+     8
+    ],
+    [
+     "Guette",
+     8
+    ],
+    [
+     "Rome",
+     8
+    ],
+    [
+     "Suisse",
+     8
+    ],
+    [
+     "Richard",
+     8
+    ]
+   ],
+   "ibrahim": [
+    [
+     "France",
+     14
+    ],
+    [
+     "Russie",
+     6
+    ],
+    [
+     "Syrie",
+     5
+    ],
+    [
+     "Palmerston",
+     4
+    ],
+    [
+     "Prusse",
+     4
+    ],
+    [
+     "Tcharkoie",
+     2
+    ],
+    [
+     "Lezghes",
+     2
+    ],
+    [
+     "Sera",
+     2
+    ],
+    [
+     "Biran",
+     2
+    ],
+    [
+     "Tandis",
+     2
+    ],
+    [
+     "Porte",
+     2
+    ],
+    [
+     "Discours",
+     2
+    ],
+    [
+     "Thiers",
+     2
+    ],
+    [
+     "Berlin",
+     2
+    ],
+    [
+     "L'honorable",
+     2
+    ],
+    [
+     "REVrE",
+     1
+    ],
+    [
+     "Dieu",
+     1
+    ],
+    [
+     "Cet",
+     1
+    ],
+    [
+     "Lieux",
+     1
+    ],
+    [
+     "Kalodneij",
+     1
+    ]
+   ],
+   "egypte": [
+    [
+     "France",
+     142
+    ],
+    [
+     "C'est",
+     54
+    ],
+    [
+     "Dieu",
+     34
+    ],
+    [
+     "Palmerston",
+     30
+    ],
+    [
+     "Bonald",
+     30
+    ],
+    [
+     "Russie",
+     26
+    ],
+    [
+     "Ali",
+     26
+    ],
+    [
+     "Saint",
+     22
+    ],
+    [
+     "Londres",
+     20
+    ],
+    [
+     "Qu'on",
+     18
+    ],
+    [
+     "Guizot",
+     18
+    ],
+    [
+     "Quand",
+     16
+    ],
+    [
+     "Jean",
+     16
+    ],
+    [
+     "Portugal",
+     16
+    ],
+    [
+     "Paris",
+     14
+    ],
+    [
+     "Thiers",
+     14
+    ],
+    [
+     "Mehemet",
+     14
+    ],
+    [
+     "Angleterre",
+     12
+    ],
+    [
+     "Sous",
+     12
+    ],
+    [
+     "Quant",
+     12
+    ]
+   ],
+   "syrie": [
+    [
+     "France",
+     56
+    ],
+    [
+     "C'est",
+     27
+    ],
+    [
+     "Biran",
+     21
+    ],
+    [
+     "Porte",
+     13
+    ],
+    [
+     "Palmerston",
+     13
+    ],
+    [
+     "Saint",
+     12
+    ],
+    [
+     "Dieu",
+     11
+    ],
+    [
+     "Leibnitz",
+     9
+    ],
+    [
+     "Ali",
+     9
+    ],
+    [
+     "Biaise",
+     9
+    ],
+    [
+     "Syrie",
+     8
+    ],
+    [
+     "Quand",
+     7
+    ],
+    [
+     "Zuecca",
+     7
+    ],
+    [
+     "S'il",
+     6
+    ],
+    [
+     "Paris",
+     6
+    ],
+    [
+     "Rubini",
+     6
+    ],
+    [
+     "Mehemet",
+     6
+    ],
+    [
+     "Cousin",
+     6
+    ],
+    [
+     "Hume",
+     6
+    ],
+    [
+     "Diderot",
+     6
+    ]
+   ],
+   "investiture": [
+    [
+     "France",
+     6
+    ],
+    [
+     "C'est",
+     2
+    ],
+    [
+     "Orient",
+     2
+    ],
+    [
+     "L'Angleterre",
+     2
+    ],
+    [
+     "Lord",
+     2
+    ],
+    [
+     "Granville",
+     2
+    ],
+    [
+     "Russie",
+     2
+    ],
+    [
+     "L'epuisement",
+     1
+    ],
+    [
+     "John",
+     1
+    ],
+    [
+     "Nicholson",
+     1
+    ],
+    [
+     "Republique",
+     1
+    ],
+    [
+     "Argentine",
+     1
+    ],
+    [
+     "Aucun",
+     1
+    ],
+    [
+     "Ximenes",
+     1
+    ],
+    [
+     "Raphael",
+     1
+    ],
+    [
+     "Rome",
+     1
+    ],
+    [
+     "Sixte",
+     1
+    ],
+    [
+     "Fils",
+     1
+    ],
+    [
+     "Savone",
+     1
+    ],
+    [
+     "Boheme",
+     1
+    ]
+   ],
+   "hereditaire": [
+    [
+     "France",
+     18
+    ],
+    [
+     "Guizot",
+     10
+    ],
+    [
+     "C'est",
+     8
+    ],
+    [
+     "Ali",
+     8
+    ],
+    [
+     "Quant",
+     8
+    ],
+    [
+     "Deschamps",
+     8
+    ],
+    [
+     "Russie",
+     8
+    ],
+    [
+     "Paris",
+     6
+    ],
+    [
+     "Syrie",
+     6
+    ],
+    [
+     "Mehemet",
+     6
+    ],
+    [
+     "Palmerston",
+     6
+    ],
+    [
+     "Londres",
+     4
+    ],
+    [
+     "Dieu",
+     4
+    ],
+    [
+     "Nord",
+     4
+    ],
+    [
+     "C'etait",
+     4
+    ],
+    [
+     "Grace",
+     4
+    ],
+    [
+     "Ancelot",
+     4
+    ],
+    [
+     "Emile",
+     4
+    ],
+    [
+     "Srii",
+     4
+    ],
+    [
+     "Port",
+     4
+    ]
+   ],
+   "evacuation": [
+    [
+     "Monsieur",
+     4
+    ],
+    [
+     "Mehemet",
+     4
+    ],
+    [
+     "Ali",
+     4
+    ],
+    [
+     "Pourquoi",
+     4
+    ],
+    [
+     "Perier",
+     4
+    ],
+    [
+     "Fingal",
+     2
+    ],
+    [
+     "Hollande",
+     2
+    ],
+    [
+     "Nasser",
+     2
+    ],
+    [
+     "Khan",
+     2
+    ],
+    [
+     "Mir",
+     2
+    ],
+    [
+     "Bohar",
+     2
+    ],
+    [
+     "Mademoiselle",
+     2
+    ],
+    [
+     "Belle",
+     2
+    ],
+    [
+     "Isle",
+     2
+    ],
+    [
+     "Richelieu",
+     2
+    ],
+    [
+     "Teresa",
+     2
+    ],
+    [
+     "Mariage",
+     2
+    ],
+    [
+     "Louis",
+     2
+    ],
+    [
+     "Papa",
+     2
+    ],
+    [
+     "Riquemont",
+     2
+    ]
+   ],
+   "firman": [
+    [
+     "France",
+     2
+    ],
+    [
+     "Gros",
+     1
+    ],
+    [
+     "Bois",
+     1
+    ],
+    [
+     "Arguelles",
+     1
+    ],
+    [
+     "Anglais",
+     1
+    ],
+    [
+     "Tels",
+     1
+    ],
+    [
+     "Quant",
+     1
+    ],
+    [
+     "Qu'a",
+     1
+    ]
+   ]
+  },
+  "straits": {
+   "detroits": [
+    [
+     "France",
+     22
+    ],
+    [
+     "Guizot",
+     14
+    ],
+    [
+     "Russie",
+     10
+    ],
+    [
+     "Palmerston",
+     8
+    ],
+    [
+     "Paris",
+     6
+    ],
+    [
+     "Saint",
+     6
+    ],
+    [
+     "Angleterre",
+     6
+    ],
+    [
+     "Thiers",
+     6
+    ],
+    [
+     "C'est",
+     6
+    ],
+    [
+     "Quoi",
+     4
+    ],
+    [
+     "Etats",
+     4
+    ],
+    [
+     "Unis",
+     4
+    ],
+    [
+     "Sud",
+     4
+    ],
+    [
+     "Brizeux",
+     4
+    ],
+    [
+     "Sainte",
+     4
+    ],
+    [
+     "Beuve",
+     4
+    ],
+    [
+     "Venus",
+     4
+    ],
+    [
+     "Christ",
+     4
+    ],
+    [
+     "Voici",
+     4
+    ],
+    [
+     "Lassus",
+     4
+    ]
+   ],
+   "dardanelles": [
+    [
+     "France",
+     11
+    ],
+    [
+     "Russie",
+     6
+    ],
+    [
+     "Guizot",
+     6
+    ],
+    [
+     "Palmerston",
+     5
+    ],
+    [
+     "Cortot",
+     4
+    ],
+    [
+     "Londres",
+     3
+    ],
+    [
+     "Voici",
+     3
+    ],
+    [
+     "Minerve",
+     2
+    ],
+    [
+     "Jouffroy",
+     2
+    ],
+    [
+     "L'age",
+     2
+    ],
+    [
+     "Beauvale",
+     2
+    ],
+    [
+     "Nesselrode",
+     2
+    ],
+    [
+     "Crimee",
+     2
+    ],
+    [
+     "Sebastopol",
+     2
+    ],
+    [
+     "Cronstadt",
+     2
+    ],
+    [
+     "Herbes",
+     1
+    ],
+    [
+     "Verone",
+     1
+    ],
+    [
+     "Venise",
+     1
+    ],
+    [
+     "Asiago",
+     1
+    ],
+    [
+     "Busso",
+     1
+    ]
+   ],
+   "bosphore": [
+    [
+     "France",
+     14
+    ],
+    [
+     "Russie",
+     6
+    ],
+    [
+     "Cortot",
+     5
+    ],
+    [
+     "Palmerston",
+     5
+    ],
+    [
+     "Syrie",
+     3
+    ],
+    [
+     "Quant",
+     3
+    ],
+    [
+     "Saint",
+     3
+    ],
+    [
+     "Voici",
+     3
+    ],
+    [
+     "Londres",
+     3
+    ],
+    [
+     "Jean",
+     2
+    ],
+    [
+     "Personne",
+     2
+    ],
+    [
+     "Jouffroy",
+     2
+    ],
+    [
+     "L'age",
+     2
+    ],
+    [
+     "Gas",
+     2
+    ],
+    [
+     "Lord",
+     2
+    ],
+    [
+     "Russell",
+     2
+    ],
+    [
+     "Berlin",
+     2
+    ],
+    [
+     "Nesselrode",
+     2
+    ],
+    [
+     "Crimee",
+     2
+    ],
+    [
+     "Sebastopol",
+     2
+    ]
+   ],
+   "unkiar": [
+    [
+     "France",
+     8
+    ],
+    [
+     "Cortot",
+     5
+    ],
+    [
+     "Palmerston",
+     3
+    ],
+    [
+     "L'aide",
+     2
+    ],
+    [
+     "Morrison",
+     2
+    ],
+    [
+     "Minerve",
+     2
+    ],
+    [
+     "Mercure",
+     2
+    ],
+    [
+     "Paris",
+     2
+    ],
+    [
+     "Christ",
+     2
+    ],
+    [
+     "Preault",
+     2
+    ],
+    [
+     "Cano",
+     2
+    ],
+    [
+     "Montafiez",
+     2
+    ],
+    [
+     "Thiers",
+     2
+    ],
+    [
+     "Bulwer",
+     2
+    ],
+    [
+     "Ali",
+     2
+    ],
+    [
+     "Albigeois",
+     2
+    ],
+    [
+     "Chusan",
+     1
+    ],
+    [
+     "C'est",
+     1
+    ],
+    [
+     "Personne",
+     1
+    ],
+    [
+     "David",
+     1
+    ]
+   ],
+   "skelessi": [
+    [
+     "France",
+     9
+    ],
+    [
+     "Cortot",
+     4
+    ],
+    [
+     "Paris",
+     3
+    ],
+    [
+     "Palmerston",
+     3
+    ],
+    [
+     "Morrison",
+     2
+    ],
+    [
+     "Minerve",
+     2
+    ],
+    [
+     "Mercure",
+     2
+    ],
+    [
+     "Apollon",
+     2
+    ],
+    [
+     "Christ",
+     2
+    ],
+    [
+     "Preault",
+     2
+    ],
+    [
+     "Cano",
+     2
+    ],
+    [
+     "Montafiez",
+     2
+    ],
+    [
+     "Ali",
+     2
+    ],
+    [
+     "Albigeois",
+     2
+    ],
+    [
+     "Dominique",
+     2
+    ],
+    [
+     "L'aide",
+     1
+    ],
+    [
+     "Chusan",
+     1
+    ],
+    [
+     "L'amour",
+     1
+    ],
+    [
+     "L'extreme",
+     1
+    ],
+    [
+     "Cet",
+     1
+    ]
+   ],
+   "convention": [
+    [
+     "France",
+     18
+    ],
+    [
+     "Saint",
+     10
+    ],
+    [
+     "Dieu",
+     9
+    ],
+    [
+     "Paris",
+     9
+    ],
+    [
+     "C'est",
+     8
+    ],
+    [
+     "Christ",
+     7
+    ],
+    [
+     "Russie",
+     6
+    ],
+    [
+     "Cortot",
+     6
+    ],
+    [
+     "Preault",
+     6
+    ],
+    [
+     "Herbeau",
+     6
+    ],
+    [
+     "Louise",
+     5
+    ],
+    [
+     "Palmerston",
+     5
+    ],
+    [
+     "Pourquoi",
+     4
+    ],
+    [
+     "Londres",
+     4
+    ],
+    [
+     "Louis",
+     4
+    ],
+    [
+     "Raphael",
+     4
+    ],
+    [
+     "Jour",
+     4
+    ],
+    [
+     "Nuit",
+     4
+    ],
+    [
+     "Angleterre",
+     4
+    ],
+    [
+     "Damoreau",
+     4
+    ]
+   ],
+   "traite": [
+    [
+     "France",
+     208
+    ],
+    [
+     "C'est",
+     118
+    ],
+    [
+     "Dieu",
+     68
+    ],
+    [
+     "Saint",
+     52
+    ],
+    [
+     "Russie",
+     48
+    ],
+    [
+     "Palmerston",
+     44
+    ],
+    [
+     "Ali",
+     44
+    ],
+    [
+     "Londres",
+     40
+    ],
+    [
+     "Paris",
+     40
+    ],
+    [
+     "Rome",
+     34
+    ],
+    [
+     "Mehemet",
+     32
+    ],
+    [
+     "Quant",
+     30
+    ],
+    [
+     "Sans",
+     28
+    ],
+    [
+     "Lamennais",
+     28
+    ],
+    [
+     "Arts",
+     28
+    ],
+    [
+     "Galilee",
+     26
+    ],
+    [
+     "Royal",
+     24
+    ],
+    [
+     "Guizot",
+     24
+    ],
+    [
+     "Francais",
+     22
+    ],
+    [
+     "Prusse",
+     22
+    ]
+   ]
+  },
+  "powers_people": {
+   "guizot": [
+    [
+     "France",
+     14
+    ],
+    [
+     "Dieu",
+     12
+    ],
+    [
+     "Ali",
+     9
+    ],
+    [
+     "Celestin",
+     8
+    ],
+    [
+     "Mehemet",
+     8
+    ],
+    [
+     "Russie",
+     6
+    ],
+    [
+     "Sans",
+     5
+    ],
+    [
+     "Porte",
+     5
+    ],
+    [
+     "Herbeau",
+     5
+    ],
+    [
+     "C'est",
+     4
+    ],
+    [
+     "Lord",
+     4
+    ],
+    [
+     "Wood",
+     4
+    ],
+    [
+     "Jesus",
+     3
+    ],
+    [
+     "Palmerston",
+     3
+    ],
+    [
+     "Flamborough",
+     3
+    ],
+    [
+     "Paimerston",
+     3
+    ],
+    [
+     "Constan",
+     3
+    ],
+    [
+     "Paris",
+     2
+    ],
+    [
+     "Vauban",
+     2
+    ],
+    [
+     "Quel",
+     2
+    ]
+   ],
+   "thiers": [
+    [
+     "Dieu",
+     24
+    ],
+    [
+     "France",
+     20
+    ],
+    [
+     "C'est",
+     10
+    ],
+    [
+     "Palmerston",
+     9
+    ],
+    [
+     "Paris",
+     8
+    ],
+    [
+     "Ali",
+     6
+    ],
+    [
+     "Lamennais",
+     5
+    ],
+    [
+     "Quel",
+     5
+    ],
+    [
+     "Celestin",
+     5
+    ],
+    [
+     "Delahaye",
+     5
+    ],
+    [
+     "Thiers",
+     5
+    ],
+    [
+     "Guizot",
+     5
+    ],
+    [
+     "C'etait",
+     4
+    ],
+    [
+     "L'art",
+     4
+    ],
+    [
+     "Epargne",
+     4
+    ],
+    [
+     "Obscurci",
+     4
+    ],
+    [
+     "Depeche",
+     4
+    ],
+    [
+     "Mehemet",
+     4
+    ],
+    [
+     "Maintenant",
+     4
+    ],
+    [
+     "Hberte",
+     3
+    ]
+   ],
+   "palmerston": [
+    [
+     "France",
+     92
+    ],
+    [
+     "Dieu",
+     50
+    ],
+    [
+     "Palmerston",
+     43
+    ],
+    [
+     "Ali",
+     39
+    ],
+    [
+     "C'est",
+     36
+    ],
+    [
+     "Guizot",
+     35
+    ],
+    [
+     "Mehemet",
+     30
+    ],
+    [
+     "Thiers",
+     24
+    ],
+    [
+     "Granville",
+     24
+    ],
+    [
+     "Porte",
+     23
+    ],
+    [
+     "Lamennais",
+     22
+    ],
+    [
+     "Paris",
+     16
+    ],
+    [
+     "Depeche",
+     15
+    ],
+    [
+     "Lord",
+     14
+    ],
+    [
+     "Biran",
+     12
+    ],
+    [
+     "Syrie",
+     11
+    ],
+    [
+     "Delahaye",
+     11
+    ],
+    [
+     "Robert",
+     10
+    ],
+    [
+     "Quant",
+     9
+    ],
+    [
+     "Londres",
+     9
+    ]
+   ],
+   "metternich": [
+    [
+     "France",
+     10
+    ],
+    [
+     "Dieu",
+     6
+    ],
+    [
+     "Turc",
+     6
+    ],
+    [
+     "Saint",
+     5
+    ],
+    [
+     "Biaise",
+     5
+    ],
+    [
+     "Zuecca",
+     5
+    ],
+    [
+     "Pourquoi",
+     5
+    ],
+    [
+     "Lamennais",
+     4
+    ],
+    [
+     "J'ai",
+     4
+    ],
+    [
+     "Italienne",
+     4
+    ],
+    [
+     "Alger",
+     4
+    ],
+    [
+     "Italie",
+     4
+    ],
+    [
+     "Lablache",
+     4
+    ],
+    [
+     "Geneve",
+     4
+    ],
+    [
+     "Palmerston",
+     4
+    ],
+    [
+     "Quand",
+     3
+    ],
+    [
+     "Cousin",
+     3
+    ],
+    [
+     "Mehemet",
+     3
+    ],
+    [
+     "Ali",
+     3
+    ],
+    [
+     "C'est",
+     2
+    ]
+   ],
+   "nicolas": [
+    [
+     "Hardi",
+     2
+    ],
+    [
+     "Trinite",
+     2
+    ],
+    [
+     "Romains",
+     2
+    ],
+    [
+     "Afrique",
+     2
+    ],
+    [
+     "Tibre",
+     2
+    ],
+    [
+     "Lope",
+     1
+    ],
+    [
+     "Yega",
+     1
+    ],
+    [
+     "Parmi",
+     1
+    ],
+    [
+     "Remar",
+     1
+    ],
+    [
+     "AlfonseXI",
+     1
+    ],
+    [
+     "Garcia",
+     1
+    ],
+    [
+     "Tantot",
+     1
+    ],
+    [
+     "J'aurais",
+     1
+    ],
+    [
+     "Jacqueline",
+     1
+    ],
+    [
+     "Guitaut",
+     1
+    ],
+    [
+     "Guette",
+     1
+    ],
+    [
+     "Comment",
+     1
+    ],
+    [
+     "Carthage",
+     1
+    ],
+    [
+     "France",
+     1
+    ],
+    [
+     "Vandales",
+     1
+    ]
+   ],
+   "frederic": [
+    [
+     "Charles",
+     16
+    ],
+    [
+     "Louise",
+     10
+    ],
+    [
+     "Pym",
+     6
+    ],
+    [
+     "Prevere",
+     6
+    ],
+    [
+     "C'est",
+     6
+    ],
+    [
+     "Baktschisarai",
+     6
+    ],
+    [
+     "Caire",
+     4
+    ],
+    [
+     "Lamb",
+     4
+    ],
+    [
+     "Ilazlitt",
+     4
+    ],
+    [
+     "Sidney",
+     4
+    ],
+    [
+     "Smith",
+     4
+    ],
+    [
+     "AVilson",
+     4
+    ],
+    [
+     "Gifford",
+     4
+    ],
+    [
+     "Dickens",
+     4
+    ],
+    [
+     "Blessington",
+     4
+    ],
+    [
+     "Ecosse",
+     4
+    ],
+    [
+     "J'emportai",
+     2
+    ],
+    [
+     "Cesar",
+     2
+    ],
+    [
+     "Bonaparte",
+     2
+    ],
+    [
+     "Pompee",
+     2
+    ]
+   ],
+   "espartero": [
+    [
+     "Chine",
+     27
+    ],
+    [
+     "Louise",
+     25
+    ],
+    [
+     "Russie",
+     13
+    ],
+    [
+     "Anglais",
+     9
+    ],
+    [
+     "Aristide",
+     8
+    ],
+    [
+     "Herbeau",
+     8
+    ],
+    [
+     "C'est",
+     5
+    ],
+    [
+     "Russes",
+     5
+    ],
+    [
+     "Her",
+     5
+    ],
+    [
+     "Chinois",
+     4
+    ],
+    [
+     "Elliot",
+     4
+    ],
+    [
+     "Indes",
+     4
+    ],
+    [
+     "Palmerston",
+     4
+    ],
+    [
+     "France",
+     4
+    ],
+    [
+     "Ningpo",
+     4
+    ],
+    [
+     "Constantinople",
+     4
+    ],
+    [
+     "Saint",
+     4
+    ],
+    [
+     "Riquemont",
+     4
+    ],
+    [
+     "Ecoutez",
+     4
+    ],
+    [
+     "Celestin",
+     4
+    ]
+   ],
+   "ponsonby": [
+    [
+     "Biran",
+     14
+    ],
+    [
+     "Cousin",
+     6
+    ],
+    [
+     "France",
+     3
+    ],
+    [
+     "Laine",
+     3
+    ],
+    [
+     "Quoi",
+     2
+    ],
+    [
+     "C'est",
+     2
+    ],
+    [
+     "Royer",
+     2
+    ],
+    [
+     "Copenhague",
+     2
+    ],
+    [
+     "Cabanis",
+     2
+    ],
+    [
+     "Descartes",
+     2
+    ],
+    [
+     "Leibnitz",
+     2
+    ],
+    [
+     "Qu'y",
+     2
+    ],
+    [
+     "Lord",
+     2
+    ],
+    [
+     "Granville",
+     2
+    ],
+    [
+     "Palma",
+     1
+    ],
+    [
+     "Comprend",
+     1
+    ],
+    [
+     "Paris",
+     1
+    ],
+    [
+     "Ayant",
+     1
+    ],
+    [
+     "Heu",
+     1
+    ],
+    [
+     "C'etait",
+     1
+    ]
+   ],
+   "sultan": [
+    [
+     "France",
+     50
+    ],
+    [
+     "Palmerston",
+     21
+    ],
+    [
+     "C'est",
+     18
+    ],
+    [
+     "Ali",
+     15
+    ],
+    [
+     "Thiers",
+     13
+    ],
+    [
+     "Russie",
+     12
+    ],
+    [
+     "Mehemet",
+     12
+    ],
+    [
+     "Quand",
+     9
+    ],
+    [
+     "Biran",
+     9
+    ],
+    [
+     "Meyerbeer",
+     8
+    ],
+    [
+     "Geneve",
+     8
+    ],
+    [
+     "Robert",
+     8
+    ],
+    [
+     "Russes",
+     7
+    ],
+    [
+     "Anglais",
+     7
+    ],
+    [
+     "Suisse",
+     7
+    ],
+    [
+     "Peel",
+     7
+    ],
+    [
+     "Quant",
+     7
+    ],
+    [
+     "Granville",
+     7
+    ],
+    [
+     "Syrie",
+     6
+    ],
+    [
+     "Saint",
+     6
+    ]
+   ],
+   "mahmoud": [
+    [
+     "France",
+     8
+    ],
+    [
+     "Meyerbeer",
+     8
+    ],
+    [
+     "Berlioz",
+     6
+    ],
+    [
+     "C'est",
+     5
+    ],
+    [
+     "Freysclmtz",
+     3
+    ],
+    [
+     "Duprez",
+     3
+    ],
+    [
+     "Marie",
+     3
+    ],
+    [
+     "L'occasion",
+     3
+    ],
+    [
+     "Quant",
+     3
+    ],
+    [
+     "Russie",
+     2
+    ],
+    [
+     "Freyschvtz",
+     2
+    ],
+    [
+     "Weber",
+     2
+    ],
+    [
+     "Massol",
+     2
+    ],
+    [
+     "Aiax",
+     2
+    ],
+    [
+     "Qu'on",
+     2
+    ],
+    [
+     "Musique",
+     2
+    ],
+    [
+     "Huguenots",
+     2
+    ],
+    [
+     "Anglais",
+     2
+    ],
+    [
+     "Tels",
+     2
+    ],
+    [
+     "J'admets",
+     2
+    ]
+   ],
+   "louis-philippe": [
+    [
+     "Florence",
+     2
+    ],
+    [
+     "Del",
+     1
+    ],
+    [
+     "Monte",
+     1
+    ],
+    [
+     "Padoue",
+     1
+    ],
+    [
+     "Moleti",
+     1
+    ],
+    [
+     "Galilee",
+     1
+    ],
+    [
+     "Venise",
+     1
+    ],
+    [
+     "Apres",
+     1
+    ],
+    [
+     "Voudrions",
+     1
+    ],
+    [
+     "Grace",
+     1
+    ],
+    [
+     "Dieu",
+     1
+    ],
+    [
+     "France",
+     1
+    ]
+   ],
+   "abdoul": [
+    [
+     "Marc",
+     1
+    ],
+    [
+     "Aurele",
+     1
+    ],
+    [
+     "Commode",
+     1
+    ],
+    [
+     "Digeste",
+     1
+    ]
+   ]
+  },
+  "capitals": {
+   "constantinople": [
+    [
+     "France",
+     41
+    ],
+    [
+     "C'est",
+     11
+    ],
+    [
+     "Palmerston",
+     10
+    ],
+    [
+     "Thiers",
+     9
+    ],
+    [
+     "Syrie",
+     7
+    ],
+    [
+     "Guizot",
+     7
+    ],
+    [
+     "Porte",
+     5
+    ],
+    [
+     "Paris",
+     5
+    ],
+    [
+     "J'ai",
+     4
+    ],
+    [
+     "Russie",
+     4
+    ],
+    [
+     "Quant",
+     4
+    ],
+    [
+     "Geneve",
+     4
+    ],
+    [
+     "Mehemet",
+     4
+    ],
+    [
+     "Ali",
+     4
+    ],
+    [
+     "Sans",
+     3
+    ],
+    [
+     "Siecle",
+     3
+    ],
+    [
+     "Quand",
+     3
+    ],
+    [
+     "Courrier",
+     3
+    ],
+    [
+     "J'etais",
+     3
+    ],
+    [
+     "Rome",
+     3
+    ]
+   ],
+   "londres": [
+    [
+     "France",
+     51
+    ],
+    [
+     "C'est",
+     24
+    ],
+    [
+     "Palmerston",
+     20
+    ],
+    [
+     "Ali",
+     17
+    ],
+    [
+     "Saint",
+     12
+    ],
+    [
+     "Dieu",
+     11
+    ],
+    [
+     "Mehemet",
+     11
+    ],
+    [
+     "Quand",
+     9
+    ],
+    [
+     "Gueux",
+     9
+    ],
+    [
+     "Enfin",
+     8
+    ],
+    [
+     "Londres",
+     7
+    ],
+    [
+     "Grenouille",
+     7
+    ],
+    [
+     "Louis",
+     6
+    ],
+    [
+     "Jean",
+     6
+    ],
+    [
+     "Angleterre",
+     6
+    ],
+    [
+     "Syrie",
+     6
+    ],
+    [
+     "Anglais",
+     5
+    ],
+    [
+     "Russie",
+     5
+    ],
+    [
+     "Thiers",
+     5
+    ],
+    [
+     "Paris",
+     5
+    ]
+   ],
+   "paris": [
+    [
+     "France",
+     37
+    ],
+    [
+     "C'est",
+     34
+    ],
+    [
+     "Lavalle",
+     22
+    ],
+    [
+     "Rivera",
+     20
+    ],
+    [
+     "Dieu",
+     20
+    ],
+    [
+     "Paris",
+     19
+    ],
+    [
+     "Rosas",
+     14
+    ],
+    [
+     "Saint",
+     14
+    ],
+    [
+     "Riquemont",
+     14
+    ],
+    [
+     "Corrientes",
+     13
+    ],
+    [
+     "Quand",
+     12
+    ],
+    [
+     "Elliot",
+     11
+    ],
+    [
+     "Mon",
+     10
+    ],
+    [
+     "Apres",
+     10
+    ],
+    [
+     "J'ai",
+     10
+    ],
+    [
+     "Vouet",
+     10
+    ],
+    [
+     "Savenay",
+     10
+    ],
+    [
+     "C'etait",
+     9
+    ],
+    [
+     "Francais",
+     9
+    ],
+    [
+     "Pym",
+     9
+    ]
+   ],
+   "vienne": [
+    [
+     "Ali",
+     17
+    ],
+    [
+     "Mehemet",
+     13
+    ],
+    [
+     "France",
+     10
+    ],
+    [
+     "C'est",
+     10
+    ],
+    [
+     "Porte",
+     7
+    ],
+    [
+     "Thiers",
+     5
+    ],
+    [
+     "Chine",
+     5
+    ],
+    [
+     "Italie",
+     5
+    ],
+    [
+     "Turc",
+     5
+    ],
+    [
+     "Dieu",
+     4
+    ],
+    [
+     "Histoire",
+     4
+    ],
+    [
+     "Meurdrac",
+     4
+    ],
+    [
+     "Italienne",
+     4
+    ],
+    [
+     "Alger",
+     4
+    ],
+    [
+     "Hier",
+     3
+    ],
+    [
+     "Notre",
+     3
+    ],
+    [
+     "Paris",
+     3
+    ],
+    [
+     "Sans",
+     3
+    ],
+    [
+     "Bois",
+     3
+    ],
+    [
+     "Quand",
+     3
+    ]
+   ],
+   "berlin": [
+    [
+     "France",
+     15
+    ],
+    [
+     "Pym",
+     6
+    ],
+    [
+     "C'est",
+     6
+    ],
+    [
+     "Danton",
+     6
+    ],
+    [
+     "Paris",
+     6
+    ],
+    [
+     "Charles",
+     5
+    ],
+    [
+     "Subserra",
+     5
+    ],
+    [
+     "Ali",
+     5
+    ],
+    [
+     "Louise",
+     4
+    ],
+    [
+     "Saint",
+     4
+    ],
+    [
+     "Mehemet",
+     4
+    ],
+    [
+     "Guizot",
+     4
+    ],
+    [
+     "Strafford",
+     3
+    ],
+    [
+     "Rien",
+     3
+    ],
+    [
+     "Quand",
+     3
+    ],
+    [
+     "George",
+     3
+    ],
+    [
+     "Lisbonne",
+     3
+    ],
+    [
+     "Cabeca",
+     3
+    ],
+    [
+     "Bola",
+     3
+    ],
+    [
+     "Hyde",
+     3
+    ]
+   ],
+   "petersbourg": [
+    [
+     "France",
+     36
+    ],
+    [
+     "Ali",
+     14
+    ],
+    [
+     "Guette",
+     12
+    ],
+    [
+     "Jacqueline",
+     12
+    ],
+    [
+     "Thiers",
+     10
+    ],
+    [
+     "Mehemet",
+     10
+    ],
+    [
+     "Meurdrac",
+     8
+    ],
+    [
+     "Guizot",
+     8
+    ],
+    [
+     "Italie",
+     6
+    ],
+    [
+     "Russie",
+     6
+    ],
+    [
+     "C'est",
+     6
+    ],
+    [
+     "Adam",
+     6
+    ],
+    [
+     "Pologne",
+     4
+    ],
+    [
+     "Allemagne",
+     4
+    ],
+    [
+     "Louis",
+     4
+    ],
+    [
+     "N'est",
+     4
+    ],
+    [
+     "Pym",
+     4
+    ],
+    [
+     "Assurement",
+     4
+    ],
+    [
+     "Samour",
+     4
+    ],
+    [
+     "Akhti",
+     4
+    ]
+   ],
+   "dresde": [
+    [
+     "J'ai",
+     2
+    ],
+    [
+     "Russes",
+     2
+    ],
+    [
+     "Gottingue",
+     2
+    ],
+    [
+     "Schiller",
+     2
+    ],
+    [
+     "Paul",
+     1
+    ],
+    [
+     "Blascurat",
+     1
+    ],
+    [
+     "Naude",
+     1
+    ],
+    [
+     "Vhuwoiir",
+     1
+    ],
+    [
+     "Topfier",
+     1
+    ],
+    [
+     "Crimee",
+     1
+    ],
+    [
+     "Baktschisarai",
+     1
+    ],
+    [
+     "Dnieper",
+     1
+    ],
+    [
+     "Wolga",
+     1
+    ],
+    [
+     "Polonais",
+     1
+    ],
+    [
+     "Turcs",
+     1
+    ],
+    [
+     "C'est",
+     1
+    ],
+    [
+     "Tartares",
+     1
+    ],
+    [
+     "Weimar",
+     1
+    ],
+    [
+     "Tandis",
+     1
+    ],
+    [
+     "Biirger",
+     1
+    ]
+   ],
+   "saxe": [
+    [
+     "Paris",
+     4
+    ],
+    [
+     "C'est",
+     3
+    ],
+    [
+     "Teofilo",
+     2
+    ],
+    [
+     "Folengo",
+     2
+    ],
+    [
+     "Aubert",
+     2
+    ],
+    [
+     "A'oltaire",
+     2
+    ],
+    [
+     "France",
+     2
+    ],
+    [
+     "Voila",
+     2
+    ],
+    [
+     "Baktschisarai",
+     2
+    ],
+    [
+     "Parce",
+     2
+    ],
+    [
+     "Kalverstraat",
+     1
+    ],
+    [
+     "Botermarkt",
+     1
+    ],
+    [
+     "Quant",
+     1
+    ],
+    [
+     "L'enthousiasme",
+     1
+    ],
+    [
+     "Sediman",
+     1
+    ],
+    [
+     "Basse",
+     1
+    ],
+    [
+     "Egypte",
+     1
+    ],
+    [
+     "Fatal",
+     1
+    ],
+    [
+     "Bohemes",
+     1
+    ],
+    [
+     "Prusse",
+     1
+    ]
+   ],
+   "prusse": [
+    [
+     "France",
+     17
+    ],
+    [
+     "C'est",
+     11
+    ],
+    [
+     "Londres",
+     10
+    ],
+    [
+     "Byron",
+     9
+    ],
+    [
+     "Angleterre",
+     8
+    ],
+    [
+     "Dieu",
+     7
+    ],
+    [
+     "Palmerston",
+     7
+    ],
+    [
+     "Charles",
+     6
+    ],
+    [
+     "Louise",
+     6
+    ],
+    [
+     "Ali",
+     6
+    ],
+    [
+     "Enfin",
+     5
+    ],
+    [
+     "Jesus",
+     5
+    ],
+    [
+     "Prevere",
+     5
+    ],
+    [
+     "C'etait",
+     5
+    ],
+    [
+     "Lord",
+     5
+    ],
+    [
+     "Review",
+     5
+    ],
+    [
+     "Perier",
+     5
+    ],
+    [
+     "Paris",
+     5
+    ],
+    [
+     "Christ",
+     4
+    ],
+    [
+     "Pym",
+     4
+    ]
+   ],
+   "autriche": [
+    [
+     "France",
+     38
+    ],
+    [
+     "C'est",
+     18
+    ],
+    [
+     "Ali",
+     18
+    ],
+    [
+     "Mehemet",
+     16
+    ],
+    [
+     "Porte",
+     14
+    ],
+    [
+     "Palmerston",
+     11
+    ],
+    [
+     "Paris",
+     10
+    ],
+    [
+     "Byron",
+     9
+    ],
+    [
+     "Angleterre",
+     9
+    ],
+    [
+     "Letarouilly",
+     9
+    ],
+    [
+     "Dieu",
+     7
+    ],
+    [
+     "Londres",
+     7
+    ],
+    [
+     "Thiers",
+     6
+    ],
+    [
+     "Lord",
+     6
+    ],
+    [
+     "Grecs",
+     6
+    ],
+    [
+     "Guizot",
+     6
+    ],
+    [
+     "Ponsonby",
+     6
+    ],
+    [
+     "Prusse",
+     5
+    ],
+    [
+     "Plutarque",
+     5
+    ],
+    [
+     "Jean",
+     5
+    ]
+   ],
+   "angleterre": [
+    [
+     "France",
+     177
+    ],
+    [
+     "C'est",
+     96
+    ],
+    [
+     "Dieu",
+     87
+    ],
+    [
+     "Palmerston",
+     57
+    ],
+    [
+     "Lamennais",
+     39
+    ],
+    [
+     "Ali",
+     37
+    ],
+    [
+     "Paris",
+     33
+    ],
+    [
+     "Russie",
+     31
+    ],
+    [
+     "Robert",
+     31
+    ],
+    [
+     "Porte",
+     30
+    ],
+    [
+     "Mehemet",
+     30
+    ],
+    [
+     "Rome",
+     29
+    ],
+    [
+     "Peel",
+     26
+    ],
+    [
+     "Londres",
+     25
+    ],
+    [
+     "Apres",
+     24
+    ],
+    [
+     "Saint",
+     24
+    ],
+    [
+     "Sans",
+     23
+    ],
+    [
+     "Anglais",
+     21
+    ],
+    [
+     "Syrie",
+     20
+    ],
+    [
+     "Quand",
+     19
+    ]
+   ],
+   "france": [
+    [
+     "France",
+     339
+    ],
+    [
+     "C'est",
+     200
+    ],
+    [
+     "Dieu",
+     162
+    ],
+    [
+     "Ali",
+     84
+    ],
+    [
+     "Palmerston",
+     77
+    ],
+    [
+     "Saint",
+     59
+    ],
+    [
+     "Mehemet",
+     58
+    ],
+    [
+     "Herbeau",
+     55
+    ],
+    [
+     "Paris",
+     52
+    ],
+    [
+     "Syrie",
+     51
+    ],
+    [
+     "Porte",
+     51
+    ],
+    [
+     "Rome",
+     51
+    ],
+    [
+     "Russie",
+     49
+    ],
+    [
+     "Quand",
+     48
+    ],
+    [
+     "Lamennais",
+     48
+    ],
+    [
+     "Marie",
+     47
+    ],
+    [
+     "Sans",
+     47
+    ],
+    [
+     "C'etait",
+     41
+    ],
+    [
+     "Rosas",
+     41
+    ],
+    [
+     "Thiers",
+     40
+    ]
+   ],
+   "russie": [
+    [
+     "France",
+     98
+    ],
+    [
+     "C'est",
+     46
+    ],
+    [
+     "Palmerston",
+     46
+    ],
+    [
+     "Ali",
+     42
+    ],
+    [
+     "Mehemet",
+     30
+    ],
+    [
+     "Dieu",
+     26
+    ],
+    [
+     "Porte",
+     24
+    ],
+    [
+     "Russie",
+     22
+    ],
+    [
+     "Paris",
+     21
+    ],
+    [
+     "Thiers",
+     20
+    ],
+    [
+     "Soumet",
+     20
+    ],
+    [
+     "Guette",
+     17
+    ],
+    [
+     "Jacqueline",
+     17
+    ],
+    [
+     "Londres",
+     17
+    ],
+    [
+     "Guizot",
+     17
+    ],
+    [
+     "Granville",
+     15
+    ],
+    [
+     "Gaston",
+     14
+    ],
+    [
+     "Caucase",
+     13
+    ],
+    [
+     "Syrie",
+     12
+    ],
+    [
+     "Voici",
+     12
+    ]
+   ],
+   "turquie": [
+    [
+     "France",
+     24
+    ],
+    [
+     "Russie",
+     12
+    ],
+    [
+     "Palmerston",
+     9
+    ],
+    [
+     "Thiers",
+     8
+    ],
+    [
+     "Kouban",
+     6
+    ],
+    [
+     "Bonald",
+     6
+    ],
+    [
+     "Suisse",
+     6
+    ],
+    [
+     "Mehemet",
+     6
+    ],
+    [
+     "Ali",
+     6
+    ],
+    [
+     "C'est",
+     5
+    ],
+    [
+     "Ancelot",
+     4
+    ],
+    [
+     "Baleares",
+     4
+    ],
+    [
+     "Charnaye",
+     4
+    ],
+    [
+     "Constantinople",
+     3
+    ],
+    [
+     "Rome",
+     3
+    ],
+    [
+     "Golavine",
+     3
+    ],
+    [
+     "Lezghes",
+     3
+    ],
+    [
+     "Russes",
+     3
+    ],
+    [
+     "Cosaques",
+     3
+    ],
+    [
+     "Jean",
+     3
+    ]
+   ]
+  },
+  "other_1841": {
+   "opium": [
+    [
+     "Chine",
+     19
+    ],
+    [
+     "Bombay",
+     16
+    ],
+    [
+     "Canton",
+     13
+    ],
+    [
+     "Anglais",
+     13
+    ],
+    [
+     "Elliot",
+     11
+    ],
+    [
+     "Chinois",
+     9
+    ],
+    [
+     "Calcutta",
+     8
+    ],
+    [
+     "L'amiral",
+     4
+    ],
+    [
+     "Tel",
+     4
+    ],
+    [
+     "Queen",
+     4
+    ],
+    [
+     "VY'liampoa",
+     4
+    ],
+    [
+     "Quelle",
+     4
+    ],
+    [
+     "Tchitchagoff",
+     4
+    ],
+    [
+     "Vienne",
+     4
+    ],
+    [
+     "Suede",
+     3
+    ],
+    [
+     "C'est",
+     3
+    ],
+    [
+     "Quant",
+     3
+    ],
+    [
+     "Entreprise",
+     3
+    ],
+    [
+     "Nemesis",
+     3
+    ],
+    [
+     "Miampoa",
+     3
+    ]
+   ],
+   "pologne": [
+    [
+     "C'est",
+     6
+    ],
+    [
+     "Romilly",
+     6
+    ],
+    [
+     "Dieu",
+     4
+    ],
+    [
+     "Othon",
+     4
+    ],
+    [
+     "Charnaye",
+     4
+    ],
+    [
+     "Meurdrac",
+     3
+    ],
+    [
+     "Guette",
+     3
+    ],
+    [
+     "Galilee",
+     3
+    ],
+    [
+     "Whitbread",
+     3
+    ],
+    [
+     "Sheridan",
+     3
+    ],
+    [
+     "Fox",
+     3
+    ],
+    [
+     "Canning",
+     3
+    ],
+    [
+     "Dudley",
+     3
+    ],
+    [
+     "Wilberforce",
+     3
+    ],
+    [
+     "L'un",
+     3
+    ],
+    [
+     "Grece",
+     3
+    ],
+    [
+     "Gaston",
+     3
+    ],
+    [
+     "Nelli",
+     2
+    ],
+    [
+     "Castlereagh",
+     2
+    ],
+    [
+     "Crimee",
+     2
+    ]
+   ],
+   "douane": [
+    [
+     "Bajazet",
+     3
+    ],
+    [
+     "Roscio",
+     2
+    ],
+    [
+     "Asie",
+     2
+    ],
+    [
+     "Bactriane",
+     2
+    ],
+    [
+     "Perse",
+     2
+    ],
+    [
+     "Tamerlan",
+     2
+    ],
+    [
+     "C'est",
+     2
+    ],
+    [
+     "Lebrun",
+     1
+    ],
+    [
+     "L'impatience",
+     1
+    ],
+    [
+     "Juliette",
+     1
+    ],
+    [
+     "Romeo",
+     1
+    ],
+    [
+     "Broglie",
+     1
+    ],
+    [
+     "Revue",
+     1
+    ],
+    [
+     "Francaise",
+     1
+    ],
+    [
+     "YOthcllo",
+     1
+    ],
+    [
+     "Vigny",
+     1
+    ],
+    [
+     "Chacun",
+     1
+    ],
+    [
+     "Cid",
+     1
+    ],
+    [
+     "Anda",
+     1
+    ],
+    [
+     "Valentinien",
+     1
+    ]
+   ],
+   "kong": [
+    [
+     "Autrichiens",
+     1
+    ],
+    [
+     "Sept",
+     1
+    ],
+    [
+     "Iles",
+     1
+    ],
+    [
+     "Bosnie",
+     1
+    ],
+    [
+     "Quoi",
+     1
+    ],
+    [
+     "Capodistrias",
+     1
+    ],
+    [
+     "Castlereagh",
+     1
+    ],
+    [
+     "L'histoire",
+     1
+    ],
+    [
+     "IMelbourne",
+     1
+    ],
+    [
+     "Thiers",
+     1
+    ],
+    [
+     "France",
+     1
+    ],
+    [
+     "Russie",
+     1
+    ]
+   ],
+   "polonais": [
+    [
+     "Guia",
+     3
+    ],
+    [
+     "Forasteros",
+     3
+    ],
+    [
+     "Guide",
+     3
+    ],
+    [
+     "Etrangers",
+     3
+    ],
+    [
+     "Dieu",
+     3
+    ],
+    [
+     "D'un",
+     2
+    ],
+    [
+     "Cadix",
+     2
+    ],
+    [
+     "C'etait",
+     2
+    ],
+    [
+     "Nuevitas",
+     2
+    ],
+    [
+     "San",
+     2
+    ],
+    [
+     "Domingo",
+     2
+    ],
+    [
+     "Isla",
+     2
+    ],
+    [
+     "Ame",
+     2
+    ],
+    [
+     "Fernandina",
+     2
+    ],
+    [
+     "Jesus",
+     2
+    ],
+    [
+     "Christ",
+     2
+    ],
+    [
+     "Schiller",
+     2
+    ],
+    [
+     "Gaston",
+     2
+    ],
+    [
+     "Relachez",
+     1
+    ],
+    [
+     "Caucase",
+     1
+    ]
+   ],
+   "hong": [
+    [
+     "Thiers",
+     1
+    ],
+    [
+     "France",
+     1
+    ],
+    [
+     "Russie",
+     1
+    ]
+   ]
+  }
+ },
+ "topic_vol": {
+  "levant_mehemet": {
+   "revue-deux-mondes-1841-q1.txt": 277,
+   "revue-deux-mondes-1841-q2.txt": 165,
+   "revue-deux-mondes-1841-q3.txt": 449,
+   "revue-deux-mondes-1841-q4.txt": 1454
+  },
+  "straits": {
+   "revue-deux-mondes-1841-q1.txt": 377,
+   "revue-deux-mondes-1841-q2.txt": 323,
+   "revue-deux-mondes-1841-q3.txt": 437,
+   "revue-deux-mondes-1841-q4.txt": 611
+  },
+  "powers_people": {
+   "revue-deux-mondes-1841-q1.txt": 190,
+   "revue-deux-mondes-1841-q2.txt": 129,
+   "revue-deux-mondes-1841-q3.txt": 163,
+   "revue-deux-mondes-1841-q4.txt": 893
+  },
+  "capitals": {
+   "revue-deux-mondes-1841-q1.txt": 1501,
+   "revue-deux-mondes-1841-q2.txt": 1074,
+   "revue-deux-mondes-1841-q3.txt": 1374,
+   "revue-deux-mondes-1841-q4.txt": 1909
+  },
+  "other_1841": {
+   "revue-deux-mondes-1841-q1.txt": 8,
+   "revue-deux-mondes-1841-q2.txt": 82,
+   "revue-deux-mondes-1841-q3.txt": 38,
+   "revue-deux-mondes-1841-q4.txt": 17
+  }
+ },
+ "words_by_vol": {
+  "revue-deux-mondes-1841-q1.txt": {
+   "lui": 1493,
+   "qu'il": 1266,
+   "deux": 1153,
+   "c'est": 1117,
+   "sans": 1060,
+   "sont": 924,
+   "d'un": 878,
+   "d'une": 869,
+   "était": 854,
+   "avait": 803,
+   "france": 786,
+   "temps": 655,
+   "qu'on": 628,
+   "ont": 610,
+   "sous": 569,
+   "peu": 566,
+   "été": 553,
+   "fut": 519,
+   "contre": 514,
+   "notre": 511,
+   "nos": 510,
+   "point": 509,
+   "revue": 508,
+   "n'est": 501,
+   "pays": 487,
+   "qu'elle": 445,
+   "mondes": 437,
+   "hommes": 421,
+   "quand": 408,
+   "rien": 398,
+   "quelques": 395,
+   "quelque": 392,
+   "cet": 387,
+   "monde": 386,
+   "grand": 375,
+   "fois": 372,
+   "mon": 372,
+   "jour": 370,
+   "dire": 366,
+   "faut": 334,
+   "l'on": 329,
+   "trop": 322,
+   "vie": 319,
+   "politique": 319,
+   "soit": 314,
+   "grande": 313,
+   "tant": 312,
+   "n'a": 310,
+   "non": 307,
+   "dieu": 295,
+   "trois": 290,
+   "moi": 289,
+   "gouvernement": 285,
+   "n'y": 281,
+   "roi": 279,
+   "fort": 279,
+   "homme": 272,
+   "général": 264,
+   "l'autre": 261,
+   "assez": 254,
+   "force": 252,
+   "qu'ils": 250,
+   "ans": 240,
+   "chaque": 239,
+   "chose": 239,
+   "qu'un": 238,
+   "vers": 237,
+   "peuple": 236,
+   "jeune": 233,
+   "enfin": 231,
+   "long": 231,
+   "puis": 229,
+   "nom": 229,
+   "voir": 223,
+   "serait": 223,
+   "ment": 222,
+   "marie": 221,
+   "seul": 221,
+   "j'ai": 221,
+   "c'était": 219,
+   "don": 218,
+   "français": 218,
+   "jours": 215,
+   "guerre": 214,
+   "étaient": 213,
+   "ici": 213,
+   "qu'une": 212,
+   "aujourd'hui": 210,
+   "premier": 209,
+   "chez": 207,
+   "doute": 207,
+   "s'est": 204,
+   "chambre": 203,
+   "main": 202,
+   "première": 202,
+   "devant": 201,
+   "droit": 200,
+   "s'en": 200,
+   "lieu": 198,
+   "terre": 197,
+   "parti": 196,
+   "eux": 196,
+   "loi": 192,
+   "question": 191,
+   "avaient": 191,
+   "cœur": 190,
+   "mort": 189,
+   "moment": 189,
+   "beaucoup": 188,
+   "votre": 187,
+   "coup": 186,
+   "qu'à": 185,
+   "souvent": 184,
+   "siècle": 184,
+   "milieu": 184,
+   "s'il": 184,
+   "doit": 183,
+   "jusqu'à": 183,
+   "pouvoir": 182,
+   "ville": 182,
+   "l'angleterre": 180,
+   "loin": 180,
+   "voix": 180,
+   "raison": 180,
+   "sait": 180,
+   "n'en": 179,
+   "môme": 178,
+   "bon": 178,
+   "mes": 178,
+   "yeux": 178,
+   "nature": 175,
+   "mal": 173,
+   "mille": 172,
+   "peine": 170,
+   "presque": 170,
+   "part": 169,
+   "d'abord": 169,
+   "l'europe": 168,
+   "seule": 168,
+   "côté": 167,
+   "choses": 166,
+   "française": 165,
+   "dès": 165,
+   "grands": 165,
+   "pouvait": 164,
+   "n'était": 163,
+   "mieux": 163,
+   "eût": 163,
+   "caractère": 162,
+   "seulement": 162,
+   "femme": 161,
+   "donner": 161,
+   "rosas": 159,
+   "reste": 158,
+   "quel": 156,
+   "puissance": 156,
+   "paris": 155,
+   "nombre": 155,
+   "père": 154,
+   "affaires": 153,
+   "plusieurs": 153,
+   "saint": 152,
+   "s'y": 152,
+   "vrai": 151,
+   "d'autres": 151,
+   "mer": 151,
+   "cause": 151,
+   "lettres": 150,
+   "con": 150,
+   "œuvre": 150,
+   "l'homme": 150,
+   "sorte": 150,
+   "nouvelle": 149,
+   "traité": 149,
+   "tête": 148,
+   "ministère": 147,
+   "liberté": 146,
+   "l'a": 146,
+   "semble": 145,
+   "partie": 145,
+   "mêmes": 144,
+   "l'histoire": 142,
+   "l'un": 142,
+   "pensée": 142,
+   "tion": 141,
+   "aurait": 141,
+   "mot": 141,
+   "surtout": 141,
+   "l'esprit": 140,
+   "beau": 140,
+   "parce": 140,
+   "près": 139,
+   "eut": 139,
+   "quatre": 137,
+   "ayres": 137,
+   "maison": 136,
+   "forme": 135,
+   "chef": 134,
+   "place": 134,
+   "succès": 134
+  },
+  "revue-deux-mondes-1841-q2.txt": {
+   "lui": 1514,
+   "qu'il": 1346,
+   "deux": 1195,
+   "c'est": 1188,
+   "sont": 1017,
+   "sans": 992,
+   "avait": 925,
+   "d'une": 887,
+   "était": 883,
+   "d'un": 880,
+   "ont": 669,
+   "été": 654,
+   "temps": 629,
+   "peu": 622,
+   "sous": 600,
+   "n'est": 592,
+   "fut": 589,
+   "qu'on": 537,
+   "revue": 518,
+   "quelques": 446,
+   "mondes": 434,
+   "pays": 412,
+   "contre": 411,
+   "grand": 405,
+   "point": 402,
+   "n'a": 399,
+   "gouvernement": 389,
+   "rien": 385,
+   "quand": 384,
+   "notre": 376,
+   "dire": 372,
+   "hommes": 369,
+   "nos": 368,
+   "vie": 364,
+   "faut": 357,
+   "fois": 354,
+   "quelque": 349,
+   "jour": 343,
+   "l'on": 343,
+   "france": 336,
+   "qu'elle": 336,
+   "cet": 332,
+   "monde": 328,
+   "trop": 315,
+   "non": 314,
+   "qu'ils": 310,
+   "soit": 294,
+   "grande": 288,
+   "vers": 287,
+   "trois": 286,
+   "politique": 277,
+   "l'autre": 275,
+   "mon": 274,
+   "tant": 269,
+   "fort": 260,
+   "avaient": 255,
+   "anglais": 248,
+   "serait": 245,
+   "homme": 242,
+   "assez": 240,
+   "beaucoup": 240,
+   "étaient": 237,
+   "pouvoir": 233,
+   "ans": 231,
+   "ment": 231,
+   "près": 227,
+   "guerre": 223,
+   "part": 222,
+   "dieu": 222,
+   "chaque": 220,
+   "droit": 220,
+   "cour": 220,
+   "qu'un": 219,
+   "long": 219,
+   "voir": 217,
+   "c'était": 217,
+   "qu'à": 215,
+   "eux": 215,
+   "s'il": 214,
+   "n'y": 213,
+   "roi": 213,
+   "doit": 210,
+   "puis": 207,
+   "s'est": 207,
+   "seul": 203,
+   "grands": 203,
+   "enfin": 202,
+   "aujourd'hui": 202,
+   "qu'une": 200,
+   "jours": 199,
+   "lieu": 198,
+   "souvent": 198,
+   "peine": 195,
+   "premier": 194,
+   "plusieurs": 194,
+   "nom": 193,
+   "ville": 192,
+   "devant": 192,
+   "fit": 192,
+   "chez": 190,
+   "surtout": 190,
+   "main": 190,
+   "moi": 190,
+   "ximenès": 190,
+   "force": 187,
+   "question": 186,
+   "seulement": 185,
+   "choses": 185,
+   "doute": 183,
+   "français": 183,
+   "terre": 181,
+   "chose": 180,
+   "moment": 180,
+   "nombre": 180,
+   "aurait": 178,
+   "presque": 177,
+   "siècle": 177,
+   "général": 176,
+   "môme": 175,
+   "parti": 174,
+   "s'en": 173,
+   "saint": 172,
+   "mille": 172,
+   "d'être": 172,
+   "idées": 172,
+   "loin": 172,
+   "mieux": 172,
+   "chambre": 172,
+   "coup": 170,
+   "l'esprit": 169,
+   "nature": 169,
+   "mot": 169,
+   "partie": 168,
+   "sera": 168,
+   "capitaine": 167,
+   "donner": 166,
+   "peuple": 166,
+   "quel": 166,
+   "d'autres": 165,
+   "l'homme": 165,
+   "maître": 165,
+   "effet": 163,
+   "côté": 163,
+   "raison": 163,
+   "n'avait": 163,
+   "nouvelle": 162,
+   "bon": 161,
+   "loi": 160,
+   "jusqu'à": 160,
+   "mes": 159,
+   "système": 158,
+   "père": 158,
+   "n'était": 157,
+   "l'un": 156,
+   "œuvre": 155,
+   "l'histoire": 155,
+   "jeune": 155,
+   "mêmes": 154,
+   "vrai": 154,
+   "pensée": 154,
+   "reste": 153,
+   "n'en": 153,
+   "russie": 152,
+   "milieu": 151,
+   "eut": 151,
+   "pouvait": 151,
+   "devait": 151,
+   "vue": 150,
+   "votre": 150,
+   "seule": 149,
+   "l'angleterre": 149,
+   "n'ont": 148,
+   "première": 148,
+   "yeux": 148,
+   "mal": 148,
+   "ici": 147,
+   "commerce": 147,
+   "dernier": 146,
+   "liberté": 146,
+   "puissance": 145,
+   "tion": 144,
+   "avons": 142,
+   "l'état": 142,
+   "veut": 142,
+   "con": 142,
+   "eût": 140,
+   "besoin": 139,
+   "voilà": 139,
+   "mort": 138,
+   "moyen": 136,
+   "philosophie": 136,
+   "quatre": 136,
+   "sens": 135,
+   "quoi": 135,
+   "chef": 135,
+   "rendre": 135,
+   "prendre": 134,
+   "l'art": 133,
+   "porte": 133,
+   "beau": 133
+  },
+  "revue-deux-mondes-1841-q3.txt": {
+   "lui": 1482,
+   "qu'il": 1369,
+   "c'est": 1226,
+   "deux": 1171,
+   "sans": 1116,
+   "sont": 1028,
+   "avait": 1009,
+   "d'une": 886,
+   "était": 840,
+   "d'un": 834,
+   "ont": 714,
+   "qu'on": 678,
+   "temps": 675,
+   "été": 613,
+   "sous": 611,
+   "peu": 595,
+   "fut": 595,
+   "france": 590,
+   "pays": 514,
+   "n'est": 508,
+   "revue": 483,
+   "quelques": 480,
+   "contre": 465,
+   "point": 457,
+   "mondes": 456,
+   "grand": 454,
+   "rien": 415,
+   "dire": 387,
+   "quand": 387,
+   "vers": 373,
+   "nos": 368,
+   "l'on": 367,
+   "n'a": 366,
+   "jour": 355,
+   "quelque": 352,
+   "fois": 352,
+   "qu'elle": 352,
+   "notre": 352,
+   "roi": 347,
+   "faut": 343,
+   "hommes": 339,
+   "étaient": 339,
+   "qu'ils": 339,
+   "cet": 328,
+   "avaient": 318,
+   "politique": 312,
+   "parti": 308,
+   "grande": 304,
+   "monde": 301,
+   "tant": 299,
+   "vie": 298,
+   "non": 292,
+   "peuple": 291,
+   "gouvernement": 290,
+   "nom": 287,
+   "trois": 275,
+   "serait": 272,
+   "lord": 265,
+   "soit": 250,
+   "marquis": 249,
+   "l'autre": 247,
+   "mon": 244,
+   "trop": 242,
+   "homme": 239,
+   "force": 237,
+   "côté": 232,
+   "presque": 231,
+   "enfin": 231,
+   "droit": 231,
+   "ment": 229,
+   "long": 228,
+   "jusqu'à": 227,
+   "pouvoir": 226,
+   "aujourd'hui": 225,
+   "galilée": 224,
+   "ans": 223,
+   "n'y": 223,
+   "jours": 223,
+   "surtout": 219,
+   "dieu": 219,
+   "premier": 218,
+   "terre": 217,
+   "assez": 216,
+   "fort": 216,
+   "plusieurs": 214,
+   "s'est": 212,
+   "mort": 211,
+   "nature": 211,
+   "qu'à": 210,
+   "chaque": 210,
+   "qu'un": 210,
+   "eux": 207,
+   "doute": 206,
+   "l'europe": 206,
+   "furent": 203,
+   "doit": 203,
+   "chose": 202,
+   "poésie": 201,
+   "c'était": 200,
+   "puis": 200,
+   "reste": 200,
+   "seul": 199,
+   "siècle": 199,
+   "nombre": 199,
+   "chez": 198,
+   "nouvelle": 196,
+   "saint": 195,
+   "question": 194,
+   "moment": 193,
+   "s'en": 192,
+   "môme": 191,
+   "milieu": 191,
+   "part": 191,
+   "près": 189,
+   "ville": 188,
+   "n'en": 187,
+   "l'angleterre": 186,
+   "voir": 185,
+   "beaucoup": 184,
+   "yeux": 183,
+   "seulement": 183,
+   "pouvait": 182,
+   "chambre": 182,
+   "qu'une": 181,
+   "charnaye": 181,
+   "n'avait": 180,
+   "grands": 180,
+   "peine": 179,
+   "partie": 179,
+   "idées": 179,
+   "souvent": 178,
+   "fit": 178,
+   "sait": 177,
+   "prendre": 176,
+   "con": 175,
+   "père": 174,
+   "loin": 174,
+   "sir": 174,
+   "donner": 171,
+   "main": 170,
+   "l'histoire": 169,
+   "d'autres": 169,
+   "guerre": 167,
+   "ministère": 167,
+   "jeune": 165,
+   "forme": 164,
+   "l'esprit": 162,
+   "vrai": 160,
+   "liberté": 160,
+   "bon": 160,
+   "coup": 159,
+   "lieu": 159,
+   "qu'en": 159,
+   "moyen": 159,
+   "voix": 159,
+   "reine": 159,
+   "dès": 158,
+   "porte": 157,
+   "mer": 157,
+   "parmi": 157,
+   "manière": 156,
+   "choses": 156,
+   "première": 155,
+   "mêmes": 155,
+   "français": 154,
+   "quel": 153,
+   "quatre": 153,
+   "cœur": 153,
+   "puissance": 152,
+   "s'il": 152,
+   "mieux": 151,
+   "caractère": 151,
+   "mot": 151,
+   "d'être": 150,
+   "commerce": 150,
+   "anglais": 148,
+   "devant": 147,
+   "nouveau": 147,
+   "l'homme": 146,
+   "tion": 146,
+   "russie": 145,
+   "seule": 143,
+   "situation": 143,
+   "n'était": 142,
+   "parce": 142,
+   "pensée": 141,
+   "devait": 141,
+   "société": 141,
+   "raison": 140,
+   "personne": 140,
+   "robert": 140,
+   "telle": 139,
+   "s'était": 139,
+   "peel": 138,
+   "fils": 137,
+   "bientôt": 137,
+   "corps": 137,
+   "trouve": 137,
+   "époque": 136,
+   "n'ont": 136
+  },
+  "revue-deux-mondes-1841-q4.txt": {
+   "lui": 1786,
+   "qu'il": 1603,
+   "deux": 1220,
+   "avait": 1118,
+   "sans": 1112,
+   "c'est": 1099,
+   "d'un": 922,
+   "sont": 921,
+   "était": 835,
+   "d'une": 830,
+   "docteur": 759,
+   "france": 738,
+   "temps": 673,
+   "ont": 654,
+   "été": 634,
+   "lord": 631,
+   "sous": 620,
+   "n'est": 595,
+   "gouvernement": 525,
+   "qu'on": 522,
+   "revue": 521,
+   "quelques": 520,
+   "point": 504,
+   "mon": 495,
+   "peu": 494,
+   "mondes": 483,
+   "contre": 469,
+   "qu'elle": 462,
+   "notre": 458,
+   "pays": 444,
+   "jour": 438,
+   "rien": 435,
+   "dire": 418,
+   "fut": 415,
+   "herbeau": 414,
+   "cet": 407,
+   "grand": 399,
+   "nos": 397,
+   "fois": 365,
+   "soit": 356,
+   "conseil": 355,
+   "n'a": 351,
+   "riquemont": 351,
+   "quand": 348,
+   "votre": 346,
+   "quelque": 345,
+   "politique": 345,
+   "l'on": 342,
+   "faut": 323,
+   "jeune": 319,
+   "question": 318,
+   "palmerston": 313,
+   "serait": 312,
+   "d'état": 308,
+   "louise": 308,
+   "parti": 306,
+   "l'angleterre": 301,
+   "saint": 298,
+   "qu'ils": 297,
+   "ali": 297,
+   "porte": 291,
+   "trop": 288,
+   "non": 283,
+   "vie": 280,
+   "vers": 279,
+   "tant": 279,
+   "grande": 275,
+   "monde": 275,
+   "homme": 273,
+   "puissances": 271,
+   "voir": 269,
+   "avaient": 269,
+   "doit": 263,
+   "guerre": 262,
+   "l'autre": 258,
+   "pouvoir": 257,
+   "roi": 252,
+   "hommes": 248,
+   "long": 248,
+   "russie": 241,
+   "con": 240,
+   "méhémet": 239,
+   "moi": 237,
+   "qu'un": 236,
+   "droit": 235,
+   "ment": 233,
+   "jours": 230,
+   "moment": 227,
+   "part": 227,
+   "cœur": 227,
+   "assez": 224,
+   "enfin": 223,
+   "n'y": 223,
+   "savenay": 223,
+   "fort": 222,
+   "force": 221,
+   "traité": 220,
+   "sultan": 220,
+   "s'est": 219,
+   "quel": 218,
+   "étaient": 216,
+   "chaque": 216,
+   "n'avait": 215,
+   "main": 212,
+   "seul": 212,
+   "ans": 211,
+   "môme": 210,
+   "c'était": 210,
+   "monsieur": 210,
+   "s'il": 210,
+   "juillet": 205,
+   "trois": 204,
+   "anglais": 204,
+   "bon": 204,
+   "puis": 201,
+   "pouvait": 201,
+   "qu'à": 199,
+   "côté": 199,
+   "doute": 199,
+   "affaires": 198,
+   "chose": 197,
+   "n'était": 197,
+   "quatre": 197,
+   "presque": 197,
+   "eux": 196,
+   "aujourd'hui": 194,
+   "nom": 194,
+   "yeux": 192,
+   "premier": 191,
+   "pacha": 190,
+   "n'en": 189,
+   "donner": 189,
+   "l'état": 189,
+   "mieux": 188,
+   "coup": 187,
+   "j'ai": 186,
+   "aurait": 186,
+   "qu'une": 186,
+   "devant": 184,
+   "peine": 181,
+   "s'en": 181,
+   "devait": 179,
+   "prendre": 179,
+   "sera": 178,
+   "seulement": 178,
+   "paix": 178,
+   "intérêts": 178,
+   "célestin": 177,
+   "plusieurs": 176,
+   "partie": 174,
+   "syrie": 174,
+   "près": 173,
+   "français": 173,
+   "histoire": 173,
+   "ville": 171,
+   "reste": 171,
+   "surtout": 171,
+   "loin": 170,
+   "nature": 170,
+   "voix": 170,
+   "dépêche": 170,
+   "aristide": 170,
+   "beau": 169,
+   "femme": 168,
+   "souvent": 168,
+   "beaucoup": 167,
+   "voilà": 167,
+   "vrai": 167,
+   "l'europe": 167,
+   "choses": 166,
+   "mes": 164,
+   "lieu": 164,
+   "dès": 164,
+   "mêmes": 163,
+   "chez": 162,
+   "jusqu'à": 161,
+   "pensée": 161,
+   "tion": 160,
+   "prince": 158,
+   "sorte": 158,
+   "seule": 156,
+   "s'écria": 156,
+   "mains": 155,
+   "nombre": 154,
+   "nouveau": 153,
+   "l'un": 153,
+   "effet": 152,
+   "eût": 152,
+   "ministère": 152,
+   "peuple": 151,
+   "première": 151,
+   "milieu": 150,
+   "cas": 149,
+   "besoin": 149,
+   "mettre": 149,
+   "chambre": 149,
+   "hollande": 148,
+   "d'abord": 148,
+   "léonard": 147,
+   "mort": 146
+  }
+ }
+}

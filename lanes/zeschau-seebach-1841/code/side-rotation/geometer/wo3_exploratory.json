@@ -1,0 +1,16 @@
+{
+ "B6": {
+  "ARI_med": 0.0,
+  "derived_M1_med": 14.9,
+  "derived_z_med": -0.51,
+  "derived_M3_med": 0.97,
+  "true_z_med": -0.28
+ },
+ "B7": {
+  "ARI_med": 0.043,
+  "derived_M1_med": 27.6,
+  "derived_z_med": 1.0,
+  "derived_M3_med": 0.96,
+  "true_z_med": 4.7
+ }
+}
