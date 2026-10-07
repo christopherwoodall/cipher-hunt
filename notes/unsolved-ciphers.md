@@ -4,7 +4,7 @@ Extracted 2026-10-06 from two live pages:
 - **(B)** Daniel Bourdeau, "Unsolved Historical Ciphers — Working Notes, Solutions and Corrections", https://dbourdeau.github.io/cyphersolver/index.html — 248 catalogue entries; 68 still unsolved or only partly broken (site labels: "not solved" / "ciphertext-only break" / "in progress").
 - **(C)** "Unsolved Historical Ciphers", https://cryptiana.web.fc2.com/code/unsolved.htm — a language-by-language survey by the same DECODE research circle (the author cites Bourdeau's solutions throughout); only entries still marked unsolved (or partly solved) are listed below.
 
-Neither page lists the Beale ciphers. The Zodiac Z340 is on page (C) but marked **solved** (2020, Oranchak/Rook/Olsen); Z13/Z32 get only a passing mention.
+Neither page lists the Beale ciphers. The Zodiac Z340 is on page (C) but marked **solved** (2020, Oranchak/Blake/Van Eycke); Z13/Z32 get only a passing mention.
 
 ## The famous ones (on these pages)
 
@@ -35,7 +35,7 @@ A cipher poem in rhyming couplets in a French syllabary, too short for any crib-
 Homophonic + nulls; keys rebuilt from ciphertext alone (96–100% reads on three letters: a Gonzaga marriage, the Malatesta/Urbino/pope, the archbishop of Patras offering his see to Venice). **Open:** Pandolfo Malatesta's own three runs (262 signs) — not a simple or homophonic substitution; no fitting key.
 
 ### Sienese Concistoro cipher letters, before 1429–1547 — (B) ciphertext-only break, partial
-Keys recovered ciphertext-only for several letters (87–97% reads: a lord's route into Sienese territory, Latin treaty articles with the Emperor, etc.). **Open:** Meister's 1421 letter, nos. 2, 26–28 (not photographed), two long systems, and six letters without a key.
+Keys recovered ciphertext-only for several letters (87–97% reads: a lord's route into Sienese territory, Latin treaty articles with the Emperor, etc.). **Open:** Meister's 1421 letter, nos. 2, 26–28 (not photographed), two long systems, and seven letters without a key (nos. 7, 9, 11, 15, 17, 19, 21).
 
 ### Queen María of Castile → Alfonso V, Valencia, 5 Aug 1435 — (B) not solved
 42 signs in three runs inside clear Catalan (day of Ponza; context suggests the truce of Majano). Period keys don't fit the alphabet; a 1429 nomenclator may match the dotted word-signs but it's a hypothesis, not a reading. Blocked on undigitised registers.
@@ -98,7 +98,7 @@ Figure-cipher letters to the envoy raising a German army (Lasry independently so
 Six cipher runs in clear French, 217 signs of 55 kinds (Greek letters, shapes, digits). Homophonic annealing scores no better than a shuffled control; not Lasry's 2022 fr.15564 key.
 
 ### Louis de Gonzague, duc de Nevers → La Vieuville, 30 Sept 1587 — (B) not solved
-A Nevers key (fr. 3995 no. 76) fits the code numbers but the cipher runs (33 signs) give no French. Blocked on a colour scan or the original (B/W microfilm ~30–40% legible).
+Tomokiyo's Nevers key no. 16 (fr. 3995 f. 32v) fits the code numbers but the cipher runs (33 signs) give no French. Blocked on a colour scan or the original (B/W microfilm ~30–40% legible).
 
 ### Charles III, duke of Lorraine → comte de Vaudémont, 18 Jun 1592 — (B) ciphertext-only break, read
 Independent re-solution (Tomokiyo read it 2025); reciprocal letter-pair substitution with syllable/word figures; 76.6% measured. **Open:** ~60 tokens in unkeyed special signs, ten single figures, three garbled runs.
@@ -209,6 +209,9 @@ Systematic code condenser over the standard telegraph code recovered by brute fo
 ~60 condenser telegrams read under seven Swatow-family keys (Sun ↔ Yamada, Chen Qimei, Qingdao, Manila, San Francisco, Dai Jitao 1917) plus the Hankow +111 digit code; incl. Chen Qimei's assassination as reported to Tokyo. **Open:** Sun's six-vowel 文密 code.
 
 ## From the cryptiana page (C), in page order
+
+### Bishop of Worcester's Cipher with Superscript Digits, 1526/1529 — (C) one letter still unsolved (page tags "Solved Except for One")
+Alphabetical letters with numeral superscripts standing for syllables (plus likely nulls/nomenclature); used by the Italian absentee Bishop of Worcester in Latin letters. Most letters were reconstructed after Aymeloglu's 18 Sept 2026 publication, but one anonymous letter in the same cipher still has many unidentified symbols — deemed unsolved. Applying the known values to it yields only short incoherent Latin fragments. The author calls it "an interesting puzzle" for Latinists.
 
 ### Serno Gilino's Cipher with Superscript Digits, 15 Sept 1527 — (C) unsolved
 An undeciphered Latin letter; most superscript numerals are two-digit numbers. Same family as the Bishop of Worcester's cipher (one of whose letters also remains unsolved).
@@ -342,8 +345,8 @@ Encoded letter from Admiral D'Estaing to Gérard, French minister in Philadelphi
 ### George Stepney to Earl of Manchester, Vienna, 23 Mar 1702 — (C) unsolved
 A short ciphertext in the Manchester Papers ("… 836 468 445 242 / 233 55 44 370 30 325 576 246 …"); other Manchester-Papers letters read with the key (THE=454) kept with them; Bourdeau deciphered two 1699 letters.
 
-### A Dictionary Code Used by Confederate Navy during the Civil War (1863) — (C) unsolved
-Encoded letter from Lt. Barney (CSS Harriet Lane) to Mallory, Secretary of State, 19 Mar 1863: "(177)-2-16- the (216)-1-15-(113)-3-85- …". The dictionary is said to be a Webster's — the right edition hasn't been found (contrast the Johnston–Lee 1862 dictionary code, broken once the dictionary was identified).
+### A Dictionary Code Used by Confederate Navy during the Civil War (1863) — (C) letter still unread (page tags entry Solved)
+Encoded letter from Lt. Barney (CSS Harriet Lane) to Mallory, Secretary of State, 19 Mar 1863: "(177)-2-16- the (216)-1-15-(113)-3-85- …". The dictionary was identified in August 2026 (Reddit user offgramercy; an 1850 printing of Webster's Primary School Dictionary), but the letter itself remains unsolved.
 
 ### A Diplomatic Telegram from British Consulate in Africa (1911) — (C) unsolved
 Encoded telegram from the British consulate in Lüderitz (then German South-West Africa).
