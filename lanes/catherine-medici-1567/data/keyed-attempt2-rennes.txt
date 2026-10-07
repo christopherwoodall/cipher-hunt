@@ -1,0 +1,25 @@
+# Keyed attempt: archival-key-colbert390.json certain row-1 mappings applied to Catherine 1567 cipher
+# certain single-plain: 18; certain-ambiguous: 2; uncertain: never applied
+# bracketed tokens unmapped; [g:c1/c2] = homophone shared across letters, not resolved
+
+L1: g [t] [t] [e] [J] [r] [#] [#] [p] g m [E] [q] [p] [o] [B] [A] n [E] [V] [f] [x] [B] a [n] [#] [F] [E] n a
+L2: l [T] [#] [L] m [B] b [q] [#] y [#] n [E] [x] [H] a [n] [x] [#] [p] [#] [f] [#] [r] n
+L3: [B] [q] l [o] [A] [p] [#] [W] [o] [#] [p] n [f] [e] [f] [C] e g [J] [f] [<] [m] [Y] [x] g [f] n a [Q]
+L4: m [#] [p] [o] [Y] [!] [e] [p] [q] e [+] [p] g n p [#] e [!] [p] [o] m [o] [#] [E] [x] [<] a [n] n
+L5: a [#] [c] [#] [o] l a n [<] m [q] [p] [x] [V] b [Y] [#] g t [B] a [n] l [E] [#] [B] [!] [x]
+L6: g [#] [p] [e] y [A] [K] a
+INLINE: [X]
+
+# --- overlap stats ---
+# cipher glyphs in key inventory (certain+uncertain): 16/40
+# token coverage of key inventory: 84/150 (56.0%)
+# top-glyph mapping status:
+#   p (11x): MISSING
+#   g (9x): certain -> n
+#   z (9x): certain -> a
+#   a (7x): certain -> g
+#   o (7x): MISSING
+#   E (6x): uncertain ['d']
+#   f (6x): uncertain ['a']
+
+# apply stats: 43 mapped, 107 unmapped (28.7% decoded)

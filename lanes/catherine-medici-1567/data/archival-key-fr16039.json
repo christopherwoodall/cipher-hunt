@@ -1,0 +1,262 @@
+{
+  "mappings": {
+    "7": {
+      "evidence": "column q, row 1 (crop villep_alpha3x.png)",
+      "plain": "q",
+      "status": "certain"
+    },
+    ":": {
+      "evidence": "column e, row 1 (colon glyph)",
+      "plain": "e",
+      "status": "certain"
+    },
+    "=": {
+      "evidence": "column o, row 1 (equals glyph)",
+      "plain": "o",
+      "status": "certain"
+    },
+    "d": {
+      "evidence": "column h, row 1",
+      "plain": "h",
+      "status": "certain"
+    },
+    "f": {
+      "evidence": "column u, row 1",
+      "plain": "u",
+      "status": "certain"
+    },
+    "j": {
+      "evidence": "column b, row 1",
+      "plain": "b",
+      "status": "certain"
+    },
+    "m": {
+      "candidates": [
+        "c",
+        "y"
+      ],
+      "evidence": "appears under BOTH column c and column y in row 1 (homophones); cannot disambiguate",
+      "plain": null,
+      "status": "certain-ambiguous"
+    },
+    "p": {
+      "evidence": "column s, row 1",
+      "plain": "s",
+      "status": "certain"
+    },
+    "w": {
+      "evidence": "column a, row 1",
+      "plain": "a",
+      "status": "certain"
+    },
+    "x": {
+      "evidence": "column n, row 1 (chi-like glyph)",
+      "plain": "n",
+      "status": "certain"
+    },
+    "z": {
+      "evidence": "column i, row 1",
+      "plain": "i",
+      "status": "certain"
+    },
+    "~": {
+      "evidence": "column l, row 1 (tilde/wavy glyph)",
+      "plain": "l",
+      "status": "certain"
+    },
+    "Ω": {
+      "evidence": "column x, row 1 (omega-like glyph)",
+      "plain": "x",
+      "status": "certain"
+    },
+    "ρ": {
+      "evidence": "column r, row 1 (rho/3-like glyph)",
+      "plain": "r",
+      "status": "certain"
+    }
+  },
+  "notes": "RECONSTRUCTED (not contemporary) key: Satoshi Tomokiyo's reconstruction of the Villeparisis cipher (1564), BnF fr.16039, published on cryptiana.web.fc2.com/code/henryiii.htm ('Villeparisis, Resident in Rome (1564)' section): 'BnF fr.16039 (Gallica) contains cipher letters from Rome to Charles IX and Queen Mother, Catherine de Medici. A letter (1564) (f.17) of Henri Cleutin, Seigneur de Villeparisis ... used the following cipher.' Row 1 = primary glyph per plaintext letter (headers a b c d e f g h i l m n o p q r s t u x y z). Homophone rows exist (row 2: zeta/i, 8/o, sp/r, omega/s, etc.) but were NOT systematically transcribed - column alignment too uncertain at this resolution; only row 1 used. The z-column row-1 glyph was off-crop; left unmapped. Word tables below the pink bars ('con dit? de(s) du ...', 'par parler pour que ...') were NOT transcribed. NOTE: this is a DIFFERENT key from the Colbert 390 Rennes key (compare: Villeparisis cipher 'd'->plain 'h' vs Rennes cipher 'd'->plain 'e'; Villeparisis 'p'->'s' vs Rennes 'p'->'b').",
+  "source": "Satoshi Tomokiyo, cryptiana.web.fc2.com/code/henryiii.htm, 'Villeparisis, Resident in Rome (1564)'. Key table image CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e) downloaded 2026-10-07 via curl from https://cryptiana.web.fc2.com/code/CharlesIX_Villeparisis.png. Transcribed 2026-10-07 from 3x crop villep_alpha3x.png by visual inspection. Page is Shift_JIS; decoded with iconv.",
+  "uncertain": {
+    "8": {
+      "candidates": [
+        "o"
+      ],
+      "evidence": "'8' glyph in homophone row under column o (crop villep_alpha3x.png, row 2); Catherine cipher has no '8' token - no target",
+      "plain": null,
+      "status": "uncertain-applicability"
+    },
+    "D": {
+      "candidates": [
+        "o"
+      ],
+      "evidence": "'D'-like glyph in homophone row under column o (row 3); shape vs Catherine 'D' (5x) unverified",
+      "plain": null,
+      "status": "uncertain"
+    }
+  },
+  "nomenclature": [
+    {
+      "word": "con",
+      "cipher": "pi-like",
+      "status": "certain",
+      "evidence": "pink row 1, word 1; crop /tmp/nom/vw1_00_con_7x.png; data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "no pi-like token in cipher inventory -> inapplicable"
+    },
+    {
+      "word": "dit?",
+      "cipher": "#",
+      "status": "certain",
+      "evidence": "pink row 1, word 2; crisp double-plus under 'dit?'; crop /tmp/nom/vw1_01_dit_7x.png; data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "cipher '#' occurs 19x -> APPLIED in attempt5; header carries Tomokiyo's question mark"
+    },
+    {
+      "word": "de(s)",
+      "cipher": "ce",
+      "status": "certain",
+      "evidence": "pink row 1, word 3; crop /tmp/nom/vw1_02_des_7x.png; data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "bigram; 'c' occurs 1x in cipher -> bigram pass"
+    },
+    {
+      "word": "du",
+      "cipher": "bowtie",
+      "status": "certain",
+      "evidence": "pink row 1, word 4; crop /tmp/nom/vw1_03_du_7x.png; data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "no bowtie token in cipher -> inapplicable"
+    },
+    {
+      "word": "l'empereur",
+      "cipher": "omega",
+      "status": "certain",
+      "evidence": "pink row 1, word 5; crop /tmp/nom/vw1_04_lempereur_7x.png; data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "cipher has no omega token -> inapplicable"
+    },
+    {
+      "word": "en",
+      "cipher": "infinity",
+      "status": "certain",
+      "evidence": "pink row 1, word 6; crop /tmp/nom/vw1_05_en_7x.png; data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "no infinity token in cipher -> inapplicable"
+    },
+    {
+      "word": "et",
+      "cipher": "H-like + fe-like (stacked)",
+      "status": "uncertain",
+      "evidence": "pink row 1, word 7; crop /tmp/nom/vw1_06_et_7x.png; data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "two stacked marks; one composite glyph vs two glyphs unresolvable at this resolution"
+    },
+    {
+      "word": "espagne",
+      "cipher": "10'",
+      "status": "certain",
+      "evidence": "pink row 1, word 8; crop /tmp/nom/vw1_07_espagne_7x.png; data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "digits 1,0 + apostrophe; cipher has no '1'/'0' tokens -> inapplicable"
+    },
+    {
+      "word": "faire",
+      "cipher": "x-with-descender-stroke",
+      "status": "certain",
+      "evidence": "pink row 1, word 9; crop /tmp/nom/vw1_08_faire_7x.png; data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "cipher 'x' (7x) is plain chi-like; glyph identity unverified -> not applied"
+    },
+    {
+      "word": "faict",
+      "cipher": "rho-like",
+      "status": "certain",
+      "evidence": "pink row 1, word 10; crop /tmp/nom/vw1_09_faict_7x.png; data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "no rho token in cipher -> inapplicable"
+    },
+    {
+      "word": "il(s)",
+      "cipher": "z-like looped",
+      "status": "certain",
+      "evidence": "pink row 1, word 11; crop /tmp/nom/vw1_10_ils_7x.png; data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "cipher 'z' (9x) is plain z; identity unverified -> not applied"
+    },
+    {
+      "word": "le(s)",
+      "cipher": "barred oval",
+      "status": "certain",
+      "evidence": "pink row 1, word 12; crop /tmp/nom/vw1_11_les_7x.png; data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "no such token in cipher -> inapplicable"
+    },
+    {
+      "word": "par",
+      "cipher": "m-like + circled mark (truncated)",
+      "status": "uncertain",
+      "evidence": "pink row 2, word 1; crop /tmp/nom/vw2_par_fix_6x.png; data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "lower circled mark truncated at crop/table edge; cannot resolve"
+    },
+    {
+      "word": "parler",
+      "cipher": "square",
+      "status": "certain",
+      "evidence": "pink row 2, word 2; crop /tmp/nom/villep_w2_low_5x.png; data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "no square token in cipher -> inapplicable"
+    },
+    {
+      "word": "pour",
+      "cipher": "rho-like",
+      "status": "certain",
+      "evidence": "pink row 2, word 3; crop /tmp/nom/vw2_par_fix_6x.png (right half); data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "no rho token in cipher -> inapplicable"
+    },
+    {
+      "word": "que",
+      "cipher": "x",
+      "status": "uncertain",
+      "evidence": "pink row 2, word 4; plain x under 'que'; crop /tmp/nom/vw2_que_fix_9x.png; data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "CONFLICT: alphabet row-1 cipher 'x' -> plain 'n' (status certain); same plain-x shape. Both cannot hold. 2026-10-07 manuscript check: plain chi-like x verified identical to alphabet row-1 'x'->'n' in Tomokiyo's own table (2x bands); manuscript f.17 letter shows x-like glyphs in the inline cipher but no key page exists to adjudicate. Status remains uncertain."
+    },
+    {
+      "word": "quelle",
+      "cipher": "sigma-like",
+      "status": "certain",
+      "evidence": "pink row 2, word 5; crop /tmp/nom/vw2_03_que_7x.png (shows sigma under 'quelle'); data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "no sigma token in cipher -> inapplicable"
+    },
+    {
+      "word": "qui",
+      "cipher": "tilde-circled",
+      "status": "certain",
+      "evidence": "pink row 2, word 6; crop /tmp/nom/vw2_04_quelle_7x.png (shows circled tilde under 'qui'); data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "no tilde token in cipher -> inapplicable"
+    },
+    {
+      "word": "si?",
+      "cipher": "mu-like",
+      "status": "certain",
+      "evidence": "pink row 2, word 7; crop /tmp/nom/vw2_04_quelle_7x.png (mu under 'si?'); data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "cipher 'm' (1x) vs mu identity unverified -> not applied; header carries Tomokiyo's question mark"
+    },
+    {
+      "word": "votre",
+      "cipher": "cross-with-loop",
+      "status": "certain",
+      "evidence": "pink row 2, word 8; crop /tmp/nom/vw2_05_qui_7x.png; data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "no such token in cipher -> inapplicable"
+    },
+    {
+      "word": "majeste",
+      "cipher": null,
+      "status": "null",
+      "evidence": "pink row 2, word 9; EMPTY cell verified at 7x; crop /tmp/nom/villep_w2_right_7x.png; data/cryptiana-key-images/CharlesIX_Villeparisis.png (476x228, sha256 27cf1314c8acc1fe27baad407dca312bdd3326e6ad507ef3e14eab7dcaf2437e); transcribed 2026-10-07 from 5x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "no glyph under 'majeste' in Tomokiyo's table; recorded as null (reconstruction gap), not as missing data 2026-10-07 manuscript check: cell verified EMPTY in Tomokiyo's image; no manuscript key table exists to fill it. Remains null (reconstruction gap)."
+    }
+  ],
+  "nomenclature_notes": "Pink word/nomenclator rows transcribed 2026-10-07 (this session). Word<->glyph pairing by column order left-to-right (12 words/12 glyphs row 1; 9 words/8 glyphs + 1 empty cell row 2; counts match). One conflict INSIDE the table: plain 'x' under 'que' (row 2) duplicates alphabet row-1 cipher 'x'->'n' (certain); marked uncertain, never applied. 'majeste' has no glyph in the reconstruction (verified empty cell) -> status null. Entries marked certain were applied only where the cipher token inventory contains the exact glyph (see code/apply_nomenclator.py).",
+  "manuscript_adjudication_2026-10-07": {
+    "date": "2026-10-07",
+    "method": "Gallica IIIF manuscript check (work order). ARK ark:/12148/btv1b9060947g from Tomokiyo's own Gallica href. 7 pages fetched to data/gallica-manuscripts/ with sha256 (see PROVENANCE.txt). Each page READ on image: the key specimen is the 1564 Villeparisis letter at f.17 (scan f18: 'Le sr de Villeparis a la Reine / Rome / Dernier may 1564', inline cipher glyphs; scans f18-f21 cover folios 17-20, signed 'Villeparisis'). No standalone key table in the volume on examined pages.",
+    "conflict_3_plain_x_que_vs_alphabet_n": {
+      "manuscript_shows": "fr.16039 f.17 letter (scan f18, fr16039_f18.jpg) contains inline cipher with x-like (chi) glyphs among the repertoire (7, #, x, =, :, ~ visible). No manuscript key page exists to pair the glyph to 'que' vs 'n'.",
+      "tomokiyo_table_shows": "Re-read at 2x bands (/tmp/v_a1.png alphabet, /tmp/v_r2.png pink row 2): the plain chi-like 'x' under 'que' (pink row 2, word 4) is visually identical to alphabet row-1 cipher 'x' -> plain 'n' (column n). The duplication is genuine in Tomokiyo's reconstruction.",
+      "verdict": "reconstruction stands as internally inconsistent; manuscript cannot adjudicate the pairing. Status remains uncertain (never applied)."
+    },
+    "empty_majeste_cell": {
+      "manuscript_shows": "No key table in the manuscript volume; nothing can fill the cell from a key page.",
+      "tomokiyo_table_shows": "Cell under 'majeste' (pink row 2, word 9) verified EMPTY in Tomokiyo's own image (/tmp/v_r2.png) - no glyph drawn.",
+      "verdict": "reconstruction gap stands. Status remains null."
+    }
+  }
+}

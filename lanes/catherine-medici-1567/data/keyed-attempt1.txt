@@ -1,0 +1,13 @@
+# Keyed attempt 1: Charles IX (Lasry 2022) key applied to Catherine 1567 cipher
+# key table: charlesIX-key-table.json; certain mappings applied: 7
+# bracketed tokens are unmapped; uncertain mappings NOT applied
+
+L1: [a] [t] [t] [e] [J] [r] I I [p] [a] [D] [E] [q] [p] [o] D [A] [g] [E] [V] [f] [x] D [z] [n] I [F] [E] [g] [z]
+L2: A [T] I [L] [D] D E [q] I R I [g] [E] [x] [H] [z] [n] [x] I [p] I [f] I [r] [g]
+L3: D [q] A [o] [A] [p] I [W] [o] I [p] [g] [f] [e] [f] [C] [d] [a] [J] [f] [<] [m] S [x] [a] [f] [g] [z] [Q]
+L4: [D] I [p] [o] S [!] [e] [p] [q] [d] O [p] [a] [g] [b] I [d] [!] [p] [o] [D] [o] I [E] [x] [<] [z] [n] [g]
+L5: [z] I [c] I [o] A [z] [g] [<] [D] [q] [p] [x] [V] E S I [a] [G] D [z] [n] A [E] I D [!] [x]
+L6: [a] I [p] [e] R [A] [K] [z]
+INLINE: [X]
+
+# stats: 37 tokens mapped, 113 tokens unmapped (24.7% coverage)

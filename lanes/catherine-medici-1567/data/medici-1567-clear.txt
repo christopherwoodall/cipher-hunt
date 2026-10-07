@@ -1,0 +1,48 @@
+# Cleartext transcription — Catherine de Medicis to Philibert du Croc, 27 April 1567
+# Source: Paul Destray (1924), "Un diplomate francais du XVIe siecle:
+#   Philibert du Croc", Gallica ark:/12148/bpt6k932364m, scan f57 = printed p.53.
+#   Image file: data/destray1924-p53_f57.jpg
+# Transcribed 2026-10-07 from the full-resolution page image (3328x4796 px).
+# Orthography, punctuation and line breaks normalized to running text; the
+# printed edition's own brackets and italics are preserved as [chiffres] etc.
+# Manuscript variants (from the photo plate, data/destray1924-plate_f61.jpg)
+# are noted where they differ from the printed reading.
+
+XXI
+
+1567, 27 avril. — Saint-Maur-les-Fossés.
+
+Lettre, en partie chiffrée, de Catherine de Médicis à du Croc : demande des
+détails sur la réunion récente du Parlement et instructions sur la conduite
+à tenir dans la suite.
+
+[Adresse au dos :] A Monsr du Croc, conseiller, maistre d'hostel ordinaire
+du Roy, monsieur mon filz, et son ambassadeur en Escosse.
+
+Monsr du Croc. Ceste lectre ne sera pas longue et seullement pour vous
+advertyr que j'ay eu de ma part grant plaisir d'entendre que les affaires
+de la Royne d'Escosse, ma belle fille, vont de myeulx en myeulx et les
+choses à passer avecque plus d'esperance de tranquillité, ce qu'il fault
+esperer de l'yssue de ce Parlement, puis que tant de gens de bien s'y
+doivont trouver, dont je seray bien ayse d'avoir des nouvelles et que vous
+faciez auprès d'elle tous les bons offices que vous pourrez au bien de ses
+affaires, qui ne nous sont moings chers et recommandez que les nostres
+propres. J'ay receu du sr [chiffres] lectres en datte [suivent cinq lignes
+en chiffres]. Pryant Dieu, monsr du Croc, vous avoir en sa saincte garde.
+Escript à Saint-Maur, le xxvije jour d'avril 1567.
+
+[Signé :] CATHERINE.
+
+[Et, plus bas :] DE L'AUBESPINE.
+
+(Dépêche originale, papier. Voir la reproduction pages 56-57).
+
+--- Manuscript variants observed on the plate (data/destray1924-plate_f61.jpg) ---
+- "Fay receu du srs [X] lettres en datte" (printed: "J'ay receu du sr
+  [chiffres] lectres en datte"). The inline cipher glyph [X] ("x3"-like, one
+  symbol) stands between "srs" and "lettres".
+- Closing reads "Pryant Dieu monsr du Croc pour avoir en sa s[aincte] gard:
+  Escript a St Maur ce [...] Avril 1567." (printed: "vous avoir en sa
+  saincte garde ... le xxvije jour d'avril 1567").
+- Plate caption: "XXI. — 1567, 27 Avril. Lettre, en partie chiffrée, de
+  Catherine de Médicis à du Croc."

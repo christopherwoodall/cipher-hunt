@@ -1,0 +1,445 @@
+{
+  "mappings": {
+    "10": {
+      "evidence": "Rennes alphabet, column i, row 1 (3x/4x crops rennes_alpha_L.png, rennes_row_A.png; 22-glyph row counted against 22 headers)",
+      "plain": "i",
+      "status": "certain"
+    },
+    "3": {
+      "candidates": [
+        "c",
+        "s"
+      ],
+      "evidence": "appears under BOTH column c and column s in row 1 (homophones); cannot disambiguate by position",
+      "plain": null,
+      "status": "certain-ambiguous"
+    },
+    "4": {
+      "candidates": [
+        "f",
+        "x"
+      ],
+      "evidence": "appears under BOTH column f and column x in row 1 (homophones); cannot disambiguate by position",
+      "plain": null,
+      "status": "certain-ambiguous"
+    },
+    "6": {
+      "evidence": "column l, row 1",
+      "plain": "l",
+      "status": "certain"
+    },
+    "7": {
+      "evidence": "column y, row 1",
+      "plain": "y",
+      "status": "certain"
+    },
+    "D": {
+      "evidence": "column m, row 1 (capital D glyph)",
+      "plain": "m",
+      "status": "certain"
+    },
+    "G": {
+      "evidence": "column t, row 1 (capital G glyph, circled)",
+      "plain": "t",
+      "status": "certain"
+    },
+    "a": {
+      "evidence": "column g, row 1",
+      "plain": "g",
+      "status": "certain"
+    },
+    "b": {
+      "evidence": "column p, row 1",
+      "plain": "p",
+      "status": "certain"
+    },
+    "d": {
+      "evidence": "column e, row 1",
+      "plain": "e",
+      "status": "certain"
+    },
+    "g": {
+      "evidence": "column n, row 1",
+      "plain": "n",
+      "status": "certain"
+    },
+    "h": {
+      "evidence": "column b, row 1",
+      "plain": "b",
+      "status": "certain"
+    },
+    "l": {
+      "evidence": "column o, row 1 (circled)",
+      "plain": "o",
+      "status": "certain"
+    },
+    "la": {
+      "evidence": "column d, row 1 (two-letter digraph glyph, circled with oval)",
+      "plain": "d",
+      "status": "certain"
+    },
+    "ss": {
+      "evidence": "column q, row 1 (double-long-s glyph)",
+      "plain": "q",
+      "status": "certain"
+    },
+    "z": {
+      "evidence": "column a, row 1",
+      "plain": "a",
+      "status": "certain"
+    },
+    "ζ": {
+      "evidence": "column r, row 1 (zeta glyph)",
+      "plain": "r",
+      "status": "certain"
+    },
+    "θ": {
+      "evidence": "column z, row 1 (theta glyph)",
+      "plain": "z",
+      "status": "certain"
+    },
+    "λ": {
+      "evidence": "column u, row 1 (lambda glyph)",
+      "plain": "u",
+      "status": "certain"
+    },
+    "π": {
+      "evidence": "column h, row 1 (pi glyph)",
+      "plain": "h",
+      "status": "certain"
+    }
+  },
+  "notes": "RECONSTRUCTED (not contemporary) key: Satoshi Tomokiyo's reconstruction of the Bishop of Rennes cipher (1561-1564), BnF Colbert 390, published on cryptiana.web.fc2.com/code/henryiii.htm ('Bishop of Rennes (1561-1564)' section). Tomokiyo states: 'The King and Queen Mother used the same ciphers as far as the specimens here are concerned' - the only one of his Charles IX/Catherine-era keys he explicitly ties to Catherine. Row 1 = primary glyph per plaintext letter (22 headers: a b c d e f g h i l m n o p q r s t u x y z; no j,k,v,w). Homophone rows exist under most letters (transcribed below as uncertain). CONFLICT with the lane's Lasry-derived table (data/charlesIX-key-table.json): Rennes row 1 maps cipher 'h'->plain 'b', while the interlinear alignment gave cipher 'h'->plain 'E' (certain). The two tables cannot both be the du Croc key for glyph 'h'. Word/nomenclator pink rows ('bien com con dit ...', 'mais nous ont par ...', \"'Empereur Roy de Boheme\") were NOT transcribed (out of scope for glyph-inventory comparison). Cipher glyph tokens used here are the lane's ASCII approximations from data/medici-1567-cipher.txt (e.g. '#' = double plus, 'B' = 2beta ligature, 'J' = long-s/integral, 'H' = phi-like, 'C' = epsilon-like).",
+  "nulls": {
+    "est": {
+      "candidates": [
+        "epsilon-like",
+        "g3"
+      ],
+      "evidence": "right-side null table, row 'est' (crop rennes_row_C.png); glyph shapes uncertain",
+      "status": "uncertain"
+    },
+    "plus": {
+      "candidates": [
+        "//",
+        "8"
+      ],
+      "evidence": "right-side null table, row 'plus'",
+      "status": "certain"
+    },
+    "pour": {
+      "candidates": [
+        "=",
+        "Gamma"
+      ],
+      "evidence": "right-side null table, row 'pour'",
+      "status": "certain"
+    },
+    "que": {
+      "candidates": [
+        "do-like",
+        "l6"
+      ],
+      "evidence": "right-side null table, row 'que'; 'do' reading uncertain",
+      "status": "uncertain"
+    },
+    "rix": {
+      "candidates": [
+        "G",
+        "z"
+      ],
+      "evidence": "right-side null table, row 'rix' (G circled)",
+      "status": "certain"
+    },
+    "vre": {
+      "candidates": [
+        "L"
+      ],
+      "evidence": "right-side null table, row 'vre' (script-L circled)",
+      "status": "certain"
+    }
+  },
+  "source": "Satoshi Tomokiyo, 'Ciphers during the reigns of Charles IX (1560-1574) and Henry III (1574-1589)', cryptiana.web.fc2.com/code/henryiii.htm, section 'Bishop of Rennes (1561-1564)': 'BnF Colbert 390 (Gallica) contains many letters partially in cipher' addressed to the Bishop of Rennes. Key table image CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841) downloaded 2026-10-07 via curl from https://cryptiana.web.fc2.com/code/CharlesIX_Rennes.png. Transcribed 2026-10-07 from 3x/4x crops (rennes_alpha_L/R.png, rennes_row_A/B/C.png) by visual inspection. Page is Shift_JIS; decoded with iconv.",
+  "uncertain": {
+    "#": {
+      "candidates": [
+        "q",
+        "r"
+      ],
+      "evidence": "double-plus glyph, circled, in homophone row under the q/r column area (crop rennes_row_B.png); exact column ambiguous; '#' is the cipher's #1 glyph (19x)",
+      "status": "uncertain"
+    },
+    "B_beta": {
+      "candidates": [
+        "h"
+      ],
+      "evidence": "circled beta glyph in homophone row under h/i columns with oval connector (crop rennes_alpha_L.png); Catherine 'B' (2beta ligature) may match",
+      "plain": null,
+      "status": "uncertain"
+    },
+    "C_epsilon": {
+      "candidates": [
+        "g"
+      ],
+      "evidence": "epsilon-like glyph in homophone row ~column g (crop rennes_alpha_L.png, row 5); column alignment shaky; Catherine 'C' is epsilon-like",
+      "plain": null,
+      "status": "uncertain"
+    },
+    "E": {
+      "candidates": [
+        "d"
+      ],
+      "evidence": "capital-E glyph in homophone row under column d (crop rennes_alpha_L.png, row 4)",
+      "plain": null,
+      "status": "uncertain"
+    },
+    "H_phi": {
+      "candidates": [
+        "f"
+      ],
+      "evidence": "phi glyph in homophone row under column f (crop rennes_alpha_L.png, row 2); Catherine 'H' is phi-like",
+      "plain": null,
+      "status": "uncertain"
+    },
+    "J": {
+      "candidates": [
+        "l",
+        "s",
+        "u"
+      ],
+      "evidence": "long-s/integral 'J' glyphs in homophone rows under l (circled), s, u (crops rennes_row_B/C.png); Catherine 'J' is long-s/integral",
+      "plain": null,
+      "status": "uncertain"
+    },
+    "T": {
+      "candidates": [
+        "x"
+      ],
+      "evidence": "capital-T glyph in homophone row under column x (crop rennes_row_C.png)",
+      "plain": null,
+      "status": "uncertain"
+    },
+    "f": {
+      "candidates": [
+        "a"
+      ],
+      "evidence": "plain 'f' glyph in homophone row under column a (crop rennes_alpha_L.png, row 3)",
+      "plain": null,
+      "status": "uncertain"
+    },
+    "x": {
+      "candidates": [
+        "b"
+      ],
+      "evidence": "x-like glyph in homophone row under column b (crop rennes_alpha_L.png, row 2)",
+      "plain": null,
+      "status": "uncertain"
+    }
+  },
+  "nomenclature": [
+    {
+      "word": "bien",
+      "cipher": "pl",
+      "status": "certain",
+      "evidence": "pink row 1, word 1; crop /tmp/nom/rw1_00_bien_7x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "two-glyph ligature (script p + l); cipher token inventory has no 'l' -> inapplicable as bigram"
+    },
+    {
+      "word": "com",
+      "cipher": "delta-circled",
+      "status": "uncertain",
+      "evidence": "pink row 1, word 2; crop /tmp/nom/rw1_01_com_7x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "CONFLICT: identical circled-delta glyph sits under 'ont' in pink row 2; both pairings cannot hold 2026-10-07 manuscript check: circled-delta verified at 5x to also sit under 'dit' (row 1) and 'ont' (row 2) in Tomokiyo's own table; no manuscript key page exists (Colbert 390 p.139 is ciphertext). Status remains uncertain."
+    },
+    {
+      "word": "con",
+      "cipher": "double-barred looped ascender",
+      "status": "certain",
+      "evidence": "pink row 1, word 3; crop /tmp/nom/rw1_02_con_7x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "no matching token in cipher inventory -> inapplicable"
+    },
+    {
+      "word": "dit",
+      "cipher": "delta-circled",
+      "status": "uncertain",
+      "evidence": "pink row 1, word 4; crop /tmp/nom/rw1_02_con_7x.png (right half); data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "CORRECTED 2026-10-07 (manuscript check): re-read at 5x (/tmp/dit_et_5x.png) shows a circled-delta (delta inside oval), NOT an integral-circled long-s. Prior transcription 'integral-circled (long-s)' status certain is SUPERSEDED (kept in prior_transcription_superseded). Same circled-delta shape sits under 'com' (row 1) and 'ont' (row 2): three-way reuse in Tomokiyo's reconstruction. Status certain->uncertain. Was never applied (prior note already excluded it), so attempt4 output is unaffected - verified by re-run.",
+      "prior_transcription_superseded": {
+        "word": "dit",
+        "cipher": "integral-circled (long-s)",
+        "status": "certain",
+        "evidence": "pink row 1, word 4; crop /tmp/nom/rw1_02_con_7x.png (right half); data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+        "note": "cipher 'J' (long-s/integral, 2x) is uncircled; glyph identity unverified -> not applied"
+      }
+    },
+    {
+      "word": "ent",
+      "cipher": "G-circled",
+      "status": "uncertain",
+      "evidence": "pink row 1, word 5; crop /tmp/nom/rw1_04_ent_7x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "CONFLICT: same circled-G shape is alphabet row-1 cipher 'G' -> plain 't' (status certain). Both cannot hold. 2026-10-07 manuscript check: circled-G under 'ent' verified at 5x identical to alphabet row-1 cipher 'G'->'t'; circled-G also in nulls 'rix' candidates (three-way collision). No manuscript key page. Status remains uncertain."
+    },
+    {
+      "word": "est",
+      "cipher": "#",
+      "status": "certain",
+      "evidence": "pink row 1, word 6; crisp double-plus directly under 'est'; crop /tmp/nom/rennes_w1_col04_8x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "shape matches the cipher '#' token (19x, uncircled); distinct from the CIRCLED double-plus in the alphabet homophone row (uncertain q/r). APPLIED in attempt4."
+    },
+    {
+      "word": "et",
+      "cipher": "struck-9-like over circled H/p-like",
+      "status": "uncertain",
+      "evidence": "pink row 1, word 7; crop /tmp/nom/rw1_06_et_7x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "may be one composite glyph or two stacked glyphs; unresolvable at this resolution"
+    },
+    {
+      "word": "faict",
+      "cipher": "+u",
+      "status": "certain",
+      "evidence": "pink row 1, word 8; crop /tmp/nom/rw1_06_et_7x.png (right half); data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "bigram; cipher token inventory has no 'u' -> inapplicable"
+    },
+    {
+      "word": "faire",
+      "cipher": "ca",
+      "status": "certain",
+      "evidence": "pink row 1, word 9; crop /tmp/nom/rw1_right_6x.png (left of 'la'); data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "bigram; 'c' occurs 1x in cipher -> bigram pass may match"
+    },
+    {
+      "word": "la",
+      "cipher": "m-pair with overline",
+      "status": "uncertain",
+      "evidence": "pink row 1, word 10; crop /tmp/nom/rw1_right_6x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "second letter reads m- or n-like; letter identity uncertain"
+    },
+    {
+      "word": "le",
+      "cipher": "up",
+      "status": "certain",
+      "evidence": "pink row 1, word 11; crop /tmp/nom/rw1_right_6x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "bigram; cipher has no 'u' token -> inapplicable"
+    },
+    {
+      "word": "lettre",
+      "cipher": ">c",
+      "status": "certain",
+      "evidence": "pink row 1, word 12; crop /tmp/nom/rw1_10_le_7x.png (shows '>c' under 'lettre'); data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "bigram; cipher has no '>' token -> inapplicable"
+    },
+    {
+      "word": "luy",
+      "cipher": "8",
+      "status": "certain",
+      "evidence": "pink row 1, word 13; crop /tmp/nom/rw1_right_6x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "cipher has no '8' token -> inapplicable"
+    },
+    {
+      "word": "mais",
+      "cipher": "A",
+      "status": "certain",
+      "evidence": "pink row 2, word 1; crop /tmp/nom/rw2_strip_4x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "cipher 'A' occurs 3x -> APPLIED in attempt4"
+    },
+    {
+      "word": "nous",
+      "cipher": ">",
+      "status": "certain",
+      "evidence": "pink row 2, word 2; crop /tmp/nom/rw2_strip_4x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "cipher has no '>' token -> inapplicable"
+    },
+    {
+      "word": "ont",
+      "cipher": "delta-circled",
+      "status": "uncertain",
+      "evidence": "pink row 2, word 3; crop /tmp/nom/rw2_strip_4x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "CONFLICT: identical circled-delta glyph sits under 'com' in pink row 1 2026-10-07 manuscript check: same circled-delta also under 'com' and 'dit' (row 1); no manuscript key page to adjudicate. Status remains uncertain."
+    },
+    {
+      "word": "par",
+      "cipher": "at",
+      "status": "certain",
+      "evidence": "pink row 2, word 4; crop /tmp/nom/rw2_strip_4x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "bigram; 'a' 7x and 't' 2x in cipher -> bigram pass"
+    },
+    {
+      "word": "plus",
+      "cipher": "double-backslash",
+      "status": "certain",
+      "evidence": "pink row 2, word 5; crop /tmp/nom/rw2_strip_4x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "no backslash token in cipher inventory -> inapplicable"
+    },
+    {
+      "word": "puis",
+      "cipher": "tl",
+      "status": "certain",
+      "evidence": "pink row 2, word 6; crop /tmp/nom/rw2_strip_4x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "bigram; cipher has no 'l' token -> inapplicable"
+    },
+    {
+      "word": "quant",
+      "cipher": "omega-with-macron",
+      "status": "certain",
+      "evidence": "pink row 2, word 7; crop /tmp/nom/rw2_strip_4x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "cipher has no omega token -> inapplicable"
+    },
+    {
+      "word": "que",
+      "cipher": "qq",
+      "status": "certain",
+      "evidence": "pink row 2, word 8; crop /tmp/nom/rw2_strip_4x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "bigram; 'q' 5x in cipher -> bigram pass"
+    },
+    {
+      "word": "qui",
+      "cipher": "v-with-macron",
+      "status": "certain",
+      "evidence": "pink row 2, word 9; crop /tmp/nom/rw2_strip_4x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "cipher 'V' (2x) is unmacronned; glyph identity unverified -> not applied"
+    },
+    {
+      "word": "si",
+      "cipher": "z-like looped",
+      "status": "certain",
+      "evidence": "pink row 2, word 10; crop /tmp/nom/rw2_strip_4x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "cipher 'z' (9x) is a plain z; identity unverified -> not applied"
+    },
+    {
+      "word": "vous",
+      "cipher": "<",
+      "status": "certain",
+      "evidence": "pink row 2, word 11; crop /tmp/nom/rw2_strip_4x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "cipher '<' occurs 3x -> APPLIED in attempt4"
+    },
+    {
+      "word": "votre?",
+      "cipher": "+",
+      "status": "certain",
+      "evidence": "pink row 2, word 12; crop /tmp/nom/rw2_strip_4x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "cipher '+' occurs 1x -> APPLIED in attempt4; header reads 'votre?' with Tomokiyo's own question mark"
+    },
+    {
+      "word": "l'Empereur Roy de Boheme",
+      "cipher": "e + v (two glyphs left-to-right)",
+      "status": "uncertain",
+      "evidence": "single pink cell, two glyphs below; crop /tmp/nom/rennes_w3_4x.png; data/cryptiana-key-images/CharlesIX_Rennes.png (517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841); transcribed 2026-10-07 from 4x-9x crops by visual inspection; crops in /tmp/nom/ (session scratch, not archived)",
+      "note": "cannot pair glyphs to sub-words; not applied"
+    }
+  ],
+  "nomenclature_notes": "Pink word/nomenclator rows transcribed 2026-10-07 (this session). Row order within each pink band is left-to-right as rendered in Tomokiyo's table; word<->glyph pairing by column order (13 words/13 glyph groups row 1; 12/12 row 2; counts match). Two homograph conflicts found INSIDE the table: circled-delta under both 'com' (row 1) and 'ont' (row 2); circled-G under 'ent' (row 1) duplicates alphabet row-1 cipher 'G'->'t'. Both marked uncertain, never applied. Entries marked certain were applied only where the cipher token inventory contains the exact glyph (see code/apply_nomenclator.py).",
+  "manuscript_adjudication_2026-10-07": {
+    "date": "2026-10-07",
+    "method": "Gallica IIIF manuscript check (work order). ARKs from Tomokiyo's own Gallica hrefs: ark:/12148/btv1b10033942k (Colbert 390), ark:/12148/btv1b9060947g (fr.16039). 13 pages fetched to data/gallica-manuscripts/ with sha256 (see PROVENANCE.txt). Each page READ on image: no standalone cipher key table exists on the examined pages (Colbert 390 p.139 = ciphertext slip; fr.16039 f.17 = letter with inline cipher). Tomokiyo's tables are reconstructions from the letters, so conflicts were re-checked against his key-table image (data/cryptiana-key-images/CharlesIX_Rennes.png, 517x322, sha256 4b23764c797fd7d47135b31b37d119ba0d972e44dda4747a7c3ce10879c6d841) at 2x-5x zoom plus the manuscript glyph repertoire.",
+    "conflict_1_circled_delta_com_dit_ont": {
+      "manuscript_shows": "Colbert 390 p.139 (scan f70, colbert390_f70_full.jpg) is a ciphertext slip, not a key table; delta-family glyphs occur in the ciphertext but no word->glyph pairing is given. No manuscript key page exists to assign the glyph to a word.",
+      "tomokiyo_table_shows": "Re-read at 5x (/tmp/dit_et_5x.png) and 2x band (/tmp/r1_band.png): the SAME circled-delta (delta inside oval) sits under THREE words: 'com' (row 1, word 2), 'dit' (row 1, word 4), and 'ont' (row 2, word 3). The earlier transcription of 'dit' as 'integral-circled (long-s)' certain was WRONG - corrected below. The three-way reuse is genuine in Tomokiyo's reconstruction (genuine cipher homograph OR column misalignment), not a lane transcription artifact.",
+      "verdict": "reconstruction stands as internally inconsistent; manuscript cannot adjudicate the pairing. 'dit' demoted certain->uncertain (supersedes prior entry). com/ont remain uncertain."
+    },
+    "conflict_2_circled_G_ent_vs_alphabet_t": {
+      "manuscript_shows": "G-family glyphs occur in the p.139 ciphertext; no manuscript key page exists.",
+      "tomokiyo_table_shows": "Re-read at 5x: circled-G under 'ent' (pink row 1, word 5) is the same hand-drawn circled-G as alphabet row-1 cipher 'G' -> plain 't' (column t, status certain). Additionally the nulls table row 'rix' lists circled-G among its candidates - a THREE-way collision inside the reconstruction.",
+      "verdict": "reconstruction stands as internally inconsistent; manuscript cannot adjudicate. Status remains uncertain (never applied)."
+    }
+  }
+}

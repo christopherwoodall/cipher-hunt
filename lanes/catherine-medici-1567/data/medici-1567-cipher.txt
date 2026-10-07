@@ -1,0 +1,65 @@
+# Cipher transcription — Catherine de Medicis to Philibert du Croc, 27 April 1567
+# Source: photographic plate of the original dispatch reproduced in
+#   Paul Destray (1924), "Un diplomate francais du XVIe siecle: Philibert du Croc",
+#   Gallica ark:/12148/bpt6k932364m, scan f61 (plate between printed pp.56-57).
+#   Image file: data/destray1924-plate_f61.jpg
+# Transcribed 2026-10-07 by visual inspection of the full-resolution plate
+# (3328x4796 px) with 2x-4x zoomed crops of every cipher line.
+# Conventions:
+#   - One cipher line per numbered row, tokens space-separated, left to right.
+#   - Dots "." and dashes "-"/"--" are written as observed; they are word/line
+#     separators, not cipher symbols.
+#   - Uncertain readings are flagged [?].
+# Glyph key (descriptive -> ASCII token used in NORMALIZED stream):
+#   lowercase letters as-is: a b c d e f g h m n o p q r t v x z
+#   uppercase letters as-is: A D E T V
+#   long-s / integral sign      -> J
+#   f with horizontal strike-bar -> F
+#   "2beta" ligature             -> B
+#   w with overline             -> W
+#   epsilon-like                -> C
+#   phi-like (circle+stroke)     -> H
+#   xi-like                     -> Y
+#   sigma-like final flourish   -> Q
+#   circled alpha               -> K
+#   d with long descender       -> L
+#   D with underscore           -> G
+#   not-equals-like sign        -> !
+#   single plus                 -> +
+#   double plus                 -> #
+#   inline nomenclator glyph after "du srs" (x with curly tail) -> X
+# Notes:
+#   - The "E" (epsilon) glyph sometimes carries a small ring above; treated as
+#     the same glyph, variant noted.
+#   - "++" sometimes struck through horizontally; treated as same glyph.
+#   - Line 1 begins with ".. --" then "atte". The leading marks are the scribe's
+#     line marker; "atte" is cipher text as written [?first word boundary].
+#   - Line 6 is a short 8-token row; the printed edition says "cinq lignes en
+#     chiffres" (five lines in figures), so this may be the tail of line 5 or a
+#     6th partial line. Transcribed as its own row.
+
+## VERBATIM (descriptive)
+
+INLINE (in cleartext line, after "du srs"): X  [single glyph, "x3"-like]
+
+L1: .. -- a t t e J . r # # p a D . E q p o B . A g E V f x B z n # F E g z
+L2: -- 6 T # L D B . h q # 7 # g E . x H z n x # p # . f # r g
+L3: B q 6 o A . p # W o # p . g . f e f -- C d a . J f < m . Y x a f g . z Q
+L4: D # . p o Y ! e p . q d + p a g . b # d ! p o D -- o . o # E x < z n g
+L5: z # c # o 6 z g < D q p x . V h Y # a G B z n 6 E # B ! x
+L6: a # p e 7 A K z
+
+## NORMALIZED (ASCII, one token per glyph, separators stripped)
+
+L1: a t t e J r # # p a D E q p o B A g E V f x B z n # F E g z
+L2: 6 T # L D B h q # 7 # g E x H z n x # p # f # r g
+L3: B q 6 o A p # W o # p g f e f C d a J f < m Y x a f g z Q
+L4: D # p o Y ! e p q d + p a g b # d ! p o D o # E x < z n g
+L5: z # c # o 6 z g < D q p x V h Y # a G B z n 6 E # B ! x
+L6: a # p e 7 A K z
+INLINE: X
+
+## STATS
+# Computed by code/anneal.py --stats (see NOTES.md):
+#   total cipher tokens (L1-L6): 150
+#   distinct glyph tokens: 39 (excl. inline X: 39 incl. X = 40)

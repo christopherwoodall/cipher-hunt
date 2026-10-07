@@ -1,0 +1,59 @@
+Gallica manuscript check, 2026-10-07 (lane catherine-medici-1567).
+Purpose: adjudicate Tomokiyo reconstruction conflicts against the manuscript key pages.
+
+ARK SOURCES (no ARKs invented; both taken verbatim from the href attributes of
+Satoshi Tomokiyo's article page, fetched 2026-10-07 ~05:25 UTC via curl from
+https://cryptiana.web.fc2.com/code/henryiii.htm, Shift_JIS decoded with iconv,
+saved /tmp/henryiii_utf8.html 103541 bytes):
+- ark:/12148/btv1b10033942k : href attached to "BnF Colbert 390 (Gallica)
+  contains many letters partially in cipher addressed to Bernardin Bochetel,
+  Bishop of Rennes", Bishop of Rennes (1561-1564) section.
+- ark:/12148/btv1b9060947g : href attached to "BnF fr.16039 (Gallica) contains
+  cipher letters from Rome to Charles IX and Queen Mother, Catherine de Medici",
+  Villeparisis, Resident in Rome (1564) section (also reused for Bishop of Mans 1569).
+Both ARKs recovered exactly the way the lane recovered the Destray ARK
+(ark:/12148/bpt6k932364m) from cryptiana's unsolved.htm line 254.
+
+IIIF endpoint: https://gallica.bnf.fr/iiif/ark:/12148/<ark>/f<N>/full/<size>/0/native.jpg
+All files fetched 2026-10-07 ~05:19-05:40 UTC via curl (Mozilla/5.0 UA).
+Manifests: btv1b10033942k = 184 canvases; btv1b9060947g = 535 canvases.
+
+FILES (name | scan | resolution | bytes | sha256):
+colbert390_f1.jpg | f1 | 500px | 22579 | c903f343c71927875f7d88f86f072747a210deb8fd5307850b406ff2157ab025
+  Binding label "COLB. 390 V" read on image -> volume identity CONFIRMED.
+colbert390_f70.jpg | f70 | 1400px | 175451 | 4955e5d4c3e8353ee3272f7e59c59f1677689ae89b443135781f34c62b9c1ff9
+  Right page numbered "143" -> p.139 per Tomokiyo ("undeciphered note on p.139,
+  p.72 of pdf"). Shows the cipher slip (dense ciphertext) + note below.
+colbert390_f70_full.jpg | f70 | full 6320x4736 | 1661817 | 1797fe67eec8e9040451b87aef9bc62905e7c5b9dd238d367eb19ccb35140679
+  Full-res version of f70 for glyph inspection.
+colbert390_f71.jpg | f71 | 1400px | 113826 | aebacecdd5b907d921c41a5c00418e869332728fdf7b6310a5f82a09fa2d83a2
+colbert390_f72.jpg | f72 | 1400px | 161616 | 53cffc49b13138bd1a2b261840c088bf28d105728c4580cb192c7da7c7b1ec5c
+  Right page numbered "143": Catherine letter, clear, 1561, signed Catherine /
+  countersigned Bourdin. (Scan/page offset check: p.143 on scan f72.)
+colbert390_f73.jpg | f73 | 1400px | 78248 | 4c8530742b24844e2f33a35b7e63d285846c771b59685ba728d6b751482a40c9
+colbert390_f74.jpg | f74 | 1400px | 135080 | 5aeff4d30759fbc0e2203bb31cb85a1cc61da47c8aa5185983b32d9fe70d8ba8
+fr16039_f1.jpg | f1 | 500px | 17967 | 2c3cabae54a35b896e9149b56e678fedfd637b91ed3d44abc624de680d9d9dda
+  Binding label "16039" + note "Lettres de Rome (Cleutin)..." read on image ->
+  volume identity CONFIRMED.
+fr16039_f17.jpg .. fr16039_f21.jpg | f17-f21 | 1400px | see sha256 list
+  237305efa3db362835ceda3284bd7b80f37284ca34f8546a8c8f91a6b5aa7b56 (f17)
+  9fa4eb6a4a79ab938fb5861342d43b6113d74d877ff0dba900fd129e9223dbe2 (f18)
+  bfd69df9f6e631363fc3d249f30bc8f54a18e5bcadb12f785ebdf8dfa7e0fcd1 (f19)
+  a658b2cd9ba639478a10f64af8c9f42d33b1239cd6fe423a7fb0e12f4809251b (f20)
+  b55a44576f797424505d66a16763f6487f3e7249cbe7ff9f072e3ddacf780bdf (f21)
+  f18 right page numbered "17": "Le sr de Villeparis a la Reine / Rome /
+  Dernier may 1564" with INLINE cipher glyphs (7, #, x, =, :, ~, chi-x...).
+  f19 left = cipher copy struck through; f19-f20 cleartext; f21 signed
+  "Villeparisis / De Rome ce dernier jour de may 1564". This is Tomokiyo's
+  key specimen letter (f.17, 1564).
+btv1b10033942k.manifest.json | 191807 | b680d30e97e2798984d29f80c8aee025ccc6a58cce0a2f6bbffdc58e7486d247
+btv1b9060947g.manifest.json | 552060 | 27043ef2483b16ed094faefc3b4e4d8a7f7e1eb787c450d0e707d9e4cb08f63f
+
+READING VERDICT: neither volume shows a standalone cipher KEY TABLE on the
+examined pages. Colbert 390 p.139 = ciphertext slip (not a key); fr.16039
+f.17 = letter with inline cipher (not a key). Tomokiyo's tables are
+reconstructions built from these letters, so the internal conflicts can only
+be checked against his own table image + the manuscript glyph repertoire,
+not against a manuscript key page.
+Gallica SRU/search retry: NOT USED (ARKs recovered from Tomokiyo's own Gallica
+hrefs, the stronger route; the 1-attempt budget remains unspent).

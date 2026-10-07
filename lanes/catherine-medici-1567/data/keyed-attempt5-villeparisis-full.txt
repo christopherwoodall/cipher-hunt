@@ -1,0 +1,49 @@
+# Keyed attempt (full): archival-key-fr16039.json alphabet + nomenclature applied to Catherine 1567 cipher
+# alphabet certain single-plain: 13; certain-ambiguous: 1
+# nomenclature certain singletons: 1; certain bigrams: 1; certain-but-inapplicable: 15; non-certain/null: 4
+# pass order: (1) nomenclature bigrams {word} on raw stream, (2) alphabet letters, (3) nomenclature singletons {word}
+# [t] = unmapped; [t:c1/c2] = homophone, not resolved
+
+L1: [a] [t] [t] [e] [J] [r] {dit?} {dit?} s [a] [D] [E] [q] s [o] [B] [A] [g] [E] [V] u n [B] i [n] {dit?} [F] [E] [g] i
+L2: [6] [T] {dit?} [L] [D] [B] [h] [q] {dit?} q {dit?} [g] [E] n [H] i [n] n {dit?} s {dit?} u {dit?} [r] [g]
+L3: [B] [q] [6] [o] [A] s {dit?} [W] [o] {dit?} s [g] u [e] u [C] h [a] [J] u [<] [m:c/y] [Y] n [a] u [g] i [Q]
+L4: [D] {dit?} s [o] [Y] [!] [e] s [q] h [+] s [a] [g] [b] {dit?} h [!] s [o] [D] [o] {dit?} [E] n [<] i [n] [g]
+L5: i {dit?} [c] {dit?} [o] [6] i [g] [<] [D] [q] s n [V] [h] [Y] {dit?} [a] [G] [B] i [n] [6] [E] {dit?} [B] [!] n
+L6: [a] {dit?} s [e] q [A] [K] i
+INLINE: [X]
+
+# --- bigram nomenclature hits ---
+#   (none)
+
+# --- nomenclature coverage detail ---
+#   {dit?}: cipher token '#' occurs 19x -> APPLIED
+#   certain but glyph absent from cipher inventory (not applied):
+#     'con' cipher='pi-like'
+#     'du' cipher='bowtie'
+#     "l'empereur" cipher='omega'
+#     'en' cipher='infinity'
+#     'espagne' cipher="10'"
+#     'faire' cipher='x-with-descender-stroke'
+#     'faict' cipher='rho-like'
+#     'il(s)' cipher='z-like looped'
+#     'le(s)' cipher='barred oval'
+#     'parler' cipher='square'
+#     'pour' cipher='rho-like'
+#     'quelle' cipher='sigma-like'
+#     'qui' cipher='tilde-circled'
+#     'si?' cipher='mu-like'
+#     'votre' cipher='cross-with-loop'
+
+# --- overlap stats ---
+# cipher glyphs in key inventory (certain+uncertain+nom): 9/39
+# token coverage of key inventory: 63/150 (42.0%)
+# top-glyph mapping status:
+#   # (19x): nomenclature certain -> {dit?}
+#   p (11x): alphabet certain -> s
+#   g (9x): MISSING
+#   z (9x): alphabet certain -> i
+#   a (7x): MISSING
+#   o (7x): MISSING
+#   E (6x): MISSING
+#   f (6x): alphabet certain -> u
+# apply stats: 57 mapped, 93 unmapped (38.0% decoded)

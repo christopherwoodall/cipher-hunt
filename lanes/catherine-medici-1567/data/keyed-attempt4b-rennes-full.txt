@@ -1,0 +1,44 @@
+# Keyed attempt (full): archival-key-colbert390.json alphabet + nomenclature applied to Catherine 1567 cipher
+# alphabet certain single-plain: 18; certain-ambiguous: 2
+# nomenclature certain singletons: 6; certain bigrams: 8; certain-but-inapplicable: 5; non-certain/null: 7
+# pass order: (1) nomenclature bigrams {word} on raw stream, (2) alphabet letters, (3) nomenclature singletons {word}
+# [t] = unmapped; [t:c1/c2] = homophone, not resolved
+
+L1: {par} [t] [e] [J] [r] {est} {est} [p] g m [E] [q] [p] [o] [B] {mais} n [E] [V] [f] [x] [B] a [n] {est} [F] [E] n a
+L2: l [T] {est} [L] m [B] b [q] {est} y {est} n [E] [x] [H] a [n] [x] {est} [p] {est} [f] {est} [r] n
+L3: [B] [q] l [o] {mais} [p] {est} [W] [o] {est} [p] n [f] [e] [f] [C] e g [J] [f] {vous} [m] [Y] [x] g [f] n a [Q]
+L4: m {est} [p] [o] [Y] [!] [e] [p] [q] e {votre?} [p] g n p {est} e [!] [p] [o] m [o] {est} [E] [x] {vous} a [n] n
+L5: a {est} [c] {est} [o] l a n {vous} m [q] [p] [x] [V] b [Y] {est} g t [B] a [n] l [E] {est} [B] [!] [x]
+L6: g {est} [p] [e] y {mais} [K] a
+INLINE: [X]
+
+# --- bigram nomenclature hits ---
+#   {par}: 1 occurrence(s)
+
+# --- nomenclature coverage detail ---
+#   {est}: cipher token '#' occurs 19x -> APPLIED
+#   {votre?}: cipher token '+' occurs 1x -> APPLIED
+#   {luy}: cipher token '8' occurs 0x -> no target in cipher
+#   {vous}: cipher token '<' occurs 3x -> APPLIED
+#   {nous}: cipher token '>' occurs 0x -> no target in cipher
+#   {mais}: cipher token 'A' occurs 3x -> APPLIED
+#   certain but glyph absent from cipher inventory (not applied):
+#     'con' cipher='double-barred looped ascender'
+#     'plus' cipher='double-backslash'
+#     'quant' cipher='omega-with-macron'
+#     'qui' cipher='v-with-macron'
+#     'si' cipher='z-like looped'
+
+# --- overlap stats ---
+# cipher glyphs in key inventory (certain+uncertain+nom): 19/39
+# token coverage of key inventory: 91/150 (60.7%)
+# top-glyph mapping status:
+#   # (19x): nomenclature certain -> {est}
+#   p (11x): MISSING
+#   g (9x): alphabet certain -> n
+#   z (9x): alphabet certain -> a
+#   a (7x): alphabet certain -> g
+#   o (7x): MISSING
+#   E (6x): uncertain ['d']
+#   f (6x): uncertain ['a']
+# apply stats: 70 mapped, 80 unmapped (46.7% decoded)
