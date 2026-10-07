@@ -142,6 +142,15 @@
 - **next:** Round-6 work orders (crowd round 5 COMPLETE, curation 2026-10-07).
   Canonical parse: repaired 1,847-pair (`code/side-keyhunt/repaired_offsets.json`);
   positions per `code/crowd4/REINDEX.md` (repaired indexing; old n≥773 → n+1).
+  Status: **conditionally canonical** (bedrock 2026-10-07) — valid given the
+  gloss-over-a5_03 premise, which is unverifiable without manuscript images.
+  Bedrock audit 2026-10-07 (`code/bedrock/BEDROCK.md`): two independent
+  verifiers agree 100% — parse, transcription (3,764 digits), crib positions,
+  all windows/bigrams/trigrams, rotation chi²=366.3 all PASS. Six stale counts
+  corrected (n64 46→47, n00 54→55, n11 44→45, n82 38→39, n34 10→11, n29 47→45);
+  13 downstream cites traced, ZERO verdict flips. F11 cycle direction is
+  labeling-relative (do not cite as intrinsic); lag-3 decimals softened
+  (z≈4.6–4.77, claimed 5.6 unconfirmed); lag-2 z=−3.18 unchecked.
   Red-team baseline: `code/crowd5/redteam/verify_baseline.py` (31/31 PASS —
   the adjudication instrument; extend, don't rebuild).
   1. **62="on" — the on-vs-il discrimination, non-ear.** The red team named the

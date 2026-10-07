@@ -21,9 +21,11 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
     per-line offsets (repaired canonical parse, F32 — supersedes the 1,846-pair upstream-EM parse;
     `code/side-keyhunt/repaired_offsets.json` is now canonical), 96 distinct groups. **Discrepancy:** the web page claims 3,969 digits; the sha256-verified
     transcription files contain 3,764. Recorded as observed; not "corrected".
-  - All seven crib groups present: 11=la ×44 (freq rank 6), 70=pre ×15 (rank 56), 82=m ×38 (rank 8),
-    34=i ×10 (rank 70), 29=er ×47 (rank 2), 40=e ×21 (rank 36), 46=que ×29 (rank 19).
-    29=er at rank 2 is consistent with 'er' as a top French syllable. Group-stream IC = 0.0142
+  - All seven crib groups present: 11=la ×45 (freq rank 6), 70=pre ×15 (rank 56), 82=m ×39 (rank 8),
+    34=i ×11 (rank 70), 29=er ×45 (rank 4), 40=e ×21 (rank 36), 46=que ×29 (rank 19).
+    29=er at rank 4 is consistent with 'er' as a top French syllable. [bedrock 2026-10-07:
+    counts corrected from pre-repair staleness — n11 44→45, n82 38→39, n34 10→11,
+    n29 47→45, n64 46→47, n00 54→55; rank(29) 2→4. Zero downstream verdict flips.] Group-stream IC = 0.0142
     (flat over 96 groups ≈ 0.0104) — mild structure, as expected for a syllabary.
   - **Repeat claim corrected:** pair-aligned `77 78 94 82 06` occurs **2×**, not 5×;
     `06 77 78 18 71 10 01` occurs **0×**, not 3×. Raw digit-substring counts are 4 and 1 —

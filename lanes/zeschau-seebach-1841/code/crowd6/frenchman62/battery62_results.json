@@ -1,0 +1,288 @@
+{
+ "n_pairs": 1847,
+ "baselines": {
+  "n62": 35,
+  "rank62": 13,
+  "f62_94": [
+   9,
+   35
+  ],
+  "f46_62": [
+   0,
+   29
+  ],
+  "n24": 52,
+  "n52": 27,
+  "n59": 27,
+  "n64": 47,
+  "n87": 32,
+  "n96": 21,
+  "n94": 37
+ },
+ "fol62": {
+  "6": 2,
+  "16": 4,
+  "18": 1,
+  "21": 1,
+  "38": 1,
+  "46": 1,
+  "48": 6,
+  "61": 2,
+  "91": 1,
+  "93": 1,
+  "94": 9,
+  "96": 1,
+  "98": 5
+ },
+ "pre62": {
+  "2": 1,
+  "3": 2,
+  "4": 1,
+  "6": 1,
+  "8": 2,
+  "10": 1,
+  "14": 1,
+  "20": 4,
+  "21": 5,
+  "30": 1,
+  "34": 1,
+  "36": 1,
+  "40": 1,
+  "41": 1,
+  "51": 1,
+  "74": 3,
+  "77": 1,
+  "78": 2,
+  "92": 2,
+  "93": 2,
+  "98": 1
+ },
+ "era": {
+  "on": {
+   "P": 0.007311323955896791,
+   "Pne_fol": 0.15841584158415842,
+   "Pqu_pre": 0.24752475247524752,
+   "Pque_fol": 0.0049504950495049506,
+   "Pl_pre": 0.06188118811881188,
+   "Pssi_pre": 0.008044554455445545,
+   "Pme_fol": 0.0049504950495049506,
+   "Pqui_par": null
+  },
+  "il": {
+   "P": 0.012645513896492284,
+   "Pne_fol": 0.18962432915921287,
+   "Pqu_pre": 0.18747763864042935,
+   "Pque_fol": 0.0017889087656529517,
+   "Pl_pre": 0.0,
+   "Pssi_pre": 0.03685152057245081,
+   "Pme_fol": 0.00966010733452594,
+   "Pqui_par": null
+  },
+  "qui": {
+   "P": 0.010677428549453234,
+   "Pne_fol": 0.07966101694915254,
+   "Pqu_pre": 0.0,
+   "Pque_fol": 0.0,
+   "Pl_pre": 0.0,
+   "Pssi_pre": 0.0,
+   "Pme_fol": 0.001271186440677966,
+   "Pqui_par": null
+  },
+  "P_qui_given_par": 0.0028957528957528956,
+  "tokens": 221027
+ },
+ "leg1_calibration": {
+  "f46_34_i": 0,
+  "f46_40_e": 0,
+  "f46_29_er": 2,
+  "f46_11_la": 1,
+  "f46_70_pre": 1,
+  "f46_82_m": 0,
+  "f94_34_i": 0,
+  "f94_40_e": 0,
+  "f94_29_er": 1,
+  "n46_nonfinal": 29,
+  "note": "46 writes /k/ before vowel-initial 29=er x2 (qu-er), never before /i/(34),/e/(40); 94 same shape (0,0,1).",
+  "Hsplit_adverse_on": {
+   "E": 7.178217821782178,
+   "P0": 0.00026198373924151113,
+   "Pqu_on": 0.24752475247524752
+  },
+  "Hsplit_adverse_il": {
+   "E": 5.436851520572451,
+   "P0": 0.002427863901690115,
+   "Pqu_il": 0.18747763864042935
+  },
+  "verdict": "VOID both N28 merger-corroboration and N35 il-kill as licensed inferences; under best-calibrated habit (split /k/+V, 4 instances: 46-29 x2 GT + 87-01 x2 prov-cond) 46->62=0 is ADVERSE to \"on\" (p~3e-4, caveated) and INERT re \"il\" (/k/+/i/ split uncalibrated: 46->34=0)."
+ },
+ "leg2_threeway": {
+  "a_ne_rate_9_35_cond_94ne_prov": {
+   "on": {
+    "p": 0.15841584158415842,
+    "logL": -21.066986920537822,
+    "p_ge9": 0.09084015158119794
+   },
+   "il": {
+    "p": 0.18962432915921287,
+    "logL": -20.431084450860983,
+    "p_ge9": 0.2061193771966936
+   },
+   "qui": {
+    "p": 0.07966101694915254,
+    "logL": -24.92811805781893,
+    "p_ge9": 0.0013469495203112883
+   }
+  },
+  "b_que_fol_1_35_GT46": {
+   "on": {
+    "p_raw": 0.0049504950495049506,
+    "p_used": 0.0049504950495049506,
+    "logL": -5.477002535033591
+   },
+   "il": {
+    "p_raw": 0.0017889087656529517,
+    "p_used": 0.0017889087656529517,
+    "logL": -6.387026839463899
+   },
+   "qui": {
+    "p_raw": 0.0,
+    "p_used": 0.0004233700254022015,
+    "logL": -7.781661625598326
+   }
+  },
+  "d_par_pre_0_21_prov96": {
+   "on": {
+    "p": 0.0,
+    "logL": 0.0
+   },
+   "il": {
+    "p": 0.0,
+    "logL": 0.0
+   },
+   "qui": {
+    "p": 0.0028957528957528956,
+    "logL": -0.060899027695587304
+   }
+  },
+  "joint_a_b_d": {
+   "on": -26.543989455571413,
+   "il": -26.818111290324882,
+   "qui": -32.77067871111285
+  },
+  "delta_on_il": 0.2741218347534691,
+  "delta_on_qui": 6.226689255541437,
+  "c_unigram_hedged": {
+   "on": {
+    "ratio_group": 2.5918216990892375,
+    "logL_group": -185.43836872307992
+   },
+   "il": {
+    "ratio_group": 1.4985273222641173,
+    "logL_group": -176.02562840252952
+   },
+   "qui": {
+    "ratio_group": 1.7747389261560205,
+    "logL_group": -178.33834614457152
+   }
+  },
+  "verdict": "on\u2248il TIE (\u0394=+0.27 nats for on on clean pieces); qui weakly disfavored (-6.2 nats, driven by 62->46=1 and ne-rate). Unigram favors il (+9.4 nats) but granularity-hedged."
+ },
+ "leg3_59": {
+  "n59": 27,
+  "fol59": {
+   "19": 1,
+   "24": 1,
+   "30": 2,
+   "32": 3,
+   "34": 1,
+   "35": 3,
+   "36": 2,
+   "37": 6,
+   "38": 1,
+   "39": 2,
+   "42": 2,
+   "45": 1,
+   "46": 2
+  },
+  "pre59": {
+   "6": 2,
+   "11": 1,
+   "14": 1,
+   "15": 1,
+   "16": 1,
+   "44": 2,
+   "48": 1,
+   "61": 2,
+   "64": 3,
+   "68": 1,
+   "76": 1,
+   "83": 1,
+   "84": 4,
+   "86": 1,
+   "87": 1,
+   "93": 1,
+   "94": 3
+  },
+  "f59_46": 2,
+  "f94_59": 3,
+  "f59_29": 0,
+  "f59_52": 0,
+  "f11_59": 1,
+  "f87_59": 1,
+  "f64_59": 3,
+  "subjects_via_94": [
+   42,
+   62,
+   86
+  ],
+  "xframes_62_94_X": {
+   "93": 1,
+   "64": 1,
+   "59": 1,
+   "26": 1,
+   "70": 1,
+   "79": 2,
+   "88": 1,
+   "24": 1
+  },
+  "f62_X_46_trigrams": 0,
+  "verdict": "59=verb established structurally (11=la GT -> 59: object-pronoun+verb). Subject-selection does not discriminate on/il with available instruments; impersonal-only not established (needs own >=2-check battery). NULL on on-vs-il."
+ },
+ "unbridgeability": {
+  "followers": {
+   "mappable": {
+    "94=[ne]prov-strong n=9": "both in band (1.62x/1.36x); RECYCLED (N35)",
+    "96=[par]prov n=1": "P(par|on)=P(par|il)=0 both; non-discriminating",
+    "21=[me]LEAD n=1": "P(me|on)=0.0050 P(me|il)=0.0097; both small; non-discriminating",
+    "46=que GT n=1": "P(que|on)=0.0050 P(que|il)=0.0018; weak, n=1"
+   },
+   "discriminative_but_unidentified": {
+    "impersonal verbs (faut/y-a/semble/suffit/convient)": "il-only followers; no identified cell",
+    "48 x6, 98 x5, 16 x4, 61 x2, 6 x2, 91/18/38/93 x1": "unidentified; cannot map to era"
+   }
+  },
+  "predecessors": {
+   "mappable": {
+    "40=e GT n=1, 34=i GT n=1": "bare letters; unmappable in word space",
+    "77=[le]prov n=1": "\"le on\"/\"le il\" both 0; non-discriminating",
+    "78=proclitic n=2": "\"l'\"-word killed (58x N20); euphonic l' unidentified",
+    "21=[me]LEAD n=5": "\"me on\"/\"me il\" both ~0; shared puzzle, non-discriminating"
+   },
+   "discriminative_but_unidentified": {
+    "\"l'\" (l'on, P=0.0619 on-only)": "l'-cell unidentified",
+    "\"s\"/\"si\" (s'il/si-on asymmetry, P=0.0369/0.0080)": "cells unidentified",
+    "20 x4, 74 x3, 93/3/8/92 x2, singles": "unidentified; cannot map to era"
+   }
+  },
+  "conclusion": "No follower/predecessor cell is BOTH mappable AND discriminative with n>>2. The red-team-named profile route is structurally unachievable with the current value inventory."
+ },
+ "overlap_62_64": {
+  "jaccard_fol": 0.1388888888888889,
+  "jaccard_pre": 0.19047619047619047,
+  "f87_62": 0,
+  "f87_64": 5,
+  "f62_64": 0,
+  "f64_62": 0,
+  "note": "Low overlap consistent with conditioned polyvalence OR distinct values; 87->62=0 vs 87->64=5 needs a conditioning rule for a 62=\"qui\" allophone claim (none identified)."
+ }
+}

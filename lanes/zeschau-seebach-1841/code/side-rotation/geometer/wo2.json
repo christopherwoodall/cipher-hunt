@@ -1,0 +1,108 @@
+{
+ "r06": {
+  "n": 44,
+  "n_ent": 2,
+  "ent_positions": [
+   1184,
+   1355
+  ]
+ },
+ "r94": {
+  "n": 37,
+  "n_en": 4,
+  "en_positions": [
+   651,
+   1102,
+   1169,
+   1576
+  ]
+ },
+ "r52": {
+  "n": 27,
+  "n_pas": 5,
+  "pas_positions": [
+   571,
+   1294,
+   1332,
+   1356,
+   1807
+  ]
+ },
+ "primary": {
+  "06": {
+   "p": 0.19369,
+   "chi2": 4.051,
+   "table": {
+    "('ent', 0)": 0,
+    "('ent', 1)": 0,
+    "('ent', 2)": 2,
+    "('stem', 0)": 13,
+    "('stem', 1)": 16,
+    "('stem', 2)": 13
+   },
+   "best_case_p": 0.1783,
+   "best_case_bin": 0,
+   "vacuous": true
+  },
+  "94": {
+   "p": 0.80935,
+   "chi2": 0.701,
+   "table": {
+    "('en', 0)": 1,
+    "('en', 1)": 2,
+    "('en', 2)": 1,
+    "('ne', 0)": 14,
+    "('ne', 1)": 10,
+    "('ne', 2)": 9
+   },
+   "best_case_p": 0.01084,
+   "best_case_bin": 2,
+   "vacuous": false
+  },
+  "52": {
+   "p": 0.21927,
+   "chi2": 3.704,
+   "table": {
+    "('other', 0)": 4,
+    "('other', 1)": 8,
+    "('other', 2)": 10,
+    "('pas', 0)": 2,
+    "('pas', 1)": 3,
+    "('pas', 2)": 0
+   },
+   "best_case_p": 0.00224,
+   "best_case_bin": 0,
+   "vacuous": false
+  }
+ },
+ "fisher_combined": {
+  "X": 6.741,
+  "df": 6,
+  "p": 0.03599
+ },
+ "secondary_78_43": {
+  "n78": 31,
+  "n43": 16,
+  "p": 0.92375,
+  "chi2": 0.343,
+  "caveat": "43=me is MED-grade; positive = lead only, null = weak"
+ },
+ "sensitivity_06_loose_rule": {
+  "rule": "prev-pair==94-82 (T2a precedent)",
+  "n_ent": 3,
+  "ent_positions": [
+   580,
+   1184,
+   1355
+  ],
+  "p": 0.50952,
+  "best_case_p": 0.09784,
+  "vacuous": true,
+  "fisher_combined_with_94_52": {
+   "X": 4.81,
+   "df": 6,
+   "p": 0.1419
+  }
+ },
+ "verdict": "NULL: no islet shows position-mod-3-cycled reading choice. 06 untestable at this n under either rule (best-case p 0.10-0.18 >= 0.05); 94 p=0.809 (powered: best-case 0.011); 52 p=0.219 (powered: best-case 0.0022); non-vacuous Fisher combination p~0.48; direction check fails (minority readings spread across mod classes). The literal pre-registered 3-way combined p=0.036 is manufactured by the vacuous 06 component and is NOT claimed."
+}

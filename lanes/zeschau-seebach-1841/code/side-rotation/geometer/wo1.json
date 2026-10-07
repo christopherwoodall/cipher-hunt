@@ -1,0 +1,72 @@
+{
+ "tertile_cuts": [
+  34,
+  66
+ ],
+ "WO1a": {
+  "p": 0.56936,
+  "chi2": 3.048,
+  "cramers_v": 0.1416,
+  "table": [
+   [
+    12,
+    12,
+    8
+   ],
+   [
+    8,
+    11,
+    8
+   ],
+   [
+    5,
+    4,
+    8
+   ]
+  ],
+  "table_note": "rows A/B/C, cols tertile 0/1/2 (cuts [34, 66])"
+ },
+ "WO1b": {
+  "p": 0.88283,
+  "chi2": 1.214,
+  "cramers_v": 0.0894,
+  "table": [
+   [
+    13,
+    8,
+    11
+   ],
+   [
+    8,
+    9,
+    10
+   ],
+   [
+    5,
+    6,
+    6
+   ]
+  ],
+  "table_note": "rows A/B/C, cols n-mod-3 = 0/1/2"
+ },
+ "holm": [
+  {
+   "test": "WO1a",
+   "p": 0.56936,
+   "holm_threshold": 0.025,
+   "reject": false
+  },
+  {
+   "test": "WO1b",
+   "p": 0.88283,
+   "holm_threshold": 0.05,
+   "reject": false
+  }
+ ],
+ "runs": {
+  "observed_runs": 74,
+  "p_fewer_or_equal": 0.7598
+ },
+ "verdict_WO1a": "NULL",
+ "verdict_WO1b": "NULL"
+}

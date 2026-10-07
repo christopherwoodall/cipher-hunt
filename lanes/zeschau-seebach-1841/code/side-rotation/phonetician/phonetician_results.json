@@ -1,0 +1,312 @@
+{
+  "tests": {
+    "T-Pa": {
+      "name": "T-Pa open/closed x phase",
+      "p": 0.2500000000000002,
+      "table": {
+        "open": [
+          4,
+          6,
+          3
+        ],
+        "closed": [
+          1,
+          0,
+          2
+        ]
+      },
+      "row_marginals": [
+        13,
+        3
+      ],
+      "col_marginals": [
+        5,
+        6,
+        5
+      ],
+      "n": 16
+    },
+    "T-Pb": {
+      "name": "T-Pb tier x phase",
+      "p": 0.34648684648684636,
+      "table": {
+        "Tier0": [
+          2,
+          4,
+          1
+        ],
+        "Prov": [
+          1,
+          2,
+          1
+        ],
+        "Lead": [
+          2,
+          0,
+          3
+        ]
+      },
+      "row_marginals": [
+        7,
+        4,
+        5
+      ],
+      "col_marginals": [
+        5,
+        6,
+        5
+      ],
+      "n": 16
+    },
+    "T-Pc": {
+      "name": "T-Pc sonority x phase",
+      "p": 0.7752247752247781,
+      "table": {
+        "light": [
+          2,
+          1,
+          0
+        ],
+        "balanced": [
+          2,
+          4,
+          4
+        ],
+        "heavy": [
+          1,
+          1,
+          1
+        ]
+      },
+      "row_marginals": [
+        3,
+        10,
+        3
+      ],
+      "col_marginals": [
+        5,
+        6,
+        5
+      ],
+      "n": 16
+    },
+    "T-Pa2": {
+      "name": "T-Pa2 open/closed x phase, GT+prov only",
+      "p": 0.024242424242424145,
+      "table": {
+        "open": [
+          2,
+          6,
+          0
+        ],
+        "closed": [
+          1,
+          0,
+          2
+        ]
+      },
+      "row_marginals": [
+        8,
+        3
+      ],
+      "col_marginals": [
+        3,
+        6,
+        2
+      ],
+      "n": 11
+    },
+    "T-Pa3": {
+      "name": "T-Pa3 78 recoded ver/closed",
+      "p": 0.06868131868131905,
+      "table": {
+        "open": [
+          4,
+          6,
+          2
+        ],
+        "closed": [
+          1,
+          0,
+          3
+        ]
+      },
+      "row_marginals": [
+        12,
+        4
+      ],
+      "col_marginals": [
+        5,
+        6,
+        5
+      ],
+      "n": 16
+    },
+    "T-Pc2": {
+      "name": "T-Pc2 sonority x phase, GT+prov only",
+      "p": 1.000000000000003,
+      "table": {
+        "light": [
+          1,
+          1,
+          0
+        ],
+        "balanced": [
+          1,
+          4,
+          1
+        ],
+        "heavy": [
+          1,
+          1,
+          1
+        ]
+      },
+      "row_marginals": [
+        2,
+        6,
+        3
+      ],
+      "col_marginals": [
+        3,
+        6,
+        2
+      ],
+      "n": 11
+    },
+    "min_p_T-Pa": 0.0357142857142857,
+    "min_p_T-Pc": 0.00012487512487512463,
+    "power_T-Pa_all-closed-in-C": 0.40485,
+    "power_T-Pc_all-heavy-in-A": 0.4434
+  },
+  "groups": {
+    "11": {
+      "value": "la",
+      "status": "GT-crib",
+      "phase": "B",
+      "shape": "open",
+      "sonority": "balanced",
+      "tier": "Tier0"
+    },
+    "70": {
+      "value": "pre",
+      "status": "GT-crib",
+      "phase": "B",
+      "shape": "open",
+      "sonority": "heavy",
+      "tier": "Tier0"
+    },
+    "82": {
+      "value": "m",
+      "status": "GT-crib",
+      "phase": "A",
+      "shape": "closed",
+      "sonority": "heavy",
+      "tier": "Tier0"
+    },
+    "34": {
+      "value": "i",
+      "status": "GT-crib",
+      "phase": "B",
+      "shape": "open",
+      "sonority": "light",
+      "tier": "Tier0"
+    },
+    "29": {
+      "value": "er",
+      "status": "GT-crib",
+      "phase": "C",
+      "shape": "closed",
+      "sonority": "balanced",
+      "tier": "Tier0"
+    },
+    "40": {
+      "value": "e",
+      "status": "GT-crib",
+      "phase": "A",
+      "shape": "open",
+      "sonority": "light",
+      "tier": "Tier0"
+    },
+    "46": {
+      "value": "que",
+      "status": "GT-crib",
+      "phase": "B",
+      "shape": "open",
+      "sonority": "balanced",
+      "tier": "Tier0"
+    },
+    "87": {
+      "value": "ce",
+      "status": "PROVISIONAL",
+      "phase": "A",
+      "shape": "open",
+      "sonority": "balanced",
+      "tier": "Prov"
+    },
+    "64": {
+      "value": "qui",
+      "status": "PROVISIONAL",
+      "phase": "B",
+      "shape": "open",
+      "sonority": "balanced",
+      "tier": "Prov"
+    },
+    "96": {
+      "value": "par",
+      "status": "PROVISIONAL",
+      "phase": "C",
+      "shape": "closed",
+      "sonority": "heavy",
+      "tier": "Prov"
+    },
+    "94": {
+      "value": "ne",
+      "status": "PROVISIONAL-strong",
+      "phase": "B",
+      "shape": "open",
+      "sonority": "balanced",
+      "tier": "Prov"
+    },
+    "77": {
+      "value": "le",
+      "status": "LEAD",
+      "phase": "C",
+      "shape": "open",
+      "sonority": "balanced",
+      "tier": "Lead"
+    },
+    "62": {
+      "value": "on",
+      "status": "STRONG-LEAD",
+      "phase": "A",
+      "shape": "open",
+      "sonority": "light",
+      "tier": "Lead"
+    },
+    "78": {
+      "value": "me",
+      "status": "LEAD",
+      "phase": "C",
+      "shape": "open",
+      "sonority": "balanced",
+      "tier": "Lead"
+    },
+    "47": {
+      "value": "ce",
+      "status": "LEAD",
+      "phase": "A",
+      "shape": "open",
+      "sonority": "balanced",
+      "tier": "Lead"
+    },
+    "52": {
+      "value": "pas",
+      "status": "STRONG-bounded",
+      "phase": "C",
+      "shape": "open",
+      "sonority": "balanced",
+      "tier": "Lead"
+    }
+  }
+}

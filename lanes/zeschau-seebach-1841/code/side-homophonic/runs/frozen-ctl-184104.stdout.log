@@ -4,3 +4,13 @@
 [solver] inventory projection collisions: 143 values share a projected form
 [solver] restart 0: best=4236.4 final=4217.5 acc=0.211 npoly=57 (160s)
 [solver] restart 1: best=4006.4 final=3676.8 acc=0.217 npoly=56 (297s)
+[solver] restart 2: best=4223.9 final=4177.9 acc=0.209 npoly=53 (440s)
+[solver] restart 3: best=4406.1 final=4359.3 acc=0.221 npoly=58 (580s)
+[solver] restart 4: best=4178.1 final=4130.5 acc=0.220 npoly=58 (717s)
+[solver] restart 5: best=4245.5 final=4212.6 acc=0.227 npoly=58 (851s)
+[solver] restart 6: best=4265.9 final=4137.2 acc=0.223 npoly=58 (1030s)
+[solver] restart 7: best=3941.2 final=3591.8 acc=0.210 npoly=55 (1252s)
+[solver] restart 8: best=3964.6 final=3859.8 acc=0.216 npoly=54 (1567s)
+[solver] restart 9: best=4443.5 final=4370.6 acc=0.234 npoly=61 (2031s)
+[solver] restart 10: best=4008.0 final=3826.6 acc=0.207 npoly=56 (2534s)
+[solver] restart 11: best=4321.0 final=4309.9 acc=0.225 npoly=54 (2825s)

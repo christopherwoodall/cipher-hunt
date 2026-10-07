@@ -1,0 +1,32 @@
+{
+ "span_excluded": [
+  40000,
+  41100
+ ],
+ "projected_letters_trained": 773715,
+ "lexicon_size": 3549,
+ "lexicon_top5": [
+  [
+   "meme",
+   6.98
+  ],
+  [
+   "leur",
+   6.74
+  ],
+  [
+   "peuple",
+   6.61
+  ],
+  [
+   "come",
+   6.41
+  ],
+  [
+   "otre",
+   6.38
+  ]
+ ],
+ "inventory": 617,
+ "elapsed_s": 40.1
+}

@@ -1,0 +1,21 @@
+restart random/20261007    train LL=-3787.38
+restart random/20261008    train LL=-3798.36
+restart random/20261009    train LL=-3741.24
+restart random/20261010    train LL=-3709.01
+restart random/20261011    train LL=-3853.58
+restart random/20261012    train LL=-3836.94
+restart random/20261013    train LL=-3851.32
+restart random/20261014    train LL=-3827.06
+restart random/20261015    train LL=-3842.55
+restart random/20261016    train LL=-3865.10
+restart phase-informed/999 train LL=-3729.68
+best restart: random/20261010 LL=-3709.01
+HMM-3: train LL=-3709.04 held-out LL/pos=-4.3774 k=293 BIC=9418.3
+bigram-96: train LL=-3492.25 held-out LL/pos=-4.2938 k=9120 BIC=69242.6
+delta held-out LL/pos (HMM-big): -0.0836
+delta BIC (big-HMM): +59824.3 -> no decisive HMM win
+hidden-state x phase posterior mass:
+  state0: {'A': 0.208, 'B': 0.241, 'C': 0.437, 'R': 0.114}
+  state1: {'A': 0.719, 'B': 0.05, 'C': 0.152, 'R': 0.079}
+  state2: {'A': 0.133, 'B': 0.597, 'C': 0.148, 'R': 0.122}
+wrote hmm_results.json

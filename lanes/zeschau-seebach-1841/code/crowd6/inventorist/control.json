@@ -1,0 +1,26 @@
+{
+ "C1": {
+  "pass": true,
+  "top5": [
+   "première",
+   "premières"
+  ],
+  "n_candidates": 2
+ },
+ "C2": {
+  "pass": true,
+  "top10": [
+   "première",
+   "lumières",
+   "premières",
+   "lumière",
+   "chaumière"
+  ],
+  "n_candidates": 5
+ },
+ "C3": {
+  "pass": true,
+  "top10": [],
+  "n_candidates": 0
+ }
+}

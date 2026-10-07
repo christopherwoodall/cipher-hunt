@@ -1,0 +1,482 @@
+[
+ {
+  "fact": "transcription_digits",
+  "claimed": 3764,
+  "computed": 3764,
+  "verdict": "PASS",
+  "notes": ""
+ },
+ {
+  "fact": "transcription_rows",
+  "claimed": 70,
+  "computed": 70,
+  "verdict": "PASS",
+  "notes": ""
+ },
+ {
+  "fact": "repaired_pairs",
+  "claimed": 1847,
+  "computed": 1847,
+  "verdict": "PASS",
+  "notes": ""
+ },
+ {
+  "fact": "repaired_distinct_groups",
+  "claimed": 96,
+  "computed": 96,
+  "verdict": "PASS",
+  "notes": ""
+ },
+ {
+  "fact": "digit_accounting_repaired",
+  "claimed": {
+   "paired": 3694,
+   "dropped": 70
+  },
+  "computed": {
+   "paired": 3694,
+   "dropped": 70,
+   "dropped_by_offset": 31,
+   "dropped_by_odd": 39
+  },
+  "verdict": "PASS",
+  "notes": "unobserved groups: ['05', '25', '72', '75']"
+ },
+ {
+  "fact": "original_pairs",
+  "claimed": 1846,
+  "computed": 1846,
+  "verdict": "PASS",
+  "notes": "sanity: 1846->1847 is the repair's +1"
+ },
+ {
+  "fact": "repair_locality",
+  "claimed": {
+   "a5_03_start_rep": 748,
+   "a5_03_start_orig": 748,
+   "a5_03_pairs_rep": 26,
+   "a5_03_pairs_orig": 25,
+   "before_identical": true,
+   "after_identical": true
+  },
+  "computed": {
+   "a5_03_start_rep": 748,
+   "a5_03_start_orig": 748,
+   "a5_03_pairs_rep": 26,
+   "a5_03_pairs_orig": 25,
+   "before_identical": true,
+   "after_identical": true
+  },
+  "verdict": "PASS",
+  "notes": "repair touches only row a5_03; delta is even so downstream phases hold"
+ },
+ {
+  "fact": "raw_crib_positions",
+  "claimed": [
+   1532,
+   2108
+  ],
+  "computed": [
+   1532,
+   2108
+  ],
+  "verdict": "PASS",
+  "notes": "0-based index into concatenated digit stream"
+ },
+ {
+  "fact": "repaired_crib_pairs",
+  "claimed": {
+   "positions": [
+    754,
+    1034
+   ],
+   "rows": [
+    "a5_03",
+    "a6_03"
+   ]
+  },
+  "computed": {
+   "positions": [
+    754,
+    1034
+   ],
+   "rows": [
+    "a5_03",
+    "a6_03"
+   ]
+  },
+  "verdict": "PASS",
+  "notes": ""
+ },
+ {
+  "fact": "original_crib_pairs",
+  "claimed": {
+   "n_occurrences": 1,
+   "old_index": 1033,
+   "note": "task text says 1034 = NEW-index value"
+  },
+  "computed": {
+   "n_occurrences": 1,
+   "old_positions": [
+    1033
+   ]
+  },
+  "verdict": "PASS",
+  "notes": "old 1033 + 1 (repair shift) = new 1034"
+ },
+ {
+  "fact": "original_a5_03_offphase_read",
+  "claimed": [
+   "71",
+   "17",
+   "08",
+   "23",
+   "42",
+   "94",
+   "02"
+  ],
+  "computed": [
+   "71",
+   "17",
+   "08",
+   "23",
+   "42",
+   "94",
+   "02"
+  ],
+  "verdict": "PASS",
+  "notes": "crib read off-phase: row pairs 5..11 under original offsets (global old 753..759)"
+ },
+ {
+  "fact": "gloss_line_premise_check",
+  "claimed": "N/A (no manuscript images available to the lane)",
+  "computed": {
+   "raw1532_row": [
+    "a5_03",
+    12
+   ],
+   "raw2108_row": [
+    "a6_03",
+    28
+   ],
+   "raw1532_at_pair_start_under_repaired_offsets": true
+  },
+  "verdict": "N/A",
+  "notes": "VALID-GIVEN-PREMISE: crib occurs twice raw; repaired parse puts 11 70 82 34 29 40 on rows a5_03/a6_03 exactly. UNVERIFIABLE PREMISE: whether the erased pencil gloss really sits over row a5_03 cannot be checked from available sources (no manuscript images re-examined)."
+ },
+ {
+  "fact": "n62",
+  "claimed": 35,
+  "computed": 35,
+  "verdict": "PASS",
+  "notes": ""
+ },
+ {
+  "fact": "n24",
+  "claimed": 52,
+  "computed": 52,
+  "verdict": "PASS",
+  "notes": ""
+ },
+ {
+  "fact": "n52",
+  "claimed": 27,
+  "computed": 27,
+  "verdict": "PASS",
+  "notes": ""
+ },
+ {
+  "fact": "n06",
+  "claimed": 44,
+  "computed": 44,
+  "verdict": "PASS",
+  "notes": ""
+ },
+ {
+  "fact": "n78",
+  "claimed": 31,
+  "computed": 31,
+  "verdict": "PASS",
+  "notes": ""
+ },
+ {
+  "fact": "n87",
+  "claimed": 32,
+  "computed": 32,
+  "verdict": "PASS",
+  "notes": ""
+ },
+ {
+  "fact": "n64",
+  "claimed": 46,
+  "computed": 47,
+  "verdict": "FAIL",
+  "notes": "STALE PRE-REPAIR CLAIM"
+ },
+ {
+  "fact": "n96",
+  "claimed": 21,
+  "computed": 21,
+  "verdict": "PASS",
+  "notes": ""
+ },
+ {
+  "fact": "n00",
+  "claimed": 54,
+  "computed": 55,
+  "verdict": "FAIL",
+  "notes": "STALE PRE-REPAIR CLAIM"
+ },
+ {
+  "fact": "n11",
+  "claimed": 44,
+  "computed": 45,
+  "verdict": "FAIL",
+  "notes": "STALE PRE-REPAIR CLAIM"
+ },
+ {
+  "fact": "n70",
+  "claimed": 15,
+  "computed": 15,
+  "verdict": "PASS",
+  "notes": ""
+ },
+ {
+  "fact": "n82",
+  "claimed": 38,
+  "computed": 39,
+  "verdict": "FAIL",
+  "notes": "STALE PRE-REPAIR CLAIM"
+ },
+ {
+  "fact": "n34",
+  "claimed": 10,
+  "computed": 11,
+  "verdict": "FAIL",
+  "notes": "STALE PRE-REPAIR CLAIM"
+ },
+ {
+  "fact": "n29",
+  "claimed": 47,
+  "computed": 45,
+  "verdict": "FAIL",
+  "notes": "STALE PRE-REPAIR CLAIM"
+ },
+ {
+  "fact": "n40",
+  "claimed": 21,
+  "computed": 21,
+  "verdict": "PASS",
+  "notes": ""
+ },
+ {
+  "fact": "n46",
+  "claimed": 29,
+  "computed": 29,
+  "verdict": "PASS",
+  "notes": ""
+ },
+ {
+  "fact": "rank_00_leads",
+  "claimed": {
+   "group": "00",
+   "rank": 1
+  },
+  "computed": {
+   "group": "00",
+   "rank": 1
+  },
+  "verdict": "PASS",
+  "notes": "top10 (group,count,rank): [('00', 55, 1), ('24', 52, 2), ('64', 47, 3), ('11', 45, 4), ('29', 45, 4), ('06', 44, 6), ('77', 44, 6), ('98', 40, 8), ('82', 39, 9), ('48', 38, 10)]"
+ },
+ {
+  "fact": "rank_24_second",
+  "claimed": 2,
+  "computed": 2,
+  "verdict": "PASS",
+  "notes": "n24=52"
+ },
+ {
+  "fact": "n77",
+  "claimed": "no explicit claim in NOTES.md",
+  "computed": 44,
+  "verdict": "N/A",
+  "notes": "pre-repair B_scan (npairs=1846) gave 77=44, 59=26; others unstated"
+ },
+ {
+  "fact": "n47",
+  "claimed": "no explicit claim in NOTES.md",
+  "computed": 28,
+  "verdict": "N/A",
+  "notes": "pre-repair B_scan (npairs=1846) gave 77=44, 59=26; others unstated"
+ },
+ {
+  "fact": "n67",
+  "claimed": "no explicit claim in NOTES.md",
+  "computed": 38,
+  "verdict": "N/A",
+  "notes": "pre-repair B_scan (npairs=1846) gave 77=44, 59=26; others unstated"
+ },
+ {
+  "fact": "n43",
+  "claimed": "no explicit claim in NOTES.md",
+  "computed": 16,
+  "verdict": "N/A",
+  "notes": "pre-repair B_scan (npairs=1846) gave 77=44, 59=26; others unstated"
+ },
+ {
+  "fact": "n84",
+  "claimed": "no explicit claim in NOTES.md",
+  "computed": 25,
+  "verdict": "N/A",
+  "notes": "pre-repair B_scan (npairs=1846) gave 77=44, 59=26; others unstated"
+ },
+ {
+  "fact": "n59",
+  "claimed": "no explicit claim in NOTES.md",
+  "computed": 27,
+  "verdict": "N/A",
+  "notes": "pre-repair B_scan (npairs=1846) gave 77=44, 59=26; others unstated"
+ },
+ {
+  "fact": "windows_62_94",
+  "claimed": [
+   100,
+   508,
+   761,
+   840,
+   1329,
+   1362,
+   1686,
+   1704,
+   1772
+  ],
+  "computed": [
+   100,
+   508,
+   761,
+   840,
+   1329,
+   1362,
+   1686,
+   1704,
+   1772
+  ],
+  "verdict": "PASS",
+  "notes": "old onne_at [100,508,839,1328,1361,1685,1703,1771] remapped +1 for >=773, plus 9th @761"
+ },
+ {
+  "fact": "trigram_24_87_64",
+  "claimed": [
+   179,
+   1766,
+   1774
+  ],
+  "computed": [
+   179,
+   1766,
+   1774
+  ],
+  "verdict": "PASS",
+  "notes": "position = index of the 24"
+ },
+ {
+  "fact": "formula_64_96_43_87_01",
+  "claimed": [
+   341,
+   1025
+  ],
+  "computed": [
+   341,
+   1025
+  ],
+  "verdict": "PASS",
+  "notes": "F18 claimed @341/@1024 on the 1846 parse; 1024>=773 so +1"
+ },
+ {
+  "fact": "bigram_06_29_count",
+  "claimed": 4,
+  "computed": 4,
+  "verdict": "PASS",
+  "notes": "positions=[1096, 1388, 1709, 1815]"
+ },
+ {
+  "fact": "bigram_00_86_count",
+  "claimed": 12,
+  "computed": 12,
+  "verdict": "PASS",
+  "notes": "positions=[552, 660, 727, 866, 888, 961, 1001, 1127, 1374, 1505, 1791, 1824]"
+ },
+ {
+  "fact": "bigram_00_06_count",
+  "claimed": 0,
+  "computed": 0,
+  "verdict": "PASS",
+  "notes": "positions=[]"
+ },
+ {
+  "fact": "bigram_77_86_positions",
+  "claimed": [
+   430,
+   798,
+   877,
+   950,
+   1133
+  ],
+  "computed": [
+   430,
+   798,
+   877,
+   950,
+   1133
+  ],
+  "verdict": "PASS",
+  "notes": "original-parse positions=[430, 797, 876, 949, 1132]; the N25 'new' = new-indexing, verified"
+ },
+ {
+  "fact": "bigram_77_78_count",
+  "claimed": 7,
+  "computed": 7,
+  "verdict": "PASS",
+  "notes": "positions=[7, 213, 647, 1077, 1180, 1351, 1542]"
+ },
+ {
+  "fact": "bigram_94_82_positions",
+  "claimed": [
+   578,
+   1182,
+   1353,
+   1742
+  ],
+  "computed": [
+   578,
+   1182,
+   1353,
+   1742
+  ],
+  "verdict": "PASS",
+  "notes": "F24 claimed @[578,1181,1352,1741] on the 1846 parse; +1 for >=773"
+ },
+ {
+  "fact": "window_87_64_77_84",
+  "claimed": [
+   1800
+  ],
+  "computed": [
+   1800
+  ],
+  "verdict": "PASS",
+  "notes": ""
+ },
+ {
+  "fact": "window_11_67_la_veut",
+  "claimed": [
+   1044
+  ],
+  "computed": [
+   1044
+  ],
+  "verdict": "PASS",
+  "notes": "unique 'la veut'"
+ }
+]

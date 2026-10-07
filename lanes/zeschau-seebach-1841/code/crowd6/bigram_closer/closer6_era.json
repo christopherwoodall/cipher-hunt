@@ -1,0 +1,167 @@
+{
+ "a_noun_inversion": [
+  {
+   "w": "plus",
+   "n_le": 165,
+   "n_la": 70,
+   "era_n": 1505,
+   "ratio": 1.932,
+   "inband": true
+  },
+  {
+   "w": "même",
+   "n_le": 87,
+   "n_la": 119,
+   "era_n": 816,
+   "ratio": 3.564,
+   "inband": false
+  },
+  {
+   "w": "faire",
+   "n_le": 36,
+   "n_la": 6,
+   "era_n": 389,
+   "ratio": 7.476,
+   "inband": false
+  },
+  {
+   "w": "fait",
+   "n_le": 31,
+   "n_la": 3,
+   "era_n": 431,
+   "ratio": 6.748,
+   "inband": false
+  }
+ ],
+ "a_n_le_total": 4570,
+ "a_n_la_total": 6671,
+ "a_fait_kill": {
+  "era_n_fait": 431,
+  "era_p": 0.002005948031518051,
+  "ratio": 6.748
+ },
+ "a_lesmis_qui_le": {
+  "n": 21,
+  "top": [
+   [
+    "poussait",
+    2
+   ],
+   [
+    "tenait",
+    2
+   ],
+   [
+    "rompit",
+    1
+   ],
+   [
+    "rendit",
+    1
+   ],
+   [
+    "voyait",
+    1
+   ],
+   [
+    "suivaient",
+    1
+   ],
+   [
+    "fit",
+    1
+   ],
+   [
+    "saisirent",
+    1
+   ],
+   [
+    "volait",
+    1
+   ],
+   [
+    "réveilla",
+    1
+   ]
+  ]
+ },
+ "a_tocq_qui_le": {
+  "n": 37,
+  "top": [
+   [
+    "dirigent",
+    3
+   ],
+   [
+    "sont",
+    3
+   ],
+   [
+    "possède",
+    2
+   ],
+   [
+    "plus",
+    2
+   ],
+   [
+    "porte",
+    2
+   ],
+   [
+    "font",
+    2
+   ],
+   [
+    "représente",
+    2
+   ],
+   [
+    "fait",
+    2
+   ],
+   [
+    "vote",
+    1
+   ],
+   [
+    "distinguent",
+    1
+   ],
+   [
+    "conteste",
+    1
+   ],
+   [
+    "roi",
+    1
+   ]
+  ]
+ },
+ "c_45": {
+  "me_morpheme": {
+   "n_m": 125,
+   "n_me": 163,
+   "n": 288,
+   "p": 0.0013028196092445907,
+   "ratio_cipher_over_era": 9.143,
+   "inband": false
+  },
+  "par_me": 0,
+  "me_qui": 0,
+  "m_qui": 0,
+  "par_m": 10,
+  "meme": {
+   "era_n_split": 816,
+   "era_n_plain": 816,
+   "era_p_plain": 0.003797804161760394,
+   "cipher_P78_45": 0.002165674066053059,
+   "ratio": 0.57
+  },
+  "le_meme": 87,
+  "meme_qui": 11,
+  "ce_meme": 18,
+  "meme_era_n_le": 4570,
+  "le_me_plain": 0
+ }
+}

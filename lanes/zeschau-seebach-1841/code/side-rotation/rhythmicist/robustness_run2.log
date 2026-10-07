@@ -1,0 +1,9 @@
+matrix-pipeline reproduces canonical map exactly: True
+V1 cosine k=12: chi2=12.9 (n=1217) lag3 obs=0.5428 exp=0.5352 z=+0.51 | E1pipe lag3 obs=0.7592 exp=0.7595 z=-0.02 | lag2 z=-1.06 | agree=0.344 | SURVIVE=False/E1=False
+V2 jaccard k=8: chi2=9.7 (n=1761) lag3 obs=0.8216 exp=0.8190 z=+0.20 | E1pipe lag3 obs=0.8590 exp=0.8580 z=+0.08 | lag2 z=+0.20 | agree=0.448 | SURVIVE=False/E1=False
+V3 jaccard k=16: chi2=354.9 (n=1410) lag3 obs=0.3389 exp=0.2832 z=+4.71 | E1pipe lag3 obs=0.3914 exp=0.3499 z=+3.18 | lag2 z=-1.99 | agree=0.948 | SURVIVE=True/E1=True
+V4_half1 (half n=923): chi2=84.8 (n=1307) lag3 obs=0.5916 exp=0.5869 z=+0.28 | E1pipe lag3 obs=0.8035 exp=0.8047 z=-0.13 | lag2 z=-0.14 | agree=0.406 | SURVIVE=False/E1=False
+V5_half2 (half n=924): chi2=16.2 (n=1580) lag3 obs=0.7430 exp=0.7391 z=+0.23 | E1pipe lag3 obs=0.8627 exp=0.8586 z=+0.29 | lag2 z=+0.47 | agree=0.458 | SURVIVE=False/E1=False
+old-parse pairs: 1846
+old-vs-new label agreement (best perm): 0.7188 -> 69/96 agree
+wrote robustness_results.json
