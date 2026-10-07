@@ -1,0 +1,505 @@
+{
+ "phaseA": {
+  "pairs": 1846,
+  "digits_implied": 3692,
+  "distinct_groups": 96,
+  "odd_digit_lines": 28,
+  "lines_with_offset1": 32,
+  "crib_freq": {
+   "11": 44,
+   "70": 15,
+   "82": 38,
+   "34": 10,
+   "29": 47,
+   "40": 21,
+   "46": 29
+  },
+  "crib_rank": {
+   "11": 6,
+   "70": 56,
+   "82": 8,
+   "34": 70,
+   "29": 2,
+   "40": 36,
+   "46": 19
+  },
+  "top15": [
+   [
+    "00",
+    54
+   ],
+   [
+    "24",
+    52
+   ],
+   [
+    "29",
+    47
+   ],
+   [
+    "06",
+    46
+   ],
+   [
+    "64",
+    46
+   ],
+   [
+    "77",
+    44
+   ],
+   [
+    "11",
+    44
+   ],
+   [
+    "98",
+    40
+   ],
+   [
+    "82",
+    38
+   ],
+   [
+    "48",
+    38
+   ],
+   [
+    "67",
+    37
+   ],
+   [
+    "94",
+    36
+   ],
+   [
+    "74",
+    35
+   ],
+   [
+    "62",
+    34
+   ],
+   [
+    "86",
+    33
+   ]
+  ],
+  "repeat_7778948206_count": 2,
+  "repeat_06777818711001_count": 0,
+  "group_IC": 0.014223091310003023
+ },
+ "phaseB": {
+  "after_que_46": [
+   [
+    "24",
+    3
+   ],
+   [
+    "29",
+    2
+   ],
+   [
+    "84",
+    2
+   ],
+   [
+    "07",
+    2
+   ],
+   [
+    "56",
+    2
+   ],
+   [
+    "11",
+    1
+   ],
+   [
+    "66",
+    1
+   ],
+   [
+    "98",
+    1
+   ],
+   [
+    "49",
+    1
+   ],
+   [
+    "43",
+    1
+   ]
+  ],
+  "after_la_11": [
+   [
+    "00",
+    4
+   ],
+   [
+    "24",
+    4
+   ],
+   [
+    "92",
+    3
+   ],
+   [
+    "52",
+    3
+   ],
+   [
+    "29",
+    2
+   ],
+   [
+    "21",
+    2
+   ],
+   [
+    "26",
+    2
+   ],
+   [
+    "78",
+    2
+   ],
+   [
+    "50",
+    2
+   ],
+   [
+    "79",
+    1
+   ]
+  ],
+  "before_la_11": [
+   [
+    "87",
+    7
+   ],
+   [
+    "00",
+    4
+   ],
+   [
+    "06",
+    4
+   ],
+   [
+    "47",
+    3
+   ],
+   [
+    "67",
+    3
+   ],
+   [
+    "37",
+    2
+   ],
+   [
+    "17",
+    2
+   ],
+   [
+    "88",
+    2
+   ],
+   [
+    "91",
+    2
+   ],
+   [
+    "39",
+    2
+   ]
+  ],
+  "after_m_82": [
+   [
+    "16",
+    11
+   ],
+   [
+    "48",
+    4
+   ],
+   [
+    "06",
+    4
+   ],
+   [
+    "96",
+    3
+   ],
+   [
+    "94",
+    3
+   ],
+   [
+    "14",
+    2
+   ],
+   [
+    "98",
+    2
+   ],
+   [
+    "43",
+    1
+   ],
+   [
+    "84",
+    1
+   ],
+   [
+    "01",
+    1
+   ]
+  ],
+  "repeat1_contexts": [
+   "32 48 59 37 77 78 94 82 06 06 59 42 06",
+   "73 34 62 48 77 78 94 82 06 52 37 64 35"
+  ]
+ },
+ "phaseC": [
+  {
+   "group": "00",
+   "word": "vous",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "vousla",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "votre",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "votree",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "vers",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "versla",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "toute",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "toutee",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "tout",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "toutla",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "tous",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "tousla",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "sous",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "sousla",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "sans",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "sansla",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "pour",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "pourla",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "plus",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "plusla",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "nous",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "nousla",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "notre",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "notree",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "mais",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "maisla",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "leurs",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "leurse",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "leur",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "leurla",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "entre",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "entree",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "elle",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "ellela",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "dont",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "dontla",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "donc",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "doncla",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "dans",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "dansla",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "comme",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "commee",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "chez",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "chezla",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "cette",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "cettee",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "avec",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "avecla",
+   "best_window_score": -7.714
+  },
+  {
+   "group": "00",
+   "word": "auxdits",
+   "group_freq": 54,
+   "windows": 54,
+   "mean_score": -7.714,
+   "best_window": "auxdits",
+   "best_window_score": -7.714
+  }
+ ],
+ "phaseC_baseline_anchors_only": [
+  -7.714,
+  -7.714,
+  -7.714,
+  -7.714,
+  -7.714,
+  -7.714,
+  -7.714,
+  -7.714,
+  -7.714,
+  -7.714
+ ]
+}
