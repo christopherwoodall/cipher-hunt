@@ -1,9 +1,10 @@
 # STATE — zeschau-seebach-1841
 
-- **status:** `cracking` (crowd round done 2026-10-07: 9 executors, coordinator-curated;
-  9 anchors — 7 pencil cribs + provisional 87=ce + provisional 64=qui; Red Team demoted
-  87=ce from 4/5-confirmed to best-tested-provisional; first byte-level word read
-  "la première" @1033)
+- **status:** `cracking` (crowd round 2 done 2026-10-07: 6 executors, coordinator-curated;
+  10 provisional values — 7 pencil cribs + 87=ce (provisional) + 64=qui (provisional) +
+  96="par" (provisional, NEW); red team demoted 24="est" (refuted) and 64="qui"
+  (CONFIRMED→provisional); H5 "J'ai l'honneur de" killed; scorer broken-on-control;
+  first byte-level word read "la première" @1033 stands)
 - **checkpoint:** Transcription fetched, hashed, verified (3,764 digits / 1,846 pairs / 96 groups).
   Attempt 1 (`code/crib_attack.py`) complete: repeats corrected to 2×/0× at pair alignment (F3);
   digit-count discrepancy 3,764 vs 3,969 recorded (F4); bigram 82→16 at 29% flagged (F5);
@@ -47,18 +48,50 @@
     St Petersburg 1839–1852); DECODE registration free/self-service (unlocks R5006–R5008);
     HStAD mail-in scan order (poststelle@sta.smi.sachsen.de), shelfmark 10731 Nr. 12;
     key-candidate files 10731 Nr. 12 + 10717 Nr. 3332/3333 (F16).
-- **next:** Best 3 next steps (crowd curation 2026-10-07):
-  1. **Resolve 24="est"** (surgeon H1, 4 checks: rank-1 band, P(ce|24)=0.192, "qu'est"
-     elision ×3). If confirmed, the 24-87-46 0/10 becomes a hard joint contradiction
-     for 87=ce (F11/F13) — either way it breaks the 87 deadlock. Re-validate the
-     "est cela"×3 anomaly against the era corpus while at it.
-  2. **Test the linguist's "J'ai l'honneur de" crib** on the ×5 repeat 77 78 94 82 06
-     (5 syllable units; l'-position as single-letter consonant; hon–neur adjacency);
-     crib-drag the 9-mer 56…01 @931/@1625 against the era corpus.
-  3. **DECODE registration** (needs BigSexyWarlock69's word — standing rule: no personal
-     info into new accounts) to unlock R5006–R5008 full images; **HStAD scan order**
-     for 10731 Nr. 12 + 10717 Nr. 3332/3333 (poststelle@sta.smi.sachsen.de).
-  Do NOT promote anything without ≥2 independent checks.
+  **Crowd round 2** (6 executors, `code/crowd2/`, coordinator-verified then merged;
+  all headline cipher-side numbers re-derived by curator — verified):
+  - Closer: **24="est" REFUTED** (N10) — all four H1 checks fail/downgrade on era
+    rates (19.5×, 74× fails; rank "1" was 0-based); structural refutation legs
+    (C-check, 11=la ×4 predecessor kill) instrument-independent; rivals (sont/ont,
+    c'est, de, en) all die; 45-word inversion sweep: no era word fits
+    P(ce|V)≈0.19 ∧ P(V|que)≈0.10 — empty intersection points back at provisional
+    87=ce. 24 unidentified.
+  - Formula Tester: **H5 "J'ai l'honneur de" REFUTED** (N11) — kill-grade: 82='m'
+    ground truth vs needed "neur"; 67×/184×/47× rate failures. Surviving: 77→78
+    "j'ai l'" chunk, 78-as-proclitic. 9-mer drag NULL (best candidate killed on
+    00="fé" 15× and 21="ce" collision).
+  - Context Miner: **24→87→64 ×3 formula promoted (value withheld)** (F17);
+    **64 96 43 87 01 ×2 reverse joints** (F18); 82→16 vs qui-windows null (N13);
+    16="a" not promoted. Tension for 96="par": "ce qui 96 47 que" wants a verb.
+  - Scorer Smith: **syllable scorer BROKEN-ON-CONTROL** (N12) — top-1 0.021 <
+    chance; real drag not run. Diagnosis: placement ties; missing signal is global
+    consistency of implied assignments. Bonus inference: encipherer stripped
+    final "-er" (F22).
+  - Hypothesis Sweeper: **96="par" CONFIRMED (4/4) → 10th provisional value**
+    (F19; inherits 87=ce's provisional status). 96="de" REFUTED (N14). 77="pas"
+    INCONCLUSIVE (survives; partner 06 probably not "ne"). 06="ne" INCONCLUSIVE —
+    **new lead: 06 = verb stem** (F21). Six rivals killed; 77="que" reopens if 06
+    revalued.
+  - Red Team: **24="est" DEMOTED** (refuted as 4-check case); **64="qui" DEMOTED**
+    CONFIRMED 4/4 → PROVISIONAL (F20); **H5 KILL** (corroborated); **factor-2 band
+    UNCALIBRATED**; **F13 joint contradiction DISSOLVED** (era binomial 0.247).
+- **next:** Round-3 work orders (crowd round 2 curation 2026-10-07):
+  1. **Test R4 "-ment" family** (94=ne, 82=m ['m' ground truth ✓], 06=ent) as its own
+     work order — the 2 extra 94→82 instances (@578/@1181) are the test bed; check
+     ent/ment word-final behavior against 29=er's phase-C anchor (F23).
+  2. **Pursue 06 verb-stem lead** (F21): profile 06's full follower set against
+     verb-stem expectations; resolve companion unknown 67; re-test 77="pas"/"que"
+     under verb-stem 06.
+  3. **Redesign scorer with global-consistency signal** (scorer smith's direction):
+     check whether X='d' reads as 'd' everywhere X occurs — the missing signal.
+  4. **Resolve 87=ce's provisional status** — the lane's central open problem: the
+     closer's empty inversion intersection points back at it; 96="par" and 64="qui"
+     inherit its uncertainty. Test 87 against non-"ce" function words with equal rigor.
+  5. **DECODE registration** (parent handling via browser task, in flight) → R5006–R5008
+     full images; **HStAD scan order** for 10731 Nr. 12 + 10717 Nr. 3332/3333.
+  Do NOT promote anything without ≥2 independent checks. New standing convention:
+  every executor leaves a report note at `code/crowd2/report_inbox/<name>-<topic>.md`
+  per REPORTING.md (swept into REPORT.md every 2h).
 - **blockers:**
   - R5006–R5008 (sibling letters, 2+3+3 pp) NOT obtainable: DECODE records public at
     de-crypt.org/decrypt-web/RecordsView/{5006,5007,5008} but all "Authentication required";

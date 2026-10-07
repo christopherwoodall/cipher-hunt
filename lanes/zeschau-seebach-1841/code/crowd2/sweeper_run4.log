@@ -1,0 +1,45 @@
+calib: 11=la cipher_rate=0.0238 era_rate=0.03105 infl=0.77
+calib: 46=que cipher_rate=0.0157 era_rate=0.01332 infl=1.18
+calib: 87=ce cipher_rate=0.0173 era_rate=0.00528 infl=3.28
+calib: 64=qui cipher_rate=0.0249 era_rate=0.01098 infl=2.27
+calib: median inflation(all)=1.72  (pencil-only la/que)=0.97
+era unigram rates: la=0.03105 que=0.01332 ce=0.00528 qui=0.01098 pas=0.00458 ne=0.00834 par=0.00482 de=0.04253 pour=0.00492
+
+############ (a) H2: 77 = "pas" ############
+cipher: 77 n=44 rank=6 | 06 n=46 rank=4
+cipher: 06->77 6/46=0.1304 | 77 preceded-by-06 6/44=0.1364 | 67->77 6/37=0.1622 | 46->77 1 | 46->06 0
+era: n(ne/n')=3156 n(pas)=984 ratio=3.2073 | P(pas|ne)=0.0063 | P(ne|pas)=0.0203
+era: P(pas|que)=0.00000 P(ne|que)=0.00559 P(que|ne)=0.00000 P(plus|ne)=0.0006 P(la|pas)=0.0244 P(ce|pas)=0.0020
+era: top-10 predecessors of "pas": [('est', 163), ('a', 102), ('sont', 43), ('ont', 41), ('donc', 32), ('faut', 22), ('ne', 20), ('non', 18), ('existe', 15), ('avait', 14)]
+era: top-10 followers of "pas": [('de', 102), ('seulement', 46), ('à', 44), ('d', 33), ('toujours', 29), ('le', 28), ('plus', 28), ('la', 24), ('que', 24), ('les', 23)]
+cipher predecessors of 77 (top12): [('06', 6), ('67', 6), ('88', 3), ('64', 3), ('17', 3), ('74', 2), ('43', 2), ('87', 2), ('37', 2), ('80', 2), ('48', 2), ('63', 1)]
+== H2 77="pas": INCONCLUSIVE (5 pass / 3 fail / 2 info)
+   [PASS] freq: cipher P(77)=0.0238 vs inflation-scaled era P("pas")=0.0079 (infl=1.7, band 4x)
+   [FAIL] ratio: 06/77=1.045 vs era n(ne/n')/n(pas)=3.207 (factor-2 band; caveat: cipher 77 also covers pas-syllable inside passe/passer/repas, depressing the cipher ratio)
+   [FAIL] bigram FWD: cipher P(77|06)=0.1304 vs era P(pas|ne/n')=0.0063 — 20.6x MISS
+   [FAIL] bigram BWD: cipher P(06|77)=0.1364 vs era P(ne/n'|pas)=0.0203 — 6.7x (same adjacency fact as FWD, other direction; not fully independent)
+   [PASS] follower-anchor probe: cipher P(11=la|77)=1/44=0.023 vs era P(la|pas)=0.0244 (3x band)
+   [PASS] joint "que->pas": cipher 46->77=1/29 (exp 0.00, thr 2.0) vs era P(pas|que)=0.00000
+   [PASS] joint "que->ne": cipher 46->06=0/29 (exp 0.16, thr 2.4) vs era P(ne/n'|que)=0.00559
+   [PASS] joint "que->ne": cipher 46->06=0/29 (exp 0.16, thr 2.4) vs era P(ne/n'|que)=0.00559
+   [info] caveat: 67->77 = 6/37 = 16.2%% — a "ne"-like predecessor of 77; 67 unidentified (joint 06/77 note)
+   [info] caveat: 77 heads the r1 repeat 77-78-94-82(m)-06 x2 — word-family/proper-noun rival (linguist H5) unscored
+
+-- rivals for 77 --
+era P(que|que)=0.00000
+== RIVAL 77="que": INCONCLUSIVE (2 pass / 1 fail / 0 info)
+   [PASS] RIVAL 77="que": freq: cipher P(77)=0.0238 vs inflation-scaled era P("que")=0.0230 (infl=1.7, band 4x)
+   [FAIL] RIVAL 77="que": cipher 06->77=6/46 (exp 0.00, thr 2.0) as "ne->que" vs era P(que|ne/n')=0.00000 — restrictive "ne...que" is non-adjacent in prose
+   [PASS] RIVAL 77="que": cipher 46->77=1/29 (exp 0.00, thr 2.0) vs era P(que|que)=0.00000
+== RIVAL 77="plus": REFUTED (1 pass / 1 fail / 0 info)
+   [PASS] RIVAL 77="plus": freq: cipher P(77)=0.0238 vs inflation-scaled era P("plus")=0.0121 (infl=1.7, band 4x)
+   [FAIL] RIVAL 77="plus": cipher 06->77=6/46 (exp 0.03, thr 2.1) as "ne->plus" vs era P(plus|ne/n')=0.0006
+== RIVAL 77="ne"-swap: REFUTED (0 pass / 1 fail / 0 info)
+Traceback (most recent call last):
+  File "/home/hatch/workspace/cipher-hunt/lanes/zeschau-seebach-1841/code/crowd2/hypothesis_sweeper.py", line 252, in <module>
+    v_rswap = verdict('RIVAL 77="ne"-swap', rival_swap)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/cipher-hunt/lanes/zeschau-seebach-1841/code/crowd2/hypothesis_sweeper.py", line 118, in verdict
+    for p, t in checks:
+        ^^^^
+ValueError: too many values to unpack (expected 2)

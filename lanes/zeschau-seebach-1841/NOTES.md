@@ -179,6 +179,77 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
     shelved; attempt 4 should consider a syllable-level scorer.
   - Full numeric output: `data/attempt3_results.json`.
 
+- **2026-10-07 (crowd round 2 — 6 executors, coordinator-curated):** fresh diverse cast
+  on the round-2 work orders; each wrote only to `code/crowd2/` plus a report-inbox
+  note per REPORTING.md (Context/Decision/Why/Enlightenment). The coordinator
+  re-derived every headline cipher-side number against the lane data before merging —
+  all verified: 24 freq 52 rank 2/96 (00 leads at 54); P(87|24)=10/52=0.1923;
+  P(24|46)=3/29=0.1034; 24-87-64 ×3; 96-87-46 ×3 with P(87|96)=3/21=0.1429;
+  64-96-43-87-01 ×2; 82→16 11× with 0 within ±3 of 87; 77-78-94-82-06 ×2;
+  11→24 ×4; P(77|06)=6/46=0.1304; 9-mer 56…01 ×2 @931/@1625.
+  - **Closer** (WO1 — resolve 24="est", must also refute): **REFUTED.** All four H1
+    checks re-graded on era rates: rank "1" was 0-based (24 is rank 2/96);
+    P(ce|24)=0.1923 vs era P(ce|"est")=0.0099 = 19.5× fail; "qu'est" ×3 never
+    rate-checked: P(24|46)=0.1034 vs era 0.0014 = 74× fail. Refutation legs:
+    C-check structural/instrument-independent ("que"+"est" ungrammatical outside
+    "qu'est-ce", fails 6.6× even under Les Mis); predecessor kill — top predecessor
+    of 24 is 11=la ×4, "la"+"est"=0 in both corpora. Rivals scored honestly:
+    sont/ont dead, c'est dead 5×/30×, de dead 11.5× + "la de"=0, en dead 26×/4.8×.
+    Inversion sweep (45 function words): no era word satisfies
+    P(ce|V)≈0.19 ∧ P(V|que)≈0.10 — intersection empty, itself a lead pointing back
+    at provisional 87=ce. "est cela"×3 anomaly moot. Methodology finding: the
+    "est ce" bigram family has an 11.9× Les-Mis/Tocqueville register gap — larger
+    than F10's cela gap; per-bigram caveats needed for dialogue-driven bigrams.
+  - **Formula Tester** (WO2): **H5 "J'ai l'honneur de" REFUTED as stated** —
+    kill-grade: position 4 is 82='m' (ground-truth pencil anchor), the phrase needs
+    "neur". Rates bury it independently: 82 at 2.06% is 67× too frequent for tier-3
+    "neur" (era 0.031%); 94 at 1.95% is 184× too frequent for "hon" (era 0.011%);
+    77=j'ai 47× over era. Surviving sub-claims: 77→78 "j'ai l'" bound chunk (7×,
+    5 outside repeat), 78 as proclitic (1.68% vs era l' 1.48%, 21 followers).
+    **9-mer drag NULL**: best corpus candidate "seule différence qui existe" ×3
+    killed (needs 00="fé" but 00 is the rank-1 group at 2.93% vs era "fé" 0.19% =
+    15×; needs 21="ce" colliding with provisional 87=ce).
+  - **Context Miner** (WO3): five "ce qui" contexts tabulated; **24→87→64 ×3
+    promoted as a formula (value withheld)** — 24 is 10/32 (31%) of 87's
+    predecessors; "est" matched P(qui|est ce) exactly (0.304 vs 0.30) yet died 19×
+    on P(ce|est); "tout" 1/3, "de" fails. **New formula: 64 96 43 87 01 ×2**
+    (@341/@1024) — "qui … ce" reverse joints, the only two 87→01 bigrams in the
+    text. 82→16 vs qui-windows: null (2 within ±3 of 64, Poisson chance-consistent;
+    0 within ±5 of 87). 16="a" not promoted. Tension (not kill) for 96="par":
+    "ce qui 96 47 que" wants a verb, not par/de.
+  - **Scorer Smith** (WO4): **scorer BROKEN-ON-CONTROL — real drag not run.**
+    Top-1 0.021 vs chance 0.076; MRR 0.133 vs 0.30 bar (47 words, 198 candidates;
+    only 1/47 recovered, 0/12 multi-anchor). Diagnosis: placement ranking ties —
+    all placements share cells, only 1–2 edge bigrams differ; missing signal is
+    **global consistency of implied assignments**. Documented rule-based French
+    syllabifier + two-tier hybrid cell scorer built as reusable infrastructure.
+    Bonus inference: encipherer systematically stripped final "-er" (corpus
+    P(ends-in-"er")=0.0211 ≈ cipher 0.0255 vs standalone "er" 0.0020).
+  - **Hypothesis Sweeper** (WO5): **96="par" CONFIRMED (4/4) → 10th provisional
+    value** (inherits 87=ce's provisional status). Legs: P(96)=0.0114 vs
+    inflation-scaled era P("par")=0.0083 (1.37×); "parce" P(87|96)=0.1429 vs era
+    0.1274 (1.12×); "parce que" frame 3/3=1.00 vs era 1.0000 (elision fix moved
+    0.3258→1.0000); 15 preds/12 followers. 96="de" REFUTED (freq 6.4× miss).
+    77="pas" INCONCLUSIVE (era conditional inverts surgeon's check: P(77|06)=0.1304
+    vs era P(pas|ne)=0.0063 = 20.6× miss — wrong baseline — but "pas" itself
+    survives; partner 06 probably not "ne"). 06="ne" INCONCLUSIVE (06→77 13% vs
+    ≈0.6% expected; 06→29(er)=5/46 vs era exactly zero in 215k words). **New lead:
+    06 = verb stem** — era predecessors of "pas" are verbs 98%; 06's follower set
+    reads verb-stem (06→77=6, 06→29=5 infinitive, 06→11=4 verb+object, 30 preds);
+    explains both "ne" anomalies at once. Six rivals killed; 77="que" reopens if 06
+    revalued.
+  - **Red Team** (kill authority): **24="est" DEMOTED** (refuted as 4-check
+    confirmation; weak open at best) — check 3's P(ce|est)=0.118 was Les-Mis
+    dialogue rate (era 0.0099, 12× register gap; observed 19.4× over); check 4
+    never rate-checked (31× fail); elision inconsistency (era P(est|c')=0.914
+    predicts ~29/32 "c'est", observed 0). **64="qui" DEMOTED** CONFIRMED 4/4 →
+    PROVISIONAL — check (b) conditioned on provisional 87=ce; factor-2 band admits
+    qui (0.83), "qu'" (1.50), "n'" (1.97). **H5 KILL** (independent corroboration).
+    **Factor-2 band UNCALIBRATED** — never validated; sole testable ground-truth
+    pair inconclusive; verdicts flip with corpus choice. **F13 "joint
+    contradiction" DISSOLVED**: era-matched binomial P(0/10)=0.247, not significant.
+
+
 ## Null results
 - **N1 (2026-10-07):** crib-anchored function-word drag (Phase C above) — degenerate at 7-anchor
   sparsity; all candidates tie at floor. Not a disproof of the crib-anchored strategy, only of
@@ -228,6 +299,34 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
 - **N9 (2026-10-07, crowd/crib-surgeon):** no 46=que within ±10 of the "la première"
   crib; no second "première" anywhere; 11-70 ("la pre") unique to @1033.
   Evidence: `code/crowd/crib_surgeon_results.{md,json}`.
+
+- **N10 (2026-10-07, crowd2/closer):** 24="est" REFUTED under the era-matched standard.
+  All four H1 checks fail or downgrade on Tocqueville rates (19.5×, 74× fails;
+  rank "1" was 0-based). Structural refutation legs (C-check, 11=la ×4 predecessor
+  kill) are instrument-independent. Rivals (sont/ont, c'est, de, en) all die;
+  45-word inversion sweep: no era word fits P(ce|V)≈0.19 ∧ P(V|que)≈0.10 —
+  intersection empty (lead: points back at provisional 87=ce). 24 unidentified.
+  Evidence: `code/crowd2/closer_results.{md,json}`.
+- **N11 (2026-10-07, crowd2/formula-tester):** H5 "J'ai l'honneur de" REFUTED as
+  stated — kill-grade structural contradiction (82='m' ground truth vs needed
+  "neur") plus 67×/184×/47× rate failures. Surviving: 77→78 "j'ai l'" chunk,
+  78-as-proclitic. 9-mer drag NULL (best candidate killed on 00="fé" 15× and
+  21="ce" collision). Evidence: `code/crowd2/formula_tester_results.{md,json}`.
+- **N12 (2026-10-07, crowd2/scorer-smith):** syllable-level scorer BROKEN-ON-CONTROL
+  (top-1 0.021 < chance 0.076; MRR 0.133 < 0.30 bar) — real drag not run, per the
+  control-first rule. Failure mechanism diagnosed: placement ties; missing signal
+  is global consistency of implied assignments. Redesign direction recorded.
+  Evidence: `code/crowd2/scorer_smith_results.{md,json}`.
+- **N13 (2026-10-07, crowd2/context-miner):** 82→16 vs qui-windows null
+  (chance-consistent); 0 within ±5 of 87=ce (p≈0.12, sub-significant). 16 neither
+  ce-like nor qui-like; 16="a" not promoted. 16 unidentified.
+  Evidence: `code/crowd2/context_miner_results.{md,json}`.
+- **N14 (2026-10-07, crowd2/hypothesis-sweeper):** 96="de" REFUTED (1/3). 77="pas"
+  INCONCLUSIVE (survives as best reading for 77; partner 06 probably not "ne").
+  06="ne" INCONCLUSIVE (two unexplained bigram anomalies). 41="der"/08="ni"
+  INCONCLUSIVE (n=1). Six rivals killed (77="plus", 77="ne"-swap, 06="de"/"le",
+  96="pour", 96="a/à", 41="ter"/"mer"). Evidence:
+  `code/crowd2/hypothesis_sweeper_results.{md,json}`.
 
 ## Verified findings
 - F1 (source: Bourdeau zeschau1841 page, 2026-09-21/24): the unit is pairs of digits; 96 of 100
@@ -324,25 +423,86 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   (1841) / 3333 (1842)** "Korrespondenz des Ministeriums mit der Gesandtschaft
   Petersburg" (the ministry/Dresden side). Evidence:
   `code/crowd/historian_results.{md,json}`.
+- F17 (2026-10-07, crowd2/context-miner; curator-verified): trigram formula
+  **24→87→64 ×3** — every 87→64 bigram has 24 immediately before; 24 supplies
+  10/32 (31%) of 87's predecessors; 24 is rank 2/96 at freq 52. Value WITHHELD:
+  "est" matched P(qui|est ce) exactly (0.304 vs 0.30) yet died 19× on P(ce|est);
+  "tout" 1/3; "de" fails. No candidate clears ≥2 independent checks.
+  Evidence: `code/crowd2/context_miner_results.json` (curator re-derived counts).
+- F18 (2026-10-07, crowd2/context-miner; curator-verified): exact 5-group repeat
+  **64 96 43 87 01 ×2** (@341/@1024) — "qui … ce" reverse joints; the only two
+  87→01 bigrams in the whole text sit inside this formula. Reverse joints are
+  consistently shaped 64 X Y (Z) 87, never adjacent.
+  Evidence: `code/crowd2/context_miner_results.json` (curator re-derived).
+- F19 (2026-10-07, crowd2/hypothesis-sweeper): **96="par" CONFIRMED (4/4)** →
+  10th provisional lane-inferred value (inherits 87=ce's provisional status).
+  Legs: P(96)=0.0114 vs inflation-scaled era P("par")=0.0083 (1.37×); "parce"
+  compound P(87|96)=3/21=0.1429 vs era 132/1036=0.1274 (1.12×); "parce que"
+  frame 3/3=1.00 vs era P(que|parce)=1.0000 (elision fix moved 0.3258→1.0000);
+  15 predecessors / 12 followers diversity. Tension (unresolved): the context
+  miner's "ce qui 96 47 que" window doesn't parse with "par" — a verb does.
+  Evidence: `code/crowd2/hypothesis_sweeper_results.{md,json}`.
+- F20 (2026-10-07, crowd2/red-team): demotions. **24="est" demoted** — refuted as a
+  4-check confirmation case (check 3's P(ce|est)=0.118 was Les-Mis dialogue rate;
+  era 0.0099 is a 12× register gap and observed 0.1923 sits 19.4× over; check 4
+  never rate-checked, 31× fail under era; elision inconsistency — era P(est|c')=
+  0.914 predicts ~29/32 "c'est", observed 0); remains a weak open hypothesis at
+  best. **64="qui" demoted** CONFIRMED 4/4 → PROVISIONAL: check (b) conditioned on
+  provisional 87=ce; the factor-2 band admits qui (0.83), "qu'" elided que (1.50),
+  "n'" elided ne (1.97) — the band doesn't identify "qui". **Factor-2 band
+  methodology UNCALIBRATED**: never validated against ground truth; the sole
+  testable pair (que→la, n=29) is inconclusive; verdicts flip with corpus choice.
+  **F13 "joint contradiction" DISSOLVED**: era-matched binomial P(0/10)=0.247, not
+  significant (the 9.1e-04 used Les Mis rates — a register artifact).
+  Evidence: `code/crowd2/red_team_results.{md,json}`.
+- F21 (2026-10-07, crowd2/hypothesis-sweeper): new lead — **06 = verb stem**
+  (unscored, flagged for round 3). Era predecessors of "pas" are verbs 98%
+  (est 163, a 102, sont 43; "ne" only 20/984 = 2%); 06's follower set reads as a
+  verb-stem profile: 06→77(pas)=6, 06→29(er)=5 (infinitive X-er), 06→11(la)=4
+  (verb+object), 30 distinct predecessors. Explains both of "ne"'s anomalies at
+  once. Companion unknown: 67 (the other 6× predecessor of 77).
+  Evidence: `code/crowd2/hypothesis_sweeper_results.{md,json}`.
+- F22 (2026-10-07, crowd2/scorer-smith; inference, testable): encipherer
+  granularity claim — corpus P(standalone "er" unit)=0.0020 vs cipher 0.0255
+  (13× gap), but corpus P(unit *ends in letters* "er")=0.0211 ≈ cipher 0.0255:
+  the encipherer systematically stripped final "-er" (parl|er). Marked inference,
+  not finding. Evidence: `code/crowd2/scorer_smith_results.{md,json}`.
+- F23 (2026-10-07, crowd2/formula-tester; referred as round-3 work order): R4
+  **"-ment" word family promoted to live reading: 94=ne, 82=m ('m' is ground
+  truth ✓), 06=ent.** The 2 extra 94→82 instances (@578/@1181, outside the
+  ×2 repeat) are exactly what R4 predicts. Test bed for round 3.
+  Evidence: `code/crowd2/formula_tester_results.{md,json}`.
 
 ## Open hypotheses (not promoted — each needs ≥2 independent checks)
-- H1 (crib surgeon): **24="est"** — strong, 4 checks (rank-1 band; P(ce|24)=0.192 vs
-  1.7% base; "qu'est" elision ×3; Les Mis P(ce|est)=0.118 within 2×). Anomalies:
-  "est-ce que"=0×; "est cela"×3 (disfavors rival "c'est" by rate). If confirmed, the
-  24-87-46 0/10 becomes a hard joint problem for 87=ce (F11).
-- H2 (crib surgeon): **77="pas"** — 3 checks (rank-5 band; 06/77 ratio 1.045 ≈ Les Mis
-  ne/pas 0.959; 06→77 13% vs 2.4% base). Caveats: rival "ne"-like predecessor 67→77
-  ×6; 77 also leads the proper-noun-like r1 repeat.
-- H3 (crib surgeon): **06="ne"** — 3 checks (rank-3 band, ratio, bigram).
-- H4 (formula hunter): **96="par"/"de"** (licenses 96-87-46 "parce/de ce que" ×3);
-  **41="der"/08="ni"** ("dernière" @59–63, test).
-- H5 (linguist): **×5 repeat 77 78 94 82 06 = "J'ai l'honneur de"** — test l'-position
-  as single-letter consonant; check hon–neur adjacency.
+- H1 (crib surgeon → crowd2/closer + red-team): **24="est" — REFUTED as a confirmation
+  case** (N10, F20). 24 stays unidentified; the 45-word inversion sweep found no era
+  word fitting P(ce|V)≈0.19 ∧ P(V|que)≈0.10 — the empty intersection is itself a
+  datum pointing back at provisional 87=ce. Weak-open only.
+- H2 (crib surgeon → crowd2/hypothesis-sweeper): **77="pas" — INCONCLUSIVE.**
+  Survives as the best reading for 77 (la-follower 1.06×, freq, que-controls pass),
+  but its partner 06 is probably not "ne" (N14). 77="que" reopens if 06 is revalued.
+- H3 (crib surgeon → crowd2/hypothesis-sweeper): **06="ne" — INCONCLUSIVE** (two
+  unexplained bigram anomalies). Live alternative: **06 = verb stem** (F21) —
+  round-3 work order, with companion unknown 67.
+- H4 (formula hunter → crowd2/hypothesis-sweeper): **96="par" PROMOTED** — 10th
+  provisional value, CONFIRMED 4/4 (F19; tension: "ce qui 96 47 que" wants a verb).
+  **96="de" REFUTED** (N14). 41="der"/08="ni" INCONCLUSIVE (n=1).
+- H5 (linguist): **REFUTED** (N11). Replaced as live reading by R4 "-ment" family:
+  **94=ne, 82=m, 06=ent** (F23) — round-3 work order.
+- F9 status (2026-10-07, crowd2/red-team): 64="qui" demoted CONFIRMED 4/4 →
+  **PROVISIONAL** (F20). Still the best-tested reading of 64; needs a non-87=ce-
+  dependent confirmation leg.
+- F6 status: 87=ce remains **provisional, best-tested reading** (3/4 era, F10);
+  the closer's empty inversion intersection and the sweeper's 96="par" both
+  inherit its uncertainty. Resolving 87 is the lane's central open problem.
 - F9 (2026-10-07, this lane): **64="qui" — lane-inferred provisional anchor, CONFIRMED 4/4.**
   87→64 ×5 ("ce qui"); P(64|87)=0.1562 ≈ era P(qui|ce)=0.1878 ("qui" is the #1 follower
   of "ce" in Tocqueville, 213×); rank(64)=4 of 96 vs era rank("qui")=13; 46=que → 64 = 0;
   28 followers/28 predecessors, top share 0.07. Rival 64="ci" disfavoured (P(87|64)=0.109).
   9 anchors total. Evidence: `code/attempt3.py`, `data/attempt3_results.json`.
+  **REVISED same day (crowd2/red-team, F20): demoted to PROVISIONAL** — check (b)
+  conditioned on provisional 87=ce; factor-2 band admits qui/qu'/n'. Still the
+  best-tested reading of 64; needs a non-87=ce-dependent confirmation leg.
 - F10 (2026-10-07, this lane): **era-matched reference corpus built** (Tocqueville 1835/1840,
   214,861 words, formal prose). Rate comparison vs Les Mis (1862 novel): P(que|ce),
   P(qui|ce), P(la|de), P(la|à) all agree within factor 2; **n("cela")/n("ce") disagrees
@@ -394,3 +554,13 @@ Supersedes Les Mis as the rate reference (era + register match to the 1841 despa
   20e46d72bc398f1c903449908a35a691e0d32763234bc75b2376cd21dbe33ee9  data/gutenberg-30514-tocqueville-t2.txt
   (provenance: data/PROVENANCE-tocqueville.txt; hashes appended to data/SHA256SUMS.txt)
 Attempt 3 outputs: `code/attempt3.py`, `data/attempt3_results.json`.
+Crowd round 2 (2026-10-07) — six executors, coordinator-curated; each wrote only to
+`code/crowd2/` plus a report-inbox note per REPORTING.md
+(`code/crowd2/report_inbox/<name>-<topic>.md`, swept into REPORT.md every 2h):
+  code/crowd2/closer.py, closer_results.{md,json}
+  code/crowd2/formula_tester.py, formula_tester_results.{md,json}
+  code/crowd2/context_miner.py, context_miner_results.{md,json}
+  code/crowd2/scorer_smith.py, scorer_smith_results.{md,json}
+  code/crowd2/hypothesis_sweeper.py, hypothesis_sweeper_results.{md,json}
+  code/crowd2/red_team.py, red_team_results.{md,json}
+  (plus __pycache__/ — regenerable, not evidence)

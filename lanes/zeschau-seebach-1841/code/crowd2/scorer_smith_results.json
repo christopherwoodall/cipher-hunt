@@ -1,0 +1,786 @@
+{
+ "meta": {
+  "worker": "scorer-smith",
+  "work_order": 4,
+  "anchors": {
+   "11": "la",
+   "70": "pre",
+   "82": "m",
+   "34": "i",
+   "29": "er",
+   "40": "e",
+   "46": "que",
+   "87": "ce",
+   "64": "qui"
+  },
+  "provisional": [
+   "64",
+   "87"
+  ],
+  "corpus": "Tocqueville t1+t2 (1835/1840), rule-based syllabifier (documented in scorer_smith.py docstring)",
+  "syll_vocab": 2201,
+  "corpus_tokens": 215246,
+  "corpus_P_er_unit": 0.00197,
+  "cipher_P_er_cell": 0.02546,
+  "corpus_P_unit_ends_with_er": 0.02113,
+  "alpha": 0.1,
+  "window_halfwidth": 4,
+  "seed": 1841
+ },
+ "control": {
+  "design": "tail-1200w Tocqueville-t2, rule+encipher_split cells, 96-cell inventory (9 anchors pinned), random mapping seed=1841",
+  "n_words_in": 1200,
+  "n_words_kept": 814,
+  "elision_rate": 0.3217,
+  "n_pairs": 1815,
+  "n_groups": 93,
+  "anchor_coverage": 0.2882,
+  "letter_counts": {
+   "i": 166,
+   "m": 26,
+   "e": 215
+  },
+  "kappa": 0.9115,
+  "n_candidates": 198,
+  "n_test": 47,
+  "median_placements": 84,
+  "top1_acc": 0.0213,
+  "chance_top1": 0.0762,
+  "lift_over_chance": 0.28,
+  "mrr": 0.1332,
+  "pass_criteria": "top1 >= 3x chance AND mrr >= 0.30 AND n_test >= 10",
+  "passed": false,
+  "verdict": "BROKEN-ON-CONTROL",
+  "model_check": {
+   "true_run_mean": -3.1231,
+   "shuffled_run_mean": -3.9154,
+   "note": "model prefers true French runs; failure is in placement ranking, not the language model"
+  },
+  "rank_detail": [
+   {
+    "word": "de",
+    "cells": [
+     "d",
+     "e"
+    ],
+    "best_rank": 16,
+    "n_place": 193,
+    "n_true": 68,
+    "true_p": [
+     16,
+     38,
+     70,
+     98,
+     233,
+     243
+    ]
+   },
+   {
+    "word": "le",
+    "cells": [
+     "l",
+     "e"
+    ],
+    "best_rank": 4,
+    "n_place": 193,
+    "n_true": 34,
+    "true_p": [
+     6,
+     14,
+     43,
+     51,
+     66,
+     111
+    ]
+   },
+   {
+    "word": "ne",
+    "cells": [
+     "n",
+     "e"
+    ],
+    "best_rank": 16,
+    "n_place": 193,
+    "n_true": 2,
+    "true_p": [
+     18,
+     524
+    ]
+   },
+   {
+    "word": "une",
+    "cells": [
+     "u",
+     "n",
+     "e"
+    ],
+    "best_rank": 28,
+    "n_place": 138,
+    "n_true": 6,
+    "true_p": [
+     119,
+     124,
+     303,
+     311,
+     443,
+     515
+    ]
+   },
+   {
+    "word": "se",
+    "cells": [
+     "s",
+     "e"
+    ],
+    "best_rank": 138,
+    "n_place": 193,
+    "n_true": 4,
+    "true_p": [
+     32,
+     56,
+     135,
+     344
+    ]
+   },
+   {
+    "word": "elle",
+    "cells": [
+     "el",
+     "l",
+     "e"
+    ],
+    "best_rank": 130,
+    "n_place": 138,
+    "n_true": 3,
+    "true_p": [
+     933,
+     1093,
+     1508
+    ]
+   },
+   {
+    "word": "lui",
+    "cells": [
+     "lu",
+     "i"
+    ],
+    "best_rank": 10,
+    "n_place": 153,
+    "n_true": 3,
+    "true_p": [
+     72,
+     327,
+     416
+    ]
+   },
+   {
+    "word": "comme",
+    "cells": [
+     "com",
+     "m",
+     "e"
+    ],
+    "best_rank": 2,
+    "n_place": 6,
+    "n_true": 6,
+    "true_p": [
+     74,
+     116,
+     292,
+     321,
+     1335,
+     1489
+    ]
+   },
+   {
+    "word": "peuple",
+    "cells": [
+     "peu",
+     "pl",
+     "e"
+    ],
+    "best_rank": 32,
+    "n_place": 138,
+    "n_true": 3,
+    "true_p": [
+     1,
+     575,
+     662
+    ]
+   },
+   {
+    "word": "si",
+    "cells": [
+     "s",
+     "i"
+    ],
+    "best_rank": 122,
+    "n_place": 153,
+    "n_true": 2,
+    "true_p": [
+     430,
+     458
+    ]
+   },
+   {
+    "word": "union",
+    "cells": [
+     "u",
+     "n",
+     "i",
+     "on"
+    ],
+    "best_rank": 49,
+    "n_place": 84,
+    "n_true": 2,
+    "true_p": [
+     1720,
+     1753
+    ]
+   },
+   {
+    "word": "entre",
+    "cells": [
+     "en",
+     "tr",
+     "e"
+    ],
+    "best_rank": 53,
+    "n_place": 138,
+    "n_true": 1,
+    "true_p": [
+     362
+    ]
+   },
+   {
+    "word": "autre",
+    "cells": [
+     "au",
+     "tr",
+     "e"
+    ],
+    "best_rank": 121,
+    "n_place": 138,
+    "n_true": 1,
+    "true_p": [
+     1662
+    ]
+   },
+   {
+    "word": "dire",
+    "cells": [
+     "d",
+     "i",
+     "r",
+     "e"
+    ],
+    "best_rank": 2,
+    "n_place": 9,
+    "n_true": 3,
+    "true_p": [
+     347,
+     510,
+     561
+    ]
+   },
+   {
+    "word": "parmi",
+    "cells": [
+     "par",
+     "m",
+     "i"
+    ],
+    "best_rank": 2,
+    "n_place": 2,
+    "n_true": 1,
+    "true_p": [
+     266
+    ]
+   },
+   {
+    "word": "sera",
+    "cells": [
+     "s",
+     "e",
+     "ra"
+    ],
+    "best_rank": 112,
+    "n_place": 149,
+    "n_true": 1,
+    "true_p": [
+     353
+    ]
+   },
+   {
+    "word": "contre",
+    "cells": [
+     "con",
+     "tr",
+     "e"
+    ],
+    "best_rank": 35,
+    "n_place": 138,
+    "n_true": 2,
+    "true_p": [
+     488,
+     1308
+    ]
+   },
+   {
+    "word": "partie",
+    "cells": [
+     "par",
+     "t",
+     "i",
+     "e"
+    ],
+    "best_rank": 16,
+    "n_place": 16,
+    "n_true": 1,
+    "true_p": [
+     692
+    ]
+   },
+   {
+    "word": "idée",
+    "cells": [
+     "i",
+     "d",
+     "é",
+     "e"
+    ],
+    "best_rank": 25,
+    "n_place": 26,
+    "n_true": 1,
+    "true_p": [
+     1049
+    ]
+   },
+   {
+    "word": "the",
+    "cells": [
+     "th",
+     "e"
+    ],
+    "best_rank": 193,
+    "n_place": 193,
+    "n_true": 8,
+    "true_p": [
+     141,
+     159,
+     168,
+     181,
+     187,
+     197
+    ]
+   },
+   {
+    "word": "lieu",
+    "cells": [
+     "l",
+     "i",
+     "eu"
+    ],
+    "best_rank": 91,
+    "n_place": 104,
+    "n_true": 2,
+    "true_p": [
+     35,
+     62
+    ]
+   },
+   {
+    "word": "vient",
+    "cells": [
+     "v",
+     "i",
+     "ent"
+    ],
+    "best_rank": 22,
+    "n_place": 104,
+    "n_true": 2,
+    "true_p": [
+     53,
+     1248
+    ]
+   },
+   {
+    "word": "publique",
+    "cells": [
+     "pu",
+     "bl",
+     "i",
+     "que"
+    ],
+    "best_rank": 19,
+    "n_place": 19,
+    "n_true": 1,
+    "true_p": [
+     889
+    ]
+   },
+   {
+    "word": "juge",
+    "cells": [
+     "ju",
+     "g",
+     "e"
+    ],
+    "best_rank": 24,
+    "n_place": 138,
+    "n_true": 3,
+    "true_p": [
+     278,
+     434,
+     462
+    ]
+   },
+   {
+    "word": "race",
+    "cells": [
+     "ra",
+     "ce"
+    ],
+    "best_rank": 1,
+    "n_place": 1,
+    "n_true": 1,
+    "true_p": [
+     1732
+    ]
+   },
+   {
+    "word": "laquelle",
+    "cells": [
+     "la",
+     "quel",
+     "l",
+     "e"
+    ],
+    "best_rank": 4,
+    "n_place": 4,
+    "n_true": 1,
+    "true_p": [
+     130
+    ]
+   },
+   {
+    "word": "parti",
+    "cells": [
+     "par",
+     "t",
+     "i"
+    ],
+    "best_rank": 106,
+    "n_place": 124,
+    "n_true": 1,
+    "true_p": [
+     596
+    ]
+   },
+   {
+    "word": "publiques",
+    "cells": [
+     "pu",
+     "bl",
+     "i",
+     "ques"
+    ],
+    "best_rank": 83,
+    "n_place": 84,
+    "n_true": 2,
+    "true_p": [
+     785,
+     848
+    ]
+   },
+   {
+    "word": "parties",
+    "cells": [
+     "par",
+     "t",
+     "i",
+     "es"
+    ],
+    "best_rank": 77,
+    "n_place": 84,
+    "n_true": 2,
+    "true_p": [
+     85,
+     1076
+    ]
+   },
+   {
+    "word": "vices",
+    "cells": [
+     "v",
+     "i",
+     "ces"
+    ],
+    "best_rank": 97,
+    "n_place": 104,
+    "n_true": 1,
+    "true_p": [
+     865
+    ]
+   },
+   {
+    "word": "durée",
+    "cells": [
+     "du",
+     "r",
+     "é",
+     "e"
+    ],
+    "best_rank": 14,
+    "n_place": 76,
+    "n_true": 2,
+    "true_p": [
+     1746,
+     1783
+    ]
+   },
+   {
+    "word": "arriver",
+    "cells": [
+     "ar",
+     "r",
+     "i",
+     "ver"
+    ],
+    "best_rank": 7,
+    "n_place": 84,
+    "n_true": 1,
+    "true_p": [
+     532
+    ]
+   },
+   {
+    "word": "maintien",
+    "cells": [
+     "main",
+     "t",
+     "i",
+     "en"
+    ],
+    "best_rank": 6,
+    "n_place": 84,
+    "n_true": 5,
+    "true_p": [
+     1381,
+     1414,
+     1446,
+     1512,
+     1607
+    ]
+   },
+   {
+    "word": "page",
+    "cells": [
+     "pa",
+     "g",
+     "e"
+    ],
+    "best_rank": 133,
+    "n_place": 138,
+    "n_true": 1,
+    "true_p": [
+     249
+    ]
+   },
+   {
+    "word": "sessions",
+    "cells": [
+     "ses",
+     "s",
+     "i",
+     "ons"
+    ],
+    "best_rank": 18,
+    "n_place": 84,
+    "n_true": 1,
+    "true_p": [
+     28
+    ]
+   },
+   {
+    "word": "rarement",
+    "cells": [
+     "ra",
+     "r",
+     "e",
+     "ment"
+    ],
+    "best_rank": 93,
+    "n_place": 108,
+    "n_true": 1,
+    "true_p": [
+     519
+    ]
+   },
+   {
+    "word": "iii",
+    "cells": [
+     "i",
+     "i",
+     "i"
+    ],
+    "best_rank": 4,
+    "n_place": 4,
+    "n_true": 3,
+    "true_p": [
+     538,
+     542,
+     605
+    ]
+   },
+   {
+    "word": "gouverne",
+    "cells": [
+     "gou",
+     "ver",
+     "n",
+     "e"
+    ],
+    "best_rank": 34,
+    "n_place": 76,
+    "n_true": 1,
+    "true_p": [
+     579
+    ]
+   },
+   {
+    "word": "state",
+    "cells": [
+     "sta",
+     "t",
+     "e"
+    ],
+    "best_rank": 13,
+    "n_place": 138,
+    "n_true": 3,
+    "true_p": [
+     189,
+     206,
+     217
+    ]
+   },
+   {
+    "word": "viii",
+    "cells": [
+     "v",
+     "i",
+     "i",
+     "i"
+    ],
+    "best_rank": 4,
+    "n_place": 4,
+    "n_true": 1,
+    "true_p": [
+     1264
+    ]
+   },
+   {
+    "word": "ii",
+    "cells": [
+     "i",
+     "i"
+    ],
+    "best_rank": 2,
+    "n_place": 10,
+    "n_true": 1,
+    "true_p": [
+     584
+    ]
+   },
+   {
+    "word": "capable",
+    "cells": [
+     "ca",
+     "pa",
+     "bl",
+     "e"
+    ],
+    "best_rank": 68,
+    "n_place": 76,
+    "n_true": 1,
+    "true_p": [
+     904
+    ]
+   },
+   {
+    "word": "vi",
+    "cells": [
+     "v",
+     "i"
+    ],
+    "best_rank": 128,
+    "n_place": 153,
+    "n_true": 1,
+    "true_p": [
+     966
+    ]
+   },
+   {
+    "word": "voyage",
+    "cells": [
+     "voy",
+     "a",
+     "g",
+     "e"
+    ],
+    "best_rank": 16,
+    "n_place": 76,
+    "n_true": 1,
+    "true_p": [
+     100
+    ]
+   },
+   {
+    "word": "vii",
+    "cells": [
+     "v",
+     "i",
+     "i"
+    ],
+    "best_rank": 2,
+    "n_place": 6,
+    "n_true": 1,
+    "true_p": [
+     1099
+    ]
+   },
+   {
+    "word": "statute",
+    "cells": [
+     "sta",
+     "tu",
+     "t",
+     "e"
+    ],
+    "best_rank": 13,
+    "n_place": 76,
+    "n_true": 2,
+    "true_p": [
+     143,
+     199
+    ]
+   },
+   {
+    "word": "ier",
+    "cells": [
+     "i",
+     "er"
+    ],
+    "best_rank": 3,
+    "n_place": 3,
+    "n_true": 1,
+    "true_p": [
+     556
+    ]
+   }
+  ]
+ },
+ "verdict": "BROKEN-ON-CONTROL",
+ "real_drag": null,
+ "note": "Control FAILED: the scorer does not recover planted assignments above the pre-registered bar. Real drag NOT run (work order 4d). Do not use this scorer on the cipher."
+}

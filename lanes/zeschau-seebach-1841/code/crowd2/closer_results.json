@@ -1,0 +1,959 @@
+{
+ "meta": {
+  "worker": "closer",
+  "target": "24=\"est\" (crib-surgeon H1)",
+  "corpus": "tocqueville-1835-1840 (era-matched, formal prose)"
+ },
+ "cipher": {
+  "n_pairs": 1846,
+  "freq_24": 52,
+  "rank_24": 2,
+  "share_24": 0.02817,
+  "freq_87": 32,
+  "freq_46": 29,
+  "top12_groups": [
+   [
+    "00",
+    54
+   ],
+   [
+    "24",
+    52
+   ],
+   [
+    "29",
+    47
+   ],
+   [
+    "06",
+    46
+   ],
+   [
+    "64",
+    46
+   ],
+   [
+    "77",
+    44
+   ],
+   [
+    "11",
+    44
+   ],
+   [
+    "98",
+    40
+   ],
+   [
+    "82",
+    38
+   ],
+   [
+    "48",
+    38
+   ],
+   [
+    "67",
+    37
+   ],
+   [
+    "94",
+    36
+   ]
+  ],
+  "n_24_87": 10,
+  "p_87_given_24": 0.1923,
+  "p_87_base": 0.01733,
+  "n_46_24": 3,
+  "p_24_given_46": 0.1034,
+  "n_24_87_46": 0,
+  "p_46_given_87_pre24": 0.0,
+  "n_96_87_46": 3,
+  "p_46_given_87_pre96": 1.0,
+  "n_24_87_11": 3,
+  "pos_24_87_11": [
+   73,
+   162,
+   828
+  ],
+  "n_24_87_64": 3,
+  "pos_24_87_64": [
+   179,
+   1765,
+   1773
+  ],
+  "n_24_46": 0,
+  "p_46_given_24": 0.0,
+  "pos_46_24": [
+   546,
+   953,
+   1691
+  ],
+  "n_46_24_87_64": 0,
+  "n_46_24_87": 0,
+  "n_11_24": 4,
+  "pos_11_24": [
+   164,
+   731,
+   781,
+   1655
+  ],
+  "followers_24_87": [
+   [
+    "11",
+    3
+   ],
+   [
+    "64",
+    3
+   ],
+   [
+    "98",
+    1
+   ],
+   [
+    "61",
+    1
+   ],
+   [
+    "59",
+    1
+   ],
+   [
+    "08",
+    1
+   ]
+  ],
+  "followers_24_top10": [
+   [
+    "87",
+    10
+   ],
+   [
+    "85",
+    5
+   ],
+   [
+    "82",
+    4
+   ],
+   [
+    "30",
+    3
+   ],
+   [
+    "89",
+    3
+   ],
+   [
+    "37",
+    2
+   ],
+   [
+    "80",
+    2
+   ],
+   [
+    "26",
+    2
+   ],
+   [
+    "41",
+    2
+   ],
+   [
+    "65",
+    2
+   ]
+  ],
+  "n_followers_24": 25,
+  "predecessors_24_top10": [
+   [
+    "11",
+    4
+   ],
+   [
+    "01",
+    3
+   ],
+   [
+    "13",
+    3
+   ],
+   [
+    "84",
+    3
+   ],
+   [
+    "46",
+    3
+   ],
+   [
+    "14",
+    2
+   ],
+   [
+    "94",
+    2
+   ],
+   [
+    "16",
+    2
+   ],
+   [
+    "49",
+    2
+   ],
+   [
+    "86",
+    2
+   ]
+  ],
+  "n_predecessors_24": 34,
+  "ctx_24_87_11": [
+   [
+    "56",
+    "87",
+    "14",
+    "24",
+    "87",
+    "11",
+    "00",
+    "11",
+    "29"
+   ],
+   [
+    "93",
+    "52",
+    "94",
+    "24",
+    "87",
+    "11",
+    "24",
+    "82",
+    "84"
+   ],
+   [
+    "38",
+    "82",
+    "01",
+    "24",
+    "87",
+    "11",
+    "77",
+    "76",
+    "59"
+   ]
+  ],
+  "ctx_24_87_64": [
+   [
+    "21",
+    "69",
+    "14",
+    "24",
+    "87",
+    "64",
+    "23",
+    "37",
+    "06"
+   ],
+   [
+    "77",
+    "84",
+    "09",
+    "24",
+    "87",
+    "64",
+    "26",
+    "37",
+    "78"
+   ],
+   [
+    "78",
+    "62",
+    "94",
+    "24",
+    "87",
+    "64",
+    "59",
+    "19",
+    "48"
+   ]
+  ],
+  "ctx_46_24": [
+   [
+    "42",
+    "06",
+    "00",
+    "46",
+    "24",
+    "47",
+    "46",
+    "55"
+   ],
+   [
+    "86",
+    "96",
+    "87",
+    "46",
+    "24",
+    "85",
+    "04",
+    "20"
+   ],
+   [
+    "14",
+    "60",
+    "27",
+    "46",
+    "24",
+    "85",
+    "58",
+    "15"
+   ]
+  ]
+ },
+ "era": {
+  "n_words": 214861,
+  "rank_est": 15,
+  "share_est": 0.01085,
+  "rank_de": 1,
+  "share_de": 0.04253,
+  "rank_sont": 39,
+  "share_sont": 0.003849,
+  "rank_ont": 44,
+  "share_ont": 0.003114,
+  "n_cest_pseudo": 361,
+  "share_cest": 0.00168,
+  "p_ce_given_est": 0.0099,
+  "n_est_ce": 23,
+  "n_est": 2331,
+  "p_ce_given_de": 0.0167,
+  "n_de_ce": 153,
+  "p_ce_given_cest": 0.0388,
+  "n_cest_ce": 14,
+  "p_ce_given_sont": 0.0,
+  "n_sont_ce": 0,
+  "p_ce_given_ont": 0.0,
+  "n_ont_ce": 0,
+  "p_est_given_quequ": 0.0014,
+  "n_quequ_est": 7,
+  "p_de_given_que": 0.03,
+  "p_cest_given_que": 0.00349,
+  "n_que_cest": 10,
+  "p_sont_given_que": 0.0,
+  "p_ont_given_quequ": 0.00279,
+  "p_que_given_est_ce": 0.1304,
+  "n_est_ce_que": 3,
+  "p_que_given_de_ce": 0.1046,
+  "n_de_ce_que": 16,
+  "p_que_given_cest_ce": 0.1429,
+  "n_cest_ce_que": 2,
+  "p_que_given_est": 0.01373,
+  "n_est_que": 32,
+  "p_que_given_de": 0.00011,
+  "n_de_que": 1,
+  "p_que_given_cest": 0.0332,
+  "n_cest_que": 12,
+  "fol_est_ce": [
+   [
+    "qui",
+    7
+   ],
+   [
+    "qu",
+    4
+   ],
+   [
+    "que",
+    3
+   ],
+   [
+    "même",
+    2
+   ],
+   [
+    "point",
+    2
+   ],
+   [
+    "dont",
+    1
+   ],
+   [
+    "la",
+    1
+   ],
+   [
+    "donc",
+    1
+   ],
+   [
+    "surtout",
+    1
+   ],
+   [
+    "faire",
+    1
+   ]
+  ],
+  "fol_de_ce": [
+   [
+    "qui",
+    27
+   ],
+   [
+    "que",
+    16
+   ],
+   [
+    "qu",
+    14
+   ],
+   [
+    "droit",
+    9
+   ],
+   [
+    "monde",
+    9
+   ],
+   [
+    "phénomène",
+    6
+   ],
+   [
+    "livre",
+    5
+   ],
+   [
+    "grand",
+    4
+   ],
+   [
+    "même",
+    4
+   ],
+   [
+    "moment",
+    3
+   ],
+   [
+    "peuple",
+    3
+   ],
+   [
+    "fleuve",
+    3
+   ]
+  ],
+  "fol_cest_ce": [
+   [
+    "qui",
+    5
+   ],
+   [
+    "qu",
+    3
+   ],
+   [
+    "que",
+    2
+   ],
+   [
+    "même",
+    2
+   ],
+   [
+    "dont",
+    1
+   ],
+   [
+    "point",
+    1
+   ]
+  ],
+  "pre_est": [
+   [
+    "c",
+    361
+   ],
+   [
+    "n",
+    324
+   ],
+   [
+    "il",
+    317
+   ],
+   [
+    "qui",
+    83
+   ],
+   [
+    "en",
+    76
+   ],
+   [
+    "s",
+    73
+   ],
+   [
+    "elle",
+    49
+   ],
+   [
+    "y",
+    39
+   ],
+   [
+    "union",
+    25
+   ],
+   [
+    "lui",
+    22
+   ]
+  ],
+  "fol_est": [
+   [
+    "pas",
+    163
+   ],
+   [
+    "un",
+    86
+   ],
+   [
+    "le",
+    80
+   ],
+   [
+    "de",
+    70
+   ],
+   [
+    "donc",
+    68
+   ],
+   [
+    "plus",
+    62
+   ],
+   [
+    "la",
+    61
+   ],
+   [
+    "point",
+    59
+   ],
+   [
+    "à",
+    57
+   ],
+   [
+    "l",
+    51
+   ]
+  ],
+  "pre_de": [
+   [
+    "et",
+    353
+   ],
+   [
+    "plus",
+    120
+   ],
+   [
+    "état",
+    119
+   ],
+   [
+    "droit",
+    107
+   ],
+   [
+    "pas",
+    102
+   ],
+   [
+    "point",
+    98
+   ],
+   [
+    "que",
+    86
+   ],
+   [
+    "est",
+    70
+   ],
+   [
+    "nombre",
+    68
+   ],
+   [
+    "gouvernement",
+    64
+   ]
+  ],
+  "n_est_ce_la": 1,
+  "n_est_ce_là": 0,
+  "rank_en": 11,
+  "share_en": 0.01263,
+  "n_en": 2714,
+  "p_ce_given_en": 0.0074,
+  "n_en_ce": 20,
+  "p_en_given_quequ": 0.0217,
+  "n_quequ_en": 109,
+  "n_qu_en": 109,
+  "p_que_given_en_ce": 0.0,
+  "n_en_ce_que": 0,
+  "n_en_ce_qui": 1,
+  "p_que_given_en": 0.00074,
+  "n_en_que": 2,
+  "n_la_est": 0,
+  "n_là_est": 2,
+  "n_la_en": 0,
+  "n_l_en": 6,
+  "n_là_en": 1,
+  "n_la_de": 0,
+  "n_qu_est": 7,
+  "n_qu_est_ce": 4,
+  "inversion_p_ce_given_V": [
+   [
+    "tout",
+    0.1172
+   ],
+   [
+    "sur",
+    0.0357
+   ],
+   [
+    "mais",
+    0.0218
+   ],
+   [
+    "dans",
+    0.0192
+   ],
+   [
+    "de",
+    0.0167
+   ],
+   [
+    "par",
+    0.0125
+   ],
+   [
+    "est",
+    0.0099
+   ],
+   [
+    "que",
+    0.0091
+   ],
+   [
+    "nous",
+    0.008
+   ],
+   [
+    "en",
+    0.0074
+   ],
+   [
+    "et",
+    0.007
+   ],
+   [
+    "avec",
+    0.0064
+   ]
+  ],
+  "inversion_p_V_given_quequ": [
+   [
+    "il",
+    0.1045
+   ],
+   [
+    "les",
+    0.0846
+   ],
+   [
+    "on",
+    0.0798
+   ],
+   [
+    "la",
+    0.067
+   ],
+   [
+    "le",
+    0.0617
+   ],
+   [
+    "un",
+    0.0307
+   ],
+   [
+    "dans",
+    0.0257
+   ],
+   [
+    "en",
+    0.0217
+   ],
+   [
+    "une",
+    0.0182
+   ],
+   [
+    "je",
+    0.018
+   ],
+   [
+    "de",
+    0.0172
+   ],
+   [
+    "nous",
+    0.011
+   ]
+  ]
+ },
+ "register_gap_diagnostic": {
+  "note": "DIAGNOSTIC ONLY: explains why H1 passed under Les Mis. Verdict uses era.",
+  "n_words": 119514,
+  "lesmis_p_ce_given_est": 0.1177,
+  "lesmis_n_est_ce": 133,
+  "lesmis_n_est": 1130,
+  "lesmis_p_est_given_quequ": 0.0156,
+  "lesmis_fol_est_ce": [
+   [
+    "que",
+    67
+   ],
+   [
+    "qu",
+    17
+   ],
+   [
+    "pas",
+    16
+   ],
+   [
+    "qui",
+    15
+   ],
+   [
+    "sur",
+    2
+   ],
+   [
+    "bonhomme",
+    1
+   ],
+   [
+    "un",
+    1
+   ],
+   [
+    "décidément",
+    1
+   ],
+   [
+    "une",
+    1
+   ],
+   [
+    "monsieur",
+    1
+   ]
+  ],
+  "lesmis_n_est_ce_la": 0,
+  "lesmis_n_est_ce_là": 1,
+  "lesmis_n_est_ce_qui": 15,
+  "lesmis_n_est_ce_que": 67,
+  "register_gap_p_ce_given_est": 11.9
+ },
+ "concordances": {
+  "era_est_ce": [
+   "l homme c est ce que",
+   "de hiérarchique c est ce qui",
+   "d administration c est ce qui",
+   "aide mais c est ce dont",
+   "ses affaires c est ce qui",
+   "agir note c est ce qu"
+  ],
+  "era_qu_est": [
+   "loin la poussière qu est devenu",
+   "l état ce qu est le",
+   "de société car qu est ce",
+   "langage d esclave qu est ce",
+   "est en angleterre qu est né",
+   "à la liberté qu est ce",
+   "et l ignominie qu est ce"
+  ]
+ },
+ "scores": {
+  "est": {
+   "checks": {
+    "A_unigram": false,
+    "B_follower": false,
+    "C_predecessor": false,
+    "D_trigram": true,
+    "D_binom_p0": 0.247284,
+    "E_negcontrol": false
+   },
+   "pass": 1,
+   "fail": 4,
+   "n_decided": 5
+  },
+  "c'est": {
+   "checks": {
+    "A_unigram": false,
+    "B_follower": false,
+    "C_predecessor": false,
+    "D_trigram": true,
+    "D_binom_p0": 0.213951,
+    "E_negcontrol": false
+   },
+   "pass": 1,
+   "fail": 4,
+   "n_decided": 5
+  },
+  "de": {
+   "checks": {
+    "A_unigram": true,
+    "B_follower": false,
+    "C_predecessor": false,
+    "D_trigram": true,
+    "D_binom_p0": 0.331261,
+    "E_negcontrol": true
+   },
+   "pass": 3,
+   "fail": 2,
+   "n_decided": 5
+  },
+  "en": {
+   "checks": {
+    "A_unigram": false,
+    "B_follower": false,
+    "C_predecessor": false,
+    "D_trigram": true,
+    "D_binom_p0": 1.0,
+    "E_negcontrol": true
+   },
+   "pass": 2,
+   "fail": 3,
+   "n_decided": 5
+  },
+  "sont": {
+   "checks": {
+    "A_unigram": false,
+    "B_follower": false,
+    "C_predecessor": false,
+    "D_trigram": null,
+    "E_negcontrol": null
+   },
+   "pass": 0,
+   "fail": 3,
+   "n_decided": 3
+  },
+  "ont": {
+   "checks": {
+    "A_unigram": false,
+    "B_follower": false,
+    "C_predecessor": false,
+    "D_trigram": null,
+    "E_negcontrol": null
+   },
+   "pass": 0,
+   "fail": 3,
+   "n_decided": 3
+  }
+ },
+ "h1_regrade": [
+  {
+   "check": "1. rank-1 frequency band",
+   "cipher": "freq 52, rank 1/96, share 2.817%",
+   "era": "rank(est)=15, share=1.0850%; rank(de)=1 share=4.2530%",
+   "verdict": "DOWNGRADED",
+   "note": "cipher rank 1 matches \"de\" (era rank 1), not \"est\" (era rank 15); share 2.82% is 2.6x the era \"est\" word rate"
+  },
+  {
+   "check": "2. P(ce|24)=0.192 vs 1.7% base",
+   "cipher": "P(87|24)=10/52=0.1923, base P(87)=32/1846=0.01733 (11.1x)",
+   "era": "P(ce|est)=0.0099 (n=23/2331)",
+   "verdict": "FAIL",
+   "note": "factor-2 band vs era rate"
+  },
+  {
+   "check": "3. qu'est elision x3 (46->24)",
+   "cipher": "46->24 = 3/29 = 0.1034 @[546, 953, 1691]",
+   "era": "P(est|que,qu)=0.0014 (n=7)",
+   "verdict": "FAIL",
+   "note": "factor-2 band vs era rate"
+  },
+  {
+   "check": "4. P(ce|est) within 2x (was Les Mis 0.118)",
+   "cipher": "same as check 2",
+   "era": "era P(ce|est)=0.0099 replaces Les Mis 0.118",
+   "verdict": "FAIL",
+   "note": "era-matched re-validation of the old Les Mis leg"
+  }
+ ],
+ "joint_contradiction": {
+  "cipher": "P(46|87,pre=24)=0/10; P(46|87,pre=96)=3/3",
+  "era_p_que_given_est_ce": 0.1304,
+  "binom_p0_n10_est": 0.247284,
+  "era_p_que_given_de_ce": 0.1046,
+  "binom_p0_n10_de": 0.331261,
+  "note": "under 24=est AND 87=ce, \"est-ce\" should be followed by \"que\" at the era rate; 0/10 observed. Under 24=de AND 87=ce, \"de ce\" -> \"que\" is even more expected (\"de ce que\")."
+ },
+ "est_cela_anomaly": {
+  "cipher_trigram": "24-87-11 x3 @[73, 162, 828]",
+  "contexts": [
+   [
+    "56",
+    "87",
+    "14",
+    "24",
+    "87",
+    "11",
+    "00",
+    "11",
+    "29"
+   ],
+   [
+    "93",
+    "52",
+    "94",
+    "24",
+    "87",
+    "11",
+    "24",
+    "82",
+    "84"
+   ],
+   [
+    "38",
+    "82",
+    "01",
+    "24",
+    "87",
+    "11",
+    "77",
+    "76",
+    "59"
+   ]
+  ],
+  "era_n_est_ce_la": 1,
+  "era_n_est_ce_là": 0,
+  "era_n_est_ce": 23,
+  "reading_if_est": "\"est cela\" (ungrammatical declarative) OR \"est-ce là\" (requires 11=la/là homophony)",
+  "reading_if_cest": "\"c'est cela\" x3 (idiomatic)"
+ }
+}

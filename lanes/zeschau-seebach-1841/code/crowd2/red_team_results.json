@@ -1,0 +1,612 @@
+{
+ "checks": {
+  "A_24_est": {
+   "check1_rank": {
+    "freq_24": 52,
+    "rank_24": 2,
+    "era_rank_est": 15,
+    "era_rank_en": 11,
+    "era_rank_de": 1,
+    "era_share_est": 0.010848874388558184,
+    "era_share_en": 0.0126314221752668,
+    "cipher_share_24": 0.028169014084507043
+   },
+   "check2_bigram": {
+    "cipher_P87_given_24": 0.1923,
+    "n": "10/52",
+    "era_Pce_given_est": 0.0099,
+    "era_Pce_given_en": 0.0074,
+    "era_Pce_given_de": 0.0167,
+    "ratio_vs_est": 19.425,
+    "ratio_vs_en": 25.988,
+    "ratio_vs_de": 11.515
+   },
+   "check4_elision": {
+    "count_46_24": 3,
+    "positions": [
+     546,
+     953,
+     1691
+    ],
+    "contexts": [
+     [
+      "42 06 00",
+      "46",
+      "24",
+      "47 46 55"
+     ],
+     [
+      "86 96 87",
+      "46",
+      "24",
+      "85 04 20"
+     ],
+     [
+      "14 60 27",
+      "46",
+      "24",
+      "85 58 15"
+     ]
+    ],
+    "era_n_qu": 2150,
+    "era_P_est_given_qu": 0.0033,
+    "era_P_en_given_qu": 0.0507,
+    "cipher_P24_given_46": 0.1034
+   },
+   "discriminator_87_24": {
+    "cipher_87_24": 0,
+    "cipher_P24_given_87": 0.0,
+    "era_P_est_given_ce": 0.0,
+    "era_n_ce_est": 0,
+    "era_n_ce": 1134,
+    "era_P_en_given_ce": 0.0,
+    "era_n_ce_en": 0
+   },
+   "anomaly_est_cela": {
+    "count_24_87_11": 3,
+    "positions": [
+     73,
+     162,
+     828
+    ],
+    "cipher_P11_given_24": 0.0192,
+    "cipher_P11_given_24_87": 0.3,
+    "era_P_cela_given_est": 0.0,
+    "era_P_cela_given_en": 0.00111,
+    "era_n_est_cela": 0,
+    "era_n_est": 2331,
+    "era_n_en_cela": 3,
+    "era_n_en": 2714
+   },
+   "miss_est_ce_que": {
+    "count_24_87_46": 0,
+    "era_n_est_ce": 23,
+    "era_n_est_ce_que": 3,
+    "era_P_que_given_est_ce": 0.1304,
+    "binom_P0_of_10": 0.2472,
+    "era_n_en_ce": 20,
+    "era_n_en_ce_que": 0
+   },
+   "rival_de_refutation": {
+    "era_n_de_ce": 153,
+    "era_n_de_ce_que": 16,
+    "era_P_que_given_de_ce": 0.1046
+   },
+   "frame_24_87_64": {
+    "count": 3,
+    "positions": [
+     179,
+     1765,
+     1773
+    ],
+    "era_n_en_ce_qui": 1,
+    "era_n_est_ce_qui": 7,
+    "era_n_de_ce_qui": 27
+   },
+   "followers_24_top10": [
+    [
+     "87",
+     10
+    ],
+    [
+     "85",
+     5
+    ],
+    [
+     "82",
+     4
+    ],
+    [
+     "30",
+     3
+    ],
+    [
+     "89",
+     3
+    ],
+    [
+     "37",
+     2
+    ],
+    [
+     "80",
+     2
+    ],
+    [
+     "26",
+     2
+    ],
+    [
+     "41",
+     2
+    ],
+    [
+     "65",
+     2
+    ]
+   ],
+   "era_followers_est_top10": [
+    [
+     "pas",
+     163
+    ],
+    [
+     "un",
+     86
+    ],
+    [
+     "le",
+     80
+    ],
+    [
+     "de",
+     70
+    ],
+    [
+     "donc",
+     68
+    ],
+    [
+     "plus",
+     62
+    ],
+    [
+     "la",
+     61
+    ],
+    [
+     "point",
+     59
+    ],
+    [
+     "\u00e0",
+     57
+    ],
+    [
+     "l",
+     51
+    ]
+   ],
+   "era_followers_en_top10": [
+    [
+     "am\u00e9rique",
+     227
+    ],
+    [
+     "g\u00e9n\u00e9ral",
+     98
+    ],
+    [
+     "france",
+     77
+    ],
+    [
+     "est",
+     76
+    ],
+    [
+     "m\u00eame",
+     72
+    ],
+    [
+     "quelque",
+     71
+    ],
+    [
+     "europe",
+     69
+    ],
+    [
+     "mati\u00e8re",
+     37
+    ],
+    [
+     "a",
+     32
+    ],
+    [
+     "angleterre",
+     29
+    ]
+   ],
+   "elision_branch_analysis": {
+    "era_P_est_given_c_elided": 0.9139,
+    "era_n_c_est": 361,
+    "era_n_c": 395,
+    "cipher_87_24": 0,
+    "cipher_n_87": 32,
+    "branch_split_elisions": "expected 87->24 ~= 29/32; observed 0 -> kills 24=est under this branch",
+    "branch_unsplit_elisions": "87->24=0 void; but then check-4 (46-24=qu_est) is void too (46 must cover elided qu)",
+    "note": "lane has never established whether groups split elisions; check 4 assumed split for 46 without addressing 87"
+   },
+   "rival_tout": {
+    "era_rank_tout": 76,
+    "era_share_tout": 0.0018,
+    "cipher_share_24": 0.0282,
+    "era_P_ce_given_tout": 0.1172,
+    "in_band": true,
+    "refuted_by": "share 16x off (rank 76 vs cipher rank 2); era P(tout|que)=0.0056 vs cipher P(24|46)=0.103 (18x)",
+    "era_n_tout_ce_que": 5,
+    "era_P_que_given_tout_ce": 0.1111
+   },
+   "no_era_word_in_band": "except tout (refuted above), no era word X with n>=50 has P(ce|X) in [0.096,0.385]"
+  },
+  "B_64_qui": {
+   "check_a_rank": {
+    "freq_64": 46,
+    "rank_64": 5,
+    "cipher_share_64": 0.0249,
+    "era_rank_qui": 14,
+    "era_share_qui": 0.011,
+    "era_rank_qu": 18,
+    "era_share_qu": 0.01
+   },
+   "check_b_bigram": {
+    "cipher_P64_given_87": 0.1562,
+    "n": "5/32",
+    "era_P_qui_given_ce": 0.1878,
+    "era_P_qu_given_ce": 0.1041,
+    "era_P_n_given_ce": 0.0794,
+    "era_top_followers_of_ce": [
+     [
+      "qui",
+      213
+     ],
+     [
+      "que",
+      122
+     ],
+     [
+      "qu",
+      118
+     ],
+     [
+      "n",
+      90
+     ],
+     [
+      "sont",
+      59
+     ],
+     [
+      "point",
+      46
+     ],
+     [
+      "moment",
+      21
+     ],
+     [
+      "m\u00eame",
+      18
+     ],
+     [
+      "fut",
+      16
+     ],
+     [
+      "droit",
+      15
+     ]
+    ],
+    "band": [
+     0.0781,
+     0.3125
+    ],
+    "in_band_qui": true,
+    "in_band_qu_elided_que": true,
+    "in_band_n_elided_ne": true
+   },
+   "rival_ci": {
+    "cipher_P87_given_64": 0.1087,
+    "era_P_ce_given_qui": null,
+    "era_P_ci_given_ce": null
+   },
+   "check_c_negcontrol": {
+    "cipher_46_64": 0,
+    "era_P_qui_given_que": 0.0,
+    "era_P_qu_given_que": 0.0,
+    "era_P_n_given_que": 0.0028,
+    "era_n_que": 2862
+   },
+   "check_d_spread": {
+    "64_qui": {
+     "n_fol": 28,
+     "n_pre": 28,
+     "top_share": 0.065,
+     "n": 46
+    },
+    "controls": {
+     "06": {
+      "n_fol": 23,
+      "n_pre": 30,
+      "top_share": 0.13,
+      "n": 46
+     },
+     "77": {
+      "n_fol": 20,
+      "n_pre": 22,
+      "top_share": 0.159,
+      "n": 44
+     },
+     "24": {
+      "n_fol": 25,
+      "n_pre": 34,
+      "top_share": 0.192,
+      "n": 52
+     },
+     "87": {
+      "n_fol": 16,
+      "n_pre": 14,
+      "top_share": 0.219,
+      "n": 32
+     },
+     "11": {
+      "n_fol": 29,
+      "n_pre": 23,
+      "top_share": 0.091,
+      "n": 44
+     },
+     "46": {
+      "n_fol": 23,
+      "n_pre": 17,
+      "top_share": 0.103,
+      "n": 29
+     },
+     "16": {
+      "n_fol": 21,
+      "n_pre": 11,
+      "top_share": 0.143,
+      "n": 28
+     },
+     "01": {
+      "n_fol": 20,
+      "n_pre": 21,
+      "top_share": 0.138,
+      "n": 29
+     }
+    }
+   },
+   "dependency": {
+    "checks_conditioning_on_87": [
+     "b (P(64|87) vs P(qui|ce))"
+    ],
+    "anchor_87_status": "provisional (F6: best-tested reading, cela-leg register-dependent)",
+    "anchor_independent_checks": [
+     "a (rank)",
+     "c (46->64=0, ground truth)",
+     "d (spread)"
+    ]
+   },
+   "followers_64": [
+    [
+     "77",
+     3
+    ],
+    [
+     "96",
+     3
+    ],
+    [
+     "29",
+     3
+    ],
+    [
+     "59",
+     3
+    ],
+    [
+     "37",
+     3
+    ],
+    [
+     "98",
+     2
+    ],
+    [
+     "32",
+     2
+    ],
+    [
+     "31",
+     2
+    ],
+    [
+     "79",
+     2
+    ],
+    [
+     "26",
+     2
+    ],
+    [
+     "06",
+     2
+    ],
+    [
+     "47",
+     2
+    ]
+   ],
+   "predecessors_64": [
+    [
+     "87",
+     5
+    ],
+    [
+     "03",
+     4
+    ],
+    [
+     "45",
+     3
+    ],
+    [
+     "37",
+     3
+    ],
+    [
+     "65",
+     3
+    ],
+    [
+     "39",
+     2
+    ],
+    [
+     "67",
+     2
+    ],
+    [
+     "92",
+     2
+    ],
+    [
+     "49",
+     2
+    ],
+    [
+     "21",
+     2
+    ],
+    [
+     "17",
+     1
+    ],
+    [
+     "56",
+     1
+    ]
+   ],
+   "rival_framing_corrected": {
+    "cipher_P87_given_64": 0.1087,
+    "era_P_ce_precedes_qui": 0.0903,
+    "ratio": 1.204,
+    "reading": "weak PASS for qui (in band); does not disfavour ci-as-syllable (uncomputable)"
+   },
+   "check_a_share": {
+    "cipher_share_64": 0.0249,
+    "era_share_qui": 0.011,
+    "share_ratio": 2.269,
+    "note": "2.27x: outside strict factor-2 share reading; rank-band claim is qualitative"
+   }
+  },
+  "C_band_audit": {
+   "calibration_ground_truth": {
+    "cipher_P11_given_46": 0.0345,
+    "era_P_la_given_que": 0.1174,
+    "cipher_P46_given_11": 0.0,
+    "era_P_que_given_la": 0.0,
+    "cipher_P46_given_46": 0.0,
+    "era_P_que_given_que": 0.0,
+    "band_pass_cipher_P11_given_46": false,
+    "band_pass_cipher_P46_given_11": null
+   },
+   "band_edges": {
+    "87ce_Pque_given_87": {
+     "obs": 0.0938,
+     "ref": 0.1076,
+     "ratio": 0.871,
+     "dist_to_edge": 1.743
+    },
+    "64qui_P64_given_87": {
+     "obs": 0.1562,
+     "ref": 0.1878,
+     "ratio": 0.832,
+     "dist_to_edge": 1.664
+    },
+    "64qui_rival_qu": {
+     "obs": 0.1562,
+     "ref": 0.1041,
+     "ratio": 1.502,
+     "dist_to_edge": 1.332
+    },
+    "64qui_rival_n": {
+     "obs": 0.1562,
+     "ref": 0.0794,
+     "ratio": 1.969,
+     "dist_to_edge": 1.016
+    },
+    "24est_Pce_given_24_vs_est": {
+     "obs": 0.1923,
+     "ref": 0.0099,
+     "ratio": 19.49,
+     "dist_to_edge": 0.103
+    },
+    "24est_Pce_given_24_vs_en": {
+     "obs": 0.1923,
+     "ref": 0.0074,
+     "ratio": 26.096,
+     "dist_to_edge": 0.077
+    }
+   },
+   "cela_leg_band_sensitivity": {
+    "obs_P11_given_87": 0.2188,
+    "lesmis_unigram_ratio": 0.278,
+    "era_unigram_ratio": 0.0414,
+    "band_halfwidth_needed_lesmis": 0.79,
+    "band_halfwidth_needed_era": 5.28
+   }
+  },
+  "D_honneur": {
+   "r1_repeat": {
+    "count_pair_aligned": 2,
+    "positions": [
+     1179,
+     1350
+    ],
+    "upstream_claimed": 5,
+    "raw_substring_claimed": 4,
+    "position4_group": "82",
+    "position4_ground_truth": "m (pencil crib)",
+    "phrase_position4_required": "neur (j-ai/l/hon/NEUR/de)"
+   },
+   "opening_zone": {
+    "r1_in_opening_100": []
+   }
+  }
+ },
+ "verdicts": {
+  "H1_24_est": "DEMOTE: refuted as a 4-check confirmation case (R1-R5). Remains a weak open hypothesis; the 11x enrichment P(87|24)=0.192 vs base 0.017 is real but has no era-French word explanation under 87=ce.",
+  "F9_64_qui": "DEMOTE: CONFIRMED 4/4 -> PROVISIONAL (R1-R4). qui remains the best single reading but the band admits qu and n, and check (b) rests on provisional 87=ce.",
+  "H5_honneur": "KILL: K1 (count premise void: x2 pair-aligned, not x5) and K2 (position 4 = 82 = m ground truth vs required neur).",
+  "band_methodology": "UNCALIBRATED: never validated on ground truth (sole testable pair inconclusive at n=29); verdicts flip with corpus choice; elision-blind tokenizer; admits non-identification."
+ },
+ "numbers": {
+  "cipher": {
+   "pairs": 1846,
+   "distinct": 96,
+   "freq_24": 52,
+   "rank_24": 2,
+   "freq_87": 32,
+   "rank_87": 16,
+   "freq_64": 46,
+   "rank_64": 5,
+   "freq_46": 29,
+   "freq_11": 44
+  },
+  "era": {
+   "words": 214861
+  }
+ }
+}
