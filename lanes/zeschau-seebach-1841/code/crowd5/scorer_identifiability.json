@@ -388,7 +388,168 @@
     "primary_top1": 0.0,
     "islets": 0
    }
-  ]
+  ],
+  "route_a_basin": [
+   {
+    "k": 5,
+    "mean_recovered": 0.33,
+    "detail": [
+     {
+      "recovered": 0,
+      "k": 5,
+      "end": -2.47
+     },
+     {
+      "recovered": 1,
+      "k": 5,
+      "end": -2.59
+     },
+     {
+      "recovered": 0,
+      "k": 5,
+      "end": -2.59
+     }
+    ]
+   },
+   {
+    "k": 10,
+    "mean_recovered": 0.67,
+    "detail": [
+     {
+      "recovered": 1,
+      "k": 10,
+      "end": -2.71
+     },
+     {
+      "recovered": 0,
+      "k": 10,
+      "end": -2.51
+     },
+     {
+      "recovered": 1,
+      "k": 10,
+      "end": -2.81
+     }
+    ]
+   },
+   {
+    "k": 20,
+    "mean_recovered": 0.0,
+    "detail": [
+     {
+      "recovered": 0,
+      "k": 20,
+      "end": -2.9
+     },
+     {
+      "recovered": 0,
+      "k": 20,
+      "end": -2.63
+     },
+     {
+      "recovered": 0,
+      "k": 20,
+      "end": -2.88
+     }
+    ]
+   }
+  ],
+  "route_b": {
+   "inventory_coverage": {
+    "small_inventory": 301,
+    "full_inventory": 617,
+    "bar_group_primaries_in_small": "20/20",
+    "note": "top-300 corpus cells + 15 known cells (pins/hints/islet readings)"
+   },
+   "b1_hard_known": {
+    "pins": 12,
+    "islets_fixed": [
+     "00",
+     "16",
+     "59"
+    ],
+    "inventory": 301,
+    "design": "5 correct hints -> hard pins; 3 islet (v1,v2,w2) hard-coded to truth (E-step still per-occurrence); 301-cell inventory",
+    "restarts": [
+     {
+      "restart": 0,
+      "best": -33.56,
+      "primary_top1": 0.4,
+      "islets": 1,
+      "decode_agreement": 0.087
+     },
+     {
+      "restart": 1,
+      "best": -33.56,
+      "primary_top1": 0.35,
+      "islets": 1,
+      "decode_agreement": 0.087
+     },
+     {
+      "restart": 2,
+      "best": -33.54,
+      "primary_top1": 0.35,
+      "islets": 1,
+      "decode_agreement": 0.099
+     }
+    ],
+    "note": "search reaches within 0.13 nats of the truth ceiling; top1 4x baseline but still < 0.50 bar"
+   },
+   "b1_truth_ceiling": {
+    "total": -33.43,
+    "s_let": -3.4313,
+    "note": "all v1 known + islets fixed, emitted decode"
+   },
+   "b2_conditioned_polyvalence": {
+    "groups_tested": 15,
+    "verified": 0,
+    "true_islets_verified": 0,
+    "method": "force-add best local v2 candidate, E-step, chi-square (df=4, p<0.01) on pre-group x v2-choice; implements word-pattern R4/F33",
+    "islet_rows": [
+     {
+      "group": "59",
+      "v2_candidate": "è",
+      "n_v2_chosen": "20/26",
+      "pre_chi2": 3.36,
+      "verified": false
+     },
+     {
+      "group": "00",
+      "v2_candidate": "n",
+      "n_v2_chosen": "23/23",
+      "pre_chi2": 0.0,
+      "verified": false
+     },
+     {
+      "group": "16",
+      "v2_candidate": "k",
+      "n_v2_chosen": "14/14",
+      "pre_chi2": 0.0,
+      "verified": false
+     }
+    ],
+    "interpretation": "honest negative: the control plants UNCONDITIONED islet coins, so no conditioning verifies. Documents the control-vs-F33 gap: the control cannot test conditioned-polyvalence machinery."
+   },
+   "b3_small_inventory_only": {
+    "design": "301-cell inventory, 7 pins only (no hard readings)",
+    "restarts": [
+     {
+      "restart": 0,
+      "best": -2.83,
+      "primary_top1": 0.05,
+      "islets": 0
+     },
+     {
+      "restart": 1,
+      "best": -2.67,
+      "primary_top1": 0.05,
+      "islets": 0
+     }
+    ],
+    "note": "inventory shrink alone is not enough; no better than baseline"
+   },
+   "provenance": "RECONSTRUCTED 2026-10-07 ~16:30Z from /tmp/r5b.log after route-a overwrote this file (both scripts shared one JSON; the numbers above are the logged values, verified against the earlier detailed printout)"
+  }
  },
  "meta": {
   "seed": 1841,
@@ -396,7 +557,7 @@
    40000,
    41100
   ],
-  "updated": "2026-10-07T16:15:34Z",
+  "updated": "2026-10-07T16:28:56Z",
   "contact_graph": "jaccard-top10, k=8 neighbors"
  }
 }

@@ -642,6 +642,61 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   real — future drags need ANCHOR-PRESERVING controls. Frame bug caught before
   damage (first slider parsed 1,882 pairs vs canonical 1,846; re-parsed,
   prereg amended v1.1). Evidence: `code/sidepath/`.
+- **N35 (2026-10-07, crowd5/frenchman; red-team: promotion DENIED →
+  FENCED-LEAD):** the instrument-independent third leg for 62="on" FAILED the
+  N28 bar. Leg 1 (subject battery + "il"-differential): the subject-position
+  premise is ear-derived and undisclosed as such; unigram rates favor "il"
+  (1.50×) over "on" (2.59×); the "il"-differential (46→62=0/29, p=0.041) is
+  ear-contingent — the qu'on/qu'il merger asymmetry is asserted, and the same
+  ear merges /kil/ too. Leg 2 (follower profile χ²=11.24, p=0.024): INVALID as
+  reported — 3/4 cells have expected <5; exact MC p=0.045 full but 0.0675 minus
+  the recycled ne datum; the profile fits "il" equally (logL favors il).
+  46→62 null = one datum, two uses; the discriminative use is ear-contingent.
+  62="on" stays STRONG LEAD on legs 1&3. Fence: on-vs-il discrimination needs
+  a non-ear resolution (follower profile with n≫2 in independent cells, or a
+  word-space grammatical asymmetry). Methodology flags F26-5–F26-8 banked.
+  Evidence: `code/crowd5/frenchman62_leg3.{py,md,json}`,
+  `code/crowd5/redteam/audit_frenchman62.py`.
+- **N36 (2026-10-07, crowd5/scorer-smith):** N30's "model-correct" REFUTED on
+  re-derivation — the joint engine's polyvalence penalty is ~100× over scale
+  (10 nats key-level vs per-letter-normalized letter term); truth sits ~30
+  nats BELOW the annealed nonsense on the actual search objective (N30
+  compared truth-with-penalty-off vs annealed-with-penalty-on:
+  apples-to-oranges). Route (a) better search FAILS: baseline, parallel
+  tempering, and smarter proposals all converge to the fluent-nonsense band
+  (top1 ≤0.10, bar 0.50); **basin test decisive** — perturb truth by k groups,
+  all 9 low-T descents walk AWAY from truth (3/105 recovered): there is no
+  basin around truth; the landscape slopes AWAY from it (N30's "flat
+  landscape" framing was wrong in the precise sense). Route (b) shrink space
+  PARTIAL: 12 pins + fixed islets + 301 cells reaches within 0.13 nats of the
+  truth ceiling (top1 0.35–0.40, 4× baseline) — search CAN reach truth's
+  neighborhood under constraints; but letter-model miscalibration (−3.11
+  nonsense beats −3.64 truth/letter) is independent of search or space size.
+  Gate holds: NO R5005 run — the current engine would confidently return
+  fluent nonsense. Ordered next: repair the objective (lam_poly scale;
+  import side fleet's phonetic projection + spanning word bonus +
+  concentration penalty) BEFORE more search work. Evidence:
+  `code/crowd5/scorer_identifiability.{py,md,json}`,
+  `code/crowd5/homophonic_synergy.md`.
+- **N37 (2026-10-07, crowd5/segmenter):** rotation-meaning ideas KILLED with
+  pre-registered falsification tests (all cipher-internal, F30-legal):
+  morphological (38 formula/word-internal edges, p=0.25 null; 06/86 mood
+  contrast sits in the SAME phase B/B); polyvalence-conditioned (phase
+  conditions none of the three polyvalent readings, p≈0.44–1.0); unit-size
+  (n=17, direction reversed, p=0.80); syntactic NULL (4/6 function words in
+  phase B, p=0.0566 — misses the pre-registered 0.05 bar, honest null).
+  Surviving discovery: the rotation is a genuine PERIOD-3 sequential rhythm
+  (see F43). Flag: old-vs-new label agreement 69/96 here vs N30's "61/96
+  change" — needs reconciliation. Evidence:
+  `code/crowd5/rotation_mystery.{py,md,json}`.
+- **N38 (2026-10-07, crowd5/morphologist; red-team: NULL ACCEPT as honest):**
+  the 06 stem NOT identified. Single-stem-for-all-06 KILLED on rate
+  (45.98/1000w vs best "pri*" 2.685 = 17.1×, verified). One-stem-in-7-events:
+  no Tocqueville −er infinitive reaches the needed rate ("donner" predicts
+  0.37 vs 7 observed = 19×) → diplomatic-register verb, Tocqueville-blind;
+  "donner" conditional lead properly fenced UNVERIFIED (no over-claiming).
+  67 et/veut fork (114:1 era) unpromoted lead, 8/38 classified — round-6 work.
+  Evidence: `code/crowd5/morph47_06.{py,md,json}`.
 
 ## Verified findings
 - F1 (source: Bourdeau zeschau1841 page, 2026-09-21/24): the unit is pairs of digits; 96 of 100
@@ -941,6 +996,131 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   literature key-hunting channel is exhausted — do not repeat without a new
   source class. Evidence: `code/side-keyhunt/search-log.md` (20 queries +
   13 source checks).
+- **F37 (2026-10-07, crowd5/red-team): 77="le" PROMOTED LEAD→provisional
+  (CONDITIONED) — the lane's first promotion in five rounds.** Independent
+  legs: (1) the 77→86×5 follower frame — positional, verified
+  @430/798/877/950/1133, with @430 77→86→29 = "le"+stem+"er" confirmed
+  (86→29 @431); (2) the diversity free-word profile — 20 followers / 22
+  predecessors, structural; (3) unigram 1.152× in-band (context). Leg B
+  (predecessor grammatical frames) fenced as provisional-leaning — the
+  promotion does not rest on it. Adverses fenced: "ce le"×2 era-0 @515/@869
+  (fenced on 87=ce-prov, genuine tension); "le me"×7 dissolution conditional
+  on 78="me"-syllable-LEAD (if that LEAD falls, a kill-grade adverse revives).
+  The "gou"@1180/@1351 exception FENCED (trigger unconfirmed, n_eff=1) —
+  promotion is for 77="le" as the conditioned free-word reading (F33-style),
+  not uniform. Minor traceability flag F26-10 (Leg A 1.02×→recomputed 1.15×,
+  both in-band). Evidence: `code/crowd5/bigram78_77_578.{py,md,json}`,
+  `code/crowd5/redteam/audit_bigram78_77_578.py`.
+- **F38 (2026-10-07, crowd5/bigram-closer; red-team: ACCEPT COEXIST):**
+  78="me"-WORD → disfavored-strong (L1w 22.76× out of band; "la me"×2 era-0,
+  GT 11=la — below the n≥3 kill rule, correct grade); 78="me"-SYLLABLE holds
+  LEAD (L1s 1.131× in-band, admitted as context not a leg — F30-letter clear);
+  the N25 77→78×7 "adverse" was a CATEGORY ERROR (tested the WORD "me"
+  against a syllable bigram — under the syllable reading the frames dissolve,
+  conditional on the syllable LEAD); 78="ver" → LEAD as a conditioned islet
+  ("ver iff next=94", 2/2 @1181/@1352, n_eff=1 — both inside the ×2 5-mer;
+  "vernement" 554 vs "verrement" 0; "me ne" era-0 forces non-"me", fenced on
+  94="ne"-prov). Neither kills the other. **F33's conditioned-polyvalence
+  count grows to 4 groups (06/52/94/78).** Rival "e" stays live. Evidence:
+  `code/crowd5/bigram78_77_578.{py,md,json}`.
+- **F39 (2026-10-07, crowd5/morphologist; red-team: @578 thread-closure
+  ACCEPT scoped):** the @578 trigram host resolved — sixmer
+  `78 45 13 55 61 94` ×2 @573/@1164 with continuation 94→87 @1170 (F33
+  "en"-islet): 94 is a PARTICLE at the sixmer's right edge, incompatible with
+  word-internal "re" — by sixmer identity, 94="ne" @578. The N24 fence (@578
+  revival thread) is retired. 94="re" as a GENERAL reading stays DISFAVORED
+  (not buried generally): "montrera" (sidepath, S=0.917) weighed explicitly —
+  from a VOIDED pass, weak corroboration at most, does not dent @578. Host
+  WORD unidentified (explicitly NOT "gouvernement" — « ce ? gouvernement »
+  era-0). Side lead: 61→94 ×2 mirrors 78→94 ×2 — allophony candidate
+  ver→{78,61}, untested. Evidence: `code/crowd5/bigram78_77_578.{py,md,json}`.
+- **F40 (2026-10-07, crowd5/morphologist; red-team: M1 ACCEPT as F33-grade
+  rule):** the 06/86 complementary distribution is a VERIFIED positional
+  conditioning rule — 00→86 ×12 vs 00→06 ×0; 06 in finite/imperative frames
+  (→11 ×4, →77 ×6, →00 ×4), 86 never there (0/14); falsifiers stated and all
+  zero; Fisher p=7.3e-06, binomial 6.3e-11 (12.6× enrichment). The allomorph
+  interpretation (same stem, mood-conditioned — petit-chiffre word-family
+  prior, F35) adopted as WORKING HYPOTHESIS, not established (T1 rate tension
+  79.4/1000w vs ~40 max; T2 "donner et donner" self-coordination; →29 slot
+  shared with conditioning unfenced). **00="pour" lead** noted (explains
+  00→46 ×4 "pour que", 06→00 "[V] pour que") — needs its own battery, not
+  adjudicated. Evidence: `code/crowd5/morph47_06.{py,md,json}`.
+- **F41 (2026-10-07, crowd5/morphologist+closer; red-team: LEAD strengthened,
+  promotion BLOCKED — AGREE):** 47="ce" holds LEAD with two new F33-form
+  conditioning rules — Q2 fragment rule (fragment reading iff suc==78 or
+  pre==29; 9/9 covered, zero cross-contamination; 13/28 frames unclassified —
+  a marked-reading islet rule, not a full partition; fragment sound
+  unidentified) and Q1 qui/que complementarity (47→64=0/28, Fisher one-sided
+  0.0476 — thin, provisional-leaning; falsifiers stated). **C2 dissolved**
+  legitimately (12.6× rate F30-void, N22-class self-kill; cipher-side the 4
+  frames are Q2's pre==29 context; cross-allophone 29→87 ×3 shows the
+  phenomenon is "ce"-level not 47-level). Unigram corrected: .md numbers
+  (4.11×/2.79×) do NOT reproduce from JSON — verified 2.13 elision-corrected,
+  1.446 ce-proper (F26-11; trust the JSON). Rival battery: "ce" unique
+  survivor (B2=121.5 cela-tension unaddressed, F26-13). Promotion blocked on
+  the @148–152 64-slot residual (era attestation zero under all readings;
+  three live alternatives). Unblockers, ranked: (1) 96 conditioned-verb
+  battery in "ce qui __ ce que"; (2) identify the Q2 fragment sound;
+  (3) diplomatic corpus for the unigram residual. Evidence:
+  `code/crowd5/morph47_06.{py,md,json}`,
+  `code/crowd5/closer87_angles.{py,md,json}`.
+- **F42 (2026-10-07, crowd5/closer): 87=ce holds provisional-strengthened —
+  two new non-circular legs.** A1: "c'est" word-space rate — 87→01 ×2
+  @344/@1028 + 47→01 ×1 @194 = 3/958 words = 1.86× Tocqueville, 0.90× Les Mis
+  (in-band both; n=3, joint with the 87-independent 01="est" lead). A3:
+  24→87 ×10 reframed — continuations 11 ×3 ("24 cela") and 64 ×3;
+  P(64|24-87)=0.30, Wilson [0.108,0.603] covers era P(qui|ce)=0.188; whatever
+  24 is, 87 behaves exactly like "ce" after it. A2 bounding: follower
+  Jaccard(87,47)=0.435 (97th pct) but P(64|47)=0/28 vs era 0.188 (p=0.0030) —
+  47 is NOT the same "ce" as 87 (bounds the 47="ce" LEAD; sharpens 87 by
+  contrast). 84 NOT resolved (84="fait" killed on unigram 6.7×); refinement:
+  two of three 64-77-84 trigrams extend to identical 64-77-84-59 ×2
+  (@1445–1448, @1801–1804). A5 banks 87→11 ×7 structural without rebuilding
+  the dead cela-rate leg. **@754 vs @1034 comparison:** different contexts —
+  @754 (never mined): «[00] qui [02-97-e] veut la première [20], on ne [59]…»
+  (relative clause + negation; "on ne" @761–762 is the 9th of 9 for the
+  62="on" battery); @1034: «…c'est [03]er [80]le, la première [17], le
+  m[63]…, la veut» (unique "la veut" @1044–1045 supports 67="veut").
+  Chiasmus: 67→11 ("veut la") BEFORE the crib @754 vs 11→67 ("la veut")
+  AFTER it @1034. F12 reframed: both are discourse-anaphoric NPs, not
+  formulaic repetition ("premier"/"premi-"/"pre-" occur nowhere else). New
+  tension: «par 43» ×2 inside the formula, era "par me" n=0 — pressures the
+  43="me" MEDIUM lead. Evidence: `code/crowd5/closer87_angles.{py,md,json}`,
+  `code/crowd5/window754_1034.{py,md,json}`.
+- **F43 (2026-10-07, crowd5/segmenter): the rotation is a genuine PERIOD-3
+  sequential rhythm.** P(same phase at lag 3)=0.4219 vs 0.3530 expected under
+  the fitted first-order Markov chain (z=+5.6, p≈1e-8); lag-2 z=−3.18 BELOW
+  expectation. Persists under the independent old-parse labeling (z=+3.27,
+  p=0.001) and after masking all 157 known-formula positions (0.4218). Not
+  bigram geometry, not formulas — a real process rhythm with 3-step memory.
+  Repaired labels: A→B 0.545, B→C 0.498, C→A 0.624 (a relabeling of the
+  contactor's cycle). **Leading hypothesis: enciphering-process geometry**
+  (soft column-rotation through a multi-column syllabary table) — predicts
+  exactly this package: real rotation, fragile clusters, linguistically
+  arbitrary phases, tail-distributed signal. Not a verdict. Next: (1)
+  labeling-robustness battery (cosine metric, k=8/16, half-stream clustering);
+  (2) 3-state HMM vs 96-group bigram model, held-out BIC; (3) as key recovery
+  proceeds, test table-column arbitrariness vs linguistic coherence within
+  phases. Evidence: `code/crowd5/rotation_mystery.{py,md,json}`.
+- **F44 (2026-10-07, crowd5/inventorist): the cipher's unit inventory,
+  learned from the cribs.** Tier 0 — crib PROOF (7): 11=la, 70=pre, 82=m,
+  34=i, 29=er, 40=e, 46=que — proves bare-consonant `m` and bare-vowel `i`
+  as single-letter units (82=m kills rigid syllabification: "m" as a syllable
+  in 1 of 11,870 era words); mute -e written (40=e; "erre"=29-40 ×9);
+  "prend"→"pre" (silent d dropped) @1329; "qu'on"=/kɔ̃/ one spoken syllable
+  → one group (46→62 = 0×, the by-ear model's genuine predicted zero).
+  Tier 1 — lane-inferred, status-marked (10 valued, red-team marks kept).
+  Tier 2 — polyvalence islets, all conditioned (06/52/94; zero free).
+  Tier 3 — cutting rules R1 (1–4 letters, 1-letter cells exist), R2 (by-ear
+  inconsistent: "personne" 93|52|94 @159 vs 77|62|94 @507), R3 (mute -e
+  written), R4 (mixed table: letters/syllables/endings/whole words). **10
+  ruled-out claims**, incl. the upstream 180-unit inventory as the
+  encipherer's table, standard French syllabification as the unit set,
+  phonetic models needing mute-e unwritten (N17), and unique segmentation.
+  Caveat: the frenchman's prose @-citations were loose (e.g. "on ne prend
+  pas" @1329 canonical, not @1331) — all inventory positions re-derived.
+  Next: re-drive the pattern matcher on this inventory's unit alphabet.
+  Evidence: `code/crowd5/unit_inventory.{py,md,json}`.
 - **F37 (2026-10-07, side-wordpattern/overwatch): the syllable inventory must
   be learned from the cribs, not adopted from standard French.** The
   encipherer chunks by ear: standalone 'm' as a syllable is phonotactically
@@ -970,36 +1150,53 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   24→87×10 at 26–31× over era P(ce|en) does not kill it). 24="c'est" REFUTED
   (28.9×). 24="de" scoped kill inside « en ce qui » (N23).
 - H2: **77="pas" — DISFAVORED (strong)** (N21, N25). 77="que": disfavored stands.
-  77="le": **LEAD** (promoted from LEAD-weak, N25; red-team ACCEPT fenced —
-  77→86 ×5 = "le"+verb-stem object-pronoun frame). Direction: 77 is verb-adjacent
+  **77="le": PROMOTED LEAD→provisional (CONDITIONED)** (F37 — the lane's first
+  promotion in five rounds; red-team: independent legs 77→86×5 frame +
+  diversity 20/22 + unigram 1.152×; "gou"@1180/@1351 exception fenced;
+  dependencies: "le me"×7 dissolution conditional on 78="me"-syllable-LEAD,
+  "ce le"×2 fenced on 87=ce-prov). Direction: 77 is verb-adjacent
   (« qui [verbe] » + verb-stem predecessors 06×6, 67×6).
-- H3: **06 — working state F25+N29**: verb-stem (class) PROVISIONAL general
+- H3: **06 — working state F25+N29+N38+F40**: verb-stem (class) PROVISIONAL general
   reading; /mɑ̃/ "demand-" KILLED (N17); 06="ent" general REFUTED (N19),
   restricted-"ent" PLAUSIBLE on the three 94-82-06 trigrams. 06="ne" dead.
-  Specific stem bounded, NOT identified (66× rate gap vs "demand*").
-  **06/86 complementary distribution** (N29): 06 = finite/imperative stem,
-  86 = infinitive-complement stem (00→86 ×12 vs 00→06 ×0). Parse-repair
-  correction: 06→29 is ×4 (the old 5th was an off-phase artifact).
-  Polyvalence now QUANTIFIED as conditioned (F33), not merely plausible.
+  Specific stem **NULL — not identified** (N38; single-stem-for-all-06 KILLED
+  on rate 17.1×; diplomatic-register verb, Tocqueville-blind; "donner"
+  conditional fenced UNVERIFIED; 67 et/veut fork unpromoted, 8/38 classified).
+  **06/86 complementary distribution = RULE M1, ACCEPTED as F33-grade**
+  (F40): 86 in the 00-governor environment (12/12), 06 in finite/imperative
+  frames (0/14 for 86); falsifiers all zero; Fisher p=7.3e-06. Allomorph
+  interpretation (same stem, mood-conditioned — petit-chiffre word-family
+  prior F35) = working hypothesis, fenced tensions. **00="pour" lead** (needs
+  its own battery).
+  Polyvalence now QUANTIFIED as conditioned (F33), not merely plausible —
+  **F33 grows to 4 groups (06/52/94/78)** with 78's me/ver coexistence (F38).
 - H4: **96="par" — CONFIRMED 4/4**, provisional-inherits-87=ce-status, on the
   repaired C1 leg (F28). 96="de" REFUTED (N14). Tension: "ce qui 96 47 que"
   wants a verb.
 - H5: **REFUTED** (N11). Replaced by R4 "-ment" family: **94="ne"
   provisional-strong** (F24, N24 — holds on rebuilt F30-legal legs), 82=m ✓,
   06="ent" restricted. Rival **94="re" DEMOTED → disfavored** (N24; 2.27:1
-  host odds for "ne", 0/36 composing instances; fence: @578 trigram host).
+  host odds for "ne", 0/36 composing instances); **@578 revival thread CLOSED
+  (scoped)** — sixmer identity puts 94="ne" @578 (F39); "re" general stays
+  disfavored (not buried generally; "montrera" VOIDED-pass lead weighed weak).
   94="en" coexists as a CONDITIONED islet (pre=82/suc=87, 4/4); co-value
   promotion DENIED (independence fail, N31).
-- **78="me" — LEAD** (promotion REJECTED, N20; N25 — B-78b fix verified, no
-  reversals): rival "l'" killed (58×), rival "e" live; new adverse 77→78 ×7
-  frames fenced on unconfirmed 78 ("pas me" era-0); 2/7 inside the
-  "gouvernement" trigram → 78="ver" word-internal hypothesis open.
-- **62="on" — STRONG LEAD** (N28; red-team: promotion NOT granted): ear lock +
-  62→94 "on ne" ×8 at 1.99× (old parse; **9/35=0.2571, 2.18× era on the
-  repaired parse** — curator) + fresh-window subject triangulation
-  (@845–853 "…par écrit, on me [dit]…", zero counterexamples in 26 windows,
-  /ɔ̃/ rivals killed). Held: legs 1&3 share the ear instrument — promotion
-  needs an instrument-independent third leg (round-5 target).
+- **78 — COEXIST as conditioned polyvalence** (F38; red-team ACCEPT):
+  78="me"-WORD → **disfavored-strong** (L1w 22.76× out of band; no formal
+  kill); 78="me"-SYLLABLE **holds LEAD** (L1s 1.131× in-band, context-grade);
+  78="ver" → **LEAD** as conditioned islet ("ver iff next=94", 2/2 @1181/@1352,
+  n_eff=1; "vernement" 554 vs "verrement" 0). Neither kills the other. Next:
+  drag 78-windows (test 45="me": 78→45 ×4). (Supersedes the old
+  "78=\"me\" — LEAD" line: the WORD/SYLLABLE split is now explicit.)
+- **62="on" — STRONG LEAD** (N28, N35; red-team: promotion DENIED twice):
+  ear lock + 62→94 "on ne" 9/35=0.2571, 2.18× era (repaired parse; 9th @761)
+  + fresh-window subject triangulation (@845–853 "…par écrit, on me [dit]…",
+  zero counterexamples in 26 windows, /ɔ̃/ rivals killed). Round-5
+  instrument-independent legs FAILED the N28 bar (N35): Leg 1's
+  "il"-differential is ear-contingent (merger asymmetry asserted); Leg 2's χ²
+  invalid as reported (exact p=0.045 full, 0.0675 minus recycled ne datum;
+  fits "il" equally). Fence: on-vs-il needs a non-ear resolution. Adverse:
+  "on" unigram 2.59× over era (genre-defensible, untested).
 - **52="pas" — STRONG, bounded** (F31; rival 52="se" stays LEAD; K5 forces
   52 polyvalence; F33 conditions it: "pas" iff negation-frame).
 - 64="qui": provisional-FAVORED (N27); re-promotion BLOCKED; rival
@@ -1007,26 +1204,38 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   one byte-identical trigram 64-77-84 ×3 (n_eff=1 — prior rate arguments
   triple-counted). New corroboration: 87-64-77-84 @1800–1803 = «ce qui
   [verbe] 84».
-- 87="ce": provisional, strengthened (F27); register-matched subset FAILs
-  pre-stated bar, ci/te scan NULL — cela leg stays dead (N27). Resolving 87
-  remains the lane's central open problem.
+- 87="ce": provisional, **strengthened** (F27, F42); register-matched subset FAILs
+  pre-stated bar, ci/te scan NULL — cela leg stays dead (N27). New non-circular
+  legs: A1 "c'est" word-space 1.86×/0.90× in-band (n=3); A3 24→87 ×10 reframed
+  positive (P(64|24-87)=0.30 covers era 0.188). A2 bounds 47="ce"
+  (P(64|47)=0/28, p=0.0030 — 47 is not the same "ce" as 87). 84 unresolved
+  (84="fait" killed 6.7×). Resolving 87 remains the lane's central open problem.
 - 67="veut": provisional (demoted from CONFIRMED, N18); 67="re" is a 1-leg
   lead ("les" killed 35.5×); modal-governor + 06 lexical-stem is the live
-  verb-system picture.
-- **47="ce" — LEAD** (N29; polyvalent with 87): 47="me" as uniform word
-  KILLED (3 independent); "ce que" 3/28=0.1071 vs era 0.1076 → 1.00× exact;
-  @148–150 jar BOUNDED (@150–152 = "par ce que" ✓).
+  verb-system picture. Round-5: 67 et/veut fork (114:1 era) unpromoted,
+  8/38 classified — round-6 work (N38).
+- **47="ce" — LEAD (strengthened)** (F41; red-team: promotion BLOCKED, agreed):
+  Q2 fragment rule + Q1 qui/que complementarity accepted as F33-form
+  (falsifiers stated); C2 dissolved legitimately; unigram corrected to JSON
+  (2.13 / 1.446); rival battery "ce" unique survivor. Blocked on the @148–152
+  64-slot residual. Unblockers: (1) 96 conditioned-verb battery in
+  "ce qui __ ce que"; (2) identify the Q2 fragment sound; (3) diplomatic corpus.
   01="ci": provisional kill (N23); 01="est" MEDIUM lead; 43="me" MEDIUM
-  (« il me [v] » @43); 43="parmi" conditional kill; 37="le"/56="plus" MEDIUM;
-  74="te" lead; 21="me" lead; 17="fois" WEAK; @1742 (old @1741) unresolved
-  under both readings.
+  (« il me [v] » @43) — pressured by «par 43» ×2 in the formula, era "par me"
+  n=0 (F42); 43="parmi" conditional kill; 37="le"/56="plus" MEDIUM;
+  74="te" lead; 21="me" lead; 17="fois" WEAK (@1040, F42); @1742 (old @1741)
+  unresolved under both readings.
 - 24→87→64 ×3 formula: promoted, value withheld (F17). 64 96 43 87 01 ×2:
   "qui … ce" reverse joints (F18). 41="der"/08="ni" INCONCLUSIVE (n=1) —
   refuted as general readings. 00 and 24 remain the top-frequency unknowns.
 - **Lane instrument position (F30):** rigid syllabification DEAD — no
   era-syllable-conditional legs on morphological fragments (29/82/34 excluded;
   40-conditionals excluded); era word-space legs survive; fragment hypotheses
-  test against the recovered syllabary (`data/upstream-syll*.py`).
+  test against the crib-learned unit inventory (`code/crowd5/unit_inventory.json`,
+  F44 — 24 units, Tier 0 crib-proof through Tier 3 cutting rules), NOT
+  `data/upstream-syll*.py` (suspect per N29). F33: conditioned polyvalence now
+  spans **4 groups (06/52/94/78)** — each with a verified, falsifiable
+  conditioning rule; zero free cases.
 
 ## Data inventory
 Source: https://github.com/dbourdeau/cyphersolver `targets/zeschau1841/` (Daniel Bourdeau's
@@ -1096,4 +1305,41 @@ every 2h). Merged 6/9 at checkpoint (frenchman, segmenter, bigram-closer pending
   code/crowd3/segmenter_results.{md,json} (+ report_inbox/segmenter-word-boundaries.md)
   code/crowd3/battery.py, bigram_closer_results.{md,json} (+ report_inbox/bigram-closer-anchor-factory.md)
   code/crowd3/red_team_round3b_results.{md,json} (+ report_inbox/red-team-round3b.md)
+  (plus __pycache__/ — regenerable, not evidence)
+Crowd round 4 (2026-10-07) — eight executors, coordinator-curated with red-team
+adjudication (4 rulings); each wrote only to `code/crowd4/` plus a report-inbox
+note per REPORTING.md. Canonical parse repaired mid-round (F32): 1,847 pairs;
+all positions re-indexed (`code/crowd4/REINDEX.md`); `code/crib_attack.py::qscore`
+fixed. Net: zero promotions; kills 47="me"; demotions 94="re", 64="même";
+77="le" LEAD-weak→LEAD; 62="on" STRONG LEAD (third leg pending).
+  code/crowd4/battery4.py, battery4_results.json (B-78b marginal fix)
+  code/crowd4/closer64_87.py, closer64_87_results.json
+  code/crowd4/frenchman4_62.py, frenchman4_62_results.json
+  code/crowd4/morph94_re_battery.py, morph94_re_battery.json
+  code/crowd4/red_team_rulings.{md,json}
+  code/crowd4/drag25.py, drag25_results.json
+  code/crowd4/stem47_06_final.py, stem47_06_results.json
+  code/crowd4/syllabary4.py (cutting rules R1/R2/R3)
+  code/crowd4/repaired_parse.py, REINDEX.md
+  code/crowd4/analyze_polyvalence.py (F33 conditioned polyvalence)
+  (plus __pycache__/ — regenerable, not evidence)
+Crowd round 5 (2026-10-07) — eight executors, coordinator-curated with red-team
+adjudication (4 claim packages); each wrote only to `code/crowd5/` plus a
+report-inbox note per REPORTING.md. Net: **1 promotion (77="le" LEAD→provisional,
+CONDITIONED — first in five rounds)**; 0 kills; 0 demotions; 62="on" promotion
+DENIED → FENCED-LEAD; 78 COEXIST accepted; 06/86 M1 rule accepted (F33-grade);
+47="ce" LEAD strengthened, promotion blocked; 06 stem NULL honest; N30
+"model-correct" refuted (objective miscalibrated); rotation = period-3
+sequential rhythm (F43); crib-learned unit inventory delivered (F44).
+  code/crowd5/frenchman62_leg3.{py,md,json} (+ report_inbox/frenchman-62-leg3.md)
+  code/crowd5/closer87_angles.{py,md,json} (+ report_inbox/closer-87-new-angles.md)
+  code/crowd5/window754_1034.{py,md,json} (+ report_inbox/closer-window754-1034.md)
+  code/crowd5/bigram78_77_578.{py,md,json} (+ report_inbox/bigram-closer-78-77-578.md)
+  code/crowd5/morph47_06.{py,md,json} (+ report_inbox/morphologist-round5.md)
+  code/crowd5/scorer_identifiability.{py,md,json} (+ report_inbox/scorer-smith-identifiability-final.md)
+  code/crowd5/homophonic_synergy.md
+  code/crowd5/rotation_mystery.{py,md,json} (+ report_inbox/segmenter-rotation.md)
+  code/crowd5/unit_inventory.{py,md,json} (+ report_inbox/inventorist-unit-inventory.md)
+  code/crowd5/redteam/verify_baseline.py (31/31 PASS), rulings.{md,json},
+    audit_frenchman62.py, audit_bigram78_77_578.py, audit_morph47_06.py
   (plus __pycache__/ — regenerable, not evidence)

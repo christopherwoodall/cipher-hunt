@@ -1,20 +1,33 @@
 # STATE — zeschau-seebach-1841
 
-- **status:** `cracking` (crowd round 4 COMPLETE 2026-10-07: 8/8 executors merged after
-  red-team adjudication (4 rulings + homophony position). Net: ZERO promotions — the
-  bar held. Kills: 47="me" (uniform word, 3 independent). Demotions: 94="re"
-  live-rival→disfavored, 64="même" LEAD→disfavored (bounded). 77="le" LEAD-weak→LEAD
-  (accepted fenced). 62="on" third leg FOUND but promotion NOT granted (legs 1&3 share
-  the ear instrument) — stays STRONG LEAD. 94="en" co-value DENIED (independence fail).
-  **Canonical parse repaired mid-round (F32):** 1,847 pairs; "la première" TWICE
-  (@754 and @1034); all positions re-indexed (`code/crowd4/REINDEX.md`).
-  10 values: 7 pencil cribs (ground truth) + 87=ce (provisional-strengthened) +
-  64=qui (provisional, re-promotion BLOCKED) + 96="par" (CONFIRMED, inherits ce status).
-  94="ne" provisional-strong; 47="ce" LEAD (new); 06=verb-stem-class provisional
-  (06/86 complementary distribution discovered); 67="veut" provisional.
-  Lane position: polyvalence CONDITIONED, not free (F33) — 3/25 groups (12.0%) with
-  verified conditioning rules; code information-lossless in principle; 35.2% token coverage.
-  Joint engine: model-correct, search-broken on control (identifiability — N30).)
+- **status:** `cracking` (crowd round 5 COMPLETE 2026-10-07: 8/8 executors merged after
+  red-team adjudication (4 claim packages; baseline 31/31 PASS). Net: **1 PROMOTION —
+  77="le" LEAD→provisional (CONDITIONED), the lane's first in five rounds.** Kills: 0.
+  Demotions: 0. 62="on" promotion DENIED → FENCED-LEAD (legs fail N28
+  instrument-independence). 78 COEXIST accepted (me-WORD disfavored-strong,
+  me-SYLLABLE LEAD, "ver" islet LEAD n_eff=1 — F33 grows to 4 groups). 06/86
+  M1 rule ACCEPTED (F33-grade; allomorph = working hypothesis). 47="ce" LEAD
+  strengthened (Q1/Q2 F33-form), promotion BLOCKED on @148–152 (worker's own
+  call, upheld). 06 stem NULL honest (single-stem killed 17.1×).
+  N30 "model-correct" REFUTED: the joint engine's objective ranks truth ~30 nats
+  below its own fluent nonsense (lam_poly ~100× over scale); basin test decisive
+  — no basin around truth, landscape slopes AWAY; route (a) better search FAILS,
+  route (b) shrink space PARTIAL; gate holds, NO R5005 run. Rotation = genuine
+  PERIOD-3 sequential rhythm (lag-3 z=+5.6, p≈1e-8; morphological/polyvalence/
+  unit-size meanings KILLED; leading hypothesis: enciphering-process column
+  geometry). Crib-learned unit inventory delivered (24 units, Tier 0–3; 10
+  ruled-out claims). @754 vs @1034 mined: different contexts, chiasmus
+  67→11/11→67, F12 reframed (discourse-anaphoric NPs); 87=ce holds
+  provisional-strengthened (A1/A3 new legs; A2 bounds 47="ce").
+  11 values: 7 pencil cribs (ground truth) + 87=ce (provisional-strengthened) +
+  64=qui (provisional, re-promotion BLOCKED) + 96="par" (CONFIRMED, inherits ce status) +
+  77="le" (provisional, CONDITIONED — NEW).
+  94="ne" provisional-strong; 47="ce" LEAD (strengthened); 06=verb-stem-class provisional
+  (06/86 M1 allomorph rule); 67="veut" provisional.
+  Lane position: polyvalence CONDITIONED, not free (F33) — 4/31 groups (12.9%) with
+  verified conditioning rules; 35.2% token coverage.
+  Joint engine: objective REPAIR required before any more search work (lam_poly scale,
+  phonetic projection, spanning word bonus, concentration penalty — N36).)
 - **checkpoint:** Transcription fetched, hashed, verified (3,764 digits / 1,847 pairs / 96 groups;
   repaired canonical parse per F32 — `code/side-keyhunt/repaired_offsets.json` supersedes
   `data/upstream-offsets.json`; "la première" @pairs 754 AND 1034).
@@ -126,35 +139,52 @@
     CONFIRMED promotions; methodology flags banked (F26): phase instrument VOID,
     'er'-rate checks uncalibrated, crib writes mute -e (kills phonetic models),
     V29 contaminated, mixed-register = robustness check only.
-- **next:** Round-5 work orders (crowd round 4 COMPLETE, curation 2026-10-07).
+- **next:** Round-6 work orders (crowd round 5 COMPLETE, curation 2026-10-07).
   Canonical parse: repaired 1,847-pair (`code/side-keyhunt/repaired_offsets.json`);
   positions per `code/crowd4/REINDEX.md` (repaired indexing; old n≥773 → n+1).
-  1. **Instrument-independent third leg for 62="on"** — the red team named the
-     exact gap (N28): legs 1&3 share the ear instrument. A statistical/structural
-     leg (not ear) promotes 62="on".
-  2. **47="ce" promotion battery** — needs C2 explained ("..er→ce" 12.6×),
-     unigram 2.87× addressed, and the 64-slot residual resolved (N29).
-  3. **Identify the 06 stem** — 4 infinitive frames (06→29 ×4, repaired count);
-     exploit the 06/86 complementary distribution (N29).
-  4. **Resolve @578 trigram host** — the fenced 94="re" revival thread (N24).
-  5. **78="me" vs 78="ver"** — adjudicate the 77→78 ×7 adverse frames; test the
-     word-internal "ver" hypothesis from the "gouvernement" trigram (N25).
-  6. **77="le" promotion battery** — 77→86 ×5 object-pronoun frame + L1 (N25).
-  7. **Attack the identifiability problem** — the joint engine is model-correct
-     but search-broken (N30): better search (parallel tempering, smarter
-     proposals) or shrink the space with the F33 conditioning rules.
-  8. **Mine the SECOND "la première" window** (@754, row a5_03 — never examined;
-     it was off-phase before the repair): comparative context mining 754 vs 1034.
-  9. **87=ce new angles** — cela leg dead (N27); pursue the 87-64-77-84
-     @1800–1803 «ce qui [verbe] 84» corroboration (resolve 84?) or a
-     non-circular anchor.
-  10. **Exploit the stronger rotation** — recomputed phases give chi²=366.3
-      (N30); cluster assignments are fragile but the transition structure is
-      robust — find what the rotation IS if not word-position (tuner NULL stands).
+  Red-team baseline: `code/crowd5/redteam/verify_baseline.py` (31/31 PASS —
+  the adjudication instrument; extend, don't rebuild).
+  1. **62="on" — the on-vs-il discrimination, non-ear.** The red team named the
+     exact gap (N35): follower/predecessor profile with n≫2 in the independent
+     cells; a word-space grammatical asymmetry between "on" and "il" contexts
+     ("on" takes infinitives/subjunctives differently); or an independent
+     "qu'il"-merger calibration from the cipher's own elision/merger habits.
+     Follow 59 (verb-candidate from "on ne" @761; 59→46 "que" ×2) — F42.
+  2. **96 conditioned-verb battery in "ce qui __ ce que"** — the ranked #1
+     unblocker for 47="ce" promotion (F41); the context miner flagged the same
+     window independently. Resolves the @148–152 64-slot residual.
+  3. **77="le" (provisional, CONDITIONED) — exploit the first promotion.**
+     Identify 84 (the «ce qui [verbe] 84» slot; 84="fait" killed); test the
+     "le me"×7 dissolution's dependency (78="me"-syllable-LEAD); drag
+     78-windows (test 45="me": 78→45 ×4).
+  4. **Repair the joint objective, THEN re-run.** N36 ordered: fix lam_poly
+     scale (truth beats annealed only at lam_poly < 0.09; configured 10) +
+     import side fleet's phonetic projection + spanning word bonus +
+     concentration penalty (ordered import list in
+     `code/crowd5/scorer_identifiability.md` §4–5). Re-run the control with
+     the repaired objective; then re-judge search vs identifiability. Gate
+     holds until a control passes. For the (gated) R5005 run: rebuild the
+     inventory on the 24 crib-derived units + pattern lexicon under R1–R8.
+  5. **Rotation follow-ups:** (1) labeling-robustness battery for the lag-3
+     excess (cosine metric, k=8/16, half-stream clustering); (2) 3-state HMM
+     vs 96-group bigram model, held-out BIC; (3) reconcile the label-agreement
+     discrepancy (69/96 here vs N30's "61/96 change").
+  6. **00="pour" battery** (F40 lead: explains 00→46 ×4 "pour que",
+     06→00 "[V] pour que") — needs its own ≥2-check battery, not adjudicated.
+  7. **67 classification** (30/38 unclassified; et/veut fork 114:1 unpromoted —
+     N38); **43="me"** pressured by «par 43» ×2 (era "par me" n=0 — F42);
+     **"la veut" @1044–1045** → pin 67="veut".
+  8. **Re-drive the pattern matcher on the crib-learned unit alphabet**
+     (F44 prescription; word-pattern fleet's POLYVALENCE_REPORT §8: fix
+     inventory first, then apply R1–R8 restrictions).
+  9. **87=ce: resolve 84** or find another non-circular anchor (A1/A3 legs
+     banked; 64-77-84-59 ×2 refinement to exploit).
   Do NOT promote anything without ≥2 independent checks. Standing convention:
   every executor leaves a report note at `code/crowd<N>/report_inbox/<name>-<topic>.md`
   per REPORTING.md (swept into REPORT.md every 2h). Red team reviews ALL promotions
-  before merge — no claim merges without its ruling.
+  before merge — no claim merges without its ruling. Cross-fleet memo standing
+  constraints: no nulls; published-key channel exhausted; anchor-preserving
+  controls on all future drags; crib-derived inventory only (F34/F44).
 - **external acquisition: ON HOLD per operator directive (2026-10-07).** No new external material — the archive scan-order route (HStAD) and DECODE elevation are stood down. Round 3+ works with R5005 (3,764 digits) and the 10 current values only. (DECODE account "alexrivers" exists and logs in, but full-size private-ciphertext images need admin elevation — recorded in `code/crowd2/report_inbox/decode-access-2026-10-07.md`; not pursued further unless the operator reverses.)
 - **blockers:**
   - R5006–R5008 (sibling letters, 2+3+3 pp) NOT obtainable: DECODE records public at

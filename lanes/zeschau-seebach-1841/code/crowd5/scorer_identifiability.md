@@ -120,9 +120,59 @@ proposals; (6) per-stream chi2-gated phase prior (drop the banked phase map —
 61/96 groups changed phase under the repair); (7) F34 inventory rebuild for
 the R5005 run.
 
-## 6. Verdict (pending route-a/b completion)
+## 6. Verdict (COMPLETE 2026-10-07)
 
-[To be filled when `scorer_identifiability.json` stages complete.]
-Best next step regardless: repair the objective (§0, §5) BEFORE judging
-search vs identifiability — the current objective's optimum is not truth, so
-no search result on it can pass the control.
+**Route (a) — better search: FAILS to move the needle. The problem is not search.**
+
+| variant | best total | primary top1 | islets |
+|---|---|---|---|
+| baseline: 3 restarts x 600 sweeps (round-4 search) | -2.59..-2.81 | 0.00-0.10 | 0/3 |
+| parallel tempering: 6 chains x 600 sweeps, swaps/10 | -2.88 | 0.05 | 0/3 |
+| smarter proposals: pool-copy + Gibbs-conditional, 3x600 | -2.66..-3.05 | 0.00-0.10 | 0/3 |
+| truth (penalty-off, for reference) | -2.64 | 1.00 | 3/3 |
+
+- No variant beats the best baseline restart (-2.59); top1 never exceeds 0.10
+  (bar: 0.50); islets 0/3 everywhere. Longer runs, replica exchange, and
+  context-aware proposals all converge to the same fluent-nonsense band.
+- **Basin test (decisive):** perturb the truth key by k groups, low-T descent
+  with no re-init: k=5 → 1/15 recovered, k=10 → 2/30, k=20 → 0/60
+  (3/105 total). All 9 descents walk AWAY from truth, ending at -2.47..-2.90 —
+  above truth's objective value. **There is no basin around truth.** N30's
+  "flat landscape / identifiability" framing was wrong in the precise sense:
+  the landscape is not flat around truth, it slopes AWAY from it. The
+  objective's optimum is not truth.
+
+**Route (b) — shrink the space: PARTIAL. Fixes search, exposes the model.**
+
+| variant | best total | primary top1 | islets | note |
+|---|---|---|---|---|
+| b1: 12 hard pins, islet (v1,v2) fixed, 301-cell inv. | -33.54..-33.56 | 0.35-0.40 | 1/3 | vs truth ceiling -33.43 (within 0.13 nats) |
+| b2: conditioned polyvalence (R4/F33 rules) | — | 0/15 verify | 0/3 islets | honest negative: control islets are unconditioned coins |
+| b3: small inventory only (7 pins) | -2.67..-2.83 | 0.05 | 0/3 | no better than baseline |
+
+- b1 proves the search CAN reach truth's objective neighborhood once the space
+  is shrunk (12 pins + fixed islets + 301 cells): best within 0.13 nats of the
+  truth ceiling, top1 4x baseline. The "identifiability" half yields to
+  constraints.
+- But recovery stalls at top1 0.35-0.40 < 0.50 with decode agreement ~0.09:
+  the letter model's miscalibration (-3.11 nonsense beats -3.64 truth/letter)
+  is independent of search or space size. Constraints alone cannot fix a
+  miscalibrated likelihood.
+- b2's clean negative documents a control-vs-reality gap: F33's conditioned
+  polyvalence cannot be tested on a control whose islets are unconditioned.
+
+**Best next step (ordered):**
+1. Repair the objective BEFORE any more search work: fix lam_poly scale
+   (crossover analysis: truth beats the annealed best only at lam_poly < 0.09;
+   configured 10) and import the side fleet's phonetic projection +
+   spanning word bonus + concentration penalty (see homophonic_synergy.md).
+2. Re-run the control with the repaired objective; THEN re-run routes (a)/(b)
+   to judge search vs identifiability cleanly.
+3. For the (gated) R5005 run: rebuild the inventory on the 24 crib-derived
+   units + pattern lexicon under R1–R8 (§4); the control validates machinery
+   only.
+4. Consider hardening the control itself: conditioned (not coin-flip) islets
+   per F33, and well-defined primaries (no tail-inheritance lottery) —
+   otherwise the control tests the wrong polyvalence and the wrong metric.
+5. Gate holds: no R5005 run. The current engine would confidently return
+   fluent nonsense.

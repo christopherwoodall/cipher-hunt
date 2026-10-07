@@ -1,2 +1,6 @@
 [frozen-batch] START seed=184101 2026-10-07T15:55:25Z
 [frozen-batch] START seed=184102 2026-10-07T15:55:25Z
+[frozen-batch] DONE seed=184101 rc=0 wall=2292s 2026-10-07T16:33:37Z
+[frozen-batch] START seed=184103 2026-10-07T16:33:57Z
+[frozen-batch] DONE seed=184102 rc=0 wall=2315s 2026-10-07T16:34:00Z
+[frozen-batch] START seed=184104 2026-10-07T16:34:27Z
