@@ -300,8 +300,8 @@ Short undeciphered segments in a letter from Ormond to Arran (Ormonde MSS vol.4,
 ### Private Cipher between Charles I and Henrietta-Maria (1645) — (C) unsolved
 A passage of 8 April 1645 in the couple's private cipher appears to remain undeciphered.
 
-### Charles I in the Isle of Wight (1648) — (C) two of four solved
-Four enciphered letters from captivity; the cipher in two was solved by Biermann and Brown (2021); two letters remain unsolved.
+### Charles I in the Isle of Wight (1648) — (C) two of six unsolved (triage corrected 2026-10-07)
+Six enciphered letters from captivity; four were solved in 2021 by Biermann, Bosbach and Brown (2 Sep, 3 Oct, 6 Nov, 7 Nov 1648 — via Tomokiyo's Cryptiana article and Schmeh's Cipherbrain, not a Cryptologia paper). Two remain unsolved — 1 Aug 1648 to Prince Charles (BL Harley MS 6988 f.208, DECODE R8342) and 22 May 1648 to Worsley — and use a *different nomenclator*: verified 2026-10-07, the published 2021 nomenclator fits neither (1 Aug: 46/88 tokens defined; Worsley: 64/112; top-frequency tokens all undefined; letter-run cribs give non-English). Lane: cipher-hunt/lanes/charles-i-wight-1648/.
 
 ### Prince Rupert's Cipher with His Brother Maurice (1645) — (C) unsolved
 An encoded letter Rupert received from Maurice soon after the Battle of Naseby, printed in Warburton's *Memoirs of Prince Rupert* (p.133). Opens "By your cipher, you may observe, that 15 26 342 148 136 …".
