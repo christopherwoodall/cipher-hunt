@@ -1,0 +1,992 @@
+{
+  "meta": {
+    "role": "THE FORMULA TESTER (crowd round 2)",
+    "lane": "zeschau-seebach-1841",
+    "date": "2026-10-07",
+    "pairs": 1846,
+    "anchors9": {
+      "11": "la",
+      "70": "pre",
+      "82": "m",
+      "34": "i",
+      "29": "er",
+      "40": "e",
+      "46": "que",
+      "87": "ce",
+      "64": "qui"
+    },
+    "promotion_rule": ">=2 independent checks to promote; grammatical contradiction refutes"
+  },
+  "h5": {
+    "repeat": "77 78 94 82 06",
+    "positions_rederived": [
+      1179,
+      1350
+    ],
+    "alignment_under_test": {
+      "77": "j'ai",
+      "78": "l'",
+      "94": "hon",
+      "82": "neur",
+      "06": "de"
+    },
+    "work_order_correction": "Work order wrote l'-position as (94?) and hon-neur boundary as 78->94; under the stated 5-unit mapping j'ai.l'.hon.neur.de the l'-position is 78 (2nd unit) and the hon-neur boundary is 94->82 (3rd->4th unit). Both group 78 and group 94 are measured below.",
+    "test_a": {
+      "group_78_profile": {
+        "freq": 31,
+        "rank": 17,
+        "rate": 0.01679,
+        "n_predecessors": 13,
+        "n_followers": 21,
+        "top_follower": [
+          "45",
+          4
+        ],
+        "top_follower_share": 0.129,
+        "top_predecessor": [
+          "77",
+          7
+        ]
+      },
+      "group_94_profile": {
+        "freq": 36,
+        "rank": 12,
+        "rate": 0.0195,
+        "n_predecessors": 18,
+        "n_followers": 23,
+        "top_follower": [
+          "82",
+          4
+        ],
+        "top_follower_share": 0.111,
+        "top_predecessor": [
+          "62",
+          8
+        ]
+      },
+      "known_single_letter_cells": {
+        "82=m": {
+          "freq": 38,
+          "rank": 10,
+          "rate": 0.02059,
+          "n_predecessors": 18,
+          "n_followers": 16,
+          "top_follower": [
+            "16",
+            11
+          ],
+          "top_follower_share": 0.289,
+          "top_predecessor": [
+            "52",
+            5
+          ]
+        },
+        "34=i": {
+          "freq": 10,
+          "rank": 72,
+          "rate": 0.00542,
+          "n_predecessors": 9,
+          "n_followers": 9,
+          "top_follower": [
+            "29",
+            2
+          ],
+          "top_follower_share": 0.2,
+          "top_predecessor": [
+            "73",
+            2
+          ]
+        },
+        "40=e": {
+          "freq": 21,
+          "rank": 34,
+          "rate": 0.01138,
+          "n_predecessors": 11,
+          "n_followers": 14,
+          "top_follower": [
+            "65",
+            3
+          ],
+          "top_follower_share": 0.143,
+          "top_predecessor": [
+            "29",
+            9
+          ]
+        }
+      },
+      "bigram_77_78": {
+        "count": 7,
+        "positions": [
+          7,
+          213,
+          647,
+          1076,
+          1179,
+          1350,
+          1541
+        ]
+      },
+      "note": "l' is a proclitic: expect a free-ish function cell (many distinct followers, vowel-initial followers unknowable here). Known single letters span ranks 8..70 (m x38, e x21, i x10)."
+    },
+    "test_b": {
+      "bigram_94_82_count": 4,
+      "bigram_94_82_positions": [
+        578,
+        1181,
+        1352,
+        1741
+      ],
+      "bigram_70_82_count": 1,
+      "predecessors_of_82": [
+        [
+          "52",
+          5
+        ],
+        [
+          "24",
+          4
+        ],
+        [
+          "94",
+          4
+        ],
+        [
+          "98",
+          3
+        ],
+        [
+          "83",
+          3
+        ],
+        [
+          "29",
+          3
+        ],
+        [
+          "79",
+          2
+        ],
+        [
+          "38",
+          2
+        ],
+        [
+          "96",
+          2
+        ],
+        [
+          "77",
+          2
+        ],
+        [
+          "85",
+          1
+        ],
+        [
+          "50",
+          1
+        ]
+      ],
+      "n_predecessors_of_82": 18,
+      "followers_of_94_top": [
+        [
+          "82",
+          4
+        ],
+        [
+          "74",
+          3
+        ],
+        [
+          "52",
+          3
+        ],
+        [
+          "92",
+          2
+        ],
+        [
+          "24",
+          2
+        ],
+        [
+          "02",
+          2
+        ],
+        [
+          "59",
+          2
+        ],
+        [
+          "76",
+          2
+        ]
+      ],
+      "n_followers_of_94": 23,
+      "work_order_correction": "Work order wrote the hon-neur adjacency as 78->94; it is 94->82 under the mapping. 78->94 is the l'->hon boundary (also reported).",
+      "bigram_78_94_count": 2,
+      "anchor_conflict": "82 is a GROUND-TRUTH pencil anchor = single letter 'm'. Mapping 82='neur' requires the m-cell to also encode the 4-letter syllable 'neur' — structurally implausible in a syllabary that gives frequent syllables their own cells."
+    },
+    "test_c": {
+      "contexts": {
+        "1179": {
+          "line_id": "a6_10",
+          "index_within_line": 7,
+          "frac_of_text": 0.6387,
+          "groups_before": [
+            "36",
+            "74",
+            "32",
+            "48",
+            "59",
+            "37"
+          ],
+          "groups_repeat": [
+            "77",
+            "78",
+            "94",
+            "82",
+            "06"
+          ],
+          "groups_after": [
+            "06",
+            "59",
+            "42",
+            "06",
+            "84",
+            "59"
+          ],
+          "decoded_before": [
+            [
+              "36",
+              "?"
+            ],
+            [
+              "74",
+              "?"
+            ],
+            [
+              "32",
+              "?"
+            ],
+            [
+              "48",
+              "?"
+            ],
+            [
+              "59",
+              "?"
+            ],
+            [
+              "37",
+              "?"
+            ]
+          ],
+          "decoded_after": [
+            [
+              "06",
+              "?"
+            ],
+            [
+              "59",
+              "?"
+            ],
+            [
+              "42",
+              "?"
+            ],
+            [
+              "06",
+              "?"
+            ],
+            [
+              "84",
+              "?"
+            ],
+            [
+              "59",
+              "?"
+            ]
+          ]
+        },
+        "1350": {
+          "line_id": "a7_05",
+          "index_within_line": 19,
+          "frac_of_text": 0.7313,
+          "groups_before": [
+            "86",
+            "66",
+            "73",
+            "34",
+            "62",
+            "48"
+          ],
+          "groups_repeat": [
+            "77",
+            "78",
+            "94",
+            "82",
+            "06"
+          ],
+          "groups_after": [
+            "52",
+            "37",
+            "64",
+            "35",
+            "13",
+            "92"
+          ],
+          "decoded_before": [
+            [
+              "86",
+              "?"
+            ],
+            [
+              "66",
+              "?"
+            ],
+            [
+              "73",
+              "?"
+            ],
+            [
+              "34",
+              "i"
+            ],
+            [
+              "62",
+              "?"
+            ],
+            [
+              "48",
+              "?"
+            ]
+          ],
+          "decoded_after": [
+            [
+              "52",
+              "?"
+            ],
+            [
+              "37",
+              "?"
+            ],
+            [
+              "64",
+              "qui"
+            ],
+            [
+              "35",
+              "?"
+            ],
+            [
+              "13",
+              "?"
+            ],
+            [
+              "92",
+              "?"
+            ]
+          ]
+        }
+      },
+      "expectation": "'de' (06) should be followed by an infinitive or a noun phrase: de+INF ('de vous informer') or de+DET+N ('de la ...'). Judged on anchor-decoded fragments only; groups 37/01-class unknowns cannot confirm or deny."
+    },
+    "test_d": {
+      "era_syllable_rates": {
+        "n_syllables": 359447,
+        "n_words": 201033,
+        "syl_de": 0.030152,
+        "syl_hon": 0.000106,
+        "syl_neur": 0.000306,
+        "word_j'ai_per_syl": 0.000506,
+        "proclitic_l'_per_syl": 0.014837,
+        "word_de_per_syl": 0.025425,
+        "note": "Heuristic vowel-group syllabifier; +/-10% noise per linguist. 'neur' counted as its own syllable (honneur->hon|neur); bonheur->bon|heur counted separately."
+      },
+      "meisel_tiers": {
+        "tier0": ">1.5%",
+        "tier1": "0.35-1%",
+        "tier2": "0.08-0.35%",
+        "tier3": "<0.08% (below tier2 floor)"
+      },
+      "observed_group_rates": {
+        "77 as j'ai": 0.02384,
+        "78 as l'": 0.01679,
+        "94 as hon": 0.0195,
+        "82 as neur": 0.02059,
+        "06 as de": 0.02492
+      },
+      "meisel_expectation": {
+        "de": "tier0 (>1.5%)",
+        "j'ai": "function word, je tier2 book x5-20 despatch boost",
+        "l'": "single letter tier1 (0.35-1%)",
+        "hon": "tier2 (0.08-0.35%)",
+        "neur": "tier3 (<0.08%, not in Meisel tiers)"
+      }
+    },
+    "scorecard": {
+      "for": [
+        "77->78 co-occurs 7x (5 outside the repeat): 'j\\'ai l\\'' behaves as a bound 2-unit chunk elsewhere — consistent with the formula reading (weak: n small, any fixed 2-phrase fits).",
+        "Both occurrences mid-body (63.9%, 73.1% of text): consistent with a per-paragraph discourse formula (formula-hunter: repeats are discourse-level set phrases).",
+        "06 at 2.492% sits in Meisel tier0 (>1.5%), in-band for 'de' the #1 French syllable (era syl rate 3.015%). CONFLICT: surgeon H3 has 06='ne' (3 checks).",
+        "78 at 1.679% within 3x of era proclitic l' 1.4837% — tier-consistent."
+      ],
+      "against": [
+        "STRUCTURAL: 82 is a ground-truth pencil anchor = single letter 'm'. H5 needs 82='neur' (4-letter syllable). A syllabary with dedicated single-letter cells does not reuse the m-cell for 'neur'.",
+        "RATE: 82 occurs at 2.059% (rank 10) but era 'neur' is 0.0306% — 67x too frequent for 'neur' (tier3 syllable).",
+        "RATE: 94 at 1.950% vs era 'hon' 0.0106% (184.5x) — outside a generous 3x band.",
+        "RATE: 77 at 2.384% vs era j'ai 0.0506% (47x) — above even the 20x despatch boost ceiling."
+      ]
+    },
+    "verdict": "REFUTED as stated",
+    "verdict_detail": "H5 'J\\'ai l\\'honneur de' is REFUTED as stated: the mapping requires 82='neur' but 82 is a ground-truth pencil anchor for the single letter 'm' (structural contradiction, independent of all rate arguments), and independently 82's rate (rank 8) is an order of magnitude too high for the tier-3 syllable 'neur'. The 77->78 'j\\'ai l\\'' chunk and the mid-body discourse positions survive as suggestive sub-claims, but the 5-unit reading cannot stand with 82=m. The formula-hunter R4 rival ('-ment' word family: 77=gou 78=ver 94=ne 82=m 06=ent) is structurally compatible with 82=m and remains the live alternative for this repeat."
+  },
+  "nine_mer_drag": {
+    "repeat": "56 69 26 00 33 21 64 37 01",
+    "positions_rederived": [
+      931,
+      1625
+    ],
+    "contexts": {
+      "931": {
+        "line_id": "a5_10",
+        "index_within_line": 8,
+        "frac_of_text": 0.5043,
+        "groups": [
+          "48",
+          "82",
+          "98",
+          "83",
+          "56",
+          "69",
+          "26",
+          "00",
+          "33",
+          "21",
+          "64",
+          "37",
+          "01",
+          "07",
+          "50",
+          "40",
+          "08"
+        ],
+        "decoded": [
+          [
+            "48",
+            "?"
+          ],
+          [
+            "82",
+            "m"
+          ],
+          [
+            "98",
+            "?"
+          ],
+          [
+            "83",
+            "?"
+          ],
+          [
+            "56",
+            "?"
+          ],
+          [
+            "69",
+            "?"
+          ],
+          [
+            "26",
+            "?"
+          ],
+          [
+            "00",
+            "?"
+          ],
+          [
+            "33",
+            "?"
+          ],
+          [
+            "21",
+            "?"
+          ],
+          [
+            "64",
+            "qui"
+          ],
+          [
+            "37",
+            "?"
+          ],
+          [
+            "01",
+            "?"
+          ],
+          [
+            "07",
+            "?"
+          ],
+          [
+            "50",
+            "?"
+          ],
+          [
+            "40",
+            "e"
+          ],
+          [
+            "08",
+            "?"
+          ]
+        ]
+      },
+      "1625": {
+        "line_id": "a8_03",
+        "index_within_line": 16,
+        "frac_of_text": 0.8803,
+        "groups": [
+          "66",
+          "67",
+          "33",
+          "46",
+          "56",
+          "69",
+          "26",
+          "00",
+          "33",
+          "21",
+          "64",
+          "37",
+          "01",
+          "74",
+          "87",
+          "74",
+          "74"
+        ],
+        "decoded": [
+          [
+            "66",
+            "?"
+          ],
+          [
+            "67",
+            "?"
+          ],
+          [
+            "33",
+            "?"
+          ],
+          [
+            "46",
+            "que"
+          ],
+          [
+            "56",
+            "?"
+          ],
+          [
+            "69",
+            "?"
+          ],
+          [
+            "26",
+            "?"
+          ],
+          [
+            "00",
+            "?"
+          ],
+          [
+            "33",
+            "?"
+          ],
+          [
+            "21",
+            "?"
+          ],
+          [
+            "64",
+            "qui"
+          ],
+          [
+            "37",
+            "?"
+          ],
+          [
+            "01",
+            "?"
+          ],
+          [
+            "74",
+            "?"
+          ],
+          [
+            "87",
+            "ce"
+          ],
+          [
+            "74",
+            "?"
+          ],
+          [
+            "74",
+            "?"
+          ]
+        ]
+      }
+    },
+    "inner_4mer_69_26_00_33": {
+      "positions": [
+        405,
+        932,
+        1626
+      ],
+      "context_at_405": [
+        [
+          "06",
+          "?"
+        ],
+        [
+          "11",
+          "la"
+        ],
+        [
+          "45",
+          "?"
+        ],
+        [
+          "88",
+          "?"
+        ],
+        [
+          "53",
+          "?"
+        ],
+        [
+          "34",
+          "i"
+        ],
+        [
+          "69",
+          "?"
+        ],
+        [
+          "26",
+          "?"
+        ],
+        [
+          "00",
+          "?"
+        ],
+        [
+          "33",
+          "?"
+        ],
+        [
+          "01",
+          "?"
+        ],
+        [
+          "02",
+          "?"
+        ],
+        [
+          "53",
+          "?"
+        ],
+        [
+          "84",
+          "?"
+        ],
+        [
+          "51",
+          "?"
+        ],
+        [
+          "37",
+          "?"
+        ]
+      ],
+      "groups_at_405": [
+        "06",
+        "11",
+        "45",
+        "88",
+        "53",
+        "34",
+        "69",
+        "26",
+        "00",
+        "33",
+        "01",
+        "02",
+        "53",
+        "84",
+        "51",
+        "37"
+      ]
+    },
+    "method": "Syllabified Tocqueville t1+t2 (heuristic vowel-group syllabifier); all 9-syllable windows with 'qui' as 7th syllable (= position of provisional anchor 64=qui in the 9-mer); ranked by raw frequency.",
+    "n_windows_qui_slot7": 2408,
+    "n_distinct": 2376,
+    "top_candidates": [
+      {
+        "phrase_syllables": "seu le dif fé ren ce qui e xis",
+        "count": 3
+      },
+      {
+        "phrase_syllables": "ses ac ci den tel les qui peu vent",
+        "count": 3
+      },
+      {
+        "phrase_syllables": "'un mou ve ment so cial qui vient de",
+        "count": 2
+      },
+      {
+        "phrase_syllables": "tin guer a vec soin ce qui est d'o",
+        "count": 2
+      },
+      {
+        "phrase_syllables": "si té d'é tu dier ce qui se pas",
+        "count": 2
+      },
+      {
+        "phrase_syllables": "d'un vé to sus pen sif qui lui per",
+        "count": 2
+      },
+      {
+        "phrase_syllables": "se trou ve le peup le qui é lit",
+        "count": 2
+      },
+      {
+        "phrase_syllables": "les con fé dé ra tions qui ont pré",
+        "count": 2
+      },
+      {
+        "phrase_syllables": "tous les peup les et ce qui a per",
+        "count": 2
+      },
+      {
+        "phrase_syllables": "ha bi tant de l'é tat qui l'au ra",
+        "count": 2
+      },
+      {
+        "phrase_syllables": "u ne in dem ni té qui ne pour",
+        "count": 2
+      },
+      {
+        "phrase_syllables": "u nis c'est le peup le qui gou ver",
+        "count": 2
+      }
+    ],
+    "slot8_after_qui_top": [
+      [
+        "se",
+        147
+      ],
+      [
+        "ne",
+        114
+      ],
+      [
+        "a",
+        96
+      ],
+      [
+        "est",
+        83
+      ],
+      [
+        "les",
+        79
+      ],
+      [
+        "ont",
+        71
+      ],
+      [
+        "en",
+        60
+      ],
+      [
+        "lui",
+        54
+      ],
+      [
+        "sont",
+        47
+      ],
+      [
+        "le",
+        37
+      ]
+    ],
+    "slot9_top": [
+      [
+        "se",
+        58
+      ],
+      [
+        "vent",
+        51
+      ],
+      [
+        "pas",
+        42
+      ],
+      [
+        "le",
+        40
+      ],
+      [
+        "sont",
+        35
+      ],
+      [
+        "sent",
+        34
+      ],
+      [
+        "ri",
+        32
+      ],
+      [
+        "é",
+        32
+      ],
+      [
+        "en",
+        30
+      ],
+      [
+        "con",
+        30
+      ]
+    ],
+    "wordlevel_qui": {
+      "followers": [
+        [
+          "se",
+          119
+        ],
+        [
+          "ne",
+          114
+        ],
+        [
+          "est",
+          83
+        ],
+        [
+          "les",
+          79
+        ],
+        [
+          "ont",
+          71
+        ],
+        [
+          "lui",
+          54
+        ],
+        [
+          "a",
+          51
+        ],
+        [
+          "en",
+          50
+        ]
+      ],
+      "predecessors": [
+        [
+          "ce",
+          213
+        ],
+        [
+          "ceux",
+          138
+        ],
+        [
+          "et",
+          99
+        ],
+        [
+          "celui",
+          53
+        ],
+        [
+          "peuple",
+          36
+        ],
+        [
+          "hommes",
+          36
+        ],
+        [
+          "peuples",
+          29
+        ],
+        [
+          "états",
+          24
+        ]
+      ]
+    },
+    "cipher_64_contacts": {
+      "freq": 46,
+      "rank": 5,
+      "n_predecessors": 28,
+      "n_followers": 28,
+      "predecessor_21_count": 2,
+      "follower_37_count": 3,
+      "bigram_21_64_positions": [
+        936,
+        1630
+      ],
+      "bigram_64_37_positions": [
+        675,
+        937,
+        1631
+      ]
+    },
+    "verdict": "NULL — top candidate killed by two cipher-side consistency checks (see cipher_side_checks_on_top_candidate).",
+    "verdict_detail": "NULL. The top qui-slot7 9-mer 'seu le dif fé ren ce qui e xis' (seule différence qui existe) recurs x3 in the era corpus — one check FOR — but mapping it onto 56 69 26 00 33 21 64 37 01 fails two independent cipher-side checks: (1) it needs 00='fé', but 00 is the rank-1 group (x54, 2.93%) while era 'fé' is 0.19% (15x too rare for the most frequent cell); (2) it needs 21='ce', colliding with provisional anchor 87=ce (soft: syllabaries can carry homophones, but 'ce' is ultra-frequent and unlikely doubled). Second candidate 'ses accidentels qui peuvent' x3 has no cipher-side support either. The 9-mer stays unread.",
+    "cipher_side_checks_on_top_candidate": {
+      "candidate": "seu le dif fé ren ce qui e xis = 'seule différence qui existe' (era x3)",
+      "implied_mapping": {
+        "56": "seu",
+        "69": "le",
+        "26": "dif",
+        "00": "fé",
+        "33": "ren",
+        "21": "ce",
+        "64": "qui",
+        "37": "e",
+        "01": "xis"
+      },
+      "check_1_00_eq_fé": "KILL-grade: 00 is rank 1/96 (x54, 2.925%) — the single most frequent group in the text; era 'fé' = 0.19% (15x rarer). A rank-1 cell cannot be 'fé'.",
+      "check_2_21_eq_ce": "CAUTION: 21='ce' collides with provisional lane anchor 87=ce. Not a hard kill (homophones possible) but 'ce' is ultra-frequent (era 1.20% of syllables) — doubling it is unlikely.",
+      "net": "candidate rejected; no other candidate has >=2 supporting checks"
+    }
+  },
+  "promotion_verdicts": {
+    "H5_'Jai_lhonneur_de'": {
+      "verdict": "REFUTED as stated (not promoted)",
+      "checks_for": 3,
+      "checks_against": 4,
+      "independent_killers": [
+        "structural: 82=m ground-truth anchor vs required 82=neur",
+        "rate: 82 at rank 8 is ~order-of-magnitude too frequent for tier-3 \"neur\""
+      ],
+      "surviving_suggestion": "77->78 'j\\'ai l\\'' chunk (7x, 5 outside repeat) stays a live sub-claim; the R4 '-ment' word-family rival (94=ne 82=m 06=ent) is structurally compatible with 82=m and inherits the repeat as its target."
+    },
+    "nine_mer_drag": {
+      "verdict": "NULL — not promoted",
+      "reason": "Top corpus candidate (seule différence qui existe, x3) fails two independent cipher-side checks: 00=fé impossible at rank-1 frequency (15x), 21=ce collides with provisional 87=ce. No candidate clears >=2 checks."
+    }
+  }
+}

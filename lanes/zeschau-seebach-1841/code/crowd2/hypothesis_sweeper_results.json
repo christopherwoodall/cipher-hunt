@@ -1,0 +1,263 @@
+{
+ "hypotheses": {
+  "H2 77=\"pas\"": {
+   "verdict": "REFUTED",
+   "passed": 1,
+   "failed": 4,
+   "checks": [
+    {
+     "result": "fail",
+     "text": "rank band: cipher rank(77)=6 vs era word rank(\"pas\")=34 (broad 4x band)"
+    },
+    {
+     "result": "pass",
+     "text": "ratio: 06/77=1.045 vs era n(ne)/n(pas)=1.822"
+    },
+    {
+     "result": "fail",
+     "text": "bigram: cipher P(77|06)=0.1304 vs era P(pas|ne)=0.0112"
+    },
+    {
+     "result": "fail",
+     "text": "joint control \"que->pas\": cipher P(77|46)=0.0345 vs era P(pas|que)=0.00000 (both ~absent)"
+    },
+    {
+     "result": "fail",
+     "text": "joint control \"que->ne\": cipher P(06|46)=0.0000 vs era P(ne|que)=0.0028"
+    },
+    {
+     "result": "info",
+     "text": "caveat: 67->77 = 6/37 = 16.2% — \"ne\"-like predecessor; 67 unidentified (see H2/H3 joint note)"
+    },
+    {
+     "result": "info",
+     "text": "caveat: 77 heads the r1 repeat 77-78-94-82(m)-06 x2 (linguist H5: \"J'ai l'honneur de\"?) — proper-noun/word-family rival unscored, null as test"
+    }
+   ]
+  },
+  "RIVAL 77=\"que\"": {
+   "verdict": "REFUTED",
+   "passed": 1,
+   "failed": 2,
+   "checks": [
+    {
+     "result": "pass",
+     "text": "RIVAL 77=\"que\": rank band cipher rank(77)=6 vs era rank(\"que\")=9"
+    },
+    {
+     "result": "fail",
+     "text": "RIVAL 77=\"que\": cipher P(77|06)=0.1304 as \"ne->que\" vs era P(que|ne)=0.0000 (restrictive \"ne...que\" is real in prose)"
+    },
+    {
+     "result": "fail",
+     "text": "RIVAL 77=\"que\": cipher P(77|46)=0.0345 vs era P(que|que)=0.00000 — CONTRADICTION: 46=que -> 77 far too often for que->que"
+    }
+   ]
+  },
+  "RIVAL 77=\"plus\"": {
+   "verdict": "REFUTED",
+   "passed": 1,
+   "failed": 1,
+   "checks": [
+    {
+     "result": "pass",
+     "text": "RIVAL 77=\"plus\": rank band cipher rank(77)=6 vs era rank(\"plus\")=23"
+    },
+    {
+     "result": "fail",
+     "text": "RIVAL 77=\"plus\": cipher P(77|06)=0.1304 vs era P(plus|ne)=0.0011"
+    }
+   ]
+  },
+  "RIVAL 77=\"ne\"-swap": {
+   "verdict": "REFUTED",
+   "passed": 0,
+   "failed": 1,
+   "checks": [
+    {
+     "result": "fail",
+     "text": "RIVAL 77=\"ne\" (swap with 06): cipher 06->77=0.1364 as \"pas->ne\" vs era P(ne|pas)=0.00000 ~0 — ungrammatical, swap REFUTED"
+    }
+   ]
+  },
+  "H3 06=\"ne\"": {
+   "verdict": "INCONCLUSIVE",
+   "passed": 3,
+   "failed": 3,
+   "checks": [
+    {
+     "result": "fail",
+     "text": "rank band: cipher rank(06)=4 vs era word rank(\"ne\")=19 (broad 4x band)"
+    },
+    {
+     "result": "pass",
+     "text": "ratio (shared with H2): 06/77=1.045 vs era n(ne)/n(pas)=1.822"
+    },
+    {
+     "result": "fail",
+     "text": "bigram: cipher P(77=pas|06)=0.1304 vs era P(pas|ne)=0.0112"
+    },
+    {
+     "result": "pass",
+     "text": "particle-dominance: top follower of 06 is 77 (\"pas\") at 13.0% — era \"ne\" is followed overwhelmingly by negation particles ['saurait', 'peut', 'se', 's', 'sont', 'peuvent']"
+    },
+    {
+     "result": "pass",
+     "text": "predecessor diversity: 06 has 30 distinct predecessors (era \"ne\" takes subjects/clause-initials freely)"
+    },
+    {
+     "result": "fail",
+     "text": "era-profile probe: cipher P(87=ce|06)=0.0000 vs era P(ce|de)=0.0167 — neutral control (de-like vs ne-like follower mix)"
+    }
+   ]
+  },
+  "RIVAL 06=\"de\"": {
+   "verdict": "REFUTED",
+   "passed": 1,
+   "failed": 2,
+   "checks": [
+    {
+     "result": "pass",
+     "text": "RIVAL 06=\"de\": rank band cipher rank(06)=4 vs era rank(\"de\")=1"
+    },
+    {
+     "result": "fail",
+     "text": "RIVAL 06=\"de\": cipher P(77|06)=0.1304 as \"de->pas\" vs era P(pas|de)=0.00000 ~0 — ungrammatical"
+    },
+    {
+     "result": "fail",
+     "text": "RIVAL 06=\"de\": cipher P(87=ce|06)=0.0000 vs era P(ce|de)=0.0167"
+    }
+   ]
+  },
+  "RIVAL 06=\"le\"": {
+   "verdict": "REFUTED",
+   "passed": 0,
+   "failed": 1,
+   "checks": [
+    {
+     "result": "fail",
+     "text": "RIVAL 06=\"le\": cipher P(77|06)=0.1304 as \"le->pas\" vs era P(pas|le)=0.00000 ~0 — ungrammatical"
+    }
+   ]
+  },
+  "H4a 96=\"par\"": {
+   "verdict": "INCONCLUSIVE",
+   "passed": 3,
+   "failed": 1,
+   "checks": [
+    {
+     "result": "pass",
+     "text": "\"par\" rank band: cipher rank(96)=36 vs era rank(\"par\")=31 (broad 4x band)"
+    },
+    {
+     "result": "pass",
+     "text": "\"parce\" compound: cipher P(87=ce|96)=0.1429 vs era n(parce)/n(par)=0.1274"
+    },
+    {
+     "result": "fail",
+     "text": "\"parce que\" frame: cipher P(46=que|96,87)=3/3=1.00 vs era P(que|parce)=0.3258"
+    },
+    {
+     "result": "pass",
+     "text": "function-word diversity: 96 has 15 distinct preds / 12 distinct followers"
+    }
+   ]
+  },
+  "H4b 96=\"de\"": {
+   "verdict": "REFUTED",
+   "passed": 1,
+   "failed": 3,
+   "checks": [
+    {
+     "result": "fail",
+     "text": "\"de\" rank band: cipher rank(96)=36 vs era rank(\"de\")=1 (broad 4x band)"
+    },
+    {
+     "result": "fail",
+     "text": "\"de ce\": cipher P(87=ce|96)=0.1429 vs era P(ce|de)=0.0167"
+    },
+    {
+     "result": "fail",
+     "text": "\"de ce que\" frame: cipher P(46=que|96,87)=1.00 vs era P(que|\"de ce\")=0.1046 (n=153)"
+    },
+    {
+     "result": "pass",
+     "text": "function-word diversity: 96 has 15 distinct preds / 12 distinct followers"
+    }
+   ]
+  },
+  "RIVAL 96=\"pour\"": {
+   "verdict": "REFUTED",
+   "passed": 1,
+   "failed": 1,
+   "checks": [
+    {
+     "result": "pass",
+     "text": "RIVAL 96=\"pour\": rank band cipher rank(96)=36 vs era rank(\"pour\")=30"
+    },
+    {
+     "result": "fail",
+     "text": "RIVAL 96=\"pour\": cipher P(87=ce|96)=0.1429 vs era P(ce|pour)=0.00567 ~0 — \"pour ce\" rare in formal prose"
+    }
+   ]
+  },
+  "RIVAL 96=\"a/à\"": {
+   "verdict": "REFUTED",
+   "passed": 0,
+   "failed": 1,
+   "checks": [
+    {
+     "result": "fail",
+     "text": "RIVAL 96=\"a/à\": cipher P(87=ce|96)=0.1429 vs era P(ce|a/à)=0.01645 ~0 — \"a ce\" ungrammatical"
+    }
+   ]
+  },
+  "H4c 41=\"der\"/08=\"ni\"": {
+   "verdict": "INCONCLUSIVE",
+   "passed": 2,
+   "failed": 1,
+   "checks": [
+    {
+     "result": "pass",
+     "text": "positional frame: 41-08 @[59] immediately left of 34-29-40 (\"-iere\") @61-63, forming the full 41-08-34-29-40 \"der-ni-i-er-e\" frame (anchors: 34=i,29=er,40=e)"
+    },
+    {
+     "result": "pass",
+     "text": "rate band: cipher 41-08 pair rate=0.000542 vs era \"der*\"-initial word rate=0.000507 (broad 4x band)"
+    },
+    {
+     "result": "fail",
+     "text": "continuation: cipher P(08|41)=0.053 vs era P(word continues \"derni\" | starts \"der\")=0.9083"
+    }
+   ]
+  },
+  "RIVAL 41=\"ter\"/08=\"ni\"": {
+   "verdict": "REFUTED",
+   "passed": 0,
+   "failed": 1,
+   "checks": [
+    {
+     "result": "fail",
+     "text": "RIVAL 41=\"ter\",08=\"ni\": cipher P(08|41)=0.053 vs era P(\"terni\"|\"ter*\")=0.0000 ~0"
+    }
+   ]
+  },
+  "RIVAL 41=\"mer\"/08=\"ni\"": {
+   "verdict": "REFUTED",
+   "passed": 0,
+   "failed": 1,
+   "checks": [
+    {
+     "result": "fail",
+     "text": "RIVAL 41=\"mer\",08=\"ni\": cipher P(08|41)=0.053 vs era P(\"merni\"|\"mer*\")=0.0000 ~0"
+    }
+   ]
+  }
+ },
+ "meta": {
+  "pairs": 1846,
+  "era_words": 214861,
+  "note": "all rate checks vs Tocqueville 1835/1840 (era corpus), word-level proxy"
+ }
+}
