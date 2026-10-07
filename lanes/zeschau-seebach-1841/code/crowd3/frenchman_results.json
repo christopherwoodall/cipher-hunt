@@ -1,0 +1,319 @@
+{
+ "best_next_steps": [
+  "Second-instrument test of 24=en, 52=pas, 62=on (each needs one independent check before promotion; 52 already bounded by personne)",
+  "Resolve 47: 'ce qui par 47 que' @148-150 is the biggest jar in the qui/par neighborhood",
+  "Re-run drags with loose/phonetic syllabification (prend->pre, er|e for erre proven; rigid segmentation falsified by personne x2 spellings)",
+  "Lane-43: resolve '[qui] par [43] c'est' x2 formula (@343/@1026); candidates par exemple/hasard/ailleurs/contre"
+ ],
+ "caveats": [
+  "Only windows around 87/64/96/94 (+/-6-8 pairs) plus known formulae read: ~140 windows, not the whole cipher",
+  "Completions are French readings, not decipherments: 24, 52, 62, 37, 43, 01, 17 stay LEADS (single check: my ear)",
+  "Polyvalence (06, 52, 56, 43) may be encipherer allophonic variation (same syllable, several groups) - ear cannot distinguish",
+  "No GitHub push, no crack claim. Counts from crib_attack.load_pairs (1846 pairs)"
+ ],
+ "completions_leads": [
+  {
+   "crown_window": "@179 ...14 24 [ce] [qui] 23... = 'en ce qui...'; @73 'en plus, ce 14, en cela'",
+   "idiom": "en ce qui concerne, en plus, en cela, qu'en 85 (@952)",
+   "lead": "24 = en",
+   "strength": "STRONG",
+   "support": "24 rank 2 (2.82%) fits 'en' frequency"
+  }
+ ],
+ "decoder_convention": "ground truth plain (la, ne...); provisional in [brackets] ([ce],[qui],[par],[ne]); unknown = group number; cited position = target group index in 1846-pair stream",
+ "ear_vs_statistics": [
+  "87=ce: ear CONFIRMS closer promotion independently (three byte-identical parce que = grammatical lock, not a rate); cela register-gap reclassified as genre effect",
+  "06=ent general: ear KILLS independently (grammar: 'qui ent','ne ent la' impossible) - converges with morphologist; @1181 shows both readings side by side (polyvalence visible)",
+  "94=ne: ear CONFIRMS morphologist and resolves his anomalies as conditioned readings ('m'en' @1575, 'en ce' @1168)",
+  "24=en, 52=pas, 62=on: proposed by EAR ALONE (statistics hadn't) from formulae, not rates",
+  "AHA: encipherer spells phonetically and cuts inconsistently (prend->pre; personne as per|so|nne @160 AND pers|on|ne @508; er|e for erre; pre|m|i|er|e) - explains tuner LOO failure/F22; ear tolerates what rigid syllabification cannot",
+  "Self-correction: 'ce n'est pas cela' @163 killed by own ear (missing 'est'); 'parmi ceux-ci' demolished by own later find (01=est -> c'est)"
+ ],
+ "formulae": [
+  {
+   "formula": "parce que",
+   "groups": "96 87 46",
+   "note": "grammatical lock",
+   "occurrences": 3,
+   "positions": [
+    225,
+    951,
+    1525
+   ]
+  },
+  {
+   "formula": "ce qui",
+   "groups": "87 64",
+   "occurrences": 5,
+   "positions": [
+    180,
+    1767,
+    1775,
+    1799,
+    1800
+   ]
+  },
+  {
+   "formula": "cela",
+   "groups": "87 11",
+   "occurrences": 7
+  },
+  {
+   "formula": "en ce qui [verb]",
+   "groups": "24 87 64 ...",
+   "note": "bureaucratic head certain, verb (23 37 06) unidentified",
+   "occurrences": 2,
+   "positions": [
+    179,
+    1765
+   ]
+  },
+  {
+   "formula": "on ne prend pas",
+   "groups": "62 94 70 52",
+   "note": "full negation + phonetic spelling (prend->pre)",
+   "positions": [
+    1331
+   ]
+  },
+  {
+   "formula": "ne pas [infinitive]",
+   "groups": "94 52 80",
+   "note": "x2 byte-identical",
+   "occurrences": 2,
+   "positions": [
+    1293,
+    1806
+   ]
+  },
+  {
+   "formula": "la premiere [17]",
+   "groups": "11 70 82 34 29 40 17",
+   "note": "'la premiere fois' if 17=fois (single window); hyper-fine cut pre|m|i|er|e",
+   "positions": [
+    1033
+   ]
+  },
+  {
+   "formula": "[qui] par [43] c'est",
+   "groups": "64 96 43 87 01",
+   "note": "x2; c'est solid, par 43 = par [noun]; parmi ruled out",
+   "occurrences": 2,
+   "positions": [
+    343,
+    1026
+   ]
+  }
+ ],
+ "kills": [
+  {
+   "fault": "'qui ent','ne ent la': qui/ne demand a verb",
+   "killed": "06=ent (general reading)",
+   "survives_as": "restricted to 3 '...nement' trigrams",
+   "windows": [
+    "@1078 ...77 78 [qui] 06 52...",
+    "@1665",
+    "@318",
+    "@578",
+    "@758"
+   ]
+  },
+  {
+   "fault": "'de ce qui concerne' ungrammatical",
+   "killed": "24=de (inside 'en ce qui')",
+   "windows": [
+    "@179",
+    "@1765"
+   ]
+  },
+  {
+   "fault": "'parmi c'est' does not compose (87 01 = c'est)",
+   "killed": "43=mi ('parmi') in the x2 formula",
+   "windows": [
+    "@343",
+    "@1026"
+   ]
+  },
+  {
+   "fault": "1.57% too frequent for 'ci'; '34 01'='ici' x0; @295 needs 'est'",
+   "killed": "01=ci ('ceux-ci')",
+   "windows": [
+    "@295"
+   ]
+  },
+  {
+   "fault": "@160 '...93 52 [ne]...' = 'per|so|nne': 52 word-internal, not 'pas'",
+   "killed": "52=pas as single reading",
+   "survives_as": "STRONG LEAD (bounded)",
+   "windows": [
+    "@160"
+   ]
+  },
+  {
+   "fault": "missing 'est': 'ce ne pas cela' ungrammatical (own false lead, self-killed)",
+   "killed": "'ce n'est pas cela' @163",
+   "windows": [
+    "@163"
+   ]
+  },
+  {
+   "fault": "@795 '...[qui] 56 37 44...' = 'qui a le 44': 56='a' there",
+   "killed": "56=plus as single reading",
+   "windows": [
+    "@795"
+   ]
+  }
+ ],
+ "leads_extra": [
+  {
+   "lead": "01 = est",
+   "strength": "MEDIUM",
+   "window": "@295 ...65 16 01 la 78... = '16 est la 78'"
+  },
+  {
+   "lead": "17 = fois",
+   "strength": "WEAK (single window)",
+   "window": "@1033 'la premiere 17'"
+  },
+  {
+   "lead": "37 = le",
+   "strength": "MEDIUM",
+   "tension": "@529/@1356/@1443 '37 [qui]' = 'ce/celui qui', not 'le'",
+   "window": "@1178 '...le gouvernement...'; @676/@938/@1632 'qui le [verb]' x3"
+  },
+  {
+   "lead": "43 = me",
+   "strength": "MEDIUM",
+   "window": "@43 'il me [verb]'; @439 'que me [verb]'"
+  },
+  {
+   "lead": "56 = plus",
+   "strength": "MEDIUM",
+   "tension": "@795 56='a' (K7)",
+   "window": "@73 'en plus, ce 14'"
+  },
+  {
+   "lead": "62 = on",
+   "strength": "STRONG",
+   "window": "@1331 'on ne prend pas'; @100/@839/@1361/@1685/@1703 'on ne [verb]' x5; @508 'pers|on|ne'"
+  },
+  {
+   "method": "phonetic spelling: 'prend'->'pre'",
+   "window": "@1331"
+  }
+ ],
+ "register": {
+  "cela_gap_explanation": "'cela' is the reporter's event-anaphora ('what just happened'), not informality: genre effect (reportage vs essay), not formality effect",
+  "expect": "political lexicon (gouvernement, ministre, chambre, loi, election, parti), diplomatic formulae, subjunctives after que, full negations",
+  "markers": [
+   "en ce qui (bureaucratic)",
+   "de plus (report transition)",
+   "ne pas + infinitive x2 (chancery)",
+   "qui que + subjunctive (literary)",
+   "full negations, no dropped ne, no ca (written not spoken)",
+   "subject: le gouvernement (political reporting)"
+  ],
+  "not_expect": "slang, 'ca', dropped 'ne', exclamations, interjections",
+  "verdict": "formal unhurried despatch French - neither familiar nor rushed",
+  "verdict_fr": "francais de depeche, soutenu et pose - ni familier, ni presse"
+ },
+ "values_applied": {
+  "64": "qui",
+  "87": "ce",
+  "94": "ne",
+  "96": "par",
+  "ground_truth": {
+   "11": "la",
+   "29": "er",
+   "34": "i",
+   "40": "e",
+   "46": "que",
+   "70": "pre",
+   "82": "m"
+  }
+ },
+ "verdicts": [
+  {
+   "best_windows": [
+    "@225 ...61 [par] [ce] que 98... = 'parce que' (x3: @225,@951,@1525)",
+    "@180 ...14 24 [ce] [qui] 23... = 'ce qui' (x5)",
+    "@163/@201/@1241/@1402 'cela' (x7)",
+    "@73 ...13 24 56 [ce] 14 24 [ce] la... = 'en plus, ce 14, en cela'",
+    "@179/@1765 'en ce qui [verb]'"
+   ],
+   "group": "87",
+   "value": "ce",
+   "verdict": "EAR-CONFIRMED (independent ear finding; not a status promotion)",
+   "worst_windows": [
+    "@868 ...00 86 pre [ce] 77... = 'pre[ce]77' ('preceder'? word-internal 'ce'?) - flagged not killed"
+   ],
+   "lane_status": "PROVISIONAL (red-team demotion of closer promotion)"
+  },
+  {
+   "best_windows": [
+    "'ce qui' x5 (@180,@1767,@1775,@1799,@1800)",
+    "@290/@684 '...09 [qui] er e 65...' = 'qui erre 65' x2 (er|e composes!)",
+    "@676 'qui le 77'; @938/@1632 'qui le 01' x2",
+    "@790 'qui que 07' (literary qui que + subjunctive)",
+    "@508 'personne, qui 98'",
+    "@1078/@1665 'qui [verb-stem]' (06 verbal)"
+   ],
+   "group": "64",
+   "value": "qui",
+   "verdict": "EAR-CONFIRMED",
+   "worst_windows": [
+    "@148-150 '...ce qui par 47 que...' - 47-problem, not qui's fault",
+    "@725 'qui la 00' (rescued as \"qui l'a 00\")",
+    "@1773 'ne 24 ce qui' - mild jar"
+   ]
+  },
+  {
+   "best_windows": [
+    "'parce que' x3 (96-87-46 @225,@951,@1525)",
+    "'par [noun]' @131,@465,@602,@846,@913,@926,@959,@997,@1062,@1212,@47,@1785"
+   ],
+   "group": "96",
+   "value": "par",
+   "verdict": "EAR-CONFIRMED",
+   "worst_windows": [
+    "@1195 '...m 16 [par] m 16 [qui]...' - 'X par X' reduplication unresolved (16's problem)",
+    "@148-150 'par 47 que' (47-problem)"
+   ]
+  },
+  {
+   "best_windows": [
+    "@1331 '...62 [ne] pre 52...' = 'on ne prend pas' (phonetic pre!)",
+    "@1293/@1806 '...35 [ne] 52 80...' = 'ne pas [inf]' x2",
+    "@318 'ne [stem] la'",
+    "@578/@1181/@1352 'gouvernement' trigram",
+    "'ne [verb]' @65,@101,@250,@349,@494,@558,@699,@784,@840,@1101,@1548,@1686,@1700,@1794",
+    "@160 'personne' (word-internal ne)",
+    "@509 '...[donn]e, qui...' (word-final ne)"
+   ],
+   "conditioned_readings": [
+    "@1168 'en ce 83' ('en ce moment') -> 94=en",
+    "@1575 'm'en 76' ('je m'en...') -> 94=en"
+   ],
+   "group": "94",
+   "value": "ne",
+   "verdict": "EAR-CONFIRMED with conditioned 'en' islets",
+   "worst_windows": [
+    "@1741 '...i [ne] m que...' - unreadable under both readings, unresolved (1/36)"
+   ]
+  },
+  {
+   "group": "06",
+   "note": "@1181 'gouvernement 06' shows both readings side by side",
+   "value": "ent (general) vs verb stem",
+   "verdict": "KILL 06=ent GENERAL; 'ent' survives only in 3 '...nement' trigrams; elsewhere 06=verb stem",
+   "worst_windows": [
+    "@1078/@1665 'qui ent' impossible",
+    "@318 'ne ent la' impossible",
+    "@578 'ne m'ent' impossible",
+    "@758 '02[ent]er' impossible"
+   ]
+  }
+ ],
+ "worker": "frenchman (crowd3, round 3)",
+ "authority_note": "Red team (kill authority) demoted 87='ce' to PROVISIONAL after the closer (traceability break B1, invalid corroboration B2, circular leg B3, failing cela leg B4). Ear verdicts below are independent ear findings, NOT lane-status promotions. Red team also blocks 64='qui' re-promotion on a 64->77x3 anomaly; ear reads 'qui 77 84' as 'qui [verb]' (grammatical, verb unidentified) and does not adjudicate."
+}

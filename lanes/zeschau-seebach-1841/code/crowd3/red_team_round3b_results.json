@@ -1,0 +1,161 @@
+{
+ "adjudications": {
+  "a_78_me": {
+   "broken_checks": [
+    "B-78a: the 78=e L3a kill is VOID -- era ('e','e')=0 (eu[e]=5965) is a syllabifier artifact: the era tokenizer almost never emits a word-final bare 'e' (rue->'rue', premiere->'pre','mie','re'), so the zero measures tokenizer habits, not French grammar; the cipher's 40 is the word-final mute-e writer per the crib",
+    "B-78b: the L2 leg is miscomputed -- closer reported era P(me|la)=0.0274 / ratio 1.66x; recomputed eb[(la,me)]=154, eu[la]=7652 -> P=0.0201, ratio 2.26x OUT of band; 154/5617=0.0274 shows the closer divided by the wrong marginal (P(la|me) for P(me|la))",
+    "weakened: the 'meme' joint (47->78 x5 + 37->78 x4) is era-coherent (era (me,me) n=827) but circular as a promotion leg -- 47/37 unconfirmed, 47 carries the 802x 'par me' contradiction"
+   ],
+   "survives": [
+    "L1 1.108 in band (reproduces)",
+    "the l'-kill, recomputed STRONGER: 11->78 x2 at 0.0455 vs era P(l|la)=0.0008 -> 58x (closer said 40.4x); 'la l\\'' genuinely ungrammatical",
+    "L2b 0.731 reproduces; L3a otherwise clean; L3b 'la meme' era n=154 reproduces"
+   ],
+   "verdict": "REJECT promotion -> LEAD (rival l' killed; rival e unkilled and live at L1 1.044)"
+  },
+  "b_77_three_way": {
+   "77_le": {
+    "verdict": "LEAD-weak accepted (1 check; L2prov fails recomputed 4.6x/4.1x)"
+   },
+   "77_pas": {
+    "direction": "closer's REFUTED direction is correct; grade too high",
+    "evidence": "L1 6.69x reproduces (5.21x at word-space, survives sense-mixing correction); grammatical 'ce pas' x2 kill conditioned on provisional 87=ce; L2prov recomputed stronger than reported (57.5x/78.5x) but provisional-conditioned and hand-computed/unverifiable as stated",
+    "instrument_note": "the battery is a legitimate NEW instrument, not a recycled void one; its weakness is the uncalibrated band + provisional anchors",
+    "verdict": "REFUTED downgraded -> DISFAVORED (strong); N18 INCONCLUSIVE refined"
+   },
+   "77_que": {
+    "closer_claim": "LEAD (3 checks)",
+    "counter": [
+     "all three checks (L1 1.645, L2b 1.783 reproduces, 'ce que' 1.32 recomputed) are uncalibrated-band legs",
+     "polyvalence cost stands: GT 46=que exists, follower-cosine(77,46)=0.198 reproduces",
+     "frenchman @790 ear reading contradicts: '77 qui que' as 'qui que ce soit' makes 77='que' read 'que qui que', ungrammatical",
+     "L2prov provisional-conditioned"
+    ],
+    "verdict": "DISFAVORED stands; closer's battery does not overturn"
+   }
+  },
+  "c_calibration": {
+   "blast_radius": [
+    "my round-3 verdict-3 leg '06->29 x5 strained as ent|er (2.4x enter-word rate)' is VOID -- er-rate uncalibrated; the 06=ent-general REFUTED stands on reduced legs (K1 ear kill + 06 unigram rate)",
+    "the 06='ne' kill leg (era ne+er-initial 0/1793 vs 5/46) is VOID as era-uncalibrated -- no live claim affected",
+    "closer's 94->82 'ne m\\'' void ENDORSED (self-voided)",
+    "unaffected: 87=ce rival battery/inversion, 94=ne unigram rate, 64->77x3 word-space anomaly, trigram word rates, all cipher-side count legs, all frenchman ear readings"
+   ],
+   "extension_40e": "40='e' CONDITIONAL/attestation legs are uncalibrated too (B-78a) -- the era 'e' syllable is a different distributional object than the cipher's word-final mute-e 40; unigram 0.71x stays as context",
+   "reproduces": {
+    "11=la": 1.15,
+    "34=i": 3.3,
+    "40=e": 0.71,
+    "46=que": 1.08,
+    "70=pre": 1.88,
+    "82=m": 61.1,
+    "87=ce": 1.4,
+    "96=par": 1.81
+   },
+   "verdict": "exclusion logic VALID"
+  },
+  "d2_ear_confirmations": {
+   "64_qui": "independent corroboration; 64->77x3 reclassified as a 77-problem ('qui [verb]' reading) -- pressure on 64 dissolves under 77!=pas; RE-PROMOTION STAYS BLOCKED (check (b) still provisional-conditioned; ear is not a second statistical check)",
+   "87_ce": "independent corroboration; status PROVISIONAL unchanged",
+   "94_ne": "independent corroboration; 'en' islets @1168/@1575 (verified) = LEAD-grade conditioned polyvalence; @1741 unresolved under both readings (1/36)",
+   "96_par": "independent corroboration; status unchanged",
+   "conflicts_with_statistics": "none at gradeable strength"
+  },
+  "d_frenchman_kills": {
+   "K1_06_ent_general": "ACCEPT -- independent ear corroboration of standing kill (@1078/@1665/@318/@578/@758 verified); @1181 shows polyvalence naked, supports restricted-'ent' PLAUSIBLE",
+   "K2_24_de_in_formula": "ACCEPT SCOPED -- 'de ce qui' ungrammatical (@179/@1765 verified); conditioned on provisional 87=ce/64=qui",
+   "K3_43_parmi_in_formula": "CONDITIONAL ONLY -- assumes unconfirmed 01='est'; cannot enter kill ledger until 01=est confirms",
+   "K4_01_ci": "ACCEPT PROVISIONAL -- cipher P(01)=1.571% vs era P(ci)=0.409% -> 3.84x; 34->01 ('ici') x0 reproduces; @295 leg circular with 01=est lead",
+   "K5_52_pas_single_reading": "ACCEPT SCOPED -- @160 verified ('...93 pas ne...' ungrammatical; 'per|so|nne' coherent); conditioned on provisional 94=ne; FORCES 52 polyvalence",
+   "K6_self_kill": "no action; honesty noted",
+   "K7_56_plus_single_reading": "REJECT as kill -- rests on unconfirmed 37='le' + unidentified 44; recorded as live tension"
+  },
+  "e_frenchman_leads": {
+   "01_est": "MEDIUM -- @295 '16 est la 78' verified; 'c\\'est'=87+01 in x2 formula; underwrites K3-conditional and K4's third leg",
+   "17_fois": "WEAK -- single window @1033 'la premiere 17' verified",
+   "24_en": "STRONG LEAD (formula-locked: 'en ce qui' x2, 'en plus', 'en cela', 'qu\\'en 85'; rank 2 fits) -- COLLISION: 24->87 x10 (P=0.192) vs era P(ce|en)~0.006-0.007 -> 26-31x over (recomputed both instruments; closer's 15.9x hand-computed/unverifiable); sharpest ear-vs-stats tension of the round; resolution: formula-aware/diplomatic-corpus check or decompose the 10 instances (3/10 are 'en ce qui' frames)",
+   "37_le": "MEDIUM -- 'le gouvernement' @1178 verified; 'qui le [v]' x3; tension @529/@1356/@1443 ('37 qui' = 'ce/celui qui'); rival 37='me' stays LEAD-weak",
+   "43_me": "MEDIUM, scoped outside the formula (K3 bounds it out)",
+   "52_pas": "STRONG LEAD BOUNDED by K5 -- 'on ne prend pas' @1331 and 'ne pas [inf]' x2 byte-identical (@1293/@1806) are locks; polyvalent by necessity; rival 52='se' stays LEAD (provisional-flavored)",
+   "56_plus": "MEDIUM, K7 tension open (polyvalence or misparse)",
+   "62_on": "STRONG LEAD (strongest of batch) -- ear lock 'on ne prend pas' + 'on ne [v]' x5+ + 'pers|on|ne' @508 (verified); recomputed statistical leg: 62->94 x8 as 'on ne', cipher 0.2353 vs era P(ne|on)=0.1194 -> 1.97x in-band (word-space 1.96x); L1 4.27x over era consistent with polyvalence (pronoun + word-internal 'on'); one more independent check -> promotion candidate"
+  },
+  "f_segmenter": {
+   "drag_targets": "25 targets CLEARED as LEAD-grade round-4 crib-drag targets -- caveats: pre-registered control required (scorer lesson, BROKEN-ON-CONTROL upheld); targets touching provisional reads inherit provisional uncertainty; not a decode map; of interest: @507-509 [77 62 94], @1703-1705 [62 94 88], @81-83 [51 62 16], @1110-1112 [41 65 38]",
+   "method": "ACCEPTED -- GT checkpoint 3/3 out-of-sample (0.727/0.937/0.608); MAP sane (958 words, mean 1.93, chi2 121.8); EM decontamination honest; ANCHOR variants correctly flagged circular",
+   "provisional_boundary_nonconfirmation": "NOT anti-evidence against 87=ce/96=par -- (1) metric muddling: cela-internal (87|11) <0.5 in 7/7 (mean ~0.40) is the model correctly not splitting 'cela'; (2) true boundary parce|que (87|46) at 0.395/0.48/0.346 shows a weak rotation-break signal, weaker than the ear's grammatical locks; (3) inconsistent-segmentation enlightenment predicts exactly this failure mode; statuses unchanged; cela-internal <0.5 mildly favors 'cela' one word (weak supporting)"
+  },
+  "g_cipher_model": {
+   "dead": "rigid syllabification as an instrument -- (1) tuner NULL stands; (2) calibration: era maximal-onset != encipherer segmentation (29/82/34 + 40-conditionals excluded); (3) frenchman: encipherer spells by ear, cuts inconsistently ('personne' x2 spellings, 'prend'->'pre', 'erre'->'er|e', 'pre|m|i|er|e')",
+   "rule_round4_plus": "no era-syllable-conditional rate or attestation leg on any group whose hypothesized value is a morphological fragment; era word-space legs survive; new fragment hypotheses tested against the recovered syllabary, not Tocqueville",
+   "survives": [
+    "cipher-side distributional geometry (follower/predecessor counts, count-zeros, V29 as structural class with M8 contamination warning)",
+    "word-space grammatical kills ('ce pas', 'la l\\'', 'de ce qui')",
+    "ear/formula locks ('parce que' x3, 'ce qui' x5, 'on ne prend pas') -- the ear is the better instrument because it tolerates inconsistent segmentation",
+    "era unigram rates as context only (band uncalibrated, M3)",
+    "the morphological-syllabary hypothesis as the recovery target (tuner step 2: read data/upstream-syll*.py)"
+   ]
+  }
+ },
+ "ledger_round3_combined": {
+  "demotions": [
+   "87=ce CONFIRMED->PROVISIONAL (strengthened)",
+   "94=ne CONFIRMED->PROVISIONAL (strong)",
+   "06 verb-stem class CONFIRMED->PROVISIONAL",
+   "06 polyvalent CONFIRMED->PLAUSIBLE",
+   "67=veut-class CONFIRMED->PROVISIONAL ('veut' PLAUSIBLE)",
+   "77=pas CONFIRMED->INCONCLUSIVE->DISFAVORED (strong) [3b revision]",
+   "tension DISSOLVED->OPEN"
+  ],
+  "kills_conditional_not_in_ledger": [
+   "43='parmi' in the x2 formula (needs 01='est')"
+  ],
+  "kills_hard": [
+   "06=/mɑ̃/ 'demand-/command-' CONFIRMED -- ground-truth contradiction (crib writes mute -e as 40)"
+  ],
+  "kills_provisional": [
+   "01='ci' (3b K4: 3.84x + 'ici' x0)"
+  ],
+  "kills_rejected": [
+   "56='plus' single-reading (K7; provisional-on-unconfirmed)"
+  ],
+  "kills_scoped": [
+   "24='de' inside 'en ce qui' (3b K2; conditioned on 87=ce/64=qui)",
+   "52='pas' as single reading (3b K5; conditioned on 94=ne; forces 52 polyvalence)"
+  ],
+  "promotions": [
+   "none -- 78='me' promotion REJECTED -> LEAD; 62='on' STRONG LEAD (promotion candidate, one check short)"
+  ],
+  "refuted_downgraded": [
+   "77='que' REFUTED->DISFAVORED (stands)",
+   "06='ent' general REFUTED (upheld, legs reduced per blast radius)"
+  ],
+  "upheld": [
+   "-ment family PLAUSIBLE",
+   "scorer BROKEN-ON-CONTROL",
+   "tuner NULL",
+   "segmenter PARTIAL (method validated; 25 targets cleared LEAD-grade)"
+  ],
+  "voided_legs": [
+   "phase->position (tuner)",
+   "06 'ent|er strained' 2.4x leg (3b, er-rate uncalibrated)",
+   "06='ne' ne+er-initial leg (3b, no live claim affected)",
+   "closer 94->82 'ne m\\'' (self-voided, endorsed)",
+   "closer 78='e' L3a kill (3b B-78a, syllabifier artifact)",
+   "closer 78='me' L2 leg (3b B-78b, wrong marginal)",
+   "closer 77 L2prov legs as stated (3b, hand-computed/unverifiable; recomputed stronger but provisional-conditioned)",
+   "closer 94 'ne se' 5/36 pooling (3b -- mixes 'ne pas' x2 with word-internal 52; 94->59 x2 'ne se' r=1.48 piece survives)"
+  ]
+ },
+ "next_step": [
+  "repair battery (B-78b marginal bug; L2prov in archived code, word-space for function words) and re-run 77/78 cleanly",
+  "62='on' is one independent check from promotion -- find a distributional/positional third leg",
+  "resolve 47 ('...ce qui par 47 que...' @148-150; 47='me' 802x contradiction vs 'meme' joint)",
+  "read data/upstream-syll*.py (tuner step 2) -- recover the encipherer's syllabary; rebuild fragment comparison on it",
+  "round-4 drag on the 25 segmenter targets WITH a pre-registered control (scorer lesson)"
+ ],
+ "recompute_note": "cipher counts from crib_attack.load_pairs() (code/); era rates from Tocqueville t1+t2 via battery.Models (syllable cross-word stream) and battery.load_words (word-space); script /tmp/rt3b_recompute.py (ephemeral); no GitHub push per WO; no crack claim",
+ "round": "3b",
+ "scope": "late finishers: bigram closer, frenchman, segmenter; 13 round-3 verdicts in red_team_results.{md,json} stand except as revised here",
+ "worker": "red team"
+}

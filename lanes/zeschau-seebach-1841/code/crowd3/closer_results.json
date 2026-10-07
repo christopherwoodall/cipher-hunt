@@ -1,0 +1,846 @@
+{
+ "meta": {
+  "worker": "closer (crowd3, WO4)",
+  "question": "87=\"ce\" provisional resolution",
+  "ground_truth_anchors": {
+   "11": "la",
+   "70": "pre",
+   "82": "m",
+   "34": "i",
+   "29": "er",
+   "40": "e",
+   "46": "que"
+  }
+ },
+ "cipher_87_profile": {
+  "n_pairs": 1846,
+  "n_87": 32,
+  "rank_87": 16,
+  "share_87": 0.017335,
+  "followers_87": {
+   "11": 7,
+   "64": 5,
+   "46": 3,
+   "01": 2,
+   "77": 2,
+   "78": 2,
+   "83": 2,
+   "14": 1,
+   "86": 1,
+   "98": 1,
+   "61": 1,
+   "59": 1,
+   "76": 1,
+   "63": 1,
+   "08": 1,
+   "74": 1
+  },
+  "P_11_given_87": 0.2188,
+  "n_87_11": 7,
+  "P_46_given_87": 0.0938,
+  "n_87_46": 3,
+  "P_64_given_87": 0.1562,
+  "n_87_64": 5,
+  "n_distinct_predecessors_87": 14,
+  "predecessors_87": {
+   "24": 10,
+   "29": 3,
+   "96": 3,
+   "56": 2,
+   "76": 2,
+   "43": 2,
+   "79": 2,
+   "81": 2,
+   "09": 1,
+   "52": 1,
+   "77": 1,
+   "70": 1,
+   "94": 1,
+   "74": 1
+  },
+  "top_predecessors_of_11": {
+   "87": 7,
+   "00": 4,
+   "06": 4,
+   "47": 3,
+   "67": 3,
+   "37": 2
+  },
+  "n_distinct_followers_87": 16,
+  "n_96": 21,
+  "n_96_87": 3,
+  "P_87_given_96": 0.1429,
+  "bigrams_87_46": [
+   {
+    "predecessor": "96",
+    "pair_index": 225
+   },
+   {
+    "predecessor": "96",
+    "pair_index": 952
+   },
+   {
+    "predecessor": "96",
+    "pair_index": 1526
+   }
+  ],
+  "odd_lines": 28,
+  "off1_lines": 32
+ },
+ "steelman_syllabary_aware": {
+  "tocqueville-1835-1840": {
+   "model": {
+    "P_la_given_87model": 0.0183,
+    "P_ci_given_87model": 0.0288,
+    "P_t_given_87model": 0.047,
+    "P_te_given_87model": 0.2057,
+    "P_x_given_87model": 0.1116,
+    "P_lui_given_87model": 0.0653,
+    "P_lle_given_87model": 0.056,
+    "P_lles_given_87model": 0.0264,
+    "P_qui_given_87model": 0.0828,
+    "P_que_given_87model": 0.0474,
+    "P_qu_given_87model": 0.0459,
+    "P_n_given_87model": 0.035,
+    "P_sont_given_87model": 0.0229,
+    "P_point_given_87model": 0.0179,
+    "denom": 2572,
+    "n_ce": 1134
+   },
+   "cipher_P_11_given_87": 0.2188,
+   "cipher_P_64_given_87": 0.1562,
+   "cipher_P_46_given_87": 0.0938,
+   "within2_la": false,
+   "within2_qui": true,
+   "within2_que": true
+  },
+  "les-miserables-1862": {
+   "model": {
+    "P_la_given_87model": 0.1311,
+    "P_ci_given_87model": 0.0227,
+    "P_t_given_87model": 0.0769,
+    "P_te_given_87model": 0.2471,
+    "P_x_given_87model": 0.0222,
+    "P_lui_given_87model": 0.0169,
+    "P_lle_given_87model": 0.0107,
+    "P_lles_given_87model": 0.0004,
+    "P_qui_given_87model": 0.0556,
+    "P_que_given_87model": 0.0662,
+    "P_qu_given_87model": 0.06,
+    "P_n_given_87model": 0.024,
+    "P_sont_given_87model": 0.0098,
+    "P_point_given_87model": 0.0022,
+    "denom": 2250,
+    "n_ce": 1062
+   },
+   "cipher_P_11_given_87": 0.2188,
+   "cipher_P_64_given_87": 0.1562,
+   "cipher_P_46_given_87": 0.0938,
+   "within2_la": true,
+   "within2_qui": false,
+   "within2_que": true
+  }
+ },
+ "rival_battery_era": {
+  "se": {
+   "n": 1524,
+   "rank": 22,
+   "share": 0.007093,
+   "share_within2_of_87": false,
+   "P_la": 0.0,
+   "n_R_la": 0,
+   "P_la_within2": false,
+   "P_que": 0.0,
+   "n_R_que": 0,
+   "P_que_within2": false,
+   "P_qui": 0.0,
+   "n_R_qui": 0,
+   "P_qui_within2": false,
+   "distinct_predecessors": 439,
+   "n_par_R_que_trigrams": 0
+  },
+  "ne": {
+   "n": 1793,
+   "rank": 19,
+   "share": 0.008345,
+   "share_within2_of_87": false,
+   "P_la": 0.0089,
+   "n_R_la": 16,
+   "P_la_within2": false,
+   "P_que": 0.0,
+   "n_R_que": 0,
+   "P_que_within2": false,
+   "P_qui": 0.0,
+   "n_R_qui": 0,
+   "P_qui_within2": false,
+   "distinct_predecessors": 459,
+   "n_par_R_que_trigrams": 0
+  },
+  "le": {
+   "n": 4570,
+   "rank": 6,
+   "share": 0.02127,
+   "share_within2_of_87": true,
+   "P_la": 0.0,
+   "n_R_la": 0,
+   "P_la_within2": false,
+   "P_que": 0.0,
+   "n_R_que": 0,
+   "P_que_within2": false,
+   "P_qui": 0.0,
+   "n_R_qui": 0,
+   "P_qui_within2": false,
+   "distinct_predecessors": 1481,
+   "n_par_R_que_trigrams": 0
+  },
+  "je": {
+   "n": 669,
+   "rank": 45,
+   "share": 0.003114,
+   "share_within2_of_87": false,
+   "P_la": 0.003,
+   "n_R_la": 2,
+   "P_la_within2": false,
+   "P_que": 0.0075,
+   "n_R_que": 5,
+   "P_que_within2": false,
+   "P_qui": 0.0,
+   "n_R_qui": 0,
+   "P_qui_within2": false,
+   "distinct_predecessors": 343,
+   "n_par_R_que_trigrams": 0
+  },
+  "on": {
+   "n": 1594,
+   "rank": 21,
+   "share": 0.007419,
+   "share_within2_of_87": false,
+   "P_la": 0.0119,
+   "n_R_la": 19,
+   "P_la_within2": false,
+   "P_que": 0.0038,
+   "n_R_que": 6,
+   "P_que_within2": false,
+   "P_qui": 0.0,
+   "n_R_qui": 0,
+   "P_qui_within2": false,
+   "distinct_predecessors": 585,
+   "n_par_R_que_trigrams": 0
+  },
+  "en": {
+   "n": 2714,
+   "rank": 11,
+   "share": 0.012631,
+   "share_within2_of_87": true,
+   "P_la": 0.0041,
+   "n_R_la": 11,
+   "P_la_within2": false,
+   "P_que": 0.0007,
+   "n_R_que": 2,
+   "P_que_within2": false,
+   "P_qui": 0.0,
+   "n_R_qui": 0,
+   "P_qui_within2": false,
+   "distinct_predecessors": 1148,
+   "n_par_R_que_trigrams": 0
+  },
+  "ce": {
+   "n": 1134,
+   "rank": 28,
+   "share": 0.005278,
+   "share_within2_of_87": false,
+   "P_la": 0.0009,
+   "n_R_la": 1,
+   "P_la_within2": false,
+   "P_que": 0.1076,
+   "n_R_que": 122,
+   "P_que_within2": true,
+   "P_qui": 0.1878,
+   "n_R_qui": 213,
+   "P_qui_within2": true,
+   "distinct_predecessors": 457,
+   "n_par_R_que_trigrams": 0
+  }
+ },
+ "rival_grammar": {
+  "se": {
+   "R_la": "rare (se+la: \"se la rappellent\" marginal)",
+   "R_que": "UNGRAMMATICAL",
+   "R_qui": "UNGRAMMATICAL",
+   "par_frame": "UNGRAMMATICAL"
+  },
+  "ne": {
+   "R_la": "marginal (\"ne la regarda pas\" possible, low)",
+   "R_que": "UNGRAMMATICAL as bigram (ne...que needs verb between)",
+   "R_qui": "UNGRAMMATICAL",
+   "par_frame": "UNGRAMMATICAL"
+  },
+  "le": {
+   "R_la": "UNGRAMMATICAL (article+article)",
+   "R_que": "UNGRAMMATICAL",
+   "R_qui": "UNGRAMMATICAL",
+   "par_frame": "UNGRAMMATICAL"
+  },
+  "je": {
+   "R_la": "grammatical (\"je la vois\")",
+   "R_que": "UNGRAMMATICAL",
+   "R_qui": "UNGRAMMATICAL",
+   "par_frame": "UNGRAMMATICAL"
+  },
+  "on": {
+   "R_la": "grammatical (\"on la nomme\")",
+   "R_que": "UNGRAMMATICAL",
+   "R_qui": "UNGRAMMATICAL",
+   "par_frame": "UNGRAMMATICAL"
+  },
+  "en": {
+   "R_la": "marginal/rare",
+   "R_que": "UNGRAMMATICAL",
+   "R_qui": "UNGRAMMATICAL",
+   "par_frame": "UNGRAMMATICAL"
+  },
+  "ce": {
+   "R_la": "grammatical (\"cela\" = ce+la)",
+   "R_que": "grammatical (\"ce que\")",
+   "R_qui": "grammatical (\"ce qui\")",
+   "par_frame": "grammatical (\"parce que\" = par+ce+que)"
+  }
+ },
+ "inversion_87": {
+  "era_top15": [
+   {
+    "w": "puissances",
+    "n": 23,
+    "share": 0.000107,
+    "P_que": 0.087,
+    "P_qui": 0.1304,
+    "legs_bigram": 2,
+    "share_band": false,
+    "dist": 0.261
+   },
+   {
+    "w": "ce",
+    "n": 1134,
+    "share": 0.005278,
+    "P_que": 0.1076,
+    "P_qui": 0.1878,
+    "legs_bigram": 2,
+    "share_band": false,
+    "dist": 0.266
+   },
+   {
+    "w": "objets",
+    "n": 62,
+    "share": 0.000289,
+    "P_que": 0.0645,
+    "P_qui": 0.1774,
+    "legs_bigram": 2,
+    "share_band": false,
+    "dist": 0.539
+   },
+   {
+    "w": "différences",
+    "n": 21,
+    "share": 9.8e-05,
+    "P_que": 0.1429,
+    "P_qui": 0.1429,
+    "legs_bigram": 2,
+    "share_band": false,
+    "dist": 0.608
+   },
+   {
+    "w": "celles",
+    "n": 68,
+    "share": 0.000316,
+    "P_que": 0.0588,
+    "P_qui": 0.2353,
+    "legs_bigram": 2,
+    "share_band": false,
+    "dist": 0.672
+   },
+   {
+    "w": "morale",
+    "n": 42,
+    "share": 0.000195,
+    "P_que": 0.0714,
+    "P_qui": 0.0952,
+    "legs_bigram": 2,
+    "share_band": false,
+    "dist": 0.714
+   },
+   {
+    "w": "naturel",
+    "n": 46,
+    "share": 0.000214,
+    "P_que": 0.1522,
+    "P_qui": 0.087,
+    "legs_bigram": 2,
+    "share_band": false,
+    "dist": 0.845
+   },
+   {
+    "w": "dangers",
+    "n": 50,
+    "share": 0.000233,
+    "P_que": 0.18,
+    "P_qui": 0.08,
+    "legs_bigram": 2,
+    "share_band": false,
+    "dist": 0.966
+   },
+   {
+    "w": "journaux",
+    "n": 21,
+    "share": 9.8e-05,
+    "P_que": 0.0476,
+    "P_qui": 0.0952,
+    "legs_bigram": 2,
+    "share_band": false,
+    "dist": 0.977
+   },
+   {
+    "w": "individu",
+    "n": 26,
+    "share": 0.000121,
+    "P_que": 0.0769,
+    "P_qui": 0.0769,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 1.022
+   },
+   {
+    "w": "ressources",
+    "n": 41,
+    "share": 0.000191,
+    "P_que": 0.0488,
+    "P_qui": 0.0732,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 1.095
+   },
+   {
+    "w": "choses",
+    "n": 92,
+    "share": 0.000428,
+    "P_que": 0.0435,
+    "P_qui": 0.1087,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 1.109
+   },
+   {
+    "w": "impôt",
+    "n": 23,
+    "share": 0.000107,
+    "P_que": 0.0435,
+    "P_qui": 0.087,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 1.109
+   },
+   {
+    "w": "entreprises",
+    "n": 28,
+    "share": 0.00013,
+    "P_que": 0.1071,
+    "P_qui": 0.0714,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 1.129
+   },
+   {
+    "w": "absolu",
+    "n": 24,
+    "share": 0.000112,
+    "P_que": 0.0417,
+    "P_qui": 0.0833,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 1.17
+   }
+  ],
+  "lesmis_top15": [
+   {
+    "w": "ce",
+    "n": 1062,
+    "share": 0.008886,
+    "P_que": 0.1403,
+    "P_qui": 0.1177,
+    "legs_bigram": 2,
+    "share_band": true,
+    "dist": 0.582
+   },
+   {
+    "w": "instinct",
+    "n": 20,
+    "share": 0.000167,
+    "P_que": 0.1,
+    "P_qui": 0.1,
+    "legs_bigram": 2,
+    "share_band": false,
+    "dist": 0.644
+   },
+   {
+    "w": "entendu",
+    "n": 23,
+    "share": 0.000192,
+    "P_que": 0.0435,
+    "P_qui": 0.087,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 1.109
+   },
+   {
+    "w": "années",
+    "n": 25,
+    "share": 0.000209,
+    "P_que": 0.04,
+    "P_qui": 0.08,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 1.229
+   },
+   {
+    "w": "idées",
+    "n": 28,
+    "share": 0.000234,
+    "P_que": 0.0357,
+    "P_qui": 0.1429,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 1.392
+   },
+   {
+    "w": "enfants",
+    "n": 60,
+    "share": 0.000502,
+    "P_que": 0.0333,
+    "P_qui": 0.1167,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 1.492
+   },
+   {
+    "w": "simplice",
+    "n": 32,
+    "share": 0.000268,
+    "P_que": 0.0312,
+    "P_qui": 0.125,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 1.585
+   },
+   {
+    "w": "celui",
+    "n": 38,
+    "share": 0.000318,
+    "P_que": 0.0789,
+    "P_qui": 0.4737,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 1.6
+   },
+   {
+    "w": "fille",
+    "n": 67,
+    "share": 0.000561,
+    "P_que": 0.0299,
+    "P_qui": 0.1045,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 1.651
+   },
+   {
+    "w": "voyageur",
+    "n": 21,
+    "share": 0.000176,
+    "P_que": 0.0476,
+    "P_qui": 0.0476,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 1.714
+   },
+   {
+    "w": "sens",
+    "n": 21,
+    "share": 0.000176,
+    "P_que": 0.0952,
+    "P_qui": 0.0476,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 1.714
+   },
+   {
+    "w": "sait",
+    "n": 43,
+    "share": 0.00036,
+    "P_que": 0.0698,
+    "P_qui": 0.0465,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 1.748
+   },
+   {
+    "w": "destinée",
+    "n": 23,
+    "share": 0.000192,
+    "P_que": 0.087,
+    "P_qui": 0.0435,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 1.845
+   },
+   {
+    "w": "ceux",
+    "n": 50,
+    "share": 0.000418,
+    "P_que": 0.06,
+    "P_qui": 0.66,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 2.079
+   },
+   {
+    "w": "homme",
+    "n": 373,
+    "share": 0.003121,
+    "P_que": 0.0214,
+    "P_qui": 0.1046,
+    "legs_bigram": 1,
+    "share_band": false,
+    "dist": 2.128
+   }
+  ],
+  "ce_position_era": 1,
+  "ce_position_lesmis": 0,
+  "n_words_scored_era": 1133,
+  "n_words_scored_lesmis": 619,
+  "era_pass_both_bigram_legs": [
+   "puissances",
+   "ce",
+   "objets",
+   "différences",
+   "celles",
+   "morale",
+   "naturel",
+   "dangers",
+   "journaux"
+  ],
+  "lesmis_pass_both_bigram_legs": [
+   "ce",
+   "instinct"
+  ]
+ },
+ "inversion_24_redo_mixed_register": {
+  "cipher_legs": {
+   "P_87_given_24": 0.1923,
+   "n24": 52,
+   "P_24_given_46": 0.1034
+  },
+  "era_both": [],
+  "era_topB": [
+   {
+    "w": "arrêter",
+    "n": 25,
+    "P_ce_given_W": 0.12,
+    "P_W_given_quequ": 0.0,
+    "legB": true,
+    "legC": false
+   },
+   {
+    "w": "tout",
+    "n": 384,
+    "P_ce_given_W": 0.1172,
+    "P_W_given_quequ": 0.0032,
+    "legB": true,
+    "legC": false
+   },
+   {
+    "w": "montrer",
+    "n": 20,
+    "P_ce_given_W": 0.1,
+    "P_W_given_quequ": 0.0,
+    "legB": true,
+    "legC": false
+   },
+   {
+    "w": "appliquer",
+    "n": 20,
+    "P_ce_given_W": 0.1,
+    "P_W_given_quequ": 0.0,
+    "legB": true,
+    "legC": false
+   },
+   {
+    "w": "voici",
+    "n": 31,
+    "P_ce_given_W": 0.0968,
+    "P_W_given_quequ": 0.0002,
+    "legB": true,
+    "legC": false
+   }
+  ],
+  "era_topC": [
+   {
+    "w": "il",
+    "n": 2795,
+    "P_ce_given_W": 0.0,
+    "P_W_given_quequ": 0.1045,
+    "legB": false,
+    "legC": true
+   },
+   {
+    "w": "les",
+    "n": 6359,
+    "P_ce_given_W": 0.0,
+    "P_W_given_quequ": 0.0846,
+    "legB": false,
+    "legC": true
+   },
+   {
+    "w": "on",
+    "n": 1594,
+    "P_ce_given_W": 0.0,
+    "P_W_given_quequ": 0.0798,
+    "legB": false,
+    "legC": true
+   },
+   {
+    "w": "la",
+    "n": 6671,
+    "P_ce_given_W": 0.0,
+    "P_W_given_quequ": 0.067,
+    "legB": false,
+    "legC": true
+   },
+   {
+    "w": "le",
+    "n": 4570,
+    "P_ce_given_W": 0.0,
+    "P_W_given_quequ": 0.0617,
+    "legB": false,
+    "legC": true
+   },
+   {
+    "w": "ils",
+    "n": 1083,
+    "P_ce_given_W": 0.0,
+    "P_W_given_quequ": 0.0519,
+    "legB": false,
+    "legC": true
+   }
+  ],
+  "lesmis_both": [],
+  "lesmis_topB": [
+   {
+    "w": "voici",
+    "n": 34,
+    "P_ce_given_W": 0.1765,
+    "P_W_given_quequ": 0.0,
+    "legB": true,
+    "legC": false
+   },
+   {
+    "w": "est",
+    "n": 1130,
+    "P_ce_given_W": 0.1177,
+    "P_W_given_quequ": 0.0156,
+    "legB": true,
+    "legC": false
+   },
+   {
+    "w": "voilà",
+    "n": 94,
+    "P_ce_given_W": 0.117,
+    "P_W_given_quequ": 0.0012,
+    "legB": true,
+    "legC": false
+   },
+   {
+    "w": "tout",
+    "n": 514,
+    "P_ce_given_W": 0.1031,
+    "P_W_given_quequ": 0.0047,
+    "legB": true,
+    "legC": false
+   }
+  ],
+  "lesmis_topC": [
+   {
+    "w": "on",
+    "n": 789,
+    "P_ce_given_W": 0.0,
+    "P_W_given_quequ": 0.082,
+    "legB": false,
+    "legC": true
+   },
+   {
+    "w": "il",
+    "n": 3192,
+    "P_ce_given_W": 0.0003,
+    "P_W_given_quequ": 0.2062,
+    "legB": false,
+    "legC": true
+   }
+  ],
+  "mixed_model_union_both": [],
+  "mixed_model_definition": "word fits if it passes legs under EITHER corpus (union)"
+ },
+ "frame96_par_que": {
+  "era_trigrams_par_W_que_top10": {
+   "exemple": 3,
+   "hasard": 1,
+   "elle": 1,
+   "impuissance": 1
+  },
+  "era_n_parce": 132,
+  "era_P_que_given_parce": 0.3258,
+  "era_n_par": 1036,
+  "era_P_ce_given_par": 0.0125,
+  "cipher_P_87_given_96": 0.1429,
+  "cipher_P_46_given_87_pre96": "3/3",
+  "cipher_P_46_given_87_pre24": "0/10",
+  "cipher_87_46_predecessors": [
+   "96",
+   "96",
+   "96"
+  ],
+  "rival_par_frame_counts": {
+   "se": 0,
+   "ne": 0,
+   "le": 0,
+   "je": 0,
+   "on": 0,
+   "en": 0,
+   "ce": 0
+  }
+ },
+ "wilson_3_of_32": [
+  0.0324,
+  0.2422
+ ],
+ "wilson_7_of_32": [
+  0.1102,
+  0.3876
+ ],
+ "wilson_5_of_32": [
+  0.0686,
+  0.3175
+ ],
+ "verdict": {
+  "decision": "PROMOTE 87=\"ce\" to CONFIRMED",
+  "new_legs": [
+   "N1 structural triple + statistical rival kill: cipher P(46|87)=3/32 95CI[0.032,0.242], P(64|87)=5/32 95CI[0.069,0.318]; all six rivals outside CIs (P(que|R) in {0,0.0075,0.0038,0.0007}, P(qui|R)=0 for all); ce inside both (0.1076, 0.1878). Grammar: only \"ce\" makes {cela,ce que,ce qui} all grammatical; rival zeros are register-independent.",
+   "N2 exhaustive vocabulary inversion on {P(que|W),P(qui|W)}: ce is the only n>100 word passing both legs under era (#2 overall behind n=23 noise noun \"puissances\"); outright #1 under Les Mis. Only other passer of note is \"celles\" (ce-family).",
+   "N3 96-frame (conditional on 96=par): 96-87-46 x3 = \"parce que\"; era P(que|parce, pooled qu)=132/132=1.0000; syllabic P(87|96) pred 132/1168=0.1130 vs cipher 3/21=0.1429 (1.26x); no rival grammatical in \"par R que\" (era trigram counts all 0)."
+  ],
+  "correction_C1": "F19 \"parce\" rate leg was miscomputed: 132/1036 used n(parce) as bicnt(par,ce); true word-space P(ce|par)=13/1036=0.0125 (would be 11.4x fail). Syllabary-aware repair 132/1168=0.1130 vs 0.1429 restores it at 1.26x. Frame leg P(que|parce)=1.0 pooled was and is correct.",
+  "residual_caveat_R1": "cela leg is dialogue-register: cipher P(11|87)=0.2188 95CI[0.110,0.388]; era pred 0.018-0.040 (outside CI); Les Mis pred 0.131-0.217 (inside). Consistent with round-2 independent finding that R5005 ce-collocations tilt dialogue-ward. Property of the text register, not evidence for any rival.",
+  "falsifiers": [
+   "a register-calibrated reference (1830s-40s ministerial despatches) showing cela-rates at Tocqueville levels",
+   "any rival surviving the triple with non-zero qui/que follower rates",
+   "64!=qui removes the qui prong, but {cela, ce que} alone still kills all six rivals"
+  ],
+  "inversion_24_mixed_register": "intersection still EMPTY under era, under Les Mis, and under the union model. Near-misses: era tout(B)/il(C), LesMis est(B, fails C 6.6x)/il(C). With 87=ce now confirmed, the pointer moves: 24 is likely not a plain function word."
+ }
+}

@@ -1,10 +1,17 @@
 # STATE — zeschau-seebach-1841
 
-- **status:** `cracking` (crowd round 2 done 2026-10-07: 6 executors, coordinator-curated;
-  10 provisional values — 7 pencil cribs + 87=ce (provisional) + 64=qui (provisional) +
-  96="par" (provisional, NEW); red team demoted 24="est" (refuted) and 64="qui"
-  (CONFIRMED→provisional); H5 "J'ai l'honneur de" killed; scorer broken-on-control;
-  first byte-level word read "la première" @1033 stands)
+- **status:** `cracking` (crowd round 3 COMPLETE 2026-10-07: 9/9 executors merged after
+  red-team adjudication (13 rulings) + red-team-3b follow-up (7 adjudications).
+  Net: kills (06=/mɑ̃/ via crib contradiction, 01="ci" provisional, 24="de" scoped,
+  52="pas"-single scoped, H5 by round 2), eight demotions, ZERO promotions — the
+  bar held. 10 provisional values unchanged (7 pencil cribs + 87=ce + 64=qui +
+  96="par"); 94="ne" provisional-strong; 06=verb-stem-class provisional;
+  67="veut" provisional; 77="pas" disfavored-strong; 78="me" LEAD (promote
+  rejected); 87=ce provisional-strengthened; 64="qui" re-promotion BLOCKED.
+  **62="on" is the promotion candidate** (one independent check away). Lane
+  position: rigid syllabification DEAD as an instrument (F30) — no
+  era-syllable-conditional legs on morphological fragments; era word-space legs
+  survive; recover the syllabary via `data/upstream-syll*.py`)
 - **checkpoint:** Transcription fetched, hashed, verified (3,764 digits / 1,846 pairs / 96 groups).
   Attempt 1 (`code/crib_attack.py`) complete: repeats corrected to 2×/0× at pair alignment (F3);
   digit-count discrepancy 3,764 vs 3,969 recorded (F4); bigram 82→16 at 29% flagged (F5);
@@ -75,23 +82,72 @@
   - Red Team: **24="est" DEMOTED** (refuted as 4-check case); **64="qui" DEMOTED**
     CONFIRMED 4/4 → PROVISIONAL (F20); **H5 KILL** (corroborated); **factor-2 band
     UNCALIBRATED**; **F13 joint contradiction DISSOLVED** (era binomial 0.247).
-- **next:** Round-3 work orders (crowd round 2 curation 2026-10-07):
-  1. **Test R4 "-ment" family** (94=ne, 82=m ['m' ground truth ✓], 06=ent) as its own
-     work order — the 2 extra 94→82 instances (@578/@1181) are the test bed; check
-     ent/ment word-final behavior against 29=er's phase-C anchor (F23).
-  2. **Pursue 06 verb-stem lead** (F21): profile 06's full follower set against
-     verb-stem expectations; resolve companion unknown 67; re-test 77="pas"/"que"
-     under verb-stem 06.
-  3. **Redesign scorer with global-consistency signal** (scorer smith's direction):
-     check whether X='d' reads as 'd' everywhere X occurs — the missing signal.
-  4. **Resolve 87=ce's provisional status** — the lane's central open problem: the
-     closer's empty inversion intersection points back at it; 96="par" and 64="qui"
-     inherit its uncertainty. Test 87 against non-"ce" function words with equal rigor.
-  5. **DECODE registration** (parent handling via browser task, in flight) → R5006–R5008
-     full images; **HStAD scan order** for 10731 Nr. 12 + 10717 Nr. 3332/3333.
+  **Crowd round 3** (9 executors, `code/crowd3/`, red-team adjudicated before merge;
+  6/9 merged 2026-10-07 — frenchman, segmenter, bigram-closer still running):
+  - Closer (resolve 87=ce): claimed PROMOTE→CONFIRMED on N1 (rival-kill CIs:
+    P(46|87)=3/32, P(64|87)=5/32, all six rivals outside), N2 (exhaustive inversion,
+    ~4,000 era words, "ce" only n>100 passer), N3 ("parce que" frame ×3). Red team
+    DEMOTED → provisional-strengthened: N3 admitted circular; R1 recycled the dead
+    24="est" number; .md steelman ratios don't reproduce from archived code (trust
+    JSON: 1.89×/1.98×, que-leg at band edge). Repaired F19's "parce" miscomputation
+    (C1 → F28: syllabary-aware 1.26×). 24-inversion stays empty under era, Les Mis,
+    AND the union model — 24 likely not a plain function word (F27).
+  - Morphologist (test R4 "-ment" family): corrected its own work order (94→82 is
+    4× @[578,1181,1352,1741]; @1741 is 94-82-46, unparsed "i-ne-m-que").
+    94="ne" CONFIRMED on 2 legs → red team DEMOTED to provisional-strong (leg 3
+    used the tuner-falsified phase mapping; rival 94="re" live: "-rement" 1.28×
+    vs "-nement" 0.66×) (F24). 06="ent" general REFUTED (red-team UPHELD) —
+    plausible only on the three trigrams (N19).
+  - Stem Hunter (06 verb stem, companion 67, re-test 77): 06=/mɑ̃/ "demand-"
+    CONFIRMED → red team KILLED — crib contradiction: "première"=pre|m|i|er|**e**
+    writes 40="e" for mute final -e, but the model needs mute-e unwritten
+    (06→40→77 is 0×) (N17). 06=verb-stem class DEMOTED CONFIRMED→provisional;
+    67="veut" →provisional; 77="pas" →inconclusive; 77="que" REFUTED→disfavored
+    (N18). 06-tension adjudicated: F21 (verb stem, class) wins the general reading
+    by worker convergence; 06="ent" general REFUTED (upheld); restricted-"ent"
+    PLAUSIBLE on the 3 trigrams; neither side holds CONFIRMED on 06 (F25).
+    New leads: 64="même" (rivals 64="qui"), 21="le/les", 00="de", 78="vrai".
+  - Scorer Smith (global-consistency scorer, control-first): three variants
+    BROKEN-ON-CONTROL (N16) — signal real but not distinctive; real drag not run.
+    Missing ingredient: JOINT inference (annealing/EM over the full key).
+    `scorer3.py` API banked as infrastructure. Red team UPHELD.
+  - Tuner (what do the contact phases mean): NULL (N15) — leave-one-out
+    phase-constrained 2/34 vs unconstrained 6/34; phases are NOT word-position
+    classes (rotation itself re-verified, chi²=188.3). 'er' 67× segmentation
+    mismatch uncalibrates corpus-tuned ranking generally. Red team UPHELD.
+  - Red Team (13 rulings, kill authority): two kills, four demotions, zero new
+    CONFIRMED promotions; methodology flags banked (F26): phase instrument VOID,
+    'er'-rate checks uncalibrated, crib writes mute -e (kills phonetic models),
+    V29 contaminated, mixed-register = robustness check only.
+- **next:** Round-4 work orders (crowd round 3 COMPLETE, curation 2026-10-07):
+  1. **Third independent leg for 62="on"** (ear lock + 62→94 "on ne" ×8 at
+     1.97× in-band) → first promotion since the demotions.
+  2. **Repair the battery** (B-78b marginal bug; L2prov in archived code,
+     word-space for function words) and re-run 77/78 cleanly; adjudicate the
+     77 three-way and the 78="me" promotion on fixed legs.
+  3. **Test 94="re"** ("-rement" 1.28× vs "-nement" 0.66×) — live rival to
+     provisional-strong 94="ne" (F24); full ≥2-check battery, symmetric.
+  4. **Resolve 47** (@148–150 jar; 802× "par me" contradiction vs "même" joint)
+     and **identify the 06 stem** via 06→29×5 (infinitive frames).
+  5. **Read `data/upstream-syll*.py` — recover the syllabary** (F30 rule:
+     fragment hypotheses test against it, not against rigid era syllabification).
+  6. **Round-4 drag on the 25 segmenter targets** (@1110-1112 [41 65 38],
+     @81-83 [51 62 16] first) with a pre-registered control (scorer lesson).
+  7. **64="même" vs 64="qui"** — adjudicate the rival; 64="qui" re-promotion
+     stays BLOCKED until resolved (F27, F31).
+  8. **Register-matched corpus or ci/te anchor for 87=ce** — the lane's central
+     open problem; the cela leg is genre-marked (F31).
+  9. **Joint decipherment** — annealing/EM over the full 96-group key (7 anchors
+     pinned, split-pair emission as structural prior), validated on the synthetic
+     control before touching R5005 (N16 direction).
+  10. **Explicit lane position on homophony** — 96 groups « ~700 French syllables;
+      polyvalence (06 /ɑ̃/ vs /mɑ̃/, 94 ne/en islets, 52 pas/se) is established
+      as the cipher's mechanism but unquantified (F25, F31).
   Do NOT promote anything without ≥2 independent checks. New standing convention:
-  every executor leaves a report note at `code/crowd2/report_inbox/<name>-<topic>.md`
-  per REPORTING.md (swept into REPORT.md every 2h).
+  every executor leaves a report note at `code/crowd3/report_inbox/<name>-<topic>.md`
+  per REPORTING.md (swept into REPORT.md every 2h). Red team reviews ALL promotions
+  before merge — no claim merges without its ruling.
+- **external acquisition: ON HOLD per operator directive (2026-10-07).** No new external material — the archive scan-order route (HStAD) and DECODE elevation are stood down. Round 3+ works with R5005 (3,764 digits) and the 10 current values only. (DECODE account "alexrivers" exists and logs in, but full-size private-ciphertext images need admin elevation — recorded in `code/crowd2/report_inbox/decode-access-2026-10-07.md`; not pursued further unless the operator reverses.)
 - **blockers:**
   - R5006–R5008 (sibling letters, 2+3+3 pp) NOT obtainable: DECODE records public at
     de-crypt.org/decrypt-web/RecordsView/{5006,5007,5008} but all "Authentication required";

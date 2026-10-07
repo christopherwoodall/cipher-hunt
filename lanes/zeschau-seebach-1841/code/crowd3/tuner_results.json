@@ -1,0 +1,7359 @@
+{
+ "counts_verified": {
+  "pairs": 1846,
+  "distinct": 96,
+  "odd_lines": 28,
+  "off1": 32
+ },
+ "phase_map_matches_contactor_k12": true,
+ "uncovered_groups_in_R": [
+  "00",
+  "04",
+  "10",
+  "13",
+  "18",
+  "22",
+  "27",
+  "28",
+  "54",
+  "55",
+  "57",
+  "58",
+  "73",
+  "90",
+  "95",
+  "97",
+  "99"
+ ],
+ "uncovered_pair_tokens": 133,
+ "block_transition_recompute": {
+  "matrix": {
+   "A->A": 152,
+   "A->B": 167,
+   "A->C": 268,
+   "A->R": 54,
+   "B->A": 243,
+   "B->B": 74,
+   "B->C": 154,
+   "B->R": 40,
+   "C->A": 165,
+   "C->B": 252,
+   "C->C": 118,
+   "C->R": 25,
+   "R->A": 82,
+   "R->B": 18,
+   "R->C": 19,
+   "R->R": 14
+  },
+  "row_n": {
+   "C": 560,
+   "R": 133,
+   "B": 511,
+   "A": 641
+  },
+  "chi2_3x3": 188.3,
+  "df": 4,
+  "contributions": {
+   "A->A": {
+    "obs": 152,
+    "exp": 223.0,
+    "ratio": 0.681
+   },
+   "A->B": {
+    "obs": 167,
+    "exp": 177.5,
+    "ratio": 0.941
+   },
+   "A->C": {
+    "obs": 268,
+    "exp": 194.2,
+    "ratio": 1.38
+   },
+   "B->A": {
+    "obs": 243,
+    "exp": 177.8,
+    "ratio": 1.367
+   },
+   "B->B": {
+    "obs": 74,
+    "exp": 141.5,
+    "ratio": 0.523
+   },
+   "B->C": {
+    "obs": 154,
+    "exp": 154.8,
+    "ratio": 0.995
+   },
+   "C->A": {
+    "obs": 165,
+    "exp": 194.9,
+    "ratio": 0.847
+   },
+   "C->B": {
+    "obs": 252,
+    "exp": 155.1,
+    "ratio": 1.625
+   },
+   "C->C": {
+    "obs": 118,
+    "exp": 169.7,
+    "ratio": 0.695
+   }
+  }
+ },
+ "anchor_block_signatures": {
+  "11": {
+   "value": "la",
+   "phase": "A",
+   "freq": 44,
+   "next": {
+    "A": 0.25,
+    "B": 0.114,
+    "C": 0.523,
+    "R": 0.114
+   },
+   "prev": {
+    "A": 0.295,
+    "B": 0.341,
+    "C": 0.273,
+    "R": 0.091
+   }
+  },
+  "70": {
+   "value": "pre",
+   "phase": "A",
+   "freq": 15,
+   "next": {
+    "A": 0.267,
+    "B": 0.4,
+    "C": 0.333
+   },
+   "prev": {
+    "A": 0.6,
+    "B": 0.133,
+    "C": 0.2,
+    "R": 0.067
+   }
+  },
+  "82": {
+   "value": "m",
+   "phase": "B",
+   "freq": 38,
+   "next": {
+    "A": 0.868,
+    "C": 0.132
+   },
+   "prev": {
+    "A": 0.342,
+    "B": 0.026,
+    "C": 0.605,
+    "R": 0.026
+   }
+  },
+  "34": {
+   "value": "i",
+   "phase": "A",
+   "freq": 10,
+   "next": {
+    "A": 0.1,
+    "B": 0.3,
+    "C": 0.6
+   },
+   "prev": {
+    "B": 0.5,
+    "C": 0.2,
+    "R": 0.3
+   }
+  },
+  "29": {
+   "value": "er",
+   "phase": "C",
+   "freq": 47,
+   "next": {
+    "A": 0.021,
+    "B": 0.894,
+    "C": 0.085
+   },
+   "prev": {
+    "A": 0.766,
+    "B": 0.085,
+    "C": 0.128,
+    "R": 0.021
+   }
+  },
+  "40": {
+   "value": "e",
+   "phase": "B",
+   "freq": 21,
+   "next": {
+    "A": 0.143,
+    "B": 0.238,
+    "C": 0.524,
+    "R": 0.095
+   },
+   "prev": {
+    "A": 0.143,
+    "B": 0.048,
+    "C": 0.81
+   }
+  },
+  "46": {
+   "value": "que",
+   "phase": "A",
+   "freq": 29,
+   "next": {
+    "A": 0.276,
+    "B": 0.241,
+    "C": 0.414,
+    "R": 0.069
+   },
+   "prev": {
+    "A": 0.103,
+    "B": 0.448,
+    "C": 0.207,
+    "R": 0.241
+   }
+  },
+  "87": {
+   "value": "ce",
+   "phase": "B",
+   "freq": 32,
+   "next": {
+    "A": 0.719,
+    "B": 0.031,
+    "C": 0.25
+   },
+   "prev": {
+    "A": 0.188,
+    "B": 0.031,
+    "C": 0.781
+   }
+  },
+  "64": {
+   "value": "qui",
+   "phase": "A",
+   "freq": 46,
+   "next": {
+    "A": 0.196,
+    "B": 0.261,
+    "C": 0.522,
+    "R": 0.022
+   },
+   "prev": {
+    "A": 0.196,
+    "B": 0.5,
+    "C": 0.261,
+    "R": 0.043
+   }
+  },
+  "96": {
+   "value": "par",
+   "phase": "C",
+   "freq": 21,
+   "next": {
+    "A": 0.19,
+    "B": 0.571,
+    "C": 0.095,
+    "R": 0.143
+   },
+   "prev": {
+    "A": 0.571,
+    "B": 0.286,
+    "C": 0.143
+   }
+  }
+ },
+ "phase_position_hypothesis": {
+  "A": "medial",
+  "B": "initial",
+  "C": "final"
+ },
+ "tune_rules": {
+  "R1_maximal_onset": "anneal.py syllabify_word: maximal-onset (V|CV), vowel digraphs collapsed, qu->Q, final mute-e merged into previous syllable.",
+  "R2_coda_maximal": "tuner.py syllabify_R2: identical except single intervocalic consonant attaches LEFT (VC|V) and final mute-e kept as its own syllable."
+ },
+ "anchor_positional_profiles": {
+  "R1_maximal_onset": {
+   "11=la": {
+    "phase": "A",
+    "hyp_pos": "medial",
+    "P": {
+     "initial": 0.489,
+     "medial": 0.021,
+     "final": 0.49
+    },
+    "modal": "final",
+    "total": 14130
+   },
+   "70=pre": {
+    "phase": "A",
+    "hyp_pos": "medial",
+    "P": {
+     "initial": 0.74,
+     "medial": 0.229,
+     "final": 0.031
+    },
+    "modal": "initial",
+    "total": 1652
+   },
+   "82=m": {
+    "phase": "B",
+    "hyp_pos": "initial",
+    "P": {
+     "initial": 0.5,
+     "medial": 0.0,
+     "final": 0.5
+    },
+    "modal": "initial",
+    "total": 250
+   },
+   "34=i": {
+    "phase": "A",
+    "hyp_pos": "medial",
+    "P": {
+     "initial": 0.93,
+     "medial": 0.033,
+     "final": 0.037
+    },
+    "modal": "initial",
+    "total": 671
+   },
+   "29=er": {
+    "phase": "C",
+    "hyp_pos": "final",
+    "P": {
+     "initial": 0.27,
+     "medial": 0.0,
+     "final": 0.73
+    },
+    "modal": "final",
+    "total": 200
+   },
+   "40=e": {
+    "phase": "B",
+    "hyp_pos": "initial",
+    "P": {
+     "initial": 0.971,
+     "medial": 0.018,
+     "final": 0.011
+    },
+    "modal": "initial",
+    "total": 6504
+   },
+   "46=que": {
+    "phase": "A",
+    "hyp_pos": "medial",
+    "P": {
+     "initial": 0.357,
+     "medial": 0.02,
+     "final": 0.623
+    },
+    "modal": "final",
+    "total": 8218
+   },
+   "87=ce": {
+    "phase": "B",
+    "hyp_pos": "initial",
+    "P": {
+     "initial": 0.273,
+     "medial": 0.066,
+     "final": 0.66
+    },
+    "modal": "final",
+    "total": 5852
+   },
+   "64=qui": {
+    "phase": "A",
+    "hyp_pos": "medial",
+    "P": {
+     "initial": 0.495,
+     "medial": 0.012,
+     "final": 0.494
+    },
+    "modal": "initial",
+    "total": 4780
+   },
+   "96=par": {
+    "phase": "C",
+    "hyp_pos": "final",
+    "P": {
+     "initial": 0.67,
+     "medial": 0.024,
+     "final": 0.306
+    },
+    "modal": "initial",
+    "total": 3382
+   }
+  },
+  "R2_coda_maximal": {
+   "11=la": {
+    "phase": "A",
+    "hyp_pos": "medial",
+    "P": {
+     "initial": 0.5,
+     "medial": 0.0,
+     "final": 0.5
+    },
+    "modal": "final",
+    "total": 13654
+   },
+   "70=pre": {
+    "phase": "A",
+    "hyp_pos": "medial",
+    "P": {
+     "initial": 0.5,
+     "medial": 0.019,
+     "final": 0.481
+    },
+    "modal": "initial",
+    "total": 108
+   },
+   "82=m": {
+    "phase": "B",
+    "hyp_pos": "initial",
+    "P": {
+     "initial": 0.768,
+     "medial": 0.204,
+     "final": 0.028
+    },
+    "modal": "initial",
+    "total": 4499
+   },
+   "34=i": {
+    "phase": "A",
+    "hyp_pos": "medial",
+    "P": {
+     "initial": 0.803,
+     "medial": 0.0,
+     "final": 0.197
+    },
+    "modal": "initial",
+    "total": 127
+   },
+   "29=er": {
+    "phase": "C",
+    "hyp_pos": "final",
+    "P": {
+     "initial": 0.024,
+     "medial": 0.915,
+     "final": 0.061
+    },
+    "modal": "medial",
+    "total": 2377
+   },
+   "40=e": {
+    "phase": "B",
+    "hyp_pos": "initial",
+    "P": {
+     "initial": 0.439,
+     "medial": 0.012,
+     "final": 0.549
+    },
+    "modal": "final",
+    "total": 2561
+   },
+   "46=que": {
+    "phase": "A",
+    "hyp_pos": "medial",
+    "P": {
+     "initial": 0.462,
+     "medial": 0.0,
+     "final": 0.538
+    },
+    "modal": "final",
+    "total": 6338
+   },
+   "87=ce": {
+    "phase": "B",
+    "hyp_pos": "initial",
+    "P": {
+     "initial": 0.256,
+     "medial": 0.012,
+     "final": 0.731
+    },
+    "modal": "final",
+    "total": 4430
+   },
+   "64=qui": {
+    "phase": "A",
+    "hyp_pos": "medial",
+    "P": {
+     "initial": 0.496,
+     "medial": 0.007,
+     "final": 0.496
+    },
+    "modal": "initial",
+    "total": 4754
+   },
+   "96=par": {
+    "phase": "C",
+    "hyp_pos": "final",
+    "P": {
+     "initial": 0.675,
+     "medial": 0.017,
+     "final": 0.309
+    },
+    "modal": "initial",
+    "total": 3357
+   }
+  }
+ },
+ "leave_one_out": {
+  "R1_maximal_onset__GT7": {
+   "n_anchors": 7,
+   "hits_phase_constrained": {
+    "1": 0,
+    "5": 1,
+    "10": 1
+   },
+   "hits_baseline": {
+    "1": 0,
+    "5": 1,
+    "10": 2
+   },
+   "per_anchor": {
+    "11": {
+     "true": "la",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 65,
+     "rank_baseline": 3
+    },
+    "70": {
+     "true": "pre",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 53,
+     "rank_baseline": 59
+    },
+    "82": {
+     "true": "m",
+     "phase": "B",
+     "pos": "initial",
+     "rank_phase_constrained": 228,
+     "rank_baseline": 297
+    },
+    "34": {
+     "true": "i",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 315,
+     "rank_baseline": 143
+    },
+    "29": {
+     "true": "er",
+     "phase": "C",
+     "pos": "final",
+     "rank_phase_constrained": 199,
+     "rank_baseline": 345
+    },
+    "40": {
+     "true": "e",
+     "phase": "B",
+     "pos": "initial",
+     "rank_phase_constrained": 5,
+     "rank_baseline": 14
+    },
+    "46": {
+     "true": "que",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 101,
+     "rank_baseline": 10
+    }
+   },
+   "inventory_size": 2653,
+   "anchors_missing_from_inventory": [],
+   "corpus_words": 221032,
+   "corpus_syl_tokens": 387245
+  },
+  "R1_maximal_onset__ALL10": {
+   "n_anchors": 10,
+   "hits_phase_constrained": {
+    "1": 0,
+    "5": 1,
+    "10": 1
+   },
+   "hits_baseline": {
+    "1": 0,
+    "5": 1,
+    "10": 2
+   },
+   "per_anchor": {
+    "11": {
+     "true": "la",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 65,
+     "rank_baseline": 3
+    },
+    "70": {
+     "true": "pre",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 53,
+     "rank_baseline": 59
+    },
+    "82": {
+     "true": "m",
+     "phase": "B",
+     "pos": "initial",
+     "rank_phase_constrained": 228,
+     "rank_baseline": 297
+    },
+    "34": {
+     "true": "i",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 315,
+     "rank_baseline": 143
+    },
+    "29": {
+     "true": "er",
+     "phase": "C",
+     "pos": "final",
+     "rank_phase_constrained": 199,
+     "rank_baseline": 345
+    },
+    "40": {
+     "true": "e",
+     "phase": "B",
+     "pos": "initial",
+     "rank_phase_constrained": 5,
+     "rank_baseline": 14
+    },
+    "46": {
+     "true": "que",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 101,
+     "rank_baseline": 10
+    },
+    "87": {
+     "true": "ce",
+     "phase": "B",
+     "pos": "initial",
+     "rank_phase_constrained": 31,
+     "rank_baseline": 16
+    },
+    "64": {
+     "true": "qui",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 207,
+     "rank_baseline": 21
+    },
+    "96": {
+     "true": "par",
+     "phase": "C",
+     "pos": "final",
+     "rank_phase_constrained": 42,
+     "rank_baseline": 27
+    }
+   },
+   "inventory_size": 2653,
+   "anchors_missing_from_inventory": [],
+   "corpus_words": 221032,
+   "corpus_syl_tokens": 387245
+  },
+  "R2_coda_maximal__GT7": {
+   "n_anchors": 7,
+   "hits_phase_constrained": {
+    "1": 0,
+    "5": 0,
+    "10": 0
+   },
+   "hits_baseline": {
+    "1": 0,
+    "5": 1,
+    "10": 1
+   },
+   "per_anchor": {
+    "11": {
+     "true": "la",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 1207,
+     "rank_baseline": 2
+    },
+    "70": {
+     "true": "pre",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 831,
+     "rank_baseline": 519
+    },
+    "82": {
+     "true": "m",
+     "phase": "B",
+     "pos": "initial",
+     "rank_phase_constrained": 12,
+     "rank_baseline": 21
+    },
+    "34": {
+     "true": "i",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 1207,
+     "rank_baseline": 464
+    },
+    "29": {
+     "true": "er",
+     "phase": "C",
+     "pos": "final",
+     "rank_phase_constrained": 212,
+     "rank_baseline": 42
+    },
+    "40": {
+     "true": "e",
+     "phase": "B",
+     "pos": "initial",
+     "rank_phase_constrained": 47,
+     "rank_baseline": 39
+    },
+    "46": {
+     "true": "que",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 831,
+     "rank_baseline": 12
+    }
+   },
+   "inventory_size": 4191,
+   "anchors_missing_from_inventory": [],
+   "corpus_words": 221032,
+   "corpus_syl_tokens": 372955
+  },
+  "R2_coda_maximal__ALL10": {
+   "n_anchors": 10,
+   "hits_phase_constrained": {
+    "1": 0,
+    "5": 0,
+    "10": 0
+   },
+   "hits_baseline": {
+    "1": 0,
+    "5": 1,
+    "10": 1
+   },
+   "per_anchor": {
+    "11": {
+     "true": "la",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 1207,
+     "rank_baseline": 2
+    },
+    "70": {
+     "true": "pre",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 831,
+     "rank_baseline": 519
+    },
+    "82": {
+     "true": "m",
+     "phase": "B",
+     "pos": "initial",
+     "rank_phase_constrained": 12,
+     "rank_baseline": 21
+    },
+    "34": {
+     "true": "i",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 1207,
+     "rank_baseline": 464
+    },
+    "29": {
+     "true": "er",
+     "phase": "C",
+     "pos": "final",
+     "rank_phase_constrained": 212,
+     "rank_baseline": 42
+    },
+    "40": {
+     "true": "e",
+     "phase": "B",
+     "pos": "initial",
+     "rank_phase_constrained": 47,
+     "rank_baseline": 39
+    },
+    "46": {
+     "true": "que",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 831,
+     "rank_baseline": 12
+    },
+    "87": {
+     "true": "ce",
+     "phase": "B",
+     "pos": "initial",
+     "rank_phase_constrained": 46,
+     "rank_baseline": 22
+    },
+    "64": {
+     "true": "qui",
+     "phase": "A",
+     "pos": "medial",
+     "rank_phase_constrained": 274,
+     "rank_baseline": 17
+    },
+    "96": {
+     "true": "par",
+     "phase": "C",
+     "pos": "final",
+     "rank_phase_constrained": 42,
+     "rank_baseline": 30
+    }
+   },
+   "inventory_size": 4191,
+   "anchors_missing_from_inventory": [],
+   "corpus_words": 221032,
+   "corpus_syl_tokens": 372955
+  }
+ },
+ "shortlists_pending_validation": {
+  "R1_maximal_onset": {
+   "24": {
+    "freq": 52,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "06": {
+    "freq": 46,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "77": {
+    "freq": 44,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "98": {
+    "freq": 40,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "48": {
+    "freq": 38,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "67": {
+    "freq": 37,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "94": {
+    "freq": 36,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "74": {
+    "freq": 35,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "62": {
+    "freq": 34,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "86": {
+    "freq": 33,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "78": {
+    "freq": 31,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "21": {
+    "freq": 30,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "01": {
+    "freq": 29,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "47": {
+    "freq": 28,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "37": {
+    "freq": 28,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "16": {
+    "freq": 28,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "52": {
+    "freq": 27,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "59": {
+    "freq": 26,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "33": {
+    "freq": 25,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "65": {
+    "freq": 25,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "84": {
+    "freq": 25,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "45": {
+    "freq": 23,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "88": {
+    "freq": 23,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "12": {
+    "freq": 23,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "56": {
+    "freq": 23,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "92": {
+    "freq": 22,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "76": {
+    "freq": 21,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "91": {
+    "freq": 21,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "42": {
+    "freq": 21,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "03": {
+    "freq": 20,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "41": {
+    "freq": 19,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "30": {
+    "freq": 19,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "08": {
+    "freq": 19,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "79": {
+    "freq": 18,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "66": {
+    "freq": 18,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "60": {
+    "freq": 18,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "02": {
+    "freq": 18,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "61": {
+    "freq": 18,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "26": {
+    "freq": 17,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "17": {
+    "freq": 16,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "43": {
+    "freq": 16,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "80": {
+    "freq": 16,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "93": {
+    "freq": 15,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "85": {
+    "freq": 15,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "14": {
+    "freq": 15,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "44": {
+    "freq": 15,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "83": {
+    "freq": 15,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "81": {
+    "freq": 14,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "89": {
+    "freq": 14,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "20": {
+    "freq": 14,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "32": {
+    "freq": 13,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "69": {
+    "freq": 13,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "09": {
+    "freq": 12,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "39": {
+    "freq": 12,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "63": {
+    "freq": 12,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "49": {
+    "freq": 12,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "53": {
+    "freq": 11,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "50": {
+    "freq": 11,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "35": {
+    "freq": 10,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "15": {
+    "freq": 10,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "19": {
+    "freq": 9,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "23": {
+    "freq": 9,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   },
+   "36": {
+    "freq": 9,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "68": {
+    "freq": 8,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "71": {
+    "freq": 8,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "31": {
+    "freq": 8,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "38": {
+    "freq": 7,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "ri",
+      2600
+     ],
+     [
+      "ti",
+      2108
+     ],
+     [
+      "li",
+      1549
+     ],
+     [
+      "ne",
+      1514
+     ],
+     [
+      "tu",
+      1450
+     ],
+     [
+      "me",
+      1364
+     ],
+     [
+      "te",
+      1302
+     ],
+     [
+      "si",
+      1117
+     ],
+     [
+      "de",
+      1033
+     ],
+     [
+      "ver",
+      975
+     ]
+    ]
+   },
+   "07": {
+    "freq": 7,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      12098
+     ],
+     [
+      "a",
+      10289
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "le",
+      5194
+     ],
+     [
+      "et",
+      4700
+     ],
+     [
+      "en",
+      4544
+     ],
+     [
+      "des",
+      4035
+     ],
+     [
+      "u",
+      3310
+     ],
+     [
+      "re",
+      3231
+     ]
+    ]
+   },
+   "51": {
+    "freq": 6,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      10223
+     ],
+     [
+      "le",
+      7477
+     ],
+     [
+      "les",
+      7392
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "te",
+      5447
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "ne",
+      5089
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "re",
+      4280
+     ],
+     [
+      "des",
+      4225
+     ]
+    ]
+   }
+  },
+  "R2_coda_maximal": {
+   "24": {
+    "freq": 52,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "06": {
+    "freq": 46,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "77": {
+    "freq": 44,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "98": {
+    "freq": 40,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "48": {
+    "freq": 38,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "67": {
+    "freq": 37,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "94": {
+    "freq": 36,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "74": {
+    "freq": 35,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "62": {
+    "freq": 34,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "86": {
+    "freq": 33,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "78": {
+    "freq": 31,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "21": {
+    "freq": 30,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "01": {
+    "freq": 29,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "47": {
+    "freq": 28,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "37": {
+    "freq": 28,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "16": {
+    "freq": 28,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "52": {
+    "freq": 27,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "59": {
+    "freq": 26,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "33": {
+    "freq": 25,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "65": {
+    "freq": 25,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "84": {
+    "freq": 25,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "45": {
+    "freq": 23,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "88": {
+    "freq": 23,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "12": {
+    "freq": 23,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "56": {
+    "freq": 23,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "92": {
+    "freq": 22,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "76": {
+    "freq": 21,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "91": {
+    "freq": 21,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "42": {
+    "freq": 21,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "03": {
+    "freq": 20,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "41": {
+    "freq": 19,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "30": {
+    "freq": 19,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "08": {
+    "freq": 19,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "79": {
+    "freq": 18,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "66": {
+    "freq": 18,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "60": {
+    "freq": 18,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "02": {
+    "freq": 18,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "61": {
+    "freq": 18,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "26": {
+    "freq": 17,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "17": {
+    "freq": 16,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "43": {
+    "freq": 16,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "80": {
+    "freq": 16,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "93": {
+    "freq": 15,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "85": {
+    "freq": 15,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "14": {
+    "freq": 15,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "44": {
+    "freq": 15,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "83": {
+    "freq": 15,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "81": {
+    "freq": 14,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "89": {
+    "freq": 14,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "20": {
+    "freq": 14,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "32": {
+    "freq": 13,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "69": {
+    "freq": 13,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "09": {
+    "freq": 12,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "39": {
+    "freq": 12,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "63": {
+    "freq": 12,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "49": {
+    "freq": 12,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "53": {
+    "freq": 11,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "50": {
+    "freq": 11,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "35": {
+    "freq": 10,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "15": {
+    "freq": 10,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "19": {
+    "freq": 9,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "23": {
+    "freq": 9,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   },
+   "36": {
+    "freq": 9,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "68": {
+    "freq": 8,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "71": {
+    "freq": 8,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "31": {
+    "freq": 8,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "38": {
+    "freq": 7,
+    "phase": "A",
+    "pos": "medial",
+    "top10": [
+     [
+      "t",
+      2309
+     ],
+     [
+      "it",
+      1445
+     ],
+     [
+      "c",
+      1397
+     ],
+     [
+      "tr",
+      1163
+     ],
+     [
+      "s",
+      1110
+     ],
+     [
+      "st",
+      1105
+     ],
+     [
+      "at",
+      1071
+     ],
+     [
+      "n",
+      965
+     ],
+     [
+      "y",
+      912
+     ],
+     [
+      "f",
+      895
+     ]
+    ]
+   },
+   "07": {
+    "freq": 7,
+    "phase": "B",
+    "pos": "initial",
+    "top10": [
+     [
+      "de",
+      9667
+     ],
+     [
+      "l",
+      6695
+     ],
+     [
+      "les",
+      6405
+     ],
+     [
+      "d",
+      6364
+     ],
+     [
+      "a",
+      5924
+     ],
+     [
+      "et",
+      4739
+     ],
+     [
+      "le",
+      4575
+     ],
+     [
+      "en",
+      4551
+     ],
+     [
+      "s",
+      4146
+     ],
+     [
+      "des",
+      4035
+     ]
+    ]
+   },
+   "51": {
+    "freq": 6,
+    "phase": "C",
+    "pos": "final",
+    "top10": [
+     [
+      "de",
+      9773
+     ],
+     [
+      "les",
+      6989
+     ],
+     [
+      "le",
+      6363
+     ],
+     [
+      "a",
+      5538
+     ],
+     [
+      "l",
+      5336
+     ],
+     [
+      "et",
+      4706
+     ],
+     [
+      "des",
+      4037
+     ],
+     [
+      "en",
+      2872
+     ],
+     [
+      "il",
+      2797
+     ],
+     [
+      "d",
+      2612
+     ]
+    ]
+   }
+  }
+ },
+ "verdict": {
+  "decision": "NULL",
+  "rule": "pre-registered: phase-constrained LOO must beat unconstrained baseline on known anchors",
+  "loo_top10_hits": {
+   "R1_GT7": {
+    "pc": 1,
+    "bl": 2
+   },
+   "R1_ALL10": {
+    "pc": 1,
+    "bl": 2
+   },
+   "R2_GT7": {
+    "pc": 0,
+    "bl": 1
+   },
+   "R2_ALL10": {
+    "pc": 0,
+    "bl": 1
+   }
+  },
+  "loo_top5_hits": {
+   "R1_GT7": {
+    "pc": 1,
+    "bl": 1
+   },
+   "R1_ALL10": {
+    "pc": 1,
+    "bl": 1
+   },
+   "R2_GT7": {
+    "pc": 0,
+    "bl": 1
+   },
+   "R2_ALL10": {
+    "pc": 0,
+    "bl": 1
+   }
+  },
+  "aggregate_top10_slots": "phase-constrained 2/34 vs baseline 6/34",
+  "phase_constrained_never_beats_baseline": true,
+  "shortlists_emitted": false,
+  "modal_position_support": {
+   "A=medial": "falsified - 0 of 4 A anchors modal-medial under either rule",
+   "C=final": "mixed - 29=er modal-final under R1 but modal-medial under R2; 96=par modal-initial under both rules",
+   "B=initial": "mixed - 40=e modal-initial under R1 but modal-final under R2; 87=ce modal-final under both rules"
+  },
+  "sensitivity": "NULL verdict robust across R1 and R2; R2 strictly worse for phase-constrained (0 hits vs 1)",
+  "segmentation_mismatch": "cipher 29=er is 47/1846 pairs (2.55%, rank 3); corpus bare-er is 146/387245 final tokens (0.038%, R1) - infinitive mass syllabifies to ler/ner/etc, never bare er. Tune segmentation uncalibrated vs 1841 syllabary."
+ }
+}

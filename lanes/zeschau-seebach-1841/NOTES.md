@@ -249,6 +249,111 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
     pair inconclusive; verdicts flip with corpus choice. **F13 "joint
     contradiction" DISSOLVED**: era-matched binomial P(0/10)=0.247, not significant.
 
+- **2026-10-07 (crowd round 3 — 9 executors; 6 merged, 3 pending):** the cast grew
+  mid-round: the Tuner (work order 6, added 08:30) plus the Frenchman, the
+  Segmenter, and the Bigram Closer (operator order, added ~08:45; still running).
+  The six completed executors' verdicts were adjudicated by the red team
+  (13 rulings) before merging; the three new executors' claims will get their own
+  red-team review when they land. Red-team docket now: no claim merges without
+  its ruling; provisional anchors propagate their status to everything built on
+  them (87=ce → 64="qui" re-promotion BLOCKED, 96="par" keeps CONFIRMED on the
+  repaired leg, all drags inherit provisional).
+  - **Closer** (WO4 — resolve 87=ce, steelman AND attack): claimed PROMOTE to
+    CONFIRMED on three new legs (N1 rival-kill CIs: P(46|87)=3/32, P(64|87)=5/32,
+    all six rivals outside; N2 exhaustive inversion ~4,000 era words, "ce" the only
+    n>100 passer; N3 "parce que" frame ×3). Red team DEMOTED → provisional-
+    strengthened: N3 admitted circular; R1 "corroboration" recycled the dead
+    24="est" number; .md steelman ratios don't reproduce from archived code
+    (trust the JSON: 1.89×/1.98×, que-leg at band edge). Also repaired F19's
+    "parce" miscomputation (C1). Inversion redo: 24 empty under era, Les Mis,
+    AND the union model — 24 is likely not a plain function word.
+  - **Morphologist** (WO1 — test R4 "-ment" family, must also refute): corrected
+    its own work order (94→82 is 4× @[578,1181,1352,1741]; @1741 is 94-82-46,
+    not 94-82-06). **94="ne" CONFIRMED on legs 1–2** (era rate 1.025×, trigram
+    ×3 at 1.054× era -nement rate with ground-truth 82=m centered) — red team
+    DEMOTED to provisional-strong (leg 3 void: tuner-falsified phase mapping;
+    rival 94="re" live: "-rement" 1.28× vs "-nement" 0.66×). **06="ent" general
+    REFUTED** (red-team UPHELD; two legs downgraded) — survives PLAUSIBLE only
+    on the three trigrams.
+  - **Stem Hunter** (WO2 — 06 verb stem, companion 67, re-test 77): claimed
+    06=/mɑ̃/ "demand-" CONFIRMED (4 checks, phonetic mute-e model) — red team
+    KILLED via crib contradiction ("première" writes 40="e" for mute final -e;
+    06→40→77 is 0×). 06=verb-stem class DEMOTED CONFIRMED→provisional (compat
+    37% circular, V29 contaminated); 67="veut" CONFIRMED→provisional; 77="pas"
+    CONFIRMED→inconclusive; 77="que" REFUTED→disfavored. The 06 tension
+    DISSOLVED→open: WO1's /ɑ̃/ and the stem's /mɑ̃/ are different syllables
+    sharing group 06 — polyvalence (homophone-merging) stays live, plausible
+    not confirmed. New leads: 64="même" (rivals provisional 64="qui"),
+    21="le/les", 00="de", 78="vrai".
+  - **Scorer Smith** (WO3 — global-consistency scorer, control-first): three
+    variants BROKEN-ON-CONTROL (top-1 0.045/0.091/0.071, MRR < 0.30 bar);
+    per the control-first rule no real drag ran. Diagnosis: consistency signal
+    real but not distinctive — French bigram contexts underdetermine a cell;
+    the missing ingredient is JOINT inference (annealing/EM over the full key).
+    Reusable `scorer3.py` API banked. Red team UPHELD.
+  - **Tuner** (WO6 — what do the contact phases mean linguistically):
+    **NULL.** Leave-one-out: phase-constrained ranking never beats baseline
+    (2/34 vs 6/34 top-10 slots, both syllabification rules, ±provisional
+    anchors); modal-position analysis falsifies "A=medial". The rotation is real
+    (chi²=188.3 re-verified) but phases are NOT word-position classes. Bonus:
+    'er' 67× segmentation mismatch uncalibrates corpus-tuned ranking generally;
+    phase-placement tensions flagged for 96="par" and 87="ce" (not kills).
+    Red team UPHELD/endorsed. Alternatives: table-geometry or phonotactic
+    alternation.
+  - **Red Team** (kill authority, 13 rulings): verdicts as above. 06-tension
+    adjudication: F21 (verb stem, class) wins the general reading by worker
+    convergence; 06="ent" general REFUTED (upheld); restricted-"ent" PLAUSIBLE
+    on the 3 -ment trigrams; neither side holds CONFIRMED on 06. Methodology
+    flags banked as F26. Net of round 3: two kills (06=/mɑ̃/, H5-by-round-2),
+    five demotions, zero new CONFIRMED promotions — the bar held.
+  - Pending: **Frenchman** (ear-checks + idiom completions), **Segmenter**
+    (word boundaries), **Bigram Closer** (anchor factory) — merge on arrival
+    after their own red-team review.
+
+- **2026-10-07 (crowd round 3 COMPLETE — 9/9 executors merged; red-team 3b
+  follow-up review done):** the three newcomers landed and were adjudicated
+  before merging. All headline cipher-side numbers re-derived by the curator
+  against the lane data — verified: 62→94 ×8 ("on ne"), 78→40 ×3, 11→78 ×2,
+  47→78 ×5, 37→78 ×4, 24→87 ×10/52, 94→52 ×3 + 94→59 ×2 ("ne se" ×5),
+  64→77 ×3, 77→78 ×7.
+  - **Frenchman** (ear-checks, ~140 windows, bilingual): ear-confirmations of
+    87="ce", 64="qui", 96="par", 94="ne" as INDEPENDENT corroboration (no
+    status changes — defers to red team). Kills K1–K7 adjudicated: K1 accepted
+    (converges with N19), K2 accepted scoped (24="de" in « en ce qui »), K3
+    conditional, K4 accepted provisional (01="ci" kill), K5 accepted scoped
+    (forces 52 polyvalence), K6 no action, K7 rejected. Leads: 24="en" STRONG,
+    52="pas" STRONG bounded, 62="on" STRONG (one check from promotion),
+    37/01/56/43 MEDIUM, 17="fois" WEAK, 94="en" islets LEAD-grade. THE
+    ENLIGHTENMENT: the encipherer spells by ear and cuts inconsistently
+    (« prend »→« pre »; « personne » as « per|so|nne » AND « pers|on|ne » —
+    two spellings of one word in one cipher) — this explains the tuner NULL,
+    the 'er' mismatch, and F22. Register reclassified: the cela gap is GENRE
+    (reporter's event-anaphora), not formality.
+  - **Segmenter** (semi-Markov forward-backward, unsupervised EM boundary
+    rates, honors the tuner NULL): verdict PARTIAL. Ground truth "la première"
+    @1033: 3/3 boundaries ≥0.5 out-of-sample, la|première 0.937 unprompted.
+    Provisional-word recall 5/23 — at/below chance, but NOT anti-evidence
+    (metric muddling + inconsistent segmentation predicts it). Lengths sane
+    (mean 1.93 vs era 1.75); 25 crib-drag targets cleared as LEAD-grade.
+  - **Bigram Closer** (battery on 41 groups, reusable `battery.py`): headline
+    calibration finding — 29=er 182× and 82=m 60× over era, so 29/82/34
+    excluded from all rate legs (validates the tuner/frenchedman from a third
+    angle). ONE promotion candidate **78="me"** → red-team REJECTED to LEAD:
+    the "e"-kill was a syllabifier artifact and the L2 leg divided by the wrong
+    marginal (1.66×→2.26× out of band); the "l'"-kill recomputed STRONGER (58×).
+    77 symmetric battery: "pas" REFUTED→red-team refined to DISFAVORED (strong);
+    "que" lead→DISFAVORED stands; "le" LEAD-weak accepted; 77 is verb-adjacent.
+    Refuted: 41="der"/"ni" general, 24="c'est" (28.9×), 47="l", 65="des"/"se",
+    12="se"/"en", 00's de/a/le. 24, 00/16/62 INCONCLUSIVE.
+  - **Red Team 3b** (7 adjudications): 78="me" promote→LEAD; 77 three-way
+    reconciled; calibration exclusion VALID with blast radius named (red team's
+    own "ent|er strained" leg VOID — exemplary self-kill); K1–K7 ruled; leads
+    graded; segmenter PARTIAL accepted; **lane position: rigid syllabification
+    is DEAD as an instrument** (F30) — three independent lines converge.
+  - Net of round 3: kills (06=/mɑ̃/ via crib, 01="ci" provisional, 24="de"
+    scoped, 52="pas"-single scoped, H5 by round 2), eight demotions,
+    ZERO promotions — the bar held. **62="on" is the promotion candidate.**
+  - Pending: none. Round 4 next steps in STATE.md.
 
 ## Null results
 - **N1 (2026-10-07):** crib-anchored function-word drag (Phase C above) — degenerate at 7-anchor
@@ -327,6 +432,80 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   INCONCLUSIVE (n=1). Six rivals killed (77="plus", 77="ne"-swap, 06="de"/"le",
   96="pour", 96="a/à", 41="ter"/"mer"). Evidence:
   `code/crowd2/hypothesis_sweeper_results.{md,json}`.
+- **N15 (2026-10-07, crowd3/tuner):** contact-phase→word-position mapping NULL.
+  Leave-one-out on anchored groups: phase-constrained ranking 2/34 vs unconstrained
+  6/34 top-10 slots (both syllabification rules, with and without provisional
+  anchors). Modal-position analysis falsifies "A=medial" (0/4 A-phase anchors
+  modal-medial). 'er' segmentation mismatch: cipher 29=er at 2.55% vs bare-'er'
+  0.038% in the era corpus — the 1841 syllabary segments differently than any rule
+  tried, uncalibrating corpus-tuned ranking generally. The rotation itself
+  re-verified (chi²=188.3); the phases are real but are NOT word-position classes.
+  No shortlists emitted. Evidence: `code/crowd3/tuner_results.{md,json}`.
+- **N16 (2026-10-07, crowd3/scorer-smith):** global-consistency scorer
+  BROKEN-ON-CONTROL — three variants fail the pre-registered bar (top-1
+  0.045/0.091/0.071, MRR < 0.30). Diagnosis: the consistency signal is real but
+  not distinctive — French bigram contexts underdetermine a cell, single-letter
+  impostors matching a true edge outscore the truth, and no per-occurrence
+  aggregation fixes an uninformative likelihood. Missing ingredient: JOINT
+  inference (simulated annealing/EM over the full key). Real drag not run per the
+  control-first rule. Reusable `code/crowd3/scorer3.py` API banked.
+  Evidence: `code/crowd3/scorer_smith_results.{md,json}`.
+- **N17 (2026-10-07, crowd3/red-team):** 06=/mɑ̃/ "demand-" model KILLED —
+  crib contradiction: "première"=pre|m|i|er|**e** writes 40="e" for mute final
+  -e, but the model needs mute-e unwritten ("demande pas"=?+06+77; observed
+  06→40→77 is 0×). The ground-truth crib kills the phonetic model cleanly.
+- **N18 (2026-10-07, crowd3/red-team):** demotions — 06=verb-stem (class)
+  CONFIRMED→provisional (compat 37% circular, V29 contaminated); 67="veut"
+  CONFIRMED→provisional; 77="pas" CONFIRMED→inconclusive; 06 polyvalence
+  CONFIRMED→plausible; tension DISSOLVED→open. 77="que" REFUTED→disfavored.
+- **N19 (2026-10-07, crowd3/morphologist; red-team UPHELD):** 06="ent" as a general
+  reading REFUTED — 06∈A at all phase cuts; 0/3 trigram-final 06s followed by
+  anything word-initial (binomial p≈0.001); 06→29(er)×5 reads "ent|er",
+  ungrammatical. Survives only as PLAUSIBLE restricted to the three 94-82-06
+  trigrams. Rivals 94="en" ("en-m-ent" is no French word; rate 1.79× vs 1.025×)
+  and 94="re" (bigram geometry "m-re" impossible) killed for the trigram.
+  Evidence: `code/crowd3/morphologist_results.{md,json}`.
+- **N20 (2026-10-07, crowd3/red-team-3b):** 78="me" promotion REJECTED → LEAD.
+  Two load-bearing legs broken: (B-78a) the "e"-rival kill via era ("e","e")=0
+  is a **syllabifier artifact** — the era tokenizer almost never emits word-final
+  bare 'e' ("rue"→'rue', "première"→'pre','mie','re'), while cipher 40 is the
+  word-final mute-e writer per the crib; the zero measures tokenizer habits, not
+  French grammar — "e" returns as a live rival (L1 1.044 in-band); (B-78b) the
+  headline L2 leg miscomputed — closer divided by the wrong marginal
+  (154/5617=0.0274 = P(la|me) for P(me|la)); recomputed 154/7652=**0.0201**,
+  ratio **2.26× out of band**. Survives: L1 1.108, L2b 0.731, L3b "la même"
+  era n=154, and the "l'"-kill recomputed STRONGER (58×, not 40.4× — "la l'"
+  genuinely ungrammatical). Net: rival "l'" killed, rival "e" unkilled → LEAD.
+  Extension: 40="e" conditional/attestation legs are uncalibrated too
+  (unigram 0.71× stays as context).
+  Evidence: `code/crowd3/bigram_closer_results.{md,json}`,
+  `code/crowd3/red_team_round3b_results.{md,json}`.
+- **N21 (2026-10-07, crowd3/red-team-3b):** 77 verdicts refined. 77="pas":
+  INCONCLUSIVE→**DISFAVORED (strong)** — the closer's L1 6.69× reproduces
+  (5.21× at word-space, survives sense-mixing correction; grammatical "ce pas" ×2
+  under 87=ce); legitimate new instrument, but grade too high for REFUTED (no
+  unconditional leg; band uncalibrated). 77="que": DISFAVORED stands — all 3
+  checks are uncalibrated-band legs; polyvalence cost with GT 46=que stands
+  (cosine 0.198); killed at its own crown example by the frenchman's @790
+  "qui que" window ("que qui que" ungrammatical). 77="le": LEAD-weak accepted.
+  New direction: 77 is verb-adjacent (frenchman's « qui [verbe] » + verb-stem
+  predecessors 06×6, 67×6). Closer's L2prov legs were hand-computed in no
+  archived code — provisional-conditioned, unverifiable as stated.
+- **N22 (2026-10-07, crowd3/red-team-3b):** calibration exclusion VALID —
+  181.5×/61.1×/3.3× reproduce. Blast radius: red team's own round-3 "ent|er
+  strained" leg VOID (er-rate uncalibrated; 06="ent"-general REFUTED stands on
+  reduced legs); the 06="ne" ne+er-initial leg VOID (no live claim affected);
+  closer's 94→82 "ne m'" void endorsed. Unaffected: the 87=ce battery and
+  inversion, 94="ne" unigram rate, the 64→77×3 word-space anomaly, all
+  cipher-side legs, all ear readings.
+- **N23 (2026-10-07, crowd3/red-team-3b):** kill ledger — **01="ci" provisional
+  kill** (3.84× + "ici" ×0; @295 leg circular); **24="de" scoped kill** (inside
+  « en ce qui », conditioned on 87=ce/64=qui); **52="pas"-as-single-reading
+  scoped kill** (@160 « per|so|nne » proves 52 word-internal — forces 52
+  polyvalence); 43="parmi" conditional kill (needs unconfirmed 01="est");
+  K7 (56="plus" as single reading) REJECTED (rests on unconfirmed 37="le" +
+  unidentified 44). No promotions this round. **62="on" is the promotion
+  candidate** — one independent check away.
 
 ## Verified findings
 - F1 (source: Bourdeau zeschau1841 page, 2026-09-21/24): the unit is pairs of digits; 96 of 100
@@ -472,44 +651,151 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   truth ✓), 06=ent.** The 2 extra 94→82 instances (@578/@1181, outside the
   ×2 repeat) are exactly what R4 predicts. Test bed for round 3.
   Evidence: `code/crowd2/formula_tester_results.{md,json}`.
+- **F24 (2026-10-07, crowd3/morphologist; red-team: DEMOTED CONFIRMED→
+  provisional-strong):** 94="ne" — era syllable rate 1.025× (0.01950 vs 0.01902,
+  documented orthographic syllabifier); trigram 94-82-06 ×3 at 1.054× the era
+  -nement rate with ground-truth 82=m centered; ×2 byte-identical repeat
+  @1179/@1350. Leg 3 (phase predecessor profile) VOID — it used the
+  tuner-falsified phase mapping. Correction: 94→82 is 4× @[578, 1181, 1352,
+  1741] (@1181 inside repeat #1; @1741 is 94-82-46, unparsed "i-ne-m-que" —
+  25% of the 94→82 family unexplained). Live rival: **94="re"** ("-rement"
+  1.28× vs "-nement" 0.66×) — round-4 lead.
+  Evidence: `code/crowd3/morphologist_results.{md,json}`.
+- **F25 (2026-10-07, crowd3, red-team adjudicated):** 06 working state — F21
+  verb-stem (class-level) wins the general reading by worker convergence but
+  holds only PROVISIONAL (CONFIRMED never earned); 06="ent" general REFUTED
+  (N19), restricted-"ent" PLAUSIBLE on the 3 -ment trigrams; the specific
+  /mɑ̃/ "demand-" model KILLED by crib contradiction (N17). Neither side holds
+  CONFIRMED on 06. Polyvalence remains the live mechanism — plausible, not
+  confirmed. Identify the stem via 06→29×5 (infinitive frames) in round 4.
+- **F26 (2026-10-07, crowd3/red-team):** methodology flags — (1) phase→position
+  instrument VOID (N15); (2) the 'er' 67× segmentation mismatch uncalibrates ALL
+  "er"-rate checks; (3) the crib writes mute -e (40="e" in "première") — kills
+  phonetic mute-e models cleanly; (4) V29 contaminated; (5) mixed-register
+  modeling is principled as a ROBUSTNESS check (24-union still empty = strong
+  null) but not as a confirmation instrument; (6) the closer's .md steelman
+  ratios (1.15×/1.10×) do not reproduce from archived code (JSON: 1.89×/1.98×,
+  que-leg at band edge) — traceability violation; trust the JSON.
+- **F27 (2026-10-07, crowd3/closer; red-team: DEMOTED CONFIRMED→provisional-
+  strengthened):** 87="ce" stays provisional. Three new legs: N1 rival-kill —
+  P(46|87)=3/32 and P(64|87)=5/32 with 95% CIs; all six rival function words
+  fall outside both intervals, several at register-independent grammatical
+  zero ("le qui", "je que"); only "ce" makes {cela, ce que, ce qui} all
+  grammatical — UPHELD in substance (que-leg at band edge per JSON);
+  N2 exhaustive inversion — ~4,000 era words on {P(que|W), P(qui|W)}, "ce" the
+  only n>100 passer — UPHELD; N3 96-frame ("parce que" ×3) — admitted CIRCULAR
+  (conditions on 96="par"). R1 "corroboration" recycled the dead 24="est"
+  number — void. Residual caveat: the cela leg is dialogue-register (era fails,
+  Les Mis passes; corroborates round-2's "est ce" register finding; favors no
+  rival). Dependency chain: 87="ce" provisional → 64="qui" re-promotion BLOCKED
+  (new anomaly: 64→77×3 vs era P(pas|"qui")=0/2360; "même" rival live) →
+  96="par" keeps CONFIRMED on the repaired leg → all drags inherit provisional.
+  Inversion redo: 24's intersection stays EMPTY under era, Les Mis, and the
+  union model — 24 is likely not a plain function word.
+  Evidence: `code/crowd3/closer_results.{md,json}`.
+- **F28 (2026-10-07, crowd3/closer C1, curator-verified):** F19 correction —
+  the "parce" rate was miscomputed as 132/1036 (n("parce") used as the bigram
+  count); true word-space P(ce|par)=13/1036=0.0125 (an 11.4× fail). The
+  syllabary-aware repair gives P(87|96)=0.1429 vs predicted 0.1130 (1.26×).
+  96="par" CONFIRMED stands on the repaired leg.
+- **F29 (2026-10-07, crowd3/segmenter; red-team-3b: PARTIAL accepted):**
+  semi-Markov forward-backward with unsupervised EM-fit boundary rates
+  (rotation-break assumption only — honors the tuner NULL). Ground-truth
+  "la"+"première" @1033: 3/3 boundaries ≥0.5 out-of-sample, la|première split
+  0.937 unprompted. The 5/23 provisional-boundary miss is NOT anti-evidence:
+  metric muddling (cela-internal 7/7 <0.5 is the model correctly not splitting
+  "cela" — mildly favors "cela" one word), weak rotation-break at parce|que,
+  and the inconsistent-segmentation enlightenment predicts exactly this failure.
+  Lengths sane (958 words, mean 1.93 vs era 1.75, chi²=121.8); π_C=0.578
+  highest — C as word-final-ish, unprompted. **25 crib-drag targets cleared as
+  LEAD-grade** (@1110-1112 [41 65 38], @81-83 [51 62 16] first; pre-registered
+  control required per the scorer lesson; provisional-touching targets inherit
+  provisional uncertainty).
+  Evidence: `code/crowd3/segmenter_results.{md,json}`.
+- **F30 (2026-10-07, crowd3/red-team-3b): lane position — rigid syllabification
+  is DEAD as an instrument.** Three independent lines converge: tuner NULL
+  (N15), the calibration mismatch (N22), and the frenchman's enlightenment
+  (the encipherer spells by ear and cuts inconsistently — « personne » in two
+  spellings in one cipher, « prend »→« pre », « pre|m|i|er|e »). What survives:
+  cipher-side geometry, word-space grammatical kills, ear/formula locks, era
+  unigrams as context. **Round-4+ rule:** no era-syllable-conditional legs on
+  morphological fragments (29/82/34 excluded; 40-conditionals excluded); era
+  word-space legs survive; fragment hypotheses test against the recovered
+  syllabary (`data/upstream-syll*.py`, tuner step 2).
+- **F31 (2026-10-07, crowd3/frenchman; red-team-3b: merged).** Ear-confirmations
+  (87="ce", 64="qui", 96="par", 94="ne") = independent corroboration, NO
+  status changes. K1 accepted (converges with N19; @1181 shows polyvalence
+  naked); K2 accepted scoped (24="de" in « en ce qui »); K3 conditional only;
+  K4 accepted provisional (01="ci" kill); K5 accepted scoped (forces 52
+  polyvalence); K6 no action (honesty noted); K7 rejected. Leads:
+  **24="en" STRONG** (sharpest ear-vs-stats tension: 24→87×10 at 26–31× over
+  era P(ce|en); failed L2prov does not kill the lead); **52="pas" STRONG,
+  bounded** (rival 52="se" stays LEAD); **62="on" STRONG** — strongest of the
+  batch (ear lock + 62→94 "on ne" ×8 at 1.97× in-band; one independent check
+  from promotion); 37="le"/01="est"/56="plus"/43="me" MEDIUM; 17="fois" WEAK;
+  94="en" islets LEAD-grade conditioned polyvalence (@1168 « en ce 83 »,
+  @1575 « m'en 76 »); @1741 unresolved under both readings. 64→77×3 reclassified
+  as a **77-problem** (« qui [verbe] ») — pressure on 64 dissolves, re-promotion
+  stays blocked. Register reclassified: the cela gap is **genre** (reporter's
+  event-anaphora), not formality — expect political lexicon, diplomatic
+  formulae, subjunctives; don't expect slang/« ça »/dropped « ne ».
+  Evidence: `code/crowd3/frenchman_results.{md,json}`.
 
 ## Open hypotheses (not promoted — each needs ≥2 independent checks)
-- H1 (crib surgeon → crowd2/closer + red-team): **24="est" — REFUTED as a confirmation
-  case** (N10, F20). 24 stays unidentified; the 45-word inversion sweep found no era
-  word fitting P(ce|V)≈0.19 ∧ P(V|que)≈0.10 — the empty intersection is itself a
-  datum pointing back at provisional 87=ce. Weak-open only.
-- H2 (crib surgeon → crowd2/hypothesis-sweeper): **77="pas" — INCONCLUSIVE.**
-  Survives as the best reading for 77 (la-follower 1.06×, freq, que-controls pass),
-  but its partner 06 is probably not "ne" (N14). 77="que" reopens if 06 is revalued.
-- H3 (crib surgeon → crowd2/hypothesis-sweeper): **06="ne" — INCONCLUSIVE** (two
-  unexplained bigram anomalies). Live alternative: **06 = verb stem** (F21) —
-  round-3 work order, with companion unknown 67.
-- H4 (formula hunter → crowd2/hypothesis-sweeper): **96="par" PROMOTED** — 10th
-  provisional value, CONFIRMED 4/4 (F19; tension: "ce qui 96 47 que" wants a verb).
-  **96="de" REFUTED** (N14). 41="der"/08="ni" INCONCLUSIVE (n=1).
-- H5 (linguist): **REFUTED** (N11). Replaced as live reading by R4 "-ment" family:
-  **94=ne, 82=m, 06=ent** (F23) — round-3 work order.
-- F9 status (2026-10-07, crowd2/red-team): 64="qui" demoted CONFIRMED 4/4 →
-  **PROVISIONAL** (F20). Still the best-tested reading of 64; needs a non-87=ce-
-  dependent confirmation leg.
-- F6 status: 87=ce remains **provisional, best-tested reading** (3/4 era, F10);
-  the closer's empty inversion intersection and the sweeper's 96="par" both
-  inherit its uncertainty. Resolving 87 is the lane's central open problem.
-- F9 (2026-10-07, this lane): **64="qui" — lane-inferred provisional anchor, CONFIRMED 4/4.**
-  87→64 ×5 ("ce qui"); P(64|87)=0.1562 ≈ era P(qui|ce)=0.1878 ("qui" is the #1 follower
-  of "ce" in Tocqueville, 213×); rank(64)=4 of 96 vs era rank("qui")=13; 46=que → 64 = 0;
-  28 followers/28 predecessors, top share 0.07. Rival 64="ci" disfavoured (P(87|64)=0.109).
-  9 anchors total. Evidence: `code/attempt3.py`, `data/attempt3_results.json`.
-  **REVISED same day (crowd2/red-team, F20): demoted to PROVISIONAL** — check (b)
-  conditioned on provisional 87=ce; factor-2 band admits qui/qu'/n'. Still the
-  best-tested reading of 64; needs a non-87=ce-dependent confirmation leg.
-- F10 (2026-10-07, this lane): **era-matched reference corpus built** (Tocqueville 1835/1840,
-  214,861 words, formal prose). Rate comparison vs Les Mis (1862 novel): P(que|ce),
-  P(qui|ce), P(la|de), P(la|à) all agree within factor 2; **n("cela")/n("ce") disagrees
-  6.7×** (0.041 era vs 0.278 Les Mis) — a register gap, not an era subtlety. Consequence:
-  attempt 2's "cela"-rate leg for 87=ce is downgraded to register-dependent; 87=ce
-  re-validates at 3/4 on era rates and stands. Evidence: `data/PROVENANCE-tocqueville.txt`,
-  `data/attempt3_results.json`.
+  Round-3 status after red-team adjudication (2026-10-07, 9/9 executors merged;
+  red-team 3b follow-up complete):
+- H1: **24="est" — REFUTED** (N10, F20). 24 unidentified; with 87=ce
+  strengthened-provisional, the closer's inversion redo (empty under era,
+  Les Mis, AND the mixed-register union model) says 24 is likely NOT a plain
+  function word (F27). New STRONG lead: **24="en"** (F31 — « en ce qui » ×2,
+  « en plus » @73, « qu'en 85 » @952; rank-2 2.82% fits; the rate tension
+  24→87×10 at 26–31× over era P(ce|en) does not kill it). 24="c'est" REFUTED
+  (28.9×). 24="de" scoped kill inside « en ce qui » (N23).
+- H2: **77="pas" — DISFAVORED (strong)** (refined from inconclusive by
+  red-team-3b, N21). 77="que": disfavored stands (killed at its own crown
+  example). 77="le": LEAD-weak. Direction: 77 is verb-adjacent (« qui [verbe] »
+  + verb-stem predecessors 06×6, 67×6).
+- H3: **06 — working state F25**: verb-stem (class) PROVISIONAL general
+  reading (06→11=la ×4 "stem la" imperative corroborates); /mɑ̃/ "demand-"
+  specific model KILLED (N17); 06="ent" general REFUTED (N19), restricted-"ent"
+  PLAUSIBLE on the three 94-82-06 trigrams. 06="ne" dead. Polyvalence
+  (homophone-merging) plausible, not confirmed. **86=verb-stem class** is a
+  second stem (86→29 ×4) — two verb stems in the text (F31 lead, bigram closer).
+- H4: **96="par" — CONFIRMED 4/4**, provisional-inherits-87=ce-status, on the
+  repaired C1 leg (F28). 96="de" REFUTED (N14). Tension: "ce qui 96 47 que"
+  wants a verb.
+- H5: **REFUTED** (N11). Replaced by R4 "-ment" family: **94="ne"
+  provisional-strong** (F24), 82=m ✓, 06="ent" restricted. Live rival:
+  **94="re"** ("-rement" 1.28× vs "-nement" 0.66×) — round-4 lead.
+- **78="me" — LEAD** (promotion REJECTED, N20): rival "l'" killed (58×),
+  rival "e" live (L1 1.044); L1 1.108, L2b 0.731, L3b "la même" n=154 survive;
+  "même" joint era-coherent but circular (47/37 unconfirmed).
+- **62="on" — STRONG LEAD, promotion candidate** (F31): ear lock + 62→94
+  "on ne" ×8 at 1.97× in-band; L1 4.27× explained by polyvalence; one
+  independent check from promotion.
+- **52="pas" — STRONG, bounded** (F31; rival 52="se" stays LEAD; K5 forces
+  52 polyvalence). 59/52="se": provisional-flavored LEAD ("ne se" frames).
+- 64="qui": provisional; re-promotion BLOCKED; 64→77×3 reclassified as a
+  77-problem (F31); "même" rival live (stem-hunter lead, round 4).
+- 87="ce": provisional, strengthened (F27); still the best-tested reading of
+  87. Resolving 87 remains the lane's central open problem — needs a
+  register-matched corpus or a ci/te anchor.
+- 67="veut": provisional (demoted from CONFIRMED, N18); 67="re" is a 1-leg
+  lead ("les" killed 35.5×); modal-governor + 06 lexical-stem is the live
+  verb-system picture.
+- 94="en" islets: LEAD-grade conditioned polyvalence (@1168, @1575).
+  01="ci": provisional kill (N23); 01="est" MEDIUM lead; 43="me" MEDIUM
+  (« il me [v] » @43); 43="parmi" conditional kill; 37="le"/56="plus" MEDIUM;
+  74="te" lead; 21="me" lead (BUT "par me" 802× contradiction flagged);
+  17="fois" WEAK; @1741 unresolved under both readings; 47 unresolved
+  (@148–150 jar).
+- 24→87→64 ×3 formula: promoted, value withheld (F17). 64 96 43 87 01 ×2:
+  "qui … ce" reverse joints (F18). 41="der"/08="ni" INCONCLUSIVE (n=1) —
+  refuted as general readings. 00 and 24 remain the top-frequency unknowns.
+- **Lane instrument position (F30):** rigid syllabification DEAD — no
+  era-syllable-conditional legs on morphological fragments (29/82/34 excluded;
+  40-conditionals excluded); era word-space legs survive; fragment hypotheses
+  test against the recovered syllabary (`data/upstream-syll*.py`).
 
 ## Data inventory
 Source: https://github.com/dbourdeau/cyphersolver `targets/zeschau1841/` (Daniel Bourdeau's
@@ -563,4 +849,20 @@ Crowd round 2 (2026-10-07) — six executors, coordinator-curated; each wrote on
   code/crowd2/scorer_smith.py, scorer_smith_results.{md,json}
   code/crowd2/hypothesis_sweeper.py, hypothesis_sweeper_results.{md,json}
   code/crowd2/red_team.py, red_team_results.{md,json}
+  (plus __pycache__/ — regenerable, not evidence)
+Crowd round 3 (2026-10-07) — nine executors, coordinator-curated with red-team
+adjudication; each wrote only to `code/crowd3/` plus a report-inbox note per
+REPORTING.md (`code/crowd3/report_inbox/<name>-<topic>.md`, swept into REPORT.md
+every 2h). Merged 6/9 at checkpoint (frenchman, segmenter, bigram-closer pending):
+  code/crowd3/closer.py, closer_results.{md,json}
+  code/crowd3/morphologist_results.{md,json}
+  code/crowd3/stem_hunter.py, stem_hunter_results.{md,json}
+  code/crowd3/scorer3.py, scorer_smith_results.{md,json}
+  code/crowd3/tuner.py, tuner_results.{md,json}
+  code/crowd3/red_team_results.{md,json}
+  Round-3 newcomers (operator order, merged after red-team-3b follow-up review):
+  code/crowd3/frenchman_results.{md,json} (+ report_inbox/frenchman-ear-check.md)
+  code/crowd3/segmenter_results.{md,json} (+ report_inbox/segmenter-word-boundaries.md)
+  code/crowd3/battery.py, bigram_closer_results.{md,json} (+ report_inbox/bigram-closer-anchor-factory.md)
+  code/crowd3/red_team_round3b_results.{md,json} (+ report_inbox/red-team-round3b.md)
   (plus __pycache__/ — regenerable, not evidence)
