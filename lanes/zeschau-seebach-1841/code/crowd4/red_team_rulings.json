@@ -1,0 +1,128 @@
+{
+ "gate": {
+  "round": 4,
+  "worker": "red-team",
+  "opened": "2026-10-07T09:18:00-05:00",
+  "closed": "2026-10-07T09:35:00-05:00",
+  "status": "ADJUDICATED",
+  "bar": [
+   "Two or more genuinely independent checks (a check that conditions on a provisional is not independent of it)",
+   "F30-legality: no era-syllable-conditional legs on morphological fragments; era word-space legs survive",
+   "F26 flags respected: phase->position VOID; er-rate uncalibrated; crib writes mute -e; V29 contaminated; mixed-register = robustness only",
+   "Traceability: every number recomputed from the claimant's JSON/code; .md claims not reproducing from archived code are void"
+  ],
+  "rulings": [
+   {
+    "claim": "77='le' LEAD-weak -> LEAD (bigram-closer battery4)",
+    "ruling": "ACCEPT (fenced)",
+    "legs": "77->86 x5 verified in pair stream; L1w 1.121 / L1s 0.982 in-band (battery4_results.json); 'ce le' word era-zero n=2 (87->77 x2 verified). Fences carried: 86 verb-stem class unconfirmed (leg interpretation provisional-on-unconfirmed), L2b 3.021 fail, 'le me' joint tension fenced on unconfirmed 78='me'. Sub-provisional grade; provisional bar not engaged."
+   },
+   {
+    "claim": "64='meme' LEAD -> disfavored-but-live (closer64_87, WO7)",
+    "ruling": "DEMOTE ACCEPTED (bounded, not killed)",
+    "legs": "L6: 87->64 x5, 5/32=0.1562 vs era P(meme|ce)=0.0159 -> 9.83x, binomial p=1.43e-04 (recomputed) -- conditional on provisional 87=ce, so a bound not a kill. L3: verb-gap 6.3x + 'meme si' escape dead at p=2.7e-5. Battery 6-1-1 for 'qui'. The 'but-live' hedge is void: disfavored readings are not live -- meme exits the live set (inclusive polyvalence rate 4/25 -> 3/25). Revival thread: unconditioned legs only. 64='qui' re-promotion block STAYS (no unconditioned kill of meme)."
+   },
+   {
+    "claim": "94='re' live-rival -> disfavored (morph94_re_battery, WO3)",
+    "ruling": "DEMOTE ACCEPTED (fenced)",
+    "legs": "Old 1.28x leg VOID per F30 (admitted by worker); host odds 2.27:1 for 'ne' (641 vs 282 tokens, recomputed exact, disjoint); 0/36 composing instances under 're' (frames verified: 35-94-52-80-04 x2 @1292/@1805 byte-identical); P(94|62)=8/34=0.2353 = 1.99x era P(ne|on) (components verified). Fence: @578 trigram host unidentified -- the thread a 're' revival would need. 94 stays polyvalent (ne [PROVs] / en [LEAD])."
+   },
+   {
+    "claim": "94='en' LEAD -> provisional 'conditioned-polyvalent co-value' (morphologist)",
+    "ruling": "DENY -- LEAD-held",
+    "failed_leg": "INDEPENDENCE. The evidence is a single evidential body: 4 instances of 2 types (82-94-76 x2 @650/@1574, 82-94-74 @1100, 94-87 @1168 -- all windows verified byte-identical). The byte-identical repeats and the 'disjoint conditioning' (en iff pre=82 or suc=87) describe the same 4 instances; era 'en ce' attestation belongs to the same compositional leg. One independent check (compositional/grammatical), not two. What would promote it: a second independent check (rate leg or new instances)."
+   }
+  ],
+  "records_no_ruling": [
+   "78='me' stays LEAD -- worker concurs, promotion explicitly not granted on fixed legs (B-78b: 11->78 x2 cipher P=0.0455; fixed era P(me|la)=154/7652 -> 2.259 OUT of band, was 1.658 on wrong marginal; recompute direction confirmed)",
+   "62='on' stays STRONG LEAD -- order-1 output was data only (frenchman4_62_results.json, no verdict); the third independent leg was not delivered as a claim",
+   "47 unresolved -- stem47_battery.json is a battery with no verdict (note: C2 leg conditions on prev-word-ends-er, F30-borderline; no claim staked)",
+   "drag25: 0 proposed / 25 LEAD-held / 0 killed; control PASS verified in JSON (M1 0.721>=0.60, M2 0.939>=0.70, M3 0.258>=0.10); first-pass '14 PROPOSED' corrected before reporting -- honest null",
+   "87=ce unchanged (provisional-strengthened) -- register subset FAIL (0.0398 vs 0.0414 baseline, pre-registered bars honored), ci/te scan NULL; cela leg stays dead",
+   "94='ne' holds provisional-strong on REBUILT legs (old A/B marked VOID-per-F30 by the worker -- honest); no status change",
+   "syllabary4.py is shared infrastructure (imported by stem47_06.py), not a recovery claim -- order 5 delivered no syllabary (stem hunter banked none either)"
+  ]
+ },
+ "homophony_position": {
+  "conditioned_vs_free": {
+   "established_conditioned": [
+    "06: trigram-internal (06@[580,1183,1354] inside 94-82-06) = ent [PLAUS, restricted] vs elsewhere (43/46) = verb-stem class [PROV]; naked adjacency @1183(ent)/1184(stem); zero cross-violations",
+    "52: pas [SLEAD] iff negation-frame (94_52 x3 @571/1293/1806 + 94_70_52 @1331) vs so [LEAD] word-internal @160 (K5 kill of single-reading) + se [LEAD] closer rival; 22/27 unclassified = prediction set",
+    "94: ne [PROVs] iff negation-frame (7x 62_94 + 4x 94_52/70, overlap @1329) or word-internal (@161 per|so|nne) vs en [LEAD] islets @1168/@1575 vs re [LEAD] suffix-rival (-rement 1.28x, morphologist F24)"
+   ],
+   "free_polyvalence_established": 0,
+   "verdict": "CONDITIONED in every established case; zero cases of free (unconditioned) polyvalence"
+  },
+  "falsifiers": [
+   "A double with no statable conditioning rule whose readings both verify at LEAD+ -> free polyvalence -> structural information loss; bound drops",
+   "Re-segmentation dissolving a double into allophony (frenchman line-190 caveat) -> count drops",
+   "Round-4 order-7 resolving 64 qui/meme as rivalry-not-polyvalence -> inclusive rate 4/25 -> 3/25"
+  ],
+  "information_bound": {
+   "design_compression": "96 groups - ~24 letter slots ~= 72 syllable slots vs ~700-syllable French inventory: ~90% inventory compression FORCES letter-spelling or homophonic collapse; both observed (crib pre|m|i|er|e mixes syllable+letters; 06/94/52 collapse)",
+   "era_top72_note": "crude maximal-onset syllabifier on Tocqueville t1+t2 (356,118 syllable tokens, S=5127 types, method in code/crowd4/era_syllables.py); true figure higher with proper syllabification",
+   "era_top72_token_coverage": 0.494,
+   "recoverability_ceiling": "100% in principle given the full key: letter-spelling is fully expressive and all observed polyvalence is conditioned -> no demonstrated structural information loss; binding constraint is key identification",
+   "token_coverage_note": "650/1846 pairs sit in groups with a live reading; 155/1846 (8.4%) sit in polyvalent groups and need conditioning to disambiguate",
+   "token_coverage_now": 0.352
+  },
+  "ledger": {
+   "denominator_identified_groups": 25,
+   "established_conditioned": [
+    "06",
+    "52",
+    "94"
+   ],
+   "extra_live_readings_E": 6,
+   "groups_ge2_live_readings": [
+    "06",
+    "52",
+    "94"
+   ],
+   "inclusive_rate": "3/25 = 0.120 (64 meme DEMOTED to disfavored by closer64_87 ruling 2; rivalry closed)",
+   "live_reading_bar": "grade >= LEAD (GT/CONF/PROV/PROVs/SLEAD/LEAD) and not killed; 06=ent PLAUS kept: survived K1 kill of the general reading",
+   "live_readings_M": 19,
+   "live_readings_R": 25,
+   "strict_rate": "3/25 = 0.120",
+   "note": "Post-round-4-rulings: strict and inclusive rates converge at 3/25 -- the established conditioned three (06, 94, 52). 94='re' demotion (ruling 3) removes the weakest 94 leg; 94 stays polyvalent via ne[LEAD+]/en[LEAD]."
+  },
+  "null_A_kill_rate": {
+   "E_extra_readings": 6,
+   "expected_surviving_spurious_doubles": 4.05,
+   "graded_group_reading_hypotheses": 37,
+   "kappa_kill_rate": 0.324,
+   "killed_group_readings": [
+    "06=/mɑ̃/ (N17)",
+    "24=est (N10)",
+    "01=ci (K4)",
+    "06=ent general (K1/N19)",
+    "77=que (N18)",
+    "52=pas single-reading (K5 scoped)",
+    "24=de in formula (K2 scoped)",
+    "43=mi/parmi in formula (K3 conditional)",
+    "56=plus single-reading (K7 rejected)",
+    "H5 composite (N11)",
+    "96=de (N14)",
+    "16=a (N13)"
+   ],
+   "p_all_E_survive_under_M1": 0.095,
+   "verdict": "count alone does NOT reject the monovalent+misreading null at alpha=0.05 (honest null; p~0.10)",
+   "note": "E and kappa computed pre-rulings; the rulings only remove readings (meme, re), they do not add doubles -- the null-A conclusion (no reject at 0.05) is unaffected."
+  },
+  "null_B_direction_exemplar": {
+   "direction_test": "all 4 doubles run 1-group -> N DISTINCT sounds (06 ent/stem, 94 ne/re/en, 52 pas/se/so, 64 qui/meme); the encipherer's demonstrated noise runs the opposite way",
+   "exemplar_signature": "16 repeated-word instances: 15 byte-stable (gouvernement x3, erre x2, en-ce-qui x3, ne-pas x3, parce-que x3); the 1 varying word (personne x2: 93 52 94 vs 77 62 94) KEEPS the group for the unchanged sound (94 stable) -> noise = allophony (1 sound -> N groups), never sound-merger",
+   "verdict": "ear-cutting inconsistency alone REJECTED as the sole explanation for the doubles; remaining alternatives: deliberate key-design collapse vs instrument misreading, discriminated by the conditioning audit (passes for 06/52; 94 re-leg weakest; 64 unadjudicated)"
+  },
+  "one_sentence": "Polyvalence is CONDITIONED, not free: 3 of 25 identified groups (12.0%) carry >=2 live readings with verified positional/lexical conditioning rules (06, 94, 52; +64 qui/meme rivalry pending at 16.0%), zero cases of free polyvalence -- so the 96-group code is information-lossless in principle (recoverability bounded only by key identification, now at 35.2% token coverage), and the ear-cutting null is rejected on direction (the encipherer's demonstrated noise is allophony, 1 sound -> N groups, while all doubles run 1 group -> N sounds)."
+ },
+ "method": {
+  "code": [
+   "code/crowd4/analyze_polyvalence.py",
+   "code/crowd4/era_syllables.py",
+   "code/crowd4/polyvalence_results.txt"
+  ],
+  "pairs_source": "data/upstream-ct_R5005.txt tokenized by data/upstream-offsets.json (1846 pairs, 96 groups; recomputed, not copied)"
+ },
+ "worker": "red-team"
+}

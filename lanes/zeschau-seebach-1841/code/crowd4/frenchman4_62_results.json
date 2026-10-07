@@ -1,0 +1,468 @@
+{
+ "f62": 34,
+ "pairs": 1846,
+ "onne_n": 8,
+ "onne_at": [
+  100,
+  508,
+  839,
+  1328,
+  1361,
+  1685,
+  1703,
+  1771
+ ],
+ "predecessors": {
+  "93": 2,
+  "30": 1,
+  "51": 1,
+  "21": 5,
+  "36": 1,
+  "14": 1,
+  "10": 1,
+  "77": 1,
+  "03": 2,
+  "74": 3,
+  "20": 3,
+  "40": 1,
+  "08": 2,
+  "78": 2,
+  "04": 1,
+  "06": 1,
+  "34": 1,
+  "92": 2,
+  "02": 1,
+  "98": 1,
+  "41": 1
+ },
+ "followers": {
+  "98": 5,
+  "96": 1,
+  "16": 4,
+  "94": 8,
+  "48": 6,
+  "91": 1,
+  "61": 2,
+  "06": 2,
+  "21": 1,
+  "18": 1,
+  "38": 1,
+  "46": 1,
+  "93": 1
+ },
+ "que_to_62": [],
+ "to_70_pre": [],
+ "to_46_que": [
+  1481
+ ],
+ "to_11_la": [],
+ "to_64_qui": [],
+ "era": {
+  "words": 221027,
+  "n_on": 1616,
+  "P_on_word": 0.007311323955896791,
+  "P_cipher_62": 0.018418201516793065,
+  "n_ne_after_on": 191,
+  "P_ne_given_on": 0.11819306930693069,
+  "n_on_after_que": 400,
+  "P_on_given_que": 0.07980845969672785,
+  "top_pred_on": [
+   [
+    "qu",
+    400
+   ],
+   [
+    "l",
+    100
+   ],
+   [
+    "mais",
+    39
+   ],
+   [
+    "quand",
+    25
+   ],
+   [
+    "lorsqu",
+    24
+   ],
+   [
+    "et",
+    22
+   ],
+   [
+    "comme",
+    21
+   ],
+   [
+    "dont",
+    20
+   ],
+   [
+    "amérique",
+    17
+   ],
+   [
+    "note",
+    16
+   ],
+   [
+    "unis",
+    13
+   ],
+   [
+    "si",
+    13
+   ],
+   [
+    "t",
+    12
+   ],
+   [
+    "union",
+    11
+   ],
+   [
+    "voit",
+    10
+   ]
+  ],
+  "top_fol_on": [
+   [
+    "ne",
+    191
+   ],
+   [
+    "peut",
+    113
+   ],
+   [
+    "a",
+    89
+   ],
+   [
+    "n",
+    65
+   ],
+   [
+    "y",
+    48
+   ],
+   [
+    "s",
+    46
+   ],
+   [
+    "voit",
+    45
+   ],
+   [
+    "l",
+    43
+   ],
+   [
+    "se",
+    37
+   ],
+   [
+    "les",
+    33
+   ],
+   [
+    "le",
+    32
+   ],
+   [
+    "lui",
+    30
+   ],
+   [
+    "doit",
+    27
+   ],
+   [
+    "en",
+    25
+   ],
+   [
+    "rencontre",
+    24
+   ]
+  ]
+ },
+ "windows": [
+  {
+   "pos": 11,
+   "prev": "93",
+   "next": "98",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "77 78 18 93 >>62<< 98 76 45 91"
+  },
+  {
+   "pos": 46,
+   "prev": "30",
+   "next": "96",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "88 43 81 30 >>62<< [par] 00 92 79"
+  },
+  {
+   "pos": 82,
+   "prev": "51",
+   "next": "16",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "er 42 98 51 >>62<< 16 14 06 88"
+  },
+  {
+   "pos": 100,
+   "prev": "21",
+   "next": "94",
+   "in_ear_lock": true,
+   "in_onne": true,
+   "render": "er 85 08 21 >>62<< [ne] 93 59 45"
+  },
+  {
+   "pos": 360,
+   "prev": "21",
+   "next": "48",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "92 47 la 21 >>62<< 48 76 47 78"
+  },
+  {
+   "pos": 389,
+   "prev": "36",
+   "next": "91",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "37 43 91 36 >>62<< 91 84 73 i"
+  },
+  {
+   "pos": 425,
+   "prev": "14",
+   "next": "48",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "36 er 47 14 >>62<< 48 76 42 63"
+  },
+  {
+   "pos": 446,
+   "prev": "10",
+   "next": "61",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "50 78 41 10 >>62<< 61 59 32 48"
+  },
+  {
+   "pos": 508,
+   "prev": "77",
+   "next": "94",
+   "in_ear_lock": true,
+   "in_onne": true,
+   "render": "68 21 67 77 >>62<< [ne] [qui] 98 65"
+  },
+  {
+   "pos": 658,
+   "prev": "03",
+   "next": "16",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "24 26 30 03 >>62<< 16 00 86 50"
+  },
+  {
+   "pos": 665,
+   "prev": "03",
+   "next": "06",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "86 50 80 03 >>62<< 06 00 20 67"
+  },
+  {
+   "pos": 801,
+   "prev": "74",
+   "next": "98",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "77 86 44 74 >>62<< 98 53 69 24"
+  },
+  {
+   "pos": 839,
+   "prev": "20",
+   "next": "94",
+   "in_ear_lock": true,
+   "in_onne": true,
+   "render": "56 17 98 20 >>62<< [ne] 26 12 16"
+  },
+  {
+   "pos": 848,
+   "prev": "40",
+   "next": "21",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "00 33 [par] e >>62<< 21 67 91 51"
+  },
+  {
+   "pos": 944,
+   "prev": "08",
+   "next": "98",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "07 50 e 08 >>62<< 98 [par] 86 01"
+  },
+  {
+   "pos": 1064,
+   "prev": "21",
+   "next": "18",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "83 m [par] 21 >>62<< 18 pre 39 la"
+  },
+  {
+   "pos": 1135,
+   "prev": "20",
+   "next": "98",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "24 77 86 20 >>62<< 98 00 98 78"
+  },
+  {
+   "pos": 1140,
+   "prev": "78",
+   "next": "16",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "98 00 98 78 >>62<< 16 er 42 98"
+  },
+  {
+   "pos": 1296,
+   "prev": "04",
+   "next": "16",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "[ne] 52 80 04 >>62<< 16 02 pre 37"
+  },
+  {
+   "pos": 1314,
+   "prev": "74",
+   "next": "48",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "44 00 36 74 >>62<< 48 98 15 24"
+  },
+  {
+   "pos": 1323,
+   "prev": "08",
+   "next": "98",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "03 er 80 08 >>62<< 98 56 30 06"
+  },
+  {
+   "pos": 1328,
+   "prev": "06",
+   "next": "94",
+   "in_ear_lock": true,
+   "in_onne": true,
+   "render": "98 56 30 06 >>62<< [ne] pre 52 39"
+  },
+  {
+   "pos": 1348,
+   "prev": "34",
+   "next": "48",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "86 66 73 i >>62<< 48 77 78 [ne]"
+  },
+  {
+   "pos": 1361,
+   "prev": "92",
+   "next": "94",
+   "in_ear_lock": true,
+   "in_onne": true,
+   "render": "[qui] 35 13 92 >>62<< [ne] 79 14 60"
+  },
+  {
+   "pos": 1453,
+   "prev": "92",
+   "next": "61",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "67 33 que 92 >>62<< 61 21 67 86"
+  },
+  {
+   "pos": 1463,
+   "prev": "21",
+   "next": "48",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "79 17 01 21 >>62<< 48 21 02 62"
+  },
+  {
+   "pos": 1467,
+   "prev": "02",
+   "next": "38",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "62 48 21 02 >>62<< 38 26 12 41"
+  },
+  {
+   "pos": 1481,
+   "prev": "98",
+   "next": "46",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "er m 16 98 >>62<< que 77 84 24"
+  },
+  {
+   "pos": 1535,
+   "prev": "41",
+   "next": "06",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "00 66 73 41 >>62<< 06 21 62 93"
+  },
+  {
+   "pos": 1538,
+   "prev": "21",
+   "next": "93",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "41 62 06 21 >>62<< 93 88 77 78"
+  },
+  {
+   "pos": 1568,
+   "prev": "74",
+   "next": "48",
+   "in_ear_lock": false,
+   "in_onne": false,
+   "render": "50 er 24 74 >>62<< 48 56 32 28"
+  },
+  {
+   "pos": 1685,
+   "prev": "93",
+   "next": "94",
+   "in_ear_lock": true,
+   "in_onne": true,
+   "render": "79 65 13 93 >>62<< [ne] 79 14 60"
+  },
+  {
+   "pos": 1703,
+   "prev": "20",
+   "next": "94",
+   "in_ear_lock": true,
+   "in_onne": true,
+   "render": "33 [ne] 30 20 >>62<< [ne] 88 26 12"
+  },
+  {
+   "pos": 1771,
+   "prev": "78",
+   "next": "94",
+   "in_ear_lock": false,
+   "in_onne": true,
+   "render": "[qui] 26 37 78 >>62<< [ne] 24 [ce] [qui]"
+  }
+ ]
+}

@@ -1,0 +1,559 @@
+{
+ "npairs": 1846,
+ "battery64": {
+  "cipher": {
+   "freq64": 46,
+   "rank64": 5,
+   "n_followers64": 28,
+   "n_predecessors64": 28,
+   "P64_cipher": 0.024918743228602384,
+   "n64_77": 3,
+   "n64_29": 3,
+   "n67_64": 2,
+   "n46_64": 0,
+   "n64_46": 1,
+   "n87_64": 5,
+   "P77_given64": 0.06521739130434782,
+   "P29_given64": 0.06521739130434782,
+   "P64_given87": 0.15625,
+   "trigram_64_77_X": [
+    [
+     "64",
+     "77",
+     "84"
+    ],
+    [
+     "64",
+     "77",
+     "84"
+    ],
+    [
+     "64",
+     "77",
+     "84"
+    ]
+   ],
+   "trigram_positions": [
+    144,
+    1444,
+    1800
+   ]
+  },
+  "L1_unigram": {
+   "cipher_P64": 0.024918743228602384,
+   "era_P_qui": 0.010983845369797218,
+   "era_P_meme": 0.003797804161760394,
+   "ratio_qui": 2.268672071542685,
+   "ratio_meme": 6.561355501030315
+  },
+  "L2_rank": {
+   "cipher_rank64": 5,
+   "era_rank_qui": 14,
+   "era_rank_meme": 40
+  },
+  "L3_77angle": {
+   "verb_probe_set": [
+    "a",
+    "devient",
+    "disent",
+    "dit",
+    "doit",
+    "doivent",
+    "est",
+    "existe",
+    "fait",
+    "faut",
+    "font",
+    "ont",
+    "paraît",
+    "peut",
+    "peuvent",
+    "prend",
+    "prennent",
+    "reste",
+    "semble",
+    "sont",
+    "veulent",
+    "veut",
+    "viennent",
+    "vient"
+   ],
+   "era_Pverb_given_qui": 0.1711864406779661,
+   "era_Pverb_given_meme": 0.02696078431372549,
+   "ratio": 6.349460708782742,
+   "era_Psi_given_meme": 0.0012254901960784314,
+   "binom_ge_3_46_Psi_given_meme": 2.6856621539417317e-05,
+   "note": "77 is verb-adjacent per N21 (lead, not confirmed); grammatical: \"qui\"+V canonical, \"meme\"+V ungrammatical"
+  },
+  "L4_er": {
+   "cipher_P29_given64": 0.06521739130434782,
+   "n": 3,
+   "era_er_after_qui": 0,
+   "era_n_qui": 2360,
+   "era_er_after_meme": 0,
+   "era_n_meme": 816,
+   "era_Perin_given_qui": 0.0,
+   "era_Perin_given_meme": 0.0,
+   "binom_ge_3_46_ub_qui": 2.9930273070040538e-05,
+   "binom_ge_3_46_ub_meme": 0.000670197577230201
+  },
+  "L5_queneg": {
+   "cipher_n46_64": 0,
+   "n46": 29,
+   "era_Pqui_given_que": 0.0,
+   "era_Pmeme_given_que": 0.00034940600978336826,
+   "expected_meme": 0.01013277428371768
+  },
+  "L6_ce_follower": {
+   "conditional_on": "87=ce (provisional)",
+   "cipher_P64_given87": 0.15625,
+   "era_Pqui_given_ce": 0.18783068783068782,
+   "era_Pmeme_given_ce": 0.015873015873015872,
+   "ratio_qui": 0.8318661971830986,
+   "ratio_meme": 9.84375,
+   "binom_ge_5_32_meme": 0.00014189433322063847,
+   "wilson_5_32": [
+    0.06864319106627216,
+    0.31754492553566527
+   ]
+  },
+  "L7_veut": {
+   "conditional_on": "67=\"veut\" (provisional)",
+   "cipher_n67_64": 2,
+   "era_Pmeme_given_veut": 0.0,
+   "era_Pqui_given_veut": 0.0,
+   "era_n_veut": 52,
+   "note": "\"veut meme\" grammatical (\"il veut meme...\"); \"veut qui\" ungrammatical"
+  },
+  "L8_quique": {
+   "cipher_n64_46": 1,
+   "trigrams": [
+    [
+     "64",
+     "46",
+     "07"
+    ]
+   ],
+   "note": "\"qui que\" grammatical in concessive \"qui que ce soit\" family; \"meme que\" ungrammatical"
+  },
+  "L9_determiner_joint": {
+   "cipher_n11_64": 0,
+   "n11": 44,
+   "cipher_n21_64": 2,
+   "n21": 37,
+   "era_Pmeme_given_la": 0.01784,
+   "era_Pqui_given_la": 0.0,
+   "era_Pmeme_given_les": 0.0,
+   "era_Pqui_given_les": 0.0,
+   "P0_44_under_meme_la": 0.4529,
+   "note": "joint constraint: 21->64 x2 is era-zero under BOTH (21=\"les\",64=\"qui\") (\"les qui\" ungrammatical) and (21=\"les\",64=\"meme\") (P(meme|les)=0/6359); reads as evidence against 21=\"les\" (lead, unconfirmed), not against 64. 11->64=0 neutral under \"meme\" (P(0/44)=0.45), clean under \"qui\"."
+  },
+  "formula_64_77_84": {
+   "trigram": [
+    "64",
+    "77",
+    "84"
+   ],
+   "n": 3,
+   "positions": [
+    144,
+    1444,
+    1800
+   ],
+   "n_eff": "1 phrase type for rate legs",
+   "predecessors": {
+    "144": "67",
+    "1444": "37",
+    "1800": "87"
+   },
+   "note": "@1800 preceded by 87: 87-64-77-84 = \"ce qui [verbe] 84\" under (87=ce, 64=qui, 77=verb-adjacent); see leg87 C_joint_1800."
+  }
+ },
+ "leg87": {
+  "A_design": {
+   "proxy": "first-person-singular reporter voice",
+   "R_pattern": "\\bje\\b|j'|moi\\b|m'|\\\\bmon\\\\b|\\\\bma\\\\b|\\\\bmes\\\\b",
+   "metric": "n(\"cela\")/n(\"ce\")",
+   "cipher_target": 0.21875,
+   "era_baseline": 0.04144620811287478,
+   "fail_bar": "<= 0.08 -> genre account FAILS, cela leg stays dead",
+   "success_bar": ">= 0.11 -> cela leg revives to provisional-grade",
+   "note": "robustness check only (F26.5); cannot confirm 87=ce by itself"
+  },
+  "A_result": {
+   "n_sentences_total": 8633,
+   "n_sentences_R": 791,
+   "n_sentences_A": 7842,
+   "R": {
+    "n_cela": 7,
+    "n_ce": 176,
+    "ratio": 0.03977272727272727
+   },
+   "A": {
+    "n_cela": 40,
+    "n_ce": 958,
+    "ratio": 0.04175365344467641
+   },
+   "verdict": "FAIL — genre account does not close the gap; cela leg stays dead"
+  },
+  "B_scan": {
+   "01": {
+    "n_87_G": 2,
+    "n_34_G_ici": 0,
+    "pre": {
+     "37": 3,
+     "16": 2,
+     "87": 2,
+     "85": 2,
+     "86": 2,
+     "88": 2
+    },
+    "fol": {
+     "02": 4,
+     "24": 3,
+     "21": 2,
+     "19": 2,
+     "98": 2,
+     "56": 2
+    },
+    "freq": 29
+   },
+   "08": {
+    "n_87_G": 1,
+    "n_34_G_ici": 0,
+    "pre": {
+     "60": 2,
+     "67": 2,
+     "17": 2,
+     "37": 2,
+     "40": 2,
+     "01": 1
+    },
+    "fol": {
+     "31": 3,
+     "65": 2,
+     "62": 2,
+     "91": 1,
+     "34": 1,
+     "21": 1
+    },
+    "freq": 19
+   },
+   "11": {
+    "n_87_G": 7,
+    "n_34_G_ici": 0,
+    "pre": {
+     "87": 7,
+     "00": 4,
+     "06": 4,
+     "47": 3,
+     "67": 3,
+     "37": 2
+    },
+    "fol": {
+     "00": 4,
+     "24": 4,
+     "92": 3,
+     "52": 3,
+     "29": 2,
+     "21": 2
+    },
+    "freq": 44
+   },
+   "14": {
+    "n_87_G": 1,
+    "n_34_G_ici": 0,
+    "pre": {
+     "66": 2,
+     "82": 2,
+     "79": 2,
+     "87": 1,
+     "16": 1,
+     "67": 1
+    },
+    "fol": {
+     "24": 2,
+     "06": 2,
+     "60": 2,
+     "21": 1,
+     "74": 1,
+     "45": 1
+    },
+    "freq": 15
+   },
+   "46": {
+    "n_87_G": 3,
+    "n_34_G_ici": 0,
+    "pre": {
+     "00": 4,
+     "47": 3,
+     "87": 3,
+     "74": 3,
+     "59": 2,
+     "67": 2
+    },
+    "fol": {
+     "24": 3,
+     "29": 2,
+     "84": 2,
+     "07": 2,
+     "56": 2,
+     "11": 1
+    },
+    "freq": 29
+   },
+   "59": {
+    "n_87_G": 1,
+    "n_34_G_ici": 0,
+    "pre": {
+     "84": 4,
+     "64": 3,
+     "06": 2,
+     "61": 2,
+     "44": 2,
+     "94": 2
+    },
+    "fol": {
+     "37": 6,
+     "32": 3,
+     "35": 3,
+     "46": 2,
+     "42": 2,
+     "30": 2
+    },
+    "freq": 26
+   },
+   "61": {
+    "n_87_G": 1,
+    "n_34_G_ici": 0,
+    "pre": {
+     "55": 3,
+     "62": 2,
+     "89": 1,
+     "37": 1,
+     "20": 1,
+     "49": 1
+    },
+    "fol": {
+     "96": 2,
+     "59": 2,
+     "94": 2,
+     "21": 2,
+     "20": 1,
+     "42": 1
+    },
+    "freq": 18
+   },
+   "63": {
+    "n_87_G": 1,
+    "n_34_G_ici": 0,
+    "pre": {
+     "65": 4,
+     "92": 1,
+     "15": 1,
+     "42": 1,
+     "78": 1,
+     "67": 1
+    },
+    "fol": {
+     "00": 4,
+     "42": 1,
+     "71": 1,
+     "29": 1,
+     "77": 1,
+     "45": 1
+    },
+    "freq": 12
+   },
+   "64": {
+    "n_87_G": 5,
+    "n_34_G_ici": 0,
+    "pre": {
+     "87": 5,
+     "03": 4,
+     "45": 3,
+     "37": 3,
+     "65": 3,
+     "39": 2
+    },
+    "fol": {
+     "77": 3,
+     "96": 3,
+     "29": 3,
+     "59": 3,
+     "37": 3,
+     "98": 2
+    },
+    "freq": 46
+   },
+   "74": {
+    "n_87_G": 1,
+    "n_34_G_ici": 0,
+    "pre": {
+     "74": 6,
+     "49": 5,
+     "94": 3,
+     "39": 2,
+     "29": 2,
+     "44": 2
+    },
+    "fol": {
+     "74": 6,
+     "45": 3,
+     "46": 3,
+     "62": 3,
+     "67": 2,
+     "77": 2
+    },
+    "freq": 35
+   },
+   "76": {
+    "n_87_G": 1,
+    "n_34_G_ici": 0,
+    "pre": {
+     "77": 3,
+     "67": 2,
+     "48": 2,
+     "94": 2,
+     "16": 2,
+     "98": 1
+    },
+    "fol": {
+     "47": 4,
+     "42": 3,
+     "49": 3,
+     "45": 2,
+     "87": 2,
+     "01": 2
+    },
+    "freq": 21
+   },
+   "77": {
+    "n_87_G": 2,
+    "n_34_G_ici": 0,
+    "pre": {
+     "06": 6,
+     "67": 6,
+     "88": 3,
+     "64": 3,
+     "17": 3,
+     "74": 2
+    },
+    "fol": {
+     "78": 7,
+     "84": 7,
+     "86": 5,
+     "81": 4,
+     "76": 3,
+     "44": 2
+    },
+    "freq": 44
+   },
+   "78": {
+    "n_87_G": 2,
+    "n_34_G_ici": 0,
+    "pre": {
+     "77": 7,
+     "47": 5,
+     "37": 4,
+     "67": 4,
+     "11": 2,
+     "87": 2
+    },
+    "fol": {
+     "45": 4,
+     "40": 3,
+     "48": 2,
+     "49": 2,
+     "41": 2,
+     "62": 2
+    },
+    "freq": 31
+   },
+   "83": {
+    "n_87_G": 2,
+    "n_34_G_ici": 0,
+    "pre": {
+     "98": 5,
+     "87": 2,
+     "55": 2,
+     "44": 2,
+     "64": 1,
+     "77": 1
+    },
+    "fol": {
+     "82": 3,
+     "21": 3,
+     "86": 2,
+     "70": 1,
+     "54": 1,
+     "59": 1
+    },
+    "freq": 15
+   },
+   "86": {
+    "n_87_G": 1,
+    "n_34_G_ici": 0,
+    "pre": {
+     "00": 12,
+     "77": 5,
+     "67": 3,
+     "98": 2,
+     "83": 2,
+     "87": 1
+    },
+    "fol": {
+     "29": 4,
+     "56": 4,
+     "24": 2,
+     "01": 2,
+     "52": 2,
+     "66": 2
+    },
+    "freq": 33
+   },
+   "98": {
+    "n_87_G": 1,
+    "n_34_G_ici": 0,
+    "pre": {
+     "62": 5,
+     "42": 3,
+     "98": 3,
+     "64": 2,
+     "66": 2,
+     "43": 2
+    },
+    "fol": {
+     "83": 5,
+     "82": 3,
+     "98": 3,
+     "00": 3,
+     "56": 2,
+     "80": 2
+    },
+    "freq": 40
+   }
+  },
+  "B_result": {
+   "ici_pins": [],
+   "verdict": "NULL — no follower of 87 is pinned as ci/te from the other side (34->G = 0 for all G in fol87; \"te\"-clitic reads of 78 are contested by 78=\"me\" LEAD and ungrammatical 47/37->78 under \"te\")"
+  },
+  "C_joint_1800": {
+   "positions": [
+    1799
+   ],
+   "windows": [
+    [
+     "91",
+     "79",
+     "87",
+     "64",
+     "77",
+     "84",
+     "59"
+    ]
+   ],
+   "note": "conditional on 87=ce (provisional) + 64=qui (provisional) + 77=verb-adjacent (lead): the unique fully grammatical joint parse is \"ce qui [verbe] 84\". Under 64=\"meme\": \"ce meme [verbe] 84\" is ungrammatical. Supporting only."
+  }
+ }
+}

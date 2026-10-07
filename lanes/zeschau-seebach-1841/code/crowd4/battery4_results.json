@@ -1,0 +1,659 @@
+{
+ "meta": {
+  "worker": "bigram_closer_round4",
+  "date": "2026-10-07",
+  "cipher": "R5005 1846 pairs / 96 groups",
+  "era": "Tocqueville t1+t2; syllable stream + word tokens=214861",
+  "repairs": [
+   "B-78b: ePpre marginal fixed (divides by eu[s1])",
+   "L2prov in archived code (was hand-computed)",
+   "word-space legs for function-word hypotheses",
+   "N22: 29/82/34 excluded all legs; 40 excluded conditionals"
+  ],
+  "band": "0.5-2.0 UNCALIBRATED: rates are context, never promotion alone",
+  "kill_rule": "cipher n>=3 AND era count 0"
+ },
+ "77": {
+  "pas": {
+   "tag": "incumbent",
+   "L1w": {
+    "cipher_rate": 0.02384,
+    "era_word_rate": 0.00458,
+    "ratio": 5.205,
+    "in_band": false
+   },
+   "L1s": {
+    "era_syll_rate": 0.003563,
+    "ratio": 6.69,
+    "in_band": false
+   },
+   "L2": [
+    {
+     "dir": "87(ce)->77",
+     "n": 2,
+     "anchor_status": "PROV",
+     "cipher": 0.0625,
+     "era_syll": 0.00109,
+     "era_syll_buggy": 0.00379,
+     "ratio_syll": 57.5,
+     "ratio_syll_buggy": 16.512,
+     "in_band_syll": false,
+     "era_word": 0.000882,
+     "ratio_word": 70.875,
+     "in_band_word": false,
+     "era_zero": false
+    },
+    {
+     "dir": "64(qui)->77",
+     "n": 3,
+     "anchor_status": "PROV",
+     "cipher": 0.0652,
+     "era_syll": 0.00083,
+     "era_syll_buggy": 0.00151,
+     "ratio_syll": 78.522,
+     "ratio_syll_buggy": 43.076,
+     "in_band_syll": false,
+     "era_word": 0.0,
+     "ratio_word": null,
+     "in_band_word": false,
+     "era_zero": false
+    }
+   ],
+   "L2b": {
+    "cipher_top3_share": 0.432,
+    "era_top3_share": 0.254,
+    "ratio": 1.703,
+    "in_band": true
+   },
+   "L3aw": {
+    "kills": [
+     {
+      "frame": "64=qui->77=pas",
+      "n": 3,
+      "anchor_status": "PROV"
+     }
+    ],
+    "pass": false
+   },
+   "L3b": {
+    "note": "hand/ear territory; counts only"
+   },
+   "top_fol": [
+    [
+     "78",
+     7
+    ],
+    [
+     "84",
+     7
+    ],
+    [
+     "86",
+     5
+    ],
+    [
+     "81",
+     4
+    ],
+    [
+     "76",
+     3
+    ],
+    [
+     "44",
+     2
+    ]
+   ],
+   "top_pre": [
+    [
+     "06",
+     6
+    ],
+    [
+     "67",
+     6
+    ],
+    [
+     "88",
+     3
+    ],
+    [
+     "64",
+     3
+    ],
+    [
+     "17",
+     3
+    ],
+    [
+     "74",
+     2
+    ]
+   ]
+  },
+  "que": {
+   "tag": "challenger",
+   "L1w": {
+    "cipher_rate": 0.02384,
+    "era_word_rate": 0.01332,
+    "ratio": 1.789,
+    "in_band": true
+   },
+   "L1s": {
+    "era_syll_rate": 0.014487,
+    "ratio": 1.645,
+    "in_band": true
+   },
+   "L2": [
+    {
+     "dir": "87(ce)->77",
+     "n": 2,
+     "anchor_status": "PROV",
+     "cipher": 0.0625,
+     "era_syll": 0.04739,
+     "era_syll_buggy": 0.04059,
+     "ratio_syll": 1.319,
+     "ratio_syll_buggy": 1.54,
+     "in_band_syll": true,
+     "era_word": 0.107584,
+     "ratio_word": 0.581,
+     "in_band_word": true,
+     "era_zero": false
+    },
+    {
+     "dir": "64(qui)->77",
+     "n": 3,
+     "anchor_status": "PROV",
+     "cipher": 0.0652,
+     "era_syll": 0.0,
+     "era_syll_buggy": 0.0,
+     "ratio_syll": null,
+     "ratio_syll_buggy": null,
+     "in_band_syll": false,
+     "era_word": 0.0,
+     "ratio_word": null,
+     "in_band_word": false,
+     "era_zero": true
+    }
+   ],
+   "L2b": {
+    "cipher_top3_share": 0.432,
+    "era_top3_share": 0.242,
+    "ratio": 1.783,
+    "in_band": true
+   },
+   "L3aw": {
+    "kills": [
+     {
+      "frame": "64=qui->77=que",
+      "n": 3,
+      "anchor_status": "PROV"
+     }
+    ],
+    "pass": false
+   },
+   "L3b": {
+    "note": "hand/ear territory; counts only"
+   },
+   "top_fol": [
+    [
+     "78",
+     7
+    ],
+    [
+     "84",
+     7
+    ],
+    [
+     "86",
+     5
+    ],
+    [
+     "81",
+     4
+    ],
+    [
+     "76",
+     3
+    ],
+    [
+     "44",
+     2
+    ]
+   ],
+   "top_pre": [
+    [
+     "06",
+     6
+    ],
+    [
+     "67",
+     6
+    ],
+    [
+     "88",
+     3
+    ],
+    [
+     "64",
+     3
+    ],
+    [
+     "17",
+     3
+    ],
+    [
+     "74",
+     2
+    ]
+   ]
+  },
+  "le": {
+   "tag": "own-best",
+   "L1w": {
+    "cipher_rate": 0.02384,
+    "era_word_rate": 0.02127,
+    "ratio": 1.121,
+    "in_band": true
+   },
+   "L1s": {
+    "era_syll_rate": 0.024264,
+    "ratio": 0.982,
+    "in_band": true
+   },
+   "L2": [
+    {
+     "dir": "87(ce)->77",
+     "n": 2,
+     "anchor_status": "PROV",
+     "cipher": 0.0625,
+     "era_syll": 0.0137,
+     "era_syll_buggy": 0.007,
+     "ratio_syll": 4.563,
+     "ratio_syll_buggy": 8.925,
+     "in_band_syll": false,
+     "era_word": 0.0,
+     "ratio_word": null,
+     "in_band_word": false,
+     "era_zero": false
+    },
+    {
+     "dir": "64(qui)->77",
+     "n": 3,
+     "anchor_status": "PROV",
+     "cipher": 0.0652,
+     "era_syll": 0.01578,
+     "era_syll_buggy": 0.00422,
+     "ratio_syll": 4.133,
+     "ratio_syll_buggy": 15.439,
+     "in_band_syll": false,
+     "era_word": 0.015678,
+     "ratio_word": 4.16,
+     "in_band_word": false,
+     "era_zero": false
+    }
+   ],
+   "L2b": {
+    "cipher_top3_share": 0.432,
+    "era_top3_share": 0.143,
+    "ratio": 3.021,
+    "in_band": false
+   },
+   "L3aw": {
+    "kills": [],
+    "pass": true
+   },
+   "L3b": {
+    "note": "hand/ear territory; counts only"
+   },
+   "top_fol": [
+    [
+     "78",
+     7
+    ],
+    [
+     "84",
+     7
+    ],
+    [
+     "86",
+     5
+    ],
+    [
+     "81",
+     4
+    ],
+    [
+     "76",
+     3
+    ],
+    [
+     "44",
+     2
+    ]
+   ],
+   "top_pre": [
+    [
+     "06",
+     6
+    ],
+    [
+     "67",
+     6
+    ],
+    [
+     "88",
+     3
+    ],
+    [
+     "64",
+     3
+    ],
+    [
+     "17",
+     3
+    ],
+    [
+     "74",
+     2
+    ]
+   ]
+  }
+ },
+ "78": {
+  "me": {
+   "tag": "lead",
+   "L1w": {
+    "cipher_rate": 0.01679,
+    "era_word_rate": 0.000759,
+    "ratio": 22.136,
+    "in_band": false
+   },
+   "L1s": {
+    "era_syll_rate": 0.01515,
+    "ratio": 1.108,
+    "in_band": true
+   },
+   "L2": [
+    {
+     "dir": "11(la)->78",
+     "n": 2,
+     "anchor_status": "GT",
+     "cipher": 0.0455,
+     "era_syll": 0.02013,
+     "era_syll_buggy": 0.02742,
+     "ratio_syll": 2.259,
+     "ratio_syll_buggy": 1.658,
+     "in_band_syll": false,
+     "era_word": 0.0,
+     "ratio_word": null,
+     "in_band_word": false,
+     "era_zero": false
+    },
+    {
+     "dir": "87(ce)->78",
+     "n": 2,
+     "anchor_status": "PROV",
+     "cipher": 0.0625,
+     "era_syll": 0.00783,
+     "era_syll_buggy": 0.00641,
+     "ratio_syll": 7.986,
+     "ratio_syll_buggy": 9.752,
+     "in_band_syll": false,
+     "era_word": 0.000882,
+     "ratio_word": 70.875,
+     "in_band_word": false,
+     "era_zero": false
+    },
+    {
+     "dir": "78->94(ne)",
+     "n": 2,
+     "anchor_status": "PROV",
+     "cipher": 0.0645,
+     "era_syll": 0.0073,
+     "ratio_syll": 8.839,
+     "in_band_syll": false,
+     "era_word": 0.0,
+     "ratio_word": null,
+     "in_band_word": false,
+     "era_zero": false
+    }
+   ],
+   "L2b": {
+    "cipher_top3_share": 0.29,
+    "era_top3_share": 0.397,
+    "ratio": 0.731,
+    "in_band": true
+   },
+   "L3aw": {
+    "kills": [],
+    "pass": true
+   },
+   "L3b": {
+    "note": "hand/ear territory; counts only"
+   },
+   "top_fol": [
+    [
+     "45",
+     4
+    ],
+    [
+     "40",
+     3
+    ],
+    [
+     "48",
+     2
+    ],
+    [
+     "49",
+     2
+    ],
+    [
+     "41",
+     2
+    ],
+    [
+     "62",
+     2
+    ]
+   ],
+   "top_pre": [
+    [
+     "77",
+     7
+    ],
+    [
+     "47",
+     5
+    ],
+    [
+     "37",
+     4
+    ],
+    [
+     "67",
+     4
+    ],
+    [
+     "11",
+     2
+    ],
+    [
+     "87",
+     2
+    ]
+   ]
+  },
+  "e": {
+   "tag": "rival-fragment",
+   "L1w": {
+    "cipher_rate": 0.01679,
+    "era_word_rate": 0.000112,
+    "ratio": 150.341,
+    "in_band": false
+   },
+   "L1s": {
+    "era_syll_rate": 0.016089,
+    "ratio": 1.044,
+    "in_band": true
+   },
+   "L2": [
+    {
+     "dir": "11(la)->78",
+     "n": 2,
+     "anchor_status": "GT",
+     "cipher": 0.0455,
+     "era_syll": 0.00039,
+     "era_syll_buggy": 0.0005,
+     "ratio_syll": 115.939,
+     "ratio_syll_buggy": 90.379,
+     "in_band_syll": false,
+     "era_word": 0.00015,
+     "ratio_word": 303.227,
+     "in_band_word": false,
+     "era_zero": false
+    },
+    {
+     "dir": "87(ce)->78",
+     "n": 2,
+     "anchor_status": "PROV",
+     "cipher": 0.0625,
+     "era_syll": 0.00609,
+     "era_syll_buggy": 0.00469,
+     "ratio_syll": 10.268,
+     "ratio_syll_buggy": 13.315,
+     "in_band_syll": false,
+     "era_word": 0.0,
+     "ratio_word": null,
+     "in_band_word": false,
+     "era_zero": false
+    },
+    {
+     "dir": "78->94(ne)",
+     "n": 2,
+     "anchor_status": "PROV",
+     "cipher": 0.0645,
+     "era_syll": 0.0,
+     "ratio_syll": null,
+     "in_band_syll": false,
+     "era_word": 0.0,
+     "ratio_word": null,
+     "in_band_word": false,
+     "era_zero": true
+    }
+   ],
+   "L2b": {
+    "cipher_top3_share": 0.29,
+    "era_top3_share": 0.355,
+    "ratio": 0.817,
+    "in_band": true
+   },
+   "L3aw": {
+    "kills": [],
+    "pass": true
+   },
+   "L3b": {
+    "note": "hand/ear territory; counts only"
+   },
+   "top_fol": [
+    [
+     "45",
+     4
+    ],
+    [
+     "40",
+     3
+    ],
+    [
+     "48",
+     2
+    ],
+    [
+     "49",
+     2
+    ],
+    [
+     "41",
+     2
+    ],
+    [
+     "62",
+     2
+    ]
+   ],
+   "top_pre": [
+    [
+     "77",
+     7
+    ],
+    [
+     "47",
+     5
+    ],
+    [
+     "37",
+     4
+    ],
+    [
+     "67",
+     4
+    ],
+    [
+     "11",
+     2
+    ],
+    [
+     "87",
+     2
+    ]
+   ]
+  },
+  "rival_legs": {
+   "l": {
+    "frame": "11=la->78",
+    "n": 2,
+    "cipher_P": 0.0455,
+    "era_P_l_given_la": 0.000784,
+    "ratio": 58.0,
+    "grammatical": "\"la l'\" ungrammatical"
+   },
+   "e": {
+    "L1_ratio": 1.044,
+    "note": "fragment hypothesis; B-78a voided the e-e kill; stays live rival"
+   }
+  }
+ },
+ "joint_77x78me": {
+  "pas": [
+   {
+    "frame": "77=pas->78=me",
+    "n": 7,
+    "cipher_P": 0.1591,
+    "era_word_P": 0.0,
+    "ratio": null,
+    "era_zero": true
+   }
+  ],
+  "que": [
+   {
+    "frame": "77=que->78=me",
+    "n": 7,
+    "cipher_P": 0.1591,
+    "era_word_P": 0.000349,
+    "ratio": 455.32,
+    "era_zero": false
+   }
+  ],
+  "le": [
+   {
+    "frame": "77=le->78=me",
+    "n": 7,
+    "cipher_P": 0.1591,
+    "era_word_P": 0.0,
+    "ratio": null,
+    "era_zero": true
+   }
+  ]
+ }
+}

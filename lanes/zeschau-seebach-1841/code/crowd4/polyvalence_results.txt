@@ -1,0 +1,126 @@
+pairs=1846 distinct_groups=96
+
+M (groups with >=1 live reading) = 19
+R (live readings) = 25
+groups with >=2 live readings = 4
+  06: verb-stem-class[PROV]; ent[PLAUS]
+  52: pas[SLEAD]; se[LEAD]; so[LEAD]
+  64: qui[PROV]; meme[LEAD]
+  94: ne[PROVs]; re[LEAD]; en[LEAD]
+
+established conditioned-polyvalent (>=LEAD all readings): ['06', '52', '94']
+  -> 3/19 = 0.158
+inclusive (rivalries 64, 37): 4/19 = 0.211
+identified groups (any surviving grade, incl 17=fois WEAK): 25
+strict polyvalence rate: 3/25 = 0.120
+inclusive polyvalence rate: 4/25 = 0.160
+
+token coverage of live-reading groups: 650/1846 = 0.352
+token share in polyvalent groups: 155/1846 = 0.084
+
+--- conditioning audit (pair indices) ---
+06: n=46 idx=[6, 85, 184, 206, 215, 267, 271, 319, 346, 370, 399, 470]...
+52: n=27 idx=[160, 264, 284, 383, 482, 571, 632, 649, 1006, 1080, 1099, 1123]...
+64: n=46 idx=[18, 32, 38, 133, 144, 149, 181, 290, 315, 337, 341, 395]...
+94: n=36 idx=[65, 101, 161, 250, 318, 349, 494, 509, 558, 570, 578, 651]...
+  @ 578: 94 82 06 06 50
+  @ 1181: 94 82 06 06 59
+  @ 1350: 77 78 94 82 06
+  94-islet @ 1168: 55 61 94 87 83 21
+  94-islet @ 1575: 52 82 94 76 47 98
+  52-frame @ 1331: 94 70 52 39 83 86
+  52-frame @ 1293: 35 94 52 80 04 62
+  52-frame @ 1806: 35 94 52 80 04 61
+  52-frame @ 160: 35 93 52 94 24 87
+--- Null A: kill-rate ---
+killed group-readings=12 graded=37 kappa=0.324
+extra live readings E=6; under M1(monovalent) P(all 6 survive)=(1-kappa)^6=0.095
+expected surviving spurious doubles = 4.05 vs observed 6
+
+ledger: {'kills_hard': ["06=/mɑ̃/ 'demand-/command-' CONFIRMED -- ground-truth contradiction (crib writes mute -e as 40)"], 'kills_provisional': ["01='ci' (3b K4: 3.84x + 'ici' x0)"], 'kills_scoped': ["24='de' inside 'en ce qui' (3b K2; conditioned on 87=ce/64=qui)", "52='pas' as single reading (3b K5; conditioned on 94=ne; forces 52 polyvalence)"], 'kills_rejected': ["56='plus' single-reading (K7; provisional-on-unconfirmed)"], 'refuted_downgraded': ["77='que' REFUTED->DISFAVORED (stands)", "06='ent' general REFUTED (upheld, legs reduced per blast radius)"], 'demotions': ['87=ce CONFIRMED->PROVISIONAL (strengthened)', '94=ne CONFIRMED->PROVISIONAL (strong)', '06 verb-stem class CONFIRMED->PROVISIONAL', '06 polyvalent CONFIRMED->PLAUSIBLE', "67=veut-class CONFIRMED->PROVISIONAL ('veut' PLAUSIBLE)", '77=pas CONFIRMED->INCONCLUSIVE->DISFAVORED (strong) [3b revision]', 'tension DISSOLVED->OPEN'], 'promotions': ["none -- 78='me' promotion REJECTED -> LEAD; 62='on' STRONG LEAD (promotion candidate, one check short)"], 'upheld': ['-ment family PLAUSIBLE', 'scorer BROKEN-ON-CONTROL', 'tuner NULL', 'segmenter PARTIAL (method validated; 25 targets cleared LEAD-grade)']}
+=== conditioning audit: 94 (36 occurrences) ===
+   65 40 12 94 92 69         
+  101 21 62 94 93 59         62_94:on-ne?
+  161 93 52 94 24 87         
+  250 32 44 94 65 63         
+  318 59 32 94 06 11         
+  349 70 12 94 74 67         
+  494 78 42 94 02 79         
+  509 77 62 94 64 98         62_94:on-ne?
+  558 17 86 94 59 30         
+  570 76 45 94 52 87         94_52/70:ne-pas/pre
+  578 55 61 94 82 06         
+  651 52 82 94 76 49         
+  688 40 65 94 29 60         
+  699 45 28 94 60 12         
+  758 23 42 94 02 06         
+  773 40 70 94 15 33         
+  784 24 42 94 74 65         
+  840 20 62 94 26 12         62_94:on-ne?
+ 1101 52 82 94 74 47         
+ 1168 55 61 94 87 83         ISLET:en
+ 1181 77 78 94 82 06         
+ 1292 59 35 94 52 80         94_52/70:ne-pas/pre
+ 1329 06 62 94 70 52         62_94:on-ne? 94_52/70:ne-pas/pre
+ 1352 77 78 94 82 06         
+ 1362 92 62 94 79 14         62_94:on-ne?
+ 1548 70 12 94 92 45         
+ 1575 52 82 94 76 47         ISLET:en
+ 1663 80 22 94 84 64         
+ 1686 93 62 94 79 14         62_94:on-ne?
+ 1700 85 33 94 30 20         
+ 1704 20 62 94 88 26         62_94:on-ne?
+ 1712 40 65 94 44 59         
+ 1741 12 34 94 82 46         
+ 1772 78 62 94 24 87         62_94:on-ne?
+ 1794 56 42 94 59 37         
+ 1805 59 35 94 52 80         94_52/70:ne-pas/pre
+
+=== conditioning audit: 06 trigram-internal vs elsewhere ===
+trigram 77 78 94 82 06 @ 1179
+trigram 77 78 94 82 06 @ 1350
+trigram-internal 06 positions: [580, 1183, 1354]
+06 total n = 46 -> verb-stem-class positions = 43
+
+=== conditioning audit: 52 (27 occurrences) ===
+  160 35 93 52 94 24         K5 word-internal:so
+  264 45 93 52 33 42         
+  284 42 48 52 89 28         
+  383 82 16 52 38 37         
+  482 00 13 52 30 01         
+  571 45 94 52 87 78         neg-frame:pas
+  632 67 08 52 67 63         
+  649 77 78 52 82 94         
+ 1006 91 11 52 35 18         
+ 1080 64 06 52 89 24         
+ 1099 67 86 52 82 94         
+ 1123 06 11 52 37 43         
+ 1128 00 86 52 37 86         
+ 1293 35 94 52 80 04         neg-frame:pas
+ 1307 77 74 52 30 92         
+ 1331 94 70 52 39 83         neg-frame:pas
+ 1341 65 64 52 38 47         
+ 1355 82 06 52 37 64         
+ 1384 65 68 52 82 16         
+ 1408 95 46 52 42 16         
+ 1415 74 34 52 32 84         
+ 1434 49 64 52 82 16         
+ 1440 85 01 52 68 59         
+ 1573 32 28 52 82 94         
+ 1721 06 11 52 37 43         
+ 1737 12 48 52 86 12         
+ 1806 35 94 52 80 04         neg-frame:pas
+=== repeat byte-identity (exemplar null) ===
+94-82-06 trigrams @ [578, 1181, 1352]
+   578 55 61 94 82 06 06 50
+   1181 77 78 94 82 06 06 59
+   1352 77 78 94 82 06 52 37
+erre @ 290 97 09 64 29 40 65
+erre @ 684 00 92 64 29 40 65
+24-87-64 @ [179, 1765, 1773]
+   179 69 14 24 87 64 23 37
+   1765 84 09 24 87 64 26 37
+   1773 62 94 24 87 64 59 19
+94-52 bigrams @ [570, 1292, 1805]
+96-87-46 @ [224, 951, 1525]
+personne @160: 35 93 52 94 24 87 | @508: 67 77 62 94 64 98
