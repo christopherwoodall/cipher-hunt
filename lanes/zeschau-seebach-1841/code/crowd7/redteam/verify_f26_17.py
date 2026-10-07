@@ -11,6 +11,16 @@ round-6 memos (F46 «le 84» list, closer87_00 94->84/11->84, closer6 F50
 quad, frenchman 77->62) -- counts were right, cited indices were +1.
 
 Run with no args; exits nonzero on any mismatch.
+
+R7BANK (2026-10-07): round-8 red-team extension appending the round-7 banked
+facts F52-F59 / N45-N48 (cipher-side stream numbers; corpus-side legs are
+banked with provenance in the verify_round7.py STATUS-LINE extension).
+Existing checks untouched.
+
+R9BANK (2026-10-07): round-9 red-team extension appending the round-8
+adjudicated facts (code/crowd8/adjudicator/RULINGS-FINAL.md), cipher-side
+stream numbers only; corpus-side legs are banked with provenance in the
+verify_round7.py ROUND8-LEDGER extension. Existing checks untouched.
 """
 import json, sys
 from collections import Counter
@@ -96,6 +106,123 @@ def main():
     chk('T4 @1180', pairs[1180:1185], [77,78,94,82,6])
     chk('T4 @1351', pairs[1351:1356], [77,78,94,82,6])
     chk('94-82-06 @578 (F39: 94=ne there)', pairs[578:581], [94,82,6])
+
+    # ---- R7BANK (2026-10-07, round-8 red-team extension) ----
+    # Round-7 banked facts F52-F59 / N45-N48, cipher-side only (corpus-side
+    # legs live in the verify_round7.py STATUS-LINE extension, provenance-noted).
+    # N45 curator headline items not covered above:
+    chk('62->98 (N45)', big[(62,98)], 5)
+    chk('n64 bedrock-corrected', groups[64], 47)
+    # F52: 59="est" PROVISIONAL — cipher-side leg rates
+    chk('P(59|64)=3/47', round(big[(64,59)]/groups[64],4), round(3/47,4))
+    chk('P(59|94)=3/37', round(big[(94,59)]/groups[94],4), round(3/37,4))
+    chk('P(59)=27/1847', round(groups[59]/len(pairs),5), round(27/1847,5))
+    # F56: M6 {37,77}="le" sole exception — cipher-side contacts
+    chk('n77/n37', (groups[77], groups[37]), (44,28))
+    chk('37->77', big[(37,77)], 2)
+    # F58/N46: 48="ne"-allophone is FLAGGED, not a status — battery baseline
+    chk('n48', groups[48], 38)
+    chk('62->48 (top predecessor)', big[(62,48)], 6)
+    chk('48->46 (no "ne que")', big[(48,46)], 0)
+    chk('48<->94 (no "ne" contact)', (big[(48,94)], big[(94,48)]), (0,0))
+    succ48 = Counter(pairs[i+1] for i in range(len(pairs)-1) if pairs[i] == 48)
+    chk('48 successor ceiling (flat profile)', max(succ48.values()), 2)
+    # N46: 93="l'" — cipher side (E=32.0 corpus-side, banked in STATUS-LINE)
+    chk('n93', groups[93], 14)
+    # F59: Mehemet-Ali @8 window + archived M0 (drift guard on the archive)
+    chk('Mehemet-Ali P[8:13]', pairs[8:13], [78,18,93,62,98])
+    m0 = json.loads((LANE / 'code/crowd7/patternist/battery_mehemet_results.json')
+                    .read_text())
+    chk('M0 null 33/11870 (archived)', m0['M0']['null_at_8'], [33,11870])
+    chk('M0 bearing windows (archived)', m0['M0']['positions'],
+        [8,443,476,573,879,982,1105,1164,1670,1758])
+
+    # ---- R9BANK (2026-10-07, round-9 red-team extension) ----
+    # Round-8 adjudicated facts (code/crowd8/adjudicator/RULINGS-FINAL.md),
+    # cipher-side stream numbers only; corpus-side legs are banked with
+    # provenance in the verify_round7.py ROUND8-LEDGER extension.
+    # R1: 48="ne"-allophone REFUTED (F60 kill) — H5/H6 adverses cipher-side
+    chk('48-47-46 H5 adverse @863', pairs[863:866], [48,47,46])
+    chk('24-48-47-98 H5 adverse @1657', pairs[1657:1661], [24,48,47,98])
+    # H2 kill leg: 75/1847=0.04061 vs diplomatic P("ne")=0.00850 (corpus-side, banked)
+    chk('H2 kill 4.78x (cipher part)', round((75/1847)/0.00850, 2), 4.78)
+    # R4: 84 en-islet re-scope — «qu'en» legs WITHDRAWN (46-84-24-37-78 x2)
+    chk('46-84-24-37-78 x2', [i for i in range(1843)
+                              if pairs[i:i+5] == [46,84,24,37,78]], [309,472])
+    # conditional extensions (on 66/89 noun-class readings — leads, not provisional)
+    chk('66-84 84-indices', sorted(i for i, p in enumerate(pairs)
+                                   if p == 84 and i > 0 and pairs[i-1] == 66),
+        [154,1151])
+    chk('89-84 84-indices', sorted(i for i, p in enumerate(pairs)
+                                   if p == 84 and i > 0 and pairs[i-1] == 89),
+        [276,1378])
+    chk('66-84 n_eff=2', len({(pairs[i-1], pairs[i], pairs[i+1])
+                              for i in (154,1151)}), 2)
+    chk('89-84 n_eff=2', len({(pairs[i-1], pairs[i], pairs[i+1])
+                              for i in (276,1378)}), 2)
+    chk('82-84 GT-anchored frame', [(pairs[i-1], pairs[i], pairs[i+1])
+                                    for i in (167,)], [(82,84,53)])
+    # R4c: noun identity NULL — «qui le [verb=84-59]» x2 REFERRED to round 9
+    chk('64-77-84-59 x2', [i for i in range(1844)
+                           if pairs[i:i+4] == [64,77,84,59]], [1445,1801])
+    chk('06-84-59-46 S4#2 (pre(84)=06, unclassified)',
+        [i for i in range(1844) if pairs[i:i+4] == [6,84,59,46]], [1188])
+    # R7a: {93,8}="l'" LEAD — homophony legs cipher-side
+    chk('n93/n8', (groups[93], groups[8]), (14,18))
+    chk('(93|8)->62 starts', (pos2(93,62), pos2(8,62)), ([10,1685],[944,1323]))
+    chk('93/8 shared predecessors',
+        sorted({pairs[i-1] for i in range(1,1847) if pairs[i] == 93} &
+               {pairs[i-1] for i in range(1,1847) if pairs[i] == 8}),
+        [45,67,85])
+    chk('93/8 shared followers',
+        sorted({pairs[i+1] for i in range(1846) if pairs[i] == 93} &
+               {pairs[i+1] for i in range(1846) if pairs[i] == 8}),
+        [29,52,62])
+    chk('94-93-59 "ne l\'est" @101', pairs[101:104], [94,93,59])
+    chk('93->52 / 87->8 (fenced costs)', (big[(93,52)], big[(87,8)]), (2,1))
+    # R7e: 06="ent"-iff-pre=82 LEAD (conditioned; falsifier frozen verbatim)
+    chk('06 pre==82 06-indices', sorted(i for i, p in enumerate(pairs)
+                                        if p == 6 and i > 0 and pairs[i-1] == 82),
+        [580,738,1184,1355])
+    chk('06-islet n_eff=3', len({(pairs[i-1], pairs[i], pairs[i+1])
+                                 for i in (580,738,1184,1355)}), 3)
+    chk('GT core 94-82-06-06 starts', [i for i in range(1844)
+                                        if pairs[i:i+4] == [94,82,6,6]],
+        [578,1182])
+    # R6: @1248 fork counterdatum fenced n=1 (67 at 1248; window starts 1246)
+    chk('@1246 window [16,00,67,46,26]', pairs[1246:1251], [16,0,67,46,26])
+
+    # ---- R9BANK2 (2026-10-07, round-9 final pass: R8/R9 cipher-side facts) ----
+    # Conditioner 86 battery (que-family REFUTED)
+    chk('n86', groups[86], 32)
+    chk('86->70 / 86->52 / 86->56', (big[(86,70)], big[(86,52)], big[(86,56)]),
+        (1,2,4))
+    chk('77->86 starts', pos2(77,86), [430,798,877,950,1133])
+    # Conditioner 66/89 classes (CONFIRMED)
+    chk('00->66 x7', pos2(0,66), [188,245,253,714,1108,1493,1532])
+    chk('n89', groups[89], 14)
+    chk('77->89 / 29->89 / 89->48', (big[(77,89)], big[(29,89)], big[(89,48)]),
+        (2,5,3))
+    # Conditioner formulas (HOLD / refined, no promotion)
+    chk('64-96-43 @341/@1025', [i for i in range(1845)
+                                if pairs[i:i+3] == [64,96,43]], [341,1025])
+    chk('45-64-96-43-87-01 6-mer', [i for i in range(1842)
+                                    if pairs[i:i+6] == [45,64,96,43,87,1]],
+        [340,1024])
+    # Successor48 (H_verb dead; datum correction)
+    chk('48->52 @283/@1737', pos2(48,52), [283,1737])
+    chk('48 distinct successors = 29 (not 19)',
+        len({pairs[i+1] for i in range(1846) if pairs[i] == 48}), 29)
+    chk('n52/n96', (groups[52], groups[96]), (27,21))
+    # Resolver62 (HOLD; C1-C4 tested-NULL)
+    chk('62->59 / 59->62', (big[(62,59)], big[(59,62)]), (0,0))
+    chk('62->(93|8) @1539', [i for i in range(1846)
+                             if pairs[i] == 62 and pairs[i+1] in (93,8)],
+        [1539])
+    chk('PAIRS[100:104] 62-94-93-59', pairs[100:104], [62,94,93,59])
+    # Finisher67 windows
+    chk('@199 ctx', pairs[197:202], [60,8,67,76,87])
+    chk('@630 ctx', pairs[629:633], [78,67,8,52])
 
     print(f'F26-17 adjudication stream: {len(pairs)} pairs')
     allok = True

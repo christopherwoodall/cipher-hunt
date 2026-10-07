@@ -1,0 +1,70 @@
+{
+ "N_pairs": 1847,
+ "diplo_tokens": 4217937,
+ "diplo_P_l": 0.016924,
+ "kill_93_alone": {
+  "n": 14,
+  "E_diplo": 31.26,
+  "P_le_14": 0.00041484495041388354
+ },
+ "M_hom_93_8": {
+  "n": 32,
+  "E_diplo": 31.26,
+  "P_le": 0.5992823232349651,
+  "P_ge": 0.4710480879714823
+ },
+ "ratio_test": {
+  "cipher_l": 32,
+  "cipher_que": 29,
+  "diplo_P_l_over_que": 1.48,
+  "P_le_binom": 0.15391684624031546
+ },
+ "kill_3cell": {
+  "n": 52,
+  "P_ge": 0.0003775397403416399
+ },
+ "runnerup_8_14": {
+  "n": 33,
+  "P_le": 0.6658739317446606,
+  "P_ge": 0.4007176767662365
+ },
+ "L_B_qu": {
+  "E_quon": 1.77,
+  "E_quil": 4.83,
+  "P0_given_on": 0.1697,
+  "P0_given_il": 0.00797,
+  "LR_on_over_il": 21.3,
+  "obs_46_to_62": 0,
+  "quil_over_quon_v8": 2.19,
+  "quil_over_quon_full": 2.72
+ },
+ "L_A_lon": {
+  "cipher_93or8_to_62": 4,
+  "n62": 35,
+  "diplo_l_il": 0,
+  "diplo_l_on": 1907,
+  "E_to62_given_on_full": 3.45
+ },
+ "adverse_93_to_52": {
+  "n": 2,
+  "at": [
+   159,
+   263
+  ]
+ },
+ "islet_06_ent": {
+  "windows": [
+   579,
+   737,
+   1183,
+   1354
+  ],
+  "n": 4
+ },
+ "gouvernement": {
+  "diplo_n": 3825,
+  "P": 0.0009068414250852964,
+  "E_per_1400w": 1.27,
+  "P_left_le": 0.434
+ }
+}

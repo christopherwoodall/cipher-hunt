@@ -1,68 +1,75 @@
 # STATE — zeschau-seebach-1841
 
-- **status:** `cracking` (crowd round 6 COMPLETE 2026-10-07: 9/9 executors merged —
-  Red Team agent session ended pre-adjudication; coordinator applied its bars
-  (49/49 extended baseline, N28/N35 case law; F26-17 flags the marks for
-  round-7 review). Net: **0 promotions, 0 kills, 0 demotions.**
-  62="on" stays fenced STRONG LEAD but now EAR-ONLY (non-ear battery VOIDED
-  N35's "il"-differential and N28's merger corroboration — H-split; N39).
-  59="est" STRONG LEAD (new, F45; S4 adverse fenced). 84 CONFLICT: "en" LEAD
-  vs masculine-noun LEAD (F46). 00 CONFLICT: "pour" STRONG LEAD vs "le" LEAD
-  (F47). "parmi" @1196–1198 LEAD (entails 16="i"; F48). 78-45="même" LEAD
-  (F50). "le me"×7 DISSOLVED (F51). 67 et/veut fork SUPPORTED (conditioned),
-  19/38 classified; 43="me" →WEAK. 47="ce" stays BLOCKED (96 battery
-  unverifiable — hapax). Scorer Smith: objective REPAIRED (C1 PASS), search
-  too weak (C2/C3/C4 FAIL) — gate holds, NO R5005 (N40). Rotation: labeling
-  fragile/phenomenon real; 69/96 reconciled; column-geometry momentum
-  z=+4.77 (N41) — N43 noisy-detector flag applies: existence confirmed,
-  magnitude noisy, mapping ~0.5 purity. Period drags T1–T8: mostly nulls;
-  T4 either/or (94="ne" vs 77="le" — referred); "Mehemet-Ali" @8 LEAD (N42).
-  Cross-fleet: homophonic CONTROL-FAIL (R5005 untouched); contact-coherent
-  aliasing = positive key-structure clue (N43/F49). Scoreboard: 11 values —
-  7 pencil GT + 87=ce/64=qui/96=par provisional + 77="le"
-  provisional-conditioned.)
-- **next:** Round-7 work orders (crowd round 6 COMPLETE, curation 2026-10-07).
+- **status:** `cracking` (crowd round 9 COMPLETE 2026-10-07: 10/10 agents merged —
+  red team extended baselines 77/77→114/114 and 58/58→82/82, 7/7 battery
+  preregs timestamp-audited, then a separate independent adjudicator ruled
+  all 9 packages — no coordinator-applied bars. Curator re-derived all
+  load-bearing numbers. Net: **0 promotions (bar held an eighth round);
+  1 kill upheld (H_verb for 48, K2 fired — 48 UNIDENTIFIED), 1 refutation
+  (86=que-family kill-grade; B3 3.19× STANDS), 1 new weak leg (H3a for
+  fork-tine (c)), 1 adverse struck (M3 'he'-cell, German-phonetics
+  scoped), 1 registry built (9 conditioned islets), 2 fences upheld
+  (@1248 NEITHER, @199 NEITHER-conditional), 1 hold (62 on/il — blocker
+  carried forward).** @1351 under triple fenced pressure (top round-10
+  watch). 06-islet survives (n_eff=3 fragility banked). 66/89 classes
+  confirmed. 84's 9 residuals classified. Scoreboard: 12 values + leads —
+  7 pencil GT + 87=ce/64=qui/96=par/59=est provisional + 77="le"
+  provisional-conditioned; leads: {93,8}="l'", 06="ent"-iff-82, 84
+  en-islet, 00="pour" (strong), 00="le" islet, 47="ce", 96=verb-stem,
+  67 fork, 16="i", 78-45="même", 77="gouv", 78="er" ({ver,er} fork).)
+- **next:** Round-10 work orders (crowd round 9 COMPLETE, curation 2026-10-07).
   Canonical parse: repaired 1,847-pair (`code/side-keyhunt/repaired_offsets.json`);
-  positions per `code/crowd4/REINDEX.md` (repaired indexing). Red-team baseline:
-  `code/crowd6/redteam/verify_baseline.py` (49/49 PASS — extend, don't rebuild).
-  F26-17: round-6 "curator: ..." adjudication marks are coordinator-applied, NOT
-  agent-adjudicated — round-7 red team must review them first.
-  1. **Resolve the 84 conflict** ("en" LEAD vs masculine-noun LEAD, F46) via
-     conditioned polyvalence — the Closer's own flagged resolution: 84="en" iff
-     pre∈{46,94,82}, 84=noun iff pre∈{77,11}. Test the conditioning rule.
-  2. **Resolve the 00 conflict** ("pour" STRONG LEAD vs "le" LEAD, F47) —
-     conditioned resolution or kill; the B1/B3 rate overs (6.22×/3.85×) need
-     the diplomatic corpus or a rate-model repair.
-  3. **T4 either/or**: adjudicate 94="ne" vs 77="le" — tiling (a) breaks
-     94="ne" prov-strong, tiling (c) breaks 77="le" at fenced windows (N42).
-     No status change to either without red-team ruling.
-  4. **16="i" battery** (from "parmi" @1196–1198, F48) — 34=i is GT, so a
-     second 'i' group needs its own ≥2-check battery; supporting datum:
-     82→16 ×11 reads m|i.
-  5. **"Mehemet-Ali" @8 battery** (T7 LEAD, null 0.28%) — needs its own battery.
-  6. **Contact-coherent aliasing** (F49/N43): propose homophone sets via
-     phase-conditioned contact profiles; test mergers under F33 rules.
-     (Key-maker constraint, not a solver run.)
-  7. **59="est" promotion battery** — resolve S4 ("est que" 5.4× adverse) and
-     the 01="est"-lead interaction (F45).
-  8. **Joint inference**: the Smith-rebuild side fleet owns length-normalized
-     word scoring through the control; main fleet needs a different search
-     family (the 600-sweep annealer can't navigate the 30-symbol projection
-     landscape) or an explicit scope-down. Gate holds until a control passes.
-  9. **62="on"**: ranked unblockers from N39 — (1) hunt the "qu'on"
-     whole-word cell, (2) identify the l'-cell, (3) identify an
-     impersonal-verb cell, (4) identify 48/98/16. "on" is now ear-only;
-     non-ear discrimination is the named gap.
-  10. **47="ce"**: still BLOCKED on @148–152 — needs a second "ce qui __ ce
-      que" frame, the downstream verb for the parenthetical, or the Meisel
-      1826 diplomatic corpus (N42).
-  11. **Rotation**: apply the N43 noisy-detector flag to the Segmenter's
-      round-6 package — (a) existence confirmed, (b) magnitude noisy,
-      (c) mapping ~0.5 purity. Column-geometry follow-ups: test the momentum
-      signal (z=+4.77) against the label-free lag-3; model what "columns"
-      would mean for a ~100-cell table.
-  12. **67**: finish classification (19/38 open); "la veut" @1044–1045 pins
-      67@1045 as 3sg transitive verb but not uniquely "veut".
+  positions per `code/crowd4/REINDEX.md` (repaired indexing); citation source
+  for corrected positions: `code/crowd8/redteam/PREREG-ROUND8.md` bars +
+  `code/crowd8/adjudicator/RULINGS-FINAL.md` + `code/crowd9/redteam/RULINGS-ROUND9.md`.
+  Red-team baseline: extend, don't rebuild. No coordinator-applied bars — red team adjudicates
+  every status change.
+  1. **@1351 resolution** (top watch item): triple fenced pressure (H1c, H1d,
+     frenchman triple collision). The 06-islet parse ("ne ment pas") vs the
+     gouvernement parse vs 77="le" are mutually exclusive — adjudicate which
+     reading owns @1351–1356.
+  2. **59 conditioned-polyvalence battery** (59="est"-word dead at @1447/@1803,
+     fenced n=2; -este verb ID from conditioner follow-ups).
+  3. **48 syllable-cell battery** (round-10 lead: frequent syllable cell;
+     H_stem still untested — fold in or test separately).
+  4. **@1248 ≥2-leg arm** (era-bounded to non-finite: cela/peu-class or
+     infinitive per frenchman Gate 4; 62-WO3 blocker still carried).
+  5. **67's 6 open-residuals** (no ≥2-leg bar yet; @199/@630 fences depend
+     on 08="l'").
+  6. **06 islet registry refinement** (post-hoc: both suc=6 windows are islet
+     windows, p=0.0063 — test the 94-82-06-06 4-gram frame hypothesis).
+  7. **Smith round 2** belongs to side-homophonic-rebuild2 (tracks A/B/C
+     executing); main-fleet search scope ZERO until C1 passes on the gapped
+     family.
+  8. **No re-litigation of:** 48="ne" kill, H_verb kill, 86=que-family
+     refutation, unconditioned 84s, the three mergers, refuge
+     concretizations, retired WO-6 bar.
+  Do NOT promote anything without ≥2 independent checks. Standing convention:
+  every executor leaves a report note at `code/crowd<N>/report_inbox/<name>-<topic>.md`
+  per REPORTING.md (swept into REPORT.md every 2h). Red team reviews ALL promotions
+  before merge — no claim merges without its ruling. Cross-fleet memo standing
+  constraints: no nulls; published-key channel exhausted; anchor-preserving
+  controls on all future drags; crib-derived inventory only (F34/F44).
+  Canonical parse: repaired 1,847-pair (`code/side-keyhunt/repaired_offsets.json`);
+  positions per `code/crowd4/REINDEX.md` (repaired indexing); citation source
+  for corrected positions: `code/crowd8/redteam/PREREG-ROUND8.md` bars +
+  `code/crowd8/adjudicator/RULINGS-FINAL.md`. Red-team baseline:
+  extend, don't rebuild. No coordinator-applied bars — red team adjudicates
+  every status change.
+  1. **Conditioner successor:** qui-96-43 ×2 formula; «qui le [verb=84-59]»
+     lead (pre-register or hold); confirm 66/89 class readings (84-extension
+     dependencies); 86's identity (would dissolve B3).
+  2. **48 successor:** homophonist's verb/verb-stem residual ("on 48"×6,
+     "48 pas"×2) — fresh battery.
+  3. **62 resolution:** N35 independent-cell on/il battery (blocker for
+     Mehemet-Ali and @1248).
+  4. **67:** 9 opens; @1248 NEITHER-class needs a new arm or fork re-scope
+     with its own ≥2-leg bar.
+  5. **Smith:** objective-repair round 2; main-fleet search scope zero until
+     C1 passes on the gapped family.
+  6. **77/78 support hunt** (8th attempt); 06 islet falsifier watch.
+  7. **No re-litigation of:** 93-alone kill, 48="ne" kill, refuge
+     concretizations, retired WO-6 bar.
   Do NOT promote anything without ≥2 independent checks. Standing convention:
   every executor leaves a report note at `code/crowd<N>/report_inbox/<name>-<topic>.md`
   per REPORTING.md (swept into REPORT.md every 2h). Red team reviews ALL promotions

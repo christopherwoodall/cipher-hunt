@@ -1,0 +1,141 @@
+{
+ "C1": {
+  "cell": "62->59",
+  "n": 35,
+  "k": 0,
+  "p_on": 0.03214285714285714,
+  "p_il": 0.09244314013206163,
+  "E_on": 1.125,
+  "E_il": 3.236,
+  "p_two_on": 0.62955,
+  "p_two_il": 0.0721,
+  "verdict": "NULL",
+  "windows": [],
+  "era": {
+   "C_on_est": 18,
+   "C_on": 560,
+   "C_il_est": 126,
+   "C_il": 1363
+  }
+ },
+ "C2": {
+  "cell": "59->62",
+  "n": 27,
+  "k": 0,
+  "p_on": 0.0,
+  "p_il": 0.004866180048661801,
+  "E_on": 0.0,
+  "E_il": 0.131,
+  "p_two_on": 1.0,
+  "p_two_il": 1.0,
+  "verdict": "NULL",
+  "windows": [],
+  "era": {
+   "C_est_on": 0,
+   "C_est_il": 6,
+   "C_est": 1233
+  }
+ },
+ "C3": {
+  "cell": "62-lp-59 | 62-lp",
+  "n": 1,
+  "k": 0,
+  "p_on": 0.0,
+  "p_il": 0.08333333333333333,
+  "E_on": 0.0,
+  "E_il": 0.083,
+  "p_two_on": 1.0,
+  "p_two_il": 1.0,
+  "verdict": "NULL",
+  "windows": [],
+  "denom_windows": [
+   1539
+  ],
+  "era": {
+   "C_on_lp_est": 0,
+   "C_on_lp": 12,
+   "C_il_lp_est": 1,
+   "C_il_lp": 12
+  }
+ },
+ "C4": {
+  "cell": "62->lp",
+  "n": 35,
+  "k": 1,
+  "p_on": 0.02142857142857143,
+  "p_il": 0.00880410858400587,
+  "E_on": 0.75,
+  "E_il": 0.308,
+  "p_two_on": 0.53147,
+  "p_two_il": 0.26619,
+  "verdict": "NULL",
+  "windows": [
+   1539
+  ],
+  "era": {
+   "C_on_lp": 12,
+   "C_on": 560,
+   "C_il_lp": 12,
+   "C_il": 1363
+  }
+ },
+ "overlap_audit": {
+  "shared_positions": {},
+  "n_shared": 0
+ },
+ "S1": {
+  "C1_pooled_62_to_est": {
+   "n": 35,
+   "k": 0,
+   "windows": [],
+   "E_on_word": 1.125,
+   "E_il_word": 3.236
+  },
+  "C2_pooled_est_to_62": {
+   "n": 55,
+   "k": 0,
+   "windows": [],
+   "E_on_word": 0.0,
+   "E_il_word": 0.268
+  }
+ },
+ "D1_lest_windows": [
+  {
+   "pos": 102,
+   "lp": 93,
+   "pre": 94
+  }
+ ],
+ "D1_note": "predecessor of @101 (94-93-59 \"ne l'est\", M_hom leg 3) = 62 (n=1 observation; window re-entered for context only)",
+ "D2_LA_predecessors": [
+  {
+   "lp_pos": 10,
+   "lp": 93,
+   "follows_62": true,
+   "pre": 18,
+   "pre_is_46_que": false
+  },
+  {
+   "lp_pos": 944,
+   "lp": 8,
+   "follows_62": true,
+   "pre": 40,
+   "pre_is_46_que": false
+  },
+  {
+   "lp_pos": 1323,
+   "lp": 8,
+   "follows_62": true,
+   "pre": 80,
+   "pre_is_46_que": false
+  },
+  {
+   "lp_pos": 1685,
+   "lp": 93,
+   "follows_62": true,
+   "pre": 13,
+   "pre_is_46_que": false
+  }
+ ],
+ "D2_note": "shares windows with settled L_A; descriptive only (\"que l'on\" check)"
+}

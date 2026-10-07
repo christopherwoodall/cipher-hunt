@@ -1,0 +1,169 @@
+{
+ "n_pairs": 1847,
+ "checks": {
+  "P0": {
+   "n94": 37,
+   "n48": 38,
+   "phase94": "B",
+   "phase48": "B",
+   "referral_n48": 38,
+   "n48_match": true,
+   "pred_cos_48_94": 0.7348,
+   "pred_cos_floor_median": 0.1255,
+   "referral_reproduced": true
+  },
+  "H1": {
+   "phase_branch": "same",
+   "cells": [
+    {
+     "kind": "follower",
+     "cell": 82,
+     "n94": 4,
+     "n48": 1,
+     "fisher_p": 0.19974918001157632,
+     "kill": false
+    },
+    {
+     "kind": "predecessor",
+     "cell": 62,
+     "n94": 9,
+     "n48": 6,
+     "fisher_p": 0.39926014924948267,
+     "kill": false
+    }
+   ],
+   "verdict": "survives"
+  },
+  "H2": {
+   "era_p_ne_diplo_word": 0.0085,
+   "era_p_ne_diplo_sound": 0.0142,
+   "per_corp": {
+    "guizot-t5t6": 0.00809,
+    "nesselrode-v8": 0.00985
+   },
+   "merged_rate": 0.04061,
+   "ratio_word": 4.775,
+   "ratio_sound": 2.86,
+   "single94_ratio_word": 2.356,
+   "single94_ratio_sound": 1.411,
+   "tocqueville_uni_ne_word": 0.00833,
+   "note": "94 banked at 1.025x on a syllable-level 0.01902 (morphologist); era_rates.json uni[ne] word-level = 0.00833, agrees with diplomatic 0.00850",
+   "verdict": "KILL",
+   "verdict_sound": "weak-adverse"
+  },
+  "H3": {
+   "era_top5_ne_followers": [
+    "saurait",
+    "peut",
+    "se",
+    "s",
+    "sont"
+   ],
+   "n94_52": 3,
+   "n48_52": 2,
+   "P52_given_94": 0.0811,
+   "E_48_52": 3.08,
+   "pas_check_powered": true,
+   "take94": [
+    "pas"
+   ],
+   "take48": [
+    "pas"
+   ],
+   "n_take94": 1,
+   "pas_cell": {
+    "fisher_p": 0.6744742427165734,
+    "verdict": "PASS"
+   },
+   "B4": {
+    "verdict": "PASS",
+    "shared_rate_ratios": [
+     0.649
+    ]
+   },
+   "era0_hits": [
+    [
+     "foll",
+     47,
+     "ce",
+     2
+    ],
+    [
+     "foll",
+     96,
+     "par",
+     2
+    ],
+    [
+     "foll",
+     29,
+     "er",
+     2
+    ],
+    [
+     "pred",
+     82,
+     "m",
+     4
+    ],
+    [
+     "pred",
+     78,
+     "me",
+     2
+    ]
+   ],
+   "verdict": "PASS"
+  },
+  "H4": {
+   "foll_cos_48_94": 0.4629,
+   "floor_median": 0.2315,
+   "verdict": "null"
+  },
+  "H5": {
+   "n": 2,
+   "windows": [
+    {
+     "pos": 863,
+     "pre47": 48,
+     "suc47": 46,
+     "fragment_reading": false,
+     "forced_ce": true
+    },
+    {
+     "pos": 1658,
+     "pre47": 48,
+     "suc47": 98,
+     "fragment_reading": false,
+     "forced_ce": true
+    }
+   ],
+   "verdict": "adverse"
+  },
+  "H6": {
+   "xent_foll_merged": 9.939693523270202,
+   "xent_foll_94": 10.084760304157252,
+   "xent_pred_merged": 8.271774309960126,
+   "xent_pred_94": 7.686966639631807,
+   "n_known_foll": 34,
+   "n_known_pred": 34,
+   "delta_foll": 0.14506678088704916,
+   "delta_pred": -0.5848076703283187,
+   "verdict": "adverse"
+  }
+ },
+ "verdict": {
+  "passes": [
+   "H3"
+  ],
+  "adverses": [
+   "H6",
+   "H5"
+  ],
+  "kills": [
+   "H2-B1"
+  ],
+  "h5": "adverse",
+  "ruling": "KILL"
+ }
+}

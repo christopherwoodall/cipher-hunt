@@ -788,6 +788,86 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   n62=35, n94=37, n06=44, n78=31, n59=27, n84=25, n00=55, n47=28, n45=22,
   n16=28, n24=52, n52=27; 62→94=9, 78→45=4, 00→86=12, 00→06=0, 46→62=0,
   47→46=3, 47→64=0, 94→82=4, 77→78=7, 77→86=5 — all confirmed.
+- **N45 (2026-10-07, crowd7/curator):** round-7 curation. 10 agents (red team
+  first: F26-17 review + T4 adjudication, then 8 executors, then a separate
+  red-team adjudicator for the recommendations — no coordinator-applied
+  bars this round). All cipher-side headline numbers re-derived by curator
+  on the repaired 1,847-pair stream (n84=25, n00=55, n59=27, n62=35, n47=28,
+  n16=28, n67=38; 84-pres outside {46,94,82,77,11}=13/25; 77→84
+  @[145,259,1057,1446,1484,1763,1802]; 00→86=12/00→06=0; 96→00
+  @[47,465,960]; 47-46 @[151,548,864]; 64→59=3/94→59=3; 37-78-45-64 @312;
+  [96,82,16]@[1196:1199]; 46→62=0; 62→98=5 — all confirmed).
+  **Merged net: 1 promotion (59="est"→provisional — first since 77="le" in
+  round 5), 2 kills (unconditioned 84="en", unconditioned 84=noun), 3 merger
+  refutations ({87,47}="ce" unconditioned, {77,00}="le", {43,21}="me"),
+  1 unblock (47="ce" BLOCKED→LEAD), 1 denied (01="est"→WEAK), 1 flagged
+  untested (48="ne"-allophone referral never ran in WO6).** Per-executor:
+  Conditioner resolved both conflicts as conditioned polyvalence (F53/F54);
+  Closer's 59="est" promotion GRANTED with modification (F52); Frenchman
+  all-null, 62="on" unchanged (N46); Morphologist unblocked 47="ce" via the
+  diplomatic corpus, 67 at 29/38 (N47); Patternist HOLD/HOLD with a T7
+  methodology correction (F59); Key-structure: no promotion-grade merger
+  (F56); Segmenter: flag applied, refuge weakened (N48); Search: bake-off
+  KILLED, objective back to the Smith (F57 — scopes N40). Evidence:
+  `code/crowd7/`, `code/crowd7/redteam/RULINGS.md`,
+  `code/crowd7/redteam/RULINGS-ROUND7.md`.
+- **N46 (2026-10-07, crowd7/frenchman; red-team: GRANTED no-change):** all
+  four 62="on" unblockers NULL (qu'on cell, l'-cell, impersonal-verb cell,
+  48/98/16). 93="l'" shape-strong but rate-killed (n=14 vs E≈32, p=2.9e-4);
+  48→"ne"-allophone LEAD referred to WO6 (never tested there — flagged,
+  F58). 77="gouv"/78="er" independent support NULL — islets stay LEAD
+  (n_eff=1). 62="on" stays fenced STRONG LEAD on ear legs only.
+- **N47 (2026-10-07, crowd7/morphologist; red-team: GRANTED):** 47="ce"
+  UNBLOCKED — diplomatic corpus (4.0M tokens) yields 5 "ce qui __ ce que"
+  frames, all verb-led fillers; "ce qui par ce que"=0; residual adjudicated
+  to 96=verb-stem conditioned (pre==64 & suc==47, n_eff=1, F33-falsifiable).
+  47="ce" BLOCKED→LEAD (strengthened, not provisional). 67: 29/38
+  classified (et=18, veut=11, open=9); three new F33-grade rules (R_et4/5/6),
+  zero BOTH conflicts; fork stays SUPPORTED.
+- **N48 (2026-10-07, crowd7/segmenter; red-team: CONFIRMED):** N43 flag
+  applied to the round-6 package — E1 (existence) and T2 (HMM) SURVIVE;
+  labeling-fragility and momentum SURVIVE* (instrument-internal); P2c
+  fixed-column-order FALSIFIED→INCONCLUSIVE. Momentum vs label-free:
+  INCONCLUSIVE (guard-triggered, n0=49<50 — not a falsification). Columns
+  refuge WEAKENED: coda-sonority concretization fails the decisive corpus
+  test (cipher's sharp lag-3 spike vs corpus flat profile; momentum
+  strongly anti in corpus, z=−65; noise simulation never flips the sign).
+  General "untested class" refuge logically open, no positive evidence —
+  full kill needs key recovery.
+
+- **N49 (2026-10-07, crowd8/curator):** round-8 curation. 12 agents (10
+  executors, red team: baselines extended 61/61→77/77 and 45/45→58/58, bars
+  pre-registered in `code/crowd8/redteam/PREREG-ROUND8.md`; then a separate
+  independent adjudicator ruled every recommendation — no coordinator-applied
+  bars). All load-bearing cipher-side numbers re-derived by curator on the
+  repaired 1,847-pair stream (n93=14, n8=18, n48=38, (93|8)→62=4, 62→48=6,
+  64-96-47 singleton @149, 06 pre==82 ×4, 48→46=0, 48↔94=0, @863=[48,47,46],
+  24→48→47→98 @1657–1660 — all confirmed; two citations off-by-one in form,
+  substance confirmed). **Merged net: 1 kill (48="ne"-allophone REFUTED),
+  2 new leads ({93,8}="l'", 06="ent"-iff-82 conditioned), 1 confirmed
+  (59="est" provisional holds), 1 demote (Mehemet-Ali LEAD→LEAD-weak),
+  1 disfavor (62="il"→DISFAVORED-STRONG), 2 corrections (B1/B3 9.14×→3.91×,
+  3.19×; N46 shape-STRONG irreproducible), 1 retired criterion (WO-6 second
+  window — singleton proof), 1 verified figure (F59 RdDM 293× exact).**
+  84 en-islet re-scoped («qu'en» legs withdrawn; pre∈{82}∪{66,89}); noun
+  identity NULL stands. 62="on" gains two non-ear legs (fenced STRONG LEAD
+  unchanged). 77/78 support NULL 7th; fork unresolved, lean (c). Refuge: all
+  concretizations dead, schema open-no-evidence. Evidence: `code/crowd8/`,
+  `code/crowd8/adjudicator/RULINGS-FINAL.md`.
+- **N50 (2026-10-07, crowd9/curator):** round-9 curation. 10 agents (9
+  executors + red team; baselines extended 77/77→114/114 and 58/58→82/82,
+  bars pre-registered — 7/7 battery preregs timestamp-audited PASS, watch06
+  PASS WITH NOTE; then a separate independent adjudicator ruled all 9
+  packages — no coordinator-applied bars). All load-bearing numbers
+  re-derived by curator on the repaired 1,847-pair stream. **Merged net:
+  0 promotions — the bar held an eighth round. 1 kill upheld (H_verb for
+  48, K2 fired), 1 refutation (86=que-family, kill-grade), 1 new weak leg
+  (H3a for fork-tine (c)), 1 adverse struck (M3 'he'-cell, scoped to German
+  phonetics), 1 registry built (9 conditioned islets), 2 fences upheld
+  (@1248 NEITHER, @199 NEITHER-conditional), 1 hold (62 on/il — blocker
+  carried forward).** @1351 under triple fenced pressure (top round-10
+  watch item). Evidence: `code/crowd9/`,
+  `code/crowd9/redteam/RULINGS-ROUND9.md`.
 
 ## Verified findings
 - F1 (source: Bourdeau zeschau1841 page, 2026-09-21/24): the unit is pairs of digits; 96 of 100
@@ -1278,6 +1358,203 @@ exploiting the long repeats (`7778948206` ×5, `06777818711001` ×3) as probable
   (fenced on unconfirmed host); 5/7 me-syllable frames (fenced on 78-syllable
   LEAD); P(78|77)=0.159 unremarkable vs P(78|47)=0.179 — no special «le me»
   construction needed. Era («le»,«me»)=0/4570 re-derived.
+- **F52 (2026-10-07, crowd7/closer; red-team: PROMOTION GRANTED):**
+  **59="est" → provisional** — first promotion since 77="le" (round 5). Four
+  independent legs (S1 1.10× vs Nesselrode v8; S2 "qui est" 3/47; S3 "n'est"
+  3/37; rivals re-killed 9–51× on diplomatic rates). Blockers resolved:
+  S4 "est que" 5.4× adverse = small-sample artifact (diplomatic P(que|est)
+  1.5–3× Tocqueville; binomial n.s. everywhere; ratio →1.79× on Nesselrode
+  v8); 01="est" interaction = mutual exclusivity with 59 winning (59's legs
+  01-independent). The 01="est" MEDIUM→WEAK demotion was DENIED (no
+  pre-registered bar; I1's >3× bar fails on Nesselrode v8) — 01 stays MEDIUM;
+  the 6/6 "qui/ne+est"→59 datum (p=0.014) is banked for a dedicated 01
+  battery. S5 fenced on 37="le" MEDIUM; S4#1's grammatical frame still an
+  open explanatory gap. Evidence: `code/crowd7/closer/`.
+- **F53 (2026-10-07, crowd7/conditioner; red-team: GRANTED):** 84 conflict
+  RESOLVED as conditioned polyvalence. The Closer's partition rule REFUTED
+  (13/25 predecessors outside {46,94,82,77,11} — rule was fitted on 12/25).
+  Both unconditioned claims KILLED ("en"-only dies on revived E4 + "la en"
+  @1620; noun-only dies on "qu'en"×2/"m'en" GT-anchored). Banked: 84="en"
+  iff pre∈{46,94,82} → conditioned islet LEAD (n=4, n_eff=3, @1665 adverse
+  fenced); 84=masculine-noun iff pre∈{77,11} → conditioned islet LEAD
+  (n=8, n_eff=6, zero adverses, identity NULL). 13 windows honestly
+  UNCLASSIFIED — partial F33-grade polyvalence, not a partition.
+- **F54 (2026-10-07, crowd7/conditioner; red-team: GRANTED):** 00 conflict
+  RESOLVED as conditioned polyvalence at LEAD-grade. Diplomatic corpus does
+  NOT repair B1/B3 (despatches-primary r1=9.14×, worse than Tocqueville;
+  nothing ≤2× anywhere) — 00="pour" stays STRONG LEAD, blockers standing.
+  00="le" re-banked as conditioned islet LEAD (pre=96, n=3, "par pour"
+  ungrammatical at all three windows). No provisional promotion.
+- **F55 (2026-10-07, crowd7/morphologist; red-team: GRANTED):** 47="ce"
+  BLOCKED→LEAD (strengthened). New 96=verb-stem conditioned reading LEAD
+  (pre==64 & suc==47, n_eff=1, F33-falsifiable; 96="par" provisional
+  undisturbed elsewhere). Needs a second 64-96-47 window before promotion.
+- **F56 (2026-10-07, crowd7/keystruct; red-team: UPHELD):** no homophone
+  merger is promotion-grade. Unconditioned {87,47}="ce" REFUTED (kill-shot:
+  P(64|87)=5/32 vs P(64|47)=0/28, p=0.0086 — interchangeable same-phase
+  aliases falsified); conditioned "ce" set stays LEAD. {77,00}="le"
+  REFUTED (2.60× over); {43,21}="me" REFUTED (3.28× over, zero shared
+  followers). Same-phase coherent aliasing is live in this key (not
+  round-robin); interchangeability is now falsifiable per pair (p≈0.009
+  template). M6 {37,77}="le" sole rate exception (1.89× in-band), single
+  weak leg only.
+- **F57 (2026-10-07, crowd7/search; red-team: GRANTED):** search-family
+  bake-off KILLED. N40's flipped diagnosis SCOPED: it holds on the crowd4
+  control (Tocqueville, in-distribution) but FAILS on the mandated
+  register-gapped family — truth scores BELOW random keys 3/3 (worst gap
+  −0.28 nats); letter term register-saturated (+0.09 nats/letter over
+  noise); word bonus register-blind; LAM_POLY=0.05 the decisive anti-truth
+  term. "Better search" would produce more confidently wrong keys. Scope:
+  search work → zero until the objective passes C1 on the gapped family.
+  Objective repair round 2 belongs to the Smith (side-homophonic-rebuild):
+  letter-term backoff/interpolation, register-robust training, LAM_POLY
+  rescale on the gapped family. Bonus bugs: `step6_basin.py` never ran and
+  its `anneal()`→`init_key()` wipes the perturbed start; step5's flat
+  marginals partly measurement artifact. Prototype banked
+  (`code/crowd7/search/prototype.py`) for when C1 holds.
+- **F58 (2026-10-07, crowd7; red-team: FLAGGED):** 48="ne"-allophone LEAD is
+  an UNADJUDICATED referral — the Frenchman referred it to WO6 but the
+  key-structure battery (M1–M9) never tested 48. Its "LEAD" label must NOT
+  enter the lane status line. Round-8 work order: dedicated 48 battery.
+- **F59 (2026-10-07, crowd7/patternist; red-team: GRANTED HOLD/HOLD):**
+  16="i" HOLD (LEAD; B1 clean fail redirects to a position-conditioned
+  alternative: word-final /i/ vs word-internal /i/); "Mehemet-Ali" @8 HOLD
+  (LEAD; M1 VOID — manual-tiling bearing counts are structurally
+  determined, never scored; "Mohamed" spelling dead; by-ear me|e|met|a|li
+  fits). Standing methodology rule: never score bearing counts on manual
+  tilings — per-window nulls only; assert len(cells)==len(groups) on
+  recounts. CORRECTION FLAG for the period fleet: the "293× in Revue des
+  Deux Mondes" figure is UNVERIFIED (no RdDM corpus on the VM) — do not
+  cite until verified. **AMENDED 2026-10-07 (crowd8/patternist; adjudicator:
+  GRANTED):** the corpus WAS on the VM (harvested after F59 was written);
+  recount gives exactly 293 clean-form 'Méhémet-Ali' in the 1841 RdDM
+  4-tome run (318 incl. variants; Q4-heavy). Cite as 293× with OCR caveat.
+  Mehemet-Ali @8 DEMOTED LEAD→LEAD-weak (62-tension + "mêleront" rival —
+  2 adverses; M2 stands). 16="i" position-conditioned test FAILED
+  (wrong direction, p=0.9398) — 16 stays unconditioned LEAD.
+- **F60 (2026-10-07, crowd8/homophonist; adjudicator: KILL→REFUTED):**
+  48="ne"-allophone REFUTED. Pre-registered F33 B1–B5 + F56
+  interchangeability battery: H2 kill leg fires (merged word-rate 4.78× >
+  3× bar; 94 alone already 2.36× — no room for a second "ne" group);
+  H5 adverse ("ne ce que" @863 with 46="que" GT; "en ne ce" @1657–1660);
+  H6 adverse (−0.585 nats predecessor fit). H1 (F56 template) does NOT
+  fire (min p=0.1997) — methodological point: interchangeability is
+  necessary but not sufficient for homophony. F58 adjudicated; 48 never
+  enters the status line. Residual (untested): 48 as verb/verb-stem.
+  Evidence: `code/crowd8/homophonist/`.
+- **F61 (2026-10-07, crowd8/frenchman; adjudicator: GRANT):**
+  {93,8}="l'" → LEAD as unconditioned homophones (joint n=32 vs E=31.26
+  dead-center, p 0.47–0.60; shared predecessors/followers intermix freely;
+  "ne l'est" @101–103). 93="l'" ALONE rate-KILLED (p=4.1e-4, holds on
+  every diplo slice). 62="il" → DISFAVORED-STRONG (conditional on M_hom;
+  L_B LR=21.3); 62="on" stays fenced STRONG LEAD and gains two non-ear
+  legs. 06="ent" iff pre=82 → conditioned LEAD (n=4, n_eff=3, F33-form,
+  falsifier banked). N46 AMENDED: the "shape-STRONG" claim is
+  irreproducible from archived artifacts (traceability flag). Evidence:
+  `code/crowd8/frenchman/`.
+- **F62 (2026-10-07, crowd8/conditioner84 + ratemodel; adjudicator:
+  GRANT):** 84 en-islet RE-SCOPED: «qu'en» legs @310/@473 WITHDRAWN
+  ("qu'en en" era-absent 0/4.2M; 24="en" holds locally); surviving islet
+  84="en" iff pre∈{82} (GT-anchored "m'en" @167) ∪ pre∈{66,89}
+  (conditional) — LEAD. Noun identity NULL STANDS (not one era-rate
+  masculine noun; «qui le 84 est» reads pronoun+verb — new lead
+  64-77-84-59 ×2 = «qui le [verb=84-59]» REFERRED). 00="pour" blockers
+  CORRECTED: B1 9.14×→3.91×, B3→3.19× (English-dilution ~57% removed via
+  French-only reference; tokenizer parity verified) — residual floor
+  2.73×, strong-lead ceiling accepted. Evidence: `code/crowd8/
+  conditioner84/`, `code/crowd8/ratemodel/`.
+- **F63 (2026-10-07, crowd8/morphologist + segmenter; adjudicator:
+  GRANT):** WO-6's "second 64-96-47 window before promotion" criterion
+  RETIRED — census proves exactly one 64-96-47 window exists (@149) and
+  exactly one 96 has suc==47 (@150); singleton by construction, logically
+  unmeetable. 96=verb-stem stays LEAD n_eff=1. @1248 is a genuine fork
+  counterdatum ("pour 67 que" — NEITHER et nor veut, fenced n=1); fork
+  stays SUPPORTED. qui-96-43 ×2 formula REFERRED to the conditioner.
+  Columns refuge: all four concretizations DEAD (anti-momentum
+  z=−65…−112; ARI≈0); schema stays LOGICALLY-OPEN-NO-EVIDENCE. Full kill
+  needs key recovery (standing). Evidence: `code/crowd8/morphologist/`,
+  `code/crowd8/segmenter/`.
+- **F64 (2026-10-07, crowd9/successor48; adjudicator: GRANT):** 48 stays
+  UNIDENTIFIED. H_verb (48 = conjugated verb) KILLED — K2 fired per
+  pre-registered terms (V2 adverse: zero 94="ne" in i−4..i−1 at both "48
+  pas" windows; V3 31.6% < 40% predecessor verb-licensing); steelman denied
+  as post-hoc rescue. H_stem (96-family verb stem) untested (cosine 0.387
+  vs 0.60 bar, n96=21 underpowered — explicitly not adverse). Census:
+  n48=38 confirmed; successors 29 distinct/38 (datum correction: the F60
+  referral's "19 distinct" does not reproduce on the repaired parse).
+  New datums: "on 48"×6 association real (E=0.72, p=7.6e-05) but no verbal
+  signature; "48 pas"×2 statistically null alone (E=0.555, p=0.106).
+  Leading round-10 alternative: frequent syllable cell. Evidence:
+  `code/crowd9/successor48/`.
+- **F65 (2026-10-07, crowd9/conditioner; adjudicator: GRANT):**
+  86=que-family REFUTED (kill-grade, 4 pre-registered legs: «pour qu'»
+  21× over, «pour que» 9.2× over, no 46-parity, «qu'pre/qu'pas/qu'plus»
+  impossible, «le que»×5 at era-~0). B3 dissolution caveat dead twice
+  over (era number is 0.0343 French-only, not 0.31) — B3 (3.19×) STANDS.
+  86=verb-stem-class (F40) stands as working hypothesis; specific value
+  NULL (honest). 66-class CONFIRMED (broadened to {noun, infinitive,
+  nous/vous-type pronoun} — all "en"-compatible, 84-islet dependency
+  holds); 89 noun-class CONFIRMED (14-window census, one fenced tension
+  52-89 ×2). qui-96-43 ×2 formula HOLD (@341/@1025; 43="me" clitic-order
+  adverse banked). «qui le [verb=84-59]» REFINED: noun+"est" dead;
+  59="est"-as-word era-absent at @1447/@1803 (fenced n=2) — viable parse
+  is bisyllabic-verb unit, hypothesis-internal. 84's 9 residuals all
+  classified (RESIDUAL, no islet change; @857 lean withdrawn — depended on
+  killed 48="ne"). Islet registry built: 9 conditioned islets with rules,
+  n/n_eff, falsifiers, leftovers
+  (`code/crowd9/conditioner/islet_registry.md`). Evidence:
+  `code/crowd9/conditioner/`.
+- **F66 (2026-10-07, crowd9/frenchman + hunter7778; adjudicator:
+  GRANT/NOTED):** @1351–1356 under TRIPLE FENCED PRESSURE (top round-10
+  watch item): H1c ("on" in L1..L2 of "gouvernement" = 0/641 diplomatic
+  tokens; @1351 has 62="on" STRONG LEAD at L2), H1d ("le qui" = 0/391,210
+  grammatical zero vs @1351's right frame under banked 37="le" MEDIUM +
+  64="qui" prov), frenchman triple collision (06-islet "ne ment pas"
+  era-good vs gouv "gouvernement pas" era-0 in 40 tokens vs 77="le" —
+  mutually exclusive; era favors the 06-islet parse). 77="gouv" holds
+  LEAD per n≥3 rule. H3a NEW WEAK LEG for fork-tine (c): er|ne boundary
+  productive (52 tokens/22 types) vs ver|ne zero genuine common words
+  (10.4×, Fisher p=3.2e-11, pre-registered bar passed) — lean (c)
+  strengthened, fork unresolved. 06="ent" by-ear mixed: @1355 clean,
+  @580 fenced admissible, @1184 ADVERSE fenced ("ne mentent/entendent
+  est" ungrammatical with 59="est"-as-word), @738 fenced.
+  06-islet survives watch06's hunt (all 3 falsifiers unfired; n_eff=3
+  fragility banked as standing caveat; post-hoc: both suc=6 windows are
+  islet windows, p=0.0063 — possible 94-82-06-06 4-gram refinement).
+  Evidence: `code/crowd9/hunter7778/`, `code/crowd9/watch06/`,
+  `code/crowd9/frenchman/`.
+- **F67 (2026-10-07, crowd9/finisher67; adjudicator: GRANT):** @1248
+  NEITHER-fence UPHELD (option (c); new arm declined with evidence —
+  "pour * que" census → middles {cela:3, empêcher:1}, no single-syllable
+  X with era support; finite-verb arm vetoed by frenchman Gate 4).
+  @199 NEITHER-fence conditional on 08="l'". @630 et-CONDITIONAL (2 legs,
+  C1∧C2 explicit — not a classification). 6 open-residual (no ≥2-leg
+  bar). Fork stays SUPPORTED with amended scope (fenced n=2). 62-WO3
+  blocker carried forward (no substantive 62-interaction found).
+  Evidence: `code/crowd9/finisher67/`.
+- **F68 (2026-10-07, crowd9/germanist + liaison; adjudicator:
+  GRANT-WITH-MODIFICATION/BANK):** M3 'he'-cell adverse STRUCK, scoped to
+  German phonetics (AZ renders "Mehemed Ali" 75×, -d not -t; in German
+  the h is pronounced — under the lane's Zeschau-thought-in-German
+  premise the 'he' cell is by-ear after all; re-graded to neutral).
+  "Mohammed" 15× = Dost Mohammed — formally excluded as Mehemed-Ali
+  variant. No German-interference vetoes on any live reading. Crib
+  candidates banked with AZ provenance (Thiers 76×, Ibrahim 54× →
+  "Ibrahim Pacha" crib, Ponsonby 4×, etc.). Germanism watch-items as
+  standing conditionals (standalone 78="er" → German "er"; 67@1248 X →
+  "dafür daß" calque test). Liaison: rebuild2 healthy (red-team 0 KILL /
+  4 UPHELD / 6 CONCERN / 3 GO; tracks A/B/C executing per PREREG, no
+  results yet); constraints memo banked
+  (`code/crowd9/liaison/smith-constraints.md`): F33 rules, anchor set,
+  5 discriminating windows, must-NOT-break list. Main-fleet search scope
+  ZERO holds. Evidence: `code/crowd9/germanist/`, `code/crowd9/liaison/`.
+- **F69 (2026-10-07, crowd9/resolver62; adjudicator: GRANT):** 62 on/il
+  HONEST HOLD — N35 independent-cell battery 0/4 (C1 p(il)=0.072 lean
+  sub-bar; C2/C3/C4 null). 62="on" stays fenced STRONG LEAD; 62="il"
+  stays DISFAVORED-STRONG (not killed). @100 "62 ne l'est" fenced n=1
+  descriptive, zero leg weight (M_hom-window recycling flagged).
+  C1–C4 banked tested-NULL. Mehemet-Ali/@1248 blocker NOT lifted.
+  Evidence: `code/crowd9/resolver62/`.
 - **F26-14 (2026-10-07, crowd6/red-team):** chiasmus scoping — F42's chiasmus
   holds on the adjacent instances (67→11 @753 immediately before the @754
   crib; 11→67 @1044 immediately after the @1034 crib); the full 67→11

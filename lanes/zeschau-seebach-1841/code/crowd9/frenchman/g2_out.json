@@ -1,0 +1,99 @@
+{
+ "windows": {
+  "580": {
+   "str": "13=? 55=? 61=? 94=ne 82=m [6=?] 6=? 50=? 10=? 19=? 18=?",
+   "pre": 82,
+   "pre2": 94,
+   "pre3": 61,
+   "suc": 6,
+   "suc2": 50
+  },
+  "738": {
+   "str": "85=? 93=? 76=? 18=? 82=m [6=?] 0=pour? 36=? 20=? 30=? 67=?",
+   "pre": 82,
+   "pre2": 18,
+   "pre3": 76,
+   "suc": 0,
+   "suc2": 36
+  },
+  "1184": {
+   "str": "37=? 77=? 78=? 94=ne 82=m [6=?] 6=? 59=est 42=? 6=? 84=?",
+   "pre": 82,
+   "pre2": 94,
+   "pre3": 78,
+   "suc": 6,
+   "suc2": 59
+  },
+  "1355": {
+   "str": "48=? 77=? 78=? 94=ne 82=m [6=?] 52=pas 37=? 64=qui 35=? 13=?",
+   "pre": 82,
+   "pre2": 94,
+   "pre3": 78,
+   "suc": 52,
+   "suc2": 37
+  }
+ },
+ "era_v8": {
+  "ne_ment_pas": 0,
+  "ne_ment": 0,
+  "ment": 54,
+  "ne_mentent": 0,
+  "mentent": 0,
+  "m_entendent": 0,
+  "ne_m_entendent": 0,
+  "entendent": 1,
+  "ne_m_entendent_pas": 0
+ },
+ "era_primary": {
+  "ne_ment_pas": 0,
+  "ne_mentent": 0,
+  "ne_m_entendent": 0
+ },
+ "ment_pour_v8": 2,
+ "mentX_pour_v8": {
+  "total": 16,
+  "top": [
+   [
+    "moment",
+    3
+   ],
+   [
+    "appartement",
+    2
+   ],
+   [
+    "uniquement",
+    2
+   ],
+   [
+    "seulement",
+    2
+   ],
+   [
+    "officiellement",
+    1
+   ],
+   [
+    "vivement",
+    1
+   ],
+   [
+    "délassement",
+    1
+   ],
+   [
+    "désappointement",
+    1
+   ],
+   [
+    "gouvernement",
+    1
+   ],
+   [
+    "dénouement",
+    1
+   ]
+  ]
+ },
+ "v8_tokens": 92594
+}

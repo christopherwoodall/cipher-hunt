@@ -1,0 +1,623 @@
+{
+ "v8_tokens": 92594,
+ "gate3": {
+  "m_en_v8": 28,
+  "m_en_primary": 35,
+  "en_predecessors_top25_v8": [
+   [
+    "mort",
+    71
+   ],
+   [
+    "né",
+    70
+   ],
+   [
+    "n'",
+    60
+   ],
+   [
+    "s'",
+    39
+   ],
+   [
+    "d'",
+    36
+   ],
+   [
+    "vous",
+    33
+   ],
+   [
+    "m'",
+    28
+   ],
+   [
+    "j'",
+    27
+   ],
+   [
+    "il",
+    26
+   ],
+   [
+    "et",
+    25
+   ],
+   [
+    "qu'",
+    24
+   ],
+   [
+    "nous",
+    19
+   ],
+   [
+    "pas",
+    17
+   ],
+   [
+    "lui",
+    15
+   ],
+   [
+    "qui",
+    12
+   ],
+   [
+    "est",
+    11
+   ],
+   [
+    "on",
+    11
+   ],
+   [
+    "y",
+    9
+   ],
+   [
+    "tout",
+    9
+   ],
+   [
+    "l'",
+    7
+   ],
+   [
+    "sont",
+    6
+   ],
+   [
+    "née",
+    6
+   ],
+   [
+    "mis",
+    6
+   ],
+   [
+    "mettre",
+    6
+   ],
+   [
+    "jour",
+    6
+   ]
+  ],
+  "n_en_v8": 1291,
+  "qu_en_v8": 24,
+  "qu_en_en_v8": 0,
+  "en_after_nonclitic_sample": [
+   "de nes selrode forment en grande partie",
+   "et s' ex prime en toute liberté",
+   "d' intérêts divers sont en jeu remise",
+   "de russie est mise en pleine lumière",
+   "ultérieurs ce volume contient en outre un",
+   "renseignements précieux la comtesse en effet malgré",
+   "effet car il peut en parler en",
+   "il peut en parler en connaissance de",
+   "sciences eut à signer en comme pléni",
+   "la russie ne saurait en souffrir c'"
+  ],
+  "en_after_nonclitic_n": 1039
+ },
+ "gate4": {
+  "pour_X_que_v8": [
+   [
+    "cela",
+    3
+   ],
+   [
+    "empêcher",
+    1
+   ]
+  ],
+  "pour_X_que_total_v8": 4,
+  "pour_autant_que_v8": 0,
+  "pour_peu_que_v8": 0,
+  "pour_tout_que_v8": 0,
+  "pour_ce_que_v8": 0,
+  "pour_et_que_v8": 0,
+  "pour_veut_que_v8": 0,
+  "pour_X_que_primary_top15": [
+   [
+    "cela",
+    6
+   ],
+   [
+    "empêcher",
+    1
+   ],
+   [
+    "médiatrice",
+    1
+   ],
+   [
+    "peu",
+    1
+   ],
+   [
+    "egypte",
+    1
+   ]
+  ]
+ },
+ "gate5": {
+  "after_on_top30_v8": [
+   [
+    "ne",
+    74
+   ],
+   [
+    "a",
+    38
+   ],
+   [
+    "n'",
+    22
+   ],
+   [
+    "se",
+    20
+   ],
+   [
+    "lui",
+    19
+   ],
+   [
+    "s'",
+    19
+   ],
+   [
+    "est",
+    18
+   ],
+   [
+    "dit",
+    14
+   ],
+   [
+    "le",
+    13
+   ],
+   [
+    "l'",
+    12
+   ],
+   [
+    "m'",
+    11
+   ],
+   [
+    "nous",
+    11
+   ],
+   [
+    "en",
+    11
+   ],
+   [
+    "veut",
+    10
+   ],
+   [
+    "avait",
+    8
+   ],
+   [
+    "prétend",
+    7
+   ],
+   [
+    "vous",
+    7
+   ],
+   [
+    "peut",
+    6
+   ],
+   [
+    "doit",
+    5
+   ],
+   [
+    "voit",
+    5
+   ],
+   [
+    "aurait",
+    5
+   ],
+   [
+    "fait",
+    5
+   ],
+   [
+    "devrait",
+    4
+   ],
+   [
+    "y",
+    4
+   ],
+   [
+    "la",
+    4
+   ],
+   [
+    "donne",
+    4
+   ],
+   [
+    "va",
+    4
+   ],
+   [
+    "trouve",
+    4
+   ],
+   [
+    "les",
+    4
+   ],
+   [
+    "était",
+    3
+   ]
+  ],
+  "before_pas_top30_v8": [
+   [
+    "est",
+    94
+   ],
+   [
+    "a",
+    58
+   ],
+   [
+    "ne",
+    45
+   ],
+   [
+    "ai",
+    26
+   ],
+   [
+    "sera",
+    17
+   ],
+   [
+    "était",
+    14
+   ],
+   [
+    "ont",
+    11
+   ],
+   [
+    "avait",
+    10
+   ],
+   [
+    "sont",
+    9
+   ],
+   [
+    "donc",
+    9
+   ],
+   [
+    "soit",
+    9
+   ],
+   [
+    "crois",
+    9
+   ],
+   [
+    "comprends",
+    9
+   ],
+   [
+    "aime",
+    8
+   ],
+   [
+    "veut",
+    8
+   ],
+   [
+    "il",
+    8
+   ],
+   [
+    "peut",
+    8
+   ],
+   [
+    "vois",
+    7
+   ],
+   [
+    "aurait",
+    7
+   ],
+   [
+    "avoir",
+    7
+   ],
+   [
+    "veux",
+    7
+   ],
+   [
+    "suis",
+    6
+   ],
+   [
+    "ce",
+    6
+   ],
+   [
+    "doute",
+    6
+   ],
+   [
+    "vous",
+    6
+   ],
+   [
+    "ait",
+    6
+   ],
+   [
+    "faut",
+    5
+   ],
+   [
+    "parle",
+    5
+   ],
+   [
+    "pense",
+    5
+   ],
+   [
+    "laisse",
+    5
+   ]
+  ],
+  "pas_without_ne_top15_v8": [
+   [
+    "est",
+    94
+   ],
+   [
+    "a",
+    58
+   ],
+   [
+    "ne",
+    45
+   ],
+   [
+    "ai",
+    26
+   ],
+   [
+    "était",
+    14
+   ],
+   [
+    "ont",
+    11
+   ],
+   [
+    "avait",
+    10
+   ],
+   [
+    "donc",
+    9
+   ],
+   [
+    "aime",
+    8
+   ],
+   [
+    "il",
+    8
+   ],
+   [
+    "aurait",
+    7
+   ],
+   [
+    "avoir",
+    7
+   ],
+   [
+    "ce",
+    6
+   ],
+   [
+    "vous",
+    6
+   ],
+   [
+    "ait",
+    6
+   ]
+  ],
+  "pas_without_ne_total": 573,
+  "pas_total_v8": 815,
+  "watchlist_v8": {
+   "fout": 0,
+   "foutre": 0,
+   "kiffer": 0,
+   "bosser": 0,
+   "choper": 0,
+   "piger": 0,
+   "rigoler": 0,
+   "délirer": 0,
+   "assurer": 3,
+   "gérer": 0,
+   "acter": 0,
+   "impacter": 0,
+   "solutionner": 0,
+   "finaliser": 0,
+   "initier": 0,
+   "positionner": 0,
+   "cadrer": 0,
+   "briefer": 0,
+   "débriefer": 0
+  }
+ },
+ "gate6": {
+  "n_gouvernement_v8": 40,
+  "predecessors": [
+   [
+    "le",
+    24
+   ],
+   [
+    "du",
+    4
+   ],
+   [
+    "au",
+    2
+   ],
+   [
+    "son",
+    2
+   ],
+   [
+    "un",
+    2
+   ],
+   [
+    "ce",
+    2
+   ],
+   [
+    "tout",
+    1
+   ],
+   [
+    "nesselrode",
+    1
+   ],
+   [
+    "chaque",
+    1
+   ],
+   [
+    "seul",
+    1
+   ]
+  ],
+  "successors": [
+   [
+    "de",
+    6
+   ],
+   [
+    "prussien",
+    4
+   ],
+   [
+    "français",
+    3
+   ],
+   [
+    "le",
+    2
+   ],
+   [
+    "à",
+    2
+   ],
+   [
+    "les",
+    1
+   ],
+   [
+    "c'",
+    1
+   ],
+   [
+    "sera",
+    1
+   ],
+   [
+    "désire",
+    1
+   ],
+   [
+    "en",
+    1
+   ],
+   [
+    "sa",
+    1
+   ],
+   [
+    "a",
+    1
+   ],
+   [
+    "représentatif",
+    1
+   ],
+   [
+    "au",
+    1
+   ],
+   [
+    "veulent",
+    1
+   ]
+  ],
+  "pre2_le": 24,
+  "kwic": [
+   "l' hé rédité pour le gouvernement de l' egypte et de",
+   "j' espère donc que le gouvernement prussien s' en abstiendra ne",
+   "pierre de touche de tout gouvernement les nations sont loin d'",
+   "franche et positive avec le gouvernement de votre majesté pourrait contribuer",
+   "du comte ch de nesselrode gouvernement de votre majesté ma pensée",
+   "ce qui peut entraîner le gouvernement c' est l' impulsion guerrière",
+   "précipita en le déconsidérant le gouvernement de louis philippe vers sa",
+   "aux interpellations à adresser au gouvernement français pour tirer ses intentions",
+   "cette situation pour accabler le gouvernement le reproche le plus juste",
+   "et que par suite le gouvernement sera amené à retirer son",
+   "les fortifications ont commencé le gouvernement désire trop que la loi",
+   "les agitateurs compromettront souvent le gouvernement en lui prêtant l' intention",
+   "profit pour lui et son gouvernement sa conduite en allemagne a",
+   "bâtirait que quinze bastions le gouvernement a donc menti à la"
+  ],
+  "n_gouverne_v8": 7,
+  "n_gouvernent_v8": 0
+ }
+}

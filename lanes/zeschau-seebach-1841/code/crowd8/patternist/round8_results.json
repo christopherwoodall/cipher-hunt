@@ -1,0 +1,161 @@
+{
+ "T1": {
+  "primary": {
+   "label": "primary",
+   "table": [
+    [
+     2,
+     26
+    ],
+    [
+     2,
+     9
+    ]
+   ],
+   "p_one_sided": 0.9398,
+   "odds_ratio": 0.346,
+   "wi_hits_16": [
+    "64",
+    "96"
+   ],
+   "wi_hits_34": [
+    "62",
+    "94"
+   ],
+   "pass": false
+  },
+  "S1": {
+   "label": "S1 GT-only WI",
+   "table": [
+    [
+     0,
+     28
+    ],
+    [
+     0,
+     11
+    ]
+   ],
+   "p_one_sided": 1.0,
+   "odds_ratio": "inf",
+   "wi_hits_16": [],
+   "wi_hits_34": [],
+   "pass": false
+  },
+  "S2": {
+   "label": "S2 WI+77",
+   "table": [
+    [
+     3,
+     25
+    ],
+    [
+     2,
+     9
+    ]
+   ],
+   "p_one_sided": 0.8748,
+   "odds_ratio": 0.54,
+   "wi_hits_16": [
+    "64",
+    "77",
+    "96"
+   ],
+   "wi_hits_34": [
+    "62",
+    "94"
+   ],
+   "pass": false
+  },
+  "S3": {
+   "label": "S3 excl parmi-window follower",
+   "table": [
+    [
+     1,
+     26
+    ],
+    [
+     2,
+     9
+    ]
+   ],
+   "p_one_sided": 0.9804,
+   "odds_ratio": 0.173,
+   "wi_hits_16": [
+    "96"
+   ],
+   "wi_hits_34": [
+    "62",
+    "94"
+   ],
+   "pass": false
+  }
+ },
+ "T2": {
+  "masc_34_frame_70-82-34-29": [],
+  "nA": 0,
+  "medial_16_frame_70-82-16-29": [],
+  "nB": 0,
+  "fem_16_frame_70-82-16-29-40": [],
+  "nC5": 0,
+  "GT_fem_70-82-34-29-40": [
+   755,
+   1035
+  ],
+  "nGT": 2,
+  "verdict": "UNINFORMATIVE"
+ },
+ "verdict_a": "NOT SUPPORTED (B1 redirect fails)",
+ "D1": {
+  "claim_tiling_62_cell": "a",
+  "n_alt_len5_me tilings": 0,
+  "alts_avoiding_a_on_62": [],
+  "all_alts_put_a_on_62": false,
+  "tension_confirmed": true
+ },
+ "D2": {
+  "n_fitters": 33,
+  "cells3_dist": {
+   "e": 8,
+   "i": 8,
+   "r": 3,
+   "g": 3,
+   "t": 2,
+   "n": 2,
+   "qu": 1,
+   "nu": 1,
+   "z": 1,
+   "en": 1,
+   "c": 1,
+   "s": 1,
+   "on": 1
+  },
+  "on_compatible": [
+   [
+    "m\u00ealeront",
+    [
+     "me",
+     "le",
+     "r",
+     "on",
+     "t"
+    ]
+   ]
+  ],
+  "n_on_compatible": 1,
+  "name_like_fitters": [
+   [
+    "mexique",
+    [
+     "me",
+     "x",
+     "i",
+     "qu",
+     "e"
+    ]
+   ]
+  ],
+  "discriminator_confirmed": true
+ },
+ "verdict_b": "DEMOTE recommended: LEAD -> LEAD-weak (red team adjudicates)"
+}

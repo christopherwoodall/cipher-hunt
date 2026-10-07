@@ -1,0 +1,253 @@
+{
+ "candidates": {
+  "X1_coda3": {
+   "class_dist_toc": {
+    "OPEN": 241559,
+    "OBS": 108506,
+    "SON": 67878
+   },
+   "signature_toc": {
+    "lag3": {
+     "n": 417940,
+     "obs": 0.4369,
+     "exp": 0.4278,
+     "z": 11.9
+    },
+    "momentum": {
+     "r1": 0.2705,
+     "n1": 127395,
+     "r0": 0.3938,
+     "n0": 117948,
+     "z": -64.91,
+     "p_one_sided": 1.0
+    }
+   },
+   "signature_lesmis": {
+    "lag3": {
+     "n": 225261,
+     "obs": 0.4463,
+     "exp": 0.437,
+     "z": 8.89
+    },
+    "momentum": {
+     "r1": 0.2679,
+     "n1": 69354,
+     "r0": 0.3979,
+     "n0": 61375,
+     "z": -49.92,
+     "p_one_sided": 1.0
+    }
+   },
+   "signature_hit_toc": false,
+   "recoverability": {
+    "ari": 0.0028,
+    "null_mean": 0.0,
+    "null_p95": 0.0028,
+    "null_max": 0.0032,
+    "percentile": 0.97,
+    "p_empirical": 0.105,
+    "recoverable": true,
+    "class_sizes": [
+     225,
+     337,
+     964
+    ]
+   },
+   "S2": {
+    "cosine": 0.8631,
+    "null_p95": 0.8674,
+    "percentile": 0.89
+   },
+   "verdict": "DEAD"
+  },
+  "X2_onset": {
+   "class_dist_toc": {
+    "VOICED": 165674,
+    "VLESS": 132727,
+    "VINIT": 119542
+   },
+   "signature_toc": {
+    "lag3": {
+     "n": 417940,
+     "obs": 0.3416,
+     "exp": 0.3398,
+     "z": 2.39
+    },
+    "momentum": {
+     "r1": 0.3676,
+     "n1": 150268,
+     "r0": 0.3519,
+     "n0": 129388,
+     "z": 8.6,
+     "p_one_sided": 0.0
+    }
+   },
+   "signature_lesmis": {
+    "lag3": {
+     "n": 225261,
+     "obs": 0.3404,
+     "exp": 0.3379,
+     "z": 2.44
+    },
+    "momentum": {
+     "r1": 0.3458,
+     "n1": 78582,
+     "r0": 0.3629,
+     "n0": 75624,
+     "z": -7.03,
+     "p_one_sided": 1.0
+    }
+   },
+   "signature_hit_toc": true,
+   "recoverability": {
+    "ari": -0.0003,
+    "null_mean": -0.0,
+    "null_p95": 0.0014,
+    "null_max": 0.003,
+    "percentile": 0.645,
+    "p_empirical": 0.79,
+    "recoverable": false,
+    "class_sizes": [
+     138,
+     708,
+     680
+    ]
+   },
+   "S2": {
+    "cosine": 0.9349,
+    "null_p95": 0.8869,
+    "percentile": 1.0
+   },
+   "verdict": "DEAD"
+  },
+  "X3_nucleus": {
+   "class_dist_toc": {
+    "FRONT": 279697,
+    "ROUNDED": 84225,
+    "NASAL": 54021
+   },
+   "signature_toc": {
+    "lag3": {
+     "n": 417940,
+     "obs": 0.5032,
+     "exp": 0.5052,
+     "z": -2.63
+    },
+    "momentum": {
+     "r1": 0.1955,
+     "n1": 104608,
+     "r0": 0.4228,
+     "n0": 100958,
+     "z": -111.71,
+     "p_one_sided": 1.0
+    }
+   },
+   "signature_lesmis": {
+    "lag3": {
+     "n": 225261,
+     "obs": 0.5371,
+     "exp": 0.5338,
+     "z": 3.08
+    },
+    "momentum": {
+     "r1": 0.1771,
+     "n1": 52362,
+     "r0": 0.4376,
+     "n0": 49300,
+     "z": -90.28,
+     "p_one_sided": 1.0
+    }
+   },
+   "signature_hit_toc": false,
+   "recoverability": {
+    "ari": 0.0002,
+    "null_mean": 0.0,
+    "null_p95": 0.002,
+    "null_max": 0.0022,
+    "percentile": 0.59,
+    "p_empirical": 0.67,
+    "recoverable": false,
+    "class_sizes": [
+     292,
+     344,
+     890
+    ]
+   },
+   "S2": {
+    "cosine": 0.79,
+    "null_p95": 0.8919,
+    "percentile": 0.005
+   },
+   "verdict": "DEAD"
+  },
+  "X4_shape": {
+   "class_dist_toc": {
+    "CV": 191527,
+    "CX": 178815,
+    "V": 47601
+   },
+   "signature_toc": {
+    "lag3": {
+     "n": 417940,
+     "obs": 0.4102,
+     "exp": 0.4059,
+     "z": 5.57
+    },
+    "momentum": {
+     "r1": 0.2458,
+     "n1": 139163,
+     "r0": 0.4317,
+     "n0": 119681,
+     "z": -100.18,
+     "p_one_sided": 1.0
+    }
+   },
+   "signature_lesmis": {
+    "lag3": {
+     "n": 225261,
+     "obs": 0.4063,
+     "exp": 0.3976,
+     "z": 8.41
+    },
+    "momentum": {
+     "r1": 0.2586,
+     "n1": 76733,
+     "r0": 0.4182,
+     "n0": 67578,
+     "z": -64.16,
+     "p_one_sided": 1.0
+    }
+   },
+   "signature_hit_toc": false,
+   "recoverability": {
+    "ari": 0.0054,
+    "null_mean": -0.0001,
+    "null_p95": 0.0054,
+    "null_max": 0.013,
+    "percentile": 0.985,
+    "p_empirical": 0.26,
+    "recoverable": true,
+    "class_sizes": [
+     6,
+     213,
+     1307
+    ]
+   },
+   "S2": {
+    "cosine": 0.8744,
+    "null_p95": 0.7426,
+    "percentile": 1.0
+   },
+   "verdict": "DEAD"
+  }
+ },
+ "notes": {
+  "n_syllables_distinct": 1526,
+  "n_syllables_toc": 417943,
+  "contact_K": 10,
+  "linkage": "average",
+  "cut": "k=3",
+  "null_reps": 200,
+  "bars": "LIVE iff ARI>=p95(null) AND lag3 z>2 AND momentum p<0.05 r1>r0 (Tocqueville)"
+ }
+}

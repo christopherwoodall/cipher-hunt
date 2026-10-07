@@ -1,0 +1,90 @@
+{
+ "provenance": "Allgemeine Zeitung (Augsburg), issues 11-25 Jan 1841, BSB OCR (hOCR) via digipress.digitale-sammlungen.de; harvested by side-period fleet, corpus/ dir",
+ "n_issues": 15,
+ "mehemed_ali_variants": {
+  "Mehemed Ali": 75,
+  "Mehemed(standalone)": 8,
+  "Mehemcd Ali(OCR noise)": 3
+ },
+ "mohammed_note": "15x 'Mohammed' = Dost Mohammed (Afghan emir), NOT a Mehemed-Ali variant: 15",
+ "french_spelling_control": "French RdDM 1841: 293x clean-form 'Méhémet-Ali' (F59 amended) vs German AZ: 75x 'Mehemed Ali' (no hyphen, -d not -t)",
+ "oriental_crisis_topicality": {
+  "Ibrahim": 67,
+  "Pforte": 85,
+  "Pascha": 93,
+  "Sultan": 30,
+  "Aegypten": 84,
+  "Syrien": 60,
+  "Damaskus": 40,
+  "Konstantinopel": 27,
+  "Beyrut": 8,
+  "Acre": 11,
+  "Vicekoenig_variants": 16,
+  "orientalische Frage": 2
+ },
+ "person_cribs_de_fr": {
+  "Thiers": [
+   76,
+   "Thiers"
+  ],
+  "Guizot": [
+   31,
+   "Guizot"
+  ],
+  "Bugeaud": [
+   18,
+   "Bugeaud"
+  ],
+  "Valée": [
+   12,
+   "Valée"
+  ],
+  "Lalande": [
+   7,
+   "Lalande"
+  ],
+  "Mackau": [
+   10,
+   "Mackau"
+  ],
+  "Mounier": [
+   6,
+   "Mounier"
+  ],
+  "Walewski": [
+   2,
+   "Walewski"
+  ],
+  "Soult": [
+   8,
+   "Soult"
+  ],
+  "Palmerston": [
+   8,
+   "Palmerston"
+  ],
+  "Ponsonby": [
+   4,
+   "Ponsonby"
+  ],
+  "Russell(Lord John)": [
+   2,
+   "Russell"
+  ],
+  "Stanley": [
+   2,
+   "Stanley"
+  ],
+  "Orleans": [
+   17,
+   "Orléans"
+  ]
+ },
+ "german_ment_control": {
+  "Parlament": 18,
+  "Moment": 15,
+  "Instrument": 14,
+  "Fundament": 3,
+  "Reglement": 3
+ }
+}

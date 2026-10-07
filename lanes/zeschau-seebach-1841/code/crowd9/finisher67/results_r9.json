@@ -1,0 +1,105 @@
+{
+ "era": {
+  "NW": 92123,
+  "n_pour_et_que": 0,
+  "n_pour_veut_que": 0,
+  "n_pour_ce_que": 0,
+  "n_l_et": 0,
+  "n_l_veut": 0,
+  "n_et_l": 63,
+  "n_veut_l": 1,
+  "n_ce_me_et": 0,
+  "n_ce_me_veut": 0,
+  "pour_star_que_middles": [
+   [
+    "cela",
+    3
+   ],
+   [
+    "empêcher",
+    1
+   ]
+  ]
+ },
+ "standing_recheck": {
+  "199": {
+   "et": [],
+   "veut": []
+  },
+  "630": {
+   "et": [],
+   "veut": []
+  },
+  "633": {
+   "et": [],
+   "veut": []
+  },
+  "902": {
+   "et": [],
+   "veut": []
+  },
+  "1248": {
+   "et": [],
+   "veut": []
+  },
+  "1372": {
+   "et": [],
+   "veut": []
+  },
+  "1450": {
+   "et": [],
+   "veut": []
+  },
+  "1519": {
+   "et": [],
+   "veut": []
+  },
+  "1623": {
+   "et": [],
+   "veut": []
+  }
+ },
+ "bar_N1": {
+  "1248": {
+   "F1_parse_ok": true,
+   "F2_both_zero": true,
+   "F3_no_new_arm": true,
+   "pass": true
+  },
+  "199": {
+   "F1_parse_ok": true,
+   "F2_both_zero": true,
+   "F3_no_new_arm": true,
+   "pass": true
+  }
+ },
+ "bar_E2_630": {
+  "L1": {
+   "E_et": 63,
+   "E_veut": 1,
+   "pass": true
+  },
+  "L2": {
+   "n_11_52": 3,
+   "pass": true
+  },
+  "pass": true
+ },
+ "classification": {
+  "1248": "NEITHER-fence",
+  "199": "NEITHER-fence-conditional-on-08=l-apostrophe",
+  "630": "et-CONDITIONAL(C1:08=l-apos,C2:67-standalone-word)",
+  "633": "open",
+  "902": "open",
+  "1372": "open",
+  "1450": "open",
+  "1519": "open",
+  "1623": "open"
+ },
+ "unscored_leans": {
+  "1519": "et-lean: L1-only 63:1 ('et l' vs 'veut l' frame); 31 class contradictory",
+  "1450": "et-lean: suc==33 3/3 et on classifieds, all R_et1-confounded",
+  "1623": "et-lean: suc==33 3/3 et on classifieds, all R_et1-confounded",
+  "1372": "observation: shares '16 91 67' frame with @1519"
+ }
+}

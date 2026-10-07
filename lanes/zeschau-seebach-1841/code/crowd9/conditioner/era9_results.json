@@ -1,0 +1,260 @@
+{
+ "N": 372751,
+ "pour": {
+  "n": 1215,
+  "P": 0.0032595485994672047
+ },
+ "que_given_pour": {
+  "n": 27,
+  "P": 0.022222222222222223
+ },
+ "qu_given_pour": {
+  "n": 13,
+  "P": 0.010699588477366255
+ },
+ "pour_pron": {
+  "il": 0,
+  "elle": 8,
+  "on": 0,
+  "nous": 23,
+  "vous": 27,
+  "ils": 0,
+  "elles": 1,
+  "je": 0,
+  "tu": 0
+ },
+ "qui_le_n": 14,
+ "qui_le_frame": {
+  "n_total": 14,
+  "n_y_est": 0,
+  "n_xy_verb": 0,
+  "n_x_verb": 4,
+  "ex_verb": [],
+  "ex_est": [],
+  "top": [
+   [
+    [
+     "distingue",
+     "saura"
+    ],
+    1
+   ],
+   [
+    [
+     "tra\u00eenaient",
+     "paraissaient"
+    ],
+    1
+   ],
+   [
+    [
+     "mena\u00e7ait",
+     "mis"
+    ],
+    1
+   ],
+   [
+    [
+     "premier",
+     "nous"
+    ],
+    1
+   ],
+   [
+    [
+     "remplacer",
+     "les"
+    ],
+    1
+   ],
+   [
+    [
+     "suivra",
+     "de"
+    ],
+    1
+   ],
+   [
+    [
+     "menace",
+     "s"
+    ],
+    1
+   ],
+   [
+    [
+     "porte",
+     "a"
+    ],
+    1
+   ],
+   [
+    [
+     "lui",
+     "avait"
+    ],
+    1
+   ],
+   [
+    [
+     "tourmente",
+     "pour"
+    ],
+    1
+   ],
+   [
+    [
+     "nomma",
+     "son"
+    ],
+    1
+   ],
+   [
+    [
+     "sauront",
+     "i"
+    ],
+    1
+   ],
+   [
+    [
+     "d\u00e9barrasse",
+     "des"
+    ],
+    1
+   ],
+   [
+    [
+     "d\u00e9clare",
+     "persistent"
+    ],
+    1
+   ]
+  ]
+ },
+ "ce_qui_le": {
+  "n": 2,
+  "top": [
+   [
+    [
+     "menace",
+     "s"
+    ],
+    1
+   ],
+   [
+    [
+     "d\u00e9barrasse",
+     "des"
+    ],
+    1
+   ]
+  ]
+ },
+ "qui_V_me": 0,
+ "qui_V_follower_top": [
+  [
+   "la",
+   11
+  ],
+  [
+   "les",
+   8
+  ],
+  [
+   "l",
+   3
+  ],
+  [
+   "le",
+   3
+  ],
+  [
+   "il",
+   2
+  ],
+  [
+   "de",
+   2
+  ],
+  [
+   "en",
+   2
+  ],
+  [
+   "servir",
+   2
+  ],
+  [
+   "vous",
+   2
+  ],
+  [
+   "\u00eatre",
+   2
+  ],
+  [
+   "qu",
+   2
+  ],
+  [
+   "d",
+   2
+  ],
+  [
+   "\u00e9tre",
+   2
+  ],
+  [
+   "bien",
+   1
+  ],
+  [
+   "accepter",
+   1
+  ]
+ ],
+ "este_verbs": {
+  "d\u00e9teste": 2,
+  "manifeste": 4,
+  "manifestent": 1,
+  "proteste": 2,
+  "reste": 62,
+  "restent": 7
+ },
+ "que_X_en_V": {
+  "n": 2,
+  "topX": [
+   [
+    "d",
+    2
+   ]
+  ]
+ },
+ "pour_qu_suc": [
+  [
+   "il",
+   6
+  ],
+  [
+   "elle",
+   2
+  ],
+  [
+   "une",
+   2
+  ],
+  [
+   "ils",
+   1
+  ],
+  [
+   "elles",
+   1
+  ],
+  [
+   "aucune",
+   1
+  ]
+ ]
+}
