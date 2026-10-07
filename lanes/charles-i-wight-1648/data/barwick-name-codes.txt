@@ -1,0 +1,146 @@
+PROVENANCE:
+  Work: "The Life of the Reverend Dr. John Barwick, D.D. sometime Fellow of St. John's College
+  in Cambridge; and successively Dean of Durham, and St. Paul's. Written in Latin by his brother
+  Dr. Peter Barwick, ... Translated into English by the editor of the Latin life." London, 1724.
+  Public domain (1724 imprint).
+  Full text URL: https://archive.org/download/lifeofjohnbarwic00barw/lifeofjohnbarwic00barw_djvu.txt
+  (Internet Archive identifier lifeofjohnbarwic00barw; 1724 scan).
+  Retrieval: curl HTTP 200, 2026-10-07 ~05:58Z, 979810 bytes,
+  sha256 66993214c81f70d169c087b86fc18465c0e6bfaa958e1b859440af94b35663b5.
+  Strike 1 (IA did not block).
+  The key below is item "10. A Key to the foregoing Letters." in the APPENDIX (print pp. 395-396;
+  running heads read "APPENDIX. 39^" and "3p($ APPENDIX." in OCR), keying the king's letters to
+  Henry Firebrace printed as Appendix No. I.
+  Selection: grep for the appendix key; text copied VERBATIM from the IA OCR below, with a
+  normalized reading and explicit OCR-caveat list after it. Nothing is invented: gaps are marked.
+================================================================================
+[VERBATIM OCR]
+
+Key  to  the  foregoing  Letters.
+
+A. Mr.  Francis  Crejfet  \
+
+B. Mrs.  Alary  Afliftant  to
+
+the  Lady  Wheeler,  Laundrefs  to    his
+
+Majefty.
+C Col  William  Legg'^^Qxoom  of  the
+
+Bed-Chamber.
+
+2). Henry  Firebrace  ^.
+
+E. Lady  Carlile.
+
+F. — r-  Mr.  Abraham  T>oucett.
+G. The  Prince.
+
+
+'  See  above,  p.  ff,  ^c,
+
+*  Alfo  Lieutenant  General  of  the  Ordinance,  and  in  the  Time
+of  the  Civil  Wars  Governor  of  Chejier  and  Oxford.  He  was
+continued  Groom  of  the  Bed-Chamber,  and  Lieutenant  General
+of  the  Ordinance  to  King  C^^r/e;  the  Second,  and  was  Father  of
+George,  created  Baron  Dartmouth  December  i^,  1682,  who  was
+Father  to  fVdliam  the  present  Earl  of  Dartmouth.  Brinfi  Co?n-
+fend.  Ft/.  I.  f  1 77.  f  See  above,  /.  87,  a^c'
+
+H. Lady
+
+
+3p($     APPENDIX.
+
+//. Lady  Wheeler.
+
+y. The  King.
+
+K.-"^^  Lady  Obtgny  ^.
+X.—-  Mr.  Richard  Qsborn  ^
+
+_;!//. The  Qaeen.
+
+JV^. Mrs.  Whor-woody  Wife  of  jBr^?^^
+
+Whor'wood,
+
+O. Mr.  Z/^zc;  a  Merchant  in  London.
+
+S. The  Duke.
+
+y.-— .—  Mr.  John  Burrows.
+
+W.—-^  Captain  Titus  ^.
+
+Z. Mv.Ed.Worfefyy  late  ^iv  Edward
+
+in  the  Ifle  of  Wight.
+
+================================================================================
+[NORMALIZED READING — OCR long-s and misread capitals resolved; uncertain readings in brackets]
+
+A. Mr. Francis Cresset
+B. Mrs. Mary, Assistant to the Lady Wheeler, Laundress to his Majesty
+C. Col. William Legge, Groom of the Bed-Chamber
+D. Henry Firebrace                       [OCR "2)." read as D.]
+E. Lady Carlisle                         [OCR "Carlile"]
+F. Mr. Abraham Doucett                   [OCR "T>oucett"]
+G. The Prince
+H. Lady [REST LOST — entry truncated by the page break in the OCR; not guessed]
+I. Lady Wheeler                          [OCR "//." read as I.]
+J. The King                              [OCR "y." read as J.]
+K. Lady Aubigny                          [OCR "Obtgny"; read as Aubigny]
+L. Mr. Richard Osborne                   [OCR "X." read as L.; "Qsborn" read as Osborn]
+M. The Queen                             [OCR "_;!//." read as M.; "Qaeen" read as Queen]
+N. Mrs. Whorwood, Wife of [???] Whorwood [OCR "JV^." read as N.; first name unreadable: "jBr^?^^"]
+O. Mr. Z[...] , a Merchant in London      [OCR "Z/^zc;"; surname illegible, begins Z]
+S. The Duke
+V. Mr. John Burrows                      [OCR "y." read as V.]
+W. Captain Titus
+Z. Mr. Ed. Worsley, late [???] Edward [???] in the Isle of Wight
+                                         [OCR "Mv." = Mr.; "Worfefyy" = Worseley;
+                                          the words between "late" and "Edward" illegible]
+
+Codes P, Q, R, T, U, X, Y do not appear in the list (unused codes, or dropped in OCR — not decided).
+
+================================================================================
+[OVERLAP CHECK vs the unknown-cipher tokens — 2026-10-07]
+
+Method: python check in lane (code/titus_test.py + inline counter): the 200 unknown tokens
+(88 + 112) compared against (i) every known Titus/Hopkins figure number from Hillier 1852
+and Tomokiyo F10, and (ii) the Barwick letter-code list above.
+
+1. KNOWN TITUS/HOPKINS FIGURE NUMBERS vs unknown tokens (max unknown token = 592):
+   315 (queen, Titus) x0 | 457 (Lady Carlisle, Titus/Hopkins) x0 | 714 (Dr Fraizer) x0
+   715 (Mrs Whorwood) x0 | 688 (Hillier note) x0 | 560 (the, in "560:315 the queen") x0
+   546 (Hopkins) x0 | 193 (Hopkins) x0 | 351 (Ashburnham narrative) x0
+   39 x1 | 40 x1 | 64 x1 — these three occur but sit in the unknown letters' LOW-number
+   block, so they cannot be carried over as the Hopkins person-codes (different zone,
+   different system); held as coincidence, not evidence.
+   => NONE of the Titus/Hopkins figure assignments occurs in the unknown cipher text.
+
+2. BARWICK LETTER CODES vs unknown tokens: the Barwick list assigns LETTERS only (A-Z),
+   while every token in the two unsolved letters is a NUMBER. There is NO numeric
+   overlap to check:
+   - Token 395 ("the other is to 395 w.ch I defyre you send safely and speedely to him",
+     F6: male person-code) is NOT explained by Barwick: Barwick lists no 395, and its
+     person codes are letters (W, L, N, ...), not numbers. 395's person-hood comes from
+     the Letter-B cleartext (F6), not from this key.
+   - W-g2 ("36 19 5 32 39 12 37 8 97") contains no letter codes at all; no Barwick overlap.
+
+3. CONSISTENCY (corroboration, not a break):
+   - J = The King: matches the "J." signature on the 22 May 1648 Worsley letter
+     (data/letter-worsley-1648-05-22-cipher.txt tail: "So I rest / Your asseured Frend, / J.").
+   - Z = Mr. Ed. Worsley: matches Letter B's heading "1648. Z" (F6) and confirms F11.
+   - W = Captain Titus, L = Osborne, N = Whorwood: identical across the Barwick key
+     (Firebrace letters), Hillier's Titus letters (W=Titus, J=king, F=Dowcett, D=Firebrace
+     used in-line), and the Hopkins letters (F10) — the LETTER-code layer is stable
+     across correspondents while Hillier states the NUMBERS "were changed for the use
+     of every correspondent" (data/hillier1852-titus-cipher.txt, excerpt [F]).
+   - W = Titus vs Letter B's "W:" at Mrs. Pit's (F6): the key would map it to Titus,
+     but the Letter-B text is OCR reconstruction and Titus was dismissed in April 1648;
+     NOT held — recorded as untested, not a finding.
+
+CONCLUSION OF CHECK: the Barwick list neither explains token 395 nor the W-g2 group;
+it corroborates the shared letter-code layer (J/Z/W) without breaking any numeric token.

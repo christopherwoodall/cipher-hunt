@@ -1,0 +1,109 @@
+# NEW CIPHER MATERIAL — same system ("The Cypher"), Worsley 1781 p.122
+# Reconstructed 2026-10-07 from Google Books in-volume OCR snippets
+# (SearchWithinVolume2), volume id wOZWAAAAcAAJ:
+#   "The History of the Isle of Wight", Sir Richard Worsley,
+#   London: A. Hamilton, 1781. Digitized from the National Library of the
+#   Netherlands copy, 18 Jun 2013.
+#   https://books.google.com/books?id=wOZWAAAAcAAJ
+#
+# PROVENANCE / METHOD: full-page text and page images are NOT retrievable
+# (page-image endpoint returns "image not available"; PDF/EPUB download is
+# CAPTCHA-blocked, HTTP 429). Text below is tiled from OCR snippet
+# responses (SearchWithinVolume2). Run 1 (2026-10-07 ~06:00Z): ~15 queries
+# (1648, verrie, meane+Tyme, So+I+rest, Edward Worsley, speedely, Pit,
+# The Cypher, watch+word, the+other+is+to, good+fruits, rest+your+affeured,
+# sent+you+one; raw JSON in /tmp/gb*.json, ephemeral). Run 2
+# (2026-10-07 05:28-05:36Z): 17 queries (Mrs. Pit, Southampton, 395,
+# fifth of this month, watchword, desyre you send, the Cypher,
+# Carisbrooke, Hammond, the fifth, W: and deliver, inclosed, speedely,
+# asseured frend, May, escape, 208 : 343); raw responses consolidated in
+# data/gb-tiling-2026-10-07.json with per-query sha256.
+# [brackets] = snippet-window gaps or OCR uncertainty. Period spelling kept
+# as OCR'd. This is a RECONSTRUCTION, not a verbatim transcription — do not
+# cite letter-B wording as exact.
+#
+# ATTRIBUTION (reasoned, not proven): same cipher system as the 22 May 1648
+# "Z" letter because (i) same correspondents (J -> Z/Worsley), same page and
+# narrative context; (ii) the king explicitly labels the arrangement
+# "The Cypher"; (iii) token 395 occurs both here and in the 22 May letter
+# (W-g1, W-g4). Recorded as attributed, not established.
+#
+# BIBLIOGRAPHIC CORRECTION: cryptiana cites the 22 May letter as
+# "History of the Isle of Wight (1795) p.237". The letter is on p.122 of
+# the 1781 first edition (ESTC T86489); no 1795 Worsley edition is known
+# (Warner's 1795 "History of the Isle of Wight" is a different work and
+# does not contain the letter — see NOTES.md N7).
+
+=== LETTER B (undated in snippets; headed "1648. Z" in print; p.122) ===
+
+Z
+I finde so good fruits in the paines that you take for me, that againe I
+must put you to a little more troble (affeuring you that you shall finde
+me thankefull to you for altogether and that not in a meane way) it is
+that you would goe to Southampton to one Mrs. Pit's house, where you will
+finde W: and deliver to him the inclosed w.ch you will find directed to
+him, and also advise with him, where I shall take the boat and where
+land and the watch word as soone as you can: the other is to 395 w.ch
+I defyre you send safely and speedely to him: but I would not have any
+bodie know that I have written to him. So I rest, Least [almost surely
+"Lest"; OCR reads "Least" in two independent snippet queries] you should
+not understand your most asseured frend, J.
+
+RUN-2 SHARPENING (2026-10-07): the opening clause is now continuous
+("advise with him, where I shall take the boat and where land and the
+watch word as soone as you can" — the run-1 bracketed gap is closed);
+the sign-off reads "So I rest, Least you should not understand your
+most asseured frend, J." — i.e. a caution postscript ("lest you should
+not understand [the directions/cypher]").
+
+CIPHER TOKENS IN LETTER B: "W" (1x), "395" (1x).
+- "W": printed "finde W :" — colon parallels the OCR's digit-group
+  separators ("208 : 343 :"), so read as a cipher token; alternatively an
+  initial. Referent: a man at Mrs. Pit's house, Southampton, to receive the
+  enclosed letter and advise on the boat/landing/watchword.
+- "395": "the other is to 395 w.ch I defyre you send safely and speedely
+  to him" — a MALE PERSON code; the addressee of a second enclosed letter.
+  Same token occurs in the 22 May letter groups W-g1 and W-g4.
+
+=== COVER NOTE ("The Cypher"; p.122, quoted immediately after Letter B) ===
+
+The Cypher; the thin [OCR reads "thin" in two independent snippet queries;
+possibly "this" mis-OCR'd, or genuinely "thin" = a thinly-written / small
+sheet] letter is for him, for whom I sent you one, upon the fifth of this
+month: to w.ch (I thanke you for your care) I have had an Answer and now
+this is a reply to that. If I knew certainely that you had the Cypher
+out of w.ch I have writen this name, I would wryte more freely than
+[...snippet truncated...]
+
+RUN-2 SHARPENING (2026-10-07): the note continues past "certainely" —
+"If I knew certainely that you had the Cypher out of w.ch I have writen
+this name, I would wryte more freely than ..." i.e. the note ITSELF
+names someone in cypher ("this name" written "out of" = in The Cypher);
+the token is not visible in the snippet window. Tail beyond "than" not
+recovered.
+
+NOTE: "upon the fifth of this month" implies a THIRD cipher letter sent
+ca. the 5th (of May 1648, contextually) — text not recovered; the king
+had an answer to it and this note replies.
+
+=== LETTER A (22 May 1648) CROSS-CHECK vs print (p.122) ===
+Google OCR of the same page confirms Tomokiyo's transcription:
+- opening: "...verrie well fatisfied with the discreete and carefull
+  account that you have given me of my Business and particularly that you
+  did 208 : 343 : 294 : ..." (matches data file W-g1 head exactly)
+- tail: "tyme lett me know 379 : 4 : 28 : 5 : 348 : 354 : the ......."
+  (matches W-g5 exactly; the "...." illegible run is equally illegible in
+  Google's OCR — "......." — NOT resolved by the print)
+- sign-off: "206 : 18 : So I rest your affeured frend , J." (matches W-g6
+  + sign-off exactly)
+VERDICT: print confirms the transcription byte-for-byte on all sampled
+groups; it does NOT resolve the illegible bits or sharpen group
+boundaries. The "...." remains unknown.
+
+RUN-2 CONFIRMATION (2026-10-07, query "208 : 343"): the snippet gives
+Letter A's head as "208 : 343 : 294 : ... 74 : 9 : 45 : 86 : 18 : 96 :
+1 : 40 : 82 : 395 : 380 : 2 : 20 : 3 : 230 : 388 : 45 : 36 : 4 : 11 : 7 :
+43 : 31 : 62 : 270 : 248 : now it will be 36 : 19 : 5 : 32 : 39 : 12 : 37 :
+8 : 97 : I defyre you to ..." — W-g1 (29 tokens) + the clear "now it
+will be" + W-g2 (9 tokens), matching
+data/letter-worsley-1648-05-22-cipher.txt exactly.

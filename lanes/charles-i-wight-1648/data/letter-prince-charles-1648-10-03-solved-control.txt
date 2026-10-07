@@ -1,0 +1,10 @@
+# Positive control: cipher groups from the SOLVED 3 Oct 1648 letter (Charles I to
+# Prince Charles, Newport), as transcribed in S. Tomokiyo, "What It Takes to
+# Break Charles I's Cipher Used in the Isle of Wight", Cryptiana, 25 Apr 2021
+# (https://cryptiana.web.fc2.com/code/charlesi2.htm). Published decipherment of
+# the long group: "you can be content to marry mademoiselle in regard of her
+# person, I finding her in (other respects) a good match for you".
+
+wherein I gave you a conditional advice concerning 563 528 456
+
+if 615 211 179 217 52 5 25 62 557 24 9 29 39 56 1 34 19 6 90 34 26 347 15 23 33 50 345 509 447 328 27 5 49 71 448 340 275 350 328 345 (36 563 29 1 39 5 51 37 15 7 72 61) 10 9 285 404 277 615

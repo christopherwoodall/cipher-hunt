@@ -1,0 +1,73 @@
+TITUS-CIPHER RANGE-FIT TEST — unknown nomenclator tokens
+(work order b; 2026-10-07; code/titus_test.py)
+==============================================================================
+Tokens: AUG=88, WORS=112, total=200
+Titus letter-zone bound 1-102 is an ASSUMPTION (source only says 'lower numbers';
+series 1 starts at 103, so 1-102 is the residual). Everything else is quoted from the
+Tomokiyo reconstruction note (data/charlesi-ciphers-tomokiyo.html HTML comment).
+
+--- TITUS classification (all 200 tokens) ---
+  letter-zone(1-102)*              116  (58.0%)
+  word-series1(103-420)             81  (40.5%)
+  word-series2(453-608)              2  (1.0%)
+  numeral/day/random(634-705)        0  (0.0%)
+  titus-gap(421-452)                 1  (0.5%)
+  titus-gap(609-633)                 0  (0.0%)
+  above-titus-max(>705)              0  (0.0%)
+  below-1?                           0  (0.0%)
+  IN some Titus defined zone       199  (99.5%)
+
+--- SOLVED-2021 classification (all 200 tokens; N1/N2 already showed 52.3%/57.1% defined) ---
+  letters(1-90)            109  (54.5%)
+  nulls(100-107)             2  (1.0%)
+  words(142-615)            81  (40.5%)
+  s21-gap(91-99)             6  (3.0%)
+  s21-gap(108-141)           2  (1.0%)
+  above-s21-max(>615)        0  (0.0%)
+  below-1?                   0  (0.0%)
+
+--- DISCRIMINATING TOKENS (zones where Titus and solved-2021 DISAGREE) ---
+Titus-defined but solved-undefined (634-705):
+  [] (n=0)
+Solved-defined but Titus-gap (421-452, 609-633, 616+):
+  [444] (n=1)
+tokens above Titus max 705: []
+max token in corpus: 592
+
+--- TOP-13 previously-undefined tokens vs Titus word series ---
+  token 379  x5   titus=word-series1(103-420)
+  token 212  x4   titus=word-series1(103-420)
+  token 329  x3   titus=word-series1(103-420)
+  token 214  x2   titus=word-series1(103-420)
+  token 339  x3   titus=word-series1(103-420)
+  token  86  x3   titus=letter-zone(1-102)*
+  token 248  x3   titus=word-series1(103-420)
+  token 208  x2   titus=word-series1(103-420)
+  token  96  x2   titus=letter-zone(1-102)*
+  token 395  x2   titus=word-series1(103-420)
+  token 230  x2   titus=word-series1(103-420)
+  token 388  x2   titus=word-series1(103-420)
+  token  97  x2   titus=letter-zone(1-102)*
+  of the 13: 10 in series1(103-420), 0 in series2(453-608), 3 in letter-zone(1-102)
+
+--- CROSS-CHECK: Hillier's real Titus groups vs Tomokiyo's stated ranges ---
+Hillier 1852 prints (verbatim, excerpt [D]): 715 = Mrs. Whorwood,
+457 = Lady Carlisle, 714 = Dr. Fraizer, 560:315 = 'the queen', 315 = queen (not the queen).
+NOTE: 714 and 715 lie ABOVE Tomokiyo's 634-705 numeral/day/random zone.
+So the reconstruction's 634-705 upper bound is not exact even for the Titus cipher itself.
+
+--- PER-LETTER totals ---
+  AUG (88): s1=42 s2=2 num=0 letter-zone=43 gaps=1 above705=0
+  WORS (112): s1=39 s2=0 num=0 letter-zone=73 gaps=0 above705=0
+
+VERDICT ON NUMBERS ALONE: range-fit counts CANNOT separate the two schemes —
+both share the bipartite low-block + high-word-section architecture, and Titus's
+word zones (103-420, 453-608) swallow 40.5% of the unknown tokens almost exactly
+as the solved-2021 word zone (142-615) does. Decisive evidence must come from
+(a) Hillier's own statement that 'the numbers were changed for the use of every
+correspondent' (excerpt [F]) — Titus's cipher was a PER-CORRESPONDENT variant,
+while the unknown nomenclator was shared by at least TWO correspondents (Worsley
+and Prince Charles, sharing 20 tokens across the two letters);
+(b) assignments, not ranges: the actual Titus figure codes (315=queen, 457=Carlisle,
+714=Fraizer, 715=Whorwood, W=Titus, J=king) vs the unknown tokens' cleartext constraints.
+See data/titus-range-test.txt (this file) and NOTES.md for the recorded null/finding.

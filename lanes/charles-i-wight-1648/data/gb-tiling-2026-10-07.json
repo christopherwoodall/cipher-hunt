@@ -1,0 +1,465 @@
+{
+ "provenance": {
+  "volume": "wOZWAAAAcAAJ",
+  "title": "The History of the Isle of Wight, Sir Richard Worsley, London: A. Hamilton, 1781",
+  "endpoint": "https://books.google.com/books?jscmd=SearchWithinVolume2&vid=wOZWAAAAcAAJ&q=<query>",
+  "retrieved": "2026-10-07T05:28-05:36Z via curl",
+  "note": "OCR snippets; not verbatim page text. Query text may bias snippet windows."
+ },
+ "queries": [
+  {
+   "query": "Mrs. Pit",
+   "number_of_results": 1,
+   "sha256": "428974ad840384fa038f2b04787cb91c9a3e2ad727838259ea1bafaf2612fe73",
+   "bytes": 466,
+   "results": [
+    {
+     "page": "122",
+     "snippet": "... Mrs. Pit's house , where you will finde W : and deliver to ' \" him the inclosed w.ch you will find directed to him , and also advise with him ,. \" \" where I shall take the boat and where land and the watch word as foone as you can ..."
+    }
+   ]
+  },
+  {
+   "query": "Southampton",
+   "number_of_results": 10,
+   "sha256": "4a15517820fff6b9c340181e61463fb27d528b166ac070b4b4f638fe974bdee8",
+   "bytes": 3985,
+   "results": [
+    {
+     "page": "10",
+     "snippet": "... Southampton , 191. 4s . for 1152 lay perfons . In the whole county of Southampton , 5541. os . 4d . for 19,975 lay perfons . In all England , Beneficed clergy , who paid } the poll - tax of is . Non - beneficed or regulars ..."
+    },
+    {
+     "page": "17",
+     "snippet": "... Southampton ; in order to fecure the payment of the faid fum to the faid merchants , it was ordained by the king , lords and commons , in parlia- ment assembled , that the faid merchants should ship in vessels to pass the straits of ..."
+    },
+    {
+     "page": "75",
+     "snippet": "... Southampton , reciting * , \" That whereas , in the times of \" Henry , our grandfather ; Richard , our uncle ; and John , our \" father , the Sheriff of Southampton never distrained black cat- \" tle in the Isle of Wight for the use of the ..."
+    },
+    {
+     "page": "109",
+     "snippet": "Sir Richard Worsley. seen thirty or forty Knights and Gentlemen at bowls with Lord Southampton on St. George's Down , where they had an ordi- nary twice every week , on Tuesday and Thursday . On the death of the Earl of Southampton , in ..."
+    },
+    {
+     "page": "134",
+     "snippet": "... Southampton and his Countess , on board a veffel that at- tended Colonel Cooke , and landed near Titchfield , the feat of the Earl of Southampton . Just at their landing they were feized by a party of Colonel Ckey's regiment , but ..."
+    },
+    {
+     "page": "154",
+     "snippet": "... Southampton ; in this building are convenient apartments for the mafter . The school - room is fifty feet long : the treaty be- tween King Charles the First , and the Parliamentary Com- miffioners , was held in this room . The ..."
+    },
+    {
+     "page": "224",
+     "snippet": "... Southampton , in whose family it remained during the reign of Queen Elizabeth . In the reign of James the First it was purchased , with several other manors belonging to the Abbey of Quarr , by Sir Thomas Fleming , Lord Chief Justice of ..."
+    },
+    {
+     "page": "231",
+     "snippet": "... Southampton . THE PARISH OF NORTHWOOD . The parish of Northwood is situated on the west side of the Situation . river Medina , opposite Calshot Castle , at the entrance of Southampton river . It is bounded on the north and north- west ..."
+    },
+    {
+     "page": "lv",
+     "snippet": "... Southampton et a darrein parlement tenuz a Westminster en l'an de noftre feignr . le Roy , qui ore est gtime . Fuit le dit Hugh respondu à sa petition , qu'il fueroit bref al tresorer et as chamberlayns nostre seignr . le Roy que eux ..."
+    },
+    {
+     "page": "cli",
+     "snippet": "... Southampton . Now Queen's College , Oxford . The Abbey of Lyra - The Monastery of Sheen- Walfingham - Miller . puldurcombe . Now Worfley of Ap- Now Flem- The Abbey of Quarr - Mills . ing . Ruffell - the Knights Templars - the Crown ..."
+    }
+   ]
+  },
+  {
+   "query": "395",
+   "number_of_results": 1,
+   "sha256": "1e370e8bcb10ab2d543981a00d3192b3619d74d61e6582fc213af3308a302d53",
+   "bytes": 462,
+   "results": [
+    {
+     "page": "122",
+     "snippet": "... 395 w.ch I defyre you send safely and speedely to him : but \" I would not have any bodie know that I have written to him . So I rest , \" Least you should not understand your most asseured frend , J. \" The Cypher ; the thin letter is for ..."
+    }
+   ]
+  },
+  {
+   "query": "fifth of this month",
+   "number_of_results": 1,
+   "sha256": "8dd72c171d79ef175dcf4e8054cfb3e2c75032fcc3ab89e641fbe5d203137fb4",
+   "bytes": 493,
+   "results": [
+    {
+     "page": "122",
+     "snippet": "... fifth \" of this month : to w.ch ( I thanke you for your care ) I have had an Answer and \" now this is a reply to that . If I knew certainely that you had the Cypher out of \" w.ch I have writen this name , I would wryte more freely than ..."
+    }
+   ]
+  },
+  {
+   "query": "watchword",
+   "number_of_results": 1,
+   "sha256": "9a4d1c6bda424186361be8123908cd49452d37a841d2bc176c87ff35e806b38d",
+   "bytes": 473,
+   "results": [
+    {
+     "page": "122",
+     "snippet": "... watch word as foone as you can : the other is to 395 w.ch I defyre you send safely and speedely to him : but \" I would not have any bodie know that I have written to him . So I rest , \" Least you should not understand your most asseured ..."
+    }
+   ]
+  },
+  {
+   "query": "desyre you send",
+   "number_of_results": 0,
+   "sha256": "d86e0de97ed29360e815385b342055c9375e0ef0e6ce8c5e72e8c513c2479ea8",
+   "bytes": 82,
+   "results": []
+  },
+  {
+   "query": "the Cypher",
+   "number_of_results": 1,
+   "sha256": "3a92881dba50e25974f781474aea6034000e28a096cfe129efa49da26f26b57b",
+   "bytes": 473,
+   "results": [
+    {
+     "page": "122",
+     "snippet": "... The Cypher ; the thin letter is for him , for whom I sent you one , upon the fifth \" of this month : to w.ch ( I thanke you for your care ) I have had an Answer and \" now this is a reply to that . If I knew certainely that you had the ..."
+    }
+   ]
+  },
+  {
+   "query": "Carisbrooke",
+   "number_of_results": 10,
+   "sha256": "7e87e24fd59741b290ba794f997fd33babebeb3ba4280ad1d0d7e0900d1828b9",
+   "bytes": 3998,
+   "results": [
+    {
+     "page": "31",
+     "snippet": "... Carisbrooke Castle , Sir Bartholomew de Lifle , and Sir Theobald Russel , were constituted wardens . The regulations made by the inhabitants , for their security about this time , are found in an old manuscript * , to the follow- ing ..."
+    },
+    {
+     "page": "40",
+     "snippet": "... Carisbrooke claims Carifbrooke the first notice ; not only from its antiquity , but because all Castie . lands were held of the lord , as of the castle of Carisbrooke , by the service of defending it against an enemy , whence it was ..."
+    },
+    {
+     "page": "43",
+     "snippet": "... Carisbrooke is a Saxon fortification , and that the bafe court was added by the Normans ; and what favours this conjecture is , that a part of the wall of the base court , which adjoined to the keep on the east side of the mount , is ..."
+    },
+    {
+     "page": "65",
+     "snippet": "... Carisbrooke , in tail male ; he had also a grant of the Isles of Guernsey and Jersey for life , and was at the same time constituted Warden of the New Forest , in Hampshire , Chief Justice of all the forests fouth of Trent , Constable ..."
+    },
+    {
+     "page": "73",
+     "snippet": "... Carisbrooke . They were chargeable towards making the eldest son of the Lord a Knight , and to the marrying of his daughter . All heirs under age were in the wardship of the Lord of the island . The tenants were bound to defend the ..."
+    },
+    {
+     "page": "88",
+     "snippet": "... Carisbrooke castle . In the eleventh year of the fame reign , Theobald Ruf- sel is named as Captain general of the island § . The office of Warden appears not to have been incompatible with the monastic profession , as in the thirteenth ..."
+    },
+    {
+     "page": "95",
+     "snippet": "... Carisbrooke castle , to make harquebusses , and to keep them in order . 1565 . Horsey . On the death of Richard Worfley , the command of the ifsland was bestowed on Edward Horsey , Efq . who was foon Sir Edward after knighted . He was ..."
+    },
+    {
+     "page": "107",
+     "snippet": "... Carisbrooke , and for his great hospitality there ; and speaks of the time of his government as the period when the island was in its most flourishing state : from which the following extract may not be unpleasing , as it exhibits a ..."
+    },
+    {
+     "page": "117",
+     "snippet": "... Carisbrooke castle ; not as a prisoner , but as a guest : there the island . was not the least appearance of restraint on any of his actions ; he rode out for his recreation when , and where he pleased ; his faithful servants were ..."
+    },
+    {
+     "page": "lxvii",
+     "snippet": "... Carisbrooke and Godshill 49 22. The Heirs of Mill Baxter , Esq . for the Tenths of 6 4 Cofham I I 23. John Fleming , Esq . for the Chauntry of Newport 12 5 9 24. Robert Worsley , Esq . for Bordwood Tenths 3 8 4 25. Mr. Matthew Trickett ..."
+    }
+   ]
+  },
+  {
+   "query": "Hammond",
+   "number_of_results": 9,
+   "sha256": "d4085d11e1356cc820722c26a768390f65585ade742dc01b9bef6c60e0f212d2",
+   "bytes": 3582,
+   "results": [
+    {
+     "page": "45",
+     "snippet": "... Hammond I. On the King's death , it was converted into a prison for his children , wherein died the Lady Elizabeth , whom the levelling rulers of that time are said to have intended to apprentice to a button- Sandowu fort . Yarmouth ..."
+    },
+    {
+     "page": "117",
+     "snippet": "... Hammond was Governor of the Ifland when King Charles the First took refuge there ; and had mond . the custody of that unfortunate Prince , who was induced to hope for protection from him on account of his being nephew to his Chaplain ..."
+    },
+    {
+     "page": "118",
+     "snippet": "... Hammond , who were not long permitted to exercise their functions , a loss the King supplied by his pri- vate devotions , and , on the Lord's day by reading the Scriptures , and other pious books ; not being disposed to hear those ..."
+    },
+    {
+     "page": "119",
+     "snippet": "... Hammond's works , Villalpandus upon Ezekiel , & c . Sandys's Paraphrafe upon David's Pfalms , Herbert's Divine Poems , Taffo's Jerufalem , in Italian , with Fairfax's English tranflation , Ariosto , and Spencer's Fairie Queen . At this ..."
+    },
+    {
+     "page": "124",
+     "snippet": "... Hammond received a letter from Derby- house , directing him to keep a watchful eye over those about the King , as there were fome among them who gave him intelligence . This , though a general hint of fufpicion , was not pointed at any ..."
+    },
+    {
+     "page": "125",
+     "snippet": "... Hammond was privy to this intention , and also posted musqueteers near where the Gentlemen were of neceffity to pass , and in riding off , they luckily received the fire unhurt , getting safely to the vessel that lay in readiness to ..."
+    },
+    {
+     "page": "126",
+     "snippet": "... Hammond to attend him at head - quarters . The particulars of this transaction are related by Colonel Cooke , to the following effect . On the evening of the twenty - ninth , between the hours of seven and eight , the King sent for the ..."
+    },
+    {
+     "page": "127",
+     "snippet": "... Hammond , and to enquire whe- ther he knew of any such design . Cooke opportunely found Ma- jor Rolfe in his chamber , and communicated the King's message . Rolfe denied all knowlege of any fuch thing , saying , you may assure the King ..."
+    },
+    {
+     "page": "135",
+     "snippet": "... Hammond was succeeded in the command of the Island by Colonel William Sydenham , fon of William Sydenham , Efq . of Winford - Eagle , in Dorsetshire , and brother of the celebrated physician of that name . He was an active man against ..."
+    }
+   ]
+  },
+  {
+   "query": "the fifth",
+   "number_of_results": 10,
+   "sha256": "aff3ad0c4f0624f4be38d2ca596a8a63721bd44352cbde23da70fa24d17410a4",
+   "bytes": 3986,
+   "results": [
+    {
+     "page": "33",
+     "snippet": "... the fifth of Henry the Fifth , a body of Frenchmen landed on the island , and boasted they would keep their Christmas there ; but as near a thousand of them were driving cattle towards their ships , they were suddenly attacked by the ..."
+    },
+    {
+     "page": "66",
+     "snippet": "... the Fifth , he was conftituted Justice of South Wales , and Warden of the East Marches towards Scot- land . The next year , attending the King to France , he obtain- ed leave to lead the van at the battle of Agincourt ; but , being a ..."
+    },
+    {
+     "page": "67",
+     "snippet": "... the Fifth , of the Lordship of the Isle of York . Wight , for her life , the castle and manor of Carifbrooke , with the manor of Bowcombe , and the church of Freshwater : the died in the year one thousand four hundred and thirty ..."
+    },
+    {
+     "page": "70",
+     "snippet": "... In Oficio Remembr . Thef . + See his feal , Plate V. No. 28 . † Lord Schales was uncle to Edward the Fifth . Sce his feal , Plate IV . No. 23 . Dugd . Bar . vol . ii . p . 231 . he * he is mistaken , as well as in terming 70 OF THE HISTORY."
+    },
+    {
+     "page": "80",
+     "snippet": "... the Fifth it was granted to Philippa , Duchess of York , by the name of the Forest of Bordwood ; and there is a small build- ing , called the Queen's Bower , on the top of an eminence , from whence , perhaps , she used to view the chace ..."
+    },
+    {
+     "page": "122",
+     "snippet": "... the fifth \" of this month : to w.ch ( I thanke you for your care ) I have had an Answer and \" now this is a reply to that . If I knew certainely that you had the Cypher out of \" w.ch I have writen this name , I would wryte more freely ..."
+    },
+    {
+     "page": "154",
+     "snippet": "... the Fifth , by Agnes Attelode and John Erlesman * . These lands are described as lying on Hunny - Hill , on the north side of the ftream called Lukely , and confifting of about thirty - four acres . The Earl of Southampton , after ..."
+    },
+    {
+     "page": "228",
+     "snippet": "Sir Richard Worsley. Pann . chafe ; and in the fifth of Charles the First was transferred in like manner to Euftace Man , Esquire , who lived during the civil war . He is faid to have buried some valuable property in a wood on the manor ..."
+    },
+    {
+     "page": "257",
+     "snippet": "... the fifth time . Queen Mary , in the first year of her reign , restored Swainston to Wini- frid , daughter and coheir of Henry , Lord Montagu , son of the Countess of Salisbury ; Winifrid first married Sir Thomas Haft- ings , brother of ..."
+    },
+    {
+     "page": "257",
+     "snippet": "... the fifth time . Queen Mary , in the first year of her reign , restored Swainston to Winifrid , daughter and coheir of Henry , Lord Montagu , son of the Countess of Salisbury ; Winifrid first married Sir Thomas Haftings , brother of ..."
+    }
+   ]
+  },
+  {
+   "query": "W: and deliver",
+   "number_of_results": 10,
+   "sha256": "e89677bd58613ceee33bd646377f9ce95ed0d7a6fa50a59708639b9b1a94cf36",
+   "bytes": 3959,
+   "results": [
+    {
+     "page": "37",
+     "snippet": "... with the names of their commanding officers , in the above mentioned reign . The pru- dence of this king is ... deliver to John de Langford , then conftable of the castle ) ten tuns of wine ; one hundred quarters of wheat ; one ..."
+    },
+    {
+     "page": "50",
+     "snippet": "... with permission to govern his tenants and others in the Ifle of Wight by military service , and according to the laws ... deliver his grandfon as a hostage for his fidelity . William resided mostly at his castle of Caresbrooke ; he ..."
+    },
+    {
+     "page": "62",
+     "snippet": "... with many others of the family : that the made her woman fetch her feal , when she sealed the deed , and delivered seisin of the island , and other lands con- veyed to the King , by delivering the Bishop's gloves , which she held in ..."
+    },
+    {
+     "page": "74",
+     "snippet": "... with a free warren on the east fide of the river Medina . He had also wrecks , waifs , and strays , with fairs ... deliver up his grandfon as a hostage ; and , after his decease , it is pro- bable the island was left in the custody ..."
+    },
+    {
+     "page": "120",
+     "snippet": "... with the King for his escape , when the King told him he had not at that time any better means of acknowleging his services . After the Restoration Sir John Dun- comb was made Chancellor of the ... deliver into 120 OF THE HISTORY."
+    },
+    {
+     "page": "121",
+     "snippet": "Sir Richard Worsley. after his arrival , was how fafely to deliver into the King's hands the letters he was charged with : having found a convenient and private place in his chamber for depofiting his dispatches , he flipt a note into ..."
+    },
+    {
+     "page": "122",
+     "snippet": "... W : and deliver to ' \" him the inclosed w.ch you will find directed to him , and also advise with him ,. \" \" where I shall take the boat and where land and the watch word as foone as you can : the other is to 395 w.ch I defyre you send ..."
+    },
+    {
+     "page": "131",
+     "snippet": "... with the Colonel , paffed through all the guards , and returned again , to encourage the King , and shew the ... delivered this positive answer : They THE ISLE OF WIGHT . 131."
+    },
+    {
+     "page": "132",
+     "snippet": "Sir Richard Worsley. pause , the King delivered this positive answer : They have pro- mised me , and I have promised them ; I will not break first . Colonel Cooke begged leave to argue the point with the King , who replied , with all his ..."
+    },
+    {
+     "page": "134",
+     "snippet": "... with the first intel- ligence of the King's removal ; delivering also to both his Ma- jesty's gracious remembrance , as well as his particular injunction to the Colonel . They then all left the island , embarking , with the Earl of ..."
+    }
+   ]
+  },
+  {
+   "query": "inclosed",
+   "number_of_results": 4,
+   "sha256": "6b398cfa6ef04030d8728ab57239ea44a9a74930772cdc7d2d39ba0ebb9e787e",
+   "bytes": 1638,
+   "results": [
+    {
+     "page": "103",
+     "snippet": "... inclosed Carey's re- constrainte , and charginge of furmises withowte profes , con- tryved by the cunyng of some of you , and confented unto by the careless regard of others , in briefe I thus answere . \" To that yowe charge me that ..."
+    },
+    {
+     "page": "122",
+     "snippet": "... inclosed w.ch you will find directed to him , and also advise with him ,. \" \" where I shall take the boat and where land and the watch word as foone as you can : the other is to 395 w.ch I defyre you send safely and speedely to him ..."
+    },
+    {
+     "page": "136",
+     "snippet": "... inclosed a great part of a certain forest there , \" called Parkhurst , in which , during the reigns of your Majesty's \" predecessors , there hath been , time out of mind , enjoyed \" common pasture for their cattle , by the inhabitants ..."
+    },
+    {
+     "page": "154",
+     "snippet": "... inclosed , and appropriated to the support of the free - fchool t . The endowment of the school appears therefore to have been owing to the Corporation of Newport , and not to any encroachment on the foreft , as has been improperly ..."
+    }
+   ]
+  },
+  {
+   "query": "speedely",
+   "number_of_results": 1,
+   "sha256": "bc2a31a322333b446a18adee0c95efb1db3eeda34881fc9b3e55bc72182db979",
+   "bytes": 471,
+   "results": [
+    {
+     "page": "122",
+     "snippet": "... speedely to him : but \" I would not have any bodie know that I have written to him . So I rest , \" Least you should not understand your most asseured frend , J. \" The Cypher ; the thin letter is for him , for whom I sent you one , upon ..."
+    }
+   ]
+  },
+  {
+   "query": "asseured frend",
+   "number_of_results": 0,
+   "sha256": "2cfcf293958f56728786ca58c68be10401e5d29b850bce4fa4d5f4ae8ee7f89c",
+   "bytes": 265,
+   "results": []
+  },
+  {
+   "query": "May",
+   "number_of_results": 10,
+   "sha256": "6fcee9850b8f679ead187d459f2dbc244c7f46f334799583afd96dedd59560ea",
+   "bytes": 3923,
+   "results": [
+    {
+     "page": "105",
+     "snippet": "... may fone be releved , and if yowe have injured me yowe may be reformed . Your favours to for- beare me in any respecte as I defire not , so what any of your pri- vate malice can do against me , I feare not : and whereas not answering ..."
+    },
+    {
+     "page": "127",
+     "snippet": "... may assure the King from me , that he may rest quietly this night , for on my life he shall have no disturbance this night . The Co- lonel observing he laid so much emphasis on the words , this night , urged him farther to declare if ..."
+    },
+    {
+     "page": "138",
+     "snippet": "... may be \" viewed and replenished , that your Majesty's faid ifle may be put \" in some better posture of defence than it is at present ; and that , \" by order from your Majesty , the inclosures of the faid foreft may \" be laid open ..."
+    },
+    {
+     "page": "139",
+     "snippet": "... may poffibly \" have one that shall live more sociably among you , you may 66 66 never have one that will use his power less than my Lord Culpeper . \" 1667 . Sir Robert The Lord Culpeper however refigned the government of the Ifle of ..."
+    },
+    {
+     "page": "151",
+     "snippet": "... may be observed , that almost all the Boroughs which had this revived , or newly conferred privi- * Prynne's Brev ... may foon be fupplied by another , that may doe the kingdome , and particularly the Isle of Wight , and that ..."
+    },
+    {
+     "page": "xxxvi",
+     "snippet": "... may not be probably able to make their parlie good , then one to repaire unto them to knowe what they are , and the other to keep further out of danger , foe that he may escape them , and fly to the searcher for ayd . And alfoe that the ..."
+    },
+    {
+     "page": "lxi",
+     "snippet": "... may labour aboute Werres . And youre Castell withynne youre seid Ifle is not repeired , no- ther the walles ... may like unto youre Highnesse to ordeyne and appoynte other elles to commawnde suche as shall occupie the said Ile ..."
+    },
+    {
+     "page": "lxxiii",
+     "snippet": "... may be vacated ; and that the faid knights , lords of mannors , and free tenants of the said Isle may be restored to their auncient tenures , and by the fame rents and services they held their said mannors and lands of the said Earles ..."
+    },
+    {
+     "page": "lxxxii",
+     "snippet": "... may fell xxx Acr . of ferses pc . y Acr . xvjd . Sm . xls therefore the leffe fold because thesaid P'or and Reynold may take there at ther will and pleasure , & c . Also as it appereth by the Feodarie of y Isle W. of St. Martyn holdeth ..."
+    },
+    {
+     "page": "clvii",
+     "snippet": "... may receave furdre Direction as the Case shall requyre , and if it shall com to yo . know- ledge that Either the Pties in fault have conveyed themselfs or the Hawks out of the Compaffe of yo . \" Authorities , Ye shall by virtue hereof ..."
+    }
+   ]
+  },
+  {
+   "query": "escape",
+   "number_of_results": 10,
+   "sha256": "c508a949653244a32948f2807bb979c865cf6bab75382e3a6bffe75dd3e8168c",
+   "bytes": 3923,
+   "results": [
+    {
+     "page": "28",
+     "snippet": "... escape , were taken ad La- pidem , which writers conjecture to have been Stoneham , near Southampton t . They were , according to the favage usage of those times , doomed to death ; but Ceadwalla's clemency ex- tended fo far as to ..."
+    },
+    {
+     "page": "29",
+     "snippet": "... escape were driven on shore , and their crews being taken , were carried before the king at Winchester , where he caused them all to be hanged as public robbers . Although fuch transient invasions ( as they produced no exten- five nor ..."
+    },
+    {
+     "page": "43",
+     "snippet": "... escape : beyond these are the barracks and governor's house ; the latter contains several good rooms , with coved cielings . It has , cсса- fionally , been used for a military hospital ; and certainly a more proper place , with respect ..."
+    },
+    {
+     "page": "120",
+     "snippet": "... escape , when the King told him he had not at that time any better means of acknowleging his services . After the Restoration Sir John Dun- comb was made Chancellor of the Exchequer . Soon after the arrival of the King at Carisbrooke ..."
+    },
+    {
+     "page": "121",
+     "snippet": "... some means for the King's escape , his imprisonment being by this time grown in- tolerable . Among other schemes , Firebrace propofed his getting R out : out of the chamber - window , but fearing THE ISLE OF WIGHT . 121."
+    },
+    {
+     "page": "124",
+     "snippet": "... escape ; every part of the plan being so judicioufly arranged . It now became necessary to give notice of the disappointment to those who waited without , which Firebrace could find no better means of doing , then by throwing stones ..."
+    },
+    {
+     "page": "125",
+     "snippet": "Sir Richard Worsley. Another ineffectual attempt for the King's escape was made Another at- after the departure of Mr. Firebrace , by his remaining affociates : the particulars are thus related by Lord Clarendon , and also by a private ..."
+    },
+    {
+     "page": "130",
+     "snippet": "... escape , as the readiest way to procure that personal treaty with his Parliament which he so earnestly defired , as well as to secure his perfon from danger ; but , before they could proceed to confider on the method of escape , the ..."
+    },
+    {
+     "page": "131",
+     "snippet": "... escape was your best security . The Duke of Richmond added , that he thought an escape feasable enough , and turning . about to Colonel Cooke , asked him how he passed to and fro ? The Colonel replying he had the word ; the Duke asked ..."
+    },
+    {
+     "page": "xxxvi",
+     "snippet": "... escape them , and fly to the searcher for ayd . And alfoe that the watch apprehend all rogues and idle persons that are strangers to be brought before some justice of peace to be punished and fent out of the contry . Item , the ..."
+    }
+   ]
+  },
+  {
+   "query": "208 : 343",
+   "number_of_results": 1,
+   "sha256": "d9d2393157be22ff0218f4fc5e02d31f08df4071b70e95c19921a2027de9f716",
+   "bytes": 467,
+   "results": [
+    {
+     "page": "122",
+     "snippet": "... 208 : 343 : 294 : \" as ،، 74 : 9 : 45 : 86 : 18 : 96 : 1 : 40 : 82 : 395 : 380 : 2 : 20 : 3 : 230 : 388 : 45 : 36 : 4 : 11 : 7 : 43 : 31 : 62 : 270 : 248 : now it will be 36 : 19 : 5 : 32 : 39 : 12 : 37 : 8 : 97 : I defyre you to ..."
+    }
+   ]
+  }
+ ]
+}

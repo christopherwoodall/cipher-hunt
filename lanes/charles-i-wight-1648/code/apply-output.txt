@@ -1,0 +1,79 @@
+Published 2021 nomenclator loaded: 180 distinct tokens -> 180 readings
+
+==============================================================================
+CONTROL: solved 3 Oct 1648 group (61 tokens)
+<the> <Scots> <offer> <you> <could> <be> <con> t e n t <to> m a r r y _null_ m a d a m o <is> e l l e <in> <regard> <of> <her> p e r s <on> <I> <find> <ing> <her> <in> o <the> r _null_ r e s p e c t s _null_ a <good> <match> <for> <you>
+--- control check (key applied vs key's own readings) ---
+CONTROL KEY-SELF-CONSISTENT: True
+External check: this decode matches the published decipherment
+(Tomokiyo 2021: 'you can/could be content to marry mademoiselle in
+regard of her person, I finding her in (other respects) a good
+match for you'; Cipherbrain May-2021 plaintext image identical).
+
+==============================================================================
+LETTER: Charles I -> Prince Charles, 1 Aug 1648 (UNSOLVED)
+file: letter-prince-charles-1648-08-01-cipher.txt | cipher tokens: 88
+defined in published key: 46/88 (52.3%)
+tokens in letter section 1-90: 40 | null tokens: 6
+top-10 undefined tokens: [(379, 4), (212, 4), (329, 3), (93, 2), (214, 2), (196, 2), (361, 1), (185, 1), (592, 1), (126, 1)]
+--- decode (letter=plain, [NNN]=undefined in key, _null_=null) ---
+[379] [361] [185] q h [329] [592] d [93] e [214] [126] [379] a p _null_ [258] d h [212] [370] [196] [379] [245] <im> [363] [329] <any> [246] d e [212] [196] [444] <aid> g m k f o _null_ _null_ l x [329] [331] [380] c r r [338] z _null_ [365] e h [532] a i [282] [212] [202] [379] [371] [182] <im> [337] [212] [140] s w e e d _null_ [381] [214] <im> [93] [85] d l [220] _null_ z [152] e x
+
+==============================================================================
+LETTER: Charles I -> Worsley ('Z'), 22 May 1648 (UNSOLVED)
+file: letter-worsley-1648-05-22-cipher.txt | cipher tokens: 112
+defined in published key: 64/112 (57.1%)
+tokens in letter section 1-90: 69 | null tokens: 4
+top-10 undefined tokens: [(86, 3), (248, 3), (208, 2), (96, 2), (395, 2), (230, 2), (388, 2), (97, 2), (257, 2), (356, 2)]
+--- decode (letter=plain, [NNN]=undefined in key, _null_=null) ---
+[208] [343] [294] w a n [86] b [96] _null_ s [82] [395] [380] h h g [230] [388] n o f [11] c l i t [270] [248] o a e k r h p b [97] [396] [213] [355] [204] q i [363] [257] w o o a k [395] k n f u q l b e [88] <defeat> [308] [267] [356] [282] [96] t [86] [205] c [356] y e [97] [206] [231] [248] q _null_ h h [230] [388] o o [257] [208] [86] n [268] b g e [240] d s [248] [416] [303] _null_ a _null_ n [379] f q e [348] [354] [206] b
+
+==============================================================================
+CRIB TEST: decode maximal runs of tokens in the 1-90 letter block
+with the published letter homophones, ignoring the word section.
+--- 1 Aug 1648: 12 letter-runs of length>=2
+   28 20                        -> qh
+   90 37                        -> ap
+   6 2                          -> dh
+   16 50                        -> de
+   13 44 32 14 26               -> gmkfo
+   43 65                        -> lx
+   17 49 29                     -> crr
+   5 20                         -> eh
+   9 41                         -> ai
+   30 74 5 50 60                -> sweed
+   6 23                         -> dl
+   5 65                         -> ex
+--- Worsley 22 May 1648: 14 letter-runs of length>=2
+   74 9 45                      -> wan
+   2 20 3                       -> hhg
+   45 36 4                      -> nof
+   7 43 31 62                   -> clit
+   36 19 5 32 39 12 37 8        -> oaekrhpb
+   28 21                        -> qi
+   64 36 46 9 32                -> wooak
+   42 35 14 53 38 23 18 50      -> knfuqlbe
+   66 50                        -> ye
+   20 2                         -> hh
+   46 36                        -> oo
+   8 3 50                       -> bge
+(Runs decode to non-English strings: the 1-90 letter block is not
+ shared either, or the low tokens are word codes of a different
+ nomenclator. No English cribs emerge.)
+
+==============================================================================
+VERDICTS (key-fit test against the published 2021 nomenclator):
+ - Charles I -> Prince Charles, 1 Aug 1648 (UNSOLVED): coverage 52.3% -> KEY DOES NOT FIT (different nomenclator)
+ - Charles I -> Worsley ('Z'), 22 May 1648 (UNSOLVED): coverage 57.1% -> KEY DOES NOT FIT (different nomenclator)
+
+Notes:
+ * The 1 Aug 1648 letter's most frequent tokens (379 x4, 212 x4,
+   329 x3, 214 x3, 339 x3) are ALL undefined in the published key.
+ * The Worsley letter's group '36 19 5 32 39 12 37 8 97' decodes to
+   'o a e k r h p b [97]' = gibberish where the clear context
+   ('now it will be ___ I desyre you to enquyre') demands a word;
+   token 97 lies outside every published section (letters 1-90,
+   nulls 100-107, words 142-615).
+ * This matches the published finding (Cipherbrain, 5 May 2021): the
+   1 Aug and 22 May letters 'wurden mit einem anderen Nomenklator
+   verfasst und bleiben daher vorlaeufig ungeloest'.

@@ -1,0 +1,120 @@
+CRIB ATTEMPTS — unknown nomenclator, Charles I Isle of Wight 1648
+200 tokens; battery run 2026-10-07 (run 1), re-run same day with
+Phase 3 (run 2: single-token semantic cribs from the new Worsley
+p.122 material). Single held cribs are hypotheses, not findings
+(see convergence check at end).
+==============================================================================
+
+CRIB EXPEDIENT | group W-g2 (9 tokens): 36 19 5 32 39 12 37 8 97
+  context: "...now it will be [CIPHER] I desyre you to enquyre whether or not..."
+  rationale: ctx 'now it will be ___ I desyre you to enquyre': 9 tokens, 8 of them in 1-90; 'expedient' (advantageous) is standard 17th-c state diction; 9 letters = 9 tokens, no nulls assumed
+  mode: spell
+  [no-null] PLAUSIBLE: 5->p, 8->n, 12->i, 19->x, 32->e, 36->e, 37->e, 39->d, 97->t
+
+CRIB REQUISITE | group W-g2 (9 tokens): 36 19 5 32 39 12 37 8 97
+  context: "...now it will be [CIPHER] I desyre you to enquyre whether or not..."
+  rationale: ctx as above; 'now it will be requisite' — same slot, 9 letters
+  mode: spell
+  [no-null] IMPLAUSIBLE (frequency): tok5(x6)->'q' rate3.0%/eng0.10% ratio30.0
+
+CRIB IMPORTANT | group W-g2 (9 tokens): 36 19 5 32 39 12 37 8 97
+  context: "...now it will be [CIPHER] I desyre you to enquyre whether or not..."
+  rationale: ctx as above; period sense 'urgent, of moment'; 9 letters
+  mode: spell
+  [no-null] PLAUSIBLE: 5->p, 8->n, 12->t, 19->m, 32->o, 36->i, 37->a, 39->r, 97->t
+
+CRIB NEEDFULL | group W-g2 (9 tokens): 36 19 5 32 39 12 37 8 97
+  context: "...now it will be [CIPHER] I desyre you to enquyre whether or not..."
+  rationale: ctx as above; period spelling (double l); 8 letters + 1 null among the 9 tokens (97 is the odd-one-out, the only token >90 in the group)
+  mode: spell-null1
+  [null@pos1(tok36)] PLAUSIBLE: 5->e, 8->l, 12->f, 19->n, 32->e, 37->u, 39->d, 97->l
+  [null@pos2(tok19)] PLAUSIBLE: 5->e, 8->l, 12->f, 32->e, 36->n, 37->u, 39->d, 97->l
+  [null@pos3(tok5)] PLAUSIBLE: 8->l, 12->f, 19->e, 32->e, 36->n, 37->u, 39->d, 97->l
+  [null@pos4(tok32)] PLAUSIBLE: 5->e, 8->l, 12->f, 19->e, 36->n, 37->u, 39->d, 97->l
+  [null@pos5(tok39)] PLAUSIBLE: 5->e, 8->l, 12->f, 19->e, 32->d, 36->n, 37->u, 97->l
+  [null@pos6(tok12)] PLAUSIBLE: 5->e, 8->l, 19->e, 32->d, 36->n, 37->u, 39->f, 97->l
+  [null@pos7(tok37)] PLAUSIBLE: 5->e, 8->l, 12->u, 19->e, 32->d, 36->n, 39->f, 97->l
+  [null@pos8(tok8)] PLAUSIBLE: 5->e, 12->u, 19->e, 32->d, 36->n, 37->l, 39->f, 97->l
+  [null@pos9(tok97)] PLAUSIBLE: 5->e, 8->l, 12->u, 19->e, 32->d, 36->n, 37->l, 39->f
+
+CRIB REQUIRED | group W-g2 (9 tokens): 36 19 5 32 39 12 37 8 97
+  context: "...now it will be [CIPHER] I desyre you to enquyre whether or not..."
+  rationale: ctx as above; 8 letters + 1 null; control: contains q (rare)
+  mode: spell-null1
+  [null@pos1(tok36)] IMPLAUSIBLE (frequency): tok32(x3)->'q' rate1.5%/eng0.10% ratio15.0
+  [null@pos2(tok19)] IMPLAUSIBLE (frequency): tok32(x3)->'q' rate1.5%/eng0.10% ratio15.0
+  [null@pos3(tok5)] IMPLAUSIBLE (frequency): tok32(x3)->'q' rate1.5%/eng0.10% ratio15.0
+  [null@pos4(tok32)] IMPLAUSIBLE (frequency): tok5(x6)->'q' rate3.0%/eng0.10% ratio30.0
+  [null@pos5(tok39)] IMPLAUSIBLE (frequency): tok5(x6)->'q' rate3.0%/eng0.10% ratio30.0
+  [null@pos6(tok12)] IMPLAUSIBLE (frequency): tok5(x6)->'q' rate3.0%/eng0.10% ratio30.0
+  [null@pos7(tok37)] IMPLAUSIBLE (frequency): tok5(x6)->'q' rate3.0%/eng0.10% ratio30.0
+  [null@pos8(tok8)] IMPLAUSIBLE (frequency): tok5(x6)->'q' rate3.0%/eng0.10% ratio30.0
+  [null@pos9(tok97)] IMPLAUSIBLE (frequency): tok5(x6)->'q' rate3.0%/eng0.10% ratio30.0
+
+==============================================================================
+CROSS-GROUP COMPATIBILITY — pairs of PLAUSIBLE variants from DIFFERENT
+groups whose token->letter maps agree (shared tokens, same letter).
+Agreement here would be converging evidence; disagreement kills the pair.
+  no cross-group pairs share tokens — convergence untestable with
+  this battery (all plausible variants live on W-g2 alone).
+
+==============================================================================
+TALLY: 5 crib candidates, 21 spell variants evaluated
+  PLAUSIBLE: 11 | IMPLAUSIBLE (frequency): 10
+  cross-group agreeing pairs: 0
+Attempted without a viable candidate (recorded, not fitted):
+  W-g5 (6 tokens '379 4 28 5 348 354' after 'lett me know', before
+   'the ....'): mixed high/low tokens; no 6-letter content word fits
+   the slot grammatically; word-code/split hypotheses unverifiable.
+  W-g6 (2 tokens '206 18' after 'the ....', before 'So I rest'):
+   2-letter spell vs word-code+null indistinguishable; underdetermined.
+Not attempted (no forcing context): A-g1 (88 tokens, single block),
+  W-g1 (29), W-g3 (23), W-g4 (43) — too long for single-word cribs.
+
+READING: the plausible W-g2 fits (expedient / important / needfull x9
+null-variants) are mutually exclusive alternatives for ONE group.
+With no second cribbable group sharing tokens, they cannot be
+discriminated: crib density is too low to resolve the unknown mapping.
+
+==============================================================================
+SOLVED-KEY WORD-GLOSS CARRYOVER TEST (parent suggestion): unknown
+tokens that coincide with solved 2021 word-section entries, checked
+for contextual fit.
+overlap: 4 distinct tokens, 6/200 occurrences (3.0%)
+  token 149 (x1) = solved 'aid' [yellow]
+  token 165 (x1) = solved 'any' [yellow]
+  token 236 (x1) = solved 'defeat' [green]
+  token 339 (x3) = solved 'im' [green]
+verdict: MISS — overlap at/below chance (any unknown token in 142-615
+has ~20% chance of coinciding with one of the 94 solved entries by
+number alone); the two 'green' coincidences (339='im' x3, 236='defeat'
+are single-token, context-free, and the nomenclators are established
+as different (N1-N3). 236 sits at W-g4 pos 1 after 'but for this'
+('but for this defeat ...' reads plausibly) but one token is not
+evidence; not held.
+
+==============================================================================
+PHASE 3 — SINGLE-TOKEN SEMANTIC CRIBS from the new Worsley p.122
+material (data/letter-worsley-1648-southampton-cover-ocr.txt,
+attributed same-system: shared correspondent Z, king's 'The Cypher'
+label, token 395 shared with W-g1/W-g4). These are semantic
+constraints, not spelling cribs: they cannot enter the cross-group
+letter-agreement test, only a compatibility check.
+  C1: token 395 = male PERSON (name-code). Letter-B context: 'the
+      other [letter] is to 395 w.ch I defyre you send safely and
+      speedely to him'. Occurs in the 200-token corpus at W-g1
+      ('...82 395 380...' after 'particularly that you did') and
+      W-g4 ('...32 395 42...' inside the 'whether or not [CIPHER]
+      group before 'but for this').
+      COMPATIBLE: a person-code is grammatically fittable in both
+      slots (W-g1: 'that you did [someone] 380 ...'; W-g4: a person
+      among other coded words after 'whether or not').
+  C2: token 'W' = male person at Mrs. Pit's house, Southampton
+      ('where you will finde W: and deliver to him the inclosed').
+      Non-numeric in print; not in the 200-token corpus; recorded,
+      not fitted.
+  verdict: C1/C2 are COMPATIBLE with the corpus but UNDERDETERMINED
+  (single tokens, no spelling). 395 does not occur in W-g2, so the
+  new constraints cannot discriminate the W-g2 candidates
+  (expedient/important/needfull): no convergence. The battery's
+  verdict is unchanged — crib density still too low.
