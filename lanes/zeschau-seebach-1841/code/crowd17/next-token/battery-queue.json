@@ -852,12 +852,16 @@
   {
    "id": "frame-62-94-79",
    "claim": "\"62-94-79-14-60\" frame battery (new unresolved frame-type)",
-   "status": "queued",
+   "status": "verdict",
    "priority": 2,
    "evidence": "@1363 and @1687 near-identical x2 (one frame-type, two instances); if 79='tout': 'on ne tout [14][60]' unparsed",
    "adverses": "unparsed under standing values",
    "bars": "resolve iff frame parses under standing values or with one stated new-value assumption",
-   "verdict": null
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-frame-62-94-79.md",
+    "date": "2026-10-08"
+   }
   },
   {
    "id": "formula-94-07-06-94",
@@ -872,12 +876,16 @@
   {
    "id": "prof-53",
    "claim": "53 single-parse profile (decides 2/5 'ne' windows)",
-   "status": "queued",
+   "status": "verdict",
    "priority": 2,
    "evidence": "'53 ne' x2 (@169, @709) vs 'donne' x2 alternative ('on donne 21', '35 donne 71'); 53-12-41 (@58) and 53-12-44 (@1582) break 'donne'; 53's top follower is 12 (4/11); 53 n=11",
    "adverses": "53's parse unresolved; gates the 'ne' reading in 2 of 5 windows",
    "bars": "resolve iff single parse covers all 11 of 53's windows",
-   "verdict": null
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-prof-53.md",
+    "date": "2026-10-08"
+   }
   },
   {
    "id": "prenne-70-12-94",
@@ -896,12 +904,16 @@
   {
    "id": "ne-le-1075",
    "claim": "\"ne le\" frame test @1075",
-   "status": "queued",
+   "status": "verdict",
    "priority": 2,
    "evidence": "@1075 '98 12 48 77 78 64' = '98 ne le 78 qui' (strongest negation-shaped window, provisional 77='le'); cross-check 78's verb/noun profile",
    "adverses": "78's profile open (78='ver' queued as ver-78)",
    "bars": "resolve iff 78's profile allows heading a verb phrase after 'ne le'; else weaken the frame",
-   "verdict": null
+   "verdict": {
+    "result": "kill",
+    "report": "code/crowd17/report_inbox/battery-ne-le-1075.md",
+    "date": "2026-10-08"
+   }
   },
   {
    "id": "croire-33-compound85",
@@ -943,7 +955,7 @@
    "bars": "(a) run joint with ver-78: if 78='ver' promotes, the four windows (@314, @574, @983, @1165) must read 'verdict...' (45='dict' at minimum at these windows) or 45='ce' is killed at 4/22 windows; (b) state any positional rule that lets both claims survive, with per-window parses",
    "verdict": {
     "result": "null",
-    "report": "code/crowd17/report_inbox/battery-fork-78-45-adjudication.md",
+    "report": "report_inbox/processed/battery-fork-78-45-adjudication.md",
     "date": "2026-10-08"
    }
   },
@@ -1038,12 +1050,16 @@
   {
    "id": "ne-30-1700",
    "claim": "'n\\'importe' rival (30='importe') vs pas-30 at @1700",
-   "status": "queued",
+   "status": "verdict",
    "priority": 2,
    "evidence": "@1700 '[85] dire ne [30]' ungrammatical under 'dire ne' order (94='ne' promoted); 'n\\'importe' rival reading",
    "adverses": "reconcile with queued pas-30; fence @1700 if neither parse holds",
    "bars": "resolve iff @1700 parses under one of {30='pas', 30='importe'} with standing values; else fence",
-   "verdict": null
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-ne-30-1700.md",
+    "date": "2026-10-08"
+   }
   },
   {
    "id": "nest-subject-86-62-42",
@@ -1072,12 +1088,16 @@
   {
    "id": "elision-77-84",
    "claim": "77='le' elides to l\\' exclusively before vowel-initial 84 (A15-C1 support leg)",
-   "status": "queued",
+   "status": "verdict",
    "priority": 2,
    "evidence": "full 44-window 77-follower scan: 77->{59,94,46,40,34,47,17} = 0 vs 77->84 = 7; 84 the sole known vowel-initial follower",
    "adverses": "77's unknown followers (86/81/76/44/89) could be vowel-initial (open); 77='le' provisional (le-77 null) - SUPPORTING leg, not a 77 promotion",
    "bars": "promote-LEG iff the zero-counts re-derive on the repaired stream AND no other 77 follower is shown vowel-initial; else record as provisional-only",
-   "verdict": null
+   "verdict": {
+    "result": "promote",
+    "report": "code/crowd17/report_inbox/battery-elision-77-84.md",
+    "date": "2026-10-08"
+   }
   },
   {
    "id": "ni-1740-1742",
@@ -1420,12 +1440,16 @@
   {
    "id": "fork-78-45-rerun",
    "claim": "re-run the 78-45 fork battery once ver-78 resolves",
-   "status": "queued",
+   "status": "verdict",
    "priority": 1,
    "evidence": "fork-78-45-adjudication null (2026-10-08): clause (a) antecedent never fired; what-if parses for all four windows (@314/@574/@983/@1165) recorded in battery-fork-78-45-adjudication.md",
    "adverses": "R16-005 LEAD grading; A11 HOLD; W1 ambiguity",
    "bars": "(a) if ver-78 promotes 78='ver', test the four windows for 'verdict...' reads; kill 45='ce' at exactly the windows that force it and record kill scope as k/22; (b) if ver-78 kills 78='ver', 45='dict' loses its syllabic host - kill dict-45's fork arm",
-   "verdict": null
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-fork-78-45-rerun.md",
+    "date": "2026-10-08"
+   }
   },
   {
    "id": "dict-78-45-wordbound",
@@ -2006,12 +2030,16 @@
   {
    "id": "split-92-adjudication",
    "claim": "red team adjudicates 92's tripartite governor profile: split/polyvalence declaration vs governor misread",
-   "status": "queued",
+   "status": "verdict",
    "priority": 1,
    "evidence": "class-92 null (2026-10-08): full window table in battery-class-92.md: {00x6}->verbal (incl. @1154 stem), {11x3}->nominal, {84x2}->finite-verbal, {@1550}->nominal-subject; @1022 residual anomalous under all classes. NOTE: §7 sole-polyvalence (67) blocks battery-level split — this target gathers evidence for red-team adjudication; the battery NEVER decides the split",
    "adverses": "A14 set-level INF-signal; queued prenne-92-noun (coordinate, do not duplicate); 92's killed '-ere' value stays killed. Supervisor note 2026-10-08: not dispatched to the red-team queue; evidence-gathering only",
    "bars": "red-team adjudication only — battery may gather windows, never decide the split",
-   "verdict": null
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-split-92-adjudication.md",
+    "date": "2026-10-08"
+   }
   },
   {
    "id": "seg-92-354-356",
@@ -2021,6 +2049,212 @@
    "evidence": "class-92 null (2026-10-08): @354 '40 92' (40='e' banked letter directly before 92); @356 '98 92 47'; 92's only self-adjacent windows ('92 98 92' sandwich)",
    "adverses": "92's killed '-ere' value NOT re-litigated — segmentation only; 98 open",
    "bars": "resolve iff one segmentation parses both windows with <=1 non-granted value assumption; else fence",
+   "verdict": null
+  },
+  {
+   "id": "il-62",
+   "claim": "62='il' (subject pronoun): all 62 windows parse under 'il', resolving the open half of the 62/84 tension",
+   "status": "verdict",
+   "priority": 1,
+   "evidence": "62->94 x9 read 'il ne' cleanly 8/9 (collision-62-84 re-derivation: @100/@761/@840/@1329/@1362/@1686/@1704/@1772; @508 fenced residual); 62->59 x0 (zero crossover with 84); 62 never follows 46='que' (0/35); 62 n=35",
+   "adverses": "@508 '67 77 62 94 64 98' residual ('le il ne' ungrammatical under 77='le'; 'ne qui' ungrammatical under both 'il'/'on'); 21->62 x5; 62->48 x6; lon-62-on-conditioned rival (conditioned 'on' in elision-context only)",
+   "bars": "promote 62='il' iff every 62 window parses under 'il' with zero hard contradictions and all listed adverses are answered (re-parsed cleanly, fenced with stated cause, or shown misread); kill iff any window forces 'il' false or a cleaner rival value is demonstrated on the same frames; else null with 1-3 follow-up targets. Do not re-litigate 62='on' (killed, collision-62-84).",
+   "verdict": {
+    "result": "promote",
+    "report": "code/crowd17/report_inbox/battery-il-62.md",
+    "date": "2026-10-08"
+   }
+  },
+  {
+   "id": "noun-76",
+   "claim": "76 is a (masculine) noun: 'le [76]' x3 are determiner+noun legs (R16-001 promotion docket)",
+   "status": "verdict",
+   "priority": 1,
+   "evidence": "'77 76' x3 (@832/@891/@968 battery-convention) candidate 'le [76]' legs; 76 n=21; suc 47x4/42x3/49x3/45x2/87x2/01x2; pre 77x3/67x2/48x2/94x2/16x2; R16-001 docket requires this battery before 77='le' can promote",
+   "adverses": "'la [76]' @1046 gender tension (also admits 'la'+verb re-parse; R16-029); @1046 verbal reading of 76; 76->47 x4 under 47='ce' allophone (order needs stating); 76-01-98 x2 collocation (@892/@969)",
+   "bars": "promote 76=noun iff 'le [76]' x3 parse as determiner+noun with zero contradiction and the @1046 'la [76]' adverse is answered (re-parsed, fenced with stated cause, or a gender/positional rule stated); kill iff a window forces noun false or a cleaner rival class is demonstrated; else null with 1-3 follow-up targets. Name gender iff the evidence decides it.",
+   "verdict": {
+    "result": "promote",
+    "report": "code/crowd17/report_inbox/battery-noun-76.md",
+    "date": "2026-10-08"
+   }
+  },
+  {
+   "id": "frames-80-89-indep",
+   "claim": "80/89 verb-frames hold with 77 unfixed (independent of 77='le')",
+   "status": "verdict",
+   "priority": 1,
+   "evidence": "A8 grant (conditional on 77='le' provisional): 87-77-80 @515, 87-77-89 @869; 80: pre 29x4/98x3/79x3, post-'er' x4, 'tout [80]' x3 pronoun+verb re-read CONFIRMED (77-independent); 89: pre 29x5, suc 48x3/84x2; 77 demoted to provisional-unconditioned (R16-001); R16-001 docket requires this battery",
+   "adverses": "C3 windows (@515/@869) need 77='le' as stated in A8; 80's clean determiner leg @1155 (noun-shaped counter-evidence, round-16); 89's class open (val-89-mirror queued separately)",
+   "bars": "promote (independence confirmed) iff >=2 verb legs per cell parse with 77 held unfixed (treat 77 as unknown, never as 'le') and zero contradictions; kill iff the frames collapse without 77='le' (no verb leg survives unfixed); else null with 1-3 follow-up targets. Do not overwrite A8's grant - this tests its condition, not its content.",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-frames-80-89-indep.md",
+    "date": "2026-10-08"
+   }
+  },
+  {
+   "id": "inf-80-89-ratify",
+   "claim": "re-derive 80/89 infinitive-slot verb-class legs once 24=modal is ratified",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "frames-80-89-indep null (2026-10-08): 77-independent verb legs EXIST for both cells — 80 @564/@672, 89 @221/@985 (+@1497 weak), all infinitive-slot via 24-modal and none needing 77='le'; hard non-verb contradictions block independence (@1155 det for 80, @1376 noun/adv for 89, @468 adjective conditional on 06='ent')",
+   "adverses": "24=modal is battery-grade (ne-24-profile promote, unratified) — load-bearing for all five legs; A8's conditional grant untouched",
+   "bars": "promote 80 (@564/@672) and 89 (@221/@985) to infinitive-slot verb-class (value open) iff 24=modal ratified; resolve @985's 48-junction ('e[01]') and @1497's 59-junction inside the same pass",
+   "verdict": null
+  },
+  {
+   "id": "noun-89-1377-adjudicate",
+   "claim": "adjudicate @1376 ('pour [86-inf] [89-noun/adv], on...') against the infinitive-slot legs",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "frames-80-89-indep null (2026-10-08): @1376 is the hard non-verb window for 89, blocking 77-independent verb-class independence; infinitive legs @221/@985 survive without 77",
+   "adverses": "class conflict implicates the 67-sole-polyvalence law — battery may only gather/escalate, not declare",
+   "bars": "either produce a verb-89 parse of @1376 (killing the noun/adverb reading) or confirm the class conflict and escalate for polyvalence adjudication; feed @1376 + @221/@985 into queued val-89-mirror; do not duplicate its bar",
+   "verdict": null
+  },
+  {
+   "id": "det-adj-80-adjudicate",
+   "claim": "adjudicate 80's non-verb windows (@1155 determiner HARD; @468 adjective conditional on 06='ent'; @1089 gated on 43) against the infinitive legs",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "frames-80-89-indep null (2026-10-08): 80 shows infinitive-slot verb-class AND determiner (@1155 'pour [92]er [80] fois') AND adjective (@468, conditional) windows; infinitive legs @564/@672 stand without 77",
+   "adverses": "67-sole-polyvalence law; @468's adjective read is conditional on 06='ent' (battery-promoted, unratified)",
+   "bars": "confirm or fence each non-verb parse; if >=1 hard non-verb window stands with the infinitive legs, escalate for polyvalence adjudication (67-sole-polyvalence law)",
+   "verdict": null
+  },
+  {
+   "id": "split-92-redteam-evidence",
+   "claim": "carry the re-derived 92 tripartite-governor evidence package to red-team adjudication (evidence only, no split decision)",
+   "status": "verdict",
+   "priority": 1,
+   "evidence": "split-92-adjudication null (2026-10-08): 92 n=22 all offsets byte-verified vs battery-class-92.md; governors 00x6/11x3/84x2/94x2 (94x2 corrected: only @66 is true ne-governor, @1549 is word-internal 'prenne'); @1154 '02 00 92 29 80'='pour [92]er' verbal forcing; @1550 re-derived 'pour que prenne [92] ce' (inverted postposed subject vs direct object with open subject both live, handed to queued prenne-92-noun); @1022 fenced as residual R-class92-1022 anomalous under all classes; @683 fenced under A6; follower scatter: 92->64 x2 only",
+   "adverses": "§7 sole-polyvalence: battery may gather, never decide; not dispatched to the red-team queue — package held for red-team review",
+   "bars": "package the re-derived window table + @1154/@1550/@1022 parses for red-team adjudication; no class named, no split declared",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-split-92-redteam-evidence.md",
+    "date": "2026-10-08"
+   }
+  },
+  {
+   "id": "importe-30-elision-test",
+   "claim": "vowel-initial value test for 30 across all 19 @30 windows ('importe' rival)",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "ne-30-1700 null (2026-10-08): 30='pas' FAILED at @1700 ('inf ne pas' categorically ungrammatical; clause-boundary rescue fails since 20 not infinitival); 30='importe' CONDITIONAL ('n'importe' word-formation licensed by n'-elision; @1702 the sole 94-30 adjacency across all 19 windows); @1700 fenced; pas-30 re-open caveat NOT triggered (importe at word-formation level only, not clause level)",
+   "adverses": "word-formation level only — clause-level parse needs open 85/33 values",
+   "bars": "kill 30='importe' iff >=1 window forces consonant-initial 30; promote-consideration iff a second grammatical 'n\\'importe' frame is found",
+   "verdict": null
+  },
+  {
+   "id": "stem-85-then-1700",
+   "claim": "re-test @1699-1702 once stem-85 names 85's value (the true discriminator)",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "ne-30-1700 null (2026-10-08): both parses ('[85]-[33] n'importe' vs '[85]-[33] ne pas') stall on open 85; GATED on queued stem-85 naming 85's value",
+   "adverses": "85's value open; 33='dire' unpromoted",
+   "bars": "resolve @1700 iff the named 85 yields a grammatical clause under exactly one of the two 30 values",
+   "verdict": null
+  },
+  {
+   "id": "contredire-85-33-vehicle",
+   "claim": "test the 85-33 'contredire' compound lead as the vehicle for the 'n'importe' parse (evidence only)",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "ne-30-1700 null (2026-10-08): 'contredire' lead flagged in croire-33-tiebreak, untested; if 85 must carry 'contre' as a second function, that is a second polyvalence — red-team territory",
+   "adverses": "§7 sole-polyvalence: battery gathers only, never declares",
+   "bars": "gather 85-33 contact profile + compound plausibility evidence for red-team; never declare a second polyvalence",
+   "verdict": null
+  },
+  {
+   "id": "tout-slot-14",
+   "claim": "14's class from the post-'tout' slot (mirrors 82='m')",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "frame-62-94-79 null (2026-10-08): '62-94-79-14-60' frame-type x2 (@1363/@1687) unparsed under standing values ('on ne tout [14][60]'); crowd15 tout-battery independently fenced this frame for word-order failure pre-94='ne' — fence superseded by this re-test under 94='ne', not contradicted | 'tout [14]' x2 @1365/@1689 vs 'tout [82]' x2 @396/@1227 (A7-L2); 14 n=15; breakers @424 ('47 14 62'), @623/@896 ('82 14'), @1121 ('06 14 06')",
+   "adverses": "clitic vs determiner readings",
+   "bars": "name 14's class iff 'tout [14]' parallels 'tout [82]' under one stated value AND the four breaker windows resolve or fence with stated cause",
+   "verdict": null
+  },
+  {
+   "id": "noun-60",
+   "claim": "60's masculine-noun value",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "frame-62-94-79 null (2026-10-08): '62-94-79-14-60' frame-type x2 (@1363/@1687) unparsed under standing values ('on ne tout [14][60]'); crowd15 tout-battery independently fenced this frame for word-order failure pre-94='ne' — fence superseded by this re-test under 94='ne', not contradicted | 60 noun-shaped: 'le [60]' @454; '60 03' NP-shaped @1644/@1675/@691 with 'qui'/'a'; pre60 includes 77/46/29",
+   "adverses": "value unnamed",
+   "bars": "promote iff 'le [60]' plus >=2 '60 03' NP-frames cohere under one nominal value",
+   "verdict": null
+  },
+  {
+   "id": "frame-62-94-79-reparse",
+   "claim": "re-test the 62-94-79-14-60 frame once 14 and/or 60 are named",
+   "status": "queued",
+   "priority": 3,
+   "evidence": "frame-62-94-79 null (2026-10-08): '62-94-79-14-60' frame-type x2 (@1363/@1687) unparsed under standing values ('on ne tout [14][60]'); crowd15 tout-battery independently fenced this frame for word-order failure pre-94='ne' — fence superseded by this re-test under 94='ne', not contradicted | GATED on queued tout-slot-14 and noun-60 naming 14/60",
+   "adverses": "'94 79' ('ne tout') is a 2-window exclusive bigram",
+   "bars": "resolve iff the frame parses under the newly named values; else fence '94 79' as a genuine anomaly with stated cause (non-standard 'tout' placement / idiolect artifact, or word boundary inside 79-14-60)",
+   "verdict": null
+  },
+  {
+   "id": "verdict-w2-574-gate",
+   "claim": "W2 @573 ('ce verdict [13-55-61] ne m\\'') is the flagship fork window; adjudicate it first when ver-78 resolves",
+   "status": "queued",
+   "priority": 1,
+   "evidence": "'ce verdict' x2 @573/@982; 94-82 = 'ne m\\'' elision frame clean under dict reading; W2 favors dict under the what-if (battery-fork-78-45-adjudication.md)",
+   "adverses": "A11 HOLD; W1 ambiguity; R-pos needs red-team declaration",
+   "bars": "(a) decide by boundary evidence whether 78-45@573 is one word ('verdict') or two - state why the two-word parse is impossible under 78='ver'; (b) record whether 'ce [78] ce' survives at W2 under a non-ver 78 value, so the gate is useful even under a ver-78 kill",
+   "verdict": null
+  },
+  {
+   "id": "dict-45-contact-update",
+   "claim": "45's post-78 followers ({13, 01, 64}) form a disjoint profile from standalone-45 followers (syllable rival independent of ver-78)",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "13-55-61 follows 45 only after 78; 01 follows 45 only at W3; 45->13 x2 = the 78-45-13-55-61 5-gram; n(45)=22 on repaired stream",
+   "adverses": "W1's 45-64 follower shared with standalone @340/@1024; n=22 small",
+   "bars": "(a) census all 22 of 45's followers split by pre=78 vs pre!=78; (b) boundary holds iff follower distributions are disjoint at Fisher p<0.05 with stated counts",
+   "verdict": null
+  },
+  {
+   "id": "split-92-followers-amend",
+   "claim": "the follower-scatter line in battery-split-92-adjudication.md is factually wrong and must be amended before red-team adjudication",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "split-92-redteam-evidence re-derivation (2026-10-08): 92->79 x2 (@49/@593), 92->69 x2 (@66/@1379), 92->60 x2 (@321/@1673), 92->64 x2 (@683/@1022), 92->62 x2 (@1361/@1453) — FIVE repeated 2x pairs, not '92->64 x2 only'. Scatter still neutral (max 2/22); the tripartite governor evidence does not turn on follower scatter.",
+   "adverses": "battery-split-92-adjudication.md states 'no other repeated follower pair' — amend the line in place (editorial, not a new battery).",
+   "bars": "resolve iff battery-split-92-adjudication.md's follower-scatter statement matches the re-derived census above; check that no battery-level inference leaned on 'only 64 x2'.",
+   "verdict": null
+  },
+  {
+   "id": "donne-168-708-leg",
+   "claim": "\"donne\" 2-window leg @168/@708",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "battery-prof-53: 'on donne 21' @168 and '35 donne 71' @708 both clean under 53='don'+12='n'+48='e'; 53-12-41/44 out of scope (fenced to donn-41-44)",
+   "adverses": "leg does not decide 53's profile; 21/71 unnamed",
+   "bars": "leg iff 'on donne 21' and '35 donne 71' parse with 21/71 named",
+   "verdict": null
+  },
+  {
+   "id": "donn-41-44",
+   "claim": "name 41 and 44 (53-12-41/44 break 'donne')",
+   "status": "queued",
+   "priority": 3,
+   "evidence": "battery-prof-53: 41 n=19 (suc 12/15/06/01/08/98), 44 n=15 (suc 00x3/59x2/74/83); both word-valued, not word-final letters",
+   "adverses": "41/44 word-like successor profiles",
+   "bars": "name 41/44 iff each has >=2 frame-legs; if either is a vowel-letter/inflectional ending, re-open prof-53 under 53='don'-stem",
+   "verdict": null
+  },
+  {
+   "id": "ne-census-1248",
+   "claim": "re-derive 12-48 census on repaired stream",
+   "status": "queued",
+   "priority": 3,
+   "evidence": "battery-prof-53: 12-48 x5 fresh (@169 pre-53, @709 pre-53, @809, @1075, @1736), not x7 (n-e-12-48 gloss); negation-'ne' = 3 clean + 2 disputed",
+   "adverses": "none; bookkeeping",
+   "bars": "restate census iff x5 re-derived independently + downstream citations corrected",
    "verdict": null
   }
  ]
