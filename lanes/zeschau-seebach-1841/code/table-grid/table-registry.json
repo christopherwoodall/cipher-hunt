@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "note": "Single source of truth for the R5005 key-table grid. Round coordinators update this file on merge (promotions, kills, new leads). Statuses: gt (pencil ground truth), prom (promoted — red-team banked/granted), prov (provisional), cls (class, not a value), lead (battery-level verdict, red-team ratification pending). Reconciled 2026-10-08 against round-15 red-team adjudication (code/crowd15/report_inbox/next-token-redteam.md) and round-16/17 deltas in REPORT.md. 77='le' DEMOTED from prom to prov (round-16). 78='er' KILLED (round-16); 78='ver' lead. 84='fait' REJECTED (round-16). 00='pour' banked (round-16, confirms round-15 A9). 47='ce' grant HOLDS (round-15 A4). 84='on' grant STANDS WEAKENED (round-15 A15; A15 'on est' legs void round-16). Reconciled 2026-10-08 against round-17 red-team adjudication (code/crowd17/report_inbox/next-token-redteam-r17.md): 12=n, 48=e, 30=pas, 06=ent promoted; 32/24 classes; 39=/a/ lead; 94=ne and 78=ver stays lead (promote rejected); 62=il and 76=noun battery-level leads.",
+  "note": "Single source of truth for the R5005 key-table grid. Round coordinators update this file on merge (promotions, kills, new leads). Statuses: gt (pencil ground truth), prom (promoted — red-team banked/granted), prov (provisional), cls (class, not a value), lead (battery-level verdict, red-team ratification pending). Reconciled 2026-10-08 against round-15 red-team adjudication (code/crowd15/report_inbox/next-token-redteam.md) and round-16/17 deltas in REPORT.md. 77='le' DEMOTED from prom to prov (round-16). 78='er' KILLED (round-16); 78='ver' lead. 84='fait' REJECTED (round-16). 00='pour' banked (round-16, confirms round-15 A9). 47='ce' grant HOLDS (round-15 A4). 84='on' grant STANDS WEAKENED (round-15 A15; A15 'on est' legs void round-16). Reconciled 2026-10-08 against round-17 red-team adjudication (code/crowd17/report_inbox/next-token-redteam-r17.md): 12=n, 48=e, 30=pas, 06=ent promoted; 32/24 classes; 39=/a/ lead; 94=ne and 78=ver stays lead (promote rejected); 62=il and 76=noun battery-level leads. Wave-7 (2026-10-08): 26=noun lead (F113, conditional on 11=la determiner phrase), 42=nominal class (val-42-nominal), 88=governor class (governor-88-value), 89=noun lead (class-89-adjudicate packaging; infinitive killed by val-89-mirror). 44 skipped: noun killed but gender-44 masculine promotes — unresolved tension.",
   "parse": "repaired 1,847-pair, code/side-keyhunt/repaired_offsets.json",
   "updated": "2026-10-08"
  },
@@ -130,6 +130,22 @@
    "lead"
   ],
   "76": [
+   "noun",
+   "lead"
+  ],
+  "26": [
+   "noun",
+   "lead"
+  ],
+  "42": [
+   "noun",
+   "cls"
+  ],
+  "88": [
+   "gov",
+   "cls"
+  ],
+  "89": [
    "noun",
    "lead"
   ]
