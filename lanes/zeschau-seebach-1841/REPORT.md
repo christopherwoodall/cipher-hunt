@@ -1,18 +1,19 @@
 # Seebach Cipher — Lane Report
 
 **Status: UNSOLVED.** DECODE R5005 (18 Jan 1841), a two-digit French syllabary,
-3,764 digits / **1,847 pairs (repaired parse)** / 96 groups. Fourteen values:
-seven ground-truth pencil cribs + seven provisional lane-inferred values
-(87=ce, 64=qui, 96=par, 94=ne, 06=verb-stem class, 67=veut class, 77="le"
-conditioned) + leads (62="on" fenced-lead, 78="me"-syllable, 78={ver,er}
-fork [was 78="ver" islet — F61], 52="pas", 24="en", 47="ce", 59="est"
-strong-lead [pre-red-team], 00="pour" strong-lead [pre-red-team],
-78-45="même", 84="en" vs 84=noun-class [unresolved conflict, both LEAD],
-43="me" WEAK, 00="le" ×3 LEAD, "Mehemet-Ali" @8 LEAD, T4 (c)
-"gouvernement" LEAD). No decryption;
-three attempts, seven crowd rounds, and six side fleets have produced a repaired
-canonical parse (bedrock-audited, F41), a second "la première" occurrence, a
-quantified conditioned-polyvalence model, and thirty-two documented nulls.
+3,764 digits / **1,847 pairs (repaired parse)** / 96 groups. Banked values:
+seven ground-truth pencil cribs (11=la, 70=pre, 82=m, 34=i, 29=er, 40=e,
+46=que) + ten red-team-promoted (87=ce, 64=qui, 96=par, 17=fois, 79=tout,
+00=pour banked; 12="n", 48="e" letter-tier; 30="pas", 06="ent" conditional)
++ class-tier grants (31 VERBAL, 33 INF, 86 INF, 24 finite-verb, 32
+verb-lexeme); provisional (59="est", 77="le"); leads (94="ne" strong,
+78="ver", 39="/a/" allophone, 62="il" battery-level, 76=noun
+battery-level, 52="pas"-old superseded, 43="me" WEAK). No decryption;
+three attempts, eighteen crowd rounds, and six side fleets have produced a repaired
+canonical parse (bedrock-audited, F41; offset-validated, 6 confirmed / 24
+probable / 15 probable-weak / 25 unresolved, 2 flagged), a second "la
+première" occurrence, a quantified conditioned-polyvalence model, and
+thirty-two documented nulls.
 
 Lane: `lanes/zeschau-seebach-1841/` · Report date: 2026-10-08 ·
 Methodology log: `NOTES.md` · Checkpoint: `STATE.md`
@@ -3051,6 +3052,150 @@ adjudicated; **red-team ratification pending**)
   None of the wave-4 battery verdicts was contradicted by a
   standing red-team ruling.
 
+### Round-17 red-team adjudication addenda (2026-10-08 UTC — 25 batteries
+adjudicated; red-team ruling AUTHORITATIVE)
+
+Adjudicator: red team, kill authority. Scope: 20 batteries in
+`code/crowd17/report_inbox/processed/battery-*.md` + 5 in
+`report_inbox/processed/battery-*.md` (ne-94, n-e-12-48, dire-33,
+le-77, lon-ne-77-62-94). Stream: repaired 1,847-pair parse. Every
+number below is the red team's own re-derivation from
+`data/upstream-ct_R5005.txt` + `code/side-keyhunt/repaired_offsets.json`
+(anchors: 1,847 pairs / 96 types; 94-59 ×3 @558/@762/@1795; 12-48 ×5
+@169/@709/@809/@1075/@1736; 62→94 ×9, 84→59 ×4, 62→59 ×0, 84→94 ×0;
+77-84 ×7; 78: n=31, det-pred 16/31, pred-33 0/31; 29: n=45, det-pred
+2/45, pred-33 5/45, OR=22.93). Trace:
+`code/crowd17/report_inbox/processed/next-token-redteam-r17.md`.
+
+- **F101 — GRANTS (R17-002…R17-013):** 12="n" letter-tier (three
+  pencil-anchored frames: 40-12 "en" @64 [40="e" GT], 12-34 "ni" @1740
+  [34="i" GT], 70-12 "pren" @347/@1118/@1547 [70="pre" GT]; zero
+  contradictions in the 23-window census; upgrades R16-010 LEAD);
+  48="e" letter-tier (38-window sweep: "ne" ×5 via 12-48, "me la"
+  @126 [82="m" GT], feminine/mute-"e" ×5, "[89]-e" verb+ending ×3;
+  the R16-007 decline is OVERTURNED); 30="pas" (conditional); 06="ent"
+  (conditional — verb/adverb fork closed at battery level, F97
+  ratified); 32 = one verb lexeme (class-tier); 24 = finite verb
+  (class-tier); 59 "n'est" frames (frame); nest-subject-86-62-42
+  (frame); noun26 "[verb] pas" ×4 + noun26 'en ce qui' slot
+  (frame-level ×2). Lead: 39="/a/" allophone (three /a/ frames, zero
+  forced contradictions; R16-011 HYPOTHESIS upgraded). Findings:
+  prenne-subjectless (genuine fenced residual @1545); noun-26
+  positional rule (16/17 windows cleanly; HELD from declaration —
+  declaring it would be the lane's second polyvalence, §7: 67 only);
+  12/94 "ne" duality FENCED as compatible (analytic 12-48 vs
+  syllabic 94 is the homophonic cipher's ordinary mechanism, not a
+  contradiction — neither 12="n" nor 94="ne" is downgraded).
+- **F102 — REJECTS (R17-001, R17-006, R17-011):** 94="ne" promote
+  REJECTED (no new byte evidence beyond R16-006; legs remain
+  conditional — stays STRONG LEAD); ver-78-rebar implicit promote
+  DECLINED (would contradict R16-005; the battery itself correctly
+  NULLed — 78="ver" stays LEAD); noun26 unconditioned verb-class
+  REJECTED (three windows force noun under banked 11="la").
+- **KILLS CONFIRMED (R17-014…R17-025):** 78="er" (78 0/31 pred-33 vs
+  29 5/45, OR=22.93; @296 fenced 1-window residual); 01="ci" and
+  01="faisant" as general values ('01 24' ×3 @40/@828/@984 —
+  ungrammatical under the granted 24 class; the kills are
+  load-bearing on R17-009's 24 grant — re-open if it falls; bound
+  "-ci" in "ceci" [87-01 ×2, 47-01, 45-01] and word-internal 37-01
+  readings fenced, not dead); "enne" one-word composition
+  (34-29-40-12-94 @61 = "ierenne" admits no French word; 94="ne"
+  and 12="n" are NOT downgraded by the kill); 62="on"
+  UNCONDITIONED (62→94 ×9 vs 84→59 ×4, zero crossover; §7 forbids a
+  second unconditioned "on" against the A15 84="on" grant —
+  62="il" stays demonstrated-not-promoted at red-team level);
+  ne-06-317 gate (naming 06 did not resolve the @317 hapax; all
+  three readings fail at kill grade; @317 stays a fenced residual).
+- **SCOPE RULINGS (R17-019, R17-023, R17-024):** frame-37 A1 STANDS on
+  6 windows (the "7th window" claim corrected to 6 —
+  @528/@624/@912/@1178/@1443/@1796; the est-finder VOID claim does
+  not overturn A1 without kill-grade evidence); 77="le" stays
+  PROVISIONAL UNCONDITIONED (no new evidence; R16-001 docket
+  unchanged — 76-noun + 80/89-verb batteries must resolve, then two
+  of @832/@516/@870/@1042 upgrade to clean legs); A7-L2 NARROWED to
+  its exclusive legs @1229/@1589 (48="e" is the general value; the
+  "[48]er ce" windows are ungrammatical under 48="e" — a conditioned
+  frame, lane-precedented like 47/87, not a second polyvalence).
+- **Corrections accepted into the record:** 12-48 ×5 (not ×7 — both
+  batteries agree; the finder overcount is corrected; supersedes the
+  old ×7 gloss and corrects downstream citations); 06→77 ×7 (not
+  ×6); "prennent" (70-12-06) refuted as stated, "concernent"
+  unverified; 94-24-87 @161/@1773 (battery said @162/@1774, same
+  frames); @508 anchor (62's offset; was @507 in queue evidence).
+
+### Round-17 wave-5 addenda (2026-10-08 UTC, crowd17 — 13 battery notes;
+red-team ratification pending)
+
+All notes trace: `code/crowd17/report_inbox/processed/`.
+
+- **F103 — battery-PROMOTE: 62="il" (subject pronoun)**
+  (battery-il-62; bar: split of the 35 windows by subject function —
+  32/35 subject, 2/35 word-internal @46/@1482, 1/35 fenced residual
+  @508 per R17-022). Combines with the R17-017 kill of unconditioned
+  62="on": the "il" reading is now the live one. Registry lead,
+  pending red-team ratification.
+- **F104 — battery-PROMOTE: 76 = noun, masculine** (battery-noun-76;
+  bar all clauses PASS, all adverses answered). The R16-001 docket
+  condition is SATISFIED: the 'le [76]' ×3 legs resolve in favor —
+  77="le" is now re-evaluable by the red team against its bar. This
+  battery does NOT itself promote 77; 77 stays provisional until the
+  red team rules. Registry lead.
+- **F105 — battery-PROMOTE: A15-C1 support leg (77="le" elides to l'
+  exclusively before vowel-initial 84)** (battery-elision-77-84;
+  re-derived on the repaired stream: 77→84 ×7, all intra-row
+  @145/@259/@1057/@1446/@1484/@1763/@1802; 77→{59,94,46,40,34,47,17}
+  = 0 each; every established other-follower value is
+  consonant-initial — 11="la", 45="ce", 64="qui", 82="m", 87="ce").
+  The 77="le" VALUE itself is NOT promoted — it stays provisional;
+  the open followers (86/81/76/44/89, plus 78 ×7 and the small
+  unknowns) carry no established value and stay open surface, with
+  81's "prin" claim under the standing kill. Nothing in the verdict
+  touches R5005, sealed gates, or the adjudication queue.
+- **KILL (wave-5):** the 'ne le [78=verb-head]' frame KILLED
+  (battery-ne-le-1075): its resolution condition (78 heading a verb
+  phrase after 'ne le') is blocked by standing lane law (R16-005
+  noun-syllable LEAD + §7 sole polyvalence) and the measured 0/31
+  verb-slot rate; the kill agrees with R16-005 and contradicts no
+  standing verdict.
+
+### Offset-validation (crowd18, 2026-10-08 UTC — bedrock validation of
+the 70 row offsets)
+
+Independent bedrock validation of
+`code/side-keyhunt/repaired_offsets.json` (70 binary pair-phase
+offsets): **STANDS WITH CAVEATS** — the 1,847-pair stream does NOT
+require rebuild. Mechanics verified, concurring with the
+`code/bedrock/` fleet: 70 rows, 3,764 digits, 1,847 pairs, 96 groups;
+the C1 convention is forced by (3764−2·1847)=70; the carry-over
+alternative is falsified at 1,866 pairs; no offset is definitively
+falsified. Grades: **CONFIRMED 6** (a5_03 gloss-i, a8_05 gloss-ii,
+a6_03 crib repeat, a2_01/a6_04/a8_09 formula repeat), **PROBABLE 24**
+(LOO margin >+5 nats), **PROBABLE-WEAK 15** (+2..+5), **UNRESOLVED
+25** (15 weak + 8 LOO-negative + 2 flagged). The strongest
+independent check is the 3-occurrence formula `9883829621`: one
+10-digit string, three rows, three offsets (1,1,0), all pair-aligned
+as the same five groups 98-83-82-96-21 ("vient de me parvenir" stem
++ homophone) — P(chance) ≈ 0. **Two offsets FLAGGED for red-team
+adjudication (do NOT flip without adjudication):** a4_01 and a5_07 —
+repeat `7778948206` (4×) is pair-aligned as 77-78-94-82-06 in
+a6_10/a7_05 but not here; two coherent readings exist (one formula
+4× → off 0; two formulas 2× each → off 1 stands); LOO supports off 1
+(+7.02/+6.51). Consequences: "68 of 70 offsets unvalidated" is
+SUPERSEDED; LOO is proven unreliable for overturning (it
+contradicts formula-confirmed a8_09 at −4.21 nats; the gloss
+overruled EM on a5_03 at −7.17); EM error rate = 1 proven error in
+70 (a5_03, corrected by gloss) — do not re-run EM flips without
+manuscript evidence. Notes for downstream: the 21 even-length rows
+with offset 1 are NOT transcription errors (the formula repeat
+forces a2_01=1 and a6_04=1 on even-length rows — even+1 is a real
+phenomenon in this transcription); within-block phase propagation
+holds for only 33/62 consecutive line pairs (≈ chance) — lines are
+pair-phase independent, do not assume reading order from file
+order. `repaired_offsets.json` left untouched (a4_01/a5_07 remain 1;
+this sweep verified the file still carries 70 binary offsets, 39×0 /
+31×1 — a same-day re-write was content-identical). Trace:
+`code/crowd18/report_inbox/processed/offset-validation.md`.
+
 ### Smith rebuild2 status (2026-10-08 UTC — rung-C clean re-run PASS;
 memorization re-probe CLEAN)
 
@@ -3162,6 +3307,17 @@ ran 2026-10-08 (this sweep): printed **UNCHANGED** — the coordinator
 had already regenerated the grid HTML/PNG at merge time; the periodic
 table grid is current. Registry is coordinator-owned; batteries keep
 feeding it via the adjudication queue.
+
+**Coordinator merge 2026-10-08 13:13 UTC** — the registry is
+reconciled against the round-17 red-team adjudication
+(`code/crowd17/report_inbox/processed/next-token-redteam-r17.md`): 12="n",
+48="e", 30="pas", 06="ent" PROMOTED; 32/24 class grants; 39="/a/"
+lead; 94="ne" and 78="ver" stay lead (promote rejected); 62="il"
+(F103) and 76=noun (F104) as battery-level leads; 77="le" stays
+prov; 84="on" prom, 06 fork closed (supersedes "ent/ment" dual
+lead). Grid HTML/PNG regenerated at merge time; `generate.py` ran
+2026-10-08 13:14+ UTC (this sweep): printed **UNCHANGED** — the
+periodic table grid is current.
 
 ---
 
@@ -3849,6 +4005,85 @@ on scorecard integrity. Round-2's F13 dissolution and round-3's rival
   narrow-to-exclusive-legs vs retire. Trace:
   `code/crowd17/report_inbox/processed/battery-verb-48.md`.
 
+### Round-17 null batch, wave 5 (crowd17, 2026-10-08 UTC)
+
+- **N71 — fork-78-45-rerun NULL** (bar's conditionals key on a
+  ver-78 resolution that never happened): ver-78 and ver-78-rebar
+  are both null (R16-005 LEAD, unsettled). The fork stays open
+  exactly as the earlier adjudication left it: what-if parses
+  recorded, R-pos positional rule awaiting red-team declaration
+  per protocol §7. No contradiction with any standing verdict
+  (A11 HOLD and R16-005 LEAD both untouched) — nothing to
+  escalate. Trace: `code/crowd17/report_inbox/processed/battery-fork-78-45-rerun.md`.
+- **N72 — frame-62-94-79 NULL** (frame-type real, parse fails): the
+  frame-type "62-94-79-14-60" is real (byte-identical ×2, two
+  frame-exclusive bigrams, parallel "13 [92/93]" left edges,
+  genuine "ne...pas"/"ne...que" closers) but does not parse under
+  standing values or with one stated new-value assumption for
+  14/60. The blocker is the position of 79="tout" (red-team granted
+  A5) between "ne" and the verb slot. No red-team verdict is
+  contradicted: A5 (79="tout"), the il-62 promotion (which read
+  these windows as "il ne tout" only for 62's subject slot), and
+  the pas-30 promotion (which used "94→30" only as a "ne...pas"
+  leg) all stand untouched. Trace:
+  `code/crowd17/report_inbox/processed/battery-frame-62-94-79.md`.
+- **N73 — frames-80-89-indep NULL** (independence arms fail):
+  77-independent verb legs EXIST for both cells (infinitive-slot
+  via 24-modal: 80 @564/@672, 89 @221/@985), so the frames do not
+  fully collapse without 77="le" — BUT hard non-verb
+  contradictions BLOCK independence: @1155: 80=determiner ("pour
+  [92]er [80] fois"); @1376: 89=noun/adverb ("pour [86-inf] [89],
+  on..."); @468 adjective-shaped for 80 conditional on 06="ent".
+  A8's condition (77="le") remains load-bearing for A8's cited
+  frames (C3 fenced unfixed; 'tout [80]' re-parsed; 29-frames
+  tense), while the new infinitive-slot legs do not need 77 at
+  all. Trace:
+  `code/crowd17/report_inbox/processed/battery-frames-80-89-indep.md`.
+- **N74 — ne-30-1700 NULL (fenced)**: @1700 FENCED — neither
+  30="pas" nor 30="importe" yields a clean clause-level parse
+  under standing values. "pas" is excluded by word order;
+  "importe" survives only as a well-formed word ("n'importe",
+  elision-licensed, stream-unique 94-30 adjacency) awaiting 85's
+  value and the 33 tiebreak. Fencing is the bar's instructed
+  outcome, not a failure to test. Trace:
+  `code/crowd17/report_inbox/processed/battery-ne-30-1700.md`.
+- **N75 — split-92-adjudication + split-92-redteam-evidence NULL**
+  (evidence-package null, per bars): the bar is
+  red-team-adjudication-only — split vs second polyvalence
+  declaration vs governor misread is undecidable at battery level
+  under §7 (67 sole true polyvalence). The tripartite governor
+  profile is real on the repaired stream and independently
+  verified. The re-derivation did not fail — it succeeded with ONE
+  package correction (follower scatter: five 2× pairs, not one),
+  carried to red-team adjudication. Traces:
+  `code/crowd17/report_inbox/processed/battery-split-92-adjudication.md`,
+  `code/crowd17/report_inbox/processed/battery-split-92-redteam-evidence.md`.
+- **N76 — prof-53 NULL** (no single parse covers all 11 of 53's
+  windows): the queue gloss's "donne" alternative is real at
+  @168/@708 ("on donne 21", "35 donne 71" both clean) but 53-12-41
+  (@57) and 53-12-44 (@1581) break it as a single parse — 41/44
+  are word-valued (n=19/n=15), not word-final letters, so the
+  53-12 contact cannot be word-internal "n" everywhere. For the
+  2/5 'ne' windows: @169/@709 stay disputed; the 3 undisputed
+  'ne' windows (@809/@1075/@1736) are unaffected (ne-le-1075 "98 ne
+  le 77" does not touch 53). The negation-'ne' census via 12-48 is
+  3 clean + 2 disputed. Worker corrections (no verdict
+  contradicted): queue gloss @-offsets were off by one (53 at
+  @168/@708, the 12s at @169/@709, 53-12-41 at @57-59, 53-12-44
+  at @1581-83); the n-e-12-48 battery's "'ne'=12-48 ×7" gloss
+  re-derives as ×5 on the repaired stream (its promotion rests on
+  GT-anchored legs, not the count — noted for downstream
+  citations). Follow-ups queued: donne-168-708-leg (2-window leg
+  battery; bar: "on donne 21" @168 and "35 donne 71" @708 parse
+  with 21/71 named; 53-12-41/44 explicitly fenced out), donn-41-44
+  (name 41/44 with ≥2 frame-legs each; if either resolves as a
+  vowel-letter or inflectional ending, re-open prof-53 under
+  53="don"-stem), ne-census-1248 (re-derive the 12-48 census as ×5
+  and restate negation-'ne' as 3 clean + 2 disputed; correct
+  downstream citations of the ×7 gloss). No standing red-team
+  verdict on 53 exists; nothing contradicted, nothing overwritten.
+  Trace: `code/crowd17/report_inbox/processed/battery-prof-53.md`.
+
 ---
 
 ## 6. Open hypotheses (not promoted — each needs ≥2 independent checks)
@@ -4357,10 +4592,26 @@ unmeasured, provisional; the mine-v3/corpus copies were removed
    disfavored-strong, syllable LEAD, {ver,er} conditioned fork —
    crowd7 redteam downgraded the "ver" islet: contaminated evidence,
    F61). Adjudication done. New: 78-45="même" LEAD (executor-grade, F47).
-8. 77="le" — **DONE (PROMOTED round-16)** — the "le la" adverse is
-   dissolved (all three co-occurrences parse); three independent legs
-   on banked values; the load-bearing frames (A8, A13, A15-C1) get
-   stronger. @1031 "[inf] [80] le la" stays fenced (enclitic+break).
+8. 77="le" — **PROVISIONAL (demoted round-16; R17-023 confirms)** — the
+   "le la" adverse is dissolved (all three co-occurrences parse); three
+   independent legs on banked values; the load-bearing frames (A8, A13,
+   A15-C1) get stronger; the A15-C1 **elision leg is battery-PROMOTED**
+   (F105: 77→84 ×7, all intra-row, zero other vowel-initial
+   followers); the R16-001 docket advances: the 76-noun battery (F104)
+   resolved in favor, so 77="le" is re-evaluable by the red team — the
+   80/89-verb battery still needed, then two of @832/@516/@870/@1042
+   upgrade to clean legs. @1031 "[inf] [80] le la" stays fenced
+   (enclitic+break).
+9. **Wave-5 queued work orders:** donne-168-708-leg (2-window leg
+   battery — "on donne 21" @168, "35 donne 71" @708; 53-12-41/44
+   fenced out); donn-41-44 (name 41/44 with ≥2 frame-legs each; if
+   either is a vowel-letter or inflectional ending, re-open prof-53
+   under 53="don"-stem); ne-census-1248 (re-derive the 12-48 census
+   as ×5, restate negation-'ne' as 3 clean + 2 disputed, correct
+   downstream citations of the ×7 gloss); split-92 question (split
+   vs second polyvalence vs governor misread) is red-team-only, §7 —
+   the corrected evidence package (follower scatter: five 2× pairs)
+   is in the adjudication queue.
 9. **Objective repaired, search broken — scorer repair COMPLETE, control
    FAIL** (F58): steps 0/0.5/1/2/3/4 all landed — N36 re-derived exactly,
    F() history bug repaired (0.75 nats/letter), lam_poly calibrated
@@ -4660,13 +4911,13 @@ keeps, ISLET 10's dependency on 46=que stands (not conditional) |
 | 96 | par | PROMOTED (registry "prom") |
 | 17 | fois | PROMOTED (registry "prom") |
 | 79 | tout | PROMOTED (round-15 A5; registry "prom"; round-16 tout-battery CONFIRM; 2 fenced qui+tout residuals @396/@1227) |
-| 94 | ne | STRONG LEAD — "n'est" ×3 @558/@762/@1795, "ne me/m'" ×4 @578/@1182/@1353/@1742 (round-16 pre-battery); promotion DECLINED pending an independent clean leg; @578 thread closed |
-| 06 | ent | LEAD — battery-PROMOTE 06="ent" (F97, pending red-team
+| 94 | ne | STRONG LEAD — "n'est" ×3 @558/@762/@1795, "ne me/m'" ×4 @578/@1182/@1353/@1742 (round-16 pre-battery); promotion DECLINED (R16-006; R17-001 REJECTED the promote — no new byte evidence; stays STRONG LEAD); @578 thread closed |
+| 06 | ent | **PROMOTED (conditional, R17: fork closed at battery level, F97 ratified** —
 ratification): verb-ending syllable; the verb-ending vs adverb-ending fork is
 DECIDED at battery level ("[X]-06-11" frames parse only as verb+object);
 "-ment" = 82+06 compositional, not a standalone 06 value |
 | 67 | et/veut | fork RESOLVED positionally (round-16 forks battery, LEAD-grade): "veut" iff the follower is infinitive-shaped (8/38: 33 ×6, stem+29 ×2), else "et" (30/38), zero adverses; circularity caveat recorded; independent test = 93/86 infinitive-stem predictions |
-| 77 | le | PROMOTED (round-16 le-battery: "le la" adverse dissolved; 3 independent legs on banked values; zero clean contradictions); "gou" exception stays fenced |
+| 77 | le | **provisional** — DEMOTED prom->prov round-16; R17-023 CONFIRMS (no new evidence; R16-001 stands). Docket: 76-noun battery (F104) resolved in favor — 77="le" now re-evaluable by the red team; 80/89-verb battery still needed; then two of @832/@516/@870/@1042 upgrade to clean legs. A15-C1 elision leg PROMOTED (F105: 77->84 x7 elides before vowel-initial 84; value untouched). "gou" exception stays fenced |
 | 31 | VERBAL (finite) | provisional-conditioned — 3 disambiguated verbal
 windows (@338/@1647/@1489); conditional on C1 provisionals (64="qui",
 87="ce") + 08="l'" lead; era leg E31-1 VOID (round-12 R3 GRANT);
@@ -4682,24 +4933,25 @@ classes battery): "67 33 46" ×2 idiomatic under BOTH 67 forks, "47 33" ×2,
 29-8X word-shapes must resolve); vouloir KILLED, penser weak; value paradox stands |
 | 77 | gouv | DISFAVORED — demoted round-12 (R9); gouvernement/gouvernent thread
 dead at all 7 windows (N44) |
-| 62 | on | FENCED-LEAD — promotion denied (Ruling 1); ear-contingent gap;
+| 62 | "on" | **KILLED unconditioned (R17-017**: 62->94 x9 vs 84->59 x4, zero crossover; §7 forbids a second unconditioned "on" against the A15 84="on" grant); **"il" battery-PROMOTE (F103: 32/35 subject windows, pending red-team ratification; registry lead)** — the live reading is now "il" |
 Méhémet-Ali 62='a' tension fenced (round-12 R8, not a kill-threat) |
 | 78 | me (syllable) | lead — L1s 1.131×; "me"-word disfavored-strong (L1w 22.76×) |
-| 78 | ver | LEAD — **"er" arm KILLED distributionally** (round-16 forks battery:
+| 78 | ver | LEAD — **"er" arm KILLED distributionally (round-16 forks battery; R17-014 CONFIRMED** (round-16 forks battery:
 determiner-predecessors 16/31 vs 29="er" 2/45; after 33=INF 0 vs 5; OR ~22.9);
 "ver" survives unproven; "verdict" ×4 word-level support; old F61 downgrade superseded |
 | 45 | ce/dict | **HOLD** — 45="ce" DEMOTED from PROMOTE (round-16 forks battery: "ce verdict"
 ×2 forces "dict" @573/@982; "par ce" ×2 forces "ce" @602/@1213; @314 contested);
 **"ce/dict positional allophones" LEAD** (conditional on 78="ver") |
 | 52 | pas | lead — vs "se"/"so" rivals (F23/F26) |
-| 24 | finite verb (modal-shaped) | CLASS-level battery-PROMOTE (F99, pending
-ratification): finite-verb slots @547/@955/@1693/@311/@474/@1486, infinitive-taking
+| 24 | finite verb (modal-shaped) | **PROMOTED (class tier, R17)**: (F99) finite-verb slots @547/@955/@1693/@311/@474/@1486, infinitive-taking
 24→85 ×5 / →89 ×3 / →80 ×2 / →82→16 ×2; VALUE NOT named — the old "24 = en"
 reading is excluded by the verb class; "est" already refuted |
 | 47 | ce | **PROMOTED** (allophone tier, round-15 A4; registry "prom"); round-16 ce47
 battery: 28/28 windows re-derived, NO value break (allophone HOLDS); positional spec
 now names two exceptions (never-after-24 unconditioned/@548 conditioned, never-before-64);
 **"se"-after-infinitives competing LEAD** (allophony, not polyvalence) |
+| 48 | e | **PROMOTED (letter tier, R17-003** — 38-window sweep: "ne" x5 via 12-48, "me la" @126 [82="m" GT], feminine/mute-"e" x5, "[89]-e" verb+ending x3; R16-007 decline OVERTURNED); general value; A7-L2 verb-stem frame NARROWED to exclusive legs @1229/@1589 (R17-024, conditioned frame — not a second polyvalence) |
+| 76 | noun (masculine) | **battery-PROMOTE (F104, pending red-team ratification; registry lead)** — R16-001 docket condition satisfied: 'le [76]' x3 legs resolve in favor |
 | 59 | est | STRONG LEAD — executor-grade, pending red-team (F44); ISLET-10 conditioned;
 round-16 est battery: **37/42 predicative frames DEMOTED→HOLD** (0 valid legs each);
 **32 est-frame STANDS (3→2 legs: @316/@1210)**; 19 HOLD (@1777, 1 leg) |
@@ -4711,11 +4963,11 @@ test), @291/@685 (new, "pour"+subjunctive), @1287; ~5× register-rate adverse (2
 keeps 59-independent legs ("qu'on en" ×2, "mon" @166, "l'on" ×7, 84→24 ×3);
 3 fenced residuals (R1 @1619 "la on", R2 @1664 "ne on", R3 @146 new);
 ESTE-verb tension flagged for red team |
-| 30 | pas | NEW LEAD — ne-frames @559 "n'est 30" + @1715 "ne [V] 30" (round-16 est battery);
+| 30 | pas | **PROMOTED (conditional, R17)** — ne-frames @559 "n'est 30" + @1715 "ne [V] 30" (round-16 est battery);
 19-window census queued |
-| 12 | n | LEAD — "prenne/prennent" compositional (round-16 pre-battery); 12-48 = ×5 (not ×7) |
-| 39 | a/à | LEAD — "qui a" ×1 @606, "pré-a-la" ×2, "n'est [39]" @763 (round-16 pre-battery) |
-| 32 | one verb lexeme | battery-PROMOTE (F98, pending red-team ratification):
+| 12 | n | **PROMOTED (letter tier, R17-002**: 40-12 "en" @64 [40="e" GT], 12-34 "ni" @1740 [34="i" GT], 70-12 "pren" @347/@1118/@1547 [70="pre" GT]; 0 contradictions in 23-window census; upgrades R16-010 LEAD); 12-48 = ×5 (×7 gloss corrected R17) |
+| 39 | /a/ | **LEAD (allophone, R17-005**: R16-011 HYPOTHESIS upgraded — three /a/ frames, zero forced contradictions, "a qui" French correction noted) — "qui a" ×1 @606, "pré-a-la" ×2, "n'est [39]" @763 |
+| 32 | one verb lexeme | **PROMOTED (class tier, R17)**: (F98 battery)
 finite 3sg + past-participle forms across all 13 windows; the adjectival function
 is the participle of the same lexeme — adj-32's dual-behavior question dissolved,
 no second polyvalence needed |
@@ -4728,8 +4980,7 @@ Banned (asserted-absent, from the skeleton ledger + adjudications):
 77=pas, 77=que, 06=/mɑ̃/ (standalone adverbial reading; 06="ent" is now
 battery-PROMOTED, F97), 96="de", 47="me" (word reading),
 01="ci" (general value, F100; bound "-ci" in "ceci" fenced, not dead),
-01="faisant" (general value, F100; word-internal readings fenced, not dead), 84="plus" (via 59="est"), 84="a", 84=verb-class, **78="er"
-(round-16 forks battery, distributional kill)**. Fenced
+01="faisant" (general value, F100; word-internal readings fenced, not dead), 84="plus" (via 59="est"), 84="a", 84=verb-class, **78="er" (round-16 forks battery, distributional kill; R17-014 CONFIRMED)**, "enne" one-word composition (R17-016 — 34-29-40-12-94 @61 = "ierenne" admits no French word), the ne-06-317 gate claim (R17-025). Fenced
 (conditioned-or-dead): 43="me" (downgraded MEDIUM→WEAK — 96→43 "par me"
 era-dead; F48); 47="ce"'s positional exceptions (round-16 ce47 battery);
 00="pour" adverses @1247/@864/@291/@685 (round-16 pour/i batteries).
