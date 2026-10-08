@@ -1,0 +1,473 @@
+{
+ "ambiguities_resolved": [
+  {
+   "ambiguity": "00 = 'pour' (lead, top frequency) vs 'le' (96-00='par le' rule)",
+   "resolution": "mutually exclusive per-seed Bernoulli (pour first, p=0.25-0.35; le second, p=0.20-0.40); neither fixed; both stay soft pending adjudication"
+  },
+  {
+   "ambiguity": "47=ce vs 87=ce looks like a homophone merge",
+   "resolution": "encoded as POSITIONAL ALLOPHONE: 47 carries decode-time rule 'applies after 24=en'; 87 unconditioned; splits/aliases unaffected"
+  },
+  {
+   "ambiguity": "17=fois inside the 'confirmed' formula 'la premiere fois'",
+   "resolution": "formula pins 17 as SOFT (p=0.90 in la-premiere-fois crib seeds, 0.35-0.50 elsewhere), never hard; PROMOTE status unchanged"
+  },
+  {
+   "ambiguity": "59=est provisional + {52,59} split",
+   "resolution": "52 explicitly barred from 'est' in all seeds; collision resampled at generation and asserted in validation"
+  },
+  {
+   "ambiguity": "77=le (conditioned provisional) vs 00=le (formula lead)",
+   "resolution": "both soft; allowed to co-occur (homophony is legal in a homophonic table); neither fixed"
+  },
+  {
+   "ambiguity": "96=par vs STATE round-13 tension ('ce qui 96 47 que' wants a verb)",
+   "resolution": "moderate weight p=0.50-0.85 with the caveat recorded in the prior note; not hard, flagged for the funnel's judge triage"
+  },
+  {
+   "ambiguity": "24=en now vs refuted 24='est' (N10)",
+   "resolution": "'est' appears NOWHERE in seeds; 24=en is a fresh lead prior, not a resurrection of the killed hypothesis"
+  },
+  {
+   "ambiguity": "banked-value aliasing (should random cells get 'le','e',...?)",
+   "resolution": "conservative: multi-char banked/soft/lead strings excluded from random fill (single letters stay -- letter cells exist); extra aliases only via licensed priors (47=ce). Solver moves (alias-split+merge) may create aliases during the climb."
+  },
+  {
+   "ambiguity": "lexicon provenance / register",
+   "resolution": "static lane artifacts (inventory_data.json: units from data/upstream-syll.py + by-ear tier3_top200); NOT cipher-fitted; register is generic French by-ear, flagged provisional-infrastructure"
+  }
+ ],
+ "class_tags": {
+  "19": {
+   "classes": [
+    "ADJ"
+   ],
+   "encoding": "carried per seed; not a value assignment"
+  },
+  "31": {
+   "classes": [
+    "VERBAL"
+   ],
+   "encoding": "carried per seed; not a value assignment"
+  },
+  "32": {
+   "classes": [
+    "ADJ"
+   ],
+   "encoding": "carried per seed; not a value assignment"
+  },
+  "33": {
+   "classes": [
+    "INF"
+   ],
+   "encoding": "carried per seed; not a value assignment"
+  },
+  "37": {
+   "classes": [
+    "VERBAL",
+    "ADJ"
+   ],
+   "encoding": "carried per seed; not a value assignment"
+  },
+  "66": {
+   "classes": [
+    "class-constraint"
+   ],
+   "encoding": "carried per seed; not a value assignment"
+  },
+  "78": {
+   "classes": [
+    "ver/er?",
+    "lead"
+   ],
+   "encoding": "carried per seed; not a value assignment"
+  },
+  "89": {
+   "classes": [
+    "class-constraint"
+   ],
+   "encoding": "carried per seed; not a value assignment"
+  }
+ },
+ "determinism": {
+  "master_seed": 184101,
+  "per_instance_convention": "funnel generator uses random.Random(2000 + 100*inst_idx + i) per PREREG-D-v2",
+  "rng": "random.Random (str seed, version-stable)",
+  "seed_logged": true
+ },
+ "formulae": {
+  "en-cela": {
+   "cells": {
+    "11": "la",
+    "24": "en",
+    "87": "ce"
+   },
+   "note": "24-87='en ce' frame rule + 'cela'=87+11 rule",
+   "soft_cells": [
+    "24",
+    "87"
+   ]
+  },
+  "la-premiere-fois": {
+   "cells": {
+    "11": "la",
+    "17": "fois",
+    "29": "er",
+    "34": "i",
+    "40": "e",
+    "70": "pre",
+    "82": "m"
+   },
+   "note": "'la premiere' @pairs 754+1034 ground truth; 17=fois soft",
+   "soft_cells": [
+    "17"
+   ]
+  },
+  "par-ce-que": {
+   "cells": {
+    "46": "que",
+    "87": "ce",
+    "96": "par"
+   },
+   "note": "'parce que' frame x3 (repaired syllabary-aware computation)",
+   "soft_cells": [
+    "96",
+    "87"
+   ]
+  },
+  "par-le": {
+   "cells": {
+    "00": "le",
+    "96": "par"
+   },
+   "note": "96-00='par le' word/frame rule",
+   "soft_cells": [
+    "96",
+    "00"
+   ]
+  },
+  "qui-est": {
+   "cells": {
+    "59": "est",
+    "64": "qui"
+   },
+   "note": "64=qui / 59=est joint window",
+   "soft_cells": [
+    "64",
+    "59"
+   ]
+  }
+ },
+ "hot_biases": {
+  "00=pour": "top-frequency lead, p=0.25-0.35",
+  "24=en": "strong lead, p=0.55-0.90",
+  "32/19": "predicative adjectives -> class tags only",
+  "37": "verb/adjective tension -> class tag only, no value seeded",
+  "62=on": "fenced, p=0.30-0.50"
+ },
+ "meta": {
+  "composition": {
+   "crib_extended": 40,
+   "crib_formulae": {
+    "en-cela": 8,
+    "la-premiere-fois": 8,
+    "par-ce-que": 8,
+    "par-le": 8,
+    "qui-est": 8
+   },
+   "lexicon_seeded": 60,
+   "random": 100
+  },
+  "gate_instances": "sealed; nothing read from control/ or solver_inbox/ (group label set 96/100 from the control harness's public file header only -- no keys/plaintexts)",
+  "generated_by": "track-d/funnel_seeds.py",
+  "inputs_read": [
+   "/home/hatch/workspace/cipher-hunt/lanes/zeschau-seebach-1841/code/table-grid/table-registry.json",
+   "/home/hatch/workspace/cipher-hunt/lanes/zeschau-seebach-1841/code/side-homophonic-rebuild2/track-d/solver-cell/inventory_data.json"
+  ],
+  "inventory_provenance": {
+   "build_lm_sha256": "2136715d0814de59739a114d91903500dbd306bfffae48e3f8b06b9d49fc467c",
+   "by": "code/side-homophonic-rebuild/solver/tools/gen_inventory_data.py",
+   "generated": "2026-10-07",
+   "n_top200": 200,
+   "n_units": 180,
+   "scorer_smith_sha256": "581ac68dd31cbe69194290042575c65a46dea24e6b8b97cd5842d8a514892f4f",
+   "top200_pipeline": "scorer_smith.syllabify/encipher_split over build_lm.load_words(), most_common(200)",
+   "units_sha256": "e4be9e77a7cadf610cae077e9a92a83813cf068857132ca3ccff95155cfceae1",
+   "units_source": "data/upstream-syll.py"
+  },
+  "lex_core_size": 46,
+  "master_seed": 184101,
+  "n_seeds": 200,
+  "package": "Track D step-4 funnel seed package (Smith rebuild fleet)",
+  "pool_size": 271,
+  "r5005_contact": "NONE. No ciphertext/group files opened; seeds built from board priors + static lexicon only. No search executed.",
+  "sub_seed_scheme": "random.Random(f'trackD-funnel|{MASTER_SEED}|{seed_id}')"
+ },
+ "polyvalence": {
+  "67": {
+   "encoding": "v1 sampled per seed, v2=the other; never collapsed",
+   "status": "sole true polyvalence",
+   "values": [
+    "et",
+    "veut"
+   ]
+  }
+ },
+ "priors": [
+  {
+   "cell": "11",
+   "encoding": "HARD constraint: fixed in all 200 seeds, solver-immutable",
+   "registry_status": "gt",
+   "status": "ratified (pencil ground truth)",
+   "value": "la"
+  },
+  {
+   "cell": "70",
+   "encoding": "HARD constraint: fixed in all 200 seeds, solver-immutable",
+   "registry_status": "gt",
+   "status": "ratified (pencil ground truth)",
+   "value": "pre"
+  },
+  {
+   "cell": "82",
+   "encoding": "HARD constraint: fixed in all 200 seeds, solver-immutable",
+   "registry_status": "gt",
+   "status": "ratified (pencil ground truth)",
+   "value": "m"
+  },
+  {
+   "cell": "34",
+   "encoding": "HARD constraint: fixed in all 200 seeds, solver-immutable",
+   "registry_status": "gt",
+   "status": "ratified (pencil ground truth)",
+   "value": "i"
+  },
+  {
+   "cell": "29",
+   "encoding": "HARD constraint: fixed in all 200 seeds, solver-immutable",
+   "registry_status": "gt",
+   "status": "ratified (pencil ground truth)",
+   "value": "er"
+  },
+  {
+   "cell": "40",
+   "encoding": "HARD constraint: fixed in all 200 seeds, solver-immutable",
+   "registry_status": "gt",
+   "status": "ratified (pencil ground truth)",
+   "value": "e"
+  },
+  {
+   "cell": "46",
+   "encoding": "HARD constraint: fixed in all 200 seeds, solver-immutable",
+   "registry_status": "gt",
+   "status": "ratified (pencil ground truth)",
+   "value": "que"
+  },
+  {
+   "cell": "87",
+   "encoding": "soft Bernoulli per seed",
+   "note": "87=ce battery-promoted; red-team ratification pending",
+   "p_crib": 0.85,
+   "p_lexicon": 0.65,
+   "p_random": 0.5,
+   "status": "PROMOTE-grade",
+   "value": "ce"
+  },
+  {
+   "cell": "64",
+   "encoding": "soft Bernoulli per seed",
+   "note": "64=qui battery-promoted; red-team ratification pending",
+   "p_crib": 0.85,
+   "p_lexicon": 0.65,
+   "p_random": 0.5,
+   "status": "PROMOTE-grade",
+   "value": "qui"
+  },
+  {
+   "cell": "96",
+   "encoding": "soft Bernoulli per seed",
+   "note": "96=par battery-promoted; CAVEAT: 'ce qui 96 47 que' wants a verb (STATE R13)",
+   "p_crib": 0.85,
+   "p_lexicon": 0.65,
+   "p_random": 0.5,
+   "status": "PROMOTE-grade",
+   "value": "par"
+  },
+  {
+   "cell": "17",
+   "encoding": "soft Bernoulli per seed",
+   "note": "17=fois new 4-leg battery; PROMOTE-grade awaiting adjudication",
+   "p_crib": 0.9,
+   "p_lexicon": 0.5,
+   "p_random": 0.35,
+   "status": "PROMOTE-grade",
+   "value": "fois"
+  },
+  {
+   "cell": "59",
+   "encoding": "soft Bernoulli per seed",
+   "note": "59=est provisional; split-set {52,59} bars 52 from 'est' in every seed",
+   "p_crib": 0.8,
+   "p_lexicon": 0.5,
+   "p_random": 0.35,
+   "status": "provisional",
+   "value": "est"
+  },
+  {
+   "cell": "77",
+   "encoding": "soft Bernoulli per seed",
+   "note": "77=le provisional, CONDITIONED (not yet promoted)",
+   "p_crib": 0.75,
+   "p_lexicon": 0.5,
+   "p_random": 0.35,
+   "status": "provisional",
+   "value": "le"
+  },
+  {
+   "cell": "47",
+   "encoding": "soft Bernoulli per seed",
+   "note": "47=ce positional allophone AFTER 24=en; NOT a merge with 87 (allophony licensed)",
+   "p_crib": 0.7,
+   "p_lexicon": 0.55,
+   "p_random": 0.4,
+   "status": "PROMOTE-grade",
+   "value": "ce"
+  },
+  {
+   "cell": "79",
+   "encoding": "soft Bernoulli per seed",
+   "note": "79=tout PROMOTE-grade awaiting adjudication",
+   "p_crib": 0.7,
+   "p_lexicon": 0.55,
+   "p_random": 0.4,
+   "status": "PROMOTE-grade",
+   "value": "tout"
+  },
+  {
+   "cell": "00",
+   "encoding": "soft Bernoulli per seed",
+   "note": "00=pour top-frequency lead; 00->46 x4 'pour que'; EXCLUSIVE with 00=le",
+   "p_crib": 0.35,
+   "p_lexicon": 0.3,
+   "p_random": 0.25,
+   "status": "lead",
+   "value": "pour"
+  },
+  {
+   "cell": "00",
+   "encoding": "soft Bernoulli per seed",
+   "note": "00=le from 96-00='par le' word rule; EXCLUSIVE with 00=pour (tension documented)",
+   "p_crib": 0.4,
+   "p_lexicon": 0.25,
+   "p_random": 0.2,
+   "status": "formula",
+   "value": "le"
+  },
+  {
+   "cell": "24",
+   "encoding": "soft Bernoulli per seed",
+   "note": "24=en strong lead (24-87='en ce' frame rule)",
+   "p_crib": 0.9,
+   "p_lexicon": 0.65,
+   "p_random": 0.55,
+   "status": "lead-strong",
+   "value": "en"
+  },
+  {
+   "cell": "62",
+   "encoding": "soft Bernoulli per seed",
+   "note": "62=on FENCED: contained hypothesis, neither promoted nor killed",
+   "p_crib": 0.5,
+   "p_lexicon": 0.4,
+   "p_random": 0.3,
+   "status": "fenced",
+   "value": "on"
+  },
+  {
+   "cell": "84",
+   "encoding": "soft Bernoulli per seed",
+   "note": "84 from 82-84=\"m'en\" word rule (82=m hard)",
+   "p_crib": 0.35,
+   "p_lexicon": 0.3,
+   "p_random": 0.25,
+   "status": "formula",
+   "value": "en"
+  },
+  {
+   "cell": "06",
+   "encoding": "soft Bernoulli per seed",
+   "note": "06 from 82-06='ment' word rule; 06 verb-stem tension noted, value stays fragment",
+   "p_crib": 0.35,
+   "p_lexicon": 0.3,
+   "p_random": 0.25,
+   "status": "formula",
+   "value": "ent"
+  }
+ ],
+ "split_sets": [
+  {
+   "cells": [
+    "33",
+    "86"
+   ],
+   "encoding": "exclusivity enforced at generation + asserted in validation",
+   "status": "SPLIT (red-team adjudicated)"
+  },
+  {
+   "cells": [
+    "48",
+    "94"
+   ],
+   "encoding": "exclusivity enforced at generation + asserted in validation",
+   "status": "SPLIT (red-team adjudicated)"
+  },
+  {
+   "cells": [
+    "52",
+    "59"
+   ],
+   "encoding": "exclusivity enforced at generation + asserted in validation",
+   "status": "SPLIT (red-team adjudicated)"
+  },
+  {
+   "cells": [
+    "76",
+    "78"
+   ],
+   "encoding": "exclusivity enforced at generation + asserted in validation",
+   "status": "SPLIT (red-team adjudicated)"
+  }
+ ],
+ "uniformity_prior_1690": {
+  "alias_count_dist": {
+   "1": 0.45,
+   "2": 0.35,
+   "3": 0.2
+  },
+  "max_aliases_per_unit": 5,
+  "random_class": "uniform over inventory pool (Poisson-ish alias counts + cap)",
+  "statement": "homophone sets must be uniform -- encoded as a prior on alias-count DISTRIBUTIONS, not hard assignments"
+ },
+ "word_frame_rules": [
+  {
+   "encoding": "82=m hard; 84=en lead-soft p=0.25-0.35",
+   "rule": "82-84 = m'en"
+  },
+  {
+   "encoding": "82=m hard; 06=ent lead-soft p=0.25-0.35 (fragment value; 06 verb-stem tension noted)",
+   "rule": "82-06 = ment"
+  },
+  {
+   "encoding": "96=par PROMOTE-soft; 00=le formula-soft, mutually exclusive with 00=pour per seed",
+   "rule": "96-00 = par le"
+  },
+  {
+   "encoding": "24=en lead-strong; 87=ce PROMOTE-soft; jointly pinned in 'en-cela' crib seeds",
+   "rule": "24-87 = en ce"
+  },
+  {
+   "encoding": "structural consistency note: 87=ce soft + 11=la hard",
+   "rule": "cela = 87+11"
+  }
+ ]
+}

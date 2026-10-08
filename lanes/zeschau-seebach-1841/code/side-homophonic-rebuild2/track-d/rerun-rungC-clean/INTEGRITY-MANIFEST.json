@@ -1,0 +1,19 @@
+{
+ "created_utc": "2026-10-08T01:50:07.999897+00:00",
+ "files": {
+  "judge-log-clean-agent1.jsonl": "aa3d25fbc8daaffffb05a13a93c159d5a000eee85e31ddc81c1d0f5af74201af",
+  "judge-log-clean-agent2.jsonl": "3f8b047888e9434312398e0288a72c8d473869bedecffe75c9f687e28be6ea11",
+  "judge-log-clean-agent3.jsonl": "412a9251ececcbd307341022b95dad157fa8a786ff433cfc992b6404ef49c5eb",
+  "_KEY_V3C_CLEAN_DO_NOT_OPEN.json (pre-open)": "3ef6e2e35b4ef1f5e16d3d8396f41ad7dc5082eca32d66d7844eb0ba323a6e66",
+  "rungC-clean-pkg-1.json": "806ea383ef8b89d60e5d9d8da97bfd50bdf86d22e84b3af05c60585db2242784",
+  "rungC-clean-pkg-2.json": "1f68180f7b9cce6cbc4194081f53a5e81f00b27284acccede57110aae2ea9bea",
+  "rungC-clean-pkg-3.json": "3ec383e5f097e8e7c85bf5d09b97cecdc50b9c9e43cbcadfa12e91691ad795cd",
+  "rungC-clean-schedules.json": "30e379cbe541304f3bebe3c006bc8e64cbf8671e62d0f333d93393dfe5b33cd2",
+  "build_rungC_clean.py": "8c544f32704ff5cd8bfc37dc0b246292452e53b60cb025a7b1545e9776498c6a",
+  "judge-brief.md": "158c3fa358e1e2ffa0052f052510661eaa5da734f525b548bfaded9af266e470",
+  "score_and_aggregate.py": "47c2db9aaddf26e232379da0b94ef8d8e3a1d8fcf5bc69e272d152f72312c8b4",
+  "void-v3c-labels-collected.json": "c05a0298eb6c3a5c23d0e43b5691d8f7c1b537761acc1a2ffdedb6b83eb0b2fa",
+  "build.log": "9b5762a60445a6b7387bd9bf01b8d6c682b59f8cb01af1d73ce11860bff51b87",
+  "aggregation-clean.json": "aafc3394e9e37ffdcd92e586ca449021bbd057f3d03c0492ae778fb82f52ccdf"
+ }
+}

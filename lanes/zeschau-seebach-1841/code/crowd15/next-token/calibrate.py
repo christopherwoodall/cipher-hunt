@@ -12,8 +12,9 @@ Measures, separately for --standard and --byear modes:
      accuracy by available context length.
   B. targeted solved contexts: every occurrence of each solved context in
      held-out; rank of the true next cell (all occurrences) AND of the true
-     next word (1-3 cells via the beam; first <=120 occurrences per phrase,
-     2026-10-07 cap so the run finishes). Contexts: "la première", "par ce que",
+     next word (1-3 cells via the beam; first <=40 occurrences per phrase,
+     2026-10-08 cap so the run finishes under contention; cell ranks are
+     unaffected). Contexts: "la première", "par ce que",
      "par le", "qui", "que", "ce qui", "en ce", "m'en", "ne" (verb slot),
      "ne X" -> "pas" for the 25 most frequent "ne X" bigrams.
   C. verb stems + inflections: top-30 stems mined from TRAINING word
@@ -61,13 +62,14 @@ def rank_of(dist, true):
 class Calibrator:
     def __init__(self, db):
         self.model = Model(db)
-        self._dist_cache = {}
 
     def dist(self, mode, ctx):
-        key = (mode, tuple(ctx[-SEP_CTX:]))
-        if key not in self._dist_cache:
-            self._dist_cache[key] = self.model.cond_dist(mode, key[1])
-        return self._dist_cache[key][0]
+        # NOTE (2026-10-07): this used to cache the full cond_dist dict per
+        # context, but 5-cell contexts are ~all distinct, so the cache grew
+        # to tens of GB (16.7k-entry dict per context) and OOM-killed the
+        # run. Recompute per call: ~13ms each, flat memory.
+        key = tuple(ctx[-SEP_CTX:])
+        return self.model.cond_dist(mode, key)[0]
 
     def global_accuracy(self, streams, mode, n=SAMPLE_N, seed=7):
         rng = random.Random(seed)
@@ -112,11 +114,21 @@ class Calibrator:
                                for L, b in sorted(by_len.items())},
         }
 
-    def targeted_contexts(self, streams, mode):
-        """Solved contexts (as word phrases) -> next-cell / next-word ranks."""
+    def targeted_contexts(self, streams, mode, resume=None, on_phrase=None):
+        """Solved contexts (as word phrases) -> next-cell / next-word ranks.
+
+        resume: dict {phrase: result} of already-computed phrases (skipped).
+        on_phrase(ph, result): called after each newly computed phrase, so
+        the caller can checkpoint (2026-10-08: a VM reboot killed a run
+        135 min in; the JSON is only written at the end, so everything was
+        lost -- checkpoint per phrase now).
+        """
         phrases = ["la première", "par ce que", "par le", "qui", "que",
                    "ce qui", "en ce", "m'en", "ne"]
-        res = {}
+        res = dict(resume) if resume else {}
+        for ph in phrases:
+            if ph in res:
+                continue
         for ph in phrases:
             cells = segment_stream(ph, mode)
             n_cell = len(cells)
@@ -139,9 +151,12 @@ class Calibrator:
                         # true word = cells until... we approximate with the
                         # next 1-3 cells vs beam's top-20 sequences.
                         # (2026-10-07: beam work capped at 120 occurrences per
-                        # phrase so the calibration finishes; cell-level
-                        # ranks above still use EVERY occurrence.)
-                        if occ <= 120:  # cap beam work
+                        # phrase so the calibration finishes; 2026-10-08:
+                        # cut to 40 -- under machine contention each beam
+                        # predict costs ~8s, and 120/phrase made the section
+                        # take hours. Cell-level ranks above still use EVERY
+                        # occurrence; word ranks use the first <=40.)
+                        if occ <= 40:  # cap beam work
                             beam = self.model.predict(
                                 mode, list(ctx), k=20, beam=40, maxlen=3)
                             true1 = [true]
@@ -177,6 +192,8 @@ class Calibrator:
                 "next_word_top5": wr_hits[5] / len(word_ranks) if word_ranks else None,
                 "examples": examples,
             }
+            if on_phrase is not None:
+                on_phrase(ph, res[ph])
         return res
 
     def ne_pas_frames(self, streams, mode):
@@ -300,25 +317,88 @@ def mismatch_quant(train_files):
     }
 
 
+CKPT = os.path.join(HERE, "calibrate_checkpoint.json")
+
+
+def load_ckpt(db_built_utc):
+    """Load checkpoint; invalidate if the DB was rebuilt since."""
+    try:
+        with open(CKPT, encoding="utf-8") as f:
+            c = json.load(f)
+    except (OSError, ValueError):
+        return {}
+    if c.get("db_built_utc") != db_built_utc:
+        print("checkpoint stale (DB rebuilt), starting fresh", flush=True,
+              file=sys.stderr)
+        return {}
+    n_done = sum(len(m.get("targeted", {})) for m in c.get("modes", {}).values())
+    print(f"checkpoint: resuming with {n_done} targeted phrases done",
+          flush=True, file=sys.stderr)
+    return c
+
+
+def save_ckpt(ckpt):
+    tmp = CKPT + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(ckpt, f)
+    os.replace(tmp, CKPT)
+
+
 def main():
     db = os.path.join(HERE, "models", "seebach_nexttoken.db")
     cal = Calibrator(db)
+    built_utc = dict(cal.model.con.execute(
+        "SELECT k,v FROM meta WHERE k='built_utc'")).get("built_utc")
+    ckpt = load_ckpt(built_utc)
+    ckpt["db_built_utc"] = built_utc
+    ckpt.setdefault("modes", {})
     out = {"modes": {}}
     for mode in ("standard", "byear"):
-        print(f"loading held-out streams [{mode}]...", flush=True)
-        streams = load_streams(HELDOUT, mode)
-        print(f"  global accuracy [{mode}]...", flush=True)
-        g = cal.global_accuracy(streams, mode)
-        print(f"  targeted contexts [{mode}]...", flush=True)
-        t = cal.targeted_contexts(streams, mode)
-        print(f"  ne..pas frames [{mode}]...", flush=True)
-        npf = cal.ne_pas_frames(streams, mode)
-        print(f"  verb stems [{mode}]...", flush=True)
-        vs = cal.verb_stems(streams, mode)
-        out["modes"][mode] = {"global": g, "targeted": t, "ne_pas": npf,
-                              "verb_stems": vs}
-    print("mismatch quantification (train)...", flush=True)
-    out["mismatch"] = mismatch_quant(TRAIN)
+        mc = ckpt["modes"].setdefault(mode, {})
+        streams = None
+
+        def need_streams():
+            nonlocal streams
+            if streams is None:
+                print(f"loading held-out streams [{mode}]...", flush=True,
+                      file=sys.stderr)
+                streams = load_streams(HELDOUT, mode)
+            return streams
+
+        if "global" not in mc:
+            print(f"  global accuracy [{mode}]...", flush=True, file=sys.stderr)
+            mc["global"] = cal.global_accuracy(need_streams(), mode)
+            save_ckpt(ckpt)
+        if "targeted" not in mc:
+            mc["targeted"] = {}
+
+        def on_phrase(ph, res_ph, _mc=mc):
+            _mc["targeted"][ph] = res_ph
+            save_ckpt(ckpt)
+            print(f"  targeted [{mode}] phrase done: {ph}", flush=True,
+                  file=sys.stderr)
+
+        if len(mc["targeted"]) < 9:
+            print(f"  targeted contexts [{mode}]...", flush=True, file=sys.stderr)
+            mc["targeted"] = cal.targeted_contexts(
+                need_streams(), mode, resume=mc["targeted"], on_phrase=on_phrase)
+            save_ckpt(ckpt)
+        if "ne_pas" not in mc:
+            print(f"  ne..pas frames [{mode}]...", flush=True, file=sys.stderr)
+            mc["ne_pas"] = cal.ne_pas_frames(need_streams(), mode)
+            save_ckpt(ckpt)
+        if "verb_stems" not in mc:
+            print(f"  verb stems [{mode}]...", flush=True, file=sys.stderr)
+            mc["verb_stems"] = cal.verb_stems(need_streams(), mode)
+            save_ckpt(ckpt)
+        out["modes"][mode] = {"global": mc["global"], "targeted": mc["targeted"],
+                              "ne_pas": mc["ne_pas"],
+                              "verb_stems": mc["verb_stems"]}
+    if "mismatch" not in ckpt:
+        print("mismatch quantification (train)...", flush=True, file=sys.stderr)
+        ckpt["mismatch"] = mismatch_quant(TRAIN)
+        save_ckpt(ckpt)
+    out["mismatch"] = ckpt["mismatch"]
     out["heldout_files"] = HELDOUT
     json.dump(out, sys.stdout, ensure_ascii=False)
     sys.stdout.write("\n")

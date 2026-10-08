@@ -1,0 +1,22 @@
+# seen-findings.txt — round-16 next-token battery ingestion log
+# format: <beat> | <report filename> | <ingested ts> | <verdict report>
+tout | next-token-findings-tout.md | 2026-10-07 | next-token-tout.md (CONFIRM-compositional)
+formula-tails | next-token-findings-formula-tails.md | 2026-10-07 | PENDING
+ce47 | next-token-findings-ce47.md | 2026-10-07 | PENDING
+e | next-token-findings-e.md | 2026-10-07 | PENDING
+est | next-token-findings-est.md | 2026-10-07 | PENDING
+pour | next-token-findings-pour.md | 2026-10-07 | PENDING
+est | next-token-findings-est.md | 2026-10-07 | next-token-est.md (37/42 DEMOTED->HOLD, 32 stands 3->2, 30=pas LEAD)
+pour | next-token-findings-pour.md | 2026-10-07 | next-token-pour.md (CONFIRM; @107 addressed fork-conditional; @1247/@864/rate fenced)
+formula-tails | next-token-findings-formula-tails.md | 2026-10-07 | next-token-formula-tails.md (F1 strengthen; F2 R3 residual; F3 12-LEAD; F4/F5 feeds; nulls kept)
+la | next-token-findings-la.md | 2026-10-07 | next-token-la.md (PENDING verdict write)
+pre | next-token-findings-pre.md | 2026-10-07 | next-token-pre.md (94=ne STRONG LEAD; 12=n LEAD; 48=e DECLINED; 39=a LEAD)
+m | next-token-findings-m.md | 2026-10-07 | next-token-m.md (P1 verified/LEAD; P5 adverse adjudicated -> tout B4 corrected; P6 rejected)
+i | next-token-findings-i.md | 2026-10-07 | next-token-i.md (I1 confirm; I2 lead + 2 new 00-adverses; I3/I5 leads; nulls held)
+er | next-token-findings-er.md | 2026-10-07 | next-token-er.md (E1 se-LEAD; E9 killed; E2-E8 queued; E11 fenced)
+e | next-token-findings-e.md | 2026-10-07 | next-token-e.md (E1/E2/E3 confirm; E7 fenced; 65/08/81 queued)
+par-rest | next-token-findings-par-rest.md | 2026-10-07 | next-token-par-rest.md (45=ce PROMOTED; R2-R7 queued/fenced)
+le | next-token-findings-le.md | 2026-10-07 | next-token-le.md (77=le PROMOTED; 84=fait REJECTED; A15 on-est legs VOID)
+fois | next-token-findings-fois.md | 2026-10-07 | next-token-fois.md (F1/F2 confirm; F6 escalated; pairs queued)
+classes | next-token-findings-classes.md | 2026-10-07 | next-token-classes.md (67-33 x6 correction; 33=dire LEAD; 31 class CONFIRM)
+forks | next-token-findings-forks.md | 2026-10-07 | next-token-forks.md (67 rule LEAD; 78 er KILLED; 45=ce DEMOTED to HOLD)

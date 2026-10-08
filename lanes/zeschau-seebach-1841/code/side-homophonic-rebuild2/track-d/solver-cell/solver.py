@@ -78,15 +78,23 @@ J = S_char + LW*S_word + S_potts + S_soft - LP*n_poly - LC*S_conc, where
   S_soft  = w_soft * #{soft anchors matched} (R5005 only; --no-soft).
   n_poly  = #{g: v2[g] is not None}, penalized by LP (sparsity).
 
-MOVES (Metropolis, geometric cooling, restarts, best-key retention):
-  chg1  (55%): reassign v1[g] (50% freq-weighted / 30% uniform /
-           20% copy a contact-neighbor's v1 -- homophone-pool proposal)
-  swap  (15%): swap v1[g], v1[h]
-  poly  (15%): add/drop secondary v2[g]
-  chg2  (10%): change secondary v2[g]
-  block ( 5%): reassign g + top-3 Jaccard neighbors together (Potts moves)
-All deltas exact via snapshot/revert; --self-test checks incremental totals
-against full recompute after random moves.
+MOVES (Metropolis, geometric cooling, restarts, best-key retention).
+  CELL-SPACE search (council solver-architecture.md §4; the generator deals
+  aliases per cell, so the solver moves per cell):
+  chg1          (30%): reassign v1[g] (20% copy a contact-neighbor's v1
+                  -- homophone-pool proposal; else 65% freq-weighted /
+                  35% uniform)
+  swap          (10%): swap v1[g], v1[h]
+  poly          (10%): add/drop secondary v2[g]
+  alias-reassign(30%): pick cell c in use, pick new cell c'; ALL non-pin
+                      groups with v1==c -> c' (one atomic step)
+  cell-swap     (10%): swap the group-sets of two cells c1, c2
+  split/merge   (10%): split: random proper nonempty subset of c's groups
+                      -> c'; merge: all of c2's groups -> c1
+  `block` (contact-neighborhood) is DROPPED (contact != alias); `chg2` is
+  subsumed by chg1's promote-v2 path. All deltas exact via snapshot/revert;
+  --self-test checks incremental totals against full recompute after
+  random moves.
 """
 
 import argparse

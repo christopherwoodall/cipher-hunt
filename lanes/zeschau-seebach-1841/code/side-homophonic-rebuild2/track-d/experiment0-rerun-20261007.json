@@ -1,0 +1,128 @@
+{
+ "aggregate": {
+  "branch": "B",
+  "branch_rule": "STAY>=4/6 -> Branch A; <4/6 STAY -> Branch B",
+  "n_DRIFT": 0,
+  "n_SLIDE": 6,
+  "n_STAY": 0,
+  "n_runs": 6,
+  "slide_fraction": "6/6"
+ },
+ "classification_rule": "STAY: hamming(96 groups) <= 5. SLIDE: final_J > J_truth+500 AND primary_recovery < 0.10. else DRIFT (report-only).",
+ "commission_disposition": "STALE \u2014 protocol already fully executed. No remaining runs exist.",
+ "commission_premise": "1 datum recorded (SLIDE), 5 runs remaining pending",
+ "date": "2026-10-07",
+ "finding": "experiment0.json + experiment0.log + PREREG-D-v2.md \u00a71 (binding, results filled 2026-10-07) all record the COMPLETE 6-instance Experiment 0: 6/6 SLIDE, EXIT=0. Re-running would be byte-identical (deterministic seeds) and would violate the 'never overwrite prior runs' constraint (experiment_0.py overwrites experiment0.json). No new runs executed; existing runs verified instead.",
+ "implication_for_branch_B": "Experiment 0 (complete, 6/6 SLIDE) is the datum that KILLED the J-climb architecture: initialized AT the truth key, the frozen annealer abandons it on every instance, landing 2,375\u20132,722 nats above J(truth) at chance-level primary recovery (0.000\u20130.034). Truth is not a local optimum under J on any of the 6 control instances. Consequences already binding in PREREG-D-v2 \u00a71 and PREREG-D-v2-branchB.md: \u00a73 Stage 2 (J-climbs) DROPPED (J-climb endpoints carry no truth signal); \u00a73 Stage 4 (judge-guided ILS) PROMOTED to the primary loop, seeded from lexicon starts rather than J-climb endpoints (496 judge calls/instance; 2,976 gate; 36-call memorization probe); no restart-based method under J can reach truth; gate FAIL after the full Branch-B budget fires the SPS trigger (\u00a77). Stage-2 entry still gated on: instrument acceptance PASS (54-call acceptance test), this re-registration red-team-cleared, and a logged zero-hit grep self-check.",
+ "nulls": "No new runs were available to execute (0 remaining); no DRIFT classifications observed; no judge involvement; no R5005 contact. Nothing was appended to experiment0.log/experiment0.json \u2014 appending would misrepresent already-complete records.",
+ "runner_actual_configuration": {
+  "cell_space_moves": "NOT used \u2014 FLEET-CHARTER step-4 revision's alias-reassign/cell-swap/alias-split+merge belong to the solver-cell fork; Experiment 0 ran on the frozen group-space runner per PREREG-D-v2 \u00a71",
+  "config": {
+   "beta0": 2.0,
+   "conc_cap": 6,
+   "init": "random",
+   "inventory_mode": "crib",
+   "lambda_conc": 5.0,
+   "lambda_poly": 50.0,
+   "lambda_word": 1.0,
+   "no_contact": false,
+   "no_soft": true,
+   "t0": 60.0,
+   "tmin": 0.05
+  },
+  "init": "truth key installed directly via apply_truth (init_key skipped); anneal_from_current = Solver.anneal with cooling/accept/best-tracking unchanged",
+  "iters": 40000,
+  "judge": "none \u2014 Experiment 0 is judge-free by design; anneal_from_current has no judge call path",
+  "move_space": "GROUP-space propose_move: chg1/swap/poly/chg2/block (no_contact=False, so block ENABLED; no_poly=False, so poly ENABLED)",
+  "r5005": "untouched \u2014 only file reads are SYNTHETIC-ct/crib/key-18410{1..6}.* in control/instances; zero hits for R5005 data files or fresh-gate instances 184201-184204/184206-184207",
+  "script": "track-d/experiment_0.py",
+  "seeds": "build seed 9091+i per instance (i=0..5), deterministic via random.Random(seed), all logged",
+  "solver_source": "side-homophonic-rebuild/solver (REBUILD solver), NOT the track-d/solver-cell/ cell-space fork"
+ },
+ "task": "TRACK D \u2014 EXPERIMENT 0 completion (Smith rebuild fleet)",
+ "verdicts_per_run": {
+  "184101": {
+   "J_truth": -4953.26,
+   "accept_rate": 0.1829,
+   "build_seed": 9091,
+   "delta_J_nats": 2439.26,
+   "final_J": -2513.99,
+   "hamming_groups": 86,
+   "hamming_nonpin": 86,
+   "n_nonpin": 89,
+   "primary_recovery": 0.0337,
+   "verdict": "SLIDE",
+   "wall_s": 168.8
+  },
+  "184102": {
+   "J_truth": -4925.48,
+   "accept_rate": 0.1837,
+   "build_seed": 9092,
+   "delta_J_nats": 2466.78,
+   "final_J": -2458.7,
+   "hamming_groups": 87,
+   "hamming_nonpin": 87,
+   "n_nonpin": 89,
+   "primary_recovery": 0.0225,
+   "verdict": "SLIDE",
+   "wall_s": 236.3
+  },
+  "184103": {
+   "J_truth": -5076.21,
+   "accept_rate": 0.1802,
+   "build_seed": 9093,
+   "delta_J_nats": 2718.91,
+   "final_J": -2357.29,
+   "hamming_groups": 88,
+   "hamming_nonpin": 88,
+   "n_nonpin": 89,
+   "primary_recovery": 0.0112,
+   "verdict": "SLIDE",
+   "wall_s": 326.9
+  },
+  "184104": {
+   "J_truth": -5278.37,
+   "accept_rate": 0.1775,
+   "build_seed": 9094,
+   "delta_J_nats": 2721.83,
+   "final_J": -2556.54,
+   "hamming_groups": 88,
+   "hamming_nonpin": 88,
+   "n_nonpin": 89,
+   "primary_recovery": 0.0112,
+   "verdict": "SLIDE",
+   "wall_s": 189.8
+  },
+  "184105": {
+   "J_truth": -5293.62,
+   "accept_rate": 0.1856,
+   "build_seed": 9095,
+   "delta_J_nats": 2644.44,
+   "final_J": -2649.18,
+   "hamming_groups": 89,
+   "hamming_nonpin": 89,
+   "n_nonpin": 89,
+   "primary_recovery": 0.0,
+   "verdict": "SLIDE",
+   "wall_s": 218.1
+  },
+  "184106": {
+   "J_truth": -5045.97,
+   "accept_rate": 0.1875,
+   "build_seed": 9096,
+   "delta_J_nats": 2374.73,
+   "final_J": -2671.24,
+   "hamming_groups": 89,
+   "hamming_nonpin": 89,
+   "n_nonpin": 89,
+   "primary_recovery": 0.0,
+   "verdict": "SLIDE",
+   "wall_s": 145.1
+  }
+ },
+ "verification_20261007": {
+  "json_log_match": "experiment0.json per-instance numbers match experiment0.log line-by-line (checked programmatically)",
+  "judge_free_confirmed": "experiment_0.py imports only solver + phonetics; no judge_driver/judge reference",
+  "spot_check": "PASS 2026-10-07 \u2014 re-ran instance 184106 (build_seed 9096) through the identical code path (same experiment_0.py functions); got J_truth=-5045.97 final_J=-2671.24 dJ=+2374.73 hamming=89 rec=0.0000, byte-identical to experiment0.json. Deterministic reproduction confirmed."
+ }
+}

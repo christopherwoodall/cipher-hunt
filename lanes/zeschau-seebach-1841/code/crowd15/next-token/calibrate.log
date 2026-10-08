@@ -1,0 +1,25 @@
+checkpoint: resuming with 0 targeted phrases done
+  targeted contexts [standard]...
+loading held-out streams [standard]...
+  targeted [standard] phrase done: la première
+  targeted [standard] phrase done: par ce que
+  targeted [standard] phrase done: par le
+  targeted [standard] phrase done: qui
+  targeted [standard] phrase done: que
+  targeted [standard] phrase done: ce qui
+  targeted [standard] phrase done: en ce
+  targeted [standard] phrase done: m'en
+  targeted [standard] phrase done: ne
+  ne..pas frames [standard]...
+  verb stems [standard]...
+  global accuracy [byear]...
+loading held-out streams [byear]...
+  targeted contexts [byear]...
+  targeted [byear] phrase done: la première
+  targeted [byear] phrase done: par ce que
+  targeted [byear] phrase done: par le
+  targeted [byear] phrase done: qui
+  targeted [byear] phrase done: que
+  targeted [byear] phrase done: ce qui
+  targeted [byear] phrase done: en ce
+  targeted [byear] phrase done: m'en

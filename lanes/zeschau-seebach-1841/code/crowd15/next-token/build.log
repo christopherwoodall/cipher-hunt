@@ -23,3 +23,6 @@
 [byear] revue-deux-mondes-1841-q2.txt: staged (committed)
 [byear] revue-deux-mondes-1841-q3.txt: staged (committed)
 [byear] aggregating staged counts (4136570 cells)...
+[byear] kept ngrams=1589159 unigrams=16754 cells=4136570
+DB written: /home/hatch/workspace/cipher-hunt/lanes/zeschau-seebach-1841/code/crowd15/next-token/models/seebach_nexttoken.db (1001.1 MB) in 1101s
+EXIT=0

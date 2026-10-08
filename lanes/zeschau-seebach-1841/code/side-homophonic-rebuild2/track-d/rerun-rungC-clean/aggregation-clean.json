@@ -1,0 +1,578 @@
+{
+ "trial": "rung-C clean re-run (rerun-rungC-clean)",
+ "prompt_sha256": "d907c59202c9d38e5dfe10bf8048c869bcba2fb547631c02ceb34f93b5b2615e",
+ "key_opened_utc": "2026-10-08T01:50:08.020943+00:00",
+ "completeness": {
+  "calls": 126,
+  "expected": 126,
+  "binding": 108,
+  "diagnostic": 18
+ },
+ "binding_truth_majority_wins": 36,
+ "binding_pairs": 36,
+ "pair_table": {
+  "D01": {
+   "bout": "diagnostic",
+   "votes": {
+    "paraphrase": 3
+   },
+   "majority_class": "paraphrase",
+   "confidences": [
+    99,
+    99,
+    99
+   ]
+  },
+  "D02": {
+   "bout": "diagnostic",
+   "votes": {
+    "paraphrase": 3
+   },
+   "majority_class": "paraphrase",
+   "confidences": [
+    98,
+    98,
+    98
+   ]
+  },
+  "D03": {
+   "bout": "diagnostic",
+   "votes": {
+    "paraphrase": 3
+   },
+   "majority_class": "paraphrase",
+   "confidences": [
+    95,
+    95,
+    95
+   ]
+  },
+  "D04": {
+   "bout": "diagnostic",
+   "votes": {
+    "paraphrase": 3
+   },
+   "majority_class": "paraphrase",
+   "confidences": [
+    95,
+    95,
+    95
+   ]
+  },
+  "D05": {
+   "bout": "diagnostic",
+   "votes": {
+    "paraphrase": 3
+   },
+   "majority_class": "paraphrase",
+   "confidences": [
+    95,
+    95,
+    95
+   ]
+  },
+  "D06": {
+   "bout": "diagnostic",
+   "votes": {
+    "paraphrase": 3
+   },
+   "majority_class": "paraphrase",
+   "confidences": [
+    95,
+    95,
+    95
+   ]
+  },
+  "P01": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    78,
+    78,
+    78
+   ]
+  },
+  "P02": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    78,
+    78,
+    78
+   ]
+  },
+  "P03": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    78,
+    78,
+    78
+   ]
+  },
+  "P04": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    78,
+    78,
+    78
+   ]
+  },
+  "P05": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    78,
+    78,
+    78
+   ]
+  },
+  "P06": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    78,
+    78,
+    78
+   ]
+  },
+  "P07": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    72,
+    72,
+    72
+   ]
+  },
+  "P08": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    75,
+    75,
+    75
+   ]
+  },
+  "P09": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    70,
+    70,
+    70
+   ]
+  },
+  "P10": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    75,
+    75,
+    75
+   ]
+  },
+  "P11": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    72,
+    72,
+    72
+   ]
+  },
+  "P12": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    75,
+    75,
+    75
+   ]
+  },
+  "P13": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    88,
+    89
+   ]
+  },
+  "P14": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    88,
+    89
+   ]
+  },
+  "P15": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    88,
+    89
+   ]
+  },
+  "P16": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    88,
+    89
+   ]
+  },
+  "P17": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    88,
+    89
+   ]
+  },
+  "P18": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    88,
+    89
+   ]
+  },
+  "P19": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    85,
+    88,
+    89
+   ]
+  },
+  "P20": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    85,
+    88,
+    89
+   ]
+  },
+  "P21": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    88,
+    89
+   ]
+  },
+  "P22": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    88,
+    89
+   ]
+  },
+  "P23": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    88,
+    89
+   ]
+  },
+  "P24": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    88,
+    89
+   ]
+  },
+  "P25": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    90,
+    90
+   ]
+  },
+  "P26": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    90,
+    90
+   ]
+  },
+  "P27": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    90,
+    90
+   ]
+  },
+  "P28": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    90,
+    90
+   ]
+  },
+  "P29": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    90,
+    90
+   ]
+  },
+  "P30": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    90,
+    90
+   ]
+  },
+  "P31": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    90,
+    90
+   ]
+  },
+  "P32": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    90,
+    90
+   ]
+  },
+  "P33": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    90,
+    90
+   ]
+  },
+  "P34": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    90,
+    90
+   ]
+  },
+  "P35": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    90,
+    90
+   ]
+  },
+  "P36": {
+   "bout": "binding",
+   "votes": {
+    "truth": 3
+   },
+   "majority_class": "truth",
+   "confidences": [
+    90,
+    90,
+    90
+   ]
+  }
+ },
+ "diagnostic_by_seed": {
+  "D01": {
+   "seed": "184101",
+   "majority_class": "paraphrase",
+   "votes": {
+    "paraphrase": 3
+   }
+  },
+  "D02": {
+   "seed": "184102",
+   "majority_class": "paraphrase",
+   "votes": {
+    "paraphrase": 3
+   }
+  },
+  "D03": {
+   "seed": "184103",
+   "majority_class": "paraphrase",
+   "votes": {
+    "paraphrase": 3
+   }
+  },
+  "D04": {
+   "seed": "184104",
+   "majority_class": "paraphrase",
+   "votes": {
+    "paraphrase": 3
+   }
+  },
+  "D05": {
+   "seed": "184105",
+   "majority_class": "paraphrase",
+   "votes": {
+    "paraphrase": 3
+   }
+  },
+  "D06": {
+   "seed": "184106",
+   "majority_class": "paraphrase",
+   "votes": {
+    "paraphrase": 3
+   }
+  }
+ },
+ "confidence": {
+  "min": 70,
+  "max": 99,
+  "median": 90,
+  "mean": 86.39682539682539,
+  "hist_50_59": 0,
+  "hist_60_79": 36,
+  "hist_80_100": 90,
+  "below_50": 0
+ },
+ "integrity": {
+  "label_blindness": "OK",
+  "tripwires": "CLEAR pre+post",
+  "class_word_scan": []
+ }
+}

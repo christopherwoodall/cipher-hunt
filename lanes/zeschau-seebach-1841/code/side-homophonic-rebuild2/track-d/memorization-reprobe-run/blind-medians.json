@@ -1,0 +1,20 @@
+{
+ "protocol": "PREREG-D-v2 \u00a76(1) / v1 PREREG \u00a74 void rule: mT(i)-mP(i)>=15 any instance -> VOID",
+ "calls": 36,
+ "valid": 36,
+ "per_label_median_blind": {
+  "071ce81c": 15,
+  "0f556d1c": 100,
+  "37f5229d": 100,
+  "3cbf46a4": 20,
+  "4accd89d": 100,
+  "5d562e72": 15,
+  "70473874": 97,
+  "a871974c": 100,
+  "b707668a": 100,
+  "bf44f0c4": 15,
+  "f85b7d03": 15,
+  "ff843bf7": 15
+ },
+ "note": "labels blind; truth/paraphrase classes sealed in memorization-reprobe-key.json; sealed scoring required"
+}

@@ -203,3 +203,156 @@
 [hb] upd=7600 ema=2.0691 wall=768s
 [hb] upd=7650 ema=2.0636 wall=822s
 [hb] upd=7700 ema=2.0620 wall=869s
+[hb] upd=7750 ema=2.0627 wall=912s
+[hb] upd=7800 ema=2.0677 wall=958s
+[train] upd=7800 ep=4 chars=47923200 train_ema=2.0677 held=2.0605 lr=2e-03 wall=981s
+[hb] upd=7850 ema=2.0638 wall=1030s
+[hb] upd=7900 ema=2.0673 wall=1085s
+[hb] upd=7950 ema=2.0659 wall=1134s
+[hb] upd=8000 ema=2.0658 wall=1189s
+[hb] upd=8050 ema=2.0560 wall=1241s
+[hb] upd=8100 ema=2.0575 wall=1287s
+[train] upd=8100 ep=4 chars=49766400 train_ema=2.0575 held=2.0584 lr=2e-03 wall=1308s
+[hb] upd=8150 ema=2.0544 wall=1355s
+[hb] upd=8200 ema=2.0568 wall=1408s
+[hb] upd=8250 ema=2.0573 wall=1460s
+[hb] upd=8300 ema=2.0519 wall=1509s
+[hb] upd=8350 ema=2.0577 wall=1549s
+[hb] upd=8400 ema=2.0565 wall=1585s
+[train] upd=8400 ep=4 chars=51609600 train_ema=2.0565 held=2.0536 lr=2e-03 wall=1603s
+[hb] upd=8450 ema=2.0595 wall=1640s
+[hb] upd=8500 ema=2.0553 wall=1682s
+[hb] upd=8550 ema=2.0542 wall=1726s
+[hb] upd=8600 ema=2.0539 wall=1764s
+[hb] upd=8650 ema=2.0551 wall=1800s
+[hb] upd=8700 ema=2.0510 wall=1840s
+[train] upd=8700 ep=4 chars=53452800 train_ema=2.0510 held=2.0534 lr=2e-03 wall=1860s
+[hb] upd=8750 ema=2.0538 wall=1905s
+[hb] upd=8800 ema=2.0566 wall=1948s
+[hb] upd=8850 ema=2.0565 wall=2029s
+[hb] upd=8900 ema=2.0481 wall=2123s
+[hb] upd=8950 ema=2.0571 wall=2198s
+[hb] upd=9000 ema=2.0517 wall=2249s
+[train] upd=9000 ep=4 chars=55296000 train_ema=2.0517 held=2.0490 lr=2e-03 wall=2273s
+[hb] upd=9050 ema=2.0474 wall=2320s
+[hb] upd=9100 ema=2.0435 wall=2370s
+[hb] upd=9150 ema=2.0411 wall=2416s
+[hb] upd=9200 ema=2.0405 wall=2463s
+[hb] upd=9250 ema=2.0439 wall=2509s
+[hb] upd=9300 ema=2.0485 wall=2555s
+[train] upd=9300 ep=4 chars=57139200 train_ema=2.0485 held=2.0455 lr=2e-03 wall=2576s
+[hb] upd=9350 ema=2.0417 wall=2623s
+[hb] upd=9400 ema=2.0482 wall=2668s
+[hb] upd=9450 ema=2.0511 wall=2714s
+[hb] upd=9500 ema=2.0477 wall=2765s
+[hb] upd=9550 ema=2.0410 wall=2805s
+[hb] upd=9600 ema=2.0442 wall=2850s
+[train] upd=9600 ep=5 chars=58982400 train_ema=2.0442 held=2.0424 lr=2e-03 wall=2872s
+[hb] upd=9650 ema=2.0483 wall=2926s
+[hb] upd=9700 ema=2.0473 wall=2978s
+[hb] upd=9750 ema=2.0475 wall=3026s
+[hb] upd=9800 ema=2.0479 wall=3073s
+[hb] upd=9850 ema=2.0497 wall=3111s
+[hb] upd=9900 ema=2.0442 wall=3150s
+[train] upd=9900 ep=5 chars=60825600 train_ema=2.0442 held=2.0398 lr=2e-03 wall=3170s
+[hb] upd=9950 ema=2.0336 wall=3212s
+[hb] upd=10000 ema=2.0375 wall=3256s
+[hb] upd=10050 ema=2.0378 wall=3300s
+[hb] upd=10100 ema=2.0374 wall=3343s
+[hb] upd=10150 ema=2.0400 wall=3386s
+[hb] upd=10200 ema=2.0351 wall=3427s
+[train] upd=10200 ep=5 chars=62668800 train_ema=2.0351 held=2.0389 lr=2e-03 wall=3448s
+[hb] upd=10250 ema=2.0388 wall=3492s
+[hb] upd=10300 ema=2.0402 wall=3537s
+[hb] upd=10350 ema=2.0435 wall=3581s
+[hb] upd=10400 ema=2.0380 wall=3637s
+[hb] upd=10450 ema=2.0375 wall=3695s
+[hb] upd=10500 ema=2.0382 wall=3752s
+[train] upd=10500 ep=5 chars=64512000 train_ema=2.0382 held=2.0359 lr=2e-03 wall=3780s
+[hb] upd=10550 ema=2.0409 wall=3828s
+[hb] upd=10600 ema=2.0350 wall=3876s
+[hb] upd=10650 ema=2.0419 wall=3920s
+[hb] upd=10700 ema=2.0398 wall=3966s
+[hb] upd=10750 ema=2.0377 wall=4021s
+[hb] upd=10800 ema=2.0361 wall=4060s
+[train] upd=10800 ep=5 chars=66355200 train_ema=2.0361 held=2.0342 lr=2e-03 wall=4080s
+[hb] upd=10850 ema=2.0397 wall=4139s
+[hb] upd=10900 ema=2.0353 wall=4197s
+[hb] upd=10950 ema=2.0264 wall=4254s
+[hb] upd=11000 ema=2.0236 wall=4311s
+[hb] upd=11050 ema=2.0295 wall=4371s
+[hb] upd=11100 ema=2.0277 wall=4420s
+[train] upd=11100 ep=5 chars=68198400 train_ema=2.0277 held=2.0316 lr=2e-03 wall=4439s
+[hb] upd=11150 ema=2.0337 wall=4479s
+[hb] upd=11200 ema=2.0318 wall=4524s
+[hb] upd=11250 ema=2.0318 wall=4567s
+[hb] upd=11300 ema=2.0377 wall=4609s
+[hb] upd=11350 ema=2.0367 wall=4656s
+[hb] upd=11400 ema=2.0283 wall=4701s
+[train] upd=11400 ep=6 chars=70041600 train_ema=2.0283 held=2.0316 lr=2e-03 wall=4722s
+[hb] upd=11450 ema=2.0307 wall=4774s
+[hb] upd=11500 ema=2.0297 wall=4830s
+[hb] upd=11550 ema=2.0369 wall=4883s
+[hb] upd=11600 ema=2.0341 wall=4927s
+[hb] upd=11650 ema=2.0362 wall=4973s
+[hb] upd=11700 ema=2.0353 wall=5016s
+[train] upd=11700 ep=6 chars=71884800 train_ema=2.0353 held=2.0281 lr=2e-03 wall=5038s
+[hb] upd=11750 ema=2.0342 wall=5081s
+[hb] upd=11800 ema=2.0230 wall=5125s
+[hb] upd=11850 ema=2.0263 wall=5172s
+[hb] upd=11900 ema=2.0235 wall=5215s
+[hb] upd=11950 ema=2.0261 wall=5259s
+[hb] upd=12000 ema=2.0281 wall=5299s
+[train] upd=12000 ep=6 chars=73728000 train_ema=2.0281 held=2.0268 lr=2e-03 wall=5316s
+[hb] upd=12050 ema=2.0224 wall=5356s
+[hb] upd=12100 ema=2.0282 wall=5393s
+[hb] upd=12150 ema=2.0293 wall=5436s
+[hb] upd=12200 ema=2.0277 wall=5477s
+[hb] upd=12250 ema=2.0259 wall=5521s
+[hb] upd=12300 ema=2.0238 wall=5562s
+[train] upd=12300 ep=6 chars=75571200 train_ema=2.0238 held=2.0245 lr=2e-03 wall=5582s
+[hb] upd=12350 ema=2.0260 wall=5624s
+[hb] upd=12400 ema=2.0274 wall=5681s
+[hb] upd=12450 ema=2.0230 wall=5740s
+[hb] upd=12500 ema=2.0286 wall=5855s
+[hb] upd=12550 ema=2.0287 wall=5921s
+[hb] upd=12600 ema=2.0288 wall=5994s
+[train] upd=12600 ep=6 chars=77414400 train_ema=2.0288 held=2.0224 lr=2e-03 wall=6026s
+[hb] upd=12650 ema=2.0203 wall=6082s
+[hb] upd=12700 ema=2.0289 wall=6173s
+[hb] upd=12750 ema=2.0239 wall=6232s
+[hb] upd=12800 ema=2.0161 wall=6295s
+[hb] upd=12850 ema=2.0160 wall=6348s
+[hb] upd=12900 ema=2.0165 wall=6409s
+[train] upd=12900 ep=6 chars=79257600 train_ema=2.0165 held=2.0212 lr=2e-03 wall=6448s
+[hb] upd=12950 ema=2.0155 wall=6518s
+[hb] upd=13000 ema=2.0184 wall=6580s
+[hb] upd=13050 ema=2.0241 wall=6645s
+[hb] upd=13100 ema=2.0192 wall=6707s
+[hb] upd=13150 ema=2.0235 wall=6792s
+[hb] upd=13200 ema=2.0251 wall=6852s
+[train] upd=13200 ep=7 chars=81100800 train_ema=2.0251 held=2.0198 lr=2e-03 wall=6881s
+[hb] upd=13250 ema=2.0236 wall=6950s
+[hb] upd=13300 ema=2.0143 wall=7032s
+[hb] upd=13350 ema=2.0210 wall=7184s
+[hb] upd=13400 ema=2.0241 wall=7320s
+[hb] upd=13450 ema=2.0227 wall=7454s
+[hb] upd=13500 ema=2.0235 wall=7562s
+[train] upd=13500 ep=7 chars=82944000 train_ema=2.0235 held=2.0181 lr=2e-03 wall=7627s
+[hb] upd=13550 ema=2.0223 wall=7736s
+[hb] upd=13600 ema=2.0261 wall=7885s
+[hb] upd=13650 ema=2.0204 wall=7991s
+[hb] upd=13700 ema=2.0137 wall=8122s
+[hb] upd=13750 ema=2.0148 wall=8252s
+[hb] upd=13800 ema=2.0173 wall=8390s
+[train] plateau: lr -> 1.0e-03
+[train] upd=13800 ep=7 chars=84787200 train_ema=2.0173 held=2.0186 lr=1e-03 wall=8459s
+[hb] upd=13850 ema=2.0135 wall=8566s
+[hb] upd=13900 ema=2.0141 wall=8741s
+[hb] upd=13950 ema=2.0141 wall=8960s
+[hb] upd=14000 ema=2.0134 wall=9161s
+[hb] upd=14050 ema=2.0173 wall=9339s
+[hb] upd=14100 ema=2.0145 wall=9517s
+[train] upd=14100 ep=7 chars=86630400 train_ema=2.0145 held=2.0138 lr=1e-03 wall=9589s
+[hb] upd=14150 ema=2.0137 wall=9745s
+[hb] upd=14200 ema=2.0140 wall=9914s

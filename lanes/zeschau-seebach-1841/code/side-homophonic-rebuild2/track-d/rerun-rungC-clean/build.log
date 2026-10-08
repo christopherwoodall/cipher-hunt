@@ -1,0 +1,12 @@
+prompt-v3C.txt sha256 OK: d907c59202c9d38e5dfe10bf8048c869bcba2fb547631c02ceb34f93b5b2615e
+class derivation matches label_map for all 18 eternal IDs
+candidates: truth=6 salad=6 paraphrase=6
+previously used blind labels: 138
+fresh labels generated: 84, zero overlap with the 138
+pairs: 42 binding=36 diagnostic=6
+diagnostic bouts paired BY SEED: D1=184101, D2=184102, D3=184103, D4=184104, D5=184105, D6=184106
+schedules: rng seed=20261008, 3 passes/judge, position randomized per pass
+key written: 84 labels (SEALED)
+sanity checks PASS (28 unique labels/judge; each label first >=1 time per pair)
+tripwire PRE-judge: 0 hits -> []
+TRIPWIRE PRE-JUDGE CLEAR

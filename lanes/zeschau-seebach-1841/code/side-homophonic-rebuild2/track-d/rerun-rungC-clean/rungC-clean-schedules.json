@@ -1,0 +1,530 @@
+{
+ "1": [
+  [
+   {
+    "pair_id": "P09",
+    "presented_first": "e77871b1"
+   },
+   {
+    "pair_id": "D01",
+    "presented_first": "5c7f25fd"
+   },
+   {
+    "pair_id": "P11",
+    "presented_first": "e27134e1"
+   },
+   {
+    "pair_id": "P07",
+    "presented_first": "a2c7fe89"
+   },
+   {
+    "pair_id": "P10",
+    "presented_first": "b29789df"
+   },
+   {
+    "pair_id": "P12",
+    "presented_first": "5d598b39"
+   },
+   {
+    "pair_id": "P06",
+    "presented_first": "cbe2a18f"
+   },
+   {
+    "pair_id": "P02",
+    "presented_first": "e1e28ffc"
+   },
+   {
+    "pair_id": "D02",
+    "presented_first": "984d9c34"
+   },
+   {
+    "pair_id": "P03",
+    "presented_first": "b149b553"
+   },
+   {
+    "pair_id": "P04",
+    "presented_first": "bb52b60a"
+   },
+   {
+    "pair_id": "P08",
+    "presented_first": "81cf7f66"
+   },
+   {
+    "pair_id": "P01",
+    "presented_first": "ecc5b7dd"
+   },
+   {
+    "pair_id": "P05",
+    "presented_first": "22744ae9"
+   }
+  ],
+  [
+   {
+    "pair_id": "D02",
+    "presented_first": "31e01e57"
+   },
+   {
+    "pair_id": "P09",
+    "presented_first": "1d0834cf"
+   },
+   {
+    "pair_id": "P05",
+    "presented_first": "ea6fbfd2"
+   },
+   {
+    "pair_id": "P11",
+    "presented_first": "8d4cfb62"
+   },
+   {
+    "pair_id": "D01",
+    "presented_first": "ccc2cb25"
+   },
+   {
+    "pair_id": "P03",
+    "presented_first": "5cf5239c"
+   },
+   {
+    "pair_id": "P02",
+    "presented_first": "2ee092d7"
+   },
+   {
+    "pair_id": "P04",
+    "presented_first": "a7a6b1ec"
+   },
+   {
+    "pair_id": "P06",
+    "presented_first": "14ed8bc2"
+   },
+   {
+    "pair_id": "P07",
+    "presented_first": "b58ebad4"
+   },
+   {
+    "pair_id": "P01",
+    "presented_first": "898b4d38"
+   },
+   {
+    "pair_id": "P08",
+    "presented_first": "bcee6567"
+   },
+   {
+    "pair_id": "P12",
+    "presented_first": "6b6d14eb"
+   },
+   {
+    "pair_id": "P10",
+    "presented_first": "f1866dcc"
+   }
+  ],
+  [
+   {
+    "pair_id": "D01",
+    "presented_first": "5c7f25fd"
+   },
+   {
+    "pair_id": "P04",
+    "presented_first": "bb52b60a"
+   },
+   {
+    "pair_id": "P02",
+    "presented_first": "e1e28ffc"
+   },
+   {
+    "pair_id": "P06",
+    "presented_first": "cbe2a18f"
+   },
+   {
+    "pair_id": "P03",
+    "presented_first": "b149b553"
+   },
+   {
+    "pair_id": "P12",
+    "presented_first": "5d598b39"
+   },
+   {
+    "pair_id": "P01",
+    "presented_first": "ecc5b7dd"
+   },
+   {
+    "pair_id": "D02",
+    "presented_first": "984d9c34"
+   },
+   {
+    "pair_id": "P10",
+    "presented_first": "b29789df"
+   },
+   {
+    "pair_id": "P08",
+    "presented_first": "81cf7f66"
+   },
+   {
+    "pair_id": "P07",
+    "presented_first": "a2c7fe89"
+   },
+   {
+    "pair_id": "P11",
+    "presented_first": "e27134e1"
+   },
+   {
+    "pair_id": "P05",
+    "presented_first": "22744ae9"
+   },
+   {
+    "pair_id": "P09",
+    "presented_first": "e77871b1"
+   }
+  ]
+ ],
+ "2": [
+  [
+   {
+    "pair_id": "P19",
+    "presented_first": "6c525bd7"
+   },
+   {
+    "pair_id": "P16",
+    "presented_first": "e9fc0b93"
+   },
+   {
+    "pair_id": "P20",
+    "presented_first": "c75e2e52"
+   },
+   {
+    "pair_id": "P17",
+    "presented_first": "5fe7dc2a"
+   },
+   {
+    "pair_id": "P13",
+    "presented_first": "5c67d71a"
+   },
+   {
+    "pair_id": "P15",
+    "presented_first": "beb10138"
+   },
+   {
+    "pair_id": "P23",
+    "presented_first": "ae89800f"
+   },
+   {
+    "pair_id": "D04",
+    "presented_first": "1acfb271"
+   },
+   {
+    "pair_id": "P14",
+    "presented_first": "1d55137f"
+   },
+   {
+    "pair_id": "P24",
+    "presented_first": "6e7525cf"
+   },
+   {
+    "pair_id": "P21",
+    "presented_first": "a543c77e"
+   },
+   {
+    "pair_id": "P22",
+    "presented_first": "be4059e1"
+   },
+   {
+    "pair_id": "D03",
+    "presented_first": "62498a8b"
+   },
+   {
+    "pair_id": "P18",
+    "presented_first": "bc8b00ba"
+   }
+  ],
+  [
+   {
+    "pair_id": "P19",
+    "presented_first": "a7c29ea9"
+   },
+   {
+    "pair_id": "P22",
+    "presented_first": "25e2732c"
+   },
+   {
+    "pair_id": "D04",
+    "presented_first": "cfce6105"
+   },
+   {
+    "pair_id": "P18",
+    "presented_first": "e6a35b28"
+   },
+   {
+    "pair_id": "P20",
+    "presented_first": "ee0cdebd"
+   },
+   {
+    "pair_id": "P13",
+    "presented_first": "c3ac3e58"
+   },
+   {
+    "pair_id": "P21",
+    "presented_first": "c3b3c21f"
+   },
+   {
+    "pair_id": "P14",
+    "presented_first": "c606ac41"
+   },
+   {
+    "pair_id": "P15",
+    "presented_first": "84ab7bb6"
+   },
+   {
+    "pair_id": "P24",
+    "presented_first": "7d7f6902"
+   },
+   {
+    "pair_id": "P16",
+    "presented_first": "f2c6713a"
+   },
+   {
+    "pair_id": "P17",
+    "presented_first": "18d81859"
+   },
+   {
+    "pair_id": "D03",
+    "presented_first": "3137a1f7"
+   },
+   {
+    "pair_id": "P23",
+    "presented_first": "9e028075"
+   }
+  ],
+  [
+   {
+    "pair_id": "P23",
+    "presented_first": "ae89800f"
+   },
+   {
+    "pair_id": "P18",
+    "presented_first": "bc8b00ba"
+   },
+   {
+    "pair_id": "P15",
+    "presented_first": "beb10138"
+   },
+   {
+    "pair_id": "P17",
+    "presented_first": "5fe7dc2a"
+   },
+   {
+    "pair_id": "P20",
+    "presented_first": "c75e2e52"
+   },
+   {
+    "pair_id": "P16",
+    "presented_first": "e9fc0b93"
+   },
+   {
+    "pair_id": "D04",
+    "presented_first": "1acfb271"
+   },
+   {
+    "pair_id": "P22",
+    "presented_first": "be4059e1"
+   },
+   {
+    "pair_id": "P19",
+    "presented_first": "6c525bd7"
+   },
+   {
+    "pair_id": "P24",
+    "presented_first": "6e7525cf"
+   },
+   {
+    "pair_id": "P21",
+    "presented_first": "a543c77e"
+   },
+   {
+    "pair_id": "P14",
+    "presented_first": "1d55137f"
+   },
+   {
+    "pair_id": "P13",
+    "presented_first": "5c67d71a"
+   },
+   {
+    "pair_id": "D03",
+    "presented_first": "62498a8b"
+   }
+  ]
+ ],
+ "3": [
+  [
+   {
+    "pair_id": "P28",
+    "presented_first": "5bb82ee0"
+   },
+   {
+    "pair_id": "D06",
+    "presented_first": "a5ed9217"
+   },
+   {
+    "pair_id": "P33",
+    "presented_first": "0cfd683a"
+   },
+   {
+    "pair_id": "P32",
+    "presented_first": "70a028fb"
+   },
+   {
+    "pair_id": "P25",
+    "presented_first": "5f78436d"
+   },
+   {
+    "pair_id": "P27",
+    "presented_first": "474f9c73"
+   },
+   {
+    "pair_id": "P34",
+    "presented_first": "742e95c2"
+   },
+   {
+    "pair_id": "P36",
+    "presented_first": "c52543d4"
+   },
+   {
+    "pair_id": "P30",
+    "presented_first": "dc755b99"
+   },
+   {
+    "pair_id": "D05",
+    "presented_first": "dbb93cfd"
+   },
+   {
+    "pair_id": "P29",
+    "presented_first": "abf5d0ed"
+   },
+   {
+    "pair_id": "P26",
+    "presented_first": "4c18e664"
+   },
+   {
+    "pair_id": "P35",
+    "presented_first": "6ac9d4a0"
+   },
+   {
+    "pair_id": "P31",
+    "presented_first": "54de8994"
+   }
+  ],
+  [
+   {
+    "pair_id": "D06",
+    "presented_first": "c56dc529"
+   },
+   {
+    "pair_id": "P30",
+    "presented_first": "1b657e52"
+   },
+   {
+    "pair_id": "P36",
+    "presented_first": "6dc512b8"
+   },
+   {
+    "pair_id": "P31",
+    "presented_first": "3e064d0a"
+   },
+   {
+    "pair_id": "P33",
+    "presented_first": "5dec86a6"
+   },
+   {
+    "pair_id": "P34",
+    "presented_first": "30d9abb9"
+   },
+   {
+    "pair_id": "P35",
+    "presented_first": "6fe92967"
+   },
+   {
+    "pair_id": "P26",
+    "presented_first": "7e026a6d"
+   },
+   {
+    "pair_id": "P28",
+    "presented_first": "cca8a7ae"
+   },
+   {
+    "pair_id": "P25",
+    "presented_first": "cf360844"
+   },
+   {
+    "pair_id": "P27",
+    "presented_first": "7a2f3b10"
+   },
+   {
+    "pair_id": "D05",
+    "presented_first": "77667b49"
+   },
+   {
+    "pair_id": "P29",
+    "presented_first": "656989ef"
+   },
+   {
+    "pair_id": "P32",
+    "presented_first": "684c4a2a"
+   }
+  ],
+  [
+   {
+    "pair_id": "P31",
+    "presented_first": "54de8994"
+   },
+   {
+    "pair_id": "P36",
+    "presented_first": "c52543d4"
+   },
+   {
+    "pair_id": "P28",
+    "presented_first": "5bb82ee0"
+   },
+   {
+    "pair_id": "P35",
+    "presented_first": "6ac9d4a0"
+   },
+   {
+    "pair_id": "P32",
+    "presented_first": "70a028fb"
+   },
+   {
+    "pair_id": "P27",
+    "presented_first": "474f9c73"
+   },
+   {
+    "pair_id": "D05",
+    "presented_first": "dbb93cfd"
+   },
+   {
+    "pair_id": "P25",
+    "presented_first": "5f78436d"
+   },
+   {
+    "pair_id": "D06",
+    "presented_first": "a5ed9217"
+   },
+   {
+    "pair_id": "P29",
+    "presented_first": "abf5d0ed"
+   },
+   {
+    "pair_id": "P33",
+    "presented_first": "0cfd683a"
+   },
+   {
+    "pair_id": "P26",
+    "presented_first": "4c18e664"
+   },
+   {
+    "pair_id": "P30",
+    "presented_first": "dc755b99"
+   },
+   {
+    "pair_id": "P34",
+    "presented_first": "742e95c2"
+   }
+  ]
+ ]
+}

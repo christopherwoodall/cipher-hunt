@@ -1,1 +1,85 @@
-{"_meta":{"note":"Single source of truth for the R5005 key-table grid. Round coordinators update this file on merge (promotions, kills, new leads). Statuses: gt (pencil ground truth), prom (promoted), prov (provisional), cls (class, not a value), lead (pending adjudication).","parse":"repaired 1,847-pair, code/side-keyhunt/repaired_offsets.json","updated":"2026-10-07"},"cells":{"11":["la","gt"],"29":["er","gt"],"31":["VERBAL","cls"],"33":["INF","cls"],"34":["i","gt"],"40":["e","gt"],"46":["que","gt"],"59":["est","prov"],"64":["qui","prom"],"70":["pre","gt"],"77":["le","prov"],"78":["ver/er?","lead"],"79":["tout?","lead"],"82":["m","gt"],"87":["ce","prom"],"96":["par","prom"]}}
+{
+ "_meta": {
+  "note": "Single source of truth for the R5005 key-table grid. Round coordinators update this file on merge (promotions, kills, new leads). Statuses: gt (pencil ground truth), prom (promoted), prov (provisional), cls (class, not a value), lead (pending adjudication). 17/47/79 marked prom on battery/finder PROMOTE verdicts (red-team ratification pending); 00 lead.",
+  "parse": "repaired 1,847-pair, code/side-keyhunt/repaired_offsets.json",
+  "updated": "2026-10-07"
+ },
+ "cells": {
+  "00": [
+   "pour?",
+   "lead"
+  ],
+  "11": [
+   "la",
+   "gt"
+  ],
+  "17": [
+   "fois",
+   "prom"
+  ],
+  "29": [
+   "er",
+   "gt"
+  ],
+  "31": [
+   "VERBAL",
+   "cls"
+  ],
+  "33": [
+   "INF",
+   "cls"
+  ],
+  "34": [
+   "i",
+   "gt"
+  ],
+  "40": [
+   "e",
+   "gt"
+  ],
+  "46": [
+   "que",
+   "gt"
+  ],
+  "47": [
+   "ce",
+   "prom"
+  ],
+  "59": [
+   "est",
+   "prov"
+  ],
+  "64": [
+   "qui",
+   "prom"
+  ],
+  "70": [
+   "pre",
+   "gt"
+  ],
+  "77": [
+   "le",
+   "prov"
+  ],
+  "78": [
+   "ver/er?",
+   "lead"
+  ],
+  "79": [
+   "tout",
+   "prom"
+  ],
+  "82": [
+   "m",
+   "gt"
+  ],
+  "87": [
+   "ce",
+   "prom"
+  ],
+  "96": [
+   "par",
+   "prom"
+  ]
+ }
+}

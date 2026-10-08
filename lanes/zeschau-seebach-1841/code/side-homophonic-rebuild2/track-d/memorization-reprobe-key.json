@@ -1,0 +1,58 @@
+{
+ "meta": {
+  "provenance": "key-holder trusted-party decode under redteam/RULING-MEMORIZATION-REPROBE-SEAL.md (R12e/R14f); 6 fresh-instance truths decoded with sealed keys, 6 fresh French paraphrases; pilot paraphrases NOT reused",
+  "n_candidates": 12,
+  "label_rng_seed": 20261008,
+  "frozen_utc": "2026-10-08T02:00:54.262909+00:00"
+ },
+ "mapping": {
+  "4accd89d": {
+   "seed": "184203",
+   "class": "paraphrase"
+  },
+  "70473874": {
+   "seed": "184201",
+   "class": "paraphrase"
+  },
+  "f85b7d03": {
+   "seed": "184203",
+   "class": "truth"
+  },
+  "b707668a": {
+   "seed": "184202",
+   "class": "paraphrase"
+  },
+  "37f5229d": {
+   "seed": "184206",
+   "class": "paraphrase"
+  },
+  "bf44f0c4": {
+   "seed": "184202",
+   "class": "truth"
+  },
+  "071ce81c": {
+   "seed": "184204",
+   "class": "truth"
+  },
+  "5d562e72": {
+   "seed": "184206",
+   "class": "truth"
+  },
+  "3cbf46a4": {
+   "seed": "184201",
+   "class": "truth"
+  },
+  "ff843bf7": {
+   "seed": "184207",
+   "class": "truth"
+  },
+  "0f556d1c": {
+   "seed": "184207",
+   "class": "paraphrase"
+  },
+  "a871974c": {
+   "seed": "184204",
+   "class": "paraphrase"
+  }
+ }
+}

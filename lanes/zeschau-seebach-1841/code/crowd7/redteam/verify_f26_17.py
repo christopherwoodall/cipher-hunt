@@ -48,6 +48,11 @@ the cipher-side stream numbers behind the round-14 rulings R-001..R-009
 [1228]=82, 62->48 starts, la-52 5-gram x2, Vstem-arm 52s, 11->59 @463,
 11->78 x2, 87->59 sole window, @460 tout-cela-est. All re-derived by the red
 team. Existing checks untouched.
+
+R16BANK (2026-10-07): round-16 red-team adjudication extension appending the
+cipher-side stream numbers behind the round-16 red-team rulings R16-001..
+R16-032 (code/crowd16/report_inbox/next-token-redteam.md), all re-derived by
+the red team on the repaired 1,847-pair stream. Existing checks untouched.
 """
 import json, sys
 from collections import Counter
@@ -767,6 +772,126 @@ def main():
     # P1: cela = 87+11 x7 (mutual top-attraction banked in LEDGER)
     chk('R15: P1 87-11 x7', pos2(87,11),
         [74,163,201,461,830,1242,1403])
+
+    # ---- R16BANK (2026-10-07, round-16 red-team adjudication extension) ----
+    # Appends the cipher-side stream numbers behind the round-16 red-team
+    # rulings (code/crowd16/report_inbox/next-token-redteam.md), re-derived
+    # by the red team on the repaired 1,847-pair stream. Existing checks
+    # untouched.
+    #
+    # R16-001: 77="le" PROMOTION DEMOTED (bar L1(b) failed: the three legs
+    # are conditional on unbanked values; 80/89 verb-frames are conditional
+    # on 77="le" per the round-15 ledger -> circular). Adverse dissolved;
+    # 77 stays PROVISIONAL.
+    chk('R16: n77', groups[77], 44)
+    chk('R16: 87-77 "ce le" x2', pos2(87,77), [515,869])
+    chk('R16: 77-76 x3', pos2(77,76), [832,891,968])
+    chk('R16: @832 cela-boundary', pairs[828:838],
+        [1,24,87,11,77,76,59,35,56,17])
+    chk('R16: @516 "ce le [80]"', pairs[514:521], [56,87,77,80,9,70,91])
+    chk('R16: @870 "ce le [89]"', pairs[868:875], [70,87,77,89,48,20,74])
+    chk('R16: @1031 fenced adverse', pairs[1029:1036], [1,3,29,80,77,11,70])
+    chk('R16: 77 follower top', groups[77] and
+        Counter(pairs[i+1] for i in range(len(pairs)-1)
+                if pairs[i]==77).most_common(5),
+        [(78,7),(84,7),(86,5),(81,4),(76,3)])
+    # R16-002: 84="on" WEAKENED (on-est x4 VOID per ISLET-10 classification;
+    # 59-independent legs intact)
+    _cls16 = json.load(open(LANE / 'code/crowd10/conditioner59'
+                            / 'classification.json'))
+    chk('R16: 84->59 x4 positions', pos2(84,59), [1189,1290,1447,1803])
+    chk('R16: class 59@1190/1291/1448/1804',
+        tuple(_cls16[str(k)]['class'] for k in (1190,1291,1448,1804)),
+        ('ESTE','FENCED','ESTE','ESTE'))
+    chk('R16: class 59@834 LEFTOVER (@832 leg reduced)',
+        _cls16['834']['class'], 'LEFTOVER')
+    chk('R16: 84 l-on x7 intact', pos2(77,84),
+        [145,259,1057,1446,1484,1763,1802])
+    chk('R16: 84->24 x3 intact', pos2(84,24), [310,473,1485])
+    chk('R16: 82-84 "mon" @166 intact', pos2(82,84), [166])
+    chk('R16: qu-on-en x2 intact',
+        [i for i in range(len(pairs)-4)
+         if tuple(pairs[i:i+5])==(46,84,24,37,78)], [309,472])
+    # R16-003: 37/42 predicative frames DEMOTED -> HOLD (ISLET-10)
+    chk('R16: 59->37 x6 all LEFTOVER',
+        tuple(_cls16[str(k)]['class'] for k in (528,624,912,1178,1443,1796)),
+        ('LEFTOVER',)*6)
+    chk('R16: 59->42 void (LEFTOVER+ESTE)',
+        tuple(_cls16[str(k)]['class'] for k in (463,1186)),
+        ('LEFTOVER','ESTE'))
+    chk('R16: 32 keeps 2 EST legs',
+        tuple(_cls16[str(k)]['class'] for k in (316,1210)), ('EST','EST'))
+    chk('R16: 59->30 @559 EST / @1715 ESTE (30="pas" lead)',
+        tuple(_cls16[str(k)]['class'] for k in (559,1715)), ('EST','ESTE'))
+    # R16-004: 45="ce" PROMOTE->HOLD ("ce verdict" x2 forces 45="dict";
+    # "par ce" x2 forces 45="ce"; complementary distribution)
+    chk('R16: 78-45 "verdict" x4', pos2(78,45), [313,573,982,1164])
+    chk('R16: @573 "ce verdict" (87 banked)', pairs[571:575], [52,87,78,45])
+    chk('R16: @982 "ce verdict" (47 granted)', pairs[980:984], [76,47,78,45])
+    chk('R16: 96-45 "par ce" x2', pos2(96,45), [602,1213])
+    chk('R16: 45-64 x3', pos2(45,64), [314,340,1024])
+    chk('R16: @314 contested', pairs[311:320],
+        [24,37,78,45,64,59,32,94,6])
+    # R16-005: 78 "er" KILLED distributionally (OR=22.9); "ce 78" x7 frames;
+    # @296 "l'ere" fenced residual for 78="ver" LEAD
+    _det = {11,77,47,87}
+    _d78 = sum(1 for i in range(1,len(pairs))
+               if pairs[i]==78 and pairs[i-1] in _det)
+    _d29 = sum(1 for i in range(1,len(pairs))
+               if pairs[i]==29 and pairs[i-1] in _det)
+    chk('R16: 78 det-pre 16/31', (_d78, groups[78]), (16,31))
+    chk('R16: 29 det-pre 2/45', (_d29, groups[29]), (2,45))
+    chk('R16: OR 22.93',
+        round((_d78/(groups[78]-_d78))/(_d29/(groups[29]-_d29)),2), 22.93)
+    chk('R16: 78 after 33 = 0; 29 after 33 = 5',
+        (sum(1 for i in range(1,len(pairs)) if pairs[i]==78 and pairs[i-1]==33),
+         sum(1 for i in range(1,len(pairs)) if pairs[i]==29 and pairs[i-1]==33)),
+        (0,5))
+    chk('R16: "ce 78" x7 (er ungrammatical)',
+        sorted(i-1 for i in range(1,len(pairs))
+               if pairs[i]==78 and pairs[i-1] in (47,87)),
+        [363,572,628,818,981,1104,1396])
+    chk('R16: @296 l-ere residual', pairs[294:302],
+        [16,1,11,78,40,97,86,91])
+    # R16-006: 94="ne" PROMOTE declined -> STRONG LEAD (conditional legs)
+    chk('R16: 94-59 "n-est" x3', pos2(94,59), [558,762,1795])
+    chk('R16: 94-82 "ne m" x4', pos2(94,82), [578,1182,1353,1742])
+    chk('R16: 62-94 x9 / 62-48 x6', (big[(62,94)],big[(62,48)]), (9,6))
+    # R16-007: record corrections to prior findings
+    chk('R16: 67-33 x6 (was x1)', pos2(67,33),
+        [272,1148,1423,1450,1476,1623])
+    chk('R16: 12-48 x5 (was x7)', pos2(12,48), [169,709,809,1075,1736])
+    chk('R16: 26-30 x4 (was x3)', pos2(26,30), [655,992,1250,1560])
+    chk('R16: 26-12 x4', pos2(26,12), [240,842,1470,1707])
+    chk('R16: 46-85-29 x0 (finder claim killed)',
+        sum(1 for i in range(len(pairs)-2)
+            if tuple(pairs[i:i+3])==(46,85,29)), 0)
+    chk('R16: @95 is 46-29-85', pairs[93:100], [81,97,46,29,85,8,21])
+    # R16-008: confirmed batteries (cipher-side)
+    chk('R16: 31 followers 8/8 distinct',
+        len(set(pairs[i+1] for i in range(len(pairs)-1) if pairs[i]==31)), 8)
+    chk('R16: n79=18', groups[79], 18)
+    chk('R16: 00 follower census',
+        Counter(pairs[i+1] for i in range(len(pairs)-1)
+                if pairs[i]==0).most_common(8),
+        [(86,12),(33,8),(66,7),(92,6),(97,4),(11,4),(46,4),(36,3)])
+    chk('R16: 65-94 exclusive x2', pos2(65,94), [687,1712])
+    chk('R16: 20-62-94 x3', [i for i in range(len(pairs)-2)
+        if tuple(pairs[i:i+3])==(20,62,94)], [760,839,1703])
+    chk('R16: 67-77-81 x4 (fork-conditional)', pos2(67,77) and
+        [i for i in range(len(pairs)-2)
+         if tuple(pairs[i:i+3])==(67,77,81)], [743,1239,1400,1597])
+    chk('R16: 17-11-26 x2 absolute', pos2(17,11) and
+        [i for i in range(len(pairs)-2)
+         if tuple(pairs[i:i+3])==(17,11,26)], [238,1558])
+    chk('R16: 17-77-82 x2 absolute', [i for i in range(len(pairs)-2)
+        if tuple(pairs[i:i+3])==(17,77,82)], [1040,1157])
+    chk('R16: 73-34 "lui" x2', pos2(73,34), [392,1347])
+    chk('R16: 70-17 @369 sole anomaly', pos2(70,17), [368])
+    chk('R16: 11-84 R1 / 94-84 R2 residuals stand',
+        (pos2(11,84),pos2(94,84)), ([1619],[1664]))
+    chk('R16: @146 R3 new 84 residual', pairs[144:151],
+        [64,77,84,29,87,64,96])
 
     print(f'F26-17 adjudication stream: {len(pairs)} pairs')
     allok = True

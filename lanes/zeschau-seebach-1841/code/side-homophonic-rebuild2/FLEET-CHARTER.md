@@ -121,3 +121,68 @@ result — tell them to continue."
   find out exactly why the judge can't tell salad from truth (prompt
   wording? score scale? candidate presentation? memorization asymmetry?)
   and repair it rather than shelving the track.
+
+## Fleet refresh — 2026-10-07 ~20:45 CDT (fresh coordinator, session 5ca520bb)
+Previous coordinator died on a runtime hiccup after ~7h; mission inherited, workers not.
+- **Rung-C clean re-run**: trial runner deployed (single coordinator, isolated dir
+  `track-d/rerun-rungC-clean/`, hardening 1–8 confirmed in COORDINATOR-DESIGNATION.md).
+  Red-team audit to follow before any verdict. Pre-cleared per R18(H).
+- **Track B**: training live, held loss 2.11→2.054 and still declining at upd 8600/ep 4.
+  Decision: CONTINUE on the numbers.
+- **Workers**: (1) Experiment 0 completion — 5 pending runs; (2) memorization re-probe
+  on gate truths (36 calls, pre-unsealing prerequisite); (3) cell-space solver moves
+  implementation + smoke test; (4) funnel seed package with current priors
+  (13 values incl. 17="fois", 47/79 PROMOTE-grade, 37 tension, 32/19, 00="pour").
+- Track A closed (H1). Track C line closed (statistical boundary exhausted by proof).
+  SPS remains shelved while D lives — NOT built speculatively.
+
+## 2026-10-07 ~20:50 CDT — rung-C judges commissioned; memorization probe parked
+- Rung-C clean re-run: build phase complete (prompt pinned d907c592, 84 fresh
+  labels zero-overlap vs 138 used, 36 binding + 6 by-seed diagnostic pairs,
+  key sealed, pre-judge tripwire clear). 3 fresh judges commissioned by the
+  single coordinator. Scoring + red-team audit follow on judge completion.
+- Memorization re-probe (36 calls): BLOCKED 0/36, INCONCLUSIVE. No probe inputs
+  exist — only the key-holding Runner/coordinator may construct gate-truth
+  paraphrases per R12e/R14f; a track worker cannot. Parked until (a) rung-C
+  instrument acceptance resolves the judge-substrate question and (b) the
+  key-holder constructs the blind paraphrase package. Pre-unsealing prerequisite
+  remains unsatisfied; gate stays sealed regardless.
+
+## 2026-10-07 ~20:52 CDT — cell-space moves verified; funnel re-dispatched
+- Cell-space solver moves: already implemented in track-d/solver-cell/solver.py
+  (sibling worker); audited spec-compliant (move distribution exact, block
+  dropped, pins hard, J untouched); --self-test PASS (delta scoring exact to
+  1e-10); smoke test on 184101 PASS (5k iters, +3,550.6 nat margin over random).
+  NOTE: experiment_0.py imports the FROZEN solver, not solver-cell/ — the
+  running Experiment-0 batch tests old moves per its pre-registration; repoint
+  decision deferred to post-run analysis.
+- Funnel seed package: first worker returned silently with no artifacts;
+  re-dispatched with explicit end-to-end verification requirement.
+
+## 2026-10-07 ~20:53 CDT — Experiment 0 closed (was already complete)
+- Experiment 0: the "5 pending runs" premise was stale — all 6 runs already
+  complete (experiment0.json/log, EXIT=0), verified line-by-line + reproducibility
+  spot-check PASS (184106 byte-identical re-run). 6/6 SLIDE, 0/6 STAY → Branch B
+  binding. No new runs executed (deterministic; re-run would overwrite).
+  Runner config documented: frozen group-space runner (chg1/swap/poly/chg2/block),
+  NOT the cell-space fork — basin probe under cell-space moves remains an open
+  follow-up, not a pre-registration violation to pursue unilaterally.
+
+## 2026-10-07 ~20:56 CDT — funnel seed package built
+- track-d/funnel_seeds.py + funnel/seeds.json (200: 100 RND + 60 LEX + 40 CRB)
+  + funnel/priors-manifest.json (21 priors). Validation PASS: 7 GT pins in
+  200/200, 4 split sets exclusive, 67 never collapsed, alias cap 5 respected,
+  deterministic (double-run byte-identical). 9 ambiguous encodings documented
+  with resolutions. R5005 untouched, gate sealed. Ready for the funnel generator.
+
+## 2026-10-08 ~01:56 UTC — RUNG C PASSES (clean re-run)
+- Mechanical: 36/36 binding pairs truth-unanimous 3–0 (bar ≥35/36); 126/126 verified.
+- Red-team audit: ADMISSIBLE (9/9). Confidence-uniformity concern assessed —
+  judge 3's passes 2–3 were copies; choice data robust under strictest weighting.
+- Documentation gap closed: COORDINATOR-ATTESTATION.md (single coordinator
+  commissioned all 3 judges; fresh, brief-only).
+- Ladder §4: strike one CLEARED, v3C instrument ACCEPTED, strike two not
+  recorded, SPS trigger NOT met.
+- Step-4 clearance re-requested: redteam/STEP4-CLEARANCE-REQUEST.md (Branch-B
+  funnel on original instances; R5005 + gate instances stay sealed).
+- Memorization re-probe still parked (needs key-holder's blind paraphrase package).

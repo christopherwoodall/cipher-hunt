@@ -81,6 +81,10 @@ class Model:
                 "SELECT total FROM ctx_total WHERE mode=? AND ord=? AND ctx=?",
                 (mode, o, c)).fetchone()
             out.append((d, tot[0] if tot else 0))
+        # bounded FIFO cache (2026-10-07): beam search generates ~all-distinct
+        # contexts, so an unbounded cache grows without bound on long runs
+        if len(self._cand_cache) >= 8192:
+            self._cand_cache.pop(next(iter(self._cand_cache)))
         self._cand_cache[key] = out
         return out
 

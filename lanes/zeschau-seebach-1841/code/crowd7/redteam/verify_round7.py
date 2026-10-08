@@ -967,6 +967,117 @@ def main():
         'COLLISION with 84="on" (62="on" STRONG LEAD must be'
         ' re-examined; collision battery required)')
 
+    # ---- ROUND16-LEDGER (2026-10-07, round-16 red-team adjudication) ----
+    # Status deltas from the round-16 red-team rulings
+    # (code/crowd16/report_inbox/next-token-redteam.md), adjudicating the 16
+    # next-token batteries (code/crowd16/report_inbox/next-token-*.md).
+    # Existing checks untouched.
+    LEDGER16 = {
+        '77': 'PROMOTION DEMOTED (R16-001): "le" stays PROVISIONAL; "le la"'
+              ' adverse DISSOLVED; bar L1(b) failed - legs conditional on'
+              ' unbanked 76/80/89; 80/89 verb-frames conditional on 77="le"'
+              ' per LEDGER15 (circular)',
+        '84': 'WEAKENED not demoted (R16-002): "on est" x4 VOID (59 ESTE/'
+              'FENCED per ISLET-10); 13 59-independent legs intact; 4 ESTE'
+              ' windows fenced as 84-residuals (verbal-syllable tension)',
+        '37/42 frames': 'DEMOTED -> HOLD (R16-003): 0 valid est-legs under'
+                        ' ISLET-10 (37: 6 LEFTOVER; 42: LEFTOVER+ESTE);'
+                        ' 32 frame STANDS at 2 EST legs; 19 HOLD confirmed',
+        '45': 'PROMOTE->HOLD revised within round (R16-004): "ce verdict" x2'
+              ' forces 45="dict"; "par ce" x2 forces 45="ce"; "ce/dict"'
+              ' positional-allophone LEAD conditional on 78="ver"',
+        '78': '"er" KILLED distributionally (R16-005): 16/31 vs 2/45 OR=22.9;'
+              ' "ce 78" x7 ungrammatical under "er"; 78="ver" LEAD; @296'
+              ' "l\'ere" fenced residual',
+        '94': 'PROMOTE DECLINED -> STRONG LEAD (R16-006): "n\'est" x3 +'
+              ' "ne m\'" x4 + 62-94 x9 all conditional (62 lead, 59'
+              ' provisional, 82 continuations strained)',
+        '48="e"': 'DECLINED (R16-007): no independent legs; re-reading parses'
+                  ' worse (1/4 vs granted frame 4/4)',
+        '84="fait"': 'REJECTED (R16-008): re-litigation without new evidence;'
+                     ' flagships do not parse (no 77 at @1189; 59 ESTE)',
+        '30': 'NEW LEAD "pas" (R16-009): "n\'est 30" @559 EST + "ne [V] 30"'
+              ' @1715 ESTE; 19-window census queued',
+        '12': 'LEAD "n" (R16-010): "prenne/prennent" + "ni" @1740; 12-48 x5'
+              ' (corrected from x7)',
+        '39': 'DEMOTED LEAD->HYPOTHESIS (R16-011): "qui a" @606 is "qui [39]'
+              ' qui" (unclean); word-internal "pre-a-la" x2 not independent;',
+        '06': 'LEAD "ent/ment" (R16-012): 3 "[X]-06 la [NOUN]" windows;'
+              ' verb-vs-adverb fork open',
+        '29-47': '"se"-allophone LEAD (R16-013): 29-47 x4, 29-47-33 x2;'
+                 ' complementary to "ce"-after-par (allophony, not'
+                 ' polyvalence)',
+        '73': 'LEAD "lu" (R16-014): 73-34 x2 "lui"-shaped',
+        '33': 'LEAD "dire" (R16-015): "67 33 46" x2 idiomatic both forks;'
+              ' promotion blocked by "33 29" x5',
+        '86-29': 'substantivized-INF LEAD (R16-016): "veut le [86]-er"'
+                 ' ungrammatical -> nominal',
+        '43': 'feminine-noun LEAD (R16-017): "la 43" + "par 43" x2 +'
+              ' "43 pour que"',
+        '65': 'priority-1 battery target (R16-018): "e 65 94" x2 exclusive;'
+              ' "65 qui" x3; top "-ere" follower',
+        '20': 'feminine-noun LEAD (R16-019): "la premiere 20" @760 +'
+              ' "pour [20]" @667; 20="fois" stays killed',
+        '79': 'CONFIRMED banked "tout" (R16-020): 4 compositional legs'
+              ' re-derived; @396/@1227 fenced as 2 strained residuals',
+        '00': 'CONFIRMED banked "pour" (R16-021): census exact; @107'
+              ' fork-conditional; @1247/@864/@291/@685 fenced; rate adverse'
+              ' weighed (5x)',
+        '31': 'VERBAL class CONFIRMED (R16-022): 8/8 distinct followers',
+        '67-33': 'CORRECTED x6 (was x1) (R16-023)',
+        '26-30': 'CORRECTED x4 (was x3) (R16-024)',
+        'E1/E2/E3': 'CONFIRMED: 65-94 exclusive; 20-62-94 x3; 67-77-81 x4'
+                    ' fork-conditional (R16-025)',
+        'F1/F2': 'CONFIRMED absolute construction (R16-026): 17-11-26 x2 +'
+                 ' 17-77-82 x2',
+        '46-85-29': 'finder claim KILLED: 0x globally; @95 is 46-29-85'
+                    ' (R16-027)',
+        '@369': '70-polyvalence REJECTED (R16-028): lane law (67 sole) +'
+                ' 70="pre" Tier-0; anomaly fenced pending "49 61" battery',
+        '76': 'gender tension QUEUED, not ruled (R16-029): "le [76]" x3 vs'
+              ' "la [76]" x1; load-bearing for 77 promotion docket',
+        '82': '"meme" REJECTED (R16-030): 82="m" Tier-0 stands; 67 sole'
+              ' polyvalence; "le m[44/63]" unresolved pending 44~63 battery',
+        'promotions round 16': '0 (sole claimed promotion 77="le" demoted)',
+        'pre-registration': 'INTACT: 16/16 bars stated before data; no'
+                           ' post-hoc bars found; within-round revisions'
+                           ' transparently recorded',
+    }
+    VOCAB16 = set(LEDGER16.values())
+    chk('ledger16: all statuses in vocabulary',
+        sorted(set(LEDGER16.values()) - VOCAB16), [])
+    chk('ledger16: 32 entries', len(LEDGER16), 32)
+    chk('ledger16: 77 promotion demoted',
+        LEDGER16['77'].startswith('PROMOTION DEMOTED (R16-001'), True)
+    chk('ledger16: 0 promotions round 16',
+        LEDGER16['promotions round 16'], '0 (sole claimed promotion'
+        ' 77="le" demoted)')
+    chk('ledger16: 78 er killed',
+        LEDGER16['78'].startswith('"er" KILLED distributionally (R16-005)'),
+        True)
+    chk('ledger16: 37/42 demoted',
+        LEDGER16['37/42 frames'].startswith('DEMOTED -> HOLD (R16-003)'),
+        True)
+    chk('ledger16: 45 revised',
+        LEDGER16['45'].startswith('PROMOTE->HOLD revised within round'),
+        True)
+    # ---- ROUND16-LEDGER: artifact drift guards ----
+    _rt16 = (LANE / 'code/crowd16/report_inbox/next-token-redteam.md') \
+        .read_text()
+    chk('R16: redteam report exists with 30+ rulings',
+        _rt16.count('R16-') >= 30, True)
+    chk('R16: 16 battery reports present',
+        sum(1 for t in ['ce47','classes','e','er','est','fois','forks',
+                        'formula-tails','i','la','le','m','par-rest','pour',
+                        'pre','tout']
+            if (LANE / 'code/crowd16/report_inbox'
+                / f'next-token-{t}.md').exists()), 16)
+    for _t in ['le','est','forks','par-rest','pre','tout']:
+        _b = (LANE / f'code/crowd16/report_inbox/next-token-{_t}.md') \
+            .read_text()
+        chk(f'R16: battery next-token-{_t} has VERDICT',
+            '## VERDICT' in _b, True)
+
     fails = [c for c in checks if not c[3]]
     print('round-7 red-team extension: %d/%d PASS' % (len(checks) - len(fails),
                                                      len(checks)))
