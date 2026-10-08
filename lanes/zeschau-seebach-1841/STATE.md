@@ -1,20 +1,66 @@
 # STATE — zeschau-seebach-1841
 
-- **status:** `cracking` (crowd round 11 COMPLETE 2026-10-07: 7/7 executor
-  packages merged — three sequential red-team adjudicators ruled R1–R7 with
-  no coordinator-applied bars; baselines extended in place 132/132→148/148
-  (R11BANK, 16 cipher-side checks) and 89/89→100/100 (ROUND11-LEDGER, 21
-  status entries + 6 corpus drift guards). Net: **0 promotions, 0 kills, 0
-  demotions — the bar held a tenth round.** R1 watch06 GRANT (falsifiers
-  unfired, ISLET 3 stands); R2 smith-liaison BANK; R3 33 GRANT
-  (infinitive-class, lean-veut @1450/@1623); R4 este-verb GRANT (H0 holds,
-  set-valued); R5 @1248 GRANT ("peu" strengthened 4/8, "empêcher"
-  weak-fenced 3/7); R6 67 GRANT (@633 et-CONDITIONAL, one classification;
-  fork SUPPORTED, 38 tally); R7 anchorer48 GRANT (3 fences, 48
-  UNIDENTIFIED). Label correction: the double-pour frame is
-  pairs[1244:1255], not "@1244–1256". Scoreboard: 12 values + 10-islet
-  registry + leads — 7 pencil GT + 87=ce/64=qui/96=par/59=est provisional
-  (ISLET 10) + 77="le" provisional-conditioned.)
+- **status:** `cracking` (crowd round 13 COUNCIL ROUND COMPLETE 2026-10-07: 10
+  executor packages merged — 2-shift red-team adjudication, 21 rulings
+  (RULINGS-ROUND13.md), no coordinator-applied bars; baselines extended in
+  place 203/203→237/237 (R13BANK, 34 cipher-side checks) and 133/133→160/160
+  (ROUND13-LEDGER, 27 checks). Net: **0 promotions; islet registry
+  restructured** — 5 islets dissolve into word/frame rules (1,2,3,8,10),
+  67 fork is the SOLE true polyvalence, 66/89 become class-constraint tier,
+  96 verb-stem inconclusive, 86 kill confirmed; **4 homophone sets SPLIT**
+  ({33,86} class-mates, {48,94} ne-distributed, {52,59} positional-allophone
+  pattern, {76,78} 76 ver-tine only); **KE2: 46=que RE-DERIVED** (leave-one-out,
+  ≥2 independent legs) and @1034 two-occurrence claim ROBUST; **KE1:
+  INCONCLUSIVE** (max gold=2 adversarially — no STOP, parse stands with the
+  tested caveat); **drag built/run/nulled** (~95s, control PASS, bar not met,
+  FDR≈1.4, 6 LEAD-grade docket hits, reusable infrastructure); **missing mass:
+  ~17 cells** for uncovered syllables, digit hunt retired; **word segmentation:
+  32 segments** (3.90%, memo to Smith); solver side — Track A: 5-gram+lexicon
+  IS the blocker (not the register gap), Track C NULL-v3, Track D Experiment 0
+  first datum SLIDE (→Branch B), judge instrument not stood up (#1 blocker).
+  Scoreboard: 12 values (7 pencil GT + 87=ce/64=qui/96=par/59=est provisional
+  + 77="le" provisional-conditioned) + restructured registry + leads.
+- **CANONICALITY (binding, written 2026-10-07):** the canonical parse
+  (repaired 1,847-pair) is conditionally canonical on **(a)** the gloss
+  line-tag (erased "la pre m i er e" belongs on row a5_03) AND **(b)**
+  upstream's 70 EM row offsets, **68 of which are unvalidated** (KE1 tested
+  the offset model: inconclusive, parsimony still favors M1+1flip — the
+  largest unpriced risk is now a tested permanent caveat, not an untested one).
+- **next:** Round-14 work orders (crowd round 13 COMPLETE, curation 2026-10-07).
+  Canonical parse: repaired 1,847-pair (`code/side-keyhunt/repaired_offsets.json`);
+  positions per `code/crowd4/REINDEX.md` (repaired indexing). Red-team baseline:
+  extend, don't rebuild (237/237 + 160/160). No coordinator-applied bars — red team
+  adjudicates every status change. STANDING DOCTRINE (operator order): a null
+  round is not a stop condition — regenerate and continue, no wind-down, no asking.
+  1. **Apply the adjudicated registry rewrite** — 5 dissolutions → word-rule
+     tier (W-ent1, W-le1, W-en1, W-este1, W-est1, W-est2, W-este2, F-qui-est,
+     F-qui-le); 67 fork as sole polyvalence; 66/89 as class-constraint tier.
+     (Adjudicated R-IA1–R-IA7; apply the edits the auditor listed.)
+  2. **33's infinitive** — Fork S/W discriminator: pencil-GT-anchored
+     multi-group word containing 33, or I4-window re-analysis. 79="tout"
+     promotion unlocks the F-C "pour X tout W" battery (named, not run).
+  3. **81="prin" battery** — resolve the "la pour" post-context adverse:
+     chance artifact (FDR-consistent) or the lead is real and 11="la" +
+     00="pour" need re-reading. 81 flanks F-C@1088 (@1086/@1095) — anchor
+     pair if 81 promotes.
+  4. **74-class battery** (promotes/kills the "de ce que" islet); **H_stem
+     battery** (48-er/48-e as verb stem + inflection); **62-polyvalence
+     battery** (dissolves the "on-48" adverse if 62 is syllable-"on" there).
+  5. **52's non-est value** — "la 52" ×3 needs its own battery ("la est"=0).
+  6. **78 fork resolution** — ver-initial vs er-final by POSITION (the
+     polyvalence hypothesis from the {76,78} tension).
+  7. **59's third value** — @825 "en ce"+noun frame (word-"est" ruled out).
+  8. **Smith side** — judge instrument stand-up (#1 blocker, gates the
+     2,700-call funnel); Experiment 0 completion (5 runs pending); Track B
+     training finish; memorization re-probe on gate truths; §6 R5005
+     criteria pre-registration by solver-side red team. Main-fleet search
+     scope stays ZERO until C1 passes.
+  9. **No re-litigation of:** 48="ne", H_verb, unconditioned 48="de",
+     86=que-family, unconditioned 84s, unconditioned-59, H4g, three mergers,
+     {33,86}/{48,94}/{52,59}/{76,78} as homophone SETS (splits stand),
+     digit hunt, double-pour stack, "gouvernement", "en ce" at 3 windows,
+     column-refuge concretizations, retired WO-6 bar, settled round-11/12/13
+     fences.
 - **next:** Round-12 work orders (crowd round 11 COMPLETE, curation 2026-10-07).
   Canonical parse: repaired 1,847-pair (`code/side-keyhunt/repaired_offsets.json`);
   positions per `code/crowd4/REINDEX.md` (repaired indexing). Red-team baseline:
@@ -320,6 +366,9 @@
     poststelle@sta.smi.sachsen.de) for 10731 Nr. 12 + 10717 Nr. 3332/3333.
   - No 1840s Saxon key on DECODE (latest Dresden key 1799–1806, different fonds).
   - Erased pencil decipherment would need UV/multispectral imaging (physical access, HStAD).
+
+## Standing doctrine (operator orders — every future coordinator inherits these verbatim)
+- **A null round is not a stop condition** (operator standing order, 2026-10-07, BigSexyWarlock69's words: "Don't stop if the fleet returns a null result — tell them to continue."). If a round returns 0 promotions / 0 kills / 0 demotions, that is a round, not a verdict — regenerate work orders and continue. Do not wind down, do not reduce executor count, do not ask whether to continue.
 
 ## Standing facts (do not re-derive)
 - Target: Heinrich Anton von Zeschau (Dresden) → Albin Leo von Seebach (St Petersburg), 18 Jan 1841 – 26 Oct 1843. Shelfmark: HStAD 10731 Sächsische Gesandtschaft in Russland, Nr. 12. DECODE R5005–R5008.

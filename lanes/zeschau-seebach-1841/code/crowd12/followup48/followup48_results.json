@@ -1,0 +1,999 @@
+{
+ "N": 1847,
+ "ml1": {
+  "ML-1a_de_article_INF": {
+   "le": {
+    "n": 29,
+    "topX": [
+     [
+      "faire",
+      6
+     ],
+     [
+      "voir",
+      4
+     ],
+     [
+      "prévoir",
+      2
+     ],
+     [
+      "recevoir",
+      2
+     ],
+     [
+      "contrecarrer",
+      1
+     ],
+     [
+      "mettre",
+      1
+     ],
+     [
+      "laisser",
+      1
+     ],
+     [
+      "renouveler",
+      1
+     ],
+     [
+      "défendre",
+      1
+     ],
+     [
+      "rencontrer",
+      1
+     ],
+     [
+      "dénoncer",
+      1
+     ],
+     [
+      "proposer",
+      1
+     ]
+    ],
+    "mono_share": 0.1379,
+    "mono_list": [
+     "voir"
+    ]
+   },
+   "la": {
+    "n": 35,
+    "topX": [
+     [
+      "chambre",
+      6
+     ],
+     [
+      "voir",
+      2
+     ],
+     [
+      "nature",
+      2
+     ],
+     [
+      "lettre",
+      2
+     ],
+     [
+      "frontière",
+      2
+     ],
+     [
+      "soigner",
+      1
+     ],
+     [
+      "rupture",
+      1
+     ],
+     [
+      "circulaire",
+      1
+     ],
+     [
+      "reprendre",
+      1
+     ],
+     [
+      "chaire",
+      1
+     ],
+     [
+      "brûler",
+      1
+     ],
+     [
+      "rattacher",
+      1
+     ]
+    ],
+    "mono_share": 0.0571,
+    "mono_list": [
+     "voir"
+    ]
+   },
+   "l'": {
+    "n": 54,
+    "topX": [
+     [
+      "angleterre",
+      10
+     ],
+     [
+      "autre",
+      9
+     ],
+     [
+      "empire",
+      8
+     ],
+     [
+      "avoir",
+      5
+     ],
+     [
+      "avenir",
+      4
+     ],
+     [
+      "aftaire",
+      1
+     ],
+     [
+      "attendre",
+      1
+     ],
+     [
+      "offre",
+      1
+     ],
+     [
+      "intéresser",
+      1
+     ],
+     [
+      "entendre",
+      1
+     ],
+     [
+      "étranger",
+      1
+     ],
+     [
+      "écrire",
+      1
+     ]
+    ],
+    "mono_share": 0.0,
+    "mono_list": []
+   },
+   "les": {
+    "n": 12,
+    "topX": [
+     [
+      "faire",
+      2
+     ],
+     [
+      "examiner",
+      1
+     ],
+     [
+      "généraliser",
+      1
+     ],
+     [
+      "tirer",
+      1
+     ],
+     [
+      "garder",
+      1
+     ],
+     [
+      "envoyer",
+      1
+     ],
+     [
+      "avoir",
+      1
+     ],
+     [
+      "traiter",
+      1
+     ],
+     [
+      "captiver",
+      1
+     ],
+     [
+      "atténuer",
+      1
+     ],
+     [
+      "mettre",
+      1
+     ]
+    ],
+    "mono_share": 0.0,
+    "mono_list": []
+   }
+  },
+  "ML-1b_inf_second_syl_qui": {
+   "n_tokens": 0,
+   "words": {},
+   "examples": []
+  },
+  "ML-1c_de_le_monoINF_qui": {
+   "mono_inf_set": [
+    "voir"
+   ],
+   "n": 0,
+   "hits": []
+  },
+  "ML-1d_cipher78": {
+   "n78": 31,
+   "foll_29": 0,
+   "pre47": [
+    364,
+    819,
+    982,
+    1105,
+    1397
+   ],
+   "pre77_windows": [
+    [
+     41,
+     6,
+     77,
+     78,
+     18,
+     93,
+     62
+    ],
+    [
+     19,
+     74,
+     77,
+     78,
+     6,
+     59,
+     46
+    ],
+    [
+     61,
+     88,
+     77,
+     78,
+     52,
+     82,
+     94
+    ],
+    [
+     12,
+     48,
+     77,
+     78,
+     64,
+     6,
+     52
+    ],
+    [
+     59,
+     37,
+     77,
+     78,
+     94,
+     82,
+     6
+    ],
+    [
+     62,
+     48,
+     77,
+     78,
+     94,
+     82,
+     6
+    ],
+    [
+     93,
+     88,
+     77,
+     78,
+     43,
+     0,
+     46
+    ]
+   ],
+   "suc64_count": 1
+  },
+  "ML-1c_prime_after_de_le_monoINF": {
+   "dist": {
+    "partir": 1,
+    "et": 1,
+    "ce": 1,
+    "attacher": 1
+   },
+   "examples": [
+    [
+     "voir",
+     "je extrêmement regretté de le voir partir si"
+    ],
+    [
+     "voir",
+     "vous a donnée de le voir et devons"
+    ],
+    [
+     "voir",
+     "trouver l' occasion de le voir ce qui"
+    ],
+    [
+     "voir",
+     "marqué leur étonnement de le voir attacher tant"
+    ]
+   ]
+  },
+  "levant_sensitivity": {
+   "inf_second_syl_qui_words": {},
+   "de_le_voir_qui": 0
+  }
+ },
+ "ml2": {
+  "ML-2a_L1_counts": {
+   "facile": 2,
+   "chargé": 2,
+   "et": 2,
+   "courage": 2,
+   "plaisir": 2,
+   "regretté": 1,
+   "donnée": 1,
+   "est": 1,
+   "plaira": 1,
+   "occasion": 1,
+   "moyen": 1,
+   "étonnement": 1,
+   "tion": 1,
+   "prier": 1,
+   "venez": 1,
+   "que": 1,
+   "empêche": 1,
+   "était": 1,
+   "forcé": 1,
+   "personne": 1,
+   "loin": 1,
+   "luil": 1,
+   "habitude": 1,
+   "lieu": 1
+  },
+  "ML-2a_class_shares": {
+   "participle": 2,
+   "adjective": 5,
+   "other/hand": 10,
+   "verb?": 3,
+   "noun": 9
+  },
+  "ML-2a_unclassified": [
+   [
+    "et",
+    2
+   ],
+   [
+    "est",
+    1
+   ],
+   [
+    "plaira",
+    1
+   ],
+   [
+    "tion",
+    1
+   ],
+   [
+    "prier",
+    1
+   ],
+   [
+    "venez",
+    1
+   ],
+   [
+    "que",
+    1
+   ],
+   [
+    "empêche",
+    1
+   ],
+   [
+    "était",
+    1
+   ],
+   [
+    "personne",
+    1
+   ],
+   [
+    "loin",
+    1
+   ],
+   [
+    "luil",
+    1
+   ]
+  ],
+  "ML-2b_L2_top": {
+   "le": 5,
+   "a": 2,
+   "était": 2,
+   "l'": 2,
+   "extrêmement": 1,
+   "est": 1,
+   "avait": 1,
+   "leur": 1,
+   "soyez": 1
+  },
+  "ML-2c_cipher12": {
+   "n12": 23,
+   "pre70": [
+    348,
+    1119,
+    1548
+   ],
+   "suc48": [
+    169,
+    709,
+    809,
+    1075,
+    1736
+   ],
+   "suc33": [
+    1641
+   ],
+   "pre11": [],
+   "windows": {
+    "58": [
+     58,
+     35,
+     53,
+     12,
+     41,
+     8,
+     34
+    ],
+    "64": [
+     34,
+     29,
+     40,
+     12,
+     94,
+     92,
+     69
+    ],
+    "169": [
+     82,
+     84,
+     53,
+     12,
+     48,
+     21,
+     60
+    ],
+    "241": [
+     17,
+     11,
+     26,
+     12,
+     16,
+     56,
+     43
+    ],
+    "348": [
+     1,
+     6,
+     70,
+     12,
+     94,
+     74,
+     67
+    ],
+    "539": [
+     82,
+     16,
+     91,
+     12,
+     44,
+     29,
+     48
+    ],
+    "701": [
+     28,
+     94,
+     60,
+     12,
+     98,
+     20,
+     12
+    ],
+    "704": [
+     12,
+     98,
+     20,
+     12,
+     66,
+     21,
+     35
+    ],
+    "709": [
+     21,
+     35,
+     53,
+     12,
+     48,
+     71,
+     12
+    ],
+    "712": [
+     12,
+     48,
+     71,
+     12,
+     63,
+     0,
+     66
+    ],
+    "809": [
+     24,
+     24,
+     41,
+     12,
+     48,
+     24,
+     65
+    ],
+    "843": [
+     62,
+     94,
+     26,
+     12,
+     16,
+     0,
+     33
+    ],
+    "1075": [
+     42,
+     98,
+     98,
+     12,
+     48,
+     77,
+     78
+    ],
+    "1119": [
+     11,
+     88,
+     70,
+     12,
+     6,
+     14,
+     6
+    ],
+    "1430": [
+     63,
+     91,
+     61,
+     12,
+     16,
+     76,
+     49
+    ],
+    "1471": [
+     62,
+     38,
+     26,
+     12,
+     41,
+     53,
+     60
+    ],
+    "1509": [
+     86,
+     56,
+     41,
+     12,
+     61,
+     59,
+     39
+    ],
+    "1548": [
+     0,
+     46,
+     70,
+     12,
+     94,
+     92,
+     45
+    ],
+    "1582": [
+     98,
+     24,
+     53,
+     12,
+     44,
+     0,
+     36
+    ],
+    "1641": [
+     74,
+     35,
+     56,
+     12,
+     33,
+     98,
+     60
+    ],
+    "1708": [
+     94,
+     88,
+     26,
+     12,
+     6,
+     29,
+     40
+    ],
+    "1736": [
+     30,
+     6,
+     60,
+     12,
+     48,
+     52,
+     86
+    ],
+    "1740": [
+     48,
+     52,
+     86,
+     12,
+     34,
+     94,
+     82
+    ]
+   }
+  },
+  "ML-2c_bare_class_INF_bigrams": {
+   "n": 5,
+   "top": [
+    [
+     "occasion",
+     "sûre",
+     1
+    ],
+    [
+     "lieu",
+     "entre",
+     1
+    ],
+    [
+     "lieu",
+     "hier",
+     1
+    ],
+    [
+     "plaisir",
+     "janvier",
+     1
+    ],
+    [
+     "habitude",
+     "contre",
+     1
+    ]
+   ]
+  }
+ },
+ "at863": {
+  "863-a": {
+   "n_de_ce_que": 10,
+   "kwic": [
+    "baranle a été très piqué de ce que tu ne lui aies",
+    "l' impé ratrice bien heureux de ce que vous nous mandez puissiez",
+    "à nous tenir au courant de ce que m pageot continuera à",
+    "ont accordé que le quart de ce que nous donnait la con",
+    "ses prétentions et être contente de ce que nous faisons pour elle",
+    "et rendez vous exactement compte de ce que vous apprendrez je vous",
+    "leur faire crier le contraire de ce que pensent les cœurs cela",
+    "sera tout juste l' opposé de ce que j' ai trouvé à",
+    "de personnes se montrent fâchés de ce que le pape nous ait",
+    "est très satisfait à paris de ce que l' empereur a dit"
+   ],
+   "L1": {
+    "piqué": 1,
+    "heureux": 1,
+    "courant": 1,
+    "quart": 1,
+    "contente": 1,
+    "compte": 1,
+    "contraire": 1,
+    "opposé": 1,
+    "fâchés": 1,
+    "paris": 1
+   },
+   "n_de_ce_nonque": 29
+  },
+  "863-b_74": {
+   "n74": 34,
+   "pre": {
+    "74": 6,
+    "49": 5,
+    "94": 3,
+    "39": 2,
+    "44": 2,
+    "36": 2,
+    "14": 1,
+    "19": 1,
+    "84": 1,
+    "78": 1
+   },
+   "suc": {
+    "74": 6,
+    "45": 3,
+    "46": 3,
+    "62": 3,
+    "67": 2,
+    "77": 2,
+    "65": 2,
+    "47": 2,
+    "48": 1,
+    "49": 1
+   },
+   "at862_window": [
+    24,
+    49,
+    74,
+    74,
+    48,
+    47,
+    46,
+    0,
+    86,
+    70
+   ]
+  },
+  "863-c_48_accounting": {
+   "126": {
+    "pre": 82,
+    "suc": 11,
+    "suc2": 2,
+    "tag": "OUT(left-unlicensed)"
+   },
+   "170": {
+    "pre": 12,
+    "suc": 21,
+    "suc2": 60,
+    "tag": "neutral"
+   },
+   "283": {
+    "pre": 42,
+    "suc": 52,
+    "suc2": 89,
+    "tag": "48pas(conditioning-escape)"
+   },
+   "361": {
+    "pre": 62,
+    "suc": 76,
+    "suc2": 47,
+    "tag": "on48(PathA-fenced)"
+   },
+   "365": {
+    "pre": 78,
+    "suc": 49,
+    "suc2": 61,
+    "tag": "neutral"
+   },
+   "377": {
+    "pre": 82,
+    "suc": 0,
+    "suc2": 11,
+    "tag": "m48(PathB-fenced)"
+   },
+   "398": {
+    "pre": 82,
+    "suc": 6,
+    "suc2": 11,
+    "tag": "m48(PathB-fenced)"
+   },
+   "426": {
+    "pre": 62,
+    "suc": 76,
+    "suc2": 42,
+    "tag": "on48(PathA-fenced)"
+   },
+   "450": {
+    "pre": 32,
+    "suc": 79,
+    "suc2": 17,
+    "tag": "neutral"
+   },
+   "542": {
+    "pre": 29,
+    "suc": 42,
+    "suc2": 6,
+    "tag": "neutral"
+   },
+   "641": {
+    "pre": 89,
+    "suc": 20,
+    "suc2": 24,
+    "tag": "neutral"
+   },
+   "710": {
+    "pre": 12,
+    "suc": 71,
+    "suc2": 12,
+    "tag": "neutral"
+   },
+   "729": {
+    "pre": 86,
+    "suc": 88,
+    "suc2": 11,
+    "tag": "neutral"
+   },
+   "810": {
+    "pre": 12,
+    "suc": 24,
+    "suc2": 65,
+    "tag": "neutral"
+   },
+   "856": {
+    "pre": 32,
+    "suc": 84,
+    "suc2": 2,
+    "tag": "neutral"
+   },
+   "863": {
+    "pre": 74,
+    "suc": 47,
+    "suc2": 46,
+    "tag": "de-ce-frame"
+   },
+   "872": {
+    "pre": 89,
+    "suc": 20,
+    "suc2": 74,
+    "tag": "neutral"
+   },
+   "928": {
+    "pre": 96,
+    "suc": 82,
+    "suc2": 98,
+    "tag": "neutral"
+   },
+   "972": {
+    "pre": 98,
+    "suc": 51,
+    "suc2": 45,
+    "tag": "neutral"
+   },
+   "987": {
+    "pre": 89,
+    "suc": 1,
+    "suc2": 76,
+    "tag": "neutral"
+   },
+   "1076": {
+    "pre": 12,
+    "suc": 77,
+    "suc2": 78,
+    "tag": "narrow-path-pending(ML-1/ML-2)"
+   },
+   "1177": {
+    "pre": 32,
+    "suc": 59,
+    "suc2": 37,
+    "tag": "neutral"
+   },
+   "1212": {
+    "pre": 32,
+    "suc": 96,
+    "suc2": 45,
+    "tag": "neutral"
+   },
+   "1221": {
+    "pre": 24,
+    "suc": 30,
+    "suc2": 9,
+    "tag": "neutral"
+   },
+   "1229": {
+    "pre": 82,
+    "suc": 29,
+    "suc2": 47,
+    "tag": "m48(PathB-fenced)"
+   },
+   "1276": {
+    "pre": 76,
+    "suc": 56,
+    "suc2": 85,
+    "tag": "neutral"
+   },
+   "1279": {
+    "pre": 85,
+    "suc": 53,
+    "suc2": 61,
+    "tag": "neutral"
+   },
+   "1316": {
+    "pre": 62,
+    "suc": 98,
+    "suc2": 15,
+    "tag": "on48(PathA-fenced)"
+   },
+   "1350": {
+    "pre": 62,
+    "suc": 77,
+    "suc2": 78,
+    "tag": "OUT(R-c)"
+   },
+   "1398": {
+    "pre": 78,
+    "suc": 40,
+    "suc2": 67,
+    "tag": "neutral"
+   },
+   "1465": {
+    "pre": 62,
+    "suc": 21,
+    "suc2": 2,
+    "tag": "on48(PathA-fenced)"
+   },
+   "1525": {
+    "pre": 11,
+    "suc": 96,
+    "suc2": 87,
+    "tag": "neutral"
+   },
+   "1570": {
+    "pre": 62,
+    "suc": 56,
+    "suc2": 32,
+    "tag": "on48(PathA-fenced)"
+   },
+   "1589": {
+    "pre": 65,
+    "suc": 29,
+    "suc2": 47,
+    "tag": "neutral"
+   },
+   "1614": {
+    "pre": 71,
+    "suc": 31,
+    "suc2": 76,
+    "tag": "neutral"
+   },
+   "1658": {
+    "pre": 24,
+    "suc": 47,
+    "suc2": 98,
+    "tag": "de-ce-frame"
+   },
+   "1737": {
+    "pre": 12,
+    "suc": 52,
+    "suc2": 86,
+    "tag": "48pas(conditioning-escape)"
+   },
+   "1779": {
+    "pre": 19,
+    "suc": 74,
+    "suc2": 65,
+    "tag": "neutral"
+   }
+  }
+ }
+}

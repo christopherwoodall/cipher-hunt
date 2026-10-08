@@ -1,0 +1,1150 @@
+{
+ "n": 1847,
+ "n74": 34,
+ "pre": {
+  "14": 1,
+  "19": 1,
+  "84": 1,
+  "94": 3,
+  "49": 5,
+  "74": 6,
+  "78": 1,
+  "63": 1,
+  "39": 2,
+  "44": 2,
+  "20": 1,
+  "29": 1,
+  "36": 2,
+  "77": 1,
+  "69": 1,
+  "41": 1,
+  "24": 1,
+  "1": 1,
+  "87": 1,
+  "48": 1
+ },
+ "suc": {
+  "67": 2,
+  "77": 2,
+  "45": 3,
+  "74": 6,
+  "46": 3,
+  "65": 2,
+  "62": 3,
+  "47": 2,
+  "48": 1,
+  "49": 1,
+  "40": 1,
+  "42": 1,
+  "32": 1,
+  "52": 1,
+  "34": 1,
+  "84": 1,
+  "87": 1,
+  "35": 1,
+  "93": 1
+ },
+ "pre2": {
+  "66": 1,
+  "88": 1,
+  "77": 1,
+  "12": 1,
+  "78": 2,
+  "49": 4,
+  "37": 2,
+  "67": 1,
+  "3": 2,
+  "42": 1,
+  "86": 1,
+  "29": 3,
+  "24": 2,
+  "48": 1,
+  "40": 1,
+  "11": 1,
+  "82": 1,
+  "85": 1,
+  "43": 1,
+  "0": 1,
+  "97": 1,
+  "89": 1,
+  "74": 1,
+  "87": 1,
+  "19": 1
+ },
+ "suc2": {
+  "64": 1,
+  "78": 4,
+  "93": 2,
+  "46": 1,
+  "49": 1,
+  "60": 1,
+  "2": 1,
+  "84": 1,
+  "98": 2,
+  "47": 2,
+  "48": 4,
+  "16": 1,
+  "40": 1,
+  "8": 1,
+  "45": 1,
+  "23": 2,
+  "30": 1,
+  "52": 1,
+  "33": 1,
+  "74": 1,
+  "35": 1,
+  "56": 1,
+  "44": 1
+ },
+ "windows": {
+  "142": {
+   "ctx": [
+    13,
+    66,
+    14,
+    74,
+    67,
+    64,
+    77
+   ],
+   "gloss": [
+    "13",
+    "66",
+    "14",
+    "74",
+    "67",
+    "64=qui?",
+    "77=le?"
+   ]
+  },
+  "212": {
+   "ctx": [
+    50,
+    88,
+    19,
+    74,
+    77,
+    78,
+    6
+   ],
+   "gloss": [
+    "50",
+    "88",
+    "19",
+    "74",
+    "77=le?",
+    "78",
+    "6"
+   ]
+  },
+  "261": {
+   "ctx": [
+    43,
+    77,
+    84,
+    74,
+    45,
+    93,
+    52
+   ],
+   "gloss": [
+    "43",
+    "77=le?",
+    "84",
+    "74",
+    "45",
+    "93",
+    "52=pas~"
+   ]
+  },
+  "350": {
+   "ctx": [
+    70,
+    12,
+    94,
+    74,
+    67,
+    78,
+    40
+   ],
+   "gloss": [
+    "70=pre",
+    "12",
+    "94=ne?",
+    "74",
+    "67",
+    "78",
+    "40=e"
+   ]
+  },
+  "417": {
+   "ctx": [
+    37,
+    78,
+    49,
+    74,
+    74,
+    46,
+    49
+   ],
+   "gloss": [
+    "37",
+    "78",
+    "49",
+    "74",
+    "74",
+    "46=que",
+    "49"
+   ]
+  },
+  "418": {
+   "ctx": [
+    78,
+    49,
+    74,
+    74,
+    46,
+    49,
+    36
+   ],
+   "gloss": [
+    "78",
+    "49",
+    "74",
+    "74",
+    "46=que",
+    "49",
+    "36"
+   ]
+  },
+  "477": {
+   "ctx": [
+    24,
+    37,
+    78,
+    74,
+    45,
+    93,
+    0
+   ],
+   "gloss": [
+    "24",
+    "37",
+    "78",
+    "74",
+    "45",
+    "93",
+    "0"
+   ]
+  },
+  "635": {
+   "ctx": [
+    52,
+    67,
+    63,
+    74,
+    46,
+    60,
+    67
+   ],
+   "gloss": [
+    "52=pas~",
+    "67",
+    "63",
+    "74",
+    "46=que",
+    "60",
+    "67"
+   ]
+  },
+  "693": {
+   "ctx": [
+    60,
+    3,
+    39,
+    74,
+    46,
+    2,
+    50
+   ],
+   "gloss": [
+    "60",
+    "3",
+    "39",
+    "74",
+    "46=que",
+    "2",
+    "50"
+   ]
+  },
+  "786": {
+   "ctx": [
+    24,
+    42,
+    94,
+    74,
+    65,
+    84,
+    6
+   ],
+   "gloss": [
+    "24",
+    "42",
+    "94=ne?",
+    "74",
+    "65",
+    "84",
+    "6"
+   ]
+  },
+  "801": {
+   "ctx": [
+    77,
+    86,
+    44,
+    74,
+    62,
+    98,
+    53
+   ],
+   "gloss": [
+    "77=le?",
+    "86",
+    "44",
+    "74",
+    "62=on~fenced",
+    "98",
+    "53"
+   ]
+  },
+  "816": {
+   "ctx": [
+    14,
+    29,
+    49,
+    74,
+    74,
+    47,
+    78
+   ],
+   "gloss": [
+    "14",
+    "29=er",
+    "49",
+    "74",
+    "74",
+    "47",
+    "78"
+   ]
+  },
+  "817": {
+   "ctx": [
+    29,
+    49,
+    74,
+    74,
+    47,
+    78,
+    40
+   ],
+   "gloss": [
+    "29=er",
+    "49",
+    "74",
+    "74",
+    "47",
+    "78",
+    "40=e"
+   ]
+  },
+  "861": {
+   "ctx": [
+    2,
+    24,
+    49,
+    74,
+    74,
+    48,
+    47
+   ],
+   "gloss": [
+    "2",
+    "24",
+    "49",
+    "74",
+    "74",
+    "48",
+    "47"
+   ]
+  },
+  "862": {
+   "ctx": [
+    24,
+    49,
+    74,
+    74,
+    48,
+    47,
+    46
+   ],
+   "gloss": [
+    "24",
+    "49",
+    "74",
+    "74",
+    "48",
+    "47",
+    "46=que"
+   ]
+  },
+  "874": {
+   "ctx": [
+    89,
+    48,
+    20,
+    74,
+    49,
+    16,
+    77
+   ],
+   "gloss": [
+    "89",
+    "48",
+    "20",
+    "74",
+    "49",
+    "16",
+    "77=le?"
+   ]
+  },
+  "919": {
+   "ctx": [
+    2,
+    24,
+    49,
+    74,
+    74,
+    40,
+    8
+   ],
+   "gloss": [
+    "2",
+    "24",
+    "49",
+    "74",
+    "74",
+    "40=e",
+    "8"
+   ]
+  },
+  "920": {
+   "ctx": [
+    24,
+    49,
+    74,
+    74,
+    40,
+    8,
+    65
+   ],
+   "gloss": [
+    "24",
+    "49",
+    "74",
+    "74",
+    "40=e",
+    "8",
+    "65"
+   ]
+  },
+  "1053": {
+   "ctx": [
+    29,
+    40,
+    29,
+    74,
+    74,
+    45,
+    23
+   ],
+   "gloss": [
+    "29=er",
+    "40=e",
+    "29=er",
+    "74",
+    "74",
+    "45",
+    "23"
+   ]
+  },
+  "1054": {
+   "ctx": [
+    40,
+    29,
+    74,
+    74,
+    45,
+    23,
+    77
+   ],
+   "gloss": [
+    "40=e",
+    "29=er",
+    "74",
+    "74",
+    "45",
+    "23",
+    "77=le?"
+   ]
+  },
+  "1071": {
+   "ctx": [
+    39,
+    11,
+    44,
+    74,
+    42,
+    98,
+    98
+   ],
+   "gloss": [
+    "39",
+    "11=la",
+    "44",
+    "74",
+    "42",
+    "98",
+    "98"
+   ]
+  },
+  "1103": {
+   "ctx": [
+    52,
+    82,
+    94,
+    74,
+    47,
+    78,
+    65
+   ],
+   "gloss": [
+    "52=pas~",
+    "82=m",
+    "94=ne?",
+    "74",
+    "47",
+    "78",
+    "65"
+   ]
+  },
+  "1175": {
+   "ctx": [
+    21,
+    85,
+    36,
+    74,
+    32,
+    48,
+    59
+   ],
+   "gloss": [
+    "21",
+    "85",
+    "36",
+    "74",
+    "32",
+    "48",
+    "59=est/-este?"
+   ]
+  },
+  "1307": {
+   "ctx": [
+    21,
+    43,
+    77,
+    74,
+    52,
+    30,
+    92
+   ],
+   "gloss": [
+    "21",
+    "43",
+    "77=le?",
+    "74",
+    "52=pas~",
+    "30",
+    "92"
+   ]
+  },
+  "1314": {
+   "ctx": [
+    44,
+    0,
+    36,
+    74,
+    62,
+    48,
+    98
+   ],
+   "gloss": [
+    "44",
+    "0",
+    "36",
+    "74",
+    "62=on~fenced",
+    "48",
+    "98"
+   ]
+  },
+  "1414": {
+   "ctx": [
+    16,
+    97,
+    69,
+    74,
+    34,
+    52,
+    32
+   ],
+   "gloss": [
+    "16",
+    "97",
+    "69",
+    "74",
+    "34=i",
+    "52=pas~",
+    "32"
+   ]
+  },
+  "1500": {
+   "ctx": [
+    24,
+    89,
+    41,
+    74,
+    84,
+    33,
+    42
+   ],
+   "gloss": [
+    "24",
+    "89",
+    "41",
+    "74",
+    "84",
+    "33",
+    "42"
+   ]
+  },
+  "1568": {
+   "ctx": [
+    50,
+    29,
+    24,
+    74,
+    62,
+    48,
+    56
+   ],
+   "gloss": [
+    "50",
+    "29=er",
+    "24",
+    "74",
+    "62=on~fenced",
+    "48",
+    "56"
+   ]
+  },
+  "1635": {
+   "ctx": [
+    64,
+    37,
+    1,
+    74,
+    87,
+    74,
+    74
+   ],
+   "gloss": [
+    "64=qui?",
+    "37",
+    "1",
+    "74",
+    "87=ce?",
+    "74",
+    "74"
+   ]
+  },
+  "1637": {
+   "ctx": [
+    1,
+    74,
+    87,
+    74,
+    74,
+    35,
+    56
+   ],
+   "gloss": [
+    "1",
+    "74",
+    "87=ce?",
+    "74",
+    "74",
+    "35",
+    "56"
+   ]
+  },
+  "1638": {
+   "ctx": [
+    74,
+    87,
+    74,
+    74,
+    35,
+    56,
+    12
+   ],
+   "gloss": [
+    "74",
+    "87=ce?",
+    "74",
+    "74",
+    "35",
+    "56",
+    "12"
+   ]
+  },
+  "1677": {
+   "ctx": [
+    60,
+    3,
+    39,
+    74,
+    77,
+    44,
+    0
+   ],
+   "gloss": [
+    "60",
+    "3",
+    "39",
+    "74",
+    "77=le?",
+    "44",
+    "0"
+   ]
+  },
+  "1780": {
+   "ctx": [
+    59,
+    19,
+    48,
+    74,
+    65,
+    23,
+    98
+   ],
+   "gloss": [
+    "59=est/-este?",
+    "19",
+    "48",
+    "74",
+    "65",
+    "23",
+    "98"
+   ]
+  },
+  "1845": {
+   "ctx": [
+    67,
+    78,
+    49,
+    74,
+    93
+   ],
+   "gloss": [
+    "67",
+    "78",
+    "49",
+    "74",
+    "93"
+   ]
+  }
+ },
+ "checks": {
+  "n74": 34,
+  "verb_adverse_74_suc77": 2,
+  "verb_adverse_74_suc87": 1,
+  "noun_adj_pre_article": 1,
+  "part_aux_pre59": 0,
+  "pre_94_ne": 3,
+  "suc_46_que": 3,
+  "suc_47_ce": 2,
+  "suc_48": 1,
+  "self_loop_74_74": 6
+ },
+ "era": {
+  "files": [
+   "guizot-memoires-t1-gutenberg.txt",
+   "guizot-memoires-t2-gutenberg.txt",
+   "guizot-memoires-t3-gutenberg.txt",
+   "guizot-memoires-t5-t6.txt",
+   "metternich-papiere-v4.txt",
+   "metternich-papiere-v6.txt",
+   "pozzo-di-borgo-correspondance-v1.txt",
+   "levant-correspondence-1841-p3.txt",
+   "talleyrand-memoires-v1.txt",
+   "revue-deux-mondes-1841-q1.txt",
+   "revue-deux-mondes-1841-q2.txt",
+   "revue-deux-mondes-1841-q3.txt",
+   "revue-deux-mondes-1841-q4.txt"
+  ],
+  "tokens": 3616889,
+  "per_file": {
+   "guizot-memoires-t1-gutenberg.txt": 132325,
+   "guizot-memoires-t2-gutenberg.txt": 142702,
+   "guizot-memoires-t3-gutenberg.txt": 144759,
+   "guizot-memoires-t5-t6.txt": 298616,
+   "metternich-papiere-v4.txt": 216274,
+   "metternich-papiere-v6.txt": 249459,
+   "pozzo-di-borgo-correspondance-v1.txt": 147556,
+   "levant-correspondence-1841-p3.txt": 280074,
+   "talleyrand-memoires-v1.txt": 156302,
+   "revue-deux-mondes-1841-q1.txt": 458783,
+   "revue-deux-mondes-1841-q2.txt": 449302,
+   "revue-deux-mondes-1841-q3.txt": 462825,
+   "revue-deux-mondes-1841-q4.txt": 477912
+  },
+  "n_de_ce_que": 191,
+  "L1_counts": {
+   "et": 8,
+   "contraire": 6,
+   "delà": 5,
+   "rien": 4,
+   "exact": 3,
+   "surtout": 2,
+   "peinee": 2,
+   "aussi": 2,
+   "exemple": 2,
+   "plaindre": 2,
+   "enfin": 2,
+   "compte": 2,
+   "honteux": 2,
+   "partie": 2,
+   "félicite": 2,
+   "pas": 2,
+   "plaint": 2,
+   "autres": 2,
+   "vient": 2,
+   "appui": 2,
+   "seulement": 1,
+   "irrécusable": 1,
+   "souvenait": 1,
+   "dit": 1,
+   "inquiétude": 1,
+   "humeur": 1,
+   "roi": 1,
+   "nature": 1,
+   "courant": 1,
+   "rancune": 1,
+   "curieux": 1,
+   "répondant": 1,
+   "même": 1,
+   "besoin": 1,
+   "inquiets": 1,
+   "exactement": 1,
+   "majesté": 1,
+   "mérite": 1,
+   "jouissance": 1,
+   "raison": 1,
+   "mesure": 1,
+   "sus": 1,
+   "regrets": 1,
+   "eloigner": 1,
+   "contenter": 1,
+   "feliciter": 1,
+   "doute": 1,
+   "politique": 1,
+   "unique": 1,
+   "oppose": 1,
+   "an": 1,
+   "surprise": 1,
+   "ceux": 1,
+   "rendre": 1,
+   "moitie": 1,
+   "ensemble": 1,
+   "inquiet": 1,
+   "que": 1,
+   "vif": 1,
+   "ici": 1,
+   "petersbourg": 1,
+   "historique": 1,
+   "monstration": 1,
+   "acte": 1,
+   "quietude": 1,
+   "face": 1,
+   "conseils": 1,
+   "responsabilite": 1,
+   "egard": 1,
+   "surpris": 1,
+   "justification": 1,
+   "cela": 1,
+   "oui": 1,
+   "süffisante": 1,
+   "recherche": 1,
+   "moyen": 1,
+   "ressort": 1,
+   "courrier": 1,
+   "utilitö": 1,
+   "fegard": 1,
+   "comnie": 1,
+   "mer": 1,
+   "blessé": 1,
+   "dessus": 1,
+   "confirmation": 1,
+   "gré": 1,
+   "contente": 1,
+   "pégard": 1,
+   "souffrir": 1,
+   "souvenirs": 1,
+   "vais": 1,
+   "fin": 1,
+   "différent": 1,
+   "fois": 1,
+   "provenait": 1,
+   "on": 1,
+   "bout": 1,
+   "claire": 1,
+   "sentiment": 1,
+   "monstrueuse": 1,
+   "nouvelles": 1,
+   "reconnaissant": 1,
+   "venait": 1,
+   "dessous": 1,
+   "parlant": 1,
+   "vraie": 1,
+   "métier": 1,
+   "ciel": 1,
+   "marie": 1,
+   "lui": 1,
+   "voit": 1,
+   "touche": 1,
+   "résulte": 1,
+   "bien": 1,
+   "repentir": 1,
+   "possible": 1,
+   "oubli": 1,
+   "plume": 1,
+   "explication": 1,
+   "confidence": 1,
+   "double": 1,
+   "idée": 1,
+   "formalisés": 1,
+   "peu": 1,
+   "preuve": 1,
+   "soulignés": 1,
+   "image": 1,
+   "aussitôt": 1,
+   "déduction": 1,
+   "voie": 1,
+   "mot": 1,
+   "profitant": 1,
+   "preuves": 1,
+   "provint": 1,
+   "surchargées": 1,
+   "moins": 1,
+   "plus": 1,
+   "auprès": 1,
+   "fort": 1,
+   "souvient": 1,
+   "haut": 1,
+   "exacte": 1,
+   "pant": 1,
+   "piqué": 1,
+   "unes": 1,
+   "indigne": 1,
+   "secret": 1,
+   "dépendent": 1,
+   "cause": 1,
+   "ieu": 1,
+   "étonnement": 1,
+   "cite": 1,
+   "russie": 1,
+   "déclaration": 1,
+   "monde": 1
+  },
+  "L1_examples": {
+   "seulement": "aujourd' hui j' accepte la responsabilité non seulement de ce que j'",
+   "irrécusable": "voyage c' est le témoignage le plus irrécusable de ce que nous",
+   "souvenait": "une faute ou d' un malheur se souvenait de ce que vaut",
+   "dit": "je n' ai à peu près rien dit de ce que j'",
+   "inquiétude": "et il se préoccupait avec une noble inquiétude de ce que serait",
+   "humeur": "la retraite et aussi un peu d' humeur de ce que depuis",
+   "roi": "plusieurs jours pour m' entretenir avec le roi de ce que nous",
+   "nature": "ma solitude à me plaindre à la nature de ce que m'",
+   "et": "suite des bruits dont on a parlé et de ce que les",
+   "courant": "un complet abandon je le mis au courant de ce que j'",
+   "rancune": "soit pas toujours resté un peu de rancune de ce que ce",
+   "curieux": "aux rapports sociaux et ne soient très curieux de ce que sont",
+   "répondant": "vous vous êtes bien souvenu en me répondant de ce que je",
+   "même": "en et ce que j' écrivais moi même de ce que nous",
+   "besoin": "je vous prie de me prévenir au besoin de ce que vous",
+   "inquiets": "trouvaient encore vinrent me voir curieux et inquiets de ce que je",
+   "exactement": "dit il et rendons nous compte bien exactement de ce que nous",
+   "majesté": "du gouvernement de s i pieces historiques majesté de ce que la",
+   "surtout": "mm de bûlow esterhazy et brûnnow et surtout de ce que m'",
+   "mérite": "désirions je comprends lui dis je le mérite de ce que vous",
+   "jouissance": "c' est de nous assurer la ferme jouissance de ce que nous",
+   "delà": "été grand la sensation profonde même au delà de ce que j'",
+   "raison": "voulu celte fois faire une exception es raison de ce que le",
+   "mesure": "cela est signiiicatif vous y trouncrez la mesure de ce que peut",
+   "sus": "convalescent avec deux ou trois degres en sus de ce que re'",
+   "regrets": "le cabinet de stuttgart exprime surtout ses regrets de ce que la",
+   "eloigner": "dans f attention la plus scrupuleuse ä eloigner de ce que nous",
+   "contenter": "doit abandonner entiere ment sauf a se contenter de ce que renferme",
+   "feliciter": "la russie et nous aurons ä nous feliciter de ce que les",
+   "doute": "le divan la porte se plaindra sans doute de ce que le",
+   "politique": "par des arguments tires d' une saine politique de ce que la",
+   "unique": "nous le sentons la base vevitable et unique de ce que fusage",
+   "contraire": "toujours et une fois pour toutes le contraire de ce que veulent",
+   "oppose": "d' admettre qu' il pense egalement l' oppose de ce que je",
+   "an": "lecon d' arithmetique on lui a dem an de ce que produisait",
+   "exact": "est difficile de se rendre un compte exact de ce que ton",
+   "surprise": "de nesselrode devait vous marquer de la surprise de ce que dans",
+   "ceux": "aux yeux meines des monarques comme a ceux de ce que l'",
+   "rien": "ce que nous voulons et ne veut rien de ce que nous",
+   "peinee": "majeste imperiale et royale apostolique est vivement peinee de ce que les",
+   "rendre": "pas non plus de compte a leur rendre de ce que nous",
+   "moitie": "concernaient directement la russie en concedant la moitie de ce que peu",
+   "ensemble": "j' eus fini de lui exposer l' ensemble de ce que j'",
+   "inquiet": "gouvernement francais est il tout aussi peu inquiet de ce que nous",
+   "que": "peu inquiet de ce que nous faisons que de ce que nous",
+   "vif": "de vous exprimer le regret le plus vif de ce que pour",
+   "aussi": "va nous arriver j' ai ete surpris aussi de ce que vous",
+   "ici": "creation car il ne s' agit pas ici de ce que fon",
+   "petersbourg": "la porte on vous parlera a saint petersbourg de ce que ton",
+   "historique": "militaire lui füt rendu tel est l' historique de ce que l'",
+   "monstration": "sert aujourd' hui d' une haute d monstration de ce que vaut",
+   "acte": "au prince ester hazy veuillez prendre confidentiellement acte de ce que je",
+   "quietude": "philippe vous a naguere temoigne son in quietude de ce que nous",
+   "face": "la question est ainsi categoriquement posee en face de ce que ton",
+   "conseils": "se trouve conduit par de fort mauvais conseils de ce que je",
+   "responsabilite": "en voyage je ne crains jamais la responsabilite de ce que je",
+   "egard": "en face de la verite a l' egard de ce que renferme",
+   "exemple": "accomplir que les hommes veritablement eclaires prennent exemple de ce que la",
+   "surpris": "il ne fest en r alitey nullement surpris de ce que le",
+   "justification": "serait superflu monsieur fambassadeur d' entreprendre la justification de ce que sa",
+   "cela": "du cabinet francais je r pondrai a cela de ce que veut",
+   "oui": "cela de ce que veut le roi oui de ce que fera",
+   "süffisante": "pareille chose soit possible voila une preuve süffisante de ce que vaut",
+   "recherche": "m thiers sa majeste trouve oiseuse la recherche de ce que veut",
+   "moyen": "a la tete du gouvernement espagnol au moyen de ce que j'",
+   "ressort": "en vous penetrant de l' esprit qui ressort de ce que je",
+   "courrier": "je vous ai mande par le demier courrier de ce que vous",
+   "utilitö": "veut pas sans pouvoir de couvrir l' utilitö de ce que ton",
+   "fegard": "roi ne saurait avoir aucun doute a fegard de ce que nous",
+   "comnie": "a fegard de ce que nous cherchons comnie de ce que nous",
+   "plaindre": "entré dans mes sentiments il paraît se plaindre de ce que le",
+   "mer": "n' a le droit de s' alar mer de ce que le",
+   "blessé": "circonstances parce qu' il s' est trouvé blessé de ce que votre",
+   "enfin": "à ses désirs sur le point religieux enfin de ce que la",
+   "dessus": "les prussiens font sentir leur joug au dessus de ce que la",
+   "confirmation": "avais ordre de lui donner comme la confirmation de ce que j'",
+   "gré": "de notre part l' empereur vous sait gré de ce que en",
+   "contente": "espé rais que son kxcellence serait trés contente de ce que nous",
+   "pégard": "londres puissent saisir toute notre pensée a pégard de ce que nous",
+   "souffrir": "aucune d' elles ne puisse avoir à souffrir de ce que la",
+   "souvenirs": "livre je recueille seulement mes impressions les souvenirs de ce que je",
+   "vais": "les souvenirs de ce que je v vais de ce que j'",
+   "fin": "les premières années de ma vie la fin de ce que l'",
+   "différent": "appartiennent à un ordre d' idées si différent de ce que j'",
+   "fois": "rendre comple à moi même une bonne fois de ce que j'",
+   "provenait": "territoire français l' augmentation de cet impôt provenait de ce que m",
+   "on": "reçussent aucune atteinte or quelle certitude avait on de ce que feraient",
+   "compte": "je ne me suis jamais bien rendu compte de ce que j'",
+   "honteux": "route où plutüt notre voyage un peu honteux de ce que nous",
+   "bout": "habitent j' étais à peu près au bout de ce que je",
+   "claire": "on pouvait empêcher pour donner une idée claire de ce que j'",
+   "sentiment": "ai besoins de me rasurer ar le sentiment de ce que voire",
+   "monstrueuse": "lui demandât raison d' une violation aussi monstrueuse de ce que le",
+   "partie": "sous des formes différentes font dès lors partie de ce que pour",
+   "nouvelles": "du même jour portait j' ai des nouvelles de ce que fait",
+   "reconnaissant": "indignation aussi serai je toute ma vie reconnaissant de ce que la",
+   "venait": "ce changement de dispositions envers les français venait de ce que le",
+   "dessous": "aurions l' huile d' olive beaucoup au dessous de ce que nous",
+   "parlant": "je serai forcé de dire souvent en parlant de ce que j'",
+   "vraie": "ja mais on n' aurait une idée vraie de ce que mérite",
+   "métier": "des intentions profondes pour faire enfin le métier de ce que rabelais",
+   "félicite": "la veille pour leur alcade il le félicite de ce que son",
+   "ciel": "de zalamea don lope rendez grâce au ciel de ce que sa",
+   "marie": "les sens je veux me plaindre à marie de ce que vous",
+   "lui": "bel éloge qu' on puisse faire de lui de ce que cet",
+   "voit": "le contraire de ce que l' on voit de ce que l'",
+   "touche": "on voit de ce que l' on touche de ce que l'",
+   "résulte": "une distinction plus réelle et qu' il résulte de ce que l'",
+   "bien": "que vous nous quittez mais souvenez vous bien de ce que je",
+   "repentir": "que je n' aurai jamais à me repentir de ce que je",
+   "possible": "sur le vrai le juste et le possible de ce que la",
+   "oubli": "sous la bannière des principes imais l' oubli de ce que vous",
+   "pas": "un mulet je ne me souviens certainement pas de ce que j'",
+   "plume": "l' habitude de se dédommager par la plume de ce que lui",
+   "explication": "chercher en partie dans son histoire l' explication de ce que nous",
+   "confidence": "prendre sur vous de me faire volontairement confidence de ce que vous",
+   "double": "louvre est vaste il peut contenir le double de ce que vous",
+   "idée": "long temps pour lui donner une faible idée de ce que nos",
+   "formalisés": "les pères et les mères se sont formalisés de ce que leurs",
+   "peu": "recherches en se dépouillant toutefois peu à peu de ce que la",
+   "preuve": "d' exemples que nous pourrions citer comme preuve de ce que nous",
+   "soulignés": "les mots qu' il a lui même soulignés de ce que nous",
+   "plaint": "des marques de leur passage on se plaint de ce que les",
+   "image": "la providence pour rester à jamais l' image de ce que peut",
+   "aussitôt": "on le trouvât le roi s' avisa aussitôt de ce que ce",
+   "déduction": "pensée ou plutôt l' histoire devient une déduction de ce que l'",
+   "voie": "robin nous mit quoique vaguement sur la voie de ce que je",
+   "mot": "femme de ne pas lui dire un mot de ce que nous",
+   "profitant": "nominalement la communauté des peintres et vitriers profitant de ce que les",
+   "preuves": "faite à home en on trouve les preuves de ce que nous",
+   "provint": "cela tint ù des circonstances nouvelles et provint de ce que le",
+   "autres": "delà terreur qui les avait accablés les autres de ce que nulle",
+   "surchargées": "ou de superbes palanquins les tables furent surchargées de ce que l'",
+   "moins": "ne sont plus possibles on s' informe moins de ce que vous",
+   "plus": "moins de ce que vous pensez et plus de ce que vous",
+   "vient": "administrateur qui aurait les meilleures intentions cela vient de ce que dans",
+   "appui": "allemagne qu' un seul témoignage à l' appui de ce que nous",
+   "auprès": "frottant les jambes ceci n' est rien auprès de ce que nous",
+   "fort": "je vois que l' on s' occupe fort de ce que font",
+   "souvient": "n' est pas moins décisif on se souvient de ce que fut",
+   "haut": "donc pas lieu de s' alarmer aussi haut de ce que nos",
+   "exacte": "se fait pas d' ailleurs une idée exacte de ce que coûtent",
+   "pant": "autres procédés on avait un exemple frap pant de ce que peut",
+   "piqué": "trais tu verras qu' il se sera piqué de ce que j'",
+   "unes": "nos institutions le mal vient selon les unes de ce que la",
+   "indigne": "avec quelle insolente bonne foi il s' indigne de ce que l'",
+   "secret": "ma joie il faudrait être dans le secret de ce que j'",
+   "dépendent": "pour rechercher dans chacune les dispositions qui dépendent de ce que j'",
+   "cause": "que cet accident l' ut en partie cause de ce que l'",
+   "ieu": "termes j' ai sujet de remercier j ieu de ce que cette",
+   "étonnement": "répondant au maréchal qui lui exprimait son étonnement de ce que malgré",
+   "cite": "le plénipotentiaire de la russie se féli cite de ce que sa",
+   "russie": "que ce gouvernement avait témoignée à la russie de ce que nous",
+   "déclaration": "maintenant une ancônade la seconde est une déclaration de ce que la",
+   "monde": "le dit m guizot résulter pour le monde de ce que la"
+  }
+ },
+ "v8_L1_frozen": {
+  "piqué": 1,
+  "heureux": 1,
+  "courant": 1,
+  "quart": 1,
+  "contente": 1,
+  "compte": 1,
+  "contraire": 1,
+  "opposé": 1,
+  "fâchés": 1,
+  "paris->satisfait": 1,
+  "note": "paris is a misparse; true L1='satisfait' (adj)"
+ }
+}

@@ -1,0 +1,561 @@
+{
+ "gate": "PASS",
+ "N": 1847,
+ "prereg": "/home/hatch/workspace/cipher-hunt/lanes/zeschau-seebach-1841/code/crowd14/infinitive33/PREREG.md",
+ "frames_rederived": [
+  186,
+  408,
+  467,
+  846,
+  936,
+  1088,
+  1245,
+  1630
+ ],
+ "frames_match_task_brief": true,
+ "frames": {
+  "186": {
+   "pre": "00",
+   "suc": "16",
+   "suc2": "00",
+   "window": "87 64 23 37 06 00 33 16 00 66 24 87 98 56"
+  },
+  "408": {
+   "pre": "00",
+   "suc": "01",
+   "suc2": "02",
+   "window": "88 53 34 69 26 00 33 01 02 53 84 51 37 78"
+  },
+  "467": {
+   "pre": "00",
+   "suc": "79",
+   "suc2": "80",
+   "window": "87 11 59 42 96 00 33 79 80 06 67 46 84 24"
+  },
+  "846": {
+   "pre": "00",
+   "suc": "96",
+   "suc2": "40",
+   "window": "62 94 26 12 16 00 33 96 40 62 21 67 91 51"
+  },
+  "936": {
+   "pre": "00",
+   "suc": "21",
+   "suc2": "64",
+   "window": "98 83 56 69 26 00 33 21 64 37 01 07 50 40"
+  },
+  "1088": {
+   "pre": "00",
+   "suc": "79",
+   "suc2": "80",
+   "window": "89 24 02 55 81 00 33 79 80 06 43 07 55 81"
+  },
+  "1245": {
+   "pre": "00",
+   "suc": "16",
+   "suc2": "00",
+   "window": "67 77 81 87 11 00 33 16 00 67 46 26 30 06"
+  },
+  "1630": {
+   "pre": "00",
+   "suc": "21",
+   "suc2": "64",
+   "window": "33 46 56 69 26 00 33 21 64 37 01 74 87 74"
+  }
+ },
+ "census": {
+  "n33": 25,
+  "I1_pre00": [
+   186,
+   408,
+   467,
+   846,
+   936,
+   1088,
+   1245,
+   1630
+  ],
+  "I1_n": 8,
+  "I4_suc29": [
+   273,
+   626,
+   1232,
+   1424,
+   1477
+  ],
+  "I4_n": 5,
+  "I2_pre67": [
+   273,
+   1149,
+   1424,
+   1451,
+   1477,
+   1624
+  ],
+  "I2_n": 6
+ },
+ "I4_windows": {
+  "273": "11 06 67 33 29 89 84",
+  "626": "14 59 37 33 29 87 78",
+  "1232": "48 29 47 33 29 85 56",
+  "1424": "33 21 67 33 29 87 63",
+  "1477": "60 06 67 33 29 82 16"
+ },
+ "I2_windows": {
+  "273": "11 06 67 33 29 89 84",
+  "1149": "98 86 67 33 66 84 02",
+  "1424": "33 21 67 33 29 87 63",
+  "1451": "59 36 67 33 46 92 62",
+  "1477": "60 06 67 33 29 82 16",
+  "1624": "78 66 67 33 46 56 69"
+ },
+ "n79": 18,
+ "pos79": [
+  50,
+  53,
+  396,
+  451,
+  460,
+  468,
+  496,
+  594,
+  883,
+  1010,
+  1089,
+  1227,
+  1364,
+  1419,
+  1460,
+  1682,
+  1688,
+  1799
+ ],
+ "pos79_windows": {
+  "50": "62 96 00 92 79 37 11 79 85",
+  "53": "92 79 37 11 79 85 58 35 53",
+  "396": "73 34 67 64 79 82 48 06 11",
+  "451": "61 59 32 48 79 17 77 60 65",
+  "460": "13 66 14 02 79 87 11 59 42",
+  "468": "42 96 00 33 79 80 06 67 46",
+  "496": "78 42 94 02 79 88 47 11 29",
+  "594": "41 09 00 92 79 85 01 29 40",
+  "883": "78 17 08 31 79 68 37 03 02",
+  "1010": "11 52 35 18 79 80 78 47 03",
+  "1089": "55 81 00 33 79 80 06 43 07",
+  "1227": "09 20 57 64 79 82 48 29 47",
+  "1364": "13 92 62 94 79 14 60 03 30",
+  "1419": "34 52 32 84 79 15 33 21 67",
+  "1460": "21 67 86 66 79 17 01 21 62",
+  "1682": "77 44 00 46 79 65 13 93 62",
+  "1688": "13 93 62 94 79 14 60 27 46",
+  "1799": "94 59 37 91 79 87 64 77 84"
+ },
+ "tout_ce_qui": {
+  "via79": [
+   1799
+  ],
+  "via24": [
+   179,
+   1766,
+   1774
+  ]
+ },
+ "unlock_new_pour33_tout_frames": [],
+ "any_33_suc79": [
+  467,
+  1088
+ ],
+ "pool_nov8_tokens": 3867332,
+ "F_D_recheck": {
+  "query": "n(\"pour X par [e-word]\")",
+  "n": 0
+ },
+ "mono_inf_prefilter_n": 16,
+ "T_fc": {
+  "query": "n_pool\\v8(\"pour X tout W\")",
+  "n_total": 33,
+  "n_distinct_X": 32,
+  "by_X": [
+   [
+    "peindre",
+    2
+   ],
+   [
+    "recueillir",
+    1
+   ],
+   [
+    "révoquer",
+    1
+   ],
+   [
+    "sentir",
+    1
+   ],
+   [
+    "dire",
+    1
+   ],
+   [
+    "apprendre",
+    1
+   ],
+   [
+    "prévenir",
+    1
+   ],
+   [
+    "éviter",
+    1
+   ],
+   [
+    "abattre",
+    1
+   ],
+   [
+    "communiquer",
+    1
+   ],
+   [
+    "fexpliquer",
+    1
+   ],
+   [
+    "memoire",
+    1
+   ],
+   [
+    "ôter",
+    1
+   ],
+   [
+    "être",
+    1
+   ],
+   [
+    "arranger",
+    1
+   ],
+   [
+    "garder",
+    1
+   ],
+   [
+    "assembler",
+    1
+   ],
+   [
+    "occuper",
+    1
+   ],
+   [
+    "prendre",
+    1
+   ],
+   [
+    "comprendre",
+    1
+   ],
+   [
+    "étaler",
+    1
+   ],
+   [
+    "disposer",
+    1
+   ],
+   [
+    "reprendre",
+    1
+   ],
+   [
+    "reconnaître",
+    1
+   ],
+   [
+    "anéantir",
+    1
+   ],
+   [
+    "effacer",
+    1
+   ],
+   [
+    "détruire",
+    1
+   ],
+   [
+    "amortir",
+    1
+   ],
+   [
+    "apprécier",
+    1
+   ],
+   [
+    "montrer",
+    1
+   ],
+   [
+    "réprimer",
+    1
+   ],
+   [
+    "dissiper",
+    1
+   ]
+  ],
+  "W_slot_top20": [
+   [
+    "ce",
+    9
+   ],
+   [
+    "à",
+    5
+   ],
+   [
+    "le",
+    3
+   ],
+   [
+    "ceci",
+    2
+   ],
+   [
+    "choc",
+    1
+   ],
+   [
+    "malentendu",
+    1
+   ],
+   [
+    "naturellement",
+    1
+   ],
+   [
+    "dans",
+    1
+   ],
+   [
+    "prétexte",
+    1
+   ],
+   [
+    "respect",
+    1
+   ],
+   [
+    "cet",
+    1
+   ],
+   [
+    "selon",
+    1
+   ],
+   [
+    "est",
+    1
+   ],
+   [
+    "vestige",
+    1
+   ],
+   [
+    "mouvement",
+    1
+   ],
+   [
+    "bruit",
+    1
+   ],
+   [
+    "complot",
+    1
+   ],
+   [
+    "attrou",
+    1
+   ]
+  ],
+  "examples": {
+   "recueillir": "de ses rivaux mais pour recueillir tout le fruit de ce mérite",
+   "révoquer": "rend des ordonnances préalables pour révoquer tout ce qui n est pas",
+   "sentir": "sous la machine pneumatique pour sentir tout le charme de respirer quand",
+   "dire": "correspondance me suffisait soit pour dire tout ce que j avais à",
+   "apprendre": "avais à dire soit pour apprendre tout ce que j avais besoin",
+   "prévenir": "pour aider aux transactions pour prévenir tout choc fâcheux et maintenir la",
+   "éviter": "lord aber deen que pour éviter tout malentendu dans une ma tière",
+   "abattre": "vérité je déclare que pour abattre tout ceci à mon avis il"
+  },
+  "mono_X": []
+ },
+ "T2_mono": {
+  "query": "n_pool\\v8(\"pour X ce qui\"), X monosyllabic",
+  "mono_hits": [],
+  "all_top": [
+   [
+    "savoir",
+    2
+   ],
+   [
+    "compenser",
+    1
+   ],
+   [
+    "repousser",
+    1
+   ],
+   [
+    "gener",
+    1
+   ],
+   [
+    "sauver",
+    1
+   ],
+   [
+    "obtenir",
+    1
+   ],
+   [
+    "refléter",
+    1
+   ],
+   [
+    "tenter",
+    1
+   ],
+   [
+    "faire",
+    1
+   ],
+   [
+    "étouffer",
+    1
+   ],
+   [
+    "montrer",
+    1
+   ],
+   [
+    "démontrer",
+    1
+   ],
+   [
+    "reconnaître",
+    1
+   ]
+  ],
+  "examples": {
+   "compenser": "étaler leurs rêves insensés pour compenser ce qui manquerait à leur règne",
+   "savoir": "le véritable point central pour savoir ce qui se passe il a",
+   "repousser": "presse point de tribune pour repousser ce qui nous offense notre manière",
+   "gener": "arreter ou du moins pour gener ce qui dans son essor peut",
+   "sauver": "l possible assez promplement pour sauver ce qui n est pas entiè",
+   "obtenir": "sur la chambre suffisante pour obtenir ce qui est nécessaire et pour"
+  }
+ },
+ "forkW_intersection": [],
+ "forkW_T2_only": [],
+ "forkW_Tfc_only": [],
+ "forkS_joint": {
+  "required_endings": {
+   "F-A": "16",
+   "F-B": "01",
+   "F-C": "79",
+   "F-D": "96",
+   "F-E": "21"
+  },
+  "standing_glosses": {
+   "16": "i (lead)",
+   "01": "unidentified (ci killed N23)",
+   "79": "tout (LEAD-grade, unlock test)",
+   "96": "par (provisional F19)",
+   "21": "ce (banked R1)"
+  },
+  "composition_verdicts": {
+   "16=i": "stem+/i/ — no French infinitive ends in bare /i/ [FR-JUDGMENT] => S breaks 16='i'-lead at F-A",
+   "79=tout": "stem+/tu/ — no French infinitive ends /tu/ [FR-JUDGMENT] => S breaks 79='tout' at F-C (both frames)",
+   "96=par": "stem+/paR/ — no French infinitive ends /paR/ [FR-JUDGMENT] => S breaks 96='par' at F-D (round-12 recorded)",
+   "21=ce": "stem+/s(e)/ — no French infinitive ends /s(e)/ [FR-JUDGMENT] => S breaks 21='ce' at F-E (breaks banked lead)",
+   "01=?": "01 unidentified — no verdict; composition unconstrained"
+  },
+  "n_standing_values_forkS_must_break": 4,
+  "note": "Fork S survives ONLY by overriding 16/79/96/21 simultaneously (4 standing values incl. one banked lead and one provisional). No stem candidate can be named without those overrides."
+ },
+ "paradox_check": {
+  "savoir_n_T2": 2,
+  "forkW": "savoir = 2 syllables (sa-voir); 33 = 1 group = 1 chunk (F22) => fork-forbidden under W",
+  "forkS": "T2 battery is whole-word scoped; under S, F-E = 'pour [33=stem][21=suc]'. savoir as stem = 'savo' + suc; suc=21='ce'-banked => 'savoce' != 'savoir'. S needs 21='ir'-chunk => breaks the banked 21='ce' => fork-forbidden under S",
+  "verdict": "savoir fork-forbidden under BOTH forks — F109 paradox confirmed on re-derivation"
+ },
+ "handverify": {
+  "mono_syllable_correction": "vowel-group pre-filter missed mute-e monosyllables; hand-verified firing sets below (Frenchman read)",
+  "T_fc_mono_X": {
+   "dire": {
+    "n": 1,
+    "syll": 1,
+    "ctx": "soit pour dire tout ce que j avais a dire soit",
+    "constituency": "pour+INF+tout(DO)+[ce que...]"
+   },
+   "être": {
+    "n": 1,
+    "syll": 1,
+    "ctx": "organises pour etre tout a fait a l abri de la",
+    "constituency": "tout-a-fait adverbial"
+   },
+   "prendre": {
+    "n": 1,
+    "syll": 1,
+    "ctx": "choisit pour prendre tout a coup une resolution eclatante",
+    "constituency": "tout-a-coup adverbial"
+   },
+   "peindre": {
+    "n": 1,
+    "syll": 1,
+    "ctx": "pour peindre tout ce qu il y avait de belles",
+    "constituency": "pour+INF+tout(DO)+[ce que...]; 2nd hit ambiguous (tout=subject of est)"
+   }
+  },
+  "T2_mono_X": {
+   "faire": {
+    "n": 1,
+    "syll": 1,
+    "ctx": "pour faire ce qui aurait du exister depuis vingt ans"
+   }
+  },
+  "forkW_value_intersection_T2_and_Tfc": [],
+  "forkW_T2_only": [
+   "faire"
+  ],
+  "forkW_Tfc_only": [
+   "dire",
+   "etre",
+   "prendre",
+   "peindre"
+  ],
+  "verdict": "EMPTY intersection — no monosyllabic X has >=2 independent legs"
+ },
+ "tout_frame_460": {
+  "window": "13 66 14 02 | 79 87 11 59 42 | (F-C@467 pre-context)",
+  "read": "tout cela est [42] — grammatical under 87=ce-prov + 59=est-prov",
+  "era": {
+   "n_pool_nov8_tout_cela_est": 48,
+   "n_pool_nov8_tout_ce_qui": 523
+  },
+  "status": "SECOND independent tout-frame for 79 (was unread context, never a leg); prereg unlock-bar (i) literally FAILS (1799 not sole) but substance exceeds it; flagged for the 79=tout promotion lane, NOT adjudicated here"
+ },
+ "F_C_shape": {
+  "query": "pour X tout ce W",
+  "n": 9,
+  "types": 9,
+  "mono": {
+   "dire": 1
+  },
+  "note": "dominant W-shape ce (9/33 of T_fc); F-C pour 33 tout 80 06 fits with 80=ce-family (lead-grade inference, not a leg)"
+ },
+ "I2_clarification": "raw pre==67 x6 (@273/@1149/@1424/@1451/@1477/@1624); F79-I2 = pre==67 AND 67@i-1 in stand67_veut => @1424 only — no discrepancy, verified with clarification",
+ "frame_window_byte_match_r13": true
+}

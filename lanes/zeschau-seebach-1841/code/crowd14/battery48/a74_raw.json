@@ -1,0 +1,2499 @@
+{
+ "A3": {
+  "n74": 34,
+  "frame_863_rederived": true,
+  "frame_wide": {
+   "860_868": [
+    49,
+    74,
+    74,
+    48,
+    47,
+    46,
+    0,
+    86,
+    70
+   ],
+   "gloss": [
+    "49",
+    "74",
+    "74",
+    "48",
+    "47",
+    "46=que",
+    "0",
+    "86",
+    "70=pre"
+   ]
+  },
+  "verb_pin": {
+   "suc_inf": 1,
+   "suc_inf_detail": {
+    "6": 0,
+    "29": 0,
+    "40": 1,
+    "59": 0
+   },
+   "pre_94_62": 3,
+   "pre_detail": {
+    "94": 3,
+    "62": 0
+   }
+  },
+  "adj_test": {
+   "suc_89": 0,
+   "pre_70": 0
+  },
+  "noun_test": {
+   "pre_11": 0,
+   "pre_87": 1
+  },
+  "part_test": {
+   "pre_59": 0
+  },
+  "func_profile": {
+   "pre": {
+    "1": 1,
+    "14": 1,
+    "19": 1,
+    "20": 1,
+    "24": 1,
+    "29": 1,
+    "36": 2,
+    "39": 2,
+    "41": 1,
+    "44": 2,
+    "48": 1,
+    "49": 5,
+    "63": 1,
+    "69": 1,
+    "74": 6,
+    "77": 1,
+    "78": 1,
+    "84": 1,
+    "87": 1,
+    "94": 3
+   },
+   "suc": {
+    "32": 1,
+    "34": 1,
+    "35": 1,
+    "40": 1,
+    "42": 1,
+    "45": 3,
+    "46": 3,
+    "47": 2,
+    "48": 1,
+    "49": 1,
+    "52": 1,
+    "62": 3,
+    "65": 2,
+    "67": 2,
+    "74": 6,
+    "77": 2,
+    "84": 1,
+    "87": 1,
+    "93": 1
+   }
+  },
+  "bigram_74_74": {
+   "n": 12,
+   "positions": [
+    417,
+    418,
+    816,
+    817,
+    861,
+    862,
+    919,
+    920,
+    1053,
+    1054,
+    1637,
+    1638
+   ]
+  },
+  "pre_full": {
+   "1": 1,
+   "14": 1,
+   "19": 1,
+   "20": 1,
+   "24": 1,
+   "29": 1,
+   "36": 2,
+   "39": 2,
+   "41": 1,
+   "44": 2,
+   "48": 1,
+   "49": 5,
+   "63": 1,
+   "69": 1,
+   "74": 6,
+   "77": 1,
+   "78": 1,
+   "84": 1,
+   "87": 1,
+   "94": 3
+  },
+  "suc_full": {
+   "32": 1,
+   "34": 1,
+   "35": 1,
+   "40": 1,
+   "42": 1,
+   "45": 3,
+   "46": 3,
+   "47": 2,
+   "48": 1,
+   "49": 1,
+   "52": 1,
+   "62": 3,
+   "65": 2,
+   "67": 2,
+   "74": 6,
+   "77": 2,
+   "84": 1,
+   "87": 1,
+   "93": 1
+  }
+ },
+ "A4": {
+  "n_de_ce_que": 191,
+  "n_absolute": 8,
+  "absolute_rate": 0.0419,
+  "absolute_examples": [
+   [
+    "metternich-papiere-v6.txt",
+    [
+     "fort",
+     "mauvais",
+     "conseils"
+    ],
+    "conseils"
+   ],
+   [
+    "metternich-papiere-v6.txt",
+    [
+     "pondrai",
+     "a",
+     "cela"
+    ],
+    "cela"
+   ],
+   [
+    "metternich-papiere-v6.txt",
+    [
+     "le",
+     "roi",
+     "oui"
+    ],
+    "oui"
+   ],
+   [
+    "revue-deux-mondes-1841-q1.txt",
+    [
+     "faire",
+     "de",
+     "lui"
+    ],
+    "lui"
+   ],
+   [
+    "revue-deux-mondes-1841-q1.txt",
+    [
+     "et",
+     "le",
+     "possible"
+    ],
+    "possible"
+   ],
+   [
+    "revue-deux-mondes-1841-q2.txt",
+    [
+     "lui",
+     "même",
+     "soulignés"
+    ],
+    "soulignés"
+   ],
+   [
+    "revue-deux-mondes-1841-q2.txt",
+    [
+     "s'",
+     "offensa",
+     "pas"
+    ],
+    "pas"
+   ],
+   [
+    "revue-deux-mondes-1841-q4.txt",
+    [
+     "à",
+     "la",
+     "russie"
+    ],
+    "russie"
+   ]
+  ],
+  "L1_counts": {
+   "et": 8,
+   "contraire": 6,
+   "delà": 5,
+   "rien": 4,
+   "exact": 3,
+   "surtout": 2,
+   "peinee": 2,
+   "aussi": 2,
+   "exemple": 2,
+   "plaindre": 2,
+   "enfin": 2,
+   "compte": 2,
+   "honteux": 2,
+   "partie": 2,
+   "félicite": 2,
+   "pas": 2,
+   "plaint": 2,
+   "autres": 2,
+   "vient": 2,
+   "appui": 2,
+   "seulement": 1,
+   "irrécusable": 1,
+   "souvenait": 1,
+   "dit": 1,
+   "inquiétude": 1,
+   "humeur": 1,
+   "roi": 1,
+   "nature": 1,
+   "courant": 1,
+   "rancune": 1,
+   "curieux": 1,
+   "répondant": 1,
+   "même": 1,
+   "besoin": 1,
+   "inquiets": 1,
+   "exactement": 1,
+   "majesté": 1,
+   "mérite": 1,
+   "jouissance": 1,
+   "raison": 1,
+   "mesure": 1,
+   "sus": 1,
+   "regrets": 1,
+   "eloigner": 1,
+   "contenter": 1,
+   "feliciter": 1,
+   "doute": 1,
+   "politique": 1,
+   "unique": 1,
+   "oppose": 1,
+   "an": 1,
+   "surprise": 1,
+   "ceux": 1,
+   "rendre": 1,
+   "moitie": 1,
+   "ensemble": 1,
+   "inquiet": 1,
+   "que": 1,
+   "vif": 1,
+   "ici": 1,
+   "petersbourg": 1,
+   "historique": 1,
+   "monstration": 1,
+   "acte": 1,
+   "quietude": 1,
+   "face": 1,
+   "conseils": 1,
+   "responsabilite": 1,
+   "egard": 1,
+   "surpris": 1,
+   "justification": 1,
+   "cela": 1,
+   "oui": 1,
+   "süffisante": 1,
+   "recherche": 1,
+   "moyen": 1,
+   "ressort": 1,
+   "courrier": 1,
+   "utilitö": 1,
+   "fegard": 1,
+   "comnie": 1,
+   "mer": 1,
+   "blessé": 1,
+   "dessus": 1,
+   "confirmation": 1,
+   "gré": 1,
+   "contente": 1,
+   "pégard": 1,
+   "souffrir": 1,
+   "souvenirs": 1,
+   "vais": 1,
+   "fin": 1,
+   "différent": 1,
+   "fois": 1,
+   "provenait": 1,
+   "on": 1,
+   "bout": 1,
+   "claire": 1,
+   "sentiment": 1,
+   "monstrueuse": 1,
+   "nouvelles": 1,
+   "reconnaissant": 1,
+   "venait": 1,
+   "dessous": 1,
+   "parlant": 1,
+   "vraie": 1,
+   "métier": 1,
+   "ciel": 1,
+   "marie": 1,
+   "lui": 1,
+   "voit": 1,
+   "touche": 1,
+   "résulte": 1,
+   "bien": 1,
+   "repentir": 1,
+   "possible": 1,
+   "oubli": 1,
+   "plume": 1,
+   "explication": 1,
+   "confidence": 1,
+   "double": 1,
+   "idée": 1,
+   "formalisés": 1,
+   "peu": 1,
+   "preuve": 1,
+   "soulignés": 1,
+   "image": 1,
+   "aussitôt": 1,
+   "déduction": 1,
+   "voie": 1,
+   "mot": 1,
+   "profitant": 1,
+   "preuves": 1,
+   "provint": 1,
+   "surchargées": 1,
+   "moins": 1,
+   "plus": 1,
+   "auprès": 1,
+   "fort": 1,
+   "souvient": 1,
+   "haut": 1,
+   "exacte": 1,
+   "pant": 1,
+   "piqué": 1,
+   "unes": 1,
+   "indigne": 1,
+   "secret": 1,
+   "dépendent": 1,
+   "cause": 1,
+   "ieu": 1,
+   "étonnement": 1,
+   "cite": 1,
+   "russie": 1,
+   "déclaration": 1,
+   "monde": 1
+  },
+  "hits": [
+   {
+    "file": "guizot-memoires-t1-gutenberg.txt",
+    "i": 31068,
+    "L1": "seulement",
+    "absolute": false,
+    "left3": [
+     "responsabilité",
+     "non",
+     "seulement"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t1-gutenberg.txt",
+    "i": 98684,
+    "L1": "irrécusable",
+    "absolute": false,
+    "left3": [
+     "le",
+     "plus",
+     "irrécusable"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t2-gutenberg.txt",
+    "i": 48885,
+    "L1": "souvenait",
+    "absolute": false,
+    "left3": [
+     "malheur",
+     "se",
+     "souvenait"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t2-gutenberg.txt",
+    "i": 65686,
+    "L1": "dit",
+    "absolute": false,
+    "left3": [
+     "près",
+     "rien",
+     "dit"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t2-gutenberg.txt",
+    "i": 83413,
+    "L1": "inquiétude",
+    "absolute": false,
+    "left3": [
+     "une",
+     "noble",
+     "inquiétude"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t2-gutenberg.txt",
+    "i": 97139,
+    "L1": "humeur",
+    "absolute": false,
+    "left3": [
+     "peu",
+     "d'",
+     "humeur"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t3-gutenberg.txt",
+    "i": 76710,
+    "L1": "roi",
+    "absolute": false,
+    "left3": [
+     "avec",
+     "le",
+     "roi"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t3-gutenberg.txt",
+    "i": 104775,
+    "L1": "nature",
+    "absolute": false,
+    "left3": [
+     "à",
+     "la",
+     "nature"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t3-gutenberg.txt",
+    "i": 133139,
+    "L1": "et",
+    "absolute": false,
+    "left3": [
+     "a",
+     "parlé",
+     "et"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "i": 12863,
+    "L1": "courant",
+    "absolute": false,
+    "left3": [
+     "mis",
+     "au",
+     "courant"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "i": 38310,
+    "L1": "rancune",
+    "absolute": false,
+    "left3": [
+     "peu",
+     "de",
+     "rancune"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "i": 51612,
+    "L1": "curieux",
+    "absolute": false,
+    "left3": [
+     "soient",
+     "très",
+     "curieux"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "i": 56040,
+    "L1": "répondant",
+    "absolute": false,
+    "left3": [
+     "en",
+     "me",
+     "répondant"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "i": 71814,
+    "L1": "même",
+    "absolute": false,
+    "left3": [
+     "écrivais",
+     "moi",
+     "même"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "i": 72202,
+    "L1": "besoin",
+    "absolute": false,
+    "left3": [
+     "prévenir",
+     "au",
+     "besoin"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "i": 75759,
+    "L1": "inquiets",
+    "absolute": false,
+    "left3": [
+     "curieux",
+     "et",
+     "inquiets"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "i": 77960,
+    "L1": "et",
+    "absolute": false,
+    "left3": [
+     "aura",
+     "fait",
+     "et"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "i": 78060,
+    "L1": "exactement",
+    "absolute": false,
+    "left3": [
+     "compte",
+     "bien",
+     "exactement"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "i": 130952,
+    "L1": "majesté",
+    "absolute": false,
+    "left3": [
+     "pieces",
+     "historiques",
+     "majesté"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "i": 169486,
+    "L1": "surtout",
+    "absolute": false,
+    "left3": [
+     "brûnnow",
+     "et",
+     "surtout"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "i": 173761,
+    "L1": "mérite",
+    "absolute": false,
+    "left3": [
+     "je",
+     "le",
+     "mérite"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "i": 252353,
+    "L1": "jouissance",
+    "absolute": false,
+    "left3": [
+     "la",
+     "ferme",
+     "jouissance"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "i": 278638,
+    "L1": "delà",
+    "absolute": false,
+    "left3": [
+     "même",
+     "au",
+     "delà"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "i": 283673,
+    "L1": "raison",
+    "absolute": false,
+    "left3": [
+     "exception",
+     "es",
+     "raison"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "i": 287893,
+    "L1": "mesure",
+    "absolute": false,
+    "left3": [
+     "trouncrez",
+     "la",
+     "mesure"
+    ]
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "i": 291251,
+    "L1": "et",
+    "absolute": false,
+    "left3": [
+     "de",
+     "kisseleft",
+     "et"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 7598,
+    "L1": "sus",
+    "absolute": false,
+    "left3": [
+     "degres",
+     "en",
+     "sus"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 11251,
+    "L1": "regrets",
+    "absolute": false,
+    "left3": [
+     "surtout",
+     "ses",
+     "regrets"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 16137,
+    "L1": "eloigner",
+    "absolute": false,
+    "left3": [
+     "scrupuleuse",
+     "ä",
+     "eloigner"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 25040,
+    "L1": "contenter",
+    "absolute": false,
+    "left3": [
+     "a",
+     "se",
+     "contenter"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 25423,
+    "L1": "feliciter",
+    "absolute": false,
+    "left3": [
+     "ä",
+     "nous",
+     "feliciter"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 25502,
+    "L1": "doute",
+    "absolute": false,
+    "left3": [
+     "plaindra",
+     "sans",
+     "doute"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 47768,
+    "L1": "politique",
+    "absolute": false,
+    "left3": [
+     "une",
+     "saine",
+     "politique"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 76926,
+    "L1": "unique",
+    "absolute": false,
+    "left3": [
+     "vevitable",
+     "et",
+     "unique"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 97072,
+    "L1": "contraire",
+    "absolute": false,
+    "left3": [
+     "toutes",
+     "le",
+     "contraire"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 97705,
+    "L1": "contraire",
+    "absolute": false,
+    "left3": [
+     "toujours",
+     "le",
+     "contraire"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 97721,
+    "L1": "oppose",
+    "absolute": false,
+    "left3": [
+     "egalement",
+     "l'",
+     "oppose"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 98829,
+    "L1": "an",
+    "absolute": false,
+    "left3": [
+     "a",
+     "dem",
+     "an"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 105910,
+    "L1": "surtout",
+    "absolute": false,
+    "left3": [
+     "se",
+     "plaint",
+     "surtout"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 108780,
+    "L1": "exact",
+    "absolute": false,
+    "left3": [
+     "un",
+     "compte",
+     "exact"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 116389,
+    "L1": "surprise",
+    "absolute": false,
+    "left3": [
+     "de",
+     "la",
+     "surprise"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 124441,
+    "L1": "ceux",
+    "absolute": false,
+    "left3": [
+     "comme",
+     "a",
+     "ceux"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 128109,
+    "L1": "rien",
+    "absolute": false,
+    "left3": [
+     "ne",
+     "veut",
+     "rien"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 129181,
+    "L1": "peinee",
+    "absolute": false,
+    "left3": [
+     "est",
+     "vivement",
+     "peinee"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 142717,
+    "L1": "rendre",
+    "absolute": false,
+    "left3": [
+     "a",
+     "leur",
+     "rendre"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 150843,
+    "L1": "moitie",
+    "absolute": false,
+    "left3": [
+     "concedant",
+     "la",
+     "moitie"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 164369,
+    "L1": "ensemble",
+    "absolute": false,
+    "left3": [
+     "exposer",
+     "l'",
+     "ensemble"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 172979,
+    "L1": "inquiet",
+    "absolute": false,
+    "left3": [
+     "aussi",
+     "peu",
+     "inquiet"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 172985,
+    "L1": "que",
+    "absolute": false,
+    "left3": [
+     "nous",
+     "faisons",
+     "que"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 182755,
+    "L1": "vif",
+    "absolute": false,
+    "left3": [
+     "le",
+     "plus",
+     "vif"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 194721,
+    "L1": "aussi",
+    "absolute": false,
+    "left3": [
+     "ete",
+     "surpris",
+     "aussi"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 197728,
+    "L1": "ici",
+    "absolute": false,
+    "left3": [
+     "agit",
+     "pas",
+     "ici"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 202549,
+    "L1": "petersbourg",
+    "absolute": false,
+    "left3": [
+     "a",
+     "saint",
+     "petersbourg"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "i": 202849,
+    "L1": "historique",
+    "absolute": false,
+    "left3": [
+     "est",
+     "l'",
+     "historique"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 3060,
+    "L1": "monstration",
+    "absolute": false,
+    "left3": [
+     "haute",
+     "d",
+     "monstration"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 12665,
+    "L1": "acte",
+    "absolute": false,
+    "left3": [
+     "prendre",
+     "confidentiellement",
+     "acte"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 46382,
+    "L1": "quietude",
+    "absolute": false,
+    "left3": [
+     "son",
+     "in",
+     "quietude"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 74606,
+    "L1": "peinee",
+    "absolute": false,
+    "left3": [
+     "elle",
+     "tait",
+     "peinee"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 95670,
+    "L1": "face",
+    "absolute": false,
+    "left3": [
+     "posee",
+     "en",
+     "face"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 96194,
+    "L1": "conseils",
+    "absolute": true,
+    "left3": [
+     "fort",
+     "mauvais",
+     "conseils"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 121650,
+    "L1": "contraire",
+    "absolute": false,
+    "left3": [
+     "juste",
+     "le",
+     "contraire"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 128520,
+    "L1": "responsabilite",
+    "absolute": false,
+    "left3": [
+     "jamais",
+     "la",
+     "responsabilite"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 128708,
+    "L1": "egard",
+    "absolute": false,
+    "left3": [
+     "a",
+     "l'",
+     "egard"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 133360,
+    "L1": "et",
+    "absolute": false,
+    "left3": [
+     "bases",
+     "historiques",
+     "et"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 134459,
+    "L1": "exemple",
+    "absolute": false,
+    "left3": [
+     "eclaires",
+     "prennent",
+     "exemple"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 147628,
+    "L1": "surpris",
+    "absolute": false,
+    "left3": [
+     "alitey",
+     "nullement",
+     "surpris"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 147798,
+    "L1": "justification",
+    "absolute": false,
+    "left3": [
+     "entreprendre",
+     "la",
+     "justification"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 153124,
+    "L1": "contraire",
+    "absolute": false,
+    "left3": [
+     "faire",
+     "le",
+     "contraire"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 153394,
+    "L1": "cela",
+    "absolute": true,
+    "left3": [
+     "pondrai",
+     "a",
+     "cela"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 153401,
+    "L1": "oui",
+    "absolute": true,
+    "left3": [
+     "le",
+     "roi",
+     "oui"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 170589,
+    "L1": "süffisante",
+    "absolute": false,
+    "left3": [
+     "une",
+     "preuve",
+     "süffisante"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 190474,
+    "L1": "recherche",
+    "absolute": false,
+    "left3": [
+     "oiseuse",
+     "la",
+     "recherche"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 207953,
+    "L1": "moyen",
+    "absolute": false,
+    "left3": [
+     "espagnol",
+     "au",
+     "moyen"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 208005,
+    "L1": "et",
+    "absolute": false,
+    "left3": [
+     "ces",
+     "vues",
+     "et"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 235832,
+    "L1": "ressort",
+    "absolute": false,
+    "left3": [
+     "esprit",
+     "qui",
+     "ressort"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 235843,
+    "L1": "courrier",
+    "absolute": false,
+    "left3": [
+     "le",
+     "demier",
+     "courrier"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 235851,
+    "L1": "et",
+    "absolute": false,
+    "left3": [
+     "aujourd'",
+     "hui",
+     "et"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 238972,
+    "L1": "utilitö",
+    "absolute": false,
+    "left3": [
+     "couvrir",
+     "l'",
+     "utilitö"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 241815,
+    "L1": "fegard",
+    "absolute": false,
+    "left3": [
+     "doute",
+     "a",
+     "fegard"
+    ]
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "i": 241821,
+    "L1": "comnie",
+    "absolute": false,
+    "left3": [
+     "nous",
+     "cherchons",
+     "comnie"
+    ]
+   },
+   {
+    "file": "pozzo-di-borgo-correspondance-v1.txt",
+    "i": 6069,
+    "L1": "delà",
+    "absolute": false,
+    "left3": [
+     "joug",
+     "au",
+     "delà"
+    ]
+   },
+   {
+    "file": "pozzo-di-borgo-correspondance-v1.txt",
+    "i": 12311,
+    "L1": "plaindre",
+    "absolute": false,
+    "left3": [
+     "paraît",
+     "se",
+     "plaindre"
+    ]
+   },
+   {
+    "file": "pozzo-di-borgo-correspondance-v1.txt",
+    "i": 29429,
+    "L1": "mer",
+    "absolute": false,
+    "left3": [
+     "s'",
+     "alar",
+     "mer"
+    ]
+   },
+   {
+    "file": "pozzo-di-borgo-correspondance-v1.txt",
+    "i": 47339,
+    "L1": "blessé",
+    "absolute": false,
+    "left3": [
+     "est",
+     "trouvé",
+     "blessé"
+    ]
+   },
+   {
+    "file": "pozzo-di-borgo-correspondance-v1.txt",
+    "i": 47404,
+    "L1": "enfin",
+    "absolute": false,
+    "left3": [
+     "point",
+     "religieux",
+     "enfin"
+    ]
+   },
+   {
+    "file": "pozzo-di-borgo-correspondance-v1.txt",
+    "i": 62383,
+    "L1": "dessus",
+    "absolute": false,
+    "left3": [
+     "joug",
+     "au",
+     "dessus"
+    ]
+   },
+   {
+    "file": "pozzo-di-borgo-correspondance-v1.txt",
+    "i": 85484,
+    "L1": "rien",
+    "absolute": false,
+    "left3": [
+     "déjouée",
+     "puisque",
+     "rien"
+    ]
+   },
+   {
+    "file": "pozzo-di-borgo-correspondance-v1.txt",
+    "i": 93469,
+    "L1": "confirmation",
+    "absolute": false,
+    "left3": [
+     "comme",
+     "la",
+     "confirmation"
+    ]
+   },
+   {
+    "file": "pozzo-di-borgo-correspondance-v1.txt",
+    "i": 144998,
+    "L1": "gré",
+    "absolute": false,
+    "left3": [
+     "vous",
+     "sait",
+     "gré"
+    ]
+   },
+   {
+    "file": "levant-correspondence-1841-p3.txt",
+    "i": 196702,
+    "L1": "contente",
+    "absolute": false,
+    "left3": [
+     "serait",
+     "trés",
+     "contente"
+    ]
+   },
+   {
+    "file": "levant-correspondence-1841-p3.txt",
+    "i": 254137,
+    "L1": "pégard",
+    "absolute": false,
+    "left3": [
+     "pensée",
+     "a",
+     "pégard"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 1424,
+    "L1": "souffrir",
+    "absolute": false,
+    "left3": [
+     "avoir",
+     "à",
+     "souffrir"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 12297,
+    "L1": "souvenirs",
+    "absolute": false,
+    "left3": [
+     "impressions",
+     "les",
+     "souvenirs"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 12303,
+    "L1": "vais",
+    "absolute": false,
+    "left3": [
+     "je",
+     "v",
+     "vais"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 13966,
+    "L1": "fin",
+    "absolute": false,
+    "left3": [
+     "vie",
+     "la",
+     "fin"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 20824,
+    "L1": "différent",
+    "absolute": false,
+    "left3": [
+     "idées",
+     "si",
+     "différent"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 35126,
+    "L1": "fois",
+    "absolute": false,
+    "left3": [
+     "une",
+     "bonne",
+     "fois"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 42034,
+    "L1": "provenait",
+    "absolute": false,
+    "left3": [
+     "cet",
+     "impôt",
+     "provenait"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 50910,
+    "L1": "on",
+    "absolute": false,
+    "left3": [
+     "certitude",
+     "avait",
+     "on"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 83388,
+    "L1": "compte",
+    "absolute": false,
+    "left3": [
+     "bien",
+     "rendu",
+     "compte"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 87085,
+    "L1": "honteux",
+    "absolute": false,
+    "left3": [
+     "un",
+     "peu",
+     "honteux"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 88744,
+    "L1": "bout",
+    "absolute": false,
+    "left3": [
+     "près",
+     "au",
+     "bout"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 91525,
+    "L1": "claire",
+    "absolute": false,
+    "left3": [
+     "une",
+     "idée",
+     "claire"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 92057,
+    "L1": "sentiment",
+    "absolute": false,
+    "left3": [
+     "ar",
+     "le",
+     "sentiment"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 104210,
+    "L1": "monstrueuse",
+    "absolute": false,
+    "left3": [
+     "violation",
+     "aussi",
+     "monstrueuse"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 104877,
+    "L1": "partie",
+    "absolute": false,
+    "left3": [
+     "dès",
+     "lors",
+     "partie"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 105728,
+    "L1": "nouvelles",
+    "absolute": false,
+    "left3": [
+     "ai",
+     "des",
+     "nouvelles"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 112446,
+    "L1": "reconnaissant",
+    "absolute": false,
+    "left3": [
+     "ma",
+     "vie",
+     "reconnaissant"
+    ]
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "i": 126460,
+    "L1": "venait",
+    "absolute": false,
+    "left3": [
+     "les",
+     "français",
+     "venait"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 77549,
+    "L1": "dessous",
+    "absolute": false,
+    "left3": [
+     "beaucoup",
+     "au",
+     "dessous"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 79463,
+    "L1": "parlant",
+    "absolute": false,
+    "left3": [
+     "souvent",
+     "en",
+     "parlant"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 87686,
+    "L1": "et",
+    "absolute": false,
+    "left3": [
+     "qu'",
+     "était",
+     "et"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 109892,
+    "L1": "vraie",
+    "absolute": false,
+    "left3": [
+     "une",
+     "idée",
+     "vraie"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 116419,
+    "L1": "métier",
+    "absolute": false,
+    "left3": [
+     "enfin",
+     "le",
+     "métier"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 189682,
+    "L1": "félicite",
+    "absolute": false,
+    "left3": [
+     "il",
+     "le",
+     "félicite"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 192323,
+    "L1": "ciel",
+    "absolute": false,
+    "left3": [
+     "grâce",
+     "au",
+     "ciel"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 207225,
+    "L1": "marie",
+    "absolute": false,
+    "left3": [
+     "plaindre",
+     "à",
+     "marie"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 218595,
+    "L1": "rien",
+    "absolute": false,
+    "left3": [
+     "m'",
+     "ôte",
+     "rien"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 243548,
+    "L1": "lui",
+    "absolute": true,
+    "left3": [
+     "faire",
+     "de",
+     "lui"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 253905,
+    "L1": "contraire",
+    "absolute": false,
+    "left3": [
+     "voudra",
+     "le",
+     "contraire"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 253911,
+    "L1": "voit",
+    "absolute": false,
+    "left3": [
+     "l'",
+     "on",
+     "voit"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 253917,
+    "L1": "touche",
+    "absolute": false,
+    "left3": [
+     "l'",
+     "on",
+     "touche"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 257617,
+    "L1": "résulte",
+    "absolute": false,
+    "left3": [
+     "qu'",
+     "il",
+     "résulte"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 259278,
+    "L1": "delà",
+    "absolute": false,
+    "left3": [
+     "mais",
+     "au",
+     "delà"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 259286,
+    "L1": "delà",
+    "absolute": false,
+    "left3": [
+     "affirmer",
+     "au",
+     "delà"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 327014,
+    "L1": "bien",
+    "absolute": false,
+    "left3": [
+     "souvenez",
+     "vous",
+     "bien"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 350148,
+    "L1": "repentir",
+    "absolute": false,
+    "left3": [
+     "à",
+     "me",
+     "repentir"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 363437,
+    "L1": "possible",
+    "absolute": true,
+    "left3": [
+     "et",
+     "le",
+     "possible"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 370212,
+    "L1": "oubli",
+    "absolute": false,
+    "left3": [
+     "imais",
+     "l'",
+     "oubli"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 388758,
+    "L1": "pas",
+    "absolute": false,
+    "left3": [
+     "souviens",
+     "certainement",
+     "pas"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 404366,
+    "L1": "plume",
+    "absolute": false,
+    "left3": [
+     "par",
+     "la",
+     "plume"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 416380,
+    "L1": "explication",
+    "absolute": false,
+    "left3": [
+     "histoire",
+     "l'",
+     "explication"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "i": 418067,
+    "L1": "confidence",
+    "absolute": false,
+    "left3": [
+     "faire",
+     "volontairement",
+     "confidence"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 5133,
+    "L1": "double",
+    "absolute": false,
+    "left3": [
+     "contenir",
+     "le",
+     "double"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 95350,
+    "L1": "exact",
+    "absolute": false,
+    "left3": [
+     "le",
+     "résumé",
+     "exact"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 118464,
+    "L1": "et",
+    "absolute": false,
+    "left3": [
+     "la",
+     "rlorée",
+     "et"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 145641,
+    "L1": "idée",
+    "absolute": false,
+    "left3": [
+     "une",
+     "faible",
+     "idée"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 153538,
+    "L1": "formalisés",
+    "absolute": false,
+    "left3": [
+     "se",
+     "sont",
+     "formalisés"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 166174,
+    "L1": "peu",
+    "absolute": false,
+    "left3": [
+     "peu",
+     "à",
+     "peu"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 177269,
+    "L1": "preuve",
+    "absolute": false,
+    "left3": [
+     "citer",
+     "comme",
+     "preuve"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 181794,
+    "L1": "partie",
+    "absolute": false,
+    "left3": [
+     "la",
+     "quarantième",
+     "partie"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 222985,
+    "L1": "soulignés",
+    "absolute": true,
+    "left3": [
+     "lui",
+     "même",
+     "soulignés"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 232864,
+    "L1": "plaint",
+    "absolute": false,
+    "left3": [
+     "on",
+     "se",
+     "plaint"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 257287,
+    "L1": "aussi",
+    "absolute": false,
+    "left3": [
+     "s'",
+     "inquiéter",
+     "aussi"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 261857,
+    "L1": "image",
+    "absolute": false,
+    "left3": [
+     "jamais",
+     "l'",
+     "image"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 288160,
+    "L1": "contraire",
+    "absolute": false,
+    "left3": [
+     "établir",
+     "le",
+     "contraire"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 329111,
+    "L1": "pas",
+    "absolute": true,
+    "left3": [
+     "s'",
+     "offensa",
+     "pas"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 343173,
+    "L1": "aussitôt",
+    "absolute": false,
+    "left3": [
+     "s'",
+     "avisa",
+     "aussitôt"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 395000,
+    "L1": "déduction",
+    "absolute": false,
+    "left3": [
+     "devient",
+     "une",
+     "déduction"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 421350,
+    "L1": "voie",
+    "absolute": false,
+    "left3": [
+     "sur",
+     "la",
+     "voie"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "i": 422176,
+    "L1": "mot",
+    "absolute": false,
+    "left3": [
+     "dire",
+     "un",
+     "mot"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "i": 20986,
+    "L1": "profitant",
+    "absolute": false,
+    "left3": [
+     "et",
+     "vitriers",
+     "profitant"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "i": 56562,
+    "L1": "preuves",
+    "absolute": false,
+    "left3": [
+     "trouve",
+     "les",
+     "preuves"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "i": 68727,
+    "L1": "compte",
+    "absolute": false,
+    "left3": [
+     "côté",
+     "rendu",
+     "compte"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "i": 70830,
+    "L1": "delà",
+    "absolute": false,
+    "left3": [
+     "pays",
+     "au",
+     "delà"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "i": 90380,
+    "L1": "provint",
+    "absolute": false,
+    "left3": [
+     "nouvelles",
+     "et",
+     "provint"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "i": 95456,
+    "L1": "autres",
+    "absolute": false,
+    "left3": [
+     "accablés",
+     "les",
+     "autres"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "i": 134250,
+    "L1": "surchargées",
+    "absolute": false,
+    "left3": [
+     "tables",
+     "furent",
+     "surchargées"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "i": 202641,
+    "L1": "enfin",
+    "absolute": false,
+    "left3": [
+     "ni",
+     "rien",
+     "enfin"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "i": 204261,
+    "L1": "moins",
+    "absolute": false,
+    "left3": [
+     "s'",
+     "informe",
+     "moins"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "i": 204268,
+    "L1": "plus",
+    "absolute": false,
+    "left3": [
+     "pensez",
+     "et",
+     "plus"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "i": 224659,
+    "L1": "exact",
+    "absolute": false,
+    "left3": [
+     "le",
+     "plus",
+     "exact"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "i": 284122,
+    "L1": "vient",
+    "absolute": false,
+    "left3": [
+     "intentions",
+     "cela",
+     "vient"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "i": 288926,
+    "L1": "honteux",
+    "absolute": false,
+    "left3": [
+     "je",
+     "suis",
+     "honteux"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "i": 297253,
+    "L1": "rien",
+    "absolute": false,
+    "left3": [
+     "ressemble",
+     "à",
+     "rien"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "i": 377949,
+    "L1": "exemple",
+    "absolute": false,
+    "left3": [
+     "est",
+     "un",
+     "exemple"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "i": 393432,
+    "L1": "appui",
+    "absolute": false,
+    "left3": [
+     "à",
+     "l'",
+     "appui"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "i": 444721,
+    "L1": "auprès",
+    "absolute": false,
+    "left3": [
+     "est",
+     "rien",
+     "auprès"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 30329,
+    "L1": "fort",
+    "absolute": false,
+    "left3": [
+     "s'",
+     "occupe",
+     "fort"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 55262,
+    "L1": "vient",
+    "absolute": false,
+    "left3": [
+     "cet",
+     "égard",
+     "vient"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 143864,
+    "L1": "souvient",
+    "absolute": false,
+    "left3": [
+     "on",
+     "se",
+     "souvient"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 148192,
+    "L1": "haut",
+    "absolute": false,
+    "left3": [
+     "alarmer",
+     "aussi",
+     "haut"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 152403,
+    "L1": "exacte",
+    "absolute": false,
+    "left3": [
+     "une",
+     "idée",
+     "exacte"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 153841,
+    "L1": "pant",
+    "absolute": false,
+    "left3": [
+     "exemple",
+     "frap",
+     "pant"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 191140,
+    "L1": "piqué",
+    "absolute": false,
+    "left3": [
+     "se",
+     "sera",
+     "piqué"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 204430,
+    "L1": "unes",
+    "absolute": false,
+    "left3": [
+     "selon",
+     "les",
+     "unes"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 204475,
+    "L1": "autres",
+    "absolute": false,
+    "left3": [
+     "selon",
+     "les",
+     "autres"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 234742,
+    "L1": "indigne",
+    "absolute": false,
+    "left3": [
+     "il",
+     "s'",
+     "indigne"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 256323,
+    "L1": "plaindre",
+    "absolute": false,
+    "left3": [
+     "daigné",
+     "se",
+     "plaindre"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 256942,
+    "L1": "secret",
+    "absolute": false,
+    "left3": [
+     "dans",
+     "le",
+     "secret"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 275445,
+    "L1": "dépendent",
+    "absolute": false,
+    "left3": [
+     "dispositions",
+     "qui",
+     "dépendent"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 309561,
+    "L1": "cause",
+    "absolute": false,
+    "left3": [
+     "en",
+     "partie",
+     "cause"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 313897,
+    "L1": "ieu",
+    "absolute": false,
+    "left3": [
+     "remercier",
+     "j",
+     "ieu"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 349467,
+    "L1": "étonnement",
+    "absolute": false,
+    "left3": [
+     "exprimait",
+     "son",
+     "étonnement"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 350431,
+    "L1": "cite",
+    "absolute": false,
+    "left3": [
+     "se",
+     "féli",
+     "cite"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 353945,
+    "L1": "russie",
+    "absolute": true,
+    "left3": [
+     "à",
+     "la",
+     "russie"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 415834,
+    "L1": "déclaration",
+    "absolute": false,
+    "left3": [
+     "est",
+     "une",
+     "déclaration"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 419555,
+    "L1": "monde",
+    "absolute": false,
+    "left3": [
+     "pour",
+     "le",
+     "monde"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 459924,
+    "L1": "appui",
+    "absolute": false,
+    "left3": [
+     "à",
+     "l'",
+     "appui"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 469069,
+    "L1": "plaint",
+    "absolute": false,
+    "left3": [
+     "qui",
+     "se",
+     "plaint"
+    ]
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "i": 477178,
+    "L1": "félicite",
+    "absolute": false,
+    "left3": [
+     "ordre",
+     "se",
+     "félicite"
+    ]
+   }
+  ]
+ }
+}

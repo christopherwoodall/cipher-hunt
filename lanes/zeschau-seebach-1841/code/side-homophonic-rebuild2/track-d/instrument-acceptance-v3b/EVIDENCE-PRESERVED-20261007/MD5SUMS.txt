@@ -1,0 +1,10 @@
+5c7f3cea6f48292468d85345b71081a9  instrument-acceptance-v3b/EVIDENCE-PRESERVED-20261007/RUNGB-FAILURE-REPORT.md
+99f7fe7648264e9f8303b2b02074f9de  instrument-acceptance-v3b/EVIDENCE-PRESERVED-20261007/RUNGB-REREGISTRATION.md
+b5783730077158fa1b049f5884dca12a  instrument-acceptance-v3b/EVIDENCE-PRESERVED-20261007/_KEY_V3B_DO_NOT_OPEN.json
+ad30237b1d953f784fe61c090918d6b1  instrument-acceptance-v3b/EVIDENCE-PRESERVED-20261007/judge-log-rungB-agent1.jsonl
+c999df9ab856db940551fcc1b34250d6  instrument-acceptance-v3b/EVIDENCE-PRESERVED-20261007/judge-log-rungB-agent2.jsonl
+1c085f238162b4160f6869148ea955e2  instrument-acceptance-v3b/EVIDENCE-PRESERVED-20261007/judge-log-rungB-agent3.jsonl
+97c5e4d8a6d55091e60a09eb5f074db4  instrument-acceptance-v3b/EVIDENCE-PRESERVED-20261007/rungB-pkg-1.json
+9d09547112a7b13eb2d16f73874424fe  instrument-acceptance-v3b/EVIDENCE-PRESERVED-20261007/rungB-pkg-2.json
+26f8d924a05f102e6001e0298885ee8b  instrument-acceptance-v3b/EVIDENCE-PRESERVED-20261007/rungB-pkg-3.json
+f4e36c9161a61c2457eec2b159defc2d  instrument-acceptance-v3b/EVIDENCE-PRESERVED-20261007/rungB-schedules.json

@@ -111,9 +111,14 @@ def main():
     # sanity: (a) must reproduce the verifier's 2,601-nat margin to <=1 nat
     m_a = out['tocqueville']['salad']['total'] - out['tocqueville']['truth']['total']
     san = abs(m_a - 2601.0) <= 1.0
+    # R4a (red-team hardening, mandatory): sanity is a HARD STOP. A broken
+    # instrument must never emit a citable diagnostic verdict.
+    if not san:
+        print(f'\n[sanity] tocqueville margin={m_a:+.1f} vs verifier 2601.0: '
+              f'MISMATCH -- hard stop, no verdict', flush=True)
+        sys.exit(1)
     print(f'\n[sanity] tocqueville margin={m_a:+.1f} vs verifier 2601.0: '
-          f'{"REPRODUCED (<=1 nat)" if san else "MISMATCH -- STOP"}',
-          flush=True)
+          f'REPRODUCED (<=1 nat)', flush=True)
     m_b = out['diplomatic']['salad']['total'] - out['diplomatic']['truth']['total']
     print(f'[diagnostic] diplomatic margin={m_b:+.1f} nats', flush=True)
     if m_b <= -500:

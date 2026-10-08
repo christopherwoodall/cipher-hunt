@@ -1,0 +1,642 @@
+{
+ "n78": 31,
+ "n76": 21,
+ "f107_coverage_78": [],
+ "f107_coverage_76": [],
+ "n_f107_segments": 32,
+ "c78": [
+  {
+   "i": 8,
+   "pre": "77",
+   "suc": "18",
+   "pos": "INITIAL",
+   "ptier": "provcond",
+   "frame": "other"
+  },
+  {
+   "i": 214,
+   "pre": "77",
+   "suc": "06",
+   "pos": "INITIAL",
+   "ptier": "provcond",
+   "frame": "other"
+  },
+  {
+   "i": 297,
+   "pre": "11",
+   "suc": "40",
+   "pos": "INITIAL",
+   "ptier": "GT",
+   "frame": "ver-frame"
+  },
+  {
+   "i": 313,
+   "pre": "37",
+   "suc": "45",
+   "pos": "INITIAL",
+   "ptier": "MED",
+   "frame": "meme-contested"
+  },
+  {
+   "i": 352,
+   "pre": "67",
+   "suc": "40",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 364,
+   "pre": "47",
+   "suc": "48",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 415,
+   "pre": "37",
+   "suc": "49",
+   "pos": "INITIAL",
+   "ptier": "MED",
+   "frame": "ver-frame"
+  },
+  {
+   "i": 435,
+   "pre": "16",
+   "suc": "63",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 443,
+   "pre": "50",
+   "suc": "41",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 476,
+   "pre": "37",
+   "suc": "74",
+   "pos": "INITIAL",
+   "ptier": "MED",
+   "frame": "ver-frame"
+  },
+  {
+   "i": 492,
+   "pre": "67",
+   "suc": "42",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 573,
+   "pre": "87",
+   "suc": "45",
+   "pos": "INITIAL",
+   "ptier": "prov",
+   "frame": "meme-contested"
+  },
+  {
+   "i": 629,
+   "pre": "87",
+   "suc": "67",
+   "pos": "INITIAL",
+   "ptier": "prov",
+   "frame": "ver-frame"
+  },
+  {
+   "i": 648,
+   "pre": "77",
+   "suc": "52",
+   "pos": "INITIAL",
+   "ptier": "provcond",
+   "frame": "other"
+  },
+  {
+   "i": 819,
+   "pre": "47",
+   "suc": "40",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 879,
+   "pre": "86",
+   "suc": "17",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 982,
+   "pre": "47",
+   "suc": "45",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "meme-contested"
+  },
+  {
+   "i": 1012,
+   "pre": "80",
+   "suc": "47",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 1078,
+   "pre": "77",
+   "suc": "64",
+   "pos": "SOLO",
+   "ptier": "both",
+   "frame": "other"
+  },
+  {
+   "i": 1105,
+   "pre": "47",
+   "suc": "65",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 1140,
+   "pre": "98",
+   "suc": "62",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 1164,
+   "pre": "67",
+   "suc": "45",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "meme-contested"
+  },
+  {
+   "i": 1181,
+   "pre": "77",
+   "suc": "94",
+   "pos": "MEDIAL",
+   "ptier": "special: gouv|er|ne|m|ent LEAD (F70)",
+   "frame": "er-frame"
+  },
+  {
+   "i": 1352,
+   "pre": "77",
+   "suc": "94",
+   "pos": "CONTESTED",
+   "ptier": "special: R-c granted solo vs killed R-b medial (F70)",
+   "frame": "er-frame"
+  },
+  {
+   "i": 1397,
+   "pre": "47",
+   "suc": "48",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 1543,
+   "pre": "77",
+   "suc": "43",
+   "pos": "INITIAL",
+   "ptier": "provcond",
+   "frame": "other"
+  },
+  {
+   "i": 1621,
+   "pre": "84",
+   "suc": "66",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 1670,
+   "pre": "11",
+   "suc": "55",
+   "pos": "INITIAL",
+   "ptier": "GT",
+   "frame": "ver-frame"
+  },
+  {
+   "i": 1758,
+   "pre": "17",
+   "suc": "41",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 1771,
+   "pre": "37",
+   "suc": "62",
+   "pos": "INITIAL",
+   "ptier": "MED",
+   "frame": "ver-frame"
+  },
+  {
+   "i": 1843,
+   "pre": "67",
+   "suc": "49",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  }
+ ],
+ "c76": [
+  {
+   "i": 13,
+   "pre": "98",
+   "suc": "45",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 200,
+   "pre": "67",
+   "suc": "87",
+   "pos": "FINAL",
+   "ptier": "prov-or-better",
+   "frame": "other"
+  },
+  {
+   "i": 362,
+   "pre": "48",
+   "suc": "47",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 427,
+   "pre": "48",
+   "suc": "42",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 487,
+   "pre": "64",
+   "suc": "42",
+   "pos": "INITIAL",
+   "ptier": "prov",
+   "frame": "other"
+  },
+  {
+   "i": 568,
+   "pre": "13",
+   "suc": "45",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 621,
+   "pre": "37",
+   "suc": "82",
+   "pos": "INITIAL",
+   "ptier": "MED",
+   "frame": "ver-frame"
+  },
+  {
+   "i": 652,
+   "pre": "94",
+   "suc": "49",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 735,
+   "pre": "93",
+   "suc": "18",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 833,
+   "pre": "77",
+   "suc": "59",
+   "pos": "INITIAL",
+   "ptier": "provcond",
+   "frame": "other"
+  },
+  {
+   "i": 892,
+   "pre": "77",
+   "suc": "01",
+   "pos": "INITIAL",
+   "ptier": "provcond",
+   "frame": "other"
+  },
+  {
+   "i": 969,
+   "pre": "77",
+   "suc": "01",
+   "pos": "INITIAL",
+   "ptier": "provcond",
+   "frame": "other"
+  },
+  {
+   "i": 980,
+   "pre": "07",
+   "suc": "47",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 989,
+   "pre": "01",
+   "suc": "49",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 1046,
+   "pre": "67",
+   "suc": "85",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 1273,
+   "pre": "47",
+   "suc": "87",
+   "pos": "FINAL",
+   "ptier": "prov-or-better",
+   "frame": "other"
+  },
+  {
+   "i": 1275,
+   "pre": "87",
+   "suc": "48",
+   "pos": "INITIAL",
+   "ptier": "prov",
+   "frame": "ver-frame"
+  },
+  {
+   "i": 1395,
+   "pre": "16",
+   "suc": "47",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 1432,
+   "pre": "16",
+   "suc": "49",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 1577,
+   "pre": "94",
+   "suc": "47",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  },
+  {
+   "i": 1616,
+   "pre": "31",
+   "suc": "42",
+   "pos": "UNCERTAIN",
+   "ptier": "-",
+   "frame": "other"
+  }
+ ],
+ "leg1_tables": [
+  {
+   "name": "primary",
+   "table": [
+    [
+     6,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "fisher_one_sided_p": 0.14285714285714285
+  },
+  {
+   "name": "S1:+@1352",
+   "table": [
+    [
+     6,
+     1
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "fisher_one_sided_p": 0.25
+  },
+  {
+   "name": "S2:GT-only",
+   "table": [
+    [
+     2,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "fisher_one_sided_p": 0.3333333333333333
+  },
+  {
+   "name": "S3:drop-pre77",
+   "table": [
+    [
+     6,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "fisher_one_sided_p": 0.14285714285714285
+  },
+  {
+   "name": "S4:+meme-as-ver",
+   "table": [
+    [
+     6,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "fisher_one_sided_p": 0.14285714285714285
+  }
+ ],
+ "leg2_gt_initial_78": [
+  {
+   "i": 297,
+   "pre": "11",
+   "suc": "40",
+   "pos": "INITIAL",
+   "ptier": "GT",
+   "frame": "ver-frame"
+  },
+  {
+   "i": 1670,
+   "pre": "11",
+   "suc": "55",
+   "pos": "INITIAL",
+   "ptier": "GT",
+   "frame": "ver-frame"
+  }
+ ],
+ "leg3_bigrams_78_94": [
+  {
+   "i": 1181,
+   "pre": "77",
+   "suc": "94",
+   "pos": "MEDIAL",
+   "ptier": "special: gouv|er|ne|m|ent LEAD (F70)",
+   "frame": "er-frame"
+  },
+  {
+   "i": 1352,
+   "pre": "77",
+   "suc": "94",
+   "pos": "CONTESTED",
+   "ptier": "special: R-c granted solo vs killed R-b medial (F70)",
+   "frame": "er-frame"
+  }
+ ],
+ "leg4_76_positions": {
+  "UNCERTAIN": 13,
+  "FINAL": 2,
+  "INITIAL": 6
+ },
+ "leg4_76_erframes": [],
+ "leg4_76_finals": [
+  {
+   "i": 200,
+   "pre": "67",
+   "suc": "87",
+   "pos": "FINAL",
+   "ptier": "prov-or-better",
+   "frame": "other"
+  },
+  {
+   "i": 1273,
+   "pre": "47",
+   "suc": "87",
+   "pos": "FINAL",
+   "ptier": "prov-or-better",
+   "frame": "other"
+  }
+ ],
+ "frenchman_corpus": {
+  "corpus": "nesselrode-v8.txt",
+  "n_tokens": 92594,
+  "verne_non_gouv_tokens": 4,
+  "verne_non_gouv_types": 2,
+  "erne_non_verne_tokens": 16,
+  "erne_non_verne_types": 12,
+  "verne_proper_noun_tokens": 0,
+  "ver_initial_types": 26,
+  "ver_initial_tokens": 69,
+  "ver_final_types": 23,
+  "ver_final_tokens": 104,
+  "ver_final_examples": [
+   "trouver",
+   "hiver",
+   "prouver",
+   "arriver",
+   "relever",
+   "conserver",
+   "observer",
+   "éprouver",
+   "gouver",
+   "captiver",
+   "enlever",
+   "sauver",
+   "réserver",
+   "approuver",
+   "lever"
+  ],
+  "er_initial_types": 6,
+  "er_initial_tokens": 7,
+  "er_initial_examples": [
+   "er",
+   "erreur",
+   "erratum",
+   "ernestde",
+   "ernest",
+   "erof"
+  ],
+  "er_final_tokens": 2322
+ },
+ "verification_windows": [
+  {
+   "i": 297,
+   "triple": [
+    "11",
+    "78",
+    "40"
+   ]
+  },
+  {
+   "i": 313,
+   "triple": [
+    "37",
+    "78",
+    "45"
+   ]
+  },
+  {
+   "i": 819,
+   "triple": [
+    "47",
+    "78",
+    "40"
+   ]
+  },
+  {
+   "i": 1181,
+   "triple": [
+    "77",
+    "78",
+    "94"
+   ]
+  },
+  {
+   "i": 1621,
+   "triple": [
+    "84",
+    "78",
+    "66"
+   ]
+  }
+ ]
+}

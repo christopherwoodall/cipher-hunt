@@ -1,0 +1,7 @@
+{
+ "corpus_tokens": 486789,
+ "corpus_distinct_15grams": 486019,
+ "miserables_tokens": 122570,
+ "shared_distinct_15grams": 0,
+ "shared": []
+}

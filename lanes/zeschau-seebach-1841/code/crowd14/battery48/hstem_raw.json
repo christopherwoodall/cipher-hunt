@@ -1,0 +1,600 @@
+{
+ "B3a": {
+  "1229": {
+   "ctx": [
+    57,
+    64,
+    79,
+    82,
+    48,
+    29,
+    47,
+    33,
+    29
+   ],
+   "gloss": [
+    "57",
+    "64=qui?",
+    "79",
+    "82=m",
+    "48",
+    "29=er",
+    "47",
+    "33",
+    "29=er"
+   ],
+   "suc": 29,
+   "pre": 82
+  },
+  "1589": {
+   "ctx": [
+    36,
+    70,
+    64,
+    65,
+    48,
+    29,
+    47,
+    8,
+    81
+   ],
+   "gloss": [
+    "36",
+    "70=pre",
+    "64=qui?",
+    "65",
+    "48",
+    "29=er",
+    "47",
+    "8",
+    "81"
+   ],
+   "suc": 29,
+   "pre": 65
+  },
+  "1398": {
+   "ctx": [
+    16,
+    76,
+    47,
+    78,
+    48,
+    40,
+    67,
+    77,
+    81
+   ],
+   "gloss": [
+    "16",
+    "76",
+    "47",
+    "78",
+    "48",
+    "40=e",
+    "67",
+    "77=le?",
+    "81"
+   ],
+   "suc": 40,
+   "pre": 78
+  }
+ },
+ "B3b": {
+  "n48": 38,
+  "suc48": {
+   "0": 1,
+   "1": 1,
+   "6": 1,
+   "11": 1,
+   "20": 2,
+   "21": 2,
+   "24": 1,
+   "29": 2,
+   "30": 1,
+   "31": 1,
+   "40": 1,
+   "42": 1,
+   "47": 2,
+   "49": 1,
+   "51": 1,
+   "52": 2,
+   "53": 1,
+   "56": 2,
+   "59": 1,
+   "71": 1,
+   "74": 1,
+   "76": 2,
+   "77": 2,
+   "79": 1,
+   "82": 1,
+   "84": 1,
+   "88": 1,
+   "96": 2,
+   "98": 1
+  },
+  "pre48": {
+   "11": 1,
+   "12": 5,
+   "19": 1,
+   "24": 2,
+   "29": 1,
+   "32": 4,
+   "42": 1,
+   "62": 6,
+   "65": 1,
+   "71": 1,
+   "74": 1,
+   "76": 1,
+   "78": 2,
+   "82": 4,
+   "85": 1,
+   "86": 1,
+   "89": 3,
+   "96": 1,
+   "98": 1
+  },
+  "n_suc_INF": 5,
+  "INF_detail": {
+   "6": 1,
+   "29": 2,
+   "40": 1,
+   "59": 1
+  },
+  "n_suc_WSEG": 2,
+  "WSEG_detail": {
+   "46": 0,
+   "47": 2
+  },
+  "cmp_06": {
+   "n": 44,
+   "n_suc_INF": 8,
+   "suc": {
+    "0": 4,
+    "6": 2,
+    "11": 4,
+    "14": 1,
+    "21": 2,
+    "29": 4,
+    "43": 1,
+    "50": 1,
+    "52": 2,
+    "55": 1,
+    "59": 2,
+    "60": 2,
+    "62": 1,
+    "65": 2,
+    "67": 3,
+    "70": 1,
+    "73": 1,
+    "77": 6,
+    "84": 1,
+    "88": 1,
+    "91": 1,
+    "94": 1
+   }
+  },
+  "cmp_94": {
+   "n": 37,
+   "n_suc_INF": 5,
+   "suc": {
+    "2": 1,
+    "6": 1,
+    "7": 1,
+    "15": 1,
+    "24": 2,
+    "26": 1,
+    "29": 1,
+    "30": 1,
+    "44": 1,
+    "52": 3,
+    "59": 3,
+    "60": 1,
+    "64": 1,
+    "65": 1,
+    "70": 1,
+    "74": 3,
+    "76": 2,
+    "79": 2,
+    "82": 4,
+    "84": 1,
+    "87": 1,
+    "88": 1,
+    "92": 2,
+    "93": 1
+   }
+  },
+  "fisher_48_vs_06": 0.5631590673067556,
+  "fisher_48_vs_94": 1.0,
+  "kill_falsifier": {
+   "n_suc_INF_eq_0": false,
+   "n_suc_WSEG_ge_5": false
+  }
+ },
+ "B3c": {
+  "n_94_pre_48": 0,
+  "positions": [],
+  "windows": {},
+  "named": false
+ },
+ "B4": {
+  "B4a": {
+   "n_er_infinitives": 86527,
+   "n_vowelinit_stem_er": 2962,
+   "share": 0.0342,
+   "examples": [
+    [
+     "aider",
+     [
+      "aid",
+      "er"
+     ]
+    ],
+    [
+     "auger",
+     [
+      "aug",
+      "er"
+     ]
+    ],
+    [
+     "oser",
+     [
+      "os",
+      "er"
+     ]
+    ],
+    [
+     "aider",
+     [
+      "aid",
+      "er"
+     ]
+    ],
+    [
+     "aider",
+     [
+      "aid",
+      "er"
+     ]
+    ],
+    [
+     "user",
+     [
+      "us",
+      "er"
+     ]
+    ],
+    [
+     "oser",
+     [
+      "os",
+      "er"
+     ]
+    ],
+    [
+     "amer",
+     [
+      "am",
+      "er"
+     ]
+    ],
+    [
+     "amer",
+     [
+      "am",
+      "er"
+     ]
+    ],
+    [
+     "user",
+     [
+      "us",
+      "er"
+     ]
+    ],
+    [
+     "user",
+     [
+      "us",
+      "er"
+     ]
+    ],
+    [
+     "ôter",
+     [
+      "ôt",
+      "er"
+     ]
+    ],
+    [
+     "user",
+     [
+      "us",
+      "er"
+     ]
+    ],
+    [
+     "user",
+     [
+      "us",
+      "er"
+     ]
+    ],
+    [
+     "user",
+     [
+      "us",
+      "er"
+     ]
+    ],
+    [
+     "amer",
+     [
+      "am",
+      "er"
+     ]
+    ],
+    [
+     "aimer",
+     [
+      "aim",
+      "er"
+     ]
+    ],
+    [
+     "user",
+     [
+      "us",
+      "er"
+     ]
+    ],
+    [
+     "aimer",
+     [
+      "aim",
+      "er"
+     ]
+    ],
+    [
+     "aider",
+     [
+      "aid",
+      "er"
+     ]
+    ]
+   ],
+   "licenses": false
+  },
+  "B4b": {
+   "n_mprime_vowel_inf": 299,
+   "examples": [
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "essayer"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "attacher"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "attaquer"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "associer"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "arrêter"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "appliquer"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "arrêter"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "employer"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "arrêter"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "emprisonner"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "exposer"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "aborder"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "expliquer"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "écouter"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "attacher"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "importuner"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "élever"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "avancer"
+    ],
+    [
+     "guizot-memoires-t1-gutenberg.txt",
+     "accorder"
+    ],
+    [
+     "guizot-memoires-t2-gutenberg.txt",
+     "accuser"
+    ]
+   ],
+   "contact_licenses": true
+  },
+  "B4c": {
+   "n_vowelinit_stem_e": 34911,
+   "examples": [
+    [
+     "use",
+     [
+      "us",
+      "e"
+     ]
+    ],
+    [
+     "use",
+     [
+      "us",
+      "e"
+     ]
+    ],
+    [
+     "are",
+     [
+      "ar",
+      "e"
+     ]
+    ],
+    [
+     "are",
+     [
+      "ar",
+      "e"
+     ]
+    ],
+    [
+     "une",
+     [
+      "un",
+      "e"
+     ]
+    ],
+    [
+     "âge",
+     [
+      "âg",
+      "e"
+     ]
+    ],
+    [
+     "âme",
+     [
+      "âm",
+      "e"
+     ]
+    ],
+    [
+     "aime",
+     [
+      "aim",
+      "e"
+     ]
+    ],
+    [
+     "une",
+     [
+      "un",
+      "e"
+     ]
+    ],
+    [
+     "une",
+     [
+      "un",
+      "e"
+     ]
+    ],
+    [
+     "une",
+     [
+      "un",
+      "e"
+     ]
+    ],
+    [
+     "une",
+     [
+      "un",
+      "e"
+     ]
+    ],
+    [
+     "une",
+     [
+      "un",
+      "e"
+     ]
+    ],
+    [
+     "une",
+     [
+      "un",
+      "e"
+     ]
+    ],
+    [
+     "une",
+     [
+      "un",
+      "e"
+     ]
+    ],
+    [
+     "âge",
+     [
+      "âg",
+      "e"
+     ]
+    ],
+    [
+     "une",
+     [
+      "un",
+      "e"
+     ]
+    ],
+    [
+     "une",
+     [
+      "un",
+      "e"
+     ]
+    ],
+    [
+     "une",
+     [
+      "un",
+      "e"
+     ]
+    ],
+    [
+     "une",
+     [
+      "un",
+      "e"
+     ]
+    ]
+   ]
+  }
+ }
+}

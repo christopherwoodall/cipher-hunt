@@ -1,0 +1,882 @@
+{
+ "meta": {
+  "lane": "zeschau-seebach-1841",
+  "round": "13-council",
+  "parse": "repaired 1,847-pair (code/side-keyhunt/repaired_offsets.json), 0-based pair positions; start inclusive, end exclusive",
+  "tiers": {
+   "A+": "all cells GT",
+   "A": "GT-anchored, conditioned reading",
+   "B": "provisional-anchored",
+   "B*": "provisional, lane-standing (crowd5, not council)",
+   "C": "provisional + MEDIUM"
+  },
+  "n_segments": 32,
+  "coverage_pairs": 72,
+  "coverage_fraction": 0.038982
+ },
+ "segments": [
+  {
+   "start": 47,
+   "end": 49,
+   "word": [
+    "96",
+    "00"
+   ],
+   "gloss": "par le",
+   "tier": "B",
+   "cells": "96=par(PROV); 00=\"le\" CONDITIONED iff pre=96",
+   "evidence": "ISLET 2 (F54, red-team GRANT): 00 reads 'le' (not 'pour') iff pre=96; 'par pour' ungrammatical at all windows. french-blitz formulae-inventory \u00a75 re-confirms \u00d73.",
+   "status": "live*",
+   "conflict_note": "Left neighbor 62='on': pronoun reading gives 'on par le' (ungrammatical); resolved by 62's known syllable-'on' polyvalence (pers|on|ne @507, unit_inventory R2/R4). Not a boundary problem."
+  },
+  {
+   "start": 73,
+   "end": 75,
+   "word": [
+    "24",
+    "87"
+   ],
+   "gloss": "en ce",
+   "tier": "B",
+   "cells": "24=\"en\"(STRONG, F31); 87=\"ce\"(PROV, positional allophone)",
+   "evidence": "Table-reconstruction \u00a7c: 24 precedes 87 ten times; 87='ce' after 24 is the 'en' of 'en ce' \u2014 reframes the F56 merger kill as complementary distribution. Corpus 'en ce' = 441 (frame59-map).",
+   "status": "superseded",
+   "conflict_note": "87 contested by 'cela' (87-11): trigram 24-87-11 reads 'en cela' (period corpus: 'en cela' 8x, 'en ce la' 0x). 'en ce'+'la' is ungrammatical; 'en'+'cela' is grammatical. Boundary withdrawn; pairs remain covered by 'cela'."
+  },
+  {
+   "start": 74,
+   "end": 76,
+   "word": [
+    "87",
+    "11"
+   ],
+   "gloss": "cela",
+   "tier": "B*",
+   "cells": "87=\"ce\"(PROV); 11=la(GT)",
+   "evidence": "crowd5 unit_inventory \u00a72 (ear-spelling regularity, frenchman-verified): 'cela' = 87-11 \u00d77; 87->11 P=0.219. Standing unit, not round-13 council work.",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 162,
+   "end": 164,
+   "word": [
+    "24",
+    "87"
+   ],
+   "gloss": "en ce",
+   "tier": "B",
+   "cells": "24=\"en\"(STRONG, F31); 87=\"ce\"(PROV, positional allophone)",
+   "evidence": "Table-reconstruction \u00a7c: 24 precedes 87 ten times; 87='ce' after 24 is the 'en' of 'en ce' \u2014 reframes the F56 merger kill as complementary distribution. Corpus 'en ce' = 441 (frame59-map).",
+   "status": "superseded",
+   "conflict_note": "87 contested by 'cela' (87-11): trigram 24-87-11 reads 'en cela' (period corpus: 'en cela' 8x, 'en ce la' 0x). 'en ce'+'la' is ungrammatical; 'en'+'cela' is grammatical. Boundary withdrawn; pairs remain covered by 'cela'."
+  },
+  {
+   "start": 163,
+   "end": 165,
+   "word": [
+    "87",
+    "11"
+   ],
+   "gloss": "cela",
+   "tier": "B*",
+   "cells": "87=\"ce\"(PROV); 11=la(GT)",
+   "evidence": "crowd5 unit_inventory \u00a72 (ear-spelling regularity, frenchman-verified): 'cela' = 87-11 \u00d77; 87->11 P=0.219. Standing unit, not round-13 council work.",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 166,
+   "end": 168,
+   "word": [
+    "82",
+    "84"
+   ],
+   "gloss": "m'en",
+   "tier": "A",
+   "cells": "82=m(GT); 84=\"en\" CONDITIONED iff pre=82",
+   "evidence": "ISLET 1 (conditioner, adjudicator GRANT, F62): 84 reads 'en' iff pre=82 \u2014 GT-anchored arm. Compositional audit (table-reconstruction \u00a7c): the 'conditioning predecessor' 82 is the 'm' of the word, not a cell rule.",
+   "status": "live*",
+   "conflict_note": "Left neighbor 24='en'(STRONG)@165 gives 'en m\\'en' (period corpus 0x). Pressures 24@165 (or the 94-24 junction), not the GT-anchored word."
+  },
+  {
+   "start": 179,
+   "end": 181,
+   "word": [
+    "24",
+    "87"
+   ],
+   "gloss": "en ce",
+   "tier": "B",
+   "cells": "24=\"en\"(STRONG, F31); 87=\"ce\"(PROV, positional allophone)",
+   "evidence": "Table-reconstruction \u00a7c: 24 precedes 87 ten times; 87='ce' after 24 is the 'en' of 'en ce' \u2014 reframes the F56 merger kill as complementary distribution. Corpus 'en ce' = 441 (frame59-map).",
+   "status": "live*",
+   "conflict_note": "Council-drag lead 'tout ce qui' (24-87-64) overlaps but requires 24='tout', contradicting 24='en' STRONG (F31) \u2014 drag oracle does not encode 24, so it scored neutral. 'en ce qui' is board-clean and grammatical; drag lead survives only @1799 (79-87-64, 79 unidentified)."
+  },
+  {
+   "start": 190,
+   "end": 192,
+   "word": [
+    "24",
+    "87"
+   ],
+   "gloss": "en ce",
+   "tier": "B",
+   "cells": "24=\"en\"(STRONG, F31); 87=\"ce\"(PROV, positional allophone)",
+   "evidence": "Table-reconstruction \u00a7c: 24 precedes 87 ten times; 87='ce' after 24 is the 'en' of 'en ce' \u2014 reframes the F56 merger kill as complementary distribution. Corpus 'en ce' = 441 (frame59-map).",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 201,
+   "end": 203,
+   "word": [
+    "87",
+    "11"
+   ],
+   "gloss": "cela",
+   "tier": "B*",
+   "cells": "87=\"ce\"(PROV); 11=la(GT)",
+   "evidence": "crowd5 unit_inventory \u00a72 (ear-spelling regularity, frenchman-verified): 'cela' = 87-11 \u00d77; 87->11 P=0.219. Standing unit, not round-13 council work.",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 224,
+   "end": 227,
+   "word": [
+    "96",
+    "87",
+    "46"
+   ],
+   "gloss": "par ce que",
+   "tier": "B",
+   "cells": "96=par(PROV); 87=\"ce\"(PROV); 46=que(GT)",
+   "evidence": "french-blitz formulae-inventory \u00a75: 'par ce que' \u00d73 \u2014 CONFIRMED formula, GT-anchored (46=que GT). Crowd3 frenchman reads the same bytes as fused 'parce que' (PROVISIONAL per red-team).",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 344,
+   "end": 346,
+   "word": [
+    "87",
+    "01"
+   ],
+   "gloss": "c'est",
+   "tier": "C",
+   "cells": "87=\"ce\"(PROV); 01=\"est\"(MEDIUM, confirmed)",
+   "evidence": "crowd3 frenchman \u00a74: 'c'est' solid (64-96-43-87-01 \u00d72 formula); closer01: 01='est' CONFIRM at MEDIUM (adjudicator GRANT, round 8, RULINGS-FINAL); crowd5 closer87_angles A1: 87->01 \u00d72 + 47->01 \u00d71.",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 461,
+   "end": 463,
+   "word": [
+    "87",
+    "11"
+   ],
+   "gloss": "cela",
+   "tier": "B*",
+   "cells": "87=\"ce\"(PROV); 11=la(GT)",
+   "evidence": "crowd5 unit_inventory \u00a72 (ear-spelling regularity, frenchman-verified): 'cela' = 87-11 \u00d77; 87->11 P=0.219. Standing unit, not round-13 council work.",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 465,
+   "end": 467,
+   "word": [
+    "96",
+    "00"
+   ],
+   "gloss": "par le",
+   "tier": "B",
+   "cells": "96=par(PROV); 00=\"le\" CONDITIONED iff pre=96",
+   "evidence": "ISLET 2 (F54, red-team GRANT): 00 reads 'le' (not 'pour') iff pre=96; 'par pour' ungrammatical at all windows. french-blitz formulae-inventory \u00a75 re-confirms \u00d73.",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 579,
+   "end": 581,
+   "word": [
+    "82",
+    "06"
+   ],
+   "gloss": "ment",
+   "tier": "A",
+   "cells": "82=m(GT); 06=\"ent\" CONDITIONED iff pre=82",
+   "evidence": "ISLET 3 (conditioner, adjudicator GRANT, F61): F33-form biconditional. n=4 predicted windows W06. @1351: 78-94-82-06 = '[78] ne ment pas' (R5).",
+   "status": "suspect",
+   "conflict_note": "Followed by 06 (verb-stem class): 'ne ment [06]' lacks 'pas' (bare 'ne ment' 0x period corpus vs 'il ne ment pas' attested RdM). Competing parse m|ent|[06-stem] ('m\\'entend'-type) \u2014 ISLET 3 'ent' reading at 06 stands; only the word boundary after 06 is suspect."
+  },
+  {
+   "start": 643,
+   "end": 645,
+   "word": [
+    "24",
+    "87"
+   ],
+   "gloss": "en ce",
+   "tier": "B",
+   "cells": "24=\"en\"(STRONG, F31); 87=\"ce\"(PROV, positional allophone)",
+   "evidence": "Table-reconstruction \u00a7c: 24 precedes 87 ten times; 87='ce' after 24 is the 'en' of 'en ce' \u2014 reframes the F56 merger kill as complementary distribution. Corpus 'en ce' = 441 (frame59-map).",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 737,
+   "end": 739,
+   "word": [
+    "82",
+    "06"
+   ],
+   "gloss": "ment",
+   "tier": "A",
+   "cells": "82=m(GT); 06=\"ent\" CONDITIONED iff pre=82",
+   "evidence": "ISLET 3 (conditioner, adjudicator GRANT, F61): F33-form biconditional. n=4 predicted windows W06. @1351: 78-94-82-06 = '[78] ne ment pas' (R5).",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 754,
+   "end": 760,
+   "word": [
+    "11",
+    "70",
+    "82",
+    "34",
+    "29",
+    "40"
+   ],
+   "gloss": "la premi\u00e8re",
+   "tier": "A+",
+   "cells": "11=la(GT) 70=pre(GT) 82=m(GT) 34=i(GT) 29=er(GT) 40=e(GT)",
+   "evidence": "7 pencil GT cribs; repair_parse.py asserts exactly 2 pair-aligned occurrences (no phantoms); rows a5_03/a6_03.",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 823,
+   "end": 825,
+   "word": [
+    "24",
+    "87"
+   ],
+   "gloss": "en ce",
+   "tier": "B",
+   "cells": "24=\"en\"(STRONG, F31); 87=\"ce\"(PROV, positional allophone)",
+   "evidence": "Table-reconstruction \u00a7c: 24 precedes 87 ten times; 87='ce' after 24 is the 'en' of 'en ce' \u2014 reframes the F56 merger kill as complementary distribution. Corpus 'en ce' = 441 (frame59-map).",
+   "status": "live*",
+   "conflict_note": "Adjacent 59='est'(PROV)@825 collides: 'en ce est' ungrammatical ('ce est'=0, frame59-map: window UNCLASSIFIED, value OPEN). Symmetric tension \u2014 constrains 59@825, does not falsify 'en ce'."
+  },
+  {
+   "start": 829,
+   "end": 831,
+   "word": [
+    "24",
+    "87"
+   ],
+   "gloss": "en ce",
+   "tier": "B",
+   "cells": "24=\"en\"(STRONG, F31); 87=\"ce\"(PROV, positional allophone)",
+   "evidence": "Table-reconstruction \u00a7c: 24 precedes 87 ten times; 87='ce' after 24 is the 'en' of 'en ce' \u2014 reframes the F56 merger kill as complementary distribution. Corpus 'en ce' = 441 (frame59-map).",
+   "status": "superseded",
+   "conflict_note": "87 contested by 'cela' (87-11): trigram 24-87-11 reads 'en cela' (period corpus: 'en cela' 8x, 'en ce la' 0x). 'en ce'+'la' is ungrammatical; 'en'+'cela' is grammatical. Boundary withdrawn; pairs remain covered by 'cela'."
+  },
+  {
+   "start": 830,
+   "end": 832,
+   "word": [
+    "87",
+    "11"
+   ],
+   "gloss": "cela",
+   "tier": "B*",
+   "cells": "87=\"ce\"(PROV); 11=la(GT)",
+   "evidence": "crowd5 unit_inventory \u00a72 (ear-spelling regularity, frenchman-verified): 'cela' = 87-11 \u00d77; 87->11 P=0.219. Standing unit, not round-13 council work.",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 952,
+   "end": 955,
+   "word": [
+    "96",
+    "87",
+    "46"
+   ],
+   "gloss": "par ce que",
+   "tier": "B",
+   "cells": "96=par(PROV); 87=\"ce\"(PROV); 46=que(GT)",
+   "evidence": "french-blitz formulae-inventory \u00a75: 'par ce que' \u00d73 \u2014 CONFIRMED formula, GT-anchored (46=que GT). Crowd3 frenchman reads the same bytes as fused 'parce que' (PROVISIONAL per red-team).",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 960,
+   "end": 962,
+   "word": [
+    "96",
+    "00"
+   ],
+   "gloss": "par le",
+   "tier": "B",
+   "cells": "96=par(PROV); 00=\"le\" CONDITIONED iff pre=96",
+   "evidence": "ISLET 2 (F54, red-team GRANT): 00 reads 'le' (not 'pour') iff pre=96; 'par pour' ungrammatical at all windows. french-blitz formulae-inventory \u00a75 re-confirms \u00d73.",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 1028,
+   "end": 1030,
+   "word": [
+    "87",
+    "01"
+   ],
+   "gloss": "c'est",
+   "tier": "C",
+   "cells": "87=\"ce\"(PROV); 01=\"est\"(MEDIUM, confirmed)",
+   "evidence": "crowd3 frenchman \u00a74: 'c'est' solid (64-96-43-87-01 \u00d72 formula); closer01: 01='est' CONFIRM at MEDIUM (adjudicator GRANT, round 8, RULINGS-FINAL); crowd5 closer87_angles A1: 87->01 \u00d72 + 47->01 \u00d71.",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 1034,
+   "end": 1040,
+   "word": [
+    "11",
+    "70",
+    "82",
+    "34",
+    "29",
+    "40"
+   ],
+   "gloss": "la premi\u00e8re",
+   "tier": "A+",
+   "cells": "11=la(GT) 70=pre(GT) 82=m(GT) 34=i(GT) 29=er(GT) 40=e(GT)",
+   "evidence": "7 pencil GT cribs; repair_parse.py asserts exactly 2 pair-aligned occurrences (no phantoms); rows a5_03/a6_03.",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 1183,
+   "end": 1185,
+   "word": [
+    "82",
+    "06"
+   ],
+   "gloss": "ment",
+   "tier": "A",
+   "cells": "82=m(GT); 06=\"ent\" CONDITIONED iff pre=82",
+   "evidence": "ISLET 3 (conditioner, adjudicator GRANT, F61): F33-form biconditional. n=4 predicted windows W06. @1351: 78-94-82-06 = '[78] ne ment pas' (R5).",
+   "status": "suspect",
+   "conflict_note": "Followed by 06 (verb-stem class): 'ne ment [06]' lacks 'pas' (bare 'ne ment' 0x period corpus vs 'il ne ment pas' attested RdM). Competing parse m|ent|[06-stem] ('m\\'entend'-type) \u2014 ISLET 3 'ent' reading at 06 stands; only the word boundary after 06 is suspect."
+  },
+  {
+   "start": 1242,
+   "end": 1244,
+   "word": [
+    "87",
+    "11"
+   ],
+   "gloss": "cela",
+   "tier": "B*",
+   "cells": "87=\"ce\"(PROV); 11=la(GT)",
+   "evidence": "crowd5 unit_inventory \u00a72 (ear-spelling regularity, frenchman-verified): 'cela' = 87-11 \u00d77; 87->11 P=0.219. Standing unit, not round-13 council work.",
+   "status": "live*",
+   "conflict_note": "87's word-membership contested by council-drag lead 'le prince' (77-81-87@1240/@1401, drag_hits.json \u2014 LEAD, FDR 1.41/9, unconfirmed): 'le prince'+'la' vs 'le [81]'+'cela'. Both windows byte-parallel (67-77-81-87-11-00). Neither parse breaks a board reading; unresolved at current board \u2014 81 unidentified."
+  },
+  {
+   "start": 1354,
+   "end": 1356,
+   "word": [
+    "82",
+    "06"
+   ],
+   "gloss": "ment",
+   "tier": "A",
+   "cells": "82=m(GT); 06=\"ent\" CONDITIONED iff pre=82",
+   "evidence": "ISLET 3 (conditioner, adjudicator GRANT, F61): F33-form biconditional. n=4 predicted windows W06. @1351: 78-94-82-06 = '[78] ne ment pas' (R5).",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 1403,
+   "end": 1405,
+   "word": [
+    "87",
+    "11"
+   ],
+   "gloss": "cela",
+   "tier": "B*",
+   "cells": "87=\"ce\"(PROV); 11=la(GT)",
+   "evidence": "crowd5 unit_inventory \u00a72 (ear-spelling regularity, frenchman-verified): 'cela' = 87-11 \u00d77; 87->11 P=0.219. Standing unit, not round-13 council work.",
+   "status": "live*",
+   "conflict_note": "87's word-membership contested by council-drag lead 'le prince' (77-81-87@1240/@1401, drag_hits.json \u2014 LEAD, FDR 1.41/9, unconfirmed): 'le prince'+'la' vs 'le [81]'+'cela'. Both windows byte-parallel (67-77-81-87-11-00). Neither parse breaks a board reading; unresolved at current board \u2014 81 unidentified."
+  },
+  {
+   "start": 1486,
+   "end": 1488,
+   "word": [
+    "24",
+    "87"
+   ],
+   "gloss": "en ce",
+   "tier": "B",
+   "cells": "24=\"en\"(STRONG, F31); 87=\"ce\"(PROV, positional allophone)",
+   "evidence": "Table-reconstruction \u00a7c: 24 precedes 87 ten times; 87='ce' after 24 is the 'en' of 'en ce' \u2014 reframes the F56 merger kill as complementary distribution. Corpus 'en ce' = 441 (frame59-map).",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 1526,
+   "end": 1529,
+   "word": [
+    "96",
+    "87",
+    "46"
+   ],
+   "gloss": "par ce que",
+   "tier": "B",
+   "cells": "96=par(PROV); 87=\"ce\"(PROV); 46=que(GT)",
+   "evidence": "french-blitz formulae-inventory \u00a75: 'par ce que' \u00d73 \u2014 CONFIRMED formula, GT-anchored (46=que GT). Crowd3 frenchman reads the same bytes as fused 'parce que' (PROVISIONAL per red-team).",
+   "status": "live",
+   "conflict_note": ""
+  },
+  {
+   "start": 1766,
+   "end": 1768,
+   "word": [
+    "24",
+    "87"
+   ],
+   "gloss": "en ce",
+   "tier": "B",
+   "cells": "24=\"en\"(STRONG, F31); 87=\"ce\"(PROV, positional allophone)",
+   "evidence": "Table-reconstruction \u00a7c: 24 precedes 87 ten times; 87='ce' after 24 is the 'en' of 'en ce' \u2014 reframes the F56 merger kill as complementary distribution. Corpus 'en ce' = 441 (frame59-map).",
+   "status": "live*",
+   "conflict_note": "Council-drag lead 'tout ce qui' (24-87-64) overlaps but requires 24='tout', contradicting 24='en' STRONG (F31) \u2014 drag oracle does not encode 24, so it scored neutral. 'en ce qui' is board-clean and grammatical; drag lead survives only @1799 (79-87-64, 79 unidentified)."
+  },
+  {
+   "start": 1774,
+   "end": 1776,
+   "word": [
+    "24",
+    "87"
+   ],
+   "gloss": "en ce",
+   "tier": "B",
+   "cells": "24=\"en\"(STRONG, F31); 87=\"ce\"(PROV, positional allophone)",
+   "evidence": "Table-reconstruction \u00a7c: 24 precedes 87 ten times; 87='ce' after 24 is the 'en' of 'en ce' \u2014 reframes the F56 merger kill as complementary distribution. Corpus 'en ce' = 441 (frame59-map).",
+   "status": "live*",
+   "conflict_note": "Council-drag lead 'tout ce qui' (24-87-64) overlaps but requires 24='tout', contradicting 24='en' STRONG (F31) \u2014 drag oracle does not encode 24, so it scored neutral. 'en ce qui' is board-clean and grammatical; drag lead survives only @1799 (79-87-64, 79 unidentified)."
+  }
+ ],
+ "report": {
+  "N": 1847,
+  "words": {
+   "la premi\u00e8re": {
+    "pattern": [
+     "11",
+     "70",
+     "82",
+     "34",
+     "29",
+     "40"
+    ],
+    "tier": "A+",
+    "n": 2,
+    "starts": [
+     754,
+     1034
+    ],
+    "contexts": [
+     {
+      "start": 754,
+      "pre": "67",
+      "suc": "20"
+     },
+     {
+      "start": 1034,
+      "pre": "77",
+      "suc": "17"
+     }
+    ],
+    "banked_match": true,
+    "banked_notes": []
+   },
+   "m'en": {
+    "pattern": [
+     "82",
+     "84"
+    ],
+    "tier": "A",
+    "n": 1,
+    "starts": [
+     166
+    ],
+    "contexts": [
+     {
+      "start": 166,
+      "pre": "24",
+      "suc": "53"
+     }
+    ],
+    "banked_match": true,
+    "banked_notes": []
+   },
+   "ment": {
+    "pattern": [
+     "82",
+     "06"
+    ],
+    "tier": "A",
+    "n": 4,
+    "starts": [
+     579,
+     737,
+     1183,
+     1354
+    ],
+    "contexts": [
+     {
+      "start": 579,
+      "pre": "94",
+      "suc": "06"
+     },
+     {
+      "start": 737,
+      "pre": "18",
+      "suc": "00"
+     },
+     {
+      "start": 1183,
+      "pre": "94",
+      "suc": "06"
+     },
+     {
+      "start": 1354,
+      "pre": "94",
+      "suc": "52"
+     }
+    ],
+    "banked_match": true,
+    "banked_notes": []
+   },
+   "par le": {
+    "pattern": [
+     "96",
+     "00"
+    ],
+    "tier": "B",
+    "n": 3,
+    "starts": [
+     47,
+     465,
+     960
+    ],
+    "contexts": [
+     {
+      "start": 47,
+      "pre": "62",
+      "suc": "92"
+     },
+     {
+      "start": 465,
+      "pre": "42",
+      "suc": "33"
+     },
+     {
+      "start": 960,
+      "pre": "67",
+      "suc": "86"
+     }
+    ],
+    "banked_match": true,
+    "banked_notes": []
+   },
+   "en ce": {
+    "pattern": [
+     "24",
+     "87"
+    ],
+    "tier": "B",
+    "n": 10,
+    "starts": [
+     73,
+     162,
+     179,
+     190,
+     643,
+     823,
+     829,
+     1486,
+     1766,
+     1774
+    ],
+    "contexts": [
+     {
+      "start": 73,
+      "pre": "14",
+      "suc": "11"
+     },
+     {
+      "start": 162,
+      "pre": "94",
+      "suc": "11"
+     },
+     {
+      "start": 179,
+      "pre": "14",
+      "suc": "64"
+     },
+     {
+      "start": 190,
+      "pre": "66",
+      "suc": "98"
+     },
+     {
+      "start": 643,
+      "pre": "20",
+      "suc": "61"
+     },
+     {
+      "start": 823,
+      "pre": "13",
+      "suc": "59"
+     },
+     {
+      "start": 829,
+      "pre": "01",
+      "suc": "11"
+     },
+     {
+      "start": 1486,
+      "pre": "84",
+      "suc": "08"
+     },
+     {
+      "start": 1766,
+      "pre": "09",
+      "suc": "64"
+     },
+     {
+      "start": 1774,
+      "pre": "94",
+      "suc": "64"
+     }
+    ],
+    "banked_match": true,
+    "banked_notes": []
+   },
+   "c'est": {
+    "pattern": [
+     "87",
+     "01"
+    ],
+    "tier": "C",
+    "n": 2,
+    "starts": [
+     344,
+     1028
+    ],
+    "contexts": [
+     {
+      "start": 344,
+      "pre": "43",
+      "suc": "06"
+     },
+     {
+      "start": 1028,
+      "pre": "43",
+      "suc": "03"
+     }
+    ],
+    "banked_match": true,
+    "banked_notes": []
+   },
+   "par ce que": {
+    "pattern": [
+     "96",
+     "87",
+     "46"
+    ],
+    "tier": "B",
+    "n": 3,
+    "starts": [
+     224,
+     952,
+     1526
+    ],
+    "contexts": [
+     {
+      "start": 224,
+      "pre": "61",
+      "suc": "98"
+     },
+     {
+      "start": 952,
+      "pre": "86",
+      "suc": "24"
+     },
+     {
+      "start": 1526,
+      "pre": "48",
+      "suc": "21"
+     }
+    ],
+    "banked_match": true,
+    "banked_notes": []
+   },
+   "cela": {
+    "pattern": [
+     "87",
+     "11"
+    ],
+    "tier": "B*",
+    "n": 7,
+    "starts": [
+     74,
+     163,
+     201,
+     461,
+     830,
+     1242,
+     1403
+    ],
+    "contexts": [
+     {
+      "start": 74,
+      "pre": "24",
+      "suc": "00"
+     },
+     {
+      "start": 163,
+      "pre": "24",
+      "suc": "24"
+     },
+     {
+      "start": 201,
+      "pre": "76",
+      "suc": "92"
+     },
+     {
+      "start": 461,
+      "pre": "79",
+      "suc": "59"
+     },
+     {
+      "start": 830,
+      "pre": "24",
+      "suc": "77"
+     },
+     {
+      "start": 1242,
+      "pre": "81",
+      "suc": "00"
+     },
+     {
+      "start": 1403,
+      "pre": "81",
+      "suc": "00"
+     }
+    ],
+    "banked_match": true,
+    "banked_notes": []
+   }
+  },
+  "overlaps": [
+   {
+    "seg_a": {
+     "start": 73,
+     "end": 75,
+     "gloss": "en ce",
+     "tier": "B"
+    },
+    "seg_b": {
+     "start": 74,
+     "end": 76,
+     "gloss": "cela",
+     "tier": "B*"
+    },
+    "shared_pairs": [
+     74
+    ],
+    "shared_cells": [
+     "87"
+    ]
+   },
+   {
+    "seg_a": {
+     "start": 162,
+     "end": 164,
+     "gloss": "en ce",
+     "tier": "B"
+    },
+    "seg_b": {
+     "start": 163,
+     "end": 165,
+     "gloss": "cela",
+     "tier": "B*"
+    },
+    "shared_pairs": [
+     163
+    ],
+    "shared_cells": [
+     "87"
+    ]
+   },
+   {
+    "seg_a": {
+     "start": 829,
+     "end": 831,
+     "gloss": "en ce",
+     "tier": "B"
+    },
+    "seg_b": {
+     "start": 830,
+     "end": 832,
+     "gloss": "cela",
+     "tier": "B*"
+    },
+    "shared_pairs": [
+     830
+    ],
+    "shared_cells": [
+     "87"
+    ]
+   }
+  ],
+  "consistency": {
+   "cross_tier_overlaps": [],
+   "47-01_analog_starts": [
+    194
+   ],
+   "94-87_en-ce-variant_starts": [
+    1169
+   ],
+   "adjacency_note": "adjacency contexts recorded per word above; no mechanical grammar oracle \u2014 the falsifier to watch is a confirmed word whose reading is contradicted by a GT/provisional neighbor (e.g. 'par le' followed by a verb, 'm\\'en' followed by a noun)."
+  },
+  "coverage": {
+   "pairs": 72,
+   "N": 1847,
+   "fraction": 0.03898213318895506
+  },
+  "tier_coverage": {
+   "A+": 12,
+   "A": 10,
+   "B": 35,
+   "B*": 14,
+   "C": 4
+  },
+  "council_drag": {
+   "landed": true,
+   "new_confirmed_words": [],
+   "note": "drag_hits.json (code/council/drag): 9 primary hits, FDR estimate 1.41, real does NOT beat all 20 shuffles \u2014 hits are LEADS, none promoted to confirmed. Positive control 'par ce que' @224/@952/@1526 PASS (independent re-confirmation of W7). 'tout ce qui'@179/@1766/@1774 overlaps 'en ce' but requires 24='tout' vs 24='en' STRONG (F31) \u2014 board-incompatible, dead at those windows; survives only @1799 (79-87-64, 79 unidentified). 'le prince'@1240/@1401 overlaps 'cela'@1242/@1403 on 87 \u2014 genuine word-membership ambiguity, flagged live*.",
+   "null_report": "null_report.json: h_real=9, fdr_estimate=1.411, real_beats_all_shuffles=false"
+  }
+ }
+}

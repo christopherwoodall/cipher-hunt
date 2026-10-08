@@ -1,0 +1,17 @@
+You are a judge comparing two text passages, X and Y. Both passages may be degraded: they may have NO spaces, NO punctuation, and may contain by-ear misspellings.
+
+Decide: WHICH passage contains MORE French — more identifiable French words and phrases. Do NOT choose the one that reads more fluently as surface prose; choose the one with more French lexical material recoverable inside it, including words glued together by missing spaces and by-ear spellings.
+
+Passage X (label: {label_a})
+---
+{text_a}
+---
+
+Passage Y (label: {label_b})
+---
+{text_b}
+---
+
+Rules: you MUST choose exactly one of the two labels — ties are not allowed. Base the choice on the count and quality of the French words/phrases you can identify in each passage. Then state your confidence on a 0–100 scale (50 = pure guess, 100 = certain).
+
+Output format (exact): line 1 is exactly the winning label, verbatim as shown above, and nothing else. Line 2 is a single integer from 0 to 100 (your confidence) and nothing else. Line 3 is exactly one sentence explaining the choice. No other text.

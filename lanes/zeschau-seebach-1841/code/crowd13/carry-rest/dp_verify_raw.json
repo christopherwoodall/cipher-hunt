@@ -1,0 +1,14 @@
+{
+ "RDM-1841-q1": {
+  "tokens": 459176,
+  "bytes": 3013552,
+  "strict_dp_peu": [],
+  "strict_dp_inf": []
+ },
+ "Guizot-DIP": {
+  "tokens": 298765,
+  "bytes": 1992545,
+  "strict_dp_peu": [],
+  "strict_dp_inf": []
+ }
+}

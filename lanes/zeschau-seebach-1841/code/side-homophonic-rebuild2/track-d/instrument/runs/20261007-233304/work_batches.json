@@ -1,0 +1,92 @@
+[
+ {
+  "worker_id": "w0000",
+  "brief": "runs/20261007-233304/briefs/brief-w0000.md",
+  "items": [
+   {
+    "candidate_label": "1386766b",
+    "pass_no": 1
+   }
+  ]
+ },
+ {
+  "worker_id": "w0001",
+  "brief": "runs/20261007-233304/briefs/brief-w0001.md",
+  "items": [
+   {
+    "candidate_label": "fed88338",
+    "pass_no": 1
+   }
+  ]
+ },
+ {
+  "worker_id": "w0002",
+  "brief": "runs/20261007-233304/briefs/brief-w0002.md",
+  "items": [
+   {
+    "candidate_label": "d38a1821",
+    "pass_no": 1
+   }
+  ]
+ },
+ {
+  "worker_id": "w0003",
+  "brief": "runs/20261007-233304/briefs/brief-w0003.md",
+  "items": [
+   {
+    "candidate_label": "d38a1821",
+    "pass_no": 2
+   }
+  ]
+ },
+ {
+  "worker_id": "w0004",
+  "brief": "runs/20261007-233304/briefs/brief-w0004.md",
+  "items": [
+   {
+    "candidate_label": "1386766b",
+    "pass_no": 2
+   }
+  ]
+ },
+ {
+  "worker_id": "w0005",
+  "brief": "runs/20261007-233304/briefs/brief-w0005.md",
+  "items": [
+   {
+    "candidate_label": "fed88338",
+    "pass_no": 2
+   }
+  ]
+ },
+ {
+  "worker_id": "w0006",
+  "brief": "runs/20261007-233304/briefs/brief-w0006.md",
+  "items": [
+   {
+    "candidate_label": "1386766b",
+    "pass_no": 3
+   }
+  ]
+ },
+ {
+  "worker_id": "w0007",
+  "brief": "runs/20261007-233304/briefs/brief-w0007.md",
+  "items": [
+   {
+    "candidate_label": "fed88338",
+    "pass_no": 3
+   }
+  ]
+ },
+ {
+  "worker_id": "w0008",
+  "brief": "runs/20261007-233304/briefs/brief-w0008.md",
+  "items": [
+   {
+    "candidate_label": "d38a1821",
+    "pass_no": 3
+   }
+  ]
+ }
+]

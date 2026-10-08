@@ -1,0 +1,6987 @@
+[
+ {
+  "id": "la-premiere",
+  "groups": [
+   "11",
+   "70",
+   "82",
+   "34",
+   "29",
+   "40"
+  ],
+  "plaintext": "la première",
+  "status": "banked",
+  "note": "pencil GT; expect 2",
+  "positions": [
+   754,
+   1034
+  ],
+  "count": 2,
+  "expected": 2,
+  "occurrences": [
+   {
+    "pos": 754,
+    "row": "a5_03",
+    "left": [
+     "97",
+     "40",
+     "67"
+    ],
+    "right": [
+     "20",
+     "62",
+     "94"
+    ],
+    "left_plain": [
+     "?97",
+     "e",
+     "?67"
+    ],
+    "right_plain": [
+     "?20",
+     "?62",
+     "?94"
+    ],
+    "neighbor_notes": {
+     "R2(62)": "62=\"on\" fenced STRONG LEAD",
+     "R3(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87"
+    },
+    "frame_constraints": [
+     "pencil GT anchor; byte-exact in repair_parse.py"
+    ]
+   },
+   {
+    "pos": 1034,
+    "row": "a6_03",
+    "left": [
+     "29",
+     "80",
+     "77"
+    ],
+    "right": [
+     "17",
+     "77",
+     "82"
+    ],
+    "left_plain": [
+     "er",
+     "?80",
+     "le (prov)"
+    ],
+    "right_plain": [
+     "?17",
+     "le (prov)",
+     "m"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": [
+     "pencil GT anchor; byte-exact in repair_parse.py"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "par-ce-que",
+  "groups": [
+   "96",
+   "87",
+   "46"
+  ],
+  "plaintext": "par ce que",
+  "status": "banked",
+  "note": "87/96 promoted, 46 GT; expect 3",
+  "positions": [
+   224,
+   952,
+   1526
+  ],
+  "count": 3,
+  "expected": 3,
+  "occurrences": [
+   {
+    "pos": 224,
+    "row": "a2_01",
+    "left": [
+     "24",
+     "89",
+     "61"
+    ],
+    "right": [
+     "98",
+     "83",
+     "82"
+    ],
+    "left_plain": [
+     "?24",
+     "?89",
+     "?61"
+    ],
+    "right_plain": [
+     "?98",
+     "?83",
+     "m"
+    ],
+    "neighbor_notes": {
+     "L1(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": [
+     "all three groups banked; 96=\"par\" provisional-grade promoted"
+    ]
+   },
+   {
+    "pos": 952,
+    "row": "a6_00",
+    "left": [
+     "01",
+     "77",
+     "86"
+    ],
+    "right": [
+     "24",
+     "85",
+     "04"
+    ],
+    "left_plain": [
+     "?01",
+     "le (prov)",
+     "?86"
+    ],
+    "right_plain": [
+     "?24",
+     "?85",
+     "?04"
+    ],
+    "neighbor_notes": {
+     "R1(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": [
+     "all three groups banked; 96=\"par\" provisional-grade promoted"
+    ]
+   },
+   {
+    "pos": 1526,
+    "row": "a8_00",
+    "left": [
+     "11",
+     "11",
+     "48"
+    ],
+    "right": [
+     "21",
+     "65",
+     "63"
+    ],
+    "left_plain": [
+     "la",
+     "la",
+     "?48"
+    ],
+    "right_plain": [
+     "?21",
+     "?65",
+     "?63"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": [
+     "all three groups banked; 96=\"par\" provisional-grade promoted"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "par-le",
+  "groups": [
+   "96",
+   "00"
+  ],
+  "plaintext": "par le",
+  "status": "mixed",
+  "note": "96=par banked; 00 unbanked (00=\"le\" conditioned islet LEAD iff pre=96, n=3)",
+  "positions": [
+   47,
+   465,
+   960
+  ],
+  "count": 3,
+  "expected": null,
+  "occurrences": [
+   {
+    "pos": 47,
+    "row": "a1_01",
+    "left": [
+     "81",
+     "30",
+     "62"
+    ],
+    "right": [
+     "92",
+     "79",
+     "37"
+    ],
+    "left_plain": [
+     "?81",
+     "?30",
+     "?62"
+    ],
+    "right_plain": [
+     "?92",
+     "?79",
+     "?37"
+    ],
+    "neighbor_notes": {
+     "L3(62)": "62=\"on\" fenced STRONG LEAD",
+     "R3(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "self[1](00)": "00=\"le\" conditioned-islet LEAD (pre=96, n=3); rival 00=\"pour\" STRONG LEAD unconditioned"
+    },
+    "frame_constraints": [
+     "00=\"le\" conditioned-islet LEAD (pre=96); ungrammatical as 00=\"pour\" at all 3 windows per F54"
+    ]
+   },
+   {
+    "pos": 465,
+    "row": "a2_10",
+    "left": [
+     "11",
+     "59",
+     "42"
+    ],
+    "right": [
+     "33",
+     "79",
+     "80"
+    ],
+    "left_plain": [
+     "la",
+     "est (prov)",
+     "?42"
+    ],
+    "right_plain": [
+     "?33",
+     "?79",
+     "?80"
+    ],
+    "neighbor_notes": {
+     "L2(59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade",
+     "R1(33)": "class=INF",
+     "self[1](00)": "00=\"le\" conditioned-islet LEAD (pre=96, n=3); rival 00=\"pour\" STRONG LEAD unconditioned"
+    },
+    "frame_constraints": [
+     "right neighbor 33 is class INF (not a value)",
+     "00=\"le\" conditioned-islet LEAD (pre=96); ungrammatical as 00=\"pour\" at all 3 windows per F54"
+    ]
+   },
+   {
+    "pos": 960,
+    "row": "a6_00",
+    "left": [
+     "04",
+     "20",
+     "67"
+    ],
+    "right": [
+     "86",
+     "56",
+     "41"
+    ],
+    "left_plain": [
+     "?04",
+     "?20",
+     "?67"
+    ],
+    "right_plain": [
+     "?86",
+     "?56",
+     "?41"
+    ],
+    "neighbor_notes": {
+     "self[1](00)": "00=\"le\" conditioned-islet LEAD (pre=96, n=3); rival 00=\"pour\" STRONG LEAD unconditioned"
+    },
+    "frame_constraints": [
+     "00=\"le\" conditioned-islet LEAD (pre=96); ungrammatical as 00=\"pour\" at all 3 windows per F54"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "m-en",
+  "groups": [
+   "82",
+   "84"
+  ],
+  "plaintext": "m'en",
+  "status": "mixed",
+  "note": "82=m banked; 84 unbanked (84=\"en\" conditioned islet LEAD iff pre in {46,94,82} — qualifies here)",
+  "positions": [
+   166
+  ],
+  "count": 1,
+  "expected": null,
+  "occurrences": [
+   {
+    "pos": 166,
+    "row": "a1_05",
+    "left": [
+     "87",
+     "11",
+     "24"
+    ],
+    "right": [
+     "53",
+     "12",
+     "48"
+    ],
+    "left_plain": [
+     "ce",
+     "la",
+     "?24"
+    ],
+    "right_plain": [
+     "?53",
+     "?12",
+     "?48"
+    ],
+    "neighbor_notes": {
+     "L3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "self[1](84)": "84=\"en\" conditioned-islet arm (pre=82 in {46,94,82}, LEAD)"
+    },
+    "frame_constraints": [
+     "84=\"en\" conditioned-islet arm (pre=82 in {46,94,82})"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ment",
+  "groups": [
+   "82",
+   "06"
+  ],
+  "plaintext": "ment",
+  "status": "mixed",
+  "note": "82=m banked; 06 unbanked (06=\"ent\" conditioned LEAD iff pre=82 — qualifies here)",
+  "positions": [
+   579,
+   737,
+   1183,
+   1354
+  ],
+  "count": 4,
+  "expected": null,
+  "occurrences": [
+   {
+    "pos": 579,
+    "row": "a3_02",
+    "left": [
+     "55",
+     "61",
+     "94"
+    ],
+    "right": [
+     "06",
+     "50",
+     "10"
+    ],
+    "left_plain": [
+     "?55",
+     "?61",
+     "?94"
+    ],
+    "right_plain": [
+     "?06",
+     "?50",
+     "?10"
+    ],
+    "neighbor_notes": {
+     "L3(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "R1(06)": "06 general=\"ent\" REFUTED (N22); unclassified here",
+     "self[1](06)": "06=\"ent\" conditioned LEAD iff pre=82 (n=4, n_eff=3)"
+    },
+    "frame_constraints": [
+     "06=\"ent\" iff pre=82 conditioned LEAD (n=4, n_eff=3)"
+    ]
+   },
+   {
+    "pos": 737,
+    "row": "a5_02",
+    "left": [
+     "93",
+     "76",
+     "18"
+    ],
+    "right": [
+     "00",
+     "36",
+     "20"
+    ],
+    "left_plain": [
+     "?93",
+     "?76",
+     "?18"
+    ],
+    "right_plain": [
+     "?00",
+     "?36",
+     "?20"
+    ],
+    "neighbor_notes": {
+     "L1(93)": "{93,8}=\"l'\" LEAD as unconditioned homophones; 93=\"l'\" ALONE rate-KILLED",
+     "R1(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet",
+     "self[1](06)": "06=\"ent\" conditioned LEAD iff pre=82 (n=4, n_eff=3)"
+    },
+    "frame_constraints": [
+     "06=\"ent\" iff pre=82 conditioned LEAD (n=4, n_eff=3)"
+    ]
+   },
+   {
+    "pos": 1183,
+    "row": "a6_10",
+    "left": [
+     "77",
+     "78",
+     "94"
+    ],
+    "right": [
+     "06",
+     "59",
+     "42"
+    ],
+    "left_plain": [
+     "le (prov)",
+     "?78",
+     "?94"
+    ],
+    "right_plain": [
+     "?06",
+     "est (prov)",
+     "?42"
+    ],
+    "neighbor_notes": {
+     "L3(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "R1(06)": "06 general=\"ent\" REFUTED (N22); unclassified here",
+     "R2(59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade",
+     "self[1](06)": "06=\"ent\" conditioned LEAD iff pre=82 (n=4, n_eff=3)"
+    },
+    "frame_constraints": [
+     "06=\"ent\" iff pre=82 conditioned LEAD (n=4, n_eff=3)"
+    ]
+   },
+   {
+    "pos": 1354,
+    "row": "a7_05",
+    "left": [
+     "77",
+     "78",
+     "94"
+    ],
+    "right": [
+     "52",
+     "37",
+     "64"
+    ],
+    "left_plain": [
+     "le (prov)",
+     "?78",
+     "?94"
+    ],
+    "right_plain": [
+     "?52",
+     "?37",
+     "qui"
+    ],
+    "neighbor_notes": {
+     "L3(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "R2(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "self[1](06)": "06=\"ent\" conditioned LEAD iff pre=82 (n=4, n_eff=3)"
+    },
+    "frame_constraints": [
+     "06=\"ent\" iff pre=82 conditioned LEAD (n=4, n_eff=3)"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "en-ce",
+  "groups": [
+   "24",
+   "87"
+  ],
+  "plaintext": "en ce",
+  "status": "mixed",
+  "note": "87=ce banked; 24 unbanked (24=\"de\" scoped-killed inside 24-87-64)",
+  "positions": [
+   73,
+   162,
+   179,
+   190,
+   643,
+   823,
+   829,
+   1486,
+   1766,
+   1774
+  ],
+  "count": 10,
+  "expected": null,
+  "occurrences": [
+   {
+    "pos": 73,
+    "row": "a1_02",
+    "left": [
+     "56",
+     "87",
+     "14"
+    ],
+    "right": [
+     "11",
+     "00",
+     "11"
+    ],
+    "left_plain": [
+     "?56",
+     "ce",
+     "?14"
+    ],
+    "right_plain": [
+     "la",
+     "?00",
+     "la"
+    ],
+    "neighbor_notes": {
+     "R2(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet",
+     "self[0](24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": [
+     "24 unbanked; 24=\"de\" rival scoped-killed inside 24-87-64 windows"
+    ]
+   },
+   {
+    "pos": 162,
+    "row": "a1_05",
+    "left": [
+     "93",
+     "52",
+     "94"
+    ],
+    "right": [
+     "11",
+     "24",
+     "82"
+    ],
+    "left_plain": [
+     "?93",
+     "?52",
+     "?94"
+    ],
+    "right_plain": [
+     "la",
+     "?24",
+     "m"
+    ],
+    "neighbor_notes": {
+     "L1(93)": "{93,8}=\"l'\" LEAD as unconditioned homophones; 93=\"l'\" ALONE rate-KILLED",
+     "L3(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "R2(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "self[0](24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": [
+     "24 unbanked; 24=\"de\" rival scoped-killed inside 24-87-64 windows"
+    ]
+   },
+   {
+    "pos": 179,
+    "row": "a1_05",
+    "left": [
+     "21",
+     "69",
+     "14"
+    ],
+    "right": [
+     "64",
+     "23",
+     "37"
+    ],
+    "left_plain": [
+     "?21",
+     "?69",
+     "?14"
+    ],
+    "right_plain": [
+     "qui",
+     "?23",
+     "?37"
+    ],
+    "neighbor_notes": {
+     "R3(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "self[0](24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": [
+     "24=\"de\" rival scoped-KILLED here (window 24-87-64, cond. 87=ce/64=qui)",
+     "24 unbanked; 24=\"de\" rival scoped-killed inside 24-87-64 windows"
+    ]
+   },
+   {
+    "pos": 190,
+    "row": "a2_00",
+    "left": [
+     "16",
+     "00",
+     "66"
+    ],
+    "right": [
+     "98",
+     "56",
+     "47"
+    ],
+    "left_plain": [
+     "?16",
+     "?00",
+     "?66"
+    ],
+    "right_plain": [
+     "?98",
+     "?56",
+     "?47"
+    ],
+    "neighbor_notes": {
+     "L2(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet",
+     "R3(47)": "47=\"ce\" LEAD (strengthened F55)",
+     "self[0](24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": [
+     "24 unbanked; 24=\"de\" rival scoped-killed inside 24-87-64 windows"
+    ]
+   },
+   {
+    "pos": 643,
+    "row": "a4_02",
+    "left": [
+     "89",
+     "48",
+     "20"
+    ],
+    "right": [
+     "61",
+     "88",
+     "77"
+    ],
+    "left_plain": [
+     "?89",
+     "?48",
+     "?20"
+    ],
+    "right_plain": [
+     "?61",
+     "?88",
+     "le (prov)"
+    ],
+    "neighbor_notes": {
+     "self[0](24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": [
+     "24 unbanked; 24=\"de\" rival scoped-killed inside 24-87-64 windows"
+    ]
+   },
+   {
+    "pos": 823,
+    "row": "a5_05",
+    "left": [
+     "40",
+     "95",
+     "13"
+    ],
+    "right": [
+     "59",
+     "38",
+     "82"
+    ],
+    "left_plain": [
+     "e",
+     "?95",
+     "?13"
+    ],
+    "right_plain": [
+     "est (prov)",
+     "?38",
+     "m"
+    ],
+    "neighbor_notes": {
+     "R1(59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade",
+     "self[0](24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": [
+     "24 unbanked; 24=\"de\" rival scoped-killed inside 24-87-64 windows"
+    ]
+   },
+   {
+    "pos": 829,
+    "row": "a5_06",
+    "left": [
+     "38",
+     "82",
+     "01"
+    ],
+    "right": [
+     "11",
+     "77",
+     "76"
+    ],
+    "left_plain": [
+     "?38",
+     "m",
+     "?01"
+    ],
+    "right_plain": [
+     "la",
+     "le (prov)",
+     "?76"
+    ],
+    "neighbor_notes": {
+     "self[0](24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": [
+     "24 unbanked; 24=\"de\" rival scoped-killed inside 24-87-64 windows"
+    ]
+   },
+   {
+    "pos": 1486,
+    "row": "a7_10",
+    "left": [
+     "46",
+     "77",
+     "84"
+    ],
+    "right": [
+     "08",
+     "31",
+     "92"
+    ],
+    "left_plain": [
+     "que",
+     "le (prov)",
+     "?84"
+    ],
+    "right_plain": [
+     "?08",
+     "?31",
+     "?92"
+    ],
+    "neighbor_notes": {
+     "L3(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)",
+     "R2(31)": "class=VERBAL",
+     "self[0](24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": [
+     "right neighbor 31 is class VERBAL (not a value)",
+     "24 unbanked; 24=\"de\" rival scoped-killed inside 24-87-64 windows"
+    ]
+   },
+   {
+    "pos": 1766,
+    "row": "a8_08",
+    "left": [
+     "77",
+     "84",
+     "09"
+    ],
+    "right": [
+     "64",
+     "26",
+     "37"
+    ],
+    "left_plain": [
+     "le (prov)",
+     "?84",
+     "?09"
+    ],
+    "right_plain": [
+     "qui",
+     "?26",
+     "?37"
+    ],
+    "neighbor_notes": {
+     "L2(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)",
+     "R3(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "self[0](24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": [
+     "24=\"de\" rival scoped-KILLED here (window 24-87-64, cond. 87=ce/64=qui)",
+     "24 unbanked; 24=\"de\" rival scoped-killed inside 24-87-64 windows"
+    ]
+   },
+   {
+    "pos": 1774,
+    "row": "a8_09",
+    "left": [
+     "78",
+     "62",
+     "94"
+    ],
+    "right": [
+     "64",
+     "59",
+     "19"
+    ],
+    "left_plain": [
+     "?78",
+     "?62",
+     "?94"
+    ],
+    "right_plain": [
+     "qui",
+     "est (prov)",
+     "?19"
+    ],
+    "neighbor_notes": {
+     "L2(62)": "62=\"on\" fenced STRONG LEAD",
+     "L3(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "R2(59)": "59 est-arm (pre=64 in {64,94,93}): word-\"est\" ISLET 10",
+     "self[0](24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": [
+     "24=\"de\" rival scoped-KILLED here (window 24-87-64, cond. 87=ce/64=qui)",
+     "24 unbanked; 24=\"de\" rival scoped-killed inside 24-87-64 windows"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l-est",
+  "groups": [
+   "93",
+   "59"
+  ],
+  "plaintext": "l'est",
+  "status": "mixed",
+  "note": "59=est provisional; 93 unbanked ({93,8}=\"l'\" LEAD as unconditioned homophones; 93 alone rate-KILLED)",
+  "positions": [
+   102
+  ],
+  "count": 1,
+  "expected": null,
+  "occurrences": [
+   {
+    "pos": 102,
+    "row": "a1_03",
+    "left": [
+     "21",
+     "62",
+     "94"
+    ],
+    "right": [
+     "45",
+     "28",
+     "00"
+    ],
+    "left_plain": [
+     "?21",
+     "?62",
+     "?94"
+    ],
+    "right_plain": [
+     "?45",
+     "?28",
+     "?00"
+    ],
+    "neighbor_notes": {
+     "L2(62)": "62=\"on\" fenced STRONG LEAD",
+     "L3(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "R3(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet",
+     "self[0](93)": "{93,8}=\"l'\" LEAD as unconditioned homophones; 93=\"l'\" ALONE rate-KILLED",
+     "self[1](59)": "59 est-arm (pre=93 in {64,94,93}): word-\"est\" ISLET 10"
+    },
+    "frame_constraints": [
+     "93 alone rate-KILLED; {93,8}=\"l'\" LEAD only as unconditioned homophones"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "n-est",
+  "groups": [
+   "94",
+   "59"
+  ],
+  "plaintext": "n'est",
+  "status": "mixed",
+  "note": "59=est provisional; 94 unbanked (94=\"ne\" provisional-strong / CONFIRMED legs 1-2)",
+  "positions": [
+   558,
+   762,
+   1795
+  ],
+  "count": 3,
+  "expected": null,
+  "occurrences": [
+   {
+    "pos": 558,
+    "row": "a3_02",
+    "left": [
+     "34",
+     "17",
+     "86"
+    ],
+    "right": [
+     "30",
+     "67",
+     "11"
+    ],
+    "left_plain": [
+     "i",
+     "?17",
+     "?86"
+    ],
+    "right_plain": [
+     "?30",
+     "?67",
+     "la"
+    ],
+    "neighbor_notes": {
+     "self[0](94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "self[1](59)": "59 est-arm (pre=94 in {64,94,93}): word-\"est\" ISLET 10"
+    },
+    "frame_constraints": [
+     "94=\"ne\" provisional-strong; 59 est-arm (pre=94)"
+    ]
+   },
+   {
+    "pos": 762,
+    "row": "a5_03",
+    "left": [
+     "40",
+     "20",
+     "62"
+    ],
+    "right": [
+     "39",
+     "88",
+     "66"
+    ],
+    "left_plain": [
+     "e",
+     "?20",
+     "?62"
+    ],
+    "right_plain": [
+     "?39",
+     "?88",
+     "?66"
+    ],
+    "neighbor_notes": {
+     "L3(62)": "62=\"on\" fenced STRONG LEAD",
+     "self[0](94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "self[1](59)": "59 est-arm (pre=94 in {64,94,93}): word-\"est\" ISLET 10"
+    },
+    "frame_constraints": [
+     "94=\"ne\" provisional-strong; 59 est-arm (pre=94)"
+    ]
+   },
+   {
+    "pos": 1795,
+    "row": "a8_09",
+    "left": [
+     "86",
+     "56",
+     "42"
+    ],
+    "right": [
+     "37",
+     "91",
+     "79"
+    ],
+    "left_plain": [
+     "?86",
+     "?56",
+     "?42"
+    ],
+    "right_plain": [
+     "?37",
+     "?91",
+     "?79"
+    ],
+    "neighbor_notes": {
+     "R1(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "self[0](94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "self[1](59)": "59 est-arm (pre=94 in {64,94,93}): word-\"est\" ISLET 10"
+    },
+    "frame_constraints": [
+     "94=\"ne\" provisional-strong; 59 est-arm (pre=94)"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "qui",
+  "groups": [
+   "64"
+  ],
+  "plaintext": "qui",
+  "status": "banked",
+  "note": "64=qui promoted",
+  "positions": [
+   18,
+   32,
+   38,
+   133,
+   144,
+   149,
+   181,
+   290,
+   315,
+   337,
+   341,
+   395,
+   486,
+   510,
+   530,
+   606,
+   608,
+   675,
+   684,
+   725,
+   749,
+   791,
+   794,
+   854,
+   910,
+   938,
+   1023,
+   1025,
+   1079,
+   1199,
+   1209,
+   1226,
+   1271,
+   1337,
+   1341,
+   1358,
+   1434,
+   1445,
+   1587,
+   1632,
+   1646,
+   1666,
+   1717,
+   1768,
+   1776,
+   1801,
+   1836
+  ],
+  "count": 47,
+  "expected": null,
+  "occurrences": [
+   {
+    "pos": 18,
+    "row": "a1_00",
+    "left": [
+     "91",
+     "53",
+     "17"
+    ],
+    "right": [
+     "98",
+     "82",
+     "43"
+    ],
+    "left_plain": [
+     "?91",
+     "?53",
+     "?17"
+    ],
+    "right_plain": [
+     "?98",
+     "m",
+     "?43"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 32,
+    "row": "a1_00",
+    "left": [
+     "24",
+     "30",
+     "03"
+    ],
+    "right": [
+     "32",
+     "01",
+     "08"
+    ],
+    "left_plain": [
+     "?24",
+     "?30",
+     "?03"
+    ],
+    "right_plain": [
+     "?32",
+     "?01",
+     "?08"
+    ],
+    "neighbor_notes": {
+     "L1(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 38,
+    "row": "a1_01",
+    "left": [
+     "08",
+     "91",
+     "39"
+    ],
+    "right": [
+     "41",
+     "01",
+     "24"
+    ],
+    "left_plain": [
+     "?08",
+     "?91",
+     "?39"
+    ],
+    "right_plain": [
+     "?41",
+     "?01",
+     "?24"
+    ],
+    "neighbor_notes": {
+     "R3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 133,
+    "row": "a1_04",
+    "left": [
+     "32",
+     "96",
+     "56"
+    ],
+    "right": [
+     "21",
+     "65",
+     "23"
+    ],
+    "left_plain": [
+     "?32",
+     "par",
+     "?56"
+    ],
+    "right_plain": [
+     "?21",
+     "?65",
+     "?23"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 144,
+    "row": "a1_04",
+    "left": [
+     "14",
+     "74",
+     "67"
+    ],
+    "right": [
+     "77",
+     "84",
+     "29"
+    ],
+    "left_plain": [
+     "?14",
+     "?74",
+     "?67"
+    ],
+    "right_plain": [
+     "le (prov)",
+     "?84",
+     "er"
+    ],
+    "neighbor_notes": {
+     "R2(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 149,
+    "row": "a1_04",
+    "left": [
+     "84",
+     "29",
+     "87"
+    ],
+    "right": [
+     "96",
+     "47",
+     "46"
+    ],
+    "left_plain": [
+     "?84",
+     "er",
+     "ce"
+    ],
+    "right_plain": [
+     "par",
+     "?47",
+     "que"
+    ],
+    "neighbor_notes": {
+     "L1(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)",
+     "R2(47)": "47=\"ce\" LEAD (strengthened F55)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 181,
+    "row": "a1_05",
+    "left": [
+     "14",
+     "24",
+     "87"
+    ],
+    "right": [
+     "23",
+     "37",
+     "06"
+    ],
+    "left_plain": [
+     "?14",
+     "?24",
+     "ce"
+    ],
+    "right_plain": [
+     "?23",
+     "?37",
+     "?06"
+    ],
+    "neighbor_notes": {
+     "L2(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R2(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "R3(06)": "06 general=\"ent\" REFUTED (N22); unclassified here"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 290,
+    "row": "a2_03",
+    "left": [
+     "00",
+     "97",
+     "09"
+    ],
+    "right": [
+     "29",
+     "40",
+     "65"
+    ],
+    "left_plain": [
+     "?00",
+     "?97",
+     "?09"
+    ],
+    "right_plain": [
+     "er",
+     "e",
+     "?65"
+    ],
+    "neighbor_notes": {
+     "L1(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 315,
+    "row": "a2_04",
+    "left": [
+     "37",
+     "78",
+     "45"
+    ],
+    "right": [
+     "59",
+     "32",
+     "94"
+    ],
+    "left_plain": [
+     "?37",
+     "?78",
+     "?45"
+    ],
+    "right_plain": [
+     "est (prov)",
+     "?32",
+     "?94"
+    ],
+    "neighbor_notes": {
+     "L1(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "R1(59)": "59 est-arm (pre=64 in {64,94,93}): word-\"est\" ISLET 10",
+     "R3(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 337,
+    "row": "a2_05",
+    "left": [
+     "88",
+     "40",
+     "03"
+    ],
+    "right": [
+     "31",
+     "14",
+     "45"
+    ],
+    "left_plain": [
+     "?88",
+     "e",
+     "?03"
+    ],
+    "right_plain": [
+     "?31",
+     "?14",
+     "?45"
+    ],
+    "neighbor_notes": {
+     "R1(31)": "class=VERBAL"
+    },
+    "frame_constraints": [
+     "right neighbor 31 is class VERBAL (not a value)"
+    ]
+   },
+   {
+    "pos": 341,
+    "row": "a2_05",
+    "left": [
+     "31",
+     "14",
+     "45"
+    ],
+    "right": [
+     "96",
+     "43",
+     "87"
+    ],
+    "left_plain": [
+     "?31",
+     "?14",
+     "?45"
+    ],
+    "right_plain": [
+     "par",
+     "?43",
+     "ce"
+    ],
+    "neighbor_notes": {
+     "L1(31)": "class=VERBAL"
+    },
+    "frame_constraints": [
+     "left neighbor 31 is class VERBAL (not a value)"
+    ]
+   },
+   {
+    "pos": 395,
+    "row": "a2_07",
+    "left": [
+     "73",
+     "34",
+     "67"
+    ],
+    "right": [
+     "79",
+     "82",
+     "48"
+    ],
+    "left_plain": [
+     "?73",
+     "i",
+     "?67"
+    ],
+    "right_plain": [
+     "?79",
+     "m",
+     "?48"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 486,
+    "row": "a2_11",
+    "left": [
+     "30",
+     "01",
+     "19"
+    ],
+    "right": [
+     "76",
+     "42",
+     "41"
+    ],
+    "left_plain": [
+     "?30",
+     "?01",
+     "?19"
+    ],
+    "right_plain": [
+     "?76",
+     "?42",
+     "?41"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 510,
+    "row": "a3_00",
+    "left": [
+     "77",
+     "62",
+     "94"
+    ],
+    "right": [
+     "98",
+     "65",
+     "88"
+    ],
+    "left_plain": [
+     "le (prov)",
+     "?62",
+     "?94"
+    ],
+    "right_plain": [
+     "?98",
+     "?65",
+     "?88"
+    ],
+    "neighbor_notes": {
+     "L2(62)": "62=\"on\" fenced STRONG LEAD",
+     "L3(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 530,
+    "row": "a3_00",
+    "left": [
+     "44",
+     "59",
+     "37"
+    ],
+    "right": [
+     "26",
+     "32",
+     "16"
+    ],
+    "left_plain": [
+     "?44",
+     "est (prov)",
+     "?37"
+    ],
+    "right_plain": [
+     "?26",
+     "?32",
+     "?16"
+    ],
+    "neighbor_notes": {
+     "L2(59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade",
+     "L3(37)": "37=\"le\" MEDIUM (rival to 77)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 606,
+    "row": "a4_00",
+    "left": [
+     "45",
+     "93",
+     "54"
+    ],
+    "right": [
+     "39",
+     "64",
+     "02"
+    ],
+    "left_plain": [
+     "?45",
+     "?93",
+     "?54"
+    ],
+    "right_plain": [
+     "?39",
+     "qui",
+     "?02"
+    ],
+    "neighbor_notes": {
+     "L2(93)": "{93,8}=\"l'\" LEAD as unconditioned homophones; 93=\"l'\" ALONE rate-KILLED"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 608,
+    "row": "a4_00",
+    "left": [
+     "54",
+     "64",
+     "39"
+    ],
+    "right": [
+     "02",
+     "58",
+     "47"
+    ],
+    "left_plain": [
+     "?54",
+     "qui",
+     "?39"
+    ],
+    "right_plain": [
+     "?02",
+     "?58",
+     "?47"
+    ],
+    "neighbor_notes": {
+     "R3(47)": "47=\"ce\" LEAD (strengthened F55)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 675,
+    "row": "a5_00",
+    "left": [
+     "24",
+     "80",
+     "03"
+    ],
+    "right": [
+     "37",
+     "77",
+     "45"
+    ],
+    "left_plain": [
+     "?24",
+     "?80",
+     "?03"
+    ],
+    "right_plain": [
+     "?37",
+     "le (prov)",
+     "?45"
+    ],
+    "neighbor_notes": {
+     "L1(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R1(37)": "37=\"le\" MEDIUM (rival to 77)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 684,
+    "row": "a5_00",
+    "left": [
+     "07",
+     "00",
+     "92"
+    ],
+    "right": [
+     "29",
+     "40",
+     "65"
+    ],
+    "left_plain": [
+     "?07",
+     "?00",
+     "?92"
+    ],
+    "right_plain": [
+     "er",
+     "e",
+     "?65"
+    ],
+    "neighbor_notes": {
+     "L2(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 725,
+    "row": "a5_02",
+    "left": [
+     "03",
+     "91",
+     "65"
+    ],
+    "right": [
+     "11",
+     "00",
+     "86"
+    ],
+    "left_plain": [
+     "?03",
+     "?91",
+     "?65"
+    ],
+    "right_plain": [
+     "la",
+     "?00",
+     "?86"
+    ],
+    "neighbor_notes": {
+     "R2(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 749,
+    "row": "a5_03",
+    "left": [
+     "85",
+     "28",
+     "00"
+    ],
+    "right": [
+     "02",
+     "97",
+     "40"
+    ],
+    "left_plain": [
+     "?85",
+     "?28",
+     "?00"
+    ],
+    "right_plain": [
+     "?02",
+     "?97",
+     "e"
+    ],
+    "neighbor_notes": {
+     "L3(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 791,
+    "row": "a5_04",
+    "left": [
+     "84",
+     "06",
+     "77"
+    ],
+    "right": [
+     "46",
+     "07",
+     "64"
+    ],
+    "left_plain": [
+     "?84",
+     "?06",
+     "le (prov)"
+    ],
+    "right_plain": [
+     "que",
+     "?07",
+     "qui"
+    ],
+    "neighbor_notes": {
+     "L1(84)": "84 unclassified (neither \"en\" nor noun arm)",
+     "L2(06)": "06 general=\"ent\" REFUTED (N22); unclassified here"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 794,
+    "row": "a5_04",
+    "left": [
+     "64",
+     "46",
+     "07"
+    ],
+    "right": [
+     "56",
+     "37",
+     "44"
+    ],
+    "left_plain": [
+     "qui",
+     "que",
+     "?07"
+    ],
+    "right_plain": [
+     "?56",
+     "?37",
+     "?44"
+    ],
+    "neighbor_notes": {
+     "R2(37)": "37=\"le\" MEDIUM (rival to 77)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 854,
+    "row": "a5_07",
+    "left": [
+     "67",
+     "91",
+     "51"
+    ],
+    "right": [
+     "32",
+     "48",
+     "84"
+    ],
+    "left_plain": [
+     "?67",
+     "?91",
+     "?51"
+    ],
+    "right_plain": [
+     "?32",
+     "?48",
+     "?84"
+    ],
+    "neighbor_notes": {
+     "R3(84)": "84 unclassified (neither \"en\" nor noun arm)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 910,
+    "row": "a5_09",
+    "left": [
+     "83",
+     "54",
+     "49"
+    ],
+    "right": [
+     "83",
+     "59",
+     "37"
+    ],
+    "left_plain": [
+     "?83",
+     "?54",
+     "?49"
+    ],
+    "right_plain": [
+     "?83",
+     "est (prov)",
+     "?37"
+    ],
+    "neighbor_notes": {
+     "R2(59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade",
+     "R3(37)": "37=\"le\" MEDIUM (rival to 77)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 938,
+    "row": "a5_10",
+    "left": [
+     "00",
+     "33",
+     "21"
+    ],
+    "right": [
+     "37",
+     "01",
+     "07"
+    ],
+    "left_plain": [
+     "?00",
+     "?33",
+     "?21"
+    ],
+    "right_plain": [
+     "?37",
+     "?01",
+     "?07"
+    ],
+    "neighbor_notes": {
+     "L1(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet",
+     "L2(33)": "class=INF",
+     "R1(37)": "37=\"le\" MEDIUM (rival to 77)"
+    },
+    "frame_constraints": [
+     "left neighbor 33 is class INF (not a value)"
+    ]
+   },
+   {
+    "pos": 1023,
+    "row": "a6_03",
+    "left": [
+     "53",
+     "84",
+     "92"
+    ],
+    "right": [
+     "45",
+     "64",
+     "96"
+    ],
+    "left_plain": [
+     "?53",
+     "?84",
+     "?92"
+    ],
+    "right_plain": [
+     "?45",
+     "qui",
+     "par"
+    ],
+    "neighbor_notes": {
+     "L2(84)": "84 unclassified (neither \"en\" nor noun arm)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1025,
+    "row": "a6_03",
+    "left": [
+     "92",
+     "64",
+     "45"
+    ],
+    "right": [
+     "96",
+     "43",
+     "87"
+    ],
+    "left_plain": [
+     "?92",
+     "qui",
+     "?45"
+    ],
+    "right_plain": [
+     "par",
+     "?43",
+     "ce"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1079,
+    "row": "a6_05",
+    "left": [
+     "48",
+     "77",
+     "78"
+    ],
+    "right": [
+     "06",
+     "52",
+     "89"
+    ],
+    "left_plain": [
+     "?48",
+     "le (prov)",
+     "?78"
+    ],
+    "right_plain": [
+     "?06",
+     "?52",
+     "?89"
+    ],
+    "neighbor_notes": {
+     "R1(06)": "06 general=\"ent\" REFUTED (N22); unclassified here"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1199,
+    "row": "a7_00",
+    "left": [
+     "96",
+     "82",
+     "16"
+    ],
+    "right": [
+     "29",
+     "45",
+     "58"
+    ],
+    "left_plain": [
+     "par",
+     "m",
+     "?16"
+    ],
+    "right_plain": [
+     "er",
+     "?45",
+     "?58"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1209,
+    "row": "a7_00",
+    "left": [
+     "61",
+     "21",
+     "65"
+    ],
+    "right": [
+     "59",
+     "32",
+     "48"
+    ],
+    "left_plain": [
+     "?61",
+     "?21",
+     "?65"
+    ],
+    "right_plain": [
+     "est (prov)",
+     "?32",
+     "?48"
+    ],
+    "neighbor_notes": {
+     "R1(59)": "59 est-arm (pre=64 in {64,94,93}): word-\"est\" ISLET 10"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1226,
+    "row": "a7_01",
+    "left": [
+     "09",
+     "20",
+     "57"
+    ],
+    "right": [
+     "79",
+     "82",
+     "48"
+    ],
+    "left_plain": [
+     "?09",
+     "?20",
+     "?57"
+    ],
+    "right_plain": [
+     "?79",
+     "m",
+     "?48"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1271,
+    "row": "a7_02",
+    "left": [
+     "24",
+     "30",
+     "20"
+    ],
+    "right": [
+     "47",
+     "76",
+     "87"
+    ],
+    "left_plain": [
+     "?24",
+     "?30",
+     "?20"
+    ],
+    "right_plain": [
+     "?47",
+     "?76",
+     "ce"
+    ],
+    "neighbor_notes": {
+     "L1(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R1(47)": "47=\"ce\" LEAD (strengthened F55)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1337,
+    "row": "a7_05",
+    "left": [
+     "83",
+     "86",
+     "71"
+    ],
+    "right": [
+     "60",
+     "08",
+     "65"
+    ],
+    "left_plain": [
+     "?83",
+     "?86",
+     "?71"
+    ],
+    "right_plain": [
+     "?60",
+     "?08",
+     "?65"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1341,
+    "row": "a7_05",
+    "left": [
+     "60",
+     "08",
+     "65"
+    ],
+    "right": [
+     "52",
+     "38",
+     "47"
+    ],
+    "left_plain": [
+     "?60",
+     "?08",
+     "?65"
+    ],
+    "right_plain": [
+     "?52",
+     "?38",
+     "?47"
+    ],
+    "neighbor_notes": {
+     "R3(47)": "47=\"ce\" LEAD (strengthened F55)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1358,
+    "row": "a7_05",
+    "left": [
+     "06",
+     "52",
+     "37"
+    ],
+    "right": [
+     "35",
+     "13",
+     "92"
+    ],
+    "left_plain": [
+     "?06",
+     "?52",
+     "?37"
+    ],
+    "right_plain": [
+     "?35",
+     "?13",
+     "?92"
+    ],
+    "neighbor_notes": {
+     "L1(06)": "06=\"ent\" conditioned LEAD iff pre=82 (n=4, n_eff=3)",
+     "L3(37)": "37=\"le\" MEDIUM (rival to 77)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1434,
+    "row": "a7_08",
+    "left": [
+     "16",
+     "76",
+     "49"
+    ],
+    "right": [
+     "52",
+     "82",
+     "16"
+    ],
+    "left_plain": [
+     "?16",
+     "?76",
+     "?49"
+    ],
+    "right_plain": [
+     "?52",
+     "m",
+     "?16"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1445,
+    "row": "a7_09",
+    "left": [
+     "68",
+     "59",
+     "37"
+    ],
+    "right": [
+     "77",
+     "84",
+     "59"
+    ],
+    "left_plain": [
+     "?68",
+     "est (prov)",
+     "?37"
+    ],
+    "right_plain": [
+     "le (prov)",
+     "?84",
+     "est (prov)"
+    ],
+    "neighbor_notes": {
+     "L2(59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade",
+     "L3(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "R2(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)",
+     "R3(59)": "59 -este-arm (pre=84): verb-final \"-este\" ISLET 10"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1587,
+    "row": "a8_02",
+    "left": [
+     "00",
+     "36",
+     "70"
+    ],
+    "right": [
+     "65",
+     "48",
+     "29"
+    ],
+    "left_plain": [
+     "?00",
+     "?36",
+     "pre"
+    ],
+    "right_plain": [
+     "?65",
+     "?48",
+     "er"
+    ],
+    "neighbor_notes": {
+     "L1(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1632,
+    "row": "a8_03",
+    "left": [
+     "00",
+     "33",
+     "21"
+    ],
+    "right": [
+     "37",
+     "01",
+     "74"
+    ],
+    "left_plain": [
+     "?00",
+     "?33",
+     "?21"
+    ],
+    "right_plain": [
+     "?37",
+     "?01",
+     "?74"
+    ],
+    "neighbor_notes": {
+     "L1(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet",
+     "L2(33)": "class=INF",
+     "R1(37)": "37=\"le\" MEDIUM (rival to 77)"
+    },
+    "frame_constraints": [
+     "left neighbor 33 is class INF (not a value)"
+    ]
+   },
+   {
+    "pos": 1646,
+    "row": "a8_04",
+    "left": [
+     "98",
+     "60",
+     "03"
+    ],
+    "right": [
+     "31",
+     "10",
+     "03"
+    ],
+    "left_plain": [
+     "?98",
+     "?60",
+     "?03"
+    ],
+    "right_plain": [
+     "?31",
+     "?10",
+     "?03"
+    ],
+    "neighbor_notes": {
+     "R1(31)": "class=VERBAL"
+    },
+    "frame_constraints": [
+     "right neighbor 31 is class VERBAL (not a value)"
+    ]
+   },
+   {
+    "pos": 1666,
+    "row": "a8_05",
+    "left": [
+     "22",
+     "94",
+     "84"
+    ],
+    "right": [
+     "06",
+     "91",
+     "11"
+    ],
+    "left_plain": [
+     "?22",
+     "?94",
+     "?84"
+    ],
+    "right_plain": [
+     "?06",
+     "?91",
+     "la"
+    ],
+    "neighbor_notes": {
+     "L2(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "L3(84)": "84=\"en\" conditioned-islet arm (pre=94 in {46,94,82}, LEAD)",
+     "R1(06)": "06 general=\"ent\" REFUTED (N22); unclassified here"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1717,
+    "row": "a8_06",
+    "left": [
+     "44",
+     "59",
+     "30"
+    ],
+    "right": [
+     "47",
+     "68",
+     "06"
+    ],
+    "left_plain": [
+     "?44",
+     "est (prov)",
+     "?30"
+    ],
+    "right_plain": [
+     "?47",
+     "?68",
+     "?06"
+    ],
+    "neighbor_notes": {
+     "L2(59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade",
+     "R1(47)": "47=\"ce\" LEAD (strengthened F55)",
+     "R3(06)": "06 general=\"ent\" REFUTED (N22); unclassified here"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1768,
+    "row": "a8_08",
+    "left": [
+     "09",
+     "24",
+     "87"
+    ],
+    "right": [
+     "26",
+     "37",
+     "78"
+    ],
+    "left_plain": [
+     "?09",
+     "?24",
+     "ce"
+    ],
+    "right_plain": [
+     "?26",
+     "?37",
+     "?78"
+    ],
+    "neighbor_notes": {
+     "L2(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R2(37)": "37=\"le\" MEDIUM (rival to 77)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1776,
+    "row": "a8_09",
+    "left": [
+     "94",
+     "24",
+     "87"
+    ],
+    "right": [
+     "59",
+     "19",
+     "48"
+    ],
+    "left_plain": [
+     "?94",
+     "?24",
+     "ce"
+    ],
+    "right_plain": [
+     "est (prov)",
+     "?19",
+     "?48"
+    ],
+    "neighbor_notes": {
+     "L1(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "L2(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R1(59)": "59 est-arm (pre=64 in {64,94,93}): word-\"est\" ISLET 10"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1801,
+    "row": "a8_10",
+    "left": [
+     "91",
+     "79",
+     "87"
+    ],
+    "right": [
+     "77",
+     "84",
+     "59"
+    ],
+    "left_plain": [
+     "?91",
+     "?79",
+     "ce"
+    ],
+    "right_plain": [
+     "le (prov)",
+     "?84",
+     "est (prov)"
+    ],
+    "neighbor_notes": {
+     "R2(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)",
+     "R3(59)": "59 -este-arm (pre=84): verb-final \"-este\" ISLET 10"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1836,
+    "row": "a8_11",
+    "left": [
+     "59",
+     "36",
+     "69"
+    ],
+    "right": [
+     "22",
+     "42",
+     "44"
+    ],
+    "left_plain": [
+     "est (prov)",
+     "?36",
+     "?69"
+    ],
+    "right_plain": [
+     "?22",
+     "?42",
+     "?44"
+    ],
+    "neighbor_notes": {
+     "L1(59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   }
+  ]
+ },
+ {
+  "id": "que",
+  "groups": [
+   "46"
+  ],
+  "plaintext": "que",
+  "status": "banked",
+  "note": "46=que pencil GT",
+  "positions": [
+   95,
+   107,
+   152,
+   217,
+   226,
+   309,
+   419,
+   438,
+   472,
+   546,
+   549,
+   636,
+   694,
+   792,
+   865,
+   954,
+   1191,
+   1249,
+   1254,
+   1265,
+   1408,
+   1452,
+   1483,
+   1528,
+   1546,
+   1625,
+   1681,
+   1692,
+   1744
+  ],
+  "count": 29,
+  "expected": null,
+  "occurrences": [
+   {
+    "pos": 95,
+    "row": "a1_02",
+    "left": [
+     "98",
+     "81",
+     "97"
+    ],
+    "right": [
+     "29",
+     "85",
+     "08"
+    ],
+    "left_plain": [
+     "?98",
+     "?81",
+     "?97"
+    ],
+    "right_plain": [
+     "er",
+     "?85",
+     "?08"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 107,
+    "row": "a1_03",
+    "left": [
+     "45",
+     "28",
+     "00"
+    ],
+    "right": [
+     "11",
+     "21",
+     "67"
+    ],
+    "left_plain": [
+     "?45",
+     "?28",
+     "?00"
+    ],
+    "right_plain": [
+     "la",
+     "?21",
+     "?67"
+    ],
+    "neighbor_notes": {
+     "L3(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 152,
+    "row": "a1_04",
+    "left": [
+     "64",
+     "96",
+     "47"
+    ],
+    "right": [
+     "66",
+     "84",
+     "26"
+    ],
+    "left_plain": [
+     "qui",
+     "par",
+     "?47"
+    ],
+    "right_plain": [
+     "?66",
+     "?84",
+     "?26"
+    ],
+    "neighbor_notes": {
+     "L3(47)": "47=\"ce\" LEAD (strengthened F55)",
+     "R2(84)": "84 unclassified (neither \"en\" nor noun arm)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 217,
+    "row": "a2_01",
+    "left": [
+     "78",
+     "06",
+     "59"
+    ],
+    "right": [
+     "29",
+     "42",
+     "16"
+    ],
+    "left_plain": [
+     "?78",
+     "?06",
+     "est (prov)"
+    ],
+    "right_plain": [
+     "er",
+     "?42",
+     "?16"
+    ],
+    "neighbor_notes": {
+     "L2(06)": "06 general=\"ent\" REFUTED (N22); unclassified here",
+     "L3(59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 226,
+    "row": "a2_01",
+    "left": [
+     "61",
+     "96",
+     "87"
+    ],
+    "right": [
+     "98",
+     "83",
+     "82"
+    ],
+    "left_plain": [
+     "?61",
+     "par",
+     "ce"
+    ],
+    "right_plain": [
+     "?98",
+     "?83",
+     "m"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 309,
+    "row": "a2_04",
+    "left": [
+     "88",
+     "20",
+     "17"
+    ],
+    "right": [
+     "84",
+     "24",
+     "37"
+    ],
+    "left_plain": [
+     "?88",
+     "?20",
+     "?17"
+    ],
+    "right_plain": [
+     "?84",
+     "?24",
+     "?37"
+    ],
+    "neighbor_notes": {
+     "R1(84)": "84=\"en\" conditioned-islet arm (pre=46 in {46,94,82}, LEAD)",
+     "R2(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R3(37)": "37=\"le\" MEDIUM (rival to 77)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 419,
+    "row": "a2_08",
+    "left": [
+     "49",
+     "74",
+     "74"
+    ],
+    "right": [
+     "49",
+     "36",
+     "29"
+    ],
+    "left_plain": [
+     "?49",
+     "?74",
+     "?74"
+    ],
+    "right_plain": [
+     "?49",
+     "?36",
+     "er"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 438,
+    "row": "a2_09",
+    "left": [
+     "78",
+     "63",
+     "45"
+    ],
+    "right": [
+     "43",
+     "98",
+     "80"
+    ],
+    "left_plain": [
+     "?78",
+     "?63",
+     "?45"
+    ],
+    "right_plain": [
+     "?43",
+     "?98",
+     "?80"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 472,
+    "row": "a2_10",
+    "left": [
+     "80",
+     "06",
+     "67"
+    ],
+    "right": [
+     "84",
+     "24",
+     "37"
+    ],
+    "left_plain": [
+     "?80",
+     "?06",
+     "?67"
+    ],
+    "right_plain": [
+     "?84",
+     "?24",
+     "?37"
+    ],
+    "neighbor_notes": {
+     "L2(06)": "06 general=\"ent\" REFUTED (N22); unclassified here",
+     "R1(84)": "84=\"en\" conditioned-islet arm (pre=46 in {46,94,82}, LEAD)",
+     "R2(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R3(37)": "37=\"le\" MEDIUM (rival to 77)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 546,
+    "row": "a3_01",
+    "left": [
+     "42",
+     "06",
+     "00"
+    ],
+    "right": [
+     "24",
+     "47",
+     "46"
+    ],
+    "left_plain": [
+     "?42",
+     "?06",
+     "?00"
+    ],
+    "right_plain": [
+     "?24",
+     "?47",
+     "que"
+    ],
+    "neighbor_notes": {
+     "L2(06)": "06 general=\"ent\" REFUTED (N22); unclassified here",
+     "L3(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet",
+     "R1(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R2(47)": "47=\"ce\" LEAD (strengthened F55)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 549,
+    "row": "a3_01",
+    "left": [
+     "46",
+     "24",
+     "47"
+    ],
+    "right": [
+     "55",
+     "81",
+     "00"
+    ],
+    "left_plain": [
+     "que",
+     "?24",
+     "?47"
+    ],
+    "right_plain": [
+     "?55",
+     "?81",
+     "?00"
+    ],
+    "neighbor_notes": {
+     "L2(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "L3(47)": "47=\"ce\" LEAD (strengthened F55)",
+     "R3(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 636,
+    "row": "a4_01",
+    "left": [
+     "67",
+     "63",
+     "74"
+    ],
+    "right": [
+     "60",
+     "67",
+     "77"
+    ],
+    "left_plain": [
+     "?67",
+     "?63",
+     "?74"
+    ],
+    "right_plain": [
+     "?60",
+     "?67",
+     "le (prov)"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 694,
+    "row": "a5_01",
+    "left": [
+     "03",
+     "39",
+     "74"
+    ],
+    "right": [
+     "02",
+     "50",
+     "45"
+    ],
+    "left_plain": [
+     "?03",
+     "?39",
+     "?74"
+    ],
+    "right_plain": [
+     "?02",
+     "?50",
+     "?45"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 792,
+    "row": "a5_04",
+    "left": [
+     "06",
+     "77",
+     "64"
+    ],
+    "right": [
+     "07",
+     "64",
+     "56"
+    ],
+    "left_plain": [
+     "?06",
+     "le (prov)",
+     "qui"
+    ],
+    "right_plain": [
+     "?07",
+     "qui",
+     "?56"
+    ],
+    "neighbor_notes": {
+     "L1(06)": "06 general=\"ent\" REFUTED (N22); unclassified here"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 865,
+    "row": "a5_07",
+    "left": [
+     "74",
+     "48",
+     "47"
+    ],
+    "right": [
+     "00",
+     "86",
+     "70"
+    ],
+    "left_plain": [
+     "?74",
+     "?48",
+     "?47"
+    ],
+    "right_plain": [
+     "?00",
+     "?86",
+     "pre"
+    ],
+    "neighbor_notes": {
+     "L3(47)": "47=\"ce\" LEAD (strengthened F55)",
+     "R1(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 954,
+    "row": "a6_00",
+    "left": [
+     "86",
+     "96",
+     "87"
+    ],
+    "right": [
+     "24",
+     "85",
+     "04"
+    ],
+    "left_plain": [
+     "?86",
+     "par",
+     "ce"
+    ],
+    "right_plain": [
+     "?24",
+     "?85",
+     "?04"
+    ],
+    "neighbor_notes": {
+     "R1(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1191,
+    "row": "a7_00",
+    "left": [
+     "06",
+     "84",
+     "59"
+    ],
+    "right": [
+     "07",
+     "24",
+     "82"
+    ],
+    "left_plain": [
+     "?06",
+     "?84",
+     "est (prov)"
+    ],
+    "right_plain": [
+     "?07",
+     "?24",
+     "m"
+    ],
+    "neighbor_notes": {
+     "L1(06)": "06 general=\"ent\" REFUTED (N22); unclassified here",
+     "L2(84)": "84 unclassified (neither \"en\" nor noun arm)",
+     "L3(59)": "59 -este-arm (pre=84): verb-final \"-este\" ISLET 10",
+     "R2(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1249,
+    "row": "a7_02",
+    "left": [
+     "16",
+     "00",
+     "67"
+    ],
+    "right": [
+     "26",
+     "30",
+     "06"
+    ],
+    "left_plain": [
+     "?16",
+     "?00",
+     "?67"
+    ],
+    "right_plain": [
+     "?26",
+     "?30",
+     "?06"
+    ],
+    "neighbor_notes": {
+     "L2(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet",
+     "R3(06)": "06 general=\"ent\" REFUTED (N22); unclassified here"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1254,
+    "row": "a7_02",
+    "left": [
+     "30",
+     "06",
+     "65"
+    ],
+    "right": [
+     "01",
+     "61",
+     "31"
+    ],
+    "left_plain": [
+     "?30",
+     "?06",
+     "?65"
+    ],
+    "right_plain": [
+     "?01",
+     "?61",
+     "?31"
+    ],
+    "neighbor_notes": {
+     "L2(06)": "06 general=\"ent\" REFUTED (N22); unclassified here",
+     "R3(31)": "class=VERBAL"
+    },
+    "frame_constraints": [
+     "right neighbor 31 is class VERBAL (not a value)"
+    ]
+   },
+   {
+    "pos": 1265,
+    "row": "a7_02",
+    "left": [
+     "09",
+     "11",
+     "50"
+    ],
+    "right": [
+     "69",
+     "88",
+     "24"
+    ],
+    "left_plain": [
+     "?09",
+     "la",
+     "?50"
+    ],
+    "right_plain": [
+     "?69",
+     "?88",
+     "?24"
+    ],
+    "neighbor_notes": {
+     "R3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1408,
+    "row": "a7_07",
+    "left": [
+     "00",
+     "11",
+     "95"
+    ],
+    "right": [
+     "52",
+     "42",
+     "16"
+    ],
+    "left_plain": [
+     "?00",
+     "la",
+     "?95"
+    ],
+    "right_plain": [
+     "?52",
+     "?42",
+     "?16"
+    ],
+    "neighbor_notes": {
+     "L1(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1452,
+    "row": "a7_09",
+    "left": [
+     "36",
+     "67",
+     "33"
+    ],
+    "right": [
+     "92",
+     "62",
+     "61"
+    ],
+    "left_plain": [
+     "?36",
+     "?67",
+     "?33"
+    ],
+    "right_plain": [
+     "?92",
+     "?62",
+     "?61"
+    ],
+    "neighbor_notes": {
+     "L3(33)": "class=INF",
+     "R2(62)": "62=\"on\" fenced STRONG LEAD"
+    },
+    "frame_constraints": [
+     "left neighbor 33 is class INF (not a value)"
+    ]
+   },
+   {
+    "pos": 1483,
+    "row": "a7_10",
+    "left": [
+     "16",
+     "98",
+     "62"
+    ],
+    "right": [
+     "77",
+     "84",
+     "24"
+    ],
+    "left_plain": [
+     "?16",
+     "?98",
+     "?62"
+    ],
+    "right_plain": [
+     "le (prov)",
+     "?84",
+     "?24"
+    ],
+    "neighbor_notes": {
+     "L3(62)": "62=\"on\" fenced STRONG LEAD",
+     "R2(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)",
+     "R3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1528,
+    "row": "a8_00",
+    "left": [
+     "48",
+     "96",
+     "87"
+    ],
+    "right": [
+     "21",
+     "65",
+     "63"
+    ],
+    "left_plain": [
+     "?48",
+     "par",
+     "ce"
+    ],
+    "right_plain": [
+     "?21",
+     "?65",
+     "?63"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1546,
+    "row": "a8_00",
+    "left": [
+     "78",
+     "43",
+     "00"
+    ],
+    "right": [
+     "70",
+     "12",
+     "94"
+    ],
+    "left_plain": [
+     "?78",
+     "?43",
+     "?00"
+    ],
+    "right_plain": [
+     "pre",
+     "?12",
+     "?94"
+    ],
+    "neighbor_notes": {
+     "L3(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet",
+     "R3(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1625,
+    "row": "a8_03",
+    "left": [
+     "66",
+     "67",
+     "33"
+    ],
+    "right": [
+     "56",
+     "69",
+     "26"
+    ],
+    "left_plain": [
+     "?66",
+     "?67",
+     "?33"
+    ],
+    "right_plain": [
+     "?56",
+     "?69",
+     "?26"
+    ],
+    "neighbor_notes": {
+     "L3(33)": "class=INF"
+    },
+    "frame_constraints": [
+     "left neighbor 33 is class INF (not a value)"
+    ]
+   },
+   {
+    "pos": 1681,
+    "row": "a8_05",
+    "left": [
+     "77",
+     "44",
+     "00"
+    ],
+    "right": [
+     "79",
+     "65",
+     "13"
+    ],
+    "left_plain": [
+     "le (prov)",
+     "?44",
+     "?00"
+    ],
+    "right_plain": [
+     "?79",
+     "?65",
+     "?13"
+    ],
+    "neighbor_notes": {
+     "L3(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1692,
+    "row": "a8_05",
+    "left": [
+     "14",
+     "60",
+     "27"
+    ],
+    "right": [
+     "24",
+     "85",
+     "58"
+    ],
+    "left_plain": [
+     "?14",
+     "?60",
+     "?27"
+    ],
+    "right_plain": [
+     "?24",
+     "?85",
+     "?58"
+    ],
+    "neighbor_notes": {
+     "R1(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1744,
+    "row": "a8_07",
+    "left": [
+     "34",
+     "94",
+     "82"
+    ],
+    "right": [
+     "56",
+     "40",
+     "06"
+    ],
+    "left_plain": [
+     "i",
+     "?94",
+     "m"
+    ],
+    "right_plain": [
+     "?56",
+     "e",
+     "?06"
+    ],
+    "neighbor_notes": {
+     "L2(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "R3(06)": "06 general=\"ent\" REFUTED (N22); unclassified here"
+    },
+    "frame_constraints": []
+   }
+  ]
+ },
+ {
+  "id": "ce",
+  "groups": [
+   "87"
+  ],
+  "plaintext": "ce",
+  "status": "banked",
+  "note": "87=ce promoted",
+  "positions": [
+   71,
+   74,
+   148,
+   163,
+   174,
+   180,
+   191,
+   201,
+   225,
+   344,
+   461,
+   515,
+   572,
+   613,
+   628,
+   644,
+   824,
+   830,
+   869,
+   953,
+   1028,
+   1170,
+   1242,
+   1274,
+   1403,
+   1426,
+   1487,
+   1527,
+   1636,
+   1767,
+   1775,
+   1800
+  ],
+  "count": 32,
+  "expected": null,
+  "occurrences": [
+   {
+    "pos": 71,
+    "row": "a1_02",
+    "left": [
+     "13",
+     "24",
+     "56"
+    ],
+    "right": [
+     "14",
+     "24",
+     "87"
+    ],
+    "left_plain": [
+     "?13",
+     "?24",
+     "?56"
+    ],
+    "right_plain": [
+     "?14",
+     "?24",
+     "ce"
+    ],
+    "neighbor_notes": {
+     "L2(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R2(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 74,
+    "row": "a1_02",
+    "left": [
+     "87",
+     "14",
+     "24"
+    ],
+    "right": [
+     "11",
+     "00",
+     "11"
+    ],
+    "left_plain": [
+     "ce",
+     "?14",
+     "?24"
+    ],
+    "right_plain": [
+     "la",
+     "?00",
+     "la"
+    ],
+    "neighbor_notes": {
+     "L3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R2(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 148,
+    "row": "a1_04",
+    "left": [
+     "77",
+     "84",
+     "29"
+    ],
+    "right": [
+     "64",
+     "96",
+     "47"
+    ],
+    "left_plain": [
+     "le (prov)",
+     "?84",
+     "er"
+    ],
+    "right_plain": [
+     "qui",
+     "par",
+     "?47"
+    ],
+    "neighbor_notes": {
+     "L2(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)",
+     "R3(47)": "47=\"ce\" LEAD (strengthened F55)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 163,
+    "row": "a1_05",
+    "left": [
+     "52",
+     "94",
+     "24"
+    ],
+    "right": [
+     "11",
+     "24",
+     "82"
+    ],
+    "left_plain": [
+     "?52",
+     "?94",
+     "?24"
+    ],
+    "right_plain": [
+     "la",
+     "?24",
+     "m"
+    ],
+    "neighbor_notes": {
+     "L2(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "L3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R2(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 174,
+    "row": "a1_05",
+    "left": [
+     "21",
+     "60",
+     "09"
+    ],
+    "right": [
+     "86",
+     "21",
+     "69"
+    ],
+    "left_plain": [
+     "?21",
+     "?60",
+     "?09"
+    ],
+    "right_plain": [
+     "?86",
+     "?21",
+     "?69"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 180,
+    "row": "a1_05",
+    "left": [
+     "69",
+     "14",
+     "24"
+    ],
+    "right": [
+     "64",
+     "23",
+     "37"
+    ],
+    "left_plain": [
+     "?69",
+     "?14",
+     "?24"
+    ],
+    "right_plain": [
+     "qui",
+     "?23",
+     "?37"
+    ],
+    "neighbor_notes": {
+     "L3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R3(37)": "37=\"le\" MEDIUM (rival to 77)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 191,
+    "row": "a2_00",
+    "left": [
+     "00",
+     "66",
+     "24"
+    ],
+    "right": [
+     "98",
+     "56",
+     "47"
+    ],
+    "left_plain": [
+     "?00",
+     "?66",
+     "?24"
+    ],
+    "right_plain": [
+     "?98",
+     "?56",
+     "?47"
+    ],
+    "neighbor_notes": {
+     "L1(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet",
+     "L3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R3(47)": "47=\"ce\" LEAD (strengthened F55)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 201,
+    "row": "a2_00",
+    "left": [
+     "08",
+     "67",
+     "76"
+    ],
+    "right": [
+     "11",
+     "92",
+     "63"
+    ],
+    "left_plain": [
+     "?08",
+     "?67",
+     "?76"
+    ],
+    "right_plain": [
+     "la",
+     "?92",
+     "?63"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 225,
+    "row": "a2_01",
+    "left": [
+     "89",
+     "61",
+     "96"
+    ],
+    "right": [
+     "46",
+     "98",
+     "83"
+    ],
+    "left_plain": [
+     "?89",
+     "?61",
+     "par"
+    ],
+    "right_plain": [
+     "que",
+     "?98",
+     "?83"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 344,
+    "row": "a2_05",
+    "left": [
+     "64",
+     "96",
+     "43"
+    ],
+    "right": [
+     "01",
+     "06",
+     "70"
+    ],
+    "left_plain": [
+     "qui",
+     "par",
+     "?43"
+    ],
+    "right_plain": [
+     "?01",
+     "?06",
+     "pre"
+    ],
+    "neighbor_notes": {
+     "R2(06)": "06 general=\"ent\" REFUTED (N22); unclassified here"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 461,
+    "row": "a2_10",
+    "left": [
+     "14",
+     "02",
+     "79"
+    ],
+    "right": [
+     "11",
+     "59",
+     "42"
+    ],
+    "left_plain": [
+     "?14",
+     "?02",
+     "?79"
+    ],
+    "right_plain": [
+     "la",
+     "est (prov)",
+     "?42"
+    ],
+    "neighbor_notes": {
+     "R2(59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 515,
+    "row": "a3_00",
+    "left": [
+     "65",
+     "88",
+     "56"
+    ],
+    "right": [
+     "77",
+     "80",
+     "09"
+    ],
+    "left_plain": [
+     "?65",
+     "?88",
+     "?56"
+    ],
+    "right_plain": [
+     "le (prov)",
+     "?80",
+     "?09"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 572,
+    "row": "a3_02",
+    "left": [
+     "45",
+     "94",
+     "52"
+    ],
+    "right": [
+     "78",
+     "45",
+     "13"
+    ],
+    "left_plain": [
+     "?45",
+     "?94",
+     "?52"
+    ],
+    "right_plain": [
+     "?78",
+     "?45",
+     "?13"
+    ],
+    "neighbor_notes": {
+     "L2(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 613,
+    "row": "a4_00",
+    "left": [
+     "58",
+     "47",
+     "77"
+    ],
+    "right": [
+     "83",
+     "70",
+     "88"
+    ],
+    "left_plain": [
+     "?58",
+     "?47",
+     "le (prov)"
+    ],
+    "right_plain": [
+     "?83",
+     "pre",
+     "?88"
+    ],
+    "neighbor_notes": {
+     "L2(47)": "47=\"ce\" LEAD (strengthened F55)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 628,
+    "row": "a4_01",
+    "left": [
+     "37",
+     "33",
+     "29"
+    ],
+    "right": [
+     "78",
+     "67",
+     "08"
+    ],
+    "left_plain": [
+     "?37",
+     "?33",
+     "er"
+    ],
+    "right_plain": [
+     "?78",
+     "?67",
+     "?08"
+    ],
+    "neighbor_notes": {
+     "L1(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "L2(33)": "class=INF"
+    },
+    "frame_constraints": [
+     "left neighbor 33 is class INF (not a value)"
+    ]
+   },
+   {
+    "pos": 644,
+    "row": "a4_02",
+    "left": [
+     "48",
+     "20",
+     "24"
+    ],
+    "right": [
+     "61",
+     "88",
+     "77"
+    ],
+    "left_plain": [
+     "?48",
+     "?20",
+     "?24"
+    ],
+    "right_plain": [
+     "?61",
+     "?88",
+     "le (prov)"
+    ],
+    "neighbor_notes": {
+     "L3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 824,
+    "row": "a5_05",
+    "left": [
+     "95",
+     "13",
+     "24"
+    ],
+    "right": [
+     "59",
+     "38",
+     "82"
+    ],
+    "left_plain": [
+     "?95",
+     "?13",
+     "?24"
+    ],
+    "right_plain": [
+     "est (prov)",
+     "?38",
+     "m"
+    ],
+    "neighbor_notes": {
+     "L3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R1(59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 830,
+    "row": "a5_06",
+    "left": [
+     "82",
+     "01",
+     "24"
+    ],
+    "right": [
+     "11",
+     "77",
+     "76"
+    ],
+    "left_plain": [
+     "m",
+     "?01",
+     "?24"
+    ],
+    "right_plain": [
+     "la",
+     "le (prov)",
+     "?76"
+    ],
+    "neighbor_notes": {
+     "L3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 869,
+    "row": "a5_07",
+    "left": [
+     "00",
+     "86",
+     "70"
+    ],
+    "right": [
+     "77",
+     "89",
+     "48"
+    ],
+    "left_plain": [
+     "?00",
+     "?86",
+     "pre"
+    ],
+    "right_plain": [
+     "le (prov)",
+     "?89",
+     "?48"
+    ],
+    "neighbor_notes": {
+     "L1(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 953,
+    "row": "a6_00",
+    "left": [
+     "77",
+     "86",
+     "96"
+    ],
+    "right": [
+     "46",
+     "24",
+     "85"
+    ],
+    "left_plain": [
+     "le (prov)",
+     "?86",
+     "par"
+    ],
+    "right_plain": [
+     "que",
+     "?24",
+     "?85"
+    ],
+    "neighbor_notes": {
+     "R2(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1028,
+    "row": "a6_03",
+    "left": [
+     "64",
+     "96",
+     "43"
+    ],
+    "right": [
+     "01",
+     "03",
+     "29"
+    ],
+    "left_plain": [
+     "qui",
+     "par",
+     "?43"
+    ],
+    "right_plain": [
+     "?01",
+     "?03",
+     "er"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1170,
+    "row": "a6_09",
+    "left": [
+     "55",
+     "61",
+     "94"
+    ],
+    "right": [
+     "83",
+     "21",
+     "85"
+    ],
+    "left_plain": [
+     "?55",
+     "?61",
+     "?94"
+    ],
+    "right_plain": [
+     "?83",
+     "?21",
+     "?85"
+    ],
+    "neighbor_notes": {
+     "L3(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1242,
+    "row": "a7_01",
+    "left": [
+     "67",
+     "77",
+     "81"
+    ],
+    "right": [
+     "11",
+     "00",
+     "33"
+    ],
+    "left_plain": [
+     "?67",
+     "le (prov)",
+     "?81"
+    ],
+    "right_plain": [
+     "la",
+     "?00",
+     "?33"
+    ],
+    "neighbor_notes": {
+     "R2(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet",
+     "R3(33)": "class=INF"
+    },
+    "frame_constraints": [
+     "right neighbor 33 is class INF (not a value)"
+    ]
+   },
+   {
+    "pos": 1274,
+    "row": "a7_02",
+    "left": [
+     "64",
+     "47",
+     "76"
+    ],
+    "right": [
+     "76",
+     "48",
+     "56"
+    ],
+    "left_plain": [
+     "qui",
+     "?47",
+     "?76"
+    ],
+    "right_plain": [
+     "?76",
+     "?48",
+     "?56"
+    ],
+    "neighbor_notes": {
+     "L2(47)": "47=\"ce\" LEAD (strengthened F55)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1403,
+    "row": "a7_07",
+    "left": [
+     "67",
+     "77",
+     "81"
+    ],
+    "right": [
+     "11",
+     "00",
+     "11"
+    ],
+    "left_plain": [
+     "?67",
+     "le (prov)",
+     "?81"
+    ],
+    "right_plain": [
+     "la",
+     "?00",
+     "la"
+    ],
+    "neighbor_notes": {
+     "R2(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1426,
+    "row": "a7_08",
+    "left": [
+     "67",
+     "33",
+     "29"
+    ],
+    "right": [
+     "63",
+     "91",
+     "61"
+    ],
+    "left_plain": [
+     "?67",
+     "?33",
+     "er"
+    ],
+    "right_plain": [
+     "?63",
+     "?91",
+     "?61"
+    ],
+    "neighbor_notes": {
+     "L2(33)": "class=INF"
+    },
+    "frame_constraints": [
+     "left neighbor 33 is class INF (not a value)"
+    ]
+   },
+   {
+    "pos": 1487,
+    "row": "a7_10",
+    "left": [
+     "77",
+     "84",
+     "24"
+    ],
+    "right": [
+     "08",
+     "31",
+     "92"
+    ],
+    "left_plain": [
+     "le (prov)",
+     "?84",
+     "?24"
+    ],
+    "right_plain": [
+     "?08",
+     "?31",
+     "?92"
+    ],
+    "neighbor_notes": {
+     "L2(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)",
+     "L3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R2(31)": "class=VERBAL"
+    },
+    "frame_constraints": [
+     "right neighbor 31 is class VERBAL (not a value)"
+    ]
+   },
+   {
+    "pos": 1527,
+    "row": "a8_00",
+    "left": [
+     "11",
+     "48",
+     "96"
+    ],
+    "right": [
+     "46",
+     "21",
+     "65"
+    ],
+    "left_plain": [
+     "la",
+     "?48",
+     "par"
+    ],
+    "right_plain": [
+     "que",
+     "?21",
+     "?65"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1636,
+    "row": "a8_03",
+    "left": [
+     "37",
+     "01",
+     "74"
+    ],
+    "right": [
+     "74",
+     "74",
+     "35"
+    ],
+    "left_plain": [
+     "?37",
+     "?01",
+     "?74"
+    ],
+    "right_plain": [
+     "?74",
+     "?74",
+     "?35"
+    ],
+    "neighbor_notes": {
+     "L1(37)": "37=\"le\" MEDIUM (rival to 77)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1767,
+    "row": "a8_08",
+    "left": [
+     "84",
+     "09",
+     "24"
+    ],
+    "right": [
+     "64",
+     "26",
+     "37"
+    ],
+    "left_plain": [
+     "?84",
+     "?09",
+     "?24"
+    ],
+    "right_plain": [
+     "qui",
+     "?26",
+     "?37"
+    ],
+    "neighbor_notes": {
+     "L1(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)",
+     "L3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R3(37)": "37=\"le\" MEDIUM (rival to 77)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1775,
+    "row": "a8_09",
+    "left": [
+     "62",
+     "94",
+     "24"
+    ],
+    "right": [
+     "64",
+     "59",
+     "19"
+    ],
+    "left_plain": [
+     "?62",
+     "?94",
+     "?24"
+    ],
+    "right_plain": [
+     "qui",
+     "est (prov)",
+     "?19"
+    ],
+    "neighbor_notes": {
+     "L1(62)": "62=\"on\" fenced STRONG LEAD",
+     "L2(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "L3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R2(59)": "59 est-arm (pre=64 in {64,94,93}): word-\"est\" ISLET 10"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1800,
+    "row": "a8_10",
+    "left": [
+     "37",
+     "91",
+     "79"
+    ],
+    "right": [
+     "64",
+     "77",
+     "84"
+    ],
+    "left_plain": [
+     "?37",
+     "?91",
+     "?79"
+    ],
+    "right_plain": [
+     "qui",
+     "le (prov)",
+     "?84"
+    ],
+    "neighbor_notes": {
+     "L1(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "R3(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)"
+    },
+    "frame_constraints": []
+   }
+  ]
+ },
+ {
+  "id": "par",
+  "groups": [
+   "96"
+  ],
+  "plaintext": "par",
+  "status": "banked",
+  "note": "96=par promoted",
+  "positions": [
+   47,
+   131,
+   150,
+   224,
+   230,
+   342,
+   465,
+   602,
+   847,
+   914,
+   927,
+   947,
+   952,
+   960,
+   998,
+   1026,
+   1063,
+   1196,
+   1213,
+   1526,
+   1786
+  ],
+  "count": 21,
+  "expected": null,
+  "occurrences": [
+   {
+    "pos": 47,
+    "row": "a1_01",
+    "left": [
+     "81",
+     "30",
+     "62"
+    ],
+    "right": [
+     "00",
+     "92",
+     "79"
+    ],
+    "left_plain": [
+     "?81",
+     "?30",
+     "?62"
+    ],
+    "right_plain": [
+     "?00",
+     "?92",
+     "?79"
+    ],
+    "neighbor_notes": {
+     "L3(62)": "62=\"on\" fenced STRONG LEAD",
+     "R1(00)": "00=\"le\" conditioned-islet LEAD (pre=96, n=3); rival 00=\"pour\" STRONG LEAD unconditioned"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 131,
+    "row": "a1_03",
+    "left": [
+     "02",
+     "26",
+     "32"
+    ],
+    "right": [
+     "56",
+     "64",
+     "21"
+    ],
+    "left_plain": [
+     "?02",
+     "?26",
+     "?32"
+    ],
+    "right_plain": [
+     "?56",
+     "qui",
+     "?21"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 150,
+    "row": "a1_04",
+    "left": [
+     "29",
+     "87",
+     "64"
+    ],
+    "right": [
+     "47",
+     "46",
+     "66"
+    ],
+    "left_plain": [
+     "er",
+     "ce",
+     "qui"
+    ],
+    "right_plain": [
+     "?47",
+     "que",
+     "?66"
+    ],
+    "neighbor_notes": {
+     "R1(47)": "47=\"ce\" LEAD (strengthened F55)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 224,
+    "row": "a2_01",
+    "left": [
+     "24",
+     "89",
+     "61"
+    ],
+    "right": [
+     "87",
+     "46",
+     "98"
+    ],
+    "left_plain": [
+     "?24",
+     "?89",
+     "?61"
+    ],
+    "right_plain": [
+     "ce",
+     "que",
+     "?98"
+    ],
+    "neighbor_notes": {
+     "L1(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 230,
+    "row": "a2_01",
+    "left": [
+     "98",
+     "83",
+     "82"
+    ],
+    "right": [
+     "21",
+     "60",
+     "71"
+    ],
+    "left_plain": [
+     "?98",
+     "?83",
+     "m"
+    ],
+    "right_plain": [
+     "?21",
+     "?60",
+     "?71"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 342,
+    "row": "a2_05",
+    "left": [
+     "14",
+     "45",
+     "64"
+    ],
+    "right": [
+     "43",
+     "87",
+     "01"
+    ],
+    "left_plain": [
+     "?14",
+     "?45",
+     "qui"
+    ],
+    "right_plain": [
+     "?43",
+     "ce",
+     "?01"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 465,
+    "row": "a2_10",
+    "left": [
+     "11",
+     "59",
+     "42"
+    ],
+    "right": [
+     "00",
+     "33",
+     "79"
+    ],
+    "left_plain": [
+     "la",
+     "est (prov)",
+     "?42"
+    ],
+    "right_plain": [
+     "?00",
+     "?33",
+     "?79"
+    ],
+    "neighbor_notes": {
+     "L2(59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade",
+     "R1(00)": "00=\"le\" conditioned-islet LEAD (pre=96, n=3); rival 00=\"pour\" STRONG LEAD unconditioned",
+     "R2(33)": "class=INF"
+    },
+    "frame_constraints": [
+     "right neighbor 33 is class INF (not a value)"
+    ]
+   },
+   {
+    "pos": 602,
+    "row": "a4_00",
+    "left": [
+     "03",
+     "39",
+     "26"
+    ],
+    "right": [
+     "45",
+     "93",
+     "54"
+    ],
+    "left_plain": [
+     "?03",
+     "?39",
+     "?26"
+    ],
+    "right_plain": [
+     "?45",
+     "?93",
+     "?54"
+    ],
+    "neighbor_notes": {
+     "R2(93)": "{93,8}=\"l'\" LEAD as unconditioned homophones; 93=\"l'\" ALONE rate-KILLED"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 847,
+    "row": "a5_06",
+    "left": [
+     "16",
+     "00",
+     "33"
+    ],
+    "right": [
+     "40",
+     "62",
+     "21"
+    ],
+    "left_plain": [
+     "?16",
+     "?00",
+     "?33"
+    ],
+    "right_plain": [
+     "e",
+     "?62",
+     "?21"
+    ],
+    "neighbor_notes": {
+     "L2(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet",
+     "L3(33)": "class=INF",
+     "R2(62)": "62=\"on\" fenced STRONG LEAD"
+    },
+    "frame_constraints": [
+     "left neighbor 33 is class INF (not a value)"
+    ]
+   },
+   {
+    "pos": 914,
+    "row": "a5_09",
+    "left": [
+     "83",
+     "59",
+     "37"
+    ],
+    "right": [
+     "09",
+     "02",
+     "24"
+    ],
+    "left_plain": [
+     "?83",
+     "est (prov)",
+     "?37"
+    ],
+    "right_plain": [
+     "?09",
+     "?02",
+     "?24"
+    ],
+    "neighbor_notes": {
+     "L2(59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade",
+     "L3(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "R3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 927,
+    "row": "a5_10",
+    "left": [
+     "71",
+     "17",
+     "61"
+    ],
+    "right": [
+     "48",
+     "82",
+     "98"
+    ],
+    "left_plain": [
+     "?71",
+     "?17",
+     "?61"
+    ],
+    "right_plain": [
+     "?48",
+     "m",
+     "?98"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 947,
+    "row": "a5_10",
+    "left": [
+     "08",
+     "62",
+     "98"
+    ],
+    "right": [
+     "86",
+     "01",
+     "77"
+    ],
+    "left_plain": [
+     "?08",
+     "?62",
+     "?98"
+    ],
+    "right_plain": [
+     "?86",
+     "?01",
+     "le (prov)"
+    ],
+    "neighbor_notes": {
+     "L2(62)": "62=\"on\" fenced STRONG LEAD"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 952,
+    "row": "a6_00",
+    "left": [
+     "01",
+     "77",
+     "86"
+    ],
+    "right": [
+     "87",
+     "46",
+     "24"
+    ],
+    "left_plain": [
+     "?01",
+     "le (prov)",
+     "?86"
+    ],
+    "right_plain": [
+     "ce",
+     "que",
+     "?24"
+    ],
+    "neighbor_notes": {
+     "R3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 960,
+    "row": "a6_00",
+    "left": [
+     "04",
+     "20",
+     "67"
+    ],
+    "right": [
+     "00",
+     "86",
+     "56"
+    ],
+    "left_plain": [
+     "?04",
+     "?20",
+     "?67"
+    ],
+    "right_plain": [
+     "?00",
+     "?86",
+     "?56"
+    ],
+    "neighbor_notes": {
+     "R1(00)": "00=\"le\" conditioned-islet LEAD (pre=96, n=3); rival 00=\"pour\" STRONG LEAD unconditioned"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 998,
+    "row": "a6_02",
+    "left": [
+     "60",
+     "67",
+     "11"
+    ],
+    "right": [
+     "82",
+     "33",
+     "00"
+    ],
+    "left_plain": [
+     "?60",
+     "?67",
+     "la"
+    ],
+    "right_plain": [
+     "m",
+     "?33",
+     "?00"
+    ],
+    "neighbor_notes": {
+     "R2(33)": "class=INF",
+     "R3(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet"
+    },
+    "frame_constraints": [
+     "right neighbor 33 is class INF (not a value)"
+    ]
+   },
+   {
+    "pos": 1026,
+    "row": "a6_03",
+    "left": [
+     "64",
+     "45",
+     "64"
+    ],
+    "right": [
+     "43",
+     "87",
+     "01"
+    ],
+    "left_plain": [
+     "qui",
+     "?45",
+     "qui"
+    ],
+    "right_plain": [
+     "?43",
+     "ce",
+     "?01"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1063,
+    "row": "a6_04",
+    "left": [
+     "98",
+     "83",
+     "82"
+    ],
+    "right": [
+     "21",
+     "62",
+     "18"
+    ],
+    "left_plain": [
+     "?98",
+     "?83",
+     "m"
+    ],
+    "right_plain": [
+     "?21",
+     "?62",
+     "?18"
+    ],
+    "neighbor_notes": {
+     "R2(62)": "62=\"on\" fenced STRONG LEAD"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1196,
+    "row": "a7_00",
+    "left": [
+     "24",
+     "82",
+     "16"
+    ],
+    "right": [
+     "82",
+     "16",
+     "64"
+    ],
+    "left_plain": [
+     "?24",
+     "m",
+     "?16"
+    ],
+    "right_plain": [
+     "m",
+     "?16",
+     "qui"
+    ],
+    "neighbor_notes": {
+     "L1(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1213,
+    "row": "a7_00",
+    "left": [
+     "59",
+     "32",
+     "48"
+    ],
+    "right": [
+     "45",
+     "36",
+     "77"
+    ],
+    "left_plain": [
+     "est (prov)",
+     "?32",
+     "?48"
+    ],
+    "right_plain": [
+     "?45",
+     "?36",
+     "le (prov)"
+    ],
+    "neighbor_notes": {
+     "L1(59)": "59 est-arm (pre=64 in {64,94,93}): word-\"est\" ISLET 10"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1526,
+    "row": "a8_00",
+    "left": [
+     "11",
+     "11",
+     "48"
+    ],
+    "right": [
+     "87",
+     "46",
+     "21"
+    ],
+    "left_plain": [
+     "la",
+     "la",
+     "?48"
+    ],
+    "right_plain": [
+     "ce",
+     "que",
+     "?21"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1786,
+    "row": "a8_09",
+    "left": [
+     "98",
+     "83",
+     "82"
+    ],
+    "right": [
+     "21",
+     "68",
+     "47"
+    ],
+    "left_plain": [
+     "?98",
+     "?83",
+     "m"
+    ],
+    "right_plain": [
+     "?21",
+     "?68",
+     "?47"
+    ],
+    "neighbor_notes": {
+     "R3(47)": "47=\"ce\" LEAD (strengthened F55)"
+    },
+    "frame_constraints": []
+   }
+  ]
+ },
+ {
+  "id": "est",
+  "groups": [
+   "59"
+  ],
+  "plaintext": "est",
+  "status": "provisional",
+  "note": "59=est provisional; conditioned arms: est-arm iff pre in {64,94,93}, -este-arm iff pre=84",
+  "positions": [
+   103,
+   216,
+   316,
+   448,
+   463,
+   528,
+   554,
+   559,
+   624,
+   763,
+   825,
+   834,
+   912,
+   1178,
+   1186,
+   1190,
+   1210,
+   1291,
+   1443,
+   1448,
+   1496,
+   1511,
+   1715,
+   1777,
+   1796,
+   1804,
+   1833
+  ],
+  "count": 27,
+  "expected": null,
+  "occurrences": [
+   {
+    "pos": 103,
+    "row": "a1_03",
+    "left": [
+     "62",
+     "94",
+     "93"
+    ],
+    "right": [
+     "45",
+     "28",
+     "00"
+    ],
+    "left_plain": [
+     "?62",
+     "?94",
+     "?93"
+    ],
+    "right_plain": [
+     "?45",
+     "?28",
+     "?00"
+    ],
+    "neighbor_notes": {
+     "L1(62)": "62=\"on\" fenced STRONG LEAD",
+     "L2(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "L3(93)": "{93,8}=\"l'\" LEAD as unconditioned homophones; 93=\"l'\" ALONE rate-KILLED",
+     "R3(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet",
+     "self[0](59)": "59 est-arm (pre=93 in {64,94,93}): word-\"est\" ISLET 10"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 216,
+    "row": "a2_00",
+    "left": [
+     "77",
+     "78",
+     "06"
+    ],
+    "right": [
+     "46",
+     "29",
+     "42"
+    ],
+    "left_plain": [
+     "le (prov)",
+     "?78",
+     "?06"
+    ],
+    "right_plain": [
+     "que",
+     "er",
+     "?42"
+    ],
+    "neighbor_notes": {
+     "L3(06)": "06 general=\"ent\" REFUTED (N22); unclassified here",
+     "self[0](59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 316,
+    "row": "a2_04",
+    "left": [
+     "78",
+     "45",
+     "64"
+    ],
+    "right": [
+     "32",
+     "94",
+     "06"
+    ],
+    "left_plain": [
+     "?78",
+     "?45",
+     "qui"
+    ],
+    "right_plain": [
+     "?32",
+     "?94",
+     "?06"
+    ],
+    "neighbor_notes": {
+     "R2(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "R3(06)": "06 general=\"ent\" REFUTED (N22); unclassified here",
+     "self[0](59)": "59 est-arm (pre=64 in {64,94,93}): word-\"est\" ISLET 10"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 448,
+    "row": "a2_09",
+    "left": [
+     "10",
+     "62",
+     "61"
+    ],
+    "right": [
+     "32",
+     "48",
+     "79"
+    ],
+    "left_plain": [
+     "?10",
+     "?62",
+     "?61"
+    ],
+    "right_plain": [
+     "?32",
+     "?48",
+     "?79"
+    ],
+    "neighbor_notes": {
+     "L2(62)": "62=\"on\" fenced STRONG LEAD",
+     "self[0](59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 463,
+    "row": "a2_10",
+    "left": [
+     "79",
+     "87",
+     "11"
+    ],
+    "right": [
+     "42",
+     "96",
+     "00"
+    ],
+    "left_plain": [
+     "?79",
+     "ce",
+     "la"
+    ],
+    "right_plain": [
+     "?42",
+     "par",
+     "?00"
+    ],
+    "neighbor_notes": {
+     "R3(00)": "00=\"le\" conditioned-islet LEAD (pre=96, n=3); rival 00=\"pour\" STRONG LEAD unconditioned",
+     "self[0](59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 528,
+    "row": "a3_00",
+    "left": [
+     "97",
+     "47",
+     "44"
+    ],
+    "right": [
+     "37",
+     "64",
+     "26"
+    ],
+    "left_plain": [
+     "?97",
+     "?47",
+     "?44"
+    ],
+    "right_plain": [
+     "?37",
+     "qui",
+     "?26"
+    ],
+    "neighbor_notes": {
+     "L2(47)": "47=\"ce\" LEAD (strengthened F55)",
+     "R1(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "self[0](59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 554,
+    "row": "a3_01",
+    "left": [
+     "81",
+     "00",
+     "86"
+    ],
+    "right": [
+     "34",
+     "17",
+     "86"
+    ],
+    "left_plain": [
+     "?81",
+     "?00",
+     "?86"
+    ],
+    "right_plain": [
+     "i",
+     "?17",
+     "?86"
+    ],
+    "neighbor_notes": {
+     "L2(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet",
+     "self[0](59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 559,
+    "row": "a3_02",
+    "left": [
+     "17",
+     "86",
+     "94"
+    ],
+    "right": [
+     "30",
+     "67",
+     "11"
+    ],
+    "left_plain": [
+     "?17",
+     "?86",
+     "?94"
+    ],
+    "right_plain": [
+     "?30",
+     "?67",
+     "la"
+    ],
+    "neighbor_notes": {
+     "L3(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "self[0](59)": "59 est-arm (pre=94 in {64,94,93}): word-\"est\" ISLET 10"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 624,
+    "row": "a4_01",
+    "left": [
+     "76",
+     "82",
+     "14"
+    ],
+    "right": [
+     "37",
+     "33",
+     "29"
+    ],
+    "left_plain": [
+     "?76",
+     "m",
+     "?14"
+    ],
+    "right_plain": [
+     "?37",
+     "?33",
+     "er"
+    ],
+    "neighbor_notes": {
+     "R1(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "R2(33)": "class=INF",
+     "self[0](59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": [
+     "right neighbor 33 is class INF (not a value)"
+    ]
+   },
+   {
+    "pos": 763,
+    "row": "a5_03",
+    "left": [
+     "20",
+     "62",
+     "94"
+    ],
+    "right": [
+     "39",
+     "88",
+     "66"
+    ],
+    "left_plain": [
+     "?20",
+     "?62",
+     "?94"
+    ],
+    "right_plain": [
+     "?39",
+     "?88",
+     "?66"
+    ],
+    "neighbor_notes": {
+     "L2(62)": "62=\"on\" fenced STRONG LEAD",
+     "L3(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "self[0](59)": "59 est-arm (pre=94 in {64,94,93}): word-\"est\" ISLET 10"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 825,
+    "row": "a5_06",
+    "left": [
+     "13",
+     "24",
+     "87"
+    ],
+    "right": [
+     "38",
+     "82",
+     "01"
+    ],
+    "left_plain": [
+     "?13",
+     "?24",
+     "ce"
+    ],
+    "right_plain": [
+     "?38",
+     "m",
+     "?01"
+    ],
+    "neighbor_notes": {
+     "L2(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "self[0](59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 834,
+    "row": "a5_06",
+    "left": [
+     "11",
+     "77",
+     "76"
+    ],
+    "right": [
+     "35",
+     "56",
+     "17"
+    ],
+    "left_plain": [
+     "la",
+     "le (prov)",
+     "?76"
+    ],
+    "right_plain": [
+     "?35",
+     "?56",
+     "?17"
+    ],
+    "neighbor_notes": {
+     "self[0](59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 912,
+    "row": "a5_09",
+    "left": [
+     "49",
+     "64",
+     "83"
+    ],
+    "right": [
+     "37",
+     "96",
+     "09"
+    ],
+    "left_plain": [
+     "?49",
+     "qui",
+     "?83"
+    ],
+    "right_plain": [
+     "?37",
+     "par",
+     "?09"
+    ],
+    "neighbor_notes": {
+     "R1(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "self[0](59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1178,
+    "row": "a6_10",
+    "left": [
+     "74",
+     "32",
+     "48"
+    ],
+    "right": [
+     "37",
+     "77",
+     "78"
+    ],
+    "left_plain": [
+     "?74",
+     "?32",
+     "?48"
+    ],
+    "right_plain": [
+     "?37",
+     "le (prov)",
+     "?78"
+    ],
+    "neighbor_notes": {
+     "R1(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "self[0](59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1186,
+    "row": "a6_10",
+    "left": [
+     "82",
+     "06",
+     "06"
+    ],
+    "right": [
+     "42",
+     "06",
+     "84"
+    ],
+    "left_plain": [
+     "m",
+     "?06",
+     "?06"
+    ],
+    "right_plain": [
+     "?42",
+     "?06",
+     "?84"
+    ],
+    "neighbor_notes": {
+     "L2(06)": "06=\"ent\" conditioned LEAD iff pre=82 (n=4, n_eff=3)",
+     "L3(06)": "06 general=\"ent\" REFUTED (N22); unclassified here",
+     "R2(06)": "06 general=\"ent\" REFUTED (N22); unclassified here",
+     "R3(84)": "84 unclassified (neither \"en\" nor noun arm)",
+     "self[0](59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1190,
+    "row": "a6_10",
+    "left": [
+     "42",
+     "06",
+     "84"
+    ],
+    "right": [
+     "46",
+     "07",
+     "24"
+    ],
+    "left_plain": [
+     "?42",
+     "?06",
+     "?84"
+    ],
+    "right_plain": [
+     "que",
+     "?07",
+     "?24"
+    ],
+    "neighbor_notes": {
+     "L2(06)": "06 general=\"ent\" REFUTED (N22); unclassified here",
+     "L3(84)": "84 unclassified (neither \"en\" nor noun arm)",
+     "R3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "self[0](59)": "59 -este-arm (pre=84): verb-final \"-este\" ISLET 10"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1210,
+    "row": "a7_00",
+    "left": [
+     "21",
+     "65",
+     "64"
+    ],
+    "right": [
+     "32",
+     "48",
+     "96"
+    ],
+    "left_plain": [
+     "?21",
+     "?65",
+     "qui"
+    ],
+    "right_plain": [
+     "?32",
+     "?48",
+     "par"
+    ],
+    "neighbor_notes": {
+     "self[0](59)": "59 est-arm (pre=64 in {64,94,93}): word-\"est\" ISLET 10"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1291,
+    "row": "a7_03",
+    "left": [
+     "11",
+     "17",
+     "84"
+    ],
+    "right": [
+     "35",
+     "94",
+     "52"
+    ],
+    "left_plain": [
+     "la",
+     "?17",
+     "?84"
+    ],
+    "right_plain": [
+     "?35",
+     "?94",
+     "?52"
+    ],
+    "neighbor_notes": {
+     "L3(84)": "84 unclassified (neither \"en\" nor noun arm)",
+     "R2(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "self[0](59)": "59 -este-arm (pre=84): verb-final \"-este\" ISLET 10"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1443,
+    "row": "a7_09",
+    "left": [
+     "01",
+     "52",
+     "68"
+    ],
+    "right": [
+     "37",
+     "64",
+     "77"
+    ],
+    "left_plain": [
+     "?01",
+     "?52",
+     "?68"
+    ],
+    "right_plain": [
+     "?37",
+     "qui",
+     "le (prov)"
+    ],
+    "neighbor_notes": {
+     "R1(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "self[0](59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1448,
+    "row": "a7_09",
+    "left": [
+     "64",
+     "77",
+     "84"
+    ],
+    "right": [
+     "36",
+     "67",
+     "33"
+    ],
+    "left_plain": [
+     "qui",
+     "le (prov)",
+     "?84"
+    ],
+    "right_plain": [
+     "?36",
+     "?67",
+     "?33"
+    ],
+    "neighbor_notes": {
+     "L3(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)",
+     "R3(33)": "class=INF",
+     "self[0](59)": "59 -este-arm (pre=84): verb-final \"-este\" ISLET 10"
+    },
+    "frame_constraints": [
+     "right neighbor 33 is class INF (not a value)"
+    ]
+   },
+   {
+    "pos": 1496,
+    "row": "a7_10",
+    "left": [
+     "00",
+     "66",
+     "15"
+    ],
+    "right": [
+     "24",
+     "89",
+     "41"
+    ],
+    "left_plain": [
+     "?00",
+     "?66",
+     "?15"
+    ],
+    "right_plain": [
+     "?24",
+     "?89",
+     "?41"
+    ],
+    "neighbor_notes": {
+     "L1(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet",
+     "R1(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "self[0](59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1511,
+    "row": "a7_11",
+    "left": [
+     "41",
+     "12",
+     "61"
+    ],
+    "right": [
+     "39",
+     "81",
+     "88"
+    ],
+    "left_plain": [
+     "?41",
+     "?12",
+     "?61"
+    ],
+    "right_plain": [
+     "?39",
+     "?81",
+     "?88"
+    ],
+    "neighbor_notes": {
+     "self[0](59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1715,
+    "row": "a8_06",
+    "left": [
+     "65",
+     "94",
+     "44"
+    ],
+    "right": [
+     "30",
+     "64",
+     "47"
+    ],
+    "left_plain": [
+     "?65",
+     "?94",
+     "?44"
+    ],
+    "right_plain": [
+     "?30",
+     "qui",
+     "?47"
+    ],
+    "neighbor_notes": {
+     "L2(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "R3(47)": "47=\"ce\" LEAD (strengthened F55)",
+     "self[0](59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1777,
+    "row": "a8_09",
+    "left": [
+     "24",
+     "87",
+     "64"
+    ],
+    "right": [
+     "19",
+     "48",
+     "74"
+    ],
+    "left_plain": [
+     "?24",
+     "ce",
+     "qui"
+    ],
+    "right_plain": [
+     "?19",
+     "?48",
+     "?74"
+    ],
+    "neighbor_notes": {
+     "L1(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "self[0](59)": "59 est-arm (pre=64 in {64,94,93}): word-\"est\" ISLET 10"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1796,
+    "row": "a8_10",
+    "left": [
+     "56",
+     "42",
+     "94"
+    ],
+    "right": [
+     "37",
+     "91",
+     "79"
+    ],
+    "left_plain": [
+     "?56",
+     "?42",
+     "?94"
+    ],
+    "right_plain": [
+     "?37",
+     "?91",
+     "?79"
+    ],
+    "neighbor_notes": {
+     "L3(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "R1(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "self[0](59)": "59 est-arm (pre=94 in {64,94,93}): word-\"est\" ISLET 10"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1804,
+    "row": "a8_10",
+    "left": [
+     "64",
+     "77",
+     "84"
+    ],
+    "right": [
+     "35",
+     "94",
+     "52"
+    ],
+    "left_plain": [
+     "qui",
+     "le (prov)",
+     "?84"
+    ],
+    "right_plain": [
+     "?35",
+     "?94",
+     "?52"
+    ],
+    "neighbor_notes": {
+     "L3(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)",
+     "R2(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87",
+     "self[0](59)": "59 -este-arm (pre=84): verb-final \"-este\" ISLET 10"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1833,
+    "row": "a8_11",
+    "left": [
+     "24",
+     "82",
+     "16"
+    ],
+    "right": [
+     "36",
+     "69",
+     "64"
+    ],
+    "left_plain": [
+     "?24",
+     "m",
+     "?16"
+    ],
+    "right_plain": [
+     "?36",
+     "?69",
+     "qui"
+    ],
+    "neighbor_notes": {
+     "L1(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "self[0](59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   }
+  ]
+ },
+ {
+  "id": "le-77",
+  "groups": [
+   "77"
+  ],
+  "plaintext": "le",
+  "status": "provisional",
+  "note": "77=\"le\" provisional-conditioned",
+  "positions": [
+   7,
+   87,
+   145,
+   207,
+   213,
+   259,
+   430,
+   453,
+   507,
+   516,
+   521,
+   612,
+   639,
+   647,
+   677,
+   721,
+   744,
+   790,
+   798,
+   832,
+   870,
+   877,
+   891,
+   950,
+   968,
+   1033,
+   1041,
+   1057,
+   1077,
+   1133,
+   1158,
+   1180,
+   1216,
+   1240,
+   1306,
+   1351,
+   1401,
+   1446,
+   1484,
+   1542,
+   1598,
+   1678,
+   1763,
+   1802
+  ],
+  "count": 44,
+  "expected": null,
+  "occurrences": [
+   {
+    "pos": 7,
+    "row": "a1_00",
+    "left": [
+     "47",
+     "41",
+     "06"
+    ],
+    "right": [
+     "78",
+     "18",
+     "93"
+    ],
+    "left_plain": [
+     "?47",
+     "?41",
+     "?06"
+    ],
+    "right_plain": [
+     "?78",
+     "?18",
+     "?93"
+    ],
+    "neighbor_notes": {
+     "L1(47)": "47=\"ce\" LEAD (strengthened F55)",
+     "L3(06)": "06 general=\"ent\" REFUTED (N22); unclassified here",
+     "R3(93)": "{93,8}=\"l'\" LEAD as unconditioned homophones; 93=\"l'\" ALONE rate-KILLED"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 87,
+    "row": "a1_02",
+    "left": [
+     "14",
+     "06",
+     "88"
+    ],
+    "right": [
+     "66",
+     "98",
+     "19"
+    ],
+    "left_plain": [
+     "?14",
+     "?06",
+     "?88"
+    ],
+    "right_plain": [
+     "?66",
+     "?98",
+     "?19"
+    ],
+    "neighbor_notes": {
+     "L2(06)": "06 general=\"ent\" REFUTED (N22); unclassified here"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 145,
+    "row": "a1_04",
+    "left": [
+     "74",
+     "67",
+     "64"
+    ],
+    "right": [
+     "84",
+     "29",
+     "87"
+    ],
+    "left_plain": [
+     "?74",
+     "?67",
+     "qui"
+    ],
+    "right_plain": [
+     "?84",
+     "er",
+     "ce"
+    ],
+    "neighbor_notes": {
+     "R1(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 207,
+    "row": "a2_00",
+    "left": [
+     "63",
+     "42",
+     "06"
+    ],
+    "right": [
+     "44",
+     "50",
+     "88"
+    ],
+    "left_plain": [
+     "?63",
+     "?42",
+     "?06"
+    ],
+    "right_plain": [
+     "?44",
+     "?50",
+     "?88"
+    ],
+    "neighbor_notes": {
+     "L3(06)": "06 general=\"ent\" REFUTED (N22); unclassified here"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 213,
+    "row": "a2_00",
+    "left": [
+     "88",
+     "19",
+     "74"
+    ],
+    "right": [
+     "78",
+     "06",
+     "59"
+    ],
+    "left_plain": [
+     "?88",
+     "?19",
+     "?74"
+    ],
+    "right_plain": [
+     "?78",
+     "?06",
+     "est (prov)"
+    ],
+    "neighbor_notes": {
+     "R2(06)": "06 general=\"ent\" REFUTED (N22); unclassified here",
+     "R3(59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 259,
+    "row": "a2_02",
+    "left": [
+     "91",
+     "32",
+     "43"
+    ],
+    "right": [
+     "84",
+     "74",
+     "45"
+    ],
+    "left_plain": [
+     "?91",
+     "?32",
+     "?43"
+    ],
+    "right_plain": [
+     "?84",
+     "?74",
+     "?45"
+    ],
+    "neighbor_notes": {
+     "R1(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 430,
+    "row": "a2_09",
+    "left": [
+     "76",
+     "42",
+     "63"
+    ],
+    "right": [
+     "86",
+     "29",
+     "82"
+    ],
+    "left_plain": [
+     "?76",
+     "?42",
+     "?63"
+    ],
+    "right_plain": [
+     "?86",
+     "er",
+     "m"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 453,
+    "row": "a2_10",
+    "left": [
+     "48",
+     "79",
+     "17"
+    ],
+    "right": [
+     "60",
+     "65",
+     "13"
+    ],
+    "left_plain": [
+     "?48",
+     "?79",
+     "?17"
+    ],
+    "right_plain": [
+     "?60",
+     "?65",
+     "?13"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 507,
+    "row": "a3_00",
+    "left": [
+     "68",
+     "21",
+     "67"
+    ],
+    "right": [
+     "62",
+     "94",
+     "64"
+    ],
+    "left_plain": [
+     "?68",
+     "?21",
+     "?67"
+    ],
+    "right_plain": [
+     "?62",
+     "?94",
+     "qui"
+    ],
+    "neighbor_notes": {
+     "R1(62)": "62=\"on\" fenced STRONG LEAD",
+     "R2(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 516,
+    "row": "a3_00",
+    "left": [
+     "88",
+     "56",
+     "87"
+    ],
+    "right": [
+     "80",
+     "09",
+     "70"
+    ],
+    "left_plain": [
+     "?88",
+     "?56",
+     "ce"
+    ],
+    "right_plain": [
+     "?80",
+     "?09",
+     "pre"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 521,
+    "row": "a3_00",
+    "left": [
+     "09",
+     "70",
+     "91"
+    ],
+    "right": [
+     "06",
+     "55",
+     "81"
+    ],
+    "left_plain": [
+     "?09",
+     "pre",
+     "?91"
+    ],
+    "right_plain": [
+     "?06",
+     "?55",
+     "?81"
+    ],
+    "neighbor_notes": {
+     "R1(06)": "06 general=\"ent\" REFUTED (N22); unclassified here"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 612,
+    "row": "a4_00",
+    "left": [
+     "02",
+     "58",
+     "47"
+    ],
+    "right": [
+     "87",
+     "83",
+     "70"
+    ],
+    "left_plain": [
+     "?02",
+     "?58",
+     "?47"
+    ],
+    "right_plain": [
+     "ce",
+     "?83",
+     "pre"
+    ],
+    "neighbor_notes": {
+     "L3(47)": "47=\"ce\" LEAD (strengthened F55)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 639,
+    "row": "a4_01",
+    "left": [
+     "46",
+     "60",
+     "67"
+    ],
+    "right": [
+     "89",
+     "48",
+     "20"
+    ],
+    "left_plain": [
+     "que",
+     "?60",
+     "?67"
+    ],
+    "right_plain": [
+     "?89",
+     "?48",
+     "?20"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 647,
+    "row": "a4_02",
+    "left": [
+     "87",
+     "61",
+     "88"
+    ],
+    "right": [
+     "78",
+     "52",
+     "82"
+    ],
+    "left_plain": [
+     "ce",
+     "?61",
+     "?88"
+    ],
+    "right_plain": [
+     "?78",
+     "?52",
+     "m"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 677,
+    "row": "a5_00",
+    "left": [
+     "03",
+     "64",
+     "37"
+    ],
+    "right": [
+     "45",
+     "23",
+     "09"
+    ],
+    "left_plain": [
+     "?03",
+     "qui",
+     "?37"
+    ],
+    "right_plain": [
+     "?45",
+     "?23",
+     "?09"
+    ],
+    "neighbor_notes": {
+     "L3(37)": "37=\"le\" MEDIUM (rival to 77)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 721,
+    "row": "a5_02",
+    "left": [
+     "02",
+     "21",
+     "80"
+    ],
+    "right": [
+     "03",
+     "91",
+     "65"
+    ],
+    "left_plain": [
+     "?02",
+     "?21",
+     "?80"
+    ],
+    "right_plain": [
+     "?03",
+     "?91",
+     "?65"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 744,
+    "row": "a5_02",
+    "left": [
+     "20",
+     "30",
+     "67"
+    ],
+    "right": [
+     "81",
+     "85",
+     "28"
+    ],
+    "left_plain": [
+     "?20",
+     "?30",
+     "?67"
+    ],
+    "right_plain": [
+     "?81",
+     "?85",
+     "?28"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 790,
+    "row": "a5_04",
+    "left": [
+     "65",
+     "84",
+     "06"
+    ],
+    "right": [
+     "64",
+     "46",
+     "07"
+    ],
+    "left_plain": [
+     "?65",
+     "?84",
+     "?06"
+    ],
+    "right_plain": [
+     "qui",
+     "que",
+     "?07"
+    ],
+    "neighbor_notes": {
+     "L2(84)": "84 unclassified (neither \"en\" nor noun arm)",
+     "L3(06)": "06 general=\"ent\" REFUTED (N22); unclassified here"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 798,
+    "row": "a5_04",
+    "left": [
+     "56",
+     "37",
+     "44"
+    ],
+    "right": [
+     "86",
+     "44",
+     "74"
+    ],
+    "left_plain": [
+     "?56",
+     "?37",
+     "?44"
+    ],
+    "right_plain": [
+     "?86",
+     "?44",
+     "?74"
+    ],
+    "neighbor_notes": {
+     "L2(37)": "37=\"le\" MEDIUM (rival to 77)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 832,
+    "row": "a5_06",
+    "left": [
+     "24",
+     "87",
+     "11"
+    ],
+    "right": [
+     "76",
+     "59",
+     "35"
+    ],
+    "left_plain": [
+     "?24",
+     "ce",
+     "la"
+    ],
+    "right_plain": [
+     "?76",
+     "est (prov)",
+     "?35"
+    ],
+    "neighbor_notes": {
+     "L1(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R2(59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 870,
+    "row": "a5_07",
+    "left": [
+     "86",
+     "70",
+     "87"
+    ],
+    "right": [
+     "89",
+     "48",
+     "20"
+    ],
+    "left_plain": [
+     "?86",
+     "pre",
+     "ce"
+    ],
+    "right_plain": [
+     "?89",
+     "?48",
+     "?20"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 877,
+    "row": "a5_08",
+    "left": [
+     "74",
+     "49",
+     "16"
+    ],
+    "right": [
+     "86",
+     "78",
+     "17"
+    ],
+    "left_plain": [
+     "?74",
+     "?49",
+     "?16"
+    ],
+    "right_plain": [
+     "?86",
+     "?78",
+     "?17"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 891,
+    "row": "a5_08",
+    "left": [
+     "00",
+     "86",
+     "06"
+    ],
+    "right": [
+     "76",
+     "01",
+     "98"
+    ],
+    "left_plain": [
+     "?00",
+     "?86",
+     "?06"
+    ],
+    "right_plain": [
+     "?76",
+     "?01",
+     "?98"
+    ],
+    "neighbor_notes": {
+     "L1(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet",
+     "L3(06)": "06 general=\"ent\" REFUTED (N22); unclassified here"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 950,
+    "row": "a6_00",
+    "left": [
+     "96",
+     "86",
+     "01"
+    ],
+    "right": [
+     "86",
+     "96",
+     "87"
+    ],
+    "left_plain": [
+     "par",
+     "?86",
+     "?01"
+    ],
+    "right_plain": [
+     "?86",
+     "par",
+     "ce"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 968,
+    "row": "a6_00",
+    "left": [
+     "19",
+     "24",
+     "06"
+    ],
+    "right": [
+     "76",
+     "01",
+     "98"
+    ],
+    "left_plain": [
+     "?19",
+     "?24",
+     "?06"
+    ],
+    "right_plain": [
+     "?76",
+     "?01",
+     "?98"
+    ],
+    "neighbor_notes": {
+     "L2(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "L3(06)": "06 general=\"ent\" REFUTED (N22); unclassified here"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1033,
+    "row": "a6_03",
+    "left": [
+     "03",
+     "29",
+     "80"
+    ],
+    "right": [
+     "11",
+     "70",
+     "82"
+    ],
+    "left_plain": [
+     "?03",
+     "er",
+     "?80"
+    ],
+    "right_plain": [
+     "la",
+     "pre",
+     "m"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1041,
+    "row": "a6_03",
+    "left": [
+     "29",
+     "40",
+     "17"
+    ],
+    "right": [
+     "82",
+     "63",
+     "11"
+    ],
+    "left_plain": [
+     "er",
+     "e",
+     "?17"
+    ],
+    "right_plain": [
+     "m",
+     "?63",
+     "la"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1057,
+    "row": "a6_04",
+    "left": [
+     "74",
+     "45",
+     "23"
+    ],
+    "right": [
+     "84",
+     "09",
+     "98"
+    ],
+    "left_plain": [
+     "?74",
+     "?45",
+     "?23"
+    ],
+    "right_plain": [
+     "?84",
+     "?09",
+     "?98"
+    ],
+    "neighbor_notes": {
+     "R1(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1077,
+    "row": "a6_05",
+    "left": [
+     "98",
+     "12",
+     "48"
+    ],
+    "right": [
+     "78",
+     "64",
+     "06"
+    ],
+    "left_plain": [
+     "?98",
+     "?12",
+     "?48"
+    ],
+    "right_plain": [
+     "?78",
+     "qui",
+     "?06"
+    ],
+    "neighbor_notes": {
+     "R3(06)": "06 general=\"ent\" REFUTED (N22); unclassified here"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1133,
+    "row": "a6_08",
+    "left": [
+     "37",
+     "86",
+     "24"
+    ],
+    "right": [
+     "86",
+     "20",
+     "62"
+    ],
+    "left_plain": [
+     "?37",
+     "?86",
+     "?24"
+    ],
+    "right_plain": [
+     "?86",
+     "?20",
+     "?62"
+    ],
+    "neighbor_notes": {
+     "L1(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "L3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)",
+     "R3(62)": "62=\"on\" fenced STRONG LEAD"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1158,
+    "row": "a6_09",
+    "left": [
+     "29",
+     "80",
+     "17"
+    ],
+    "right": [
+     "82",
+     "44",
+     "83"
+    ],
+    "left_plain": [
+     "er",
+     "?80",
+     "?17"
+    ],
+    "right_plain": [
+     "m",
+     "?44",
+     "?83"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1180,
+    "row": "a6_10",
+    "left": [
+     "48",
+     "59",
+     "37"
+    ],
+    "right": [
+     "78",
+     "94",
+     "82"
+    ],
+    "left_plain": [
+     "?48",
+     "est (prov)",
+     "?37"
+    ],
+    "right_plain": [
+     "?78",
+     "?94",
+     "m"
+    ],
+    "neighbor_notes": {
+     "L2(59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade",
+     "L3(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "R2(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1216,
+    "row": "a7_00",
+    "left": [
+     "96",
+     "45",
+     "36"
+    ],
+    "right": [
+     "83",
+     "92",
+     "61"
+    ],
+    "left_plain": [
+     "par",
+     "?45",
+     "?36"
+    ],
+    "right_plain": [
+     "?83",
+     "?92",
+     "?61"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1240,
+    "row": "a7_01",
+    "left": [
+     "03",
+     "40",
+     "67"
+    ],
+    "right": [
+     "81",
+     "87",
+     "11"
+    ],
+    "left_plain": [
+     "?03",
+     "e",
+     "?67"
+    ],
+    "right_plain": [
+     "?81",
+     "ce",
+     "la"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1306,
+    "row": "a7_04",
+    "left": [
+     "43",
+     "21",
+     "43"
+    ],
+    "right": [
+     "74",
+     "52",
+     "30"
+    ],
+    "left_plain": [
+     "?43",
+     "?21",
+     "?43"
+    ],
+    "right_plain": [
+     "?74",
+     "?52",
+     "?30"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1351,
+    "row": "a7_05",
+    "left": [
+     "34",
+     "62",
+     "48"
+    ],
+    "right": [
+     "78",
+     "94",
+     "82"
+    ],
+    "left_plain": [
+     "i",
+     "?62",
+     "?48"
+    ],
+    "right_plain": [
+     "?78",
+     "?94",
+     "m"
+    ],
+    "neighbor_notes": {
+     "L2(62)": "62=\"on\" fenced STRONG LEAD",
+     "R2(94)": "94=\"ne\" provisional-strong (CONFIRMED legs 1-2); rival 94=\"re\" disfavored; 94=\"en\" conditioned-islet iff pre==82 or suc==87"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1401,
+    "row": "a7_07",
+    "left": [
+     "48",
+     "40",
+     "67"
+    ],
+    "right": [
+     "81",
+     "87",
+     "11"
+    ],
+    "left_plain": [
+     "?48",
+     "e",
+     "?67"
+    ],
+    "right_plain": [
+     "?81",
+     "ce",
+     "la"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1446,
+    "row": "a7_09",
+    "left": [
+     "59",
+     "37",
+     "64"
+    ],
+    "right": [
+     "84",
+     "59",
+     "36"
+    ],
+    "left_plain": [
+     "est (prov)",
+     "?37",
+     "qui"
+    ],
+    "right_plain": [
+     "?84",
+     "est (prov)",
+     "?36"
+    ],
+    "neighbor_notes": {
+     "L1(59)": "59 unclassified: unconditioned 59=\"est\" REFUTED kill-grade",
+     "L2(37)": "37=\"le\" MEDIUM (rival to 77)",
+     "R1(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)",
+     "R2(59)": "59 -este-arm (pre=84): verb-final \"-este\" ISLET 10"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1484,
+    "row": "a7_10",
+    "left": [
+     "98",
+     "62",
+     "46"
+    ],
+    "right": [
+     "84",
+     "24",
+     "87"
+    ],
+    "left_plain": [
+     "?98",
+     "?62",
+     "que"
+    ],
+    "right_plain": [
+     "?84",
+     "?24",
+     "ce"
+    ],
+    "neighbor_notes": {
+     "L2(62)": "62=\"on\" fenced STRONG LEAD",
+     "R1(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)",
+     "R2(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1542,
+    "row": "a8_00",
+    "left": [
+     "62",
+     "93",
+     "88"
+    ],
+    "right": [
+     "78",
+     "43",
+     "00"
+    ],
+    "left_plain": [
+     "?62",
+     "?93",
+     "?88"
+    ],
+    "right_plain": [
+     "?78",
+     "?43",
+     "?00"
+    ],
+    "neighbor_notes": {
+     "L1(62)": "62=\"on\" fenced STRONG LEAD",
+     "L2(93)": "{93,8}=\"l'\" LEAD as unconditioned homophones; 93=\"l'\" ALONE rate-KILLED",
+     "R3(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1598,
+    "row": "a8_02",
+    "left": [
+     "29",
+     "80",
+     "67"
+    ],
+    "right": [
+     "81",
+     "82",
+     "98"
+    ],
+    "left_plain": [
+     "er",
+     "?80",
+     "?67"
+    ],
+    "right_plain": [
+     "?81",
+     "m",
+     "?98"
+    ],
+    "neighbor_notes": {},
+    "frame_constraints": []
+   },
+   {
+    "pos": 1678,
+    "row": "a8_05",
+    "left": [
+     "03",
+     "39",
+     "74"
+    ],
+    "right": [
+     "44",
+     "00",
+     "46"
+    ],
+    "left_plain": [
+     "?03",
+     "?39",
+     "?74"
+    ],
+    "right_plain": [
+     "?44",
+     "?00",
+     "que"
+    ],
+    "neighbor_notes": {
+     "R2(00)": "00: rival 00=\"pour\" STRONG LEAD unconditioned; 00=\"le\" only as pre=96 islet"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1763,
+    "row": "a8_08",
+    "left": [
+     "15",
+     "93",
+     "06"
+    ],
+    "right": [
+     "84",
+     "09",
+     "24"
+    ],
+    "left_plain": [
+     "?15",
+     "?93",
+     "?06"
+    ],
+    "right_plain": [
+     "?84",
+     "?09",
+     "?24"
+    ],
+    "neighbor_notes": {
+     "L2(93)": "{93,8}=\"l'\" LEAD as unconditioned homophones; 93=\"l'\" ALONE rate-KILLED",
+     "L3(06)": "06 general=\"ent\" REFUTED (N22); unclassified here",
+     "R1(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)",
+     "R3(24)": "24=\"de\" scoped KILL inside \"en ce qui\" (cond. 87=ce/64=qui)"
+    },
+    "frame_constraints": []
+   },
+   {
+    "pos": 1802,
+    "row": "a8_10",
+    "left": [
+     "79",
+     "87",
+     "64"
+    ],
+    "right": [
+     "84",
+     "59",
+     "35"
+    ],
+    "left_plain": [
+     "?79",
+     "ce",
+     "qui"
+    ],
+    "right_plain": [
+     "?84",
+     "est (prov)",
+     "?35"
+    ],
+    "neighbor_notes": {
+     "R1(84)": "84=masc-noun conditioned-islet arm (pre=77 in {77,11}, LEAD)",
+     "R2(59)": "59 -este-arm (pre=84): verb-final \"-este\" ISLET 10"
+    },
+    "frame_constraints": []
+   }
+  ]
+ }
+]

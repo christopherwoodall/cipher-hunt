@@ -1,0 +1,716 @@
+[
+ {
+  "pair_id": "D01",
+  "bout": "diagnostic",
+  "votes": [
+   "1cdf730e",
+   "1cdf730e",
+   "1cdf730e"
+  ],
+  "truth_label": "45546fa3",
+  "majority": "1cdf730e",
+  "truth_won": false,
+  "confidences": [
+   95,
+   95,
+   95
+  ]
+ },
+ {
+  "pair_id": "D02",
+  "bout": "diagnostic",
+  "votes": [
+   "79f8354d",
+   "79f8354d",
+   "79f8354d"
+  ],
+  "truth_label": "372e88c5",
+  "majority": "79f8354d",
+  "truth_won": false,
+  "confidences": [
+   95,
+   95,
+   95
+  ]
+ },
+ {
+  "pair_id": "D03",
+  "bout": "diagnostic",
+  "votes": [
+   "a6eef249",
+   "a6eef249",
+   "a6eef249"
+  ],
+  "truth_label": "2bac773b",
+  "majority": "a6eef249",
+  "truth_won": false,
+  "confidences": [
+   100,
+   100,
+   100
+  ]
+ },
+ {
+  "pair_id": "D04",
+  "bout": "diagnostic",
+  "votes": [
+   "c1197e7b",
+   "c1197e7b",
+   "c1197e7b"
+  ],
+  "truth_label": "3bd65d57",
+  "majority": "c1197e7b",
+  "truth_won": false,
+  "confidences": [
+   100,
+   100,
+   100
+  ]
+ },
+ {
+  "pair_id": "D05",
+  "bout": "diagnostic",
+  "votes": [
+   "a9846183",
+   "a9846183",
+   "a9846183"
+  ],
+  "truth_label": "dd01e682",
+  "majority": "a9846183",
+  "truth_won": false,
+  "confidences": [
+   98,
+   98,
+   98
+  ]
+ },
+ {
+  "pair_id": "D06",
+  "bout": "diagnostic",
+  "votes": [
+   "1d4719d3",
+   "1d4719d3",
+   "1d4719d3"
+  ],
+  "truth_label": "97b14e39",
+  "majority": "1d4719d3",
+  "truth_won": false,
+  "confidences": [
+   98,
+   98,
+   98
+  ]
+ },
+ {
+  "pair_id": "P01",
+  "bout": "binding",
+  "votes": [
+   "debdc231",
+   "debdc231",
+   "debdc231"
+  ],
+  "truth_label": "debdc231",
+  "majority": "debdc231",
+  "truth_won": true,
+  "confidences": [
+   82,
+   82,
+   82
+  ]
+ },
+ {
+  "pair_id": "P02",
+  "bout": "binding",
+  "votes": [
+   "212d29b1",
+   "212d29b1",
+   "212d29b1"
+  ],
+  "truth_label": "212d29b1",
+  "majority": "212d29b1",
+  "truth_won": true,
+  "confidences": [
+   82,
+   82,
+   82
+  ]
+ },
+ {
+  "pair_id": "P03",
+  "bout": "binding",
+  "votes": [
+   "aa6a6c7e",
+   "aa6a6c7e",
+   "aa6a6c7e"
+  ],
+  "truth_label": "aa6a6c7e",
+  "majority": "aa6a6c7e",
+  "truth_won": true,
+  "confidences": [
+   82,
+   82,
+   82
+  ]
+ },
+ {
+  "pair_id": "P04",
+  "bout": "binding",
+  "votes": [
+   "e671b87f",
+   "e671b87f",
+   "e671b87f"
+  ],
+  "truth_label": "e671b87f",
+  "majority": "e671b87f",
+  "truth_won": true,
+  "confidences": [
+   82,
+   82,
+   82
+  ]
+ },
+ {
+  "pair_id": "P05",
+  "bout": "binding",
+  "votes": [
+   "1514d250",
+   "1514d250",
+   "1514d250"
+  ],
+  "truth_label": "1514d250",
+  "majority": "1514d250",
+  "truth_won": true,
+  "confidences": [
+   82,
+   82,
+   82
+  ]
+ },
+ {
+  "pair_id": "P06",
+  "bout": "binding",
+  "votes": [
+   "3a435956",
+   "3a435956",
+   "3a435956"
+  ],
+  "truth_label": "3a435956",
+  "majority": "3a435956",
+  "truth_won": true,
+  "confidences": [
+   82,
+   82,
+   82
+  ]
+ },
+ {
+  "pair_id": "P07",
+  "bout": "binding",
+  "votes": [
+   "af7e3123",
+   "af7e3123",
+   "af7e3123"
+  ],
+  "truth_label": "af7e3123",
+  "majority": "af7e3123",
+  "truth_won": true,
+  "confidences": [
+   76,
+   76,
+   76
+  ]
+ },
+ {
+  "pair_id": "P08",
+  "bout": "binding",
+  "votes": [
+   "f0effbd8",
+   "f0effbd8",
+   "f0effbd8"
+  ],
+  "truth_label": "f0effbd8",
+  "majority": "f0effbd8",
+  "truth_won": true,
+  "confidences": [
+   76,
+   76,
+   76
+  ]
+ },
+ {
+  "pair_id": "P09",
+  "bout": "binding",
+  "votes": [
+   "4f9b2d2f",
+   "4f9b2d2f",
+   "4f9b2d2f"
+  ],
+  "truth_label": "4f9b2d2f",
+  "majority": "4f9b2d2f",
+  "truth_won": true,
+  "confidences": [
+   76,
+   76,
+   76
+  ]
+ },
+ {
+  "pair_id": "P10",
+  "bout": "binding",
+  "votes": [
+   "217f7b0f",
+   "217f7b0f",
+   "217f7b0f"
+  ],
+  "truth_label": "217f7b0f",
+  "majority": "217f7b0f",
+  "truth_won": true,
+  "confidences": [
+   76,
+   76,
+   76
+  ]
+ },
+ {
+  "pair_id": "P11",
+  "bout": "binding",
+  "votes": [
+   "4cb1a1b5",
+   "4cb1a1b5",
+   "4cb1a1b5"
+  ],
+  "truth_label": "4cb1a1b5",
+  "majority": "4cb1a1b5",
+  "truth_won": true,
+  "confidences": [
+   76,
+   76,
+   76
+  ]
+ },
+ {
+  "pair_id": "P12",
+  "bout": "binding",
+  "votes": [
+   "e4567abd",
+   "e4567abd",
+   "e4567abd"
+  ],
+  "truth_label": "e4567abd",
+  "majority": "e4567abd",
+  "truth_won": true,
+  "confidences": [
+   76,
+   76,
+   76
+  ]
+ },
+ {
+  "pair_id": "P13",
+  "bout": "binding",
+  "votes": [
+   "246386f1",
+   "246386f1",
+   "246386f1"
+  ],
+  "truth_label": "246386f1",
+  "majority": "246386f1",
+  "truth_won": true,
+  "confidences": [
+   66,
+   66,
+   66
+  ]
+ },
+ {
+  "pair_id": "P14",
+  "bout": "binding",
+  "votes": [
+   "492ad569",
+   "492ad569",
+   "492ad569"
+  ],
+  "truth_label": "492ad569",
+  "majority": "492ad569",
+  "truth_won": true,
+  "confidences": [
+   66,
+   66,
+   66
+  ]
+ },
+ {
+  "pair_id": "P15",
+  "bout": "binding",
+  "votes": [
+   "93438532",
+   "93438532",
+   "93438532"
+  ],
+  "truth_label": "93438532",
+  "majority": "93438532",
+  "truth_won": true,
+  "confidences": [
+   68,
+   68,
+   68
+  ]
+ },
+ {
+  "pair_id": "P16",
+  "bout": "binding",
+  "votes": [
+   "3ba1fb13",
+   "3ba1fb13",
+   "3ba1fb13"
+  ],
+  "truth_label": "3ba1fb13",
+  "majority": "3ba1fb13",
+  "truth_won": true,
+  "confidences": [
+   70,
+   70,
+   70
+  ]
+ },
+ {
+  "pair_id": "P17",
+  "bout": "binding",
+  "votes": [
+   "4015a329",
+   "4015a329",
+   "4015a329"
+  ],
+  "truth_label": "4015a329",
+  "majority": "4015a329",
+  "truth_won": true,
+  "confidences": [
+   72,
+   72,
+   72
+  ]
+ },
+ {
+  "pair_id": "P18",
+  "bout": "binding",
+  "votes": [
+   "26797c3b",
+   "26797c3b",
+   "26797c3b"
+  ],
+  "truth_label": "26797c3b",
+  "majority": "26797c3b",
+  "truth_won": true,
+  "confidences": [
+   68,
+   68,
+   68
+  ]
+ },
+ {
+  "pair_id": "P19",
+  "bout": "binding",
+  "votes": [
+   "b479d610",
+   "b479d610",
+   "b479d610"
+  ],
+  "truth_label": "b479d610",
+  "majority": "b479d610",
+  "truth_won": true,
+  "confidences": [
+   65,
+   65,
+   65
+  ]
+ },
+ {
+  "pair_id": "P20",
+  "bout": "binding",
+  "votes": [
+   "06016150",
+   "06016150",
+   "06016150"
+  ],
+  "truth_label": "06016150",
+  "majority": "06016150",
+  "truth_won": true,
+  "confidences": [
+   66,
+   66,
+   66
+  ]
+ },
+ {
+  "pair_id": "P21",
+  "bout": "binding",
+  "votes": [
+   "7f79c578",
+   "7f79c578",
+   "7f79c578"
+  ],
+  "truth_label": "7f79c578",
+  "majority": "7f79c578",
+  "truth_won": true,
+  "confidences": [
+   66,
+   66,
+   66
+  ]
+ },
+ {
+  "pair_id": "P22",
+  "bout": "binding",
+  "votes": [
+   "2560a86f",
+   "2560a86f",
+   "2560a86f"
+  ],
+  "truth_label": "2560a86f",
+  "majority": "2560a86f",
+  "truth_won": true,
+  "confidences": [
+   70,
+   70,
+   70
+  ]
+ },
+ {
+  "pair_id": "P23",
+  "bout": "binding",
+  "votes": [
+   "acb5ae16",
+   "acb5ae16",
+   "acb5ae16"
+  ],
+  "truth_label": "acb5ae16",
+  "majority": "acb5ae16",
+  "truth_won": true,
+  "confidences": [
+   62,
+   62,
+   62
+  ]
+ },
+ {
+  "pair_id": "P24",
+  "bout": "binding",
+  "votes": [
+   "85c9f047",
+   "85c9f047",
+   "85c9f047"
+  ],
+  "truth_label": "85c9f047",
+  "majority": "85c9f047",
+  "truth_won": true,
+  "confidences": [
+   68,
+   68,
+   68
+  ]
+ },
+ {
+  "pair_id": "P25",
+  "bout": "binding",
+  "votes": [
+   "b2522037",
+   "b2522037",
+   "b2522037"
+  ],
+  "truth_label": "b2522037",
+  "majority": "b2522037",
+  "truth_won": true,
+  "confidences": [
+   90,
+   90,
+   90
+  ]
+ },
+ {
+  "pair_id": "P26",
+  "bout": "binding",
+  "votes": [
+   "8b84c240",
+   "8b84c240",
+   "8b84c240"
+  ],
+  "truth_label": "8b84c240",
+  "majority": "8b84c240",
+  "truth_won": true,
+  "confidences": [
+   90,
+   90,
+   90
+  ]
+ },
+ {
+  "pair_id": "P27",
+  "bout": "binding",
+  "votes": [
+   "b6b84d99",
+   "b6b84d99",
+   "b6b84d99"
+  ],
+  "truth_label": "b6b84d99",
+  "majority": "b6b84d99",
+  "truth_won": true,
+  "confidences": [
+   89,
+   89,
+   89
+  ]
+ },
+ {
+  "pair_id": "P28",
+  "bout": "binding",
+  "votes": [
+   "f5385853",
+   "f5385853",
+   "f5385853"
+  ],
+  "truth_label": "f5385853",
+  "majority": "f5385853",
+  "truth_won": true,
+  "confidences": [
+   90,
+   90,
+   90
+  ]
+ },
+ {
+  "pair_id": "P29",
+  "bout": "binding",
+  "votes": [
+   "22f9fe51",
+   "22f9fe51",
+   "22f9fe51"
+  ],
+  "truth_label": "22f9fe51",
+  "majority": "22f9fe51",
+  "truth_won": true,
+  "confidences": [
+   91,
+   91,
+   91
+  ]
+ },
+ {
+  "pair_id": "P30",
+  "bout": "binding",
+  "votes": [
+   "68d8546d",
+   "68d8546d",
+   "68d8546d"
+  ],
+  "truth_label": "68d8546d",
+  "majority": "68d8546d",
+  "truth_won": true,
+  "confidences": [
+   89,
+   89,
+   89
+  ]
+ },
+ {
+  "pair_id": "P31",
+  "bout": "binding",
+  "votes": [
+   "0a05750a",
+   "0a05750a",
+   "0a05750a"
+  ],
+  "truth_label": "0a05750a",
+  "majority": "0a05750a",
+  "truth_won": true,
+  "confidences": [
+   89,
+   89,
+   89
+  ]
+ },
+ {
+  "pair_id": "P32",
+  "bout": "binding",
+  "votes": [
+   "cc5f2485",
+   "cc5f2485",
+   "cc5f2485"
+  ],
+  "truth_label": "cc5f2485",
+  "majority": "cc5f2485",
+  "truth_won": true,
+  "confidences": [
+   90,
+   90,
+   90
+  ]
+ },
+ {
+  "pair_id": "P33",
+  "bout": "binding",
+  "votes": [
+   "8a86da5f",
+   "8a86da5f",
+   "8a86da5f"
+  ],
+  "truth_label": "8a86da5f",
+  "majority": "8a86da5f",
+  "truth_won": true,
+  "confidences": [
+   90,
+   90,
+   90
+  ]
+ },
+ {
+  "pair_id": "P34",
+  "bout": "binding",
+  "votes": [
+   "f43fb408",
+   "f43fb408",
+   "f43fb408"
+  ],
+  "truth_label": "f43fb408",
+  "majority": "f43fb408",
+  "truth_won": true,
+  "confidences": [
+   91,
+   91,
+   91
+  ]
+ },
+ {
+  "pair_id": "P35",
+  "bout": "binding",
+  "votes": [
+   "c5477a56",
+   "c5477a56",
+   "c5477a56"
+  ],
+  "truth_label": "c5477a56",
+  "majority": "c5477a56",
+  "truth_won": true,
+  "confidences": [
+   89,
+   89,
+   89
+  ]
+ },
+ {
+  "pair_id": "P36",
+  "bout": "binding",
+  "votes": [
+   "899fb844",
+   "899fb844",
+   "899fb844"
+  ],
+  "truth_label": "899fb844",
+  "majority": "899fb844",
+  "truth_won": true,
+  "confidences": [
+   91,
+   91,
+   91
+  ]
+ }
+]

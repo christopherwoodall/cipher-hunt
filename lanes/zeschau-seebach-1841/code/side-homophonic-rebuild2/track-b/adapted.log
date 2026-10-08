@@ -1,0 +1,10 @@
+[pool] inventory=296 distinct non-lexicon non-pin forms=182
+[init] J=-5884.9 evals=1
+[search] J=-5205.0 evals=2733 wall=461s
+[search] J=-4992.6 evals=4037 wall=632s
+[adapted-final] total=-4992.6 (minlen=6)
+   S_char=-5054.0 S_cov=61.4 S_single=0.0 S_word=61.4 S_potts=0.000 S_conc=0.0 n_poly=0
+   decode len=4192 chars, per-pair rate=-2.738
+[checks] {"all_values_in_inventory": true, "all_projected_nonlexicon": true, "all_distinct_free": true, "distinct_from_pins": true, "n_poly_zero": true, "pins_unchanged": true, "n_groups": true}
+[strawman] J_current(adapted)=-4992.6 vs frozen -2352.3; floor=-2552.3 -> STRAWMAN (VOID (b))
+[done] adapted_salad.json written

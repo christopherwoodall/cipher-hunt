@@ -1,0 +1,196 @@
+{
+ "gate": "PASS",
+ "arms": {
+  "POUR": [
+   [
+    49,
+    79
+   ],
+   [
+    330,
+    50
+   ],
+   [
+    593,
+    79
+   ],
+   [
+    683,
+    64
+   ],
+   [
+    978,
+    7
+   ],
+   [
+    1154,
+    29
+   ]
+  ],
+  "LA": [
+   [
+    203,
+    63
+   ],
+   [
+    321,
+    60
+   ],
+   [
+    1607,
+    65
+   ]
+  ],
+  "VERB": [
+   [
+    66,
+    94,
+    69
+   ],
+   [
+    1453,
+    46,
+    62
+   ],
+   [
+    1550,
+    94,
+    45
+   ]
+  ],
+  "UNCLASSIFIED": [
+   [
+    354,
+    40,
+    98
+   ],
+   [
+    356,
+    98,
+    47
+   ],
+   [
+    901,
+    16,
+    67
+   ],
+   [
+    1022,
+    84,
+    64
+   ],
+   [
+    1218,
+    83,
+    61
+   ],
+   [
+    1310,
+    30,
+    44
+   ],
+   [
+    1361,
+    13,
+    62
+   ],
+   [
+    1379,
+    84,
+    69
+   ],
+   [
+    1490,
+    31,
+    39
+   ],
+   [
+    1673,
+    81,
+    60
+   ]
+  ]
+ },
+ "H_pre": {
+  "inf_in_pour": [
+   1154
+  ],
+  "noun_in_la": [],
+  "cross_noun_in_pour": [
+   683
+  ],
+  "cross_inf_in_la": [],
+  "decision": "REFUTED"
+ },
+ "H_presuc": {
+  "noun_islet": [
+   683
+  ],
+  "inf_islet": [
+   1154
+  ],
+  "both": [],
+  "unclassified_pour": [
+   49,
+   330,
+   593,
+   978
+  ],
+  "decision": "FENCED (n_eff=1 < ISLET-3 precedent; hypothesis + replication legs for round 13)"
+ },
+ "verb_arm_n": 3,
+ "E92_1_total": 122,
+ "E92_1_middles": {
+  "ceux": 51,
+  "ce": 30,
+  "celui": 7,
+  "celuy": 6,
+  "nous": 5,
+  "moi": 4,
+  "celles": 3,
+  "rire": 1,
+  "une": 1,
+  "arr\u00eater": 1,
+  "r\u00e9gent": 1,
+  "long": 1,
+  "eux": 1,
+  "elle": 1,
+  "tanoa": 1,
+  "savoir": 1,
+  "jacqueline": 1,
+  "bertaut": 1,
+  "benjamin": 1,
+  "p\u00e9trarque": 1,
+  "louise": 1,
+  "un": 1,
+  "voir": 1
+ },
+ "E92_1_infinitive_lean_middles": {
+  "rire": 1,
+  "arr\u00eater": 1,
+  "savoir": 1,
+  "voir": 1
+ },
+ "E92_2_nonverb_top10": {
+  "ceux": 51,
+  "ce": 30,
+  "celui": 7,
+  "celuy": 6,
+  "nous": 5,
+  "moi": 4,
+  "celles": 3,
+  "une": 1,
+  "r\u00e9gent": 1,
+  "long": 1
+ },
+ "E92_2_nonverb_total": 118,
+ "E92_3_n": 3325,
+ "E92_3_examples": [
+  "prouver",
+  "aider",
+  "demeurer",
+  "passer",
+  "placer"
+ ],
+ "verdict": "H-pre REFUTED; FENCED (n_eff=1 < ISLET-3 precedent; hypothesis + replication legs for round 13)"
+}

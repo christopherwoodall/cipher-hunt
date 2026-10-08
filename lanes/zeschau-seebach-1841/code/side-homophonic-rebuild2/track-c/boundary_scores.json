@@ -1,0 +1,72 @@
+{
+ "model": {
+  "N": 486789,
+  "V": 10666,
+  "Z": 497455.0,
+  "ln_rho": -1.2610620550768965,
+  "ln_oov": -13.117260379228426
+ },
+ "truth": {
+  "B": -4241.658322469437,
+  "W_uni": -2079.3944250550603,
+  "W_len": -1961.7550306571738,
+  "W_bnd": -200.50886675722654,
+  "n_words": 159,
+  "mean_wlen": 19.89937106918239,
+  "n_oov": 158
+ },
+ "salad": {
+  "B": -6890.079596951846,
+  "W_uni": -3378.723580131504,
+  "W_len": -3184.740944555476,
+  "W_bnd": -326.6150722649162,
+  "n_words": 259,
+  "mean_wlen": 19.857142857142858,
+  "n_oov": 256
+ },
+ "truth_seg_head": [
+  "leideUCapitreimiriel",
+  "CapitreiimirielCapit",
+  "reiiiapurvekeCapitre",
+  "leCapitrekeviparkiil",
+  "saviiCapitreviiiCapi",
+  "treleparlalAaCapitre",
+  "Capitredecekilcekill",
+  "aCapitreilaUdeiiladl",
+  "aCapitreiiidelledCap",
+  "itreviCapitreviilede",
+  "dAduCapitreviiilOdel",
+  "elCapitrelCapitrecek",
+  "ilCapitrelevekeCapit",
+  "reAlCapitreilCapitre",
+  "iiCapitreiiiaCapitre",
+  "sikilCapitrevilOCapi",
+  "treviideCapitreviiid",
+  "UCapitredelacCapitre"
+ ],
+ "salad_seg_head": [
+  "meideprepluprogreiel",
+  "eurelepropreiieleure",
+  "leprogreiiileguverne",
+  "mAkeplupropremeelepr",
+  "opreketerremetrepret",
+  "erielepropreteriiplu",
+  "proprererelatreguver",
+  "nedeelepropreeleprop",
+  "retremedetremepretre",
+  "laplupropreitredepre",
+  "eleiiladelaplupropre",
+  "iiitreelemedepluprop",
+  "reterpluprogreteripr",
+  "etremeleplupropreter",
+  "iipartertrepreterele",
+  "proprepareleproprepa",
+  "rpretreplupropretreg",
+  "uvernemAkeelepropreg"
+ ],
+ "M": 2648.421274482409,
+ "dW_uni": 1299.3291550764438,
+ "dW_len": 1222.985913898302,
+ "dW_bnd": 126.10620550768965,
+ "verdict": "PROMISING"
+}

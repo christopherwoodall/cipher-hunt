@@ -1,5 +1,13 @@
 # CONDITIONED-POLYVALENCE ISLET REGISTRY — round 9 (conditioner-owned)
 
+**SUPERSEDED 2026-10-07 — do not use as a working reference.** Red-team
+R-IA1–R-IA7 (GRANTED, `code/crowd13/adjudicator/RULINGS-ROUND13.md`)
+restructured the registry: 5 islets dissolved into word/frame rules, 67
+fork remains the sole true polyvalence, 66/89 are class-tier, 96=verb-stem
+is an INCONCLUSIVE singleton, 86=que-family stays killed. Working
+registry: `code/crowd14/registry/REGISTRY.md`. This file is kept
+unedited as the round-9 record.
+
 2026-10-07 · Owner: conditioner. This file is the shared registry for all
 conditioned readings. The 06-falsifier-watch hunts 06 falsifiers; the
 67-finisher classifies 67 — both coordinate through this file (I own the

@@ -1,0 +1,986 @@
+{
+ "crib_contexts": {
+  "11": {
+   "pos1034": 1034,
+   "pre1034": "77",
+   "suc1034": "70",
+   "pre754": "67",
+   "suc754": "70"
+  },
+  "70": {
+   "pos1034": 1035,
+   "pre1034": "11",
+   "suc1034": "82",
+   "pre754": "11",
+   "suc754": "82"
+  },
+  "82": {
+   "pos1034": 1036,
+   "pre1034": "70",
+   "suc1034": "34",
+   "pre754": "70",
+   "suc754": "34"
+  },
+  "34": {
+   "pos1034": 1037,
+   "pre1034": "82",
+   "suc1034": "29",
+   "pre754": "82",
+   "suc754": "29"
+  },
+  "29": {
+   "pos1034": 1038,
+   "pre1034": "34",
+   "suc1034": "40",
+   "pre754": "34",
+   "suc754": "40"
+  },
+  "40": {
+   "pos1034": 1039,
+   "pre1034": "29",
+   "suc1034": "17",
+   "pre754": "29",
+   "suc754": "20"
+  }
+ },
+ "B1_triggered_own_rule": {
+  "11": [],
+  "70": [],
+  "82": [],
+  "34": [],
+  "29": [],
+  "40": []
+ },
+ "B1_pattern_only_other_groups": {
+  "11": [],
+  "70": [],
+  "82": [
+   {
+    "rule_group": "52",
+    "rule": "pre in {94,70} -> 'pas'"
+   }
+  ],
+  "34": [
+   {
+    "rule_group": "84",
+    "rule": "pre in {82,66,89} -> 'en'"
+   },
+   {
+    "rule_group": "06",
+    "rule": "pre == 82 -> 'ent'"
+   },
+   {
+    "rule_group": "94",
+    "rule": "pre == 82 -> 'en'"
+   }
+  ],
+  "29": [],
+  "40": []
+ },
+ "B2_census": {
+  "11": {
+   "value": "la",
+   "n": 45,
+   "positions": [
+    52,
+    75,
+    77,
+    108,
+    127,
+    164,
+    202,
+    239,
+    270,
+    296,
+    320,
+    358,
+    379,
+    400,
+    462,
+    499,
+    562,
+    670,
+    726,
+    731,
+    754,
+    782,
+    831,
+    997,
+    1006,
+    1034,
+    1044,
+    1069,
+    1116,
+    1123,
+    1243,
+    1263,
+    1288,
+    1404,
+    1406,
+    1515,
+    1517,
+    1523,
+    1524,
+    1559,
+    1606,
+    1619,
+    1656,
+    1669,
+    1721
+   ],
+   "candidate_triggers": [
+    {
+     "trigger": "pre=00",
+     "n": 4,
+     "positions": [
+      77,
+      379,
+      1288,
+      1406
+     ]
+    },
+    {
+     "trigger": "pre=06",
+     "n": 4,
+     "positions": [
+      320,
+      400,
+      1123,
+      1721
+     ]
+    },
+    {
+     "trigger": "pre=17",
+     "n": 2,
+     "positions": [
+      239,
+      1559
+     ]
+    },
+    {
+     "trigger": "pre=37",
+     "n": 2,
+     "positions": [
+      52,
+      1656
+     ]
+    },
+    {
+     "trigger": "pre=39",
+     "n": 2,
+     "positions": [
+      1069,
+      1606
+     ]
+    },
+    {
+     "trigger": "pre=47",
+     "n": 3,
+     "positions": [
+      270,
+      358,
+      499
+     ]
+    },
+    {
+     "trigger": "pre=67",
+     "n": 4,
+     "positions": [
+      562,
+      670,
+      754,
+      997
+     ]
+    },
+    {
+     "trigger": "pre=87",
+     "n": 7,
+     "positions": [
+      75,
+      164,
+      202,
+      462,
+      831,
+      1243,
+      1404
+     ]
+    },
+    {
+     "trigger": "pre=88",
+     "n": 2,
+     "positions": [
+      731,
+      1515
+     ]
+    },
+    {
+     "trigger": "pre=91",
+     "n": 2,
+     "positions": [
+      1006,
+      1669
+     ]
+    },
+    {
+     "trigger": "suc=00",
+     "n": 4,
+     "positions": [
+      75,
+      726,
+      1243,
+      1404
+     ]
+    },
+    {
+     "trigger": "suc=21",
+     "n": 2,
+     "positions": [
+      108,
+      358
+     ]
+    },
+    {
+     "trigger": "suc=24",
+     "n": 4,
+     "positions": [
+      164,
+      731,
+      782,
+      1656
+     ]
+    },
+    {
+     "trigger": "suc=26",
+     "n": 2,
+     "positions": [
+      239,
+      1559
+     ]
+    },
+    {
+     "trigger": "suc=29",
+     "n": 2,
+     "positions": [
+      77,
+      499
+     ]
+    },
+    {
+     "trigger": "suc=50",
+     "n": 2,
+     "positions": [
+      379,
+      1263
+     ]
+    },
+    {
+     "trigger": "suc=52",
+     "n": 3,
+     "positions": [
+      1006,
+      1123,
+      1721
+     ]
+    },
+    {
+     "trigger": "suc=70",
+     "n": 2,
+     "positions": [
+      754,
+      1034
+     ]
+    },
+    {
+     "trigger": "suc=78",
+     "n": 2,
+     "positions": [
+      296,
+      1669
+     ]
+    },
+    {
+     "trigger": "suc=92",
+     "n": 3,
+     "positions": [
+      202,
+      320,
+      1606
+     ]
+    }
+   ]
+  },
+  "70": {
+   "value": "pre",
+   "n": 15,
+   "positions": [
+    235,
+    347,
+    368,
+    519,
+    615,
+    755,
+    868,
+    1035,
+    1067,
+    1118,
+    1300,
+    1331,
+    1547,
+    1586,
+    1604
+   ],
+   "candidate_triggers": [
+    {
+     "trigger": "pre=11",
+     "n": 2,
+     "positions": [
+      755,
+      1035
+     ]
+    },
+    {
+     "trigger": "suc=12",
+     "n": 3,
+     "positions": [
+      347,
+      1118,
+      1547
+     ]
+    },
+    {
+     "trigger": "suc=39",
+     "n": 2,
+     "positions": [
+      1067,
+      1604
+     ]
+    },
+    {
+     "trigger": "suc=82",
+     "n": 2,
+     "positions": [
+      755,
+      1035
+     ]
+    }
+   ]
+  },
+  "82": {
+   "value": "m",
+   "n": 39,
+   "positions": [
+    20,
+    125,
+    166,
+    229,
+    376,
+    381,
+    397,
+    433,
+    536,
+    579,
+    622,
+    650,
+    737,
+    756,
+    827,
+    895,
+    929,
+    999,
+    1036,
+    1042,
+    1062,
+    1101,
+    1159,
+    1183,
+    1194,
+    1197,
+    1228,
+    1354,
+    1369,
+    1386,
+    1436,
+    1479,
+    1575,
+    1600,
+    1651,
+    1743,
+    1785,
+    1827,
+    1831
+   ],
+   "candidate_triggers": [
+    {
+     "trigger": "pre=24",
+     "n": 4,
+     "positions": [
+      166,
+      536,
+      1194,
+      1831
+     ]
+    },
+    {
+     "trigger": "pre=29",
+     "n": 3,
+     "positions": [
+      433,
+      1479,
+      1827
+     ]
+    },
+    {
+     "trigger": "pre=38",
+     "n": 2,
+     "positions": [
+      827,
+      1651
+     ]
+    },
+    {
+     "trigger": "pre=52",
+     "n": 5,
+     "positions": [
+      650,
+      1101,
+      1386,
+      1436,
+      1575
+     ]
+    },
+    {
+     "trigger": "pre=70",
+     "n": 2,
+     "positions": [
+      756,
+      1036
+     ]
+    },
+    {
+     "trigger": "pre=77",
+     "n": 2,
+     "positions": [
+      1042,
+      1159
+     ]
+    },
+    {
+     "trigger": "pre=79",
+     "n": 2,
+     "positions": [
+      397,
+      1228
+     ]
+    },
+    {
+     "trigger": "pre=83",
+     "n": 3,
+     "positions": [
+      229,
+      1062,
+      1785
+     ]
+    },
+    {
+     "trigger": "pre=94",
+     "n": 4,
+     "positions": [
+      579,
+      1183,
+      1354,
+      1743
+     ]
+    },
+    {
+     "trigger": "pre=96",
+     "n": 2,
+     "positions": [
+      999,
+      1197
+     ]
+    },
+    {
+     "trigger": "pre=98",
+     "n": 3,
+     "positions": [
+      20,
+      125,
+      895
+     ]
+    },
+    {
+     "trigger": "suc=06",
+     "n": 4,
+     "positions": [
+      579,
+      737,
+      1183,
+      1354
+     ]
+    },
+    {
+     "trigger": "suc=14",
+     "n": 2,
+     "positions": [
+      622,
+      895
+     ]
+    },
+    {
+     "trigger": "suc=16",
+     "n": 11,
+     "positions": [
+      381,
+      433,
+      536,
+      1194,
+      1197,
+      1369,
+      1386,
+      1436,
+      1479,
+      1651,
+      1831
+     ]
+    },
+    {
+     "trigger": "suc=34",
+     "n": 2,
+     "positions": [
+      756,
+      1036
+     ]
+    },
+    {
+     "trigger": "suc=48",
+     "n": 4,
+     "positions": [
+      125,
+      376,
+      397,
+      1228
+     ]
+    },
+    {
+     "trigger": "suc=94",
+     "n": 3,
+     "positions": [
+      650,
+      1101,
+      1575
+     ]
+    },
+    {
+     "trigger": "suc=96",
+     "n": 3,
+     "positions": [
+      229,
+      1062,
+      1785
+     ]
+    },
+    {
+     "trigger": "suc=98",
+     "n": 2,
+     "positions": [
+      929,
+      1600
+     ]
+    }
+   ]
+  },
+  "34": {
+   "value": "i",
+   "n": 11,
+   "positions": [
+    28,
+    61,
+    393,
+    404,
+    555,
+    757,
+    1037,
+    1348,
+    1415,
+    1741,
+    1749
+   ],
+   "candidate_triggers": [
+    {
+     "trigger": "pre=73",
+     "n": 2,
+     "positions": [
+      393,
+      1348
+     ]
+    },
+    {
+     "trigger": "pre=82",
+     "n": 2,
+     "positions": [
+      757,
+      1037
+     ]
+    },
+    {
+     "trigger": "suc=29",
+     "n": 3,
+     "positions": [
+      61,
+      757,
+      1037
+     ]
+    }
+   ]
+  },
+  "29": {
+   "value": "er",
+   "n": 45,
+   "positions": [
+    22,
+    62,
+    78,
+    96,
+    112,
+    147,
+    218,
+    274,
+    291,
+    374,
+    422,
+    432,
+    500,
+    541,
+    597,
+    618,
+    627,
+    685,
+    689,
+    758,
+    780,
+    814,
+    1031,
+    1038,
+    1050,
+    1052,
+    1097,
+    1143,
+    1155,
+    1200,
+    1230,
+    1233,
+    1258,
+    1321,
+    1376,
+    1389,
+    1392,
+    1425,
+    1478,
+    1566,
+    1590,
+    1595,
+    1710,
+    1816,
+    1826
+   ],
+   "candidate_triggers": [
+    {
+     "trigger": "pre=03",
+     "n": 3,
+     "positions": [
+      1031,
+      1321,
+      1595
+     ]
+    },
+    {
+     "trigger": "pre=06",
+     "n": 4,
+     "positions": [
+      1097,
+      1389,
+      1710,
+      1816
+     ]
+    },
+    {
+     "trigger": "pre=11",
+     "n": 2,
+     "positions": [
+      78,
+      500
+     ]
+    },
+    {
+     "trigger": "pre=33",
+     "n": 5,
+     "positions": [
+      274,
+      627,
+      1233,
+      1425,
+      1478
+     ]
+    },
+    {
+     "trigger": "pre=34",
+     "n": 3,
+     "positions": [
+      62,
+      758,
+      1038
+     ]
+    },
+    {
+     "trigger": "pre=46",
+     "n": 2,
+     "positions": [
+      96,
+      218
+     ]
+    },
+    {
+     "trigger": "pre=48",
+     "n": 2,
+     "positions": [
+      1230,
+      1590
+     ]
+    },
+    {
+     "trigger": "pre=64",
+     "n": 3,
+     "positions": [
+      291,
+      685,
+      1200
+     ]
+    },
+    {
+     "trigger": "pre=86",
+     "n": 4,
+     "positions": [
+      432,
+      1376,
+      1392,
+      1826
+     ]
+    },
+    {
+     "trigger": "suc=40",
+     "n": 9,
+     "positions": [
+      62,
+      291,
+      500,
+      597,
+      685,
+      758,
+      1038,
+      1050,
+      1710
+     ]
+    },
+    {
+     "trigger": "suc=42",
+     "n": 3,
+     "positions": [
+      78,
+      218,
+      1143
+     ]
+    },
+    {
+     "trigger": "suc=47",
+     "n": 4,
+     "positions": [
+      22,
+      422,
+      1230,
+      1590
+     ]
+    },
+    {
+     "trigger": "suc=67",
+     "n": 2,
+     "positions": [
+      1097,
+      1389
+     ]
+    },
+    {
+     "trigger": "suc=80",
+     "n": 4,
+     "positions": [
+      1031,
+      1155,
+      1321,
+      1595
+     ]
+    },
+    {
+     "trigger": "suc=82",
+     "n": 3,
+     "positions": [
+      432,
+      1478,
+      1826
+     ]
+    },
+    {
+     "trigger": "suc=85",
+     "n": 3,
+     "positions": [
+      96,
+      374,
+      1233
+     ]
+    },
+    {
+     "trigger": "suc=87",
+     "n": 3,
+     "positions": [
+      147,
+      627,
+      1425
+     ]
+    },
+    {
+     "trigger": "suc=89",
+     "n": 5,
+     "positions": [
+      112,
+      274,
+      780,
+      1376,
+      1392
+     ]
+    }
+   ]
+  },
+  "40": {
+   "value": "e",
+   "n": 21,
+   "positions": [
+    63,
+    292,
+    298,
+    335,
+    353,
+    501,
+    598,
+    686,
+    752,
+    759,
+    820,
+    848,
+    921,
+    943,
+    1039,
+    1051,
+    1238,
+    1399,
+    1557,
+    1711,
+    1746
+   ],
+   "candidate_triggers": [
+    {
+     "trigger": "pre=29",
+     "n": 9,
+     "positions": [
+      63,
+      292,
+      501,
+      598,
+      686,
+      759,
+      1039,
+      1051,
+      1711
+     ]
+    },
+    {
+     "trigger": "pre=78",
+     "n": 3,
+     "positions": [
+      298,
+      353,
+      820
+     ]
+    },
+    {
+     "trigger": "suc=03",
+     "n": 2,
+     "positions": [
+      335,
+      598
+     ]
+    },
+    {
+     "trigger": "suc=08",
+     "n": 2,
+     "positions": [
+      921,
+      943
+     ]
+    },
+    {
+     "trigger": "suc=17",
+     "n": 2,
+     "positions": [
+      1039,
+      1557
+     ]
+    },
+    {
+     "trigger": "suc=65",
+     "n": 3,
+     "positions": [
+      292,
+      686,
+      1711
+     ]
+    },
+    {
+     "trigger": "suc=67",
+     "n": 3,
+     "positions": [
+      752,
+      1238,
+      1399
+     ]
+    }
+   ]
+  }
+ },
+ "B2_battery": {
+  "method": "F33 conditioned-vs-free: (i) grammatical contradiction under banked neighbor values (stranding for syllables; elision/det-stack for 11=la); (ii) era-bigram 0x/pool for 11's banked-word neighbors. Trigger concentration over {pre=x, suc=y}, n>=2.",
+  "flags": {
+   "11": [
+    "@1034 det-stack le+la (pre=77, n=1)",
+    "@1524 det-stack la+la (pre=11, n=1)"
+   ],
+   "70": [],
+   "82": [],
+   "34": [],
+   "29": [],
+   "40": []
+  },
+  "era_bigram_0x_for_11": "none (all 11 banked-neighbor bigrams >0x/pool)",
+  "trigger_concentration": "none -- no trigger with n>=2 flags for any group",
+  "promoted_conditioned_alternatives": []
+ },
+ "verdict_B": {
+  "B1": "CLEAN -- no crib group has a banked conditioned reading; no own-rule trigger fires at @1034. Pattern-only matches (34: pre=82 matches 84/06/94 rules; 82: pre=70 matches 52 rule) are group-specific and do not fire.",
+  "B2": "CLEAN -- F33 battery promotes no conditioned alternative for any crib group (bar: exact trigger + n>=3 + >=2 legs; best candidates are n=1 singulars).",
+  "two_occurrence_claim": "ROBUST (stated formally for the first time)",
+  "notes": [
+   "@1034 'le la' (77->11) is a genuine grammatical tension (pool 'le la' hits are OCR noise, verified by inspection) but it is n=1 and implicates 77='le' (provisional-conditioned), not 11='la'. Flagged for the 77-lane; does not touch the crib reading.",
+   "@1524 'la la' singular, unresolved (neighbors 24/48 unknown).",
+   "70/82/34/29 have byte-identical +/-1 contexts at @1034 and @754: no +/-1 trigger can distinguish them; their @1034 readings are as secure as the gloss-pinned @754.",
+   "+/-2 differences exist (70: pre2 77 vs 67; 29: suc2 17 vs 20) but no +/-2 triggers are banked and none promote.",
+   "Syllable groups' battery was structural (stranding), not rate-based (F30 voids syllable-rate legs on fragments): the null is tested-structural, not proven."
+  ]
+ }
+}

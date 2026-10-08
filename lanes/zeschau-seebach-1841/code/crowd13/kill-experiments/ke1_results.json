@@ -1,0 +1,174 @@
+{
+ "candidates": [
+  {
+   "bstar": 2130,
+   "gold": 2,
+   "n_tokens": 3
+  },
+  {
+   "bstar": 2181,
+   "gold": 2,
+   "n_tokens": 3
+  },
+  {
+   "bstar": 2227,
+   "gold": 2,
+   "n_tokens": 3
+  },
+  {
+   "bstar": 2271,
+   "gold": 2,
+   "n_tokens": 3
+  },
+  {
+   "bstar": 2312,
+   "gold": 2,
+   "n_tokens": 3
+  },
+  {
+   "bstar": 2352,
+   "gold": 2,
+   "n_tokens": 3
+  },
+  {
+   "bstar": 2393,
+   "gold": 2,
+   "n_tokens": 3
+  },
+  {
+   "bstar": 2431,
+   "gold": 2,
+   "n_tokens": 3
+  },
+  {
+   "bstar": 2489,
+   "gold": 2,
+   "n_tokens": 3
+  },
+  {
+   "bstar": 2549,
+   "gold": 2,
+   "n_tokens": 3
+  },
+  {
+   "bstar": 2606,
+   "gold": 2,
+   "n_tokens": 3
+  },
+  {
+   "bstar": 2666,
+   "gold": 2,
+   "n_tokens": 3
+  },
+  {
+   "bstar": 2721,
+   "gold": 2,
+   "n_tokens": 3
+  },
+  {
+   "bstar": 2776,
+   "gold": 1,
+   "n_tokens": 2
+  },
+  {
+   "bstar": 2833,
+   "gold": 1,
+   "n_tokens": 2
+  },
+  {
+   "bstar": 2889,
+   "gold": 1,
+   "n_tokens": 2
+  },
+  {
+   "bstar": 2945,
+   "gold": 1,
+   "n_tokens": 2
+  },
+  {
+   "bstar": 3002,
+   "gold": 1,
+   "n_tokens": 2
+  },
+  {
+   "bstar": 3057,
+   "gold": 1,
+   "n_tokens": 2
+  },
+  {
+   "bstar": 3113,
+   "gold": 1,
+   "n_tokens": 2
+  },
+  {
+   "bstar": 3171,
+   "gold": 1,
+   "n_tokens": 2
+  },
+  {
+   "bstar": 3228,
+   "gold": 1,
+   "n_tokens": 2
+  },
+  {
+   "bstar": 3286,
+   "gold": 1,
+   "n_tokens": 2
+  },
+  {
+   "bstar": 3343,
+   "gold": 1,
+   "n_tokens": 2
+  },
+  {
+   "bstar": 3400,
+   "gold": 1,
+   "n_tokens": 2
+  }
+ ],
+ "winner": {
+  "bstar": 2130,
+  "gold": 2,
+  "n_tokens": 3,
+  "tokens": [
+   {
+    "boundary": 605,
+    "direction": "pre",
+    "g1": "11",
+    "g2": "77",
+    "french": [
+     "la",
+     "le"
+    ],
+    "pool_n": 13,
+    "class": "CANDIDATE",
+    "why": "pool=13:la le"
+   },
+   {
+    "boundary": 713,
+    "direction": "suc",
+    "g1": "46",
+    "g2": "77",
+    "class": "GOLD",
+    "why": "corpus>3978:que le"
+   },
+   {
+    "boundary": 2776,
+    "direction": "pre",
+    "g1": "64",
+    "g2": "59",
+    "class": "GOLD",
+    "why": "corpus>972:qui est"
+   }
+  ],
+  "implausible": 0,
+  "uninformative": 1
+ },
+ "verdict": "INCONCLUSIVE",
+ "verdict_detail": {
+  "gold": 2,
+  "implausible": 0,
+  "uninformative": 1,
+  "note": "gold=2 < 3: reject-bar not met. implausible(0) < gold(2): hold-bar not met. Even adversarially maximized over 25 boundaries, gold never reaches 3."
+ }
+}

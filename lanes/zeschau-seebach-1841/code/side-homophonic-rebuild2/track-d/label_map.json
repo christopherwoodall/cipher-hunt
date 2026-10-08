@@ -1,0 +1,74 @@
+{
+ "d38a1821": {
+  "seed": "184101",
+  "class": "salad"
+ },
+ "1386766b": {
+  "seed": "184101",
+  "class": "truth"
+ },
+ "19f3bb19": {
+  "seed": "184102",
+  "class": "salad"
+ },
+ "c0733a7d": {
+  "seed": "184102",
+  "class": "truth"
+ },
+ "d24f0ea5": {
+  "seed": "184103",
+  "class": "salad"
+ },
+ "fe847630": {
+  "seed": "184103",
+  "class": "truth"
+ },
+ "a1cd2087": {
+  "seed": "184104",
+  "class": "salad"
+ },
+ "2a87b7a9": {
+  "seed": "184104",
+  "class": "truth"
+ },
+ "1c2498b4": {
+  "seed": "184105",
+  "class": "salad"
+ },
+ "b1eee668": {
+  "seed": "184105",
+  "class": "truth"
+ },
+ "fc12e892": {
+  "seed": "184106",
+  "class": "salad"
+ },
+ "99a93f79": {
+  "seed": "184106",
+  "class": "truth"
+ },
+ "fed88338": {
+  "seed": "184101",
+  "class": "paraphrase"
+ },
+ "ecf4db34": {
+  "seed": "184102",
+  "class": "paraphrase"
+ },
+ "d666c7df": {
+  "seed": "184103",
+  "class": "paraphrase"
+ },
+ "7e5bbba0": {
+  "seed": "184104",
+  "class": "paraphrase"
+ },
+ "5888ca6b": {
+  "seed": "184105",
+  "class": "paraphrase"
+ },
+ "264710b9": {
+  "seed": "184106",
+  "class": "paraphrase"
+ }
+}

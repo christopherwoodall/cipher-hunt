@@ -1,0 +1,178 @@
+{
+ "low_groups": {
+  "04": {
+   "n": 3,
+   "phase": "R",
+   "positions": [
+    957,
+    1296,
+    1809
+   ],
+   "start5pct": 0,
+   "end5pct": 1,
+   "distinct_pre": 2,
+   "distinct_suc": 3,
+   "pre": [
+    "80",
+    "85"
+   ],
+   "suc": [
+    "20",
+    "61",
+    "62"
+   ],
+   "contact_top20": 1,
+   "adjacent_low": 0
+  },
+  "22": {
+   "n": 3,
+   "phase": "R",
+   "positions": [
+    770,
+    1663,
+    1837
+   ],
+   "start5pct": 0,
+   "end5pct": 1,
+   "distinct_pre": 3,
+   "distinct_suc": 2,
+   "pre": [
+    "10",
+    "64",
+    "80"
+   ],
+   "suc": [
+    "42",
+    "94"
+   ],
+   "contact_top20": 2,
+   "adjacent_low": 0
+  },
+  "27": {
+   "n": 1,
+   "phase": "R",
+   "positions": [
+    1691
+   ],
+   "start5pct": 0,
+   "end5pct": 0,
+   "distinct_pre": 1,
+   "distinct_suc": 1,
+   "pre": [
+    "60"
+   ],
+   "suc": [
+    "46"
+   ],
+   "contact_top20": 1,
+   "adjacent_low": 0
+  },
+  "54": {
+   "n": 3,
+   "phase": "R",
+   "positions": [
+    333,
+    605,
+    908
+   ],
+   "start5pct": 0,
+   "end5pct": 0,
+   "distinct_pre": 3,
+   "distinct_suc": 3,
+   "pre": [
+    "45",
+    "83",
+    "93"
+   ],
+   "suc": [
+    "49",
+    "64",
+    "88"
+   ],
+   "contact_top20": 1,
+   "adjacent_low": 0
+  },
+  "57": {
+   "n": 1,
+   "phase": "R",
+   "positions": [
+    1225
+   ],
+   "start5pct": 0,
+   "end5pct": 0,
+   "distinct_pre": 1,
+   "distinct_suc": 1,
+   "pre": [
+    "20"
+   ],
+   "suc": [
+    "64"
+   ],
+   "contact_top20": 1,
+   "adjacent_low": 0
+  },
+  "90": {
+   "n": 1,
+   "phase": "R",
+   "positions": [
+    120
+   ],
+   "start5pct": 0,
+   "end5pct": 0,
+   "distinct_pre": 1,
+   "distinct_suc": 1,
+   "pre": [
+    "60"
+   ],
+   "suc": [
+    "19"
+   ],
+   "contact_top20": 0,
+   "adjacent_low": 0
+  },
+  "95": {
+   "n": 2,
+   "phase": "R",
+   "positions": [
+    821,
+    1407
+   ],
+   "start5pct": 0,
+   "end5pct": 0,
+   "distinct_pre": 2,
+   "distinct_suc": 2,
+   "pre": [
+    "11",
+    "40"
+   ],
+   "suc": [
+    "13",
+    "46"
+   ],
+   "contact_top20": 2,
+   "adjacent_low": 0
+  },
+  "99": {
+   "n": 1,
+   "phase": "R",
+   "positions": [
+    1553
+   ],
+   "start5pct": 0,
+   "end5pct": 0,
+   "distinct_pre": 1,
+   "distinct_suc": 1,
+   "pre": [
+    "23"
+   ],
+   "suc": [
+    "13"
+   ],
+   "contact_top20": 0,
+   "adjacent_low": 0
+  }
+ },
+ "digit_digit_adjacent": 0,
+ "null_mean": 0.105,
+ "null_max": 2
+}

@@ -1,0 +1,115 @@
+{
+ "prereg": "/home/hatch/workspace/cipher-hunt/lanes/zeschau-seebach-1841/code/crowd13/carry-classes/PREREG.md",
+ "gate": "PASS",
+ "D_census": {
+  "D-ce": [
+   1488
+  ],
+  "D-que": [],
+  "D-ne": [],
+  "D-qui": []
+ },
+ "contacts": [
+  {
+   "pos": 338,
+   "kind": "verbal",
+   "rule": "qui-relative",
+   "cond": [
+    "64=qui provisional"
+   ]
+  },
+  {
+   "pos": 882,
+   "kind": "ambiguous",
+   "rule": "08 undisambiguated (pre=17)",
+   "cond": []
+  },
+  {
+   "pos": 1257,
+   "kind": "ambiguous",
+   "rule": "pre=61 unidentified",
+   "cond": []
+  },
+  {
+   "pos": 1489,
+   "kind": "verbal",
+   "rule": "D-ce (ce l' -> pronoun)",
+   "cond": [
+    "87=ce provisional",
+    "08=\"l'\" lead"
+   ]
+  },
+  {
+   "pos": 1516,
+   "kind": "ambiguous",
+   "rule": "11=la article/pronoun-ambiguous",
+   "cond": []
+  },
+  {
+   "pos": 1521,
+   "kind": "ambiguous",
+   "rule": "08 undisambiguated (pre=67)",
+   "cond": []
+  },
+  {
+   "pos": 1615,
+   "kind": "ambiguous",
+   "rule": "pre=48 unidentified",
+   "cond": []
+  },
+  {
+   "pos": 1647,
+   "kind": "verbal",
+   "rule": "qui-relative",
+   "cond": [
+    "64=qui provisional"
+   ]
+  }
+ ],
+ "n_verbal_disamb": 3,
+ "n_nominal_disamb": 0,
+ "route_b": {
+  "n_11_to_31": 1,
+  "pos": [
+   1516
+  ],
+  "n_46_to_31": 0,
+  "pos46": [],
+  "verdict": "STILL UNMEETABLE"
+ },
+ "quiere_windows": [
+  290,
+  684
+ ],
+ "suc29": {
+  "pos": [
+   1257
+  ],
+  "window_ctx": {
+   "1257": "46 1 61 31 29 69 88"
+  },
+  "note": "IF 31=finite-verb stem, \"31 29\"=stem+\"er\" ending is consistent under F22 granularity (e.g. @1489: 87,08,31,29 = \"ce l'\" + stem + \"er\"). Consistency datum only; shares the hypothesis — not an independent leg."
+ },
+ "verdict": "CONFIRM 31=VERBAL (finite) provisional-conditioned (C1: 64=qui, 87=ce; 08=\"l'\" lead) — RECOMMENDATION carried; adjudicator rules",
+ "drag_integration": {
+  "source": "code/council/drag/drag_hits.json + DRAG-REPORT.md (2026-10-07); FDR~1.4, LEAD-grade",
+  "byte_verified": true,
+  "tout_24": {
+   "hits": [
+    179,
+    1766,
+    1774
+   ],
+   "status": "dead-if-24=\"en\"-STRONG (F31): the drag hits are the casualties, not the board. B31's @1489 D-ce window (\"24 87 08 31\" = \"en ce l' [31]\") uses 24=\"en\" consistently — no impact on the CONFIRM verdict.",
+   "note_1774": "@1774-1778 = \"24 87 64 59 19\": under 24=\"en\", \"en ce qui est\" — the 59-frame-mapper @1777 EST-arm (\"ce qui est\", 1033 hits) holds either way."
+  },
+  "le_prince_81": {
+   "adjacency": "81@1513 sits 3 pairs before 31's @1516 (11=la ambiguous, route-b candidate) window; no 81 inside any 31 +/-2 window. Lead-adjacency only.",
+   "windows": [
+    1240,
+    1401
+   ]
+  },
+  "verdict_effect": "NONE — R13-31 stays CONFIRM 31=VERBAL (finite) provisional-conditioned."
+ }
+}

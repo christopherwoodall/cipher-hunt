@@ -293,3 +293,95 @@ scored comparison before sign-off. The verdict concerns the **likelihood
 term on 184101 only** — it does not certify the control and does not
 authorize the fresh batch. A SUCCESS here means "the neural likelihood
 outranks both salads on 184101 with the pre-registered margins," nothing more.
+
+## Amendment A1 (R5a, 2026-10-07) — Les Mis 8-gram hit reconciliation (non-blocking)
+
+Red-team R5a: §3 text said 13 hits but the verbatim phrase list summed to 14.
+Reconciliation — the per-file table is correct (13); the prose list
+double-counted metternich-v6 (`tout ce qu il y a de plus` written ×2, actual
+×1). Corrected phrase accounting (13 total):
+
+- guizot-memoires-t5-t6: **3** — `tant qu on n a pas vu de` +
+  `qu on n a pas vu de ses` (one 9-word run) + `sur ce qu il y avait a faire`
+- `tout ce qu il y a de plus`: **4** — nesselrode-v7 ×1, nesselrode-v9 ×1,
+  revue-deux-mondes-1841-q1 ×1, metternich-v6 ×1
+- revue-deux-mondes-1841-q1: **1** — `ce que je puis dire c est que`
+- revue-deux-mondes-1841-q2: **1** — `quoi qu il en soit il y a`
+- metternich-v4: **1** — `de ce qu il y a de plus`
+- metternich-v6: **3** — `ce qui est hors de doute c est` /
+  `qui est hors de doute c est que` / `est hors de doute c est que la`
+  (one 10-word run)
+
+3+4+1+1+1+3 = **13**. nesselrode-v8: **0** (confirmed by the red-team's
+independent scan, which also confirms metternich-v6: 4). The scan script is
+preserved at `track-b/scan_lesmis_overlap.py` (deterministic; reproduces the
+table from the trainable bodies). Substance unchanged: all hits generic
+pre-1862 idioms; Les-Mis-free confirmed by two independent scans.
+
+## Amendment A2 (R5b, 2026-10-07, BINDING) — Track-A exclusion, determinate
+
+Exclude `guizot-memoires-t5-t6.txt` WORD offsets **[100000,104000)** and
+**[200000,204000)** per Track A's tokenization (`build_ref.py` WORD_RE on
+lowercased marker-stripped body), applied **PRE-tokenization** (before the
+line-shuffle): the guizot body is lowercased and word-tokenized with WORD_RE,
+the two ranges are dropped from the word list, and the remaining words are
+re-chunked into 50-word pseudo-lines that enter the line pool (held-out
+membership by the same `(file_index, line_index)` hash rule). `manifest.json`
+logs: the ranges, pre/post word counts, a positive control (excluded ranges
+are non-empty real text; used-word count = total − 8000; used ∩ excluded = ∅
+by construction, asserted in code). **Overlap > 0 ⇒ run VOID.**
+
+## Amendment A3 (2026-10-07, round-2 TRACK B EXECUTOR — pre-rescore, appended pre-registration)
+
+**Changed facts since the original registration:**
+- Pin set is now **8 strong** (7 pencil cribs + **46=que**, re-derived on ≥2
+  independent legs → tested ground truth). The frozen salad and the adapted
+  salad were both built under the 7-pin regime (adapted_salad.json assigns
+  group 46 → 'ke'). Comparisons proceed as-is: the adversary does not know
+  the 8th pin; truth's information advantage from 46=que is legitimate and is
+  part of what the rescore measures, not a confound.
+- **Adapted salad = STRAWMAN (confirmed from disk):**
+  `adapted_salad.json`: `J_current=-4992.6`, `strawman: true`
+  (floor −2,552.3 vs frozen −2,352.3; `adapted.log` verification checklist all
+  true). Per §1's decision table the strawman kill-switch FIRES: this round's
+  verdict is **capped at INCONCLUSIVE regardless of margins**. The M_adapted
+  +300 bar is retained for the record and reported descriptively, but it
+  cannot license a SUCCESS claim this round. This weakens the
+  adversarial-transfer worry (the old-objective adversary could not even beat
+  the frozen salad) while voiding comparison (b) as a claim vehicle.
+- Round-13 registry restructure is background context for interpretation only
+  (5 of 10 islets dissolved into word/frame rules; 67 et/veut sole true
+  polyvalence; all four homophone sets SPLIT; 1690 uniformity is lane law).
+  It does not change the scoring protocol.
+
+**Pre-registered margin bar (the "survives adversarial re-tiling" bar):**
+- **`M_frozen ≥ +1,000 nats` is the live numeric bar.** Rationale: the
+  verifier's documented Goodhart failure is 2,601 nats under the old
+  objective (frozen salad −2,352.3 vs truth −4,953.3). +1,000 nats is ~38% of
+  that failure scale. A re-tiling adversary optimizing under the neural
+  objective would have to recover >1,000 nats of likelihood advantage over
+  the frozen salad — which was itself the product of an annealer search
+  under the old objective. The lane's own adapted-salad search (4,037
+  J-evaluations, deterministic local search) gained only ~900 nats over its
+  greedy init and still finished 2,640 nats below the frozen salad: observed
+  re-optimization gains at this search budget are below the bar. A margin
+  ≥+1,000 is therefore not plausibly closable by re-tiling; below +1,000, no
+  robustness claim is made.
+- **Binary NOT-GO rule (unchanged from §1):** below-bar-but-positive M_frozen
+  ⇒ NO-GO on the hypothesis ("the neural likelihood fixes the Goodhart
+  failure"); INCONCLUSIVE is a finding about the experiment, not a soft
+  SUCCESS. Because the strawman switch fired, the strongest claim available
+  this round is "M_frozen clears/does-not-clear +1,000" — a SUCCESS verdict
+  and the full-J substitution (§1) are unreachable and will not be run.
+
+**Protocol change (documented here, pre-rescore):** the round-2 work order
+supersedes §8's 2h hard stop and the 3-epoch cap: training continues to
+**convergence** (held-out NLL plateau across 2+ eval checkpoints) or a
+**6h wall** from the round-2 task issue (2026-10-07 23:57 UTC → 05:57 UTC),
+whichever comes first. `train_lm.py`: `BUDGET_S` 2h→6h, epoch cap 3→12
+(`max_updates = n_steps*12`). Everything else (architecture, seeds, data
+pipeline, LR schedule, best-by-held-out selection) is unchanged. Rationale:
+the 2h/3-epoch budget was a compute guard, not part of the hypothesis test;
+stopping a still-improving LM at an arbitrary wall would manufacture a weak
+instrument. Best-by-held-out selection makes extra epochs safe against
+overfitting.

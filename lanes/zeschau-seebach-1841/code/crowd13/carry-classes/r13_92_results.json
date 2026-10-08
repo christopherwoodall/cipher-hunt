@@ -1,0 +1,102 @@
+{
+ "prereg": "/home/hatch/workspace/cipher-hunt/lanes/zeschau-seebach-1841/code/crowd13/carry-classes/PREREG.md",
+ "gate": "PASS",
+ "pour_arm": {
+  "49": {
+   "suc": 79,
+   "ctx": "81 30 62 96 00 92 79 37 11 79 85 58"
+  },
+  "330": {
+   "suc": 50,
+   "ctx": "71 10 01 19 00 92 50 45 54 88 40 03"
+  },
+  "593": {
+   "suc": 79,
+   "ctx": "97 41 41 09 00 92 79 85 01 29 40 03"
+  },
+  "683": {
+   "suc": 64,
+   "ctx": "45 23 09 07 00 92 64 29 40 65 94 29"
+  },
+  "978": {
+   "suc": 7,
+   "ctx": "51 45 08 01 00 92 07 76 47 78 45 01"
+  },
+  "1154": {
+   "suc": 29,
+   "ctx": "33 66 84 02 00 92 29 80 17 77 82 44"
+  }
+ },
+ "R_top10": [
+  "faire",
+  "être",
+  "avoir",
+  "aller",
+  "obtenir",
+  "donner",
+  "mettre",
+  "assurer",
+  "arriver",
+  "atteindre"
+ ],
+ "T_683": {
+  "query": "n_v8(\"pour X W qui\")",
+  "n_total": 0,
+  "top": [],
+  "prediction": "approx 0 for infinitives (B92 NOUN-strong; interrogative-qui middles excluded by frame)",
+  "conditional_on": [
+   "64=\"qui\"-prov",
+   "-quiere FENCE"
+  ]
+ },
+ "frame_1154": {
+  "query": "n_pool_nov8(\"pour\" + er-word)",
+  "n": 3604,
+  "note": "frame licensed; value unidentifiable at whole-word granularity"
+ },
+ "T_na": {
+  "49": "suc=79 unglossed",
+  "330": "suc=50 unglossed",
+  "593": "suc=79 unglossed",
+  "978": "suc=7 unglossed"
+ },
+ "J_POUR": {
+  "hypothesis": "one whole-word infinitive X across all 6 POUR-arm windows",
+  "fails_at_683": true,
+  "verdict": "FAILS joint constraint at @683 (T_683=0) -> POUR-arm is NOT one whole-word infinitive; corroborates B92 conditioned-polyvalence FENCE (cross-instrument), or Fork-S for 92"
+ },
+ "windows": {
+  "49": "NULL (T n/a, suc=79 unglossed)",
+  "330": "NULL (T n/a, suc=50 unglossed)",
+  "593": "NULL (T n/a, suc=79 unglossed)",
+  "978": "NULL (T n/a, suc=7 unglossed)",
+  "683": "NOUN-islet CORROBORATED (T_683=0, infinitive tail-shape absent; conditional on 64=\"qui\"/\"-quiere FENCE\")",
+  "1154": "NULL (frame licensed, value unidentifiable at whole-word granularity)"
+ },
+ "verdict": "NULL (constrained): J-POUR fails -> POUR-arm not one infinitive; @683 corroborates B92 NOUN-islet; fork scope (Fork-W) bounds all. Cross-instrument support for the R3 FENCED conditioned-polyvalence verdict.",
+ "fork_note": "92 mirrors the 33 paradox at small n: I1 pre==00 x6 vs I4 92->29 x1 (@1154). Under Fork-S, \"pour [stem]-er\" is licensed; under Fork-W the six windows need one monosyllabic X that T_683 refutes at @683.",
+ "drag_integration": {
+  "source": "code/council/drag/drag_hits.json + DRAG-REPORT.md (2026-10-07); FDR~1.4, LEAD-grade",
+  "byte_verified": true,
+  "tout_79": {
+   "lead": "79=\"tout\" LEAD-grade via @1799 (clean of 24=\"en\" tension)",
+   "POUR_arm_effect": "@49/@593 (suc=79): \"pour 92 tout\" — T was n/a there already; lead-adjacency only. J-POUR verdict (not one whole-word infinitive) unchanged."
+  },
+  "tout_24": {
+   "hits": [
+    179,
+    1766,
+    1774
+   ],
+   "status": "dead-if-24=\"en\"-STRONG; no 24 in any 92 window; no impact"
+  },
+  "le_prince_81": {
+   "windows": [
+    1240,
+    1401
+   ],
+   "adjacency": "81@1402 sits 51 pairs before 92 VERB-arm @1453; no 81/79 inside any 92 +/-2 window except suc=79 @49/@593 (above)."
+  },
+  "verdict_effect": "NONE — R13-92 stays NULL (constrained); J-POUR failure + @683 NOUN-islet corroboration stand."
+ }
+}

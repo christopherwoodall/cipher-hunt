@@ -1,0 +1,209 @@
+{
+ "prereg": "/home/hatch/workspace/cipher-hunt/lanes/zeschau-seebach-1841/code/crowd13/carry-classes/PREREG.md",
+ "gate": "PASS",
+ "pool_tokens": 3960009,
+ "pool_nov8_tokens": 3867332,
+ "n_candidates": 461,
+ "R_top10": [
+  {
+   "inf": "faire",
+   "n": 312
+  },
+  {
+   "inf": "être",
+   "n": 213
+  },
+  {
+   "inf": "avoir",
+   "n": 149
+  },
+  {
+   "inf": "aller",
+   "n": 126
+  },
+  {
+   "inf": "obtenir",
+   "n": 90
+  },
+  {
+   "inf": "donner",
+   "n": 89
+  },
+  {
+   "inf": "mettre",
+   "n": 85
+  },
+  {
+   "inf": "assurer",
+   "n": 77
+  },
+  {
+   "inf": "arriver",
+   "n": 75
+  },
+  {
+   "inf": "atteindre",
+   "n": 63
+  }
+ ],
+ "T2": {
+  "query": "n_pool_nov8(\"pour X ce qui\")",
+  "n_total": 14,
+  "top": [
+   {
+    "inf": "savoir",
+    "n": 2
+   },
+   {
+    "inf": "compenser",
+    "n": 1
+   },
+   {
+    "inf": "repousser",
+    "n": 1
+   },
+   {
+    "inf": "gener",
+    "n": 1
+   },
+   {
+    "inf": "sauver",
+    "n": 1
+   },
+   {
+    "inf": "obtenir",
+    "n": 1
+   },
+   {
+    "inf": "refléter",
+    "n": 1
+   },
+   {
+    "inf": "tenter",
+    "n": 1
+   },
+   {
+    "inf": "faire",
+    "n": 1
+   },
+   {
+    "inf": "étouffer",
+    "n": 1
+   },
+   {
+    "inf": "montrer",
+    "n": 1
+   },
+   {
+    "inf": "démontrer",
+    "n": 1
+   }
+  ],
+  "bar": "unique argmax, n>=2",
+  "examples_argmax": [
+   "le véritable point central pour savoir ce qui se passe il",
+   "plomatique s agite vivement pour savoir ce qui a été fait"
+  ]
+ },
+ "T_D": {
+  "query": "n_pool_nov8(\"pour X par [e-word]\")",
+  "n": 0,
+  "examples": [],
+  "bar": "expect 0 (fence re-check)"
+ },
+ "J_C": {
+  "frames": [
+   467,
+   1088
+  ],
+  "window_467_ctx": "79 87 11 59 42 96 00 33 79 80 06 67 46 84 24 37",
+  "window_1088_ctx": "89 24 02 55 81 00 33 79 80 06 43 07 55 81 06 29 67 86 52 82",
+  "note": "tails (79,80,06) unglossed: no tail discriminates X. Joint constraint = one shared X across both frames (R1 replication datum); R-membership is the only mechanical filter. Anchor compat: @467 pre-context holds 96(=par-prov) two pairs before 00; @1088 post-context holds 29(=er-GT) after 06."
+ },
+ "T2_fires": {
+  "inf": "savoir",
+  "n": 2
+ },
+ "frames": {
+  "F-A": {
+   "positions": [
+    186,
+    1245
+   ],
+   "ctx": {
+    "186": "87 64 23 37 06 00 33 16 00 66 24 87 98 56",
+    "1245": "67 77 81 87 11 00 33 16 00 67 46 26 30 06"
+   },
+   "verdict": "FENCED (R1/F81 — not re-argued)"
+  },
+  "F-B": {
+   "positions": [
+    408
+   ],
+   "ctx": {
+    "408": "88 53 34 69 26 00 33 01 02 53 84 51 37 78"
+   },
+   "verdict": "NULL (T n/a, tails unglossed)"
+  },
+  "F-C": {
+   "positions": [
+    467,
+    1088
+   ],
+   "ctx": {
+    "467": "87 11 59 42 96 00 33 79 80 06 67 46 84 24",
+    "1088": "89 24 02 55 81 00 33 79 80 06 43 07 55 81"
+   },
+   "verdict": "NULL (T n/a; J-C replication datum holds)"
+  },
+  "F-D": {
+   "positions": [
+    846
+   ],
+   "ctx": {
+    "846": "62 94 26 12 16 00 33 96 40 62 21 67 91 51"
+   },
+   "verdict": "FENCED-strong RE-CONFIRMED on pool-nv8"
+  },
+  "F-E": {
+   "positions": [
+    936,
+    1630
+   ],
+   "ctx": {
+    "936": "98 83 56 69 26 00 33 21 64 37 01 07 50 40",
+    "1630": "33 46 56 69 26 00 33 21 64 37 01 74 87 74"
+   },
+   "verdict": "T2 FIRES for savoir (n=2); LEAN bar needs A + fork-compat"
+  }
+ },
+ "drag_integration": {
+  "source": "code/council/drag/drag_hits.json + DRAG-REPORT.md (2026-10-07); pre-reg bar NOT met (FDR~1.4); all 6 new hits LEAD-grade, not discoveries",
+  "byte_verified": true,
+  "le_prince_81": {
+   "lead": "81=\"prin\" LEAD-grade (k=3,m=2,rank 13.11; freq 702)",
+   "windows": [
+    1240,
+    1401
+   ],
+   "adverse": "BOTH windows carry the same post-context adverse: 77 81 87 11 00 = \"[le][prin][ce] la pour\" — \"la\"(GT)+\"pour\"(strong lead) directly after the phrase is ungrammatical in French (\"la pour\" never occurs). Testable: either the hits are chance (FDR-consistent) or the lead is real and 11/00 need re-reading (expensive: 11=la is GT, 00=pour strong lead). Recorded, not adjudicated here.",
+   "F_A_adjacency": "@1240 hit sits in F-A@1245 pre-context: \"...le prince la ? pour 33 16 pour\". F-A stays FENCED (fence is tail-side, F81); no verdict change.",
+   "F_C_adjacency": "81 flanks F-C@1088 on BOTH sides: @1086 (pre-pour) and @1095 (post-06). With 81=\"prin\"-lead: \"[55] prin pour 33 79 80 06 [43 07 55] prin\". LEAD-grade adjacency; no verdict change. If 81=\"prin\" ever promoted, re-run J-C with the 81 anchors."
+  },
+  "tout_79": {
+   "lead": "79=\"tout\" LEAD-grade via \"tout ce qui\" @1799 (79 87 64; clean of the 24=\"en\" tension)",
+   "supporting_context": "@1799-1804 = \"79 87 64 77 84 59\" = \"[tout] ce qui le [84-59-este]\" — grammatical under ISLET-10 (este-arm @1804); noted, not scored",
+   "F_C_consequence": "F-C suc=79 @468/@1089: IF 79=\"tout\" promoted, F-C = \"pour 33 tout 80\" x2 — the FIRST tail-gloss candidate for F-C. Named round-14 battery: T(\"pour X tout W\") on pool; NOT run here (prereg locked; lead is LEAD-grade).",
+   "92_adjacency": "92 POUR-arm @49/@593 (suc=79): T-n/a already; lead-adjacency only, no verdict change"
+  },
+  "tout_24": {
+   "hits": [
+    179,
+    1766,
+    1774
+   ],
+   "status": "dead-if-24=\"en\"-STRONG (F31) — testable red-team prediction; no impact on R13-33"
+  },
+  "verdict_effect": "NONE — all LEAD-grade; R13-33 verdict stays NULL (constrained). New named items: (1) 81=\"prin\" post-context adverse x2; (2) round-14 F-C tail battery \"pour X tout W\" gated on 79=\"tout\" promotion."
+ }
+}

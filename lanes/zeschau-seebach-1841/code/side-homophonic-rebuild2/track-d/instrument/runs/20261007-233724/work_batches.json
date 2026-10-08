@@ -1,0 +1,326 @@
+[
+ {
+  "worker_id": "w0000",
+  "brief": "runs/20261007-233724/briefs/brief-w0000.md",
+  "items": [
+   {
+    "candidate_label": "5888ca6b",
+    "pass_no": 1
+   },
+   {
+    "candidate_label": "b1eee668",
+    "pass_no": 1
+   },
+   {
+    "candidate_label": "fc12e892",
+    "pass_no": 1
+   }
+  ]
+ },
+ {
+  "worker_id": "w0001",
+  "brief": "runs/20261007-233724/briefs/brief-w0001.md",
+  "items": [
+   {
+    "candidate_label": "1c2498b4",
+    "pass_no": 1
+   },
+   {
+    "candidate_label": "d38a1821",
+    "pass_no": 1
+   },
+   {
+    "candidate_label": "c0733a7d",
+    "pass_no": 1
+   }
+  ]
+ },
+ {
+  "worker_id": "w0002",
+  "brief": "runs/20261007-233724/briefs/brief-w0002.md",
+  "items": [
+   {
+    "candidate_label": "a1cd2087",
+    "pass_no": 1
+   },
+   {
+    "candidate_label": "264710b9",
+    "pass_no": 1
+   },
+   {
+    "candidate_label": "19f3bb19",
+    "pass_no": 1
+   }
+  ]
+ },
+ {
+  "worker_id": "w0003",
+  "brief": "runs/20261007-233724/briefs/brief-w0003.md",
+  "items": [
+   {
+    "candidate_label": "1386766b",
+    "pass_no": 1
+   },
+   {
+    "candidate_label": "7e5bbba0",
+    "pass_no": 1
+   },
+   {
+    "candidate_label": "ecf4db34",
+    "pass_no": 1
+   }
+  ]
+ },
+ {
+  "worker_id": "w0004",
+  "brief": "runs/20261007-233724/briefs/brief-w0004.md",
+  "items": [
+   {
+    "candidate_label": "fed88338",
+    "pass_no": 1
+   },
+   {
+    "candidate_label": "fe847630",
+    "pass_no": 1
+   },
+   {
+    "candidate_label": "d24f0ea5",
+    "pass_no": 1
+   }
+  ]
+ },
+ {
+  "worker_id": "w0005",
+  "brief": "runs/20261007-233724/briefs/brief-w0005.md",
+  "items": [
+   {
+    "candidate_label": "2a87b7a9",
+    "pass_no": 1
+   },
+   {
+    "candidate_label": "d666c7df",
+    "pass_no": 1
+   },
+   {
+    "candidate_label": "99a93f79",
+    "pass_no": 1
+   }
+  ]
+ },
+ {
+  "worker_id": "w0006",
+  "brief": "runs/20261007-233724/briefs/brief-w0006.md",
+  "items": [
+   {
+    "candidate_label": "c0733a7d",
+    "pass_no": 2
+   },
+   {
+    "candidate_label": "d24f0ea5",
+    "pass_no": 2
+   },
+   {
+    "candidate_label": "ecf4db34",
+    "pass_no": 2
+   }
+  ]
+ },
+ {
+  "worker_id": "w0007",
+  "brief": "runs/20261007-233724/briefs/brief-w0007.md",
+  "items": [
+   {
+    "candidate_label": "d666c7df",
+    "pass_no": 2
+   },
+   {
+    "candidate_label": "5888ca6b",
+    "pass_no": 2
+   },
+   {
+    "candidate_label": "d38a1821",
+    "pass_no": 2
+   }
+  ]
+ },
+ {
+  "worker_id": "w0008",
+  "brief": "runs/20261007-233724/briefs/brief-w0008.md",
+  "items": [
+   {
+    "candidate_label": "fc12e892",
+    "pass_no": 2
+   },
+   {
+    "candidate_label": "a1cd2087",
+    "pass_no": 2
+   },
+   {
+    "candidate_label": "b1eee668",
+    "pass_no": 2
+   }
+  ]
+ },
+ {
+  "worker_id": "w0009",
+  "brief": "runs/20261007-233724/briefs/brief-w0009.md",
+  "items": [
+   {
+    "candidate_label": "7e5bbba0",
+    "pass_no": 2
+   },
+   {
+    "candidate_label": "1c2498b4",
+    "pass_no": 2
+   },
+   {
+    "candidate_label": "99a93f79",
+    "pass_no": 2
+   }
+  ]
+ },
+ {
+  "worker_id": "w0010",
+  "brief": "runs/20261007-233724/briefs/brief-w0010.md",
+  "items": [
+   {
+    "candidate_label": "264710b9",
+    "pass_no": 2
+   },
+   {
+    "candidate_label": "fed88338",
+    "pass_no": 2
+   },
+   {
+    "candidate_label": "19f3bb19",
+    "pass_no": 2
+   }
+  ]
+ },
+ {
+  "worker_id": "w0011",
+  "brief": "runs/20261007-233724/briefs/brief-w0011.md",
+  "items": [
+   {
+    "candidate_label": "fe847630",
+    "pass_no": 2
+   },
+   {
+    "candidate_label": "1386766b",
+    "pass_no": 2
+   },
+   {
+    "candidate_label": "2a87b7a9",
+    "pass_no": 2
+   }
+  ]
+ },
+ {
+  "worker_id": "w0012",
+  "brief": "runs/20261007-233724/briefs/brief-w0012.md",
+  "items": [
+   {
+    "candidate_label": "ecf4db34",
+    "pass_no": 3
+   },
+   {
+    "candidate_label": "2a87b7a9",
+    "pass_no": 3
+   },
+   {
+    "candidate_label": "fe847630",
+    "pass_no": 3
+   }
+  ]
+ },
+ {
+  "worker_id": "w0013",
+  "brief": "runs/20261007-233724/briefs/brief-w0013.md",
+  "items": [
+   {
+    "candidate_label": "d666c7df",
+    "pass_no": 3
+   },
+   {
+    "candidate_label": "fc12e892",
+    "pass_no": 3
+   },
+   {
+    "candidate_label": "a1cd2087",
+    "pass_no": 3
+   }
+  ]
+ },
+ {
+  "worker_id": "w0014",
+  "brief": "runs/20261007-233724/briefs/brief-w0014.md",
+  "items": [
+   {
+    "candidate_label": "99a93f79",
+    "pass_no": 3
+   },
+   {
+    "candidate_label": "1c2498b4",
+    "pass_no": 3
+   },
+   {
+    "candidate_label": "1386766b",
+    "pass_no": 3
+   }
+  ]
+ },
+ {
+  "worker_id": "w0015",
+  "brief": "runs/20261007-233724/briefs/brief-w0015.md",
+  "items": [
+   {
+    "candidate_label": "d24f0ea5",
+    "pass_no": 3
+   },
+   {
+    "candidate_label": "19f3bb19",
+    "pass_no": 3
+   },
+   {
+    "candidate_label": "d38a1821",
+    "pass_no": 3
+   }
+  ]
+ },
+ {
+  "worker_id": "w0016",
+  "brief": "runs/20261007-233724/briefs/brief-w0016.md",
+  "items": [
+   {
+    "candidate_label": "264710b9",
+    "pass_no": 3
+   },
+   {
+    "candidate_label": "7e5bbba0",
+    "pass_no": 3
+   },
+   {
+    "candidate_label": "fed88338",
+    "pass_no": 3
+   }
+  ]
+ },
+ {
+  "worker_id": "w0017",
+  "brief": "runs/20261007-233724/briefs/brief-w0017.md",
+  "items": [
+   {
+    "candidate_label": "c0733a7d",
+    "pass_no": 3
+   },
+   {
+    "candidate_label": "5888ca6b",
+    "pass_no": 3
+   },
+   {
+    "candidate_label": "b1eee668",
+    "pass_no": 3
+   }
+  ]
+ }
+]

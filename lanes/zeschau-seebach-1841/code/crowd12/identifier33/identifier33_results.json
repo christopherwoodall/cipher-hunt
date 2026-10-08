@@ -1,0 +1,2674 @@
+{
+ "meta": {
+  "N_pairs": 1847,
+  "v8_NW": 92677,
+  "pool_tokens": 3960009,
+  "n_pour_pool": 23347,
+  "frames": {
+   "F-A": {
+    "positions": [
+     186,
+     1245
+    ],
+    "suc": "16"
+   },
+   "F-B": {
+    "positions": [
+     408
+    ],
+    "suc": "01"
+   },
+   "F-C": {
+    "positions": [
+     467,
+     1088
+    ],
+    "suc": "79"
+   },
+   "F-D": {
+    "positions": [
+     846
+    ],
+    "suc": "96"
+   },
+   "F-E": {
+    "positions": [
+     936,
+     1630
+    ],
+    "suc": "21"
+   }
+  },
+  "drops": {
+   "notre": "possessive adjective (\"pour notre + noun\" is grammatical; not an infinitive)",
+   "votre": "possessive adjective (\"pour votre + noun\"); not an infinitive",
+   "titre": "noun; \"pour titre\" ungrammatical as infinitive (boundary artifact)",
+   "premier": "adjective; \"pour premier\" ungrammatical",
+   "ministre": "noun; \"pour ministre\" ungrammatical as infinitive",
+   "quatre": "numeral; not an infinitive",
+   "maître": "noun; not an infinitive",
+   "homère": "proper noun (Homer); not an infinitive"
+  }
+ },
+ "candidates": [
+  {
+   "inf": "faire",
+   "n_pool": 324,
+   "n_pool_nov8": 312
+  },
+  {
+   "inf": "être",
+   "n_pool": 216,
+   "n_pool_nov8": 213
+  },
+  {
+   "inf": "avoir",
+   "n_pool": 153,
+   "n_pool_nov8": 149
+  },
+  {
+   "inf": "aller",
+   "n_pool": 131,
+   "n_pool_nov8": 126
+  },
+  {
+   "inf": "obtenir",
+   "n_pool": 91,
+   "n_pool_nov8": 90
+  },
+  {
+   "inf": "donner",
+   "n_pool": 89,
+   "n_pool_nov8": 89
+  },
+  {
+   "inf": "mettre",
+   "n_pool": 87,
+   "n_pool_nov8": 85
+  },
+  {
+   "inf": "arriver",
+   "n_pool": 78,
+   "n_pool_nov8": 75
+  },
+  {
+   "inf": "assurer",
+   "n_pool": 77,
+   "n_pool_nov8": 77
+  },
+  {
+   "inf": "prendre",
+   "n_pool": 64,
+   "n_pool_nov8": 61
+  },
+  {
+   "inf": "atteindre",
+   "n_pool": 64,
+   "n_pool_nov8": 63
+  },
+  {
+   "inf": "servir",
+   "n_pool": 63,
+   "n_pool_nov8": 63
+  },
+  {
+   "inf": "éviter",
+   "n_pool": 60,
+   "n_pool_nov8": 59
+  },
+  {
+   "inf": "rendre",
+   "n_pool": 60,
+   "n_pool_nov8": 60
+  },
+  {
+   "inf": "pouvoir",
+   "n_pool": 57,
+   "n_pool_nov8": 55
+  },
+  {
+   "inf": "soutenir",
+   "n_pool": 53,
+   "n_pool_nov8": 53
+  },
+  {
+   "inf": "savoir",
+   "n_pool": 46,
+   "n_pool_nov8": 46
+  },
+  {
+   "inf": "amener",
+   "n_pool": 46,
+   "n_pool_nov8": 46
+  },
+  {
+   "inf": "satisfaire",
+   "n_pool": 42,
+   "n_pool_nov8": 42
+  },
+  {
+   "inf": "agir",
+   "n_pool": 40,
+   "n_pool_nov8": 40
+  },
+  {
+   "inf": "régler",
+   "n_pool": 40,
+   "n_pool_nov8": 39
+  },
+  {
+   "inf": "empêcher",
+   "n_pool": 39,
+   "n_pool_nov8": 37
+  },
+  {
+   "inf": "sauver",
+   "n_pool": 38,
+   "n_pool_nov8": 37
+  },
+  {
+   "inf": "entrer",
+   "n_pool": 37,
+   "n_pool_nov8": 36
+  },
+  {
+   "inf": "voir",
+   "n_pool": 37,
+   "n_pool_nov8": 35
+  },
+  {
+   "inf": "venir",
+   "n_pool": 36,
+   "n_pool_nov8": 35
+  },
+  {
+   "inf": "maintenir",
+   "n_pool": 35,
+   "n_pool_nov8": 35
+  },
+  {
+   "inf": "déterminer",
+   "n_pool": 35,
+   "n_pool_nov8": 35
+  },
+  {
+   "inf": "prévenir",
+   "n_pool": 35,
+   "n_pool_nov8": 34
+  },
+  {
+   "inf": "conserver",
+   "n_pool": 34,
+   "n_pool_nov8": 34
+  },
+  {
+   "inf": "établir",
+   "n_pool": 34,
+   "n_pool_nov8": 34
+  },
+  {
+   "inf": "prouver",
+   "n_pool": 32,
+   "n_pool_nov8": 31
+  },
+  {
+   "inf": "échapper",
+   "n_pool": 31,
+   "n_pool_nov8": 31
+  },
+  {
+   "inf": "expliquer",
+   "n_pool": 31,
+   "n_pool_nov8": 31
+  },
+  {
+   "inf": "arrêter",
+   "n_pool": 29,
+   "n_pool_nov8": 26
+  },
+  {
+   "inf": "parler",
+   "n_pool": 29,
+   "n_pool_nov8": 26
+  },
+  {
+   "inf": "porter",
+   "n_pool": 29,
+   "n_pool_nov8": 28
+  },
+  {
+   "inf": "devenir",
+   "n_pool": 28,
+   "n_pool_nov8": 28
+  },
+  {
+   "inf": "vivre",
+   "n_pool": 28,
+   "n_pool_nov8": 27
+  },
+  {
+   "inf": "rester",
+   "n_pool": 25,
+   "n_pool_nov8": 25
+  },
+  {
+   "inf": "rétablir",
+   "n_pool": 25,
+   "n_pool_nov8": 24
+  },
+  {
+   "inf": "recevoir",
+   "n_pool": 25,
+   "n_pool_nov8": 24
+  },
+  {
+   "inf": "remplir",
+   "n_pool": 25,
+   "n_pool_nov8": 24
+  },
+  {
+   "inf": "montrer",
+   "n_pool": 25,
+   "n_pool_nov8": 24
+  },
+  {
+   "inf": "demander",
+   "n_pool": 24,
+   "n_pool_nov8": 24
+  },
+  {
+   "inf": "répondre",
+   "n_pool": 24,
+   "n_pool_nov8": 24
+  },
+  {
+   "inf": "juger",
+   "n_pool": 24,
+   "n_pool_nov8": 23
+  },
+  {
+   "inf": "traiter",
+   "n_pool": 23,
+   "n_pool_nov8": 22
+  },
+  {
+   "inf": "résister",
+   "n_pool": 23,
+   "n_pool_nov8": 23
+  },
+  {
+   "inf": "défendre",
+   "n_pool": 23,
+   "n_pool_nov8": 21
+  },
+  {
+   "inf": "gagner",
+   "n_pool": 23,
+   "n_pool_nov8": 22
+  },
+  {
+   "inf": "passer",
+   "n_pool": 22,
+   "n_pool_nov8": 22
+  },
+  {
+   "inf": "protéger",
+   "n_pool": 22,
+   "n_pool_nov8": 22
+  },
+  {
+   "inf": "décider",
+   "n_pool": 21,
+   "n_pool_nov8": 20
+  },
+  {
+   "inf": "justifier",
+   "n_pool": 21,
+   "n_pool_nov8": 20
+  },
+  {
+   "inf": "former",
+   "n_pool": 21,
+   "n_pool_nov8": 21
+  },
+  {
+   "inf": "gouverner",
+   "n_pool": 19,
+   "n_pool_nov8": 19
+  },
+  {
+   "inf": "sortir",
+   "n_pool": 19,
+   "n_pool_nov8": 18
+  },
+  {
+   "inf": "suivre",
+   "n_pool": 19,
+   "n_pool_nov8": 18
+  },
+  {
+   "inf": "compléter",
+   "n_pool": 19,
+   "n_pool_nov8": 19
+  },
+  {
+   "inf": "détruire",
+   "n_pool": 19,
+   "n_pool_nov8": 19
+  },
+  {
+   "inf": "retourner",
+   "n_pool": 19,
+   "n_pool_nov8": 19
+  },
+  {
+   "inf": "engager",
+   "n_pool": 19,
+   "n_pool_nov8": 19
+  },
+  {
+   "inf": "éclairer",
+   "n_pool": 18,
+   "n_pool_nov8": 17
+  },
+  {
+   "inf": "accomplir",
+   "n_pool": 18,
+   "n_pool_nov8": 18
+  },
+  {
+   "inf": "tenir",
+   "n_pool": 18,
+   "n_pool_nov8": 18
+  },
+  {
+   "inf": "rentrer",
+   "n_pool": 18,
+   "n_pool_nov8": 18
+  },
+  {
+   "inf": "préparer",
+   "n_pool": 18,
+   "n_pool_nov8": 18
+  },
+  {
+   "inf": "garantir",
+   "n_pool": 18,
+   "n_pool_nov8": 18
+  },
+  {
+   "inf": "terminer",
+   "n_pool": 18,
+   "n_pool_nov8": 18
+  },
+  {
+   "inf": "comprendre",
+   "n_pool": 17,
+   "n_pool_nov8": 17
+  },
+  {
+   "inf": "contenir",
+   "n_pool": 17,
+   "n_pool_nov8": 17
+  },
+  {
+   "inf": "dire",
+   "n_pool": 17,
+   "n_pool_nov8": 17
+  },
+  {
+   "inf": "assister",
+   "n_pool": 17,
+   "n_pool_nov8": 17
+  },
+  {
+   "inf": "apprécier",
+   "n_pool": 17,
+   "n_pool_nov8": 17
+  },
+  {
+   "inf": "examiner",
+   "n_pool": 17,
+   "n_pool_nov8": 17
+  },
+  {
+   "inf": "etre",
+   "n_pool": 17,
+   "n_pool_nov8": 17
+  },
+  {
+   "inf": "couvrir",
+   "n_pool": 16,
+   "n_pool_nov8": 16
+  },
+  {
+   "inf": "trouver",
+   "n_pool": 16,
+   "n_pool_nov8": 16
+  },
+  {
+   "inf": "attirer",
+   "n_pool": 16,
+   "n_pool_nov8": 15
+  },
+  {
+   "inf": "connaître",
+   "n_pool": 16,
+   "n_pool_nov8": 16
+  },
+  {
+   "inf": "exciter",
+   "n_pool": 16,
+   "n_pool_nov8": 16
+  },
+  {
+   "inf": "achever",
+   "n_pool": 16,
+   "n_pool_nov8": 16
+  },
+  {
+   "inf": "fonder",
+   "n_pool": 15,
+   "n_pool_nov8": 15
+  },
+  {
+   "inf": "réprimer",
+   "n_pool": 15,
+   "n_pool_nov8": 15
+  },
+  {
+   "inf": "conquérir",
+   "n_pool": 15,
+   "n_pool_nov8": 15
+  },
+  {
+   "inf": "ramener",
+   "n_pool": 15,
+   "n_pool_nov8": 15
+  },
+  {
+   "inf": "tirer",
+   "n_pool": 15,
+   "n_pool_nov8": 13
+  },
+  {
+   "inf": "appuyer",
+   "n_pool": 15,
+   "n_pool_nov8": 15
+  },
+  {
+   "inf": "exercer",
+   "n_pool": 15,
+   "n_pool_nov8": 15
+  },
+  {
+   "inf": "remplacer",
+   "n_pool": 15,
+   "n_pool_nov8": 12
+  },
+  {
+   "inf": "reprendre",
+   "n_pool": 14,
+   "n_pool_nov8": 14
+  },
+  {
+   "inf": "renverser",
+   "n_pool": 14,
+   "n_pool_nov8": 14
+  },
+  {
+   "inf": "changer",
+   "n_pool": 14,
+   "n_pool_nov8": 14
+  },
+  {
+   "inf": "chercher",
+   "n_pool": 14,
+   "n_pool_nov8": 14
+  },
+  {
+   "inf": "opérer",
+   "n_pool": 14,
+   "n_pool_nov8": 14
+  },
+  {
+   "inf": "écrire",
+   "n_pool": 14,
+   "n_pool_nov8": 12
+  },
+  {
+   "inf": "aider",
+   "n_pool": 14,
+   "n_pool_nov8": 14
+  },
+  {
+   "inf": "réussir",
+   "n_pool": 13,
+   "n_pool_nov8": 13
+  },
+  {
+   "inf": "relever",
+   "n_pool": 13,
+   "n_pool_nov8": 12
+  },
+  {
+   "inf": "reconnaître",
+   "n_pool": 13,
+   "n_pool_nov8": 13
+  },
+  {
+   "inf": "tenter",
+   "n_pool": 13,
+   "n_pool_nov8": 13
+  },
+  {
+   "inf": "faciliter",
+   "n_pool": 13,
+   "n_pool_nov8": 13
+  },
+  {
+   "inf": "occuper",
+   "n_pool": 13,
+   "n_pool_nov8": 13
+  },
+  {
+   "inf": "diriger",
+   "n_pool": 13,
+   "n_pool_nov8": 13
+  },
+  {
+   "inf": "calmer",
+   "n_pool": 13,
+   "n_pool_nov8": 13
+  },
+  {
+   "inf": "repousser",
+   "n_pool": 13,
+   "n_pool_nov8": 13
+  },
+  {
+   "inf": "constater",
+   "n_pool": 13,
+   "n_pool_nov8": 13
+  },
+  {
+   "inf": "jeter",
+   "n_pool": 13,
+   "n_pool_nov8": 13
+  },
+  {
+   "inf": "apaiser",
+   "n_pool": 13,
+   "n_pool_nov8": 13
+  },
+  {
+   "inf": "plaire",
+   "n_pool": 12,
+   "n_pool_nov8": 11
+  },
+  {
+   "inf": "laisser",
+   "n_pool": 12,
+   "n_pool_nov8": 12
+  },
+  {
+   "inf": "déjouer",
+   "n_pool": 12,
+   "n_pool_nov8": 11
+  },
+  {
+   "inf": "garder",
+   "n_pool": 12,
+   "n_pool_nov8": 12
+  },
+  {
+   "inf": "enlever",
+   "n_pool": 12,
+   "n_pool_nov8": 12
+  },
+  {
+   "inf": "signer",
+   "n_pool": 12,
+   "n_pool_nov8": 11
+  },
+  {
+   "inf": "fixer",
+   "n_pool": 12,
+   "n_pool_nov8": 12
+  },
+  {
+   "inf": "suffire",
+   "n_pool": 11,
+   "n_pool_nov8": 11
+  },
+  {
+   "inf": "démontrer",
+   "n_pool": 11,
+   "n_pool_nov8": 11
+  },
+  {
+   "inf": "obéir",
+   "n_pool": 11,
+   "n_pool_nov8": 11
+  },
+  {
+   "inf": "causer",
+   "n_pool": 11,
+   "n_pool_nov8": 11
+  },
+  {
+   "inf": "exécuter",
+   "n_pool": 11,
+   "n_pool_nov8": 10
+  },
+  {
+   "inf": "conduire",
+   "n_pool": 11,
+   "n_pool_nov8": 10
+  },
+  {
+   "inf": "combattre",
+   "n_pool": 11,
+   "n_pool_nov8": 11
+  },
+  {
+   "inf": "croire",
+   "n_pool": 11,
+   "n_pool_nov8": 11
+  },
+  {
+   "inf": "empecher",
+   "n_pool": 11,
+   "n_pool_nov8": 11
+  },
+  {
+   "inf": "parvenir",
+   "n_pool": 11,
+   "n_pool_nov8": 10
+  },
+  {
+   "inf": "oser",
+   "n_pool": 11,
+   "n_pool_nov8": 11
+  },
+  {
+   "inf": "réclamer",
+   "n_pool": 10,
+   "n_pool_nov8": 10
+  },
+  {
+   "inf": "apprendre",
+   "n_pool": 10,
+   "n_pool_nov8": 10
+  },
+  {
+   "inf": "protester",
+   "n_pool": 10,
+   "n_pool_nov8": 10
+  },
+  {
+   "inf": "résoudre",
+   "n_pool": 10,
+   "n_pool_nov8": 10
+  },
+  {
+   "inf": "entreprendre",
+   "n_pool": 10,
+   "n_pool_nov8": 10
+  },
+  {
+   "inf": "lever",
+   "n_pool": 10,
+   "n_pool_nov8": 10
+  },
+  {
+   "inf": "abattre",
+   "n_pool": 10,
+   "n_pool_nov8": 10
+  },
+  {
+   "inf": "exprimer",
+   "n_pool": 10,
+   "n_pool_nov8": 10
+  },
+  {
+   "inf": "préserver",
+   "n_pool": 9,
+   "n_pool_nov8": 9
+  },
+  {
+   "inf": "jouir",
+   "n_pool": 9,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "proclamer",
+   "n_pool": 9,
+   "n_pool_nov8": 9
+  },
+  {
+   "inf": "revenir",
+   "n_pool": 9,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "soulever",
+   "n_pool": 9,
+   "n_pool_nov8": 9
+  },
+  {
+   "inf": "entretenir",
+   "n_pool": 9,
+   "n_pool_nov8": 9
+  },
+  {
+   "inf": "indiquer",
+   "n_pool": 9,
+   "n_pool_nov8": 9
+  },
+  {
+   "inf": "essayer",
+   "n_pool": 9,
+   "n_pool_nov8": 9
+  },
+  {
+   "inf": "produire",
+   "n_pool": 9,
+   "n_pool_nov8": 9
+  },
+  {
+   "inf": "écouter",
+   "n_pool": 9,
+   "n_pool_nov8": 9
+  },
+  {
+   "inf": "ouvrir",
+   "n_pool": 9,
+   "n_pool_nov8": 9
+  },
+  {
+   "inf": "commencer",
+   "n_pool": 9,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "diminuer",
+   "n_pool": 9,
+   "n_pool_nov8": 9
+  },
+  {
+   "inf": "forcer",
+   "n_pool": 9,
+   "n_pool_nov8": 9
+  },
+  {
+   "inf": "attendre",
+   "n_pool": 9,
+   "n_pool_nov8": 9
+  },
+  {
+   "inf": "continuer",
+   "n_pool": 9,
+   "n_pool_nov8": 9
+  },
+  {
+   "inf": "réduire",
+   "n_pool": 9,
+   "n_pool_nov8": 9
+  },
+  {
+   "inf": "acheter",
+   "n_pool": 9,
+   "n_pool_nov8": 9
+  },
+  {
+   "inf": "guérir",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "rappeler",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "espérer",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "améliorer",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "retenir",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "lutter",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "conjurer",
+   "n_pool": 8,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "attaquer",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "veiller",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "déclarer",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "organiser",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "rompre",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "mener",
+   "n_pool": 8,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "combler",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "vaincre",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "inspirer",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "fournir",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "conclure",
+   "n_pool": 8,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "offrir",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "étudier",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "retrouver",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "étendre",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "étre",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "remonter",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "annoncer",
+   "n_pool": 8,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "étouffer",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "peindre",
+   "n_pool": 8,
+   "n_pool_nov8": 8
+  },
+  {
+   "inf": "regagner",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "imposer",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "supporter",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "lire",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "travailler",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "entendre",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "nourrir",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "augmenter",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "exploiter",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "traverser",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "dissiper",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "réaliser",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "réunir",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "payer",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "contempler",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "vouloir",
+   "n_pool": 7,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "arracher",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "accepter",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "concilier",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "visiter",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "briser",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "regier",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "commander",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "tuer",
+   "n_pool": 7,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "acquérir",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "éteindre",
+   "n_pool": 7,
+   "n_pool_nov8": 7
+  },
+  {
+   "inf": "amuser",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "écarter",
+   "n_pool": 6,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "recueillir",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "répandre",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "atténuer",
+   "n_pool": 6,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "admettre",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "vider",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "provoquer",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "chasser",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "communiquer",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "ajouter",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "consolider",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "couper",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "écraser",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "épargner",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "pénétrer",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "hâter",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "seconder",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "manifester",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "employer",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "célébrer",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "adresser",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "rire",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "désirer",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "monter",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "remettre",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "battre",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "attester",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "eviter",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "venger",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "placer",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "créer",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "songer",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "négocier",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "rejoindre",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "rallier",
+   "n_pool": 6,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "effacer",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "paraître",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "cacher",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "affaiblir",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "excuser",
+   "n_pool": 6,
+   "n_pool_nov8": 6
+  },
+  {
+   "inf": "dominer",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "rassurer",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "introduire",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "penser",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "autoriser",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "observer",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "saisir",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "mesurer",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "soumettre",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "éclater",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "pousser",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "sentir",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "découvrir",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "éloigner",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "nommer",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "prolonger",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "appeler",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "témoigner",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "reconstruire",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "présenter",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "réparer",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "délibérer",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "interdire",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "disposer",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "transformer",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "détourner",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "envoyer",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "acquitter",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "arranger",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "délivrer",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "convenir",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "arreter",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "tomber",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "fêter",
+   "n_pool": 5,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "profiter",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "caractériser",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "enflammer",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "modifier",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "mourir",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "instruire",
+   "n_pool": 5,
+   "n_pool_nov8": 5
+  },
+  {
+   "inf": "publier",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "abolir",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "renouer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "dompter",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "partir",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "contenter",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "adopter",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "suppléer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "imprimer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "désigner",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "surmonter",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "féliciter",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "exiger",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "élever",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "apporter",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "animer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "vendre",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "rechercher",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "éclaircir",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "ranimer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "diviser",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "contribuer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "renouveler",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "renforcer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "adoucir",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "finir",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "concerter",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "perdre",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "intervenir",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "livrer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "abaisser",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "accuser",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "aborder",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "eclairer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "renoncer",
+   "n_pool": 4,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "convaincre",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "constituer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "asseoir",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "deviner",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "traduire",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "aboutir",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "réconcilier",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "inventer",
+   "n_pool": 4,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "désarmer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "emprunter",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "saluer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "honorer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "lancer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "aimer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "couronner",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "essuyer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "affermir",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "marcher",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "alimenter",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "modérer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "toucher",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "séparer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "accorder",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "avertir",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "soigner",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "abriter",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "allumer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "séduire",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "citer",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "amortir",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "grossir",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "régner",
+   "n_pool": 4,
+   "n_pool_nov8": 4
+  },
+  {
+   "inf": "durer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "signaler",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "retirer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "suspendre",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "compromettre",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "influer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "ménager",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "considérer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "disparaître",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "amasser",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "courir",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "craindre",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "réformer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "voter",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "prononcer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "accueillir",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "obliger",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "irriter",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "poser",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "prétendre",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "triompher",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "simplifier",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "ôter",
+   "n_pool": 3,
+   "n_pool_nov8": 2
+  },
+  {
+   "inf": "redoubler",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "opposer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "compenser",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "rassembler",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "révéler",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "consacrer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "intimider",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "rallumer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "encourager",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "parer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "frapper",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "étaler",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "exposer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "procéder",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "attribuer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "voler",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "permettre",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "refuser",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "intercepter",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "peser",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "affranchir",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "effectuer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "accréditer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "insurger",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "entraîner",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "ajourner",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "aplanir",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "dissimuler",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "rectifier",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "masquer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "tacher",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "concevoir",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "persuader",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "prevenir",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "reconnaitre",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "avaler",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "punir",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "qualifier",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "remporter",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "inviter",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "construire",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "louer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "tourner",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "complimenter",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "gâter",
+   "n_pool": 3,
+   "n_pool_nov8": 0
+  },
+  {
+   "inf": "subvenir",
+   "n_pool": 3,
+   "n_pool_nov8": 2
+  },
+  {
+   "inf": "soulager",
+   "n_pool": 3,
+   "n_pool_nov8": 2
+  },
+  {
+   "inf": "puiser",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "fuir",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "discuter",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "représenter",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "accompagner",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "mériter",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "bâtir",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "troubler",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "risquer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "remédier",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "pacifier",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "secourir",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "reculer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "fermer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "affirmer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "déposer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "éblouir",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "recruter",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "émouvoir",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "agiter",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "annuler",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "surveiller",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "tromper",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "attacher",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "enrichir",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "condamner",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "disputer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "obvier",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "récompenser",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "reconquérir",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "franchir",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "flatter",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "déchirer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "jouer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "corriger",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  },
+  {
+   "inf": "subjuguer",
+   "n_pool": 3,
+   "n_pool_nov8": 3
+  }
+ ],
+ "R_top10_pool_nov8": [
+  {
+   "inf": "faire",
+   "n": 312
+  },
+  {
+   "inf": "être",
+   "n": 213
+  },
+  {
+   "inf": "avoir",
+   "n": 149
+  },
+  {
+   "inf": "aller",
+   "n": 126
+  },
+  {
+   "inf": "obtenir",
+   "n": 90
+  },
+  {
+   "inf": "donner",
+   "n": 89
+  },
+  {
+   "inf": "mettre",
+   "n": 85
+  },
+  {
+   "inf": "assurer",
+   "n": 77
+  },
+  {
+   "inf": "arriver",
+   "n": 75
+  },
+  {
+   "inf": "atteindre",
+   "n": 63
+  }
+ ],
+ "clusters": {
+  "F-A": {
+   "positions": [
+    186,
+    1245
+   ],
+   "suc": "16",
+   "T": {
+    "query": "F-A",
+    "license_n": 0,
+    "argmax": null,
+    "argmax_n": 0,
+    "ties": [],
+    "top5": []
+   },
+   "L_pass": false,
+   "R_candidates_in_top10": [
+    "faire",
+    "être",
+    "avoir",
+    "aller",
+    "obtenir",
+    "donner",
+    "mettre",
+    "arriver",
+    "assurer",
+    "atteindre"
+   ]
+  },
+  "F-B": {
+   "positions": [
+    408
+   ],
+   "suc": "01",
+   "T": null,
+   "L_pass": null,
+   "R_candidates_in_top10": [
+    "faire",
+    "être",
+    "avoir",
+    "aller",
+    "obtenir",
+    "donner",
+    "mettre",
+    "arriver",
+    "assurer",
+    "atteindre"
+   ]
+  },
+  "F-C": {
+   "positions": [
+    467,
+    1088
+   ],
+   "suc": "79",
+   "T": null,
+   "L_pass": null,
+   "R_candidates_in_top10": [
+    "faire",
+    "être",
+    "avoir",
+    "aller",
+    "obtenir",
+    "donner",
+    "mettre",
+    "arriver",
+    "assurer",
+    "atteindre"
+   ]
+  },
+  "F-D": {
+   "positions": [
+    846
+   ],
+   "suc": "96",
+   "T": {
+    "query": "F-D",
+    "license_n": 0,
+    "argmax": null,
+    "argmax_n": 0,
+    "ties": [],
+    "top5": []
+   },
+   "L_pass": false,
+   "R_candidates_in_top10": [
+    "faire",
+    "être",
+    "avoir",
+    "aller",
+    "obtenir",
+    "donner",
+    "mettre",
+    "arriver",
+    "assurer",
+    "atteindre"
+   ]
+  },
+  "F-E": {
+   "positions": [
+    936,
+    1630
+   ],
+   "suc": "21",
+   "T": {
+    "query": "F-E",
+    "license_n": 0,
+    "argmax": null,
+    "argmax_n": 0,
+    "ties": [],
+    "top5": []
+   },
+   "L_pass": false,
+   "R_candidates_in_top10": [
+    "faire",
+    "être",
+    "avoir",
+    "aller",
+    "obtenir",
+    "donner",
+    "mettre",
+    "arriver",
+    "assurer",
+    "atteindre"
+   ]
+  }
+ },
+ "fallback": {
+  "F-D-generic-pour-INF-W1W2": [
+   [
+    "faire",
+    12
+   ],
+   [
+    "votre",
+    9
+   ],
+   [
+    "notre",
+    6
+   ],
+   [
+    "aller",
+    5
+   ],
+   [
+    "avoir",
+    4
+   ]
+  ],
+  "F-E-generic-pour-INF-W1W2": [
+   [
+    "faire",
+    12
+   ],
+   [
+    "votre",
+    9
+   ],
+   [
+    "notre",
+    6
+   ],
+   [
+    "aller",
+    5
+   ],
+   [
+    "avoir",
+    4
+   ]
+  ],
+  "cela-pour-INF": [
+   [
+    "ôter",
+    1
+   ],
+   [
+    "faire",
+    1
+   ]
+  ],
+  "F-D-fallback-argmax": {
+   "argmax": "faire",
+   "n": 12,
+   "ties": []
+  },
+  "F-E-fallback-argmax": {
+   "argmax": "faire",
+   "n": 12,
+   "ties": []
+  },
+  "cela-pour-argmax": {
+   "argmax": null,
+   "n": 1,
+   "ties": [
+    "ôter",
+    "faire"
+   ]
+  }
+ },
+ "posthoc_sensitivity": {
+  "note": "NOT pre-registered. Run AFTER the prereg battery to assess the v8 L-bar power. Labeled post-hoc; not a check. 2026-10-07.",
+  "pool_n_pour": 23347,
+  "v8_n_pour": 671,
+  "v8_n_pour_INF": 149,
+  "pool_pour_INF_par_EWORD": {
+   "total": 0,
+   "note": "0/23347; 95pct UB ~0.013pct -> F-D fence STRONG"
+  },
+  "pool_pour_INF_W_qui": {
+   "total": 29,
+   "W_slot": {
+    "ce": 14,
+    "celui": 2,
+    "ceux": 2,
+    "et": 2,
+    "cause": 1,
+    "cehii": 1,
+    "de": 1,
+    "a": 1,
+    "satan": 1,
+    "ou": 1,
+    "aux": 1,
+    "encore": 1
+   },
+   "note": "v8 expected 671*29/23347=0.83, P(0)~0.44 -> v8 L-bar UNDERPOWERED for F-E, not a true fence"
+  },
+  "pool_pour_X_ce_qui": {
+   "savoir": 2,
+   "compenser": 1,
+   "repousser": 1,
+   "gener": 1,
+   "sauver": 1,
+   "obtenir": 1,
+   "refleter": 1,
+   "tenter": 1,
+   "faire": 1,
+   "etouffer": 1,
+   "montrer": 1,
+   "demontrer": 1,
+   "note": "savoir unique modal x2; P(savoir|pour)=0.00197 vs 2/14=0.143 -> ~73x enriched; F22 granularity objects (savoir=2 syllables vs 33=1 group)"
+  },
+  "pool_pour_INF_W_pour": {
+   "total": 49,
+   "note": "ALL infinitive-coordination (W=mais/non/et/ou/ni/soit) or beneficiary-NP (W=proper noun); second pour always infinitival -> F-A fence SHARPENED (cipher 67=et/veut non-infinitival)"
+  },
+  "pool_pour_INF_qui": {
+   "total": 4,
+   "hits": [
+    "rire",
+    "arreter",
+    "savoir",
+    "voir"
+   ],
+   "note": "no modal"
+  }
+ },
+ "checkA_handread": {
+  "F-B": "26/149 v8 pour-INF have la within -8; qui-pour adjacency mismatches cipher 34-69-26 gap -> NOT striking",
+  "F-C@467": "0 v8 pour-INF with par shortly before -> not found",
+  "F-C@1088": "3 qui...pour-INF (remplacer/gater/aller), non-convergent -> NOT striking",
+  "note": "A is confirmation-only per prereg; nothing striking -> no LEAN upgrades for T-n/a clusters"
+ },
+ "recommendations": {
+  "F-A": "FENCED",
+  "F-B": "NULL",
+  "F-C": "NULL",
+  "F-D": "FENCED",
+  "F-E": "NULL",
+  "overall_33_value": "NULL",
+  "note": "see report_inbox/identifier33-33-id.md for the 33-value paradox and tie-breakers"
+ }
+}

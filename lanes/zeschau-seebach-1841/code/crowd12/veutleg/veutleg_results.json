@@ -1,0 +1,352 @@
+{
+ "prereg": "code/crowd12/veutleg/PREREG.md (2026-10-07 21:24 UTC)",
+ "parse": "repaired 1,847-pair",
+ "windows_verified": {
+  "1450": [
+   "59",
+   "36",
+   "67",
+   "33",
+   "46"
+  ],
+  "1623": [
+   "78",
+   "66",
+   "67",
+   "33",
+   "46"
+  ]
+ },
+ "alt_b_negative": {
+  "33_with_suc46": [
+   1451,
+   1624
+  ],
+  "only_decider_pair": true
+ },
+ "census_36": {
+  "P": "36",
+  "n_total": 9,
+  "n_census": 8,
+  "excluded_decider": 1449,
+  "rows": [
+   {
+    "pos": 388,
+    "pre": "91",
+    "suc": "62"
+   },
+   {
+    "pos": 421,
+    "pre": "49",
+    "suc": "29"
+   },
+   {
+    "pos": 740,
+    "pre": "00",
+    "suc": "20"
+   },
+   {
+    "pos": 1174,
+    "pre": "85",
+    "suc": "74"
+   },
+   {
+    "pos": 1215,
+    "pre": "45",
+    "suc": "77"
+   },
+   {
+    "pos": 1313,
+    "pre": "00",
+    "suc": "74"
+   },
+   {
+    "pos": 1585,
+    "pre": "00",
+    "suc": "70"
+   },
+   {
+    "pos": 1834,
+    "pre": "59",
+    "suc": "69"
+   }
+  ],
+  "nom_licensors": {},
+  "vrb_licensors": {
+   "suc=29": [
+    421
+   ]
+  },
+  "ambiguous_datums": [
+   {
+    "pos": 740,
+    "cell": "pre=00"
+   },
+   {
+    "pos": 1313,
+    "cell": "pre=00"
+   },
+   {
+    "pos": 1585,
+    "cell": "pre=00"
+   },
+   {
+    "pos": 1834,
+    "cell": "pre=59"
+   }
+  ],
+  "nulls": {
+   "suc=29": {
+    "k": 1,
+    "n": 8,
+    "E": 0.195,
+    "p_ge_k": 0.1791
+   }
+  },
+  "CLASS": "UNRESOLVED"
+ },
+ "census_66": {
+  "P": "66",
+  "n_total": 19,
+  "n_census": 18,
+  "excluded_decider": 1622,
+  "rows": [
+   {
+    "pos": 88,
+    "pre": "77",
+    "suc": "98"
+   },
+   {
+    "pos": 123,
+    "pre": "58",
+    "suc": "98"
+   },
+   {
+    "pos": 140,
+    "pre": "13",
+    "suc": "14"
+   },
+   {
+    "pos": 153,
+    "pre": "46",
+    "suc": "84"
+   },
+   {
+    "pos": 189,
+    "pre": "00",
+    "suc": "24"
+   },
+   {
+    "pos": 246,
+    "pre": "00",
+    "suc": "91"
+   },
+   {
+    "pos": 254,
+    "pre": "00",
+    "suc": "01"
+   },
+   {
+    "pos": 457,
+    "pre": "13",
+    "suc": "14"
+   },
+   {
+    "pos": 705,
+    "pre": "12",
+    "suc": "21"
+   },
+   {
+    "pos": 715,
+    "pre": "00",
+    "suc": "86"
+   },
+   {
+    "pos": 766,
+    "pre": "88",
+    "suc": "98"
+   },
+   {
+    "pos": 1018,
+    "pre": "15",
+    "suc": "91"
+   },
+   {
+    "pos": 1109,
+    "pre": "00",
+    "suc": "73"
+   },
+   {
+    "pos": 1150,
+    "pre": "33",
+    "suc": "84"
+   },
+   {
+    "pos": 1346,
+    "pre": "86",
+    "suc": "73"
+   },
+   {
+    "pos": 1459,
+    "pre": "86",
+    "suc": "79"
+   },
+   {
+    "pos": 1494,
+    "pre": "00",
+    "suc": "15"
+   },
+   {
+    "pos": 1533,
+    "pre": "00",
+    "suc": "73"
+   }
+  ],
+  "nom_licensors": {
+   "pre=77": [
+    88
+   ]
+  },
+  "vrb_licensors": {},
+  "ambiguous_datums": [
+   {
+    "pos": 153,
+    "cell": "pre=46"
+   },
+   {
+    "pos": 189,
+    "cell": "pre=00"
+   },
+   {
+    "pos": 246,
+    "cell": "pre=00"
+   },
+   {
+    "pos": 254,
+    "cell": "pre=00"
+   },
+   {
+    "pos": 715,
+    "cell": "pre=00"
+   },
+   {
+    "pos": 715,
+    "cell": "suc=86"
+   },
+   {
+    "pos": 1109,
+    "cell": "pre=00"
+   },
+   {
+    "pos": 1346,
+    "cell": "pre=86"
+   },
+   {
+    "pos": 1459,
+    "cell": "pre=86"
+   },
+   {
+    "pos": 1494,
+    "cell": "pre=00"
+   },
+   {
+    "pos": 1533,
+    "cell": "pre=00"
+   }
+  ],
+  "nulls": {
+   "pre=77": {
+    "k": 1,
+    "n": 18,
+    "E": 0.429,
+    "p_ge_k": 0.3521
+   }
+  },
+  "CLASS": "UNRESOLVED"
+ },
+ "era_E1": {
+  "corpus": "nesselrode-v8.txt",
+  "NW": 92123,
+  "n_veut": 59,
+  "top25_predecessors": [
+   [
+    "il",
+    12
+   ],
+   [
+    "ne",
+    11
+   ],
+   [
+    "on",
+    10
+   ],
+   [
+    "elle",
+    4
+   ],
+   [
+    "qui",
+    4
+   ],
+   [
+    "que",
+    3
+   ],
+   [
+    "en",
+    3
+   ],
+   [
+    "et",
+    3
+   ],
+   [
+    "france",
+    1
+   ],
+   [
+    "empereur",
+    1
+   ],
+   [
+    "le",
+    1
+   ],
+   [
+    "palmerston",
+    1
+   ],
+   [
+    "prusse",
+    1
+   ],
+   [
+    "autriche",
+    1
+   ],
+   [
+    "roi",
+    1
+   ],
+   [
+    "cela",
+    1
+   ],
+   [
+    "canitz",
+    1
+   ]
+  ],
+  "n_subjpro_pre": 31,
+  "subjpro_ratio": 0.5254,
+  "bar": ">= 0.50",
+  "E1_PASS": true
+ },
+ "era_E2": "STANDING (cited, not re-counted): \"il veut prouver que\" (census33, v8) licenses \"veut [inf] que\" compositionally.",
+ "per_window": {
+  "1450 (P=36)": "NULL",
+  "1623 (P=66)": "NULL"
+ },
+ "joint_recommendation": "NULL"
+}

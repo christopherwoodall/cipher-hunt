@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "date": "2026-10-07T22:58:12Z",
+  "config": {
+   "iters": 40000,
+   "t0": 60.0,
+   "tmin": 0.05,
+   "lambda_word": 1.0,
+   "lambda_poly": 50.0,
+   "lambda_conc": 5.0,
+   "beta0": 2.0,
+   "conc_cap": 6,
+   "init": "random",
+   "inventory_mode": "crib"
+  },
+  "no_contact": false,
+  "seal_note": "original instances 184101-184106 only; truth keys opened in round-1 forensics (CLOSING-VERIFICATION.md:8,139). Fresh batch NEVER read; R5005 untouched.",
+  "rule": "STAY: hamming(96 groups) <= 5. SLIDE: final_J > J_truth+500 AND primary_recovery < 0.10. else DRIFT (report-only)."
+ },
+ "instances": {
+  "184101": {
+   "build_seed": 9091,
+   "J_truth": -4953.26,
+   "final_J": -2513.99,
+   "delta_J": 2439.26,
+   "hamming_groups": 86,
+   "hamming_nonpin": 86,
+   "n_nonpin": 89,
+   "primary_recovery": 0.0337,
+   "acc_rate": 0.1829,
+   "wall_s": 168.8,
+   "verdict": "SLIDE"
+  },
+  "184102": {
+   "build_seed": 9092,
+   "J_truth": -4925.48,
+   "final_J": -2458.7,
+   "delta_J": 2466.78,
+   "hamming_groups": 87,
+   "hamming_nonpin": 87,
+   "n_nonpin": 89,
+   "primary_recovery": 0.0225,
+   "acc_rate": 0.1837,
+   "wall_s": 236.3,
+   "verdict": "SLIDE"
+  },
+  "184103": {
+   "build_seed": 9093,
+   "J_truth": -5076.21,
+   "final_J": -2357.29,
+   "delta_J": 2718.91,
+   "hamming_groups": 88,
+   "hamming_nonpin": 88,
+   "n_nonpin": 89,
+   "primary_recovery": 0.0112,
+   "acc_rate": 0.1802,
+   "wall_s": 326.9,
+   "verdict": "SLIDE"
+  },
+  "184104": {
+   "build_seed": 9094,
+   "J_truth": -5278.37,
+   "final_J": -2556.54,
+   "delta_J": 2721.83,
+   "hamming_groups": 88,
+   "hamming_nonpin": 88,
+   "n_nonpin": 89,
+   "primary_recovery": 0.0112,
+   "acc_rate": 0.1775,
+   "wall_s": 189.8,
+   "verdict": "SLIDE"
+  },
+  "184105": {
+   "build_seed": 9095,
+   "J_truth": -5293.62,
+   "final_J": -2649.18,
+   "delta_J": 2644.44,
+   "hamming_groups": 89,
+   "hamming_nonpin": 89,
+   "n_nonpin": 89,
+   "primary_recovery": 0.0,
+   "acc_rate": 0.1856,
+   "wall_s": 218.1,
+   "verdict": "SLIDE"
+  },
+  "184106": {
+   "build_seed": 9096,
+   "J_truth": -5045.97,
+   "final_J": -2671.24,
+   "delta_J": 2374.73,
+   "hamming_groups": 89,
+   "hamming_nonpin": 89,
+   "n_nonpin": 89,
+   "primary_recovery": 0.0,
+   "acc_rate": 0.1875,
+   "wall_s": 145.1,
+   "verdict": "SLIDE"
+  }
+ }
+}

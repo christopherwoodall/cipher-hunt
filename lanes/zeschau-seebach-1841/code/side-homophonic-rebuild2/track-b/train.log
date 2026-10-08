@@ -1,0 +1,205 @@
+[data] building line pool...
+[data] train lines=279146 heldout lines=5832
+[data] train chars=11496208 heldout chars=242040
+[gate] running gradient check...
+[gradcheck] worst rel err = 7.57e-05 at ('Wx', (22, 29))
+[train] H=96 T=64 B=96 steps/epoch=1871
+[hb] upd=50 ema=3.0948 wall=32s
+[hb] upd=100 ema=2.8662 wall=64s
+[hb] upd=150 ema=2.6980 wall=96s
+[hb] upd=200 ema=2.5913 wall=127s
+[hb] upd=250 ema=2.5329 wall=159s
+[hb] upd=300 ema=2.4957 wall=190s
+[train] upd=300 ep=0 chars=1843200 train_ema=2.4957 held=2.4646 lr=2e-03 wall=205s
+[hb] upd=350 ema=2.4712 wall=237s
+[hb] upd=400 ema=2.4541 wall=268s
+[hb] upd=450 ema=2.4418 wall=300s
+[hb] upd=500 ema=2.4341 wall=331s
+[hb] upd=550 ema=2.4221 wall=363s
+[hb] upd=600 ema=2.4103 wall=395s
+[train] upd=600 ep=0 chars=3686400 train_ema=2.4103 held=2.4039 lr=2e-03 wall=412s
+[hb] upd=650 ema=2.4041 wall=445s
+[hb] upd=700 ema=2.3991 wall=477s
+[hb] upd=750 ema=2.3902 wall=508s
+[hb] upd=800 ema=2.3829 wall=540s
+[hb] upd=850 ema=2.3759 wall=571s
+[hb] upd=900 ema=2.3714 wall=603s
+[train] upd=900 ep=0 chars=5529600 train_ema=2.3714 held=2.3639 lr=2e-03 wall=619s
+[hb] upd=950 ema=2.3661 wall=650s
+[hb] upd=1000 ema=2.3618 wall=683s
+[hb] upd=1050 ema=2.3517 wall=719s
+[hb] upd=1100 ema=2.3452 wall=753s
+[hb] upd=1150 ema=2.3391 wall=798s
+[hb] upd=1200 ema=2.3356 wall=835s
+[train] upd=1200 ep=0 chars=7372800 train_ema=2.3356 held=2.3269 lr=2e-03 wall=853s
+[hb] upd=1250 ema=2.3273 wall=897s
+[hb] upd=1300 ema=2.3228 wall=945s
+[hb] upd=1350 ema=2.3171 wall=985s
+[hb] upd=1400 ema=2.3096 wall=1021s
+[hb] upd=1450 ema=2.3059 wall=1053s
+[hb] upd=1500 ema=2.3052 wall=1088s
+[train] upd=1500 ep=0 chars=9216000 train_ema=2.3052 held=2.2952 lr=2e-03 wall=1105s
+[hb] upd=1550 ema=2.2972 wall=1140s
+[hb] upd=1600 ema=2.2864 wall=1174s
+[hb] upd=1650 ema=2.2810 wall=1207s
+[hb] upd=1700 ema=2.2751 wall=1239s
+[hb] upd=1750 ema=2.2720 wall=1276s
+[hb] upd=1800 ema=2.2718 wall=1337s
+[train] upd=1800 ep=0 chars=11059200 train_ema=2.2718 held=2.2655 lr=2e-03 wall=1379s
+[hb] upd=1850 ema=2.2637 wall=1460s
+[hb] upd=1900 ema=2.2624 wall=1541s
+[hb] upd=1950 ema=2.2624 wall=1642s
+[hb] upd=2000 ema=2.2587 wall=1767s
+[hb] upd=2050 ema=2.2461 wall=1892s
+[hb] upd=2100 ema=2.2444 wall=2013s
+[train] upd=2100 ep=1 chars=12902400 train_ema=2.2444 held=2.2410 lr=2e-03 wall=2068s
+[hb] upd=2150 ema=2.2423 wall=2139s
+[hb] upd=2200 ema=2.2420 wall=2226s
+[hb] upd=2250 ema=2.2358 wall=2319s
+[hb] upd=2300 ema=2.2348 wall=2425s
+[hb] upd=2350 ema=2.2305 wall=2488s
+[hb] upd=2400 ema=2.2270 wall=2552s
+[train] upd=2400 ep=1 chars=14745600 train_ema=2.2270 held=2.2190 lr=2e-03 wall=2583s
+[hb] upd=2450 ema=2.2144 wall=2640s
+[hb] upd=2500 ema=2.2143 wall=2677s
+[hb] upd=2550 ema=2.2097 wall=2716s
+[hb] upd=2600 ema=2.2077 wall=2756s
+[hb] upd=2650 ema=2.2066 wall=2794s
+[hb] upd=2700 ema=2.1988 wall=2832s
+[train] upd=2700 ep=1 chars=16588800 train_ema=2.1988 held=2.1990 lr=2e-03 wall=2850s
+[hb] upd=2750 ema=2.2021 wall=2890s
+[hb] upd=2800 ema=2.1993 wall=2933s
+[hb] upd=2850 ema=2.1968 wall=2972s
+[hb] upd=2900 ema=2.1906 wall=3023s
+[hb] upd=2950 ema=2.1841 wall=3062s
+[hb] upd=3000 ema=2.1834 wall=3118s
+[train] upd=3000 ep=1 chars=18432000 train_ema=2.1834 held=2.1808 lr=2e-03 wall=3141s
+[hb] upd=3050 ema=2.1826 wall=3191s
+[hb] upd=3100 ema=2.1765 wall=3270s
+[hb] upd=3150 ema=2.1807 wall=3346s
+[hb] upd=3200 ema=2.1735 wall=3466s
+[hb] upd=3250 ema=2.1747 wall=3559s
+[hb] upd=3300 ema=2.1671 wall=3626s
+[train] upd=3300 ep=1 chars=20275200 train_ema=2.1671 held=2.1663 lr=2e-03 wall=3655s
+[hb] upd=3350 ema=2.1723 wall=3768s
+[hb] upd=3400 ema=2.1682 wall=3820s
+[hb] upd=3450 ema=2.1575 wall=3871s
+[hb] upd=3500 ema=2.1527 wall=3913s
+[hb] upd=3550 ema=2.1535 wall=3955s
+[hb] upd=3600 ema=2.1495 wall=4000s
+[train] upd=3600 ep=1 chars=22118400 train_ema=2.1495 held=2.1525 lr=2e-03 wall=4025s
+[hb] upd=3650 ema=2.1486 wall=4074s
+[hb] upd=3700 ema=2.1514 wall=4122s
+[hb] upd=3750 ema=2.1466 wall=4168s
+[hb] upd=3800 ema=2.1502 wall=4224s
+[hb] upd=3850 ema=2.1486 wall=4269s
+[hb] upd=3900 ema=2.1436 wall=4322s
+[train] upd=3900 ep=2 chars=23961600 train_ema=2.1436 held=2.1399 lr=2e-03 wall=4345s
+[hb] upd=3950 ema=2.1382 wall=4395s
+[hb] upd=4000 ema=2.1379 wall=4448s
+[hb] upd=4050 ema=2.1410 wall=4504s
+[hb] upd=4100 ema=2.1363 wall=4566s
+[hb] upd=4150 ema=2.1389 wall=4650s
+[hb] upd=4200 ema=2.1355 wall=4713s
+[train] upd=4200 ep=2 chars=25804800 train_ema=2.1355 held=2.1298 lr=2e-03 wall=4738s
+[hb] upd=4250 ema=2.1358 wall=4787s
+[hb] upd=4300 ema=2.1288 wall=4841s
+[hb] upd=4350 ema=2.1250 wall=4894s
+[hb] upd=4400 ema=2.1233 wall=4949s
+[hb] upd=4450 ema=2.1241 wall=5005s
+[data] building line pool...
+[data] train lines=279146 heldout lines=5832
+[data] train chars=11496208 heldout chars=242040
+[gate] running gradient check...
+[gradcheck] worst rel err = 7.57e-05 at ('Wx', (22, 29))
+[train] H=96 T=64 B=96 steps/epoch=1871
+[resume] loaded ckpt at update=4200 best_held=2.1298
+[hb] upd=4250 ema=2.1368 wall=63s
+[hb] upd=4300 ema=2.1292 wall=117s
+[hb] upd=4350 ema=2.1252 wall=162s
+[hb] upd=4400 ema=2.1234 wall=207s
+[hb] upd=4450 ema=2.1242 wall=315s
+[hb] upd=4500 ema=2.1221 wall=422s
+[train] upd=4500 ep=2 chars=27648000 train_ema=2.1221 held=2.1198 lr=2e-03 wall=458s
+[hb] upd=4550 ema=2.1186 wall=528s
+[hb] upd=4600 ema=2.1211 wall=635s
+[hb] upd=4650 ema=2.1199 wall=733s
+[hb] upd=4700 ema=2.1230 wall=786s
+[hb] upd=4750 ema=2.1158 wall=839s
+[hb] upd=4800 ema=2.1137 wall=889s
+[train] upd=4800 ep=2 chars=29491200 train_ema=2.1137 held=2.1136 lr=2e-03 wall=939s
+[hb] upd=4850 ema=2.1128 wall=1108s
+[hb] upd=4900 ema=2.1124 wall=1248s
+[hb] upd=4950 ema=2.1125 wall=1334s
+[hb] upd=5000 ema=2.1107 wall=1409s
+[hb] upd=5050 ema=2.1138 wall=1468s
+[hb] upd=5100 ema=2.1119 wall=1555s
+[train] upd=5100 ep=2 chars=31334400 train_ema=2.1119 held=2.1055 lr=2e-03 wall=1608s
+[hb] upd=5150 ema=2.1047 wall=1670s
+[hb] upd=5200 ema=2.1109 wall=1741s
+[hb] upd=5250 ema=2.1091 wall=1814s
+[hb] upd=5300 ema=2.1002 wall=1875s
+[hb] upd=5350 ema=2.0936 wall=1929s
+[hb] upd=5400 ema=2.0963 wall=2063s
+[train] upd=5400 ep=2 chars=33177600 train_ema=2.0963 held=2.0993 lr=2e-03 wall=2145s
+[hb] upd=5450 ema=2.0937 wall=2301s
+[hb] upd=5500 ema=2.0961 wall=2520s
+[hb] upd=5550 ema=2.1005 wall=2596s
+[hb] upd=5600 ema=2.0940 wall=2629s
+[hb] upd=5650 ema=2.0947 wall=2663s
+[hb] upd=5700 ema=2.0996 wall=2715s
+[train] upd=5700 ep=3 chars=35020800 train_ema=2.0996 held=2.0913 lr=2e-03 wall=2737s
+[hb] upd=5750 ema=2.0969 wall=2785s
+[hb] upd=5800 ema=2.0891 wall=2835s
+[hb] upd=5850 ema=2.0927 wall=2884s
+[hb] upd=5900 ema=2.0935 wall=2954s
+[hb] upd=5950 ema=2.0943 wall=3028s
+[hb] upd=6000 ema=2.0919 wall=3090s
+[train] upd=6000 ep=3 chars=36864000 train_ema=2.0919 held=2.0866 lr=2e-03 wall=3127s
+[hb] upd=6050 ema=2.0946 wall=3191s
+[hb] upd=6100 ema=2.0928 wall=3256s
+[hb] upd=6150 ema=2.0904 wall=3321s
+[hb] upd=6200 ema=2.0802 wall=3365s
+[hb] upd=6250 ema=2.0824 wall=3407s
+[hb] upd=6300 ema=2.0792 wall=3451s
+[train] upd=6300 ep=3 chars=38707200 train_ema=2.0792 held=2.0810 lr=2e-03 wall=3474s
+[hb] upd=6350 ema=2.0809 wall=3519s
+[hb] upd=6400 ema=2.0820 wall=3561s
+[hb] upd=6450 ema=2.0765 wall=3606s
+[hb] upd=6500 ema=2.0807 wall=3667s
+[hb] upd=6550 ema=2.0805 wall=3727s
+[hb] upd=6600 ema=2.0832 wall=3779s
+[train] upd=6600 ep=3 chars=40550400 train_ema=2.0832 held=2.0766 lr=2e-03 wall=3804s
+[hb] upd=6650 ema=2.0787 wall=3858s
+[hb] upd=6700 ema=2.0760 wall=3896s
+[hb] upd=6750 ema=2.0761 wall=3931s
+[hb] upd=6800 ema=2.0772 wall=3974s
+[hb] upd=6850 ema=2.0735 wall=4023s
+[hb] upd=6900 ema=2.0801 wall=4069s
+[train] upd=6900 ep=3 chars=42393600 train_ema=2.0801 held=2.0709 lr=2e-03 wall=4091s
+[hb] upd=6950 ema=2.0748 wall=4138s
+[data] building line pool...
+[data] train lines=279146 heldout lines=5832
+[data] train chars=11496208 heldout chars=242040
+[gate] running gradient check...
+[gradcheck] worst rel err = 7.57e-05 at ('Wx', (22, 29))
+[train] H=96 T=64 B=96 steps/epoch=1871
+[resume] loaded ckpt at update=6900 best_held=2.0709
+[hb] upd=6950 ema=2.0758 wall=45s
+[hb] upd=7000 ema=2.0751 wall=92s
+[hb] upd=7050 ema=2.0738 wall=132s
+[hb] upd=7100 ema=2.0770 wall=184s
+[hb] upd=7150 ema=2.0706 wall=235s
+[hb] upd=7200 ema=2.0628 wall=281s
+[train] upd=7200 ep=3 chars=44236800 train_ema=2.0628 held=2.0696 lr=2e-03 wall=303s
+[hb] upd=7250 ema=2.0595 wall=350s
+[hb] upd=7300 ema=2.0649 wall=405s
+[hb] upd=7350 ema=2.0610 wall=465s
+[hb] upd=7400 ema=2.0647 wall=520s
+[hb] upd=7450 ema=2.0690 wall=574s
+[hb] upd=7500 ema=2.0629 wall=629s
+[train] upd=7500 ep=4 chars=46080000 train_ema=2.0629 held=2.0628 lr=2e-03 wall=656s
+[hb] upd=7550 ema=2.0693 wall=713s
+[hb] upd=7600 ema=2.0691 wall=768s
+[hb] upd=7650 ema=2.0636 wall=822s
+[hb] upd=7700 ema=2.0620 wall=869s

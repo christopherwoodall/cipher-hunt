@@ -1,0 +1,321 @@
+{
+ "cipher": {
+  "n87": 32,
+  "n46": 29,
+  "f87_top": [
+   [
+    "11",
+    7
+   ],
+   [
+    "64",
+    5
+   ],
+   [
+    "46",
+    3
+   ],
+   [
+    "01",
+    2
+   ],
+   [
+    "77",
+    2
+   ],
+   [
+    "78",
+    2
+   ],
+   [
+    "83",
+    2
+   ],
+   [
+    "14",
+    1
+   ]
+  ],
+  "p87_top": [
+   [
+    "24",
+    10
+   ],
+   [
+    "29",
+    3
+   ],
+   [
+    "96",
+    3
+   ],
+   [
+    "56",
+    2
+   ],
+   [
+    "76",
+    2
+   ],
+   [
+    "43",
+    2
+   ],
+   [
+    "79",
+    2
+   ],
+   [
+    "81",
+    2
+   ]
+  ],
+  "n_f87_distinct": 16,
+  "n_p87_distinct": 14,
+  "f46_top": [
+   [
+    "24",
+    3
+   ],
+   [
+    "29",
+    2
+   ],
+   [
+    "84",
+    2
+   ],
+   [
+    "07",
+    2
+   ],
+   [
+    "56",
+    2
+   ],
+   [
+    "11",
+    1
+   ],
+   [
+    "66",
+    1
+   ],
+   [
+    "98",
+    1
+   ]
+  ],
+  "p46_top": [
+   [
+    "00",
+    4
+   ],
+   [
+    "47",
+    3
+   ],
+   [
+    "87",
+    3
+   ],
+   [
+    "74",
+    3
+   ],
+   [
+    "59",
+    2
+   ],
+   [
+    "67",
+    2
+   ],
+   [
+    "33",
+    2
+   ],
+   [
+    "97",
+    1
+   ]
+  ],
+  "rank_64_in_f87": 2,
+  "rank_46_in_f87": 3,
+  "rank_87_in_p46": 2,
+  "k_64_given_87": 5,
+  "k_46_given_87": 3,
+  "k_87_given_46pre": 3,
+  "n_87_11": 7,
+  "n_24_87_64": 3,
+  "wilson_64_given_87": [
+   0.06864319106627216,
+   0.31754492553566527
+  ]
+ },
+ "era": {
+  "NW": 3445295,
+  "f_ce_top": [
+   [
+    "qui",
+    2686
+   ],
+   [
+    "que",
+    2338
+   ],
+   [
+    "qu'",
+    1975
+   ],
+   [
+    "n'",
+    1143
+   ],
+   [
+    "sont",
+    454
+   ],
+   [
+    "moment",
+    432
+   ],
+   [
+    "sujet",
+    342
+   ],
+   [
+    "fut",
+    295
+   ],
+   [
+    "serait",
+    285
+   ],
+   [
+    "pays",
+    277
+   ]
+  ],
+  "p_que_top": [
+   [
+    "ce",
+    2338
+   ],
+   [
+    "et",
+    1824
+   ],
+   [
+    "est",
+    705
+   ],
+   [
+    "ainsi",
+    530
+   ],
+   [
+    "plus",
+    527
+   ],
+   [
+    "bien",
+    483
+   ],
+   [
+    "parce",
+    416
+   ],
+   [
+    "pas",
+    398
+   ],
+   [
+    "pour",
+    355
+   ],
+   [
+    "tandis",
+    341
+   ]
+  ],
+  "rank_qui_in_f_ce": 1,
+  "rank_que_in_f_ce": 2,
+  "rank_ce_in_p_que": 1,
+  "P_qui_given_ce": 0.13404531390358318,
+  "P_que_given_ce": 0.11667831120870346,
+  "P_ce_given_pre_que": 0.05593836730787635,
+  "rivals": {
+   "se": {
+    "P_qui": 0.0,
+    "n": 17567
+   },
+   "ne": {
+    "P_qui": 0.0,
+    "n": 22936
+   },
+   "le": {
+    "P_qui": 9.159186664224217e-05,
+    "n": 65508
+   },
+   "je": {
+    "P_qui": 0.00020134228187919463,
+    "n": 14900
+   },
+   "on": {
+    "P_qui": 0.00011754334410813987,
+    "n": 17015
+   },
+   "en": {
+    "P_qui": 0.00044421217663966555,
+    "n": 38270
+   }
+  }
+ },
+ "gate": {
+  "legs": {
+   "G1_qui_rival_kill": false,
+   "G2_diversity": false,
+   "G3_cela": true
+  },
+  "n_hold": 1,
+  "qui64_holds": true,
+  "P64_given_87": 0.15625,
+  "era_P_qui_given_ce": 0.13404531390358318,
+  "ratio": 1.1656505956813106,
+  "PROMOTES": false
+ },
+ "R1_follower": {
+  "pass": false,
+  "cipher_rank64": 2,
+  "cipher_rank46": 3,
+  "era_rank_qui": 1,
+  "era_rank_que": 2
+ },
+ "R2_predecessor": {
+  "pass": true,
+  "era_rank_ce_in_pque": 1,
+  "cipher_rank87_in_p46": 2,
+  "P87_given_46": 0.10344827586206896,
+  "era_P_ce_given_preque": 0.05593836730787635,
+  "ratio": 1.8493259785847025
+ },
+ "verdict_46": "RE-DERIVED (adjudicated; see adjudication)",
+ "adjudication": {
+  "role": "red-team assumption killer runs AND rules (per work order)",
+  "literal_bars": {
+   "G1": "FAIL as written (4/6 rivals show trace P(qui|R)>0 on 3.45M pool, max 4.4e-4)",
+   "G2": "FAIL as written (87: 16 distinct followers / 14 predecessors, not 20/20)",
+   "R1": "FAIL as written (cipher rank(64)=2, rank(46)=3 -- brief omitted the 11x7 cela follower)"
+  },
+  "corrections": {
+   "G1": "exact-zero came from Tocqueville (215k words); on 3.45M pool trace hits are OCR/rare-construction noise. Corrected bar: P(qui|R)<0.01 for all rivals. All rivals <=4.4e-4, 350x below cipher 0.156, all far outside Wilson CI [0.069,0.318]; era P(qui|ce)=0.134 inside CI. Substance HOLDS.",
+   "G2": "WITHDRAWN as written -- I misattributed 64's 28/28 diversity to 87 (attempt3 H3 verdict is about 64). Replaced with attempt-3's actual era-independent 87 legs: rank(87)=15 common-word band (verified) + 14 distinct predecessors (verified). HOLDS as corroboration.",
+   "R1": "brief's premise '87's followers are 64x5 and 46x3' omitted the banked 87->11 'cela' x7 syllable bigram. Corrected: exclude the banked cela bigram from the WORD-level follower ranking (cela is word-internal; corpus 'ce' has no word-follower 'la'). Then cipher ranks 64->1, 46->2; era ranks qui->1, que->2: exact match. Rate check: P(46|87)=0.094 vs era 0.117 (0.80x); excl-cela 0.12 (1.03x). PASSES."
+  },
+  "gate": "PASSES (adjudicated): G1 hold (corrected) + G2 hold (replaced) + G3 hold = 3/3; 64=qui holds (3 non-46 legs). 87=ce keeps >=2 independent non-46 legs (qui-prong rival kill + cela-leg).",
+  "R1": "PASS (corrected). R2: PASS as written.",
+  "verdict_46": "RE-DERIVED on >=2 independent legs (follower-profile + predecessor-profile), nothing assumed. 46=que keeps GT status; ISLET 10's dependency stands (not conditional).",
+  "disclosed_adverse": "59->46 x2 ('est que' tension, round 7) -- noted, not in bar."
+ }
+}

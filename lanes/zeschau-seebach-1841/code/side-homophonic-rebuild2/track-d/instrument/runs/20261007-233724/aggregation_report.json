@@ -1,0 +1,419 @@
+{
+ "log": "/home/hatch/workspace/cipher-hunt/lanes/zeschau-seebach-1841/code/side-homophonic-rebuild2/track-d/instrument/runs/20261007-233724/judge_log.jsonl",
+ "n_entries": 54,
+ "prompt_sha256": "390a1ec0bf1aa9e0e495a5fe98e65107c41025c954cd11b68d1931816c08e21d",
+ "hash_uniform": true,
+ "problems": [],
+ "candidates": {
+  "1386766b": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    20,
+    20,
+    30
+   ],
+   "median": 20,
+   "cross_pass_range": 10,
+   "range_flag": true
+  },
+  "19f3bb19": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    25,
+    25,
+    25
+   ],
+   "median": 25,
+   "cross_pass_range": 0,
+   "range_flag": false
+  },
+  "1c2498b4": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    25,
+    25,
+    25
+   ],
+   "median": 25,
+   "cross_pass_range": 0,
+   "range_flag": false
+  },
+  "264710b9": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    100,
+    100,
+    100
+   ],
+   "median": 100,
+   "cross_pass_range": 0,
+   "range_flag": false
+  },
+  "2a87b7a9": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    25,
+    25,
+    25
+   ],
+   "median": 25,
+   "cross_pass_range": 0,
+   "range_flag": false
+  },
+  "5888ca6b": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    100,
+    100,
+    100
+   ],
+   "median": 100,
+   "cross_pass_range": 0,
+   "range_flag": false
+  },
+  "7e5bbba0": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    100,
+    100,
+    100
+   ],
+   "median": 100,
+   "cross_pass_range": 0,
+   "range_flag": false
+  },
+  "99a93f79": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    25,
+    25,
+    25
+   ],
+   "median": 25,
+   "cross_pass_range": 0,
+   "range_flag": false
+  },
+  "a1cd2087": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    12,
+    25,
+    25
+   ],
+   "median": 25,
+   "cross_pass_range": 13,
+   "range_flag": true
+  },
+  "b1eee668": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    15,
+    20,
+    25
+   ],
+   "median": 20,
+   "cross_pass_range": 10,
+   "range_flag": true
+  },
+  "c0733a7d": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    15,
+    25,
+    50
+   ],
+   "median": 25,
+   "cross_pass_range": 35,
+   "range_flag": true
+  },
+  "d24f0ea5": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    20,
+    25,
+    25
+   ],
+   "median": 25,
+   "cross_pass_range": 5,
+   "range_flag": true
+  },
+  "d38a1821": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    10,
+    25,
+    25
+   ],
+   "median": 25,
+   "cross_pass_range": 15,
+   "range_flag": true
+  },
+  "d666c7df": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    100,
+    100,
+    100
+   ],
+   "median": 100,
+   "cross_pass_range": 0,
+   "range_flag": false
+  },
+  "ecf4db34": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    100,
+    100,
+    100
+   ],
+   "median": 100,
+   "cross_pass_range": 0,
+   "range_flag": false
+  },
+  "fc12e892": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    10,
+    20,
+    25
+   ],
+   "median": 20,
+   "cross_pass_range": 15,
+   "range_flag": true
+  },
+  "fe847630": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    25,
+    25,
+    30
+   ],
+   "median": 25,
+   "cross_pass_range": 5,
+   "range_flag": true
+  },
+  "fed88338": {
+   "n": 3,
+   "passes": [
+    1,
+    2,
+    3
+   ],
+   "scores": [
+    100,
+    100,
+    100
+   ],
+   "median": 100,
+   "cross_pass_range": 0,
+   "range_flag": false
+  }
+ },
+ "n_range_flags": 8,
+ "completeness": {
+  "expected": 54,
+  "logged": 54,
+  "missing": [],
+  "unexpected": []
+ },
+ "acceptance": {
+  "per_label": {
+   "1386766b": {
+    "pilot_median": 64,
+    "instrument_median": 20,
+    "abs_diff": 44,
+    "within_3": false
+   },
+   "c0733a7d": {
+    "pilot_median": 61,
+    "instrument_median": 25,
+    "abs_diff": 36,
+    "within_3": false
+   },
+   "fe847630": {
+    "pilot_median": 61,
+    "instrument_median": 25,
+    "abs_diff": 36,
+    "within_3": false
+   },
+   "2a87b7a9": {
+    "pilot_median": 63,
+    "instrument_median": 25,
+    "abs_diff": 38,
+    "within_3": false
+   },
+   "b1eee668": {
+    "pilot_median": 62,
+    "instrument_median": 20,
+    "abs_diff": 42,
+    "within_3": false
+   },
+   "99a93f79": {
+    "pilot_median": 62,
+    "instrument_median": 25,
+    "abs_diff": 37,
+    "within_3": false
+   },
+   "d38a1821": {
+    "pilot_median": 21,
+    "instrument_median": 25,
+    "abs_diff": 4,
+    "within_3": false
+   },
+   "19f3bb19": {
+    "pilot_median": 20,
+    "instrument_median": 25,
+    "abs_diff": 5,
+    "within_3": false
+   },
+   "d24f0ea5": {
+    "pilot_median": 22,
+    "instrument_median": 25,
+    "abs_diff": 3,
+    "within_3": true
+   },
+   "a1cd2087": {
+    "pilot_median": 20,
+    "instrument_median": 25,
+    "abs_diff": 5,
+    "within_3": false
+   },
+   "1c2498b4": {
+    "pilot_median": 21,
+    "instrument_median": 25,
+    "abs_diff": 4,
+    "within_3": false
+   },
+   "fc12e892": {
+    "pilot_median": 20,
+    "instrument_median": 20,
+    "abs_diff": 0,
+    "within_3": true
+   },
+   "fed88338": {
+    "pilot_median": 90,
+    "instrument_median": 100,
+    "abs_diff": 10,
+    "within_3": false
+   },
+   "ecf4db34": {
+    "pilot_median": 90,
+    "instrument_median": 100,
+    "abs_diff": 10,
+    "within_3": false
+   },
+   "d666c7df": {
+    "pilot_median": 91,
+    "instrument_median": 100,
+    "abs_diff": 9,
+    "within_3": false
+   },
+   "7e5bbba0": {
+    "pilot_median": 91,
+    "instrument_median": 100,
+    "abs_diff": 9,
+    "within_3": false
+   },
+   "5888ca6b": {
+    "pilot_median": 92,
+    "instrument_median": 100,
+    "abs_diff": 8,
+    "within_3": false
+   },
+   "264710b9": {
+    "pilot_median": 92,
+    "instrument_median": 100,
+    "abs_diff": 8,
+    "within_3": false
+   }
+  },
+  "all_within_3": false,
+  "margins_mT_mS": {},
+  "all_margins_ge_30": false
+ }
+}

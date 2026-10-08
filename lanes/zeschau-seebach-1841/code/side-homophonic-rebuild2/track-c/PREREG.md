@@ -80,7 +80,7 @@ dropped.
 
 Fitted constants (deterministic; `track-c/word_stats.py`, no RNG):
 
-- N = 486,789 word tokens; C = 1,717,930 projected letters
+- N = 486,789 word tokens; C = 1,717,960 projected letters
 - V = 10,666 types with count ≥ 2 (`MIN_COUNT=2`)
 - α = 1.0 (add-α); β = 1.0 (add-β); MAXWLEN = 20
 - ρ = N/C = **0.283353** expected words per projected char

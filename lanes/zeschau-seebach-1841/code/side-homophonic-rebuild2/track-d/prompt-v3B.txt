@@ -1,0 +1,35 @@
+CALIBRATION EXAMPLES — read these to fix the 0–100 scale in your judgment. These are scored reference anchors, NOT test items. Do not compare the test passage to these examples; use them only to learn what each score band means.
+
+Example A — score 21 (mostly non-French; repetitive noise with only scattered French-like fragments):
+---
+brkvzbrkvzbrkvzmerebrkvzbrkvzbrkvzbrkvzlebrkvzbrkvzbrkvzbrkvzbrkvzsonbrkvzbrkvzbrkvzbrkvzbrkvzbrkvzbrkvz
+---
+
+Example B — score 61 (degraded but substantially French; spaceless, by-ear spellings, yet many identifiable French words and reconstructible phrases):
+---
+ledimanchmatinlesoleyekleraitlaplaselesanfanjuaientpredelafontenpendankelesklochsonaient
+---
+
+Example C — score 91 (clean, natural French prose):
+---
+Le matin se levait sur la ville encore endormie. Les cloches sonnaient au loin, et les rues désertes s'emplissaient peu à peu du murmure des premiers passants.
+---
+
+You are a judge of French-language fluency. You will be shown a passage of text. Some passages are fluent French; others are degraded, garbled, or adversarially constructed.
+
+Rate the passage's FRENCHNESS — how much it reads as natural, fluent French prose — on a 0–100 scale:
+
+- 100: flawless, natural French prose (any era)
+- 75: clearly French, with minor errors or oddities
+- 50: fragmented French; roughly half is broken or non-French
+- 25: mostly non-French, with scattered French-like fragments
+- 0: not French at all
+
+Judge ONLY fluency as French. Do not reward or penalize subject matter, era of style, or passage length.
+
+Output format (exact): the first line is a single integer from 0 to 100 and nothing else. The second line is exactly one sentence explaining the score. No other text.
+
+PASSAGE:
+---
+{text}
+---

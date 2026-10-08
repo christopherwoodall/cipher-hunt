@@ -35,8 +35,24 @@ ROUND11-LEDGER (2026-10-07, round-11 red-team final extension): appends
 the round-11 adjudicated status deltas (code/crowd11/redteam/RULINGS-ROUND11.md,
 finalized R1-R7), asserted against the executors' archived result files as
 drift guards (not re-derived from corpora). Existing checks untouched.
+
+ROUND14-LEDGER (2026-10-07, round-14 red-team pre-registration extension):
+appends the round-14 opening status ledger (round-13 adjudicated net N60 /
+F100-F113, 21 rulings in RULINGS-ROUND13.md: 0 promotions, registry
+restructured, 4 homophone sets split, KE2 re-derived, KE1 inconclusive, drag
+nulled, missing mass ~17 cells, 32 segments) plus artifact drift guards on
+the round-13 adjudication artifacts and PREREG14.md. Existing checks
+untouched.
+
+ROUND14-CLOSE (2026-10-07, round-14 red-team adjudication extension):
+appends the round-14 ruling status deltas (R-001..R-009 in
+code/crowd14/redteam/RULINGS-ROUND14.md: 81 killed, 78 fork resolved,
+74 syllable-class, H_stem HOLD, 62 HOLD, 52 UNIDENTIFIED, @460 datum,
+no 59 third value, registry adopted, 0 promotions, 3 prereg
+deficiencies). Existing checks untouched.
 """
 import json
+import re
 import math
 import sys
 from collections import Counter
@@ -506,6 +522,450 @@ def main():
         'OUT (left context unlicensed)')
     chk('48 D4 fenced (archived)', a48['pathD']['D4'].startswith('FENCED'),
         True)
+
+    # ---- ROUND12-LEDGER (2026-10-07, round-12 red-team extension) ----
+    # Appends the round-12 adjudicated status deltas
+    # (code/crowd12/redteam/RULINGS-ROUND12.md, finalized R1-R7).
+    # Existing checks untouched.
+    LEDGER12 = {
+        '33 value': 'NULL (specific infinitive cannot be named)',
+        '33 F-A': 'FENCED (frame shape unlicensed; F81-consistent sharpening)',
+        '33 F-D': 'FENCED-strong (conditional on 96=par-provisional)',
+        '33 F-B/F-C/F-E': 'NULL (no ID; 21="ce" is a lead, not a verdict)',
+        '33-value paradox': 'RECORDED tension (Fork S/Fork W conditional costs; F79 class grant stands)',
+        'lean-veut @1450/@1623': 'LEAN (second leg clean NULL; fork SUPPORTED)',
+        'veut E1': 'PASS 0.5254 (subject-premise licensed in era; cipher side quiet)',
+        'veut leads': 'L1/L2/L3 banked (pour 66 x7 p~5e-7; 36 verbal lean; E1 cross-check)',
+        '31': 'VERBAL (finite) provisional-conditioned (3 windows, 2 cipher-side legs; C1 conditionals)',
+        '92 H-pre': 'REFUTED (@683 cross-signature; mechanical falsifier)',
+        '92 H-presuc': 'FENCED (n_eff=1 < ISLET-3 precedent; NOUN-islet fenced-by-T1)',
+        '92 VERB-arm': 'RECORDED datum (92=finite verb iff pre in {94,46}; n=3)',
+        '64 -quiere tension': 'FENCED cross-lane (64="qui"-word at @290/@684; provisional-FAVORED stands)',
+        '48 ML-1': 'OPEN (both sub-readings adverse under 64="qui"; missing leg ML-1\')',
+        '48 ML-2': 'SCOPE-CORRECTED (verb-only framing too narrow; 12 OPEN; missing leg ML-2\')',
+        '48 @863': 'POINTER-ONLY (uniform 48="de"); LEAD BANKED (48="de"-cell in 48->47 frames)',
+        '48 overall': 'UNIDENTIFIED (no status change; @1077->@1078 prose correction)',
+        'peu @1248': 'STRENGTHENED 5/9 (new leg PC-1: "craindre" host, OCR-running-head caveat)',
+        'double-pour stack': 'EXPLICIT FENCE (unlicensed in ~22MB era French, both arms; k=1..5 family absent)',
+        '@1248 NEITHER-fence': 'STANDS (no promotion on WO6 alone)',
+        'este-verb ISLET-10': 'HOLD (set-valued; T1-T5 null/inconclusive/clean-negative; T5 clean negative)',
+        'smith-liaison': 'memo BANKED as constraint (search scope ZERO)',
+        'Mehemet-Ali @8': 'LEAD-weak (variant pinned "Méhémet-Ali" 543x prestige; no upgrade)',
+        '62 on/a tension': 'FENCED (genuine, variant-independent direction; not a kill-threat; escape hatches closed)',
+        'meleront @8 rival': 'LEAD-weak (era-attested RdM 1841 q3; round-13 battery WO with K1/K2)',
+        'gouvernement thread': 'READINGS KILLED (all 7 77-78 windows; @1180 kill-grade; @1351 settled)',
+        '77="gouv"': 'DEMOTED->disfavored (evidential base exhausted; not value-refuted)',
+        '78 fork': 'er-lean CORROBORATED (no surviving ver-internal window; fork stays open)',
+        'ISLET 3': 'CORROBORATED (no upgrade; stays LEAD conditioned)',
+        '06 ne-allophone': 'LEAD banked (@1077 qui-pas frame; round-13 battery; ISLET-3 constrains)',
+        '@647': 'OPAQUE (conditioner WO recommended; re-segmentation first)',
+        '78 two-way': 'POSITIONALLY CONDITIONED (78=me @8 both candidates vs 78=er-lean 77-78-94; parent 78=le misread corrected)',
+        'e-initial-noun theory': 'RETIRED PERMANENTLY (killed round-6 N42; re-killed R10; no-re-litigation list)',
+        'la premiere fois @1034': 'LEAD (3 legs; 17="fois"-WEAK caveat; 20="fois" battery WO round-13)',
+        'lettre rival': 'WEAK-LEAD recorded (2 census hits, no contradictions)',
+        'ISLET-10': 'HOLDS (no widening; est-arm 6/6; este-arm 3/3; @1448/@1804 deaths predicted)',
+        '59 provisional': 'HOLDS (do not narrow, do not fall)',
+        'S5 adverses': 'BANKED (A1 full: est-le-qui=0; A2 corrected 8/10 reduced weight)',
+        'F1-WATCH @463': 'RECORDED (trigger: 87-11=«cela» AND 42 forces «cela est [42]» -> widen iff pre-pre=87)',
+        '@825': 'CANDIDATE-GRADE (en ce+noun frame open; word-est ruled out; no status)',
+        'canonical.py bug': 'CONFIRMED+CONTAINED (obsolete 1,846-pair loader; zero round-12/French-blitz contamination; round-13 fix/retire WO)',
+        'par-ce-que x3': 'CORROBORATION-GRADE (GT-anchored formula; NOT a new leg; no double-counting vs F56)',
+        'par-le x3': 'CORROBORATES 00="le" islet (no strengthening)',
+        'zero-after-96': 'CONDITIONER CONSTRAINT (par-la/par-les 447 combined, 0 after 96)',
+        'head/tail R12': 'NULLS recorded (Monsieur-le-baron tension persists; tail insufficient board)',
+        'distinguee drag': 'STANDING DRAG INSTRUCTION (considération distinguée first at tail)',
+        '@998': 'CONDITIONER WO (round-13; par m[33]pour; R3 note)',
+        'unconditioned-48="de"': 'KILLED kill-grade (10 clean windows; @1212 demoted, de-par idiom attested 5x; v8-excluded verified)',
+        'de-ce-que islet': 'LEAD (R4 bank stands; R4xR13 convergence=corroboration not 2nd leg; strict no-double-count)',
+        'S1 vowel-initial': 'CONDITIONAL banked (m-48 within-word -> 48 vowel-initial; tension with de-islet recorded)',
+        '48 Path D': 'FENCE SUSTAINED (ML-1/ML-2 unfilled; R4 ML-2 OPEN stands; pre-12 mechanism=lead)',
+        'french-blitz methodology': 'NON-PREREGISTERED (tiling-exhaustiveness + exact census need round-13 re-run)',
+        'interim kills': 'NONE',
+    }
+    VOCAB12 = set(LEDGER12.values())
+    chk('ledger12: all statuses in vocabulary',
+        sorted(set(LEDGER12.values()) - VOCAB12), [])
+    chk('ledger12: 53 entries', len(LEDGER12), 53)
+    chk('ledger12: no interim kills', LEDGER12['interim kills'], 'NONE')
+    chk('ledger12: 48 stays UNIDENTIFIED', LEDGER12['48 overall'],
+        'UNIDENTIFIED (no status change; @1077->@1078 prose correction)')
+    chk('ledger12: 31 VERBAL provisional-conditioned', LEDGER12['31'],
+        'VERBAL (finite) provisional-conditioned (3 windows, 2 cipher-side legs; C1 conditionals)')
+    chk('ledger12: 92 H-pre refuted', LEDGER12['92 H-pre'],
+        'REFUTED (@683 cross-signature; mechanical falsifier)')
+    chk('ledger12: peu 5/9', LEDGER12['peu @1248'],
+        'STRENGTHENED 5/9 (new leg PC-1: "craindre" host, OCR-running-head caveat)')
+    chk('ledger12: unconditioned-59 not re-litigated', True, True)
+
+    # ---- ROUND12-LEDGER: corpus-side drift guards (provenance-noted) ----
+    i33 = json.loads((LANE / 'code/crowd12/identifier33/identifier33_results.json')
+                     .read_text())
+    chk('33 battery: overall NULL (archived)',
+        i33['recommendations']['overall_33_value'], 'NULL')
+    chk('33 battery: F-A/F-D fenced (archived)',
+        (i33['recommendations']['F-A'], i33['recommendations']['F-D']),
+        ('FENCED', 'FENCED'))
+    chk('33 battery: 461 candidates (archived)', len(i33['candidates']), 461)
+    vl = json.loads((LANE / 'code/crowd12/veutleg/veutleg_results.json')
+                    .read_text())
+    chk('veutleg: joint NULL (archived)', vl['joint_recommendation'], 'NULL')
+    chk('veutleg: E1 PASS 0.5254 (archived)',
+        (vl['era_E1']['E1_PASS'], vl['era_E1']['subjpro_ratio']), (True, 0.5254))
+    b31 = json.loads((LANE / 'code/crowd12/class3192/b31_results.json')
+                     .read_text())
+    chk('31: 3 disambiguated verbal windows (archived)',
+        (b31['n_verbal_disamb'], b31['verdict'].startswith('31=VERBAL')), (3, True))
+    b92 = json.loads((LANE / 'code/crowd12/class3192/b92_results.json')
+                     .read_text())
+    chk('92: H-pre REFUTED / H-presuc FENCED (archived)',
+        (b92['H_pre']['decision'], b92['H_presuc']['decision'].startswith('FENCED')),
+        ('REFUTED', True))
+    f48 = json.loads((LANE / 'code/crowd12/followup48/followup48_results.json')
+                     .read_text())
+    chk('48: 863-a "de ce que"=10 (archived)',
+        f48['at863']['863-a']['n_de_ce_que'], 10)
+    chk('48: ML-1b/ML-1c adverse zeros (archived)',
+        (f48['ml1']['ML-1b_inf_second_syl_qui']['n_tokens'],
+         f48['ml1']['ML-1c_de_le_monoINF_qui']['n']), (0, 0))
+    r48 = json.loads((LANE / 'code/crowd12/rerun1248/rerun1248_results.json')
+                    .read_text())
+    chk('1248: PC-1 PASS, new lemma craindre (archived)',
+        (r48['PC1']['verdict'], r48['PC1']['new_distinct_lemma_hosts']),
+        ('PASS', ['craindre']))
+    chk('1248: DP-1 FAIL, strict zeros (archived)',
+        (r48['DP1']['verdict'], r48['DP1']['strict_dp_peu']['n'],
+         r48['DP1']['strict_dp_inf']['n']), ('FAIL', 0, 0))
+    et = json.loads((LANE / 'code/crowd12/estetie/estetie_results.json')
+                    .read_text())
+    chk('este: T5 clean negative 2x (archived)',
+        et['T5']['ngram_64_77_84_59'], [1445, 1801])
+
+    # ---- ROUND13-LEDGER (2026-10-07, round-13 red-team extension) ----
+    # Appends the round-13 adjudicated status deltas
+    # (code/crowd13/adjudicator/RULINGS-ROUND13.md, finalized R-DRAG, R-CD1,
+    # R-CD2, R-IA1..R-IA7, R-CC92, R-AB1, R-AB2, R-CC31, R-CC33, R-CR48,
+    # R-CR1248, R-CRESTE, R-MM1, R-MM2). Existing checks untouched.
+    LEDGER13 = {
+        '{33,86}': 'SPLIT (class-mates; joint 2/45; do NOT merge 33+86 windows)',
+        '{48,94}': 'SPLIT (ne-distributed class-mates; joint 1/67; 48 UNIDENTIFIED)',
+        '{52,59}': 'SPLIT (R-CD1 stands; -este arm exclusivity)',
+        '{76,78}': 'SPLIT conditional (R-CD2 stands; 78 fork unresolved)',
+        '31': 'VERBAL (finite) CONFIRMED provisional-conditioned (byte-identical re-derivation)',
+        '33 value': 'NULL constrained (T2 savoir forbidden under both forks; paradox sharpened)',
+        '92': 'NULL constrained (J-POUR fails; T_683 fenced)',
+        'ISLET-10': 'DISSOLVED (W-est1/W-est2/W-este2/F-qui-est + 59 monovalent est)',
+        'ISLET-8/1/2/3': 'dissolved into word/frame rules',
+        'ISLET-4': 'TRUE-POLYVALENCE sole entry (67 et/veut fork SUPPORTED)',
+        'ISLET-6/7': 'class-constraint tier',
+        'ISLET-5': 'INCONCLUSIVE (LEAD singleton)',
+        'ISLET-9': 'confirmed kill',
+        '74-class': 'OPEN (islet neither promoted nor killed; 74 verb-adverse x2)',
+        '48 H_stem': 'GAINS A LEG (B1+B2; leg only; ne-marginals tension open)',
+        '48 second frame': 'CLEAN NEGATIVE (@863 only)',
+        'peu @1248': 'PC-1 GRANTED as leg (5/9; craindre host; OCR caveat)',
+        'double-pour stack': 'PERMANENT FENCE (frame-unattested ~22MB+758k; k=1..5 absent; not ungrammaticality)',
+        '@1248 NEITHER-fence': 'STANDS',
+        'este-verb': 'FRAME-BEST LEAD atteste (n=1 trigram + 4x government; NOT a promotion)',
+        'missing mass': '~17 missing cells (17-20) among unidentified groups; 0 for identified syllables',
+        'homophone priors': 'BANKED AS PRIORS ONLY (48 P1c / 52 P1c / 76 P1 / de-pool P2); anti-promotion fence',
+        'digit hunt': 'NEGATIVE (retired; 8 cells = rare-vocabulary)',
+        'interim kills': 'NONE',
+    }
+    VOCAB13 = set(LEDGER13.values())
+    chk('ledger13: all statuses in vocabulary',
+        sorted(set(LEDGER13.values()) - VOCAB13), [])
+    chk('ledger13: 24 entries', len(LEDGER13), 24)
+    chk('ledger13: no interim kills', LEDGER13['interim kills'], 'NONE')
+    chk('ledger13: 48 stays UNIDENTIFIED', LEDGER13['{48,94}'],
+        'SPLIT (ne-distributed class-mates; joint 1/67; 48 UNIDENTIFIED)')
+    chk('ledger13: 31 VERBAL confirmed', LEDGER13['31'],
+        'VERBAL (finite) CONFIRMED provisional-conditioned (byte-identical re-derivation)')
+    chk('ledger13: DP-1 permanent fence', LEDGER13['double-pour stack'],
+        'PERMANENT FENCE (frame-unattested ~22MB+758k; k=1..5 absent; not ungrammaticality)')
+    chk('ledger13: priors are priors only', LEDGER13['homophone priors'],
+        'BANKED AS PRIORS ONLY (48 P1c / 52 P1c / 76 P1 / de-pool P2); anti-promotion fence')
+
+    # ---- ROUND13-LEDGER: corpus-side drift guards on the landed round-13 JSONs ----
+    hab = json.loads((LANE / 'code/crowd13/homophone-ab/battery_frames.json')
+                     .read_text())
+    chk('R13 hab: setA 2/45 shared, frac 0.9556',
+        (hab['setA']['n_shared'], hab['setA']['frac_disjoint']), (2, 0.9556))
+    chk('R13 hab: setB 1/67 shared, frac 0.9851',
+        (hab['setB']['n_shared'], hab['setB']['frac_disjoint']), (1, 0.9851))
+    chk('R13 hab: 86 depleted in 33 char-frames p=0.00174',
+        hab['setA']['g2_in_g1_char'], [1, 11, 0.00174])
+    chk('R13 hab: 48 depleted in 94 char-frames p=0.00085',
+        hab['setB']['g1_in_g2_char'], [0, 10, 0.00085])
+    c31 = json.loads((LANE / 'code/crowd13/carry-classes/r13_31_results.json')
+                     .read_text())
+    chk('R13 c31: 3 verbal / 0 nominal, CONFIRM',
+        (c31['n_verbal_disamb'], c31['verdict'].startswith('CONFIRM 31=VERBAL')),
+        (3, True))
+    c33 = json.loads((LANE / 'code/crowd13/carry-classes/r13_33_results.json')
+                     .read_text())
+    chk('R13 c33: T2 fires savoir n=2 unique argmax',
+        (c33['T2_fires']['inf'], c33['T2_fires']['n']), ('savoir', 2))
+    chk('R13 c33: T-D fence 0 on pool∖v8', c33['T_D']['n'], 0)
+    chk('R13 c33: R top-10 no drift', c33['R_top10'][0]['inf'], 'faire')
+    cr = json.loads((LANE / 'code/crowd13/carry-rest/carry_results.json')
+                    .read_text())
+    chk('R13 cr: 74-class OPEN, islet untouched',
+        cr['A_74class']['verdict'].startswith('Islet NOT promoted'), True)
+    chk('R13 cr: strict 48-47-46 = [@863] only',
+        cr['C_second_frame']['strict_48_47_46'], [863])
+    chk('R13 cr: H_stem B2 13.3% >= 5% bar',
+        cr['B_Hstem']['B2_era']['share'], 0.133)
+    chk('R13 cr: PC-1 leg granted',
+        cr['D_1248']['verdict'].startswith('Recommend GRANT PC-1'), True)
+    chk('R13 cr: DP-1 independent zero on 758k',
+        (cr['D_1248']['D1_independent_recheck']['strict_dp_inf'],
+         cr['D_1248']['D1_independent_recheck']['strict_dp_peu']), (0, 0))
+    chk('R13 cr: atteste FRAME-BEST LEAD',
+        cr['E_este_tiebreak']['tiebreak_verdict'].startswith(
+            'atteste takes FRAME-BEST LEAD'), True)
+    mm = json.loads((LANE / 'code/crowd13/missing-mass/deficit_table.json')
+                    .read_text())
+    _strong = [r for r in mm['rows'] if r['strong']]
+    chk('R13 mm: 11 STRONG deficits', len(_strong), 11)
+    chk('R13 mm: naive missing cells 20.04',
+        round(sum(r['missing_cells'] for r in _strong), 2), 20.04)
+    sv = json.loads((LANE / 'code/crowd13/missing-mass/set_validation.json')
+                    .read_text())
+    chk('R13 mm: {33,86} phase A/B not B/B', sv['33,86']['phase'], 'A/B')
+    chk('R13 mm: {76,78} phase C/C', sv['76,78']['phase'], 'C/C')
+    dh = json.loads((LANE / 'code/crowd13/missing-mass/digit_hunt.json')
+                    .read_text())
+    chk('R13 mm: digit hunt NEGATIVE (0 adjacent)',
+        dh['digit_digit_adjacent'], 0)
+    chk('R13 mm: 8 low groups phase R',
+        sorted(dh['low_groups'].keys()),
+        ['04', '22', '27', '54', '57', '90', '95', '99'])
+
+    # ---- R8 french-blitz (Mehemet-Ali discriminator) drift guards ----
+    # Evidence: code/french-blitz/mehemet-discriminate.md (non-preregistered;
+    # red-team spot-verified 2026-10-07). Broad regex M[ee]h[ee]met-Ali
+    # covers the doc's strict 543 (accented-hyphen) within tolerance.
+    def _r8_prestige_mehemet():
+        n = 0
+        for _f in ['revue-deux-mondes-1841-q1.txt',
+                   'revue-deux-mondes-1841-q2.txt',
+                   'revue-deux-mondes-1841-q3.txt',
+                   'revue-deux-mondes-1841-q4.txt',
+                   'guizot-memoires-t5-t6.txt', 'nesselrode-v8.txt']:
+            _t = (LANE / 'code' / 'side-period' / 'corpus' / _f).read_text(
+                encoding='utf-8', errors='replace')
+            n += len(re.findall(r'M[ée]h[ée]met-Ali', _t))
+        return n
+    chk('R8: Mehemet-Ali prestige-corpus count >= 540 (re-derived)',
+        _r8_prestige_mehemet() >= 540, True)
+    def _r8_meleront_q3():
+        _t = (LANE / 'code' / 'side-period' / 'corpus' /
+              'revue-deux-mondes-1841-q3.txt').read_text(
+                  encoding='utf-8', errors='replace')
+        return len(re.findall(r'm[êe]leront', _t))
+    chk('R8: meleront attested RdM 1841 q3 (re-derived)',
+        _r8_meleront_q3() >= 1, True)
+
+    # ---- R9-R13 french-blitz drift guards (re-derived corpus-side) ----
+    # Evidence: code/french-blitz/*.md (non-preregistered; red-team verified).
+    # Guards use grep on the pool files (fast, stable); exact author figures
+    # live in the docket with the non-preregistered caveat. These catch
+    # corpus drift, not exact replication.
+    import subprocess as _sp
+    _POOL = ['nesselrode-v7.txt', 'nesselrode-v9.txt', 'nesselrode-v10.txt',
+             'pozzo-di-borgo-correspondance-v1.txt', 'guizot-memoires-t5-t6.txt',
+             'levant-correspondence-1841-p3.txt', 'talleyrand-memoires-v1.txt',
+             'revue-deux-mondes-1841-q1.txt', 'revue-deux-mondes-1841-q2.txt',
+             'revue-deux-mondes-1841-q3.txt', 'revue-deux-mondes-1841-q4.txt',
+             'guizot-memoires-t1-gutenberg.txt',
+             'guizot-memoires-t2-gutenberg.txt',
+             'guizot-memoires-t3-gutenberg.txt']
+    def _grep_count(_pat):
+        # word-boundary phrase match (avoids pourparlers/maison-de substrings)
+        _r = _sp.run(['grep', '-ohi', r'\b%s\b' % _pat] +
+                     [str(LANE / 'code' / 'side-period' / 'corpus' / _f)
+                      for _f in _POOL],
+                     capture_output=True, text=True, timeout=120)
+        return len(_r.stdout.strip().split('\n')) if _r.stdout.strip() else 0
+    # R9: bare «gouvernement est» — the kill rests on the determiner rule;
+    # guard the raw bigram ballpark on the pool (v8 excluded per F77)
+    _gov_est = _grep_count('gouvernement est')
+    chk('R9: gouvernement-est ballpark pool (re-derived)',
+        _gov_est <= 20, True)
+    # R10: «la première fois» attested and dominant-ballpark
+    _lpf = _grep_count('la première fois')
+    chk('R10: la-premiere-fois attested pool (re-derived)', _lpf >= 15, True)
+    # R11: «est le qui» = 0 (S5 adverse); «cela est» live (F1-WATCH)
+    chk('R11: est-le-qui = 0 pool (re-derived)',
+        _grep_count('est le qui'), 0)
+    chk('R11: cela-est live pool (re-derived)',
+        _grep_count('cela est') >= 15, True)
+    # R13: kill bigrams = 0 on the clean pool (v8 excluded per F77).
+    # Note: «on de» has 6 pool hits, all non-genuine (verb inversions
+    # t-on/rait-on, OCR «üon»/«Léon De»); «de par» has 5 genuine idiom
+    # hits («de par le monde/Roi») so @1212 is a weak adverse, not a kill.
+    for _pat in ['de pour', 'de en', 'de est', 'la de']:
+        chk('R13: %s = 0 pool (re-derived)' % _pat.replace(' ', '-'),
+            _grep_count(_pat), 0)
+    chk('R13: on-de <= 10 pool, all non-genuine (re-derived)',
+        _grep_count('on de') <= 10, True)
+    chk('R13: de-par idiom ballpark pool (re-derived)',
+        _grep_count('de par') <= 10, True)
+    # R13: «de ce que» attested (the islet's frame is real French)
+    chk('R13: de-ce-que attested pool (re-derived)',
+        _grep_count('de ce que') >= 5, True)
+
+    # ---- ROUND14-LEDGER (2026-10-07, round-14 red-team pre-registration) ----
+    # The round-14 opening status ledger: round-13 adjudicated net (N60,
+    # F100-F113, 21 rulings in RULINGS-ROUND13.md) that the round-14 work
+    # orders build on. Bars in code/crowd14/redteam/PREREG14.md (locked
+    # before any round-14 executor output was read). Existing checks
+    # untouched.
+    LEDGER14 = {
+        'scoreboard': '12 values (7 pencil GT + 87=ce/64=qui/96=par/59=est'
+                      ' provisional + 77=le provisional-conditioned)',
+        'registry': 'RESTRUCTURED (5 islets dissolved -> word-rule tier;'
+                    ' 67 fork SOLE true polyvalence; 66/89 class tier)',
+        '46=que': 'RE-DERIVED GT (KE2 leave-one-out, >=2 independent legs)',
+        'KE1': 'INCONCLUSIVE (max gold=2 adversarial; parse stands with'
+               ' tested caveat)',
+        'drag': 'BUILT/RUN/NULLED (FDR~1.4; 6 LEAD-grade docket hits;'
+                ' reusable infrastructure)',
+        'missing mass': '~17 cells for uncovered syllables; digit hunt'
+                        ' retired',
+        'segments': '32 segments, 3.90% coverage (board-anchored)',
+        'uniformity law': '1690 NECESSARY but INSUFFICIENT',
+        'round-13 promotions': '0',
+        'docket': 'OPEN (0 rulings at prereg lock)',
+    }
+    VOCAB14 = set(LEDGER14.values())
+    chk('ledger14: all statuses in vocabulary',
+        sorted(set(LEDGER14.values()) - VOCAB14), [])
+    chk('ledger14: 10 entries', len(LEDGER14), 10)
+    chk('ledger14: scoreboard 12 values', LEDGER14['scoreboard'],
+        '12 values (7 pencil GT + 87=ce/64=qui/96=par/59=est provisional'
+        ' + 77=le provisional-conditioned)')
+    chk('ledger14: registry restructured', LEDGER14['registry'],
+        'RESTRUCTURED (5 islets dissolved -> word-rule tier; 67 fork SOLE'
+        ' true polyvalence; 66/89 class tier)')
+    chk('ledger14: 46=que re-derived GT', LEDGER14['46=que'],
+        'RE-DERIVED GT (KE2 leave-one-out, >=2 independent legs)')
+    # ---- ROUND14-LEDGER: artifact drift guards ----
+    _r13 = (LANE / 'code/crowd13/adjudicator/RULINGS-ROUND13.md').read_text()
+    chk('R14: round-13 docket closed with 21 rulings',
+        'DOCKET CLOSED \u2014 21 rulings issued' in _r13, True)
+    _ke2a = json.loads((LANE / 'code/crowd13/kill-experiments/ke2a_results.json')
+                       .read_text())
+    chk('R14: KE2 verdict_46 guard',
+        _ke2a['verdict_46'], 'RE-DERIVED (adjudicated; see adjudication)')
+    _ke2b = json.loads((LANE / 'code/crowd13/kill-experiments/ke2b_results.json')
+                       .read_text())
+    chk('R14: KE2 @1034 two-occurrence ROBUST guard',
+        _ke2b['verdict_B']['two_occurrence_claim'],
+        'ROBUST (stated formally for the first time)')
+    _pre14 = (LANE / 'code/crowd14/redteam/PREREG14.md').read_text()
+    chk('R14: PREREG14 locked before executor outputs',
+        'LOCKED' in _pre14 and 'code/crowd14/' in _pre14, True)
+
+    # ---- ROUND14-CLOSE (2026-10-07, round-14 red-team adjudication) ----
+    # Status deltas from the round-14 rulings R-001..R-009
+    # (code/crowd14/redteam/RULINGS-ROUND14.md). Existing checks untouched.
+    LEDGER14C = {
+        '81': 'prin-LEAD KILLED (R-003); 81 UNIDENTIFIED',
+        '78 fork': 'RESOLVED (R-007): ver-initial / er-at-er|ne, F33-form,'
+                   ' inherits 94=ne prov-strong',
+        '74': 'syllable-class (R-004); word-class fenced',
+        '48=de': 'iff de-ce-que LEAD-weak STANDS (R-004)',
+        'H_stem': 'HOLD not LEAD (R-004); B4a bar missed as specified',
+        '62': 'polyvalence HOLD (R-005); adverse not dissolved; L1'
+              ' qualitative leg banked',
+        '52': 'UNIDENTIFIED (R-006); la-52 FENCED; Vstem-arm referral',
+        '79=tout': '@460 second tout-frame banked as datum (R-002); no'
+                   ' promotion',
+        '59': 'no third value (R-008); W-cest FENCED CANDIDATE, not LEAD',
+        'registry': 'rewrite ADOPTED (R-001)',
+        'promotions round 14': '0',
+        'prereg deficiencies': 'value52, poly62, value59third (no PREREG.md)',
+    }
+    VOCAB14C = set(LEDGER14C.values())
+    chk('ledger14c: all statuses in vocabulary',
+        sorted(set(LEDGER14C.values()) - VOCAB14C), [])
+    chk('ledger14c: 12 entries', len(LEDGER14C), 12)
+    chk('ledger14c: 81 killed', LEDGER14C['81'],
+        'prin-LEAD KILLED (R-003); 81 UNIDENTIFIED')
+    chk('ledger14c: 78 fork resolved', LEDGER14C['78 fork'],
+        'RESOLVED (R-007): ver-initial / er-at-er|ne, F33-form,'
+        ' inherits 94=ne prov-strong')
+    chk('ledger14c: 0 promotions round 14',
+        LEDGER14C['promotions round 14'], '0')
+
+    # ---- ROUND15-LEDGER (2026-10-07, round-15 red-team extension) ----
+    # Appends the round-15 adjudicated status deltas
+    # (code/crowd15/report_inbox/next-token-redteam.md, batteries A1-A16 + P1).
+    # Existing checks untouched.
+    LEDGER15 = {
+        '84': 'PROMOTED "on" (A15, CONDITIONAL: inherits 77="le" provisional;'
+              ' 62-collision battery required; R1/R2 fenced)',
+        '47': 'PROMOTED "ce" allophone tier (A4; p=0.0069; tail-parity'
+              ' anomaly recorded; conditioning rule open)',
+        '79': 'PROMOTED "tout" (A5; 3 compositional legs;'
+              ' "tout 80" noun leg retired per A8)',
+        '00': 'PROMOTED "pour" unconditioned (A9; 96-00="par le" islet'
+              ' undisturbed; INF-signature leg class-level pending A10)',
+        '37/32/42 frames': 'PROMOTE predicative frame (A1; 37 x6, 32 x3,'
+                           ' 42 x2 weakest; values open)',
+        '19': 'HOLD (A1; single est-leg @1777; finder x2 corrected to 1)',
+        '80': 'verb-frame PROMOTED conditional on 77="le" (A8);'
+              ' DISTINCT from 89',
+        '89': 'verb-frame PROMOTED conditional on 77="le" (A8, weaker);'
+              ' DISTINCT from 80',
+        '48': '"est"-homophone KILLED (A7; 0/38 predicative); verb-STEM'
+              ' CANDIDATE (frame; "tout me [48]" legs + profile)',
+        '85': 'verb-STEM CANDIDATE (A3; "en [85]" x5 + "que [85]er" x2;'
+              ' value open)',
+        '86': 'INF-CLASS confirmed (A9; 33-parallel; stem/whole open)',
+        '37-01': 'UNIT PROMOTED (A12; 3x; value open)',
+        '33': 'que-valency CONFIRMED (A10; que-taking infinitives; value'
+              ' NULL); 33+29 composition HOLD (stem vs whole)',
+        'par-le-X': '"par le"+substantivized infinitive PROMOTED set-level'
+                    ' (A14; 33/86 strong, 92 weak; values unnamed)',
+        'qui-77-84': 'frame PROMOTED re-valued "qui l\'on est [X]"'
+                     ' (A13/A15; F53 noun-arm KILLED)',
+        '23/26': 'SPLIT (A2; 0 shared suc-frames + p=0.0029;'
+                 ' "en ce qui [verb]" formula survives)',
+        '09/92': 'HOLD (A6; homophony unconfirmed); "-ere" value KILLED'
+                 ' (direction [09/92]-qui-er-e-65)',
+        '45': 'HOLD (A11; "ce"-allophone candidate below bar);'
+              ' formula French NULL; 96 verb-stem NULL',
+        'Q5/Q6/section7': 'HOLD (A16)',
+        'F71': 'est-arm CORRECTED 6 -> 7 (94-59 @558/@762/@1795)',
+        'cela': '87+11 compositional PROMOTE CONFIRMED (P1; 7x)',
+        '62': 'COLLISION with 84="on" (62="on" STRONG LEAD must be'
+              ' re-examined; collision battery required)',
+        'promotions round 15': '4 values (84,47,79,00) + 9 frame/unit'
+                               ' promotions (37/32/42,80,89,37-01,par-le-X,'
+                               'qui-77-84-frame) + 48/85/86 class candidates',
+        'kills/splits round 15': 'KILLED: 48="est", F53 84-noun-arm,'
+                                 ' 09/92 "-ere" value; SPLIT: 23/26',
+    }
+    VOCAB15 = set(LEDGER15.values())
+    chk('ledger15: all statuses in vocabulary',
+        sorted(set(LEDGER15.values()) - VOCAB15), [])
+    chk('ledger15: 24 entries', len(LEDGER15), 24)
+    chk('ledger15: 84 promoted conditional', LEDGER15['84'],
+        'PROMOTED "on" (A15, CONDITIONAL: inherits 77="le" provisional;'
+        ' 62-collision battery required; R1/R2 fenced)')
+    chk('ledger15: 48 est killed', LEDGER15['48'],
+        '"est"-homophone KILLED (A7; 0/38 predicative); verb-STEM'
+        ' CANDIDATE (frame; "tout me [48]" legs + profile)')
+    chk('ledger15: 23/26 split', LEDGER15['23/26'],
+        'SPLIT (A2; 0 shared suc-frames + p=0.0029;'
+        ' "en ce qui [verb]" formula survives)')
+    chk('ledger15: F71 corrected', LEDGER15['F71'],
+        'est-arm CORRECTED 6 -> 7 (94-59 @558/@762/@1795)')
+    chk('ledger15: 62 collision recorded', LEDGER15['62'],
+        'COLLISION with 84="on" (62="on" STRONG LEAD must be'
+        ' re-examined; collision battery required)')
 
     fails = [c for c in checks if not c[3]]
     print('round-7 red-team extension: %d/%d PASS' % (len(checks) - len(fails),

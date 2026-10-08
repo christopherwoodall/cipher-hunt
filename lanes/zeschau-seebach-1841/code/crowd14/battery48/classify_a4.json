@@ -1,0 +1,99 @@
+{
+ "n_total": 191,
+ "n_absolute": 8,
+ "n_governor": 183,
+ "analyses": {
+  "a": {
+   "n": 163,
+   "shares": {
+    "noun": 0.4847,
+    "verb": 0.1963,
+    "adjective": 0.1227,
+    "artifact": 0.1104,
+    "participle": 0.0491,
+    "pronoun": 0.0368
+   },
+   "counts": {
+    "noun": 79,
+    "verb": 32,
+    "adjective": 20,
+    "artifact": 18,
+    "participle": 8,
+    "pronoun": 6
+   }
+  },
+  "b": {
+   "n": 161,
+   "shares": {
+    "noun": 0.4783,
+    "verb": 0.1988,
+    "adjective": 0.1242,
+    "artifact": 0.1118,
+    "participle": 0.0497,
+    "pronoun": 0.0373
+   },
+   "counts": {
+    "noun": 77,
+    "verb": 32,
+    "adjective": 20,
+    "artifact": 18,
+    "participle": 8,
+    "pronoun": 6
+   }
+  },
+  "c": {
+   "n": 144,
+   "shares": {
+    "noun": 0.5347,
+    "verb": 0.2222,
+    "adjective": 0.1389,
+    "participle": 0.0556,
+    "pronoun": 0.0417,
+    "artifact": 0.0069
+   },
+   "counts": {
+    "noun": 77,
+    "verb": 32,
+    "adjective": 20,
+    "participle": 8,
+    "pronoun": 6,
+    "artifact": 1
+   }
+  }
+ },
+ "notes": {
+  "mer": "OCR 's'alarmer' split by tokenizer -> verb",
+  "répondant": "present participle, 'répondre de' governs",
+  "parlant": "present participle 'en parlant de'",
+  "profitant": "present participle, odd context",
+  "indigne": "'s'indigner de' pronominal verb",
+  "vient": "'venir de ce que' = it comes from what (nominal ce que)",
+  "politique": "'une saine politique de ce que' - adj. reading, uncertain",
+  "historique": "'l'historique' noun (the historical account)",
+  "ressort": "'qui ressort de' verb (ressortir), ambiguous w/ noun",
+  "doute": "post-hoc: 'sans doute' parenthetical, governor='plaindra'",
+  "haut": "post-hoc: adverb, governor='alarmer'",
+  "fort": "post-hoc: adverb, governor='occupe'",
+  "moins": "post-hoc: adverb, governor='informe'",
+  "plus": "post-hoc: adverb",
+  "bien": "post-hoc: adverb, governor='souvenez'",
+  "aussitôt": "post-hoc: adverb, governor='avisa'",
+  "ici": "post-hoc: adverb",
+  "sus": "post-hoc: 'en sus' adverbial",
+  "an": "post-hoc: OCR garble, unclassifiable",
+  "ieu": "post-hoc: OCR garble",
+  "comnie": "post-hoc: OCR garble",
+  "petersbourg": "post-hoc: proper noun, cross-phrase",
+  "marie": "post-hoc: proper noun, governor='plaindre'",
+  "que": "post-hoc: conjunction",
+  "on": "post-hoc: subject pronoun, governor='avait'",
+  "peu": "post-hoc: 'peu à peu' adverbial",
+  "russie": "absolute token, excluded from census",
+  "cela": "absolute token, excluded from census",
+  "oui": "absolute token, excluded from census",
+  "lui": "absolute token, excluded from census",
+  "possible": "absolute token, excluded from census",
+  "soulignés": "absolute token, excluded from census",
+  "conseils": "absolute token, excluded from census"
+ }
+}

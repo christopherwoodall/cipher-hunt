@@ -1,0 +1,76 @@
+{
+ "tokens": 3616889,
+ "verbs": {
+  "manifeste": {
+   "n_v3sg": 110,
+   "le_v3sg": 8,
+   "qui_le_v3sg": 0,
+   "v3sg_que": 5,
+   "le_vinf": 2,
+   "le_v3sg_contexts": [
+    "même nous avons reçu ce matin le manifeste des députés",
+    "e tait arrivee a son terme le manifeste publie le",
+    "de conduite qu' il a suivie le manifeste developpe les",
+    "ses pretentions a ce qui dans le manifeste russe a",
+    "royaliste exalté cest lui qui rédige le manifeste de brunswick",
+    "l' objet d' un blâme auquel le manifeste répond ainsi"
+   ]
+  },
+  "atteste": {
+   "n_v3sg": 33,
+   "le_v3sg": 4,
+   "qui_le_v3sg": 0,
+   "v3sg_que": 4,
+   "le_vinf": 3,
+   "le_v3sg_contexts": [
+    "la vallée de chamounix ainsi que l' atteste une in",
+    "l' avait achetée fort cher comme l' atteste une légende",
+    "sous le règne d' auguste comme l' atteste strabon et",
+    "sultan c' est lord beauvale qui l' atteste dans une"
+   ]
+  },
+  "proteste": {
+   "n_v3sg": 19,
+   "le_v3sg": 0,
+   "qui_le_v3sg": 0,
+   "v3sg_que": 2,
+   "le_vinf": 0,
+   "le_v3sg_contexts": []
+  },
+  "conteste": {
+   "n_v3sg": 17,
+   "le_v3sg": 3,
+   "qui_le_v3sg": 0,
+   "v3sg_que": 0,
+   "le_vinf": 1,
+   "le_v3sg_contexts": [
+    "aujourd' hui victorieuse prépondérante personne ne le conteste plus elle",
+    "ait beaucoup de mérite je ne le conteste pas mais",
+    "soins soient véritablement paternels je ne le conteste pas mais"
+   ]
+  },
+  "déteste": {
+   "n_v3sg": 11,
+   "le_v3sg": 0,
+   "qui_le_v3sg": 0,
+   "v3sg_que": 0,
+   "le_vinf": 0,
+   "le_v3sg_contexts": []
+  },
+  "reste": {
+   "n_v3sg": 1101,
+   "le_v3sg": 218,
+   "qui_le_v3sg": 0,
+   "v3sg_que": 26,
+   "le_vinf": 0,
+   "le_v3sg_contexts": [
+    "à quelque chose laissons au temps le reste six semaines",
+    "passe en paix auprès de vous le reste de ma",
+    "rassuré sur ce point j' abandonne le reste aux caprices",
+    "perdu pour elle la providence fera le reste j' étais",
+    "l' ennemi le général fleury emploie le reste de la",
+    "le chef de la bande demande le reste des armes"
+   ]
+  }
+ }
+}

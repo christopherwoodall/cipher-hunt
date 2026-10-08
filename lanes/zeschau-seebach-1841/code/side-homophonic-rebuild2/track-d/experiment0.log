@@ -1,0 +1,8 @@
+184101: J_truth=-4953.3 final_J=-2514.0 dJ=+2439.3 hamming=86(86np) rec=0.034 -> SLIDE (168.8s)
+184102: J_truth=-4925.5 final_J=-2458.7 dJ=+2466.8 hamming=87(87np) rec=0.022 -> SLIDE (236.3s)
+184103: J_truth=-5076.2 final_J=-2357.3 dJ=+2718.9 hamming=88(88np) rec=0.011 -> SLIDE (326.9s)
+184104: J_truth=-5278.4 final_J=-2556.5 dJ=+2721.8 hamming=88(88np) rec=0.011 -> SLIDE (189.8s)
+184105: J_truth=-5293.6 final_J=-2649.2 dJ=+2644.4 hamming=89(89np) rec=0.000 -> SLIDE (218.1s)
+184106: J_truth=-5046.0 final_J=-2671.2 dJ=+2374.7 hamming=89(89np) rec=0.000 -> SLIDE (145.1s)
+wrote /home/hatch/workspace/cipher-hunt/lanes/zeschau-seebach-1841/code/side-homophonic-rebuild2/track-d/experiment0.json
+EXIT=0

@@ -1,0 +1,21 @@
+You are a judge of embedded French lexical content. You will be shown a passage of text. The passage may be degraded: it may have NO spaces, NO punctuation, and may contain by-ear misspellings (words spelled as they sound). Do NOT judge holistic prose fluency or surface readability. Your job is to recover the French hidden inside the degradation.
+
+Step 1 — SCAN: read through the string and identify every French word or short French phrase you can recognize. This includes words glued to their neighbors by missing spaces and words with by-ear spelling errors. Count each distinct word once.
+
+Step 2 — SCORE from the count and quality of the French you recovered:
+
+- 0–15: no identifiable French words (pure noise, or non-French throughout)
+- 20–35: a few isolated French-like fragments; no complete real words you are confident of
+- 40–55: many identifiable French words, but only as isolated words — no phrases or reconstructible sentence fragments
+- 60–75: many identifiable French words INCLUDING short phrases or reconstructible sentence fragments (degraded but clearly French underneath)
+- 80–90: long stretches of French recoverable; near-fluent despite the degradation
+- 95–100: clean, natural French prose with no degradation
+
+Judge ONLY the French lexical material present. Do not reward or penalize subject matter, era of style, or passage length. Do not penalize missing spaces or punctuation — those are expected forms of degradation, not evidence against Frenchness.
+
+Output format (exact): line 1 is a single integer from 0 to 100 and nothing else. Line 2 is the comma-separated list of the French words/phrases you identified (or the single word NONE if you found none). Line 3 is exactly one sentence explaining the score. No other text.
+
+PASSAGE:
+---
+{text}
+---

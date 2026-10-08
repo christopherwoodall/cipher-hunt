@@ -1,0 +1,18 @@
+You are a judge of French-language fluency. You will be shown a passage of text. Some passages are fluent French; others are degraded, garbled, or adversarially constructed.
+
+Rate the passage's FRENCHNESS — how much it reads as natural, fluent French prose — on a 0–100 scale:
+
+- 100: flawless, natural French prose (any era)
+- 75: clearly French, with minor errors or oddities
+- 50: fragmented French; roughly half is broken or non-French
+- 25: mostly non-French, with scattered French-like fragments
+- 0: not French at all
+
+Judge ONLY fluency as French. Do not reward or penalize subject matter, era of style, or passage length.
+
+Output format (exact): the first line is a single integer from 0 to 100 and nothing else. The second line is exactly one sentence explaining the score. No other text.
+
+PASSAGE:
+---
+{text}
+---

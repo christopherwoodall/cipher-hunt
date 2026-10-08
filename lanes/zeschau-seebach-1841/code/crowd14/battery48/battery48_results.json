@@ -1,0 +1,124 @@
+{
+ "battery": "48-BATTERIES round 14 (74-class + H_stem)",
+ "prereg": "code/crowd14/battery48/PREREG.md",
+ "battery1_74class": {
+  "verdict": "HOLD",
+  "legs": {
+   "A3_class_pin": {
+    "verb": false,
+    "adj": false,
+    "noun": false,
+    "part": false,
+    "any": false,
+    "detail": {
+     "suc_inf": 1,
+     "pre94_62": 3,
+     "suc89": 0,
+     "pre11_87": 1,
+     "pre59": 0
+    }
+   },
+   "A3_syl": {
+    "n74_74_bigrams": 6,
+    "rate74": 0.1818,
+    "era_word_selfrepeat": 0.00057,
+    "threshold": 0.005,
+    "SYLLABLE_LEG_FIRES": true,
+    "positions": [
+     417,
+     816,
+     861,
+     919,
+     1053,
+     1637
+    ]
+   },
+   "A4_dom": {
+    "analysis_a_shares": {
+     "noun": 0.4847,
+     "verb": 0.1963,
+     "adjective": 0.1227,
+     "artifact": 0.1104,
+     "participle": 0.0491,
+     "pronoun": 0.0368
+    },
+    "dominant": "noun",
+    "dominant_share": 0.4847,
+    "dominates_ge70": false
+   },
+   "A4_abs": {
+    "n_absolute": 8,
+    "rate": 0.0419,
+    "fence_gt20": false
+   },
+   "frame_863_rederived": true
+  },
+  "sub_outcome": "FENCE-74-SYLLABLE",
+  "islet_status": "LEAD-weak STANDS (n=1 @863); 48='de' NOT fully dead"
+ },
+ "battery2_Hstem": {
+  "verdict": "HOLD",
+  "legs": {
+   "B3a_rederivation": {
+    "pass": true,
+    "windows": [
+     "1229",
+     "1589",
+     "1398"
+    ],
+    "note_48_29_47_x2": true
+   },
+   "B3b_habitat": {
+    "n_suc_INF": 5,
+    "n_suc_WSEG": 2,
+    "kill_falsifier_fired": false,
+    "fisher_48v06": 0.5632,
+    "fisher_48v94": 1.0
+   },
+   "B3c_construction": {
+    "n_94_pre_48": 0,
+    "naive_ne48_naming": "FAILED (0)",
+    "complementary_slot_naming": "NAMED: pre48=62(on)x6 + 82(m)x4 = 10/37 banked pre-verbal; 94 never pre-vocalic except 94-94 (elision explains 94-48=0)",
+    "caveat3_status": "NAMED-complementary; residual quantitative ne-likeness open"
+   },
+   "B4a": {
+    "share": 0.0342,
+    "bar": 0.05,
+    "licenses": false,
+    "n": 2962,
+    "bar_diagnosis": "MISCALIBRATED as pre-registered: independence expectation = 0.133*0.3007 = 0.040 < 0.05 bar; observed 0.0342 = 86% of expectation (exploratory)"
+   },
+   "B4b": {
+    "n": 299,
+    "bar": 3,
+    "contact_licenses": true,
+    "examples_genuine": true
+   },
+   "B4c": {
+    "n": 34911,
+    "note": "proxy crude ('une'->un|e); report-only"
+   }
+  },
+  "Hstem_status": "keeps round-13 leg; NOT LEAD (B4a bar missed); NOT KILLED; strengthened by B4b+B3c"
+ },
+ "ranked_48_hypotheses": [
+  "48 UNIDENTIFIED (standing)",
+  "H_stem (vowel-initial verb-stem syllable): LEG-grade, strengthened (B4b 299x contact, B3c named, B3a PASS); LEAD blocked on B4a bar (miscalibration diagnosed)",
+  "48='de' iff 'de ce que' conditioned islet: LEAD-weak STANDS (n=1 @863); 74-class FENCED via 74=syllable",
+  "48->ne-class P1c prior (F106, anti-promotion fenced): untouched",
+  "KILLED (not re-litigated): 48='ne', H_verb, unconditioned 48='de'"
+ ],
+ "files": [
+  "PREREG.md",
+  "common.py",
+  "a74.py",
+  "hstem.py",
+  "classify_a4.py",
+  "followup.py",
+  "verdicts.py",
+  "a74_raw.json",
+  "hstem_raw.json",
+  "classify_a4.json",
+  "battery48_results.json"
+ ]
+}

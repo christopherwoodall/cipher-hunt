@@ -1,0 +1,81 @@
+{
+ "gate": "PASS",
+ "D_census": {
+  "D-ce": [
+   1488
+  ],
+  "D-que": [],
+  "D-ne": [],
+  "D-qui": []
+ },
+ "contacts_31": [
+  {
+   "pos": 338,
+   "kind": "verbal",
+   "rule": "qui-relative",
+   "cond": [
+    "64=qui provisional"
+   ]
+  },
+  {
+   "pos": 882,
+   "kind": "ambiguous",
+   "rule": "08 undisambiguated (pre=8)",
+   "cond": []
+  },
+  {
+   "pos": 1257,
+   "kind": "ambiguous",
+   "rule": "pre=61 unidentified",
+   "cond": []
+  },
+  {
+   "pos": 1489,
+   "kind": "verbal",
+   "rule": "D-ce (ce l' -> pronoun)",
+   "cond": [
+    "87=ce provisional",
+    "08=\"l'\" lead"
+   ]
+  },
+  {
+   "pos": 1516,
+   "kind": "ambiguous",
+   "rule": "11=la article/pronoun-ambiguous (standing flaw)",
+   "cond": []
+  },
+  {
+   "pos": 1521,
+   "kind": "ambiguous",
+   "rule": "08 undisambiguated (pre=8)",
+   "cond": []
+  },
+  {
+   "pos": 1615,
+   "kind": "ambiguous",
+   "rule": "pre=48 unidentified",
+   "cond": []
+  },
+  {
+   "pos": 1647,
+   "kind": "verbal",
+   "rule": "qui-relative",
+   "cond": [
+    "64=qui provisional"
+   ]
+  }
+ ],
+ "n_verbal_disamb": 3,
+ "n_nominal_disamb": 0,
+ "route_b_windows": [
+  1516
+ ],
+ "E31_1_n_ce_l": 12,
+ "E31_1_examples": [
+  "ce l' \u00e9tait je",
+  "ce l' honneur national",
+  "ce l' honneur national"
+ ],
+ "verdict": "31=VERBAL (provisional-conditioned; RECOMMENDATION for red-team)",
+ "recommendation": "31=VERBAL provisional-conditioned (C1: 64=qui, 87=ce; 08=\"l'\" lead)"
+}

@@ -1,0 +1,30 @@
+# seen-findings.txt — battery-runner ingestion log (2026-10-07, resumed runner)
+# Each line: <file> | ingested <ts> | status
+
+## Already ingested by prior runner (verdicts recorded, do not re-run without cause):
+- next-token-cela87-11.md (P1 VERDICT: PROMOTE "cela"=87+11 compositional) — read 2026-10-07
+- next-token-findings-qui.md (finder: 64 followers, P1-P11 ranked) — read 2026-10-07
+- next-token-findings-que-ce.md (finder: 46/87 followers, Q1-Q6, C1-C5) — read 2026-10-07
+- next-token-findings-parle-and-rest.md (finder: 47="ce", 79="tout", adjective set) — read 2026-10-07
+
+## Ingestion rule: every next-token-findings-*.md in code/crowd15/report_inbox/ gets
+## a line here when its predictions enter the battery queue.
+
+## Batteries run by resumed runner 2026-10-07 (reports in report_inbox/):
+- A1 next-token-adjective-37-32-42-19.md: 37/32/42 PROMOTE frame (predicative); 19 HOLD (1 leg); F71 est-arm corrected 6->7
+- A2 next-token-homophone-23-26.md: SPLIT (Fisher p=0.0029)
+- A3 next-token-parce-quen-952.md: CONFIRM "parce qu'en"; 85 verb candidate (7 legs)
+- A4 next-token-47-ce-allophone.md: PROMOTE 47="ce" allophone tier (2 finder corrections)
+- A5 next-token-79-tout.md: PROMOTE 79="tout" (3 compositional legs)
+- A6 next-token-homophone-09-92.md: HOLD + direction correction (frame is [X]-qui-er-e)
+- A7 next-token-trigram-79-82-48.md: L1 KILLED, L3 EXCLUDED, L2 PROMOTED ("tout me [48-verb]"); 48 verb candidate
+- A8 next-token-80-89-verbstem.md: 80/89 PROMOTE verb-frame (cond. 77="le"); DISTINCT verbs; A5 "tout 80" corrected to pronoun+verb
+- A9 next-token-00-pour.md: PROMOTE 00="pour"; 86 INF-class confirmed
+- A10 next-token-33-valency-comp.md: Q4 CONFIRM (que-valency); §6 HOLD (stem-vs-whole)
+- A11 next-token-formula-45-qui-par.md: 45="ce" HOLD; formula French NULL; 96 verb-stem NULL
+- A12 next-token-qui-37-01.md: PROMOTE 37-01 unit (value unknown)
+- A13 next-token-qui-le-84.md: PROMOTE "qui le [84]" unit (later corrected by A15 to "l'on")
+- A14 next-token-par-le-X.md: PROMOTE (a) substantivized infinitive for {92,33,86}
+- A15 next-token-84-clitic-q1.md: PROMOTE 84="on" (syllable); corrections to A13 + F53 arm
+- A16 next-token-residuals-sweep.md: Q5/Q6/§7 HOLD; C2/C4/C5/P9/P10/P11/§8/§9 ingested-closed
+## Inbox re-scanned after A5, A16: no new next-token-findings-*.md. Queue empty.
