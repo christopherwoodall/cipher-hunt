@@ -3158,6 +3158,90 @@ All notes trace: `code/crowd17/report_inbox/processed/`.
   verb-slot rate; the kill agrees with R16-005 and contradicts no
   standing verdict.
 
+### Round-17 wave-6 addenda (2026-10-08 UTC, crowd17 — 10 battery notes;
+red-team ratification pending)
+
+All notes trace: `code/crowd17/report_inbox/processed/`.
+
+- **F106 — battery-PROMOTE: 45's post-78 follower profile**
+  (battery-dict-45-contact-update; full census: all 22 of 45's windows,
+  pre=78 n=4 vs standalone n=18; post-78 followers = {13, 01, 64},
+  4/4 in-profile; {13, 01} exclusive to post-78, 0/18 standalone;
+  Fisher two-sided p=0.00205 < 0.05). Establishes the syllable-rival
+  contact profile as a real, ver-78-independent boundary (conditions on
+  78's occurrence only, never 78's value). Does NOT promote 45="dict":
+  contact-profile leg only, to adjudicate with dict-frame-78-45-13-55-61
+  and fork-78-45-adjudication. Caveats fenced: post-78 class is n=4
+  (one-window sensitive); 64 shared with standalone (profile-neutral
+  A-list function word). Pending red-team ratification.
+- **F107 — battery-PROMOTE: 26 verb-form via three independent
+  governors** (battery-noun26-gov-frames; @154 "66 84 26" = clause
+  boundary + "On [26-verb] [35]", 66 fenced; @600 "03 39 26 96" =
+  aux+participle "a [26-part] par [45]" or "à" + infinitive, 03
+  fenced, 39 tier "a/à"; @841 "62 94 26" = "[62] ne [26-verb]" under
+  either 62 rival; @1706 "62 94 88 26" = "ne [88] [26]" with 88's
+  verb-form profile re-derived ("39 88" x2, "88 77" x3); "26n" rival
+  excluded per window). Does NOT grant 26=verb globally: the "la [26]"
+  noun legs (@239, @128) and the @1559 crux belong to battery
+  noun26-la-frames (T4), which must answer this verdict. Pending
+  red-team ratification.
+- **F108 — battery-PROMOTE: W2 @573 boundary gate — 78-45 is one word,
+  ver-78-independent** (battery-verdict-w2-574-gate; 78-45 bigrams
+  exactly 4x: @313/@573/@982/@1164; 13-55-61 2/2 after 78-45, 0x
+  elsewhere; {13, 01} exclusive post-78 followers). Under 78='ver'
+  (LEAD, unsettled) the one word reads "ce verdict [13-55-61] ne m'"
+  — the gate does NOT promote 78='ver'. The two-word parse is
+  impossible under 78='ver' ("ce ver ce" = demonstrative doubling)
+  AND under every non-ver 78 value ("ce [X] ce" ungrammatical for all
+  X). Kill-scope for 45='ce': exactly 1/22 windows (@574); A11 HOLD
+  stands on the remaining 21. Fork routing: fork-78-45-rerun clause (a)
+  consumes W2 as settled; clause (b) keeps the boundary with 78's
+  value open. Pending red-team ratification.
+- **F109 — battery-PROMOTE: 62/84 conditioned slot split (not free
+  homophony)** (battery-slot-split-62-84; 62 n=35: pre-'ne'-partner
+  62->94 x9 + 62->48 x6 = 15/35; 84 n=25: post-clitic 77->84 x7 +
+  46->84 x2 = 9/25; crossover 62->59 x0, 84->94 x0, 84->48 x0 — zero
+  both directions; single slot-type crossover @508 fenced to queued
+  sister lon-62-on-conditioned). DISTRIBUTIONAL ONLY: does not name
+  62's value, does not promote 62='il', declares no polyvalence.
+  Adverses: @390 parsed (double-"on" exists only under the killed
+  unconditioned 62='on'); @1188 fenced to 06-forces-84; @1417 fenced
+  (ambiguous singleton). A15, the collision-62-84 KILL, and §7 intact.
+  Pending red-team ratification.
+- **F110 — battery-PROMOTE: 45->93 x3 cluster under one parse — 45="ce"
+  + nominal 93** (battery-frame-74-45-93; indices 261/477/602:
+  GOVERNOR + "ce" + NOUN — W1 "on [gov] ce [N93] 52", W2 "[pred] 74 ce
+  [N93] pour 13", W3 "par ce [N93] 54 qui"); distributional support:
+  93 article-governed at index 9 (provisional 77="le" slot), "93 est"
+  at index 101. Covers the three windows only; 93's global class
+  fenced to the verb-93 discriminator battery (priority 3, queued).
+  Tripwire: if verb-93 finds 93 verb-shaped elsewhere, bar (b)
+  converts to a kill-grade adverse for A11. Pending red-team
+  ratification.
+- **F111 — battery-PROMOTE: @1502 orphan confirmed — the 33-set orphan
+  guard holds** (battery-orphan-1502; @1501-1507: "on [33]" —
+  "on"+infinitive ungrammatical under the granted-unconditioned
+  84="on"; orphan fenced to the neighbor 84, 84-driven not 33-driven;
+  full 25-window census: 5 stem + 18 whole 'dire' + 2 orphans (@1502,
+  @1642) = 25; orphan rate 2/25 = 8%, at/under the 10% threshold; no
+  third orphan anywhere). Guard-battery success, not a value
+  promotion. **ANOMALY FLAGGED:** the queue cites the parent set
+  report at `code/crowd17/report_inbox/battery-dire-33-set.md`, but the
+  file lives at `report_inbox/processed/battery-dire-33-set.md` (wrong
+  path in the queue, file present; data chain intact via
+  battery-erstem-33-id). Supervisor: correct the queue citation.
+- **KILL (wave-6):** the ver-78 successor-completion claim KILLED
+  (battery-ver78-ce78-open-succ): @364 "ce vere[49]" and @1397
+  "ce veree" force "the open successors after 'ce 78' complete French
+  ver-words" false under standing values (47="ce" granted, 48='e'
+  R17-promoted, 40='e' banked; no lane-legal re-parse); the >=3-of-4
+  bar is unreachable (1 clean word-level read @629 "ce ver"+67, 1 open
+  @1105 awaiting 65). Scope fenced: kills the successor-completion
+  claim only — 78="ver" LEAD untouched (R16-005), the 'ce verdict' x2
+  positives (@573/@982) and the 78='er' distributional kill untouched.
+  Residue: ver78-65-completion (p2), ver78-ce78-census (p3),
+  verdict45-value (p3).
+
 ### Offset-validation (crowd18, 2026-10-08 UTC — bedrock validation of
 the 70 row offsets)
 
@@ -3649,6 +3733,10 @@ on scorecard integrity. Round-2's F13 dissolution and round-3's rival
   after 33=INF: 78 0 vs 29 5 — near-complementary distributions (odds
   ratio ~22.9). If 78="er" it would pattern like 29; it patterns like
   a noun-syllable. "ver" LEAD survives (un-killed, not proven).
+  ver-78 status round-17 wave-6: 'ver' LEAD stands (R16-005, ratified
+  R17-006); the successor-completion arm is KILLED ('ce ver[48/65]' —
+  @364/@1397 force false); @296 stays the fenced 1-window residual
+  (N78); W2 @573's one-word boundary is ver-78-independent (F108).
 - **37 and 42 predicative est-frames — DEMOTED from GRANT to HOLD**
   (round-16 est battery, `test_est.py`): 37's "6 adjective legs" VOID
   (all six 59-cells class LEFTOVER in
@@ -3664,7 +3752,11 @@ on scorecard integrity. Round-2's F13 dissolution and round-3's rival
   there; "par ce" ×2 (@602/@1213, on promoted 96="par") FORCES 45="ce";
   @314 contested — the value is bipartite (positional allophony, not
   one value). The round-16 par-rest PROMOTE is superseded by its own
-  round's forks adjudication.
+  round's forks adjudication. W2 @573 gate (F108): 78-45 is one word
+  (ver-78-independent); kill-scope for 45='ce' is exactly 1/22 windows
+  (@574); A11 HOLD stands on the remaining 21. The @602 'par ce' leg is
+  now the 45->93 x3 cluster (F110), 93 nominal there, global class
+  fenced to verb-93.
 - **A15's "on est" legs — VOID** (round-16 le battery): 59@1190/
   @1448/@1804 are ESTE, 59@1291 FENCED — the round-15 A15 battery and
   red team never checked 59-class (scope gap). 84="on" stands
@@ -4084,6 +4176,83 @@ on scorecard integrity. Round-2's F13 dissolution and round-3's rival
   verdict on 53 exists; nothing contradicted, nothing overwritten.
   Trace: `code/crowd17/report_inbox/processed/battery-prof-53.md`.
 
+### Round-17 null batch, wave 6 (crowd17, 2026-10-08 UTC)
+
+- **N77 — s5-foundation-r2 NULL (ESCALATION, kill-grade evidence)**
+  (five clean windows @51/@1655/@529/@1357/@1444 all ungrammatical
+  under 37='le' — @51 "tout le la tout" article-article, @1655 "le
+  la", @529/@1357/@1444 "le qui" determiner+relative-pronoun — on
+  banked/promoted anchors only, all five clauses PASS at kill grade):
+  the result CONFIRMS the contradiction found by s5-foundation and
+  contradicts the standing S5 fence (37='le' MEDIUM, round-7). Per
+  §5 this battery gathers evidence only — it does not downgrade S5,
+  does not promote any value; the S5 downgrade decision belongs to the
+  red team. Trace: `code/crowd17/report_inbox/processed/battery-s5-foundation-r2.md`.
+- **N78 — ver78-296-reparse NULL (fenced)** (the 1-window residual
+  stands): @296 '11 78 40 97 86' does not re-parse as one French word
+  under 78='ver' — 97 has no battery-derived value or frame (no 97
+  battery exists), 86's value battery (stem-86) is still queued, and
+  the lexical sweep exhausts completions ("lavèrent" needs 97='n'
+  86='t'; "véreux" needs 97+86="use"/"ux" — all force 97/86 values
+  their own contact profiles reject). @296 stays the red-team-fenced
+  1-window residual (R16-005); the 'l'ere' rival stands undisplaced.
+  No standing verdict contradicted, nothing downgraded. Follow-ups:
+  frame-97-profile (p2), ver78-296-97gate (p3), lere-296-rival (p3).
+  Trace: `code/crowd17/report_inbox/processed/battery-ver78-296-reparse.md`.
+- **N79 — x-33-laisser-test NULL (gated; lead recorded)** (16 and 85
+  must resolve as infinitives in the stem frames, zero contradiction):
+  NOT MET — both gates are still queued (frame-82-16, stem-85) and both
+  carry affirmative contradictions (`62-16` x4 + `12-16` x3
+  finite-verb-shaped vs `16-00` x4 noun-shaped under the §7
+  sole-polyvalence law; `79-85` x2 noun-shaped under promoted
+  79="tout"). Fallback fallback-recorded: X = the causative -er family
+  — 'laisser' at LEAD strength, gated on 16/85 — forced by @1477's
+  "veut [X]er me [V/N]" frame (82="m" banked; clitic "me" cannot
+  follow a non-causative infinitive); prononcer fenced dead at the
+  V+me+order frame. Not a kill: no window forces the stem reading
+  false. Follow-ups: laisser-gate-16, laisser-gate-85,
+  gate-satisfiability-16-85 (the kill-if-banked-forced-non-infinitive
+  gate). Trace: `code/crowd17/report_inbox/processed/battery-x-33-laisser-test.md`.
+- **N80 — dict-frame-78-45-13-55-61 NULL** (13-55-61 unnameable as one
+  French unit): clause 1 FAIL — the three contact profiles are scattered
+  (13->24 x3, 55->81 x6 noun-context vs 55->61 x3, 61 scattered n=18) and
+  no candidate word survives cross-window triangulation; W1's "ne
+  mentent" (3pl, R17-007) is subjectless ("ce verdict" is singular) and
+  W2's right context is "ne ce" (94-87 stream-unique bigram, 1/1847 —
+  ungrammatical under 94='ne' STRONG LEAD + 87='ce' granted). Not
+  kill-grade: the claim is conditional on unsettled leads (78='ver' LEAD,
+  45='dict' lead) — an unfired conditional is null, not kill (per the
+  fork-78-45-rerun precedent). Clauses 2 and 3 PASS (clause 2 conditional
+  on 94='ne' STRONG LEAD; clause 3 fenced — 67='et' by the §7 positional
+  rule, blocker is 21's open value). No standing verdict contradicted;
+  the 5-gram 78-45 one-word boundary stands promoted (F108); the
+  dict-contact boundary (F106) is cited, not re-run. The W2 "94 87"
+  hapax is flagged as a 94-frame anomaly for red-team awareness.
+  Follow-ups: name-13-55-61 (p2), ne-ce-1169 (p2), w1-573-subject (p3).
+  Trace: `code/crowd17/report_inbox/processed/battery-dict-frame-78-45-13-55-61.md`.
+- **N81 — lever-77-78 NULL (composition-only scope)**: '77 78' = "lever"
+  (infinitive; '48 77 78' = "elever") not promoted, not killed — clause 1
+  soft-FAIL: 6/7 windows parse with stated fences (@7, @647, @1077 via
+  the 12-48 letter re-parse "n'elever qui", @1180/@1351 via stated clause
+  boundaries, @1542 "88 lever [43] pour que prenne" the firmest leg);
+  @213 fails (follower 06 is verb-stem-class/non-nominal per F52-L2;
+  ISLET-10 reads 06-59 as the "V-este" verb unit — strain shared with
+  the F2 rival, non-discriminating, fenced to queued 06 work). Clauses 2
+  and 3 soft-PASS (F25 conditioned-94 "en" unavailable at both — pre=78,
+  suc=82, consistent with the red-team's denial of the 94="en"
+  co-value). Clause 4 PASS WITH CORRECTION: adjacency holds 7/7, but the
+  "never splits" control gloss is wrong — one non-adjacent 77…78
+  co-occurrence exists ("77 86 78" @877-879, 43/44); it is not a lever
+  window and does not contradict the composition. ANOMALY corrected: the
+  ne-le-1075 note's "94 never co-occurs with 77 within distance 3" is
+  true at the @1075 locus but false stream-wide (94 within d3 of 77 at
+  @507-509, @1180-1182, @1351-1353); the locus conclusion is unaffected.
+  The "…levement"/nement-host rival at @1180/@1351 stays undemonstrated
+  (no pre-syllable value). 77="le" stays provisional under either
+  reading; no value promoted or killed. Follow-ups: lever-213-complement
+  (p2), lever-88-governor (p2), lever-lement-rival (p3).
+  Trace: `code/crowd17/report_inbox/processed/battery-lever-77-78.md`.
+
 ---
 
 ## 6. Open hypotheses (not promoted — each needs ≥2 independent checks)
@@ -4233,6 +4402,37 @@ Zeitung Augsburg 1841-01-12..25, Guizot t1–t3, Talleyrand v1 —
 unmeasured, provisional; the mine-v3/corpus copies were removed
 2026-10-08 as duplicates of corpus/).
 
+- **Round-17 wave-6 deltas (2026-10-08):** battery-PROMOTED: 45's post-78
+  follower profile (F106 — ver-78-independent contact boundary; 45="dict"
+  NOT promoted), 26 verb-form via three independent governors (F107 —
+  does NOT grant 26=verb globally; the noun-26 legs and @1559 crux stay
+  with noun26-la-frames/T4), W2 @573 one-word gate (F108 —
+  ver-78-independent; 45='ce' kill-scope 1/22), 62/84 conditioned slot
+  split (F109 — distributional only, no value named), the 45->93 x3 cluster
+  under one parse (F110 — 93's global class fenced to verb-93, p3
+  queued; bar-(b) tripwire: a verb-93 positive converts to a kill-grade
+  adverse for A11), the @1502 orphan guard (F111 — 33-set orphan rate
+  2/25 = 8%, at/under the 10% threshold). KILLED: ver-78
+  successor-completion ('ce ver[48/65]') — @364 "ce vere[49]" and @1397
+  "ce veree" force it false; 78="ver" stays LEAD (R16-005), @296 stays the
+  fenced 1-window residual (N78). NULLs: s5-foundation-r2 (N77 — kill-grade
+  contradiction of the S5 fence, 37='le' MEDIUM now ESCALATED to the red
+  team), x-33-laisser-test (N79 — 'laisser' at LEAD strength, gated on
+  frame-82-16 + stem-85; gate-satisfiability-16-85 owns the
+  kill-if-banked-forced-non-infinitive), dict-frame-78-45-13-55-61 (N80 —
+  13-55-61 unnameable with evidential support; W2's "ne ce" = stream-unique
+  94-87 bigram flagged as 94-frame anomaly), lever-77-78 (N81 — 'lever'
+  composition neither promoted nor killed; clause-1 soft-fail at @213
+  fenced to open 06 value; "77 78 never splits" corrected — one
+  non-adjacent co-occurrence @877-879; 77="le" stays provisional). ANOMALY flagged: the queue cites
+  the parent set report at `code/crowd17/report_inbox/battery-dire-33-set.md`,
+  but the file lives at `report_inbox/processed/battery-dire-33-set.md`
+  (wrong path in the queue, file present; data chain intact via
+  battery-erstem-33-id). Conditional leads for the supervisor's queue:
+  33="laisser" (N79, gated on 16/85), the 'ce ver[65]' completion at @1105
+  (ver78-65-completion, gated on prof-65), the 'ce verdict' x2 leg @573/@982
+  (verdict45-value, gated on R16-004).
+
 - **62="on"** — FENCED-LEAD (STRONG LEAD, promotion DENIED by red team,
   Ruling 1; round-6 non-ear battery: NO PROMOTION, honest null — N25):
   leg-2 re-derivation 62→94 **×9/35=0.2571 (1.62× era with
@@ -4268,7 +4468,11 @@ unmeasured, provisional; the mine-v3/corpus copies were removed
   `code/crowd5/redteam/rulings.md`,
   `code/crowd6/frenchman62/battery62_results.json`,
   `code/crowd8/frenchman/results.json`, `code/crowd9/resolver62/`
-  (this sweep).
+  (this sweep). Round-17 wave-6 (F109): conditioned split demonstrated —
+  62's pre-'ne' slot (15/35) and 84's post-clitic elision slot (9/25)
+  are disjoint with zero crossover — distributional only, no value
+  named, no polyvalence declared; conditioned-62='on' stays with
+  lon-62-on-conditioned / the red team.
 - **78 three-way (WO1 adjudicated)** — "me"-WORD **disfavored-strong**
   (L1w 22.76×, audit-verified; no formal kill); "me"-SYLLABLE holds LEAD
   (L1s 1.131× in-band, F29-letter clear); **78={ver,er} fork**
