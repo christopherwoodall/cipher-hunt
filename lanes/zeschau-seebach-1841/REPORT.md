@@ -2872,6 +2872,103 @@ adjudicated; **red-team ratification pending**)
   promotions join the pending merge. Registry file unchanged this
   sweep — grid NOT regenerated.
 
+### Round-17 wave-3 addenda (2026-10-08 UTC, crowd17 next-token — batteries
+adjudicated; **red-team ratification pending**)
+
+- **F93 — nest-subject-86-62-42 battery-PROMOTE** (bar: resolve iff
+  each of {86, 62, 42} takes a subject parse with zero forced
+  contradiction; all three clauses PASS). The three "X n'est ..."
+  frames are the ONLY "X 94 59" trigrams in the 1,847-pair stream
+  (closed-set census): @558 "86 n'est pas" (86 INF-class, "le 86"
+  x5 noun face), @762 "62 n'est 39" ("il n'est a"; conditional on
+  the collision battery's demonstrated-not-promoted 62="il"), @1795
+  "42 n'est 37" (copular, predicative 37 per A1). All three windows
+  parse subject-cleanly under standing values. **Enlightenment**:
+  the claim is not "subject-shaped" from grammar intuition but from
+  a closed-set census — these three are ALL the "n'est" frames, so
+  there is no un-examined fourth frame that could break the rule.
+  Conditional on provisional 59="est". Trace:
+  `code/crowd17/report_inbox/battery-nest-subject-86-62-42.md`.
+- **F94 — noun26-pas-frames battery-PROMOTE (frame-level, with
+  recorded positional exception)** (bar: all four "26 30" windows
+  re-derived; 30="pas" in each; noun-parse excluded per window;
+  ne-audit; @1559 parsed or recorded as residual; all clauses PASS,
+  clause 5 on the residual disjunct). 26 is verb-class: "26 30" x4
+  = "[verb] pas" at @654/@991/@1249 (@654/@991 share the byte-
+  identical 6-gram "76 49 24 26 30 03", counted once); noun-parse
+  ("[noun] pas") is ungrammatical at all four; @1559's banked 11=
+  "la" forces nominal 26, so the clause boundary between 26 and 30
+  is fenced with stated cause. **The recorded positional rule —
+  "26 = feminine noun iff immediately preceded by 11='la', else
+  verb-class" — is the lane's second positional-polyvalence-shaped
+  finding; it is RECORDED, not declared (declaring it is a red-team
+  act per S7).** @991/@1249/@1559 carry the bare-"pas" 1840s
+  tension, flagged to queued ne-alone-02-74. Trace:
+  `code/crowd17/report_inbox/battery-noun26-pas-frames.md`.
+- **F95 — noun26-encequi-triple battery-PROMOTE** (bar: triple
+  re-derived; @1768 parses with 26 as verb; 37's slot named; 23~26
+  split respected; subject-rival excluded; all five clauses PASS).
+  The '24 87 64' formula triple re-derives exactly 3x
+  (@179/@1766/@1774; fol1 23/26/59, fol2 37 x2/19 x1): slot-1 holds
+  verb-class cells in all three windows (23 by the granted 23~26
+  split, 59 as ISLET-10-licensed "est"), so 26 parses as the verb by
+  frame-type uniformity at @1766-1771 ("24 87 64 26 37 78"). 37's
+  slot is NAMED (object nominal vs clause boundary — value
+  undecided, decision owned by queued frame-37-reexam). 23's value
+  stays OPEN; "concerne"/"regarde" is a value LEAD, not a claim.
+  Correction recorded: the queue's legacy @-offsets were stale
+  (obsolete 1,846-parse indices); substance re-derives exactly.
+  Trace: `code/crowd17/report_inbox/battery-noun26-encequi-triple.md`.
+- **F96 — prenne-subject-S1545 battery-PROMOTE (claim confirmed via
+  the bar's second disjunct)** (bar: subject found with zero
+  contradiction, or subjectless confirmed with stated cause;
+  clause 1 FAIL, clause 2 PASS). The "00 46" ('pour que') census is
+  closed stream-wide at exactly 4 windows: @106 (overt subject,
+  "pour que la [21]"), @545 (slot occupied by 24, fenced to
+  ne-24-profile), @1545 (TARGET), @1680 (overt subject, "pour que
+  tout [65]"). @1545 is the ONLY window where the verb word
+  (70-12-94 = "prenne", @1547-1549) abuts "que" directly: the
+  subject slot between @1546 and @1547 is EMPTY (pair-adjacent, 70
+  word-internal). Exhaustive candidate sweep closed every
+  alternative (post-verbal, ellipsis, matrix borrowing, impersonal,
+  70-alone, re-splitting 12-94, 45-as-postposed-subject, parallel
+  gapping): 1840s "pour que" + subjunctive mandates an overt
+  subject. **Enlightenment**: the emptiness is anomalous against the
+  construction's own distribution (2/4 windows show a clean overt
+  subject) — it is not a cipher convention. No value promoted.
+  Trace: `code/crowd17/report_inbox/battery-prenne-subject-S1545.md`.
+- **Wave-3 finder beats (finder-grade, no verdicts)**:
+  `next-token-findings-f-qui-par.md` — full 43/01 read: 43 n=16 (13
+  productive frame-types after formula de-dup), 01 n=28 (26
+  productive). **Strongest structural leg for 01="ci": the triple-
+  "ce" composition** — all three "ce"-values compose with 01
+  (87-01 x2, 47-01 @195, 45-01 @984), parallel to granted "cela" =
+  87+11. Hardest cluster: "01-24" x3 (under 01="ci", 24 must be
+  contre/apres-family; 24's contact profile strains both). 43:
+  content-word shape, "la-43" @563 + "la-52-37-43" x2 support
+  feminine noun; predicative 37/32 precede 43 x4; all four queued
+  noun-43 candidates ({suite, condition, maniere, mesure}) are
+  adversed by "43-pour" x3 (they govern "de", not "pour"). Eight
+  ranked targets: T1 feeder-ceci-47-45, T2 disc-01-24-ci-X, T3
+  rival-37-01-certain, T4 frame-43-la-52-37, T5 frame-43-21-43-
+  doublet, T6 frame-43-pour-que-1544, T7 frame-43-pred-37-32, T8
+  coll-76-01-98 (all queued). 01's honest state: no global value —
+  "ci" wins only the four "ce"-compositions, "faisant" wins only
+  "ce faisant"; both die outside their frames.
+  `next-token-findings-est-reexam.md` — the evidence base for N59
+  below: both sides' window counts re-derived exact on the repaired
+  stream (59->37 x6 at @528/624/912/1178/1443/1796; classification.
+  json EST keys exactly {103,316,559,763,1210,1777}; n59=27);
+  A1's "+1 negated leg @1795" is a double-count (6 unique windows);
+  "52-37" is x4, not x3 (minor, no verdict effect). The red team's
+  decision points D1–D3 are stated in the battery's verdict (N59).
+- **Registry consequence (wave 3)**: the coordinator merged the
+  registry (2026-10-08 ~07:21 UTC) — 12="n" lead, 30="pas" lead,
+  39="a/a" lead, 45="ce/dict" lead, 48="e" lead, 94="ne" lead,
+  06="ent/ment" lead, 00="pour" prom, 77="le" prov (demoted from
+  prom), 78="ver" lead (78="er" KILLED). `generate.py` printed
+  UNCHANGED — the grid was already current; no figure regenerated.
+
 ### Smith rebuild2 status (2026-10-08 UTC — rung-C clean re-run PASS;
 memorization re-probe CLEAN)
 
@@ -2958,21 +3055,28 @@ memorization re-probe CLEAN)
   reference material for the H3 program (not yet wired into any
   calibration run — provisional until measured).
 
-### table-grid registry (2026-10-08 01:47 UTC)
+### table-grid registry (2026-10-08 07:21 UTC — coordinator merge)
 
 `code/table-grid/table-registry.json` — coordinator source of truth for
 the R5005 key-table grid; status set: gt (pencil ground truth), prom
-(promoted), prov (provisional), cls (class), lead. Current: 00="pour?"
-lead; 17/47/79 prom (battery PROMOTE verdicts, red-team ratification
-pending); 64/87/96 prom; 11/29/34/40/70/82 gt; 31/33 cls; 59="est" prov;
-**77="le" prov (the round-16 le-battery PROMOTE is not yet merged)**;
-**78="ver/er?" lead (the round-16 "er"-KILL is not yet merged)**; 45, 30,
-94, 12 not yet tracked. **Round-17 note: 94="ne", 12="n", 48="e" are
-battery-promoted and 77="le" promoted, but the registry is unchanged
-this sweep (coordinator-owned) — the grid was NOT regenerated.** Grid
-HTML/PNG regenerated by the sweeper (`generate.py` printed CHANGED).
-Registry is coordinator-owned; the batteries above are the adjudication
-input on its next merge.
+(promoted), prov (provisional), cls (class), lead (battery-level,
+red-team ratification pending). **Coordinator merge 2026-10-08 ~07:21
+UTC** — the registry now carries the round-17 battery verdicts as
+leads: 12="n" lead, 30="pas" lead, 39="a/a" lead, 45="ce/dict" lead,
+48="e" lead, 94="ne" lead, 06="ent/ment" lead, 00="pour" prom
+(banked, round-16); 77="le" DEMOTED prom->prov (round-16); 78="ver"
+lead (78="er" KILLED round-16); standing 11/29/34/40/46/70/82 gt,
+17/47/79/64/87/96/84 prom, 31/33/86 cls, 59="est" prov. Full cells:
+00="pour" prom, 06="ent/ment" lead, 11="la" gt, 12="n" lead,
+17="fois" prom, 29="er" gt, 30="pas" lead, 31=VERBAL cls, 33=INF cls,
+34="i" gt, 39="a/a" lead, 40="e" gt, 45="ce/dict" lead, 46="que" gt,
+47="ce" prom, 48="e" lead, 59="est" prov, 64="qui" prom, 70="pre" gt,
+77="le" prov, 78="ver" lead, 79="tout" prom, 82="m" gt, 84="on" prom,
+86=INF cls, 87="ce" prom, 94="ne" lead, 96="par" prom. `generate.py`
+ran 2026-10-08 (this sweep): printed **UNCHANGED** — the coordinator
+had already regenerated the grid HTML/PNG at merge time; the periodic
+table grid is current. Registry is coordinator-owned; batteries keep
+feeding it via the adjudication queue.
 
 ---
 
@@ -3445,6 +3549,117 @@ on scorecard integrity. Round-2's F13 dissolution and round-3's rival
   not downgraded. Trace:
   `code/crowd17/report_inbox/battery-prenne-70-12-94.md`.
 
+### Round-17 null batch, wave 3 (crowd17, 2026-10-08 UTC)
+
+- **N56 — adj-32 battery NULL** (bar: est-frames hold + 94/48
+  followers resolve + verb-tension adjudicated; clause 1 PASS,
+  clause 2 FAIL, clause 3 FENCED). The three 59->32 est-frames
+  (@317/@449/@1211, repaired-stream offsets) hold and the 48
+  followers resolve as feminine "-e" on 32 ("est [adj]e toutefois"),
+  but @317's "94 06" does NOT resolve: 94-06 is a hapax (1/37
+  94-followers), 06 is not finite-verb-shaped (bare-"ne" fails),
+  and no expletive-"ne" frame is established (FAIL). Clause 3:
+  @33 and @855 force verb-shaped 32 ("qui 32" / "qui [32]e, on"),
+  while the predicative frames show adjective/participle-shaped
+  32 — the needed dual behavior is a second polyvalence, a
+  red-team act per S7, not a battery declaration. Not promote
+  (clauses 2–3 unmet); not kill (no predicative-frame window
+  forces a non-adjective 32). 32 census: n=13. Follow-ups queued:
+  verb-32 (narrower verb-stem battery), ne-06-317-gate (gated on
+  ent-06), fem-e-48 (48 as inflectional "-e"). Trace:
+  `code/crowd17/report_inbox/battery-adj-32.md`.
+- **N57 — fork-78-45-adjudication NULL** (bar: (a) joint-with-ver-78
+  conditional, (b) positional rule; clause (a) VACUOUS — ver-78's
+  verdict is null, so the antecedent "78='ver' promotes" is false —
+  clause (b) PASS). The four 78-45 windows (@313/@573/@982/@1164)
+  cannot adjudicate while ver-78 is unsettled; 45="ce" is NOT
+  killed, 45="dict" is NOT promoted. Positional rule R-pos stated:
+  45="dict" iff immediately preceded by 78 (the single word
+  "verdict"), else 45="ce" — per-window parses recorded — but
+  declaring it is a red-team act per S7 (67 is the sole true
+  polyvalence). Evidence owned by follow-ups: fork-78-45-rerun
+  (P1, gated on ver-78), dict-78-45-wordbound (P2), w1-314-ambig
+  (P2). Trace:
+  `code/crowd17/report_inbox/battery-fork-78-45-adjudication.md`.
+- **N58 — dict-45 battery NULL** (bar: "verdict" frames parse +
+  45's contact profile matches the "-dict" syllable; clause (a)
+  INCONCLUSIVE-conditional, clause (b) FAILS as a general value).
+  Under 45="dict", 18/22 windows are ungrammatical (a bound
+  syllable predicts a near-deterministic "ver" predecessor; the
+  general reading is distributionally rejected — implicitly by the
+  standing A11 HOLD, never the live claim). The claim survives only
+  as the positional reading (45="dict" iff pre=78 — the four
+  78-45 loci all consistent), which needs the red-team declaration.
+  The A11 45="ce" HOLD stands untouched; its mirror legs (45-64 x3
+  @314/@340/@1024) re-derive on the repaired stream. 'ce verdict'
+  x2 confirmed (87-78-45 @572-574, 47-78-45 @981-983). Follow-ups:
+  dict-45-w3-ceci, dict-45-ce-rival-1165, dict-45-host-inventory.
+  Trace: `code/crowd17/report_inbox/battery-dict-45.md`.
+- **N59 — frame-37-reexam NULL — ESCALATION, red-team
+  re-adjudication required** (escalation battery: bar = re-derive
+  fencing evidence only; all 5 evidence clauses PASS). The
+  est-finder's fencing arithmetic is confirmed exact on the
+  repaired stream: under standing ISLET-10 law, five of the six
+  59->37 legs are unlicensed-pre LEFTOVER (VOID) and the sixth
+  (@1796, pre=94) is licensed but S5-fenced on 37="le" MEDIUM.
+  **The round-15 A1 battery and its red team never checked the six
+  legs against classification.json — a scope gap; whether it voids
+  A1's clause (a) (37 legs 6->0, 42 legs 2->0) is the red team's
+  call (D1).** A1's "+1 negated leg @1795" is a double-count
+  (stream[1794:1798] = [42,94,59,37] — one physical window; 6
+  unique windows, not 7). Controls: 32 keeps 2 valid legs (@316,
+  @1210); 42 has 0; 59->19 is 1 HOLD window (the "x2" was one
+  physical window). Live 37 evidence outside the est fight
+  re-derived: "qui 37" x3 verb frames, "la 52-37-43" x2, "que
+  84-24-37" x2, 37-01 x3 (A12), 37-78 x4, 52-37 x4. No verdict
+  downgraded here. Trace:
+  `code/crowd17/report_inbox/battery-frame-37-reexam.md` and
+  `next-token-findings-est-reexam.md`.
+- **N60 — s5-foundation battery NULL — ESCALATION: evidence
+  contradicts the S5 standing fence** (bar: (a) >=2 windows where
+  37="le" forces ungrammatical French, (b) @913 re-derived with
+  neighbors, (c) zero windows requiring 37="le"; all three PASS,
+  but the result contradicts round-7 S5 (37="le" MEDIUM)). Five
+  windows force ungrammatical French under 37="le" using only
+  banked/promoted anchors: @51 and @1655 ("le la" article+article),
+  @529/@1357/@1444 ("le qui" determiner+relative-pronoun). @913
+  re-derived: "le par" (37-96, the ONLY 37-96 adjacency
+  stream-wide; 96="par" promoted) is ungrammatical — an article
+  cannot govern a preposition; neighbors 83/09 cannot rescue it.
+  Zero windows require 37="le". S5's sole datum fails the "le"
+  reading; S5 stands only as a fence pending red-team
+  re-adjudication (follow-up s5-foundation-r2 proposed). Trace:
+  `code/crowd17/report_inbox/battery-s5-foundation.md`.
+- **N61 — lon-ne-77-62-94 battery NULL — standing-verdict
+  contradiction escalated to red team** (bar: kill 62="il" on this
+  frame iff "le il ne" is unparseable AND "l'on ne" parses;
+  clauses 1 and 2 both PASS at trigram level — the discriminator is
+  real: "et le il ne" has no clean French parse; "et l'on ne"
+  reads clean on "l'on" x7 corpus support). The kill conclusion
+  would install 62="on" at @508, which DIRECTLY contradicts the
+  standing collision-62-84 KILL (F91/N52) that fenced this window
+  as residual anomalous and deferred a conditioned 62="on" to the
+  red team as a second-polyvalence act (S7). Per S5.3 the battery
+  does not overwrite the verdict; the contradiction is queued as a
+  red-team decision item (lon-62-on-conditioned). The "94-64" =
+  "ne qui" right edge is a singleton (x1 stream-wide) and a second
+  independent reason the window cannot settle at battery level.
+  Trace: `code/crowd17/report_inbox/battery-lon-ne-77-62-94.md`.
+- **N62 — stem-33-86 battery NULL** (bar: stem-vs-whole adjudicated
+  per window with <=10% orphan rate; clauses 1–2 PASS, clause 3
+  FAIL — 6/57 = 10.5% > 10%). 33: 5 stem / 18 whole / 2 orphans
+  (8.0% — meets the bar alone). 86: 4 stem / 23 whole / 4 orphans /
+  1 fenced (@1739, ni-frame; 12.5%). Orphans: @1502 ("on"+
+  infinitive), @1700 ("dire ne [30]" order), @300, @716, @1131,
+  @1147. **Data-quality note**: the queue's "12 windows of 86" was
+  the pre=00 SUBSET, not the total — repaired-stream truth is 86
+  n=32; any battery scoping 86 to 12 windows undercounts 20.
+  (stem-86's bar must be re-barred before dispatch.) The set model
+  (33 = {"dire" whole, X-er stem}; 86 = {whole infinitive, [86]er
+  stem}) is unfalsified; follow-ups: orphan86-300, orphan86-716,
+  orphan86-1131-1147. Trace:
+  `code/crowd17/report_inbox/battery-stem-33-86.md`.
+
 ---
 
 ## 6. Open hypotheses (not promoted — each needs ≥2 independent checks)
@@ -3482,6 +3697,32 @@ noun-44 (F5 input), ne-alone-02-74 (bare-"ne" modal cluster, F2),
 fem-32e (F4), ver78-la78-census, ver78-45-dependency-gate, and a
 dedicated noun-26 battery (the 26 war: verb legs dominate, crux
 window @1559 unresolved).
+
+**Round-17 wave-3 deltas (2026-10-08):** nest-subject-86-62-42
+PROMOTED (F93 — the three "n'est" frames are the only X-94-59
+trigrams, closed-set census); noun26-pas-frames PROMOTED with a
+recorded positional exception (F94 — 26 verb-class, "26 30" x4 =
+"[verb] pas"; @1559's banked "la" forces the "noun iff preceded by
+11='la'" rule, recorded-not-declared); noun26-encequi-triple
+PROMOTED (F95 — 26 verb-class in the "24 87 64" formula slot by
+frame uniformity; value open); prenne-subject-S1545 PROMOTED via
+the subjectless disjunct (F96 — @1545 is the only "pour que" window
+whose subject slot is empty; closed 4-window "00 46" census).
+NULLs: adj-32 (N56 — 94/48 resolve except the @317 "ne 06" hapax;
+dual verb/adjective behavior needs red-team polyvalence call),
+fork-78-45-adjudication (N57 — vacuous while ver-78 unsettled;
+R-pos stated), dict-45 (N58 — general "dict" dead, positional arm
+survives), frame-37-reexam (N59 — ESCALATION: ISLET-10 fencing
+exact; A1 scope gap; A1 6 windows not 7), s5-foundation (N60 —
+ESCALATION: 5 windows anti-37="le"; @913 "le par" ungrammatical),
+lon-ne-77-62-94 (N61 — ESCALATION: contradicts collision-62-84's
+kill; conditioned 62="on" queued for red team), stem-33-86 (N62 —
+orphan rate 10.5% misses the 10% bar; 86 is n=32, not 12).
+Finder beats: f-qui-par (43 n=16/13 productive, 01 n=28/26
+productive; triple-"ce" composition is 01="ci"'s strongest leg; 8
+targets queued) and est-reexam (both sides' counts re-derived
+exact; "52-37" corrected x3->x4). Battery queue now 148 targets:
+52 verdict / 96 queued.
 
 **Round-16 status deltas (2026-10-08 UTC, crowd16 next-token, 16/16
 battery-adjudicated):** 77="le" PROMOTED (provisional → promoted;
@@ -4043,6 +4284,10 @@ unmeasured, provisional).
     STALE — the jsonl shows the package delivered and the probe CLEAN;
     charter should carry an addendum next sweep. Grid registry refreshed
     01:47 UTC; the 77-promotion and 78 "er"-kill await coordinator merge.
+    **Update 2026-10-08 ~07:21 UTC: coordinator merged the registry
+    (round-17 battery verdicts as leads: 12/30/39/45/48/94/06 leads,
+    00 prom, 77 prov, 78 "ver" lead) and regenerated the grid; the
+    sweeper's `generate.py` printed UNCHANGED — grid current.**
 
 **Blockers:** R5006–R5008 NOT obtainable (operator registered `alexrivers`
 on de-crypt.org 2026-10-07, but full-size images need admin elevation —

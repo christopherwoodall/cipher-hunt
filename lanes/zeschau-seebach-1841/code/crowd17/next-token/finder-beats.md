@@ -47,8 +47,8 @@ confidence × testability, write to
 | 84-adjudication inputs | 62/84 "on" collision: profile 62 ("il" rival) vs 84 (elision-discriminated) | complete — next-token-findings-84-adjudication.md (2026-10-08) |
 | noun26-frames | 26 noun-vs-verb war: "…fois, la [26]" ×2 vs "en ce qui 26-37" | complete — next-token-findings-noun26-frames.md (2026-10-08) |
 | parvenir-thirds | "vient de me parvenir" thirds (60/62/68) homophone-set test + 83="de" cross-check | complete — next-token-findings-parvenir-thirds.md (2026-10-08) |
-| f-qui-par full read | 43/01 profiles + formula French; the 6-gram is resolving from the edges | queued |
-| est-reexam | crowd16 est-finder's fenced-leftover challenge vs A1 grant: re-derive fencing window by window for red-team adjudication | queued |
+| f-qui-par full read | 43/01 profiles + formula French; the 6-gram is resolving from the edges | complete — next-token-findings-f-qui-par.md (2026-10-08) |
+| est-reexam | crowd16 est-finder's fenced-leftover challenge vs A1 grant: re-derive fencing window by window for red-team adjudication | complete — next-token-findings-est-reexam.md (2026-10-08) |
 
 ## Beat method (all waves)
 

@@ -112,8 +112,10 @@ html[data-theme="dark"] .cg-cell.cls .cg-val{color:#a78bfa}
             parts.append(
                 f"<div class=\"cg-cell {k}\" title=\"group {g} — {n} occurrences\">{inner}</div>")
     parts.append("</div>")
+    from collections import Counter as _C
+    _counts = _C(v[1] for v in cells.values())
     legend = "".join(
-        f"<span class=\"cg-key\"><span class=\"cg-dot\" style=\"border-color:{STATUS_COLORS[s]}\"></span>{STATUS_LABELS[s]}</span>"
+        f"<span class=\"cg-key\"><span class=\"cg-dot\" style=\"border-color:{STATUS_COLORS[s]}\"></span>{STATUS_LABELS[s]} ({_counts.get(s, 0)})</span>"
         for s in ("gt", "prom", "prov", "cls", "lead"))
     legend += ("<span class=\"cg-key\"><span class=\"cg-dot\" style=\"border-color:#888\"></span>"
                "hatched = unobserved</span>")
@@ -194,7 +196,13 @@ def build_png(freq, registry):
         ax.text(x0 + 0.02, ly, label, ha="left", va="center",
                 fontsize=9, color=MUT)
     ax.text(5, -1.1,
-            f"solved: {len(cells)}/96 observed cells · generated {__import__('datetime').date.today().isoformat()}",
+            f"gt {sum(1 for v in cells.values() if v[1] == 'gt')} · "
+            f"prom {sum(1 for v in cells.values() if v[1] == 'prom')} · "
+            f"prov {sum(1 for v in cells.values() if v[1] == 'prov')} · "
+            f"cls {sum(1 for v in cells.values() if v[1] == 'cls')} · "
+            f"lead {sum(1 for v in cells.values() if v[1] == 'lead')} — "
+            f"{len(cells)}/96 observed cells · generated "
+            f"{__import__('datetime').date.today().isoformat()}",
             ha="center", va="center", fontsize=9, color=MUT)
     fig.savefig(OUT_PNG, facecolor=BG, bbox_inches="tight", pad_inches=0.25)
     plt.close(fig)
