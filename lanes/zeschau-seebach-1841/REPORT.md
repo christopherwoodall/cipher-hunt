@@ -3310,6 +3310,178 @@ All notes trace: `code/crowd17/report_inbox/processed/`.
   global rival demonstrated. Follow-ups: pronoun-44-1714 (p2),
   stem-44-nominal (p2), escalate-1714-ne44 (red team).
 
+### Round-17 wave-8 addenda (2026-10-08 UTC, crowd17 — 12 battery notes;
+red-team ratification pending)
+
+All notes trace: `code/crowd17/report_inbox/processed/`.
+
+- **F114 — battery-PROMOTE (packaging only): 89's noun-vs-infinitive
+  class-conflict evidence package is complete for red-team adjudication**
+  (battery-class-89-adjudicate). 89 n=14 re-derived (census:
+  [113, 222, 275, 285, 303, 640, 781, 871, 986, 1082, 1377, 1393, 1498,
+  1752]). Window table: noun-clean 11/14 + infinitive-slot 3
+  (@221/@985/@1497, all pre=24-modal, 77-independent — preserves the
+  frames-80-89-indep leg). The @1375 kill-grade infinitive exclusion is
+  stated: after "pour [86]-er" (86 INF-class, A9 granted class-level) 89
+  cannot be a verb — "[inf] [89-finite] on" and "[inf] [89-infinitive]
+  on" are ungrammatical. No class is named for 89; no polyvalence is
+  declared (§7: 67 et/veut is the sole true polyvalence — adjudication
+  is the red team's act alone). WHY: the battery is barred from
+  declaring a second polyvalence, so it gathered and handed over the
+  conflict raw. Provisional markers: 24-modal is battery-promoted
+  (ne-24-profile); @1391's tail is gated on 16's open class
+  (frame-82-16 queued); @1497's left junction is fenced on provisional
+  59='est'. No standing verdict contradicted.
+- **F115 — battery-PROMOTE (evidence-gathering only): the 85-33
+  'contredire' compound evidence package is complete**
+  (battery-contredire-85-33-vehicle). 85 n=15 re-derived (predecessors:
+  24 x5, 29 x3, 79 x2, 81/76/21/56/91 x1); 85→33 exactly x1 (@1699,
+  hapax); 33→85 x0. Compound plausibility: SUPPORTS — "contredire" is a
+  real French word ("contre-" + "dire"; "contrecroire" is not a word,
+  so the compound would be dire-only, touching the croire/dire tie);
+  compositional multi-group words are established lane devices
+  (87+11 = "cela" A-grant; 70+12+94 = "prenne" battery-tested).
+  Limits: STRONG — both halves are open values (85 unpromoted, A3 frame
+  grant only; 33 tied dire/croire, both null), so the compound has zero
+  granted legs; it is conditional on two future promotions. WHY the
+  package-level verdict: the bar was gathering, not resolution —
+  nothing named, nothing declared, per §7. Red-team questions stated,
+  not decided: (1) whether 85's load (verb-stem 'en [85]' x5 under the
+  A3 grant; noun-shaped 'tout [85]' x2 under 79='tout' promoted;
+  bound "contre-" prefix at @1699) is one value, allomorphy, or a
+  second polyvalence; (2) whether the @1699 compound, if adopted, breaks
+  the croire/dire tie; (3) whether it closes the @1700 'n'importe'
+  complement at 20 (still open). No standing verdict contradicted.
+- **F116 — battery-PROMOTE: both hostile 83 cells fenced under
+  conditioned 83='de'** (battery-de-83-residuals; 83 n=15 re-derived,
+  both targets mid-row — no row-boundary artifact). @1334 ('39-83-86',
+  a7_05): hostility dissolved via the DEMONSTRATED word-internal-39
+  fork — 39=/a/ is promoted at the allophone tier (a-39 battery:
+  70-39-11 "pre-a-la" x2), so "pre[52]a" + 'de'+INF reads clean; the
+  residual is the named open host word (52, n=27), not a
+  contradiction. @1829 ('38-83-24', a8_11): OUT-OF-CLASS for any
+  word-level 'de' — 24 is class-level promoted finite verb
+  (ne-24-profile), and 'de' + finite verb is ungrammatical in French
+  under ANY 'de' hypothesis; clause-boundary and quantifier-ellipsis
+  fences were tested and broken; the syllabic '-de'-final fork is
+  owned by queued syll-83-de, not duplicated here. WHY the promote:
+  both windows parse or are fenced with stated cause; no standing
+  verdict contradicted; the queued escalate-83-de-kill owns the
+  UNCONDITIONED lead and is untouched. Epistemic: the @1334 fence is
+  conditional on the word-internal-39 fork (follow-up:
+  profile-52-host-word, p3).
+- **F117 — battery-PROMOTE: no plural-determiner subject exists in
+  @505-544 for @544's '[42]ent'** (battery-det-pl-544; confirm-absence
+  promote on the orphan-1502 precedent). 91's determiner reading KILLED
+  stream-wide (91 n=21: 91-11 x2 @1006/@1669 and 91-77 x1 @521 — "les
+  la"/"les le" ungrammatical; 91 is word-final, an independent word);
+  12 is a letter, not a determiner (battery-promoted 12='n', pending
+  ratification); every other determiner-headed NP in @505-544 is
+  singular (77='le' provisional, 87/47='ce' granted). The only
+  subject-adjacent NP ("91 12 44 29 48") has no determiner and no
+  plural marking. The queue's adverse answered two ways: 91|12
+  boundary established (mid-word "91n" unsupported — 91 never precedes
+  any letter in 21 windows); "n[44]ere" one-word parse allowed but
+  determiner-free. WHY: the claim "found, or confirmed absent" is
+  satisfied by confirmed absence. Caveats: 06='ent' and 12='n' are
+  battery-promoted pending ratification; 77='le' and 59='est'
+  provisional. The 3pl subject of "[42]ent" stays open — follow-ons:
+  subj-42-qui (queued) and gender-44 (this wave, F118).
+- **F118 — battery-PROMOTE: 44's gender is masculine** (battery-gender-44;
+  44 n=15). Both true determiner windows parse as masculine article +
+  noun: 'le 44' @208-209 ("[42]ent le [44]") and @1679-1680 ("le [44]
+  pour que [79...]" — governing a purpose clause under granted
+  00='pour' and banked 46='que'). The sole apparent feminine window
+  @1070-1071 dissolves into word-internal "préalable": 70-39-11 occurs
+  exactly x2 stream-wide (@1068 and @1605), ungrammatical as flat
+  "pré à la [X]" at both sites; "préalable" is épicène
+  (gender-neutral), contributing zero gender information — clause 3
+  passes via the stated structural rule. Elision test: 77 elides to
+  "l'" before vowel-initial 84 (x7, A15) but never before 44 → 44 is
+  consonant-initial, consistent with "le [44]" and with 44='ble' at
+  @1070. The feminine alternative is costed and rejected at kill grade
+  (needs overturning 77='le' at both windows, with no independent
+  evidence). WHY: two clean masculine windows + one
+  parallel-supported re-analysis; one lexeme, grammatical nominal use
+  (no §7 polyvalence declared — the lane's analytic/syllabic readings
+  cover it). Gates any future '-ère' hypothesis for 44. Caveat:
+  77='le' is provisional. 44's VALUE is not named.
+- **F119 — battery-PROMOTE (class-level): 88 is VERB-CLASS
+  (verb stem/governor)** (battery-governor-88-value; 88 n=23, full
+  census re-derived, two corrections to the prior partial profile).
+  The preposition rival is tested and REJECTED distributionally
+  against the granted preposition controls 00='pour' (n=55) and
+  96='par' (n=21): 88→77 x3/23 vs 0/76 pooled (Fisher p=0.0113 —
+  conditional on provisional 77='le'); 88 takes zero infinitive-class
+  followers (86 x0, 33 x0) vs 00's 20/55 (Fisher p=0.0004,
+  77-independent). The @334 '88-40' question is owned: word-internal
+  '[88]e' decided (40='e' is a banked LETTER, word-final 9/21) — the
+  boundary reading is word-shape-less, since no French word has the
+  shape 'e'+[03] (03 is verb-stem-shaped per stem-03). Frame legs:
+  L1 'tout [88] ce' @497 (79='tout' granted A5); L2 'est a [88]' @765
+  ('être à' + infinitive frame; conditional on provisional 59='est');
+  L5 @1049 '[88] 29-40' ('er' banked — this refutes the parent null's
+  "88 never directly precedes 29"); L6 @1119/@1706 '88 … 12-06'
+  ('n'+'ent' 3pl, battery-promoted); L7 @1267/@1727 '[88] 24 30'
+  (24 finite verb class-promoted; 30='pas' battery-promoted).
+  Noun/adjective/adverb/conjunction/pronoun are eliminated in turn;
+  verb-class is the last class standing. WHY the promote: class-level
+  claim only (no value named), per the ne-24-profile precedent; §7
+  respected — 88-as-stem is cipher granularity (parallel to 29='er',
+  40='e'), not a second polyvalence. No standing verdict contradicted
+  (R16-005 untouched; the lever-88-governor null's 'not kill' stands).
+- **F120 — battery-PROMOTE: all 7 'l'on' legs re-derived under 84='on'**
+  (battery-lon-legs-census). 77-84 bigrams stream-wide are exactly 7:
+  @145/@259/@1057/@1446/@1484/@1763/@1802 — matching the A15 re-
+  derivation byte-for-byte. 6 legs read 'l'on' cleanly; @146 is fenced
+  as R3 alongside R1 (@1619 "la on", 11-84 unique x1) and R2 (@1664
+  "ne on", 94-84 unique x1): 84-29 is unique x1 of n(84)=25 — 29='er'
+  can neither attach left to 'on' nor open a word before 'ce', and no
+  parse covers 77-84-29-87 without contradiction. Twin legs @1446 and
+  @1802 share the '64 77 84 59' frame ("qui l'on est", tails 36/35).
+  WHY: the census confirmed the collision-free legs on the repaired
+  stream. Dependence graded per A15-C1: every leg's "l'on" reading
+  inherits provisional 77='le' — no 77 promotion made; the 84='on'
+  grant does not rest on this census (77-independent legs "qu'on en"
+  x2, "mon"@166, 82-84 @166 carry the value). No value promoted, no
+  standing verdict changed.
+- **F121 — battery-PROMOTE: 42 takes the nominal class NOUN across the
+  nominal frames** (battery-val-42-nominal; 42 n=20, all counts
+  re-derived). T1 '42 ne' subject-slot x3 (@494/@785/@1795 — "[56]
+  [42] n'est [37]" the strongest leg, under battery-promoted 94='ne');
+  T2 'est [42]' x2 (@465/@1188 — the A1 predicative frame grant,
+  used not re-litigated); T4 76->42 x3 (@429/@489/@1618 —
+  class-level: "76 42" is word+word under every open 76-value); T3
+  29->42 x3 FENCED (the one fence, one stated cause: segmentation
+  rival — "laer"/"quer" are not French words, so 29 cannot be
+  word-final there; the word-internal "er[42]" rival stays live).
+  4/4 frame types covered with exactly 1 fence. Class choice NOUN over
+  adjective by economy (bare subject slot needs no substantivization
+  machinery). WHY: all bar clauses pass; the A1 adverse is answered.
+  Escalation (red team): nominal-42 here plus the stem-42-verb null's
+  genuine verb-class contact on "42ent" at @206 ("[42]ent le [44]",
+  transitive) and @544 = a polyvalence question — only the red team
+  can declare a second polyvalence per §7. The simple verb-stem
+  reading (no polyvalence) is now fenced on both sides. Caveat:
+  94='ne' is battery-promoted pending ratification.
+- **KILL (wave-8): the "exactly one boundary parse" claim KILLED at
+  @1739-1744** (battery-ni-1740-1742): '86 12 34 94 82 46' admits ZERO
+  clean parses, not one. Reading P1 ("ni" word): fenced — 12-34 is a
+  hapax with no 'ni...ni' partner stream-wide (single "ni" is
+  ungrammatical); banked 82='m' kills "ne me" (needs the absent 48;
+  elision blocked by consonantal 46='que'); "ni ne" is ungrammatical.
+  Reading P2 ("n"+"i" letter split): fenced — "n"/"i" stranded as
+  non-words; the word-internal variants leave "ne m que" verbless.
+  Both readings are fenced for the red-team 12/94 duality adjudication
+  (prenne-70-12-94's general ownership untouched — scope kept to
+  @1739-1744). @1742 is the odd one out among the four 94-82 windows
+  (the other three are "ne m'entent" 94-82-06-06, R17-007) — this
+  independently confirms R17-001's "verbless 'ne me que'" strain note.
+  R17-001 (94='ne' STRONG LEAD) and R17-002 (12="n" LETTER-tier grant)
+  are NOT contradicted: the kill is at word level, on French grammar
+  and banked 82='m'. Follow-ups: rightedge-56-1745 (p2),
+  leftedge-52-86-1736 (p2).
+
 ### Offset-validation (crowd18, 2026-10-08 UTC — bedrock validation of
 the 70 row offsets)
 
@@ -3470,6 +3642,18 @@ prov; 84="on" prom, 06 fork closed (supersedes "ent/ment" dual
 lead). Grid HTML/PNG regenerated at merge time; `generate.py` ran
 2026-10-08 13:14+ UTC (this sweep): printed **UNCHANGED** — the
 periodic table grid is current.
+
+**Coordinator merge 2026-10-08 18:27 UTC** — the registry records
+the wave-7/8 battery verdicts (36 cells): 26=["noun","lead"] (F113,
+conditional on the 11="la" determiner phrase), 42=["noun","cls"]
+(val-42-nominal), 88=["gov","cls"] (governor-88-value), 89=["noun",
+"lead"] (class-89-adjudicate packaging; infinitive killed by
+val-89-mirror); 44 skipped — noun-killed (wave-7 battery-noun-44)
+but gender-44 (F118) adjudicates masculine: unresolved tension,
+recorded in `_meta.note` for the red team. The grid HTML/PNG carry
+the merge-time regeneration (mtime 18:27:41 UTC); `generate.py` ran
+this sweep (per coordinator): printed **UNCHANGED** — the periodic
+table grid is current.
 
 ---
 
@@ -4400,6 +4584,66 @@ on scorecard integrity. Round-2's F13 dissolution and round-3's rival
   causative-strengthening conditional did NOT fire; X='laisser' stays
   conditional on 16/85). Trace:
   `code/crowd17/report_inbox/processed/battery-val-89-mirror.md`.
+
+### Round-17 null batch, wave 8 (crowd17, 2026-10-08 UTC)
+
+- **N87 — ci-bound-01 NULL (under-evidenced, not refuted)**: the
+  bar "all four ce-context windows parse as 'ceci'" is NOT met.
+  @984 (a6_01) passes clean: "ce(45)-ci [24-modal] [89-inf]" =
+  "ceci peut [inf] ..." — grammatical, but load-bearing on the A11
+  HOLD (45='ce', allophone tier), with the fork-78-45/ver-78 watch
+  item flagged (if ver-78 ever promotes, this leg must be re-examined;
+  antecedent currently false). @195 is a provisional pass (gated on
+  open 21's class). @345 and @1029 FAIL as 'ceci' parses — but both
+  are fenced as neighbor-driven residuals (06 bare 'ent' ending,
+  load-bearing on ent-06's PROMOTE; 03-infinitive + 80-imperative),
+  ungrammatical under EVERY reading, so neither forces "ceci" false
+  specifically. By the parent battery's kill standard ("kill iff any
+  of the four forces 'ceci' false in full context"), this is not
+  kill-grade. Clause 2 PASSES: 01 n=28, valueless in all 24 non-ce
+  windows (the A12 unit and the "-cier" syllable lead are sub-token
+  and name no value). No standing verdict contradicted (A11 and A12
+  relied on, not challenged; ver-78/fork-78-45/dict-45 nulls
+  consistent). Follow-ups: ceci-984-195-pair (p2), residual-345-06
+  (p3), residual-1029-infinitive (p3). Trace:
+  `code/crowd17/report_inbox/processed/battery-ci-bound-01.md`.
+- **N88 — de-frame-44-83-21 NULL (escalated to red team)**: the 5-gram
+  '44-83-21-67-78' x2 (@1160, @1839) parses cleanly as "[44-nominal]
+  de [21-noun] et [ver-word]" — clauses (a)–(c) all pass at window
+  level — but promotion is BLOCKED by the wave-7 noun-44 kill under
+  the §7 sole-polyvalence law: the kill (conditional on 94='ne'
+  battery-promoted + 59='est' provisional) forces 44 into a clitic
+  slot at @1714, and asserting whole-word nominal 44 at @1839 would
+  need a second value only the red team can declare. This battery did
+  not re-litigate the kill and declares no polyvalence. Supporting
+  facts: 21 = noun (stated class: 'la [21]' x2, 'de [21]' x3,
+  21-67 x8/30, no value named); 67='et' at both windows by the §7
+  positional rule (78 not infinitive-shaped); 78 = 'ver'-word lead
+  (R16-005, ver-78 null — used conditionally); 83='de' grammatical in
+  both windows. NEW adverse recorded for the shared 83='de' lead:
+  @1829 '83 24' is stale in the le83-window battery under the
+  class-level 24 promote — flagged for de-83-residuals (handled this
+  wave, F116). Follow-ups: de-frame-21-class (p2), stem-44-1839 (p2),
+  escalate-44-deframe (red team). Trace:
+  `code/crowd17/report_inbox/processed/battery-de-frame-44-83-21.md`.
+- **N89 — subj-42-w3 NULL (left junction fenced; leg conditional)**:
+  the '44-29-48' = feminine-plural '-eres' subject claim does not name
+  cleanly. Three blocks: (a) no plural determiner anywhere in
+  @505-544 (a bare '-eres' noun as subject is ungrammatical); (b)
+  gender tension on the 44 root ('le 44' x2 @208/@1679 vs 'la 44' x1
+  @1070 — NOTE: this wave's gender-44 (F118) has since adjudicated 44
+  masculine, dissolving the feminine window into word-internal
+  "préalable"; a future revisit could re-run the '-eres' hypothesis
+  against that ruling); (c) hapax suffixing (29-48 x1 and 44-29 x1
+  stream-wide). @544's verb-class leg stays CONDITIONAL (recorded, not
+  forced) — the stem-42-verb null verdict stands unweakened. Not a
+  kill: no window forces the subject claim false globally, and 44's
+  noun class is independently supported ('le 44' x2, '44 pour' x3).
+  No standing verdict contradicted (42's value open, A1 frame grant
+  untouched). This null's three follow-ups are now resolved: det-pl-544
+  (this wave, F117 — confirmed absence), gender-44 (this wave, F118 —
+  masculine), subj-42-qui (still queued, p3). Trace:
+  `code/crowd17/report_inbox/processed/battery-subj-42-w3.md`.
 
 ---
 
