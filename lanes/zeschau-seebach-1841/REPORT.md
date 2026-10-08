@@ -3482,6 +3482,83 @@ All notes trace: `code/crowd17/report_inbox/processed/`.
   and banked 82='m'. Follow-ups: rightedge-56-1745 (p2),
   leftedge-52-86-1736 (p2).
 
+### Round-17 wave-9 addenda (2026-10-08 UTC, crowd17 — 12 battery notes;
+red-team ratification pending)
+
+All notes trace: `code/crowd17/report_inbox/processed/`.
+
+- **F122 — battery-PROMOTE (class-level): 21 = NOUN**
+  (battery-de-frame-21-class; 21 n=30, full window set re-derived). The
+  'la [21]' frames x2 (@109/@359) are the categorical discriminator:
+  "la" + infinitive is ungrammatical in French, so the infinitive rival
+  is excluded at window level. Zero infinitive-forcing predecessors
+  across all 30 21s; 21-67 x8 all noun-consistent under the §7
+  positional rule; @1423 actively selects noun over infinitive ("veut"
+  + infinitive-shaped 33). WHY: the la frames alone force the class —
+  no other grammar parses them. No value named (class only), per the
+  ne-24-profile precedent; §7 respected. Caveats: @171 ("ne [21]")
+  fenced on the unratified 12+48 "ne" composition (battery-promoted,
+  pending ratification) — conditional evidence, not a contradiction;
+  @176's 86-contact rides on the pending 86-INF promote. Follow-ups:
+  none proposed — fenced adverses routed to frame-87-83-cede and the
+  86-INF ratification path.
+- **KILL (wave-9): 43="suite" KILLED; "maniere" dies with it**
+  (battery-noun-43-discriminator; 43 n=16, full 16-window census).
+  @21's "82-43-29" trigram forces V(43)≠"suite": "msuiteer"/"suiteer"/
+  "erce" are not French words under the non-negotiable values 82="m",
+  29="er", 47="ce" — only "mener"/"emmener"/verb-stem parses survive
+  (43="en" or stem at @21). The discrimination table kills "maniere"
+  too (fails "par 43" like "suite"; both fail "43 pour que").
+  Survivors: {condition, mesure} — independently confirmed by
+  battery-frame-43-la-52-37's clause-(b) narrowing ("suite pour
+  [inf]" and "maniere pour [inf]" are not French; condition/mesure
+  spared). Enlightenment: the same @1544 "43 pour que" frame that
+  kills "suite" nominates its rivals — "prendre des mesures pour que"
+  is peak diplomatic-purpose French. No standing verdict
+  contradicted. Follow-ups: at21-82-43-29-adjudicate (pri 1 — decide
+  whether 43 at @21 is word-internal "en", verb-stem, or noun, and
+  reconcile with the "par [43]" noun frames; petitions red team on §7
+  if split), frame-43-pour-que-1544 (boundary alternative — purpose
+  clause after clause-final noun, under which all four candidates
+  pass; adjudication owned there).
+- **KILL (wave-9): orphan-86 @300, @716, @1131, @1147 CONFIRMED**
+  (batteries orphan86-300, orphan86-716, orphan86-1131-1147). @300:
+  no stated 97-class exists anywhere in the lane (naming is queued
+  frame-97-profile); the only stated 78-value is the unsettled "ver"
+  lead (R16-005) and it cannot parse the window; the 86-as-letter
+  rescue fails behaviorally — 86 takes 29="er" compositionally in 4
+  stem windows, letter-adjacency only 2/32 — and would need letter
+  status for 97, which 97's pour-distribution (pre=00 x4) forbids.
+  @716: all six tested 66-class candidates carry ≥1 hard
+  contradiction — group (a) pour-governed x7 demands non-finite,
+  group (b) "66-84" x2 demands finite-verb-shaped ("que [66] on"
+  with banked 46 + granted 84); the intersection is empty; the only
+  rescue is a second 66 class — a §7 red-team act. @1131: 37-86
+  bigram x1 stream-wide; the only newly-stated neighbor class
+  (24=modal, promoted pending ratification) cannot place a bare 86
+  before it; 37's class is open (red-team territory). @1147: 98-98
+  doubling x3 (@1073/@1145/@1660) with divergent right edges 12/86/80
+  — no stated 98-pattern exists to resolve against. 86 orphan rate
+  holds at 4/32 = 12.5% (overall 6/57 = 10.5%); the ≤10% bar stays
+  unmet — any single resolve would have flipped it to 3/32 = 9.4%.
+  Each battery routes its blocker onward without duplicating queued
+  work (frame-97-profile, ver78-296-97gate, poly-66-split, prof-98).
+- **KILL (wave-9, meta): the subsample battery's p≈0.032 "threshold-bug"
+  escalation REFUTED** (battery-pair-60-68-readjudicate). Both halves
+  of the bug claim are dead: exact enumeration gives predecessor p =
+  0.05347 (18507/C(24,7)); 10 seeds 0.0523–0.0562 — the thirds
+  battery's 0.0546 was correct all along. The claimed error mechanism
+  is arithmetically impossible: P(null predecessor TV ≥ 0.9412)
+  re-derives to 0.24, not 0.0546 — a lower threshold cannot produce a
+  smaller tail. Supervisor retraction already recorded on the
+  subsample-power-60-68 queue entry (2026-10-08) — cite 0.05347, not
+  0.032. Housekeeping: the pair-60-68-readjudicate queue entry keeps
+  its original claim text (the false 0.032) as history; its verdict
+  record (kill, 2026-10-08) supersedes it. The thirds null stands;
+  non-rejection stays marginal (~0.003 above α=0.05; n=7 is fragile
+  to single-token perturbations) — the structural question stays
+  live for queued singleton-68-predecessors.
+
 ### Offset-validation (crowd18, 2026-10-08 UTC — bedrock validation of
 the 70 row offsets)
 
@@ -4644,6 +4721,120 @@ on scorecard integrity. Round-2's F13 dissolution and round-3's rival
   (this wave, F117 — confirmed absence), gender-44 (this wave, F118 —
   masculine), subj-42-qui (still queued, p3). Trace:
   `code/crowd17/report_inbox/processed/battery-subj-42-w3.md`.
+
+### Round-17 null batch, wave 9 (crowd17, 2026-10-08 UTC)
+
+- **N90 — frame-43-la-52-37 NULL (protocol §4: clause (a) untestable
+  as written)**: 52's contact profile pulls three ways — nominal
+  "la 52" x3 vs clitic "ne 52 [80]" x2 vs "52-82" x5 — no single name
+  without guessing; 98's open value fences continuation B. Clause (b)
+  still narrows independently: {suite, condition, maniere, mesure} →
+  {condition, mesure} ("suite pour [inf]" / "maniere pour [inf]" not
+  French; condition/mesure spared) — the same pair the noun-43 kill
+  leaves standing. Clause (c): both windows read "[verb-ent] la
+  [52-37] 43", so 43 is feminine — all four candidates feminine.
+  Enlightenment: the brief's named f-qui-par finder report is NOT on
+  disk (inbox, processed, and full-lane find all empty) — the 4-gram
+  was re-derived from the stream rather than taken on trust.
+  Follow-ups: cont98-43-value (p2 — naming 98 decides condition vs
+  mesure via continuation B), unit-52-37-name (p2),
+  frame-43-pour-census (p3). Caveats: 37's predicative-vs-nominal
+  tension (A1 grant) not re-litigated; @1129 "52-37-86" hapax has
+  ambiguous segmentation. Trace:
+  `code/crowd17/report_inbox/processed/battery-frame-43-la-52-37.md`.
+- **N91 — noun26-1560-06-value NULL (06's class on the '30 06'
+  windows x4)**: E/D/N parse attempts under standing values only —
+  0/4 at battery grade each. 'de' is shape-clean everywhere but
+  licensed nowhere (needs an invented ellipsis matrix); 'ne' is
+  hard-fenced at @1327 ("pas. Ne [62] ne" = double 'ne',
+  ungrammatical) AND would need a second polyvalence (§7 bar); 'ent'
+  stays fenced on these windows as already recorded. Enlightenment:
+  correction to ent-06's successor census — its "77 x7" mixes one
+  reverse bigram (@522 is 77→06); the true forward count is 6;
+  n(06)=n(77)=44, ratio exactly 1.0. At @1762 "ne le on" fences 'ne'
+  outright while "[93]ent l'on" keeps 'ent' conditionally alive.
+  Follow-ups: ellipsis-65-62-60-profile (p — test the 'de' leg via
+  right-neighbor profiles), ne-06-polyvalence-question (p — red-team
+  packet: does 06 get a second 'ne' value anywhere?),
+  spell-pasent-test (p — census 3pl '-ent' clerk single-consonant
+  spellings; a zero hardens the windows as genuine residuals).
+  Caveats: ent-06's three clean frames ("ne mentent" x2,
+  "entreprenne") untouched, not re-tested; @1561-1563 stays an
+  unresolved residual. Trace:
+  `code/crowd17/report_inbox/processed/battery-noun26-1560-06-value.md`.
+- **N92 — noun26-1560-pas NULL (escalated: sits between two standing
+  grants in tension)**: boundary 26|30 is forced ('pas' cannot
+  right-adjoin to a nominal), but 'pas' gets only a structural role —
+  head of the twice-attested "30 06 60" fragment — its constructional
+  licensing undecided. This battery sits between R17-011 ("'26 30'=
+  [verb] pas", INCLUDING @1560) and R17-020 (positional noun at
+  @1560) and may overwrite neither. Enlightenment: the bare-'pas'
+  anomaly is NOT @1560-specific — the '26 30 06' trigram at @1250
+  (verb branch, no 'ne' within 15) has the same shape; the minimal
+  pair is branch-level, not window-level. Nearest upstream 94 to
+  @1561 is @1549 (closed "00 46 70 12 94" frame, different clause
+  across a row boundary). Follow-ups: noun26-1560-1733-fragment (p —
+  parse @1733's "30 06 60 12 48", whose letter foothold "n e" is
+  narrower than the bare-pas umbrella), noun26-trigram-minimal-pair
+  (p — state the constructional difference between the two trigram
+  branches). Caveats: exact unparsable span named for red team —
+  @1561-1563 "30 06 60"; 06's value contested de/ne; bare-pas
+  licensing owned by queued ne-alone-02-74. Trace:
+  `code/crowd17/report_inbox/processed/battery-noun26-1560-pas.md`.
+- **N93 — pronoun-44-1714 NULL (clitic residual)**: at @1714
+  ('65 94 44 59 30') both rivals parse — "[65] n'en est pas qui…"
+  and "[65] ne l'est pas qui…" — undiscriminated at the window;
+  globally both fail all six frame instances ('en': "le en [50]"/"le
+  en pour"/"ce en est"/"[92] en pour" all ungrammatical; 'l'': "le
+  l' [50]"/"ce l'est"/"l' pour" all ungrammatical). The bar's fencing
+  arm is unavailable, not unattempted — naming either rival would be
+  the forbidden forcing the adverses rule out. 44's promoted
+  masculine gender (F118) leans weakly toward 'l'' but excludes
+  nothing. Residual recorded: 44 occupies a clitic slot at @1714
+  with value ∈ {'en', 'l''} — consistent with the noun-44 kill
+  mechanism (no lexical noun can intervene between 'ne' and 'est');
+  94='ne' and 30='pas' used, not overturned. Follow-ups:
+  clitic-44-65-discriminator (p2 — discriminate 'en' vs 'l'' via
+  65's contact profile), clitic-44-census (p3 — classify all 15
+  44-windows). Trace:
+  `code/crowd17/report_inbox/processed/battery-pronoun-44-1714.md`.
+- **N94 — subsample-power-60-68 NULL (own bar: power-artifact arm
+  passes; predecessor escalation REFUTED — see the wave-9 meta kill)**:
+  10,000 draws of 7 tokens from 60's 17 free tokens: fail-to-reject
+  rate 95.29% (robust 95.05–95.71% across 3 seeds) ≫ 80% bar — the
+  test has essentially no power at n=7; the p-value distribution is
+  near-uniform (5th pct 0.053/0.056) — the signature of a no-power
+  test; the successor-side non-rejection is a power artifact, not
+  evidence about 68's class. Enlightenment: rejection happens only
+  when a draw concentrates a repeated type (exemplar #4972: all four
+  60→03 tokens, p_suc=0.0101) — typical draws cannot move the
+  needle. Follow-ups: pair-60-68-readjudicate (done — kill),
+  singleton-68-predecessors (p2), suc-60-68-standalone (p3 — record
+  the power-calibrated successor conclusion). Caveats: draws reuse
+  the fixed 17-token pool (descriptive Monte Carlo, not i.i.d.).
+  Trace:
+  `code/crowd17/report_inbox/processed/battery-subsample-power-60-68.md`.
+- **N95 — thirds-60-68-pair NULL (marginal pass — neither promote nor
+  kill earned)**: successor p=0.0552, predecessor p=0.0546 — both
+  ~0.005 above α=0.05; 3-way homophony rejected on successors
+  (p<0.0001); 60-62 pair p<0.0001, 62-68 p=0.0020; shared types:
+  predecessors ∅, successors {06} x1/x1; uniformity χ²=4.167 on 17:7
+  vs 12:12 (p≈0.041, rejected — blocks promote); 62's exclusion held
+  (62→94 x9 vs 60→94 x0 / 68→94 x0; collision-62-84 kill). Failing
+  to reject at p≈0.055 is absence of rejection, not demonstration —
+  two adverses stand unanswered (marginal p-values +
+  uniformity-law violation); no window forces the 2-cell claim
+  false, so kill is not earned either. Enlightenment: 68's only
+  contact with 21 is formula-bound (21-68 n=1 globally @1788); 60's
+  "21-60" is free x3 — yet the only structural fact both cells
+  share is the formula's "21-[third]" slot; the data cannot
+  distinguish "homophones" from "distinct cells sharing one formula
+  slot". Follow-ups: subsample-power-60-68 (done — null),
+  frame-share-60-68 (p2), nir-value-60-68 (p3). Caveats: 83='de' is
+  lead-level (fencing owned by queued T2/T4 fence-911-de and
+  frame-87-83-cede); 98's French head unconfirmed; 68 n=7 is
+  intrinsic, not a misread. Trace:
+  `code/crowd17/report_inbox/processed/battery-thirds-60-68-pair.md`.
 
 ---
 
