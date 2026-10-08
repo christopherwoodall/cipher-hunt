@@ -2741,6 +2741,52 @@ as status-from-notes — they were not yet in REPORT.md.
   `code/crowd16/report_inbox/next-token-{findings-,}classes.md`
   (`test_classes.py`).
 
+### Round-17 addenda (2026-10-08 UTC, crowd17 next-token — batteries
+adjudicated; **red-team ratification pending**)
+
+- **F85 — 12="n" battery-PROMOTE** (battery session-911ceab9, bar:
+  ≥2 GT-anchored frames + zero contradictions; all clauses PASS).
+  Three frame types, five occurrences: "en" 40-12 @63, "ni" 12-34
+  @1740, "pren" 70-12 ×3. Zero forced alternative letters. Trace:
+  `code/crowd17/report_inbox/battery-n-e-12-48.md`.
+- **F86 — 48="e" battery-PROMOTE** (same battery, same bar). Two frame
+  types, five occurrences: "me" 82-48 ×4 (@126/@377/@398/@1229),
+  "ere" 29-48 @541 (single — a second occurrence would harden the
+  leg). Trace: same note. **Enlightenment**: the letter tier explains
+  the word-tier kills — 48="est"/"de"/"ne"-word readings failed
+  because 48 is a letter, not a word. "prenne" = 70-12-94 ×2 is the
+  analytic (12-48) vs syllabic (94) spelling of "ne".
+- **F87 — 94="ne" battery-PROMOTE** (battery d6cab360, bar: ≥2
+  independent "ne"-frames + zero board contradictions + n'-elision
+  frames hold; all clauses PASS). Four frame types: 94-59 "n'est" ×3
+  (@558/@762/@1795), 94-82 "ne me/m'" ×4, 62-94 ×9, 70-12-94
+  "prenne" ×2. 37-window census, zero hard contradictions; single
+  tension @1664 "22 94 84" ("ne on") fenced per A15-C3 with stated
+  cause. Trace: `code/crowd17/report_inbox/battery-ne-94.md`.
+- **Independent frame verification of F85–F87** (crowd17 finder beats,
+  finder-grade, no verdicts):
+  `next-token-findings-n-e-frames.md` — 23 12-windows + 38
+  48-windows; 'ne' = 12-48 ×5 (corrects the brief's ×7, matching
+  crowd16's count); flagship @125 "me la" clean double clitic; 'pren'
+  70-12 ×3 GT both sides; 48's followers maximally scattered (19
+  distinct/38 windows) — the scatter is evidence FOR the letter
+  reading. `next-token-findings-ne-frames.md` — 37 94-windows; six
+  clean "ne" frame-types, 12 instances; "n'est" ×3 holds (correction:
+  the third is @1795, not @101); the morphologist's conditioned
+  "ne"/"en" split re-derived from frame extraction alone.
+  `next-token-findings-bigram-contexts.md` — every 84-window (n=25),
+  every 94-82 (n=4), every 94-59 (n=3): "l'[84]" beats "le fait"-shaped
+  7–0; "n'est" ×3 all REQUIRE n'-elision and all hold; 62/84 clean
+  complementarity banked for collision-62-84; E1x: 77's l'-elision
+  fires EXCLUSIVELY before 84 among known vowel-initial cells
+  (77→{59,94,46,40,34,47,17} = 0) — an independent mechanism proving
+  84 vowel-initial.
+- **Registry consequence**: 12 and 48 are absent from
+  `code/table-grid/table-registry.json`; the 12="n", 48="e", 94="ne"
+  promotions and the 77="le" provisional→promoted merge are pending
+  the coordinator's next merge (registry file unchanged this sweep —
+  grid NOT regenerated).
+
 ### Smith rebuild2 status (2026-10-08 UTC — rung-C clean re-run PASS;
 memorization re-probe CLEAN)
 
@@ -2795,20 +2841,37 @@ memorization re-probe CLEAN)
   4,037,445 cells / 1,561,980 ngrams / 16,742 unigrams; byear
   4,136,570 cells / 1,589,159 ngrams / 16,754 unigrams (11 corpus
   texts: Guizot t1/t3/t5–t6, Nesselrode v7–v10, Pozzo, RDM 1841 q1–q3).
-- **Calibration RUNNING, no numbers yet** (as of 2026-10-08 03:19 UTC):
-  `calibrate.py` started 01:41 UTC (PID 7712, 45+ min CPU), measuring
-  on 3 whole held-out documents (Guizot t2, RDM 1841 q4, Talleyrand v1):
-  A. global next-cell accuracy (top-1/3/5, MRR); B. solved-context ranks
-  ("la première", "par ce que", "par le", "qui", "que", "ce qui", "en ce",
-  "m'en", "ne" frames); C. verb-stem ranks; D. by-ear mismatch
-  quantification. `calibrate.log` stalled at "[byear] targeted contexts"
-  (last write 02:28 UTC); `calibrate.json` EMPTY (0 bytes). Fold the
-  numbers next sweep when the file lands.
-- **track-b neural LM resumed** (`track-b/train.log`, `train.log`
-  mtime 03:18 UTC — running live): update 13,500, epoch 7, train EMA
-  ~2.02–2.03, best heldout **2.0198 @upd 13,200** (`ckpt.json`;
-  81,100,800 chars seen). Held loss still declining (2.0224→2.0198
-  over updates 12,600–13,200).
+- **Calibration LANDED** (2026-10-08 ~05:03 UTC — `calibrate.json`
+  was EMPTY at the last sweep, now complete): held-out = 3 whole
+  documents (Guizot t2, RDM 1841 q4, Talleyrand v1 — `heldout_files`).
+  **A. Global next-cell accuracy**: standard n=19,998 — top-1 0.3207,
+  top-3 0.4584, top-5 0.5218, MRR 0.4183; by-ear n=19,999 — top-1
+  0.3342, top-3 0.4718, top-5 0.5366, MRR 0.4318. **B. Solved-context
+  ranks** (standard; cell top-1/top-5): "la première" (198 occ)
+  0.263/0.419; "par ce que" (77) 0.130/0.519; "par le" (820)
+  0.245/0.354; "qui" (7359) 0.106/0.307; "que" (17027) 0.175/0.421;
+  "ce qui" (637) 0.141/0.342; "en ce" (117) 0.299/0.547; "m'en" (95)
+  0.084/0.242; "ne" (12585) 0.320/0.484. **C. Verb-stem ranks**
+  banked in `calibrate.json` (verb_stems: 12 standard, 12 by-ear).
+  **D. By-ear mismatch quantification** (200k-word sample): word
+  disagreement rate 0.1107; cells/word 1.659 (standard) vs 1.700
+  (by-ear); vocab jaccard 0.887; 1006 by-ear-only cells, 994
+  standard-only cells. Banked-cell ranks diverge hard on vowel-splits:
+  "er" rank 731 (std, count 544) vs 14 (byear, 48759); "m" 71 vs 18;
+  "i" 82 vs 16; "e" 9 vs 2 — the by-ear mode splits vowel clusters
+  the standard mode glues. Trace:
+  `code/crowd15/next-token/calibrate.json`.
+- **track-b neural LM** (`track-b/train.log`, mtime 2026-10-08
+  ~05:10 UTC — running live): update 14,100, epoch 7, train EMA
+  ~2.014, best heldout **2.0138 @upd 14,100** (`ckpt.json`;
+  86,630,400 chars seen). Held loss still declining (2.0198→2.0138
+  over updates 13,200–14,100).
+- **Period corpus expansion** (side-period lane): 18 new texts in
+  `code/side-period/work/mine-v3/corpus/` — 14× *Allgemeine Zeitung*
+  (Augsburg) 1841-01-12 through 1841-01-25, Guizot *Mémoires* t1–t3
+  (Gutenberg), Talleyrand *Mémoires* v1. Era- and register-matched
+  reference material for the H3 program (not yet wired into any
+  calibration run — provisional until measured).
 
 ### table-grid registry (2026-10-08 01:47 UTC)
 
@@ -2819,9 +2882,12 @@ lead; 17/47/79 prom (battery PROMOTE verdicts, red-team ratification
 pending); 64/87/96 prom; 11/29/34/40/70/82 gt; 31/33 cls; 59="est" prov;
 **77="le" prov (the round-16 le-battery PROMOTE is not yet merged)**;
 **78="ver/er?" lead (the round-16 "er"-KILL is not yet merged)**; 45, 30,
-94, 12 not yet tracked. Grid HTML/PNG regenerated by the sweeper
-(`generate.py` printed CHANGED). Registry is coordinator-owned; the
-batteries above are the adjudication input on its next merge.
+94, 12 not yet tracked. **Round-17 note: 94="ne", 12="n", 48="e" are
+battery-promoted and 77="le" promoted, but the registry is unchanged
+this sweep (coordinator-owned) — the grid was NOT regenerated.** Grid
+HTML/PNG regenerated by the sweeper (`generate.py` printed CHANGED).
+Registry is coordinator-owned; the batteries above are the adjudication
+input on its next merge.
 
 ---
 
@@ -3201,6 +3267,56 @@ on scorecard integrity. Round-2's F13 dissolution and round-3's rival
   penser WEAK (round-16 classes battery, finder French judgment —
   frames verified).
 
+### Round-17 null/kill batch (crowd17, 2026-10-08 UTC)
+
+- **N46 — single-value 33="dire" KILLED** (battery 4acdfc83): orphan
+  rate 5/25 = 20% > 10% bar (5 stem windows need `[33]er` under
+  banked 29="er"); croire ties "dire" on every whole-frame (C2 FAIL);
+  "erreur" word-shapes dissolved 4 ways (needs 84="ur" vs granted
+  84="on"); @1421-24 chain needs BOTH values in one window. Trace:
+  `code/crowd17/report_inbox/battery-dire-33.md`.
+- **N47 — 33="croire" vs "dire" tiebreak NULL, 33 stays OPEN** (battery
+  da6545e4): all 25 windows grammatically symmetric under both
+  hypotheses ("pour [inf]" ×8, "veut [inf] que" ×2); C1 (croire-only
+  frame) and C2 (dire-only) both FAIL. Honest cost: shared residuals
+  @1502 ("on"+infinitive) and @1642 ("n'" before consonant-initial
+  verb) fail under BOTH and implicate neighbors 84/12, not 33.
+  Trace: `code/crowd17/report_inbox/battery-croire-33-tiebreak.md`.
+- **N48 — 33={dire, X-er} 2-member set UNFALSIFIED but unpromoted**
+  (battery 783d6363): X identified via contact profile but NOT named
+  (family: donner/montrer/prouver/trouver/porter/envoyer/laisser/
+  prononcer…) — identification required by the bar, not achieved;
+  orphans 2/25 = 8% (@1502-first-33, @1700) inside the 10% tolerance;
+  stem windows cohere (one governor set {veut ×3, ce/se, 37}). The
+  "croire ties dire" adverse NOT answered; 89/16 open block X's
+  discriminating complements. Trace:
+  `code/crowd17/report_inbox/battery-dire-33-set.md`.
+- **N49 — @611 re-parse under 77="le" KILLED (claim-grade)** (follow-up
+  bc8ed16f): no grammatical parse of "47 77 87 83 70" within the
+  ≤1-assumption budget ("ce le ce" never grammatical); the sole
+  grammatical rescue (87="cède") requires ungranting 87="ce" — fenced
+  to red team. Control: the blocker persists under ANY 77 value, so
+  77="le" provisional standing is untouched. Trace:
+  `code/crowd17/report_inbox/battery-le611-reparse.md`.
+- **N50 — 77="le" battery NULL, stays PROVISIONAL** (battery 7b91f7ab,
+  44 windows, 20 distinct followers): Clause 2 PASS (seven frame
+  families: "l'on" ×7, "le [78]" ×7, "et le" ×6, "[verb]-ent le" ×6,
+  "ce le [verb]" ×2, "le [81]" ×4, "le [86]" ×5); Clauses 1 and 3 FAIL
+  (@611 unparseable — see N49; @1033 "80-77" escalated — 80's
+  inflectional mood alternation is red team's call per §7, evidence
+  passes on 17 windows of 80). Trace:
+  `code/crowd17/report_inbox/battery-le-77.md` and
+  `battery-le1033-imperative.md`.
+- **N51 — ce45 second mirror frame-type NOT FOUND** (finder beat, 22
+  45-windows, 14 distinct successors, scatter 0.64): 45 needs ≥2
+  mirror frame-types, has ~1.5 ("45-46" @437 "ce que" ×1 stays the
+  half-mirror); A11 HOLD stands, never re-litigated as value claim.
+  Live fork: 78-45 ×4 reads "verdict [13-55-61]" under 78="ver"+45=
+  "dict" and ungrammatically under 45="ce". Genuine residuals @678/
+  @401 ("le/la ce" ungrammatical under both live claims), @332
+  unparsed under everything. Trace:
+  `code/crowd17/report_inbox/next-token-findings-ce45-frames.md`.
+
 ---
 
 ## 6. Open hypotheses (not promoted — each needs ≥2 independent checks)
@@ -3262,6 +3378,35 @@ crowd15/next-token DB rebuilt (1001.1 MB); calibration in progress
 resumed (upd 13,500, epoch 7, best heldout 2.0198 @upd 13,200, declining).
 table-grid registry refreshed 01:47 UTC — **77's promotion and the
 78 "er"-kill are not yet merged into it** (coordinator-owned).
+
+**Round-17 status deltas (2026-10-08 UTC, crowd17 next-token, battery-
+adjudicated, red-team ratification pending):** **12="n" PROMOTE**
+("en" 40-12 @63, "ni" 12-34 @1740, "pren" 70-12 ×3 — 5 occurrences);
+**48="e" PROMOTE** ("me" 82-48 ×4, "ere" 29-48 @541 — 5 occurrences;
+single "ere" occurrence is the soft leg); **94="ne" PROMOTE** ("n'est"
+×3 @558/@762/@1795, "ne me/m'" ×4, 62-94 ×9, "prenne" 70-12-94 ×2;
+37-window census, zero hard contradictions); "prenne" analytic/
+syllabic duality (70-12-94 vs 94) is the two batteries' handshake,
+consistent under both, resolved by neither. **77="le" PROVISIONAL**
+(44 windows; @611 rescue killed, strain at 87; @1033 escalated to red
+team). **33 stays OPEN** — croire-vs-dire tie (25 windows),
+single-"dire" killed, {dire, X-er} set unfalsified with X unnamed.
+**45="ce" HOLD** (second mirror frame-type not found; 78-45 fork
+live). **80 inflectional mood alternation escalated to red team.**
+**84 vowel-initial mechanism banked**: 77's l'-elision fires
+exclusively before 84 among known vowel-initial cells
+(77→{59,94,46,40,34,47,17} = 0) — independent proof. 12/48/94
+promotions NOT yet merged into table-registry.json (coordinator-owned;
+12/48 absent from it). Record corrections: "n'est" third instance
+@101→@1795; 'ne' = 12-48 ×5 confirmed (brief's ×7 corrected twice,
+independently). **Smith/fleet + calibration**: rung-C PASS and
+memorization re-probe CLEAN stand; **calibration LANDED** (standard
+n=19,998 top-1 0.3207/top-5 0.5218/MRR 0.4183; by-ear n=19,999 top-1
+0.3342/top-5 0.5366/MRR 0.4318; 11.07% by-ear word disagreement on
+200k-word sample); track-b upd 14,100, best heldout 2.0138 (still
+declining); side-period mine-v3 corpus +18 texts (14× Allgemeine
+Zeitung Augsburg 1841-01-12..25, Guizot t1–t3, Talleyrand v1 —
+unmeasured, provisional).
 
 - **62="on"** — FENCED-LEAD (STRONG LEAD, promotion DENIED by red team,
   Ruling 1; round-6 non-ear battery: NO PROMOTION, honest null — N25):

@@ -678,6 +678,342 @@
    "adverses": null,
    "bars": "resolve iff 06's value named with doubled-06 parsing",
    "verdict": null
+  },
+  {
+   "id": "le611-reparse",
+   "claim": "@611 '47 77 87 83 70' re-parses under 77='le'",
+   "status": "verdict",
+   "priority": 1,
+   "evidence": "best candidates 'ce/se le cède' strained ('ce'+non-être verb; 'céder' non-pronominal); strain localizes to 47/87/83, not 77; 87-83 = 'cède/cédé/céder' verb readings untested",
+   "adverses": "may confirm residual; 47='se' rival (frame-qui-47) and 83='de' lead interact",
+   "bars": "resolve iff ONE parse is grammatical with <=1 non-granted value assumption; else confirm as genuine residual",
+   "verdict": {
+    "result": "kill",
+    "report": "code/crowd17/report_inbox/battery-le611-reparse.md",
+    "date": "2026-10-08"
+   }
+  },
+  {
+   "id": "le1033-imperative",
+   "claim": "@1033 '80 77' = imperative + 'le' (\"La première fois\")",
+   "status": "verdict",
+   "priority": 1,
+   "evidence": "'29-80' infinitive frames (A8) vs '03-29'+80 split; 'la première fois' clause boundary natural; imperative+'le' is the only grammatical '[verb] le' order",
+   "adverses": "§7 polyvalence rule (67 sole true polyvalence) may block; '87 01' = 'ce [01]' currently unparsed",
+   "bars": "resolve iff 80-imperative parses consistently with A8's infinitive frames (inflectional, not lexical, polyvalence) AND '87 01' left context parses; else confirm residual",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-le1033-imperative.md",
+    "date": "2026-10-08"
+   }
+  },
+  {
+   "id": "le83-window",
+   "claim": "83 takes a value making @1216 '36 77 83' parse",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "@1216 '[36] le [83]'; 83 n=15; 'de' lead from 98-83 x5 (vient-parvenir formula); 83 followers 82 x3 / 21 x3 / 86 x2",
+   "adverses": "'de' lead vs article frame pull opposite ways; 83 value is open",
+   "bars": "resolve iff ONE 83 value parses both 'le [83]' (@1216) and 98-83 x5 ('vient de'); else fence 83 as the blocker, not 77",
+   "verdict": null
+  },
+  {
+   "id": "dire-33-set",
+   "claim": "33 = {dire, [X]er} 2-member set",
+   "status": "verdict",
+   "priority": 1,
+   "evidence": "'33-29-87' x2 / '67-33-29' x3 byte-identical stem frames vs '00-33' x8 / '67-33-46' x2 whole frames; @1421-24 chain needs both members in one window",
+   "adverses": "croire ties dire on whole-frames; X unidentified; 89/16 values open",
+   "bars": "resolve iff (a) the 5 stem windows cohere as ONE -er infinitive X (identify via contact profile); (b) all 20 whole-windows parse as 'dire'; (c) no window needs a third value (<=10% orphan)",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-dire-33-set.md",
+    "date": "2026-10-08"
+   }
+  },
+  {
+   "id": "croire-33-tiebreak",
+   "claim": "33 = croire (rival to dire)",
+   "status": "verdict",
+   "priority": 1,
+   "evidence": "dire/croire tie on 'veut [inf] que' x2, 'pour [inf]' x8, 'se [inf]' x2; savoir killed by F1; @1700 '85-33-94-30' 'contredire' lead untested (85 value open under A3)",
+   "adverses": "21's value open; stem windows kill both equally; @1700 lead depends on open 85",
+   "bars": "promote-33='croire' iff a discriminating frame is found (parses under croire, fails under dire) or vice versa; else record the tie",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-croire-33-tiebreak.md",
+    "date": "2026-10-08"
+   }
+  },
+  {
+   "id": "erstem-33-id",
+   "claim": "identify X, the -er stem in '33-29' x5",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "5 stem windows; A10 HOLD; '33-29-87' x2 byte-identical; '86-29' x3 ('pour [86]er') as control; pre: 67='veut' x3, 37 x1, 47 x1; frames '[X]er ce' x2 @626/@1424, '[X]er [89] on' @273, '[X]er m[16]' @1477",
+   "adverses": "89's value open; 16's value open (frame-82-16 queued); overlaps stem-33-86 — coordinate",
+   "bars": "name X iff its contact profile matches a real -er infinitive's valency",
+   "verdict": null
+  },
+  {
+   "id": "est-59-frames",
+   "claim": "30/39/37 after \"n'est\" are predicative/adjectival (59='est' frames)",
+   "status": "queued",
+   "priority": 1,
+   "evidence": "ne-frames F1: 'n\\'est' x3 (@558, @762, @1795); @1795 '42 n\\'est 37' predicative triple; 42 and 37 both A1-predicative",
+   "adverses": "59='est' is provisional standing; @101 re-classed indirect ('on ne 93 est')",
+   "bars": "promote-59-frames iff >=2 independent 'n\\'est'-follower frames parse as predicative + @1795 '42 n\\'est 37' parses cleanly + zero hard contradictions",
+   "verdict": null
+  },
+  {
+   "id": "ne-24-profile",
+   "claim": "24's class via \"ne 24 ce\" frames",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "'ne 24 ce' x2 (@161, @1773); 24->87 x10/52; 24's predecessors include 46='que' x3 and 84='on' x3",
+   "adverses": "24's profile unresolved",
+   "bars": "profile iff 24's class named (verb/preposition) with 'ne 24 ce' x2 parsing + 24->87 x10/52 explained",
+   "verdict": null
+  },
+  {
+   "id": "verb-93",
+   "claim": "93 verb-shaped discriminator",
+   "status": "queued",
+   "priority": 3,
+   "evidence": "F7: @101 '08 21 62 94 93 59 45' = 'on ne [93] est' indirect frame; 93 n=14; 93 takes 29='er' once, followed by 59 once",
+   "adverses": "profile currently inconclusive",
+   "bars": "resolve iff 93 takes infinitive/valency markers with contact profile verb-shaped",
+   "verdict": null
+  },
+  {
+   "id": "frame-62-94-79",
+   "claim": "\"62-94-79-14-60\" frame battery (new unresolved frame-type)",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "@1363 and @1687 near-identical x2 (one frame-type, two instances); if 79='tout': 'on ne tout [14][60]' unparsed",
+   "adverses": "unparsed under standing values",
+   "bars": "resolve iff frame parses under standing values or with one stated new-value assumption",
+   "verdict": null
+  },
+  {
+   "id": "formula-94-07-06-94",
+   "claim": "A3 mirror '94-07-06-94' (@771/@774) resolves",
+   "status": "queued",
+   "priority": 3,
+   "evidence": "@771 '80 10 22 94 07 06 94' and @774 '94 07 06 94 15 33 73': two 94s three apart sharing '07 06'; one frame-type; flagged to formula finder",
+   "adverses": "unparsed",
+   "bars": "resolve iff mirror frame parses under standing values or confirms anomaly with stated cause",
+   "verdict": null
+  },
+  {
+   "id": "prof-53",
+   "claim": "53 single-parse profile (decides 2/5 'ne' windows)",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "'53 ne' x2 (@169, @709) vs 'donne' x2 alternative ('on donne 21', '35 donne 71'); 53-12-41 (@58) and 53-12-44 (@1582) break 'donne'; 53's top follower is 12 (4/11); 53 n=11",
+   "adverses": "53's parse unresolved; gates the 'ne' reading in 2 of 5 windows",
+   "bars": "resolve iff single parse covers all 11 of 53's windows",
+   "verdict": null
+  },
+  {
+   "id": "prenne-70-12-94",
+   "claim": "\"prenne\" composition: 70-12-94 x2 as \"pre\"+\"n\"+\"ne\"",
+   "status": "queued",
+   "priority": 1,
+   "evidence": "'pre n' 94 x2 (@348 '06 pren 94', @1548 'pour que pren 94'); joint constraint with 94='ne' battery; 12/94 duality must be co-tested",
+   "adverses": "'que/pour prenne' needs a visible subject (92 follows @1548, unresolvable); battery flagged the same 12/94 duality for red-team adjudication",
+   "bars": "resolve iff 'prenne' parses with subject-search at 92 (@1548) and 74 (@348) before either battery promotes; else fence for red team",
+   "verdict": null
+  },
+  {
+   "id": "ne-le-1075",
+   "claim": "\"ne le\" frame test @1075",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "@1075 '98 12 48 77 78 64' = '98 ne le 78 qui' (strongest negation-shaped window, provisional 77='le'); cross-check 78's verb/noun profile",
+   "adverses": "78's profile open (78='ver' queued as ver-78)",
+   "bars": "resolve iff 78's profile allows heading a verb phrase after 'ne le'; else weaken the frame",
+   "verdict": null
+  },
+  {
+   "id": "croire-33-compound85",
+   "claim": "dire-only compound at @1700 (85-33-94-30) once 85's value is named",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "@1700 '85-33-94-30' 'contredire' lead; 85 carries A3 verb-stem frame grant ('en [85]' x5, 'que [85]er' x2); 85='contre' would need red-team-declared polyvalence",
+   "adverses": "gated on stem-85 (+pas-30) naming 85's value",
+   "bars": "promote dire iff 85's named value forms a dire-only compound (contredire/medire/redire) with '94-30' parsing; kill the lead iff 85 compounds with neither",
+   "verdict": null
+  },
+  {
+   "id": "croire-33-noun21",
+   "claim": "33-21 x3 asymmetry for dire/croire once 21's value resolves",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "'33-21' x3 (@937/@1422/@1631) parse under both now; 'le dire' exists as noun vs 'le croire' does not",
+   "adverses": "21's value open - gated, not forced",
+   "bars": "re-test '33-21' x3 for a dire/croire asymmetry once 21 resolves; record as gate",
+   "verdict": null
+  },
+  {
+   "id": "croire-33-residuals",
+   "claim": "two windows ungrammatical under both croire and dire resolve elsewhere",
+   "status": "queued",
+   "priority": 3,
+   "evidence": "@1502 '84-33' ('on'+infinitive); @1642 '12-33' (\"n'\"+consonant)",
+   "adverses": "fenced to 84 (A15-C2 collision queued as collision-62-84) / 12 rather than 33",
+   "bars": "resolve iff both windows parse under standing values via 84/12 re-reads; else fence to the neighbor value",
+   "verdict": null
+  },
+  {
+   "id": "fork-78-45-adjudication",
+   "claim": "78-45 x4 contact adjudicates 45='ce' HOLD vs 45='dict' rival",
+   "status": "queued",
+   "priority": 1,
+   "evidence": "F4: 78-45 x4; 'ce verdict' x2 @573/@982; ce-frame-45-64-96-43-87-01 has no 78-contact (dict unavailable)",
+   "adverses": "78='ver' queued not granted; 45='ce' is a HOLD; joint with ver-78",
+   "bars": "(a) run joint with ver-78: if 78='ver' promotes, the four windows (@314, @574, @983, @1165) must read 'verdict...' (45='dict' at minimum at these windows) or 45='ce' is killed at 4/22 windows; (b) state any positional rule that lets both claims survive, with per-window parses",
+   "verdict": null
+  },
+  {
+   "id": "frame-74-45-93",
+   "claim": "45->93 x3 cluster resolves under one parse",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "F3: 45->93 x3 ('74-45-93' x2 @262/@478 + '96-45-93' @603); 87->93 x0",
+   "adverses": "93's class open; 74 vs 96 left contexts differ",
+   "bars": "(a) all three windows parse with 93's class stated; (b) joint with verb-93: if 93 is verb-shaped, record 45!='ce' at these windows as a kill-grade adverse for A11 (do not promote around it)",
+   "verdict": null
+  },
+  {
+   "id": "dict-frame-78-45-13-55-61",
+   "claim": "byte-identical 5-gram x2 reads 'verdict [13-55-61]' under 78='ver'+45='dict'",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "F2: '78-45-13-55-61' x2 (@574, @1165)",
+   "adverses": "78='ver' queued; does not duplicate dict-45's syllable-profile bar - narrowed 5-gram instance",
+   "bars": "(a) both windows parse with 13-55-61 named as one unit; (b) @574's '...61 94 82 06' parses as a 'ne me/m'' negation frame; (c) @1165's '21 67' left context fenced with stated cause",
+   "verdict": null
+  },
+  {
+   "id": "ce-frame-45-64-96-43-87-01",
+   "claim": "byte-identical 6-gram x2 reads 'ce qui par [43] ce [01]' under 45='ce'",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "F1: '45-64-96-43-87-01' x2 (@340, @1024); no 78-contact (dict unavailable here)",
+   "adverses": "43's value open; coordinate with noun-43",
+   "bars": "(a) both windows parse with 43 named (coordinate with noun-43); (b) the 'qui ce qui' left edges (@340's 14, @1024's 64) parsed or fenced",
+   "verdict": null
+  },
+  {
+   "id": "est-ce-104",
+   "claim": "@104 '59-45-28' reads 'est-ce [28]' as input to est-59-frames",
+   "status": "queued",
+   "priority": 3,
+   "evidence": "F6: @104 '59-45-28'; 59='est' provisional + 45='ce' HOLD + 00='pour' + 46='que'",
+   "adverses": "28 unknown; 'est-ce' normally takes 46 not 28",
+   "bars": "28 named with 'est-ce [28] pour que' parsing (input bar for est-59-frames)",
+   "verdict": null
+  },
+  {
+   "id": "ci-01-value",
+   "claim": "01 = 'ci' vs 'faisant' discriminator",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "'87 01' @1033 left context parses as 'ceci' (ce+ci), parallel to granted 'cela' = 87-11; rival parse 'ce faisant' also grammatical; 01-24 x3 and 37-01 x3 are the discriminators; '37 01' x3 needs nominal-37 for '[37]-ci' (ungranted)",
+   "adverses": "'ceci' vs 'ce faisant' both grammatical; 37's value open",
+   "bars": "name 01 iff '01 24' x3 and '37 01' x3 cohere under one value ('ci' vs 'faisant') with <=10% orphan",
+   "verdict": null
+  },
+  {
+   "id": "imp-80-set",
+   "claim": "80's imperative set grows and 03 resolves to close @1032",
+   "status": "queued",
+   "priority": 3,
+   "evidence": "80-imperative evidence: '80-77' ('[80]-le', the only grammatical verb+le order) x2 @720/@1032; all 17 windows of 80 fit single-lexeme mood alternation (infinitive '94-52-80' x2, finite '87-77-80', imperative '80-77' x2); sister 89 never takes enclitic 'le' (0x '89 77')",
+   "adverses": "declaring 80 polyvalence is a red-team act per §7 (67 sole true polyvalence) - this battery may only gather evidence, not declare",
+   "bars": "(a) grow 80's imperative set beyond n=2 with windows consistent with mood alternation; (b) resolve 03 at @1032 to close the clause; evidence gathered for red-team adjudication",
+   "verdict": null
+  },
+  {
+   "id": "x-33-laisser-test",
+   "claim": "X = 'laisser' discriminator for the 33={dire,[X]er} set",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "the 5 stem windows cohere as ONE -er stem (corpus's top -er stem, only 47-governed, byte-identical '33-29-87' x2 / '67-33-29' x3); 'laisser' suggestive but unproven; profile narrows to transitive -er verbs (donner/montrer/laisser/prononcer)",
+   "adverses": "needs 16/85 = infinitives; 'prononcer' rival if ver-78 lands 'verdict'; erstem-33-id still queued - coordinate",
+   "bars": "name X='laisser' iff 16/85 resolve as infinitives in the stem frames with zero contradiction; else name X from profile or record as family",
+   "verdict": null
+  },
+  {
+   "id": "orphan-1502",
+   "claim": "resolve @1501-1507 or confirm orphan for the 33 set",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "@1502 'on dire [42]' (84='on' granted, 'on'+infinitive ungrammatical) is one of 2 orphans (8% <= 10% threshold)",
+   "adverses": "a third orphan anywhere (3/25 = 12%) kills the set - guards the threshold",
+   "bars": "resolve iff @1501-1507 parses under standing values or confirms orphan with stated cause; scan for any third orphan",
+   "verdict": null
+  },
+  {
+   "id": "ne-30-1700",
+   "claim": "'n\\'importe' rival (30='importe') vs pas-30 at @1700",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "@1700 '[85] dire ne [30]' ungrammatical under 'dire ne' order (94='ne' promoted); 'n\\'importe' rival reading",
+   "adverses": "reconcile with queued pas-30; fence @1700 if neither parse holds",
+   "bars": "resolve iff @1700 parses under one of {30='pas', 30='importe'} with standing values; else fence",
+   "verdict": null
+  },
+  {
+   "id": "nest-subject-86-62-42",
+   "claim": "86, 62, 42 are subject-shaped before 'n\\'est'",
+   "status": "queued",
+   "priority": 1,
+   "evidence": "three independent predecessors at @558/@762/@1795; '86 n\\'est 30', '62 n\\'est 39', '42 n\\'est 37' all parse; 42 A1-predicative, 62 the collision cell",
+   "adverses": "86 is 'pour'-governed x12 ('pour 86') - infinitive/noun pull vs subject position; 59='est' provisional (inherited)",
+   "bars": "resolve iff each of {86, 62, 42} takes a subject parse consistent with its contact profile with zero forced contradiction; else fence the failing slot",
+   "verdict": null
+  },
+  {
+   "id": "lon-29-146",
+   "claim": "@146 '64 77 84 29 87 64' resolves to one parse",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "weakest of the 7 'l\\'on' legs; '84 29' unique stream-wide; '64 77 84' x3 (@144, @1445, @1801)",
+   "adverses": "29 rarely word-initial (pre {33 x5, 86 x4, 06 x4, 34 x3}); frame-qui-77-84 PROMOTED - this is a residual on it, not re-litigation",
+   "bars": "resolve iff one parse covers 77-84-29-87 with 29's syllabic profile (29->40='e' x9 vs 29->87 x3) and zero contradiction; else fence",
+   "verdict": null
+  },
+  {
+   "id": "elision-77-84",
+   "claim": "77='le' elides to l\\' exclusively before vowel-initial 84 (A15-C1 support leg)",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "full 44-window 77-follower scan: 77->{59,94,46,40,34,47,17} = 0 vs 77->84 = 7; 84 the sole known vowel-initial follower",
+   "adverses": "77's unknown followers (86/81/76/44/89) could be vowel-initial (open); 77='le' provisional (le-77 null) - SUPPORTING leg, not a 77 promotion",
+   "bars": "promote-LEG iff the zero-counts re-derive on the repaired stream AND no other 77 follower is shown vowel-initial; else record as provisional-only",
+   "verdict": null
+  },
+  {
+   "id": "ni-1740-1742",
+   "claim": "exactly one boundary parse covers '86 12 34 94 82 46' (@1739-1744)",
+   "status": "queued",
+   "priority": 2,
+   "evidence": "two readings share 34='i': {'ni'+'ne me' (12-34='ni'), 'n'+'i ne me' (34='i' GT)}; 'ni ne me que' ungrammatical",
+   "adverses": "prenne-70-12-94 owns the 12/94 duality - frame-scoped to @1739-1744 only, no bar overlap",
+   "bars": "resolve iff one parse holds with banked values and zero contradiction; else fence BOTH readings for the 12/94 duality adjudication (red team)",
+   "verdict": null
+  },
+  {
+   "id": "lon-09-verb",
+   "claim": "09 is verb-shaped in 'l\\'on 09' x2 (@1058, @1764)",
+   "status": "queued",
+   "priority": 3,
+   "evidence": "'l\\'on 09' one frame-type x2; 09's top predecessor is 84 (2/12); 09->00='pour' x2, 09->24='en', 09->87/64/70",
+   "adverses": "n=12 thin; 09's killed '-ere' value is NOT re-litigated (verb-shape is a distinct claim)",
+   "bars": "resolve iff 09's 12-window profile supports verb with zero noun-forcing window; else fence",
+   "verdict": null
   }
  ]
 }
