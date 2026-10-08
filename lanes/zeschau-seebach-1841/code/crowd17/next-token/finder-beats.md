@@ -41,12 +41,12 @@ confidence × testability, write to
 |---|---|---|
 | ne-frames (94 followers) | 94="ne" is the top promotion-track target; verify its frames independently of the pre-finder | complete — next-token-findings-ne-frames.md |
 | n-e-frames (12/48 followers) | 12="n"/48="e" letter battery needs GT-anchored frame verification | complete — next-token-findings-n-e-frames.md |
-| ce45-frames (45 followers) | 45="ce" HOLD (A11) needs the second mirror frame-type | queued |
+| ce45-frames (45 followers) | 45="ce" HOLD (A11) needs the second mirror frame-type | complete — next-token-findings-ce45-frames.md (2026-10-08) |
 | bigram-contexts ("le fait" vs "l'[84]", "ne m'", "n'est") | elision behavior decides 84="on" conditions and 94="ne" frames | complete — next-token-findings-bigram-contexts.md |
-| post-promotion sweep | re-scan follower contexts after each newly promoted value (94, 12, 48, 77, 33, 78, 30, 39) for second-order predictions | queued |
-| 84-adjudication inputs | 62/84 "on" collision: profile 62 ("il" rival) vs 84 (elision-discriminated) | queued |
-| noun26-frames | 26 noun-vs-verb war: "…fois, la [26]" ×2 vs "en ce qui 26-37" | queued |
-| parvenir-thirds | "vient de me parvenir" thirds (60/62/68) homophone-set test + 83="de" cross-check | queued |
+| post-promotion sweep | re-scan follower contexts after each newly promoted value (94, 12, 48, 77, 33, 78, 30, 39) for second-order predictions | complete — next-token-findings-post-promotion-sweep.md (2026-10-08) |
+| 84-adjudication inputs | 62/84 "on" collision: profile 62 ("il" rival) vs 84 (elision-discriminated) | complete — next-token-findings-84-adjudication.md (2026-10-08) |
+| noun26-frames | 26 noun-vs-verb war: "…fois, la [26]" ×2 vs "en ce qui 26-37" | complete — next-token-findings-noun26-frames.md (2026-10-08) |
+| parvenir-thirds | "vient de me parvenir" thirds (60/62/68) homophone-set test + 83="de" cross-check | complete — next-token-findings-parvenir-thirds.md (2026-10-08) |
 | f-qui-par full read | 43/01 profiles + formula French; the 6-gram is resolving from the edges | queued |
 | est-reexam | crowd16 est-finder's fenced-leftover challenge vs A1 grant: re-derive fencing window by window for red-team adjudication | queued |
 

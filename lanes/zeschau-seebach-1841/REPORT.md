@@ -14,7 +14,7 @@ three attempts, seven crowd rounds, and six side fleets have produced a repaired
 canonical parse (bedrock-audited, F41), a second "la première" occurrence, a
 quantified conditioned-polyvalence model, and thirty-two documented nulls.
 
-Lane: `lanes/zeschau-seebach-1841/` · Report date: 2026-10-07 ·
+Lane: `lanes/zeschau-seebach-1841/` · Report date: 2026-10-08 ·
 Methodology log: `NOTES.md` · Checkpoint: `STATE.md`
 
 ---
@@ -2787,6 +2787,91 @@ adjudicated; **red-team ratification pending**)
   the coordinator's next merge (registry file unchanged this sweep —
   grid NOT regenerated).
 
+### Round-17 wave-2 addenda (2026-10-08 UTC, crowd17 next-token — batteries
+adjudicated; **red-team ratification pending**)
+
+- **F88 — 39="a/à" battery-PROMOTE** (battery a-39, bar: ≥2 frames parse
+  cleanly as "a"/"a" + zero contradictions; both clauses PASS). 13
+  occurrences scanned; three clean frames: "a qui" @37 (follower 64="qui"
+  promoted), "est a" @764, "est a" @1512 (@1512 load-bearing on provisional
+  59="est"). 12/13 windows consistent with 39=/a/; the one resistant
+  window @607 ("qui ? qui") fenced as adverse A1 with stated cause
+  (word-boundary underdetermined; 39 has a demonstrated word-internal
+  class in 70-39-11 "pre-a-la"). All determinate word-parses are the
+  preposition "a" — zero parse as the verb "a"; the /a/ tier is ONE
+  value per the allophone doctrine, not a second polyvalence. Trace:
+  `code/crowd17/report_inbox/battery-a-39.md`.
+- **F89 — 30="pas" battery-PROMOTE** (battery pas-30, bar: both ne-frames
+  parse as "ne...pas" + ≥1 more independent ne-frame + zero
+  contradictions; all four clauses PASS). @558 ("n'est pas", canonical
+  order), @1713 ("ne 44 est pas"), plus two independent ne-frames
+  @651→656 and @1363→1368. All 19 @30 windows scanned; none forces
+  30≠"pas"; the one bracket-dependent rival frame (@1700/1702
+  "n'importe") fenced to the queued ne-30-1700 battery. Trace:
+  `code/crowd17/report_inbox/battery-pas-30.md`.
+- **F90 — 59-frames battery-PROMOTE (frames)** (battery est-59-frames, bar:
+  ≥2 independent "n'est"-follower frames parse as predicative +
+  @1795 "42 n'est 37" parses cleanly + zero hard contradictions;
+  verdict PROMOTE (frames)). The "n'est" universe is exactly three
+  frames, all 94-59 elision: @558, @762, @1795; no analytic spellings
+  exist (0/0/0). @762 (predicative-PP, "n'est à [88]"; 39=/a/
+  allophone-tier) and @1795 ("42 n'est 37" copular) parse predicative;
+  @558 is the "ne...pas" negation frame — the uniform-predicative claim
+  is dead at the 30 leg, killed by the pas-30 battery (F89), not by
+  this verdict. Trace: `code/crowd17/report_inbox/battery-est-59-frames.md`.
+- **F91 — collision-62-84 kill-grade resolution: 84="on" unconditioned
+  holds; 62="on" KILLED** (battery collision-62-84, bar: exactly one of
+  {62,84} holds "on" unconditioned + loser's frames re-read cleanly;
+  both clauses PASS). Zero crossover re-derived on the repaired stream:
+  62→94 x9 vs 84→59 x4, with 62→59 x0 and 84→94 x0. 84's "on" lives in
+  the post-clitic elision slot ("l'on" 77→84 x7; "qu'on" 46→84 x2);
+  62's "on" lived in the pre-"ne" subject slot. The loser's nine 62-94
+  frames re-read as "il ne": 8 clean, @508 fenced as residual with
+  stated cause — @507 ("21-67-77-62-94-64-98") is the kill-grade
+  discriminator: "l'on ne" reads iff 62="on"; under 62="il" it is
+  "le il ne", which has no clean French parse (conditional on
+  provisional 77="le" and battery-promoted 94="ne"). Stale counts
+  corrected on the repaired stream (20-62-94 x4, not x3; the "@762
+  62 n'est 39" window is @760). Trace:
+  `code/crowd17/report_inbox/battery-collision-62-84.md` and finder
+  input `next-token-findings-84-adjudication.md`.
+- **F92 — enne-word-64: one-word "ierenne" claim KILLED at kill grade**
+  (battery enne-word-64, C1 FAIL kill grade): the @61-65 window
+  "34 29 40 12 94" forces the letter string "ierenne" (34="i", 29="er",
+  40="e" banked GT; 12="n", 94="ne" promoted) and no French word
+  contains it. 94="ne" is NOT downgraded — the kill targets word
+  composition only; residual R-enne-61 recorded (word-segmentation
+  residual). C2/C3/C4 PASS: "prenne" @1547-1549 undisturbed; 92's class
+  stays OPEN (the only two "94 92" bigrams stream-wide, no class
+  conflict). Trace: `code/crowd17/report_inbox/battery-enne-word-64.md`.
+- **Wave-2 finder beats (finder-grade, no verdicts)**:
+  `next-token-findings-post-promotion-sweep.md` — F1 "n'est pas"
+  @558-560, the only "94 59 30" trigram stream-wide (support for F89,
+  adverse input for F90); F2 "42 ne" x3 cluster (bare "ne" needs
+  modals — predicts 02/74 verb-shaped; target ne-alone-02-74);
+  F3 "77 78" x7 = "lever" composition, "48 77 78" x2 = "élever";
+  F4 "32 48" x4 = "32e" feminine-agreement candidate; F5 noun frames
+  for 44 with one lone adverse; F6 "12 94 92" x2 = the joint
+  promotions' hard frame; ranked targets T1–T5 (enne-word-64,
+  lever-77-78, noun-44, ne-alone-02-74, fem-32e); two clean nulls
+  recorded (N1 "toute/toutefois", N2 "est-ce").
+  `next-token-findings-noun26-frames.md` — the 26 verb/noun war: 17
+  windows, 14 productive frame-types after formula de-dup; "26 pas"
+  x4 (@654/@991/@1249/@1559) is the strongest verb frame; @1559 is
+  the crux ("la [26] pas" — noun and verb readings clash in one
+  window); "en ce qui" triple decides @1768 as verb by frame-type
+  uniformity; three independent governors force verb-form (@154
+  "66 84 [26]", @600, @841). Correction to the queue: "26 30" is x4,
+  not x3.
+  `next-token-findings-parvenir-thirds.md` — input for queued
+  frame-vient-parvenir (thirds permutation test + 83="de"
+  cross-checks, claim narrowed to the 60/68 pair); 92's nominal
+  profile ('la 92' x3, '92 qui' x2) noted for the prenne battery.
+- **Registry consequence (wave 2)**: 39 and 30 are also absent from
+  `code/table-grid/table-registry.json`; the a-39 and pas-30
+  promotions join the pending merge. Registry file unchanged this
+  sweep — grid NOT regenerated.
+
 ### Smith rebuild2 status (2026-10-08 UTC — rung-C clean re-run PASS;
 memorization re-probe CLEAN)
 
@@ -3316,6 +3401,49 @@ on scorecard integrity. Round-2's F13 dissolution and round-3's rival
   @401 ("le/la ce" ungrammatical under both live claims), @332
   unparsed under everything. Trace:
   `code/crowd17/report_inbox/next-token-findings-ce45-frames.md`.
+- **N52 — 62="on" unconditioned KILLED** (collision-62-84, §7 polyvalence
+  rule): with zero crossover re-derived (62→94 x9 vs 84→59 x4;
+  62→59 x0; 84→94 x0) the two "on" claims lived in different slots,
+  and 62's claim failed the kill-grade discriminator at @507 ("l'on
+  ne" iff 62="on"; "le il ne" unparseable under 62="il"). 62's nine
+  62→94 frames re-read as "il ne" (8 clean, @508 fenced residual);
+  62="il" is now the demonstrated side, 84="on" the unconditioned
+  holder. Trace: `code/crowd17/report_inbox/battery-collision-62-84.md`.
+- **N53 — "34 29 40 12 94" one-word composition KILLED** (enne-word-64):
+  the forced letter string "ierenne" admits no French word (kill
+  grade); the analytic readings of the five pairs hold individually —
+  only their one-word composition fails. Residual R-enne-61 recorded
+  with stated cause. Trace:
+  `code/crowd17/report_inbox/battery-enne-word-64.md`.
+- **N54 — 78="ver" battery NULL, escalated to red team** (ver-78-rebar;
+  the first ver-78 battery's bar was lane-illegal, the rebar is
+  lane-legal): all three clauses re-derived clean on the repaired
+  stream — determiner predecessors 78: 16/31 vs 29="er" control 2/45,
+  predecessor==33 78: 0/31 vs 29: 5/45 (OR=22.93, corrected
+  attribution — the queue's evidence gloss transposed 29/78, now
+  fixed), "ce verdict" x2 @573/@982 (+x2 @313/@1164), "ce 78" x7 all
+  exclude "er" — but promote would contradict standing red-team
+  grading R16-005 (bundle graded LEAD, not settled), and the positive
+  "verdict" legs are conditional on the un-granted 45="dict" lead
+  (R16-004). NULL recorded per protocol §5; red-team question:
+  ratify NULL→promote with @296 as fenced residual, or require the
+  R16-004 45="dict" dependency to resolve first? Follow-ups queued:
+  ver78-la78-census (P2), ver78-45-dependency-gate (P3). Re-derivation
+  script `code/crowd17/next-token/ver78_battery.py` (outputs matched
+  the prior report's offsets/counts exactly). Trace:
+  `code/crowd17/report_inbox/battery-ver-78-rebar.md`
+  (supersedes `battery-ver-78.md`).
+- **N55 — prenne-70-12-94 battery NULL, fenced for red team**
+  (battery prenne-70-12-94): composition "pre"+"n"+"ne" PASS at both
+  windows (70-12-94 occurs exactly 2x stream-wide, closed set), but
+  the subject search FAILed at both — @1548 (92 nominal: "la 92" x3,
+  "92 qui" x2; empty slot after "que", no licensed post-verbal or
+  elliptical subject) and @348 (no trigger, no subject-shaped
+  candidate; the "prennent" 74="nt" re-parse is unpromoted
+  speculation). 12="n"/94="ne" duality UNRESOLVED: per the joint
+  constraint neither side may advance on THIS evidence — F85/F87 are
+  not downgraded. Trace:
+  `code/crowd17/report_inbox/battery-prenne-70-12-94.md`.
 
 ---
 
@@ -3342,6 +3470,18 @@ DP-1 PERMANENT FENCE, NEITHER-fence stands; **atteste FRAME-BEST
 LEAD** (n=1, fragile — not a promotion); H_stem gains one leg (B1+B2)
 with open ne-marginals tension. Baselines: 237/237 R13BANK +
 160/160 ROUND13-LEDGER, both exit 0.
+
+**Round-17 wave-2 deltas (2026-10-08):** 39="a/à" (F88), 30="pas"
+(F89), and the 59-frames (F90) battery-PROMOTED — all pending red-team
+ratification; 62="on" KILLED (N52), the "ierenne" one-word composition
+KILLED (N53); 78="ver" NULL (N54) — escalated, red team must decide
+ratify-vs-R16-004; prenne-70-12-94 NULL (N55) — 12="n"/94="ne" duality
+unresolved, neither side advances on that evidence. Open and queued:
+lever-77-78 ("77 78"="lever", "48 77 78"="élever" composition, F3),
+noun-44 (F5 input), ne-alone-02-74 (bare-"ne" modal cluster, F2),
+fem-32e (F4), ver78-la78-census, ver78-45-dependency-gate, and a
+dedicated noun-26 battery (the 26 war: verb legs dominate, crux
+window @1559 unresolved).
 
 **Round-16 status deltas (2026-10-08 UTC, crowd16 next-token, 16/16
 battery-adjudicated):** 77="le" PROMOTED (provisional → promoted;
