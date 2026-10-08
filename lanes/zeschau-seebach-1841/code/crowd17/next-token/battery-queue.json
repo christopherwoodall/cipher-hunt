@@ -1854,8 +1854,12 @@
    "evidence": "from battery-le83-window (null 2026-10-08): 'le de' ungrammatical; 83 fenced as blocker; 36 unnamed; clause boundary untested",
    "id": "fence-83-1217",
    "priority": 2,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/processed/battery-fence-83-1217.md",
+    "date": "2026-10-08"
+   }
   },
   {
    "adverses": "gated on fence-911-de, frame-87-83-cede, fence-83-1217; kill-grade on unconditioned 83='de' owned by fence-911-de",
@@ -2214,8 +2218,12 @@
    "evidence": "frames-80-89-indep null (2026-10-08): @1376 is the hard non-verb window for 89, blocking 77-independent verb-class independence; infinitive legs @221/@985 survive without 77",
    "id": "noun-89-1377-adjudicate",
    "priority": 2,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-noun-89-1377-adjudicate.md",
+    "date": "2026-10-08"
+   }
   },
   {
    "adverses": "67-sole-polyvalence law; @468's adjective read is conditional on 06='ent' (battery-promoted, unratified)",
@@ -2279,11 +2287,15 @@
    "adverses": "clitic vs determiner readings",
    "bars": "name 14's class iff 'tout [14]' parallels 'tout [82]' under one stated value AND the four breaker windows resolve or fence with stated cause",
    "claim": "14's class from the post-'tout' slot (mirrors 82='m')",
-   "evidence": "frame-62-94-79 null (2026-10-08): '62-94-79-14-60' frame-type x2 (@1363/@1687) unparsed under standing values ('on ne tout [14][60]'); crowd15 tout-battery independently fenced this frame for word-order failure pre-94='ne' — fence superseded by this re-test under 94='ne', not contradicted | 'tout [14]' x2 @1365/@1689 vs 'tout [82]' x2 @396/@1227 (A7-L2); 14 n=15; breakers @424 ('47 14 62'), @623/@896 ('82 14'), @1121 ('06 14 06')",
+   "evidence": "frame-62-94-79 null (2026-10-08): '62-94-79-14-60' frame-type x2 (@1363/@1687) unparsed under standing values ('on ne tout [14][60]'); crowd15 tout-battery independently fenced this frame for word-order failure pre-94='ne' — fence superseded by this re-test under 94='ne', not contradicted | 'tout [14]' x2 @1365/@1689 vs 'tout [82]' x2 @396/@1227 (A7-L2); 14 n=15; breakers @424 ('47 14 62'), @623/@896 ('82 14'), @1121 ('06 14 06') | Battery 2026-10-08: NULL - 'tout [14]' parallelism underdetermined (14='le' only viable value; slot-level not class-level; load-bearing on queued noun-60; bigram frame-exclusive to unparsed 62-94-79-14-60); all four breakers fenced with stated cause (B1 gated on 62's value, B2/B3 tension, B4 'ent [14] ent' structural anomaly); clitic-vs-determiner tie recorded. Follow-ups: tout-14-rerun, breaker-b4-1121, verb-14-rival.",
    "id": "tout-slot-14",
    "priority": 2,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/processed/battery-tout-slot-14.md",
+    "date": "2026-10-08"
+   }
   },
   {
    "adverses": "value unnamed",
@@ -2292,8 +2304,12 @@
    "evidence": "frame-62-94-79 null (2026-10-08): '62-94-79-14-60' frame-type x2 (@1363/@1687) unparsed under standing values ('on ne tout [14][60]'); crowd15 tout-battery independently fenced this frame for word-order failure pre-94='ne' — fence superseded by this re-test under 94='ne', not contradicted | 60 noun-shaped: 'le [60]' @454; '60 03' NP-shaped @1644/@1675/@691 with 'qui'/'a'; pre60 includes 77/46/29",
    "id": "noun-60",
    "priority": 2,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "kill",
+    "report": "code/crowd17/report_inbox/processed/battery-noun-60.md",
+    "date": "2026-10-08"
+   }
   },
   {
    "adverses": "'94 79' ('ne tout') is a 2-window exclusive bigram",
@@ -2354,8 +2370,12 @@
    "evidence": "battery-prof-53: 'on donne 21' @168 and '35 donne 71' @708 both clean under 53='don'+12='n'+48='e'; 53-12-41/44 out of scope (fenced to donn-41-44)",
    "id": "donne-168-708-leg",
    "priority": 2,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-donne-168-708-leg.md",
+    "date": "2026-10-08"
+   }
   },
   {
    "adverses": "41/44 word-like successor profiles",
@@ -2862,8 +2882,12 @@
    "evidence": "noun-44 kill (2026-10-08) regeneration #2: '44ere' @540, 'm[44]' @1160 ('82 44') vs whole-word frames ('le 44' x2, 'la 44' @1070, '44 pour' x3, subject-44 @249/@527); coordinate with stem-44-1839 (queued, @1839 instance)",
    "id": "stem-44-nominal",
    "priority": 2,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-stem-44-nominal.md",
+    "date": "2026-10-08"
+   }
   },
   {
    "adverses": "battery may not decide; pas-30 and ne-94 standing verdicts implicated",
@@ -3081,11 +3105,241 @@
    "id": "at21-82-43-29-adjudicate",
    "claim": "\"82-43-29\" @19-22 (row a1_00, interior) is word-internal ('mener'/'emmener'-family with 43='en') or a verb-stem slot — 43 is not a standalone noun here",
    "priority": 1,
-   "status": "queued",
-   "verdict": null,
+   "status": "verdict",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/processed/battery-at21-82-43-29-adjudicate.md",
+    "date": "2026-10-08"
+   },
    "bars": "(a) name 98 (modal/governor, or 'em') with 'qui 98 mener ce 33' parsing as one grammatical run; (b) state 43's class at @21 (noun vs verb-stem vs 'en') with the boundary analysis from this report either confirmed or overturned with cause; (c) reconcile with the 'par [43]' noun frames — one value must cover both windows, or petition the red team on the 67-sole-polyvalence rule with stated cause",
    "evidence": "noun-43-discriminator kill (2026-10-08): @21 '98 82 43 29 47' = '...qui [98] m[V43]er ce [33]'; banked 82='m', 29='er'; 'msuiteer'/'suiteer'/'erce' not French; 'mener'/'emmener' French; gates noun-43 and all frame-43-* batteries",
    "adverses": "'par [43]' x2 pulls noun-ward; 98/33 open; 47='ce' (A4) fixed; 'qui [98] mener' needs 98 as modal/governor"
+  },
+  {
+   "id": "class-36-profile",
+   "claim": "36's class named from its 9-window contact profile (left edge of the @1215-1217 fence)",
+   "priority": 2,
+   "status": "queued",
+   "verdict": null,
+   "bars": "assign 36 ONE class (noun? infinitive? adjective?) with >=3 independent frame-legs, using the 00 x3 'pour'-frames, 59 x2 'est'-frames, and 45-'ce' contact; resolve or fence each window with stated cause",
+   "evidence": "battery-fence-83-1217 (null 2026-10-08): 36 n=9 (@388/@421/@740/@1174/@1215/@1313/@1449/@1585/@1834); preds 00 x3, 59 x2, 91/49/85/45 x1; sucs 74 x2, 62/29/20/77/67/70/69 x1; spans determiner-, pour-, and est-positions; discriminates whether the left edge can parse independently of the 83 fence",
+   "adverses": "no single class granted for 36; no window names its value"
+  },
+  {
+   "id": "fence-92-1218",
+   "claim": "the fenced-83 right edge @1217-1218 parses or fences cleanly once 92's class/value is named",
+   "priority": 2,
+   "status": "queued",
+   "verdict": null,
+   "bars": "name 92's class/value such that the fenced-83 edge parses or fences cleanly; resolve or fence the window with stated cause",
+   "evidence": "battery-fence-83-1217 (null 2026-10-08): '83 [92]' @1217-1218; 83 fenced as blocker; 92 open ('-ere' value killed); constrains any clause-boundary-after-83 reading",
+   "adverses": "92's class open; coordinate with class-92 / prenne-92-noun / verb-92-subset (class batteries), do not duplicate their bars"
+  },
+  {
+   "id": "clause-boundary-precedent",
+   "claim": "a clause boundary after an article is a precedented lane mechanism for 'X 77 [open-value]' adjacencies",
+   "priority": 3,
+   "status": "queued",
+   "verdict": null,
+   "bars": "survey all stream windows shaped 'X 77 [open-value]' (article + unresolved value); find >=2 windows where a clause boundary demonstrably resolves the adjacency with a complete clause on each side, or record the survey negative",
+   "evidence": "battery-fence-83-1217 (null 2026-10-08): the (b)-path clause-boundary-after-36 needed >=2 non-granted assumptions; a precedent base would give the mechanism standing or retire it",
+   "adverses": "77='le' provisional only"
+  },
+  {
+   "id": "vient-98-name",
+   "claim": "98='vient' (finite semi-auxiliary) at battery grade",
+   "priority": 2,
+   "status": "verdict",
+   "verdict": {
+    "result": "promote",
+    "report": "code/crowd17/report_inbox/processed/battery-vient-98-name.md",
+    "date": "2026-10-08"
+   },
+   "bars": "promote iff >=2 'vient de' frame-types hold (formula x3 + @897 '[14] vient de [86-inf]') with the doubled-98 x3 (@1073/@1145/@1660), @702 ('n\\'vient'), @1139 ('pour [98]'), @930 and @1601 each fenced or resolved with stated cause; zero board contradictions",
+   "evidence": "at21-82-43-29-adjudicate null (2026-10-08): 98-83 x5: @227/@1060/@1783 'vient de me parvenir' formula x3 byte-identical, @897 'vient de [86-inf]' (86 INF-class A9); 98-00: @1137 '[62] vient pour', @1373 'et vient pour [86-inf]' (67='et' consistent with positional rule); modal rivals killed by 'de'-frames; 'em' arm dead ('qui emmener' ungrammatical)",
+   "adverses": "doubled 98 x3 ungrammatical under 'vient'; @1139 needs infinitive 'venir' (inflectional alternation = red-team act)"
+  },
+  {
+   "id": "ce33-noun-slot",
+   "claim": "33 takes a noun slot at @24 ('ce 33' = 'ce [N]')",
+   "priority": 2,
+   "status": "queued",
+   "verdict": null,
+   "bars": "resolve iff 'ce 33' @23-24 parses with 33's class stated, using 33-21 x3 (@936/@1421/@1630) as positional precedent; coordinate with queued croire-33-noun21, do not re-run its bar",
+   "evidence": "at21-82-43-29-adjudicate null (2026-10-08): 'qui vient mener ce [33]' needs 'ce'+noun (47='ce' A4); 'le dire' substantivized-infinitive precedent exists",
+   "adverses": "33={dire,[X]er} set null; A10 stem/whole HOLD; 33-as-noun ungranted"
+  },
+  {
+   "id": "en43-wordinternal-census",
+   "claim": "@21 is the only window where 43 reads word-internal 'en'",
+   "priority": 3,
+   "status": "queued",
+   "verdict": null,
+   "bars": "confirm-or-reject per-window: for each of 43's 16 windows, record whether a word-internal 'en' parse exists; pass iff only @21 (the sole 82/29 contact) admits one",
+   "evidence": "at21-82-43-29-adjudicate null (2026-10-08): 43 neighbor census: @21 '82-43-29' unique; no other 82/29 contact in 16 windows; informs the 43-polyvalence petition",
+   "adverses": "none new; feeds (does not pre-empt) red-team adjudication"
+  },
+  {
+   "id": "adj-60",
+   "claim": "60 = masculine adjective ('le [60-adj] [65-N]', '[60] [03-N]' NP-frames)",
+   "priority": 2,
+   "status": "verdict",
+   "verdict": {
+    "result": "kill",
+    "report": "code/crowd17/report_inbox/processed/battery-adj-60.md",
+    "date": "2026-10-08"
+   },
+   "bars": "promote iff 'le [60-adj] [65-N]' @454 plus >=2 of the @690/@1644/@1674 '[60] [03-N]' frames cohere with 65 and 03 nominal (both independently supported: '65 qui' x3 @724/@1208/@1340; 'le [03]' @722, 'ce [03]' @1014/@1790 via 47='ce') and zero contradictions",
+   "evidence": "battery-noun-60 (kill 2026-10-08): cleaner rival demonstrated — all four bar frames parse with zero unattested assumptions under 60=masculine-adjective + 03=masculine-noun vs two required by the noun claim",
+   "adverses": "kill-check must include @1338/@700 verb-forcing windows; adjective-vs-verb tension is a potential second-polyvalence question for red-team declaration (§7)"
+  },
+  {
+   "id": "verb-60",
+   "claim": "one verbal value (or stated positional rule) covers 60's six verbal windows",
+   "priority": 2,
+   "status": "verdict",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/processed/battery-verb-60.md",
+    "date": "2026-10-08"
+   },
+   "bars": "resolve iff one verbal value (or stated positional rule) covers all six windows (@1338 'qui 60 08', @700 'ne 60 12', @995 '03 60 67', @1474 '53 60 06', @1563 '06 60 71', @1735 '06 60 12'); if the NP-frame adjective reading also holds, frame the polyvalence question for red-team declaration per §7 (67 sole true polyvalence)",
+   "evidence": "battery-noun-60 (kill 2026-10-08): six windows force 60 into verb slots ('qui [60]' @1338 under granted 64='qui'; 'ne [60]' @700 under promoted 94='ne')",
+   "adverses": "coordinate with adj-60 (adjective arm) — do not duplicate its NP-frame bar; polyvalence declaration is a red-team act"
+  },
+  {
+   "id": "tout-14-rerun",
+   "claim": "re-test the tout-[14] parallelism once noun-60 lands",
+   "priority": 2,
+   "status": "verdict",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/processed/battery-tout-14-rerun.md",
+    "date": "2026-10-08"
+   },
+   "bars": "name 14='le' (determiner) iff 'tout le [60-noun]' parallelism holds AND the '62-94-79-14-60' SVO wall falls; coordinate with frame-62-94-79-reparse, do not duplicate noun-60's bar",
+   "evidence": "battery-tout-slot-14 (null 2026-10-08): C1 (parallelism) failed — 14='le' gives slot-level parallel only, load-bearing on noun-60's untested bar; '79 14' bigram frame-exclusive to the unparsed frame | Battery 2026-10-08: NULL - pre-registered bar unsatisfiable under landed noun-60 outcome (60 nominal KILLED; adjective rival live): 'tout le [60-noun]' parallelism fails under every live reading of 60; '62-94-79-14-60' SVO wall stands (load-bearing on 'ne'+'tout', not on 60); determiner adverse not answered, re-framed (blocker moved from 60-slot to 'ne tout' head). 14='le'-determiner NOT forced false: tail-compatible as 'le [60-adj] [03-N]' under the adjective rival. Follow-ups: le14-adj60-tail, clitic-14-82-breakers, det14-elsewhere.",
+   "adverses": "determiner reading was SVO-killed inside the unparsed frame"
+  },
+  {
+   "id": "breaker-b4-1121",
+   "claim": "resolve the '06 14 06' @1121 breaker (structural anomaly)",
+   "priority": 2,
+   "status": "queued",
+   "verdict": null,
+   "bars": "resolve iff a clause boundary is demonstrated with punctuation-independent evidence, or 14 takes a value grammatical between two promoted 'ent' verb-endings; else confirm as a genuine word-boundary residual",
+   "evidence": "battery-tout-slot-14 (null 2026-10-08): B4 @1121 strongest breaker — no word-level value parses between two promoted 'ent' verb-endings (ent-06 promoted)",
+   "adverses": "word-level values all fail between two 'ent' endings"
+  },
+  {
+   "id": "verb-14-rival",
+   "claim": "14 = infinitive/verb-stem rival tested across the verb frames",
+   "priority": 3,
+   "status": "queued",
+   "verdict": null,
+   "bars": "name 14=verb iff B2, B3, @72, @178, B1, B4 all parse as verb frames with <=10% orphan; else kill the rival",
+   "evidence": "battery-tout-slot-14 (null 2026-10-08): B3 'vient me [14]' under 98='vient' (vient-98-name queued), @813 '[14]er' — verb-rival legs untested",
+   "adverses": "coordinate with tout-slot-14's breaker fencing; do not re-litigate frame-62-94-79's kills (14='me', 14='est', 14=verb-in-frame)"
+  },
+  {
+   "id": "profile-52-host-word",
+   "priority": 3,
+   "status": "queued",
+   "verdict": null,
+   "claim": "decide the 'pre[52]a' host word at @1334",
+   "bars": "name a French 'pre?a' lexeme governing 'de+INF' (e.g. test 52='scri' -> 'prescrira de [INF]') across 52's 27 windows, or kill the word-internal-39 reading at @1334",
+   "evidence": "from battery-de-83-residuals.md promote (2026-10-08): @1334's host-word question (52) is the decider for the word-internal-39 fork (70-39-11 x2 class); the @1334 fence dissolving the 83='de' kill-grade adverse is conditional on it; feeds queued de-83-sweep. Discriminating frames: 70-52-39 (@1334) vs 52-38-37 x2 (@383/@1343) vs 94-52-80 x2 (@1294/@1807).",
+   "adverses": "coordinate with queued unit-52-37-name (52-37 bigram) and queued de-83-sweep (this battery's fences feed its 15-window sweep) — do not duplicate their bars"
+  },
+  {
+   "id": "le14-adj60-tail",
+   "priority": 2,
+   "status": "queued",
+   "verdict": null,
+   "claim": "14='le' (determiner) heads the frame tail under the adjective rival",
+   "bars": "resolve iff '14 60 03' @1365/@1689 parses as 'le [60-adj] [03-N]' with the '94 79' head resolved per frame-62-94-79-reparse; gated on adj-60 naming 60's adjective value; else fence 14's value as frame-dependent",
+   "evidence": "battery-tout-14-rerun null (2026-10-08): noun-60 battery shows 60-adj + 03-noun coherent on these exact windows, zero unattested assumptions; '94 79' head still anomalous; adj-60 not yet run",
+   "adverses": "'94 79' head still anomalous; adj-60 not yet run"
+  },
+  {
+   "id": "clitic-14-82-breakers",
+   "priority": 3,
+   "status": "queued",
+   "verdict": null,
+   "claim": "the '82 14' x2 windows break the clitic-vs-determiner tie",
+   "bars": "name 14's class iff '82 14' @623 ('82 14 59') and @896 ('82 14 98') both parse under one class with 82='m' banked (clitic cluster vs determiner after elided 'm''), <=1 stated assumption; else fence as tie",
+   "evidence": "battery-tout-14-rerun null (2026-10-08): the only two 14-windows with a banked-value predecessor; tie recorded by tout-slot-14",
+   "adverses": "59='est' provisional at @623; 98's value open at @896"
+  },
+  {
+   "id": "det14-elsewhere",
+   "priority": 3,
+   "status": "queued",
+   "verdict": null,
+   "claim": "14='le'-determiner has legs outside the frame",
+   "bars": "record a determiner leg iff >=2 of @72/@141/@339/@586 parse as determiner + named nominal head with zero contradictions; else fence 14's determiner value to the frame tail",
+   "evidence": "battery-tout-14-rerun null (2026-10-08): @339 '31 14 45 64' ('[31] [14] ce qui'), @586 '18 14 00 97' ('[14] pour [00]' determiner-hostile), @72 '87 14 24' ('cela [14]...'), @141 '66 14 74'",
+   "adverses": "several windows look determiner-hostile; heads unnamed"
+  },
+  {
+   "id": "poly-60-redteam",
+   "priority": 1,
+   "status": "queued",
+   "verdict": null,
+   "claim": "RED-TEAM DECISION: 60 adjective (NP frames) vs 60 verb (kill-grade windows) polyvalence",
+   "bars": "resolve iff red team declares 60 polyvalent (adjective/verb) with a positional rule, or assigns one class with all 18 windows parsing",
+   "evidence": "battery-adj-60 kill (2026-10-08): 60 adjective clean on NP frames @454/@690/@1644/@1674 (anchors independently supported) + @995 postnominal support; 60 verb forced at @1338 (granted 64='qui') and @700; battery gathers evidence only. SUPERVISOR NOTE: red-team decision target — do not dispatch as a battery worker; stands queued as a red-team docket item",
+   "adverses": "only the red team may declare polyvalence per §7 (67 sole true polyvalence)"
+  },
+  {
+   "id": "adj-frames-995-637",
+   "priority": 2,
+   "status": "queued",
+   "verdict": null,
+   "claim": "harden the adjective arm: @995 postnominal + @637 coordination frames",
+   "bars": "promote-frame iff both @995 '03 60 et' and @637 'que 60 et' parse as postnominal/coordinated adjective with 03 nominal (independently supported) + zero contradictions",
+   "evidence": "battery-adj-60 kill (2026-10-08): @995 support ('[03-N] [60-adj] et la...' postnominal, 67='et' via positional rule); feeds poly-60-redteam",
+   "adverses": "load-bearing on the 67 positional rule (67='et' via non-infinitive followers 77/11); does not duplicate the four bar frames"
+  },
+  {
+   "id": "participle-60",
+   "priority": 2,
+   "status": "queued",
+   "verdict": null,
+   "claim": "single-class rescue test: one VERBAL value for 60 parses NP frames AND verb slots",
+   "bars": "resolve iff one stated verbal value (e.g. present participle / verb stem) parses all six windows (@454/@690/@1644/@1674 + @1338/@700) with <=1 unstated assumption; else confirm the polyvalence question",
+   "evidence": "battery-adj-60 kill (2026-10-08): K1/K2 vs W1-W4 tension; if one verbal value covers all six, no polyvalence is needed",
+   "adverses": "coordinate with verb-60 (do not duplicate its six-window bar); '21 60' x4 formula thirds question fenced to frame-vient-parvenir"
+  },
+  {
+   "id": "verb-60-bare",
+   "priority": 2,
+   "status": "queued",
+   "verdict": null,
+   "claim": "name the bare-60 verb across V1–V4 (@1338/@700/@995/@1474)",
+   "bars": "name one verb with stem 60 parsing all four frames with stated syllable boundaries, using only banked/granted/promoted values; 60='on' excluded (84='on' granted)",
+   "evidence": "battery-verb-60 null (2026-10-08): V1/V2/V4 verb-forcing re-derived ('qui [60]' @1338 under granted 64='qui'; 'ne [60]n' @700; '[53] [60]ent' @1474 under promoted 06='ent'); V3 verb-compatible",
+   "adverses": "08/98/53 open; V4 '[60ent] veut [inf]' adjacency fenced (clause boundary or 53 re-parse needed); V3 also adjective-compatible — coordinate with adj-60, do not re-litigate"
+  },
+  {
+   "id": "verb-60-ent",
+   "priority": 2,
+   "status": "queued",
+   "verdict": null,
+   "claim": "name the ent-60 verb across V5–V6 (@1563/@1735)",
+   "bars": "name one ent-prefixed verb (ent[60]...) parsing both windows with stated boundaries; 60='on' ('entonne') excluded (84='on' granted; fails V2)",
+   "evidence": "battery-verb-60 null (2026-10-08): 06 forward-attachment forced by 30='pas' ('pas 06 60' parses @1561/@1733 per pas-30's own parses)",
+   "adverses": "71 open; V6 boundary ('ent[60]ne' one word vs 'ne' word — one-word preferred); @232 '60 71' twin fenced to queued frame-vient-parvenir"
+  },
+  {
+   "id": "split-60-verbs",
+   "priority": 3,
+   "status": "queued",
+   "verdict": null,
+   "claim": "distributional split test: bare-60 verb (V1–V4) vs ent-60 verb (V5–V6) as two items sharing syllable 60",
+   "bars": "split iff the predecessor/successor selectional profiles of 60 in {V1–V4} vs {V5–V6} frames are distinguishable per the {33,86} split precedent (adapted); merge iff indistinguishable",
+   "evidence": "battery-verb-60 null (2026-10-08): prefix/suffix asymmetry ('ent' suffix in V4 vs 'ent' prefix in V5/V6; '06 60 06' x0)",
+   "adverses": "n small (4 vs 2 windows) — underpowered, grade accordingly; a split is two items, not polyvalence, so §7 does not block the test"
   }
  ]
 }

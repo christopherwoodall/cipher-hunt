@@ -3559,6 +3559,65 @@ All notes trace: `code/crowd17/report_inbox/processed/`.
   to single-token perturbations) — the structural question stays
   live for queued singleton-68-predecessors.
 
+### Round-17 wave-10 addenda (2026-10-08 UTC, crowd17 — 11 battery notes;
+red-team ratification pending)
+
+11 notes trace: `code/crowd17/report_inbox/` (3 new this sweep:
+battery-donne-168-708-leg.md, battery-noun-89-1377-adjudicate.md,
+battery-stem-44-nominal.md) and `code/crowd17/report_inbox/processed/`
+(8: battery-adj-60.md, battery-at21-82-43-29-adjudicate.md,
+battery-fence-83-1217.md, battery-noun-60.md, battery-tout-14-rerun.md,
+battery-tout-slot-14.md, battery-verb-60.md, battery-vient-98-name.md).
+1 promote, 2 kills, 8 nulls.
+
+- **F123 — battery-PROMOTE: 98='vient' (finite semi-auxiliary)**
+  (battery-vient-98-name; 98 n=40, all 40 windows re-derived and
+  scanned). All seven pre-registered bar clauses pass (2–5 via the
+  explicit fencing the bar itself permits): two 'vient de' frame-types
+  hold — formula 98-83-82-96-21 x3 byte-identical (@227/@1060/@1783)
+  and @897 '14 98 83 86' = '[14] vient de [86-inf]'; doubled-98 x3
+  (@1073/@1145/@1660), @702 ("12 98" = "n'vient"), @1139
+  ('00 98' = 'pour [98]'), @930 ('82 98 83 56'), @1601 ('82 98 00 44')
+  each fenced or resolved with stated cause; zero board contradictions.
+  No standing red-team verdict contradicted (no A-item covers 98;
+  checked `code/crowd15/report_inbox/next-token-redteam.md`). WHY:
+  the two independent 'vient de' frame-types plus the 40-window sweep
+  with zero contradictions earn battery grade — provisional,
+  red-team ratification pending. Caveats: clause 1 rests on the
+  83='de' lead (le83 null — ratifying 83='de' hardens this promote);
+  the doubled-98 x3 cause is unknown (if the red team declares a
+  second value for 98, clauses 2/4 re-open); 62='il'
+  (demonstrated-not-promoted) underwrites four '[62] vient' windows.
+  Follow-ups: none required (promote); residuals routed outward —
+  doubled-98 cause (red team), 83='de' ratification (le83 line),
+  48-slot residuals @124/@971/@1317 (verb-48 line).
+- **KILL (wave-10): 60 = masculine noun KILLED** (battery-noun-60;
+  60 n=18, full 18-window census, all counts re-derived). The bar's
+  coherence fails on all four frames under the nominal reading (C1
+  'le [60]' @454; C2 at least 2 of the 3 non-frame-family '60 03'
+  windows @690/@1644/@1674 as NP-frames — offset correction recorded:
+  the queue's @1675/@691 are the 03 positions; the 60 positions are
+  @1674/@690 on the repaired stream), the "value unnamed" adverse is
+  unanswerable (C3), and two independent windows force 60 into verb
+  slots — @1338 'qui 60' and @700 'ne 60' — kill-grade per protocol.
+  A cleaner rival class (60 = masculine adjective) stood as the
+  demonstrated rival. Correction to the lane record: '87 03' occurs x0
+  — the 'ce [03]' @1014/@1790 support is via 47='ce' (granted A4), not
+  87='ce'; the 03-noun support itself stands ('le [03]' @722).
+  Follow-ups: adj-60, verb-60 (both done this wave).
+- **KILL (wave-10): 60 = masculine adjective, single-value KILLED**
+  (battery-adj-60). The four bar frames DO cohere under the adjective
+  reading (C1–C3 pass — 'le [60-adj] [65-N]' @454; 65 nominal via
+  '65 qui' x3 @724/@1208/@1340; 03 nominal via 'le [03]' @722 and
+  'ce [03]' @1014/@1790 — the adjective is the confirmed cleaner
+  rival to the killed noun claim on those frames), but C4 fails at
+  kill grade: two independent windows force 60 verbal — @1338
+  'qui 60 08' and @700 'ne 60 12' under red-team-granted values. Both
+  single-value claims for 60 are dead; the live result is the bare-60
+  vs ent-60 verbal shape split (see N100). Follow-ups:
+  poly-60-redteam (p1, red-team adjudication packet — queued),
+  adj-frames-995-637 (p2 — queued), participle-60 (p2 — queued).
+
 ### Offset-validation (crowd18, 2026-10-08 UTC — bedrock validation of
 the 70 row offsets)
 
@@ -3731,6 +3790,15 @@ recorded in `_meta.note` for the red team. The grid HTML/PNG carry
 the merge-time regeneration (mtime 18:27:41 UTC); `generate.py` ran
 this sweep (per coordinator): printed **UNCHANGED** — the periodic
 table grid is current.
+
+**Coordinator merge 2026-10-08 21:25 UTC** — the registry records
+the wave-9 F122 battery-PROMOTE: cell **21=["noun","cls"]** added
+(`_meta.note`: "F122 (2026-10-08): 21=NOUN class battery-promote").
+All other cells unchanged from the 18:27 merge. The grid HTML/PNG
+carry the merge-time regeneration (mtime 21:25:41 UTC); `generate.py`
+ran 2026-10-08 ~23:16 UTC (this sweep): printed **UNCHANGED** — the
+periodic table grid is current. Registry is coordinator-owned;
+batteries keep feeding it via the adjudication queue.
 
 ---
 
@@ -4836,6 +4904,158 @@ on scorecard integrity. Round-2's F13 dissolution and round-3's rival
   intrinsic, not a misread. Trace:
   `code/crowd17/report_inbox/processed/battery-thirds-60-68-pair.md`.
 
+### Round-17 null batch, wave 10 (crowd17, 2026-10-08 UTC)
+
+- **N96 — noun-60 KILL (60 = masculine noun dead)**: see the wave-10
+  findings entry — C1/C2 coherence fails on all four bar frames,
+  "value unnamed" unanswerable, @1338 'qui 60' and @700 'ne 60'
+  force verb slots at kill grade. Offset correction banked: the
+  queue's @1675/@691 are 03 positions; 60 sits at @1674/@690.
+  Attribution correction banked: 'ce [03]' @1014/@1790 is via 47='ce'
+  (granted A4) — '87 03' occurs x0 stream-wide. Trace:
+  `code/crowd17/report_inbox/processed/battery-noun-60.md`.
+- **N97 — adj-60 KILL (60 = masculine adjective single-value dead)**:
+  see the wave-10 findings entry — C1–C3 pass (adjective confirmed
+  as the cleaner rival to the killed noun claim on the four bar
+  frames), but C4 fails at kill grade: @1338 'qui 60 08' and @700
+  'ne 60 12' force 60 verbal under red-team-granted values. Both
+  single-value claims for 60 dead; the live result is the bare-60 vs
+  ent-60 verbal shape split (N100). Follow-ups: poly-60-redteam (p1
+  — queued), adj-frames-995-637 (p2 — queued), participle-60 (p2 —
+  queued). Trace:
+  `code/crowd17/report_inbox/processed/battery-adj-60.md`.
+- **N98 — at21-82-43-29-adjudicate NULL (red-team escalation)**:
+  clause (c) of the bar cannot be satisfied at battery level. @21's
+  unique 82-43-29 trigram forces 43 word-internal — 'mener'/
+  'emmener'-family with 43='en' under the non-negotiable 82='m',
+  29='er' (47='ce' fencing the stem) — while @343/@1027 'par [43]'
+  forces noun-43 ('par suite' the only grammatical reading). No
+  single value covers both windows; declaring a second polyvalence
+  or a positional rule for 43 is a red-team act per §7 (67 et/veut
+  is the sole true polyvalence) — petition filed with stated cause.
+  No standing verdict contradicted (no red-team ruling exists on
+  43's value); noun-43 stays queued, not verdict-recorded — the
+  adjudication bar for 'par [43]' is not duplicated. Enlightenment:
+  the 'par [43]' noun force and the @21 word-internal force come
+  from disjoint value sets (granted vs non-negotiable) — the split
+  is structural, not a value-choice artifact. Follow-ups:
+  vient-98-name (done — F123 promote), ce33-noun-slot (p2 — queued),
+  en43-wordinternal-census (p3 — queued). Trace:
+  `code/crowd17/report_inbox/processed/battery-at21-82-43-29-adjudicate.md`.
+- **N99 — fence-83-1217 NULL (localized residual confirmed, fence
+  formalized)**: no grammatical parse of '36 77 83' @1215-1217
+  (a7_00) exists with 83 unfixed within ≤1 non-granted assumption —
+  naming 36 and placing a clause boundary both fail. 36 census
+  n=9 (@388/@421/@740/@1174/@1215/@1313/@1449/@1585/@1834;
+  predecessors 00 x3 'pour', 59 x2 'est'-prov, 91/49/85/45 x1;
+  successors 74 x2, 62/29/20/77/67/70/69 x1) — no class nameable;
+  83 n=15, 12–13/15 de-compatible — 83 stays the designated blocker,
+  its 'de' lead not re-litigated. The 77-83 bigram and '36 77' are
+  both unique stream-wide. Follow-ups: class-36-profile (queued),
+  fence-92-1218 (queued), clause-boundary-precedent (queued). Trace:
+  `code/crowd17/report_inbox/processed/battery-fence-83-1217.md`.
+- **N100 — verb-60 NULL (bare-60 vs ent-60 shape split)**: the six
+  verbal windows (@1338 'qui 60 08', @700 'ne 60 12', @995 '03 60
+  67', @1474 '53 60 06', @1563 '06 60 71', @1735 '06 60 12') do not
+  cohere under one nameable verbal value (C1/C2 fail — no single
+  verb or positional rule covers all six), but the verbal class is
+  undefeated (C4 passes: @1338, @700, @995, @1474 force 60 verbal;
+  noun and adjective single-value claims both killed). Structural
+  result: the bare-60 windows vs the 'ent-60' windows split by
+  shape, testable. Follow-ups: verb-60-bare (p2 — queued),
+  verb-60-ent (p2 — queued), split-60-verbs (p3 — queued). Trace:
+  `code/crowd17/report_inbox/processed/battery-verb-60.md`.
+- **N101 — tout-14-rerun NULL (bar unsatisfiable under the landed
+  noun-60 kill; 14='le' NOT forced false)**: under the live
+  adjective rival, 14='le' (determiner) heads a coherent
+  "le [60-adj] [03-N]" NP tail at both frame windows (@1365,
+  @1689). '79 14' x2 is frame-exclusive — '79 77', '79 11', '79 47'
+  occur x0 stream-wide: 'tout' never precedes another determiner
+  outside the '62-94-79-14-60' family. No window forces 14='le'
+  false; no cleaner rival demonstrated (clitic tie stays tied). The
+  frame-62-94-79 battery kills are used as premises, not
+  re-litigated; frame resolution itself stays with queued
+  frame-62-94-79-reparse. Follow-ups: le14-adj60-tail (p2 —
+  queued), clitic-14-82-breakers (p3 — queued), det14-elsewhere (p3
+  — queued). Trace:
+  `code/crowd17/report_inbox/processed/battery-tout-14-rerun.md`.
+- **N102 — tout-slot-14 NULL (no class nameable)**: C1 fails — the
+  'tout [14]' ∥ 'tout [82]' parallelism is underdetermined under
+  one stated value; all four breakers fence with stated cause (@84:
+  '16 14' — 16 open; @424 '47 14 62 48' RESOLVES under 14='le' via
+  the A8-granted 'ce le [verb]' frame with 24=finite verb now
+  class-level; @623/@896 '82 14' fenced; @1121 '06 14 06' fenced).
+  14='le' was never promoted — no §7 second-polyvalence violation,
+  no 77~14 homophony created. Follow-ups: tout-14-rerun (done —
+  null), breaker-b4-1121 (queued), verb-14-rival (queued). Trace:
+  `code/crowd17/report_inbox/processed/battery-tout-slot-14.md`.
+- **N103 — donne-168-708-leg NULL (windows parse; naming unmet)**:
+  both leg windows parse cleanly under standing values — 'on donne
+  21' @168 (84='on' granted, 12='n'/48='e' promoted; "84 53-12-48"
+  = "on donne" compositional) and '35 donne 71' @708 (conditional
+  on 35 singular, uncontradicted) — and the 53-12-48 trigram census
+  on the repaired stream is exactly 2x (@168, @708): the leg covers
+  the full trigram population. But the bar's naming requirement
+  fails both clauses: 21 (n=30) is unnamed in every standing
+  battery (no candidate ≥2 independent grammatical frame-legs), 71
+  (n=7, all singleton successors) unnamed at promote-grade. No
+  promote (bar unmet); no kill (no window forces the claim false,
+  no cleaner rival on the same frames). prof-53's null verdict
+  stands untouched — the leg's 'donne' reading is leg-local, not a
+  profile claim; 53-12-41/44 fenced to queued donn-41-44.
+  Enlightenment: the naming blocker is data-thinness, not grammar —
+  both windows are clean; the bar's named-value requirement is the
+  only unmet arm. Follow-ups: name-21-obj (p2), name-71 (p3),
+  prof-35 (p3) — PROPOSED, not yet queued (supervisor audit
+  pending). Trace:
+  `code/crowd17/report_inbox/battery-donne-168-708-leg.md`.
+- **N104 — stem-44-nominal NULL (stem/whole split fenced for the red
+  team)**: all 15 windows of 44 adjudicated on the repaired stream
+  (n(44)=15; all 14 bigram counts re-derived, not copied). 2 force
+  stem-level composition — @540 '12 44 29' ("44ere"-shaped: "ere"
+  is not a French word; whole-word 44 strands it — FORCED
+  stem-level) and @1160 '82 44' ("m[44]": the "m'" elision
+  alternative is excluded — 'la 44' @1070 unelided with banked
+  11='la' proves consonant-initial under §7's one-form rule) — vs
+  13 force whole-word (incl. @527 '47 44': word-internal "ce44"
+  would overturn granted 47='ce'; @1070 'la 44': banked 11='la';
+  @1714 '65 94 44 59 30' clitic slot, segmentation robust to the
+  pending 94/59 ratifications). Neither uniform status meets the
+  ≤10% orphan bar (whole-only orphans 2/15 = 13.3%; stem-only
+  orphans 13/15 = 86.7% and is unavailable — it overturns granted
+  values). This is the A10 (33/86) stem/whole HOLD precedent in
+  parallel — a standing split, not a forced answer. The noun-44
+  KILL stands untouched (segmentation ≠ noun value; whole-word
+  status is not a noun value). Per §7, declaring a second
+  polyvalence for 44 is a red-team act — the docket packet is the
+  follow-up. Follow-ups: phon-44-elision, stem-44-value,
+  poly-44-docket (red-team decision) — PROPOSED, not yet queued
+  (supervisor audit pending). Trace:
+  `code/crowd17/report_inbox/battery-stem-44-nominal.md`.
+- **N105 — noun-89-1377-adjudicate NULL (class conflict confirmed)**:
+  no verb-89 parse of @1376 kills the noun/adverb reading — seven
+  candidates tested under standing values (finite, infinitive,
+  imperative, participle, postposed-subject "V on", "[89]on"
+  compounding, re-segmentation); all fail. The sole verb-shaped
+  parse (causative-complement infinitive "pour faire [89-inf]")
+  needs ungranted 86='faire'-shaped — independently found
+  evidenceless by val-89-mirror — and would not kill the
+  noun/adverb reading anyway. The infinitive-slot legs @221 and
+  @985 re-derive standing, 77-independent (24=modal battery-promote
+  takes infinitive complements; the 48-junction at @985 fenced
+  rightward under 48='e'). Same cell, two classes — the conflict
+  is genuine and confirmed; its resolution belongs to the red team
+  under §7's sole-polyvalence law, whose packaging
+  (class-89-adjudicate, PROMOTED 2026-10-08 — window table 11/14
+  noun-clean + 3 infinitive-slot legs, no class named, no
+  polyvalence declared) already exists — this battery's
+  confirmation feeds that docket, no new escalation opened. Feed
+  for val-89-mirror's clause 3 confirmed already present in its
+  docket (adopted via frames-80-89-indep) — bar not duplicated.
+  Follow-ups: faire-86-causative-test, adv-89-1376, tail-1376-on92
+  — PROPOSED, not yet queued (supervisor audit pending). Trace:
+  `code/crowd17/report_inbox/battery-noun-89-1377-adjudicate.md`.
+
 ---
 
 ## 6. Open hypotheses (not promoted — each needs ≥2 independent checks)
@@ -5015,6 +5235,43 @@ unmeasured, provisional; the mine-v3/corpus copies were removed
   33="laisser" (N79, gated on 16/85), the 'ce ver[65]' completion at @1105
   (ver78-65-completion, gated on prof-65), the 'ce verdict' x2 leg @573/@982
   (verdict45-value, gated on R16-004).
+
+- **Round-17 wave-10 deltas (2026-10-08):** battery-PROMOTED: 98='vient'
+  (finite semi-auxiliary, F123 — 40/40 windows, zero board
+  contradictions; caveats: rests on the 83='de' lead, doubled-98 x3
+  cause unknown, four '[62] vient' windows ride on unpromoted
+  62='il'). KILLED: 60=masculine-noun (N96), 60=masculine-adjective
+  single-value (N97) — both single-value claims dead; the live
+  result is the bare-60 vs ent-60 verbal shape split (N100).
+  NULLs: donne-168-708-leg (N103 — both 'donne' windows parse, the
+  53-12-48 trigram is exactly 2x stream-wide, but 21/71 unnamed;
+  prof-53 null untouched), stem-44-nominal (N104 — 2/15 windows
+  force stem-level @540/@1160 vs 13/15 whole-word; whole-only
+  orphans 13.3% > 10% bar — the A10 stem/whole HOLD in parallel,
+  red-team docket), noun-89-1377-adjudicate (N105 — class conflict
+  confirmed: no verb-89 parse of @1376 kills the noun/adverb
+  reading; infinitive-slot legs @221/@985 stand; escalated to the
+  already-promoted class-89-adjudicate packaging), at21-82-43-29
+  (N98 — @21 forces word-internal 'en' vs 'par [43]' forces noun;
+  §7 red-team petition), fence-83-1217 (N99 — localized residual,
+  83 designated blocker), verb-60 (N100), tout-14-rerun (N101 —
+  14='le' not forced false under the adjective rival),
+  tout-slot-14 (N102 — no class; all four breakers fenced). Open and
+  queued: poly-60-redteam (p1), adj-frames-995-637 (p2),
+  participle-60 (p2), ce33-noun-slot (p2), en43-wordinternal-census
+  (p3), class-36-profile, fence-92-1218, clause-boundary-precedent,
+  le14-adj60-tail (p2), clitic-14-82-breakers (p3),
+  det14-elsewhere (p3), breaker-b4-1121, verb-14-rival,
+  verb-60-bare (p2), verb-60-ent (p2), split-60-verbs (p3).
+  SUPERVISOR GAP: 9 follow-ups proposed by this wave's batteries are
+  NOT yet in `code/crowd17/next-token/battery-queue.json` —
+  name-21-obj (p2), name-71 (p3), prof-35 (p3), phon-44-elision,
+  stem-44-value, poly-44-docket (red-team decision),
+  faire-86-causative-test, adv-89-1376, tail-1376-on92 — the
+  supervisor audit of their follow-up sections is outstanding
+  (standing directive: the supervisor queues proposed targets
+  itself).
+
 
 - **62="on"** — FENCED-LEAD (STRONG LEAD, promotion DENIED by red team,
   Ruling 1; round-6 non-ear battery: NO PROMOTION, honest null — N25):
