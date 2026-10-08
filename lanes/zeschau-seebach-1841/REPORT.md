@@ -2968,6 +2968,88 @@ adjudicated; **red-team ratification pending**)
   06="ent/ment" lead, 00="pour" prom, 77="le" prov (demoted from
   prom), 78="ver" lead (78="er" KILLED). `generate.py` printed
   UNCHANGED — the grid was already current; no figure regenerated.
+- **Wave-4 bookkeeping**: the supervisor regenerated
+  `code/crowd17/next-token/battery-queue.json` (176 targets; mtime
+  2026-10-08 11:13 UTC) after ingesting the wave-4 verdicts.
+  Separately, the 18 texts under `code/side-period/work/mine-v3/
+  corpus/` present at the last sweep are absent now; the same
+  filenames exist in `code/side-period/corpus/` — observed as a
+  cleanup of duplicates, not a data loss (the working corpus is
+  unchanged). The mine-v3 mentions below predate that cleanup.
+
+### Round-17 wave-4 addenda (2026-10-08 UTC, crowd17 next-token —
+12 batteries adjudicated; **red-team ratification pending**)
+
+- **F97 — ent-06 battery-PROMOTE: 06="ent"** (bar: stem-
+  classification of the 94/14/68 followers decides verb-vs-adverb +
+  ≥3 clean frames; both clauses PASS). Full census: 06 n=44 on the
+  repaired stream. Clean frames: F1 @578-581 "94-82-06-06" = "ne
+  mentent" (82="m" + 06="ent" ×2 = "mentent", 3pl of mentir, clean
+  negated verb phrase); F2 @1182-1185 the second "ne mentent"
+  instance; F3 @346-349 "06-70-12-94" = "entreprenne" (3sg
+  subjunctive; 70-12-94="prenne" established). The "[X]-06-11"
+  la-frames: @1121-1123 "14-06-11" and @1719-1724 "68-06-11" parse
+  ONLY as verb+object (adverb+"la" is ungrammatical) — conditional
+  on 14/68 = verb stems (both open). The adverb fork is decided at
+  battery level: "-ment" = 82+06 compositional, not a standalone 06
+  value. No standing red-team verdict contradicted. **Registry
+  note**: the registry already carries 06="ent/ment" as a lead from
+  the 07:21 UTC merge; this battery promotes 06="ent" and closes
+  the fork — the change stands queued for the next coordinator
+  merge (registry file itself unchanged this sweep). Trace:
+  `code/crowd17/report_inbox/processed/battery-ent-06.md`.
+- **F98 — verb-32 battery-PROMOTE: 32 = one verb lexeme** (bar: 32
+  as verb stem across all 13 windows; all clauses PASS, all
+  adverses answered). All 13 windows parse under a single lexeme:
+  finite 3sg forms ("qui 32" @33; "qui [32]e" @855),
+  past-participle forms ("est [32](e)" @317/@449/@1211),
+  participle modifier/passive (@130/@532/@1176/@1283/@1572),
+  finite-or-participle (@248/@257/@1417). Epistemic grading for the
+  red team: 6/13 windows strong, 1 medium (@1176), 1 medium-gated
+  (@532, on noun-26's pending rule), 5 weak (neighbor-class
+  assumptions stated). **The adj-32 dual-behavior question
+  ("adjective/verb needs a red-team polyvalence adjudication",
+  N56) is DISSOLVED at battery level — the adjectival function is
+  the participle of the same verb lexeme, so no second polyvalence
+  is required.** Pending red-team ratification. Trace:
+  `code/crowd17/report_inbox/processed/battery-verb-32.md`.
+- **F99 — ne-24-profile battery-PROMOTE (class-level): 24 = finite
+  verb** (bar: 24's class named verb-or-preposition + "ne 24 ce" ×2
+  parse + 24→87 ×10/52 explained; all clauses PASS). 52 windows
+  scanned. Finite-verb slots: @547 ("que [24]"), @955/@1693 ("que
+  [24] [85-stem]"), @311/@474 ("qu'on [24] [37]"), @1486 ("que
+  l'on [24] ce"). Infinitive-taking: 24→85 ×5 (85=verb-stem, A3),
+  24→89 ×3, 24→80 ×2, 24→82→16 ×2 ("peut me [dire]"-shaped modal).
+  The VALUE is NOT named — it belongs to a future value battery.
+  Consequence for the value board: the old "24 = en (strong lead)"
+  reading is excluded by the verb class; the value arm is now open.
+  Downstream consumers: disc-01-24-ci-X, w1-314-ambig. No standing
+  red-team verdict contradicted. Trace:
+  `code/crowd17/report_inbox/processed/battery-ne-24-profile.md`.
+- **F100 — ci-01-value KILL: 01="ci" and 01="faisant" both killed
+  as general values** (bar: "01 24" ×3 and "37 01" ×3 cohere under
+  one value with ≤10% orphan; the discriminator windows kill both
+  disjuncts at kill grade). W1 @40, W2 @828: "ci" directly before
+  the granted finite verb 24 is ungrammatical; the pre-registered
+  ci-compound rescue (ci-dessus/ci-apres) is dead under the F99
+  24-class grant. W1/W2/W3 (@40/@828/@984): participle + finite
+  verb with no recoverable subject → "faisant" ungrammatical at
+  all three. Generous orphan counts: "ci" ≥24/28 (86%),
+  "faisant" ≥23/28 (82%) — far above the 10% bar.
+  **Explicitly NOT killed (fenced)**: "-ci" as a BOUND morpheme in
+  "ceci" (87-01 ×2 @345/@1029, 47-01 @195, 45-01-24 @984 — the one
+  clean "ceci [verb]" window); word-internal readings (37-01 as
+  part of a "-faisant" compound adjective; 01-29="-cier" @596)
+  untested. Dependency: the "ci" kill is load-bearing on F99's 24
+  class grant — if that grant is ever overturned, re-open. Trace:
+  `code/crowd17/report_inbox/processed/battery-ci-01-value.md`.
+- **Registry consequence (wave 4)**: registry file unchanged since
+  the 07:21 UTC coordinator merge — grid NOT regenerated. Pending
+  for the next merge: 06="ent" (F97, fork closed — supersedes the
+  "ent/ment" dual lead), 39="/a/" (F88), 30="pas" (F89), 24 =
+  finite-verb class (F99, value open), 32 = verb lexeme (F98).
+  None of the wave-4 battery verdicts was contradicted by a
+  standing red-team ruling.
 
 ### Smith rebuild2 status (2026-10-08 UTC — rung-C clean re-run PASS;
 memorization re-probe CLEAN)
@@ -3053,7 +3135,10 @@ memorization re-probe CLEAN)
   (Augsburg) 1841-01-12 through 1841-01-25, Guizot *Mémoires* t1–t3
   (Gutenberg), Talleyrand *Mémoires* v1. Era- and register-matched
   reference material for the H3 program (not yet wired into any
-  calibration run — provisional until measured).
+  calibration run — provisional until measured). **Cleanup
+  2026-10-08: those 18 mine-v3/corpus texts are absent since the last
+  sweep; the same filenames exist in `code/side-period/corpus/` — the
+  working corpus is unchanged.**
 
 ### table-grid registry (2026-10-08 07:21 UTC — coordinator merge)
 
@@ -3660,6 +3745,110 @@ on scorecard integrity. Round-2's F13 dissolution and round-3's rival
   orphan86-1131-1147. Trace:
   `code/crowd17/report_inbox/battery-stem-33-86.md`.
 
+### Round-17 null batch, wave 4 (crowd17, 2026-10-08 UTC)
+
+- **N63 — ce-frame-45-64-96-43-87-01 battery NULL** (bar: (a) both
+  windows parse with 43 named, (b) the "qui ce qui" left edges
+  parsed or fenced; clause (a) CONDITIONAL-pass only, clause (b)
+  FENCED). The byte-identical 6-gram "45-64-96-43-87-01" occurs
+  exactly ×2 (@340, @1024). Both windows read "ce qui par [43] ce
+  [01]" iff 43="suite" — the sole candidate of noun-43's set
+  {suite, condition, maniere, mesure} grammatical after "par" ("par
+  condition/maniere/mesure" are not French); 43's value arm is
+  noun-43's, so the clause cannot pass unconditionally. Left
+  edges fenced with stated cause: @340's "64-31-14" (31/14
+  value-open) and @1024's "53-84-92-64" (53/92 open; whether a
+  clause boundary falls between @1023 "qui" and @1024 "ce" is
+  undecidable until 92's class resolves — gates on N64). Not kill:
+  neither window forces the reading false. Follow-ups queued:
+  noun-43-discriminator, edge-1024-clause-boundary,
+  edge-340-31-14. Trace:
+  `code/crowd17/report_inbox/processed/battery-ce-frame-45-64-96-43-87-01.md`.
+- **N64 — class-92 NULL** (bar: ≥3 of 92's 22 windows parse under
+  the named class + zero forced contradiction). Full 22-window
+  profile re-derived on the repaired stream (n(92)=22 confirmed;
+  predecessor/follower counts match the queue exactly). The
+  profile forces disjoint classes at disjoint governor sets: "pour
+  [92]er" @1154 (92 takes the -er infinitive ending — the
+  strongest single window, verb-stem-shaped); "la [92]" ×3
+  (article+noun/adj or clitic+verb); "on [92]" ×2 (forces verbal);
+  the only true ne-governor is @60-66 (the @1549 94 is word-internal
+  to "prenne"). No standing red-team verdict contradicted: A14
+  granted 92 only set-level INF-signal ("genuinely ambiguous");
+  A6's "-ere" value kill untouched (@683 fenced, never re-valued);
+  the 09~92 HOLD untouched. Escalated to the red team. Trace:
+  `code/crowd17/report_inbox/processed/battery-class-92.md`.
+- **N65 — erstem-33-id NULL (conditional lead)** (bar: name X iff
+  its contact profile matches a real -er infinitive's valency). The
+  5-window profile of the 33 stem (33-29 ×5 @273/@626/@1232/
+  @1424/@1477; governors {67 ×3, 47 ×1, 37 ×1}; complements {87
+  ×2, 89 ×1, 85 ×1, 82-16 ×1}) is distinctive and selects
+  "laisser" uniquely among candidate -er infinitives — but the
+  selection is conditional on two open values (16, 85) and two
+  adverses stand unanswered. This is a red-team LEAD, not an
+  identification. Not kill: no window forces the stem reading
+  false. Coordination: x-33-laisser-test (queued) owns the 16/85
+  infinitive gates. Trace:
+  `code/crowd17/report_inbox/processed/battery-erstem-33-id.md`.
+- **N66 — le83-window NULL (bar's fence path)** (bar: resolve iff
+  ONE 83 value parses both "le [83]" @1216 and the 98-83 ×5
+  "vient de" windows; else fence 83 as the blocker, not 77).
+  C2 PASSES under 83="de": all five 98-83 windows parse as "vient
+  de [X]" — load-bearing on the unconfirmed 98="vient" reading
+  (frame-vient-parvenir adverse). C1 FAILS: "36 77 83" @1215-1217
+  = "le de" is ungrammatical in every clause position; no elision
+  rescue ("de" is consonant-initial). No other single value
+  satisfies both clauses. 83 is fenced as the blocker; 77="le"
+  provisional is not blamed. Trace:
+  `code/crowd17/report_inbox/processed/battery-le83-window.md`.
+- **N67 — ne-06-317-gate KILL (gate claim falsified)** (bar:
+  discriminate bare-ne + finite 06 vs elided "n'[06]" vs
+  adverb-06; gates clause 2 of a future 32-value promotion). Naming
+  06 (F97 "ent") did NOT resolve the @317 "94 06" hapax: all three
+  pre-registered readings fail at kill grade ("ne ent la" —
+  ending without stem; "n'ent" is not a word; no stem for the
+  adverb reading). @317 stands as a fenced residual. This does not
+  downgrade adj-32 (N56 already records @317 fenced); the gate is
+  closed and the follow-up retired. Trace:
+  `code/crowd17/report_inbox/processed/battery-ne-06-317-gate.md`.
+- **N68 — noun-26 NULL (umbrella adjudication)** (bar: 26 assigned
+  one class with all 17 windows parsing, or a positional rule
+  stated). One-class resolution is FALSIFIED at kill grade on both
+  sides (Clause 1 FAIL). The positional rule is stated with full
+  evidence — "26 = feminine noun iff immediately preceded by
+  11='la', else verb-class" — and Clause 2 passes as a finding, but
+  declaring it would be the lane's second polyvalence, a red-team
+  act per S7, so the battery cannot promote it. Headline for the
+  red team: the umbrella resolves to a positional noun/verb rule
+  with @1560's "pas" as the residual; adjudication required.
+  (Closes the dedicated noun-26 battery queued in wave 2.) Trace:
+  `code/crowd17/report_inbox/processed/battery-noun-26.md`.
+- **N69 — stem48-exclusive-legs NULL** (bar: retire-frame iff zero
+  windows require the stem reading; hold-frame iff ≥1 requires it
+  AND letter-"e"-required windows stay below 10%). Full 38-window
+  sweep of 48 under 48="e" vs 48=verb-stem: the verb-stem frame has
+  exactly two exclusive legs (@1229/@1589, "…[48]er ce" ×2,
+  byte-identical trigram) — it cannot retire — but letter-"e" is
+  required at 14/38 windows (36.8% floor) — the frame cannot hold
+  as a general claim about 48 either. The standing battery-
+  promoted 48="e" and the red-team-granted A7-L2 verb-stem frame
+  are now explicitly in tension under the §7 sole-polyvalence rule
+  (67 et/veut only); A7-L2 is NOT overwritten here — its live
+  scope is its two exclusive legs unless the red team narrows or
+  retires it. Escalated. Trace:
+  `code/crowd17/report_inbox/processed/battery-stem48-exclusive-legs.md`.
+- **N70 — verb-48 NULL (escalation)** (escalation battery: the
+  A7-L2 verb-stem frame vs the standing battery-promoted 48="e").
+  The grant's 7 legs are not falsified (@1229/@1589 favor the stem
+  reading and strain under 48="e"), but the full 38-window contact
+  profile does not match verb stems: 12/38 windows are better
+  explained as word-final letter-"e", and the profile's boundary
+  rate (0.263) matches function cells, not the clean stem 85
+  (0.000). Not kill: no window forces 48≠stem. Per §7 the A7-L2
+  grant is not overwritten; the red team adjudicates
+  narrow-to-exclusive-legs vs retire. Trace:
+  `code/crowd17/report_inbox/processed/battery-verb-48.md`.
+
 ---
 
 ## 6. Open hypotheses (not promoted — each needs ≥2 independent checks)
@@ -3697,6 +3886,25 @@ noun-44 (F5 input), ne-alone-02-74 (bare-"ne" modal cluster, F2),
 fem-32e (F4), ver78-la78-census, ver78-45-dependency-gate, and a
 dedicated noun-26 battery (the 26 war: verb legs dominate, crux
 window @1559 unresolved).
+
+**Round-17 wave-4 deltas (2026-10-08):** battery-PROMOTED: 06="ent"
+(F97 — verb-ending/adverb fork closed at battery level, pending
+red-team ratification), 32 = one verb lexeme (F98 — dissolves the
+adj-32 dual-behavior question, no second polyvalence needed),
+24 = finite-verb class (F99 — VALUE OPEN; the old "24 = en"
+reading is excluded by the verb class). KILLED: 01="ci" and
+01="faisant" as general token values (F100, both at kill grade on
+the discriminator windows; narrower bound-"-ci"/word-internal
+readings fenced, not dead — the "ci" kill is load-bearing on
+F99's 24 class grant); the @317 "94 06" gate claim (N67 — closed,
+follow-up retired). The noun-26 umbrella is adjudicated NULL
+(N68): the positional noun/verb rule is stated but its
+declaration is a red-team act per S7. Escalations now stacked for
+the red team: class-92 (N64), verb-48 vs A7-L2 (N69, N70), plus
+the wave-3 s5/frame-37/62 items. Conditional leads for the
+supervisor's queue: 33="laisser" (N65, gated on open 16/85),
+ce-frame's conditional "par suite" (N63, gated on noun-43),
+83="de"'s C2 "vient de" leg (N66, gated on 98="vient").
 
 **Round-17 wave-3 deltas (2026-10-08):** nest-subject-86-62-42
 PROMOTED (F93 — the three "n'est" frames are the only X-94-59
@@ -3787,7 +3995,8 @@ n=19,998 top-1 0.3207/top-5 0.5218/MRR 0.4183; by-ear n=19,999 top-1
 200k-word sample); track-b upd 14,100, best heldout 2.0138 (still
 declining); side-period mine-v3 corpus +18 texts (14× Allgemeine
 Zeitung Augsburg 1841-01-12..25, Guizot t1–t3, Talleyrand v1 —
-unmeasured, provisional).
+unmeasured, provisional; the mine-v3/corpus copies were removed
+2026-10-08 as duplicates of corpus/).
 
 - **62="on"** — FENCED-LEAD (STRONG LEAD, promotion DENIED by red team,
   Ruling 1; round-6 non-ear battery: NO PROMOTION, honest null — N25):
@@ -4314,9 +4523,9 @@ zeschau-seebach-1841/
 ├── NOTES.md                   ← full methodology log
 ├── STATE.md                   ← status / checkpoint / next / blockers
 ├── report_inbox/              ← worker notes land here; processed/ after sweep
-│   └── processed/             ← folded into REPORT.md (70 notes total:
-│       63 prior + 7 rotation/doctrine/overwatch notes this
-│       sweep, plus crowd-local processed/ dirs next to their inboxes)
+│   └── processed/             ← folded into REPORT.md (136 notes;
+│       plus crowd-local processed/ dirs next to their inboxes — 20 battery
+│       notes in code/crowd17/report_inbox/processed/ this sweep)
 ├── report_assets/
 │   ├── fig1_frequency.png         group frequency rank chart (1,847 pairs)
 │   ├── fig2_bigrams.png           anchor-adjacency bigrams (repaired parse)
@@ -4452,7 +4661,10 @@ keeps, ISLET 10's dependency on 46=que stands (not conditional) |
 | 17 | fois | PROMOTED (registry "prom") |
 | 79 | tout | PROMOTED (round-15 A5; registry "prom"; round-16 tout-battery CONFIRM; 2 fenced qui+tout residuals @396/@1227) |
 | 94 | ne | STRONG LEAD — "n'est" ×3 @558/@762/@1795, "ne me/m'" ×4 @578/@1182/@1353/@1742 (round-16 pre-battery); promotion DECLINED pending an independent clean leg; @578 thread closed |
-| 06 | ent/ment | LEAD — "[X]-06 la [NOUN]" ×3 @320/@1123/@1721 (round-16 la-battery); verb-ending vs adverb-ending fork open; stem-class provisional keeps (F22/N22; M1 06/86 rule F33) |
+| 06 | ent | LEAD — battery-PROMOTE 06="ent" (F97, pending red-team
+ratification): verb-ending syllable; the verb-ending vs adverb-ending fork is
+DECIDED at battery level ("[X]-06-11" frames parse only as verb+object);
+"-ment" = 82+06 compositional, not a standalone 06 value |
 | 67 | et/veut | fork RESOLVED positionally (round-16 forks battery, LEAD-grade): "veut" iff the follower is infinitive-shaped (8/38: 33 ×6, stem+29 ×2), else "et" (30/38), zero adverses; circularity caveat recorded; independent test = 93/86 infinitive-stem predictions |
 | 77 | le | PROMOTED (round-16 le-battery: "le la" adverse dissolved; 3 independent legs on banked values; zero clean contradictions); "gou" exception stays fenced |
 | 31 | VERBAL (finite) | provisional-conditioned — 3 disambiguated verbal
@@ -4480,7 +4692,10 @@ determiner-predecessors 16/31 vs 29="er" 2/45; after 33=INF 0 vs 5; OR ~22.9);
 ×2 forces "dict" @573/@982; "par ce" ×2 forces "ce" @602/@1213; @314 contested);
 **"ce/dict positional allophones" LEAD** (conditional on 78="ver") |
 | 52 | pas | lead — vs "se"/"so" rivals (F23/F26) |
-| 24 | en | lead — strong; "est" refuted |
+| 24 | finite verb (modal-shaped) | CLASS-level battery-PROMOTE (F99, pending
+ratification): finite-verb slots @547/@955/@1693/@311/@474/@1486, infinitive-taking
+24→85 ×5 / →89 ×3 / →80 ×2 / →82→16 ×2; VALUE NOT named — the old "24 = en"
+reading is excluded by the verb class; "est" already refuted |
 | 47 | ce | **PROMOTED** (allophone tier, round-15 A4; registry "prom"); round-16 ce47
 battery: 28/28 windows re-derived, NO value break (allophone HOLDS); positional spec
 now names two exceptions (never-after-24 unconditioned/@548 conditioned, never-before-64);
@@ -4500,14 +4715,20 @@ ESTE-verb tension flagged for red team |
 19-window census queued |
 | 12 | n | LEAD — "prenne/prennent" compositional (round-16 pre-battery); 12-48 = ×5 (not ×7) |
 | 39 | a/à | LEAD — "qui a" ×1 @606, "pré-a-la" ×2, "n'est [39]" @763 (round-16 pre-battery) |
+| 32 | one verb lexeme | battery-PROMOTE (F98, pending red-team ratification):
+finite 3sg + past-participle forms across all 13 windows; the adjectival function
+is the participle of the same lexeme — adj-32's dual-behavior question dissolved,
+no second polyvalence needed |
 | 81 | masculine noun | LEAD — 77-81 ×4: "le [81] pour [33-INF]", "le [81]. Cela" (round-16 le-battery);
 "prin" reading dead |
 | 78-45 | même/verdict | CONTESTED — "le même qui" lock @313 (F47, executor-grade, pending red-team)
 vs **"verdict" ×4** (round-16 forks battery: "ce verdict" ×2 @573/@982)
 
 Banned (asserted-absent, from the skeleton ledger + adjudications):
-77=pas, 77=que, 06=ent general, 06=/mɑ̃/, 96="de", 47="me" (word reading),
-01="ci", 84="plus" (via 59="est"), 84="a", 84=verb-class, **78="er"
+77=pas, 77=que, 06=/mɑ̃/ (standalone adverbial reading; 06="ent" is now
+battery-PROMOTED, F97), 96="de", 47="me" (word reading),
+01="ci" (general value, F100; bound "-ci" in "ceci" fenced, not dead),
+01="faisant" (general value, F100; word-internal readings fenced, not dead), 84="plus" (via 59="est"), 84="a", 84=verb-class, **78="er"
 (round-16 forks battery, distributional kill)**. Fenced
 (conditioned-or-dead): 43="me" (downgraded MEDIUM→WEAK — 96→43 "par me"
 era-dead; F48); 47="ce"'s positional exceptions (round-16 ce47 battery);
