@@ -13,7 +13,7 @@ three attempts, eighteen crowd rounds, and six side fleets have produced a repai
 canonical parse (bedrock-audited, F41; offset-validated, 6 confirmed / 24
 probable / 15 probable-weak / 25 unresolved, 2 flagged), a second "la
 première" occurrence, a quantified conditioned-polyvalence model, and
-thirty-two documented nulls.
+thirty-seven documented nulls.
 
 Lane: `lanes/zeschau-seebach-1841/` · Report date: 2026-10-08 ·
 Methodology log: `NOTES.md` · Checkpoint: `STATE.md`
@@ -3242,6 +3242,74 @@ All notes trace: `code/crowd17/report_inbox/processed/`.
   Residue: ver78-65-completion (p2), ver78-ce78-census (p3),
   verdict45-value (p3).
 
+### Round-17 wave-7 addenda (2026-10-08 UTC, crowd17 — 8 battery notes;
+red-team ratification pending)
+
+All notes trace: `code/crowd17/report_inbox/processed/`.
+
+- **F112 — battery-PROMOTE: the infinitive gates are satisfiable**
+  (battery-gate-satisfiability-16-85; gate-audit scope only — 16's and
+  85's values NOT named). Every one of the 28 windows of 16 and 15
+  windows of 85 assigned a class (noun / finite-verb / infinitive)
+  under the §7 sole-polyvalence law. Banked-value frames listed
+  separately from lead-grade frames: `82-16` x11 ("m'[16]" — "m'"+verb
+  fine, finite OR infinitive; 4 INF-clean @434/@1370/@1480/@1832, 7
+  INF-admissible or fenced, none forces finite-verb), `12-16` x3 ("n'"+
+  infinitive grammatical — "n'avoir pas"; double-"ne" at @844
+  disfavors the negation parse there), `16-29` x1 (@1142 fenced
+  residual — ungrammatical under all assignments, forces nothing).
+  Lead-grade tension `62-16` x4 (finite-verb shape; 62 lead-grade
+  subject pronoun), promoted-tier `16-00` x4 and `79-85` x2 (noun
+  shape) tiered, not decided. **Binary verdict PASS: gates
+  SATISFIABLE — no banked-value frame forces a non-infinitive class
+  for 16 or 85. The laisser lead (X-33, LEAD strength) is NOT killed;
+  laisser-gate-16 and laisser-gate-85 PROCEED.** Consistent with the
+  x-33-laisser-test null (2026-10-08) that chartered exactly this
+  gate. Pending red-team ratification.
+- **F113 — battery-PROMOTE: 26 = feminine noun under "la"-headed
+  determiner phrase** (battery-noun26-la-frames; all five bar clauses
+  pass on the repaired stream). @239 "41 17 11 26 12 16" = absolute
+  "une fois, la [26]" with 41="une" coherent (18/19 windows consistent;
+  only stated residual "47 41 06" @4 resists); "26 12 16" tail fenced
+  (three live readings, none forced; "26n" reading specifically
+  tested). @1559 "40 17 11 26 30 06": 26 forced nominal by banked
+  11="la" ("11 26" exactly 2x, both "...17 11 26"); the "pas" resolved
+  by a CLAUSE BOUNDARY between 26 and 30 ("[noun] pas" ungrammatical;
+  re-parse rival "l'a"+participle rejected — contradicts banked
+  11="la"). @128 "48 11 02 26 32 96" = "la [02-adj] [26-noun]
+  [32-adj]" (composition rival "02 26" 1x stream-wide, neither
+  confirmed nor excludable). @530 addressed: "qui est 32" x2 is the
+  control; 26="est" killed globally (by @239's "la est"). Eight verb
+  windows stand alongside via a **refined positional rule: 26 =
+  feminine noun iff its determiner phrase is headed by 11="la"
+  (immediate "11 26" x2, or via intervening 02 "11 02 26" x1);
+  elsewhere verb-class.** POLYVALENCE COST stated for the red team: a
+  second positional polyvalence, in tension with §7 (67 the sole true
+  polyvalence); this battery declares no polyvalence, overwrites no
+  verdict. Caveats: 30/94/12/48/06 battery-promoted (pending
+  ratification); 59="est", 77="le" provisional; 02/32/60/61 open. No
+  standing red-team verdict contradicted; answers the F107 verb-26
+  adverse (wave-6) at the frame level. Pending red-team ratification.
+- **KILL (wave-7): "44 is a noun" KILLED at @1714** (battery-noun-44):
+  '94 44 59 30' ("65 94 44 59 30", a8_06) forces 44 into a
+  non-noun (clitic/pronoun) slot — under standing values a lexical
+  noun can never intervene between 'ne' and the finite verb. All
+  escapes tested: the bar's '65ne'-word-final + '44 est
+  [30-predicative]' needs overturning pas-30's clause-2 leg and ne-94's
+  promotion (escalation, not resolution); the bar's 59/30 re-value is
+  structurally insufficient; clitic readings ("n'en est pas" /
+  "ne l'est pas") are grammatical but kill the noun claim as stated
+  (a second value needs a red-team polyvalence declaration; §7: 67
+  the sole true polyvalence). The other frames hold: '77 44' x2,
+  '47 44 59 37' @527 (clause 1 PASS), '44 00' x3 (clause 2 PASS);
+  @1618 ('la on' right-edge anomaly, independent of 44) and @540
+  ('44ere' word-internal feminine-stem composition, parallel to '82 44'
+  = "m[44]") fenced with stated cause. Conditional epistemic status:
+  kill stands on 94='ne' (battery-promoted, 6 legs) and 59='est'
+  (provisional) — if the red team rejects either, revisit. No cleaner
+  global rival demonstrated. Follow-ups: pronoun-44-1714 (p2),
+  stem-44-nominal (p2), escalate-1714-ne44 (red team).
+
 ### Offset-validation (crowd18, 2026-10-08 UTC — bedrock validation of
 the 70 row offsets)
 
@@ -4252,6 +4320,86 @@ on scorecard integrity. Round-2's F13 dissolution and round-3's rival
   reading; no value promoted or killed. Follow-ups: lever-213-complement
   (p2), lever-88-governor (p2), lever-lement-rival (p3).
   Trace: `code/crowd17/report_inbox/processed/battery-lever-77-78.md`.
+- **N82 — fence-911-de NULL (kill-grade failure of UNCONDITIONED
+  83='de', escalated; no battery-level kill — lead shared with
+  le83-window)** (@910-912 '64 83 59' = "qui de est" under 64='qui'
+  granted, 59='est' provisional — ungrammatical; trigram unique
+  stream-wide): no grammatical parse covers the trigram with <=1
+  non-granted assumption — the "59 not 'est'" fence contradicts the
+  local 59->37 A1 frame, and the clause-boundary fence leaves a
+  stranded "de" (French has no preposition stranding). @911 forces
+  unconditioned 83='de' false conditional on 64='qui' and locally
+  coherent 59='est'. 15-window 83 profile: 5/15 hostile to
+  unconditioned 'de' (@911 kill-grade; @1217 "le de"; @614/@1171 "ce
+  de" x2 → queued frame-87-83-cede 'cède'-verb rival; @1334 "39-83-86"
+  "a de [INF]" new cell; @1829 "38-83-24" "de"+finite-verb new cell),
+  the rest de-compatible. Escalated to the red team; 83='de' NOT
+  killed at battery level (shared lead). Trace:
+  `code/crowd17/report_inbox/processed/battery-fence-911-de.md`.
+- **N83 — lever-88-governor NULL (soft-pass 3/3, composition-gated)**:
+  88 (n=23, 88-77 x3 @86/@646/@1541; 88-77-78 x2 @646/@1541 —
+  full stream census) shows verb-frame contact at all three 88-77
+  windows under BOTH the one-word ("88 lever") and two-word ("88 le"+
+  78) readings, but each contact is weak (77 takes 15 predecessor
+  types; @86's 06-88 relation open). @1541 re-parses as "88 lever
+  [43-obj] pour que prenne [92]" — 43 nominal via "43 pour" x3 and
+  "par 43" x2; "pour que" (00='pour' granted, 46='que' GT); "prenne" =
+  70-12-94 ("pre"+"n"+"ne"); 92 fenced as postposed-subject candidate.
+  88's class consistent across @646/@1541. NOT promoted: 88's value
+  open (F1 owns it; 88-40 @334 "88 40 03" possibly word-internal),
+  and the whole claim rides on the parent lever-77-78 null. Gated
+  follow-ups: governor-88-value (p2), governor-88-rerun after the
+  lever-213-complement / lever-lement-rival settle (p2),
+  finiteness-88-86 (p3). Trace:
+  `code/crowd17/report_inbox/processed/battery-lever-88-governor.md`.
+- **N84 — lon-29-146 NULL (fenced, residual R3)**: @146 '84 29' is
+  unique stream-wide (84->29 x1 of n(84)=25; all other 84 successors
+  'on'-compatible). No placement of 29='er' (banked) covers
+  '64 77 84 29 87 64' ("qui l'on [29] ce qui") — left-attach gives
+  "oner" (no French word), word-initial "er"+"ce" unattested, as a
+  standalone word 'er' is not French, "erre" gives two subjects and
+  no verb, and word-internal "erce" re-litigates granted 87='ce'. The
+  29-87 junction matches the attested "[stem]er | ce" pattern — the
+  failure is strictly the 84 left context. The promoted
+  frame-qui-77-84 stands untouched on its 77-independent legs (sister
+  windows @1445/@1801 re-derived "qui l'on est [35/36]"). @146 joins
+  A15-C3's fenced R1 (@1619) and R2 (@1664) as residual R3. Trace:
+  `code/crowd17/report_inbox/processed/battery-lon-29-146.md`.
+- **N85 — stem-42-verb NULL (2/5 windows, bar needs >=3)** (claim: 42
+  takes 'ent' as a verb stem; 06='ent' battery-promoted pending
+  ratification): W1 @206 PASS ("[42]ent le [44]" transitive verb +
+  "le"+noun object; left junction fenced), W3 @544 PASS ("[42]ent pour
+  que" — strongest verb-class contact; noun rival rejected — no
+  determiner precedes 42), W2 @267 FAIL/fenced (33's
+  dire/infinitive contact forces a non-verb 42-06 unit), W4 @1188
+  FAIL/fenced (is the second A1 "est [42]" grant window — grant left
+  intact per bar clause 2), W5 @1815 dissolved by the "enter"-junction
+  rival ("[42]enter" = "entrer"-shaped, single-r; clause-boundary
+  alternative escalated — only the red team can declare a second
+  polyvalence). Not kill: W3 is a genuine verb leg. A1 value-vs-frame
+  tension escalated to the red team. Adverses: 42->94 x3 nominal
+  contact recorded (below kill grade). Follow-ups: subj-42-w3 (p2),
+  val-42-nominal (p2), w5-enter-junction (p3). Trace:
+  `code/crowd17/report_inbox/processed/battery-stem-42-verb.md`.
+- **N86 — val-89-mirror NULL (mirror selects NOUN over infinitive;
+  class not decided)**: 89 n=14, re-derived. Under noun-89 all three
+  mirror windows parse (@273 "veut [X]er [89-noun], on…"; @1375 "pour
+  [86]-er [89-noun], on…" — re-derives the frames-80-89-indep HARD
+  finding: 89 cannot be a verb after "pour [inf]"; @1391 "veut
+  [86]-er [89-noun] [16]…" consistent but incomplete — 16's class
+  open, adverse unanswered). Infinitive-89 is kill-grade dead at @1375
+  ("pour [inf] [inf]" ungrammatical; 86 INF-class, no
+  causative/perception evidence). 89's wider census: 11/14 windows
+  clean under noun; the 3 non-noun windows are exactly the 24-modal
+  infinitive-slot legs (@221/@986/@1498) — the known class conflict,
+  already escalated by frames-80-89-indep (implicates the §7
+  67-sole-polyvalence law; battery level barred from declaring
+  polyvalence). Promote would overclaim; kill of the bar unsupported.
+  Follow-ups: class-89-adjudicate (red team), tail-89-16 (after
+  frame-82-16), laisser-89-impact (feed to the X thread — the
+  causative-strengthening conditional did NOT fire; X='laisser' stays
+  conditional on 16/85). Trace:
+  `code/crowd17/report_inbox/processed/battery-val-89-mirror.md`.
 
 ---
 
