@@ -1,0 +1,145 @@
+[0] guizot-memoires-t1-gutenberg.txt | prep=de inf=troubler
+    ...uel puissant plaisir en effet que celui d'un grand mouvement intellectuel et social qui, loin de suspendre et de troubler à cette époque la vie mondaine, l'anima!
+[1] guizot-memoires-t1-gutenberg.txt | prep=de inf=faire
+    ...loi. Que de fautes et de maux s'épargneraient les hommes s'ils avaient le courage d'agir comme ils pensent et de faire hautement ce qu'ils désirent! Tous ces!
+[2] guizot-memoires-t1-gutenberg.txt | prep=pour inf=gouverner
+    ...ans nos institutions et dans nos lois, des libertés et des droits politiques, pour les y laisser ensevelis et pour gouverner sans en tenir compte! Le premier entre !
+[3] guizot-memoires-t1-gutenberg.txt | prep=de inf=propre
+    ...autres temps une vie droite et simple, et qui, de nos jours, ont erré à travers les problèmes et les ténèbres de leur propre pensée, ambitieux turbulents ou fanatiq!
+[4] guizot-memoires-t2-gutenberg.txt | prep=de inf=conjurer
+    ...g à M. le duc d'Orléans. Quels périls futurs se révélaient déjà pour cette monarchie naissante, seule capable de conjurer les périls présents du pays! Dans les !
+[5] guizot-memoires-t3-gutenberg.txt | prep=à inf=faire
+    ...l'enfance à la condition virile. Quel contraste entre ce régime et la situation des jeunes gens qui viennent à Paris faire leurs études supérieures et se préparer!
+[6] guizot-memoires-t3-gutenberg.txt | prep=de inf=l'affaire
+    ...s quelle mauvaise aventure pour le pays en présence de la question d'Orient, de la guerre civile d'Espagne et de l'affaire des États-Unis!» M. Jouffroy avait, je!
+[7] guizot-memoires-t3-gutenberg.txt | prep=à inf=insulter
+    ... exemple ou par des discours malveillants, il excitait chez les enfants cette disposition à tout méconnaître, à tout insulter, qui peut devenir dans un autre âge l'i!
+[8] guizot-memoires-t5-t6.txt | prep=pour inf=retrouver
+    ... et dissous, Dieu sait ce qui arrivera ! Dieu sait quel temps et quels événements il faudra pour retrouver un point d'arrêt ! « Pensez bie!
+[9] nesselrode-v7.txt | prep=à inf=rendre
+    ...é ou qui n'ont pas arrêté ces événements sont coupables, et quel compte ils auront, un jour, à rendre! Je n'excepte personne de cet ana!
+[10] nesselrode-v7.txt | prep=de inf=pouvoir
+    ...cher. Le bruit court que si le maréchal passe la Yislule, on ne se battra pas. Quel bonheur de pouvoir épargner le sang! D'après ce que!
+[11] nesselrode-v7.txt | prep=a inf=guerre
+    ...lleyrand et combien le ministère d'ici tient un autre langage depuis qu'il espère que, s'il y a guerre, nous pourrons envoyer notre conti!
+[12] nesselrode-v8.txt | prep=de inf=l'angleterre
+    ...mis et alliés. Combien de fois Metternich ne nousa-t-il pas prêché, conjuré de nous rapprocher de l'Angleterre! A présent que nous sommes bienav!
+[13] nesselrode-v8.txt | prep=à inf=dénigrer
+    ... ouvrage rempli de fiel et des plus mauvais. Quelle tristesse de voir des Russes se complaire à dénigrer leur pays ! C'est la maladie du !
+[14] nesselrode-v10.txt | prep=de inf=chambre
+    ...es que tout ce qu'ont débité même et peut-être surtout les ministres, dans la dernière séance de la Chambre des Communes! J'en ai honte pour !
+[15] revue-deux-mondes-1841-q1.txt | prep=de inf=fumer
+    ...rice et la sécheresse de cœur des Hollandais! combien de charmantes facéties sur leur habitude de fumer et sur le lavage quotidien des r!
+[16] revue-deux-mondes-1841-q1.txt | prep=pour inf=donner
+    ...e admirable insti- tution que celle qui arrache tant de familles à la misère, auTagabon- dage, pour leur donner un refuge, une existence, qui emp!
+[17] revue-deux-mondes-1841-q1.txt | prep=de inf=vivre
+    ...rtes. Son succes- seur est obligé de commencer par les remplacer, à moins qu'il n'ait le goût de vivre en plein vent, et c'est u!i goût!
+[18] revue-deux-mondes-1841-q1.txt | prep=de inf=future
+    ... de leur roi , Fuir sans trouver d'asile où se sauver de moi, Et, pâles de leur crainte et de la mort future, Implorer vainement, même la sépul!
+[19] revue-deux-mondes-1841-q1.txt | prep=à inf=suivre
+    ... qu'il reçut du dehors, entre sa vie idéale et sa vie réelle, si l'on voulait trop s'étudier à leur faire suivre deux hgnes parallèles ! Mais que !
+[20] revue-deux-mondes-1841-q1.txt | prep=pour inf=l'éteindre
+    ...able en tout se fait aussitôt sentir! et combien il faudrait peu de chose pour l'intercepter, pour l'éteindre, cette civilisation dont on est s!
+[21] revue-deux-mondes-1841-q1.txt | prep=de inf=pouvoir
+    ...efus de l'amiral quelque chose d'humiliant. Et quelle gloire pour la république de Buénos-Ayres de pouvoir se vanter un jour d'avoir tenu l!
+[22] revue-deux-mondes-1841-q1.txt | prep=de inf=faire
+    ..., et si tu ne m'obéis pas, tu es mort. — Tiens, dit l'empereur, quel étrange rêve je viens de faire! — Et là-dessus, il se tourne de !
+[23] revue-deux-mondes-1841-q1.txt | prep=de inf=faire
+    ..., quel qu'il soit, jeter un peu de variété sur la sèche nomenclature d'édifices que je viens de faire! LE COUVENT DE L'INQUISITION. P!
+[24] revue-deux-mondes-1841-q1.txt | prep=de inf=voir
+    ...aire, et savez-vous une galanterie plus flatteuse que cette violence? Combien seraient heureuses de se voir con- traintes de la sorte, et don!
+[25] revue-deux-mondes-1841-q1.txt | prep=de inf=pierre
+    ...uvelle Angleterre. On sait quelles péri- péties précipitèrent sous la main jalouse et vengeresse de Robes- pierre la suprématie de Danton et le liv!
+[26] revue-deux-mondes-1841-q1.txt | prep=à inf=mémoire
+    ..., sur ma noblesse d'ame, sur mon désintéressement, sur les sacrifices prétendus que je faisais à une mémoire respectable et chère , et à la m!
+[27] revue-deux-mondes-1841-q1.txt | prep=de inf=pourpre
+    ...s des rochers, ou glissant entre les croupes des montagnes, venaient tracer des crêtes d'or et de pourpre sur nos seconds plans! Quelquefois!
+[28] revue-deux-mondes-1841-q1.txt | prep=à inf=ture
+    ...abré, n'ai-je pas songé à Decamps, le grand maître de la caricature sérieuse et ennoblie jusqu'à la pein- ture historique, l'homme de génie qui s!
+[29] revue-deux-mondes-1841-q1.txt | prep=de inf=faire
+    ... tâche de couvrir dans un temps donné; quel supplice, si ce n'était un plaisir, le plai- sir de faire sa fortune! — Ce soir, le bénéfi!
+[30] revue-deux-mondes-1841-q2.txt | prep=de inf=manière
+    ...re! Quel style, quel goût, quel choix de couleurs et de tons! Quelle vulgarité de pensées et de manière! Enfin, car il y a quelques bonn!
+[31] revue-deux-mondes-1841-q2.txt | prep=pour inf=enrichir
+    ...s et abandonnés, les sommes qui devaient être consacrées à leur achèvement ayant été détournées pour enrichir quelque employé ! Un fait peut s!
+[32] revue-deux-mondes-1841-q2.txt | prep=pour inf=avoir
+    ...igé de saluer ses chefs de tous les grades. Combien de fois n'avait-il pas été mis aux fers pour leur avoir manqué de respect ou pour cause !
+[33] revue-deux-mondes-1841-q2.txt | prep=à inf=causer
+    ...déceler. Que de fascheuses gens ! mon Dieu ! quelle coustume De demeurer si tard en la rue à causer ! Ostez-vous du serein; craignez-v!
+[34] revue-deux-mondes-1841-q2.txt | prep=de inf=d'autre
+    ...s fruits porterait alors cette longue et patiente infil- tration des idées prussiennes répandues de côté et d'autre , et combien de sei- gneuries, de !
+[35] revue-deux-mondes-1841-q2.txt | prep=de inf=l'air
+    ...z Jean- Jacques, quel bouillonnement et quel orage! quelles impressions vives reçues du soleil, de l'air, du vent qui souffle, du voyageur!
+[36] revue-deux-mondes-1841-q2.txt | prep=de inf=mettre
+    ...re autant pour l'épopée de Vriso^ qui éveilla la muse de A'oltaire. 0 Voltaire, quel mensonge de plus à mettre sur votre conscience ! J'aimerais!
+[37] revue-deux-mondes-1841-q2.txt | prep=pour inf=étaler
+    ... se laisse aller à sa fantaisie, ne trouvant jamais l'espace assez vaste entre deux mor- ceaux pour étaler tout à son aise sa traînante et !
+[38] revue-deux-mondes-1841-q3.txt | prep=pour inf=être
+    ..., à la simplicité, quel danger que de si bien connaître les moyens qui furent jadis employés pour être vrai et simple ! Quelle tentation!
+[39] revue-deux-mondes-1841-q3.txt | prep=à inf=incliner
+    ...a réalité. Avec quelle intelligence l'Angleterre a pressenti cet avenir, et comme elle cherche à le faire incliner dans le sens de son intérêt! A !
+[40] revue-deux-mondes-1841-q3.txt | prep=de inf=nouer
+    ...énètre, à ce que l'on assure, jusqu'à la région équatoriale. De quel intérêt ne serait-il pas de nouer des rela- tions avec un peuple qu!
+[41] revue-deux-mondes-1841-q3.txt | prep=à inf=désirer
+    ... des croyances qui ont cours parmi les insulaires qu'ils ont visités. Combien ne serait-il pas à désirer qu'un pareil travail, si utile po!
+[42] revue-deux-mondes-1841-q3.txt | prep=pour inf=s'approprier
+    ...ain avait amassés pour l'exécution ! Quelle connaissance exquise des lettres antiques! Quel art pour tout s'approprier, depuis Homère jusqu'à Tacite, dep!
+[43] revue-deux-mondes-1841-q3.txt | prep=de inf=résister
+    ...s le trouvèrent dans un état de délabrement complet, ou- vert de plusieurs côtés, et incapable de résister à un nouvel orage! Cependant ils !
+[44] revue-deux-mondes-1841-q3.txt | prep=pour inf=porter
+    ...a Pologne, comme si un état qui a un chef et des ministres, n'avait pas tout ce qu'il faut pour porter des lois et les faire exécuter! !
+[45] revue-deux-mondes-1841-q3.txt | prep=a inf=d'autre
+    ...nt de son sort ne songe pas à en sortir, quand le fils adopte la profession du père , et n'a d'autre but que de se perfec- tionner dan!
+[46] revue-deux-mondes-1841-q3.txt | prep=à inf=établir
+    ...réquemment faut-il m'accorder, et comme il est facile de déranger cette barmonie si dif- ficile à établir! Mon imagination surtout est un i!
+[47] revue-deux-mondes-1841-q3.txt | prep=à inf=écarter
+    ...dans ces voies de la force et de la barbarie militaire dont le génie contem- porain s'attache à les écarter! Quoi d'étonnant si, en présence !
+[48] revue-deux-mondes-1841-q3.txt | prep=pour inf=satisfaire
+    ...leur nid enfin , et cela sans trop de manie d'imi- tation, sans trop de rêve de gloire, mais pour se satisfaire humble- ment et se suffire ! On !
+[49] revue-deux-mondes-1841-q4.txt | prep=de inf=accomplir
+    ... soins, de travaux, et par conséquent quelle immense responsabilité encourent les agens chargés de les accomplir! Mais aux difficultés qui résulten!
+[50] revue-deux-mondes-1841-q4.txt | prep=pour inf=attacher
+    ...anière bien innocente, et c'est le cas de raconter quelles voies détournées prit la Providence pour attacher le signe de l'hon- neur sur la p!
+[51] revue-deux-mondes-1841-q4.txt | prep=à inf=première
+    ...au tout rouillé par une longue sécurité. Et quelle honte pour ce dernier, s'il allait faillir à la première passe ! Quel affront , si le nou!
+[52] revue-deux-mondes-1841-q4.txt | prep=de inf=voir
+    ...donnée. LE DOCTEUR IIERBEAU. 253 S'inclinant devant M. Herbeau : — Combien je suis heureux de vous voir, monsieur! dit le jeune liomme; j!
+[53] revue-deux-mondes-1841-q4.txt | prep=pour inf=acquérir
+    ... leurs mœurs et leurs habitudes. LE DOCTEUR HERBEAC. 289 Combien d'années ne fallait-il pas pour acquérir ces connaissances essentielles, si !
+[54] revue-deux-mondes-1841-q4.txt | prep=de inf=votre
+    ...elle joie pour moi, docteur, et pour vous aussi, quelle joie de me voir courir sur le sable de votre jardin ! car c'est à vous, ami, !
+[55] revue-deux-mondes-1841-q4.txt | prep=de inf=père
+    ...s Verselets à mon premier-né sur la mu- sique de Berton : O cher enfantelet, vrai pourtraict de ton père, Dors sur le sein que ta bouche!
+[56] revue-deux-mondes-1841-q4.txt | prep=pour inf=résister
+    ...i bien fait, que M. Herbeau m'abandonne. Quelle patience et quel dévouement n'a-t-il pas fallu pour résister si long-temps à vos indignes pro-!
+[57] revue-deux-mondes-1841-q4.txt | prep=à inf=gravir
+    ... Hélas! combien est rapide et facile à des- cendre la pente du bonheur, si lente et si rude à gravir! Ce n'est déjà plus la haine qu!
+[58] revue-deux-mondes-1841-q4.txt | prep=a inf=rejeter
+    ...onse doucereuse et humble. Avec quel soin touchant lord Palmerston atténue la décision dont il a soin de rejeter la res- ponsabilité sur ses collèg!
+[59] revue-deux-mondes-1841-q4.txt | prep=pour inf=prolonger
+    ...s périls qu'il a surmontés, les luttes qu'il a soutenues avec les ours; et quel bonheur, si, pour prolonger la veillée, il reste encore dans !
+[60] revue-deux-mondes-1841-q4.txt | prep=à inf=hasarder
+    ...lles de trop grandes prospérités. Et quel temps choisirait-on pour exciter de pauvres ouvriers à hasarder des œuvres informes! Précisément u!
+[61] revue-deux-mondes-1841-q4.txt | prep=de inf=terre
+    ...uples belliqueux des steppes, si jamais elle les conviait au pillage de l'Inde, à la conquête de cette terre cVor, comme ils la nomment, que !
+[62] revue-deux-mondes-1841-q4.txt | prep=de inf=rencontrer
+    ...nt exprimées dans le roman de JM""-' Ancelot; et quel espoir plus propre à séduire que Celui de se rencontrer avec l'auteur dans le jugement qu!
+[63] revue-deux-mondes-1841-q4.txt | prep=de inf=purifier
+    ...ile de respect, et qui n'osaient la faire monter sur leur bouche qu'après avoir prié le ciel de purifier leurs lèvres, quel dégoût ils dev!
+[64] metternich-papiere-v4.txt | prep=de inf=retracer
+    ...se, ne se trouve-t-il pas embarrassö" par les effets materiels des considerations que je viens de vous retracer ! Je vous envoie enfin la premie!
+[65] metternich-papiere-v4.txt | prep=de inf=rester
+    ...ndance absolue ä l'epoque du protocole, combien de motifs n'existe-t-il pas de plus aujourd'hui de rester fidele ä notre idee pri- mitive! !
+[66] metternich-papiere-v4.txt | prep=de inf=notre
+    ...in, ä quelle nullite" absolue ne condamne-t-on pas FAmbassadeur de Sa Majeste" Britannique pres de notre Cour ! Les moments, certes, sont !
+[67] metternich-papiere-v6.txt | prep=de inf=contre
+    ...Nous qui fremissons d'horreur a la pense'e de ces attentats, quels doivent etre les sentiments de celui contre qui les coups sont diriges!*) II!
+[68] metternich-papiere-v6.txt | prep=a inf=mesure
+    ...e differents par les puissances! Quel progres n'a point fait le sentiment du besoin de repos, a mesure que Fopinion publique s'est eclair!
+[69] metternich-papiere-v6.txt | prep=de inf=gloire
+    ...e infernale, mon eher ambassadeur, que celle des assassins, qui en fönt un mutier, une espece de gloire! Un corps social est bien malade !
+[70] talleyrand-memoires-v1.txt | prep=pour inf=d'avoir
+    ...comme à elle toutes ces terres jelées autour du nouveau conti- nent, de quel avantage ne serait-il pas alors pour la France d'avoir porté ses vues sur l'ancien monde ! Par!
+[71] talleyrand-memoires-v1.txt | prep=de inf=dire
+    ...e, et qui avait osé en saper les fondements, jusqu'au point de supposer des limites à l'autorité du roi, el de le dire en sa présence ! Dos juges assez témér!
+N= 72

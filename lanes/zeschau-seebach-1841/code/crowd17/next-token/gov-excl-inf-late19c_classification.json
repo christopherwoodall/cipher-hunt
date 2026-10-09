@@ -1,0 +1,66 @@
+{
+ "battery": "gov-excl-inf-diachronic-bracket",
+ "corpus": "corpus-late19c (Zola x3, Maupassant x3), 3758522 chars",
+ "candidates_total": 612,
+ "tight_le40_hand_reviewed": 413,
+ "wide_gt40_scanned": 199,
+ "genuine": 6,
+ "genuine_windows": [
+  {
+   "idx": 11,
+   "file": "pg5250.txt",
+   "work": "Zola, Nana (1880)",
+   "prep": "pour",
+   "phrase": "pour ne rien voir",
+   "context": "-- Tu viens avec nous, je t'ai réservé une place, dit-elle à Fauchery. / -- Ah! non, par exemple! pour ne rien voir! répondit-il.",
+   "note": "'!' terminates the pour-infinitive phrase; elliptical reason for the refusal 'non'; 'répondit-il' is a reporting verb after the '!'. No finite matrix clause."
+  },
+  {
+   "idx": 75,
+   "file": "pg6497.txt",
+   "work": "Zola, L'Assommoir (1877)",
+   "prep": "pour",
+   "phrase": "pour se faire estropier",
+   "context": "-- Ah bien! dit madame Putois, on est trop bête de se confier à elles. Merci, pour se faire estropier!... Voyez-vous, ...",
+   "note": "Ironic 'Merci' + exclaimed pour-infinitive; 'dit madame Putois' is a reporting verb before the clause. No finite matrix clause."
+  },
+  {
+   "idx": 149,
+   "file": "pg11596.txt",
+   "work": "Maupassant, La Maison Tellier (1881)",
+   "prep": "de",
+   "phrase": "de m'épouser",
+   "context": "--Hé bien! ça te va-t-il? / --Quoi, not'maître? / Alors lui, brusquement: / --Mais de m'épouser, pardine!",
+   "note": "de-governed infinitive stands alone as the exclaimed answer to 'Quoi'; 'pardine' is an interjection. No finite matrix clause."
+  },
+  {
+   "idx": 181,
+   "file": "pg5250.txt",
+   "work": "Zola, Nana (1880)",
+   "prep": "pour",
+   "phrase": "pour perdre à coup sûr",
+   "context": "Mais les femmes refusaient, absolument. Merci, pour perdre à coup sûr!",
+   "note": "Ironic 'Merci' + exclaimed pour-infinitive. No finite matrix clause."
+  },
+  {
+   "idx": 184,
+   "file": "pg5711.txt",
+   "work": "Zola, Germinal (1885)",
+   "prep": "pour",
+   "phrase": "pour avoir des ennuis",
+   "context": "--Fallait peut-être sauter sur le chef. Merci! pour avoir des ennuis!",
+   "note": "Ironic 'Merci' + exclaimed pour-infinitive. No finite matrix clause. (Second occurrence idx 406, dist=40, same window.)"
+  },
+  {
+   "idx": 326,
+   "file": "pg5711.txt",
+   "work": "Zola, Germinal (1885)",
+   "prep": "pour",
+   "phrase": "pour vous entendre dire des bêtises inutiles",
+   "context": "--A quoi bon? pour vous entendre dire des bêtises inutiles!... J'en ai assez vu. Bonsoir!",
+   "note": "The pour-infinitive answers 'A quoi bon?'; the '!' terminates the governed phrase itself. No finite matrix clause."
+  }
+ ],
+ "non_genuine_families": "finite-matrix clauses carrying the '!' ('C'est cochon de dormir...', 'Que pouvait-il avoir... pour s'abîmer ainsi?'); exclaimed noun/adverb phrases ('À ce soir!', 'A bas le traître!', 'A la Victoire!', 'Que ça de genre!', 'Espèce de couleuvre!'); bare infinitives with no governor ('Quel rêve! être les maîtres...'); imperatives; regex false positives ('à l'air', 'à la fenêtre', 'pour quatre sous', 'de la misère').",
+ "verdict": "promote"
+}

@@ -1,0 +1,4333 @@
+{
+ "files": [
+  {
+   "file": "pg11131.txt",
+   "chars": 298643,
+   "bang_count": 326,
+   "candidates_total": 48,
+   "candidates_tight_le40": 25
+  },
+  {
+   "file": "pg11596.txt",
+   "chars": 293126,
+   "bang_count": 207,
+   "candidates_total": 29,
+   "candidates_tight_le40": 14
+  },
+  {
+   "file": "pg14790.txt",
+   "chars": 266342,
+   "bang_count": 253,
+   "candidates_total": 16,
+   "candidates_tight_le40": 8
+  },
+  {
+   "file": "pg5250.txt",
+   "chars": 892151,
+   "bang_count": 1874,
+   "candidates_total": 135,
+   "candidates_tight_le40": 92
+  },
+  {
+   "file": "pg5711.txt",
+   "chars": 1031135,
+   "bang_count": 1487,
+   "candidates_total": 186,
+   "candidates_tight_le40": 130
+  },
+  {
+   "file": "pg6497.txt",
+   "chars": 977125,
+   "bang_count": 1927,
+   "candidates_total": 198,
+   "candidates_tight_le40": 144
+  }
+ ],
+ "total_chars": 3758522,
+ "candidates": [
+  {
+   "prep": "de",
+   "infinitive_shaped": "castellamare",
+   "dist": 0,
+   "window": "ésuve tandis qu'au pied du volcan, des lucioles voltigeaient dans les\nbosquets d'orangers de Sorrente ou de Castellamare!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "l'autre",
+   "dist": 0,
+   "window": "jaillir en lui, que ces deux hommes qui ronflaient\ndans ce même logis, le père et le fils, n'étaient rien l'un à l'autre!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "vivre",
+   "dist": 0,
+   "window": "rs comme médecin sur un paquebot transatlantique.\n\n--Oh! monsieur Pierre! Vous m'aviez si bien promis de m'aider à vivre!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "mère",
+   "dist": 0,
+   "window": "e retourna, redressa son bonnet tout à\nfait parti dans le dos, et, la lèvre tremblante;--«Ah! oui, parlons-en\nde ta mère!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "mémoire",
+   "dist": 0,
+   "window": "it autant pour elle, ni moi non plus si j'avais su comment j'en\nserais récompensée! Oui, c'est une honte pour sa mémoire!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "soir",
+   "dist": 0,
+   "window": "es. La grosse Pauline aussi les vit, car elle se redressa, envoyant\nà Madeleine des baisers. Puis elle cria:--«À ce soir!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "soir",
+   "dist": 0,
+   "window": ", car elle se redressa, envoyant\nà Madeleine des baisers. Puis elle cria:--«À ce soir!»\n\nMadeleine répondit:--«À ce soir!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "chambre",
+   "dist": 0,
+   "window": "ta avec un\ncertain mauvais goût:\n\n--Fiez-vous en à nous pour les autres constatations.\n\nEt on emmena ma femme de chambre!",
+   "file": "pg14790.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "voir",
+   "dist": 0,
+   "window": " ne m'entendirent pas. Ma mère\npleurait toujours. Mon père disait: «C'est votre faute. Pourquoi\navez-vous tenu à le voir!",
+   "file": "pg14790.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "dépenser",
+   "dist": 0,
+   "window": "ujourd'hui. Mais je regrette le temps où\nje n'en avais qu'un par semaine. Qu'il était bon! J'avais six francs à\ndépenser!",
+   "file": "pg14790.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "sampierre",
+   "dist": 0,
+   "window": "on ne croyait. Il est revenu souvent.... Je ne pensais qu'à lui. Je\nprononçais tout bas:\n\n«--Henry... Henry de Sampierre!",
+   "file": "pg14790.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "voir",
+   "dist": 0,
+   "window": "\n\n-- Tu viens avec nous, je t'ai réservé une place, dit-elle à\n  Fauchery.\n\n-- Ah!  non, par exemple!  pour ne rien voir!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "heure",
+   "dist": 0,
+   "window": "le.  Madame venait de montrer tant de\ntalent, elle chantait si bien!  Ah!  madame pouvait être\ntranquille, à cette heure!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "ravoir",
+   "dist": 0,
+   "window": "e, elle avait quitté exprès madame Blanche, et Dieu\nsait si madame Blanche faisait des pieds et des mains pour la\nravoir!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "rire",
+   "dist": 0,
+   "window": " à son bébé, il avait des yeux bleus de\nchérubin, il bégayait: «Maman» d'une voix si drôle, que c'était à\nmourir de rire!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "boissier",
+   "dist": 0,
+   "window": "de,\nn'est-ce pas?  à cinq heures et demie?\n\n-- Apportez-moi un pot de pommade et une livre de pralines, de\nchez Boissier!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "chauffer",
+   "dist": 0,
+   "window": "sait.\n\n-- Mais non, pas du tout, répondit celle-ci, souriante.  J'ai eu\nun peu froid...  Ce salon est si long à chauffer!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "avoir",
+   "dist": 0,
+   "window": "  Du coup, elle devint très distinguée.\n\n-- Ah!  chère madame, que vous êtes gentille!...  Je tenais tant à\n  vous avoir!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "dormir",
+   "dist": 0,
+   "window": " Léa et Maria, dont Labordette voulut bien se\ncharger, complaisamment.\n\n-- C'est que je n'ai pas du tout envie de dormir!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "prendre",
+   "dist": 0,
+   "window": "ta que, maintenant, elle s'en allait.  Mais Nana la\nretint.  Était-elle bête!  Puisque Bordenave consentait à la\nprendre!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "manger",
+   "dist": 0,
+   "window": "seulement,\nle meuble rouge était affreux, elle changerait ça.  Quant à la\nsalle à manger, hein!  la belle salle à manger!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "pensionnaire",
+   "dist": 0,
+   "window": "t tendue de cretonne Louis\nXVI, rose tendre.  Ah bien!  on devait joliment dormir là-dedans!\nun vrai nid de pensionnaire!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "continuer",
+   "dist": 0,
+   "window": "naissait pas, ce petit qui\narrivait tout mouillé, et comme ça lui avait paru bon, et comme\nce serait gentil de continuer!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "m'agacer",
+   "dist": 0,
+   "window": "i qui m'escrimais!  Je suis revenue la première, j'ai assez\nfait d'excuses, je crois!...  Aussi, il était là, à m'agacer!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "m'insulter",
+   "dist": 0,
+   "window": "nt qu'elle se mettait les poings sur les hanches pour crier\nplus fort.\n\n-- Ah!  ça, avez-vous bientôt fini de m'insulter!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "voyager",
+   "dist": 0,
+   "window": "il affectait de croire que madame était en voyage.  Ah!  madame\navait fait bien des malheureux, en se décidant à voyager!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "foyer",
+   "dist": 0,
+   "window": " dans le froid morne de la scène.  Dehors, il gelait,\npar un ciel clair de novembre.\n\n-- Et il n'y a pas de feu au foyer!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "taire",
+   "dist": 0,
+   "window": ", haussa les épaules en homme qui\nvoit tout.\n\n-- Tais-toi donc!  murmura-t-il.  Hein?  fais-moi le plaisir de te\n  taire!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "trottoir",
+   "dist": 0,
+   "window": "empoigna Nana par la taille, dansa, chanta.\nPuis, courant vers la fenêtre:\n\n-- Faut voir la tête qu'il a sur le trottoir!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "heure",
+   "dist": 0,
+   "window": " s'écartèrent.  C'était\nVandeuvres.  Nana affecta d'être fâchée.\n\n-- Eh bien!  vous êtes gentil, d'arriver à cette heure!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "l'angleterre",
+   "dist": 0,
+   "window": "laine de Boulogne.  Sur\nla pelouse, un enthousiasme fou s'était déclaré.  Vive Nana!\nvive la France!  à bas l'Angleterre!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "voler",
+   "dist": 0,
+   "window": "e pense que Blanche a eu le toupet de vouloir\nme mettre ça sur le dos!  J'ai répondu: «Est-ce que je lui ai dit\nde voler!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "autre",
+   "dist": 0,
+   "window": "a\ncru nous épater avec son rôtissage!  Personne n'en parle\nseulement plus.  Rasé, fini, enterré, Vandeuvres!  A un autre!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "frère",
+   "dist": 0,
+   "window": "e cire, le feu\nsombre de ses yeux grandis.  Elle eut un soupir de soulagement.\n\n-- Ah!  tu viens de la part de ton frère!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "couleuvre",
+   "dist": 0,
+   "window": "t, restait un instant sur le dos, à\ninjurier Étienne, dont la présence, décidément, l'exaspérait.\n\n--Espèce de couleuvre!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "aller",
+   "dist": 0,
+   "window": "que son mari.\n\n--La lettre de Pluchart, dit-elle.  Ah! s'il était le maître,\ncelui-là, ça ne tarderait pas à mieux aller!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "misère",
+   "dist": 0,
+   "window": "pelait son arrivée du matin, le\nflot de paroles que l'énervement du vent avait arrachées à ce\nsilencieux.  Que de misère!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "voir",
+   "dist": 0,
+   "window": " et lui qui venait de se la laisser\nprendre sous le nez, qui avait poussé la bêtise jusqu'à s'égayer\nsalement à les voir!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "l'ouvrier",
+   "dist": 0,
+   "window": "--Nom de Dieu! cria-t-il, en voilà un égorgement!...  Alors,\naujourd'hui, c'est l'ouvrier qu'on force à manger l'ouvrier!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "marier",
+   "dist": 0,
+   "window": " d'enfant, ah! ça,\nj'en suis bien sûre!...  Vois-tu qu'elle accouche aussi, celle-là, et\nque je sois forcée de la marier!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "l'ouvrier",
+   "dist": 0,
+   "window": "se casser la tête à réfléchir\nlà-dessus.\n\nDu coup, Étienne s'animait.  Comment! la réflexion serait défendue à\nl'ouvrier!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "bouger",
+   "dist": 0,
+   "window": "de Dieu! je veux bien être calme.  Oui, je leur ai\nimposé une discipline! oui, je leur conseille encore de ne pas bouger!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "devoir",
+   "dist": 0,
+   "window": "u milieu du tumulte, criait violemment qu'il\nn'était pas né, bien sûr, le gaillard qui l'empêcherait de faire son\ndevoir!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "misère",
+   "dist": 0,
+   "window": "s!\n\nPéniblement, la Maheude se leva et fit le tour de la pièce.  Était-ce\nDieu possible, d'en être réduit à cette misère!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "t'empiffrer",
+   "dist": 0,
+   "window": "t.\n\n--Ça ne m'étonne plus, si tu engraisses, pendant que nous maigrissons\ntous.  Sais-tu que c'est cochon de t'empiffrer!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "s'aimer",
+   "dist": 0,
+   "window": "t rien? Et ces\nimbéciles se plaignaient de la vie, lorsqu'ils avaient, à pleines\nventrées, cet unique bonheur de s'aimer!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "misère",
+   "dist": 0,
+   "window": "..  Entendez-vous! la mine vous\nappartient, à vous tous qui, depuis un siècle, l'avez payée de tant de\nsang et de misère!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "traître",
+   "dist": 0,
+   "window": "irrémédiable.  On finit par lui jeter des poignées\nde mousse gelée, une femme cria d'une voix aiguë:\n\n--A bas le traître!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "traître",
+   "dist": 0,
+   "window": "l disait préférer la\nparticipation aux bénéfices, l'ouvrier intéressé, devenu l'enfant de\nla maison.\n\n--A bas le traître!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "l'air",
+   "dist": 0,
+   "window": "e tous les camarades faisant la\nhaie.  Quelle idée aussi d'avoir écouté son conseil et de s'être mis\nle derrière à l'air!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "victoire",
+   "dist": 0,
+   "window": "sentaient venir.\n\nSans qu'on sût d'où il partait, un nouveau mot d'ordre les lança sur\nune autre fosse.\n\n--A la Victoire!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "victoire",
+   "dist": 0,
+   "window": ".\n\nSans qu'on sût d'où il partait, un nouveau mot d'ordre les lança sur\nune autre fosse.\n\n--A la Victoire! à la Victoire!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "compromettre",
+   "dist": 0,
+   "window": "f, qui se cachait avec\nCatherine, derrière la provision des bois.\n\n--Ah! bougre de salaud, tu as peur de te compromettre!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "contenter",
+   "dist": 0,
+   "window": "e rien\nposséder à soi, battre les blés avec la herscheuse la plus laide, la\nplus sale, et être capable de s'en contenter!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "vivre",
+   "dist": 0,
+   "window": "e\ncollent du poil sur la peau, lorsque nous crevons de froid...\nFoutez-moi-la donc toute nue, pour lui apprendre à vivre!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "l'air",
+   "dist": 0,
+   "window": "de son air de vieille\nbête infirme, en train de ruminer des souvenirs.\n\n--Non! non! hurlaient les femmes, le cul à l'air!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "l'air",
+   "dist": 0,
+   "window": "eille\nbête infirme, en train de ruminer des souvenirs.\n\n--Non! non! hurlaient les femmes, le cul à l'air! le cul à l'air!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "parler",
+   "dist": 0,
+   "window": "la Pierronne, ce n'est pas étonnant que tu sois propre, si\ntu te fais récurer par les chefs!\n\n--Ah! ça lui va, de parler!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "finir",
+   "dist": 0,
+   "window": "me phrase,\nappelant la mort: «Mon Dieu, pourquoi ne nous prenez-vous pas? mon\nDieu, prenez-nous par pitié, pour en finir!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "finir",
+   "dist": 0,
+   "window": "in:\n\n--Mon Dieu, c'est mon tour, prenez-moi!...  Mon Dieu, prenez mon\nhomme, prenez les autres, par pitié, pour en finir!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "travailler",
+   "dist": 0,
+   "window": "erine.\n\n--Veux-tu boire, nom de Dieu!...  Trinque avec moi à la crevaison de\ntous les salauds qui refusent de travailler!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "t'assommer",
+   "dist": 0,
+   "window": "l sortit de son silence.\n\n--Tais-toi donc, brute! Et pas les pieds, nom de Dieu! ou je prends\nune chaise pour t'assommer!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "l'officier",
+   "dist": 0,
+   "window": "it, se tournait pour que chacun en eût sa part,\ns'y reprenait à chaque poussée qu'elle envoyait.\n\n--V'là pour l'officier!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "dire",
+   "dist": 0,
+   "window": "ir posé Estelle sur la table, menaçait du poing\nCatherine.\n\n--Répète un peu, nom de Dieu! répète ce que tu viens de dire!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "nourrir",
+   "dist": 0,
+   "window": "s, si les chefs voulaient bien\ntrouver une besogne pour ce bandit de Jeanlin.  Cinquante sous, et\nsept bouches à nourrir!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "l'ombre",
+   "dist": 0,
+   "window": ", elle continua\nd'une voix aiguë:\n\n--Va donc! ce sont les coquins qui se promènent, quand les braves gens\nsont à l'ombre!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "danger",
+   "dist": 0,
+   "window": " pas montrer sa peur, qui pouvait être considérée comme une\nattaque à la Direction; et il répondit:\n\n--Oh! pas de danger!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "l'autre",
+   "dist": 0,
+   "window": "e qu'on l'obligeait à\nvivre là, collé au rival qu'il exécrait.  Pas même assez de place pour\ncrever loin l'un de l'autre!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "séparer",
+   "dist": 0,
+   "window": "ne fraise sous le\nbras.\n\n-- Comment! vous êtes là! cria madame Boche en l'apercevant. Mais\naidez-nous donc à les séparer!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "boire",
+   "dist": 0,
+   "window": " hommes, montaient dans l'air chargé\nd'alcool; et elle étouffait, prise d'une petite toux.\n\n-- Oh! c'est vilain de boire!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "causer",
+   "dist": 0,
+   "window": "ent de petits cris. Les messieurs les\nchatouillaient, leur pinçaient les jambes. Mais elles étaient bien\nbêtes de causer!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "sucre",
+   "dist": 0,
+   "window": "e.\n\n-- Faut faire un brûlot! cria Mes-Bottes; deux litres de\ncasse-poitrine, beaucoup de citron et pas beaucoup de sucre!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "heure",
+   "dist": 0,
+   "window": "ître se cacher de la famille. Madame Lorilleux resta saisie.\nComment! la Banban allait avoir une boutique, à cette heure!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "aimer",
+   "dist": 0,
+   "window": "our, le cri de son coeur lui\nrevenait aux lèvres:\n\n-- Mais qu'a-t-elle donc sur elle, cette infirme, pour se faire aimer!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "coucher",
+   "dist": 0,
+   "window": "enfant, il riait tout seul,\nen lâchant des bouts de phrases.\n\n-- Est-elle bête, ma femme!... Est-elle bête de me coucher!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "estropier",
+   "dist": 0,
+   "window": "es en décrochent.\n\n-- Ah bien! dit madame Putois, on est trop bête de se confier à elles.\nMerci, pour se faire estropier!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "manger",
+   "dist": 0,
+   "window": "e,\nplus furieuse que les autres. Tais-toi, entends-tu! Tu dégoûterais une\narmée... Vous savez que c'est pour tout manger!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "quartier",
+   "dist": 0,
+   "window": "\n\n     Qu'un forban téméraire\n     Nous chasse vent arrière!\n     Malheur au flibustier!\n     Pour lui point de quartier!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "litre",
+   "dist": 0,
+   "window": "coins.\n\nEt quand il eut mis le nez dans son verre, il attrapa le père Colombe.\n\n-- Vieille drogue, tu as changé de litre!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "tuer",
+   "dist": 0,
+   "window": "la rue.\nOui, même je crois l'avoir vu entrer au _Papillon_ avec un cocher...\nOh! que c'est bête! Vrai, on est bon à tuer!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "ravoir",
+   "dist": 0,
+   "window": " couverture, avec un sacré salaud\nd'homme par derrière, qui songeait uniquement à profiter de son\nmalheur pour la ravoir!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "misère",
+   "dist": 0,
+   "window": "chose de propre que l'homme et\nla femme, dans ce coin de Paris, où l'on est les uns sur les autres, à\ncause de la misère!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "mère",
+   "dist": 0,
+   "window": " parlant du\nchaîniste et de sa femme. Dire que ces rapiats n'ont pas même apporté\nun bouquet de violettes pour leur mère!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "heure",
+   "dist": 0,
+   "window": "ion\nde poitrine le tenait sans forces sur le dos. La blanchisseuse rentra\nbouleversée. Son homme était fou à cette heure!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "rosière",
+   "dist": 0,
+   "window": "it apporté la resucée des autres, ah! elle s'était fait ramasser\nsur le trottoir, en l'enjôlant par ses mines de rosière!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "embrasser",
+   "dist": 0,
+   "window": "onne, dans un coin, celle-ci le trouvait tout\nsucré, les lèvres comme des pralines. Un homme joliment gentil à\nembrasser!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "l'heure",
+   "dist": 0,
+   "window": "in! tu ne t'attendais pas... Ah!\nc'est ici qu'on te pince, et avec un blanc-bec qui m'a manqué de\nrespect tout à l'heure!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "regarder",
+   "dist": 0,
+   "window": "neau malade dont les cercles pétaient les\nuns après les autres.\n\nAvec ça, il oubliait d'embellir; un revenant à regarder!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "manger",
+   "dist": 0,
+   "window": ", elle remuait des idées\npas drôles, ce jour-là. Ah! non, sacré mâtin! on ne pouvait continuer\nainsi à vivre sans manger!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "heure",
+   "dist": 0,
+   "window": " suis là...\n\nAlors, les Lorilleux pincèrent les lèvres et échangèrent un mince\nregard. La Banban mendiait, à cette heure!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "genre",
+   "dist": 0,
+   "window": " conduisait l'amour de la frigousse. Au rencart les gourmandes, les\nparesseuses et les dévergondées!\n\n-- Que ça de genre!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "heure",
+   "dist": 0,
+   "window": "maigrissaient, histoire\nsimplement de l'embêter. Tout d'un coup, il cria:\n\n-- Oh! les rats, v'là les rats, à cette heure!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "heure",
+   "dist": 0,
+   "window": "\ncomplet, le tremblement était descendu des bras et monté des jambes,\nle tronc lui-même entrait en gaieté, à cette heure!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "dire",
+   "dist": 0,
+   "window": "ong\ndes côtes, un essoufflement de la berdouille, qui semblait crever de\nrire. Et tout marchait, il n'y avait pas à dire!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "voir",
+   "dist": 3,
+   "window": "journée, c'était un cloaque, les ruines d'une ville\nabîmée et fondue dans de la boue.\n\n--Et l'on se dérange pour voir ça!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "heure",
+   "dist": 3,
+   "window": "rrivez trop tôt, madame Bijard! cria Gervaise. Je vous avais\ndit ce soir.... Vous me dérangez joliment, à cette heure-ci!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "faire",
+   "dist": 4,
+   "window": " Juliette».\nMais elle eut un beau rire, elle dit:\n\n-- Cet imbécile...  Vous ne le connaissez pas; je n'ai qu'à faire\npst!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "quatre",
+   "dist": 4,
+   "window": "is répondit dans le vent:\n\n--Oh! ce ne sont pas les fabriques qui manquent.  Fallait voir ça, il\ny a trois ou quatre ans!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "l'ouvrier",
+   "dist": 4,
+   "window": "asser la tête à réfléchir\nlà-dessus.\n\nDu coup, Étienne s'animait.  Comment! la réflexion serait défendue à\nl'ouvrier! Eh!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "misère",
+   "dist": 4,
+   "window": "pas vrai, il n'y avait rien là-bas des\nchoses qu'on s'imaginait voir.  Ce qu'il y avait, c'était encore de la\nmisère, ah!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "foutre",
+   "dist": 4,
+   "window": "ne des galeries de roulage.\n\nAlors, ce fut un sauve-qui-peut, les hommes suivirent cette bête.\n\n--Plus rien à foutre ici!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "crier",
+   "dist": 4,
+   "window": "raîne pas. Ils vous envoient ça en quatre\nmouvements... C'est comme chez les dentistes: on n'a pas le temps de\ncrier ouf!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "quatre",
+   "dist": 5,
+   "window": "inie des vraies étoiles.\n\nPierre murmura, presque à haute voix: «Voilà, et nous nous faisons de la\nbile pour quatre sous!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "installer",
+   "dist": 5,
+   "window": " plus respirer, lui avait dit:\n\n--Vraiment, Louise, tu as mauvaise mine, tu te fatigues trop sans doute\nà installer Jean!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "vipère",
+   "dist": 5,
+   "window": " le sais et tu\nla railles devant moi, tu me pousses à bout; tant pis pour toi. Mais je\ncasserai tes dents de vipère, moi!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "lâcher",
+   "dist": 5,
+   "window": "  ce serait trop bête!  cria Bordenave,\nemporté par ses instincts d'homme d'affaires.  Dix mille francs\npour lâcher Rose!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "l'air",
+   "dist": 5,
+   "window": "ériale, la vue de Muffat,\ndebout près de l'impératrice, dans sa raideur officielle,\nl'égaya.\n\n-- Oh!  qu'il a l'air bête!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "notre",
+   "dist": 5,
+   "window": " un éblouissement.  Quel rêve!\nêtre les maîtres, cesser de souffrir, jouir enfin!\n\n--C'est ça, nom de Dieu! à notre tour!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "premier",
+   "dist": 5,
+   "window": "ant de la vapeur, on se jetait sur elle comme sur une personne\nvivante, dont on voulait la vie.\n\n--A toi le premier coup!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "figure",
+   "dist": 5,
+   "window": "tourna vers\nles autres.\n\n--Vous êtes des lâches! des lâches!...  Tuez-moi donc avec lui.  Je\nvous saute à la figure, moi!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "poussière",
+   "dist": 5,
+   "window": "cette\nsoirée-là. Avait-on jamais vu un pareil grigou! croire qu'on allait\nlui emporter trois grains de sa poussière d'or!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "crever",
+   "dist": 5,
+   "window": "it...\n\n-- Une jolie conduite, murmura madame Putois. Vous vous crevez, ma\npetite.\n\n-- Et si ça m'amuse de me crever, moi!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "demander",
+   "dist": 6,
+   "window": "u la\nprendre en ses bras à ce moment, comme il l'eût embrassée, caressée,\ncomme il se fût agenouillé pour demander grâce!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "voir",
+   "dist": 6,
+   "window": "rée de\nce qu'elle croyait comprendre.\n\n--Pour qui dis-tu ça?\n\n--Pour Jean, parbleu! C'est très comique de les voir ainsi!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "vieillir",
+   "dist": 6,
+   "window": "é, jamais rien, pas une tendresse, pas une douceur, pas une de\nces heures qui nous font tant regretter de vieillir, rien!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "vouloir",
+   "dist": 6,
+   "window": "a la Faloise, qui\nposait pour s'ennuyer dans le monde.  On crève, ici.  Une drôle\nd'idée que tu as eue, de vouloir venir!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "manger",
+   "dist": 6,
+   "window": "ouvertes sur une pelouse; seulement,\nle meuble rouge était affreux, elle changerait ça.  Quant à la\nsalle à manger, hein!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "plaisir",
+   "dist": 6,
+   "window": "se laisser mourir, dans une pareille\nposition!  Maintenant, elle devait être jolie, là-haut!\n\n-- Et que de plaisir fichu!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "payer",
+   "dist": 6,
+   "window": "rendraient enragés...  Avez-vous entendu? la\nberline baissée, et le boisage à part! encore une façon de nous payer\nmoins!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "voler",
+   "dist": 6,
+   "window": "ter\nle père? Ça ferait des histoires à n'en plus finir.\n\n--Quelles idées? demanda-t-il.\n\n--Des idées de nous voler, donc!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "finir",
+   "dist": 6,
+   "window": "...  Ah! si un de ces cochons de soldats pouvait me loger\nune balle en plein coeur, comme ce serait crâne de finir ainsi!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "lantier",
+   "dist": 6,
+   "window": "as de cochonneries; ça\nserait trop long à conter, puis ce sont des affaires à régler entre\nnous... Quant à Lantier, dame!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "crier",
+   "dist": 6,
+   "window": "\n-- Non, ça, c'est défendu, dit-il. Mais quand une femme sait se\nretourner...\n\nEt Coupeau l'interrompit pour crier bravo!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "colère",
+   "dist": 7,
+   "window": ", tremblant de honte:\n\n--Peut-être bien que c'est ça.\n\nL'homme, rouge comme un coquelicot, bredouillait de colère:\n\n--Ah!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "mettre",
+   "dist": 7,
+   "window": "sentit encore grandir sa rancune.\nBien sûr, elle n'allait pas courir après Satin; une jolie ordure,\npour y mettre le nez!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "attraper",
+   "dist": 7,
+   "window": "onaparte à Austerlitz.\n\n-- Voyons, montez-vous avec nous?  lui demanda Lucy.\n\n-- Ah!  non!  dit-il, pour attraper du mal!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "sabre",
+   "dist": 7,
+   "window": "en ai vu, de ces affaires! Il y a quarante ans, on\nnous flanquait à la porte de la Direction, et à coups de sabre encore!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "conclure",
+   "dist": 7,
+   "window": "t, quand elle remarqua l'effroi de tous, la profonde\nanxiété où la rencontre les jetait, elle se hâta de conclure:\n\n--Oh!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "crier",
+   "dist": 7,
+   "window": "rnée, de violence en violence, par assiéger l'hôtel du directeur?\n\nC'était bien lui cependant qui venait de crier: halte!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "geler",
+   "dist": 7,
+   "window": "ont la suie pesait comme du plomb, au loin, sur la\nplaine.\n\n--Qu'ils sont bêtes, de vous planter là, à vous geler les os!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "dorloter",
+   "dist": 7,
+   "window": "er des\nforces. Ah bien! elle recevait joliment Coupeau, les jours où il\nvoulait la faire coucher pour se dorloter un peu!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "baffre",
+   "dist": 7,
+   "window": ", si tu ne me payes pas. » Et elle en débagoulait, fallait\nvoir! L'accoucheuse, là-dessus, lui a lâché une baffre, v'lan!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "marcher",
+   "dist": 7,
+   "window": "largies au beau milieu du pavé, que les\ngens attardés et délicats étaient obligés d'enjamber, pour ne pas\nmarcher dedans!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "voir",
+   "dist": 8,
+   "window": "--«Je vous demande un peu quelles idées ça vous a, ces\nsacrées femelles! Ce n'est pas moi qui m'amuserais à voir un\nmort!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "steiner",
+   "dist": 8,
+   "window": "ry au milieu du\nsalon, il faut pourtant que nous inventions une femme pour\ndemain.  Si nous demandions à Steiner?\n\n-- Oh!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "bêcher",
+   "dist": 8,
+   "window": "i allaient pas à la\ncheville!  Plus souvent qu'elle se donnerait encore du tintouin,\nhistoire de se faire bêcher ensuite!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "votre",
+   "dist": 8,
+   "window": "en monarque qui reçoit le fils d'un puissant\nvoisin.  Les verres étaient pleins, on trinqua.\n\n-- Je bois à Votre Altesse!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "votre",
+   "dist": 8,
+   "window": "répétait:\n«O mon Dieu, venez à mon secours!  O mon Dieu, n'abandonnez pas\nvotre créature qui s'abandonne à votre justice!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "reprendre",
+   "dist": 8,
+   "window": "rop.\n\n-- Tant mieux!  ça m'arrange!  laissa échapper Nana.\n\nMais, le voyant stupéfait, elle se hâta de reprendre:\n\n-- Ah!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "avoir",
+   "dist": 8,
+   "window": "le, d'en être réduit à cette misère! le buffet sans une\nmiette, plus rien à vendre, pas même une idée pour avoir un pain!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "chair",
+   "dist": 8,
+   "window": "lartés des\nincendies, on le noierait sous le sang, ce pourceau immonde, cette\nidole monstrueuse, gorgée de chair humaine!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "foutre",
+   "dist": 8,
+   "window": "elle, la Levaque ajoutait, plus violente:\n\n--Est-ce qu'il faudra vous manger pour passer? On vous prie de foutre\nle camp!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "dormir",
+   "dist": 8,
+   "window": " à la\ncélébration officielle d'une victoire.  Enfin, on était donc délivré,\non recommençait à manger et à dormir en paix!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "chair",
+   "dist": 8,
+   "window": " tuerait à la fin, cette bête mauvaise\ndu Voreux, à la gueule toujours ouverte, qui avait englouti tant de\nchair humaine!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "père",
+   "dist": 8,
+   "window": "st-ce que tu\npayes une tournée de vitriol? Cinq ouvriers entrèrent, se tinrent\ndebout.\n\n-- Ah! ce voleur de père Colombe!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "père",
+   "dist": 8,
+   "window": "ruisseau. Dame! il ne se serait\nplus dérangé, ça aurait joliment remplacé les dés à coudre de ce\nroussin de père Colombe!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "faire",
+   "dist": 8,
+   "window": "Dieu! que les hommes étaient donc bêtes! Est-ce que ces\ndeux-là ne tapaient pas sur leurs boulons pour lui faire la cour!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "être",
+   "dist": 8,
+   "window": "d d'un camarade! Tous les\nmarchands de coco faisaient l'oeil! Il fallait venir dans les mines à\npoivre pour être insulté!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "mettre",
+   "dist": 8,
+   "window": "en! si les Coupeau voulaient la garder maintenant, ils n'avaient\nplus qu'à lui coudre son affaire et à la mettre en cage!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "m'épouser",
+   "dist": 9,
+   "window": "\n\nElle répondit avec une physionomie idiote:\n\n--Quoi, not'maître?\n\nAlors lui, brusquement:\n\n--Mais de m'épouser, pardine!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "poser",
+   "dist": 9,
+   "window": "ame Lerat, les\nlèvres pincées, encore vexée des cinq cents de madame Maloir.  Tu\npeux te flatter de faire poser les gens!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "l'escalier",
+   "dist": 9,
+   "window": " au derrière?...  Elle est\ntrop forte, celle-là!  Mais, mon petit, c'est moi qui l'ai jeté\nen bas de l'escalier, ce cocu!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "poser",
+   "dist": 9,
+   "window": " airs modestes, et ça refusait des soupers auxquels on lui\nfaisait l'honneur de l'inviter, histoire de se poser en vertu!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "heure",
+   "dist": 9,
+   "window": "a\nnature; comme si l'on pouvait tout montrer!  comme si un roman ne\ndevait pas être écrit pour passer une heure agréable!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "manquer",
+   "dist": 9,
+   "window": "Je vais à l'hôpital...  Personne ne m'a aimée comme elle.  Ah!\non a bien raison d'accuser les hommes de manquer de coeur!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "aller",
+   "dist": 9,
+   "window": " Maheude gênée.  C'est\nennuyeux, ces affaires! Comme s'ils n'auraient pas pu attendre d'être\nmariés, pour aller ensemble!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "salaire",
+   "dist": 9,
+   "window": "r le temps qu'un travail soigné leur\nprendrait.  Voilà donc où elle voulait en venir, à cette baisse de\nsalaire déguisée!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "casser",
+   "dist": 9,
+   "window": "a veuve, dont la gorge et le ventre faisaient encore\nbarricade.\n\n--Ça vous avance à grand-chose, de tout casser chez moi!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "vivre",
+   "dist": 9,
+   "window": "une bonne\nparole qu'il lui disait, elle empoignait tout de suite deux sottises.\nCela aurait été si bon de vivre d'accord!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "foutre",
+   "dist": 9,
+   "window": "avait juré avec eux, la veille, et on le\ntrouvait au fond, en compagnie des autres? C'était donc pour se foutre\ndu monde!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "lavandière",
+   "dist": 9,
+   "window": "ttue, couverte de confusion. Et\nelle causait, prise d'une gaieté féroce, se rappelant une chanson de\nlavandière:\n\n-- Pan!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "salir",
+   "dist": 9,
+   "window": "it bien du quartier! Il ne\nmettait pas son nez dans les affaires des autres; il aurait eu trop\npeur de le salir, d'abord!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "épater",
+   "dist": 9,
+   "window": "plus, puisque vous êtes ratissés.... Ah! vous devriez voir pourtant où\nça vous a conduits, de chercher à épater le monde!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "servir",
+   "dist": 9,
+   "window": " les maisons où\nil y avait un mort, il dit brusquement:\n\n-- C'est un jésuite, ce salaud, avec son air de servir la messe!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "fourrer",
+   "dist": 9,
+   "window": "rceau\npour les hommes, une sole tant elle était plate, et avec ça des\nsalières aux épaules, grandes à y fourrer le poing!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "heure",
+   "dist": 9,
+   "window": "..\n\nAlors, les Lorilleux pincèrent les lèvres et échangèrent un mince\nregard. La Banban mendiait, à cette heure! Eh bien!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "donner",
+   "dist": 9,
+   "window": "à, cette morveuse? Est-ce qu'on meurt si jeune, quand on n'a pas été\nmalade! Quelque frime pour se faire donner du sucre!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "massacrer",
+   "dist": 9,
+   "window": " de sa\nbête féroce de père. Après avoir tué la maman d'un coup de pied,\nest-ce qu'il ne venait pas de massacrer la fille!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "affaire",
+   "dist": 10,
+   "window": "te demander ton avis aujourd'hui même.\n\n--Tiens! tiens! Y a-t-il longtemps qu'il est question de cette\naffaire-là?\n\n--Oh!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "trouver",
+   "dist": 10,
+   "window": ", mon brave!\n\n-- Ah!  murmura Fauchery, étonné.\n\n-- Vous ne saviez pas...  Oh!  j'ai eu un mal pour la trouver chez\nelle!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "nettoyer",
+   "dist": 10,
+   "window": " trottait les\njambes hautes.\n\n-- Bigre!  dit Nana, ce voleur de Steiner vient donc une fois\nencore de nettoyer la Bourse!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "sortir",
+   "dist": 10,
+   "window": "'a-t-elle\ndonc dans la peau? Ne pas pouvoir attendre que je la marie, après\nqu'elle nous aurait aidés à sortir du pétrin!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "chier",
+   "dist": 10,
+   "window": " forêt, qui demandais la grève des\nmachineurs, pour arrêter les pompes, et tu cherches maintenant à nous\nchier du poivre!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "rire",
+   "dist": 10,
+   "window": "j'en suis fâchée pour\nvous, monsieur Coupeau... Il ne faut pas que ça vous blesse. Si\nj'avais des idées à rire, mon Dieu!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "lantier",
+   "dist": 10,
+   "window": "nante, un\nlogement aux Coupeau, le logement vacant du sixième, dans le corridor\ndes Lorilleux. Quant à Lantier, mon Dieu!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "sincère",
+   "dist": 11,
+   "window": " tu me jetterais dehors. Tu ne me pardonnerais pas non plus.\n\nIl répondit avec un si grand élan de si sincère amour:--Oh!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "rejoindre",
+   "dist": 11,
+   "window": "nché leurs regrets, leurs\nvoeux pour le bonheur du disparu dans l'autre monde, et leur espoir de\nle rejoindre--blagueurs!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "votre",
+   "dist": 11,
+   "window": "lui donnant sur\nl'épaule des tapes affectueuses à le casser en deux, répétant:\n\n-- C'est que je tiens à votre santé, moi!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "dire",
+   "dist": 11,
+   "window": "étiez pas levé, il\nest parti avant sept heures.  Ça le distraira toujours.\n\nMais elle s'interrompit pour dire:\n\n-- Tiens!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "faire",
+   "dist": 11,
+   "window": "tait avec\ncâlinerie:\n\n-- Couchons-nous vite, mon chat.  Nous serons mieux...  Ah!  que\ntu es bête de te faire de la bile!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "terre",
+   "dist": 11,
+   "window": "in\nd'eux, maintenant!...  Tiens!  cent louis que tous ceux qui ont\nrigolé, je les amène là, à lécher la terre devant moi!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "perdre",
+   "dist": 11,
+   "window": "\nque la vue de Nana remuait, risqua trois louis.  Mais les femmes\nrefusaient, absolument.  Merci, pour perdre à coup sûr!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "faire",
+   "dist": 11,
+   "window": "z qu'il adore les femmes.\n\n-- Qu'est-ce que ça nous fiche!  dit Clarisse.  Nous n'avons pas\nenvie de le faire, peut-être!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "bavarder",
+   "dist": 11,
+   "window": "n avait beaucoup ce\njour-là, pour que la flamme des lampes fût si bleue.\n\n--Quand vous aurez fini de bavarder, fainéants!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "avoir",
+   "dist": 11,
+   "window": " paisiblement, sans répondre.  Il finit par dire:\n\n--Fallait peut-être sauter sur le chef.  Merci! pour avoir des ennuis!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "dire",
+   "dist": 11,
+   "window": "r chez Maigrat.\n\n--Non, pas chez Maigrat, maman me l'a défendu.\n\n--Laisse donc, est-ce qu'on a besoin de dire où l'on va!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "descendre",
+   "dist": 11,
+   "window": " et bourdonnante de sommeil, saisi\npar le grand froid, comme par une douche glacée.\n\n--Forcez-les à descendre, sacrebleu!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "fouetter",
+   "dist": 11,
+   "window": "ssant sa\nbête, cravachant ceux qui ne se rangeaient pas assez vite.\n\n--Ah! canailles, vous en êtes à fouetter nos filles!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "vouloir",
+   "dist": 11,
+   "window": "llait respirer un\npeu...  Si l'on avait su pourtant! Est-ce possible, de s'être rendu si\nmalheureux à vouloir la justice!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "faire",
+   "dist": 11,
+   "window": "ainéantise heureuse.\nMais elle se secoua, elle se mit debout. Ah bien! en voilà une\naprès-midi passée à faire les rosses!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "déshonorer",
+   "dist": 11,
+   "window": "ffaire, il lui\ncouperait le cou un peu vivement! Avait-on jamais vu! une morveuse qui\nse mêlait de déshonorer la famille!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "tirer",
+   "dist": 11,
+   "window": "o, les demoiselles pour Saint-Lazare, en voiture! Non,\nc'était trop comique. Nana avait un chic pour se tirer les pattes!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "boire",
+   "dist": 11,
+   "window": "ête. Oh! ce fut vite réglé! elle le fouilla, lui\nratissa la monnaie. Pincé, plus de braise, pas de quoi boire une\ngoutte!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "encore",
+   "dist": 12,
+   "window": " l'art.\n\nIl faut être, en effet, bien fou, bien audacieux, bien outrecuidant ou\nbien sot, pour écrire encore aujourd'hui!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "fenêtre",
+   "dist": 12,
+   "window": " planche. Se\nserait-elle sauvée? Mais par où? Si elle s'était sauvée ... elle avait\ndonc sauté de la fenêtre dans la rue!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "mettre",
+   "dist": 12,
+   "window": "oncquoy, il y a quinze\nans...  La pauvre Estelle s'est encore allongée.  En voilà une\njolie planche à mettre dans un lit!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "être",
+   "dist": 12,
+   "window": "rré,\njuste le comte arrivait et tombait droit sur eux.  Vrai!  pas de\nchance!  Voilà ce qu'on gagnait à être bonne fille!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "geler",
+   "dist": 12,
+   "window": "re de trop hausser\nla voix:\n\n--Qu'est-ce que nous fichons là, nom de Dieu! Est-il permis de nous\nfaire geler de la sorte!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "vivre",
+   "dist": 12,
+   "window": "r.\n\n--Ah! nous y voilà! cria M. Hennebeau.  Je l'attendais, cette\naccusation d'affamer le peuple et de vivre de sa sueur!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "étrangler",
+   "dist": 12,
+   "window": "ssinat, l'incendie, jamais! C'est monstrueux, c'est injuste,\ntous les camarades se lèveraient pour étrangler le coupable!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "frotter",
+   "dist": 12,
+   "window": "rfaitement les\ngalopins, les petits sur la petite, en tas.  Jusqu'aux marmots qui\ndéjà s'égayaient à frotter leur misère!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "contenter",
+   "dist": 12,
+   "window": "der à soi, battre les blés avec la herscheuse la plus laide, la\nplus sale, et être capable de s'en contenter!\n\n--Du pain!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "exploiter",
+   "dist": 12,
+   "window": "ravaille, je l'étrangle...\nAh! non, ce serait trop fort, de tuer le père et de continuer ensuite\nà exploiter les enfants!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "mettre",
+   "dist": 12,
+   "window": "\ncocos dans cette boîte, de se ficher du monde, parce qu'on n'avait pas\ndes gants beurre frais à leur mettre sous le nez!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "dire",
+   "dist": 12,
+   "window": " riant qu'elle en serait\ntombée malade, si on l'avait empêchée d'avoir la boutique. Toutefois,\navant de dire: C'est fait!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "n'avoir",
+   "dist": 12,
+   "window": "que les gens aient bien peu de chose à faire, pour faire tant\nd'enfants... Et ça se plaint encore de n'avoir pas de pain!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "faire",
+   "dist": 12,
+   "window": "! que les hommes étaient donc bêtes! Est-ce que ces\ndeux-là ne tapaient pas sur leurs boulons pour lui faire la cour! Oh!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "votre",
+   "dist": 12,
+   "window": "outez, vous avez\ntort, vous voyez bien que je suis gentille, car jamais je ne vous ai\njeté à la figure votre vie, à vous!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "broyer",
+   "dist": 13,
+   "window": "ulu tuer\nquelqu'un! Son bras tendu, sa main grande ouverte avaient envie de\nfrapper, de meurtrir, de broyer, d'étrangler!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "crier",
+   "dist": 13,
+   "window": ", j'avais mon compas dans ma poche; je\nl'ai frappé, frappé tant que j'ai pu.\n\nAlors elle s'est mise à crier: «Au secours!",
+   "file": "pg14790.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "l'embarrasser",
+   "dist": 13,
+   "window": "es jours de première.\n\n-- Mais je fume, vous voyez, répondit Daguenet.\n\nAlors, Fauchery, pour l'embarrasser:\n\n-- Eh bien!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "apporter",
+   "dist": 13,
+   "window": "ille.  Parmi tous ces hommes qui\nl'avaient acclamée, dire qu'il ne s'en trouverait pas un pour lui\napporter quinze louis!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "encore",
+   "dist": 13,
+   "window": " l'air très sage, avec un énorme\nbouquet sur les genoux.\n\n-- Ah!  mon Dieu!  cria-t-elle.  Il y en a encore un là-dedans!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "n'être",
+   "dist": 13,
+   "window": " ma fortune...  Oui!  ce\nserait l'unique condition: sans partage, entends-tu!  Et si tu\nconsentais à n'être qu'à moi, oh!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "souffrir",
+   "dist": 13,
+   "window": "e\nchamp des promesses, les enlevait dans un éblouissement.  Quel rêve!\nêtre les maîtres, cesser de souffrir, jouir enfin!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "miner",
+   "dist": 13,
+   "window": "elle les avait salées.\n\n-- Taisez-vous donc! cria la sage-femme\n\n-- Ah! quand vous l'empêcherez de se miner, par exemple!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "regarder",
+   "dist": 13,
+   "window": " un gigot, j'étais là, je l'ai vu tomber,\nrépétait-elle. C'est à cause de sa petite, il a voulu la regarder, et\npatatras!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "payer",
+   "dist": 13,
+   "window": "ut ce monde causait du\nlambrequin à franges de coton blanches. Ah! les Coupeau auraient mieux\nfait de payer leurs dettes!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "donner",
+   "dist": 13,
+   "window": "ette morveuse? Est-ce qu'on meurt si jeune, quand on n'a pas été\nmalade! Quelque frime pour se faire donner du sucre! Ah!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "grenouillère",
+   "dist": 14,
+   "window": "onde, se tenaient par la taille en regardant sans\ncesse leurs compagnes.\n\nUn cri partit de la Grenouillère: «Vl'à Lesbos!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "risquer",
+   "dist": 14,
+   "window": " je sais!  Voilà deux jours que je ne peux arracher\nRose de là-haut...  C'est stupide à la fin, de risquer sa peau\nainsi!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "faire",
+   "dist": 14,
+   "window": "ncore la maîtresse de\npersonne; et lui qui ne l'avait pas crue, qui s'était privé d'elle\npour ne pas faire comme l'autre!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "lâcher",
+   "dist": 14,
+   "window": "\n\n--Fiche-moi la paix, hein! lui dit-il en se couchant et en tournant le\ndos.  Ce serait propre, de lâcher les camarades!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "lavandière",
+   "dist": 14,
+   "window": " couverte de confusion. Et\nelle causait, prise d'une gaieté féroce, se rappelant une chanson de\nlavandière:\n\n-- Pan! pan!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "glacière",
+   "dist": 14,
+   "window": "e devait dire quelque chose, prit un air indifférent, demanda:\n\n-- Et ils demeurent toujours à la Glacière?\n\n-- Mais non!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "perdre",
+   "dist": 15,
+   "window": " Qui sait?\nqui sait? Comme la vie est singulière, changeante! Comme il faut peu de\nchose pour vous perdre ou vous sauver!",
+   "file": "pg14790.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "autre",
+   "dist": 15,
+   "window": "st-ce qu'une femme a besoin de savoir jouer et\nchanter?  Ah!  mon petit, tu es trop bête...  Nana a autre chose,\nparbleu!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "perdre",
+   "dist": 15,
+   "window": ".  J'ai trouvé ça\n  curieux.\n\nCependant, madame Hugon plaignait la pauvre mère.  Quelle douleur\nde perdre ainsi sa fille!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "acquitter",
+   "dist": 15,
+   "window": "Eh bien!  ils sont propres,\nles fournisseurs!  Est-ce qu'ils croient que je suis à vendre,\npour acquitter leurs mémoires!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "s'engraisser",
+   "dist": 15,
+   "window": "plomb.  Non, non, pas d'avocats! tous sont des canailles, ils\nprofitent de leur science pour s'engraisser avec le peuple!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "soir",
+   "dist": 15,
+   "window": "aîtres, faut régler leur\n  compte!\n\nEt, debout, cédant à l'emportement de sa souffrance:\n\n--A demain soir, dans la forêt!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "travailler",
+   "dist": 15,
+   "window": "emme qui travaille pour lui.\n\nChaval jura, le sang au visage.\n\n--Nom de Dieu! c'est défendu de travailler, alors?\n\n--Oui!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "pleurer",
+   "dist": 15,
+   "window": "t entendu, il continua:\n\n-- Encore des potins, n'est-ce pas? Elle est gentille, maman Coupeau,\nde pleurer misère partout!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "voir",
+   "dist": 15,
+   "window": "ieté, et qu'on était bienvenu de lui\nreprocher une cocarde de temps à autre, prise à la seule fin de voir\nla vie en rose!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "prendre",
+   "dist": 15,
+   "window": "ne pour se refourrer dans son lit, il\nrigola de nouveau.\n\n-- T'as le nez solide, t'as pas peur de prendre une prise, toi!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "couper",
+   "dist": 15,
+   "window": "en? demanda Coupeau.\n\n-- Tu ne reconnais pas ce chignon-là? murmura Gervaise, étranglée. Ma\ntête à couper que c'est elle!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "échapper",
+   "dist": 16,
+   "window": "erruque flambante, les bras nus, tatoués de coeurs\npercés de flèches.  Une voix de femme laissa échapper, très haut:\n«Ah!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "manger",
+   "dist": 16,
+   "window": "hein!  la belle salle à manger!  et quelles noces\non donnerait à Paris, si l'on avait une salle à manger de cette\ntaille!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "boiser",
+   "dist": 16,
+   "window": " laisserait des hommes! et ces\nbrutes-là qui parlaient de se mettre en grève, si on les forçait à\nboiser plus solidement!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "fournir",
+   "dist": 16,
+   "window": "ui-ci, le nez\nmangé par les garces du Volcan! et cet autre, dont les yeux pissaient\nde la cire à fournir dix cathédrales!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "faire",
+   "dist": 16,
+   "window": "plus tard possible.\nOh! il était payé pour manquer d'enthousiasme. Puis, ça lui semblait\nsi bon de faire un peu la vache!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "l'air",
+   "dist": 16,
+   "window": "\n-- Monsieur Coupeau est sur le trottoir d'en face, lui cria Clémence,\ndès qu'elle l'aperçut. Il a l'air joliment poivre!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "baver",
+   "dist": 16,
+   "window": "épublicains de quatre sous, ces\nsacrés fainéants de la gauche! Est-ce que le peuple les nomme pour\nbaver leur eau sucrée!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "votre",
+   "dist": 16,
+   "window": "z, vous avez\ntort, vous voyez bien que je suis gentille, car jamais je ne vous ai\njeté à la figure votre vie, à vous! Oh!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "rosière",
+   "dist": 16,
+   "window": "sucée des autres, ah! elle s'était fait ramasser\nsur le trottoir, en l'enjôlant par ses mines de rosière! Nom d'un\nchien!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "manger",
+   "dist": 16,
+   "window": "elle disait non, elle disait oui, elle ne savait pas.\nAh! Seigneur! que cela est bon et triste de manger, quand on crève!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "bavarder",
+   "dist": 17,
+   "window": "r redescendre, le charretier ajouta doucement, en s'adressant\nà elle:\n\n--Faut pas t'habituer à bavarder, fichu paresseux!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "dormir",
+   "dist": 17,
+   "window": "lanche.\n\n--Mais non, dit la mère, tu vois qu'on t'attendait...  Hein? ce vent a\ndû t'empêcher de dormir, pauvre mignonne!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "t'échauffer",
+   "dist": 17,
+   "window": " deux doit manger l'autre.\n\nChaval serra les poings.\n\n--Allons donc! il faut t'en dire pour t'échauffer, bougre de lâche!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "traître",
+   "dist": 17,
+   "window": "enait Chaval renversé sous\nson genou, il menaçait de lui ouvrir la gorge.\n\n--Ah! nom de Dieu de traître, tu vas y passer!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "regarder",
+   "dist": 17,
+   "window": "gigot, j'étais là, je l'ai vu tomber,\nrépétait-elle. C'est à cause de sa petite, il a voulu la regarder, et\npatatras! Ah!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "papier",
+   "dist": 17,
+   "window": "tant, pas même le temps de rouler une cigarette. Rien que le\ngeste de prendre une mince bande de papier vert, et allez-y!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "misère",
+   "dist": 17,
+   "window": " des\nmachines. Oh! si elle avait pu partir ainsi, s'en aller là-bas, en\ndehors de ces maisons de misère et de souffrance!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "prendre",
+   "dist": 18,
+   "window": "Pierre ferma ses poings de fureur avec une envie irrésistible de sauter\nsur son frère et de le prendre à la gorge:\n\n--Ah!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "dormir",
+   "dist": 18,
+   "window": "près avoir parlé\nd'envoyer quelqu'un, resta hésitante.  Elle était bien lasse.\nToute une nuit à dormir, ce serait si bon!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "wagner",
+   "dist": 18,
+   "window": "ieur de Vandeuvres, demanda madame Chantereau qui haussait\nla voix, n'est-ce pas qu'on a sifflé Wagner, dimanche?\n\n-- Oh!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "encore",
+   "dist": 18,
+   "window": "escendait\nderrière elle.\n\n-- C'est ce voleur de Steiner, dit Caroline.  Comment!  on ne l'a\npas encore renvoyé à Cologne!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "salir",
+   "dist": 18,
+   "window": "u quartier! Il ne\nmettait pas son nez dans les affaires des autres; il aurait eu trop\npeur de le salir, d'abord! Eh bien!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "attraper",
+   "dist": 18,
+   "window": "n tournait au\nvilain, Coupeau dut intervenir.\n\n-- Ah bien! vous êtes encore innocents de vous attraper pour la\npolitique!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "votre",
+   "dist": 18,
+   "window": "ait,\nconsterné, elle finit par crier:\n\n-- Mais votre mariage? Je ne puis pas prendre l'argent de votre\nmariage, bien sûr!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "frère",
+   "dist": 18,
+   "window": "nable.\n\n-- Ah bien! criait madame Lorilleux dans toute la rue de la\nGoutte-d'Or, mon imbécile de frère en voit de drôles!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "appeler",
+   "dist": 18,
+   "window": "de se jeter par la fenêtre, comme elle en avait eu l'envie un\nmoment, elle se mit à taper et à appeler:\n\n-- Père Bazouge!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "flanquer",
+   "dist": 19,
+   "window": "e fâcha.  En voilà une grosse bête, de filer de chez sa\nmaman, le ventre vide, pour aller se flanquer dans un trou d'eau!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "avoir",
+   "dist": 19,
+   "window": "ris des habitudes, ça ne peut pas jeûner seulement huit\njours!  Et lui qui me jurait de ne plus avoir de femme après moi!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "épater",
+   "dist": 19,
+   "window": "t dédaigneusement la\nFaloise.  En voilà un qui s'est mis le doigt dans l'oeil, s'il a\ncru nous épater avec son rôtissage!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "dormir",
+   "dist": 19,
+   "window": ".\n\n--Ah, ouiche! Philomène! répondit Zacharie, elle s'en moque, elle\ndort!...  C'est cochon de dormir jusqu'à six heures!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "faire",
+   "dist": 19,
+   "window": "sans\nune goutte de liquide dans le corps, et voilà que je dégringole en\nvoulant me tourner pour faire une risette à Nana!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "lécher",
+   "dist": 19,
+   "window": ". Sacré mâtin! quelle dame! quelles\ncuisses et quel ventre!\n\n-- Elle ne s'est pas engraissée à lécher les murs, celle-là!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "m'empêcher",
+   "dist": 19,
+   "window": "e! aïe donc! par terre!... Oui, sonnez les cloches, tas de\ncorbeaux! jouez de l'orgue pour m'empêcher d'appeler la garde!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "vivre",
+   "dist": 20,
+   "window": " un paquebot transatlantique.\n\n--Oh! monsieur Pierre! Vous m'aviez si bien promis de m'aider à vivre!\n\n--Que voulez-vous!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "dire",
+   "dist": 20,
+   "window": " Baron, vous savez? le fils du sénateur.»--Et\nl'autre, invariablement, ne pouvait s'empêcher de dire:--«Le pauvre\ndiable!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "profiter",
+   "dist": 20,
+   "window": "\nelle dit d'un air de grave philosophie:\n\n-- Ah bien!  on a tout de même joliment raison de profiter, quand\non est jeune!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "manquer",
+   "dist": 20,
+   "window": " le chef de bande,\nl'apôtre apportant la vérité.  Est-ce qu'il se trouverait des lâches\npour manquer à leur parole? Quoi!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "ficher",
+   "dist": 20,
+   "window": "Coupeau... Non, ne toussez\npas, j'ai fini de causer. C'est seulement pour vous demander de me\nficher la paix, voilà tout!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "démêler",
+   "dist": 20,
+   "window": "t pas. Elle marchait trop vite. Puis,\nqu'est-ce qu'ils lui auraient dit? elle n'avait rien à démêler avec\neux, peut-être!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "l'atelier",
+   "dist": 20,
+   "window": "\npourvu qu'on n'employât pas les mots crus, on pouvait tout dire.\n\nVrai! Nana complétait à l'atelier une jolie éducation!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "tirer",
+   "dist": 20,
+   "window": "moiselles pour Saint-Lazare, en voiture! Non,\nc'était trop comique. Nana avait un chic pour se tirer les pattes! Ah\nbien!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "crier",
+   "dist": 21,
+   "window": "é sur les môles, sur la plage, aux fenêtres,\nemporté soudain par un élan patriotique se mit à crier: «Vive la\n_Lorraine_!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "mère",
+   "dist": 21,
+   "window": "t-elle à chaque phrase.\nAvons-nous ri, à cette époque, lorsque nous allions à la pension\nde la mère Josse, rue Polonceau!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "avoir",
+   "dist": 21,
+   "window": " en calèche!...  Oui, la cuisinière dans la calèche à\ndeux chevaux, allant à Marchiennes pour avoir du poisson, bien sûr!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "lettre",
+   "dist": 21,
+   "window": "sait lui tendre la main.  L'autre la lui serrait déjà,\net il dit à peine un mot rapide de la lettre: quelle drôle d'idée!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "contenter",
+   "dist": 21,
+   "window": ", battre les blés avec la herscheuse la plus laide, la\nplus sale, et être capable de s'en contenter!\n\n--Du pain! du pain!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "voir",
+   "dist": 21,
+   "window": " Qu'est-ce qu'elle frotte donc là? Hein! c'est un jupon? Il\nest joliment dégoûtant, il a dû en voir de propres, ce jupon!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "voir",
+   "dist": 21,
+   "window": "et qu'on était bienvenu de lui\nreprocher une cocarde de temps à autre, prise à la seule fin de voir\nla vie en rose! Hein!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "s'acharner",
+   "dist": 21,
+   "window": ", et son coeur avec ça qu'on lui\narrachait maintenant! Non, le sort n'était pas juste de s'acharner\nainsi après un homme!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "ficher",
+   "dist": 21,
+   "window": "r Boche, carrément\nassis près du poêle, en train de faire des cancans. Il avait un air de\nse ficher du monde, cet animal!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "savoir",
+   "dist": 22,
+   "window": "!  un four!  cria le directeur dont la face\ns'empourprait.  Est-ce qu'une femme a besoin de savoir jouer et\nchanter?  Ah!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "prendre",
+   "dist": 22,
+   "window": " J'ai ton coude\ndans le ventre, bien sûr.\n\nAlors, elle éclata aussi.  Était-il bête, de la prendre encore pour un\ngarçon!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "fièvre",
+   "dist": 22,
+   "window": "ne secousse lointaine suffit à ébranler le monde...  Et\nl'Empire qui était si fier de cette fièvre chaude de l'industrie!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "voler",
+   "dist": 22,
+   "window": "rt des pauvres!...\nAllons donc! il faudrait que vos ouvriers fussent de fameux brigands\npour voler chez nous une épingle!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "conclure",
+   "dist": 22,
+   "window": "emarqua l'effroi de tous, la profonde\nanxiété où la rencontre les jetait, elle se hâta de conclure:\n\n--Oh! les gueux, oh!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "crier",
+   "dist": 22,
+   "window": "r, dans la crainte de\nrecevoir des pierres; car la foule, qu'il ne voyait plus, continuait à\ncrier, sous lui:\n\n--Au chat!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "l'officier",
+   "dist": 22,
+   "window": "ue chacun en eût sa part,\ns'y reprenait à chaque poussée qu'elle envoyait.\n\n--V'là pour l'officier! v'là pour le sergent!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "cracher",
+   "dist": 22,
+   "window": "\n\n-- Dis donc! cria-t-il, tu as croqué le magot avec moi; ça ne te va\npas, aujourd'hui, de cracher sur les bons morceaux!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "charbonnier",
+   "dist": 22,
+   "window": "e par derrière, dans la foule, sans\navoir l'air de rien. Et ses jambes! des cotrets de charbonnier, de\nvraies allumettes!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "tenir",
+   "dist": 22,
+   "window": "de son marteau. Alors,\nque de fois il avait mordu son oreiller, la nuit, en souhaitant de la\ntenir ainsi dans sa chambre!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "mépriser",
+   "dist": 23,
+   "window": "u. Tu ne dis pas un mot à mon\npère, à ma mère ou à moi, où elle n'éclate. Tu feins de me mépriser\nparce que tu es jaloux!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "rire",
+   "dist": 23,
+   "window": "fureur:--«Je veux, je veux que\ntu m'épouses, puisque tu m'as promis le mariage.» Il se mit à rire et\nrépondit:--«Ah bien!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "courir",
+   "dist": 23,
+   "window": " gênait.  Un terrible\nhomme, le marquis, et sur lequel d'étranges histoires\ncommençaient à courir, malgré sa haute piété!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "causer",
+   "dist": 23,
+   "window": "sonne; si le\nmonsieur venait, ce n'était pas sa faute.  Ce Zizi, quelle grosse\nbête, de se causer tant de bile pour rien!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "rire",
+   "dist": 23,
+   "window": "gardèrent, sérieusement.  Puis, comme\nil demeurait très raide, l'air étranglé, elle se mit à rire, elle\ndit:\n\n-- Eh bien!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "voir",
+   "dist": 23,
+   "window": "e le comte avec sa femme...  Vous savez, ce\nn'est pas une blague, je serais enchantée de les voir tous\nheureux, ces gens!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "votre",
+   "dist": 23,
+   "window": " goguenard et insolent.\n\n-- Dites donc, ma petite mère, ce sera pour une autre fois. Tout à\nvotre service, entendez-vous!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "faire",
+   "dist": 23,
+   "window": "t sourdement au fond d'elle: « Tout est fini, eh bien! « tout\nest fini; je n'ai plus rien à faire, moi, si tout est fini!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "refaire",
+   "dist": 23,
+   "window": "pieds pour la décider, pendant qu'elle lui conseillait de bien\nréfléchir. Et si c'était à refaire, comme elle dirait non!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "vieillir",
+   "dist": 24,
+   "window": "s une tendresse, pas une douceur, pas une de\nces heures qui nous font tant regretter de vieillir, rien! Je lui dois\ntout!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "rester",
+   "dist": 24,
+   "window": "nquât tous à la porte, cette nuit-là.  Ça\nleur apprendrait.  Puis, ce serait si gentil de rester seules,\ntoutes les deux!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "vouloir",
+   "dist": 24,
+   "window": "n histoire avec Maréchal.  C'est\nimbécile.  Quand je pense que Blanche a eu le toupet de vouloir\nme mettre ça sur le dos!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "chambre",
+   "dist": 24,
+   "window": ", s'annonça\nlui-même.  Du coup, elle s'accouda sur l'oreiller, et, renvoyant\nla femme de chambre:\n\n-- Comment, c'est toi!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "notre",
+   "dist": 24,
+   "window": "tait\nbarricadé dans la chambre des porions, il répondit:\n\n--Après? est-ce que ce serait de notre faute? Un enragé pareil!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "foutre",
+   "dist": 24,
+   "window": " eux, la veille, et on le\ntrouvait au fond, en compagnie des autres? C'était donc pour se foutre\ndu monde!\n\n--Enlevez-le!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "triompher",
+   "dist": 24,
+   "window": "aut, très rouge, la bouche ouverte pour refuser l'inscription;\npuis, il se contenta de triompher, d'un air goguenard: ah!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "s'enfermer",
+   "dist": 24,
+   "window": " qu'on se moquait du monde? Elle\ns'habillait, elle recevait la pluie, et c'était pour s'enfermer chez\nun marchand de vin!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "plaindre",
+   "dist": 24,
+   "window": "\n\nEntre ces deux messieurs, Gervaise ne riait pas tous les jours. Elle\nn'avait pas à se plaindre de sa santé, Dieu merci!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "l'atelier",
+   "dist": 24,
+   "window": "rvu qu'on n'employât pas les mots crus, on pouvait tout dire.\n\nVrai! Nana complétait à l'atelier une jolie éducation! Oh!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "steiner",
+   "dist": 25,
+   "window": " dit crûment:\n\n-- Tu vois ce qui se passe?...  Ma parole, si elle recommence le\ntour de Steiner, je lui arrache les yeux!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "rencontre",
+   "dist": 25,
+   "window": " Mais Zoé, effarée elle-même, ne s'aperçut pas\nde son trouble.  Elle avait couru à sa rencontre, elle lui\ncriait:\n\n-- Oh!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "vivre",
+   "dist": 25,
+   "window": "tables\ntorchons, qui semblaient avoir essuyé le cul des marmites.\n\n--S'il est possible de vivre dans une pareille ordure!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "terre",
+   "dist": 25,
+   "window": " Encore du crédit, elles rêvaient donc de le\nmettre sur la paille? Non, plus une pomme de terre, plus une miette de\npain!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "payer",
+   "dist": 25,
+   "window": "\n--Salaud! cochon! espèce de mufle!...  Attends, tu as mes pauvres\nbougres d'enfants à me payer, il faut que tu y passes!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "demander",
+   "dist": 25,
+   "window": "mplétait, d'être\nune orgueilleuse.\n\nUn soir, madame Lorilleux eut la méchanceté de lui demander\nbrusquement:\n\n-- Eh bien!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "papier",
+   "dist": 25,
+   "window": "c ce garçon qui venait\nl'attendre le soir.\n\nNana, en train de couper de minces bandes de papier vert, s'écria:\n\n-- Pardi!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "jouer",
+   "dist": 25,
+   "window": "ais voilà que, dans l'allée, elle aperçut le monsieur planté comme un\ncierge, en train de jouer de la prunelle avec Nana!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "jouer",
+   "dist": 25,
+   "window": "nge ton poing!... Et garde l'autre pour demain!\n\nC'est lui qui trouvait ça patagueule, de jouer le drame devant le\nmonde!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "mettre",
+   "dist": 26,
+   "window": "s les mêmes, vous vous laisseriez aplatir le crâne, plutôt que de\nlâcher la veine, pour mettre au boisage le temps voulu!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "chair",
+   "dist": 26,
+   "window": "es de\nfatigue, qui étaient encore assez bêtes, le soir, pour fabriquer des\npetits, de la chair à travail et à souffrance!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "entendre",
+   "dist": 26,
+   "window": ", le machineur voulut partir; et, comme l'autre le retenait:\n\n--A quoi bon? pour vous entendre dire des bêtises inutiles!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "d'avoir",
+   "dist": 26,
+   "window": "lui\ncoûtaient.\n\n--Notre tour est venu, lança-t-il dans un dernier éclat.  C'est à nous\nd'avoir le pouvoir et la richesse!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "faire",
+   "dist": 26,
+   "window": "ous regarde, répétait madame\nBoche qui s'empressait autour d'elle. Est-il possible de se faire tant\nde mal pour un homme!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "votre",
+   "dist": 26,
+   "window": "sterné, elle finit par crier:\n\n-- Mais votre mariage? Je ne puis pas prendre l'argent de votre\nmariage, bien sûr!\n\n-- Oh!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "aimer",
+   "dist": 26,
+   "window": "ui\nrevenait aux lèvres:\n\n-- Mais qu'a-t-elle donc sur elle, cette infirme, pour se faire aimer!\nEst-ce qu'on m'aime, moi!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "tenir",
+   "dist": 26,
+   "window": "on marteau. Alors,\nque de fois il avait mordu son oreiller, la nuit, en souhaitant de la\ntenir ainsi dans sa chambre! Oh!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "crier",
+   "dist": 27,
+   "window": "nçois Ier.\n\nIl n'eut plus de doutes et s'assit, tellement exaspéré qu'il avait envie\nde crier: «C'est trop fort à la fin!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "autre",
+   "dist": 27,
+   "window": "si\nun dégoût se fût élevé entre leurs corps, une haine entre leurs esprits.\n\nDe temps à autre, Henriette criait:--«Maman!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "crier",
+   "dist": 27,
+   "window": "compas dans ma poche; je\nl'ai frappé, frappé tant que j'ai pu.\n\nAlors elle s'est mise à crier: «Au secours! à l'assassin!",
+   "file": "pg14790.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "laisser",
+   "dist": 27,
+   "window": "\nRose, outrée, tourna la tête, sans répondre.  Il fallait être une\njolie ordure, pour laisser donner son nom à un cheval!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "grimper",
+   "dist": 27,
+   "window": " des berlines:\nc'étaient Lydie et la Mouquette, déjà au travail.  Et il lui restait à\ngrimper la hauteur de deux tailles!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "vivre",
+   "dist": 27,
+   "window": " loin de la discrétion souriante de celui-ci, de son unique\nsoin d'homme gras et doux à vivre en paix avec tout le monde!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "casser",
+   "dist": 27,
+   "window": "es dents serrées. Une boutique\nbleue à cette rien-du-tout, si ce n'était pas fait pour casser les\nbras des honnêtes gens!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "bousculer",
+   "dist": 27,
+   "window": "à l'envers. Quel jean-jean, ce Poisson! et ça portait une\népée, ça se permettait de bousculer le monde sur les trottoirs!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "terre",
+   "dist": 28,
+   "window": "t, il\nl'aurait saisie par les poignets, par les épaules ou par les cheveux, et\njetée à terre, frappée, meurtrie, écrasée!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "valoir",
+   "dist": 28,
+   "window": "r plus fort que moi, dans la\n_Perle_? Et tout ce que tu dis devant elle pour te faire valoir?\nMais tu crèves de jalousie!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "mère",
+   "dist": 28,
+   "window": "net tout à\nfait parti dans le dos, et, la lèvre tremblante;--«Ah! oui, parlons-en\nde ta mère! Elle m'en a fait une jolie!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "continuer",
+   "dist": 28,
+   "window": "rrivait tout mouillé, et comme ça lui avait paru bon, et comme\nce serait gentil de continuer!  Tant pis pour le monsieur!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "ramasser",
+   "dist": 28,
+   "window": "st-ce qu'on ne s'en foutait pas, de la Compagnie? comme si\nl'on volait quelqu'un, à ramasser les brins de charbon perdus!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "triompher",
+   "dist": 28,
+   "window": " très rouge, la bouche ouverte pour refuser l'inscription;\npuis, il se contenta de triompher, d'un air goguenard: ah! ah!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "remettre",
+   "dist": 28,
+   "window": " elle murmura:\n\n-- C'est une fille.\n\n-- Juste! reprit le zingueur, blaguant pour la remettre, j'avais\ncommandé une fille!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "lever",
+   "dist": 28,
+   "window": "se taire. Un profond\nsilence, tout d'un coup, s'était fait. Madame Putois venait de se\nlever et chantait: _A l'abordage_!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "fenêtre",
+   "dist": 29,
+   "window": "r de\nl'horizon.\n\n-- A Berlin!  à Berlin!  à Berlin!\n\nLucy se retourna, adossée à la fenêtre, et toute pâle:\n\n-- Mon Dieu!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "voir",
+   "dist": 29,
+   "window": " deux pas,\nredressant sa haute taille, criant plus fort:\n\n-- Hein! avance un peu, pour voir, que je te fasse ton affaire!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "quartier",
+   "dist": 29,
+   "window": "\n     Nous chasse vent arrière!\n     Malheur au flibustier!\n     Pour lui point de quartier!\n     Enfants, aux caronades!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "traîner",
+   "dist": 29,
+   "window": "s. Ah! le matou\nvenait pour Nana! Eh bien! c'était gentil, à quinze ans et demi, de\ntraîner ainsi des hommes à ses jupes!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "être",
+   "dist": 29,
+   "window": "u ciel trente mille francs\nde rente et des égards? Ah! vrai, dans cette vie, on a beau être\nmodeste, on peut se fouiller!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "lâcher",
+   "dist": 30,
+   "window": "ria Bordenave,\nemporté par ses instincts d'homme d'affaires.  Dix mille francs\npour lâcher Rose!  on se ficherait de moi!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "votre",
+   "dist": 30,
+   "window": " ces ducs, ces\ngénéraux et ces ministres! des brigands qui vous enlèveraient jusqu'à\nvotre chemise, à la corne d'un bois!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "contenter",
+   "dist": 30,
+   "window": "les blés avec la herscheuse la plus laide, la\nplus sale, et être capable de s'en contenter!\n\n--Du pain! du pain! du pain!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "rentrer",
+   "dist": 30,
+   "window": "nt pas dû remettre le mariage, économiser quatre sous et\nacheter des meubles, pour rentrer chez eux, le premier soir? Ah!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "mettre",
+   "dist": 30,
+   "window": "ait jeter du coeur sur du\ncarreau... Qu'est-ce qu'elle fait donc, cette femme, pour mettre son\nlinge dans un état pareil!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "flanquer",
+   "dist": 30,
+   "window": "nées au joli jeu que vous savez. Ah! ils buvaient là\ndu propre argent, capable de flanquer toutes les mauvaises maladies!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "danger",
+   "dist": 31,
+   "window": "\n\n-- Oui, répondit l'autre, mais ça n'a pas été sans peine...  Oh!\nil n'y a pas de danger que Lucy vienne trop tôt, elle!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "payer",
+   "dist": 31,
+   "window": ":\n\n-- C'est fini, je n'ai pas de chance...  Il n'y a pas huit jours,\nj'ai achevé de payer ma petite maison de Juvisy, ah!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "crier",
+   "dist": 31,
+   "window": "a crainte de\nrecevoir des pierres; car la foule, qu'il ne voyait plus, continuait à\ncrier, sous lui:\n\n--Au chat! au chat!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "regarder",
+   "dist": 31,
+   "window": " là, je l'ai vu tomber,\nrépétait-elle. C'est à cause de sa petite, il a voulu la regarder, et\npatatras! Ah! Dieu de Dieu!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "ricaner",
+   "dist": 31,
+   "window": ", ça vaudra mieux, déclara\nmadame Putois.\n\n-- Ah bien! bégaya-t-il sans cesser de ricaner, vous êtes encore\njoliment toc!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "désespoir",
+   "dist": 31,
+   "window": "ient donc bouchées, qu'elle n'entendait pas à cette\népoque la sacrée musique de désespoir qui ronflait derrière les murs!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "manger",
+   "dist": 32,
+   "window": "dait, il éclata.\n\n--Je suis un jean-foutre, j'aurais dû répondre!...  Pas de quoi manger\ndu pain, et des sottises encore!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "appeler",
+   "dist": 32,
+   "window": "r la fenêtre, comme elle en avait eu l'envie un\nmoment, elle se mit à taper et à appeler:\n\n-- Père Bazouge! père Bazouge!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "cavalier",
+   "dist": 32,
+   "window": " qui la cassaient en deux, des battements de\npieds jetés, dans la figure de son cavalier, comme si elle allait se\nfendre!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "colère",
+   "dist": 33,
+   "window": "eut-être bien que c'est ça.\n\nL'homme, rouge comme un coquelicot, bredouillait de colère:\n\n--Ah! tu l'avoues donc, gueuse!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "échapper",
+   "dist": 33,
+   "window": ", les bras nus, tatoués de coeurs\npercés de flèches.  Une voix de femme laissa échapper, très haut:\n«Ah!  qu'il est laid!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "guère",
+   "dist": 33,
+   "window": "lus mis les pieds\ndepuis dix ans.  Cet enfant adore la musique...  Moi, ça ne m'a\nguère amusée, mais il était si heureux!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "couleuvre",
+   "dist": 33,
+   "window": " à\ninjurier Étienne, dont la présence, décidément, l'exaspérait.\n\n--Espèce de couleuvre! ça n'a pas la force d'une fille!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "conclure",
+   "dist": 33,
+   "window": "ffroi de tous, la profonde\nanxiété où la rencontre les jetait, elle se hâta de conclure:\n\n--Oh! les gueux, oh! les gueux!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "cracher",
+   "dist": 33,
+   "window": "mon homme retourne à la fosse, c'est moi qui\nl'attendrai sur la route, pour lui cracher au visage et le traiter de\nlâche!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "entre",
+   "dist": 33,
+   "window": "  Elles\nl'attendraient toujours, maintenant.  Quelle abominable chose, de se\ntuer entre pauvres diables, pour les riches!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "manger",
+   "dist": 33,
+   "window": "mes, leurs pipes allumées, le couvaient d'un regard jaloux; car\nenfin, pour tant manger, il fallait être solidement bâti!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "sauver",
+   "dist": 33,
+   "window": "porte!\n\n-- Allons, file! reprit Gervaise; marche devant! et ne t'avise pas de\nte sauver, ou je te fais coucher en prison!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "genre",
+   "dist": 33,
+   "window": "se. Au rencart les gourmandes, les\nparesseuses et les dévergondées!\n\n-- Que ça de genre! ça vient quémander des dix sous!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "installer",
+   "dist": 34,
+   "window": ":\n\n--Vraiment, Louise, tu as mauvaise mine, tu te fatigues trop sans doute\nà installer Jean! Repose-toi un peu, sacristi!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "bigre",
+   "dist": 34,
+   "window": "\nQuant à la mère, une ruine, un squelette, une ombre. Maigre, vieillie.\nBigre de bigre, ça ne lui allait pas, le mariage!",
+   "file": "pg14790.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "faire",
+   "dist": 34,
+   "window": "ux.  Comment!\non ne pesait que les jockeys!  Alors, ça ne valait pas la peine\nde faire tant d'embarras, avec leur pesage!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "passer",
+   "dist": 34,
+   "window": "ait du\nlendemain, quel beau résultat pour eux, s'ils l'obligeaient à vendre,\nde passer sous le joug terrible de la Régie!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "foutre",
+   "dist": 34,
+   "window": "eille, et on le\ntrouvait au fond, en compagnie des autres? C'était donc pour se foutre\ndu monde!\n\n--Enlevez-le! au puits!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "remettre",
+   "dist": 34,
+   "window": "murmura:\n\n-- C'est une fille.\n\n-- Juste! reprit le zingueur, blaguant pour la remettre, j'avais\ncommandé une fille! Hein!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "balader",
+   "dist": 34,
+   "window": "notre\nconnaissance. Faut pas me prendre pour un jobard... Que je te pince à\nte balader encore, avec tes yeux en coulisse!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "jouer",
+   "dist": 34,
+   "window": "oing!... Et garde l'autre pour demain!\n\nC'est lui qui trouvait ça patagueule, de jouer le drame devant le\nmonde! Eh bien!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "être",
+   "dist": 34,
+   "window": "ais enfin\nc'était leur frère. Boche haussa les épaules, en disant assez haut\npour être entendu de tout le monde:\n\n-- Bah!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "laisser",
+   "dist": 35,
+   "window": "lieu du cristal, en l'air, ainsi qu'un bon Dieu.\nNon, c'était trop bête de se laisser mourir, dans une pareille\nposition!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "mère",
+   "dist": 35,
+   "window": "hors de lui, et il saisit la petite dans le\nberceau, il la jeta sur le lit de la mère, en balbutiant de fureur:\n\n--Tiens!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "l'air",
+   "dist": 35,
+   "window": "  Mais non, elle les a emportés...\nHein?  une femme qui crache le sang et qui a l'air continuellement\nd'avaler sa langue!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "reconnaître",
+   "dist": 36,
+   "window": "argneusement\nsur le jeune homme.\n\n--Dis donc, saleté! tu ferais mieux de reconnaître les deux gosses\ndont tu l'as emplie!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "suivre",
+   "dist": 36,
+   "window": " eu un vieux rempli d'attentions, et qu'elle en était\ntombée à ce point, pour suivre quelque marlou qui devait la battre!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "mouiller",
+   "dist": 37,
+   "window": "ntalon jusqu'au-dessus du mollet et ses manches\njusqu'au coude, afin de se mouiller sans crainte, puis il dit: «En\navant!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "porter",
+   "dist": 37,
+   "window": "es bottes.\n\nPierre sentit son coeur se serrer, et il se décida brusquement à porter\nle coup, puisqu'il le fallait:\n\n--Oh!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "passer",
+   "dist": 37,
+   "window": "iomphant.  Encore une\nfois, le baiser...  Vois-tu, Rose, j'ai eu le temps de passer, et\nje jette alors un léger cri: «Ah!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "faire",
+   "dist": 37,
+   "window": "-Eh bien! quoi donc? est-ce qu'on se fout du monde...? J'ai deux\nkilomètres à faire de Montsou, et je suis là le premier!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "montrer",
+   "dist": 38,
+   "window": " la chambre.  Elle parlait\ndu grand succès de la veille.  Madame venait de montrer tant de\ntalent, elle chantait si bien!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "paraître",
+   "dist": 38,
+   "window": "dessus, elle se montrait d'une énergie\nintraitable.  Plutôt crever que de paraître avoir eu tort, lorsqu'on\navait raison!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "s'enfermer",
+   "dist": 38,
+   "window": "ssible que des hommes\npussent lâcher leurs femmes et leur chez eux pour s'enfermer ainsi\ndans un trou où ils étouffaient!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "partir",
+   "dist": 39,
+   "window": "é:\n\n-- A Berlin!  à Berlin!  à Berlin!\n\nAlors, comme elles se décidaient à partir, une voix appela du\ncorridor:\n\n-- Rose!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "souffrir",
+   "dist": 39,
+   "window": " enlevait dans un éblouissement.  Quel rêve!\nêtre les maîtres, cesser de souffrir, jouir enfin!\n\n--C'est ça, nom de Dieu!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "crier",
+   "dist": 39,
+   "window": "en attendant qu'elle pût\nmarcher.\n\n--Vois-tu, reprit-elle, tu avais tort de crier là-bas, car je n'en\npouvais plus, vrai!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "donner",
+   "dist": 39,
+   "window": " la Maheude:\n\n--Alors, c'est toi qui as dit que je forçais mon logeur à me donner\nvingt sous, quand il couchait avec moi!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "faire",
+   "dist": 39,
+   "window": "nt la boustifaille de loin... Dites\ndonc, il doit rire, s'il est toujours à faire le poireau sur la route\nde Saint-Denis!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "s'éclaircir",
+   "dist": 39,
+   "window": "imal! reprit le zingueur étranglant de rire, tapant sur la\ntable pour s'éclaircir la voix, il songe toujours aux bêtises!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "marcher",
+   "dist": 39,
+   "window": "que les\ngens attardés et délicats étaient obligés d'enjamber, pour ne pas\nmarcher dedans! Vrai, le quartier était propre!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "avoir",
+   "dist": 40,
+   "window": "  Il finit par dire:\n\n--Fallait peut-être sauter sur le chef.  Merci! pour avoir des ennuis!\n\n--Tends le derrière, alors!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "colère",
+   "dist": 40,
+   "window": "bes cassées, il y\neut en elle une si brusque réaction, qu'elle étouffa de colère,\nbégayant sans larmes:\n\n--C'est tout ça!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "heure",
+   "dist": 40,
+   "window": " dit Coupeau en embrassant Gervaise. Et moi qui\nrigolais, il n'y a pas une heure, pendant que tu criais aux petits\npâtés!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "danger",
+   "dist": 40,
+   "window": "intérêts. La vérité était qu'il la coulait douce. Oh! il n'y avait pas\nde danger qu'il empoignât des durillons aux mains!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "quatre",
+   "dist": 40,
+   "window": "ans lever les yeux:\n\n-- Je tiens la Chambre. En voilà des républicains de quatre sous, ces\nsacrés fainéants de la gauche!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "faire",
+   "dist": 40,
+   "window": "de\nmeuble qu'on répare. C'était fini. On partait.\n\n-- S'il est possible de faire tant d'esbrouffe, dans un moment pareil!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "jouer",
+   "dist": 40,
+   "window": ".. Et garde l'autre pour demain!\n\nC'est lui qui trouvait ça patagueule, de jouer le drame devant le\nmonde! Eh bien! quoi!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "fenêtre",
+   "dist": 41,
+   "window": "ide de cette chose qui lui arriverait bientôt à\nelle-même, apparut à la fenêtre, et cria d'une voix aiguë:\n\n--Il a passé!",
+   "file": "pg14790.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "mettre",
+   "dist": 41,
+   "window": "til!  dit-elle.  Qu'est-ce que c'est?\nmontre un peu...  Es-tu enfant, de mettre tes sous à des petites\nmachines comme ça!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "avoir",
+   "dist": 41,
+   "window": "re! le buffet sans une\nmiette, plus rien à vendre, pas même une idée pour avoir un pain! Et\nle feu qui allait s'éteindre!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "galoper",
+   "dist": 41,
+   "window": "es lampes cassées,\nquelle inutile besogne! Cela valait bien la peine de galoper à trois\nmille, en une bande dévastatrice!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "affaire",
+   "dist": 41,
+   "window": "e laissât surprendre à se\nfaire relicher dehors, elle était sûre de son affaire, il lui\ncouperait le cou un peu vivement!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "dire",
+   "dist": 41,
+   "window": "ne voulait plus\nd'elle, et elle avait assez peiné dans son existence, pour dire: « A\nqui le tour? moi, j'en ai ma claque!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "murmurer",
+   "dist": 41,
+   "window": "n plus mal,\net qui avait une figure d'enterrement, elle se contenta de murmurer\nque la vie n'était pas toujours gaie, ah!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "dire",
+   "dist": 42,
+   "window": "\n\nL'autre, mécontent, répondit:\n\n--Est-il nécessaire d'être amoureux pour dire qu'on ne veut pas encore\nse marier?\n\n--Ah!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "s'abîmer",
+   "dist": 42,
+   "window": "out chez elle de\nl'étonnement.  Que pouvait-il avoir, cet amour, pour s'abîmer\nainsi?  Elle, sa mère, se portait si bien!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "heure",
+   "dist": 42,
+   "window": "\npissenlits qu'elle attendait.  Qu'est-ce qu'il pouvait cueillir à\ncette heure, dans ce noir de four, le bougre d'enfant!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "bégayer",
+   "dist": 42,
+   "window": ", enragé seulement par la plaie cuisante de son\ncoeur, il continuait à bégayer au milieu de ses larmes:\n\n--Les imbéciles!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "faire",
+   "dist": 43,
+   "window": "é:--«Nous avons quitté\nnotre petite ma-mare! couen! couen! couen!--pour faire connaissance avec\nla petite broche,--couen!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "montrer",
+   "dist": 43,
+   "window": "hambre.  Elle parlait\ndu grand succès de la veille.  Madame venait de montrer tant de\ntalent, elle chantait si bien!  Ah!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "fenêtre",
+   "dist": 43,
+   "window": " grosses\nlèvres, au nez écrasé, vint s'appuyer contre une vitre de la fenêtre,\nen criant:\n\n--Y a du nouveau, écoute donc!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "faire",
+   "dist": 43,
+   "window": " toi, Paul?...  Monte donc me donner des nouvelles.  Sont-ils\ndrôles de faire les méchants, ces gens qui sont si heureux!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "nourriture",
+   "dist": 43,
+   "window": "uand je pense que vous\ntravaillez depuis trois jours à toute cette nourriture, et qu'on va\nrâfler ça en un rien de temps!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "venir",
+   "dist": 44,
+   "window": "Il demanda:\n\n--Pourquoi ça?\n\nElle reprit:\n\n--N'est-ce pas une folie de venir comme ça toute seule avec vous?\n\n--Mais non!",
+   "file": "pg14790.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "foutre",
+   "dist": 44,
+   "window": "on le\ntrouvait au fond, en compagnie des autres? C'était donc pour se foutre\ndu monde!\n\n--Enlevez-le! au puits! au puits!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "changer",
+   "dist": 44,
+   "window": "t pas refaire le monde en un\njour.  Ceux qui vous ont promis de tout changer d'un coup, sont des\nfarceurs ou des coquins!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "savoir",
+   "dist": 45,
+   "window": "e.  Gaga devint à ses yeux plus\nimposante.  Et, comme il cherchait à savoir pourquoi elle n'avait\npas amené Lili:\n\n-- Oh!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "dire",
+   "dist": 45,
+   "window": "s'en moquait.  Puis, comme la\nFaloise passait, elle se contenta de lui dire:\n\n-- Écoute donc, tu les aimes avancées, toi!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "paraître",
+   "dist": 45,
+   "window": " elle se montrait d'une énergie\nintraitable.  Plutôt crever que de paraître avoir eu tort, lorsqu'on\navait raison!\n\n--Ah!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "mettre",
+   "dist": 45,
+   "window": "\n\nL'enterrement était pour dix heures et demie. Une jolie matinée, à\nmettre avec la nuit et avec la journée de la veille!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "rosière",
+   "dist": 45,
+   "window": "était fait ramasser\nsur le trottoir, en l'enjôlant par ses mines de rosière! Nom d'un\nchien! il ne manquait pas d'aplomb!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "sincère",
+   "dist": 46,
+   "window": "ardonnerais pas non plus.\n\nIl répondit avec un si grand élan de si sincère amour:--Oh! moi? moi?\nComme tu me connais peu!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "soigner",
+   "dist": 46,
+   "window": ", vois-tu;\ncar enfin voilà dix ans que nous nous décarcassons à la soigner, que\nnous la logeons, que nous la nourrissons!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "partir",
+   "dist": 46,
+   "window": "A Berlin!  à Berlin!  à Berlin!\n\nAlors, comme elles se décidaient à partir, une voix appela du\ncorridor:\n\n-- Rose!  Rose!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "crier",
+   "dist": 46,
+   "window": "se. Le médecin annonçait qu'elle s'en irait en toussant,\nle temps de crier: Bonsoir, Jeanneton, la chandelle est éteinte!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "mère",
+   "dist": 47,
+   "window": "é? D'une autre il ne le croirait pas,--pourquoi le croirait-il de\nsa mère?\n\nCertes, elle avait pu aimer, comme une autre!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "rire",
+   "dist": 47,
+   "window": " la droiture même. Ton\nfrère ne pourrait trouver mieux.\n\nIl se mit à rire tout à fait, d'un rive voulu et saccadé:\n\n--Ah!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "faire",
+   "dist": 47,
+   "window": "us vite, mon chat.  Nous serons mieux...  Ah!  que\ntu es bête de te faire de la bile!  Je te dis que ce sont des\nsalauds!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "flanquer",
+   "dist": 47,
+   "window": "Oui, si l'on voulait de moi, je\nm'habillerais en homme pour leur flanquer des coups de fusil, à\nces cochons de Prussiens!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "inventer",
+   "dist": 48,
+   "window": "sais?  n'étaient-ils pas toujours une douzaine à se battre\npour inventer la plus grosse saleté?  Ils me dégoûtaient, moi!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "retourner",
+   "dist": 48,
+   "window": " arrivait, le père Bonnemort, qui\nse levait de la poutre, pour retourner au coron, disait à Mouque:\n\n--Bonne nuit, vieux!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "retirer",
+   "dist": 48,
+   "window": "inze cent mille francs à deux millions; et que de peine avant de\nretirer un intérêt médiocre d'une telle somme engloutie!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "voiture",
+   "dist": 48,
+   "window": " de\nchasser à lui seul les braillards et d'aller au-devant de la voiture,\nlorsque Hippolyte parut en criant:\n\n--Monsieur!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "prendre",
+   "dist": 48,
+   "window": "es chemises des petits; et\ncomme madame Boche lui conseillait de prendre un seau d'eau de\nlessive, elle répondit:\n\n-- Oh!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "dire",
+   "dist": 48,
+   "window": "se gêner devant le monde, lui prit les seins.\n\n-- Ce n'est pas pour dire, murmurait-il, il chelingue rudement, ton\nlinge!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "pincer",
+   "dist": 49,
+   "window": "c'est monsieur de\nSouvigny?...  Hein?  il faut de bons yeux pour pincer une\nlongueur de nez, dans une pareille mécanique!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "chambre",
+   "dist": 49,
+   "window": " coup, elle s'accouda sur l'oreiller, et, renvoyant\nla femme de chambre:\n\n-- Comment, c'est toi!  le jour qu'on te marie!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "faire",
+   "dist": 50,
+   "window": "us avons quitté\nnotre petite ma-mare! couen! couen! couen!--pour faire connaissance avec\nla petite broche,--couen! couen!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "poser",
+   "dist": 50,
+   "window": "s auxquels on lui\nfaisait l'honneur de l'inviter, histoire de se poser en vertu!\nVrai, on lui en flanquerait de la vertu!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "rencontre",
+   "dist": 50,
+   "window": "ême, ne s'aperçut pas\nde son trouble.  Elle avait couru à sa rencontre, elle lui\ncriait:\n\n-- Oh!  monsieur, arrivez donc!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "dire",
+   "dist": 50,
+   "window": "te donc, est-ce qu'elle n'a pas eu le toupet tout à l'heure\nde me dire qu'elle étranglerait Catherine, si elle y passait!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "s'aplatir",
+   "dist": 50,
+   "window": "Oh! sacrée chiffe, va! s'il est permis d'être un homme et de\ns'aplatir comme ça devant un de ces salops qui nous mangent!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "l'officier",
+   "dist": 50,
+   "window": "y reprenait à chaque poussée qu'elle envoyait.\n\n--V'là pour l'officier! v'là pour le sergent! v'là pour les\n  militaires!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "mesure",
+   "dist": 50,
+   "window": "\nne marchait, les bois demandaient à être remplacés au fur et à mesure,\nest-ce que c'était fichu, de la besogne pareille!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "remettre",
+   "dist": 50,
+   "window": "st une fille.\n\n-- Juste! reprit le zingueur, blaguant pour la remettre, j'avais\ncommandé une fille! Hein! me voilà servi!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "rire",
+   "dist": 51,
+   "window": "droiture même. Ton\nfrère ne pourrait trouver mieux.\n\nIl se mit à rire tout à fait, d'un rive voulu et saccadé:\n\n--Ah! ah!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "venger",
+   "dist": 51,
+   "window": "dame enfin reprit contenance, et\nelle répondit sèchement, pour venger l'honneur du corps:--«Vous pourriez\nbien être poli!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "cacher",
+   "dist": 52,
+   "window": "u pour toujours, n'ayant\nplus rien à ménager, à redouter et à cacher, il avait donné toute\nsa fortune au deuxième enfant!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "passer",
+   "dist": 52,
+   "window": "rendre.\n\nLes gens qu'on rencontrait s'arrêtaient pour le voir passer, et les\npaysans murmuraient:\n\n--C'est quéque voleux!",
+   "file": "pg14790.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "rendre",
+   "dist": 52,
+   "window": "es. Car nous ne les pouvons apprécier. Il faudrait,\npour s'en rendre compte, rester six mois sans regarder sa figure--oh!",
+   "file": "pg14790.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "rire",
+   "dist": 52,
+   "window": "s, comme\nil demeurait très raide, l'air étranglé, elle se mit à rire, elle\ndit:\n\n-- Eh bien!  te voilà donc, grosse bête!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "manger",
+   "dist": 52,
+   "window": " écoutait les pratiques, on ne prendrait pas même\nle temps de manger, on se tuerait la vie entière pour leurs beaux\nyeux!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "dérider",
+   "dist": 53,
+   "window": "nimaux sous le bec, en leur\ntenant des discours drôles pour dérider la société:--«Nous avons quitté\nnotre petite ma-mare!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "fenêtre",
+   "dist": 53,
+   "window": " chose qui lui arriverait bientôt à\nelle-même, apparut à la fenêtre, et cria d'une voix aiguë:\n\n--Il a passé! il a passé!",
+   "file": "pg14790.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "poser",
+   "dist": 53,
+   "window": "des cinq cents de madame Maloir.  Tu\npeux te flatter de faire poser les gens!\n\n-- Madame n'est pas raisonnable, vraiment!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "encore",
+   "dist": 53,
+   "window": " son pot-au-feu.  Et\npour cette vieille procureuse de Maloir encore, un carcan qu'il\nflanquerait à la porte le lendemain!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "laisser",
+   "dist": 53,
+   "window": "nt sagement dans son coin,\net dont l'unique ambition est de laisser une oeuvre aussi large et\naussi vivante qu'il pourra!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "nourriture",
+   "dist": 53,
+   "window": "nse que vous\ntravaillez depuis trois jours à toute cette nourriture, et qu'on va\nrâfler ça en un rien de temps!\n\n-- Dame!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "l'escalier",
+   "dist": 53,
+   "window": "oups de\ntalon de Coupeau. Elle tenait encore la rampe de l'escalier, qu'elle\nl'entendit hurler:\n\n-- En v'là des punaises!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "conclure",
+   "dist": 54,
+   "window": "puis avec cette voix bizarre qu'on prend par moments pour conclure\nune longue et secrète pensée:\n\n--C'est vilain, la vie!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "s'avancer",
+   "dist": 54,
+   "window": "dre la parole, et il fut\ntellement surpris de voir Maheu s'avancer, qu'il ne put s'empêcher\nd'ajouter encore:\n\n--Comment!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "remettre",
+   "dist": 54,
+   "window": "sée, d'un air de\nterreur: non, non, tout plutôt que de se remettre à leur charge, après\nles avoir quittés si vilainement!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "changer",
+   "dist": 54,
+   "window": "ire le monde en un\njour.  Ceux qui vous ont promis de tout changer d'un coup, sont des\nfarceurs ou des coquins!\n\n--Bravo!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "faire",
+   "dist": 54,
+   "window": "lle se mit debout. Ah bien! en voilà une\naprès-midi passée à faire les rosses! C'était ça qui n'emplissait pas\nla bourse!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "déshonorer",
+   "dist": 54,
+   "window": "ment! Avait-on jamais vu! une morveuse qui\nse mêlait de déshonorer la famille! Et il la secouait, en disant, nom\nde Dieu!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "rire",
+   "dist": 55,
+   "window": "ture même. Ton\nfrère ne pourrait trouver mieux.\n\nIl se mit à rire tout à fait, d'un rive voulu et saccadé:\n\n--Ah! ah! ah!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "crier",
+   "dist": 55,
+   "window": "s de\nlarmes.\n\n--Qu'est-ce que t'as contre moi?\n\nIl se mit à crier, jurant:\n\n--J'ai que je n'ai pas d'éfants, nom de Dieu!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "chambre",
+   "dist": 55,
+   "window": "rit tout entière.\nElle se précipita, bouscula la femme de chambre dans l'escalier,\nen bégayant:\n\n-- C'est plein de choux!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "hausser",
+   "dist": 55,
+   "window": " il s'interrompit pour gronder, sans se permettre de trop hausser\nla voix:\n\n--Qu'est-ce que nous fichons là, nom de Dieu!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "fondre",
+   "dist": 55,
+   "window": " elle sentit ses jambes qui\nse cassaient, elle eut peur de fondre en larmes, bégayant encore:\n\n-- Vous seriez si gentils!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "dire",
+   "dist": 56,
+   "window": "à\nl'atelier. Gervaise la connaissait bien et se contenta de dire:\n\n-- Vous n'êtes pas gaie, les lendemains de noce, vous!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "murmurer",
+   "dist": 56,
+   "window": "qui avait une figure d'enterrement, elle se contenta de murmurer\nque la vie n'était pas toujours gaie, ah! sacredié, non!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "faire",
+   "dist": 57,
+   "window": "s quitté\nnotre petite ma-mare! couen! couen! couen!--pour faire connaissance avec\nla petite broche,--couen! couen! couen!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "maître",
+   "dist": 57,
+   "window": "hébété, les\nmains tremblantes; ce qui faisait dire à son maître:\n\n--Ma pauvre fille, que t'es sotte depuis quelque temps!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "l'autre",
+   "dist": 57,
+   "window": "ent, ils prenaient bien leur\ntemps, avec Son Altesse de l'autre côté du décor, et toute cette\nsalle qui pouvait entendre!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "embêter",
+   "dist": 57,
+   "window": "hiennes.  Zacharie accepta.\nQu'est-ce qu'on avait à les embêter avec la grève? autant rigoler,\npuisqu'on ne fichait rien!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "bégayer",
+   "dist": 57,
+   "window": "ent par la plaie cuisante de son\ncoeur, il continuait à bégayer au milieu de ses larmes:\n\n--Les imbéciles! les imbéciles!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "être",
+   "dist": 58,
+   "window": "chement:\n\n-- Je voudrais voir ça, par exemple!  Il a beau être lieutenant,\nFrançois te le flanquera à la porte, et raide!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "voiture",
+   "dist": 58,
+   "window": "r à lui seul les braillards et d'aller au-devant de la voiture,\nlorsque Hippolyte parut en criant:\n\n--Monsieur! Monsieur!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "quartier",
+   "dist": 58,
+   "window": "e!\n     Malheur au flibustier!\n     Pour lui point de quartier!\n     Enfants, aux caronades!\n     Rhum à pleines rasades!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "donner",
+   "dist": 58,
+   "window": "uand on n'a pas été\nmalade! Quelque frime pour se faire donner du sucre! Ah! il allait se\nrenseigner, et si elle mentait!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "allonger",
+   "dist": 59,
+   "window": " consenti à se débarrasser...  Si ce n'est pas\nà lui allonger des claques, un morveux qui devrait être encore au\ncollège!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "croire",
+   "dist": 60,
+   "window": "is la terreur d'une\nchose épouvantable, la terreur de croire lui-même que Jean, que son\nfrère était le fils de cet homme!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "dérider",
+   "dist": 60,
+   "window": "sous le bec, en leur\ntenant des discours drôles pour dérider la société:--«Nous avons quitté\nnotre petite ma-mare! couen!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "bouger",
+   "dist": 60,
+   "window": "e discipline! oui, je leur conseille encore de ne pas bouger!\nSeulement, il ne faut pas qu'on se foute de nous, à la fin!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "pouvoir",
+   "dist": 60,
+   "window": "ne chance encore, cette\nblessure! un beau cadeau, de pouvoir faire des enfants, que les\ngendarmes, ensuite, égorgeraient!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "payer",
+   "dist": 61,
+   "window": "de chance...  Il n'y a pas huit jours,\nj'ai achevé de payer ma petite maison de Juvisy, ah!  Dieu sait\navec quelle peine!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "terre",
+   "dist": 61,
+   "window": "le qu'elle laissait mijoter sur le\nfeu, des pommes de terre, des poireaux, de l'oseille, fricassés avec\nde l'oignon frit!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "changer",
+   "dist": 61,
+   "window": "monde en un\njour.  Ceux qui vous ont promis de tout changer d'un coup, sont des\nfarceurs ou des coquins!\n\n--Bravo! bravo!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "affaire",
+   "dist": 61,
+   "window": " à se\nfaire relicher dehors, elle était sûre de son affaire, il lui\ncouperait le cou un peu vivement! Avait-on jamais vu!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "être",
+   "dist": 61,
+   "window": "e. Boche haussa les épaules, en disant assez haut\npour être entendu de tout le monde:\n\n-- Bah! c'est un soûlard de moins!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "partir",
+   "dist": 62,
+   "window": "chain?\n\n--Oui, mardi prochain.\n\n--Êtes-vous femme à partir à cinq heures du matin?\n\nElle poussa un cri de stupeur:\n\n--Ah!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "quitter",
+   "dist": 62,
+   "window": "iner, que le comte Muffat et le député venaient de\nquitter, s'avançait furieux, suant, grognant à demi-voix:\n\n-- Parbleu!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "voir",
+   "dist": 62,
+   "window": ", le regardait faire tranquillement.\n\n--Allez-y, pour voir, répétait Maheu, allez-y un peu, si vous êtes de\nbons bougres!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "faire",
+   "dist": 62,
+   "window": "it.\n\n-- Dites donc! s'écria Lorilleux, qui venait de faire une découverte,\nmais c'est sur votre établi que nous mangeons!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "crier",
+   "dist": 63,
+   "window": "et s'assit, tellement exaspéré qu'il avait envie\nde crier: «C'est trop fort à la fin! Il n'y en a donc plus que pour\nlui!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "troupier",
+   "dist": 63,
+   "window": "inissait aux chevilles. Ayant retenu un terme de troupier, il\nl'appelait sa «profonde», et c'était sa profonde, en effet!",
+   "file": "pg14790.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "encore",
+   "dist": 63,
+   "window": "u-feu.  Et\npour cette vieille procureuse de Maloir encore, un carcan qu'il\nflanquerait à la porte le lendemain!  Ah bien!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "beurre",
+   "dist": 63,
+   "window": "traque je suis, guère plus grosse que deux sous de beurre, si\nmal fichue que je ne deviendrai jamais une femme, bien sûr!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "misère",
+   "dist": 63,
+   "window": "il y avait, c'était encore de la\nmisère, ah! de la misère tant qu'on en veut, et des coups de fusil\npar-dessus le marché!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "crier",
+   "dist": 64,
+   "window": " d'abominable misère, le docteur eut envie de leur crier: «Mais\nfoutez-vous donc à l'eau avec vos femelles et vos petits!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "savoir",
+   "dist": 64,
+   "window": "es yeux plus\nimposante.  Et, comme il cherchait à savoir pourquoi elle n'avait\npas amené Lili:\n\n-- Oh!  non, non, jamais!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "l'autre",
+   "dist": 64,
+   "window": "âble; et, tenant d'une main sa lampe, serrant de l'autre la corde du\nsignal, il cria lui-même au machineur:\n\n--Doucement!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "reprendre",
+   "dist": 64,
+   "window": " les ouvrières ne paraissaient\npas pressées de reprendre leurs pinces, lorsque Léonie, d'un bruit des\nlèvres, du prrrout!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "muer",
+   "dist": 65,
+   "window": "fflotait, lorsqu'une voix de\njeune coq en train de muer, aux fauteuils d'orchestre, lança avec\nconviction:\n\n-- Très chic!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "vivre",
+   "dist": 65,
+   "window": "nous qui ne spéculons pas, qui nous contentons de vivre\nsainement avec ce que nous avons, en faisant la part des pauvres!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "tomber",
+   "dist": 66,
+   "window": "l l'adorait d'une passion honteuse, au\npoint de tomber à genoux, si elle avait bien voulu lui donner le reste\ndes autres!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "l'heure",
+   "dist": 66,
+   "window": " un blanc-bec qui m'a manqué de\nrespect tout à l'heure!\n\nGervaise, les dents serrées, le poussa, en disant:\n\n-- Tais-toi!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "dérider",
+   "dist": 67,
+   "window": " bec, en leur\ntenant des discours drôles pour dérider la société:--«Nous avons quitté\nnotre petite ma-mare! couen! couen!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "danser",
+   "dist": 67,
+   "window": "les, ils se prirent par la\nmain et se mirent à danser en rond autour de lui, et répétant comme un\nrefrain:--«Pas de papa!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "empêcher",
+   "dist": 67,
+   "window": "pas toi, après tout, qui as le droit de m'en\nempêcher», je lui ai dit: «Tu es une misérable, tu nous\ndéshonores, va-t'en!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "fenêtre",
+   "dist": 67,
+   "window": "écrasé, vint s'appuyer contre une vitre de la fenêtre,\nen criant:\n\n--Y a du nouveau, écoute donc!\n\n--Non, non, plus tard!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "première",
+   "dist": 67,
+   "window": "triol, et que sa mâchoire\nse contracta, à la première gorgée, le zingueur reprit, en se tapant\nsur les cuisses:\n\n-- Hein!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "voir",
+   "dist": 68,
+   "window": "--Pour Jean, parbleu! C'est très comique de les voir ainsi!\n\nElle murmura, d'une voix basse, tremblante d'émotion:\n\n--Oh!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "faire",
+   "dist": 68,
+   "window": "e, tu brûles\nseulement d'être à notre tête, de faire le monsieur en correspondant\navec le fameux Conseil fédéral du Nord!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "faire",
+   "dist": 69,
+   "window": "ant, le reste des Mignon!  Est-ce\nqu'avant de faire la bête sur mes genoux, tu n'aurais pas dû\nrompre avec ce sale monde!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "éviter",
+   "dist": 69,
+   "window": "t-il pas coupé\nla tête avec un couteau, pour éviter la peine à la guillotine? Enfin,\nquelque sale histoire dans ce genre!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "ficher",
+   "dist": 70,
+   "window": "n demanda,\nle nez pincé, avec son air de se ficher du monde:\n\n-- Quoi?  qu'est-ce qui n'est pas ça?\n\n-- Personne n'y est!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "dire",
+   "dist": 71,
+   "window": "e genre de son\nétablissement, se contenta de dire avec un sourire pincé, comme\nsi elle avait pris une confiserie:\n\n-- Oh!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "broyer",
+   "dist": 72,
+   "window": "avaient envie de\nfrapper, de meurtrir, de broyer, d'étrangler! Qui? tout le monde, son\npère, son frère, le mort, sa mère!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "montrer",
+   "dist": 72,
+   "window": "arisse; et comme la Faloise affectait de\nmontrer des scrupules, il le tranquillisa en disant:\n\n-- Puisque je vous invite!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "faire",
+   "dist": 72,
+   "window": " les\ntrois jeunes gens s'échappaient, pour faire de la propagande,\nNana leur cria:\n\n-- Vous savez, je n'en veux pas, moi!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "avoir",
+   "dist": 72,
+   "window": "lage de cette misère.\nElle craignit de les avoir blessés, elle ajouta de son air juste et\ncalme de femme pratique:\n\n--Oh!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "chair",
+   "dist": 72,
+   "window": "init par emporter le lambeau, un paquet de\nchair velue et sanglante, qu'elle agita, avec un rire de triomphe:\n\n--Je l'ai!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "sauver",
+   "dist": 72,
+   "window": "sur elle, sans lui\nlaisser le temps de se sauver, elle s'accroupissait, elle murmurait:\n\n-- Cachez-moi donc, vous autres!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "défendre",
+   "dist": 72,
+   "window": "je vous le jure! Il n'y aurait pas à se défendre, car\nles fils de famille qui la tutoient de près sont bigrement heureux!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "rire",
+   "dist": 73,
+   "window": "re ne pourrait trouver mieux.\n\nIl se mit à rire tout à fait, d'un rive voulu et saccadé:\n\n--Ah! ah! ah! La droiture même!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "venger",
+   "dist": 73,
+   "window": "les\nbalayeurs et les gamins qui, pour se venger, la suivaient de loin, quand\nelle sortait, en criant:--«À la chie-en-lit!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "autre",
+   "dist": 73,
+   "window": "e?\nPuis, calmée brusquement, sautant à un autre sujet:\n\n-- Pourquoi ne m'as-tu pas dit que tu connaissais Nana?\n\n-- Nana!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "dérider",
+   "dist": 74,
+   "window": "n leur\ntenant des discours drôles pour dérider la société:--«Nous avons quitté\nnotre petite ma-mare! couen! couen! couen!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "fournir",
+   "dist": 74,
+   "window": ", dont les yeux pissaient\nde la cire à fournir dix cathédrales! et cet autre, le grand sans\nfesses, long comme un carême!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "papier",
+   "dist": 74,
+   "window": " en train de couper de minces bandes de papier vert, s'écria:\n\n-- Pardi! un homme qui lui fait des queues tous les jours!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "dire",
+   "dist": 75,
+   "window": "assez différent de tout le monde pour te dire que tu n'es pas le\nfils de Roland, sans rougir de cela et sans me mépriser!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "garder",
+   "dist": 75,
+   "window": "omba sur la mère.\n\n--Un joli métier de garder la maison, pendant que ta putain de fille\nest là-haut, les jambes en l'air!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "l'autre",
+   "dist": 76,
+   "window": "re et le fils, n'étaient rien l'un à l'autre!\nAucun lien, même le plus léger, ne les unissait, et ils ne le\nsavaient pas!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "figure",
+   "dist": 76,
+   "window": " ne pouvant arracher l'oreiller de sa\nfigure, il cria, en baisant sa robe:\n\n--Maman, maman, ma pauvre maman, regarde-moi!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "colère",
+   "dist": 76,
+   "window": ".\n\nÉtienne, hors de lui, tremblant de colère, les yeux dans les yeux du\ncamarade, répétait en bégayant:\n\n--Tu as fait ça!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "voir",
+   "dist": 76,
+   "window": "er un dernier effort, il fut surpris de voir\nZacharie sortir de la fosse, très rouge, gesticulant, criant:\n\n--Elle y est!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "vivre",
+   "dist": 76,
+   "window": "ondrement même de leur vie, à\nquoi bon vivre, maintenant qu'ils vivraient sans elle?\n\nLa Levaque, éperdue, criait:\n\n--Ah!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "voir",
+   "dist": 77,
+   "window": "une blague, je serais enchantée de les voir tous\nheureux, ces gens!  Puis, ça me soulagerait, car il y a des\njours, vrai!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "souffler",
+   "dist": 77,
+   "window": "régoire.  Déjà, il s'était remis à souffler dans sa corne, la bande\nse perdait au loin, avec le cri affaibli:\n\n--Du pain!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "digérer",
+   "dist": 77,
+   "window": "du chapelier,\ncelui-ci, en train de digérer encore dans la boutique, cria tout d'un\ncoup:\n\n-- Vous ne savez pas, la mère!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "pincer",
+   "dist": 78,
+   "window": "tion. Il cria, tout en\ncontinuant à pincer les mailles, invisibles entre ses ongles noirs:\n\n-- Écoute donc, Cadet-Cassis!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "demander",
+   "dist": 79,
+   "window": "a brusquement la parole pour lui\ndemander en souriant:\n\n-- Vous vous appelez donc Cadet-Cassis, monsieur Coupeau?\n\n-- Oh!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "danser",
+   "dist": 80,
+   "window": "rirent par la\nmain et se mirent à danser en rond autour de lui, et répétant comme un\nrefrain:--«Pas de papa! pas de papa!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "ventre",
+   "dist": 80,
+   "window": "t, la veuve Désir l'emplit de son\nventre et de sa gorge, en disant d'une voix tonnante:\n\n--Taisez-vous donc, nom de Dieu!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "laisser",
+   "dist": 81,
+   "window": "u.\nNon, c'était trop bête de se laisser mourir, dans une pareille\nposition!  Maintenant, elle devait être jolie, là-haut!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "colère",
+   "dist": 81,
+   "window": "que réaction, qu'elle étouffa de colère,\nbégayant sans larmes:\n\n--C'est tout ça! On nous estropie les petits, maintenant!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "chair",
+   "dist": 81,
+   "window": "emporter le lambeau, un paquet de\nchair velue et sanglante, qu'elle agita, avec un rire de triomphe:\n\n--Je l'ai! je l'ai!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "serrer",
+   "dist": 81,
+   "window": "t! Nom d'un\nchien! au lieu de se serrer le gaviot, elle aurait commencé par se\ncoller quelque chose dans les badigoinces!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "frère",
+   "dist": 83,
+   "window": "rcher.\n\nIl serra la main de son frère, et reprit avec un accent très cordial:\n\n--Eh bien, mon petit Jean, te voilà riche!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "risquer",
+   "dist": 83,
+   "window": ".  C'est stupide à la fin, de risquer sa peau\nainsi!  Elle sera gentille, si elle y passe, avec des trous dans\nla figure!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "rire",
+   "dist": 83,
+   "window": "laque.\nQu'est-ce qu'elle avait à rire, cette dinde? Est-ce qu'elle devait\nécouter, quand des grandes personnes causaient!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "interroger",
+   "dist": 84,
+   "window": "\nRoland s'était levé pour interroger l'horizon à la façon d'un capitaine:\n\n--Plus de vent, dit-il, on va ramer, les gars!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "partir",
+   "dist": 84,
+   "window": "riva enfin, et\nqu'on parla de partir pour l'hôpital, elle se releva, en disant\nviolemment:\n\n-- Non, non, pas à l'hôpital!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "entrer",
+   "dist": 85,
+   "window": " une seconde pour bien faire entrer ce nom-là dans sa tête,\npuis il tendit les bras, tout consolé, en disant:\n\n--Eh bien!",
+   "file": "pg11596.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "flanquer",
+   "dist": 85,
+   "window": " propre argent, capable de flanquer toutes les mauvaises maladies!\nTant mieux, si Coupeau en avait empoigné des coliques!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "souffler",
+   "dist": 86,
+   "window": " Déjà, il s'était remis à souffler dans sa corne, la bande\nse perdait au loin, avec le cri affaibli:\n\n--Du pain! du pain!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "prêcher",
+   "dist": 86,
+   "window": "le zingueur recommençait à prêcher, l'autre, qui s'était mis\ndebout, se donna une claque sur la fesse, en criant:\n\n-- Ah!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "dire",
+   "dist": 86,
+   "window": " seins.\n\n-- Ce n'est pas pour dire, murmurait-il, il chelingue rudement, ton\nlinge! Mais je t'aime tout de même, vois-tu!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "voiture",
+   "dist": 87,
+   "window": "t d'aller au-devant de la voiture,\nlorsque Hippolyte parut en criant:\n\n--Monsieur! Monsieur! voici Madame, on tue Madame!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "faire",
+   "dist": 87,
+   "window": "tte.\n     Madame lui a fait faire\n     Un joli patatoire,\n     Et des souliers lilas, la, la,\n     Et des souliers lilas!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "tenir",
+   "dist": 87,
+   "window": "a nuit, en souhaitant de la\ntenir ainsi dans sa chambre! Oh! il l'aurait cassée, s'il l'avait\nprise, tant il la désirait!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "rire",
+   "dist": 88,
+   "window": " très rouge, reprise de son\nrire, elle frappa la table de ses mains élargies, elle zézaya\nd'une voix de gamine:\n\n-- Fini!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "avoir",
+   "dist": 88,
+   "window": "elle\nétait assez bête pour avoir rêvé de nouveau une vie honnête, quand\nelle l'avait vu dans tout son bon sens à l'asile!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "l'avilir",
+   "dist": 89,
+   "window": "ndeurs, par la joie de l'avilir sous la pompe\nofficielle de ce costume, elle le secoua, le pinça, en lui jetant\ndes: «Eh!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "dire",
+   "dist": 90,
+   "window": "e souleva de son lit pour dire à Jeanlin:\n\n--Tu sais, si tu recommences, méchant bougre, je t'enlève la peau du\nderrière!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "janvier",
+   "dist": 90,
+   "window": "terme.\nOh! le terme de janvier, quand il n'y avait pas un radis à la maison\net que le père Boche présentait la quittance!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "l'escalier",
+   "dist": 91,
+   "window": "tendit, au pied de l'escalier, qui disait à Fontan, de sa\nvoix de rogomme, en parlant du prince:\n\n-- Hein, je l'ai épaté!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "votre",
+   "dist": 91,
+   "window": "ature qui s'abandonne à votre justice!  O mon Dieu, je\nvous adore, me laisserez-vous périr sous les coups de vos\nennemis!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "colère",
+   "dist": 91,
+   "window": "s de lui, tremblant de colère, les yeux dans les yeux du\ncamarade, répétait en bégayant:\n\n--Tu as fait ça! tu as fait ça!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "entreprendre",
+   "dist": 92,
+   "window": "u'il avait eu à entreprendre des démarches\nnombreuses, sans en dévoiler le motif, et il s'assit en demandant:\n\n--Eh bien!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "faire",
+   "dist": 92,
+   "window": "     Madame lui a fait faire\n     Un joli ventrouilloire,\n     Et des souliers lilas, la, la,\n     Et des souliers lilas!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "arracher",
+   "dist": 92,
+   "window": "ngeait la main pour arracher le bonnet, ce fut\nGervaise qui le repoussa en criant:\n\n-- Mais laisse-la donc, cette enfant!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "première",
+   "dist": 92,
+   "window": "\nse contracta, à la première gorgée, le zingueur reprit, en se tapant\nsur les cuisses:\n\n-- Hein! ça te rabote le sifflet!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "voir",
+   "dist": 93,
+   "window": "st très comique de les voir ainsi!\n\nElle murmura, d'une voix basse, tremblante d'émotion:\n\n--Oh! Pierre, que tu es cruel!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "pour",
+   "infinitive_shaped": "faire",
+   "dist": 93,
+   "window": "s s'échappaient, pour faire de la propagande,\nNana leur cria:\n\n-- Vous savez, je n'en veux pas, moi!  Pour rien au monde!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "manière",
+   "dist": 94,
+   "window": " et si plaisant de manière, n'est-ce pas, Louise?\n\nComme sa femme ne répondait pas, il reprit:\n\n--Et quel caractère égal!",
+   "file": "pg11131.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "voir",
+   "dist": 94,
+   "window": "rt, il fut surpris de voir\nZacharie sortir de la fosse, très rouge, gesticulant, criant:\n\n--Elle y est! elle m'a répondu!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "paraître",
+   "dist": 95,
+   "window": "elle refusait de paraître, secouée encore, riant déjà\npourtant, il ajouta d'une voix bourrue et paternelle:\n\n-- Mon Dieu!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "souffler",
+   "dist": 95,
+   "window": " s'était remis à souffler dans sa corne, la bande\nse perdait au loin, avec le cri affaibli:\n\n--Du pain! du pain! du pain!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "rire",
+   "dist": 99,
+   "window": ", reprise de son\nrire, elle frappa la table de ses mains élargies, elle zézaya\nd'une voix de gamine:\n\n-- Fini!  n'a plus!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "entrer",
+   "dist": 99,
+   "window": " se\ndécidait à entrer, quand la veuve Désir, qui allongeait la tête\nau-dehors, s'écria:\n\n--Mais le voilà, votre monsieur!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "s'habiller",
+   "dist": 100,
+   "window": "\ntoutes à s'habiller comme des ouvrières, ces catins qui osaient\ndépenser cinquante sous pour le blanchissage d'un jupon!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "contenter",
+   "dist": 101,
+   "window": "e de s'en contenter!\n\n--Du pain! du pain! du pain!\n\nAlors, il se fâcha, il cria furieusement dans le vacarme:\n\n--Du pain!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "manger",
+   "dist": 101,
+   "window": "\nle temps de manger, on se tuerait la vie entière pour leurs beaux\nyeux! On n'était pas des chiens à l'attache, pourtant!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "ficher",
+   "dist": 102,
+   "window": "n air de se ficher du monde:\n\n-- Quoi?  qu'est-ce qui n'est pas ça?\n\n-- Personne n'y est!  mais pas du tout, pas du tout!",
+   "file": "pg5250.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "fixer",
+   "dist": 104,
+   "window": "ait plu de fixer\ninsolemment les yeux sur une femme? Et le vicomte répéta encore une\nfois, à haute voix:\n\n--Quelle brute!",
+   "file": "pg14790.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "rompre",
+   "dist": 104,
+   "window": "ireuse de rompre la\nconversation, elle parut s'éveiller en sursaut, elle cria aux\nouvrières:\n\n-- Dites donc, vous autres!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "soir",
+   "dist": 104,
+   "window": "a veille au soir,\nchez les Boche, on l'accusait d'exagérer le tableau! Ah bien! elle\nn'en avait pas fait la moitié assez!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "faire",
+   "dist": 106,
+   "window": "i a fait faire\n     Un joli ventrouilloire,\n     Et des souliers lilas, la, la,\n     Et des souliers lilas!\n\n-- Mon Dieu!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "parler",
+   "dist": 107,
+   "window": "end de parler, puisqu'on nous envoie\nles gendarmes comme si nous étions des brigands, c'est ici qu'il faut\nnous entendre!",
+   "file": "pg5711.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "prêcher",
+   "dist": 108,
+   "window": "it à prêcher, l'autre, qui s'était mis\ndebout, se donna une claque sur la fesse, en criant:\n\n-- Ah! tu sais, baise cadet!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "à",
+   "infinitive_shaped": "rendre",
+   "dist": 108,
+   "window": " à le rendre goguenard,\nGervaise recula, en murmurant:\n\n-- C'est bien ici pourtant que monsieur Goujet travaille?\n\n-- Ah!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "de",
+   "infinitive_shaped": "manger",
+   "dist": 110,
+   "window": " de manger, on se tuerait la vie entière pour leurs beaux\nyeux! On n'était pas des chiens à l'attache, pourtant! Ah bien!",
+   "file": "pg6497.txt"
+  },
+  {
+   "prep": "a",
+   "infinitive_shaped": "masure",
+   "dist": 112,
+   "window": "a masure n'étant pas encore couverte, il exigea de\nl'ardoise au lieu de chaume, parce que cela demande moins d'entretien!",
+   "file": "pg14790.txt"
+  }
+ ]
+}

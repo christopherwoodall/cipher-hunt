@@ -1,0 +1,3719 @@
+{
+ "census_new_scribe": {
+  "files": [
+   {
+    "file": "scribe-charlatanisme.txt",
+    "chars": 60202,
+    "bang_count": 246,
+    "candidates_total": 10,
+    "candidates_tight_le40": 8
+   },
+   {
+    "file": "scribe-le-lorgnon.txt",
+    "chars": 67028,
+    "bang_count": 334,
+    "candidates_total": 13,
+    "candidates_tight_le40": 5
+   },
+   {
+    "file": "scribe-le-savant.txt",
+    "chars": 88949,
+    "bang_count": 309,
+    "candidates_total": 11,
+    "candidates_tight_le40": 10
+   }
+  ],
+  "total_chars": 216179,
+  "candidates": [
+   {
+    "prep": "de",
+    "infinitive_shaped": "montpellier",
+    "dist": 1,
+    "window": " toujours à merveille.\n\n RÉMY. \n Le père est un riche propriétaire, M. Germont. \n\n DELMAR. \n M. Germont, de Montpellier !",
+    "file": "scribe-charlatanisme.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "déjeûner",
+    "dist": 1,
+    "window": " parlerons dans un autre moment. Tu viens pour travailler ? \n\n RONDON. \n Oui, morbleu ! ( Appelant. ) John ! à déjeûner !",
+    "file": "scribe-charlatanisme.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "littérature",
+    "dist": 1,
+    "window": ". \n Y penses-tu ? la femme d’un académicien ! Un instant, monsieur, respect à nos chefs, aux vétérans de la littérature !",
+    "file": "scribe-charlatanisme.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "tuer",
+    "dist": 1,
+    "window": "ns ! Ah ! monsieur, mon\ncher monsieur !… vous aviez raison… quelle folie\nc’eût été à moi de me battre, de me faire tuer !",
+    "file": "scribe-le-lorgnon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "tuer",
+    "dist": 1,
+    "window": "gne.\nHANTZ.\nVous croyez ?… tant pis.\nHÉLÈNE.\nEt pourquoi donc ?\nHANTZ.\nVoyez où cela le mène : à être malade, à se tuer !",
+    "file": "scribe-le-savant.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 1,
+    "window": "ut…\nSeul… sous le poids je fléchirais sans doute,\nMais à nous tous, nous en viendrons à bout.\nSCHULTZ.\nÀ la bonne heure !",
+    "file": "scribe-le-savant.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "louer",
+    "dist": 1,
+    "window": "pour lui, mais\npour son appartement, qui est à louer pour quinze\nflorins par mois, car j’ai vu écriteau.\nHANTZ.\nÀ louer !",
+    "file": "scribe-le-savant.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 1,
+    "window": "idération ; on m’a fort\nbien accueilli. (Le secouant pour le faire écouter.) Vous entendez ?\nREYNOLDS.\nÀ la bonne heure !",
+    "file": "scribe-le-savant.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "écriture",
+    "dist": 1,
+    "window": "M.  de\nWurtzbourg a jeté à la seconde scène sur la table.) Tiens ! qu’est-ce\nque je vois là ! un cahier de mon écriture !",
+    "file": "scribe-le-savant.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "imaginer",
+    "dist": 1,
+    "window": "ceau ;\net quand ils sont malades, quand ils font des dents…\n(Se promenant vivement.) Effroyable ! effroyable à imaginer !",
+    "file": "scribe-le-savant.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "votre",
+    "dist": 6,
+    "window": "extraordinaire.\n(Le comte s’éloigne un peu et revient auprès du pavillon à droite.)\nALCÉE.\nJe ne suis pas de votre avis !",
+    "file": "scribe-le-lorgnon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "notre",
+    "dist": 9,
+    "window": " Tout est rompu entre nous !… plus de mariage !\nplus d’amitié !…\nALIX.\nMonsieur… un tel outrage à nous, à notre famille !",
+    "file": "scribe-le-lorgnon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "faire",
+    "dist": 12,
+    "window": "st un homme qui a d’heureuses idées.\n\n MADAME DE MELCOURT. \n Et moi, je le gronderai. M’exposer à vous faire une visite !",
+    "file": "scribe-charlatanisme.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "pouvoir",
+    "dist": 16,
+    "window": "Ah ah Ah ! quel plaisir ( bis. ) \nDe s’embrasser après l’absence ! \n Ah ah Ah ! quel plaisir \nDe pouvoir tous se réunir !",
+    "file": "scribe-charlatanisme.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "pouvoir",
+    "dist": 16,
+    "window": "TOUS. \n\n Ah ah Ah ! quel plaisir \nDe s’embrasser après l’absence ! \n Ah ah Ah ! quel plaisir \nDe pouvoir tous se réunir !",
+    "file": "scribe-charlatanisme.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "créer",
+    "dist": 17,
+    "window": "ville. On se ruine dans la haute littérature ; on s’enrichit dans la petite. Soyez donc dix ans à créer un chef d’œuvre !",
+    "file": "scribe-charlatanisme.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "épouser",
+    "dist": 18,
+    "window": "me désole, car je suis bon frère ; et moi qui ai mangé ma fortune, il m’est pénible de te voir épouser ma sœur sans dot !",
+    "file": "scribe-le-lorgnon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "écriture",
+    "dist": 23,
+    "window": "té à la seconde scène sur la table.) Tiens ! qu’est-ce\nque je vois là ! un cahier de mon écriture ! un écrit de\nmoi ici !",
+    "file": "scribe-le-savant.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "promener",
+    "dist": 27,
+    "window": "re que quatre heures.\nREYNOLDS.\nTu as raison ; qu’est-ce que je ferai d’ici-là, à me\npromener en long et en large ?… Ah !",
+    "file": "scribe-le-savant.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "connaître",
+    "dist": 30,
+    "window": "même.\n\n MADAME DE MELCOURT , à part. \n Ah, mon Dieu ! ce que c’est que de ne pas connaître les personnes que l’on vante !",
+    "file": "scribe-charlatanisme.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "former",
+    "dist": 31,
+    "window": "s apostrophant :\nAir  : Ces postillons sont d’une maladresse.\n« Puisque tu tiens à former cette chaîne,\n« Maudit savant !",
+    "file": "scribe-le-savant.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "autre",
+    "dist": 33,
+    "window": "attendre.\nALCÉE , à demi-voix.\nSilence… renvoie monsieur Foster… j’ai pour toi\nun autre gendre, et ce gendre, c’est moi !",
+    "file": "scribe-le-lorgnon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "écriture",
+    "dist": 36,
+    "window": "de scène sur la table.) Tiens ! qu’est-ce\nque je vois là ! un cahier de mon écriture ! un écrit de\nmoi ici ! Prodigieux !",
+    "file": "scribe-le-savant.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "déguiser",
+    "dist": 49,
+    "window": "mon pays ! » \nEncore du charlatanisme ! \n\n GERMONT. \n\n Pour se déguiser à grands frais, \nComme à Paris chacun travaille !",
+    "file": "scribe-charlatanisme.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "présenter",
+    "dist": 56,
+    "window": "cien serviteur de mon père, que j’ai l’honneur de vous présenter, ainsi que sa fille, la gentille Mina, ma sœur de lait !",
+    "file": "scribe-le-lorgnon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "lire",
+    "dist": 57,
+    "window": " divin que je réclame…\nLa puissance de voir dans l’âme,\nDe lire jusqu’au fond du cœur…\nJugez donc pour moi quel bonheur !",
+    "file": "scribe-le-lorgnon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "venir",
+    "dist": 60,
+    "window": ".\nMonsieur, le bijoutier que vous m’aviez dit de faire\nvenir pour vos parures de noce, est arrivé depuis\nune demi-heure !",
+    "file": "scribe-le-lorgnon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "heure",
+    "dist": 63,
+    "window": "t conclu,\nconvenu et arrangé, je le quitte pour une heure seulement…\net à mon retour, tout est brouillé, tout est\nrompu !",
+    "file": "scribe-le-savant.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "prolonger",
+    "dist": 67,
+    "window": "e j’ai trouvé le secret de multiplier\net de prolonger, ne m’offrent plus maintenant que\ntriste réalité, ennui et dégoût !",
+    "file": "scribe-le-lorgnon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "épouser",
+    "dist": 68,
+    "window": "angé ma fortune, il m’est pénible de te voir épouser ma sœur sans dot ! Ce n’est pas ma faute,\nc’est celle de mon oncle !",
+    "file": "scribe-le-lorgnon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "déguiser",
+    "dist": 88,
+    "window": " \n\n GERMONT. \n\n Pour se déguiser à grands frais, \nComme à Paris chacun travaille ! \nCes chapeaux qui cachent les traits !",
+    "file": "scribe-charlatanisme.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "redoubler",
+    "dist": 92,
+    "window": "ire est capable de\nredoubler encore mon antipathie… Voilà ce qu’il y\naura gagné… Tant mieux pour lui… ça sera bien\nfait !",
+    "file": "scribe-le-lorgnon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "enchaîner",
+    "dist": 92,
+    "window": "x, qui, pour mieux enchaîner ma délicatesse,\nm’avait donné de son amour des preuves…\nqui ne me prouvent rien maintenant !",
+    "file": "scribe-le-lorgnon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "nature",
+    "dist": 95,
+    "window": "core arracher à la nature ? il n’en est pas que\nle temps, la patience et l’étude, ne lui fassent découvrir…\nMais, hélas !",
+    "file": "scribe-le-lorgnon.txt"
+   }
+  ]
+ },
+ "census_new_labiche": {
+  "files": [
+   {
+    "file": "labiche-29-degres-ombre.txt",
+    "chars": 34634,
+    "bang_count": 317,
+    "candidates_total": 17,
+    "candidates_tight_le40": 11
+   },
+   {
+    "file": "labiche-affaire-rue-lourcine.txt",
+    "chars": 43172,
+    "bang_count": 638,
+    "candidates_total": 33,
+    "candidates_tight_le40": 24
+   },
+   {
+    "file": "labiche-baron-fourchevif.txt",
+    "chars": 54412,
+    "bang_count": 455,
+    "candidates_total": 26,
+    "candidates_tight_le40": 20
+   },
+   {
+    "file": "labiche-doit-on-le-dire.txt",
+    "chars": 114163,
+    "bang_count": 883,
+    "candidates_total": 39,
+    "candidates_tight_le40": 28
+   },
+   {
+    "file": "labiche-edgard-bonne.txt",
+    "chars": 57212,
+    "bang_count": 651,
+    "candidates_total": 44,
+    "candidates_tight_le40": 29
+   },
+   {
+    "file": "labiche-la-cagnotte.txt",
+    "chars": 134353,
+    "bang_count": 1209,
+    "candidates_total": 46,
+    "candidates_tight_le40": 35
+   },
+   {
+    "file": "labiche-main-leste.txt",
+    "chars": 39272,
+    "bang_count": 204,
+    "candidates_total": 12,
+    "candidates_tight_le40": 7
+   },
+   {
+    "file": "labiche-misanthrope-auvergnat.txt",
+    "chars": 56991,
+    "bang_count": 766,
+    "candidates_total": 60,
+    "candidates_tight_le40": 44
+   },
+   {
+    "file": "labiche-noces-bouchencoeur.txt",
+    "chars": 80053,
+    "bang_count": 1186,
+    "candidates_total": 64,
+    "candidates_tight_le40": 51
+   },
+   {
+    "file": "labiche-prix-martin.txt",
+    "chars": 103002,
+    "bang_count": 946,
+    "candidates_total": 43,
+    "candidates_tight_le40": 36
+   },
+   {
+    "file": "labiche-voyage-perrichon.txt",
+    "chars": 97395,
+    "bang_count": 1028,
+    "candidates_total": 97,
+    "candidates_tight_le40": 56
+   }
+  ],
+  "total_chars": 814659,
+  "candidates": [
+   {
+    "prep": "de",
+    "infinitive_shaped": "déranger",
+    "dist": 0,
+    "window": "ose...\n\n Bouchencoeur \n Ah ! voilà nos voitures ! \n {{Personnage|G randcassis|c}}\n Elles ont eu bien tort de se déranger!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "cocher",
+    "dist": 0,
+    "window": "lé \n Bonne nuit, messieurs.\n\n Bouchencoeur , dehors, au cocher \n Cocher ! au galop !...\n\n Grandcassis , de même \n Cocher!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "l'effaroucher",
+    "dist": 0,
+    "window": "hémise , à part; elle tousse \n Hum ! Hum !\n\n Bouchencoeur , à part \n Elle!... pauvre ! petite j'ai peur de l'effaroucher!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "rosière",
+    "dist": 0,
+    "window": "encoeur \n Plaît-il?...\n\n Arthémise \n Alors, tu m'aimes, n'est-ce pas? \n\n Bouchencoeur , à part \n Tiens! pour une rosière!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "suivre",
+    "dist": 0,
+    "window": "mpagne et lui dérobe un baiser sur le cou. \n Arthémise , avec pudeur \n Ne me suivez pas!... je vous défends de me suivre!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 0,
+    "window": "n?... qu'est-ce? \n {{PersonnageD|Grandcassis|c| entrant}}\n Ah ! le voilà !\n\n Bouchencoeur \n Vous chez moi! à cette heure!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "retenir",
+    "dist": 0,
+    "window": "ce de m'embrasser !...\n\n Bouchencoeur \n Vous!... c'est vous!...\n\n Arthémise \n Monsieur!... je vous défends de me retenir!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "l'heure",
+    "dist": 0,
+    "window": "ite malheureuse !... \n\n Cocotte , reculant \n Ah ! mon Dieu ! \n\n Bouchencoeur \n Rentrez!... nous causerons tout à l'heure!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "m'écouter",
+    "dist": 0,
+    "window": " Arrière, veuve Mouchette!\n\n Il sort par le fond. \n Arthémise , éclatant \n Ah! c'est comme ça!... il refuse de m'écouter!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "nourrir",
+    "dist": 1,
+    "window": " ne pas rester à dîner avec vous…\nPomadour.\nMais je l’espère bien ! ( À part. ) Il ne manquerait plus que de le nourrir !",
+    "file": "labiche-29-degres-ombre.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "baiser",
+    "dist": 1,
+    "window": "ur toi… d’une de ces injures qui déshonorent un homme à tout jamais…\nPiget.\nHein ?\nPomadour.\nMais pour un simple baiser !",
+    "file": "labiche-29-degres-ombre.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "dire",
+    "dist": 1,
+    "window": "Hein ?\nPomadour.\nMais pour un simple baiser !… Nous serions au jour de l’An… on se la souhaite… je n’aurais rien à dire !",
+    "file": "labiche-29-degres-ombre.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "brosser",
+    "dist": 1,
+    "window": "porte.\nZut !… zut !… zut !… Elle m’embête avec son parapluie ! Prenons toujours les hardes de Monsieur pour les brosser !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "rappeler",
+    "dist": 1,
+    "window": "été me promener du côté de l’Odéon… et je demeure rue de Provence !… Était-ce bien l’Odéon ?… Impossible de me rappeler !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "notaire",
+    "dist": 1,
+    "window": "ns… j’ajoute un verre de vin blanc, et je tourne, je tourne… pour que ça mijote.\nNorine , à part.\nQuel drôle de notaire !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "paraître",
+    "dist": 1,
+    "window": "e !… Je suis un homme perdu ! Sa femme va tout raconter, et le mois prochain on criera : « V’là c’qui vient de paraître !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "charbonnière",
+    "dist": 1,
+    "window": "raîne le bonnet. ) Un bonnet ! Lenglumé.\nSilence !\nJustin.\nAh ! mon Dieu !… c’était donc vrai… celui de la charbonnière !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "narguer",
+    "dist": 1,
+    "window": "en avoir à me reprocher, pas de réponse !… alors, je me jette à ses genoux… il me fait : Psch ! psch !… pour me narguer !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "piocher",
+    "dist": 1,
+    "window": "\n\n Adèle. \n Il faut convenir que vous n’êtes pas complimenteur.\n\n Rouquérolle. \n Ah ! dame ! vous avez encore à piocher !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "finir",
+    "dist": 1,
+    "window": "Il le faut !\n\n Fourchevif. \n Bien ! bien !\n\n Lambert , à part. \nJ’en ai commencé une étude, ça me permettra de la finir !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "danger",
+    "dist": 1,
+    "window": "n duel.\n\n La Baronne. \n Un duel ! Ah !\n\n Fourchevif , l’assistant. \n Mais ne t’effraye donc pas… il n’y a pas de danger !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 1,
+    "window": "if. \n Voici madame Potard et mademoiselle Potard ! Je reprends mon nom… gardez le vôtre !\n\n Lambert. \n À la bonne heure !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 1,
+    "window": "de vaisseaux que vous n’avez de cheveux sur la tête ! »\n\n Le Marquis , rayonnant. \n Ah ! il a dit ça ? À la bonne heure !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 1,
+    "window": "e Marquis , réclamant. \n Ah mais !\n\n Muserolle. \n C’est une supposition… admissible !…\n\n Le Marquis. \n À la bonne heure !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "foyer",
+    "dist": 1,
+    "window": "nche. \n Je vous présente ma femme… \n\n Muserolle , stupéfait. \n Hein !… vous dites ?\n\n Le Marquis. \n L’ange de mon foyer !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "reprendre",
+    "dist": 1,
+    "window": " vais chercher la gendarmerie ! (Il sort, puis rentre aussitôt.) Pas si vite ! On me forcerait peut-être à la reprendre !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 1,
+    "window": " \n Blanche ? Je vous défends de l’appeler Blanche !\n\n Dupaillon. \n Mettons la marquise.\n\n Muserolle. \n À la bonne heure !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "voir",
+    "dist": 1,
+    "window": " Le Marquis , entrant par le fond. \n Tudieu ! quelle gaieté !\n\n Muserolle. \n Ah ! le voilà ! je suis content de le voir !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "laisser",
+    "dist": 1,
+    "window": "quement la main. \n C’est bien ! Laissez-nous.\n\n Muserolle. \n Mais, marquis…\n\n Le Marquis. \n Je vous dis de nous laisser !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "foyer",
+    "dist": 1,
+    "window": "rolle. \n Eh bien, elle a des intrigues.\n\n Le Marquis , hors de lui, arpentant la scène. \n Blanche ! l’ange de mon foyer !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "colère",
+    "dist": 1,
+    "window": "! (Prenant Muserolle au collet.) Monsieur, c’est une calomnie !… Une preuve ! une preuve !\n\n Muserolle. \n Pas de colère !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "dire",
+    "dist": 1,
+    "window": "les cheveux blancs de cet excellent marquis !… Eh bien, moi aussi, j’ai une mission… C’est de vous pincer et de le dire !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "refaire",
+    "dist": 1,
+    "window": "te promener !… (Se calmant.) Voilà ce que c’est que de se familiariser avec les domestiques ! Oh ! si c’était à refaire !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "familiariser",
+    "dist": 1,
+    "window": "canards l’ont bien passée…\"\n\n Edgard , à part, découragé. \n \"Tire, lire, lire !…\" Voilà ce que c’est de se familiariser !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "causer",
+    "dist": 1,
+    "window": "rouver, voyez-vous !… et ça ne serait pas long.\n\n Edgard. \n Pour quoi faire ?\n\n Florestine , appuyant. \nPour lui causer !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "lisière",
+    "dist": 1,
+    "window": " Henriette , à part. \n Je ne le reconnais plus.\n\n Edgard , à part. \n Et les pieds !… Pas le moindre chausson de lisière !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "chambre",
+    "dist": 1,
+    "window": "nnez mes manchettes !…\n\n Edgard. \n Quand je vous regarde, toutes les autres femmes me font l’effet de femmes de chambre !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "chambre",
+    "dist": 1,
+    "window": "je vous regarde, toutes les autres femmes me font l’effet de femmes de chambre !… d’affreuses petites femmes de chambre !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "refaire",
+    "dist": 1,
+    "window": ".) Personne ! (Il met du feu dans la bassinoire.) Expions nos faiblesses… avec un peu de feu… Ah ! si c’était à refaire !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "polker",
+    "dist": 1,
+    "window": "e plan. \n Eh bien, monsieur !… je vous attends !…\n\n Edgard , embarrassé. \n Pour quoi faire ?\n\n Henriette. \n Pour polker !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "gendre",
+    "dist": 1,
+    "window": "à part. \nCe que ce notaire vient de me dire est bien étrange… Il croit avoir vu une femme dans la chambre de mon gendre !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "rupture",
+    "dist": 1,
+    "window": "st-ce pour cela qu’on donne un bal ?\n\n Edgard , à part. \n Aïe ! (Haut et vivement.) Juste !… c’est le bal de la rupture !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "rupture",
+    "dist": 1,
+    "window": " Juste !… c’est le bal de la rupture !… parce que dans le monde… quand on rompt… on se donne toujours un bal de rupture !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "chambrière",
+    "dist": 1,
+    "window": "vardin. \n Répondez.\n\n Edgard. \n Ce bonnet est celui de…\n\n Veauvardin , l’interrompant sévèrement. \n De votre chambrière !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "trouver",
+    "dist": 1,
+    "window": "fille a un tic…\n\n Veauvardin. \n Quel tic ?\n\n Edgard. \n Attendez donc ! (À part.) Il ne me donne pas le temps de trouver !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "lire",
+    "dist": 1,
+    "window": "ssent pas !\nLéonida , à part, tirant la lettre de sa poche.\nOh ! cette lettre… me brûle les mains… J’ai hâte de la lire !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "partir",
+    "dist": 1,
+    "window": " je veux aller à Paris…\nLéonida.\nTu veux… tu veux… cela dépend de ton père…\nBlanche.\nOh ! je le déciderai bien à partir !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "fermier",
+    "dist": 1,
+    "window": "mais une espèce de paysan borné, qui laboure à La Ferté-sous-Jouarre… N’a-t-il pas eu l’idée de faire de moi un fermier !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "rougir",
+    "dist": 1,
+    "window": "lvain.\nMazette !… je ne rougirais pas d’être garçon de café, moi !\nBenjamin , froissé.\nMais il n’y a pas de quoi rougir !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 1,
+    "window": "l sort, par le fond, à droite.\nBenjamin.\nAdieu.\nScène II\nBenjamin, un Deuxième Garçon\nBenjamin , seul.\nÀ la bonne heure !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "février",
+    "dist": 1,
+    "window": " parce que, avec ces gaillards-là… (Regardant la carte.) Une tranche de melon, un franc.\nCordenbois.\nAu mois de février !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "soir",
+    "dist": 1,
+    "window": "sdames, messieurs…\nIl veut partir. Colladan , le retenant.\nEh bien, tu ne m’embrasses pas !… (Il l’embrasse.) À ce soir !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "expliquer",
+    "dist": 1,
+    "window": "’entendez-vous par ces mots ?… Je vous somme de vous expliquer…\nChampbourcy.\nMoi aussi, je vous somme de vous expliquer !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "écouler",
+    "dist": 1,
+    "window": " lisant.) \"Je suis brune…\" (Parlé.) Sapristi ! pourvu que ce ne soit pas une négresse !… c’est très difficile à écouler !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "marbre",
+    "dist": 1,
+    "window": "ais une magnifique affaire… je ne parle pas du bonheur qu’on a à épouser une jolie femme… Dame ! on n’est pas de marbre !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 1,
+    "window": "t sa main à Cordenbois.\nSoit !… je cède aux instances de ma famille.\nCordenbois , lui serrant la main.\nÀ la bonne heure !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "asseoir",
+    "dist": 1,
+    "window": "chez de me trouver quelque chose dans ce genre-là. Cocarel.\nNous chercherons… Mais prenez donc la peine de vous asseoir !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "rager",
+    "dist": 1,
+    "window": "enbois.\nQuel voyage, mon Dieu ! quel voyage !\nChampbourcy.\nVoyons, quand vous passerez votre temps à geindre ou à rager !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "attendre",
+    "dist": 1,
+    "window": "rt.) Je m’en suis bien tiré !\nTricoche , s’approchant.\nAh çà ! nous ne pouvons pas perdre notre journée à vous attendre !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "figure",
+    "dist": 1,
+    "window": "omenés…\nOn doit être beau là-dessous.\n\n Il met la couronne sur sa tête. \n CÉLINE , riant. \n Ah ! quelle drôle de figure !",
+    "file": "labiche-main-leste.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "dire",
+    "dist": 1,
+    "window": "idi… je vais aller me recoucher.\n\n Coquenard , à la cantonade. \n Il faut que je lui parle… je n’ai qu’un mot à lui dire !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "revoir",
+    "dist": 1,
+    "window": "…\n\n Coquenard. \n Ce serait d’un ami !… d’un véritable ami… Ce bon Chiffonnet !… Que je suis donc content de vous revoir !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 1,
+    "window": "sons un bail de trois, six ou neuf !… Machavoine. \n À mon choix.\n\n Chiffonnet. \n Soit…\n\n Machavoine. \n À la bonne heure !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "rire",
+    "dist": 1,
+    "window": "…\n\n Machavoine. \n Une perruque !… une perruque !…\n\n Chiffonnet. \n Mais va donc !…\n\n Machavoine. \n J’en crèverai de rire !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "asseoir",
+    "dist": 1,
+    "window": " Coquenard.\n\n Madame Coquenard , saluant. \n Monsieur…\n\n Chiffonnet. \n Madame… donnez-vous donc la peine de vous asseoir !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "asseoir",
+    "dist": 1,
+    "window": "…\n\n Chiffonnet , stupéfait. \nAh bah !… ah bah !… (Avec empressement.) Madame, donnez-vous donc la peine de vous asseoir !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "causer",
+    "dist": 1,
+    "window": "e à une femme !… mais asseyez-vous donc !…\n\n Madame Coquenard. \n Merci !…\n\n Chiffonnet. \n Nous serons mieux pour causer !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "plaindre",
+    "dist": 1,
+    "window": "là !…\n\n Chiffonnet , à part. \n Elle croit que c’est à moi ! (Haut, minaudant.) J’avoue que j’aurais tort de me plaindre !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "taire",
+    "dist": 1,
+    "window": ". \n Mais si !…\n\n Chiffonnet , bas. \n Tais-toi donc, animal !\n\n Machavoine , à madame Coquenard. \n Il me dit de me taire !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "bigre",
+    "dist": 1,
+    "window": "’ombrelle que sa femme a oubliée sur un meuble.) Tiens, c’est extraordinaire.\n\n Chiffonnet , à part. \n Fichtre de bigre !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "mentir",
+    "dist": 1,
+    "window": " XVI \n Prunette ; puis Machavoine, entrant par le fond, sans voir Prunette \n Prunette , seule. \n Lui apprendre à mentir !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "rire",
+    "dist": 1,
+    "window": ".\n\n Premier Tambour , , lui portant des bottes. \n Ah ! tu fais le malin, toi !...\n\n Le Traiteur \n Non ! c'est pour rire !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "l'ouvrière",
+    "dist": 1,
+    "window": "Bouchencoeur \n Que vous dirai-je? ce discours rural, la vue de Cocotte. les sapeurs-pompiers, l'air de Jenny l'ouvrière !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "piétiner",
+    "dist": 1,
+    "window": "e les rôles de M. Chilly... carrément !... je m'attache à la destinée de cette femme pour la torturer, pour la piétiner !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "terre",
+    "dist": 1,
+    "window": " son oreiller... et une omelette... peu cuite... sous sa couverture?. Non! Non !... c'est fade !... c'est terre à terre !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "cacher",
+    "dist": 1,
+    "window": " dîner, je propose de jouer à nous cacher dans les bosquets.\n\n Arthémise , légèrement \n Ah ! oui ! jouons à nous cacher !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "annoncer",
+    "dist": 1,
+    "window": "Vous êtes veuve... vous devriez savoir ça !\n\n Arthémise \n Boudeur ! moi qui avais une si bonne nouvelle à vous annoncer !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "l'heure",
+    "dist": 1,
+    "window": "ancer les voitures... j'emmène ma femme !\n\n Tous \n Partons !... Partons !...\n\n Arthémise , émue, à part \n Voici l'heure !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "m'augmenter",
+    "dist": 1,
+    "window": "tement jusqu'à midi !... je suis chez moi !... un pliant me suffit !... le propriétaire n'a pas le droit de m'augmenter !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "heure",
+    "dist": 1,
+    "window": " sais bien que c'est une complaisance...\n Elle remonte vers la toilette, et se coiffe.\n\n Grandcassis \n A la bonne heure !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "m'embrasser",
+    "dist": 1,
+    "window": "une veuve !... c'est de la falsification!...\n\n Arthémise \n Insolent ! quand je pense qu'il a eu l'audace de m'embrasser !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "plaisir",
+    "dist": 1,
+    "window": "ise \n C'est horrible!...\n\n Bouchencoeur \n C'est ignoble!... \n\n Cocotte \n Il m'a dit que c'était pour vous faire plaisir !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "l'histoire",
+    "dist": 1,
+    "window": "je serais condamnée !... Jamais !... jamais !... mon parti est pris !... (elle sonne) On parlera de moi dans l'histoire !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "sucre",
+    "dist": 1,
+    "window": "d?...\n\n Arthémise \n C'est pour le thé.\n\n La bonne \n Madame désire-t-elle du sucre ?\n\n Arthémise \n Non !... pas de sucre !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "dormir",
+    "dist": 1,
+    "window": " nous verrons si... si... \n\n Grandcassis \n Eh bien!... eh bien!...\n\n Il s'assied. \n Bouchencoeur \n J'ai envie de dormir !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "l'air",
+    "dist": 1,
+    "window": "culé \n\n Reculé , en dehors frappant \n Ouvrez donc!... ouvrez donc!...\n\n Il parait à la porte. \n Tous \n Ah !... de l'air !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "l'air",
+    "dist": 1,
+    "window": " , en dehors frappant \n Ouvrez donc!... ouvrez donc!...\n\n Il parait à la porte. \n Tous \n Ah !... de l'air !... de l'air !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "teindre",
+    "dist": 1,
+    "window": " faites de bien ! Je tremblais de voir diminuer mon prestige en vous faisant cet aveu ! C’est si ridicule de se teindre !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "sucre",
+    "dist": 1,
+    "window": "ion !\n\n Agénor , asseyant Martin sur le canapé. \n Repose-toi. Quelques gouttes d’eau de mélisse sur un morceau de sucre !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "nourriture",
+    "dist": 1,
+    "window": "n , à Pionceux qui est descendu. \n Voyons, qu’est-ce qu’il y a ?\n\n Pionceux. \n Il y a que je me plains de la nourriture !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 1,
+    "window": " jeter des rochers sur la tête ! tiens !… en voilà encore ! Est-ce de la limonade, ça ?\n\n Hernandez. \n À la bonne heure !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "manger",
+    "dist": 1,
+    "window": "e fraises et de fromage à la crème… il ne nous a laissé que le saladier !\n\n Hernandez. \n Il est répugnant à voir manger !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "refroidir",
+    "dist": 1,
+    "window": "rrents ! Bathilde. \n Et M. et madame Martin !… et leur sauvage !… et le petit vieux qui a toujours peur de se refroidir !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 1,
+    "window": "dez. \n Que veux-tu faire ?\n\n Martin. \n Je veux lui plonger dans le cœur un fer rouge !…\n\n Hernandez. \n À la bonne heure !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 1,
+    "window": " l’ordre de ne plus me tutoyer… un mur de glace nous sépare.\n\n Agénor. \n Comme tu voudras.\n\n Martin. \n À la bonne heure !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "faire",
+    "dist": 1,
+    "window": " Et votre femme ?\n\n Hernandez. \n La reine ? J’ai pensé à elle… je lui donnerai une place dans ma lingerie… rien à faire !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "nature",
+    "dist": 1,
+    "window": "tendais que ton éducation fût terminée pour la compléter en faisant rayonner devant toi le grand spectacle de la nature !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 1,
+    "window": "ux !\nARMAND\nComme nous les aimons.\nDANIEL\nAlors je suis resté !\nARMAND\nAh ! je vous comprends !\nDANIEL\nÀ la bonne heure !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "tuer",
+    "dist": 1,
+    "window": ".\nARMAND\nVite ! de l’eau ! du sel ! du vinaigre !\nDANIEL\nQu’est-il donc arrivé ?\nHENRIETTE\nMon père a manqué de se tuer !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 1,
+    "window": "EL\nVoilà un oui, un peu sec !\nARMAND\nPardon… (Lui tendant la main.) Daniel, je vous le promets…\nDANIEL\nÀ la bonne heure !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 1,
+    "window": "ent. Le Commandant sort par le fond.\nScène IX\nArmand  ; puis Madame Perrichon  ; puis Henriette\nARMAND\nÀ la bonne heure !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "dîner",
+    "dist": 1,
+    "window": " plus, ce sera pour une autre fois…\nMAJORIN , à part.\nComment ! il me désinvite ? S’il croit que j’y tiens, à son dîner !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 1,
+    "window": "e reprenant) non, Armand ! tenez, il faut que je vous embrasse !\nIls s’embrassent. HENRIETTE , à part.\nÀ la bonne heure !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "débarrasser",
+    "dist": 1,
+    "window": "t et moi… et je ne pouvais trouver une meilleure occasion de lui être agréable… (À Perrichon) et de vous en débarrasser !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "grammaire",
+    "dist": 1,
+    "window": ".) Quant à moi, monsieur, je regrette que vous m’ayez privé du plaisir de donner une leçon à ce professeur de grammaire !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "saluer",
+    "dist": 1,
+    "window": " en passe un par les mains, je me recommande toujours à vous ! (Saluant.) Messieurs, j’ai bien l’honneur de vous saluer !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "maître",
+    "dist": 1,
+    "window": "omprenez pas ? Donner à un carrossier l’occasion de sauver son semblable, sans danger pour lui, c’est un coup de maître !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "crier",
+    "dist": 4,
+    "window": "Toi, Piget, tu as été trompé maintes fois par ta femme.\nPiget.\nMais tais-toi donc ! il n’est pas nécessaire de crier ça !",
+    "file": "labiche-29-degres-ombre.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "voir",
+    "dist": 4,
+    "window": " Grandcassis \n Toujours la même chose... puisque ça m'a réussi !\n\n Bouchencoeur \n Ah ! Sacrebleu ! je demande à voir ça !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "dire",
+    "dist": 5,
+    "window": "aret donnant le bras à Lucie ; Dupaillon ferme la marche. \n Le Marquis. \n Voilà qui est fait ! Il n’y a plus à dire non !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "dire",
+    "dist": 5,
+    "window": "e, que je n’ose pas me la confier à moi-même… Si je pouvais trouver sous ma main un ange assez déchu… pour lui dire… Ah !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "déjeuner",
+    "dist": 6,
+    "window": "a lui donner… Et ce brave Rouquérolle, mon rapin, mon compagnon de travail, qui m’attend à l’auberge pour déjeuner… Bah !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "voir",
+    "dist": 6,
+    "window": "re de la peinture, tu ne fais que des épinards.\n\n Rouquérolle. \n C’est vrai, je vois vert… j’ai le malheur de voir vert !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "voir",
+    "dist": 6,
+    "window": "\n\n Fourchevif. \n Ribera ?\n\n Rouquérolle. \n Un Espagnol qui voyait noir… Moi, je vois vert… j’ai le malheur de voir vert !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "fenêtre",
+    "dist": 6,
+    "window": "e.) François ! vite ! la bassinoire !… (Reprenant.) Parce que… elle est gelée… J’avais oublié de fermer la fenêtre, moi !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "plénipotentiaire",
+    "dist": 6,
+    "window": "dan.\nJamais !… nous ne payons pas les zéros !…\nBéchut , examinant la note.\n\"Melon… tournedos à la plénipotentiaire…\" Oh !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "faire",
+    "dist": 6,
+    "window": "?... C'est égal !... je ne suis pas content de M.Grandcassis... il ne m'a seulement pas envoyé une lettre de faire part !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "entre",
+    "dist": 6,
+    "window": "e !... Anatole !... mon Anatole !...\n\n Grandcassis \n Ne touchez pas, madame!... il n'y a plus rien de commun entre nous !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "dernière",
+    "dist": 6,
+    "window": "ieur, nous nous sommes vus pour la dernière fois.\n\n Agénor , suppliant. \n Ferdinand !\n\n Martin. \n Pour la dernière fois !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "notre",
+    "dist": 6,
+    "window": " le marchepied du wagon, continuons gaiement notre voyage… cherchons à plaire… à nous faire aimer, chacun de notre côté !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "autre",
+    "dist": 6,
+    "window": "nné.\nMoi ?\nDANIEL\nTenez, je vous aime, Armand… et je veux vous donner un bon avis qui vous servira… pour une autre fois !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "dire",
+    "dist": 7,
+    "window": "e vais aller me recoucher.\n\n Coquenard , à la cantonade. \n Il faut que je lui parle… je n’ai qu’un mot à lui dire !… Ah !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "l'air",
+    "dist": 7,
+    "window": " \n\n Le Traiteur \n Je veux dire : le diner est servi !...\n\n Tous \n A table! à table!...\n\n Chœur \n Reprise de l'air \n Gai !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "l'avertir",
+    "dist": 7,
+    "window": " les yeux \n Vous savez bien que si, monsieur Bouchencœur...\n\n Arthémise et Bouchencoeur , toussant pour l'avertir \n Hum !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "notaire",
+    "dist": 7,
+    "window": "jolie situation !\nPERRICHON\nQue voulez-vous ! j’ai été trop vif… Un homme si poli !… Je l’ai pris pour un notaire gradé !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "votre",
+    "dist": 8,
+    "window": "ien ?\n\n Lambert. \n Mais ce sont vos armes ! C’est l’écusson des Fourchevif ! M. de la Brossinière a usurpé votre blason !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "payer",
+    "dist": 8,
+    "window": "max. (Il prend une note.) Continuez.\nBenjamin.\nEnfin, après avoir bien bu et bien mangé… ils ont refusé de payer… voilà !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "quatre",
+    "dist": 8,
+    "window": "\nDaniel montera avec nous.\nHENRIETTE , bas à son père.\nEt M. Armand ?\nPERRICHON , bas.\nDame, il n’y a que quatre places !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "sauver",
+    "dist": 8,
+    "window": "rce que, je l’ai sauvé, mon bon !\nMAJORIN\nToi ? (À part.) Ah çà ! ils ont donc passé tout leur temps à se sauver la vie !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "être",
+    "dist": 8,
+    "window": "ue j’aille à mon bureau… je me ferais destituer.\nPERRICHON\nPuisque tu as demandé un congé. MAJORIN\nPas pour être témoin !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "notre",
+    "dist": 9,
+    "window": "ier.\nLenglumé.\nHein !… un bonnet de femme à présent !\nMistingue.\nUn soulier !\nLenglumé.\nLes dépouilles de notre victime !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "ratisser",
+    "dist": 9,
+    "window": " sort.) Quant à moi… je vais parler à ce jardinier qui vend mes pêches ! (À part.) Je vais lui dire de ratisser le parc !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "notre",
+    "dist": 9,
+    "window": "vif , à part. \n Allons ! nous voilà bien ! (Haut.) Voyons… sois raisonnable !… Il y va de notre repos… de notre bonheur !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "donner",
+    "dist": 9,
+    "window": "in de Blanche…\n\n Muserolle , étonné. \n Quoi ? La main de Blanche ?\n\n Le Marquis. \n Je serais fier de lui donner mon nom !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "aller",
+    "dist": 9,
+    "window": "s m’obliger à manger des truffes qui m’incommodent !\nCordenbois , saluant.\nVous ne pouvez pas m’obliger à aller à Paris !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "plénipotentiaire",
+    "dist": 9,
+    "window": "re bon !\nCordenbois.\nJe vote pour ça !\nTous.\nOui… oui…\nChampbourcy , au garçon.\nTournedos à la plénipotentiaire… soigné !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "déjeuner",
+    "dist": 9,
+    "window": "z-vous ?\nColladan.\nJe suis las de dormir dans les démolitions, de dîner avec des brioches et de ne pas déjeuner du tout !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "dire",
+    "dist": 9,
+    "window": "commandé...\n\n Bouchencoeur \n Eh bien? \n\n Grandcassis \n Arrivé devant M. le maire, je n'eus pas la force de dire : « Oui !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "fenêtre",
+    "dist": 9,
+    "window": "id… je sens comme un faux frisson.\n\n Martin , apercevant la fenêtre ouverte. \n Parbleu ! on a laissé la fenêtre ouverte !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "notre",
+    "dist": 9,
+    "window": "à trop dit… Vous n’espérez pas que je trahirai pour vous un parent, le chef de la famille, le champion de notre honneur !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "verser",
+    "dist": 9,
+    "window": "ent.\nIl ne me reste plus qu’à rendre hommage à vos sentiments de conciliation.\nPERRICHON\nJe n’aime pas à verser le sang !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "être",
+    "dist": 9,
+    "window": " de m’y laisser ! j’aime mieux donner cent francs au guide… car ça coûte cent francs… Il n’y a pas de quoi être si fier !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "reprendre",
+    "dist": 10,
+    "window": "us. Il serait trop commode de venir déjeuner, d’embrasser violemment la maîtresse de la maison et de reprendre le train !",
+    "file": "labiche-29-degres-ombre.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "foyer",
+    "dist": 10,
+    "window": ", on le nomme conseiller municipal… C’est l’image du juste assis, calme et serein, sur les ruines de son foyer conjugal !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "poussière",
+    "dist": 10,
+    "window": "mme-là !\nLéonida.\nJe ne suis pas trop décoiffée ?\nChampbourcy.\nNon… mais tes souliers sont pleins de poussière… Attends !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "commander",
+    "dist": 10,
+    "window": "marier...\n\n Grandcassis \n Ah permettez! ce n'est pas encore fait !...\n\n Bouchencoeur \n Vous venez de commander le repas !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "conduire",
+    "dist": 10,
+    "window": "ait quelques difficultés... je me verrais forcée... pour la régularité de mes livres... de vous faire conduire à Clichy !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "raconter",
+    "dist": 10,
+    "window": "a pas. \n\n Arthémise , à Bouchencoeur \n Monsieur!... monsieur!... expliquez-vous !... je vous somme de raconter les faits!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "causer",
+    "dist": 10,
+    "window": " promène au milieu de la tempête !\n\n Martin. \n Mais pas si haut !\n\n Hernandez. \n Ah ! c’est embêtant de causer comme ça !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "quitter",
+    "dist": 10,
+    "window": "ine, ce n’était pas tant de passer l’arme à gauche que de te quitter. Martin , à part. \n Oui, oui ! de quitter ma femme !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "lettre",
+    "dist": 10,
+    "window": "jours, je ne te reconnais plus… Tu es triste… presque maussade.\n\n Bathilde , pleurant. \n Je n’ai pas de lettre de maman !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "voyager",
+    "dist": 10,
+    "window": " j’ai chaud !\nMADAME PERRICHON\nC’est ta faute !… tu nous presses, tu nous bouscules !… je n’aime pas à voyager comme ça !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "prendre",
+    "dist": 10,
+    "window": "eur Armand !\nARMAND\nMademoiselle Henriette !\nDANIEL , à part.\nJe commence à croire que j’ai eu tort de prendre mon café !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "mère",
+    "dist": 10,
+    "window": "… voilà ce que c’est ! (Lisant avec emphase.) « Que l’homme est petit quand on le contemple du haut de la mère de Glace !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "mère",
+    "dist": 10,
+    "window": "RICHON , modestement\nCe n’est pas l’idée de tout le monde.\nDANIEL , à part.\nNi l’orthographe ; il a écrit mère, re, re  !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "mère",
+    "dist": 10,
+    "window": " le livre des voyageurs ! Voyons !… (Lisant.) « Que l’homme est petit quand on le contemple du haut de la mère de Glace !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "retenir",
+    "dist": 10,
+    "window": "je veux éviter cette scène… ce serait des pleurs, des cris… elles s’attacheraient à mes habits pour me retenir… Partons !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "coucher",
+    "dist": 11,
+    "window": " plus… médiocres… Ma femme s’y opposait… alors, j’ai prétexté une migraine ; j’ai fait semblant de me coucher… et v’lan !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "recoudre",
+    "dist": 11,
+    "window": ", \nCrac ! je l’embrasse !… Hélas ! cette leçon \nProuve que seule une mère prudente \nDoit de son fils recoudre le bouton !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "manière",
+    "dist": 11,
+    "window": "ère polka ?…\n\n Henriette , faisant la révérence. \n Avec plaisir, monsieur ! (À part.) Quelle drôle de manière d’inviter !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "être",
+    "dist": 11,
+    "window": "a de mon avenir…\nBéchut , se levant.\nC’est bien… asseyez-vous tous !… (À part.) Ils sont trop bêtes pour être dangereux !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "plénipotentiaire",
+    "dist": 11,
+    "window": "Jamais !… nous ne payons pas les zéros !…\nBéchut , examinant la note.\n\"Melon… tournedos à la plénipotentiaire…\" Oh ! oh !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "votre",
+    "dist": 11,
+    "window": "a première fraîcheur…\nSylvain.\nDame !… on met ce qu’on a.\nCocarel.\nOh ! mon ami ! il manque un bouton à votre habit… Ah !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "avoir",
+    "dist": 11,
+    "window": " paye Tricoche et Madame Chalamel, qui rentrent dans leurs boutiques.\nCordenbois.\nQuelle chance de vous avoir rencontré !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "rapporter",
+    "dist": 11,
+    "window": " pas assez lourd… Ah ! si c’était de la ferraille !… mais de l’argent ! fichtra ! ça fait plaisir à rapporter pour rien !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "parler",
+    "dist": 11,
+    "window": "nsieur…\n\n Chiffonnet. \n Quoi ?…\n\n Prunette , avec mystère. \n C’est madame Coquenard qui demande à vous parler en secret !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "donner",
+    "dist": 12,
+    "window": "tiède !\n\n Edgard. \n Pristi !\n\n Henriette , entrant par l’angle de droite. \n Papa… on vous attend pour donner les cartes !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "vider",
+    "dist": 12,
+    "window": "\nChampbourcy.\nJe proteste au nom de la civilisation.\nBéchut.\nQu’y a-t-il ?\nChampbourcy.\nOn nous a fait vider nos poches !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "corrompre",
+    "dist": 12,
+    "window": "s aux autres.\nIl met les cadenas !\nChampbourcy , à part, fouillant à sa poche.\nEt rien !…rien pour corrompre ce geôlier !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "supprimer",
+    "dist": 12,
+    "window": "mari... je tâcherai de me rendre digne de l'honneur...\n\n Cocotte \n Par exemple, je vous prierai de supprimer le tambour !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "préférer",
+    "dist": 12,
+    "window": " V \n Loïsa ; puis Hernandez \n Loïsa , seule. \n Immolez donc votre pudeur à un homme, pour vous voir préférer votre mari !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "faire",
+    "dist": 12,
+    "window": "ieu te garde !\n\n Martin. \n Ca me tombe comme un pavé… Loïsa ! coupable !… et moi qui me privais de lui faire des traits !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "voyager",
+    "dist": 12,
+    "window": "s le retrouver…\nARMAND\nEt, pendant ce temps, il était allé à Lausanne.\nDANIEL\nEh bien c’est drôle de voyager comme cela !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "acquitter",
+    "dist": 12,
+    "window": "anc de l’infamie ? Jamais ! jamais !\nMAJORIN , à part.\nC’est bien fait ! ça lui apprendra à ne pas acquitter les droits !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "croquer",
+    "dist": 13,
+    "window": " m’abreuve à foison ! \nIci, pour toutes friandises, \nOn m’offre un panier de charbon… \nOn m’offre à croquer… du charbon !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "l'air",
+    "dist": 13,
+    "window": " Traiteur \n Je veux dire : le diner est servi !...\n\n Tous \n A table! à table!...\n\n Chœur \n Reprise de l'air \n Gai ! Gai !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "l'avertir",
+    "dist": 13,
+    "window": "eux \n Vous savez bien que si, monsieur Bouchencœur...\n\n Arthémise et Bouchencoeur , toussant pour l'avertir \n Hum ! Hum !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "avoir",
+    "dist": 13,
+    "window": "rs je suis resté !\nARMAND\nAh ! je vous comprends !\nDANIEL\nÀ la bonne heure ! C’est un plaisir de vous avoir pour ennemi !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "cher",
+    "dist": 13,
+    "window": " de cœur, et ce que j’ai de plus cher au monde, je le lui donnerai… »\nARMAND\nMais ce qu’elle a de plus cher… c’est vous !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "partir",
+    "dist": 14,
+    "window": "u… c’était trop… Faudra que je la lui demande… Par exemple, mes idées s’embrouillent complètement à partir de la salade !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "rappeler",
+    "dist": 14,
+    "window": "er du côté de l’Odéon… et je demeure rue de Provence !… Était-ce bien l’Odéon ?… Impossible de me rappeler !… Ma lacune !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "notre",
+    "dist": 14,
+    "window": " ! (Haut.) Voyons… sois raisonnable !… Il y va de notre repos… de notre bonheur !\n\n La Baronne. \n De notre honneur même !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "chambre",
+    "dist": 14,
+    "window": "fus partagé entre deux tentations bien vives… la première était d’adresser une plainte sévère à la Chambre des notaires !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "autre",
+    "dist": 14,
+    "window": "ILLON. \n Certainement je ne suis pas un lâcheur, mais, dame ! quand on retrouve sa femme mariée à un autre… Quel toupet !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "lisière",
+    "dist": 14,
+    "window": "n comme ça !\n\n Edgard , à part, en montrant les pieds de Florestine. \n Voyez-vous les chaussons de lisière ? Tiens, non !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "quatre",
+    "dist": 14,
+    "window": "ns !\n Il sort vivement.\n\n Scène V \n Chiffonnet ; puis Prunette \n Chiffonnet , seul. \n Cent ans pour quatre mille francs !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "danger",
+    "dist": 14,
+    "window": "sauveur… car, sans vous, mon mari… mon pauvre ami.\nElle éclate en sanglots.\nARMAND\nIl n’y a plus de danger… calmez-vous !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "revenir",
+    "dist": 15,
+    "window": "t une mésalliance !\n\n Fourchevif , à part. \n Elle est superbe, ma femme… Elle a toujours l’air de revenir des croisades !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "faire",
+    "dist": 15,
+    "window": "Je ne peux pas lui parler de ça devant la petite. (Bas à Fourchevif.) J’ai une communication à vous faire… attendez-moi !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "quatre",
+    "dist": 15,
+    "window": "i.\nColladan.\nMoi ? Ah ! ben ! je suis votre cadet… vous êtes mon ancien… et de pas mal de pains de quatre livres encore !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "l'heure",
+    "dist": 15,
+    "window": "elle a?...\n\n Elle sort par la droite. \n Arthémise , seule elle pose le réchaud près de la table \n L'heure est solennelle!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "rouler",
+    "dist": 15,
+    "window": "e mieux ça. (À part.) Avec les femmes romanesques, on n’est jamais sûr ! (Haut.) Continuons à nous rouler dans le crime !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "adversaire",
+    "dist": 15,
+    "window": " (Il met son chapeau au bout de sa canne et se dissimule derrière le canapé.) Et je crie à mon adversaire : \"Tu es mort !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "tuer",
+    "dist": 15,
+    "window": "je me recueille…\n\n Martin , sentencieux. \n Vois-tu, Hernandez, il n’y a que Dieu qui ait le droit de tuer son semblable !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "hésiter",
+    "dist": 15,
+    "window": " encore ! c’est fatigant, ma parole d’honneur !\nMADAME PERRICHON\nEh bien, tu vois… il n’y a pas à hésiter…\nPERRICHON\nAh !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "lire",
+    "dist": 16,
+    "window": "onnez-moi le journal.\nJustin , à part.\nSaprelotte !… je l’ai prêté à la cuisinière du premier, pour lire son feuilleton !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "janvier",
+    "dist": 16,
+    "window": "sardines.\nPotard.\nJ’aurais préféré des sardines, parce que les melons et les fraises… au mois de janvier… ça coûte cher !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "charbonnière",
+    "dist": 16,
+    "window": ". ) Un bonnet ! Lenglumé.\nSilence !\nJustin.\nAh ! mon Dieu !… c’était donc vrai… celui de la charbonnière !… dans un pot !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "dire",
+    "dist": 16,
+    "window": "d sens et d’un grand tact ? Au reste, s’il n’est pas de mon avis, ça m’est égal ; j’ai promis de le dire et je le dirai !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "jouer",
+    "dist": 16,
+    "window": "fauteuil, tantôt sur une échelle… Que diable !… ce n’est pas là faire sa cour ! Vous avez l’air de jouer au chat perché !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "voir",
+    "dist": 16,
+    "window": "I\nChampbourcy, Léonida ; puis Cocarel\nLéonida.\nM. Cocarel va venir.\nChampbourcy.\nJe suis curieux de voir ce bonhomme-là !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "vôtre",
+    "dist": 16,
+    "window": "\n\n LEGRAINARD , prenant la tasse blanche. \n À votre santé… aimable jeune homme !\n\n RÉGALAS. \n À la vôtre… bon vieillard !",
+    "file": "labiche-main-leste.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "dire",
+    "dist": 16,
+    "window": "’ose pas me la confier à moi-même… Si je pouvais trouver sous ma main un ange assez déchu… pour lui dire… Ah ! Prunette !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "donner",
+    "dist": 16,
+    "window": "rmes !\n\n Agénor. \n Mais notre duel ?…\n\n Martin. \n Assez de sang répandu ! Moi seul ai le droit de donner des ordres ici !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "laisser",
+    "dist": 17,
+    "window": "t confus.\nPomadour.\nApprochez, monsieur.\nAdolphe , à part.\nMon Dieu ! que c’est donc bête de se laisser pincer comme ça !",
+    "file": "labiche-29-degres-ombre.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "laisser",
+    "dist": 17,
+    "window": " droit d’exiger de vous.\nAdolphe.\nÀ vos ordres, monsieur… ( À part. ) Que c’est donc bête de se laisser pincer comme ça !",
+    "file": "labiche-29-degres-ombre.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "laisser",
+    "dist": 17,
+    "window": " Pomadour\nPomadour.\nEncore !\nMadame Pomadour.\nMon mari !\nAdolphe , à part.\nQue c’est bête de se laisser pincer comme ça !",
+    "file": "labiche-29-degres-ombre.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "distraire",
+    "dist": 17,
+    "window": "nt le lavabo.\nElles n’étaient pas noires !\nMistingue.\nAu contraire.\nLenglumé.\nC’est pour nous distraire… entre labadens !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "reprocher",
+    "dist": 17,
+    "window": "e réponse !… deux mille francs !… c’était pourtant gentil… mais je ne voulais rien avoir à me reprocher, pas de réponse !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "narguer",
+    "dist": 17,
+    "window": "procher, pas de réponse !… alors, je me jette à ses genoux… il me fait : Psch ! psch !… pour me narguer !… Je m’emporte !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "rire",
+    "dist": 17,
+    "window": "ras. \n Eh bien !… elle se trouve mal… Sapristi !… Voyons, Florestine… pas de bêtises !… C’est pour rire… pas de bêtises !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "prendre",
+    "dist": 17,
+    "window": "nds un verre de vin.\nIl verse.\nSylvain , même jeu.\nMerci, je…\nColladan , même jeu.\nJe te dis de prendre un verre de vin !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "causer",
+    "dist": 17,
+    "window": "Ah ! envoie-moi Prunette !… (Le domestique sort.) Cette bonne Prunette !… J’éprouve le besoin de causer aussi avec elle !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "cuisinière",
+    "dist": 17,
+    "window": "us par jour et nourri… À propos, combien de plats ?\n\n Chiffonnet. \n Ecoute les comptes de la cuisinière et tu le sauras !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "être",
+    "dist": 17,
+    "window": "tasse de tilleul.) Pose ça dans un coin… Ca ne me regarde plus. S’il croit que je vais continuer à être sa garde-malade !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "combattre",
+    "dist": 17,
+    "window": "L\nMonsieur Perrichon, le sentiment qui vous fait agir est trop noble pour que je cherche à le combattre…\nPERRICHON\nVrai !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "dire",
+    "dist": 18,
+    "window": "! Si l’on vous surprenait… \n\n Dupaillon. \n J’obéis… et pourtant j’ai encore tant de choses à vous dire… Je vous écrirai !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "revolver",
+    "dist": 18,
+    "window": " !… » Naturellement je redouble de vitesse… mais tout à coup… pif ! paf ! pan !… des coups de revolver plein l’escalier !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "madère",
+    "dist": 18,
+    "window": "Tu manges mon sucre, tu te plonges dans mes confitures… et tu me fabriques des filets au vin de Madère avec du suresnes !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "dire",
+    "dist": 18,
+    "window": "r me recoucher.\n\n Coquenard , à la cantonade. \n Il faut que je lui parle… je n’ai qu’un mot à lui dire !… Ah ! le voilà !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "rendre",
+    "dist": 18,
+    "window": "resse ! il va me demander quelque chose !…\n\n Coquenard. \nÀ propos, j’ai compté sur vous pour me rendre un petit service !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "voyager",
+    "dist": 18,
+    "window": " Martin, en mettant ton cheval au trot…\n\n Bathilde. \n Tiens ! si tu crois que c’est amusant de voyager avec ces gens-là !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "manger",
+    "dist": 18,
+    "window": "lui-là.\n\n Martin. \n Ainsi c’est vous… vous à qui j’ouvrais tous les jours mon foyer, ma table à manger… ma table de jeu !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "dire",
+    "dist": 18,
+    "window": "art. \n C’est juste, c’est plus… Il a de l’esprit ! (Haut, sérieux.) Nous n’avons plus rien à nous dire… Adieu, monsieur !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "grammaire",
+    "dist": 18,
+    "window": "onsieur, je regrette que vous m’ayez privé du plaisir de donner une leçon à ce professeur de grammaire !\nARMAND\nComment !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "repartir",
+    "dist": 18,
+    "window": " ? LE COMMANDANT\nJ’accepte.\nPERRICHON\nPermettez…\nLE COMMANDANT\nOh ! je ne vous demande pas de repartir aujourd’hui… non !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "bâtir",
+    "dist": 19,
+    "window": "je ne reviendrai plus.\nCourtin.\nEncore si la partie était intéressée… mais nous jouons pour lui bâtir sa maison d’école !",
+    "file": "labiche-29-degres-ombre.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "trouver",
+    "dist": 19,
+    "window": "horrible !… c’est affreux !\nTous.\nQu’y a-t-il ?\nNorine.\nMoumoute, ma chatte ! que je viens de trouver sans connaissance !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "connaître",
+    "dist": 19,
+    "window": "ds… Mais rappelez-vous que, si vous ne me fournissez pas cette preuve… vous apprendrez à me connaître… Je suis terrible !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "moindre",
+    "dist": 19,
+    "window": "fleurs\nartificielles, dont je t’avais donné la direction… Tu entrais\ndans l’atelier, et, à la moindre observation… v’li !",
+    "file": "labiche-main-leste.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "avoir",
+    "dist": 19,
+    "window": "dame Coquenard !… une si belle femme !… dans mon ermitage ! Sapristi !… je suis fâché de ne pas avoir ma perruque neuve !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "embrocher",
+    "dist": 20,
+    "window": "entre dans la chambre à gauche. Fourchevif , seul. \n S’il croit que j’ai envie de me faire embrocher pour des merlettes !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 20,
+    "window": "us n’avez de cheveux sur la tête ! »\n\n Le Marquis , rayonnant. \n Ah ! il a dit ça ? À la bonne heure ! Voilà des titres !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "quatre",
+    "dist": 20,
+    "window": "Machavoine , parlant à la cantonade ; il est endimanché. \n Viens-y donc, méchant gringalet de quatre sous, viens-y donc !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "mettre",
+    "dist": 20,
+    "window": " Chiffonnet, vous portez perruque ?…\n\n Chiffonnet. \n Oh ! oh ! au carnaval seulement… pour me mettre en garde-française !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "soir",
+    "dist": 20,
+    "window": "longue course ! (Haut.) Mon ami, j’ai une petite commission à te donner…\n\n Machavoine. \nPour ce soir ? C’est impossible !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "dire",
+    "dist": 20,
+    "window": "ntre qui ?...\n\n Arthémise \n Contre M.Formose, votre ami... qui me poursuit jusqu'ici... pour me dire des choses d'amour !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "secouer",
+    "dist": 20,
+    "window": "nandez, avec aigreur. \n Secouez-vous !… Est-ce que ça guérit les maladies de poitrine, de se secouer ?… Vétérinaire, va !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "dire",
+    "dist": 20,
+    "window": ". \n Soit ! Mais pas plus tard !… (Elle remonte, arrivée près de la porte, elle se retourne pour dire :) Vous m’entendez !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "jardinier",
+    "dist": 21,
+    "window": "art.) « Maroufle » est grand seigneur ! (Tronquoy sort.) Quant à moi… je vais parler à ce jardinier qui vend mes pêches !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "voir",
+    "dist": 21,
+    "window": "e compter sur ton bras pour m’accompagner ?\nChampbourcy.\nCertainement… je ne suis pas fâché de voir ça… Nous irons tous !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "faire",
+    "dist": 21,
+    "window": "rde !\n\n Martin. \n Ca me tombe comme un pavé… Loïsa ! coupable !… et moi qui me privais de lui faire des traits ! Jobard !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "remettre",
+    "dist": 21,
+    "window": " homme qui sort d’ici ?\nJEAN\nMonsieur, il est déjà venu ce matin… J’ai même oublié de vous remettre sa carte…\nDANIEL\nAh !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "familiariser",
+    "dist": 22,
+    "window": "donc te promener !… va donc te promener !… (Se calmant.) Voilà ce que c’est que de se familiariser avec les domestiques !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "faire",
+    "dist": 22,
+    "window": "tte? \n\n Premier Tambour \n Cinq litres !... et du bon !... nous avons chaud... nous venons de faire l'école des tambours !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "faire",
+    "dist": 22,
+    "window": "..\n\n Grandcassis \n Tant mieux ! c'est ce que je veux ! la veuve Mouchette sera obligée de me faire du thé toute la nuit !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "l'air",
+    "dist": 22,
+    "window": " Tu n'as rien à craindre... M. Bouchencœur parait t'aimer...\n\n Deuxième demoiselle \n Et il a l'air d'un bien brave homme!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "lâcher",
+    "dist": 22,
+    "window": "tin. \n Que c’est bête ! Il n’a qu’à la lâcher.\n\n Agénor. \n Si tu crois que c’est facile, de lâcher une femme romanesque !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "votre",
+    "dist": 22,
+    "window": "est temps de partir. (À Perrichon.) Si vous désirez faire vos adieux à madame Perrichon et à votre fille…\nPERRICHON\nNon !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "produire",
+    "dist": 22,
+    "window": "endrez la justice de croire que je suis tout à fait étranger à l’incident qui vient de se produire ?\nARMAND\nTout à fait !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "charbonnière",
+    "dist": 23,
+    "window": "gue , montrant ses mains.\nLes miennes aussi !\nLenglumé.\nAh ! je ne veux plus tuer de charbonnière, c’est trop salissant !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "mettre",
+    "dist": 23,
+    "window": "cie, après avoir donné le copie-lettres au marquis. \n Muserolle , à part. \n Non ! il est à mettre au Jardin des Plantes !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "épouser",
+    "dist": 23,
+    "window": ", si elle est jolie… je fais une magnifique affaire… je ne parle pas du bonheur qu’on a à épouser une jolie femme… Dame !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "quatre",
+    "dist": 23,
+    "window": "ande… et on me diminue neuf sous !… Infamie !… Je paye… et on me rend… quoi ? une pièce de quatre sous pour une de cinq !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "adversaire",
+    "dist": 23,
+    "window": " son chapeau au bout de sa canne et se dissimule derrière le canapé.) Et je crie à mon adversaire : \"Tu es mort ! \" Pan !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "danger",
+    "dist": 24,
+    "window": " Un duel ! Ah !\n\n Fourchevif , l’assistant. \n Mais ne t’effraye donc pas… il n’y a pas de danger ! Je ne me battrai pas !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "danser",
+    "dist": 24,
+    "window": "nt en voyant sortir sa mère par la gauche du troisième plan.) J’ai bien le temps de faire danser les tantes d’Henriette !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "jouer",
+    "dist": 24,
+    "window": "mène une vieille dame.) Ah ! belle dame, les lis et les roses n’en finiront donc pas de se jouer sur votre frais visage !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "m'avoir",
+    "dist": 24,
+    "window": "t !\n\n Arthémise \n Anatole... vous pouvez relever la tête!... on ne vous accusera plus de m'avoir épousée pour ma fortune!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "l'heure",
+    "dist": 24,
+    "window": "'emmène ma femme !\n\n Tous \n Partons !... Partons !...\n\n Arthémise , émue, à part \n Voici l'heure !\n\n Reculé \n Un instant!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "dire",
+    "dist": 24,
+    "window": "fait !\nIl sort par la droite.\nScène VI\nArmand, Perrichon\nPERRICHON , à part.\nIl n’y a pas à dire… j’ai fait des excuses !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "enfermer",
+    "dist": 25,
+    "window": "est-il passé ?\nNorine.\nEt vous étiez tellement abruti par l’alcool, qu’il a fallu vous enfermer dans la cave au charbon !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "montre",
+    "dist": 25,
+    "window": "lque chose à déclarer ? » Je réponds non ; je fais un mouvement et voilà ta diablesse de montre qui sonne : dig dig dig !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "faire",
+    "dist": 25,
+    "window": "crois ? MADAME PERRICHON\nDame, à moins que tu ne veuilles attendre l’envoi des billets de faire-part ?\nPERRICHON\nOh non !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "renouveler",
+    "dist": 26,
+    "window": "nt donné. Tiens, c’est le père Mathurin qui a commencé, le jour où il est venu pour renouveler son bail, le vieux malin !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "mettre",
+    "dist": 26,
+    "window": "it peut-être un moyen.\n\n Fourchevif. \nLequel ? La Baronne. \n Si M. Dandrin consentait à mettre une apostrophe à son nom !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "dire",
+    "dist": 26,
+    "window": " et lui montre Albert qui sort avec Lucie.) C’est un ami, celui-là ! Il a promis de me le dire… Ce n’est pas un lâcheur !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "laisser",
+    "dist": 26,
+    "window": "traire… je ferai ce que je\npourrai… mais c’est si extraordinaire, si inconvenant de\nse laisser embrasser par un inconnu !",
+    "file": "labiche-main-leste.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "quatre",
+    "dist": 26,
+    "window": "t vivement.\n\n Scène V \n Chiffonnet ; puis Prunette \n Chiffonnet , seul. \n Cent ans pour quatre mille francs !… Canaille !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "rire",
+    "dist": 26,
+    "window": "ruque !… une perruque !…\n\n Chiffonnet. \n Mais va donc !…\n\n Machavoine. \n J’en crèverai de rire ! fichtra de la Catarina !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "nature",
+    "dist": 26,
+    "window": " fût terminée pour la compléter en faisant rayonner devant toi le grand spectacle de la nature !\nMADAME PERRICHON\nAh çà !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "chercher",
+    "dist": 27,
+    "window": "ard.\nJustin.\nCependant…\nNorine.\nVous raisonnez toujours !… Je vous intime l’ordre de chercher ce parapluie… c’est clair !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "avenir",
+    "dist": 27,
+    "window": "\n Lambert. \n Attends ! Mais, comme tu es un brave garçon, que j’aime… j’ai songé à ton avenir, je t’ai trouvé une place !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "familiariser",
+    "dist": 27,
+    "window": "te promener !… va donc te promener !… (Se calmant.) Voilà ce que c’est que de se familiariser avec les domestiques ! Oh !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "votre",
+    "dist": 27,
+    "window": "ollante ! (Haut.) On pourrait nous rencontrer… et le monde est si méchant !… Je tiens à votre considération, Florestine !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "moindre",
+    "dist": 27,
+    "window": "rtificielles, dont je t’avais donné la direction… Tu entrais\ndans l’atelier, et, à la moindre observation… v’li ! v’lan !",
+    "file": "labiche-main-leste.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "votre",
+    "dist": 27,
+    "window": "EGRAINARD. \n Je comprends, ma femme avait ses souliers fourrés…\nvous les avez pris pour votre chienne… C’est très-drôle !",
+    "file": "labiche-main-leste.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "mentir",
+    "dist": 27,
+    "window": "havoine, entrant par le fond, sans voir Prunette \n Prunette , seule. \n Lui apprendre à mentir !… Voilà une drôle d’idée !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "sortir",
+    "dist": 27,
+    "window": "Arthémise , avec pudeur \n Ne me suivez pas!... je vous défends de me suivre! (avant de sortir et avec grâce) Je sonnerai!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "acquitter",
+    "dist": 27,
+    "window": "e ? Jamais ! jamais !\nMAJORIN , à part.\nC’est bien fait ! ça lui apprendra à ne pas acquitter les droits !\nPERRICHON\nAh !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "encore",
+    "dist": 28,
+    "window": "rgaret. \n Ton rêve !… Tu ne pourrais pas rêver autre chose ? Que diable ! il y a bien encore quelques femmes vertueuses !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "votre",
+    "dist": 28,
+    "window": "rt, prenant la tasse.) Mourir de sa main.\n\n LEGRAINARD , prenant la tasse blanche. \n À votre santé… aimable jeune homme !",
+    "file": "labiche-main-leste.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "tirer",
+    "dist": 28,
+    "window": "a n’est pas bien !…\n\n Chiffonnet. \n Oh ! un mensonge !…\n\n Machavoine. \n Tu m’as dit de tirer dessus et j’ai tiré dessus !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "avoir",
+    "dist": 28,
+    "window": "enard !… une si belle femme !… dans mon ermitage ! Sapristi !… je suis fâché de ne pas avoir ma perruque neuve !… Enfin !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "soir",
+    "dist": 28,
+    "window": "Machavoine. \n Allons, le Coquenard… c’est un brave ! Il m’a promis vingt francs pour ce soir… et cinq de Chiffonnet… Ah !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "rafraîchissoir",
+    "dist": 28,
+    "window": " Menons/menez plaisirs et roulements !\n\n Premier Tambour \n Je paye le coup de rafraîchissoir' appelant Le Traiteur)\n Ohé!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "bière",
+    "dist": 29,
+    "window": "t ton jambon, mais je meurs de soif.\nPomadour.\nAttends ! je vais faire apporter de la bière… Jouez toujours… Je reviens !",
+    "file": "labiche-29-degres-ombre.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "trouver",
+    "dist": 29,
+    "window": "ute, des piqueurs.\n\n Fourchevif. \n Permettez…\n\n Rouquérolle. \n Je me charge de vous trouver tout cela, soyez tranquille !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "vivre",
+    "dist": 29,
+    "window": "Je gagne de trente à trente et un sous par jour…\n\n Chiffonnet. \n Et ça te suffit pour vivre ? Oh, frugalité, frugalitas !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "taire",
+    "dist": 29,
+    "window": ", bas. \n Tais-toi donc, animal !\n\n Machavoine , à madame Coquenard. \n Il me dit de me taire !… à preuve que c’est à lui !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "gagner",
+    "dist": 29,
+    "window": "encoeur \n Sans votre femme?\n\n Grandcassis \n Parbleu !... Mais le difficile... est de gagner sans accident le petit jour !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "salaire",
+    "dist": 30,
+    "window": "lle ma correspondance, il tient mes écritures… et qu’est-ce qu’il réclame pour son salaire ?… Rien… Une poignée de main !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "votre",
+    "dist": 30,
+    "window": "r…\nSylvain.\nDame !… on met ce qu’on a.\nCocarel.\nOh ! mon ami ! il manque un bouton à votre habit… Ah ! je n’aime pas ça !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "remettre",
+    "dist": 30,
+    "window": " chercher !… Le Domestique , stupéfait. \n Moi ?…\n\n Chiffonnet. \n Je te défends de remettre les pieds ici sans l’épingle !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "soir",
+    "dist": 30,
+    "window": "onjour, Coquenard !…\n\n Coquenard. \n Nous avons reçu votre lettre d’invitation pour ce soir… on dit que ce sera charmant !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "faire",
+    "dist": 30,
+    "window": "t-neuf ans... mettons en quarante-huit... encore deux ans !... et elle aura cessé de faire partie de la garde nationale !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "fendre",
+    "dist": 30,
+    "window": "\nNon, de maris. Martin. \n Il y en a de drôles.\n\n Hernandez. \n Ils riaient tous à se fendre la narine en quatre… pas moi !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "céder",
+    "dist": 30,
+    "window": " belles pages de M. Bouilly… Je suis vaincu, c’est clair ! et je n’ai plus qu’à vous céder la place…\nARMAND\nAllons donc !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "mère",
+    "dist": 30,
+    "window": " ! (Lisant avec emphase.) « Que l’homme est petit quand on le contemple du haut de la mère de Glace ! »\nDANIEL\nSapristi !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "manger",
+    "dist": 31,
+    "window": "te… et il me semble qu’une dinde… Champbourcy.\nMais vous ne pouvez pas m’obliger à manger des truffes qui m’incommodent !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "rivière",
+    "dist": 31,
+    "window": " fortune à sa manière, \nC’est à qui sera l’ plus malin. \nMoi, c’est le long de la rivière \nQue je veux faire mon chemin !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "dire",
+    "dist": 31,
+    "window": "r. \n C’est superbe ! mais c’est épouvantable… Si j’étais poète, je me permettrais de dire que c’est une sublime horreur !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "votre",
+    "dist": 31,
+    "window": "rêt… j’ai mis mes chaussons… Ah ! monsieur Armand.\nARMAND\nVous sentez-vous remis de votre chute ?\nPERRICHON\nTout à fait !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "rendre",
+    "dist": 31,
+    "window": "à ! est-ce qu’il ne va pas s’en aller ? Il a peut-être encore quelque service à me rendre… Ils sont jolis, ses services !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "ranger",
+    "dist": 32,
+    "window": " ? Que diable ! il y a bien encore quelques femmes vertueuses !… et je me plais à ranger la mienne dans cette… minorité !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "lisière",
+    "dist": 32,
+    "window": "ard , à part, en montrant les pieds de Florestine. \n Voyez-vous les chaussons de lisière ? Tiens, non ! elle n’en a pas !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "plaire",
+    "dist": 32,
+    "window": "Quand mon utile ministère \nM’appelle en un logis poli, \nChacun s’empresse pour me plaire… \nEt l’on veut m’étrangler ici !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "dire",
+    "dist": 32,
+    "window": "er que, l’an dernier, un Russe… un prince… très bon cavalier !… car ma femme a beau dire, ça ne tient pas à mes éperons !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 32,
+    "window": "fond.\nScène IX\nArmand  ; puis Madame Perrichon  ; puis Henriette\nARMAND\nÀ la bonne heure ! il n’est pas banal, celui-là !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "remettre",
+    "dist": 32,
+    "window": "sort d’ici ?\nJEAN\nMonsieur, il est déjà venu ce matin… J’ai même oublié de vous remettre sa carte…\nDANIEL\nAh ! sa carte !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "narguer",
+    "dist": 33,
+    "window": "réponse !… alors, je me jette à ses genoux… il me fait : Psch ! psch !… pour me narguer !… Je m’emporte ! je m’exaspère !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "mettre",
+    "dist": 33,
+    "window": "e dirige vers sa chambre, puis revient tout à coup.) Non !… Avant, j’ai envie de mettre tous mes domestiques à la porte !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "dire",
+    "dist": 33,
+    "window": ". Armand, m’a rendu de tels services… DANIEL\nJe comprends.\nPERRICHON\nCar on a beau dire, il m’a sauvé la vie, cet homme !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "baiser",
+    "dist": 34,
+    "window": "faut encore que je me fasse piquer ? Jamais !… ( À Adolphe. ) Monsieur, pour un baiser, je pouvais me battre… mais deux !",
+    "file": "labiche-29-degres-ombre.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "rager",
+    "dist": 34,
+    "window": "uel voyage !\nChampbourcy.\nVoyons, quand vous passerez votre temps à geindre ou à rager ! Nous en avons vu bien d’autres !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "votre",
+    "dist": 34,
+    "window": " à gauche.\n\n Scène V \n Hernandez, Loïsa \n Hernandez. \n Cette fille me prend pour votre mari… Que ne le suis-je en effet !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "porter",
+    "dist": 34,
+    "window": "sa lettre et remet en place ce qu’il a pris.) Maintenant, il s’agit de la faire porter tout de suite… Jean doit être là !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "rappeler",
+    "dist": 35,
+    "window": "… et je demeure rue de Provence !… Était-ce bien l’Odéon ?… Impossible de me rappeler !… Ma lacune ! toujours ma lacune !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "payer",
+    "dist": 35,
+    "window": "vous ruinez vos enfants, vous vous brûlez la cervelle… tout cela pour éviter de payer une somme dérisoire… Quelle faute !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "refaire",
+    "dist": 35,
+    "window": " ce que c’est que de se familiariser avec les domestiques ! Oh ! si c’était à refaire !… C’est la faute de mon tailleur !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "persuader",
+    "dist": 35,
+    "window": " la calmait pas, je lui ai fait une énorme craque… J’ai eu le toupet de lui persuader que le mariage était rompu… v’lan !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "votre",
+    "dist": 35,
+    "window": "uesclin n’eût pas fait cela !\nCordenbois.\nDe quoi parlez-vous ?\nChampbourcy.\nDe votre inqualifiable défection, monsieur !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "autre",
+    "dist": 35,
+    "window": "ous aime, Armand… et je veux vous donner un bon avis qui vous servira… pour une autre fois ! Vous avez un défaut mortel !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "autre",
+    "dist": 36,
+    "window": "je ne suis pas un lâcheur, mais, dame ! quand on retrouve sa femme mariée à un autre… Quel toupet !… et quelles épaules !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "vendre",
+    "dist": 36,
+    "window": "ite. - A lui-même) Je crois que ça fera plaisir à M. Natole... Est-ce bête de vendre ses meubles le jour où on se marie !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "entrer",
+    "dist": 36,
+    "window": " qui serait bien embêtante... là... mais. bien embêtante... ce serait de voir entrer la veuve Mouchette comme une trombe!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "désigner",
+    "dist": 37,
+    "window": "e vienne à votre bal… Il a soudoyé votre Auvergnat, qui s’est engagé à lui désigner la femme qui était cachée chez vous !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "dire",
+    "dist": 37,
+    "window": "as plus tard !… (Elle remonte, arrivée près de la porte, elle se retourne pour dire :) Vous m’entendez !… Pas plus tard !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "notre",
+    "dist": 37,
+    "window": "as que je trahirai pour vous un parent, le chef de la famille, le champion de notre honneur !… Jamais, monsieur, jamais !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "nature",
+    "dist": 37,
+    "window": "a belle écriture ! (Lisant.) « Qu’il est beau d’admirer les splendeurs de la nature, entouré de sa femme et de sa nièce !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "mère",
+    "dist": 37,
+    "window": "oyons !… (Lisant.) « Que l’homme est petit quand on le contemple du haut de la mère de Glace !… » Signé Perrichon… Mère !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "notre",
+    "dist": 38,
+    "window": "\nMon cousin !… le père de notre filleul… J’y vais.\nChœur , Sur l’air de Dans notre noble Venise\nQuelle drôle d’aventure !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "quatre",
+    "dist": 38,
+    "window": "\n Scène V \n Chiffonnet ; puis Prunette \n Chiffonnet , seul. \n Cent ans pour quatre mille francs !… Canaille !… canaille !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "dire",
+    "dist": 38,
+    "window": " !…\n\n Chiffonnet. \n Quoi donc ?…\n\n Madame Coquenard. \n Non… j’ai tort de vous dire… Mon mari possède un travers affreux !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "corriger",
+    "dist": 38,
+    "window": "voyez le dictionnaire…\nPERRICHON\nEh ! monsieur, vous n’êtes pas chargé de corriger mes… prétendues fautes d’orthographe !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "coucher",
+    "dist": 39,
+    "window": "’y opposait… alors, j’ai prétexté une migraine ; j’ai fait semblant de me coucher… et v’lan ! j’ai filé chez Véfour… Ah !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "conduire",
+    "dist": 39,
+    "window": " fille est mariée, vous vous figurez sans doute qu'il n'y a plus qu'à la conduire au domicile conjugal?\n\n Cocotte \n Dame!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "diminuer",
+    "dist": 39,
+    "window": "z toutes ! Ah ! Loïsa, que vous me faites de bien ! Je tremblais de voir diminuer mon prestige en vous faisant cet aveu !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "pouvoir",
+    "dist": 40,
+    "window": "argaret. \n Ah !… mais… permets… \n\n Muserolle. \n Ma seule ambition est de pouvoir m’acquitter envers toi… C’est mon rêve !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "mystère",
+    "dist": 40,
+    "window": "ins ratatinée…\n\n Coquenard , à part. \n Est-il possible !… Oh ! il y a un mystère, mais je le découvrirai… j’ai un moyen !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "rendre",
+    "dist": 40,
+    "window": "s ! Vous avez un défaut mortel !\nARMAND\nLequel ?\nDANIEL\nVous aimez trop à rendre service… c’est une passion malheureuse !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "traîner",
+    "dist": 41,
+    "window": "it fagot. \n Porte ça à la cuisine. (À la baronne.) Je n’aime pas à voir traîner le bois… et, en se promenant, ça occupe !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "présenter",
+    "dist": 41,
+    "window": "bourcy.\nNe crains rien, ma fille, l’homme intègre ne craint pas de se présenter devant la justice de son pays… Marchons !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "notre",
+    "dist": 41,
+    "window": "oir que tu es mon frère de lait.\n\n Pionceux. \n Vous ne vous vantez pas de notre parenté, je le sais bien… Un domestique !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "demander",
+    "dist": 41,
+    "window": " mari.\nPerrichon, aide-moi à mettre mon manteau. (Bas.) On vient de me demander notre fille en mariage…\nPERRICHON\nTiens !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "faire",
+    "dist": 42,
+    "window": " dix baisers, le remords n’a pu trouver une minute, une seconde, pour se faire jour dans la conscience du prévenu… Rien !",
+    "file": "labiche-29-degres-ombre.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "colère",
+    "dist": 42,
+    "window": ", c’est une calomnie !… Une preuve ! une preuve !\n\n Muserolle. \n Pas de colère !… Dans trois minutes, vous en aurez une !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "chambre",
+    "dist": 42,
+    "window": "ton !\n\n Surtout quand il fait son droit !… Certainement, les femmes de chambre… c’est gentil, mais ça se cramponne trop !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "pouvoir",
+    "dist": 42,
+    "window": "t passées !…\n\n Edgard , avec chaleur. \n Il m’en reste une… celle de ne pouvoir vous exprimer assez combien je vous aime !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "rivière",
+    "dist": 42,
+    "window": "sa manière, \nC’est à qui sera l’ plus malin. \nMoi, c’est le long de la rivière \nQue je veux faire mon chemin ! \nÀ l’eau !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "protéger",
+    "dist": 42,
+    "window": "us me charmez… et puisque mon mari a oublié sa mission, qui est de me protéger… don Hernandez, ramenez-moi chez ma mère !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "retourner",
+    "dist": 42,
+    "window": "lieues ; j’arrive à la mer de Glace… et je ne suis pas sûr de ne pas retourner ce soir à Paris… C’est plus fort que moi !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "rapporter",
+    "dist": 42,
+    "window": "dende à trois heures… et j’ai gardé la voiture de monsieur pour vous rapporter plus tôt vos six cents francs… Les voici !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "chambrière",
+    "dist": 43,
+    "window": "est celui de…\n\n Veauvardin , l’interrompant sévèrement. \n De votre chambrière !… Elle l’avait dimanche, je le reconnais !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "avoir",
+    "dist": 43,
+    "window": " belle femme !… dans mon ermitage ! Sapristi !… je suis fâché de ne pas avoir ma perruque neuve !… Enfin !… fais entrer !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "faire",
+    "dist": 43,
+    "window": "ur \n Cinq litres !... et du bon !... nous avons chaud... nous venons de faire l'école des tambours !\n\n Le Traiteur \n Ah !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "mère",
+    "dist": 43,
+    "window": "ec emphase.) « Que l’homme est petit quand on le contemple du haut de la mère de Glace ! »\nDANIEL\nSapristi ! c’est fort !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "votre",
+    "dist": 44,
+    "window": "omprends, ma femme avait ses souliers fourrés…\nvous les avez pris pour votre chienne… C’est très-drôle !\n« Belle petite !",
+    "file": "labiche-main-leste.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "présenter",
+    "dist": 44,
+    "window": "s interpellé dans l’omnibus.\n\n MADAME LEGRAINARD. \n Et il a osé se présenter ici… et tu ne l’as pas jeté par la\nfenêtre !",
+    "file": "labiche-main-leste.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "dire",
+    "dist": 44,
+    "window": "nçant. \n Me voilà, monsieur.\n\n Chiffonnet. \n Je t’ai fait venir pour te dire que je ne faisais pas un cas énorme de toi !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "acheter",
+    "dist": 44,
+    "window": "e trompe, elle me ruine, elle me rit au nez !… Je passe ma vie à lui acheter des mobiliers… qu’elle revend le lendemain !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "payer",
+    "dist": 45,
+    "window": "i… faire des quittances pour des locataires qui seront obligés de les payer un jour ou l’autre… ça me rend mélancolique !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "pierre",
+    "dist": 45,
+    "window": "rt.) Elle m’embête énormément !…\n Florestine, avec sentiment\n Air de Pierre le Rouge\n\n Etre assis près de ce qu’on aime !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "prendre",
+    "dist": 45,
+    "window": "q, six… votre demande m’honore… sept ; huit, neuf… je m’engage à la prendre en sérieuse considération… Encore un bouton !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "genre",
+    "dist": 45,
+    "window": " propos de prendre un bouillon… Le jury est très bienveillant pour ce genre de représailles… mais assez de sang répandu !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "accepter",
+    "dist": 45,
+    "window": "RIETTE\nMon Dieu !… vous m’embarrassez beaucoup… et je suis prête à accepter celui que vous me désignerez…\nPERRICHON\nNon !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "éplucher",
+    "dist": 45,
+    "window": "ndant ? Allons donc ! Est-ce que les vrais commandants s’amusent à éplucher les fautes d’orthographe ?\nDANIEL\nN’importe !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "reprendre",
+    "dist": 46,
+    "window": "déjeuner, d’embrasser violemment la maîtresse de la maison et de reprendre le train ! Non, monsieur, il faut un exemple !",
+    "file": "labiche-29-degres-ombre.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "manger",
+    "dist": 46,
+    "window": "e mien…\nCordenbois.\nEh bien, vous êtes gentils !… Nous convenons de manger une cagnotte ensemble et puis vous me perdez !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "recoudre",
+    "dist": 47,
+    "window": "ette leçon \nProuve que seule une mère prudente \nDoit de son fils recoudre le bouton !\n\n Surtout quand il fait son droit !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "appeler",
+    "dist": 48,
+    "window": "et être au front bas, aux attaches vulgaires, a le droit de vous appeler son trésor chéri, son petit lapin bleu de ciel !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "rester",
+    "dist": 48,
+    "window": "RMAND\nJe suis un peu fatigué… je vous demanderai la permission de rester… PERRICHON , avec empressement\nTrès-volontiers !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "être",
+    "dist": 48,
+    "window": "stituer.\nPERRICHON\nPuisque tu as demandé un congé. MAJORIN\nPas pour être témoin !… On leur fait des procès, aux témoins !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "notre",
+    "dist": 49,
+    "window": "e à présent !\nMistingue.\nUn soulier !\nLenglumé.\nLes dépouilles de notre victime !… il paraît que nous l’avons décoiffée !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "boutonnière",
+    "dist": 49,
+    "window": " connais votre noble conduite… et je viens attacher à votre boutonnière cette distinction que vous avez si bien méritée !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "calmer",
+    "dist": 49,
+    "window": " la banquette, ne voulait pas rester tranquille ;\nalors, pour la calmer, je la caressais en lui disant :\n« Belle petite !",
+    "file": "labiche-main-leste.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "faire",
+    "dist": 49,
+    "window": "inq litres !... et du bon !... nous avons chaud... nous venons de faire l'école des tambours !\n\n Le Traiteur \n Ah ! Oui !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "tirer",
+    "dist": 49,
+    "window": "… dans ce moment, cet excellent jeune homme brûle le pavé pour me tirer des cachots… Je lui devrai l’honneur… l’honneur !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 50,
+    "window": "nces de ma famille.\nCordenbois , lui serrant la main.\nÀ la bonne heure ! Maintenant, dites-moi ce que vous êtes devenus !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "remettre",
+    "dist": 50,
+    "window": "Monsieur, il est déjà venu ce matin… J’ai même oublié de vous remettre sa carte…\nDANIEL\nAh ! sa carte !\nPERRICHON\nDonne !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "pierre",
+    "dist": 51,
+    "window": "lle m’embête énormément !…\n Florestine, avec sentiment\n Air de Pierre le Rouge\n\n Etre assis près de ce qu’on aime ! \nAh !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "autre",
+    "dist": 51,
+    "window": "visage de l'homme est comme un appartement : il faut de temps à autre boucher les crevasses et rafraîchir les peintures !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "accepter",
+    "dist": 51,
+    "window": "\nMon Dieu !… vous m’embarrassez beaucoup… et je suis prête à accepter celui que vous me désignerez…\nPERRICHON\nNon ! non !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "irrégulière",
+    "dist": 52,
+    "window": " \n C’est bien plus simple. Mais je suis las de cette vie irrégulière, de cette vie de cascadeur… Il faut que ça finisse !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "remercier",
+    "dist": 53,
+    "window": "Voilà papa…\nCocarel.\nAh ! monsieur, permettez-moi de vous remercier de la confiance que vous avez bien voulu m’accorder !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "rentrer",
+    "dist": 53,
+    "window": "e !...\n\n Bouchencoeur \n Laquelle ?\n\n Grandcassis \n Avant de rentrer, je vais me faire servir un vaste plat de choucroute!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "paraître",
+    "dist": 54,
+    "window": "er, et le mois prochain on criera : « V’là c’qui vient de paraître !… Horrible assassinat, commis par la bande Lenglumé !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "faire",
+    "dist": 54,
+    "window": "hez Blanche…\n\n Gargaret. \n Encore !…\n\n Muserolle. \n Pour lui faire mes adieux… Sois tranquille, je n’y retournerai plus !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "persuader",
+    "dist": 54,
+    "window": " lui ai fait une énorme craque… J’ai eu le toupet de lui persuader que le mariage était rompu… v’lan !… et elle l’a cru !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "narguer",
+    "dist": 55,
+    "window": "e jette à ses genoux… il me fait : Psch ! psch !… pour me narguer !… Je m’emporte ! je m’exaspère ! je lui saute au cou !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "payer",
+    "dist": 55,
+    "window": "nts, vous vous brûlez la cervelle… tout cela pour éviter de payer une somme dérisoire… Quelle faute ! quelle négligence !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "demander",
+    "dist": 55,
+    "window": "on, aide-moi à mettre mon manteau. (Bas.) On vient de me demander notre fille en mariage…\nPERRICHON\nTiens ! à moi aussi !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 56,
+    "window": "\n\n Le Marquis , rayonnant. \n Ah ! il a dit ça ? À la bonne heure ! Voilà des titres ! voilà ce que j’appelle des titres !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "promener",
+    "dist": 56,
+    "window": " , le quittant.\nSi vous croyez que c’est agréable de se promener sur le boulevard avec un monsieur qui porte une pioche !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "remplacer",
+    "dist": 57,
+    "window": "a m’est égal… Alors, j’ai eu l’ingénieuse idée de les remplacer par une somnambule… qui les trouverait… sans les manger !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "rager",
+    "dist": 57,
+    "window": "y.\nVoyons, quand vous passerez votre temps à geindre ou à rager ! Nous en avons vu bien d’autres ! la Providence est là !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "déposer",
+    "dist": 57,
+    "window": "s. \n Le Portier \n Voulez-vous me permettre seulement de déposer le lit dans un coin?\n\n Grandcassis , bondissant \n Le lit!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "faire",
+    "dist": 58,
+    "window": " remords n’a pu trouver une minute, une seconde, pour se faire jour dans la conscience du prévenu… Rien ! pas un éclair !",
+    "file": "labiche-29-degres-ombre.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "raconter",
+    "dist": 59,
+    "window": "t-là… c’est un mauvais pas… L’Aubergiste vient de me raconter que, l’an dernier, un Russe… un prince… très bon cavalier !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "votre",
+    "dist": 63,
+    "window": "et vous, baronne… justement préoccupé du bonheur de votre famille… je viens remplir une mission… que dis-je ? un devoir !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "prendre",
+    "dist": 64,
+    "window": " devant toute la noce !… Cristi !… j’ai envie de prendre un chemin de fer quelconque et d’aller toujours tout droit… Ah !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "calmer",
+    "dist": 64,
+    "window": "ne voulait pas rester tranquille ;\nalors, pour la calmer, je la caressais en lui disant :\n« Belle petite ! belle petite !",
+    "file": "labiche-main-leste.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "plaindre",
+    "dist": 64,
+    "window": "ut, minaudant.) J’avoue que j’aurais tort de me plaindre !… Sous ce rapport, la nature n’a pas trop liardé… à mon égard !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "votre",
+    "dist": 65,
+    "window": "ait ses souliers fourrés…\nvous les avez pris pour votre chienne… C’est très-drôle !\n« Belle petite ! » c’est très-drôle !",
+    "file": "labiche-main-leste.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "déposer",
+    "dist": 65,
+    "window": "Portier \n Voulez-vous me permettre seulement de déposer le lit dans un coin?\n\n Grandcassis , bondissant \n Le lit! le lit!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "dire",
+    "dist": 65,
+    "window": "mand, Perrichon\nPERRICHON , à part.\nIl n’y a pas à dire… j’ai fait des excuses ! moi dont on verra le portrait au musée !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "revolver",
+    "dist": 66,
+    "window": " tout à coup… pif ! paf ! pan !… des coups de revolver plein l’escalier !… Il est cousu de revolvers, ce vieux trappeur !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "l'air",
+    "dist": 66,
+    "window": "Tous \n A table! à table!...\n\n Chœur \n Reprise de l'air \n Gai ! Gai ! Mariez-vous/marions-nous\n Espérance, \n Bonne chance!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "donner",
+    "dist": 66,
+    "window": " çà ! monsieur, auriez-vous la prétention de me donner une leçon ?\nLE COMMANDANT\nLoin de moi cette pensée…\nPERRICHON\nAh !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "soir",
+    "dist": 67,
+    "window": "st un brave ! Il m’a promis vingt francs pour ce soir… et cinq de Chiffonnet… Ah ! la vérité, c’est une fameuse branche !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "battre",
+    "dist": 68,
+    "window": " il endosse tout ; je n’ai pas le droit de me battre pour la femme d’un autre… Et moi qui ai remis le billet à Gargaret !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "rester",
+    "dist": 68,
+    "window": " fatigué… je vous demanderai la permission de rester… PERRICHON , avec empressement\nTrès-volontiers ! ne vous gênez pas !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "faire",
+    "dist": 68,
+    "window": "touchez à tout ! Qui est-ce qui vous a prié de faire arrêter le commandant ? Sans vous, nous étions tous là-bas, à midi !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "accepter",
+    "dist": 69,
+    "window": "m’embarrassez beaucoup… et je suis prête à accepter celui que vous me désignerez…\nPERRICHON\nNon ! non ! décide toi-même !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "mère",
+    "dist": 70,
+    "window": "-moi d’ajouter mes remerciements à ceux de ma mère, je garderai toute ma vie le souvenir de cette journée… toute ma vie !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "reprocher",
+    "dist": 71,
+    "window": "til… mais je ne voulais rien avoir à me reprocher, pas de réponse !… alors, je me jette à ses genoux… il me fait : Psch !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "quatre",
+    "dist": 71,
+    "window": "e paye… et on me rend… quoi ? une pièce de quatre sous pour une de cinq !… Et l’on veut que j’aime le genre humain… non !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "a",
+    "infinitive_shaped": "l'air",
+    "dist": 71,
+    "window": " t'aimer...\n\n Deuxième demoiselle \n Et il a l'air d'un bien brave homme!\n\n Cocotte \n Oui, mais qu'il est laid, mon Dieu !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "abréger",
+    "dist": 71,
+    "window": "era impossible d’attendre jusque-là… Pour abréger, je vais au fait : retirez-vous, oui ou non… ?\nPERRICHON\nRien du tout !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "payer",
+    "dist": 72,
+    "window": "ûlez la cervelle… tout cela pour éviter de payer une somme dérisoire… Quelle faute ! quelle négligence ! quelle incurie !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "narguer",
+    "dist": 73,
+    "window": "ux… il me fait : Psch ! psch !… pour me narguer !… Je m’emporte ! je m’exaspère ! je lui saute au cou !… il m’égratigne !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "avoir",
+    "dist": 73,
+    "window": ", je ne suis pas bon !… je te garde, pour avoir près de moi un échantillon de tous les vices, de toutes les gredineries !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "l'air",
+    "dist": 74,
+    "window": " table! à table!...\n\n Chœur \n Reprise de l'air \n Gai ! Gai ! Mariez-vous/marions-nous\n Espérance, \n Bonne chance! \n Gai !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "quitter",
+    "dist": 74,
+    "window": "N\nPour quoi faire ?\nPERRICHON\nAvant de quitter ces lieux, je désire consacrer par une note le souvenir de cet événement !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "maître",
+    "dist": 74,
+    "window": " sans danger pour lui, c’est un coup de maître ! Aussi, depuis ce jour, je suis sa joie, son triomphe, son fait d’armes !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "dernier",
+    "dist": 75,
+    "window": "partement. Sais-tu le chiffre de leur dernier inventaire ? Cent soixante-quatre mille trois cent trente-deux, zéro cinq !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "prendre",
+    "dist": 75,
+    "window": "te la noce !… Cristi !… j’ai envie de prendre un chemin de fer quelconque et d’aller toujours tout droit… Ah ! la voici !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "rendre",
+    "dist": 75,
+    "window": "ous ne pouvons tarder plus longtemps à rendre réponse à ces deux jeunes gens… Deux prétendus dans la maison… c’est trop !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "faire",
+    "dist": 75,
+    "window": "euilles attendre l’envoi des billets de faire-part ?\nPERRICHON\nOh non !\nMADAME PERRICHON\nJe te laisse avec lui… Courage !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "autre",
+    "dist": 76,
+    "window": "!\nPomadour.\nIl est bon que, de temps à autre, l’obole du pécheur vienne grossir le budget de la moralisation des masses !",
+    "file": "labiche-29-degres-ombre.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "écouler",
+    "dist": 76,
+    "window": "e négresse !… c’est très difficile à écouler !… Cependant l’année dernière j’en ai réussi une… mais c’est un autre prix !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "trouver",
+    "dist": 77,
+    "window": "Rouquérolle. \n Je me charge de vous trouver tout cela, soyez tranquille ! Nous nous arrangerons une vie de Polichinelle !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "quatre",
+    "dist": 77,
+    "window": "… et on me rend… quoi ? une pièce de quatre sous pour une de cinq !… Et l’on veut que j’aime le genre humain… non ! non !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "reprocher",
+    "dist": 78,
+    "window": "is je ne voulais rien avoir à me reprocher, pas de réponse !… alors, je me jette à ses genoux… il me fait : Psch ! psch !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "gare",
+    "dist": 78,
+    "window": "le . Après quoi, tu le déposeras à la gare de Strasbourg… bureau des marchandises… Aies-en bien soin… c’est un labadens !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "toucher",
+    "dist": 79,
+    "window": "tre de retour à deux heures… pour toucher mon dividende… Je te rembourserai immédiatement et alors… nous serons quittes !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "paraître",
+    "dist": 80,
+    "window": " criera : « V’là c’qui vient de paraître !… Horrible assassinat, commis par la bande Lenglumé ! ça ne se vend qu’un sou !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "dire",
+    "dist": 80,
+    "window": "eaux à droite.) On a bien raison de dire que la vérité habite un puits… mais, sans les porteurs d’eau, elle y resterait !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "l'air",
+    "dist": 80,
+    "window": "! à table!...\n\n Chœur \n Reprise de l'air \n Gai ! Gai ! Mariez-vous/marions-nous\n Espérance, \n Bonne chance! \n Gai ! Gai !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 80,
+    "window": "ès du guichet.) Monsieur, à quelle heure part le train direct pour Lyon ?…\nL’EMPLOYÉ , brusquement\nÇa ne me regarde pas !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "pierre",
+    "dist": 81,
+    "window": "orestine, avec sentiment\n Air de Pierre le Rouge\n\n Etre assis près de ce qu’on aime ! \nAh ! que ça fait du bien au cœur !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "voir",
+    "dist": 82,
+    "window": " qui la faute ? nous partons pour voir les monuments, et vous nous menez chez votre dentiste… Monsieur fait ses courses !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "mettre",
+    "dist": 82,
+    "window": "p.) Non !… Avant, j’ai envie de mettre tous mes domestiques à la porte !… Je les ai depuis cinq jours… il faut en finir !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "persuader",
+    "dist": 83,
+    "window": "e… J’ai eu le toupet de lui persuader que le mariage était rompu… v’lan !… et elle l’a cru ! Elle est bête, cette fille !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "mère",
+    "dist": 83,
+    "window": "r mes remerciements à ceux de ma mère, je garderai toute ma vie le souvenir de cette journée… toute ma vie !…\nARMAND\nAh !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "quatre",
+    "dist": 84,
+    "window": " me rend… quoi ? une pièce de quatre sous pour une de cinq !… Et l’on veut que j’aime le genre humain… non ! non !… non !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "battre",
+    "dist": 84,
+    "window": "itement... Vous m’avez dit de battre un roulement chaque fois que j’entendrais le bruit d’un baiser… l’idée est bizarde !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "votre",
+    "dist": 84,
+    "window": "MAND\nVous sentez-vous remis de votre chute ?\nPERRICHON\nTout à fait ! ne parlons plus de ce petit accident… c’est oublié !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "fourrer",
+    "dist": 84,
+    "window": "rdrez pas l’habitude de vous fourrer à chaque instant dans ma vie ?\nARMAND\nComment ?\nPERRICHON\nOui, vous touchez à tout !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "narguer",
+    "dist": 85,
+    "window": "it : Psch ! psch !… pour me narguer !… Je m’emporte ! je m’exaspère ! je lui saute au cou !… il m’égratigne !… je serre !",
+    "file": "labiche-affaire-rue-lourcine.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "dire",
+    "dist": 85,
+    "window": " Prunette, ce que j’avais à te dire… Maintenant, tu peux retourner à ta cuisine, reprendre le cours de ton exploitation !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "placer",
+    "dist": 85,
+    "window": "i que j’estime assez pour te placer au rang de ces délicieuses coquines, de ces charmantes effrontées… pas de mouvement !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "constater",
+    "dist": 85,
+    "window": "\nMoi ? je me suis borné à constater que mer de Glace ne prenait pas d’ e à la fin : voyez le dictionnaire…\nPERRICHON\nEh !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "voyager",
+    "dist": 88,
+    "window": "cules !… je n’aime pas à voyager comme ça !\nPERRICHON\nC’est le départ qui est laborieux… une fois que nous serons casés !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "arrêter",
+    "dist": 89,
+    "window": ", il se coupe… et, pour arrêter le sang, il cherche des toiles d’araignée… il n’en trouve pas, et alors il bougonne… Ah !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "croire",
+    "dist": 89,
+    "window": " faiblesse de mollir… de croire à la bonne foi… eh bien, tu serais là… près de moi… comme un bec de gaz pour m’éclairer !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "baiser",
+    "dist": 90,
+    "window": "he. ) Monsieur, pour un baiser, je pouvais me battre… mais deux !… il y a récidive, ça change complètement la situation !",
+    "file": "labiche-29-degres-ombre.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "peindre",
+    "dist": 92,
+    "window": "’autre avenir que de peindre des enseignes pour les nourrisseurs… des pelouses vertes… avec des vaches… de même couleur !",
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "faire",
+    "dist": 92,
+    "window": "is trop tard pour bien faire… Quand je pense que j’attente depuis trois ans à l’honneur de l’homme… qui a sauvé le mien !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "donner",
+    "dist": 92,
+    "window": "s la prétention de me donner une leçon ?\nLE COMMANDANT\nLoin de moi cette pensée…\nPERRICHON\nAh ! ce n’est pas malheureux !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "attendre",
+    "dist": 92,
+    "window": "i l’honneur de vous attendre demain, à midi, avec mes témoins, dans les bois de la Malmaison…\nDANIEL\nCommandant, un mot !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "faire",
+    "dist": 92,
+    "window": "ON\nMais tu n’as rien à faire…\nPERRICHON\nSi, j’ai une affaire… très-importante… Demande à Daniel…\nDANIEL\nTrès-importante !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "acheter",
+    "dist": 93,
+    "window": " un magasin pour en acheter un autre… Il y avait écrit sur la devanture : English spoken… et on ne parlait que français !",
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "adversaire",
+    "dist": 96,
+    "window": "je crie à mon adversaire : \"Tu es mort ! \" Pan ! il tire, il blesse mon chapeau, je me lève en souriant et je l’expédie !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "mère",
+    "dist": 98,
+    "window": "ents à ceux de ma mère, je garderai toute ma vie le souvenir de cette journée… toute ma vie !…\nARMAND\nAh ! mademoiselle !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "faire",
+    "dist": 99,
+    "window": "s m’accusiez de faire la cour à madame Gargaret… tandis que vous jaunissiez les cheveux blancs de cet excellent marquis !",
+    "file": "labiche-doit-on-le-dire.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "plaire",
+    "dist": 99,
+    "window": "presse pour me plaire… \nEt l’on veut m’étrangler ici ! \nDe sirops, de glaces exquises, \nAilleurs, on m’abreuve à foison !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "heure",
+    "dist": 100,
+    "window": ". \n À la bonne heure ! Maintenant voici ce que j’ai décidé… et pas de prières, pas de supplications… Je suis inflexible !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "pour",
+    "infinitive_shaped": "abréger",
+    "dist": 100,
+    "window": "que-là… Pour abréger, je vais au fait : retirez-vous, oui ou non… ?\nPERRICHON\nRien du tout !\nLE COMMANDANT\nPrenez garde !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "partir",
+    "dist": 101,
+    "window": "ore… mais, à partir du 5… je suis gêné… Aussi, je voudrais faire quelque chose… si je trouvais un petit commerce… Tiens !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "déposer",
+    "dist": 103,
+    "window": "lement de déposer le lit dans un coin?\n\n Grandcassis , bondissant \n Le lit! le lit! (lui donnant un coup de pied) animal!",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "notre",
+    "dist": 103,
+    "window": "\n Au nom de notre défunte amitié, écoutez un dernier conseil… Pendant qu’il vous cherche dans la forêt, filez sur Paris !",
+    "file": "labiche-prix-martin.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "faire",
+    "dist": 103,
+    "window": "t pas de me faire auteur… mais il me semble qu’un homme du monde peut avoir des pensées et les recueillir sur un carnet !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "donner",
+    "dist": 104,
+    "window": "il à vous donner… mais une veuve, bonne musicienne, avec quatre-vingt mille livres de rente… je crois que ça vaut mieux !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "voir",
+    "dist": 105,
+    "window": "se à venir voir la mer de Glace, et vous venez me chercher dans ma chambre… dès l’aurore… c’est un trait de gentilhomme !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "accepter",
+    "dist": 106,
+    "window": "ête à accepter celui que vous me désignerez…\nPERRICHON\nNon ! non ! décide toi-même !\nMADAME PERRICHON\nParle, mon enfant !",
+    "file": "labiche-voyage-perrichon.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "pierre",
+    "dist": 108,
+    "window": "ir de Pierre le Rouge\n\n Etre assis près de ce qu’on aime ! \nAh ! que ça fait du bien au cœur ! \nEdgard, très ennuyé \nAh !",
+    "file": "labiche-edgard-bonne.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "dire",
+    "dist": 110,
+    "window": "ien à dire !… et parce que nous sommes au mois d’août, le préjugé… le stupide préjugé exige que je me fasse transpercer !",
+    "file": "labiche-29-degres-ombre.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "l'heure",
+    "dist": 111,
+    "window": "à l'heure sonne !\n\n Tous \n Nous somm's flambes !\n\n Bouchencoeur \n Mon âme frissonne !\n\n Cocotte \n Mourir, c'est affreux !",
+    "file": "labiche-noces-bouchencoeur.txt"
+   },
+   {
+    "prep": "à",
+    "infinitive_shaped": "partir",
+    "dist": 112,
+    "window": "à partir du 5… je suis gêné… Aussi, je voudrais faire quelque chose… si je trouvais un petit commerce… Tiens ! une idée !",
+    "file": "labiche-la-cagnotte.txt"
+   },
+   {
+    "prep": "de",
+    "infinitive_shaped": "voir",
+    "dist": 112,
+    "window": " de voir un brave homme comme vous harcelé par des créanciers… et pour qui ? pour une…\nLE COMMANDANT\nAllons, c’est bien !",
+    "file": "labiche-voyage-perrichon.txt"
+   }
+  ]
+ }
+}

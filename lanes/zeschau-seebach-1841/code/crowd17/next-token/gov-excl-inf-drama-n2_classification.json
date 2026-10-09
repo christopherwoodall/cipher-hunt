@@ -1,0 +1,4120 @@
+{
+ "n_genuine": 6,
+ "n_excluded": 509,
+ "classifications": [
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 34,
+   "verdict": "genuine",
+   "note": "labiche-edgard-bonne: Edgard. Pour quoi faire ? Florestine, appuyant. Pour lui causer ! (Q/A fragment; \"!\" terminates the governed infinitive phrase)"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 39,
+   "verdict": "genuine",
+   "note": "labiche-edgard-bonne: Edgard. Pour quoi faire ? Henriette. Pour polker ! (Q/A fragment; same shape)"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 129,
+   "verdict": "genuine",
+   "note": "labiche-voyage-perrichon: PERRICHON Puisque tu as demande un conge. MAJORIN Pas pour etre temoin ! (negated reply fragment; \"!\" terminates the governed infinitive phrase)"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 149,
+   "verdict": "genuine",
+   "note": "labiche-prix-martin: Martin, a part. Oui, oui ! de quitter ma femme ! (echo fragment completing the \"pas tant... que\" construction; \"!\" terminates the governed infinitive phrase)"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 6,
+   "verdict": "genuine",
+   "note": "Le Savant: HANTZ. A louer ! (echo fragment of \"qui est a louer\"; \"!\" terminates the governed infinitive phrase; no finite matrix; not embedded in exclaimed NP)"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 0,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 1,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 2,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 3,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 4,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 5,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 6,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 8,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 9,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 10,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 11,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 12,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 13,
+   "verdict": "excluded",
+   "cause": "C",
+   "cause_detail": "exclaimed adjective \"Impossible\""
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 14,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 16,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 17,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 18,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 19,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 20,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 21,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 22,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 23,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 24,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 25,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 26,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 27,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 28,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 29,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 30,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 31,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 32,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 33,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 35,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 36,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 37,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 38,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 40,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 41,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 42,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 43,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 44,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 45,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 46,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 47,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 48,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 49,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 50,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 51,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 52,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 53,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 54,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 55,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 56,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 57,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 58,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 59,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 60,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 61,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 62,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 63,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 64,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 65,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 66,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 67,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 68,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 69,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 70,
+   "verdict": "excluded",
+   "cause": "BARE-HEAD",
+   "cause_detail": "exclaimed head is a bare infinitive; the governed infinitive is embedded in it"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 72,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 73,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 74,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 75,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 76,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 77,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 78,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 79,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 80,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 81,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 82,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 83,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 84,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 85,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 86,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 87,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 88,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 89,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 90,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 91,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 92,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 93,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 94,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 95,
+   "verdict": "excluded",
+   "cause": "C",
+   "cause_detail": "exclaimed pronoun \"rien\" + a-faire complement"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 96,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 97,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 98,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 99,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 100,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 101,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 102,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 103,
+   "verdict": "excluded",
+   "cause": "C",
+   "cause_detail": "infinitive complement of exclaimed NP \"occasion\""
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 104,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 105,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 106,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 107,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 108,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 110,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "\"!\" belongs to a following interjection/quoted clause, not the infinitive phrase"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 111,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "\"!\" belongs to a following interjection/quoted clause, not the infinitive phrase"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 112,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 113,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 114,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 115,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 116,
+   "verdict": "excluded",
+   "cause": "C",
+   "cause_detail": "\"lettre de faire part\" lexicalized noun"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 117,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 118,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 119,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 120,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 121,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 122,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "\"!\" belongs to a following interjection/quoted clause, not the infinitive phrase"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 123,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "\"!\" belongs to a following interjection/quoted clause, not the infinitive phrase"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 124,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 125,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 126,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 127,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 128,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 130,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 131,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 132,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 133,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 134,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 135,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 136,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 137,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "\"!\" belongs to a following interjection/quoted clause, not the infinitive phrase"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 138,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 139,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 140,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 141,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 142,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 143,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 144,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 145,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 146,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 147,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 148,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 150,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 151,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 152,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 153,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 154,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 155,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 156,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 157,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 158,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 159,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 160,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 161,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 162,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 163,
+   "verdict": "excluded",
+   "cause": "C",
+   "cause_detail": "exclaimed NP \"Quelle chance\" + de-complement"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 164,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 165,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 166,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 167,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 168,
+   "verdict": "excluded",
+   "cause": "C",
+   "cause_detail": "exclaimed pronoun \"rien\" + pour-complement"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 169,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 170,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 171,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 172,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 173,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 174,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 176,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "\"!\" belongs to a following interjection/quoted clause, not the infinitive phrase"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 177,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 178,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 180,
+   "verdict": "excluded",
+   "cause": "C",
+   "cause_detail": "exclaimed adjective \"Impossible\""
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 181,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 182,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 183,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "\"!\" belongs to a following interjection/quoted clause, not the infinitive phrase"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 184,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 185,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 186,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 187,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 188,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 189,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 190,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 191,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 192,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 193,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 194,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 195,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 196,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 197,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 198,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 199,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 200,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 201,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 202,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "\"!\" belongs to a following interjection/quoted clause, not the infinitive phrase"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 203,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 204,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 205,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 206,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 208,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 209,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 210,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 211,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 212,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 213,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 214,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 215,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 216,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 217,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 218,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 219,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 220,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 221,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 222,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 223,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 224,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 225,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 226,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 227,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 228,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 229,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 230,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 231,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 232,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 233,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 235,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 236,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 237,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 238,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 239,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 240,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 241,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 242,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 243,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 244,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 245,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 246,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 247,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 248,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 249,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 250,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 251,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 252,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 253,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 254,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 255,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 256,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 257,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 258,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 259,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 260,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 261,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 262,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 264,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 265,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 266,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 267,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 268,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 269,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 270,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 271,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 272,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 273,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 274,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 275,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 276,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 277,
+   "verdict": "excluded",
+   "cause": "BARE-HEAD",
+   "cause_detail": "exclaimed head is a bare infinitive; the governed infinitive is embedded in it"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 278,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 279,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 280,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 281,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 282,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 283,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 284,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 285,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 286,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 287,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 288,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 289,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 290,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 291,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 292,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 293,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 294,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 295,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 296,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 297,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 298,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 299,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 300,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 301,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 302,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 303,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 304,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 305,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 306,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 307,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 308,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 309,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 310,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 311,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 312,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 313,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 314,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 315,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 316,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 317,
+   "verdict": "excluded",
+   "cause": "C",
+   "cause_detail": "exclaimed adjective \"Impossible\""
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 318,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "\"!\" belongs to a following interjection/quoted clause, not the infinitive phrase"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 319,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 320,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 321,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 322,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 323,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 324,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 325,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 326,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 327,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 328,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 329,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 330,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 331,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 332,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 333,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 334,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 335,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 336,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 337,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 338,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 339,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "infinitive-shaped word is a noun/adjective/name/idiom"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 340,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix governs the infinitive; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 0,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 1,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 2,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 3,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 4,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 5,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 6,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 7,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 8,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 9,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 10,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 11,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 12,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 13,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 14,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 15,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 16,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 17,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 18,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 19,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 20,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 21,
+   "verdict": "excluded",
+   "cause": "BARE-HEAD",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 22,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 23,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 24,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 25,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 26,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 27,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 28,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 29,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 30,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 31,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 32,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 33,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 34,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 35,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 36,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 37,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 38,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 39,
+   "verdict": "excluded",
+   "cause": "BARE-HEAD",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 40,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 41,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 42,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 43,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 44,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 45,
+   "verdict": "excluded",
+   "cause": "B/D",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 46,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 47,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 48,
+   "verdict": "excluded",
+   "cause": "D/B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 49,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 50,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 51,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 52,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 53,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 54,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 55,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 56,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 57,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 58,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 59,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 60,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 61,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 62,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 63,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 64,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 65,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 66,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 67,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 68,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 69,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 70,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 71,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 72,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 73,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 74,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 75,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 76,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 77,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 78,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 79,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 80,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 81,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 82,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 83,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 84,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 85,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 86,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 87,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 88,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 89,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 90,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 91,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 92,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 93,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 94,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 95,
+   "verdict": "excluded",
+   "cause": "B/D",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 96,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 97,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 98,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 99,
+   "verdict": "excluded",
+   "cause": "BARE-HEAD",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 100,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 101,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 102,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 103,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 104,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 105,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 106,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 107,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 108,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 109,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 110,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 111,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 112,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 113,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 114,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 115,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 116,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 117,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 118,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 119,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 120,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 121,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 122,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 123,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 124,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 125,
+   "verdict": "excluded",
+   "cause": "D/B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 126,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 127,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 128,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 129,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 130,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 131,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 132,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 133,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 134,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 135,
+   "verdict": "excluded",
+   "cause": "BARE-HEAD",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 136,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 137,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 138,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "labiche",
+   "band": "wide",
+   "index": 139,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "wide-band triage: infinitive not the exclaimed element; see report taxonomy"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 0,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "proper-noun Montpellier"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 1,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "noun dejeuner"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 2,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "noun litterature"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 3,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix: 'quelle folie c eut ete a moi'"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 4,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix: 'voyez ou cela le mene'"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 5,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "idiom a la bonne heure"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 7,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "idiom a la bonne heure"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 8,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "noun ecriture"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 9,
+   "verdict": "excluded",
+   "cause": "C",
+   "cause_detail": "exclaimed adjective \"effroyable\" with a-imaginer complement"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 10,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "noun avis"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 11,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "noun famille"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 12,
+   "verdict": "excluded",
+   "cause": "BARE-HEAD",
+   "cause_detail": "exclaimed head is bare infinitive m'exposer; a-faire embedded"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 13,
+   "verdict": "excluded",
+   "cause": "C",
+   "cause_detail": "exclaimed NP \"quel plaisir\" with de-complement"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 14,
+   "verdict": "excluded",
+   "cause": "C",
+   "cause_detail": "exclaimed NP \"quel plaisir\" with de-complement"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 15,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "imperative matrix \"soyez\""
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 16,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "matrix \"il m'est penible\""
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 17,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "noun ecriture"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 18,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "\"!\" belongs to following \"Ah\""
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 19,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "matrix \"ce que c'est que\""
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 20,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "song lyric; \"!\" belongs to \"Maudit savant\""
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 21,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "noun autre; ! belongs to c'est moi"
+  },
+  {
+   "arm": "scribe",
+   "band": "tight",
+   "index": 22,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "noun ecriture"
+  },
+  {
+   "arm": "scribe",
+   "band": "wide",
+   "index": 0,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "matrix \"chacun travaille\""
+  },
+  {
+   "arm": "scribe",
+   "band": "wide",
+   "index": 1,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "matrix \"j'ai l'honneur de vous presenter\""
+  },
+  {
+   "arm": "scribe",
+   "band": "wide",
+   "index": 2,
+   "verdict": "excluded",
+   "cause": "D",
+   "cause_detail": "song; \"!\" belongs to \"quel bonheur\""
+  },
+  {
+   "arm": "scribe",
+   "band": "wide",
+   "index": 3,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "matrix \"est arrive\""
+  },
+  {
+   "arm": "scribe",
+   "band": "wide",
+   "index": 4,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "noun heure (pour une heure)"
+  },
+  {
+   "arm": "scribe",
+   "band": "wide",
+   "index": 5,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "matrix in stanza \"ne m'offrent plus\""
+  },
+  {
+   "arm": "scribe",
+   "band": "wide",
+   "index": 6,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "matrix \"il m'est penible\""
+  },
+  {
+   "arm": "scribe",
+   "band": "wide",
+   "index": 7,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "matrix \"chacun travaille\" (same locus as wide0)"
+  },
+  {
+   "arm": "scribe",
+   "band": "wide",
+   "index": 8,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "matrix \"ca sera bien fait\""
+  },
+  {
+   "arm": "scribe",
+   "band": "wide",
+   "index": 9,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "matrix \"qui ne me prouvent rien\""
+  },
+  {
+   "arm": "scribe",
+   "band": "wide",
+   "index": 10,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "noun nature"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 234,
+   "verdict": "genuine",
+   "note": "labiche-misanthrope-auvergnat: Chiffonnet. Oh ! oh ! au carnaval seulement... pour me mettre en garde-francaise ! (elliptical fragment; no finite verb in the turn; \"!\" terminates the governed infinitive phrase)"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 7,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "finite matrix \"nous causerons\"; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 15,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "matrix \"vient de paraitre\"; \"!\" belongs to the matrix clause"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 71,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "matrix \"c'est pour rire\"; \"!\" belongs to the matrix"
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 109,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "impersonal matrix \"il n'y a plus a dire\""
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 175,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "stage direction; noun \"l'air\""
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 179,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "fixed locution \"a partir de\"; noun \"salade\""
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 207,
+   "verdict": "excluded",
+   "cause": "B",
+   "cause_detail": "matrix \"c'est pour nous distraire\""
+  },
+  {
+   "arm": "labiche",
+   "band": "tight",
+   "index": 263,
+   "verdict": "excluded",
+   "cause": "A",
+   "cause_detail": "\"billets de faire-part\" lexicalized noun"
+  }
+ ]
+}

@@ -1,0 +1,442 @@
+[0] guizot-memoires-t1-gutenberg.txt | prep=de inf=troubler flags=excl
+    ...uel puissant plaisir en effet que celui d'un grand mouvement intellectuel et social qui, loin de suspendre et de troubler à cette époque la vie mondaine, l'anima!
+[1] guizot-memoires-t1-gutenberg.txt | prep=de inf=faire flags=excl
+    ...loi. Que de fautes et de maux s'épargneraient les hommes s'ils avaient le courage d'agir comme ils pensent et de faire hautement ce qu'ils désirent! Tous ces!
+[2] guizot-memoires-t1-gutenberg.txt | prep=à inf=respecter flags=compound
+    ...onarchique et chrétien qui inspire la force de tout sacrifier à ses devoirs! Que nos premiers efforts tendent à faire respecter la Charte que le Roi nous a donnée! Nos!
+[3] guizot-memoires-t1-gutenberg.txt | prep=pour inf=gouverner flags=excl
+    ...ans nos institutions et dans nos lois, des libertés et des droits politiques, pour les y laisser ensevelis et pour gouverner sans en tenir compte! Le premier entre !
+[4] guizot-memoires-t1-gutenberg.txt | prep=de inf=propre flags=excl
+    ...autres temps une vie droite et simple, et qui, de nos jours, ont erré à travers les problèmes et les ténèbres de leur propre pensée, ambitieux turbulents ou fanatiq!
+[5] guizot-memoires-t2-gutenberg.txt | prep=de inf=conjurer flags=excl
+    ...g à M. le duc d'Orléans. Quels périls futurs se révélaient déjà pour cette monarchie naissante, seule capable de conjurer les périls présents du pays! Dans les !
+[6] guizot-memoires-t2-gutenberg.txt | prep=pour inf=préserver flags=compound
+    ...prompte reconnaissance de son indépendance nationale! et qu'elle compte toujours avec confiance sur mon appui pour la préserver de toute attaque extérieure ou de toute!
+[7] guizot-memoires-t3-gutenberg.txt | prep=à inf=faire flags=excl,offer
+    ...l'enfance à la condition virile. Quel contraste entre ce régime et la situation des jeunes gens qui viennent à Paris faire leurs études supérieures et se préparer!
+[8] guizot-memoires-t3-gutenberg.txt | prep=de inf=l'affaire flags=excl
+    ...s quelle mauvaise aventure pour le pays en présence de la question d'Orient, de la guerre civile d'Espagne et de l'affaire des États-Unis!» M. Jouffroy avait, je!
+[9] guizot-memoires-t3-gutenberg.txt | prep=à inf=insulter flags=excl,offer
+    ... exemple ou par des discours malveillants, il excitait chez les enfants cette disposition à tout méconnaître, à tout insulter, qui peut devenir dans un autre âge l'i!
+[10] guizot-memoires-t3-gutenberg.txt | prep=à inf=alger flags=offer
+    ...de servir leur patrie; c'est pourquoi aussi on les emprisonne, on les assomme dans les rues, ou on les envoie à Alger!... Ce n'est pas là ce que ferait un go!
+[11] guizot-memoires-t3-gutenberg.txt | prep=de inf=premier flags=compound
+    ...es jurés les lui ont refusées, ce n'est pas faute d'insistance de sa part!... C'est Persil qui a eu l'infamie de dire le premier qu'il fallait détruire les associations!
+[12] guizot-memoires-t3-gutenberg.txt | prep=pour inf=ministre flags=compound
+    ...ui a eu l'infamie de dire le premier qu'il fallait détruire les associations et abolir le jury! En le prenant pour ministre, la royauté a donc adopté toutes les pe!
+[13] guizot-memoires-t3-gutenberg.txt | prep=de inf=désordre flags=ap-de
+    ...iver aux magasins et en revenir; des officiers et des soldats sont blessés. Pendant cette journée, si pleine de désordre, de mouvement et de bruit, des crieurs !
+[14] guizot-memoires-t5-t6.txt | prep=à inf=désordre flags=compound
+    ...parties de l'Empire turc, et on y fomente des insurrections! On ajoute de nouveaux dés- ordres à ce désordre général que toutes les puissances !
+[15] guizot-memoires-t5-t6.txt | prep=de inf=faire flags=ap-de
+    ...ns, les gens sensés, les amis de la paix ne vous comprennent pas. El il vous était si aisé de faire autrement! Un peu de résistance p!
+[16] guizot-memoires-t5-t6.txt | prep=pour inf=retrouver flags=excl,compound
+    ... et dissous, Dieu sait ce qui arrivera ! Dieu sait quel temps et quels événements il faudra pour retrouver un point d'arrêt ! « Pensez bie!
+[17] guizot-memoires-t5-t6.txt | prep=à inf=replacer flags=offer
+    ...succès des négociations qui, en garantissant la répies- sion d'un odieux trafic, doivent tendre' à replacer notre commerce sous la surveillanc!
+[18] nesselrode-v7.txt | prep=à inf=prononcer flags=offer
+    ...Malgré la faveur dont il avait joui sous l'Empire, le duc de Morte- mart fut un des premiers à se prononcer pour la déchéance <!•' Na- poléon!
+[19] nesselrode-v7.txt | prep=à inf=rendre flags=excl
+    ...é ou qui n'ont pas arrêté ces événements sont coupables, et quel compte ils auront, un jour, à rendre! Je n'excepte personne de cet ana!
+[20] nesselrode-v7.txt | prep=à inf=lettre flags=offer
+    ...com- pliquées. Enfin nous verrons. Je me suis battu les flancs pour donner un peu d'in- térêt à ma lettre, mais, chère Princesse, comme elle!
+[21] nesselrode-v7.txt | prep=de inf=pouvoir flags=excl
+    ...cher. Le bruit court que si le maréchal passe la Yislule, on ne se battra pas. Quel bonheur de pouvoir épargner le sang! D'après ce que!
+[22] nesselrode-v7.txt | prep=a inf=l'être flags=compound
+    ...Léopold, battu sur tous les points! Comme je regrette qu'il n'ait pas été fait prisonnier; il a bien failli l'être! J'ai reçu une lettre de Mme de!
+[23] nesselrode-v7.txt | prep=a inf=guerre flags=excl
+    ...lleyrand et combien le ministère d'ici tient un autre langage depuis qu'il espère que, s'il y a guerre, nous pourrons envoyer notre conti!
+[24] nesselrode-v8.txt | prep=de inf=l'angleterre flags=excl
+    ...mis et alliés. Combien de fois Metternich ne nousa-t-il pas prêché, conjuré de nous rapprocher de l'Angleterre! A présent que nous sommes bienav!
+[25] nesselrode-v8.txt | prep=à inf=dénigrer flags=excl,offer
+    ... ouvrage rempli de fiel et des plus mauvais. Quelle tristesse de voir des Russes se complaire à dénigrer leur pays ! C'est la maladie du !
+[26] nesselrode-v9.txt | prep=de inf=l'avoir flags=compound
+    ... n'ai pas besoin de vous dépeindre l’état moral de notre pauvre ami Rochow. C'est pour moi un grand bonheur de l'avoir ici dans un tel moment, mais hélas! ce !
+[27] nesselrode-v10.txt | prep=à inf=heure flags=offer
+    ... garanties avec elle et qui puise sa force dans le droit divin et l'amour de ses peuples, — à la bonne heure! c'est là un bon gouvernement, c'!
+[28] nesselrode-v10.txt | prep=de inf=rencontre flags=compound
+    ...est là un bon gouvernement, c'est peut-être le meilleur, mais un despote de hasard, un maître de rencontre, allons donc! » Et ils iront et !
+[29] nesselrode-v10.txt | prep=à inf=remplir flags=compound
+    ...e Empereur à son peuple, on nous refuse la parole ! La France a une mission providen- tielle à remplir et on la méconnaît ! — On la !
+[30] nesselrode-v10.txt | prep=de inf=chambre flags=excl
+    ...es que tout ce qu'ont débité même et peut-être surtout les ministres, dans la dernière séance de la Chambre des Communes! J'en ai honte pour !
+[31] revue-deux-mondes-1841-q1.txt | prep=à inf=fondre flags=offer
+    ...tre action, s'appuye les deux bras sur la pouppe de la galère du costé du timon et se mist à fondre en grosses larmes, jettant toujour!
+[32] revue-deux-mondes-1841-q1.txt | prep=de inf=retirer flags=compound
+    ...évélez et vengez! » crie Jean Knox aux citoyens, du haut de sa chaire, avant de s'enfuir et de se retirer dans les bois, lievcal and reveng!
+[33] revue-deux-mondes-1841-q1.txt | prep=à inf=prier flags=offer
+    ... que j'abhorre et déteste ce mariage, odieux et scandaleux au monde, et j'exhorte les fidèles à prier de toute leur ame que Dieu s'opp!
+[34] revue-deux-mondes-1841-q1.txt | prep=de inf=fumer flags=excl,compound
+    ...rice et la sécheresse de cœur des Hollandais! combien de charmantes facéties sur leur habitude de fumer et sur le lavage quotidien des r!
+[35] revue-deux-mondes-1841-q1.txt | prep=pour inf=donner flags=excl
+    ...e admirable insti- tution que celle qui arrache tant de familles à la misère, auTagabon- dage, pour leur donner un refuge, une existence, qui emp!
+[36] revue-deux-mondes-1841-q1.txt | prep=de inf=pierre flags=compound
+    ...vant la maison des Pharaons, ()uel spectacle pourtant! que d'imposante grandeur dans ces massifs de pierre ! Devant ces im- menses piliers s!
+[37] revue-deux-mondes-1841-q1.txt | prep=pour inf=vivre flags=compound
+    ...umens du monde antique. INIèmes visages, même air, mêmes costumes! Ceux d'aujourd'hui trafiquent pour vivre des momies de leurs an- cêtres ! !
+[38] revue-deux-mondes-1841-q1.txt | prep=de inf=désespoir flags=compound
+    ... ne comprendra jamais ce qu'un homme peut souffrir dans une nuit pareille, nuit d'angoisse et de désespoir! Un vent frais poussait vers la !
+[39] revue-deux-mondes-1841-q1.txt | prep=à inf=septuagénaire flags=offer
+    ...om de la France, ne compenseraient pas le très fiiible inconvénient de laisser quelques années à un septuagénaire le gouvernement des provinces occu!
+[40] revue-deux-mondes-1841-q1.txt | prep=à inf=aller flags=offer
+    ... RiMigale pour s'y établir, comme si , une fois rendus à Constantinople, ils songeraient encore à aller à Calcutta, comme si leurs tentat!
+[41] revue-deux-mondes-1841-q1.txt | prep=à inf=terre flags=offer
+    ...uvement des popu- lations, et que je me représente dans l'avenir les hommes attachés au pays , à la terre, à la maison , comme les polypes !
+[42] revue-deux-mondes-1841-q1.txt | prep=à inf=s'unir flags=compound
+    ...e ainsi d'âge en âge IMon nom accompagner son nom ! Que puisse ma muse fidèle A sa gloire à jamais s'unir! Aigle , je m'attache à ton aile !
+[43] revue-deux-mondes-1841-q1.txt | prep=de inf=future flags=excl
+    ... de leur roi , Fuir sans trouver d'asile où se sauver de moi, Et, pâles de leur crainte et de la mort future, Implorer vainement, même la sépul!
+[44] revue-deux-mondes-1841-q1.txt | prep=à inf=suivre flags=excl,offer
+    ... qu'il reçut du dehors, entre sa vie idéale et sa vie réelle, si l'on voulait trop s'étudier à leur faire suivre deux hgnes parallèles ! Mais que !
+[45] revue-deux-mondes-1841-q1.txt | prep=à inf=guiser flags=compound
+    ... de ruses en effet! que de finesses viennent au secours de M'""" de Clainville , pour l'aider à dé- guiser sa curiosité puérile! Il faut chan!
+[46] revue-deux-mondes-1841-q1.txt | prep=à inf=heure flags=offer
+    ... que présentent, dans une société comme la nôtre, les ap- plications publiques de la parole : à la bonne heure ! l'Académie est lui salon; pour !
+[47] revue-deux-mondes-1841-q1.txt | prep=pour inf=l'éteindre flags=excl
+    ...able en tout se fait aussitôt sentir! et combien il faudrait peu de chose pour l'intercepter, pour l'éteindre, cette civilisation dont on est s!
+[48] revue-deux-mondes-1841-q1.txt | prep=de inf=pouvoir flags=excl
+    ...efus de l'amiral quelque chose d'humiliant. Et quelle gloire pour la république de Buénos-Ayres de pouvoir se vanter un jour d'avoir tenu l!
+[49] revue-deux-mondes-1841-q1.txt | prep=à inf=plaisir flags=offer
+    ...ONDES. française, et dont on racontait des détails affreux , n'étaient que des contes inventés à plaisir ! Où donc était Lavalle? Il ava!
+[50] revue-deux-mondes-1841-q1.txt | prep=pour inf=prouver flags=compound
+    ...Ma fille a été élevée dans la modestie et la vertu : elle avait, hélas! une si digne mère! Pour vous prouver que je vous dis !a vérité, il s!
+[51] revue-deux-mondes-1841-q1.txt | prep=de inf=faire flags=excl
+    ..., et si tu ne m'obéis pas, tu es mort. — Tiens, dit l'empereur, quel étrange rêve je viens de faire! — Et là-dessus, il se tourne de !
+[52] revue-deux-mondes-1841-q1.txt | prep=de inf=suivre flags=compound
+    ... pays. Un cabinet qui parle et vote contre la majorité de ses amis! Une majorité qui, loin de suivre ses chefs naturels, les combat, s!
+[53] revue-deux-mondes-1841-q1.txt | prep=de inf=faire flags=excl
+    ..., quel qu'il soit, jeter un peu de variété sur la sèche nomenclature d'édifices que je viens de faire! LE COUVENT DE L'INQUISITION. P!
+[54] revue-deux-mondes-1841-q1.txt | prep=à inf=sortir flags=offer
+    ...s le moine qui était resté à l'entrée : « Aidez- moi, mon père, au nom du ciel , aidez-moi à sortir d'ici ! — Eh bien! mon iils, d!
+[55] revue-deux-mondes-1841-q1.txt | prep=à inf=être flags=offer
+    ...nant leurs mains d'argile, Étourdis des éclairs d'un instant de plaisir, Ils croyaient échapper à cet Être immobile Qui regarde mourir ! — !
+[56] revue-deux-mondes-1841-q1.txt | prep=de inf=voir flags=excl
+    ...aire, et savez-vous une galanterie plus flatteuse que cette violence? Combien seraient heureuses de se voir con- traintes de la sorte, et don!
+[57] revue-deux-mondes-1841-q1.txt | prep=à inf=avoir flags=offer
+    ...uée aux moines, suivit partout où ils voulurent la guider les chefs en qui elle avait appris à avoir confiance sur !;> champ de batail!
+[58] revue-deux-mondes-1841-q1.txt | prep=de inf=pierre flags=excl
+    ...uvelle Angleterre. On sait quelles péri- péties précipitèrent sous la main jalouse et vengeresse de Robes- pierre la suprématie de Danton et le liv!
+[59] revue-deux-mondes-1841-q1.txt | prep=à inf=mémoire flags=excl,offer
+    ..., sur ma noblesse d'ame, sur mon désintéressement, sur les sacrifices prétendus que je faisais à une mémoire respectable et chère , et à la m!
+[60] revue-deux-mondes-1841-q1.txt | prep=à inf=souffrir flags=compound
+    ... pas. Elle ne vivait pas pour moi; mais je vivais toujours pour «lie. Ah! que n'ai-je encore à souffrir de cette amertume qu'elle sa- vai!
+[61] revue-deux-mondes-1841-q1.txt | prep=de inf=pourpre flags=excl
+    ...s des rochers, ou glissant entre les croupes des montagnes, venaient tracer des crêtes d'or et de pourpre sur nos seconds plans! Quelquefois!
+[62] revue-deux-mondes-1841-q1.txt | prep=à inf=dire flags=compound
+    ... tengua ! es meu cô no basta per dî li : Adios ! » « Bonne nuit! mon cœur ne suffit pas à vous dire : Adieu ! » il semble qu'on po!
+[63] revue-deux-mondes-1841-q1.txt | prep=à inf=notre flags=offer
+    ...'eussé-je pas donné pour avoir un consommé et un verre de Bor- deaux à offrir tous les jours à notre malade ! Les alimens majorquins e!
+[64] revue-deux-mondes-1841-q1.txt | prep=à inf=ture flags=excl
+    ...abré, n'ai-je pas songé à Decamps, le grand maître de la caricature sérieuse et ennoblie jusqu'à la pein- ture historique, l'homme de génie qui s!
+[65] revue-deux-mondes-1841-q1.txt | prep=de inf=l'autre flags=compound
+    ...e, et se releva enfin à demi noyé. La brouette s'enfonça de côté : Nous y voilà! se rejeta de l'autre côté : Nous y voilà encore ! fi!
+[66] revue-deux-mondes-1841-q1.txt | prep=de inf=revenir flags=compound
+    ...que ce tumulte? Oh ! il est mort! Je lui avais tant dit de ne sauver que les vaisseaux et de revenir ! » Patrocle est mort en effet; !
+[67] revue-deux-mondes-1841-q1.txt | prep=de inf=faire flags=excl
+    ... tâche de couvrir dans un temps donné; quel supplice, si ce n'était un plaisir, le plai- sir de faire sa fortune! — Ce soir, le bénéfi!
+[68] revue-deux-mondes-1841-q2.txt | prep=de inf=manière flags=excl,compound
+    ...re! Quel style, quel goût, quel choix de couleurs et de tons! Quelle vulgarité de pensées et de manière! Enfin, car il y a quelques bonn!
+[69] revue-deux-mondes-1841-q2.txt | prep=pour inf=enrichir flags=excl
+    ...s et abandonnés, les sommes qui devaient être consacrées à leur achèvement ayant été détournées pour enrichir quelque employé ! Un fait peut s!
+[70] revue-deux-mondes-1841-q2.txt | prep=à inf=entre flags=offer
+    ...là debout tous deux, elle, muette, et moi cherchant à deviner le secret de son émotion, tout à coup entre une de ses amies, qui me regarde!
+[71] revue-deux-mondes-1841-q2.txt | prep=à inf=rupture flags=offer
+    ... C'est cette combinaison intime des intérêts mercantiles des Indes et de la Chine qui a donné à la rupture momentanée entre l'Angleterre et l!
+[72] revue-deux-mondes-1841-q2.txt | prep=à inf=traiter flags=compound
+    ...s mal que jamais. — Mordieu! vous m'en rendrez raison, s'écria La Guette. Je vous apprendrai à me traiter de fourbe ! Il mitl'épée au ven!
+[73] revue-deux-mondes-1841-q2.txt | prep=à inf=notre flags=compound
+    ...nt dix fois ensemble : — Les marauds! se moquer de nous quand nous sacrifions nos inimitiés à notre dévouement pour le prince! rire d!
+[74] revue-deux-mondes-1841-q2.txt | prep=pour inf=apaiser flags=compound
+    ...ût com- pris de tout le monde : Frappe! (Baxxs), et quand un chef haranguait dans une langue pour apaiser les soldats, BaUî! s'écriaient les!
+[75] revue-deux-mondes-1841-q2.txt | prep=pour inf=avoir flags=excl
+    ...igé de saluer ses chefs de tous les grades. Combien de fois n'avait-il pas été mis aux fers pour leur avoir manqué de respect ou pour cause !
+[76] revue-deux-mondes-1841-q2.txt | prep=pour inf=mourir flags=compound
+    ... chez Duprez, l'art est plus grand. Comme il compose son jeu! comme il s'ar- range habilement pour mourir ! comme il règle son intonation !
+[77] revue-deux-mondes-1841-q2.txt | prep=à inf=l'étranger flags=offer
+    ...pposer avec acharnement à un projet qui avait pour but de fer- mer les portes de la capitale à l'étranger! Que pouvaient dans l'opinion pu- !
+[78] revue-deux-mondes-1841-q2.txt | prep=à inf=aimer flags=offer
+    ...il n'y atteignait pas. Dans des stances de jeunesse, à son moment le plus vif, s'enhardissant à aimer, il s'écrie : Arrière ces désirs!
+[79] revue-deux-mondes-1841-q2.txt | prep=à inf=causer flags=excl,compound
+    ...déceler. Que de fascheuses gens ! mon Dieu ! quelle coustume De demeurer si tard en la rue à causer ! Ostez-vous du serein; craignez-v!
+[80] revue-deux-mondes-1841-q2.txt | prep=à inf=notre flags=offer
+    ...es progrès et hâter la venue de ces animaux meilleurs qui doivent nous déposséder, et devenir à notre place les souverains du monde sen!
+[81] revue-deux-mondes-1841-q2.txt | prep=de inf=d'autre flags=excl
+    ...s fruits porterait alors cette longue et patiente infil- tration des idées prussiennes répandues de côté et d'autre , et combien de sei- gneuries, de !
+[82] revue-deux-mondes-1841-q2.txt | prep=de inf=l'air flags=excl
+    ...z Jean- Jacques, quel bouillonnement et quel orage! quelles impressions vives reçues du soleil, de l'air, du vent qui souffle, du voyageur!
+[83] revue-deux-mondes-1841-q2.txt | prep=de inf=rêver flags=compound
+    ...toire est celle de nos plus beaux jours! jours trop tôt écoulés , et dont il n'est pas sage de rêver le retour ! (( Le chemin que j!
+[84] revue-deux-mondes-1841-q2.txt | prep=de inf=notre flags=compound
+    ...ieu! comme ce livre des Confessions nous a impressionnés! Comme il a rempli toute une période de notre vie ! Comme nous l'avons aimé ce!
+[85] revue-deux-mondes-1841-q2.txt | prep=a inf=disparaître flags=compound
+    ...ssitôt de ce que ce pouvait être. Quoi ! dit-il, parce que je l'ai fait grand-aumônier, on l'a fait disparaître ! et sur cela entre dans une te!
+[86] revue-deux-mondes-1841-q2.txt | prep=pour inf=dire flags=compound
+    ...ons-nous quelques traces? Sa voûte a-t-elle un mur, une borne, un milieu? Nations! mot pompeux pour dire barbarie! L'amour s'arréte-t-il où !
+[87] revue-deux-mondes-1841-q2.txt | prep=pour inf=monter flags=compound
+    ...stianisme se divisait et se discréditait au moment où le maître du monde lui tendait la main pour le faire monter au trône ! Les païens étaient en!
+[88] revue-deux-mondes-1841-q2.txt | prep=à inf=souiller flags=offer
+    ... un cri de triomphe de la part des catholiques : Dieu avait frappé l'impie qui se préparait à souiller son temple! Athanase lui- même ne!
+[89] revue-deux-mondes-1841-q2.txt | prep=de inf=mettre flags=excl
+    ...re autant pour l'épopée de Vriso^ qui éveilla la muse de A'oltaire. 0 Voltaire, quel mensonge de plus à mettre sur votre conscience ! J'aimerais!
+[90] revue-deux-mondes-1841-q2.txt | prep=de inf=notre flags=compound
+    ...es au Nil I Ah ! qu'ils vont triompher de ta blanche élégie ! Que l'écho de Leipsig rira de notre peur ! Déjà l'or de ton chant t!
+[91] revue-deux-mondes-1841-q2.txt | prep=pour inf=étaler flags=excl
+    ... se laisse aller à sa fantaisie, ne trouvant jamais l'espace assez vaste entre deux mor- ceaux pour étaler tout à son aise sa traînante et !
+[92] revue-deux-mondes-1841-q3.txt | prep=pour inf=être flags=excl
+    ..., à la simplicité, quel danger que de si bien connaître les moyens qui furent jadis employés pour être vrai et simple ! Quelle tentation!
+[93] revue-deux-mondes-1841-q3.txt | prep=à inf=incliner flags=excl
+    ...a réalité. Avec quelle intelligence l'Angleterre a pressenti cet avenir, et comme elle cherche à le faire incliner dans le sens de son intérêt! A !
+[94] revue-deux-mondes-1841-q3.txt | prep=de inf=nouer flags=excl
+    ...énètre, à ce que l'on assure, jusqu'à la région équatoriale. De quel intérêt ne serait-il pas de nouer des rela- tions avec un peuple qu!
+[95] revue-deux-mondes-1841-q3.txt | prep=à inf=désirer flags=excl
+    ... des croyances qui ont cours parmi les insulaires qu'ils ont visités. Combien ne serait-il pas à désirer qu'un pareil travail, si utile po!
+[96] revue-deux-mondes-1841-q3.txt | prep=à inf=percer flags=offer
+    ...ez les secrets , Cypris au sein de neige, à l'haleine de flamme, Eros, ô bel archer si doux à percer l'ame ! 0 vous par qui l'on aim!
+[97] revue-deux-mondes-1841-q3.txt | prep=pour inf=s'approprier flags=excl,compound
+    ...ain avait amassés pour l'exécution ! Quelle connaissance exquise des lettres antiques! Quel art pour tout s'approprier, depuis Homère jusqu'à Tacite, dep!
+[98] revue-deux-mondes-1841-q3.txt | prep=de inf=faire flags=ap-de
+    ...ant de soucis? Que dans sa retraite M. Guiraud sache en goûter les charmes : il est si bon de ne rien faire! Enfin, s'il faut un aliment à s!
+[99] revue-deux-mondes-1841-q3.txt | prep=de inf=résister flags=excl
+    ...s le trouvèrent dans un état de délabrement complet, ou- vert de plusieurs côtés, et incapable de résister à un nouvel orage! Cependant ils !
+[100] revue-deux-mondes-1841-q3.txt | prep=pour inf=porter flags=excl
+    ...a Pologne, comme si un état qui a un chef et des ministres, n'avait pas tout ce qu'il faut pour porter des lois et les faire exécuter! !
+[101] revue-deux-mondes-1841-q3.txt | prep=a inf=d'autre flags=excl
+    ...nt de son sort ne songe pas à en sortir, quand le fils adopte la profession du père , et n'a d'autre but que de se perfec- tionner dan!
+[102] revue-deux-mondes-1841-q3.txt | prep=à inf=établir flags=excl
+    ...réquemment faut-il m'accorder, et comme il est facile de déranger cette barmonie si dif- ficile à établir! Mon imagination surtout est un i!
+[103] revue-deux-mondes-1841-q3.txt | prep=à inf=dire flags=compound
+    ...raît infiniment grand; c'est William Pitt. — « Pauvre Pitt, dit Wilberforce! il doit être prêt à dire comme l'ancien : « Oui, le monde!
+[104] revue-deux-mondes-1841-q3.txt | prep=à inf=l'angleterre flags=offer
+    ...es à Bayonne, à Bordeaux , à Nantes même; et le gouverne- ment espagnol voudrait les sacrifier à l'Angleterre! Les pays basques pro- duisent des!
+[105] revue-deux-mondes-1841-q3.txt | prep=à inf=écarter flags=excl,offer
+    ...dans ces voies de la force et de la barbarie militaire dont le génie contem- porain s'attache à les écarter! Quoi d'étonnant si, en présence !
+[106] revue-deux-mondes-1841-q3.txt | prep=à inf=prière flags=offer
+    ... les prêtres , après avoir appelé toutes les bénédictions de Dieu sur la communauté, ajoutaient à la prière du rituel : Puisse notre père cé!
+[107] revue-deux-mondes-1841-q3.txt | prep=pour inf=satisfaire flags=excl
+    ...leur nid enfin , et cela sans trop de manie d'imi- tation, sans trop de rêve de gloire, mais pour se satisfaire humble- ment et se suffire ! On !
+[108] revue-deux-mondes-1841-q3.txt | prep=à inf=dater flags=compound
+    ...mplant d'un œil mélancolique : — Hélas! si tu vivais encore, belle jeune fille, je t'aimerais à dater d'aujourd'hui! « Le second , lais!
+[109] revue-deux-mondes-1841-q3.txt | prep=à inf=dernier flags=offer,compound
+    ...qui ont ramassé la défroque de leurs supérieurs! des misérables qui ont volé l'épau- lette et à qui le dernier goujat devrait l'arracher de la p!
+[110] revue-deux-mondes-1841-q3.txt | prep=à inf=oublier flags=compound
+    ...ive le roi! Le marquis reprit : — Que son auguste mère, entourée de Français fidèles, puisse à jamais oublier ses malheurs! — Vive la reine! !
+[111] revue-deux-mondes-1841-q3.txt | prep=à inf=répondre flags=offer
+    ...a jeune fille; elle rouvrit les yeux, il lui fit manger une bouchée de pain, et sans songer à répondre au marquis : — Allons, courage! !
+[112] revue-deux-mondes-1841-q3.txt | prep=à inf=foyer flags=offer
+    ...ntraient à grand' peine, Et des hôtes pensifs qui hantent l'ame humaine, Il ne s'asseyait plus à mon triste foyer Que l'ennui, ce fâcheux qu'on ne !
+[113] revue-deux-mondes-1841-q3.txt | prep=à inf=verdure flags=offer
+    ... incUner leurs calices Sur le vague tombeau de ces dormeurs obscurs. Au milieu , deux cyprès à la noire verdure Profilent tristement leur silhouett!
+[114] revue-deux-mondes-1841-q3.txt | prep=pour inf=l'hiver flags=compound
+    ...de Malte, destiné à servir de pen- dant à la Juive : à la bonne heure! voilà du contrepoint pour tout l'hiver : que le Conservatoire se rassure!
+[115] revue-deux-mondes-1841-q4.txt | prep=à inf=barbare flags=compound
+    ... Bleue ! haro sur ce sauvage qui ne veut pas qu'on trouve sa femme jolie! Point de quartier à ce barbare! Vous savez qu'il tire aux jambes!
+[116] revue-deux-mondes-1841-q4.txt | prep=à inf=tuer flags=offer
+    ...in matin. — Perdez-vous l'esprit? s'écria Maléchard du ton le plus chaleu- reux; des perdreaux à tuer! ne dirait-on pas que ce soit du!
+[117] revue-deux-mondes-1841-q4.txt | prep=à inf=repousser flags=compound
+    ...50 était mauvaise et décrépite ! Comme ils prennent plaisir et orgueil à se détacher d'elle , à la repousser du pied comme un cadavre! Hélas! !
+[118] revue-deux-mondes-1841-q4.txt | prep=de inf=manière flags=ap-de
+    ...sent guère des choses politiques et qui disent : Me gouverne qui voudra, il faudra bien quoy de manière ou d'autre, je sois gouverné! tra!
+[119] revue-deux-mondes-1841-q4.txt | prep=de inf=pierre flags=compound
+    ... ô Niobé, qui as tant souffert, tu es pour moi comme un dieu, ô toi qui, dans ton sépulcre de pierre, toujours pleures! r> Eh bien! qu!
+[120] revue-deux-mondes-1841-q4.txt | prep=de inf=accomplir flags=excl
+    ... soins, de travaux, et par conséquent quelle immense responsabilité encourent les agens chargés de les accomplir! Mais aux difficultés qui résulten!
+[121] revue-deux-mondes-1841-q4.txt | prep=pour inf=attacher flags=excl
+    ...anière bien innocente, et c'est le cas de raconter quelles voies détournées prit la Providence pour attacher le signe de l'hon- neur sur la p!
+[122] revue-deux-mondes-1841-q4.txt | prep=à inf=première flags=excl
+    ...au tout rouillé par une longue sécurité. Et quelle honte pour ce dernier, s'il allait faillir à la première passe ! Quel affront , si le nou!
+[123] revue-deux-mondes-1841-q4.txt | prep=à inf=défendre flags=offer
+    ... eût, avec les intérêts de sa gloire et l'avenir de Célestin, d'autres droits non moins doux à défendre ! Sa noble assurance ranima le c!
+[124] revue-deux-mondes-1841-q4.txt | prep=de inf=faire flags=compound
+    ...e arrivé! Du moins, si on a fait, pour le prévenir, tout ce qu'il était humainement possible de faire, eh bien! ma foi, lorsqu'il arriv!
+[125] revue-deux-mondes-1841-q4.txt | prep=de inf=voir flags=excl
+    ...donnée. LE DOCTEUR IIERBEAU. 253 S'inclinant devant M. Herbeau : — Combien je suis heureux de vous voir, monsieur! dit le jeune liomme; j!
+[126] revue-deux-mondes-1841-q4.txt | prep=a inf=heure flags=compound
+    ...bien! papa, s'écria M. Riquemont, que vous en semble? voilà ce que nous appelons un cheval ! A la bonne heure ! c'est beau , c'est vaillant, c'!
+[127] revue-deux-mondes-1841-q4.txt | prep=de inf=traître flags=compound
+    ... de fois il entendit les serpens du remords lui siffler aux oreilles les noms de parjure et de traître ! Quand par hasard il trouvait a!
+[128] revue-deux-mondes-1841-q4.txt | prep=pour inf=riser flags=compound
+    ...z à cette péronnelle qui ne sait ni vivre ni mourir. Ruses que tout cela! mensonges imaginés pour auto- riser vos visites ! Voilà pourquoi l'app!
+[129] revue-deux-mondes-1841-q4.txt | prep=pour inf=acquérir flags=excl
+    ... leurs mœurs et leurs habitudes. LE DOCTEUR HERBEAC. 289 Combien d'années ne fallait-il pas pour acquérir ces connaissances essentielles, si !
+[130] revue-deux-mondes-1841-q4.txt | prep=de inf=votre flags=excl
+    ...elle joie pour moi, docteur, et pour vous aussi, quelle joie de me voir courir sur le sable de votre jardin ! car c'est à vous, ami, !
+[131] revue-deux-mondes-1841-q4.txt | prep=de inf=m'intéresser flags=compound
+    ...que vous partagerez sans doute. — Pardieu! monsieur, s'écria M. Riquemont, j'ai bien le temps de m'intéresser aux malheurs de Saint-Léonard! sav!
+[132] revue-deux-mondes-1841-q4.txt | prep=à inf=déplorer flags=compound
+    ... ma trousse. Jour funeste! Mais plût à Dieu que nous n'eus- sions pas de plus grand désastre à déplorer ! — Ah ça ! monsieur, où voule!
+[133] revue-deux-mondes-1841-q4.txt | prep=à inf=heure flags=offer
+    ...e? Qui connaît les Savenay? Où les Savenay perchent-ils? Rique- mont, Herbeau, voilà des noms, à la bonne heure! Mais Henri Sa- venay, ne pensez-v!
+[134] revue-deux-mondes-1841-q4.txt | prep=de inf=être flags=ap-de
+    ...ens; il n'est pas prudent que cela dure, ni de recommencer quand on a réussi : trop heureux de s'en être bien tiré! Lamartine est le seul !
+[135] revue-deux-mondes-1841-q4.txt | prep=de inf=mère flags=compound
+    ...n père, Dors sur le sein que ta bouche a pressé ! Dors, petiot ; clos, ami , sur le sein de ta mère, Tien doux œillet par le somme !
+[136] revue-deux-mondes-1841-q4.txt | prep=à inf=montpellier flags=offer
+    ... 1798, avec une mission de Louis XVIII, il fut arrêté, les uns disent à La Flèche , d'autres à Montpellier ( tant l'incertitude est grande!),!
+[137] revue-deux-mondes-1841-q4.txt | prep=de inf=tourner flags=compound
+    ... — Toi, mon vieux, tu flé- chis, tu baisses ! — Toi, là-bas, mon petit, tu me fais l'effet de vou- loir tourner casaque ! Allons! mes enftms, cou!
+[138] revue-deux-mondes-1841-q4.txt | prep=de inf=affaire flags=compound
+    ...e je n'au- rai pas un instant de repos ici-bas! Comment! vous allez encore me casser la tète de cette sotte affaire ! Malheur à qui a jeté la disco!
+[139] revue-deux-mondes-1841-q4.txt | prep=pour inf=desservir flags=compound
+    ...'un ton ironique; vous m'écrivez ! Je vais être obligé d'établir à Riquemont une petite poste pour desservir notre correspondance ! Je suis en!
+[140] revue-deux-mondes-1841-q4.txt | prep=de inf=chanter flags=compound
+    ...èvres. — C'est bien ! dit-il d'un air à la fois calme et sombre. Dès qu'ils eurent achevé de chanter cette lamentable épopée : — Rapp!
+[141] revue-deux-mondes-1841-q4.txt | prep=pour inf=satisfaire flags=compound
+    ... adoucir l'amertume? Tu veux te venger, et c'est là la victime que tu désignes à ta fureur! Pour satisfaire un transport insensé, tu veux ter!
+[142] revue-deux-mondes-1841-q4.txt | prep=pour inf=résister flags=excl
+    ...i bien fait, que M. Herbeau m'abandonne. Quelle patience et quel dévouement n'a-t-il pas fallu pour résister si long-temps à vos indignes pro-!
+[143] revue-deux-mondes-1841-q4.txt | prep=à inf=parlementaire flags=offer
+    ...ons publiques rares et gratuites, une classe riche et nom- breuse qui se prépare dès l'enfance à la vie parlementaire et qui remplit la chambre des co!
+[144] revue-deux-mondes-1841-q4.txt | prep=à inf=votre flags=offer
+    ... noble ami? Tel est le prix que vous réservez aux bontés qu'il a prodiguées durant cinq ans à votre fils exilé du foyer paternel! et !
+[145] revue-deux-mondes-1841-q4.txt | prep=de inf=mettre flags=compound
+    ...urant cinq ans à votre fils exilé du foyer paternel! et c'est m.oi que vous chargez du soin de le mettre à la porte! On veut que je chas!
+[146] revue-deux-mondes-1841-q4.txt | prep=à inf=locataire flags=compound
+    ...e à la porte! On veut que je chasse lord Flamborough! On veut que je lui donne congé comme à un locataire qui ne paie pas son loyer! 0 mo!
+[147] revue-deux-mondes-1841-q4.txt | prep=de inf=père flags=compound
+    ...nner! puisse aussi vous are douce et consolante la pensée que vous aurez abrégé la vieillesse de votre père ! A ces mots, Célestin, véritabl!
+[148] revue-deux-mondes-1841-q4.txt | prep=à inf=gravir flags=excl,offer,compound
+    ... Hélas! combien est rapide et facile à des- cendre la pente du bonheur, si lente et si rude à gravir! Ce n'est déjà plus la haine qu!
+[149] revue-deux-mondes-1841-q4.txt | prep=à inf=préparer flags=offer
+    ... M°"= K...., qui recule elle-même d'étonnement en reconnaissant le nourrisson des muses, occupé à lui préparer une potion suivant l'ordonnance! S!
+[150] revue-deux-mondes-1841-q4.txt | prep=a inf=faire flags=compound
+    ...le châtelain. Un cafard! un carliste! un sot qui m'a ruiné en frais de tout genre, et qui n'a pu faire en deux ans ce que mon ami Save!
+[151] revue-deux-mondes-1841-q4.txt | prep=à inf=terre flags=offer
+    ...la gorge, et lui tira un coup de pistolet dans la tête en criant : « Voilà redit pcrpcluel à terre! » Après les avoir massacrés, ce!
+[152] revue-deux-mondes-1841-q4.txt | prep=a inf=rejeter flags=excl
+    ...onse doucereuse et humble. Avec quel soin touchant lord Palmerston atténue la décision dont il a soin de rejeter la res- ponsabilité sur ses collèg!
+[153] revue-deux-mondes-1841-q4.txt | prep=pour inf=prolonger flags=excl
+    ...s périls qu'il a surmontés, les luttes qu'il a soutenues avec les ours; et quel bonheur, si, pour prolonger la veillée, il reste encore dans !
+[154] revue-deux-mondes-1841-q4.txt | prep=à inf=rester flags=offer
+    ... se dire que, sans des motifs de la plus haute gravité, l'intérêt qu'avaient les deux peuples à rester unis aurait sans doute triomphé d!
+[155] revue-deux-mondes-1841-q4.txt | prep=de inf=céder flags=compound
+    ...on du gouvernement français; et quelle concession! le conseil donné par nous au pacha d'Egypte de céder! Lord Granville dit dans la même !
+[156] revue-deux-mondes-1841-q4.txt | prep=à inf=demander flags=compound
+    ...avions maintenu comme un droit, il le deman- dait comme une faveur, et contraignait Méhémet-Ali à le demander! Quelle reconnaissance plus formell!
+[157] revue-deux-mondes-1841-q4.txt | prep=pour inf=vivifier flags=compound
+    ...r et parler avec vérité, que d'études et de recherches! que de pénétration, que d'intelligence pour vivifier ces études! C'est un drame où to!
+[158] revue-deux-mondes-1841-q4.txt | prep=pour inf=savoir flags=compound
+    ...res, qui dans son égoïsme les déshérite de la vie et de l'avenir ! Étrange réformateur qui , pour ne savoir pas supporter un premier revers, !
+[159] revue-deux-mondes-1841-q4.txt | prep=à inf=hasarder flags=excl
+    ...lles de trop grandes prospérités. Et quel temps choisirait-on pour exciter de pauvres ouvriers à hasarder des œuvres informes! Précisément u!
+[160] revue-deux-mondes-1841-q4.txt | prep=de inf=terre flags=excl
+    ...uples belliqueux des steppes, si jamais elle les conviait au pillage de l'Inde, à la conquête de cette terre cVor, comme ils la nomment, que !
+[161] revue-deux-mondes-1841-q4.txt | prep=de inf=rencontrer flags=excl
+    ...nt exprimées dans le roman de JM""-' Ancelot; et quel espoir plus propre à séduire que Celui de se rencontrer avec l'auteur dans le jugement qu!
+[162] revue-deux-mondes-1841-q4.txt | prep=de inf=purifier flags=excl
+    ...ile de respect, et qui n'osaient la faire monter sur leur bouche qu'après avoir prié le ciel de purifier leurs lèvres, quel dégoût ils dev!
+[163] metternich-papiere-v4.txt | prep=de inf=m'ecrier flags=ap-de
+    ...s, l'autre entre trois et quatre, assis tout nus sur le cbamp la- boure. J'e*tais bien tente de m'ecrier avec le grenadier frangais : „Ab !!
+[164] metternich-papiere-v4.txt | prep=de inf=gloire flags=compound
+    ...'Europe „Dans ses jeunes annees, le cri de „Vive la republique !" n'etait pour lui qu'un cri de gloire, comme le fut depuis pour l'armee!
+[165] metternich-papiere-v4.txt | prep=de inf=retracer flags=excl
+    ...se, ne se trouve-t-il pas embarrassö" par les effets materiels des considerations que je viens de vous retracer ! Je vous envoie enfin la premie!
+[166] metternich-papiere-v4.txt | prep=de inf=rester flags=excl
+    ...ndance absolue ä l'epoque du protocole, combien de motifs n'existe-t-il pas de plus aujourd'hui de rester fidele ä notre idee pri- mitive! !
+[167] metternich-papiere-v4.txt | prep=de inf=notre flags=excl
+    ...in, ä quelle nullite" absolue ne condamne-t-on pas FAmbassadeur de Sa Majeste" Britannique pres de notre Cour ! Les moments, certes, sont !
+[168] metternich-papiere-v6.txt | prep=pour inf=venir flags=compound
+    ...semblee, tout gens enrag^s de danse et de plaisirs, m'a acclame. Sur ce; je me suis esquive" pour venir a Prague! — Ce 5 Octobre. 1235!
+[169] metternich-papiere-v6.txt | prep=de inf=contre flags=excl
+    ...Nous qui fremissons d'horreur a la pense'e de ces attentats, quels doivent etre les sentiments de celui contre qui les coups sont diriges!*) II!
+[170] metternich-papiere-v6.txt | prep=a inf=demander flags=compound
+    ...'e'couter? Que Dieu garde les pauvres humains d'une politique liberale! On est toujours re*duit a se demander qui Ton veut tromper! Ma vieille !
+[171] metternich-papiere-v6.txt | prep=a inf=mesure flags=excl
+    ...e differents par les puissances! Quel progres n'a point fait le sentiment du besoin de repos, a mesure que Fopinion publique s'est eclair!
+[172] metternich-papiere-v6.txt | prep=de inf=gloire flags=excl
+    ...e infernale, mon eher ambassadeur, que celle des assassins, qui en fönt un mutier, une espece de gloire! Un corps social est bien malade !
+[173] metternich-papiere-v6.txt | prep=a inf=accepter flags=compound
+    ... dix annees d'oppression l'avaient conduit sous l'Empereur! LZ Allemagne tout entiere est prete a accepter la guerre, et cela de peuple ä !
+[174] metternich-papiere-v6.txt | prep=de inf=d'intervenir flags=compound
+    ...— ont ete aeeeptees par Lord Palmerston, dans la seule idee — croyez-le bien — de se venger de mon refus d'intervenir en Espagne! Vous avez tous ete i!
+[175] talleyrand-memoires-v1.txt | prep=pour inf=d'avoir flags=excl
+    ...comme à elle toutes ces terres jelées autour du nouveau conti- nent, de quel avantage ne serait-il pas alors pour la France d'avoir porté ses vues sur l'ancien monde ! Par!
+[176] talleyrand-memoires-v1.txt | prep=à inf=contester flags=offer
+    ...assemblées pr imaires, car la souveraineté du peuple était un dogme que personne, alors, ne songeait à contester !. 1. Quelques jours avant la journé!
+[177] talleyrand-memoires-v1.txt | prep=de inf=savoir flags=ap-de
+    ...re de France à Dresde, avait eu aussi la permission de suivre le roi. Il me semble que l'on sera bien aise de savoir tout de suile le nom des personnes con!
+[178] pozzo-di-borgo-correspondance-v1.txt | prep=à inf=blesser flags=offer
+    ...anger en intérêt pour eux si leur détention sans jugement parvenait à fatiguer la patience ou à blesser l'amour-propre du public! anglais. !
+[179] gutenberg-17489-miserables1.txt | prep=pour inf=employer flags=excl
+    ... admirable charge de titres on lui fait allègrement porter, et comme il faut que les hommes aient de l'esprit pour employer ainsi la tombe à la vanité! Il avait d!
+[180] gutenberg-17489-miserables1.txt | prep=à inf=crier flags=compound
+    ...x tapis! les belles livrées! Ce doit être bien importun! Oh! que je ne voudrais pas avoir tout ce superflu-là à me crier sans cesse aux oreilles: Il y a des gen!
+[181] gutenberg-17489-miserables1.txt | prep=de inf=prêtre flags=compound
+    ...ce pas? --Je suis, dit l'évêque, un prêtre qui demeure ici. --Un prêtre! reprit l'homme. Oh! un brave homme de prêtre! Alors vous ne me demandez pas d'argent!
+[182] gutenberg-17489-miserables1.txt | prep=pour inf=dormir flags=compound
+    ...ue le regarda et lui dit: --Vous avez bien souffert? --Oh! la casaque rouge, le boulet au pied, une planche pour dormir, le chaud, le froid, le travail, la chi!
+[183] gutenberg-17489-miserables1.txt | prep=a inf=notre flags=compound
+    ... --Tenez! c'est par là qu'il s'en est allé. Il a sauté dans la ruelle Cochefilet! Ah! l'abomination! Il nous a volé notre argenterie! L'évêque resta un moment s!
+[184] gutenberg-17489-miserables1.txt | prep=pour inf=rire flags=compound
+    ...t-ce que tu ferais, Favourite, si je cessais de t'aimer? --Moi! s'écria Favourite. Ah! ne dis pas cela, même pour rire! Si tu cessais de m'aimer, je te sauter!
+[185] gutenberg-17489-miserables1.txt | prep=de inf=l'observatoire flags=compound
+    ...rossignol est un Elleviou gratis. Été, je te salue. Ô Luxembourg, ô Géorgiques de la rue Madame et de l'allée de l'Observatoire! Ô pioupious rêveurs! ô toutes ces bonn!
+[186] gutenberg-17489-miserables1.txt | prep=à inf=ébaucher flags=offer,compound
+    ...Observatoire! Ô pioupious rêveurs! ô toutes ces bonnes charmantes qui, tout en gardant des enfants, s'amusent à en ébaucher! Les pampas de l'Amérique me plairaient!
+[187] gutenberg-17489-miserables1.txt | prep=pour inf=quatre flags=compound
+    ... dix-sept toises! et monsieur Bombarda, le magnifique restaurateur, vous donne ces trois cent dix-sept toises pour quatre francs cinquante centimes! Fameuil int!
+[188] gutenberg-17489-miserables1.txt | prep=à inf=plaindre flags=compound
+    ...espace d'un: mâtin!_ --Pauvre cheval, soupira Fantine. Et Dahlia s'écria: --Voilà Fantine qui va se mettre à plaindre les chevaux! Peut-on être fichue bête c!
+[189] gutenberg-17489-miserables1.txt | prep=à inf=gagner flags=offer
+    ...minute, et l'on tirera le pauvre homme. Y a-t-il ici quelqu'un qui ait des reins et du coeur? Cinq louis d'or à gagner! Personne ne bougea dans le groupe. -!
+[190] gutenberg-17489-miserables1.txt | prep=pour inf=entendre flags=compound
+    ... vieille édentée qui était là. Qu'en voilà une qui est heureuse! Fantine s'enfuit, et se boucha les oreilles pour ne pas entendre la voix enrouée de l'homme qui lui cria!
+[191] gutenberg-17489-miserables1.txt | prep=à inf=gagner flags=offer,compound
+    ...la Fantine: --Tu en as pour six mois. La malheureuse tressaillit. --Six mois! six mois de prison! Six mois à gagner sept sous par jour! Mais que deviendra !
+[192] gutenberg-17489-miserables1.txt | prep=de inf=maire flags=compound
+    ...ce qui a dit cela? Il n'est pas possible qu'on ait dit cela. J'ai mal entendu. Ça ne peut pas être ce monstre de maire! Est-ce que c'est vous, mon bon monsieu!
+[193] gutenberg-17489-miserables1.txt | prep=de inf=l'insulter flags=compound
+    ... avait si longtemps considéré comme l'auteur de tous ses maux, ce Madeleine! et au moment même où elle venait de l'insulter d'une façon hideuse, il la sauvait! S'é!
+[194] gutenberg-17489-miserables1.txt | prep=de inf=misère flags=compound
+    ... cette vie infâme! vivre libre, riche, heureuse, honnête, avec Cosette! voir brusquement s'épanouir au milieu de sa misère toutes ces réalités du paradis! Elle re!
+[195] gutenberg-17489-miserables1.txt | prep=à inf=garder flags=compound
+    ...Que cela vous rendra la santé. --Oh! reprit-elle, il a raison! Mais qu'est-ce qu'ils ont donc ces Thénardier à me garder ma Cosette! Oh! elle va venir. Voici en!
+[196] gutenberg-17489-miserables1.txt | prep=à inf=châtier flags=compound
+    ...te deviendrait injuste. Est-ce que je dois m'épargner plus que les autres? Non. Quoi! je n'aurais été bon qu'à châtier autrui, et pas moi! mais je serais un m!
+[197] gutenberg-17489-miserables1.txt | prep=de inf=douter flags=ap-de
+    ...ampmathieu?--Il me ressemble donc?--Est-ce possible?--Quand je pense qu'hier j'étais si tranquille et si loin de me douter de rien!--Qu'est-ce que je faisais donc!
+[198] gutenberg-17489-miserables1.txt | prep=à inf=autre flags=offer,compound
+    ...entendre, cédant à cette puissance mystérieuse qui lui disait: pense! comme elle disait il y a deux mille ans à un autre condamné, marche! Avant d'aller plus l!
+[199] gutenberg-17489-miserables1.txt | prep=à inf=autre flags=compound
+    ...rouvrait en faisant une action infâme! mais il redevenait un voleur, et le plus odieux des voleurs! il volait à un autre son existence, sa vie, sa paix, sa plac!
+[200] gutenberg-17489-miserables1.txt | prep=à inf=mère flags=compound
+    ...dont j'ai causé sans le vouloir tout le malheur! Et cet enfant que je voulais aller chercher, que j'ai promis à la mère! Est-ce que je ne dois pas aussi quelqu!
+[201] gutenberg-17489-miserables1.txt | prep=de inf=faire flags=compound
+    ...s donc de me dénoncer? Il faut faire attention, vraiment, et ne rien précipiter. Quoi! parce qu'il m'aura plu de faire le grand et le généreux,--c'est du mélo!
+[202] gutenberg-17489-miserables1.txt | prep=pour inf=sauver flags=compound
+    ...d et le généreux,--c'est du mélodrame, après tout!--parce que je n'aurai songé qu'à moi, qu'à moi seul, quoi! pour sauver d'une punition peut-être un peu exagéré!
+[203] gutenberg-17489-miserables1.txt | prep=pour inf=autre flags=compound
+    ...sque connu sa mère! Et tout ça pour ce vieux gredin de voleur de pommes qui, à coup sûr, a mérité les galères pour autre chose, si ce n'est pour cela! Beaux scr!
+[204] gutenberg-17489-miserables1.txt | prep=à inf=vivre flags=offer
+    ... coupable et qui sacrifient des innocents, qui sauvent un vieux vagabond, lequel n'a plus que quelques années à vivre au bout du compte et ne sera guère plus!
+[205] gutenberg-17489-miserables1.txt | prep=de inf=thénardier flags=compound
+    ...petite Cosette qui n'a que moi au monde et qui est sans doute en ce moment toute bleue de froid dans le bouge de ces Thénardier! Voilà encore des canailles ceux-là! Et!
+[206] gutenberg-17489-miserables1.txt | prep=à inf=heure flags=compound
+    ...moi. Je ne connais pas cet homme, je ne sais plus ce que c'est, s'il se trouve que quelqu'un est Jean Valjean à cette heure, qu'il s'arrange! cela ne me regarde pa!
+[207] gutenberg-17489-miserables1.txt | prep=de inf=prendre flags=compound
+    ... pour elle! Il se regarda dans le petit miroir qui était sur sa cheminée, et dit: --Tiens! cela m'a soulagé de prendre une résolution! Je suis tout autre à pr!
+[208] gutenberg-17489-miserables1.txt | prep=pour inf=l'affermir flags=compound
+    ...thieu pris pour lui! Être précipité justement par le moyen que la providence paraissait d'abord avoir employé pour l'affermir! Il y eut un moment où il considéra l'!
+[209] gutenberg-17489-miserables1.txt | prep=a inf=maire flags=compound
+    ...la manille! subir la curiosité des étrangers auxquels on dirait: _Celui-là, c'est le fameux Jean Valjean, qui a été maire à Montreuil-sur-mer_! Le soir, ruissela!
+[210] gutenberg-17489-miserables1.txt | prep=a inf=d'être flags=compound
+    ... était sur la cheminée et j'avais bien l'idée comme cela que je reverrais bientôt Cosette. Mon Dieu! comme on a tort d'être des années sans voir ses enfants! on de!
+[211] gutenberg-17489-miserables1.txt | prep=de inf=mère flags=compound
+    ... avoir à la fois de plus violent et de plus doux. --Oh! s'écria-t-elle, apportez-la-moi! Touchante illusion de mère! Cosette était toujours pour elle le pe!
+[212] gutenberg-17489-miserables1.txt | prep=de inf=misère flags=compound
+    ...la nourrissait-on? Oh! comme j'ai souffert, si vous saviez! de me faire toutes ces questions-là dans le temps de ma misère! Maintenant, c'est passé. Je suis joyeu!
+[213] gutenberg-17489-miserables1.txt | prep=pour inf=chercher flags=compound
+    ... Jean Valjean se tourna vers lui et lui dit rapidement et très bas: --Accordez-moi trois jours! trois jours pour aller chercher l'enfant de cette malheureuse femme! Je!
+[214] gutenberg-17489-miserables1.txt | prep=pour inf=aller flags=compound
+    ...ez si vous voulez. --Tu veux rire! cria Javert. Ah çà! je ne te croyais pas bête! Tu me demandes trois jours pour t'en aller! Tu dis que c'est pour aller chercher l!
+[215] gutenberg-17489-miserables1.txt | prep=pour inf=chercher flags=compound
+    ...! cria Javert. Ah çà! je ne te croyais pas bête! Tu me demandes trois jours pour t'en aller! Tu dis que c'est pour aller chercher l'enfant de cette fille! Ah! ah! c'est !
+[216] gutenberg-30513-tocqueville-t1.txt | prep=à inf=faire flags=offer
+    ..., afin d'intéresser plus de monde à la chose publique. Indépendamment des électeurs appelés de temps en temps à faire des actes de gouvernement, que de fonct!
+[217] gutenberg-30514-tocqueville-t2.txt | prep=pour inf=faire flags=excl
+    ... des moyens tout en voulant sincèrement la fin. Quelle longue étude, que de notions diverses sont nécessaires pour se faire une idée exacte du caractère d'un seul !
+[218] gutenberg-30514-tocqueville-t2.txt | prep=à inf=notre flags=offer
+    ... sacrés de leur indépendance nationale; toi qui les as fait triompher d'une odieuse oppression, et as accordé à notre peuple les bienfaits de la paix et de l!
+[219] gutenberg-30514-tocqueville-t2.txt | prep=de inf=contraire flags=compound
+    ...n'avaient leurs racines que dans la législation. Quoi de plus fictif qu'une infériorité purement légale! Quoi de plus contraire à l'instinct de l'homme que des différe!
+N= 220
+Counter({('à', ('offer',)): 43, ('de', ('compound',)): 36, ('de', ('excl',)): 32, ('pour', ('compound',)): 25, ('à', ('compound',)): 24, ('pour', ('excl',)): 16, ('a', ('compound',)): 9, ('de', ('ap-de',)): 8, ('à', ('excl',)): 7, ('à', ('excl', 'offer')): 6, ('a', ('excl',)): 4, ('à', ('compound', 'offer')): 4, ('pour', ('compound', 'excl')): 2, ('de', ('compound', 'excl')): 2, ('à', ('compound', 'excl')): 1, ('à', ('compound', 'excl', 'offer')): 1})

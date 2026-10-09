@@ -1,0 +1,2883 @@
+{
+ "census_drama": {
+  "files": [
+   {
+    "file": "dumas-antony.txt",
+    "chars": 102234,
+    "bang_count": 577,
+    "candidates_total": 32,
+    "candidates_tight_le40": 20
+   },
+   {
+    "file": "dumas-henri-iii.txt",
+    "chars": 128462,
+    "bang_count": 568,
+    "candidates_total": 13,
+    "candidates_tight_le40": 9
+   },
+   {
+    "file": "dumas-kean.txt",
+    "chars": 152233,
+    "bang_count": 726,
+    "candidates_total": 28,
+    "candidates_tight_le40": 15
+   },
+   {
+    "file": "dumas-mariage-louis-xv-1841.txt",
+    "chars": 204641,
+    "bang_count": 921,
+    "candidates_total": 6,
+    "candidates_tight_le40": 2
+   },
+   {
+    "file": "dumas-tour-de-nesle.txt",
+    "chars": 132586,
+    "bang_count": 594,
+    "candidates_total": 23,
+    "candidates_tight_le40": 8
+   },
+   {
+    "file": "hugo-burgraves.txt",
+    "chars": 151408,
+    "bang_count": 835,
+    "candidates_total": 37,
+    "candidates_tight_le40": 22
+   },
+   {
+    "file": "hugo-hernani-1870.txt",
+    "chars": 203769,
+    "bang_count": 714,
+    "candidates_total": 23,
+    "candidates_tight_le40": 12
+   },
+   {
+    "file": "hugo-ruy-blas.txt",
+    "chars": 198265,
+    "bang_count": 1481,
+    "candidates_total": 35,
+    "candidates_tight_le40": 25
+   },
+   {
+    "file": "labiche-chapeau-de-paille.txt",
+    "chars": 118567,
+    "bang_count": 1279,
+    "candidates_total": 14,
+    "candidates_tight_le40": 10
+   },
+   {
+    "file": "labiche-martin-poudre-aux-yeux.txt",
+    "chars": 87042,
+    "bang_count": 831,
+    "candidates_total": 21,
+    "candidates_tight_le40": 17
+   },
+   {
+    "file": "musset-comedies-proverbes-1850.txt",
+    "chars": 972696,
+    "bang_count": 2403,
+    "candidates_total": 62,
+    "candidates_tight_le40": 37
+   },
+   {
+    "file": "scribe-bertrand-et-raton.txt",
+    "chars": 182448,
+    "bang_count": 896,
+    "candidates_total": 19,
+    "candidates_tight_le40": 11
+   },
+   {
+    "file": "scribe-verre-d-eau.txt",
+    "chars": 146451,
+    "bang_count": 887,
+    "candidates_total": 25,
+    "candidates_tight_le40": 10
+   },
+   {
+    "file": "vigny-chatterton-1835.txt",
+    "chars": 188780,
+    "bang_count": 500,
+    "candidates_total": 9,
+    "candidates_tight_le40": 5
+   }
+  ],
+  "total_chars": 2969582,
+  "candidates": [
+   {
+    "governor": "pouvait",
+    "match": "pouvait surmonter",
+    "infinitive_shaped": "surmonter",
+    "dist": 5,
+    "window": "parti, c’est qu’il y avait sans doute, pour qu’il restât, des obstacles qu’une volonté humaine ne pouvait surmonter… Oh !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut être",
+    "infinitive_shaped": "être",
+    "dist": 6,
+    "window": "pporte les papiers qu’il a sur lui, afin que je sache qui il est ; car il est évanoui, vois-tu, évanoui, peut être mort !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut être",
+    "infinitive_shaped": "être",
+    "dist": 21,
+    "window": "ers qu’il a sur lui, afin que je sache qui il est ; car il est évanoui, vois-tu, évanoui, peut être mort ! Mais va donc !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut être",
+    "infinitive_shaped": "être",
+    "dist": 31,
+    "window": "a sur lui, afin que je sache qui il est ; car il est évanoui, vois-tu, évanoui, peut être mort ! Mais va donc ! va donc !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "voyant vous",
+    "match": "voyant vous sourire",
+    "infinitive_shaped": "sourire",
+    "dist": 76,
+    "window": ", en me regardant, en me voyant vous sourire comme je vous souris en ce moment, oserait dire : Antony n’est pas heureux !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire soupçonner",
+    "infinitive_shaped": "soupçonner",
+    "dist": 5,
+    "window": " que tout est prêt, et tu n’auras besoin de me rien dire : pas un signe, pas un mot qui puisse lui faire soupçonner… Oh !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire soupçonner",
+    "infinitive_shaped": "soupçonner",
+    "dist": 28,
+    "window": "tu n’auras besoin de me rien dire : pas un signe, pas un mot qui puisse lui faire soupçonner… Oh ! tu ne le connais pas !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "voulez le",
+    "match": "voulez le savoir",
+    "infinitive_shaped": "savoir",
+    "dist": 53,
+    "window": "i donc ? pourquoi cela ? ANTONY.\n\nPourquoi ?… vous voulez le savoir ?… Et si ensuite, comme les autres, vous alliez… Oh !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "voulez le",
+    "match": "voulez le savoir",
+    "infinitive_shaped": "savoir",
+    "dist": 64,
+    "window": "urquoi cela ? ANTONY.\n\nPourquoi ?… vous voulez le savoir ?… Et si ensuite, comme les autres, vous alliez… Oh ! non, non !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "voulez le",
+    "match": "voulez le savoir",
+    "infinitive_shaped": "savoir",
+    "dist": 93,
+    "window": "oi ?… vous voulez le savoir ?… Et si ensuite, comme les autres, vous alliez… Oh ! non, non ! vous êtes bonne… Adèle, oh !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "sais",
+    "match": "sais encore",
+    "infinitive_shaped": "encore",
+    "dist": 55,
+    "window": "COMTESSE.\n\nEt où allez-vous ?…\n\nANTONY.\n\nOh ! je n’en sais encore rien moi-même… Dieu me garde d’avoir une idée arrêtée !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire oublier",
+    "infinitive_shaped": "oublier",
+    "dist": 33,
+    "window": " fût ainsi, je voudrais, par tous les égards, toutes les prévenances, lui faire oublier ce que sa position a de pénible !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire oublier",
+    "infinitive_shaped": "oublier",
+    "dist": 55,
+    "window": "s, par tous les égards, toutes les prévenances, lui faire oublier ce que sa position a de pénible !… car maintenant, oh !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire oublier",
+    "infinitive_shaped": "oublier",
+    "dist": 88,
+    "window": "s prévenances, lui faire oublier ce que sa position a de pénible !… car maintenant, oh ! maintenant, je la comprendrais !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait souffrir",
+    "infinitive_shaped": "souffrir",
+    "dist": 1,
+    "window": " vous dise mon secret, maintenant ?…\n\nADÈLE.\n\nOh ! je le sais, je le sais maintenant… Que cette femme m’a fait souffrir !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "pouvez vous",
+    "match": "pouvez vous plaindre",
+    "infinitive_shaped": "plaindre",
+    "dist": 1,
+    "window": ".\n\nOui, oui, je comprends… Oh ! Plaignez-vous ! Plaignez-vous !… car ce n’est qu’avec moi que vous pouvez vous plaindre !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire aimer",
+    "infinitive_shaped": "aimer",
+    "dist": 22,
+    "window": "dèle, je vous aime, entendez-vous… Si vous vouliez un amour ordinaire, il fallait vous faire aimer par un homme heureux !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire aimer",
+    "infinitive_shaped": "aimer",
+    "dist": 42,
+    "window": "entendez-vous… Si vous vouliez un amour ordinaire, il fallait vous faire aimer par un homme heureux !… Devoirs et vertu !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "dois me",
+    "match": "dois me mépriser",
+    "infinitive_shaped": "mépriser",
+    "dist": 1,
+    "window": "et maintenant, maintenant, pars.\n\nADÈLE, se jetant dans les bras de Clara.\n\nOh ! Clara, Clara ! que tu dois me mépriser !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "pourrait le",
+    "match": "pourrait le voir",
+    "infinitive_shaped": "voir",
+    "dist": 20,
+    "window": "erme en dehors… enfer !… Ce cabinet… aucune issue ; si je démontais ces verrous… on pourrait le voir… Cette croisée… ah !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait sourire",
+    "infinitive_shaped": "sourire",
+    "dist": 47,
+    "window": "t aimées par Antony… l’amour banal de tout autre homme m’eût fait sourire de pitié… mais son amour à lui… son amour… Ah !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire douter",
+    "infinitive_shaped": "douter",
+    "dist": 21,
+    "window": "’un ni l’autre de nous n’a commise… et en échange, que m’a-t-elle donné ? ah ! c’est à faire douter de la bonté céleste !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire douter",
+    "infinitive_shaped": "douter",
+    "dist": 29,
+    "window": "’autre de nous n’a commise… et en échange, que m’a-t-elle donné ? ah ! c’est à faire douter de la bonté céleste !… Dieu !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "veux le",
+    "match": "veux le savoir",
+    "infinitive_shaped": "savoir",
+    "dist": 6,
+    "window": "ard ici un frère ou un mari ?\n\nMADAME DE CAMPS, étonnée.\n\nQue vous importe, monsieur ?\n\nANTONY.\n\nJe veux le savoir, moi !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "doivent",
+    "match": "doivent glisser",
+    "infinitive_shaped": "glisser",
+    "dist": 50,
+    "window": "u milieu de ce monde on entend une foule de choses qui doivent glisser sans atteindre, ou, si elles atteignent, eh bien !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait rougir",
+    "infinitive_shaped": "rougir",
+    "dist": 16,
+    "window": "er répéter cela partout… elle dira que je n’ai point osé la regarder en face, et qu’elle m’a fait rougir et pleurer… Oh !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "pourrait",
+    "match": "pourrait résister",
+    "infinitive_shaped": "résister",
+    "dist": 19,
+    "window": " eût pas aimées, n’est-ce pas ?…\n\nANTONY.\n\nOh ! non, non…\n\nADÈLE.\n\nCar quelle femme pourrait résister à mon Antony ? Ah !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut parler",
+    "infinitive_shaped": "parler",
+    "dist": 14,
+    "window": "ler qu’à vous… Il y va, dit-il, de la vie et de la mort.\n\nANTONY.\n\nUn domestique à moi… qui ne veut parler qu’à moi… oh !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut parler",
+    "infinitive_shaped": "parler",
+    "dist": 95,
+    "window": "à moi… qui ne veut parler qu’à moi… oh ! madame, permettez qu’il entre ici… pardon… si c’était… et puis, au nom du ciel !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "il faut me",
+    "match": "il faut me suivre",
+    "infinitive_shaped": "suivre",
+    "dist": 10,
+    "window": "e… la maison voisine est en proie aux flammes, les murs sont brûlants, l’escalier chancelle, il faut me suivre… eh bien !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux mourir",
+    "infinitive_shaped": "mourir",
+    "dist": 11,
+    "window": "oie à tes rêves, moi… et que sur eux j’aille risquer ce qu’il me reste de vie et de bonheur ?… Tu veux mourir ? eh bien !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut nier",
+    "infinitive_shaped": "nier",
+    "dist": 74,
+    "window": "i elle devait sa honte ; et, si elle veut nier, on lèvera la pierre de notre tombeau, et l’on dira : Regarde… les voilà !",
+    "file": "dumas-antony.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait prévenir",
+    "infinitive_shaped": "prévenir",
+    "dist": 29,
+    "window": ", dit-il : il\na cru s’apercevoir qu’il aimait la duchesse de Guise,\net m’en a fait prévenir par Bassompierre… Tête\nDieu !",
+    "file": "dumas-henri-iii.txt"
+   },
+   {
+    "governor": "vu",
+    "match": "vu combattre",
+    "infinitive_shaped": "combattre",
+    "dist": 31,
+    "window": "étiques !… Ils me tueront plutôt, ma mère ;\nje mourrai roi. Ne m’ont-ils pas vu combattre à\nJarnac et à Moncontour ? Oh !",
+    "file": "dumas-henri-iii.txt"
+   },
+   {
+    "governor": "peux le",
+    "match": "peux le croire",
+    "infinitive_shaped": "croire",
+    "dist": 38,
+    "window": "grâces, car je suis heureux ; oh ! oui, oui,\nplus heureux que tu ne peux le croire… Tu ne me\nréponds pas, tu m’examines !",
+    "file": "dumas-henri-iii.txt"
+   },
+   {
+    "governor": "dois",
+    "match": "dois mourir",
+    "infinitive_shaped": "mourir",
+    "dist": 17,
+    "window": "sortant de tes vingt-deux\nblessures, bouillait encore d’espérance et de bonheur. Ah ! si je dois mourir aussi, mon Dieu !",
+    "file": "dumas-henri-iii.txt"
+   },
+   {
+    "governor": "dois",
+    "match": "dois mourir",
+    "infinitive_shaped": "mourir",
+    "dist": 28,
+    "window": "tes vingt-deux\nblessures, bouillait encore d’espérance et de bonheur. Ah ! si je dois mourir aussi, mon Dieu ! mon\nDieu !",
+    "file": "dumas-henri-iii.txt"
+   },
+   {
+    "governor": "dois",
+    "match": "dois mourir",
+    "infinitive_shaped": "mourir",
+    "dist": 68,
+    "window": "re d’espérance et de bonheur. Ah ! si je dois mourir aussi, mon Dieu ! mon\nDieu ! que je ne meure du moins qu’au retour !",
+    "file": "dumas-henri-iii.txt"
+   },
+   {
+    "governor": "pouvez",
+    "match": "pouvez approuver",
+    "infinitive_shaped": "approuver",
+    "dist": 75,
+    "window": "INT-MÉGRIN.\n\nBien !… et vous pouvez approuver de semblables\nconditions, sire… revêtir un homme d’une pareille puissance !",
+    "file": "dumas-henri-iii.txt"
+   },
+   {
+    "governor": "doit",
+    "match": "doit venir",
+    "infinitive_shaped": "venir",
+    "dist": 1,
+    "window": "ir le bras\nd’une femme… Ah ! viens, viens !\n\nLA DUCHESSE DE GUISE.\n\nNe l’appelez pas ! ne l’appelez pas ! il doit venir !",
+    "file": "dumas-henri-iii.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait\nentrevoir",
+    "infinitive_shaped": "entrevoir",
+    "dist": 27,
+    "window": "! ne me maudis pas.\n\nSAINT-MÉGRIN.\n\nSi, si, je te maudis pour ton amour qui me fait\nentrevoir le ciel et mourir… mourir !",
+    "file": "dumas-henri-iii.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait\nentrevoir",
+    "infinitive_shaped": "entrevoir",
+    "dist": 48,
+    "window": "SAINT-MÉGRIN.\n\nSi, si, je te maudis pour ton amour qui me fait\nentrevoir le ciel et mourir… mourir ! Jeune, aimé\nde toi !",
+    "file": "dumas-henri-iii.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait\nentrevoir",
+    "infinitive_shaped": "entrevoir",
+    "dist": 76,
+    "window": " maudis pour ton amour qui me fait\nentrevoir le ciel et mourir… mourir ! Jeune, aimé\nde toi ! est-ce que je puis mourir !",
+    "file": "dumas-henri-iii.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait assassiner",
+    "infinitive_shaped": "assassiner",
+    "dist": 1,
+    "window": "adame. Eh bien !\nje vous ai ménagé un tête-à-tête.\n\nLA DUCHESSE DE GUISE.\n\nMonsieur le duc, vous l’avez fait assassiner !",
+    "file": "dumas-henri-iii.txt"
+   },
+   {
+    "governor": "laissé",
+    "match": "laissé fuir",
+    "infinitive_shaped": "fuir",
+    "dist": 17,
+    "window": "ge.\n\nLA DUCHESSE DE GUISE.\n\nArthur ! Ah ! pauvre enfant !\n\nLE DUC DE GUISE.\n\nL’auraient-ils laissé fuir… Les misérables !",
+    "file": "dumas-henri-iii.txt"
+   },
+   {
+    "governor": "faites",
+    "match": "faites entrer",
+    "infinitive_shaped": "entrer",
+    "dist": 7,
+    "window": "dant sort.)\n \nLE DOMESTIQUE, annonçant.\n\nMilady comtesse de Gosswill. \n\nELENA.\n\nOh ! faites entrer… faites entrer, vite !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "doit",
+    "match": "doit être",
+    "infinitive_shaped": "être",
+    "dist": 26,
+    "window": "e tout cela… Oh ! sur\nmon honneur ! quand on a été aussi maltraitée de\nla nature, on doit être Jalouse de tout le monde !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "doit",
+    "match": "doit être",
+    "infinitive_shaped": "être",
+    "dist": 37,
+    "window": "… Oh ! sur\nmon honneur ! quand on a été aussi maltraitée de\nla nature, on doit être Jalouse de tout le monde !…\nEh bien !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "il faut en",
+    "match": "il faut en convenir",
+    "infinitive_shaped": "convenir",
+    "dist": 48,
+    "window": "e…\n\nLE COMTE.\n\nNous vivons dans un singulier siècle, il faut en convenir… un comédien refuse l’invitation d’un\nministre !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "fais",
+    "match": "fais durcir",
+    "infinitive_shaped": "durcir",
+    "dist": 72,
+    "window": "eux ou trois… mais maintenant je les fais durcir… ça fait qu’ils ne sont pas perdus, je les mange… Mais ce n’est pas ça !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "sens",
+    "match": "sens mourir",
+    "infinitive_shaped": "mourir",
+    "dist": 1,
+    "window": "ai-je le courage de lui dire ce qui m’amène ?… Oh ! mon Dieu ! mon Dieu !… donne-moi de la force, car je me sens mourir !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "veut me",
+    "match": "veut me forcer",
+    "infinitive_shaped": "forcer",
+    "dist": 53,
+    "window": "un homme que je déteste, que je méprise, et que l’on veut me forcer d’épouser, non pas ma mère, non pas mon père, hélas !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "pouvez vous",
+    "match": "pouvez vous dire",
+    "infinitive_shaped": "dire",
+    "dist": 16,
+    "window": ".\n\nANNA.\n\nMais toutes ces douleurs ne sont-elles pas rachetées par ce seul mot que vous pouvez vous dire ?… Je suis roi !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait quatre",
+    "infinitive_shaped": "quatre",
+    "dist": 9,
+    "window": "on grand col de chemise qui lui guillotine les oreilles, vous savez… nous nous mettons en route, il fait quatre pas… Oh !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait quatre",
+    "infinitive_shaped": "quatre",
+    "dist": 49,
+    "window": "ne les oreilles, vous savez… nous nous mettons en route, il fait quatre pas… Oh ! dit-il, j’ai oublié ma trompette… Bah !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "doit",
+    "match": "doit être",
+    "infinitive_shaped": "être",
+    "dist": 60,
+    "window": "us les sentiments humains, notre étude continuelle doit être d’aller les chercher au plus profond de la pensée… Eh bien !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut refaire",
+    "infinitive_shaped": "refaire",
+    "dist": 16,
+    "window": "iss Anna, avant même que je ne l’eusse vue… Je devais servir de manteau à un lord ruiné qui veut refaire sa fortune… oh !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut arriver",
+    "infinitive_shaped": "arriver",
+    "dist": 99,
+    "window": "à… On ne peut arriver à miss Anna que par cette porte, et elle est gardée, et bien gardée à cette heure, je le jure… Ah !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut fuir",
+    "infinitive_shaped": "fuir",
+    "dist": 1,
+    "window": "bras.\n\nAh ! c’en est trop, je saurai quel est l’insolent qui m’insulte.\n\nKEAN.\n\nEt moi, quel est le lâche qui veut fuir !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "peut se",
+    "match": "peut se battre",
+    "infinitive_shaped": "battre",
+    "dist": 52,
+    "window": "ait lui demander justice… lord Mewill répond qu’il ne peut se battre avec un bateleur, un saltimbanque, un histrion… oh !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "peut se",
+    "match": "peut se battre",
+    "infinitive_shaped": "battre",
+    "dist": 70,
+    "window": "ustice… lord Mewill répond qu’il ne peut se battre avec un bateleur, un saltimbanque, un histrion… oh ! sur mon honneur !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "dois",
+    "match": "dois dépenser",
+    "infinitive_shaped": "dépenser",
+    "dist": 36,
+    "window": "je le temps de calculer minute par minute et livre par livre ce que je dois dépenser de jours ou dissiper d’argent ? Oh !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait faire",
+    "infinitive_shaped": "faire",
+    "dist": 25,
+    "window": "ence du moins mon portrait vous répondit de moi.\n\nKEAN.\n\nVotre portrait !… vous avez fait faire votre portrait pour moi !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait faire",
+    "infinitive_shaped": "faire",
+    "dist": 54,
+    "window": "us répondit de moi.\n\nKEAN.\n\nVotre portrait !… vous avez fait faire votre portrait pour moi ! Elena ?… Oui, le voilà… oh !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait faire",
+    "infinitive_shaped": "faire",
+    "dist": 87,
+    "window": " portrait !… vous avez fait faire votre portrait pour moi ! Elena ?… Oui, le voilà… oh ! mais vous êtes bien plus belle !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "vois",
+    "match": "vois entrer",
+    "infinitive_shaped": "entrer",
+    "dist": 18,
+    "window": "par exemple, lorsqu’elle est au spectacle, et que de la scène où je suis enchaîné, je vous vois entrer dans sa loge… oh !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "il faut",
+    "match": "il faut jouer",
+    "infinitive_shaped": "jouer",
+    "dist": 8,
+    "window": "e notre joie, ni de notre douleur… où, le cœur brisé, il faut jouer Falstaff ; où, le cœur joyeux, il faut jouer Hamlet !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut regarder",
+    "infinitive_shaped": "regarder",
+    "dist": 61,
+    "window": "ules de sa mère ! au prince de Galles, qui ne peut regarder une femme, vertueuse ou non, sans la perdre avec son regard !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "doit",
+    "match": "doit être",
+    "infinitive_shaped": "être",
+    "dist": 66,
+    "window": ".\n\nNon. Je n’ai pas ce bonheur… un fou… cela doit être bien heureux… cela rit… cela chante… cela ne se souvient de rien !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "pouvait vous",
+    "match": "pouvait vous arriver",
+    "infinitive_shaped": "arriver",
+    "dist": 5,
+    "window": "ena entre.) C’est vous, Elena… c’est vous… oh ! vous êtes donc venue, au risque de tout ce qui pouvait vous arriver… Oh !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "pouvait vous",
+    "match": "pouvait vous arriver",
+    "infinitive_shaped": "arriver",
+    "dist": 46,
+    "window": "… oh ! vous êtes donc venue, au risque de tout ce qui pouvait vous arriver… Oh ! si vous saviez comme je vous attendais !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "laissé",
+    "match": "laissé prendre",
+    "infinitive_shaped": "prendre",
+    "dist": 1,
+    "window": " savais de quelle profondeur et de quelle durée ils sont, et vaniteux, vaniteux que je suis, je m’y suis laissé prendre !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "veut vous",
+    "match": "veut vous arrêter",
+    "infinitive_shaped": "arrêter",
+    "dist": 6,
+    "window": " Anna !\n\n Scène VIII.\n \nKEAN, ANNA, LE CONSTABLE.\n\nANNA.\n\nOh ! qu’ai-je entendu, mon Dieu ! l’on veut vous arrêter ? Oh !",
+    "file": "dumas-kean.txt"
+   },
+   {
+    "governor": "sentez  la",
+    "match": "sentez  la  roture",
+    "infinitive_shaped": "roture",
+    "dist": 2,
+    "window": "  ce \nme  semble. \n\nMARTON. \n\nOui ,  excepté  l'amour. \n\nJASMIN. \n\nAh  !  ma  chère ,  comme  vous  sentez  la  roture  !",
+    "file": "dumas-mariage-louis-xv-1841.txt"
+   },
+   {
+    "governor": "il  faut",
+    "match": "il  faut  convenir",
+    "infinitive_shaped": "convenir",
+    "dist": 72,
+    "window": " lettre  dans  son  corset. \n\nIl  faut  convenir ,  Jasmin ,  que  les  maîtres  d'aujour- \nd'hui sont  bien  dépravés  !",
+    "file": "dumas-mariage-louis-xv-1841.txt"
+   },
+   {
+    "governor": "vu",
+    "match": "vu  passer",
+    "infinitive_shaped": "passer",
+    "dist": 50,
+    "window": "e  le  soir  dans  les  cercles»  on  dit  : \n«  Avez-vous  vu  passer  la  baronne  ou  la  comtesse  une \ntelle?  Oh  !",
+    "file": "dumas-mariage-louis-xv-1841.txt"
+   },
+   {
+    "governor": "vu",
+    "match": "vu  passer",
+    "infinitive_shaped": "passer",
+    "dist": 95,
+    "window": "\n«  Avez-vous  vu  passer  la  baronne  ou  la  comtesse  une \ntelle?  Oh  !  quelle  délicieuse  voiture  elle  avait  !",
+    "file": "dumas-mariage-louis-xv-1841.txt"
+   },
+   {
+    "governor": "voudrait",
+    "match": "voudrait \nexpier",
+    "infinitive_shaped": "expier",
+    "dist": 83,
+    "window": "c  une  amie ,  qui  voudrait \nexpier  la  maladresse  qu'elle  a  eue  de  vous  tourmenter \ndans  un  pareil  moment  !",
+    "file": "dumas-mariage-louis-xv-1841.txt"
+   },
+   {
+    "governor": "ferez",
+    "match": "ferez  perdre",
+    "infinitive_shaped": "perdre",
+    "dist": 12,
+    "window": "... \nalors  j'ai  signé  à  mon  tour... \n\nLE  COMMANDEUR. \n\nMa  parole  d'honneur,  vous  me  ferez  perdre  la  tête  !",
+    "file": "dumas-mariage-louis-xv-1841.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut savoir",
+    "infinitive_shaped": "savoir",
+    "dist": 52,
+    "window": "ci, nous en avons encore ; c’est Richard le çavatier qui veut savoir combien ton patron, Satan, \na reçu d’âmes ce matin !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "peut vous",
+    "match": "peut vous être",
+    "infinitive_shaped": "être",
+    "dist": 105,
+    "window": " peut vous être bon à quelque chose, fût-il à prier sur la tombe de sa mère, et Dieu veuille qu’il la connaisse un jour !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "il faut le",
+    "match": "il faut le sauver",
+    "infinitive_shaped": "sauver",
+    "dist": 5,
+    "window": "sœurs si elles veulent t’abandonner les autres : si elles le veulent, c’est bien ; mais celui-là, il faut le sauver… Oh !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "fais",
+    "match": "fais rentrer",
+    "infinitive_shaped": "rentrer",
+    "dist": 53,
+    "window": " Maintenant que je te l’ai dit, fais ouvrir la porte ; fais rentrer les poignards dans le fourreau : hâte-toi, hâte-toi !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut mourir",
+    "infinitive_shaped": "mourir",
+    "dist": 1,
+    "window": " monsieur !… Cette marque-là, c’est comme si vous aviez vu mon visage… Insensé que je voulais sauver et qui veut mourir !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut mourir",
+    "infinitive_shaped": "mourir",
+    "dist": 54,
+    "window": "ez vu mon visage… Insensé que je voulais sauver et qui veut mourir ! Cette marque, voyez-vous, cette marque… priez Dieu !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire fondre",
+    "infinitive_shaped": "fondre",
+    "dist": 27,
+    "window": ", je veux assez d’or pour en paver un palais.\n\nMARGUERITE.\n\nTu l’auras, dussé-je faire fondre le sceptre et la couronne !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "vu",
+    "match": "vu remuer",
+    "infinitive_shaped": "remuer",
+    "dist": 44,
+    "window": " cet Italien, il sait déjà tant de mes secrets. Il me semble avoir vu remuer cette porte… Buridan ne l’avait pas fermée !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "vu",
+    "match": "vu remuer",
+    "infinitive_shaped": "remuer",
+    "dist": 60,
+    "window": " sait déjà tant de mes secrets. Il me semble avoir vu remuer cette porte… Buridan ne l’avait pas fermée !… elle s’ouvre !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "vu",
+    "match": "vu remuer",
+    "infinitive_shaped": "remuer",
+    "dist": 72,
+    "window": "ant de mes secrets. Il me semble avoir vu remuer cette porte… Buridan ne l’avait pas fermée !… elle s’ouvre !… un homme !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "vu",
+    "match": "vu remuer",
+    "infinitive_shaped": "remuer",
+    "dist": 81,
+    "window": "s secrets. Il me semble avoir vu remuer cette porte… Buridan ne l’avait pas fermée !… elle s’ouvre !… un homme ! Orsini !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "vu",
+    "match": "vu remuer",
+    "infinitive_shaped": "remuer",
+    "dist": 89,
+    "window": "s. Il me semble avoir vu remuer cette porte… Buridan ne l’avait pas fermée !… elle s’ouvre !… un homme ! Orsini ! à moi !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "vu",
+    "match": "vu remuer",
+    "infinitive_shaped": "remuer",
+    "dist": 98,
+    "window": "semble avoir vu remuer cette porte… Buridan ne l’avait pas fermée !… elle s’ouvre !… un homme ! Orsini ! à moi ! Orsini !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "doit te",
+    "match": "doit te donner",
+    "infinitive_shaped": "donner",
+    "dist": 44,
+    "window": "telet, assassin à la tour de Nesle !… Marguerite de Bourgogne doit te donner bien de l’occupation dans ces deux emplois !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "pouvez",
+    "match": "pouvez dire",
+    "infinitive_shaped": "dire",
+    "dist": 69,
+    "window": "entrer en fonctions.\n\nBURIDAN.\n\nEt vous pouvez dire que celle-là est une des plus importantes que vous remplirez jamais !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "il faudra",
+    "match": "il faudra faire",
+    "infinitive_shaped": "faire",
+    "dist": 39,
+    "window": "je pourrai suivre son conseil et devenir honnête homme… Cependant il faudra faire quelque chose… que ferai-je ?… Ma foi !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire partager",
+    "infinitive_shaped": "partager",
+    "dist": 33,
+    "window": "sont devenus ces deux malheureux enfants. Oh ! si je les avais pour leur faire partager ma fortune et m’appuyer sur eux !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "peut nous",
+    "match": "peut nous perdre",
+    "infinitive_shaped": "perdre",
+    "dist": 95,
+    "window": "nsi, qui peut nous perdre, cet homme a eu l’imprudence de me demander un rendez-vous, un rendez-vous à la tour de Nesle !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "pouvons",
+    "match": "pouvons être",
+    "infinitive_shaped": "être",
+    "dist": 16,
+    "window": "mi ?\n\nMARGUERITE.\n\nOh ! non, non, le père de Gaultier !\n\nBURIDAN.\n\nAinsi ! tu le vois, nous pouvons être heureux encore !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait fermer",
+    "infinitive_shaped": "fermer",
+    "dist": 18,
+    "window": "e !\n\nBURIDAN.\n\nCourons !…\n\n(Ils vont à la porte qu’ils secouent.)\n\nMARGUERITE.\n\nQui donc a fait fermer cette porte ? Oh !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait fermer",
+    "infinitive_shaped": "fermer",
+    "dist": 35,
+    "window": "urons !…\n\n(Ils vont à la porte qu’ils secouent.)\n\nMARGUERITE.\n\nQui donc a fait fermer cette porte ? Oh ! c’est moi… moi !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait fermer",
+    "infinitive_shaped": "fermer",
+    "dist": 52,
+    "window": "nt à la porte qu’ils secouent.)\n\nMARGUERITE.\n\nQui donc a fait fermer cette porte ? Oh ! c’est moi… moi ! Orsini, Orsini !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait fermer",
+    "infinitive_shaped": "fermer",
+    "dist": 80,
+    "window": "t.)\n\nMARGUERITE.\n\nQui donc a fait fermer cette porte ? Oh ! c’est moi… moi ! Orsini, Orsini ! ne frappe pas, malheureux !",
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "governor": "laisse",
+    "match": "laisse libre",
+    "infinitive_shaped": "libre",
+    "dist": 7,
+    "window": "e ne sais rien de plus. \n\nCynulfus.\n\n\t \t\tOh ! cela m'est-égal ; \n\nMais tandis qu'on- nous lie, on la laisse libre, elle !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "vu se",
+    "match": "vu se rendormir",
+    "infinitive_shaped": "rendormir",
+    "dist": 20,
+    "window": "ard a laissé sans rien dire \n\nRetomber son front pâle, et Max, plein de terreur,\n \nA vu se rendormir le fantôme empereur!",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "voir",
+    "match": "voir s'enfuir",
+    "infinitive_shaped": "s'enfuir",
+    "dist": 17,
+    "window": " \n\nRêvant et regardant le ciel. \n\n\t\t\t\t\tVite! — a tire-d'ailes, — \n\n— Oh ! c'est triste de voir s'enfuir les hirondelles !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux vivre",
+    "infinitive_shaped": "vivre",
+    "dist": 1,
+    "window": "ourir à seize ans, c'est affreux ! \n\nQuand nous aurions pu vivre, ensemble, aimés, heureux! \n\nMon Otbert, je veux vivre !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux vivre",
+    "infinitive_shaped": "vivre",
+    "dist": 19,
+    "window": " c'est affreux ! \n\nQuand nous aurions pu vivre, ensemble, aimés, heureux! \n\nMon Otbert, je veux vivre ! écoute ma prière!",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux vivre",
+    "infinitive_shaped": "vivre",
+    "dist": 70,
+    "window": "emble, aimés, heureux! \n\nMon Otbert, je veux vivre ! écoute ma prière! \n\nNe me laisse pas choir sous cette froide pierre!",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux vivre",
+    "infinitive_shaped": "vivre",
+    "dist": 98,
+    "window": " Otbert, je veux vivre ! écoute ma prière! \n\nNe me laisse pas choir sous cette froide pierre! \n\nLa mort me fait horreur !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire meurtrier",
+    "infinitive_shaped": "meurtrier",
+    "dist": 38,
+    "window": "royables. \n\nDis, voudrais-tu tirer ton poignard du fourreau ? \n\nTe faire meurtrier? — te ferais-tu bourreau? \n Tu frémis!",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire meurtrier",
+    "infinitive_shaped": "meurtrier",
+    "dist": 78,
+    "window": "oignard du fourreau ? \n\nTe faire meurtrier? — te ferais-tu bourreau? \n Tu frémis! va-t'en donc, cœur faible, bras débile!",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "il faut",
+    "match": "il faut \n\ntuer",
+    "infinitive_shaped": "tuer",
+    "dist": 106,
+    "window": "Il faut \n\nTuer quelqu'un, tuer comme sur l'échafaud, \n\nIci, qui je voudrai, quand je voudrai, sans grâce, \n\nSans pardon !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait servir",
+    "infinitive_shaped": "servir",
+    "dist": 84,
+    "window": "to donne des fêtes, \n\nEt fait servir, courbant leurs têtes sous ses pieds, \n\nar des princes captifs les princes conviés !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait servir",
+    "infinitive_shaped": "servir",
+    "dist": 97,
+    "window": "fêtes, \n\nEt fait servir, courbant leurs têtes sous ses pieds, \n\nar des princes captifs les princes conviés !  \n\nEh bien !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "pouvoir",
+    "match": "pouvoir revenir",
+    "infinitive_shaped": "revenir",
+    "dist": 75,
+    "window": "et ressaisir ma proie, \n\nPour pouvoir revenir sur terre après ma mort, \n\nJeunes gens, je ferais quelque exécrable effort!",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut sourire",
+    "infinitive_shaped": "sourire",
+    "dist": 108,
+    "window": "peut sourire, \n\nJe n ai plus de souffrance et je n'ai plus d'effroi, \n\nJe vis, je suis heureuse, et je suis toute à toi !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux achever",
+    "infinitive_shaped": "achever",
+    "dist": 18,
+    "window": " s'aime — et que je vous marie ! \n\nRégina, éperdue de joie. \n\nCiel! \n\nJob, à Régina.\n\n\tJe veux achever ta guérison, moi !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut allier",
+    "infinitive_shaped": "allier",
+    "dist": 49,
+    "window": "longtemps j'arrange dans ma tête \n\nCe mariage-là. Certe, on peut allier \n\nLe franc-archer Otbert à Job, franc chevalier !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut allier",
+    "infinitive_shaped": "allier",
+    "dist": 105,
+    "window": " on peut allier \n\nLe franc-archer Otbert à Job, franc chevalier ! \n \nTu t'étais dit :  — Toujours je serai, quelle honte!",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "laissé",
+    "match": "laissé parler",
+    "infinitive_shaped": "parler",
+    "dist": 1,
+    "window": "son gant au visage de Hatto. — Entre le mendiant, confondu dans la foule des assistants.\n\nHatto.\n\nJe t'ai laissé parler !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut sire",
+    "infinitive_shaped": "sire",
+    "dist": 12,
+    "window": "gêne. \n \nQue viens-tu faire ici ? Génois, retourne à Gêne ! \n\nAu pendragon de Bretagne. \n\nQue nous veut sire Uther? Quoi!",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut sire",
+    "infinitive_shaped": "sire",
+    "dist": 32,
+    "window": "u faire ici ? Génois, retourne à Gêne ! \n\nAu pendragon de Bretagne. \n\nQue nous veut sire Uther? Quoi! des Bretons aussi !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut sire",
+    "infinitive_shaped": "sire",
+    "dist": 75,
+    "window": "u pendragon de Bretagne. \n\nQue nous veut sire Uther? Quoi! des Bretons aussi ! \n\nTous les aventuriers du monde sont ici !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut s'approcher",
+    "infinitive_shaped": "s'approcher",
+    "dist": 50,
+    "window": " par l'aigle de l'empire, \n\nEt colosse gisant dont on peut s'approcher,  \n\nCloué, dernier burgrave, à son dernier rocher!",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "sais",
+    "match": "sais l'histoire",
+    "infinitive_shaped": "l'histoire",
+    "dist": 17,
+    "window": " Tout à coup, l'épée à la main. \n\nJob. \n \t\t\t\t\t\t   Grâce !\n \nAssez ! \n\nGuanhumara. \n\n\tTu sais l'histoire? Eh bien, Fosco !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux fuir",
+    "infinitive_shaped": "fuir",
+    "dist": 20,
+    "window": "posé à celui par lequel ils sont entrés. — A Job. \n\nQu'il choisisse, elle ou toi ! — Si tu veux fuir loin d'eux, \n\nFuis !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire souffrir",
+    "infinitive_shaped": "souffrir",
+    "dist": 77,
+    "window": "ardé près de vous, \n\nSans le faire souffrir, ce pauvre enfant si doux, \n\nN'est-ce pas ? Vous avez, o bonheur que j'envie!",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "doit",
+    "match": "doit faire",
+    "infinitive_shaped": "faire",
+    "dist": 1,
+    "window": "nt les mains.\n \n\t\t      Je bénis cet enfant, cieux et terre, \n\nDans tout ce qu'il a fait, dans tout ce qu'il doit faire !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "doit",
+    "match": "doit faire",
+    "infinitive_shaped": "faire",
+    "dist": 18,
+    "window": "\t      Je bénis cet enfant, cieux et terre, \n\nDans tout ce qu'il a fait, dans tout ce qu'il doit faire ! \n Sois heureux !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "pourrai",
+    "match": "pourrai lever",
+    "infinitive_shaped": "lever",
+    "dist": 33,
+    "window": "'est Job ! comble d'effroi! \n\nAvec désespoir et solennité. \n\nJamais je ne pourrai lever la main sur toi, \n \nO vieillard !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "pourrai",
+    "match": "pourrai lever",
+    "infinitive_shaped": "lever",
+    "dist": 53,
+    "window": "effroi! \n\nAvec désespoir et solennité. \n\nJamais je ne pourrai lever la main sur toi, \n \nO vieillard ! demi-dieu du Rhin !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "pourrai",
+    "match": "pourrai lever",
+    "infinitive_shaped": "lever",
+    "dist": 67,
+    "window": " désespoir et solennité. \n\nJamais je ne pourrai lever la main sur toi, \n \nO vieillard ! demi-dieu du Rhin ! tête sacrée !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut vivre",
+    "infinitive_shaped": "vivre",
+    "dist": 15,
+    "window": "llon souillé, sans pourpre et sans honneur,\n \nEt la robe de lin d'un ange du Seigneur ! \n\nElle veut vivre et moi mourir !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut vivre",
+    "infinitive_shaped": "vivre",
+    "dist": 24,
+    "window": "llé, sans pourpre et sans honneur,\n \nEt la robe de lin d'un ange du Seigneur ! \n\nElle veut vivre et moi mourir ! — Quoi !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut vivre",
+    "infinitive_shaped": "vivre",
+    "dist": 37,
+    "window": "rpre et sans honneur,\n \nEt la robe de lin d'un ange du Seigneur ! \n\nElle veut vivre et moi mourir ! — Quoi ! tu balances!",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "voyons \n\nse",
+    "match": "voyons \n\nse faire",
+    "infinitive_shaped": "faire",
+    "dist": 35,
+    "window": "it ce matin. - Mais, moi-même \n\nUne femme me prit tout enfant. Nous voyons \n\nSe faire en ce temps-ci d'étranges actions !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "sens",
+    "match": "sens ivre",
+    "infinitive_shaped": "ivre",
+    "dist": 8,
+    "window": "tu veux donc qu'elle meure? \n\nOtbert.\n\nDieu puissant ! Aussi, moi, mon Dieu ! j'ai trop lutté! \n\nJe me sens ivre et fou !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut bénir",
+    "infinitive_shaped": "bénir",
+    "dist": 1,
+    "window": "i sur mon peuple, et sur toi comme frère, \n \nQuel qu'ait été le sort, quand l'heure va sonner, \n\nHeureux qui peut bénir !",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "sait",
+    "match": "sait pardonner",
+    "infinitive_shaped": "pardonner",
+    "dist": 0,
+    "window": "t à genoux sous la bénédiction de l'empereur. \n \n\nJob, lui prenant la main et la baisant. \n\n\t\t\t\tGrand qui sait pardonner!",
+    "file": "hugo-burgraves.txt"
+   },
+   {
+    "governor": "devrait",
+    "match": "devrait  être",
+    "infinitive_shaped": "être",
+    "dist": 7,
+    "window": "osefa  ! \n\nDONA  JOSEFA. \n\nMadame  1 \n\nDONA   BOL. \n\nAh  !  je  crains  quelque  malheur. \nHernani  devrait  être  ici  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire  souvenir",
+    "infinitive_shaped": "souvenir",
+    "dist": 34,
+    "window": " \n\nMais  puisque  tu  le  veux,  puisque  c'est  toi  qui  viens \n\nMe  faire  souvenir,  c'est  bon,  je  me  souviens  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut  prendre",
+    "infinitive_shaped": "prendre",
+    "dist": 38,
+    "window": "n  poignard,  furieux  et  vainqueur, \n\nEn  y  fouillant  longtemps  peut  prendre  au  fond  d'un \n\ncœurl \nVa  devant  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "laissé",
+    "match": "laissé  partir",
+    "infinitive_shaped": "partir",
+    "dist": 2,
+    "window": "\n\n\nACTE  n.    SCÈNE  I^.  S7 \n\nDON  SANCHO. \n\nSeigneur,  reparlons  de  ce  traître. \nEt  vous  Tavez  laissé  partir  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "saurait",
+    "match": "saurait  tirer",
+    "infinitive_shaped": "tirer",
+    "dist": 28,
+    "window": "Seigneur  I \n\nAllons  donc,  un 'l^âtardj^  Comte,  fût-on  altesse. \nOn  ne  saurait  tirer  un  roi  d'une  comtesse  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux  briser",
+    "infinitive_shaped": "briser",
+    "dist": 53,
+    "window": "e,  un  royaume  est  à  toi  ! \nCa»  celui  dont  tu  veux  briser  la  douce  entrave \nC'est  le  roi  ton  seigneur  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux  briser",
+    "infinitive_shaped": "briser",
+    "dist": 80,
+    "window": "i  ! \nCa»  celui  dont  tu  veux  briser  la  douce  entrave \nC'est  le  roi  ton  seigneur  !  c'est  Carlos  esclave  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "peut \nvous",
+    "match": "peut \nvous  prendre",
+    "infinitive_shaped": "prendre",
+    "dist": 11,
+    "window": "i  ! \n\nDON  RUT  GOMEz  (s'effoTçant  de  le  faire  taire). \n\nTaisez- vous  donc  1  on  peut \nVous  prendre  au  mot  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "veux  en",
+    "match": "veux  en  être",
+    "infinitive_shaped": "être",
+    "dist": 44,
+    "window": "nant  à  demi  \\)ers  dona  Sol), \nOn  se  marie  ici  I  Je  veux  en  être,  moi  I \nfclon  épousée  aussi  m'attend  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "pourra",
+    "match": "pourra  faire",
+    "infinitive_shaped": "faire",
+    "dist": 88,
+    "window": "  m'aime  I — Qui  pourra  faire  aussi  que  moi-même, \nAprès  ce  que  j'ai  dit,  je  me  pardonne  et  m'aime? \nOh  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "dois",
+    "match": "dois  t'être",
+    "infinitive_shaped": "t'être",
+    "dist": 8,
+    "window": "é, \nOîi  vous  avez  marché,  pour  baiser  le  pavé  1 \n\nDONA   SOL. \n\nAmil \n\nHEENANI. \n\nNonI  je  dois  t'être  odieux!",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "dois",
+    "match": "dois  t'être",
+    "infinitive_shaped": "t'être",
+    "dist": 55,
+    "window": " pavé  1 \n\nDONA   SOL. \n\nAmil \n\nHEENANI. \n\nNonI  je  dois  t'être  odieux!  mais,  écoute, \nDis-moi  :   \"  Je  t'aime  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "dois",
+    "match": "dois  t'être",
+    "infinitive_shaped": "t'être",
+    "dist": 70,
+    "window": "   SOL. \n\nAmil \n\nHEENANI. \n\nNonI  je  dois  t'être  odieux!  mais,  écoute, \nDis-moi  :   \"  Je  t'aime  !  \" —  Hélas  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait  combattre",
+    "infinitive_shaped": "combattre",
+    "dist": 99,
+    "window": "  ai  fait  combattre,  et  voilà  qu'ils  sont  morts  l \nC'étaient  les  plus  vaillants  de  la  vaillante  Espagne  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "fais",
+    "match": "fais  raser",
+    "infinitive_shaped": "raser",
+    "dist": 18,
+    "window": "ont  loyaux. .. \n\nDON  CARLOS  {V interrompant). \n\nSans  détours. \nRéponds,  duc!  ou  je  fais  raser  tes  onze  tours!",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "il  faut",
+    "match": "il  faut  embrasser",
+    "infinitive_shaped": "embrasser",
+    "dist": 67,
+    "window": "!  fais-moi  cette  grâce. \nEt  s'il  faut  embrasser  tes  pieds,  je  les  embrasse  I \nSuivons  le  Roi  tous  deux  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "voyez  la",
+    "match": "voyez  la  poussière",
+    "infinitive_shaped": "poussière",
+    "dist": 26,
+    "window": "de!... — et  que  tout  tienne  là!i \n\nHa!  briguez  donc  l'empire!  et  voyez  la  poussière \n\nQue  fait  un  empereur!",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire  épeler",
+    "infinitive_shaped": "épeler",
+    "dist": 16,
+    "window": "\nCette  pierre  !  — et  du  titre  et  du  nom  triomphants  ? — \n\nQuelques  lettres,  à  faire  épeler  des  enfants  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire  épeler",
+    "infinitive_shaped": "épeler",
+    "dist": 107,
+    "window": "faire  épeler  des  enfants  ! \n\nSi  haut  que  soit  le  but  où  votre  orgueil  aspire, \n\nVoilà  le  dernier  terme  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "il  faut  me",
+    "match": "il  faut  me \n\nsuivre",
+    "infinitive_shaped": "suivre",
+    "dist": 70,
+    "window": "au  tombeau!  Jeune  homme,  il  faut  me \n\nsuivre  I \n\nHEENANL \n\nEh  bien,  noni  et  de  toi,  démon,  je  me  délivre!",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "peux",
+    "match": "peux  faire",
+    "infinitive_shaped": "faire",
+    "dist": 35,
+    "window": "ul  î  il  est  tout  !  mais  moi,  belle  pitié  ! \nQu'est-ce  que  je  peux  faire  avec  votre  amitié  ? \nO  rage  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "il  faut",
+    "match": "il  faut  jeter",
+    "infinitive_shaped": "jeter",
+    "dist": 27,
+    "window": "la,  c'est  assez I^ \nEn  maudissant  tout  bas  le  mendiant  avide \nAuquel  il  faut  jeter  le  fond  du  verre  vide!",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "laisse",
+    "match": "laisse  dire",
+    "infinitive_shaped": "dire",
+    "dist": 62,
+    "window": "t tout  ce  que  je  réclame  I \n\nEnfin,  on  laisse  dire  à  cette  pauvre  femme \n\nCe  (^^u'elle  a  dans  le  cœur  !",
+    "file": "hugo-hernani-1870.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux disparaître",
+    "infinitive_shaped": "disparaître",
+    "dist": 1,
+    "window": "eigneur.Mais demain !\n\nDemain, on le saura ! — Nous serons en chemin !\n\nJe ne veux pas tomber, non, je veux disparaître !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "voir",
+    "match": "voir pendre",
+    "infinitive_shaped": "pendre",
+    "dist": 37,
+    "window": " sinistre et ténébreux\n\nQue je voudrais, pour prix de sa lâcheté vile,\n\nVoir pendre à quatre clous au gibet de la ville !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "vu",
+    "match": "vu naître",
+    "infinitive_shaped": "naître",
+    "dist": 1,
+    "window": " !\n\nDon Salluste.\n\nVous le reconnaissez ?\n\nLe Marquis De Santa-Cruz.\n\nVous le reconnaissez ?Pardieu ! Je l’ai vu naître !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "il faut le leur",
+    "match": "il faut le leur cacher",
+    "infinitive_shaped": "cacher",
+    "dist": 1,
+    "window": "\n\nAu fait, j’ai des soucis bien plus réels dans l’âme.\n\n \n\nÀ part.\n\n \n\nOh ! ce qui me tourmente, il faut le leur cacher !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut dire",
+    "infinitive_shaped": "dire",
+    "dist": 10,
+    "window": " !\n\nCasilda.\n\nTais-toi !Pour être heureux, il suffit qu’il vous voie !\n\nVoir la reine, pour lui cela veut dire : — joie !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux sortir",
+    "infinitive_shaped": "sortir",
+    "dist": 1,
+    "window": "a reine retombe dans sa rêverie, puis en sort de nouveau violemment et comme avec effort.\n\n \n\nLa Reine.\n\nJe veux sortir !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux sortir",
+    "infinitive_shaped": "sortir",
+    "dist": 1,
+    "window": "out et fait une profonde révérence à la reine.\n\n \n\nLa Duchesse d’Albuquerque, d’une voix brève et dure.\n\nJe veux sortir !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux sortir",
+    "infinitive_shaped": "sortir",
+    "dist": 82,
+    "window": "ne voix brève et dure.\n\nJe veux sortir !Il faut, pour que la reine sorte,\n\nQue chaque porte soit ouverte, — c’est réglé !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "voir la",
+    "match": "voir la nature",
+    "infinitive_shaped": "nature",
+    "dist": 9,
+    "window": " que toute oreille écoute,\n\nN’existent plus pour moi ! j’ai dit au monde adieu.\n\nJe ne puis même voir la nature de Dieu !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "voir la",
+    "match": "voir la nature",
+    "infinitive_shaped": "nature",
+    "dist": 55,
+    "window": "ur moi ! j’ai dit au monde adieu.\n\nJe ne puis même voir la nature de Dieu !\n\nJe ne puis même voir la liberté des autres !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut faire",
+    "infinitive_shaped": "faire",
+    "dist": 19,
+    "window": "singulier.Il est de grande race, en somme.\n\nLe Comte de Camporeal.\n\nL’étrange, c’est qu’il veut faire son honnête homme !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "laisse",
+    "match": "laisse éblouir",
+    "infinitive_shaped": "éblouir",
+    "dist": 19,
+    "window": "\n\nLe Comte de Camporeal, riant.\n\nJe le crois homme probe.Oh ! candide Ubilla !\n\nQui se laisse éblouir à ces probités-là !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "font",
+    "match": "font crouler",
+    "infinitive_shaped": "crouler",
+    "dist": 22,
+    "window": " que je vous aime !\n\nParce que je sens bien, moi qu’ils haïssent tous,\n\nQue ce qu’ils font crouler s’écroulera sur vous !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "pouvez vous",
+    "match": "pouvez vous confier",
+    "infinitive_shaped": "confier",
+    "dist": 58,
+    "window": " sans peur, à haute voix,\n\nJe le dis, vous pouvez vous confier, madame,\n\nÀ mon bras comme reine, à mon cœur comme femme !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait sortir",
+    "infinitive_shaped": "sortir",
+    "dist": 33,
+    "window": "pingle ou bien à coups de pié,\n\nCrevant votre ballon au milieu des risées,\n\nFait sortir tout le vent de ces billevesées !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "il faut",
+    "match": "il faut deviner",
+    "infinitive_shaped": "deviner",
+    "dist": 1,
+    "window": "g, mon cœur, mon âme,\n\n \nCe n’est rien, c’est aisé. Mais rompre cette trame !\n\nDeviner… — deviner ! car il faut deviner !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "il faut",
+    "match": "il faut deviner",
+    "infinitive_shaped": "deviner",
+    "dist": 51,
+    "window": ". Mais rompre cette trame !\n\nDeviner… — deviner ! car il faut deviner ! —\n\nCe que cet homme a pu construire et combiner !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "voir",
+    "match": "voir payer",
+    "infinitive_shaped": "payer",
+    "dist": 16,
+    "window": "ibal qui prit Rome,\n\n \nL’emplir jusqu’au goulot de sentiments bourgeois !\n\nQue dirait-on ? me voir payer ce que je dois !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "voir",
+    "match": "voir payer",
+    "infinitive_shaped": "payer",
+    "dist": 22,
+    "window": "ui prit Rome,\n\n \nL’emplir jusqu’au goulot de sentiments bourgeois !\n\nQue dirait-on ? me voir payer ce que je dois !\n\nAh !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "il faut",
+    "match": "il faut faire",
+    "infinitive_shaped": "faire",
+    "dist": 1,
+    "window": "s en m’attendant.Oui !\n\n \n\nAu laquais.\n\n \n\nBois en m’attendant. Oui !Lève-toi tout de suite.\n\nVoici ce qu’il faut faire !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "sais",
+    "match": "sais écrire",
+    "infinitive_shaped": "écrire",
+    "dist": 12,
+    "window": "ire ?…\n\n \n\nLe noir fait un signe de tête affirmatif. Étonnement de don César.\n\n \n\nÀ part.\n\n \n\nTu sais écrire ?…Un signe !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "sais",
+    "match": "sais écrire",
+    "infinitive_shaped": "écrire",
+    "dist": 13,
+    "window": "firmatif. Étonnement de don César.\n\n \n\nÀ part.\n\n \n\nTu sais écrire ?…Un signe !\n\n \n\nHaut.\n\n \n\nTu sais écrire ?… Un signe !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "faites",
+    "match": "faites vendre",
+    "infinitive_shaped": "vendre",
+    "dist": 23,
+    "window": "…\n\nDon César.\n\nTiens ! J’en suis un ! Je reste ! Écoute…Rhétorique.\n\n \nAh ! vous me faites vendre aux pirates d’Afrique !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "faites",
+    "match": "faites vendre",
+    "infinitive_shaped": "vendre",
+    "dist": 29,
+    "window": " César.\n\nTiens ! J’en suis un ! Je reste ! Écoute…Rhétorique.\n\n \nAh ! vous me faites vendre aux pirates d’Afrique !\n\nAh !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "faites",
+    "match": "faites vendre",
+    "infinitive_shaped": "vendre",
+    "dist": 69,
+    "window": " ! Écoute…Rhétorique.\n\n \nAh ! vous me faites vendre aux pirates d’Afrique !\n\nAh ! vous me fabriquiez ici des faux César !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "faites",
+    "match": "faites vendre",
+    "infinitive_shaped": "vendre",
+    "dist": 75,
+    "window": "ute…Rhétorique.\n\n \nAh ! vous me faites vendre aux pirates d’Afrique !\n\nAh ! vous me fabriquiez ici des faux César !\n\nAh !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "faites",
+    "match": "faites vendre",
+    "infinitive_shaped": "vendre",
+    "dist": 103,
+    "window": " me faites vendre aux pirates d’Afrique !\n\nAh ! vous me fabriquiez ici des faux César !\n\nAh ! vous compromettez mon nom !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait reconnaître",
+    "infinitive_shaped": "reconnaître",
+    "dist": 1,
+    "window": "\n\nHolà !\n\nDon Salluste, effaré, sur le devant du théâtre.\n\n \n\nÀ part.\n\n \n\nHolà !Tout est perdu s’il se fait reconnaître !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "doit",
+    "match": "doit mourir",
+    "infinitive_shaped": "mourir",
+    "dist": 25,
+    "window": "a table.\n\n \n\nOui, meurs maintenant, lâche ! et tombe dans l’abîme !\n\nMeurs comme on doit mourir quand on expie un crime !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "doit",
+    "match": "doit mourir",
+    "infinitive_shaped": "mourir",
+    "dist": 76,
+    "window": "e dans l’abîme !\n\nMeurs comme on doit mourir quand on expie un crime !\n\nMeurs dans cette maison, vil, misérable et seul !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "il faut",
+    "match": "il faut mourir",
+    "infinitive_shaped": "mourir",
+    "dist": 19,
+    "window": "ain que j’ai pressée,\n\nSa bouche qui toucha mon front… — Ange adoré !\n\nPauvre ange ! — Il faut mourir, mourir désespéré !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait\n\nfermer",
+    "infinitive_shaped": "fermer",
+    "dist": 36,
+    "window": ". En riant hier il m’étouffait.\n\nIl m’a broyé le cœur à plaisir. Il m’a fait\n\nFermer une fenêtre, et j’étais au martyre !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait\n\nfermer",
+    "infinitive_shaped": "fermer",
+    "dist": 49,
+    "window": "er il m’étouffait.\n\nIl m’a broyé le cœur à plaisir. Il m’a fait\n\nFermer une fenêtre, et j’étais au martyre !\n\nJe priais !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait\n\nfermer",
+    "infinitive_shaped": "fermer",
+    "dist": 63,
+    "window": "ait.\n\nIl m’a broyé le cœur à plaisir. Il m’a fait\n\nFermer une fenêtre, et j’étais au martyre !\n\nJe priais ! je pleurais !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "doit vous",
+    "match": "doit vous paraître",
+    "infinitive_shaped": "paraître",
+    "dist": 14,
+    "window": "uis point coupable autant que vous croyez.\n\nJe sens, ma trahison, comme vous la voyez,\n\nDoit vous paraître horrible… Oh !",
+    "file": "hugo-ruy-blas.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait partir",
+    "infinitive_shaped": "partir",
+    "dist": 25,
+    "window": " s’élance sur moi… je fais un bond… et je me trouve dans mon cabriolet… la secousse fait partir mon cheval… et me voilà !",
+    "file": "labiche-chapeau-de-paille.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire manger",
+    "infinitive_shaped": "manger",
+    "dist": 57,
+    "window": " anxiété.\n\nVirginie, à elle-même.\n\nUne dame qui va faire manger son chapeau dans le bois de Vincennes avec un militaire !",
+    "file": "labiche-chapeau-de-paille.txt"
+   },
+   {
+    "governor": "pouvoir",
+    "match": "pouvoir changer",
+    "infinitive_shaped": "changer",
+    "dist": 1,
+    "window": "s les deux. Tardiveau a pris un gilet de flanelle sous le comptoir.\n\nTardiveau, à part.\n\nEnfin, je vais pouvoir changer !",
+    "file": "labiche-chapeau-de-paille.txt"
+   },
+   {
+    "governor": "laissez",
+    "match": "laissez sortir",
+    "infinitive_shaped": "sortir",
+    "dist": 10,
+    "window": "s la colonne !… C’est ça… je dirai au gardien : « Je retiens le monument pour douze heures ; ne laissez sortir personne !",
+    "file": "labiche-chapeau-de-paille.txt"
+   },
+   {
+    "governor": "laisser",
+    "match": "laisser monter",
+    "infinitive_shaped": "monter",
+    "dist": 85,
+    "window": "dé aux cochers de ne laisser monter personne… Je n’éprouve pas le besoin de présenter ma famille à la baronne… Sapristi !",
+    "file": "labiche-chapeau-de-paille.txt"
+   },
+   {
+    "governor": "laisser",
+    "match": "laisser dîner",
+    "infinitive_shaped": "dîner",
+    "dist": 11,
+    "window": "nd’chose !\n\nFadinard.\n\nBeau-père !…\n\nNonancourt.\n\nAbandonner votre femme le jour de la noce, la laisser dîner sans vous !",
+    "file": "labiche-chapeau-de-paille.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire danser",
+    "infinitive_shaped": "danser",
+    "dist": 13,
+    "window": "tredanse !\n\nNonancourt.\n\nAu diable la musique ! Voilà toute la Noce ! (À Fadinard.) Vous allez faire danser votre femme !",
+    "file": "labiche-chapeau-de-paille.txt"
+   },
+   {
+    "governor": "laissez",
+    "match": "laissez courir",
+    "infinitive_shaped": "courir",
+    "dist": 75,
+    "window": "\n\nFadinard, avec colère.\n\nVous laissez courir votre femme à des heures pareilles ?… ça serait par trop jobard, monsieur !",
+    "file": "labiche-chapeau-de-paille.txt"
+   },
+   {
+    "governor": "pouvoir",
+    "match": "pouvoir changer",
+    "infinitive_shaped": "changer",
+    "dist": 16,
+    "window": "monte chez lui, et il nous plante à la porte !… Enfin me voilà chez mon gendre ! Je vais pouvoir changer de chaussettes !",
+    "file": "labiche-chapeau-de-paille.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire pendre",
+    "infinitive_shaped": "pendre",
+    "dist": 1,
+    "window": ", et à sa droite.\n\nSavez-vous où l’on met le tire-bottes ?\n\nNonancourt, furieux.\n\nDans la cave… Allez vous faire pendre !",
+    "file": "labiche-chapeau-de-paille.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire pendre",
+    "infinitive_shaped": "pendre",
+    "dist": 1,
+    "window": "nancourt.\n\nJe ne sais plus où j’en étais…\n\nBobin, pleurnichant.\n\nVous étiez à : « Dans la cave… allez vous faire pendre !",
+    "file": "labiche-chapeau-de-paille.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait rougir",
+    "infinitive_shaped": "rougir",
+    "dist": 62,
+    "window": ".\n\nBeauperthuis\n\nAh ! du sanglant outrage\n\nQui fait rougir mon front,\n\nDans un affreux carnage\n\nJe vais laver l’affront !",
+    "file": "labiche-chapeau-de-paille.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut passer",
+    "infinitive_shaped": "passer",
+    "dist": 11,
+    "window": "anger de gilet de flanelle… (Il défait deux ou trois boutons de son habit et s’arrête.) Non !… il peut passer des dames !",
+    "file": "labiche-chapeau-de-paille.txt"
+   },
+   {
+    "governor": "voulons",
+    "match": "voulons faire",
+    "infinitive_shaped": "faire",
+    "dist": 12,
+    "window": "inet.\n\nOui, monsieur, oui, cinq cents francs… sans les rubans !…\n\nLe Caporal.\n\nOh ! oh !… nous voulons faire le farceur !",
+    "file": "labiche-chapeau-de-paille.txt"
+   },
+   {
+    "governor": "faites",
+    "match": "faites entrer",
+    "infinitive_shaped": "entrer",
+    "dist": 1,
+    "window": "oi donc !\n\nMalingear, l’apportant.\n\nVoilà ! (À part.) Qu’est-ce qu’elles ont ?…\n\nMadame Malingear.\n\nLà !… Faites entrer !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "peux",
+    "match": "peux remettre",
+    "infinitive_shaped": "remettre",
+    "dist": 59,
+    "window": "pliquez-moi…\n\nMadame Malingear.\n\nMaintenant, tu peux remettre ton tablier et aller disposer ton dessert… Va, mon enfant !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux jeter",
+    "infinitive_shaped": "jeter",
+    "dist": 23,
+    "window": "es mensonges… Veux-tu que je te le dise, c’est de l’orgueil ! c’est de la vanité !… Tu veux jeter de la poudre aux yeux !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "faites",
+    "match": "faites entrer",
+    "infinitive_shaped": "entrer",
+    "dist": 14,
+    "window": "mestique en livrée de chasseur.\n\nMalingear, seul.\n\nElle est très forte, ma femme ! (Criant.) Faites entrer le numéro 16 !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire croire",
+    "infinitive_shaped": "croire",
+    "dist": 20,
+    "window": "e.\n\nMalingear, criant.\n\nC’est bien, attendez ! (À part.) C’est ma femme qui frappe pour faire croire qu’il y a du monde !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "il faut",
+    "match": "il faut lire",
+    "infinitive_shaped": "lire",
+    "dist": 1,
+    "window": "ttez ?…\n\nRatinois.\n\nFaites donc !\n\nMalingear, à part, lisant.\n\n\"Lis cette lettre tout haut.\" (Parlé.) Ah ! il faut lire !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "faites",
+    "match": "faites entrer",
+    "infinitive_shaped": "entrer",
+    "dist": 1,
+    "window": "alingear.\n\nEux ? Malingear.\n\nDéjà ?\n\nEmmeline, à part.\n\nQuel bonheur !\n\nMadame Malingear, à Alexandrine.\n\nFaites entrer !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "pouvait",
+    "match": "pouvait aller",
+    "infinitive_shaped": "aller",
+    "dist": 102,
+    "window": "n ne pouvait aller aux Italiens à pied… je me suis empressé de prendre une voiture au mois… ce qui est encore très salé !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut durer",
+    "infinitive_shaped": "durer",
+    "dist": 36,
+    "window": "us les saluons de notre loge ; ils nous saluent de la leur… et voilà ! Ca peut durer une infinité de Rigoletto comme ça !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut durer",
+    "infinitive_shaped": "durer",
+    "dist": 109,
+    "window": " peut durer une infinité de Rigoletto comme ça ! Par exemple, il y a une chose contre laquelle je proteste formellement !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "il faut",
+    "match": "il faut chauffer",
+    "infinitive_shaped": "chauffer",
+    "dist": 4,
+    "window": "and de bois ?\n\nRatinois.\n\nPas tout à fait ! Malheureusement, ça ne marche pas… ça traîne.\n\nRobert.\n\nIl faut chauffer ça !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "faites",
+    "match": "faites entrer",
+    "infinitive_shaped": "entrer",
+    "dist": 1,
+    "window": " viennent rendre réponse.\n\nRatinois.\n\nEux-mêmes !… Tu crois ?\n\nMadame Ratinois.\n\nParbleu ! (À Joséphine.) Faites entrer !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "faites",
+    "match": "faites entrer",
+    "infinitive_shaped": "entrer",
+    "dist": 6,
+    "window": "nent rendre réponse.\n\nRatinois.\n\nEux-mêmes !… Tu crois ?\n\nMadame Ratinois.\n\nParbleu ! (À Joséphine.) Faites entrer ! Ah !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "faites",
+    "match": "faites entrer",
+    "infinitive_shaped": "entrer",
+    "dist": 17,
+    "window": " réponse.\n\nRatinois.\n\nEux-mêmes !… Tu crois ?\n\nMadame Ratinois.\n\nParbleu ! (À Joséphine.) Faites entrer ! Ah ! mon Dieu !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "faites",
+    "match": "faites entrer",
+    "infinitive_shaped": "entrer",
+    "dist": 34,
+    "window": "is.\n\nEux-mêmes !… Tu crois ?\n\nMadame Ratinois.\n\nParbleu ! (À Joséphine.) Faites entrer ! Ah ! mon Dieu ! et les housses !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "faites",
+    "match": "faites entrer",
+    "infinitive_shaped": "entrer",
+    "dist": 1,
+    "window": "?\n\nMadame Ratinois.\n\nPour faire comme eux ! (À Joséphine, qui a jeté les housses dans un cabinet voisin.) Faites entrer !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire asseoir",
+    "infinitive_shaped": "asseoir",
+    "dist": 35,
+    "window": "ible !\n\nFrédéric.\n\nPourquoi ?… Madame Ratinois.\n\nNous ne pouvons pas le faire asseoir à la même table que les Malingear !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "doit",
+    "match": "doit être",
+    "infinitive_shaped": "être",
+    "dist": 10,
+    "window": "ur de Nankin en buisson d’ananas, surmontée d’un Chinois filé en sucre.\n\nMadame Ratinois.\n\nOh ! cela doit être charmant !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "il faut lui",
+    "match": "il faut lui mettre",
+    "infinitive_shaped": "mettre",
+    "dist": 22,
+    "window": "… J’offre la garniture de cheminée du salon.\n\nRatinois, étonné.\n\nAh ! (À part.) Il faut lui mettre les points sur les i !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait causer",
+    "infinitive_shaped": "causer",
+    "dist": 17,
+    "window": "s un luxe qui n’est pas le vôtre !\n\nRatinois.\n\nMais…\n\nRobert.\n\nIl n’y a pas de mais !… J’ai fait causer tes domestiques !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux savoir",
+    "infinitive_shaped": "savoir",
+    "dist": 51,
+    "window": "as de mais !… J’ai fait causer tes domestiques ! Quand je veux savoir, je cause avec les domestiques… c’est mon système !",
+    "file": "labiche-martin-poudre-aux-yeux.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux  rire",
+    "infinitive_shaped": "rire",
+    "dist": 2,
+    "window": " \nl'ai  vu  descendre.  Ah!  je  suis  blessé!  il  m'a  frappé  au  bras \nde  son  stylet. \n\nUAMIEN. \n\nTu  veux  rire  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait  bouillonner",
+    "infinitive_shaped": "bouillonner",
+    "dist": 29,
+    "window": "is  quelle  région  j'habite  !  comme  le  son  de  sa  voix \nseulement  fait  bouillonner  en  moi  une  vie  nouvelle!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "vois",
+    "match": "vois  passer",
+    "infinitive_shaped": "passer",
+    "dist": 96,
+    "window": "s,  et \nje  vois  passer  les  fantômes  des  femmesque  j'ai  possédées,  mes \nplaisirs,  mes  peines,  mes  espérances!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "vois",
+    "match": "vois  passer",
+    "infinitive_shaped": "passer",
+    "dist": 101,
+    "window": "t \nje  vois  passer  les  fantômes  des  femmesque  j'ai  possédées,  mes \nplaisirs,  mes  peines,  mes  espérances!  Ah!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "devrait",
+    "match": "devrait  rencontrer",
+    "infinitive_shaped": "rencontrer",
+    "dist": 57,
+    "window": "ien!  quand  un  seul  jour  au  monde  on \ndevrait  rencontrer  cette  tète,  la  serrer  dans  ses  bras  et  mourir  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "vouloir",
+    "match": "vouloir \nentendre",
+    "infinitive_shaped": "entendre",
+    "dist": 45,
+    "window": " \n\nConçoit-on  rien  à  cela?  Nous  renvoyer,  ne  rien  vouloir \nentendre,  laisser  sans  vengeance  un  coup  pareil!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "vu  le",
+    "match": "vu  le  bercer",
+    "infinitive_shaped": "bercer",
+    "dist": 18,
+    "window": " coup  pareil!  Ce  pauvre \nvieillard  qui  le  sert  depuis  son  enfance,  que  j'ai  vu  le  bercer \nsur  ses  genoux!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "vu  le",
+    "match": "vu  le  bercer",
+    "infinitive_shaped": "bercer",
+    "dist": 23,
+    "window": "  pareil!  Ce  pauvre \nvieillard  qui  le  sert  depuis  son  enfance,  que  j'ai  vu  le  bercer \nsur  ses  genoux!  Ah!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "vu  le",
+    "match": "vu  le  bercer",
+    "infinitive_shaped": "bercer",
+    "dist": 36,
+    "window": "  pauvre \nvieillard  qui  le  sert  depuis  son  enfance,  que  j'ai  vu  le  bercer \nsur  ses  genoux!  Ah!  mort  Dieu!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire \nmourir",
+    "infinitive_shaped": "mourir",
+    "dist": 22,
+    "window": "i  !  voilà \ntout?  Et  rester  seul  ainsi?  A  qui  cela  rend-il  la  vie  ,  de  faire \nmourir  un  meurtrier?  Quoi!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "doit",
+    "match": "doit  être",
+    "infinitive_shaped": "être",
+    "dist": 37,
+    "window": "L ,  resté  seul. \nMon  devoir  est  rempli;  maintenant,  à  André!  U  doit  être \nbien  triste ,  le  pauvre  homme  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "veux  me",
+    "match": "veux  me  dire",
+    "infinitive_shaped": "dire",
+    "dist": 7,
+    "window": "s,  toi ,  pauvre  fille  ! \n\nA  la  figure  de  la  Charité,  que  représente  le  tableau. \n\nTu  veux  me  dire  adieu!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut  faire",
+    "infinitive_shaped": "faire",
+    "dist": 50,
+    "window": "juste.  Et  quel  trésor \nque  celle-ci  !  tout  ce  qui  peut  faire  passer  une  nuit  délicieuse \nà  votre  altesse!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut  faire",
+    "infinitive_shaped": "faire",
+    "dist": 71,
+    "window": "sor \nque  celle-ci  !  tout  ce  qui  peut  faire  passer  une  nuit  délicieuse \nà  votre  altesse!  Tant  de  pudeur  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut \ndire",
+    "infinitive_shaped": "dire",
+    "dist": 0,
+    "window": "  Qu'a  dit  cette  canaille? \n\nLE   PRIEUR. \n\nC'est  un  misérable,  tu  as  raison.  Qu'importe  ce  qu'il  peut \ndire!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut  arriver",
+    "infinitive_shaped": "arriver",
+    "dist": 0,
+    "window": "u  nous  as  conté. \nIl  s'est  mis  en  campagne;  il  est  allé  chez  les  Pazzi.  Dieu  sait \nce  qui  peut  arriver!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire  dire",
+    "infinitive_shaped": "dire",
+    "dist": 13,
+    "window": " mes  médita- \ntions; il  a  fallu  que  la  tyrannie  vînt  me  frapper  au  visage  pour \nme  faire  dire  :  Agissons!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait  rouler",
+    "infinitive_shaped": "rouler",
+    "dist": 64,
+    "window": "s  milliers  de  tétcs,  et  qui  les  ont  fait  rouler  comme  des \ngrains  de  sable  sur  les  pieds  du  bourreau  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "laisse",
+    "match": "laisse  achever",
+    "infinitive_shaped": "achever",
+    "dist": 37,
+    "window": "  elle-même  regarde  en  silence  et  avec  terreur, \net  qu'elle  laisse  achever  à  l'homme,  sans  oser  y  toucher!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "laisse",
+    "match": "laisse  mourir",
+    "infinitive_shaped": "mourir",
+    "dist": 52,
+    "window": "s'asseoit  près  de  Philippe. \n\nPHILIPPE. \n\nQue  je  laisse  mourir  mes  enfants^  cela  est  impossible,  vois- \nlu  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "doit",
+    "match": "doit  être",
+    "infinitive_shaped": "être",
+    "dist": 9,
+    "window": "Louise. \n\nLORENZO. \n\nNi  moi  non  plus;  à  moins  que  ce  ne  soit  vous. \n\nLE   DUC. \n\nPhilippe  doit  être  furieux!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "voyant",
+    "match": "voyant  l'aurore",
+    "infinitive_shaped": "l'aurore",
+    "dist": 41,
+    "window": "  fatigué  de  la  vie.  Un  jour  de  plus ,  pensais-je  en \nvoyant  l'aurore,  un  sillon  de  plus  dans  mon  champ!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux  tuer",
+    "infinitive_shaped": "tuer",
+    "dist": 30,
+    "window": " \n\nJe  n'ai  pas  le  temps;  préparez-vous  à  agir  demain. \n\nALAMANNO. \n\nTu  veux  tuer  le  duc,  loi?  Allons  donc!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait  dire",
+    "infinitive_shaped": "dire",
+    "dist": 52,
+    "window": "  faire?  au  lieu  de  la \nconsoler,  cela  lui  aurait  fait  dire  :  crime,  crime,  jusqu'à  son \ndernier  soupir  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "pouvez",
+    "match": "pouvez  faire",
+    "infinitive_shaped": "faire",
+    "dist": 64,
+    "window": "  0  mes  amis,  mes  compatriotes!  vous  pouvez  faire \nun  beau  lit  de  mort  au  vieux  Strozzi,  si  vous  voulez!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut  être",
+    "infinitive_shaped": "être",
+    "dist": 18,
+    "window": "e  livre  à  une \ndouce  rêverie,  avant  de  savoir  où  sa  chimère  le  mène,  et  s'il \npeut  être  payé  de  retour!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "entendre",
+    "match": "entendre \nchanter",
+    "infinitive_shaped": "chanter",
+    "dist": 26,
+    "window": "  chœur  modeste  de \nnmsiciens,  à  marquer  moi-même  la  mesure,  à  les  entendre \nchanter  la  beauté  de  Marianne!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "laisser",
+    "match": "laisser  entrer",
+    "infinitive_shaped": "entrer",
+    "dist": 12,
+    "window": "MIA. \n\nCes  jalousies  fermées  sont  trop  sombres;  qu'on  laisse \nentrer  le  jour  sans  laisser  entrer  le  soleil!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "laisser",
+    "match": "laisser  entrer",
+    "infinitive_shaped": "entrer",
+    "dist": 55,
+    "window": " sombres;  qu'on  laisse \nentrer  le  jour  sans  laisser  entrer  le  soleil!  —  Plus  de  fleurs \nautour  de  ce  lit!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut  ronger",
+    "infinitive_shaped": "ronger",
+    "dist": 23,
+    "window": " vos  dents , \ncomme  un  chien  de  basse-cour  à  qui  l'on  dispute  l'os  qu'il \nveut  ronger,  ou,  par  le  ciel  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "laisse",
+    "match": "laisse  faire",
+    "infinitive_shaped": "faire",
+    "dist": 0,
+    "window": "uple  lui  ressemble  aussi  peu  qu'un  paysan  à  son  seigneur. \nCependant,  regardez  comme  elle  se  laisse  faire!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut \ndire",
+    "infinitive_shaped": "dire",
+    "dist": 2,
+    "window": "atience.  Il  me  ménage  un  châtiment! \nEt  lequel,  par  hasard?  Je  voudrais  bien  savoir  ce  qu'il  veut \ndire  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "sait  se",
+    "match": "sait  se  faire",
+    "infinitive_shaped": "faire",
+    "dist": 26,
+    "window": "joie  dans  cette  ville \ningrate. \n\nMARINONI. \n\nHeureuse  la  princesse  qui  sait  se  faire  aimer  de  son  peuple  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "laisse",
+    "match": "laisse \ntomber",
+    "infinitive_shaped": "tomber",
+    "dist": 97,
+    "window": "s  elle  laisse \ntomber,  en  retournant  à  son  feu ,  cette  sublime  aumône  du \npauvre  :  Que  Dieu  le  protège  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire  aimer",
+    "infinitive_shaped": "aimer",
+    "dist": 0,
+    "window": "sans  bruit , \nobserver  tout ,  approcher  de  la  princesse  sous  un  faux  nom  , \net  peut-être  m'en  faire  aimer!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire  aimer",
+    "infinitive_shaped": "aimer",
+    "dist": 6,
+    "window": "bruit , \nobserver  tout ,  approcher  de  la  princesse  sous  un  faux  nom  , \net  peut-être  m'en  faire  aimer! — Oh!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut  dire",
+    "infinitive_shaped": "dire",
+    "dist": 53,
+    "window": "rdonner. \n\nIl  se  jette  à  genoux. \n\nELSlîETII. \n\nQue  veut  dire  cela?  Holovez-vous ,  homme,  et  sorh-z  (l'iii  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "voir",
+    "match": "voir  encore",
+    "infinitive_shaped": "encore",
+    "dist": 11,
+    "window": "vais  prévu  que  celle  nuit  nous  serait  fatale.  Ah  ! \npourquoi  ai-je  consenti  à  vous  voir  encore  une  fois!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "voyant",
+    "match": "voyant  prendre",
+    "infinitive_shaped": "prendre",
+    "dist": 77,
+    "window": "taire  in- \ntime, en  vous  voyant  prendre  quelque  plaisir  à  cette  fête  qui \nest  la  plus  médiocre  du  monde  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait  apprendre",
+    "infinitive_shaped": "apprendre",
+    "dist": 53,
+    "window": "heureux  d'avoir  ,  depuis  l'âge  de  onze \nans,  fait  apprendre  à  ma  nièce  la  harpo-lyre  et  le  forte-piano  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut \navoir",
+    "infinitive_shaped": "avoir",
+    "dist": 52,
+    "window": "z  garde  à  un  homme  qui  demande  un  pardon  ;  il  peut \navoir  si  aisément  la  tentation  d'eu  mériter  deux  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "entendre  me",
+    "match": "entendre  me  parler",
+    "infinitive_shaped": "parler",
+    "dist": 9,
+    "window": "peu  de  temps!  Qu'il  avait  raison, \nce  cher  Uladislas!  Je  vais  donc  la  voir,  l'entendre  me  parler \nd'amour!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "entendre  me",
+    "match": "entendre  me  parler",
+    "infinitive_shaped": "parler",
+    "dist": 16,
+    "window": "  temps!  Qu'il  avait  raison, \nce  cher  Uladislas!  Je  vais  donc  la  voir,  l'entendre  me  parler \nd'amour!  elle!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "entendre  me",
+    "match": "entendre  me  parler",
+    "infinitive_shaped": "parler",
+    "dist": 42,
+    "window": "ison, \nce  cher  Uladislas!  Je  vais  donc  la  voir,  l'entendre  me  parler \nd'amour!  elle!  Harherine  î  ô  beauté!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "entendre  me",
+    "match": "entendre  me  parler",
+    "infinitive_shaped": "parler",
+    "dist": 62,
+    "window": "dislas!  Je  vais  donc  la  voir,  l'entendre  me  parler \nd'amour!  elle!  Harherine  î  ô  beauté!  elle  est  à  moi!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "entendre  me",
+    "match": "entendre  me  parler",
+    "infinitive_shaped": "parler",
+    "dist": 85,
+    "window": "  la  voir,  l'entendre  me  parler \nd'amour!  elle!  Harherine  î  ô  beauté!  elle  est  à  moi!  ô  joie \nineffable  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "voit",
+    "match": "voit  venir",
+    "infinitive_shaped": "venir",
+    "dist": 24,
+    "window": "  je  me  mette  à \nchanter  gaîmciit. \n\n//  chante. \n\nQuand  le  coq  de  bruyère \n\nVoit  venir  le  chasseur, \n\nHolà  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "voit",
+    "match": "voit  venir",
+    "infinitive_shaped": "venir",
+    "dist": 56,
+    "window": "mciit. \n\n//  chante. \n\nQuand  le  coq  de  bruyère \n\nVoit  venir  le  chasseur, \n\nHolà  !  dans  la  clairière  , \n\nHolà!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire  tomber",
+    "infinitive_shaped": "tomber",
+    "dist": 36,
+    "window": "  il  faut  dé- \ntourner les  soupçons? \n\nJACQUELINE. \n\nPourquoi  les  faire  tomber  sur  un  autre? \n\nCLAVAROCHE, \n\nHé!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "veux  le",
+    "match": "veux  le  nieltre",
+    "infinitive_shaped": "nieltre",
+    "dist": 88,
+    "window": "n  sucre;  je  veux  le  nieltre  sur  ma  cheminée  en  signe  de  ré- \nconcilialion,  et  toutes  les  lois  que  je  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "vu",
+    "match": "vu  briller",
+    "infinitive_shaped": "briller",
+    "dist": 13,
+    "window": "  je  feignais  de  ne  pas  le  voir.  Lorsque  j'ai \nchanté  tout  à  l'heure ,  comme  j'ai  vu  briller  ses  yeux  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "vu",
+    "match": "vu  briller",
+    "infinitive_shaped": "briller",
+    "dist": 24,
+    "window": "ais  de  ne  pas  le  voir.  Lorsque  j'ai \nchanté  tout  à  l'heure ,  comme  j'ai  vu  briller  ses  yeux  !  Allons  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "veulent",
+    "match": "veulent  surprendre",
+    "infinitive_shaped": "surprendre",
+    "dist": 63,
+    "window": " si  cela  les 'peut \ndivertir.  Ils  veulent  surprendre  la  belle  Jacqueline  et  son  très- \nhumble  serviteur?  hé!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait  sourire",
+    "infinitive_shaped": "sourire",
+    "dist": 14,
+    "window": "  a  de  sacré  sous  le  ciel, \ncomme  un  voleur  avec  des  dés  pipés;  voilà  ce  (jui  fait  sourire \nune  femme  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "pouvait",
+    "match": "pouvait  aimer",
+    "infinitive_shaped": "aimer",
+    "dist": 2,
+    "window": "  un  pauvre  dernier  clerc  qui  s'ingérait  de \npleurer  en  silence.  C'était  bien  là  ce  qu'on  pouvait  aimer  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire  encore",
+    "infinitive_shaped": "encore",
+    "dist": 24,
+    "window": "  à  plaisir,  une  maudite  condescen- \ndance, tout  ce  que  j'ai  pu  ou  puis  faire  encore  (mais,  par \nma  barbe!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire  encore",
+    "infinitive_shaped": "encore",
+    "dist": 54,
+    "window": "ondescen- \ndance, tout  ce  que  j'ai  pu  ou  puis  faire  encore  (mais,  par \nma  barbe!  je  ne  ferai  plus  rien  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "laissé  la",
+    "match": "laissé  la  donner",
+    "infinitive_shaped": "donner",
+    "dist": 14,
+    "window": "a  cacheter. \n\nLA    BAR0^^1•. \n\nIl  vous  avait  lu  cette  lettre,  et  vous  l'avez  laissé  la  donner \nà  mes  gens!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait  venir",
+    "infinitive_shaped": "venir",
+    "dist": 98,
+    "window": "  j'aurai  fait  venir  tout  le \nfaubourg  Saint-Germain  de  Paris,  pour  le  remercier  et  le \nmettre  à  la  porte!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait  rouler",
+    "infinitive_shaped": "rouler",
+    "dist": 0,
+    "window": "  lune  se  lève  et  Torage  passe.  Voyez  ces  perles  sur  les \nfeuilles;  comme  ce  veut  tiède  les  fait  rouler!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "il  faut  le",
+    "match": "il  faut  le  dire",
+    "infinitive_shaped": "dire",
+    "dist": 38,
+    "window": " le  croyez;  c'est  écrit  sur  votre  visage. \n\nMATHILDE. \n\nS'il  faut  le  dire  pour  vous  satisfaire ,  eh  bien  !",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "sens",
+    "match": "sens  renaître",
+    "infinitive_shaped": "renaître",
+    "dist": 0,
+    "window": "sants, et  puis  j'ai  dit  de  retourner.  Voilà  mon  bal.  —  Ce  feu \nme  fait  un  plaisir!  je  me  sens  renaître!",
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "governor": "veux lui",
+    "match": "veux lui parler",
+    "infinitive_shaped": "parler",
+    "dist": 1,
+    "window": " ne l’aurais pas cru capable, il a appelé, il s’est écrié : La reine !… la reine ! qu’elle vienne ! je \nveux lui parler !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "il faut \nnous en",
+    "match": "il faut \nnous en emparer",
+    "infinitive_shaped": "emparer",
+    "dist": 20,
+    "window": " importe !… C’est le ciel qui nous \nlivre ainsi tous nos ennemis à-la-fois. Il faut \nnous en emparer ou nous en défaire !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "veut",
+    "match": "veut démasquer",
+    "infinitive_shaped": "démasquer",
+    "dist": 14,
+    "window": "âmez d’être fidèle à Christian, à un roi malheureux !… Vous prétendez qu’on a tort quand on veut démasquer des traîtres !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "doit",
+    "match": "doit professer",
+    "infinitive_shaped": "professer",
+    "dist": 64,
+    "window": "s qu’un militaire, qui, par le sien même, doit professer la loyauté et la franchise, troque son épée contre un poignard !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut faire",
+    "infinitive_shaped": "faire",
+    "dist": 44,
+    "window": "-dire la nation… on peut susciter des \ntroubles, des complots, on peut faire des révoltes,\nmais non pas des révolutions !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire attendre",
+    "infinitive_shaped": "attendre",
+    "dist": 63,
+    "window": "\n\nLA REINE.\n \nComment cela ? \n\nRATON.\n \nMe faire attendre deux heures un quart dans une antichambre, moi et mes étoffes !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "voyez",
+    "match": "voyez léger",
+    "infinitive_shaped": "léger",
+    "dist": 70,
+    "window": " ne faut pas croire, parce que vous me voyez léger et frivole, que je ne puisse pas aussi bien que tout autre… mon Dieu !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut traiter",
+    "infinitive_shaped": "traiter",
+    "dist": 90,
+    "window": "re… mon Dieu ! on peut traiter tout cela en se jouant, en plaisantant… que j’arrive seulement au pouvoir, et l’on verra !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "doit y en",
+    "match": "doit y en avoir",
+    "infinitive_shaped": "avoir",
+    "dist": 41,
+    "window": "ISTINE.\n \nEt lesquelles ? \n\nGŒLHER, troublé. \n\nLesquelles ?… Il doit y en avoir… il est impossible qu’il n’y en ait pas !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "vouloir",
+    "match": "vouloir nuire",
+    "infinitive_shaped": "nuire",
+    "dist": 32,
+    "window": "e. Pendant ce temps Raton continue à demi-voix en s’adressant à sa femme.) Vouloir nuire à mon avancement, à ma fortune !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "il faut",
+    "match": "il faut prendre",
+    "infinitive_shaped": "prendre",
+    "dist": 75,
+    "window": "er. \n\nMARTHE.\n \nIl faut agir… il faut prendre les armes… courir au palais… qu’on me rende mon fils, qu’on nous le rende !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "il faut",
+    "match": "il faut protester",
+    "infinitive_shaped": "protester",
+    "dist": 20,
+    "window": "qu’il fallait vous exprimer ainsi. \n\nRANTZAU.\n \nC’est tout haut, c’est par-tout qu’il faut protester contre l’injustice !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "il faut",
+    "match": "il faut profiter",
+    "infinitive_shaped": "profiter",
+    "dist": 1,
+    "window": "primés ; vous \nl’êtes en ce moment… grâce au ciel ; c’est un avantage qu’il ne faut pas perdre et dont il faut profiter !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "peut me",
+    "match": "peut me secourir",
+    "infinitive_shaped": "secourir",
+    "dist": 1,
+    "window": "ge qu’il ne faut pas perdre et dont il faut profiter ! \n\nLA REINE.\n \nEt comment ? puisque le peuple ne peut me secourir !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "il faut vous en",
+    "match": "il faut vous en passer",
+    "infinitive_shaped": "passer",
+    "dist": 1,
+    "window": " faut profiter ! \n\nLA REINE.\n \nEt comment ? puisque le peuple ne peut me secourir !…\n\nRANTZAU.\n \nIl faut vous en passer !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "il faut",
+    "match": "il faut faire",
+    "infinitive_shaped": "faire",
+    "dist": 62,
+    "window": "t-ce qu’il faut dire ?… maître, qu’est-ce qu’il faut faire ?… Est-ce que je sais ?… je leur réponds toujours : Attendez !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "il faut",
+    "match": "il faut penser",
+    "infinitive_shaped": "penser",
+    "dist": 31,
+    "window": "nous perdons là un temps précieux, et j’ai tant d’affaires en tête ! Quand il faut penser à tout, par où commencer ? Ah !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "voulez me",
+    "match": "voulez me perdre",
+    "infinitive_shaped": "perdre",
+    "dist": 1,
+    "window": "t où Struensée verra qu’hier même en le servant vous le trahissiez encore ? \n\nKOLLER.\n \nMonsieur, vous voulez me perdre !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "doit",
+    "match": "doit être",
+    "infinitive_shaped": "être",
+    "dist": 39,
+    "window": "f, il était question d’un autre. Hélas ! il me semble que tout le monde doit être comme moi et ne \nl’occuper que de lui !",
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "governor": "pouvoir",
+    "match": "pouvoir obtenir",
+    "infinitive_shaped": "obtenir",
+    "dist": 58,
+    "window": "s conquérants ! L’ambassadeur de Louis XIV. ne pouvoir obtenir dans le palais Saint-James une audience de la reine Anne !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire entendre",
+    "infinitive_shaped": "entendre",
+    "dist": 91,
+    "window": "oujours par se faire entendre, une voix qui parle encore plus haut que les clairons et les tambours… celle de la vérité !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "veux",
+    "match": "veux dire",
+    "infinitive_shaped": "dire",
+    "dist": 58,
+    "window": "espectable et fort sage, qui s’ennuie royalement… je veux dire autant que possible… mais à sa cour, on s’amuse beaucoup !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "laissez",
+    "match": "laissez venir",
+    "infinitive_shaped": "venir",
+    "dist": 36,
+    "window": "mper, et si réellement c’est quelque grand seigneur ami de votre père… laissez venir les événements… laissez-vous faire !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "laissez",
+    "match": "laissez venir",
+    "infinitive_shaped": "venir",
+    "dist": 41,
+    "window": " et si réellement c’est quelque grand seigneur ami de votre père… laissez venir les événements… laissez-vous faire ! Ah !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire arriver",
+    "infinitive_shaped": "arriver",
+    "dist": 83,
+    "window": "je voudrais à tout prix faire arriver ce matin entre les mains de la reine… j’en attends et j’en cherche les moyens… Ah !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait naître",
+    "infinitive_shaped": "naître",
+    "dist": 45,
+    "window": " de Trianon, critiquée par Louis XIV et défendue par Louvois, a fait naître la guerre qui embrase l’Europe en ce moment !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "laisser",
+    "match": "laisser abattre",
+    "infinitive_shaped": "abattre",
+    "dist": 53,
+    "window": " quand nous aurons le temps. Et maintenant, sans me laisser abattre, je combats à mon poste, dans les rangs des vaincus !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire lire",
+    "infinitive_shaped": "lire",
+    "dist": 1,
+    "window": "vous tiendrez à me faire connaître, vous n’aurez qu’à les adresser à la reine, c’est le seul moyen de me les faire lire !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "il faudra",
+    "match": "il faudra voir",
+    "infinitive_shaped": "voir",
+    "dist": 65,
+    "window": " qu’elle brille !…\n\nLA DUCH. C’est ce qu’il faudra voir… il y a tant de gens qui se disent nobles et qui ne le sont pas !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "peux y",
+    "match": "peux y manquer",
+    "infinitive_shaped": "manquer",
+    "dist": 1,
+    "window": "ant une pendule qui est sur un des panneaux à droite.) Ah, mon Dieu ! voici l’heure de la chambre… je ne peux y manquer !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "fais",
+    "match": "fais poursuivre",
+    "infinitive_shaped": "poursuivre",
+    "dist": 99,
+    "window": "je le fais poursuivre dans tout le royaume avec une rage qui met à l’abri mes sentiments et ma responsabilité de cousin !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "laissé",
+    "match": "laissé tomber",
+    "infinitive_shaped": "tomber",
+    "dist": 1,
+    "window": "vre.\nÔ ciel ! \n\nLA DUCH. Qu’avez-vous !\n\nABIG., regardant la reine d’un air suppliant. Ce livre… que j’ai laissé tomber !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire arriver",
+    "infinitive_shaped": "arriver",
+    "dist": 23,
+    "window": "st sur-le-champ ! Un ami qui vous est dévoué… et qui me demande avec instance de le faire arriver jusqu’à Votre Majesté !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "entendre",
+    "match": "entendre parler",
+    "infinitive_shaped": "parler",
+    "dist": 19,
+    "window": "’elle ne revienne !\n\nLA REINE. Je t’ai dit que je ne voulais plus être tourmentée, ni entendre parler d’affaires d’État !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "entendre",
+    "match": "entendre parler",
+    "infinitive_shaped": "parler",
+    "dist": 79,
+    "window": " plus être tourmentée, ni entendre parler d’affaires d’État !… D’ailleurs maintenant cette entrevue ne servirait à rien !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "fait",
+    "match": "fait voter",
+    "infinitive_shaped": "voter",
+    "dist": 39,
+    "window": "oisirs, que la noble duchesse retient son mari à la tête des armées et fait voter des subsides pour continuer la guerre !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "il faut le",
+    "match": "il faut le connaître",
+    "infinitive_shaped": "connaître",
+    "dist": 1,
+    "window": "Qui ?… l’inconnu ?\n\nLA REINE. Oui… tu me l’amèneras, cela te regarde !\n\nABIG., de même. Pour cela, il faut le connaître !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire tuer",
+    "infinitive_shaped": "tuer",
+    "dist": 1,
+    "window": "ASH. Elle veut pour me soustraire au danger, que je parte demain pour l’armée…\n\nABIG., poussant un cri. Vous faire tuer !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut aller",
+    "infinitive_shaped": "aller",
+    "dist": 69,
+    "window": " moi, je vous parle des miens ! L’Europe peut aller toute seule, et moi, si vous m’abandonnez, je n’ai plus qu’à mourir !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut être",
+    "infinitive_shaped": "être",
+    "dist": 92,
+    "window": "use de ce duel… il peut être découvert et arrêté… Conseillez-moi… Je ne sais que devenir et je n’ai d’espoir qu’en vous !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "faites",
+    "match": "faites trembler",
+    "infinitive_shaped": "trembler",
+    "dist": 1,
+    "window": "l.\n\nABIG. Et pour la suite…\n\nBOL. Rien à craindre, si nous l’emportons…\n\nABIG., naïvement. Ah ! vous me faites trembler !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "vu",
+    "match": "vu entrer",
+    "infinitive_shaped": "entrer",
+    "dist": 57,
+    "window": ". Qu’y a-t-il ?\n\nABIG. Je venais annoncer que j’avais vu entrer dans la cour du palais la voiture de madame la duchesse !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "pouvons la",
+    "match": "pouvons la recevoir",
+    "infinitive_shaped": "recevoir",
+    "dist": 70,
+    "window": " porter. Dites-lui que nous ne pouvons la recevoir : que nous avons disposé de la place qu’elle occupait auprès de nous !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "pouvoir",
+    "match": "pouvoir douter",
+    "infinitive_shaped": "douter",
+    "dist": 87,
+    "window": " découvert, à n’en pouvoir douter, que Masham ne l’aimait pas, qu’il ne l’avait jamais aimée… qu’il en aimait une autre !",
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "governor": "il  faut  le",
+    "match": "il  faut  le \ngarder",
+    "infinitive_shaped": "garder",
+    "dist": 12,
+    "window": "raison  !  il  a  mille  fois  raison.  — Don- \nnez, donnez-moi  ce  livre,  Rachel. —  Il  faut  le \ngarder,  ma  fille!",
+    "file": "vigny-chatterton-1835.txt"
+   },
+   {
+    "governor": "voir",
+    "match": "voir  pénétrer",
+    "infinitive_shaped": "pénétrer",
+    "dist": 47,
+    "window": "  unique  repos  troublé ,  sa  douce \nobscurité  trahie;  voir  pénétrer  dans  sa  nuit  de \nsi  grossières  clartés  !",
+    "file": "vigny-chatterton-1835.txt"
+   },
+   {
+    "governor": "voir",
+    "match": "voir  pénétrer",
+    "infinitive_shaped": "pénétrer",
+    "dist": 63,
+    "window": " troublé ,  sa  douce \nobscurité  trahie;  voir  pénétrer  dans  sa  nuit  de \nsi  grossières  clartés  !  0  supplice  !",
+    "file": "vigny-chatterton-1835.txt"
+   },
+   {
+    "governor": "veux  le",
+    "match": "veux  le  savoir",
+    "infinitive_shaped": "savoir",
+    "dist": 2,
+    "window": "e  res- \nponsable ?  aussi!...  Pourquoi  est-il  venu  ici?... \njen'y  comprends  plus  rien  !  je  veux  le  savoir  !",
+    "file": "vigny-chatterton-1835.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut  perdre",
+    "infinitive_shaped": "perdre",
+    "dist": 65,
+    "window": "  —  Le  monde  n'est  qu'un  mot. \n—  On  peut  perdre  ou  gagner  le  monde  sur  pa- \nrole, en  un  quart  d'heure  !",
+    "file": "vigny-chatterton-1835.txt"
+   },
+   {
+    "governor": "peux",
+    "match": "peux  t'expliquer",
+    "infinitive_shaped": "t'expliquer",
+    "dist": 29,
+    "window": " du  bien,  et  le  désordre  de  l'ordre \nmême,  voilà  ce  que  tu  ne  peux  t'expliquer, \nn'est-ce  pas?  Eh  bien  !",
+    "file": "vigny-chatterton-1835.txt"
+   },
+   {
+    "governor": "faire",
+    "match": "faire  jouer",
+    "infinitive_shaped": "jouer",
+    "dist": 96,
+    "window": "  pitié  ;  faire  jouer  de  misérables  pou- \npées ,  ou  l'être  soi-même  et  faire  trafic  de  (  ette \nsingerie  !",
+    "file": "vigny-chatterton-1835.txt"
+   },
+   {
+    "governor": "il  faut",
+    "match": "il  faut  vivre",
+    "infinitive_shaped": "vivre",
+    "dist": 29,
+    "window": "!  je  ne  puis  donc  plus  vivre  ni  mourir? \n\nLE  QUAKER,  fortement. \n\nIl  faut  vivre,  te  taire  et  prier  Dieu!",
+    "file": "vigny-chatterton-1835.txt"
+   },
+   {
+    "governor": "peut",
+    "match": "peut  l'être",
+    "infinitive_shaped": "l'être",
+    "dist": 20,
+    "window": " BELL. \n\nSoit  à  jamais  bénie  la  maison  où  il  sera  heu- \nreux ,  puisqu'il  ne  peut  l'être  dans  la  mienne  !",
+    "file": "vigny-chatterton-1835.txt"
+   }
+  ]
+ }
+}
