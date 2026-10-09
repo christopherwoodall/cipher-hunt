@@ -87,7 +87,8 @@
   "followups_queued_p71": "2026-10-09 supervisor: 17 null-mandated follow-ups queued from 7 ingested NULL reports (adv-83-932 x3: subj-98-930, val-26-934-role, adv-83-932-rearm-gated; 08-62-boundary-rerun-gated x3: 08-62-boundary-rerun-62value-gated, seg-80-08-1323, t62-composition-inventory-gather; val-97-289-det x3: qui-290-verb-hunt, det-97-1412-adjudicate, nom09-289-convergence; val-61-wordbound-1257 x3: wordbound-61-31-rerun-gated, val-61-1256-class, duality-61-redteam-input-gather; sait-veut-24-discriminator x2: sait-veut-corpus-frame-gather, sait-veut-que-rerun-gated; val-61-645-det x3: det-87-644-redteam-reconcile P1 red-team docket, ceci-644-dissolve-test, val-61-646-rerarmed-ceci); trans-24-cela-scale NULL gather-complete proposes none; split-50-meme-stem PROMOTE proposes none per section 4; 10 reports moved to report_inbox/processed/ + verdict.report paths repaired",
   "followups_queued_p72": "2026-10-09 supervisor: 6 follow-ups queued from 2 mid-run NULL reports landed during the p71 push window (word-t52-630-identify x3: end-52-uniform-value, t52-74que60-tail, veut-67-633-infinitive; stem-93-29-test x3: stem-93-1761-ent, w1-113-framef-rerun-gated, stem-93-inventory-14-gather); wordbound-41-59-seg PROMOTE proposes none per section 4; 3 reports moved to report_inbox/processed/ + verdict.report paths repaired",
   "followups_queued_p73": "2026-10-09 supervisor: 3 follow-ups queued from part-88-86 NULL (xent-14-adverb-value, pp-88-frame-census-gather, aux-16-83); report moved to report_inbox/processed/ + verdict.report path repaired",
-  "report_paths_repaired_2026-10-09c": "2026-10-09 supervisor: 94 stale verdict.report paths repaired (top-level -> report_inbox/processed/; files moved during this run by the topup hook's housekeeping without path repair)"
+  "report_paths_repaired_2026-10-09c": "2026-10-09 supervisor: 94 stale verdict.report paths repaired (top-level -> report_inbox/processed/; files moved during this run by the topup hook's housekeeping without path repair)",
+  "followups_queued_p75": "2026-10-09 supervisor: 16 null-mandated follow-ups queued from the 10 hook-verdicted top-level reports' audit gap-fill (sel-37-913-agentive-par x2: par09-915-rerun-gated, adj-37-913-elim; val-08-31-rerun-gated x3: val-31-syllable-value, t31-frame-corpus, f1-881-structure; val-55-1084-frame x3: val-55-nominal-census, val-81-55-rerun-gated, prep-02-rerun-gated; val-61-925-timeunit x3: part-61-gender-ctrl, par48-e-agent, fois-part-abs-frame [val-61-participle's unqueued proposals, pipeline gap closed]; val-81-55-collocation x3: leftedge-08-81-1594, class-55-5581-windows, colloc-55-81-uniform-rerun-gated; verb-74-874-class x2: verb-74-874-rerun-r20, frame-74-874-complement); 4 promotes (la-1006-52-frame, pourque-00-46-role, val-14-determiner-test, w3-06-29-leftedge) propose none per section 4; 10 reports moved to report_inbox/processed/ + verdict.report paths repaired"
  },
  "targets": [
   {
@@ -8556,7 +8557,7 @@
    "status": "verdict",
    "verdict": {
     "result": "promote",
-    "report": "code/crowd17/report_inbox/battery-w3-06-29-leftedge.md",
+    "report": "code/crowd17/report_inbox/processed/battery-w3-06-29-leftedge.md",
     "date": "2026-10-09"
    }
   },
@@ -8591,7 +8592,7 @@
    "status": "verdict",
    "verdict": {
     "date": "2026-10-09",
-    "report": "code/crowd17/report_inbox/battery-la-1006-52-frame.md",
+    "report": "code/crowd17/report_inbox/processed/battery-la-1006-52-frame.md",
     "result": "promote"
    }
   },
@@ -10820,7 +10821,7 @@
    "status": "verdict",
    "verdict": {
     "result": "promote",
-    "report": "code/crowd17/report_inbox/battery-val-14-determiner-test.md",
+    "report": "code/crowd17/report_inbox/processed/battery-val-14-determiner-test.md",
     "date": "2026-10-09"
    }
   },
@@ -17191,7 +17192,7 @@
    "status": "verdict",
    "verdict": {
     "date": "2026-10-09",
-    "report": "code/crowd17/report_inbox/battery-val-08-31-rerun-gated.md",
+    "report": "code/crowd17/report_inbox/processed/battery-val-08-31-rerun-gated.md",
     "result": "null"
    }
   },
@@ -18880,7 +18881,7 @@
    "status": "verdict",
    "verdict": {
     "result": "null",
-    "report": "code/crowd17/report_inbox/battery-val-55-1084-frame.md",
+    "report": "code/crowd17/report_inbox/processed/battery-val-55-1084-frame.md",
     "date": "2026-10-09"
    }
   },
@@ -19387,7 +19388,7 @@
    "status": "verdict",
    "verdict": {
     "date": "2026-10-09",
-    "report": "code/crowd17/report_inbox/battery-sel-37-913-agentive-par.md",
+    "report": "code/crowd17/report_inbox/processed/battery-sel-37-913-agentive-par.md",
     "result": "null"
    }
   },
@@ -21466,7 +21467,7 @@
    "status": "verdict",
    "verdict": {
     "result": "null",
-    "report": "code/crowd17/report_inbox/battery-val-61-925-timeunit.md",
+    "report": "code/crowd17/report_inbox/processed/battery-val-61-925-timeunit.md",
     "date": "2026-10-09"
    }
   },
@@ -21572,7 +21573,7 @@
    "status": "verdict",
    "verdict": {
     "date": "2026-10-09",
-    "report": "code/crowd17/report_inbox/battery-verb-74-874-class.md",
+    "report": "code/crowd17/report_inbox/processed/battery-verb-74-874-class.md",
     "result": "null"
    }
   },
@@ -22213,7 +22214,7 @@
    "status": "verdict",
    "verdict": {
     "result": "null",
-    "report": "code/crowd17/report_inbox/battery-val-81-55-collocation.md",
+    "report": "code/crowd17/report_inbox/processed/battery-val-81-55-collocation.md",
     "date": "2026-10-09"
    }
   },
@@ -22895,7 +22896,7 @@
    "status": "verdict",
    "verdict": {
     "date": "2026-10-09",
-    "report": "code/crowd17/report_inbox/battery-pourque-00-46-role.md",
+    "report": "code/crowd17/report_inbox/processed/battery-pourque-00-46-role.md",
     "result": "promote"
    }
   },
@@ -23170,6 +23171,150 @@
    "status": "queued",
    "evidence": "Null-mandated follow-up from battery-part-88-86.md (NULL, 2026-10-09).",
    "adverses": ""
+  },
+  {
+   "id": "par09-915-rerun",
+   "claim": "Re-run the @913 class test once 09's class/value resolves (nom09-open-windows queued). If 09 names as an agent-capable noun/pronoun, 'par [09]' is agentive and the participle arm is selected; if 09 names as an abstract/motive noun, the adjective/noun arms are selected. The key disambiguator.",
+   "bars": "GATED: do not run before 09's class/value resolves; re-run the @913 class test with 09's named class.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-sel-37-913-agentive-par.md (NULL, 2026-10-09).",
+   "adverses": "Gated on 09's class/value resolving."
+  },
+  {
+   "id": "adj-37-913-elim",
+   "claim": "Targeted battery-grade attempt to kill the adjective and noun arms at @913 - e.g., via 37's cross-window class constraints (does 37 show adjectival/nominal behavior elsewhere?) or a narrower corpus test conditioning on 09's eventual class.",
+   "bars": "Kill the adjective and noun arms at @913 at battery grade, or fence.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-sel-37-913-agentive-par.md (NULL, 2026-10-09).",
+   "adverses": ""
+  },
+  {
+   "id": "val-31-syllable-value",
+   "claim": "Name 31's phonetic value/syllable. Direct blocker: 't'+31's value reduces the word to a dictionary check.",
+   "bars": "Name 31's phonetic value/syllable with byte evidence, or fence.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-val-08-31-rerun-gated.md (NULL, 2026-10-09).",
+   "adverses": ""
+  },
+  {
+   "id": "t31-frame-corpus",
+   "claim": "Corpus census of t-initial nominals in the three frame shapes ('fois [t-*] tout', 'ce [t-*]', '[det] [N] et [t-*]') in 1841 French; a unique triple-frame attestation would name the word empirically.",
+   "bars": "Gather-only corpus census across the three frame shapes.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-val-08-31-rerun-gated.md (NULL, 2026-10-09).",
+   "adverses": ""
+  },
+  {
+   "id": "f1-881-structure",
+   "claim": "Resolve F1's 'fois W tout' structure (adjectival W vs clause boundary with nominal W). Determines whether W must be adjective-capable, cutting the candidate space.",
+   "bars": "Name F1's @881 structure (adjectival-W vs clause-boundary-nominal-W) with stated values, or fence.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-val-08-31-rerun-gated.md (NULL, 2026-10-09).",
+   "adverses": ""
+  },
+  {
+   "id": "val-55-nominal-census",
+   "claim": "Census 55's 12 windows for nominal-shape legs with standing values; the @1084 re-open needs a named nominal 55.",
+   "bars": "Gather-only census of nominal-shape legs across 55's 12 windows.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-val-55-1084-frame.md (NULL, 2026-10-09).",
+   "adverses": ""
+  },
+  {
+   "id": "val-81-55-rerun",
+   "claim": "Re-arm once val-81-55-collocation names 81's class; a determiner-81 would constrain 55's slot at @1085.",
+   "bars": "GATED: do not run before val-81-55-collocation names 81's class.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-val-55-1084-frame.md (NULL, 2026-10-09).",
+   "adverses": "Gated on val-81-55-collocation naming 81's class."
+  },
+  {
+   "id": "prep-02-rerun",
+   "claim": "Re-test the 02-preposition class at @1084 iff the red team adjudicates 02's class.",
+   "bars": "GATED: do not run before a red-team 02-class adjudication.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-val-55-1084-frame.md (NULL, 2026-10-09).",
+   "adverses": "Gated on red-team 02-class adjudication."
+  },
+  {
+   "id": "part-61-gender-ctrl",
+   "claim": "Determine 61's agreement controller at @926: does the participle agree with 'fois' (feminine) or an implied subject (gender open)? A feminine controller names the feminine participle.",
+   "bars": "Name 61's agreement controller at @926 with stated values, or fence.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-val-61-925-timeunit.md (NULL, 2026-10-09).",
+   "adverses": ""
+  },
+  {
+   "id": "par48-e-agent",
+   "claim": "Resolve 'par [48]' at @927: test composition of 48 with following cells, or re-parse 'par' as heading a non-agent constituent. A parsing agent re-opens the participle frame.",
+   "bars": "State a licensed parse of 'par [48]' at @927 with stated values, or fence.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-val-61-925-timeunit.md (NULL, 2026-10-09).",
+   "adverses": ""
+  },
+  {
+   "id": "fois-part-abs-frame",
+   "claim": "Corpus census of agentless 'fois [part]' (absolute use, no 'par'): if productive, the participle frame survives without the agent arm.",
+   "bars": "Gather-only corpus census of agentless 'fois [part]' frames.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-val-61-925-timeunit.md (NULL, 2026-10-09).",
+   "adverses": ""
+  },
+  {
+   "id": "leftedge-08-81-1594",
+   "claim": "Apply noun-81's standing noun class to the '08 81' contact at 1-based @1593-1594 ('t [81-noun]'); decide whether the word boundary '08 | 81' is forced (the actual payoff this target's claim wanted).",
+   "bars": "Name the '08 | 81' boundary state at @1593-1594 with stated values, or fence.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-val-81-55-collocation.md (NULL, 2026-10-09).",
+   "adverses": ""
+  },
+  {
+   "id": "class-55-5581-windows",
+   "claim": "Name 55's class at the four non-fenced '55 81' windows (0-based @25, @550, @1085, @1094); if 55='prend' (transitive) is licensable there without assuming 81's class, 81=noun gains an independent leg.",
+   "bars": "Name 55's class at the four windows with stated values, or fence.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-val-81-55-collocation.md (NULL, 2026-10-09).",
+   "adverses": ""
+  },
+  {
+   "id": "colloc-55-81-uniform-rerun",
+   "claim": "Re-run the val-81-55-collocation bar iff the red team resolves 55's uniformity (55='prend' globally); the bar then tests 'prend [81]' x6 as DO frames.",
+   "bars": "GATED: do not run before a red-team 55-uniformity resolution.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-val-81-55-collocation.md (NULL, 2026-10-09).",
+   "adverses": "Gated on red-team 55-uniformity resolution."
+  },
+  {
+   "id": "verb-74-874-rerun-r20",
+   "claim": "Re-test finite-74 at @874 iff the red team re-litigates census-20-open-windows's finite-20 classification at @873; a re-opened S-V slot re-opens the S-V leg.",
+   "bars": "GATED: do not run before a red-team re-litigation of census-20-open-windows; then re-test finite-74 at @874.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-verb-74-874-class.md (NULL, 2026-10-09).",
+   "adverses": "Gated on red-team re-litigation of census-20-open-windows."
+  },
+  {
+   "id": "frame-74-874-complement",
+   "claim": "Name 49's class at @875 (R20-049 fence is the blocker); a licensed complement frame re-opens the post-verbal leg.",
+   "bars": "Name 49's class at @875 with stated values, or fence the complement route.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-verb-74-874-class.md (NULL, 2026-10-09).",
+   "adverses": "R20-049 fence is the blocker."
   }
  ]
 }
