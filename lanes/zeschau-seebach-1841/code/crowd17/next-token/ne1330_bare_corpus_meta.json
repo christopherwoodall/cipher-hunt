@@ -1,0 +1,12 @@
+{
+ "corpus_files": 71,
+ "corpus_chars": 32895030,
+ "stats": {
+  "sentences": 394651,
+  "ne_hits": 34863,
+  "ne_elided_hits": 26072
+ },
+ "ne_sentences": 53592,
+ "strict_candidates": 2229,
+ "literal_extra": 5329
+}

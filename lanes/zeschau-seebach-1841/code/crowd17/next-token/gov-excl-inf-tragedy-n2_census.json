@@ -1,0 +1,561 @@
+{
+ "files": [
+  {
+   "file": "delavigne-vepres-siciliennes.txt",
+   "desc": "Delavigne, Les Vêpres siciliennes (tragédie, 1819)",
+   "chars": 106184,
+   "bangs": 323,
+   "candidates": 29,
+   "windows": [
+    {
+     "prep": "de",
+     "infinitive_shaped": "l'étranger",
+     "dist": 0,
+     "byte_offset": 1150,
+     "window": "  de  Païenne; \n3'en  jure  par  ce  Dieu  qui  nous  doit  protéger. \nVous  serez  affranchis  du  joug  de  l'étranger!"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "cendre",
+     "dist": 60,
+     "byte_offset": 12993,
+     "window": " SCÈNK    11.  '  9 \n\nLa  tombe  s'ouvrira  pour  ma  cendre  glacée, \nAvant  qu'un  tel  serment  sorte  de  ma  pensée!"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "foudroyer",
+     "dist": 10,
+     "byte_offset": 20557,
+     "window": "S    SICILIENNES. \n\nLe  bras  de  l'Éternel  à  le  punir  s'apprête, \nEt  se  lève  sur  lui  pour  foudroyer  sa  tête!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "votre",
+     "dist": 8,
+     "byte_offset": 23322,
+     "window": "ez... \nQu'anjoiirdhui,qn'à  l'instant,  si  mon  malheurvons  touche, \nL'arrêt  de  mon  rival  sorte  de  votre  bouche!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "notre",
+     "dist": 31,
+     "byte_offset": 24809,
+     "window": "  d'avance; \nIl  commande  en  tyran,  il  m'accuse,  il  m'offense. \nOh!  que  de  notre  hymen  le  joug  sera  pesant!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "notre",
+     "dist": 92,
+     "byte_offset": 24870,
+     "window": "ffense. \nOh!  que  de  notre  hymen  le  joug  sera  pesant! \nDans  les  soins  de  Montfort  quel  respect  séduisant  !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "connaître",
+     "dist": 0,
+     "byte_offset": 25206,
+     "window": "cœur. \nAu  pied  de  tes  autels,  ô  mon  souverain  maître, \nRends  la  force  à  ce  cœur  honteux  de  se  connaître!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "chercher",
+     "dist": 16,
+     "byte_offset": 28101,
+     "window": "\nTant  de  gloire  à  mes  yeux  renrl  l'orgueil  excusable, \nJe  vois  trop  de  héros  pour  chercher  un  coupable  !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "contre",
+     "dist": 34,
+     "byte_offset": 28566,
+     "window": "icains  ! \nCombien  plus  redoutable  à  sa  jeune  noblesse, \nDe  ses  sujets  contre  elle  il  soutint  la  faiblesse!"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "exhaler",
+     "dist": 96,
+     "byte_offset": 31544,
+     "window": " s'exile, \nPour  exhaler  sans  crainte  une  haine  inutile? \nLui,  qu'il  ébranle  un  joug  par  le  temps  affermi  !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "couronner",
+     "dist": 65,
+     "byte_offset": 34244,
+     "window": " de  ma  conquête \nPuissé-je  de  mes  mains  couronner  votre  tète \nEn  m'unissant  à  vous  par  un  nœud  solennel  !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "votre",
+     "dist": 32,
+     "byte_offset": 36158,
+     "window": " rival...  L'ingrat...  je  suis  trahi  1 \n\nAMELIE. \n\nSeigneur,  à  quel  penser  votre  esprit  s'abandonne  ? \nQuoi  !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "votre",
+     "dist": 55,
+     "byte_offset": 36181,
+     "window": " je  suis  trahi  1 \n\nAMELIE. \n\nSeigneur,  à  quel  penser  votre  esprit  s'abandonne  ? \nQuoi  !  vous  le  soupçonnez!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "maître",
+     "dist": 10,
+     "byte_offset": 39041,
+     "window": "isans  nombreux,  que  la  France  a  vus  naître, \nEncensent  dans  vos  mains  le  sceptre  de  leur  maître  : \nHélas!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "revoir",
+     "dist": 17,
+     "byte_offset": 40906,
+     "window": " \n\nL'ai-je  bien  entendu?  c'est  à  moi  qu'il  s'adresse'. \nC'est  à  moi  qu'il  défend  de  revoir  la  princesse  !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "revoir",
+     "dist": 30,
+     "byte_offset": 40919,
+     "window": "ien  entendu?  c'est  à  moi  qu'il  s'adresse'. \nC'est  à  moi  qu'il  défend  de  revoir  la  princesse  ! \nMe  bannir!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "votre",
+     "dist": 7,
+     "byte_offset": 41419,
+     "window": " vengez-moi,  vengeuns-nous  : \n\nPROCIDA. \n\nEh!  de -qui? \n\nLORÈDA.N . \n\nDe  Mont  for  t. \n\nPROCIDA. \n\nDe  votre  ami  !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "heure",
+     "dist": 55,
+     "byte_offset": 52440,
+     "window": "inistres  de  Dieu  ? \nComment  doit-il  périr?  à  quelle  heure?  en  quel  lieu? \nQuels  sont  les  assassins?  hélas!"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "plaindre",
+     "dist": 13,
+     "byte_offset": 55848,
+     "window": "\n\nQu'à  l'inspirer  jamais  l'amour  me  fît  descendre,  ■ \n\nEt  qu'on  dût  m'abaisser  jusqu'à  plaindre  mon  sort  !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "satisfaire",
+     "dist": 56,
+     "byte_offset": 56374,
+     "window": "e  souffrir. \nAux  mânes. de  ses  rois  brûlant  de  satisfaire, \nS'il  formait  contre  vous  un  complot  sanguinaire!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "votre",
+     "dist": 37,
+     "byte_offset": 57548,
+     "window": "  je  tiiomphe,  ô  Dieu  !  du  plus  noir  des  forfaits! \nQui'!  moi!  de  votre  mort?  et  vous  l'avez  pu  croire!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "votre",
+     "dist": 94,
+     "byte_offset": 57605,
+     "window": "s! \nQui'!  moi!  de  votre  mort?  et  vous  l'avez  pu  croire! \nJe  poursuis  de  mes  vœux  cette  horrible  victoire!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "votre",
+     "dist": 33,
+     "byte_offset": 67234,
+     "window": "h  !  quand  on  est  heureux,  qu'on  pardonne  aisément! \n\nLORÉDAN. \n\nMoi,  de  votre  pitié  j'accepterais  ma  grâce!"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "titre",
+     "dist": 52,
+     "byte_offset": 68868,
+     "window": "itre. \nPourquoi  m'a-t-il  banni?  par  quel  ordre,  à  quel  titre? \nQue  lui  dois-tu  toi-même?  ô  pardon  généreux!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "tppprobre",
+     "dist": 26,
+     "byte_offset": 82165,
+     "window": "Mj,  nourris  des  bienfaits  d'une  cour  étran^jère, \ni  y  cacher  de  son  sort  Tppprobre  et  la  misère? \nHelas  !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "sceptre",
+     "dist": 37,
+     "byte_offset": 82264,
+     "window": " la  misère? \nHelas  !  si  vous  fuyez,  par  *\\\"ous  abandonné, \nA  quel  sceptre  pesant  ce  peuple  est  enchaîné  !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "dernière",
+     "dist": 34,
+     "byte_offset": 90318,
+     "window": "r  insolente  audace. \n\nLORÉDAN,  Varrêtant  au  fond  du  thmtre. \nPour  la  dernière  fois,  que  ton  ami  t'embrasse!"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "venir",
+     "dist": 0,
+     "byte_offset": 99952,
+     "window": "e  rivage. \nPuisse  mon  père  un  jour,  couronnant  son  ouvrage, \nLaisser  un  grand  exemple  aux  siècles  à  venir!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "propre",
+     "dist": 11,
+     "byte_offset": 106176,
+     "window": "ges  des  sens. \nOffrir  un  encens  pur  et  des  vœux  innocents? \n0  ciel  !  defendez-moi  de  ma  propre  faiblesse!"
+    }
+   ]
+  },
+  {
+   "file": "delavigne-paria.txt",
+   "desc": "Delavigne, Le Paria (tragédie, 1821)",
+   "chars": 136293,
+   "bangs": 335,
+   "candidates": 30,
+   "windows": [
+    {
+     "prep": "de",
+     "infinitive_shaped": "tromper",
+     "dist": 54,
+     "byte_offset": 12185,
+     "window": "sa  vue. \nQue  de  fois  dans  ce  cœur,  honteux  de  la  tromper, \nJe  retins  mon  secret  qui  voulait  m'échapper  !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "obscure",
+     "dist": 0,
+     "byte_offset": 13338,
+     "window": "\n0  dieux! \n\nIDAMORE. \n\nQue  ma  voix  vous  rassure. \n\nNÉALA. \n\nQuoi!  j'ai  percé  l'horreur  de  cette  nuit  obscure!"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "vanter",
+     "dist": 26,
+     "byte_offset": 17861,
+     "window": "r  1 \nNon',  quel  est  cet  époux?  est-il  prince  ou  bramine? \nOh  !  qu'il  a  dû  vanter  son  illustre  origine  !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "arracher",
+     "dist": 13,
+     "byte_offset": 18810,
+     "window": "\n\nC'est  mon  vœu,  mon  espoir  !  eh  bien,  qu'il  se  présente, \nQu'il  vienne  de  mes  bras  arracher  mon  amante!"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "voir",
+     "dist": 27,
+     "byte_offset": 22935,
+     "window": "trop  aimée. \nAdieu.  Soleil,  adieu,  demain  tu  reviendras. \nEt  mes  yeux  pour  te  voir  ne  se  rouvriront  pas  !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "lumière",
+     "dist": 2,
+     "byte_offset": 26574,
+     "window": " carrière \nBrille,  comme  le  tien,  de  feux  éblouissants. \nQu'il  meure  comme  toi  dans  des  flots  de  lumière  !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "voir",
+     "dist": 57,
+     "byte_offset": 29603,
+     "window": "e  ; \nSois  sans  crainte. \n\nAKÉBAR. \n\n0  bonheur  de  se  voir  adoré , \nQu'avec  emportement  mon  cœur  t'a  désiré  !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "l'écraser",
+     "dist": 2,
+     "byte_offset": 33857,
+     "window": "arrache  : \nMa  puissance,  il  l'outrage,  il  l'ose  mépriser  ; \nSous  mes  foudres  sacrés  j'hésite  à  l'écraser  !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "l'écraser",
+     "dist": 12,
+     "byte_offset": 33867,
+     "window": " \nMa  puissance,  il  l'outrage,  il  l'ose  mépriser  ; \nSous  mes  foudres  sacrés  j'hésite  à  l'écraser  ! \nDieux  !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "terre",
+     "dist": 2,
+     "byte_offset": 33983,
+     "window": "ux  !  ma  tète  a  blanchi  dans  mon  saint  ministère,  • \nEt  vous  donnez  sa  hont«  en  spectacle  à  la  terre  !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "d'imposture",
+     "dist": 0,
+     "byte_offset": 43811,
+     "window": "!... \nDes  biens  communs  à  tous,  les  hommes  l'ont  exclus, \nEt  tu  t'es  fait  leur  frère  à  force  d'imposture!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "dire",
+     "dist": 77,
+     "byte_offset": 44205,
+     "window": " \nDe  la  craindre  en  l'aimant,  de  dire  avec  effroi  : \nCe  cœur,  s'il  me  connaît,  va  se  fermer  pour  moi  !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "tètre",
+     "dist": 65,
+     "byte_offset": 48964,
+     "window": "uronné  par  vos  mains,  que  j'étais  fier  de  Tètre  î \nAh  1  vous  m'aimiez  alors,  vous  m'admiriez  peut-être  !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "colère",
+     "dist": 2,
+     "byte_offset": 52767,
+     "window": "Ahî  cent  fois  davantage...  Et  Dieu,  lui,  notre  père, \nNeùt  fait  de  tant  d'amour  quun  jeu  de  sa  colère  !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "craimlre",
+     "dist": 0,
+     "byte_offset": 55457,
+     "window": "Un  cœurtel  que  le  mien  n'est  pas  longtemps  à  jilaindre, \nEt  préfère  un  refus  au  tourment  de  le  craimlre!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "couler",
+     "dist": 13,
+     "byte_offset": 60389,
+     "window": "c  eux. \nLa  fête  qu'on  prépare  en  va  rompre  les  charmes, \nEt  vous  vous  étonnez  de  voir  couler  mes  larmes!"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "mesurer",
+     "dist": 9,
+     "byte_offset": 70927,
+     "window": "ucun  bruit; \nJe  m'y  retrouvai  seul,  et  seul  avec  la  nuit. \nQue  son  astre  à  regret  sembla  mesurer  l'heure!"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "mesurer",
+     "dist": 56,
+     "byte_offset": 70974,
+     "window": "ul  avec  la  nuit. \nQue  son  astre  à  regret  sembla  mesurer  l'heure! \nCombien  ma  solitude  agrandit  ma  demeure!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "victoire",
+     "dist": 2,
+     "byte_offset": 87022,
+     "window": "ses  pas  Akcbar  nous  appelle. \nLE   cnoEiR. \n\nA  la  beauté  rendons  hoimeur! \nHonneur  au  fils  de  la  victoire  !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "guerrière",
+     "dist": 36,
+     "byte_offset": 95122,
+     "window": "noble  hymen,  dont  la  solennité \nUnit  la  tribu  sainte  à  la  tribu  guerrière, \n\nEt  le  courage  à  la  beauté  !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "mourir",
+     "dist": 2,
+     "byte_offset": 99315,
+     "window": "rmes, \nSes  bras  que  malgré  lui  je  force  à  se  rouvrir... \nIl  m'embrasse,  frappez,  c'est  à  moi  de  mourir  !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "gloire",
+     "dist": 10,
+     "byte_offset": 100884,
+     "window": "éfenseurs  de  l'État,  loin  de  moi  la  pensée \n\n\n244  I-E   PARIA. \n\nD'immoler  votre  chef  à  ma  gloire  offensée!"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "engloutir",
+     "dist": 2,
+     "byte_offset": 106882,
+     "window": "es  victimes? \n\n\nLA    PREMIEI \n\n\nÉteignez,  éteignez  la  flamme  des  abîmes, \nQui  s'ouvrent  pour  nous  engloutir  !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "refuser",
+     "dist": 72,
+     "byte_offset": 119134,
+     "window": "s  fuyons? \n\nDût  le  jour  à  nos  pas  refuser  ses  rayons, \n\nSous  ces  murs  menaçants  que  rien  ne  te  retienne!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "asseoir",
+     "dist": 37,
+     "byte_offset": 120229,
+     "window": "evance, \nC'est  moi  qui  suis  ton  guide,  et  quelle  volupté \nDe  nous  asseoir  tous  deux  où  seul  je  m'arrêtai!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "déplorer",
+     "dist": 13,
+     "byte_offset": 120604,
+     "window": "t  flétris,  leur  enceinte  est  déserte... \n\n\n256  LE    PARIA \n\nQu'ils  cessent  désormais  de  déplorer  ta  perte  !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "déplorer",
+     "dist": 31,
+     "byte_offset": 120622,
+     "window": " enceinte  est  déserte... \n\n\n256  LE    PARIA \n\nQu'ils  cessent  désormais  de  déplorer  ta  perte  ! \nOui,  le  voilà!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "déplorer",
+     "dist": 44,
+     "byte_offset": 120635,
+     "window": "t  déserte... \n\n\n256  LE    PARIA \n\nQu'ils  cessent  désormais  de  déplorer  ta  perte  ! \nOui,  le  voilà!  c'est  lui!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "quitter",
+     "dist": 0,
+     "byte_offset": 123600,
+     "window": "ence \nTrompait  de  mes  terreurs  la  juste  violence? \nH  meurt!  c'est  pour  toujours  qu'il  vient  de  me  quitter!"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "déchirer",
+     "dist": 76,
+     "byte_offset": 126632,
+     "window": "«  Choisissez,  a-t-il  dit,  pour  déchirer  mes  lianes, \n\n«  Ces  rocs,  dont  j'écrasais  vos  ennemis  tremblants  !"
+    }
+   ]
+  },
+  {
+   "file": "delavigne-famille-luther.txt",
+   "desc": "Delavigne, Une famille au temps de Luther (tragédie, 1836)",
+   "chars": 79527,
+   "bangs": 329,
+   "candidates": 16,
+   "windows": [
+    {
+     "prep": "de",
+     "infinitive_shaped": "votre",
+     "dist": 44,
+     "byte_offset": 1903,
+     "window": "ui,  les  yeux  fermés  à  la  lumière, \nMourut  dans  les  liens  de  votre  foi  première0 \nLui,  si  tendre,  si  bon!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "soupir",
+     "dist": 2,
+     "byte_offset": 2793,
+     "window": "aphaël. \nDont  les  larmbeaux  brûlants  sont  tombés  sur  l'autel. \n\nLUIGI. \n\nHélas  ! \n\nTHÉCLA. \n\nPoint  de  soupir  !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "voir",
+     "dist": 110,
+     "byte_offset": 19308,
+     "window": "Pour  voir  si  du  ruisseau  rien  n'arrête  la  course  : \nQuand  il  suit  son  chemin  il  fait  un  bruit  si  doux!"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "l'heure",
+     "dist": 30,
+     "byte_offset": 20242,
+     "window": "is  malgré  lui  j'ai  porté, \n\nJe  vais  donc  le  revoir  aujourd'hui,  tout  à  l'heure, \n\nL'embrasser  le  premier  !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "peindre",
+     "dist": 13,
+     "byte_offset": 30164,
+     "window": "hancelant  sous  le  poids  d'un  bonheur  qui  m'oppresse. \nPuis-je  trouver  des  mots  pour  en  peindre  l'ivresse  !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "l'autre",
+     "dist": 0,
+     "byte_offset": 32032,
+     "window": "s  la  paix  du  Seigneur. \n\nthécla,  à  Paolo  avec  effusion. \nUnis,  toujours  unis,  en  priant  l'un  pour  l'autre!"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "l'écriture",
+     "dist": 0,
+     "byte_offset": 32769,
+     "window": ";  car  j'estime \nQu'il  n'a  pu,  n'ayant  rien,  manger  sa  légitime. \n\ntiiécla,  sévèrement. \nRespect  à  l'Écriture!"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "dire",
+     "dist": 15,
+     "byte_offset": 36627,
+     "window": "it,  l'air  qui  passe  ou  le  vent  qui  soupire. \nEmprunte,  en  s'animant,  une  voix  pour  te  dire  : \ni  Reste  !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "dire",
+     "dist": 16,
+     "byte_offset": 38062,
+     "window": ".  0  Luigi,  les  transports  qu'il  inspire \n\nN'ont-ils  pas  à  leur  tour  une  voix  pour  te  dire  : \n\n«  Viens  !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "blasphémer",
+     "dist": 6,
+     "byte_offset": 46785,
+     "window": "e  fraternelle, \nLui  comprimant  le  cœur  dans  un  dernier  adieu, \nÉtoufferait  sa  voix  prête  à  blasphémer  Dieu!"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "père",
+     "dist": 0,
+     "byte_offset": 60770,
+     "window": "\nLUIGI. \n\nTout! \nBLCI,  qui  s'est  mise  à  genoux  sur  le  seuil  de  ta  porte, \nà  Paolo. \n\nPardon  pour  mon  père!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "votre",
+     "dist": 7,
+     "byte_offset": 61910,
+     "window": "t  asseoir. \nToi,  la  ;  ton  frère,  ici; \nVotre  mère  entre  vous. \n\nelci,  a  Paolo. \n\nPrès  de  vous  votre  fille!"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "connaître",
+     "dist": 0,
+     "byte_offset": 63677,
+     "window": "Par  qui  de  mes  beaux  ans  la  verdeur  va  renaître  ! \n\nELCI. \n\nQue  j'appris  à  chérir  avant  de  le  connaître!"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "revoir",
+     "dist": 0,
+     "byte_offset": 70173,
+     "window": " de  nous  suit  son  précepte.  Adieu, \n\n{Revenant  sur  ses  pas  pour  lui  serrer  la  main.) \nOu  plutôt  à  revoir!"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "redemander",
+     "dist": 37,
+     "byte_offset": 71620,
+     "window": "moi  peut-être  : \nPar  le  jeune  affaibli,  devais- je  à  ce  poison \nRedemander  ma  force  et  livrer  ma  raison  !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "repentir",
+     "dist": 53,
+     "byte_offset": 74969,
+     "window": "mon  vieux  père, \nMurmure  à  son  chevet  des  mots  de  repentir, \nEt  sauve  en  L'assistant  l'àme  qui  va  partir!"
+    }
+   ]
+  }
+ ],
+ "grand": {
+  "chars": 322004,
+  "bangs": 987,
+  "candidates": 75
+ }
+}

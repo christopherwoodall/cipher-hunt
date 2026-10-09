@@ -1,0 +1,3012 @@
+{
+ "target": "gov-excl-inf-recall-drama",
+ "date": "2026-10-09",
+ "census_script": "code/crowd17/next-token/gov_excl_inf_recall_drama_census.py",
+ "census_json": "code/crowd17/next-token/gov-excl-inf-recall-drama_census.json",
+ "corpus": {
+  "files": 14,
+  "chars": 2969582,
+  "note": "14 files / 14 unique plays, one edition per play (hugo-hernani-1870.txt kept; hugo-hernani.txt dropped)"
+ },
+ "auto_A_denylist_source": "prose parent classification (160 entries)",
+ "tight_decisions": {
+  "1": {
+   "cause": "A",
+   "note": "auto denylist: guerre"
+  },
+  "2": {
+   "cause": "A",
+   "note": "auto denylist: titre"
+  },
+  "3": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "4": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "5": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "6": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "7": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "8": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "9": {
+   "cause": "A",
+   "note": "auto denylist: encore"
+  },
+  "11": {
+   "cause": "A",
+   "note": "auto denylist: première"
+  },
+  "12": {
+   "cause": "A",
+   "note": "auto denylist: père"
+  },
+  "14": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "15": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "16": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "19": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "20": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "21": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "23": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "24": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "25": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "28": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "30": {
+   "cause": "A",
+   "note": "auto denylist: notre"
+  },
+  "31": {
+   "cause": "A",
+   "note": "auto denylist: notre"
+  },
+  "32": {
+   "cause": "A",
+   "note": "auto denylist: notre"
+  },
+  "34": {
+   "cause": "A",
+   "note": "auto denylist: notre"
+  },
+  "39": {
+   "cause": "A",
+   "note": "auto denylist: dernier"
+  },
+  "50": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "51": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "52": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "61": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "63": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "64": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "65": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "66": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "67": {
+   "cause": "A",
+   "note": "auto denylist: maître"
+  },
+  "68": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "69": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "71": {
+   "cause": "A",
+   "note": "auto denylist: titre"
+  },
+  "72": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "74": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "76": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "77": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "78": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "79": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "80": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "82": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "83": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "85": {
+   "cause": "A",
+   "note": "auto denylist: contre"
+  },
+  "86": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "87": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "88": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "89": {
+   "cause": "A",
+   "note": "auto denylist: lettre"
+  },
+  "90": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "91": {
+   "cause": "A",
+   "note": "auto denylist: manière"
+  },
+  "93": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "96": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "97": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "100": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "101": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "106": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "112": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "113": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "115": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "126": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "128": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "132": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "134": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "135": {
+   "cause": "A",
+   "note": "auto denylist: lettre"
+  },
+  "136": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "137": {
+   "cause": "A",
+   "note": "auto denylist: métier"
+  },
+  "138": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "140": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "141": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "142": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "143": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "144": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "146": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "147": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "148": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "149": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "151": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "152": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "153": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "155": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "157": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "159": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "160": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "163": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "164": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "166": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "167": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "168": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "171": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "173": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "174": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "175": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "176": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "177": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "178": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "179": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "180": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "181": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "182": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "186": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "194": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "202": {
+   "cause": "A",
+   "note": "auto denylist: cher"
+  },
+  "203": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "205": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "208": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "216": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "217": {
+   "cause": "A",
+   "note": "auto denylist: cher"
+  },
+  "218": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "219": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "220": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "221": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "222": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "223": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "224": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "225": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "226": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "227": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "229": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "230": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "232": {
+   "cause": "A",
+   "note": "auto denylist: d'autre"
+  },
+  "233": {
+   "cause": "A",
+   "note": "auto denylist: moindre"
+  },
+  "234": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "235": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "236": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "237": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "238": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "239": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "240": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "243": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "244": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "245": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "246": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "248": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "249": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "250": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "251": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "252": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "253": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "254": {
+   "cause": "A",
+   "note": "auto denylist: chambre"
+  },
+  "256": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "257": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "258": {
+   "cause": "A",
+   "note": "auto denylist: entre"
+  },
+  "259": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "260": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "261": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "262": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "263": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "264": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "265": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "266": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "267": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "268": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "269": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "270": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "272": {
+   "cause": "A",
+   "note": "auto denylist: notre"
+  },
+  "273": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "274": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "275": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "277": {
+   "cause": "A",
+   "note": "auto denylist: notre"
+  },
+  "279": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "280": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "282": {
+   "cause": "A",
+   "note": "auto denylist: frère"
+  },
+  "284": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "286": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "287": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "288": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "289": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "290": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "292": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "296": {
+   "cause": "A",
+   "note": "auto denylist: notre"
+  },
+  "298": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "299": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "300": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "301": {
+   "cause": "A",
+   "note": "auto denylist: rivière"
+  },
+  "302": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "303": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "304": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "305": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "306": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "307": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "308": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "310": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "311": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "312": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "313": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "315": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "317": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "318": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "319": {
+   "cause": "A",
+   "note": "auto denylist: dernière"
+  },
+  "320": {
+   "cause": "A",
+   "note": "auto denylist: dernière"
+  },
+  "321": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "324": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "325": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "326": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "327": {
+   "cause": "A",
+   "note": "auto denylist: notre"
+  },
+  "328": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "332": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "335": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "336": {
+   "cause": "A",
+   "note": "gaultier (proper name)"
+  },
+  "337": {
+   "cause": "A",
+   "note": "auto denylist: autre"
+  },
+  "341": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "345": {
+   "cause": "A",
+   "note": "auto denylist: père"
+  },
+  "348": {
+   "cause": "A",
+   "note": "auto denylist: plaisir"
+  },
+  "356": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "358": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "360": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "361": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "362": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "363": {
+   "cause": "A",
+   "note": "auto denylist: l'empire"
+  },
+  "364": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "365": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "366": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "367": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "368": {
+   "cause": "A",
+   "note": "auto denylist: l'empire"
+  },
+  "370": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "371": {
+   "cause": "A",
+   "note": "auto denylist: frère"
+  },
+  "372": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "373": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "374": {
+   "cause": "A",
+   "note": "auto denylist: mystère"
+  },
+  "375": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "378": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "380": {
+   "cause": "A",
+   "note": "auto denylist: lumière"
+  },
+  "385": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "393": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "399": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "403": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "404": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "405": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "406": {
+   "cause": "A",
+   "note": "auto denylist: l'autre"
+  },
+  "408": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "409": {
+   "cause": "A",
+   "note": "auto denylist: histoire"
+  },
+  "411": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "414": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "415": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "416": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "417": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "418": {
+   "cause": "A",
+   "note": "auto denylist: l'empire"
+  },
+  "420": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "421": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "422": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "423": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "428": {
+   "cause": "A",
+   "note": "auto denylist: notre"
+  },
+  "429": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "430": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "431": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "434": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "435": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "436": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "439": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "440": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "441": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "442": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "444": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "445": {
+   "cause": "A",
+   "note": "auto denylist: l'heure"
+  },
+  "446": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "449": {
+   "cause": "A",
+   "note": "auto denylist: arrière"
+  },
+  "451": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "452": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "453": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "454": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "458": {
+   "cause": "A",
+   "note": "auto denylist: l'autre"
+  },
+  "459": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "462": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "464": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "467": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "468": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "472": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "473": {
+   "cause": "A",
+   "note": "auto denylist: papier"
+  },
+  "474": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "475": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "476": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "478": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "479": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "481": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "482": {
+   "cause": "A",
+   "note": "auto denylist: lettre"
+  },
+  "483": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "485": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "486": {
+   "cause": "A",
+   "note": "auto denylist: signature"
+  },
+  "487": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "489": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "491": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "494": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "495": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "496": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "498": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "499": {
+   "cause": "A",
+   "note": "auto denylist: notre"
+  },
+  "501": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "502": {
+   "cause": "A",
+   "note": "auto denylist: contre"
+  },
+  "505": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "506": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "514": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "515": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "516": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "520": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "521": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "522": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "523": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "525": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "526": {
+   "cause": "A",
+   "note": "auto denylist: maître"
+  },
+  "527": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "529": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "530": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "544": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "545": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "546": {
+   "cause": "A",
+   "note": "auto denylist: chambre"
+  },
+  "547": {
+   "cause": "A",
+   "note": "auto denylist: chambre"
+  },
+  "549": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "550": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "551": {
+   "cause": "A",
+   "note": "auto denylist: autre"
+  },
+  "552": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "553": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "554": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "555": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "556": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "557": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "558": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "559": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "560": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "562": {
+   "cause": "GENUINE",
+   "note": "Oh ! non… pour ne pas la montrer !… — \"!\" terminates the pour-infinitive phrase itself; corrective retort; no finite verb"
+  },
+  "563": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "567": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "568": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "569": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "570": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "573": {
+   "cause": "A",
+   "note": "auto denylist: maître"
+  },
+  "574": {
+   "cause": "A",
+   "note": "auto denylist: chambre"
+  },
+  "575": {
+   "cause": "A",
+   "note": "auto denylist: chambre"
+  },
+  "576": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "577": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "578": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "581": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "582": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "583": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "585": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "586": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "587": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "589": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "590": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "591": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "592": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "593": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "596": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "597": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "601": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "602": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "604": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "605": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "608": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "609": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "610": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "611": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "612": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "613": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "614": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "615": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "616": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "617": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "618": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "619": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "620": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "621": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "622": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "623": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "624": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "627": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "628": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "629": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "630": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "631": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "633": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "634": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "635": {
+   "cause": "A",
+   "note": "auto denylist: affaire"
+  },
+  "637": {
+   "cause": "A",
+   "note": "auto denylist: autre"
+  },
+  "638": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "640": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "641": {
+   "cause": "A",
+   "note": "auto denylist: nature"
+  },
+  "642": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "644": {
+   "cause": "A",
+   "note": "auto denylist: père"
+  },
+  "645": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "646": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "648": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "649": {
+   "cause": "A",
+   "note": "auto denylist: plaisir"
+  },
+  "650": {
+   "cause": "A",
+   "note": "auto denylist: lettre"
+  },
+  "651": {
+   "cause": "A",
+   "note": "auto denylist: l'avenir"
+  },
+  "652": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "653": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "656": {
+   "cause": "A",
+   "note": "auto denylist: livre"
+  },
+  "657": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "658": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "660": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "661": {
+   "cause": "A",
+   "note": "auto denylist: chambre"
+  },
+  "666": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "668": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "669": {
+   "cause": "A",
+   "note": "auto denylist: prêtre"
+  },
+  "670": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "673": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "674": {
+   "cause": "A",
+   "note": "auto denylist: mère"
+  },
+  "678": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "679": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "680": {
+   "cause": "A",
+   "note": "auto denylist: mémoire"
+  },
+  "682": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "684": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "685": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "687": {
+   "cause": "A",
+   "note": "auto denylist: lettre"
+  },
+  "688": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "689": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "691": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "693": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "694": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "696": {
+   "cause": "A",
+   "note": "auto denylist: guerre"
+  },
+  "697": {
+   "cause": "A",
+   "note": "auto denylist: notre"
+  },
+  "698": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "699": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "701": {
+   "cause": "A",
+   "note": "auto denylist: l'heure"
+  },
+  "702": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "703": {
+   "cause": "A",
+   "note": "auto denylist: l'heure"
+  },
+  "704": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "705": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "707": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "708": {
+   "cause": "A",
+   "note": "auto denylist: chambre"
+  },
+  "709": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "710": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "712": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "714": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "715": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "716": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "717": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "718": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "720": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "721": {
+   "cause": "A",
+   "note": "auto denylist: aventure"
+  },
+  "723": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "727": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "728": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "729": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "730": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "732": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "733": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "735": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "737": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "738": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "739": {
+   "cause": "A",
+   "note": "auto denylist: titre"
+  },
+  "741": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "742": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "743": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "744": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "746": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "748": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "749": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "753": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "756": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "757": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "758": {
+   "cause": "A",
+   "note": "auto denylist: nature"
+  },
+  "759": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "761": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "762": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "763": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "766": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "767": {
+   "cause": "A",
+   "note": "auto denylist: mère"
+  },
+  "768": {
+   "cause": "A",
+   "note": "auto denylist: père"
+  },
+  "770": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "773": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "774": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "775": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "776": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "779": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "780": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "781": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "783": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "784": {
+   "cause": "A",
+   "note": "auto denylist: voire"
+  },
+  "785": {
+   "cause": "A",
+   "note": "auto denylist: colère"
+  },
+  "786": {
+   "cause": "A",
+   "note": "auto denylist: colère"
+  },
+  "789": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "790": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "791": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "792": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "793": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "795": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "798": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "799": {
+   "cause": "A",
+   "note": "auto denylist: encore"
+  },
+  "804": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "805": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "807": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "809": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "810": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "811": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "812": {
+   "cause": "A",
+   "note": "auto denylist: lettre"
+  },
+  "813": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "815": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "816": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "819": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "820": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "821": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "822": {
+   "cause": "A",
+   "note": "auto denylist: père"
+  },
+  "824": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "826": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "828": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "829": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "832": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "833": {
+   "cause": "A",
+   "note": "auto denylist: plaisir"
+  },
+  "834": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "835": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "837": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "838": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "841": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "842": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "843": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "844": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "846": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "847": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "848": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "849": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "852": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "853": {
+   "cause": "A",
+   "note": "auto denylist: guerre"
+  },
+  "854": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "855": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "856": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "857": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "858": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "859": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "860": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "861": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "862": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "865": {
+   "cause": "A",
+   "note": "auto denylist: première"
+  },
+  "866": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "867": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "869": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "870": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "872": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "873": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "874": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "875": {
+   "cause": "A",
+   "note": "auto denylist: notre"
+  },
+  "876": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "877": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "879": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "883": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "884": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "885": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "886": {
+   "cause": "A",
+   "note": "auto denylist: mystère"
+  },
+  "887": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "888": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "889": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "891": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "892": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "894": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "896": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "897": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "899": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "900": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "901": {
+   "cause": "A",
+   "note": "auto denylist: papier"
+  },
+  "902": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "903": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "904": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "906": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "907": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "908": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "909": {
+   "cause": "A",
+   "note": "auto denylist: voire"
+  },
+  "910": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "912": {
+   "cause": "A",
+   "note": "auto denylist: voire"
+  },
+  "914": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "915": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "916": {
+   "cause": "A",
+   "note": "auto denylist: chambre"
+  },
+  "917": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "922": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "923": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "924": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "925": {
+   "cause": "A",
+   "note": "auto denylist: titre"
+  },
+  "926": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "929": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "930": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "931": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "933": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "935": {
+   "cause": "A",
+   "note": "auto denylist: mère"
+  },
+  "936": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "938": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "939": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "940": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "941": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "942": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "943": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "945": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "946": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "947": {
+   "cause": "A",
+   "note": "auto denylist: l'heure"
+  },
+  "948": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "949": {
+   "cause": "A",
+   "note": "auto denylist: mère"
+  },
+  "950": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "952": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "953": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "954": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "956": {
+   "cause": "A",
+   "note": "auto denylist: voire"
+  },
+  "957": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "958": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "959": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "960": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "961": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "962": {
+   "cause": "A",
+   "note": "auto denylist: histoire"
+  },
+  "963": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "964": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "965": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "966": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "967": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "968": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "969": {
+   "cause": "A",
+   "note": "auto denylist: lettre"
+  },
+  "970": {
+   "cause": "A",
+   "note": "auto denylist: notre"
+  },
+  "971": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "972": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "973": {
+   "cause": "A",
+   "note": "auto denylist: lettre"
+  },
+  "974": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "975": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "976": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "977": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "978": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "980": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "985": {
+   "cause": "A",
+   "note": "auto denylist: nécessaire"
+  },
+  "986": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "989": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "993": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "994": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "998": {
+   "cause": "A",
+   "note": "auto denylist: espoir"
+  },
+  "1001": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1002": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1003": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1005": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1007": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1009": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "1011": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1014": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "1015": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1019": {
+   "cause": "A",
+   "note": "auto denylist: l'autre"
+  },
+  "1022": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1023": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1024": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1025": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "1026": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1032": {
+   "cause": "A",
+   "note": "auto denylist: première"
+  },
+  "1036": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1037": {
+   "cause": "A",
+   "note": "auto denylist: mère"
+  },
+  "1051": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1053": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1054": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1060": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1062": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1071": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1072": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "1073": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "1077": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1078": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1079": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1081": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1084": {
+   "cause": "A",
+   "note": "auto denylist: mère"
+  },
+  "1087": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1088": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "1089": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "1090": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "1091": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1092": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1093": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1095": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "1096": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1097": {
+   "cause": "A",
+   "note": "auto denylist: père"
+  },
+  "1098": {
+   "cause": "A",
+   "note": "auto denylist: père"
+  },
+  "1100": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1101": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1102": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1103": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1104": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1105": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1106": {
+   "cause": "A",
+   "note": "auto denylist: ordre"
+  },
+  "1107": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1108": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1109": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1110": {
+   "cause": "A",
+   "note": "auto denylist: père"
+  },
+  "1111": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "1112": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1113": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1114": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1115": {
+   "cause": "A",
+   "note": "auto denylist: autre"
+  },
+  "1116": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1117": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1120": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1121": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1125": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1127": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1131": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1132": {
+   "cause": "A",
+   "note": "auto denylist: père"
+  },
+  "1135": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1136": {
+   "cause": "A",
+   "note": "auto denylist: chambre"
+  },
+  "1137": {
+   "cause": "A",
+   "note": "auto denylist: chambre"
+  },
+  "1138": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1139": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1140": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1141": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1142": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "1143": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "1145": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1146": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1147": {
+   "cause": "A",
+   "note": "auto denylist: heure"
+  },
+  "1148": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1151": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1152": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1153": {
+   "cause": "A",
+   "note": "auto denylist: votre"
+  },
+  "1157": {
+   "cause": "A",
+   "note": "auto denylist: guerre"
+  },
+  "1158": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1159": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1161": {
+   "cause": "A",
+   "note": "auto denylist: guerre"
+  },
+  "1162": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1163": {
+   "cause": "A",
+   "note": "auto denylist: autre"
+  },
+  "1166": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1167": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1170": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1175": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1180": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1181": {
+   "cause": "A",
+   "note": "auto denylist: autre"
+  },
+  "1182": {
+   "cause": "A",
+   "note": "auto denylist: manière"
+  },
+  "1183": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1184": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1185": {
+   "cause": "A",
+   "note": "auto denylist: mère"
+  },
+  "1186": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1188": {
+   "cause": "A",
+   "note": "auto denylist: mère"
+  },
+  "1190": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1191": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1192": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1195": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1198": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1202": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1203": {
+   "cause": "A",
+   "note": "auto denylist: misère"
+  },
+  "1204": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1205": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1206": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1207": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1209": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1211": {
+   "cause": "A",
+   "note": "auto denylist: vôtre"
+  },
+  "1212": {
+   "cause": "E",
+   "note": "interrogative matrix owns the \"?\""
+  },
+  "1213": {
+   "cause": "A",
+   "note": "auto denylist: plaisir"
+  },
+  "1215": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1216": {
+   "cause": "A",
+   "note": "auto denylist: mère"
+  },
+  "1217": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1218": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1219": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1220": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1222": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1225": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1226": {
+   "cause": "A",
+   "note": "auto denylist: chambre"
+  },
+  "1230": {
+   "cause": "B",
+   "note": "finite-matrix embedding; \"!\" belongs to the matrix"
+  },
+  "1231": {
+   "cause": "A",
+   "note": "auto denylist: premier"
+  }
+ },
+ "wide_scan": {
+  "candidates": 484,
+  "method": "triage: flagged 149 windows with no finite-verb/question markers in tail; all excluded (finite matrix B, exclaimed NP C, or other exclaimed element); 0 genuine",
+  "genuine": 0
+ },
+ "genuine_total": 1
+}

@@ -1,0 +1,2669 @@
+{
+ "files": [
+  {
+   "file": "hugo-roi-samuse.txt",
+   "desc": "Hugo, Le Roi s'amuse (drame, 1832)",
+   "chars": 251766,
+   "bangs": 1690,
+   "candidates": 100,
+   "windows": [
+    {
+     "prep": "de",
+     "infinitive_shaped": "vivre",
+     "dist": 1,
+     "byte_offset": 10146,
+     "window": "me plaît.\nTout pouvoir, tout vouloir, tout avoir ! Triboulet !\nQuel plaisir d’être au monde, et qu’il fait bon de vivre !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "vivre",
+     "dist": 16,
+     "byte_offset": 10161,
+     "window": "pouvoir, tout vouloir, tout avoir ! Triboulet !\nQuel plaisir d’être au monde, et qu’il fait bon de vivre !\nQuel bonheur !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "brouiller",
+     "dist": 22,
+     "byte_offset": 11590,
+     "window": "ienne , d’un air mystérieux.\nHé, voilà ce cher duc ! Mes amis ! du nouveau !\nUne chose à brouiller le plus sage cerveau !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "brouiller",
+     "dist": 44,
+     "byte_offset": 11612,
+     "window": "rieux.\nHé, voilà ce cher duc ! Mes amis ! du nouveau !\nUne chose à brouiller le plus sage cerveau !\nUne chose admirable !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "brouiller",
+     "dist": 64,
+     "byte_offset": 11632,
+     "window": "cher duc ! Mes amis ! du nouveau !\nUne chose à brouiller le plus sage cerveau !\nUne chose admirable ! une chose risible !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "brouiller",
+     "dist": 86,
+     "byte_offset": 11654,
+     "window": "du nouveau !\nUne chose à brouiller le plus sage cerveau !\nUne chose admirable ! une chose risible !\nUne chose amoureuse !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "brouiller",
+     "dist": 109,
+     "byte_offset": 11677,
+     "window": "à brouiller le plus sage cerveau !\nUne chose admirable ! une chose risible !\nUne chose amoureuse ! une chose impossible !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "messer",
+     "dist": 11,
+     "byte_offset": 14184,
+     "window": "ujet de rondeau !\nQuoi ! Triboulet la nuit se change en Cupido !\nM. de Pardaillan , riant.\nUne femme à messer Triboulet !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "messer",
+     "dist": 11,
+     "byte_offset": 14237,
+     "window": "en Cupido !\nM. de Pardaillan , riant.\nUne femme à messer Triboulet !\nM. de Gordes , riant.\nUne femme à messer Triboulet !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "messer",
+     "dist": 45,
+     "byte_offset": 14271,
+     "window": "nt.\nUne femme à messer Triboulet !\nM. de Gordes , riant.\nUne femme à messer Triboulet ! Une selle\nSur un cheval de bois !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "chasser",
+     "dist": 13,
+     "byte_offset": 14434,
+     "window": " crois que la donzelle\nSi quelque autre Bedfort débarquait à Calais,\nAurait tout ce qu’il faut pour chasser les Anglais !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "séduire",
+     "dist": 1,
+     "byte_offset": 15333,
+     "window": "savent cela, —\nPrend toujours chez quelqu’un tout le plaisir qu’il a.\nGare à quiconque a sœur, femme ou fille à séduire !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "parfumer",
+     "dist": 11,
+     "byte_offset": 17425,
+     "window": "appelle un savant !\n— Manquez-vous de plaisirs, de pouvoir, de conquêtes,\nEt de femmes en fleur pour parfumer vos fêtes !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "vouloir",
+     "dist": 13,
+     "byte_offset": 18467,
+     "window": "t tout ! Mais vous avez les femmes ! vous avez\nLes femmes ! laissez-moi tranquille ! vous rêvez,\nDe vouloir des savants !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "vouloir",
+     "dist": 13,
+     "byte_offset": 18500,
+     "window": "s ! vous avez\nLes femmes ! laissez-moi tranquille ! vous rêvez,\nDe vouloir des savants !\nLe Roi.\nDe vouloir des savants !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "vouloir",
+     "dist": 39,
+     "byte_offset": 18526,
+     "window": " laissez-moi tranquille ! vous rêvez,\nDe vouloir des savants !\nLe Roi.\nDe vouloir des savants ! Moi, foi de gentilhomme !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "rire",
+     "dist": 11,
+     "byte_offset": 23264,
+     "window": "tez. —\nViens, fou !\nIl s’éloigne avec Triboulet, en riant.\nM. de Gordes.\nViens, fou ! Le roi se tient de rire les côtés !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "moindre",
+     "dist": 30,
+     "byte_offset": 23332,
+     "window": "des.\nViens, fou ! Le roi se tient de rire les côtés !\nM. de Pardaillan.\nComme à la moindre chose il rit, il s’abandonne !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "jouer",
+     "dist": 42,
+     "byte_offset": 24316,
+     "window": "et le roi entouré de femmes.\nTriboulet , seul de son côté, à part.\nÀ qui jouer un tour maintenant ? — au roi… — Diantre !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "penser",
+     "dist": 1,
+     "byte_offset": 27843,
+     "window": " seul sait le compte,\nTon père sous ses pieds, te marchandait ta honte,\nEt cet affreux tréteau, chose horrible à penser !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "penser",
+     "dist": 94,
+     "byte_offset": 27936,
+     "window": "u, chose horrible à penser !\nQu’un matin le bourreau vint en Grève dresser,\nAvant la fin du jour, devait être, ô misère !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "père",
+     "dist": 8,
+     "byte_offset": 29455,
+     "window": " sanglant baisant ma barbe grise,\nMa Diane au cœur pur, ma fille au front sacré,\nHonorée, eût prié pour son père honoré !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "délire",
+     "dist": 1,
+     "byte_offset": 30319,
+     "window": "e vous parler, — cette tête à la main !\nLe Roi , comme suffoqué de colère.\nOn s’oublie à ce point d’audace et de délire !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "vipère",
+     "dist": 60,
+     "byte_offset": 30852,
+     "window": "ien !\nÀ Triboulet.\nQui que tu sois, valet à langue de vipère,\nQui fais risée ainsi de la douleur d’un père,\nSois maudit !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "garder",
+     "dist": 1,
+     "byte_offset": 33621,
+     "window": " ? Monsieur a la mine occupée.\nJe vous vois tous les soirs de ce côté rôder.\nVous avez l’air d’avoir une femme à garder !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "dépêcher",
+     "dist": 24,
+     "byte_offset": 34744,
+     "window": "t\nQu’on a.\nTriboulet.\nQu’on a. Pour dépêcher un grand seigneur ?\nL’homme.\nQu’on a. Pour dépêcher un grand seigneur ? Ah !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "dépêcher",
+     "dist": 34,
+     "byte_offset": 34754,
+     "window": "\nTriboulet.\nQu’on a. Pour dépêcher un grand seigneur ?\nL’homme.\nQu’on a. Pour dépêcher un grand seigneur ? Ah ! diantre !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "tuer",
+     "dist": 33,
+     "byte_offset": 35099,
+     "window": " hasard, se permettent\nDe se faire tuer entr’eux ?\nL’homme , souriant.\nDe se faire tuer entr’eux ? Mais ils s’y mettent !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "élever",
+     "dist": 32,
+     "byte_offset": 37678,
+     "window": "uatre enfants… Qu’il serait malséant\nDe ne pas élever… —\nLe congédiant.\nDe ne pas élever… — Le ciel vous tienne en joie !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "misère",
+     "dist": 1,
+     "byte_offset": 39117,
+     "window": "Je suis bouffon de cour !\nNe vouloir, ne pouvoir, ne devoir et ne faire\nQue rire ! — Quel excès d’opprobre et de misère !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "misère",
+     "dist": 8,
+     "byte_offset": 39124,
+     "window": " bouffon de cour !\nNe vouloir, ne pouvoir, ne devoir et ne faire\nQue rire ! — Quel excès d’opprobre et de misère !\nQuoi !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "pleurer",
+     "dist": 28,
+     "byte_offset": 39425,
+     "window": " bagne,\nÀ tout homme, ici-bas, qui respire et se meut,\nLe droit de ne pas rire et de pleurer, s’il veut,\nJe ne l’ai pas !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "pleurer",
+     "dist": 39,
+     "byte_offset": 39436,
+     "window": "out homme, ici-bas, qui respire et se meut,\nLe droit de ne pas rire et de pleurer, s’il veut,\nJe ne l’ai pas ! — Ô Dieu !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "plaisir",
+     "dist": 1,
+     "byte_offset": 41208,
+     "window": " plus le temps de naître,\nEt, sitôt qu’il a pu dans ses ongles saisir\nQuelque belle existence, il l’effeuille à plaisir !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "plaisir",
+     "dist": 30,
+     "byte_offset": 41237,
+     "window": " sitôt qu’il a pu dans ses ongles saisir\nQuelque belle existence, il l’effeuille à plaisir !\n— Vous l’avez fait méchant !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "plaisir",
+     "dist": 44,
+     "byte_offset": 41251,
+     "window": " pu dans ses ongles saisir\nQuelque belle existence, il l’effeuille à plaisir !\n— Vous l’avez fait méchant ! — Ô douleur !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "mère",
+     "dist": 1,
+     "byte_offset": 44036,
+     "window": "e suis allée en tout à l’église huit fois.\nTriboulet.\nBien.\nBlanche.\nBien. Mon bon père, au moins parlez-moi de ma mère !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "misère",
+     "dist": 18,
+     "byte_offset": 44365,
+     "window": ", où rien n’appareille les âmes,\nMe voyant seul, infirme, et pauvre, et détesté,\nM’aima pour ma misère et ma difformité !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "recevoir",
+     "dist": 49,
+     "byte_offset": 44629,
+     "window": "u paradis tombé dans mon enfer !\nQue la terre, toujours à nous recevoir prête,\nSoit légère à ce sein qui reposa ma tête !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "recevoir",
+     "dist": 77,
+     "byte_offset": 44657,
+     "window": "er !\nQue la terre, toujours à nous recevoir prête,\nSoit légère à ce sein qui reposa ma tête !\n— Toi, seule, m’es restée !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "recevoir",
+     "dist": 105,
+     "byte_offset": 44685,
+     "window": "à nous recevoir prête,\nSoit légère à ce sein qui reposa ma tête !\n— Toi, seule, m’es restée ! —\nToi, seule, m’es restée !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "moindre",
+     "dist": 32,
+     "byte_offset": 52837,
+     "window": "arde.\nJ’ai du remords, pourtant ! Du remords ! et pourquoi ?\nBlanche.\nComme à la moindre chose il s’effraie et s’alarme !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "dire",
+     "dist": 27,
+     "byte_offset": 56844,
+     "window": "rès d’elle. Elle a le visage tourné du côté opposé.\nL’avoir là,… — devant moi, …pour lui dire à lui-même :\nsois heureux !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "dire",
+     "dist": 42,
+     "byte_offset": 56859,
+     "window": "e a le visage tourné du côté opposé.\nL’avoir là,… — devant moi, …pour lui dire à lui-même :\nsois heureux ! sois content !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "dire",
+     "dist": 47,
+     "byte_offset": 56864,
+     "window": "e visage tourné du côté opposé.\nL’avoir là,… — devant moi, …pour lui dire à lui-même :\nsois heureux ! sois content ! oh !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "ouvrir",
+     "dist": 56,
+     "byte_offset": 58282,
+     "window": "er ton cœur de jeune fille,\nQuand le ciel m’a choisi pour ouvrir à l’amour\nTon âme vierge encore et ta paupière au jour !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "ouvrir",
+     "dist": 77,
+     "byte_offset": 58303,
+     "window": "fille,\nQuand le ciel m’a choisi pour ouvrir à l’amour\nTon âme vierge encore et ta paupière au jour !\nViens, regarde, oh !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "messer",
+     "dist": 11,
+     "byte_offset": 62853,
+     "window": "rdes.\nC’est une fée ! un ange ! une grâce accomplie !\nM. de Pardaillan.\nQuoi ! c’est là la maîtresse à messer Triboulet !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "messer",
+     "dist": 25,
+     "byte_offset": 62867,
+     "window": "e fée ! un ange ! une grâce accomplie !\nM. de Pardaillan.\nQuoi ! c’est là la maîtresse à messer Triboulet !\nLe sournois !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "rire",
+     "dist": 8,
+     "byte_offset": 64568,
+     "window": "ssé.\nTuons le traître ! Oh ! non! Il est dans notre main.\nM. de Pienne.\nEh ! nous ne l’aurions plus pour en rire demain !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "voir",
+     "dist": 1,
+     "byte_offset": 70324,
+     "window": " redoublent.\nM. de Pardaillan.\nOh ! comme il va chercher !\nM. de Cossé.\nOh ! comme il va chercher ! Je jouis de le voir !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "colère",
+     "dist": 52,
+     "byte_offset": 70476,
+     "window": "heureux, avec son désespoir,\nSes poings crispés, ses dents de colère serrées,\nNous payer en un jour de dettes arriérées !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "prendre",
+     "dist": 32,
+     "byte_offset": 72613,
+     "window": "m’a fait un peu mieux naître,\nParce que je suis roi, ce n’est pas un motif\nDe me prendre en horreur subitement tout vif !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "prendre",
+     "dist": 86,
+     "byte_offset": 72667,
+     "window": "e n’est pas un motif\nDe me prendre en horreur subitement tout vif !\nJe n’ai pas le bonheur d’être un manant, qu’importe !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "pousser",
+     "dist": 32,
+     "byte_offset": 73693,
+     "window": ", pour que toutes les femmes\nEt tous les cœurs charmés se rendent devant eux,\nDe pousser des soupirs avec un air piteux !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "père",
+     "dist": 1,
+     "byte_offset": 74401,
+     "window": "\nLe Roi.\nVotre maîtresse ! oh ! non ! quelle honte ! La fière !\nBlanche.\nJe ne suis pas à vous, non, je suis à mon père !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "pleurer",
+     "dist": 44,
+     "byte_offset": 75237,
+     "window": "anglote donc pas comme une délaissée.\nOh ! plutôt que de faire ainsi pleurer tes yeux,\nJ’aimerais mieux mourir, Blanche !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "faire",
+     "dist": 54,
+     "byte_offset": 79164,
+     "window": "le regardant de la tête aux pieds.\nQue si vous vous mettez à faire le charmant,\nVous allez devenir encor plus assommant !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "rire",
+     "dist": 47,
+     "byte_offset": 80941,
+     "window": "nc à rire ainsi ?\nM. de Gordes , montrant Marot.\nQu’avez-vous donc à rire ainsi ? Pardieu, c’est lui\nQui nous fait rire !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "dire",
+     "dist": 11,
+     "byte_offset": 83847,
+     "window": "le !\nTriboulet.\nElle ! Oh ! vous savez bien, messieurs, qui je veux dire !\nCe n’est pas une affaire à me dire : va-t’en !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "dire",
+     "dist": 83,
+     "byte_offset": 83919,
+     "window": " !\nCe n’est pas une affaire à me dire : va-t’en !\n— La femme qu’à vous tous, Cossé, Pienne et Satan,\nBrion, Montmorency !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "boire",
+     "dist": 78,
+     "byte_offset": 86300,
+     "window": " verre de vin au buffet, et se met à boire en fredonnant :\nQuand Bourbon vit Marseille,\nIl a dit à ses gens :\nVrai Dieu !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "pauvre",
+     "dist": 7,
+     "byte_offset": 86749,
+     "window": "e, un Pardaillan,\nVous, un Montmorency ! — les plus grands noms qu’on nomme,\nAvoir été voler sa fille à ce pauvre homme !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "vendre",
+     "dist": 37,
+     "byte_offset": 87166,
+     "window": "êtes tous bâtards ! Ah ! çà, drôle ! Combien\nLe Roi vous donne-t-il pour lui vendre mon bien ?\nIl a payé le coup, dites !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "rire",
+     "dist": 1,
+     "byte_offset": 89515,
+     "window": "bouffon : Je demande merci !\nGrâce ! ne brisez pas votre hochet ainsi ! —\nCe pauvre Triboulet qui vous a tant fait rire !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "pauvre",
+     "dist": 103,
+     "byte_offset": 90115,
+     "window": "de voir un pauvre père\nSe meurtrir la poitrine, et s’arracher du front\nDes cheveux que deux nuits pareilles blanchiront !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "encore",
+     "dist": 1,
+     "byte_offset": 91176,
+     "window": "x seigneurs.\n— N’est-ce pas ?\nÀ Blanche, en la serrant dans ses bras.\nN’est-ce pas ? — Quel bonheur de te revoir encore !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "ravoir",
+     "dist": 7,
+     "byte_offset": 91329,
+     "window": "maintenant j’ignore\nSi ce n’est pas heureux, — je ris, moi qui pleurais ! —\nDe te perdre un moment pour te ravoir après !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "entrer",
+     "dist": 19,
+     "byte_offset": 92229,
+     "window": "ici,\nÀ monsieur de Vermandois.\nÀ passer près d’ici, vous êtes de sa garde,\nDites-lui de ne pas entrer, — que je suis là !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "dire",
+     "dist": 1,
+     "byte_offset": 93824,
+     "window": " plus faible.\nHier, dans la maison il a su s’introduire… —\nTriboulet.\nQue je t’épargne au moins l’angoisse de tout dire !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "dire",
+     "dist": 22,
+     "byte_offset": 93845,
+     "window": "ans la maison il a su s’introduire… —\nTriboulet.\nQue je t’épargne au moins l’angoisse de tout dire !\nJe devine le reste !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "marquer",
+     "dist": 36,
+     "byte_offset": 93958,
+     "window": " reste ! —\nIl se lève.\nJe devine le reste ! — Ô douleur ! il a pris,\nPour en marquer ton front, l’opprobre et le mépris !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "marquer",
+     "dist": 86,
+     "byte_offset": 94008,
+     "window": "uleur ! il a pris,\nPour en marquer ton front, l’opprobre et le mépris !\nSon haleine a souillé l’air pur qui t’environne !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "reposer",
+     "dist": 10,
+     "byte_offset": 94681,
+     "window": " effronterie, impudeur, adultère,\nInfamie et débauche, et n’avais sous les cieux\nQue ta virginité pour reposer mes yeux !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "père",
+     "dist": 1,
+     "byte_offset": 95331,
+     "window": "Une part des douleurs,\nÀ ton âge, parfois, s’écoule avec les pleurs. —\nVerse tout, si tu peux, dans le cœur de ton père !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "hier",
+     "dist": 1,
+     "byte_offset": 101094,
+     "window": "t’aimait plus, tu l’aimerais encore ?\nBlanche.\nJe ne sais pas. — Il m’aime, il me dit qu’il m’adore.\nIl me l’a dit hier !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "hier",
+     "dist": 1,
+     "byte_offset": 101184,
+     "window": "l m’adore.\nIl me l’a dit hier !\nTriboulet , amèrement.\nIl me l’a dit hier. À quelle heure ?\nBlanche.\nIl me l’a dit hier !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "heure",
+     "dist": 13,
+     "byte_offset": 101213,
+     "window": " !\nTriboulet , amèrement.\nIl me l’a dit hier. À quelle heure ?\nBlanche.\nIl me l’a dit hier ! À quelle heure ? Hier soir !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "mystère",
+     "dist": 1,
+     "byte_offset": 127692,
+     "window": "i la porte en attendant.\nOui, c’est toujours cela. —\nIl tonne.\nOui, c’est toujours cela. — Quel temps ! nuit de mystère !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "mystère",
+     "dist": 23,
+     "byte_offset": 127714,
+     "window": "t.\nOui, c’est toujours cela. —\nIl tonne.\nOui, c’est toujours cela. — Quel temps ! nuit de mystère !\nUne tempête au ciel !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "mystère",
+     "dist": 49,
+     "byte_offset": 127740,
+     "window": "a. —\nIl tonne.\nOui, c’est toujours cela. — Quel temps ! nuit de mystère !\nUne tempête au ciel ! un meurtre sur la terre !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "mystère",
+     "dist": 73,
+     "byte_offset": 127764,
+     "window": "t toujours cela. — Quel temps ! nuit de mystère !\nUne tempête au ciel ! un meurtre sur la terre !\nQue je suis grand ici !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "chercher",
+     "dist": 24,
+     "byte_offset": 128208,
+     "window": "e, et ma main qui la pousse\nÉbranlera longtemps toute l’Europe en pleurs,\nContrainte de chercher son équilibre ailleurs !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "votre",
+     "dist": 6,
+     "byte_offset": 130504,
+     "window": "\nUn ennemi qu’on porte en terre n’est pas lourd.\nSaltabadil.\nVous voulez dire en Seine ? Hé bien ! maître, à votre aise !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "respirer",
+     "dist": 47,
+     "byte_offset": 140045,
+     "window": "lace\nAutrement. — Es-tu mieux comme cela ? — Par grâce,\nTâche de respirer jusqu’à ce que quelqu’un\nVienne nous assister !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "respirer",
+     "dist": 65,
+     "byte_offset": 140063,
+     "window": "Es-tu mieux comme cela ? — Par grâce,\nTâche de respirer jusqu’à ce que quelqu’un\nVienne nous assister ! — Aucun secours !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "respirer",
+     "dist": 73,
+     "byte_offset": 140071,
+     "window": "eux comme cela ? — Par grâce,\nTâche de respirer jusqu’à ce que quelqu’un\nVienne nous assister ! — Aucun secours ! aucun !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "dire",
+     "dist": 8,
+     "byte_offset": 140439,
+     "window": "ur.\nÀ l’aide ! au meurtre ! au feu !\nRevenant à Blanche.\nÀ l’aide ! au meurtre ! au feu ! Tâche encor de me dire\nUn mot !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "dire",
+     "dist": 23,
+     "byte_offset": 140454,
+     "window": "au meurtre ! au feu !\nRevenant à Blanche.\nÀ l’aide ! au meurtre ! au feu ! Tâche encor de me dire\nUn mot ! un seulement !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "dire",
+     "dist": 46,
+     "byte_offset": 140477,
+     "window": "evenant à Blanche.\nÀ l’aide ! au meurtre ! au feu ! Tâche encor de me dire\nUn mot ! un seulement ! parle-moi, par pitié !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "donner",
+     "dist": 7,
+     "byte_offset": 140832,
+     "window": "pourquoi ?\nEntrent des gens du peuple, accourant au bruit avec des flambeaux.\nLe Ciel fut sans pitié de te donner à moi !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "montrer",
+     "dist": 22,
+     "byte_offset": 140925,
+     "window": "s pitié de te donner à moi !\nQue ne t’a-t-il reprise au moins, ô pauvre femme,\nAvant de me montrer la beauté de ton âme !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "montrer",
+     "dist": 70,
+     "byte_offset": 140973,
+     "window": "rise au moins, ô pauvre femme,\nAvant de me montrer la beauté de ton âme !\nPourquoi m’a-t-il laissé connaître mon trésor !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "montrer",
+     "dist": 97,
+     "byte_offset": 141000,
+     "window": "me,\nAvant de me montrer la beauté de ton âme !\nPourquoi m’a-t-il laissé connaître mon trésor !\nQue n’es-tu morte, hélas !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "prendre",
+     "dist": 1,
+     "byte_offset": 141878,
+     "window": "e débat.\nTriboulet.\nSéparons-les. Je veux rester ! je veux la voir !\nJe ne vous ai point fait de mal pour me la prendre !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "présenter",
+     "dist": 60,
+     "byte_offset": 153410,
+     "window": "ent : Voilà les conséquences de votre négligence à présenter une loi aussi pressante que la loi de la liberté théâtrale !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "restaurer",
+     "dist": 9,
+     "byte_offset": 160143,
+     "window": "andes révolutions politiques ! des députés qui ont déposé Charles  X travaillant dans un petit coin à restaurer Boileau !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "restaurer",
+     "dist": 27,
+     "byte_offset": 160161,
+     "window": "politiques ! des députés qui ont déposé Charles  X travaillant dans un petit coin à restaurer Boileau ! quelle pauvreté !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "soulever",
+     "dist": 21,
+     "byte_offset": 239100,
+     "window": ", et non l’art prude.\nLa voilà pourtant cette pièce contre laquelle le ministère cherche à soulever tant de préventions !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "faire",
+     "dist": 1,
+     "byte_offset": 247979,
+     "window": "un jour de tous les actes illégaux que nous voyons s’accumuler depuis quelque temps. Que de chemin il nous a fait faire !"
+    }
+   ]
+  },
+  {
+   "file": "hugo-lucrece-borgia.txt",
+   "desc": "Hugo, Lucrèce Borgia (drame, 1833)",
+   "chars": 136836,
+   "bangs": 580,
+   "candidates": 66,
+   "windows": [
+    {
+     "prep": "de",
+     "infinitive_shaped": "pierre",
+     "dist": 7,
+     "byte_offset": 12562,
+     "window": "bres basses du Vatican.\nDona Lucrezia.\nGubetta, écris en hâte au Saint-Père que je lui demande la grâce de Pierre Capra !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "pierre",
+     "dist": 50,
+     "byte_offset": 12605,
+     "window": "tta, écris en hâte au Saint-Père que je lui demande la grâce de Pierre Capra ! Gubetta, qu’on mette en liberté Accaioli !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "pierre",
+     "dist": 83,
+     "byte_offset": 12638,
+     "window": "que je lui demande la grâce de Pierre Capra ! Gubetta, qu’on mette en liberté Accaioli ! En liberté Manfredi de Curzola !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "pierre",
+     "dist": 109,
+     "byte_offset": 12664,
+     "window": "e de Pierre Capra ! Gubetta, qu’on mette en liberté Accaioli ! En liberté Manfredi de Curzola ! En liberté Buondelmonte !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "voir",
+     "dist": 24,
+     "byte_offset": 19400,
+     "window": "servent.\nDona lucrezia , se croyant seule.\nC’est donc lui ! il m’est donc enfin donné de le voir un instant sans périls !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "ferrare",
+     "dist": 1,
+     "byte_offset": 34884,
+     "window": " idée de quitter une terre neutre et libre pour venir à Ferrare après avoir mortellement offensé la duchesse de Ferrare !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "mère",
+     "dist": 1,
+     "byte_offset": 36278,
+     "window": "du théâtre, sans se mêler à la conversation.\nÔ ma mère ! ma mère ! Qui me dira ce que je puis faire pour ma pauvre mère !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "notre",
+     "dist": 48,
+     "byte_offset": 38394,
+     "window": "se et frais comme vous.\nMaffio.\nIl y a trois mois, il a soupé chez notre Saint-Père le pape, dans sa vigne du Belvédère !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "frère",
+     "dist": 1,
+     "byte_offset": 43730,
+     "window": "her dans mon lit ! Par ma mère, c’est épouvantable ! Ah ! Maffio ! elle a tué monsieur de Gravina, elle a tué ton frère !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "frère",
+     "dist": 84,
+     "byte_offset": 43813,
+     "window": "eur de Gravina, elle a tué ton frère ! Hé bien, ton frère, je le remplacerai près de toi, et je le vengerai près d’elle !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "ferrare",
+     "dist": 1,
+     "byte_offset": 50950,
+     "window": "ûre envenimée du sarcasme et du quolibet ? Pardieu, monsieur, on me traite étrangement dans votre seigneurie de Ferrare !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "votre",
+     "dist": 10,
+     "byte_offset": 53100,
+     "window": " à Forli avec quinze mille hommes de guerre ; et voyez maintenant si cela vaut la peine de vous lever de votre fauteuil !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "persécuter",
+     "dist": 7,
+     "byte_offset": 54517,
+     "window": "je l’interroge moi-même ! — Mon dieu, qu’est-ce que je leur ai donc fait à ces gens de Ferrare pour me persécuter ainsi !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "respirer",
+     "dist": 8,
+     "byte_offset": 56357,
+     "window": " qui a commis le crime ?\nDona Lucrezia , éperdue.\nOn étouffe ici ! De l’air ! de l’air ! J’ai besoin de respirer un peu !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "fenêtre",
+     "dist": 95,
+     "byte_offset": 56475,
+     "window": "u !\nElle va à une fenêtre, et en passant à côté de Gennaro, elle lui dit bas et rapidement :\n— Dis que ce n’est pas toi !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "quereller",
+     "dist": 55,
+     "byte_offset": 60259,
+     "window": "au monde, et qui s’aiment, aient été sur le point de se quereller pour un misérable petit capitaine aventurier vénitien !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "ferrare",
+     "dist": 12,
+     "byte_offset": 60699,
+     "window": " l’auriez. — Attendez, que j’aille dire à Bautista de votre part qu’il ait à chasser au plus vite de Ferrare ce Gennaro !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "frère",
+     "dist": 54,
+     "byte_offset": 65013,
+     "window": "nzuoli, ou Lenzolio, on ne sait quoi ! J’ai horreur de votre frère César, qui a des taches de sang naturelles au visage !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "frère",
+     "dist": 6,
+     "byte_offset": 65064,
+     "window": " de votre frère César, qui a des taches de sang naturelles au visage ! de votre frère César, qui a tué votre frère Jean !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "mère",
+     "dist": 104,
+     "byte_offset": 65196,
+     "window": "ur de votre mère la Rosa Vanozza, la vieille fille de joie espagnole qui scandalise Rome après avoir scandalisé Valence !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "ferrare",
+     "dist": 21,
+     "byte_offset": 66410,
+     "window": "’il était déjà mort.\nDona lucrezia , se relevant.\nAh ! prenez garde à vous, don Alphonse de Ferrare, mon quatrième mari !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "guère",
+     "dist": 41,
+     "byte_offset": 66965,
+     "window": "comme le troisième, don Alphonse d’Aragon, faible enfant dont le sang n’a guère plus taché les dalles que de l’eau pure !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "guère",
+     "dist": 53,
+     "byte_offset": 66977,
+     "window": "isième, don Alphonse d’Aragon, faible enfant dont le sang n’a guère plus taché les dalles que de l’eau pure ! Tout beau !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "ferrare",
+     "dist": 1,
+     "byte_offset": 67671,
+     "window": "’êtes pas à Spolette ; vous êtes la femme, la sujette et la servante d’Alphonse, duc de Ferrare, et vous êtes à Ferrare !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "colère",
+     "dist": 14,
+     "byte_offset": 68325,
+     "window": "é, il ne peut être en même temps mon amant…\nDon Alphonse.\nPourquoi non ? Dans un accès de dépit, de colère, de jalousie !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "chypre",
+     "dist": 45,
+     "byte_offset": 70121,
+     "window": "ras fidèle qui porte une fidèle épée quand il y a devers les eaux de Chypre et de Candie des idolâtres et des sarrasins !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "heure",
+     "dist": 14,
+     "byte_offset": 70162,
+     "window": "d il y a devers les eaux de Chypre et de Candie des idolâtres et des sarrasins !\nGennaro.\nÀ la bonne heure, monseigneur !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "votre",
+     "dist": 54,
+     "byte_offset": 74666,
+     "window": "a Lucrezia , à part.\nOh ! horreur !\nDon Alphonse , buvant.\nÀ votre santé, capitaine Gennaro, et vivez beaucoup d’années !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "boire",
+     "dist": 26,
+     "byte_offset": 76936,
+     "window": "senta le contre-poison, la voilà, elle tient cette fiole. Et la bouche qui lui dit de le boire, la voici, elle me parle !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "mère",
+     "dist": 1,
+     "byte_offset": 77475,
+     "window": " et peut-être à cette heure ce n’est pas de moi que vous vous vengeriez en m’empoisonnant ; mais, qui sait ? de ma mère !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "pauvre",
+     "dist": 46,
+     "byte_offset": 80095,
+     "window": "erais tes pieds, mon Gennaro ! Oh ! tu ne sauras jamais rien de mon pauvre misérable cœur, sinon qu’il est plein de toi !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "dire",
+     "dist": 14,
+     "byte_offset": 81592,
+     "window": "ûle, et ne regarde pas derrière toi ! — Adieu ! — Attends encore un instant. J’ai un dernier mot à te dire, mon Gennaro !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "sauver",
+     "dist": 15,
+     "byte_offset": 82186,
+     "window": "uitter ainsi pour l’éternité ?…\nGennaro , baissant les yeux.\nMadame…\nDona Lucrezia.\nJe viens de te sauver la vie, enfin !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "bière",
+     "dist": 1,
+     "byte_offset": 97986,
+     "window": "! Fi ! A-t-on jamais vu lourdaud pareil ? S’enivrer de vin de Syracuse, et avoir l’air de s’être soûlé avec de la bière !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "ferrare",
+     "dist": 41,
+     "byte_offset": 99193,
+     "window": " de rire. — Cet imbécile  ! Mettre en déroute les plus jolies femmes de Ferrare avec un couteau emmanché dans un sonnet !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "ferrare",
+     "dist": 70,
+     "byte_offset": 99222,
+     "window": "ettre en déroute les plus jolies femmes de Ferrare avec un couteau emmanché dans un sonnet ! Se fâcher à propos de vers !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "flandre",
+     "dist": 17,
+     "byte_offset": 99856,
+     "window": ", car autrement nous nous serions battus devant les dames ; ce dont rougiraient des flamands de Flandre, ivres de tabac !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "boire",
+     "dist": 9,
+     "byte_offset": 100171,
+     "window": "ce Borgia ? Gennaro ! tu as décidément quelque amourette avec elle ! Ne dis pas non.\nGennaro.\nVerse-moi à boire, Maffio !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "votre",
+     "dist": 13,
+     "byte_offset": 100624,
+     "window": "x deux portes.\n— Les portes sont fermées en dehors, messieurs !\nMaffio.\nN’allez-vous pas avoir peur à votre tour, Jeppo !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "boire",
+     "dist": 12,
+     "byte_offset": 101198,
+     "window": "ar-dessus son épaule.\nJeppo.\nIl est ivre, et toi aussi.\nMaffio.\nC’est possible.\nGubetta.\nUne chanson à boire, messieurs !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "chanter",
+     "dist": 11,
+     "byte_offset": 101926,
+     "window": "ubetta , chantant.\nSaint Pierre, ouvre ta porte\nAu buveur qui t’apporte\nUne voix pleine et forte\nPour chanter : Domino  !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "chanter",
+     "dist": 10,
+     "byte_offset": 103778,
+     "window": "paradis.\nIl chante.\nSaint Pierre, ouvre ta porte\nAu buveur qui t’apporte\nUne voix pleine et forte\nPour chanter : Domino !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "devenir",
+     "dist": 9,
+     "byte_offset": 105290,
+     "window": "ile, la torche à la main et les yeux baissés. Il laisse tomber le capuchon et recule.\n— Ceci commence à devenir étrange !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "écraser",
+     "dist": 18,
+     "byte_offset": 106314,
+     "window": "La salle d’à côté est pleine de piques. À mon tour maintenant, à moi de parler haut et de vous écraser la tête du talon !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "voler",
+     "dist": 10,
+     "byte_offset": 106512,
+     "window": "s les caves du Vatican ! Ascanio Petrucci, va retrouver ton cousin Pandolfo, que j’ai assassiné pour lui voler sa ville !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "frère",
+     "dist": 54,
+     "byte_offset": 106737,
+     "window": "e ! Maffio Orsini, va parler de moi dans l’autre monde à ton frère de Gravina, que j’ai fait étrangler dans son sommeil !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "dire",
+     "dist": 1,
+     "byte_offset": 111743,
+     "window": "ci ne me serait venue. — Hé bien, hé bien ! vous levez le couteau ! Attendez ! Gennaro ! J’ai quelque chose à vous dire !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "père",
+     "dist": 28,
+     "byte_offset": 112054,
+     "window": "s ! Faut-il tout lui dire ? Le même sang coule dans nos veines, Gennaro ! Tu as eu pour père Jean Borgia, duc de Gandia !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "sauver",
+     "dist": 20,
+     "byte_offset": 112593,
+     "window": "oyé sa destinée, à elle, de larmes et de sang. Ah ! j’ai de plus mon père à venger, ma mère à sauver de vous maintenant !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "sauver",
+     "dist": 25,
+     "byte_offset": 112598,
+     "window": "a destinée, à elle, de larmes et de sang. Ah ! j’ai de plus mon père à venger, ma mère à sauver de vous maintenant ! Ah !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "sauver",
+     "dist": 46,
+     "byte_offset": 112619,
+     "window": "e larmes et de sang. Ah ! j’ai de plus mon père à venger, ma mère à sauver de vous maintenant ! Ah ! vous êtes ma tante !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "sauver",
+     "dist": 66,
+     "byte_offset": 112639,
+     "window": " Ah ! j’ai de plus mon père à venger, ma mère à sauver de vous maintenant ! Ah ! vous êtes ma tante ! je suis un Borgia !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "sauver",
+     "dist": 71,
+     "byte_offset": 112644,
+     "window": " j’ai de plus mon père à venger, ma mère à sauver de vous maintenant ! Ah ! vous êtes ma tante ! je suis un Borgia ! Oh !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "sauver",
+     "dist": 90,
+     "byte_offset": 112663,
+     "window": "ère à venger, ma mère à sauver de vous maintenant ! Ah ! vous êtes ma tante ! je suis un Borgia ! Oh ! cela me rend fou !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "avoir",
+     "dist": 51,
+     "byte_offset": 113449,
+     "window": "oins que vous n’avez fait. Cet espagnol a été loué de tous pour avoir tué son oncle, entendez-vous, ma tante ? — Allons !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "avoir",
+     "dist": 85,
+     "byte_offset": 113483,
+     "window": "agnol a été loué de tous pour avoir tué son oncle, entendez-vous, ma tante ? — Allons ! En voilà assez de dit là dessus !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "faire",
+     "dist": 86,
+     "byte_offset": 116346,
+     "window": "es plus comme tu viens de le faire avec cette voix plus sévère que celle du jugement dernier : Vous êtes Lucrèce Borgia !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "repousser",
+     "dist": 1,
+     "byte_offset": 116426,
+     "window": "ment dernier : Vous êtes Lucrèce Borgia ! Si l’on te disait cela, Gennaro, est-ce que tu aurais le cœur de la repousser !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "repousser",
+     "dist": 6,
+     "byte_offset": 116431,
+     "window": "dernier : Vous êtes Lucrèce Borgia ! Si l’on te disait cela, Gennaro, est-ce que tu aurais le cœur de la repousser ! Oh !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "repousser",
+     "dist": 14,
+     "byte_offset": 116439,
+     "window": ": Vous êtes Lucrèce Borgia ! Si l’on te disait cela, Gennaro, est-ce que tu aurais le cœur de la repousser ! Oh ! grâce !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "repousser",
+     "dist": 43,
+     "byte_offset": 116468,
+     "window": "Si l’on te disait cela, Gennaro, est-ce que tu aurais le cœur de la repousser ! Oh ! grâce ! Ne me tue pas, mon Gennaro !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "repentir",
+     "dist": 1,
+     "byte_offset": 116537,
+     "window": "epousser ! Oh ! grâce ! Ne me tue pas, mon Gennaro ! Vivons tous les deux, toi pour me pardonner, moi, pour me repentir !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "repentir",
+     "dist": 33,
+     "byte_offset": 116569,
+     "window": "e pas, mon Gennaro ! Vivons tous les deux, toi pour me pardonner, moi, pour me repentir ! Aie quelque compassion de moi !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "traiter",
+     "dist": 79,
+     "byte_offset": 116686,
+     "window": "oi ! Enfin cela ne sert à rien de traiter sans miséricorde une pauvre misérable femme qui ne demande qu’un peu de pitié !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "traiter",
+     "dist": 99,
+     "byte_offset": 116706,
+     "window": "ert à rien de traiter sans miséricorde une pauvre misérable femme qui ne demande qu’un peu de pitié ! — Un peu de pitié !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "boire",
+     "dist": 12,
+     "byte_offset": 120269,
+     "window": "e, à partir de la page 165 jusqu’à la page 170, doit être jouée comme il suit :\nGubetta.\nUne chanson à boire, messieurs !"
+    }
+   ]
+  },
+  {
+   "file": "hugo-marie-tudor.txt",
+   "desc": "Hugo, Marie Tudor (drame, 1833)",
+   "chars": 236764,
+   "bangs": 1144,
+   "candidates": 67,
+   "windows": [
+    {
+     "prep": "a",
+     "infinitive_shaped": "jarretière",
+     "dist": 108,
+     "byte_offset": 2966,
+     "window": "a jarretière comme l’infant de Portugal, comme le roi de Danemark, comme Thomas Percy, septième comte de Northumberland !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "plaisir",
+     "dist": 70,
+     "byte_offset": 3709,
+     "window": "nnes têtes anglaises tombent ainsi pour le plaisir d’on ne sait quel misérable aventurier qui n’est même pas de ce pays !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "penser",
+     "dist": 101,
+     "byte_offset": 3863,
+     "window": "pportable de penser qu’un favori napolitain peut tirer autant de billots qu’il en veut de dessous le lit de cette reine !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "westminster",
+     "dist": 32,
+     "byte_offset": 4511,
+     "window": "z nous. Moins de baladins ici, et moins de bourreaux là. Moins de tréteaux à Westminster, et moins d’échafauds à Tyburn !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "voir",
+     "dist": 9,
+     "byte_offset": 8046,
+     "window": "ne espèce de prisonnier. Adieu, Jane. Adieu, Gilbert. Mon Dieu, mes amis, que je suis donc heureux de vous voir heureux !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "désirer",
+     "dist": 55,
+     "byte_offset": 8342,
+     "window": " mais je n’ai rien à vous souhaiter. Il est impossible de désirer plus de beauté à la fiancée et plus d’amour au fiancé !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "désirer",
+     "dist": 75,
+     "byte_offset": 8362,
+     "window": " vous souhaiter. Il est impossible de désirer plus de beauté à la fiancée et plus d’amour au fiancé ! Vous êtes heureux !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "notre",
+     "dist": 90,
+     "byte_offset": 11786,
+     "window": "HUA.\nC’est pour dire que notre devoir, à Jane et à moi, est de t’aimer, moi, comme un frère, elle… — pas comme une sœur !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "heure",
+     "dist": 1,
+     "byte_offset": 12170,
+     "window": " l’aime !\nJOSHUA.\nPrends garde, c’est imprudent ; une femme, ça ne s’aime pas tant que ça ; un enfant, à la bonne heure !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "fière",
+     "dist": 29,
+     "byte_offset": 13670,
+     "window": "ous, la reine et le favori de la reine ? n’est-ce pas, Jane ?\nJOSHUA.\nOh ! il y a une fière conspiration contre Fabiani !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "séparer",
+     "dist": 38,
+     "byte_offset": 17286,
+     "window": "BERT.\nNon, Jane, encore un instant. Ah ! mon Dieu ! que j’ai de peine à me séparer de vous, fût-ce pour quelques heures !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "séparer",
+     "dist": 92,
+     "byte_offset": 17340,
+     "window": "e j’ai de peine à me séparer de vous, fût-ce pour quelques heures ! Qu’il est bien vrai que vous êtes ma vie et ma joie !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "baiser",
+     "dist": 10,
+     "byte_offset": 20801,
+     "window": "-tu, Jane, pour un regard de toi je donnerais mon travail et ma peine, pour un sourire, ma vie, pour un baiser, mon âme !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "encore",
+     "dist": 31,
+     "byte_offset": 21500,
+     "window": "’offense jamais dans ma pensée, toi si honnête, toi si pure, toi dont le front n’a encore été touché que par mes lèvres !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "quitter",
+     "dist": 1,
+     "byte_offset": 22537,
+     "window": "e-moi tout ce que je t’ai dit. Il est tard. Il faut que je te quitte. Adieu ! Mon Dieu ! que c’est triste de te quitter !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "rendre",
+     "dist": 102,
+     "byte_offset": 31511,
+     "window": " un jour de rendre à une petite fille Shrewsbury, Wexford, qui est une belle ville, et la magnifique comté de Waterford !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "dire",
+     "dist": 1,
+     "byte_offset": 41689,
+     "window": "st la vôtre ?\nFABIANI.\nOu celle de ma maîtresse, ce qui revient au même.\nGILBERT.\nRépétez-moi ce que vous venez de dire !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "avoir",
+     "dist": 11,
+     "byte_offset": 42111,
+     "window": "à des paroles fatales dont nous mourrons tous les deux, vois-tu, toi pour les avoir dites, moi pour les avoir entendues !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "laisser",
+     "dist": 8,
+     "byte_offset": 44223,
+     "window": "l est parti ! il n’est plus là ! Je ne l’ai pas pétri et broyé sous mes pieds, cet homme ! Il a fallu le laisser partir !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "laisser",
+     "dist": 31,
+     "byte_offset": 44246,
+     "window": "plus là ! Je ne l’ai pas pétri et broyé sous mes pieds, cet homme ! Il a fallu le laisser partir ! pas une arme sur moi !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "mourir",
+     "dist": 30,
+     "byte_offset": 45052,
+     "window": " pied comme un chien ! Oh ! je suis fou. Ma tête se brise ! Oh ! cela m’est égal de mourir, mais je voudrais être vengé !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "mourir",
+     "dist": 72,
+     "byte_offset": 45094,
+     "window": "a tête se brise ! Oh ! cela m’est égal de mourir, mais je voudrais être vengé ! je donnerais mon sang pour la vengeance !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "venger",
+     "dist": 1,
+     "byte_offset": 45936,
+     "window": "T.\nOui.\nSIMON RENARD.\nSuis-moi.\nGILBERT.\nOù ?\nSIMON RENARD.\nTu le sauras.\nGILBERT.\nSonge que tu me promets de me venger !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "mourir",
+     "dist": 1,
+     "byte_offset": 45986,
+     "window": "N RENARD.\nTu le sauras.\nGILBERT.\nSonge que tu me promets de me venger !\nSIMON RENARD.\nSonge que tu me promets de mourir !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "croire",
+     "dist": 61,
+     "byte_offset": 50878,
+     "window": "our cela ! Mais je ne vous ai donné aucune raison de croire que je fusse le plus ingrat et le plus misérable des hommes !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "croire",
+     "dist": 85,
+     "byte_offset": 50902,
+     "window": "us ai donné aucune raison de croire que je fusse le plus ingrat et le plus misérable des hommes ! Mais je t’aime, Marie !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "croire",
+     "dist": 103,
+     "byte_offset": 50920,
+     "window": " raison de croire que je fusse le plus ingrat et le plus misérable des hommes ! Mais je t’aime, Marie ! mais je t’adore !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "dire",
+     "dist": 82,
+     "byte_offset": 51441,
+     "window": "Et quel moment choisis-tu pour me dire des choses pareilles, Marie ? le moment de ma vie où je t’aime peut-être le plus !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "entrer",
+     "dist": 1,
+     "byte_offset": 54229,
+     "window": "ns la chambre voisine avec six hommes de mon ordonnance, tous prêts à entrer. — Et la femme aussi, toute prête à entrer !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "reprendre",
+     "dist": 11,
+     "byte_offset": 61280,
+     "window": "ajesté de rendre à la fille de lord Talbot les biens de son père ?\nLA REINE.\nOui, certes, et de les reprendre à Fabiano !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "venger",
+     "dist": 26,
+     "byte_offset": 64005,
+     "window": "vie ! mais que veux-tu que j’en fasse de ta vie à présent ? Je n’en voulais que pour me venger de cet homme, de Fabiano !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "faire",
+     "dist": 41,
+     "byte_offset": 76456,
+     "window": " que j’ai à me cacher, moi ? à chercher le coin des rues la nuit, et à me faire petite quand je me venge ? Non, pardieu !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "venger",
+     "dist": 96,
+     "byte_offset": 77702,
+     "window": "on a besoin de se venger, d’être Marie, dame et reine d’Angleterre, fille de Henri  VIII , et maîtresse des quatre mers !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "chambre",
+     "dist": 36,
+     "byte_offset": 79979,
+     "window": "justice, par ici, plus près, plus près. — Où sont les sergents d’armes de la chambre des lords, Harriot et Herbert ? Ah !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "chambre",
+     "dist": 63,
+     "byte_offset": 85176,
+     "window": " commence dès demain devant les douze pairs de la chambre aux étoiles, et que Dieu soit en aide à la vieille Angleterre !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "cher",
+     "dist": 39,
+     "byte_offset": 86006,
+     "window": " cette tête qui, ce matin encore, était ce que j’avais de plus beau, de plus cher et de plus précieux au monde, eh bien !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "cher",
+     "dist": 93,
+     "byte_offset": 86060,
+     "window": " de plus beau, de plus cher et de plus précieux au monde, eh bien ! cette tête, tu la vois bien, dis ? — je te la donne !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "fenêtre",
+     "dist": 1,
+     "byte_offset": 87119,
+     "window": "as !\nGILBERT.\nPlus d’espoir ?\nJOSHUA.\nPlus d’espoir ! (Gilbert va à la fenêtre.) — Oh ! tu ne verras rien de la fenêtre !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "autre",
+     "dist": 68,
+     "byte_offset": 89029,
+     "window": " votre lys, votre trésor, Jane se donnera à un autre, en voudrez-vous après ? — j’aurais dit : Non, je n’en voudrai pas !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "autre",
+     "dist": 61,
+     "byte_offset": 89413,
+     "window": "leurer le front de mes lèvres, Jane s’est donnée à un autre, à un misérable, je le sais, eh bien, c’est égal, je l’aime !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "autre",
+     "dist": 98,
+     "byte_offset": 89450,
+     "window": "’est donnée à un autre, à un misérable, je le sais, eh bien, c’est égal, je l’aime ! j’ai le cœur brisé, mais je l’aime !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "tuer",
+     "dist": 11,
+     "byte_offset": 90222,
+     "window": "ès comme avant, seulement vous serez triste. Tu me trouves faible ? Qu’est-ce que j’aurais gagné, moi, à tuer Jane ? Oh !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "tuer",
+     "dist": 55,
+     "byte_offset": 90266,
+     "window": " Tu me trouves faible ? Qu’est-ce que j’aurais gagné, moi, à tuer Jane ? Oh ! j’ai le cœur plein d’idées insupportables !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "tuer",
+     "dist": 60,
+     "byte_offset": 90271,
+     "window": "e trouves faible ? Qu’est-ce que j’aurais gagné, moi, à tuer Jane ? Oh ! j’ai le cœur plein d’idées insupportables ! Oh !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "venger",
+     "dist": 60,
+     "byte_offset": 94880,
+     "window": "fait ? comprenez-vous ? Oh ! je trouverai moyen de me venger un jour sur vous de tout ce que vous me faites dire, allez !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "kildare",
+     "dist": 66,
+     "byte_offset": 97186,
+     "window": "nverser que pour mettre à sa place le comte de Kildare, ce fat, cet Irlandais  ? Qu’il fait couper vingt têtes par jour !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "fier",
+     "dist": 5,
+     "byte_offset": 98924,
+     "window": "e.\nLA REINE.\nMon Dieu ! mon Dieu ! ce Simon Renard est plus roi que je ne suis reine. Quoi ! personne à qui me fier ici !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "évader",
+     "dist": 9,
+     "byte_offset": 98990,
+     "window": "e je ne suis reine. Quoi ! personne à qui me fier ici ! personne à qui donner pleins pouvoirs pour faire évader Fabiani !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "dire",
+     "dist": 1,
+     "byte_offset": 102987,
+     "window": "éter de ce que je faisais de mon cœur. Gilbert, si vous saviez quel effet me font les paroles que vous venez de me dire !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "dire",
+     "dist": 63,
+     "byte_offset": 103049,
+     "window": " quel effet me font les paroles que vous venez de me dire ! C’est un rayon de soleil bien inattendu dans ma nuit, allez !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "dire",
+     "dist": 68,
+     "byte_offset": 103054,
+     "window": " effet me font les paroles que vous venez de me dire ! C’est un rayon de soleil bien inattendu dans ma nuit, allez ! Oh !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "dire",
+     "dist": 93,
+     "byte_offset": 103079,
+     "window": "s que vous venez de me dire ! C’est un rayon de soleil bien inattendu dans ma nuit, allez ! Oh ! écoutez-moi donc alors !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "rougir",
+     "dist": 15,
+     "byte_offset": 107186,
+     "window": " tu verras ; et, si l’on pense mal de me voir avec toi, on pensera ce qu’on voudra. Je n’ai plus à rougir, moi, vois-tu !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "rougir",
+     "dist": 42,
+     "byte_offset": 107213,
+     "window": "nse mal de me voir avec toi, on pensera ce qu’on voudra. Je n’ai plus à rougir, moi, vois-tu ! je suis une pauvre fille !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "perdre",
+     "dist": 1,
+     "byte_offset": 108714,
+     "window": "ier.\nScène VIII.\nLes Mêmes , MAÎTRE ÉNEAS, UN BATELIER.\nMAÎTRE ÉNEAS.\nMylord Fabiani ! mylord ! pas un instant à perdre !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "dire",
+     "dist": 44,
+     "byte_offset": 113714,
+     "window": "à la Tour ! Fabiani ! mort à Fabiani !\nLA REINE.\nQu’on a bien raison de dire que c’est une horrible chose que le peuple !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "dire",
+     "dist": 54,
+     "byte_offset": 113724,
+     "window": "! Fabiani ! mort à Fabiani !\nLA REINE.\nQu’on a bien raison de dire que c’est une horrible chose que le peuple ! Fabiano !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "mère",
+     "dist": 27,
+     "byte_offset": 114454,
+     "window": " est innocent, vous dis-je ! Sur ma tête, sur ma couronne, sur mon Dieu, sur l’âme de ma mère, il est innocent du crime !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "suspendre",
+     "dist": 13,
+     "byte_offset": 133304,
+     "window": " aime bien. Vous êtes une grande reine. Voyez comme je baise vos belles mains. Oh ! un ordre pour suspendre l’exécution !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "voir",
+     "dist": 11,
+     "byte_offset": 155717,
+     "window": "heure.\nJANE.\nOh ! la cour ! la cour ! de beaux seigneurs, de beaux habits de cérémonie ! Quel bonheur de voir tout cela !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "pendre",
+     "dist": 1,
+     "byte_offset": 169229,
+     "window": "abiano ! don Fabiano ! je tiens dans ma main tous les fils de votre destinée, tous, y compris la corde pour vous pendre !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "passer",
+     "dist": 19,
+     "byte_offset": 182955,
+     "window": "e femme qu’on a connue peut-être autrefois, et qu’on ne regarde plus, une personne qu’on a vue passer dans la rue… — Oh !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "dire",
+     "dist": 42,
+     "byte_offset": 183787,
+     "window": "le créature !\nGILBERT.\nPourquoi parles-tu de cela, puisque je viens de te dire trois fois de suite que je te pardonnais !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "dire",
+     "dist": 6,
+     "byte_offset": 183993,
+     "window": "oujours ! Ah ! vous êtes le seul qui soit ainsi ! Si je vous aime ! Mon Dieu, donnez-moi des paroles pour lui dire cela !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "dire",
+     "dist": 11,
+     "byte_offset": 183998,
+     "window": "rs ! Ah ! vous êtes le seul qui soit ainsi ! Si je vous aime ! Mon Dieu, donnez-moi des paroles pour lui dire cela ! Ah !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "reprocher",
+     "dist": 45,
+     "byte_offset": 184116,
+     "window": "h ! vous ne savez pas, vous, combien l’amour qui a des torts à se reprocher est un amour profond, exclusif et désespéré !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "répondre",
+     "dist": 49,
+     "byte_offset": 186688,
+     "window": ". Tu viens du ciel, Gilbert !\nGILBERT.\nÔ Jane, il n’y a rien à répondre après de telles paroles, dites comme tu les dis !"
+    }
+   ]
+  },
+  {
+   "file": "hugo-angelo.txt",
+   "desc": "Hugo, Angelo, tyran de Padoue (drame, 1835)",
+   "chars": 32212,
+   "bangs": 115,
+   "candidates": 14,
+   "windows": [
+    {
+     "prep": "de",
+     "infinitive_shaped": "votre",
+     "dist": 7,
+     "byte_offset": 8785,
+     "window": ", vous êtes un homme étrange, je ne\ncomprends rien à vous, vous êtes amoureux de moi et vous êtes jaloux de\nvotre femme !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "avoir",
+     "dist": 94,
+     "byte_offset": 10319,
+     "window": "ien\nheureuse de vous avoir, et que toute l’Italie qui vous admire, Tisbe, envie\nces padouans que vous plaignez tant? Ah !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "aimer",
+     "dist": 1,
+     "byte_offset": 11635,
+     "window": "e, — un ange qui est là, qui\nvous regarde, qui vous apprend à parler, qui vous apprend à rire, qui vous\napprend à aimer !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "aimer",
+     "dist": 97,
+     "byte_offset": 11731,
+     "window": "ui vous\napprend à aimer ! qui réchauffe vos doigts dans ses mains, votre corps\ndans ses genoux, votre âme dans son cœur !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "prendre",
+     "dist": 16,
+     "byte_offset": 16291,
+     "window": "ELO.\nVous me répondez de cet homme ?\nLA TISBE.\nAllons, vous voulez rire ! La belle occasion pour prendre cet air effaré !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "guitare",
+     "dist": 30,
+     "byte_offset": 16343,
+     "window": "s, vous voulez rire ! La belle occasion pour prendre cet air effaré !\nun joueur de guitare, un idiot, un homme qui dort !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "suivre",
+     "dist": 58,
+     "byte_offset": 21060,
+     "window": "nt dans ma chambre un misérable sbire qui me dira de le suivre,\net qui ne sera qu’un misérable sbire, et que je suivrai !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "autre",
+     "dist": 1,
+     "byte_offset": 22185,
+     "window": "SBE.\nMa foi ! je vous le dis comme je peux.\nANGELO.\nAh ! ne soyez pas à moi, j’y consens ; mais ne soyez pas à un autre !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "autre",
+     "dist": 9,
+     "byte_offset": 22193,
+     "window": "foi ! je vous le dis comme je peux.\nANGELO.\nAh ! ne soyez pas à moi, j’y consens ; mais ne soyez pas à un autre !\nTisbe !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "pouvoir",
+     "dist": 33,
+     "byte_offset": 25007,
+     "window": "s parties de mon cœur qui sont mortes de froid vivraient\nencore. Quelle joie de pouvoir être seuls un instant et parler !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "pouvoir",
+     "dist": 70,
+     "byte_offset": 25044,
+     "window": " de froid vivraient\nencore. Quelle joie de pouvoir être seuls un instant et parler ! Quelle\nfolie d’être venus à Padoue !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "pouvoir",
+     "dist": 110,
+     "byte_offset": 25084,
+     "window": "de pouvoir être seuls un instant et parler ! Quelle\nfolie d’être venus à Padoue ! Nous vivons dans une telle contrainte !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "encore",
+     "dist": 22,
+     "byte_offset": 32124,
+     "window": " Oh ! cela me fera tressaillir dans mon tombeau ! Adieu ! Madame, permettez-moi de lui dire encore une fois mon Rodolfo !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "encore",
+     "dist": 43,
+     "byte_offset": 32145,
+     "window": "essaillir dans mon tombeau ! Adieu ! Madame, permettez-moi de lui dire encore une fois mon Rodolfo ! Adieu, mon Rodolfo !"
+    }
+   ]
+  },
+  {
+   "file": "musset-lorenzaccio.txt",
+   "desc": "Musset, Lorenzaccio (drame, 1834)",
+   "chars": 231422,
+   "bangs": 770,
+   "candidates": 64,
+   "windows": [
+    {
+     "prep": "à",
+     "infinitive_shaped": "mépriser",
+     "dist": 19,
+     "byte_offset": 1602,
+     "window": "magination qui se développe à donner des corps à ses fantômes, à toucher ce qui l’effraie, à mépriser ce qui la protège !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "votre",
+     "dist": 9,
+     "byte_offset": 1772,
+     "window": "e est de frapper juste. Et quel trésor que celle-ci ! tout ce qui peut faire passer une nuit délicieuse à Votre Altesse !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "votre",
+     "dist": 26,
+     "byte_offset": 1789,
+     "window": "juste. Et quel trésor que celle-ci ! tout ce qui peut faire passer une nuit délicieuse à Votre Altesse ! Tant de pudeur !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "craindre",
+     "dist": 31,
+     "byte_offset": 3894,
+     "window": "ira votre belle au palais par la petite porte ; et quant à nous, qu’avons-nous à craindre ?\nMaffio\nQui êtes-vous ? Holà !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "craindre",
+     "dist": 41,
+     "byte_offset": 3904,
+     "window": "belle au palais par la petite porte ; et quant à nous, qu’avons-nous à craindre ?\nMaffio\nQui êtes-vous ? Holà ! arrêtez !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "misère",
+     "dist": 1,
+     "byte_offset": 4256,
+     "window": " que tu es !\nGiomo saute sur lui et le désarme.\nHalte-là ! maître sot, pas si vite !\nMaffio\nÔ honte ! ô excès de misère !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "casser",
+     "dist": 9,
+     "byte_offset": 5491,
+     "window": "ella, voilà bien du vent pour mes étoffes.\nIl étale ses pièces de soie.\nL’orfèvre , bâillant.\nC’est à se casser la tête !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "casser",
+     "dist": 31,
+     "byte_offset": 5513,
+     "window": "nt pour mes étoffes.\nIl étale ses pièces de soie.\nL’orfèvre , bâillant.\nC’est à se casser la tête ! Au diable leur noce !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "danser",
+     "dist": 1,
+     "byte_offset": 5904,
+     "window": "est pas jeune avec une barbe comme celle-là ; et cependant Dieu sait si leur damnée de musique me donne envie de danser !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "essuyer",
+     "dist": 28,
+     "byte_offset": 15766,
+     "window": "age d’un cavalier.\nSalviati.\nQuels yeux tu as, mon cher cœur ! quelle belle épaule à essuyer, tout humide et si fraîche !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "déchausser",
+     "dist": 1,
+     "byte_offset": 15852,
+     "window": "ssuyer, tout humide et si fraîche ! Que faut-il te donner pour être ta camériste cette nuit ? Le joli pied à déchausser !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "pauvre",
+     "dist": 5,
+     "byte_offset": 20703,
+     "window": "e de Médicis.\nLe Cardinal.\nEt le bonnet de la Liberté, n’est-il pas vrai, petite sœur ? Quelle haine pour ce pauvre duc !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "craindre",
+     "dist": 1,
+     "byte_offset": 25901,
+     "window": "ntre le mutilateur de l’arc de Constantin.\nLe Duc.\nAllons donc, vous me mettriez en colère ! Renzo, un homme à craindre !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "craindre",
+     "dist": 26,
+     "byte_offset": 25926,
+     "window": "rc de Constantin.\nLe Duc.\nAllons donc, vous me mettriez en colère ! Renzo, un homme à craindre ! le plus fieffé poltron !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "craindre",
+     "dist": 72,
+     "byte_offset": 25972,
+     "window": " mettriez en colère ! Renzo, un homme à craindre ! le plus fieffé poltron ! une femmelette, l’ombre d’un ruffian énervé !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "papier",
+     "dist": 61,
+     "byte_offset": 26172,
+     "window": " son côté ! d’ailleurs un philosophe, un gratteur de papier, un méchant poète qui ne sait seulement pas faire un sonnet !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "tracer",
+     "dist": 79,
+     "byte_offset": 47715,
+     "window": "oi, dans le silence du cabinet, de tracer d’une main légère une ligne mince et pure comme un cheveu sur ce papier blanc !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "bâtir",
+     "dist": 65,
+     "byte_offset": 47809,
+     "window": "heveu sur ce papier blanc ! qu’il t’est facile de bâtir des palais et des villes avec ce petit compas et un peu d’encre !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "changer",
+     "dist": 6,
+     "byte_offset": 48157,
+     "window": " des hommes ne soit qu’un rêve, cela est pourtant dur ; que le mal soit irrévocable, éternel, impossible à changer, non !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "père",
+     "dist": 6,
+     "byte_offset": 49953,
+     "window": "e, Léon ; c’est-à-dire que cela me démange de lui couper les oreilles. De qui a-t-il médit ? De nous ? de mon père ? Ah !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "prêtre",
+     "dist": 11,
+     "byte_offset": 50342,
+     "window": " quels termes ? Allons ! parle donc !\nLe prieur.\nDans les termes les plus grossiers.\nPierre.\nDiable de prêtre que tu es !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "prêtre",
+     "dist": 74,
+     "byte_offset": 50405,
+     "window": "s les plus grossiers.\nPierre.\nDiable de prêtre que tu es ! tu me vois hors de moi d’impatience, et tu cherches tes mots !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "voir",
+     "dist": 89,
+     "byte_offset": 52217,
+     "window": "eigneur, qu’il est doux de voir un homme tel que Votre Éminence parler ainsi de la tolérance et de l’enthousiasme sacré !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "misère",
+     "dist": 40,
+     "byte_offset": 57356,
+     "window": "ble ! tu me plais. Les familles peuvent se désoler, les nations mourir de misère, cela échauffe la cervelle de monsieur !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "misère",
+     "dist": 58,
+     "byte_offset": 57374,
+     "window": " Les familles peuvent se désoler, les nations mourir de misère, cela échauffe la cervelle de monsieur ! Admirable poète !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "colère",
+     "dist": 1,
+     "byte_offset": 66757,
+     "window": "onfesseur.\nIl sort.\nLa Marquise , seule.\nCela est inouï. S’en aller en serrant les poings, les yeux enflammés de colère !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "donner",
+     "dist": 20,
+     "byte_offset": 66831,
+     "window": "rant les poings, les yeux enflammés de colère ! Parler de mains expérimentées, de direction à donner à certaines choses !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "donner",
+     "dist": 30,
+     "byte_offset": 66841,
+     "window": "oings, les yeux enflammés de colère ! Parler de mains expérimentées, de direction à donner à certaines choses ! Eh mais !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "heure",
+     "dist": 1,
+     "byte_offset": 70181,
+     "window": "ée ; un homme vêtu de noir venait à moi, un livre sous le bras : c’était toi, Renzo : « Comme tu reviens de bonne heure !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "mentir",
+     "dist": 31,
+     "byte_offset": 77950,
+     "window": "pas comment ils te reçoivent.\nLorenzo.\nBon ! si vous saviez comme cela est aisé de mentir impudemment au nez d’un butor !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "heure",
+     "dist": 52,
+     "byte_offset": 82478,
+     "window": "elles ! plus d’une fois ce sang, que tu bois peut-être à cette heure avec indifférence, séchera au soleil de tes places !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "tirer",
+     "dist": 11,
+     "byte_offset": 83384,
+     "window": "meurent de froid cette nuit. Et nous, dans ces palais somptueux, nous attendons qu’on nous insulte pour tirer nos épées !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "colère",
+     "dist": 57,
+     "byte_offset": 83491,
+     "window": "er nos épées ! Le propos d’un ivrogne nous transporte de colère, et disperse dans ces sombres rues nos fils et nos amis !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "punir",
+     "dist": 42,
+     "byte_offset": 83821,
+     "window": "as pour qu’il y eût au monde un être capable de me rendre mon fils et de punir juridiquement l’insulte faite à ma fille !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "dire",
+     "dist": 12,
+     "byte_offset": 84252,
+     "window": "ur m’enfoncer dans mes méditations ; il a fallu que la tyrannie vînt me frapper au visage pour me faire dire : Agissons !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "soir",
+     "dist": 41,
+     "byte_offset": 85599,
+     "window": "ilippe.\nAllons, paix ! tu es un écervelé ! Dieu veuille que ton coup de ce soir n’ait pas de mauvaises suites pour nous !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "défendre",
+     "dist": 27,
+     "byte_offset": 105516,
+     "window": "e Florence son gant taché de vin et de sang, et, lorsqu’on le châtie, tirant pour se défendre le coupe-tête du bourreau !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "défendre",
+     "dist": 47,
+     "byte_offset": 105536,
+     "window": "taché de vin et de sang, et, lorsqu’on le châtie, tirant pour se défendre le coupe-tête du bourreau ! Lumière du soleil !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "manger",
+     "dist": 42,
+     "byte_offset": 105692,
+     "window": "d’heure, contre les idées de révolte, et voilà le pain qu’on me donne à manger, avec mes paroles de paix sur les lèvres !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "manger",
+     "dist": 51,
+     "byte_offset": 105701,
+     "window": "contre les idées de révolte, et voilà le pain qu’on me donne à manger, avec mes paroles de paix sur les lèvres ! Allons !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "colère",
+     "dist": 77,
+     "byte_offset": 106221,
+     "window": "evêtir la nature, si le masque de la colère s’est posé sur le visage auguste et paisible du vieux Philippe ? Ô mon père !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "marbre",
+     "dist": 1,
+     "byte_offset": 109379,
+     "window": "ent encore et se lèveraient pour la vengeance. Je connais si bien tout cela ! Les Huit ! un tribunal d’hommes de marbre !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "dernière",
+     "dist": 1,
+     "byte_offset": 110042,
+     "window": "ous réponds de tout, si vous quittez Florence.\nPhilippe.\nMoi, un banni ! moi dans un lit d’auberge à mon heure dernière !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "dernière",
+     "dist": 10,
+     "byte_offset": 110051,
+     "window": "ds de tout, si vous quittez Florence.\nPhilippe.\nMoi, un banni ! moi dans un lit d’auberge à mon heure dernière ! Ô Dieu !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "dernière",
+     "dist": 52,
+     "byte_offset": 110093,
+     "window": "ippe.\nMoi, un banni ! moi dans un lit d’auberge à mon heure dernière ! Ô Dieu ! tout cela pour une parole d’un Salviati !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "parler",
+     "dist": 13,
+     "byte_offset": 131027,
+     "window": "le part ; un messager m’a apporté cela comme je sortais de l’église.\nMarie.\nLorenzo, dit-il, a dû te parler de lui ? Ah !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "parler",
+     "dist": 47,
+     "byte_offset": 131061,
+     "window": "cela comme je sortais de l’église.\nMarie.\nLorenzo, dit-il, a dû te parler de lui ? Ah ! Catherine, avoir un fils pareil !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "mère",
+     "dist": 60,
+     "byte_offset": 131155,
+     "window": "ine, avoir un fils pareil ! Oui, faire de la sœur de sa mère la maîtresse du duc, non pas même la maîtresse, ô ma fille !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "mère",
+     "dist": 95,
+     "byte_offset": 131190,
+     "window": "ire de la sœur de sa mère la maîtresse du duc, non pas même la maîtresse, ô ma fille ! Quels noms portent ces créatures !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "alexandre",
+     "dist": 1,
+     "byte_offset": 146781,
+     "window": "Un autre.\nCela crie vengeance au ciel ; sortons, et allons égorger Alexandre.\nUn autre.\nOui, sortons ; mort à Alexandre !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "mourir",
+     "dist": 17,
+     "byte_offset": 148382,
+     "window": "xandre le reste de son verre.\nUn autre.\nLa nouvelle Lucrèce ! Nous allons jurer sur son corps de mourir pour la liberté !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "rester",
+     "dist": 109,
+     "byte_offset": 167741,
+     "window": "e de rester pur sous mes vêtements souillés, je ne puis ni me retrouver moi-même, ni laver mes mains, même avec du sang !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "faire",
+     "dist": 109,
+     "byte_offset": 168240,
+     "window": " pour faire de cette colombe ignorante la proie de ce gladiateur aux poils roux ? Quand je pense que j’ai failli parler !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "faire",
+     "dist": 12,
+     "byte_offset": 171062,
+     "window": "ce ?\nPhilippe.\nCelle qui me convient.\nPierre.\nAinsi vous perdez la cause des bannis pour le plaisir de faire une phrase !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "réclamer",
+     "dist": 9,
+     "byte_offset": 171778,
+     "window": "porte les armes contre son pays, en rase campagne et au mépris des lois.\nPierre.\nIl s’agissait bien de réclamer justice !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "réclamer",
+     "dist": 46,
+     "byte_offset": 171815,
+     "window": "ase campagne et au mépris des lois.\nPierre.\nIl s’agissait bien de réclamer justice ! il s’agissait d’assommer Alexandre !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "consoler",
+     "dist": 38,
+     "byte_offset": 179035,
+     "window": "and je lui aurais dit mon projet, qu’aurais-je pu y faire ? au lieu de la consoler, cela lui aurait fait dire : « Crime !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "consoler",
+     "dist": 46,
+     "byte_offset": 179043,
+     "window": "ui aurais dit mon projet, qu’aurais-je pu y faire ? au lieu de la consoler, cela lui aurait fait dire : « Crime ! crime !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "devenir",
+     "dist": 15,
+     "byte_offset": 200567,
+     "window": " laquelle il y a plus de bons grains que de poussière. Maudit soit ce Lorenzaccio, qui s’avise de devenir quelque chose !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "pierre",
+     "dist": 33,
+     "byte_offset": 206981,
+     "window": "te cela à ton père, et dis-lui qu’il le mette avec l’estafilade qu’il a reçue de Pierre Strozzi, empoisonneur que tu es !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "quereller",
+     "dist": 44,
+     "byte_offset": 231346,
+     "window": "ois\nles mauvais plaisants, une troupe de gens qui feignaient de\nse quereller et couraient çà et là criant : « Frappe-le !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "quereller",
+     "dist": 53,
+     "byte_offset": 231355,
+     "window": "auvais plaisants, une troupe de gens qui feignaient de\nse quereller et couraient çà et là criant : « Frappe-le ! tue-le !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "quereller",
+     "dist": 58,
+     "byte_offset": 231360,
+     "window": "s plaisants, une troupe de gens qui feignaient de\nse quereller et couraient çà et là criant : « Frappe-le ! tue-le !\nAh !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "quereller",
+     "dist": 81,
+     "byte_offset": 231383,
+     "window": " de gens qui feignaient de\nse quereller et couraient çà et là criant : « Frappe-le ! tue-le !\nAh ! traître, tu m’as tué !"
+    }
+   ]
+  },
+  {
+   "file": "dumas-fils-dame-camelias.txt",
+   "desc": "Dumas fils, La Dame aux camélias (drame, 1852)",
+   "chars": 219166,
+   "bangs": 565,
+   "candidates": 42,
+   "windows": [
+    {
+     "prep": "de",
+     "infinitive_shaped": "voir",
+     "dist": 1,
+     "byte_offset": 12273,
+     "window": "i qui baise.\nSaint-Gaudens , à Gaston, qui est venu au-devant de lui.\nAh ! ce cher Gaston ! que je suis aise de le voir !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "perdre",
+     "dist": 13,
+     "byte_offset": 12754,
+     "window": " homme qu’elle ne pouvait cesser de voir : c’était le banquier. ( Il rit. ) Je risquais de lui faire perdre sa position !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "mère",
+     "dist": 15,
+     "byte_offset": 33520,
+     "window": "parole !\nPrudence.\nSérieusement.\nMarguerite.\nSi vous saviez quel bon cœur il a, comme il parle de sa mère et de sa sœur !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "moindre",
+     "dist": 16,
+     "byte_offset": 37904,
+     "window": "ussade ; alors, je vous parle de la lune.\nArmand.\nQue veux-tu, Marguerite ? je suis jaloux de la moindre de tes pensées !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "mettre",
+     "dist": 54,
+     "byte_offset": 39241,
+     "window": "Marguerite.\nSi je ne t’aimais pas, aurais-je le droit de te mettre à la porte,\ncomme j’y mets Varville et tant d’autres !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "quatre",
+     "dist": 98,
+     "byte_offset": 47078,
+     "window": "s. Nommé il y a quatre jours, démissionnaire aujourd’hui, il a vécu ce que vivent les roses et les hommes d’État… Tiens !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "voir",
+     "dist": 15,
+     "byte_offset": 53448,
+     "window": " enfin ! que puis-je te dire de plus ?\nMarguerite.\nAlors, tu as raison, il vaut mieux cesser de nous voir dès à\nprésent !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "payer",
+     "dist": 1,
+     "byte_offset": 57990,
+     "window": " dit ?\nPrudence.\nMarguerite ne le voulait pas.\nArmand.\nEt pourquoi ces ventes et ces engagements ?\nPrudence.\nPour payer !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "payer",
+     "dist": 8,
+     "byte_offset": 57997,
+     "window": "Prudence.\nMarguerite ne le voulait pas.\nArmand.\nEt pourquoi ces ventes et ces engagements ?\nPrudence.\nPour payer ! — Ah !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "métier",
+     "dist": 24,
+     "byte_offset": 63865,
+     "window": "uoi heureusement ?\nNichette.\nL’homme qu’il défendait était un gueux achevé. Quel drôle de métier que ce métier d’avocat !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "demander",
+     "dist": 21,
+     "byte_offset": 65014,
+     "window": ". Si je voulais qu’Armand m’épousât, il m’épouserait demain : mais je l’aime trop pour lui demander un pareil sacrifice !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "vivre",
+     "dist": 1,
+     "byte_offset": 76080,
+     "window": "e ? Vous ne savez donc pas, enfin, que je suis atteinte d’une maladie mortelle, que je n’ai que quelques années à vivre !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "briser",
+     "dist": 89,
+     "byte_offset": 76683,
+     "window": "jeune a-t-il le droit de briser tout un avenir ? et c’est tout l’avenir de mon fils que vous brisez en restant avec lui !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "créature",
+     "dist": 36,
+     "byte_offset": 84392,
+     "window": " que cela soit ! Jamais je n’aurai le courage… On ne peut pas demander à la créature humaine plus qu’elle ne peut faire !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "tomber",
+     "dist": 17,
+     "byte_offset": 89513,
+     "window": "ompte là-dessus, mais laisse-moi quelque temps le ménagement de notre fortune ; malheur à qui va tomber dans mes filets !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "sacrifier",
+     "dist": 54,
+     "byte_offset": 91065,
+     "window": "lle ?… Elle, me tromper ! À l’heure où elle pensait à me sacrifier tout… Mais il lui est peut-être arrivé quelque chose !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "sacrifier",
+     "dist": 84,
+     "byte_offset": 91095,
+     "window": "heure où elle pensait à me sacrifier tout… Mais il lui est peut-être arrivé quelque chose !… elle est peut-être blessée !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "sacrifier",
+     "dist": 103,
+     "byte_offset": 91114,
+     "window": "it à me sacrifier tout… Mais il lui est peut-être arrivé quelque chose !… elle est peut-être blessée !… peut-être morte !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "mettre",
+     "dist": 13,
+     "byte_offset": 93058,
+     "window": "rthur.\nJe mets cinq francs à droite.\nGaston.\nC’était bien la peine de demander ce qu’il y avait pour mettre cinq francs !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "être",
+     "dist": 7,
+     "byte_offset": 93370,
+     "window": " là-bas ?\nLe docteur.\nJe cause avec des femmes charmantes ; je me fais connaître.\nGaston.\nVous gagnez tant à être connu !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "perdre",
+     "dist": 19,
+     "byte_offset": 96825,
+     "window": " » je ne le voudrais pas, bien certainement. Eh bien, voilà deux heures que j’en retourne pour perdre deux mille francs !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "perdre",
+     "dist": 24,
+     "byte_offset": 96830,
+     "window": " ne le voudrais pas, bien certainement. Eh bien, voilà deux heures que j’en retourne pour perdre deux mille francs ! Ah !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "payer",
+     "dist": 1,
+     "byte_offset": 101880,
+     "window": "té.\nArmand.\nSoit ! elle a un amant ; il m’en demandera raison. Si je fais une lâcheté, j’ai assez de sang pour la payer !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "voir",
+     "dist": 18,
+     "byte_offset": 104118,
+     "window": " , s’approchant de Marguerite.\nBonjour, Marguerite.\nMarguerite.\nOh ! que je suis heureuse de vous voir, mon bon Gustave !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "votre",
+     "dist": 15,
+     "byte_offset": 108119,
+     "window": "e vous la promets au jeu que vous choisirez.\nVarville.\nSoyez tranquille, monsieur, je profiterai de votre bonne volonté !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "dire",
+     "dist": 8,
+     "byte_offset": 108782,
+     "window": " s’il refuse ?\nMarguerite.\nIl ne me refusera pas, il me déteste trop pour ne pas saisir l’occasion de me le dire… Allez !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "père",
+     "dist": 12,
+     "byte_offset": 108967,
+     "window": "ut qu’il continue de croire ce qu’il croit. Aurai-je la force de tenir la promesse que j’ai faite à son père ? Mon Dieu !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "fuir",
+     "dist": 17,
+     "byte_offset": 110164,
+     "window": "’il arrive un malheur pour moi. Je veux être seule à souffrir.\nArmand.\nAinsi vous me conseillez de fuir une provocation !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "fuir",
+     "dist": 50,
+     "byte_offset": 110197,
+     "window": "e veux être seule à souffrir.\nArmand.\nAinsi vous me conseillez de fuir une provocation ! Vous me conseillez une lâcheté !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "votre",
+     "dist": 10,
+     "byte_offset": 111297,
+     "window": "u que cela se passerait ainsi, que vous me briseriez le cœur, et que je ne m’en prendrais ni à vous ni à votre complice !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "veiller",
+     "dist": 12,
+     "byte_offset": 117173,
+     "window": " vous fatiguer ainsi ?…\nGaston.\nJe passe assez de nuits au bal… quand j’en passerais quelques-unes à veiller une malade !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "penser",
+     "dist": 26,
+     "byte_offset": 119539,
+     "window": "ERITE, NANINE, LE DOCTEUR.\nMarguerite.\nBonjour, mon cher docteur ; que vous êtes bon de penser ainsi à moi dès le matin !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "porter",
+     "dist": 1,
+     "byte_offset": 127584,
+     "window": "me.\nMarguerite.\nMais qu’arrive-t-il ?\nNanine.\nJ’ai voulu vous prévenir… une joie trop brusque est si difficile à porter !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "revoir",
+     "dist": 1,
+     "byte_offset": 128652,
+     "window": "Je n’ai pas encore vu mon père. Marguerite, dis-moi que tu nous pardonnes à tous deux. Ah ! que c’est bon, de te revoir !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "premier",
+     "dist": 17,
+     "byte_offset": 129913,
+     "window": "rier Dieu et d’assister au bonheur des autres. Quelle surprise la Providence me gardait pour le premier jour de l’année !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "premier",
+     "dist": 59,
+     "byte_offset": 129955,
+     "window": "res. Quelle surprise la Providence me gardait pour le premier jour de l’année ! Mais dis-moi donc encore que tu m’aimes !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "vivre",
+     "dist": 15,
+     "byte_offset": 130981,
+     "window": "stantanées. Mais elles passent vite ; regarde, je souris, je suis forte, va ! C’est l’étonnement de vivre qui m’étouffe !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "montrer",
+     "dist": 82,
+     "byte_offset": 140602,
+     "window": "administratives, n’eût qu’à\nse montrer pour que l’administration s’inclinât et lui\ndît : « Comment donc, monsieur Dumas !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "rire",
+     "dist": 1,
+     "byte_offset": 145844,
+     "window": "e est\ncontent, et il y a toujours sur la route un passant qui rit\ndu jardinier. Voilà l’important. C’est si bon de rire !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "imprimer",
+     "dist": 51,
+     "byte_offset": 148965,
+     "window": " père, est\ncondamné au silence. Legouvé a été forcé de faire imprimer\nles Deux Reines , et Barrière Malheur aux vaincus !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "frapper",
+     "dist": 53,
+     "byte_offset": 157403,
+     "window": "llers. Molière fût donc\nresté la main en l’air au moment de frapper, et son grand\nbon sens lui eût dit : « Prends garde !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "plaire",
+     "dist": 19,
+     "byte_offset": 194689,
+     "window": "une, esprit, talents, élégance, beauté même ;\nil nous plaît, nous l’aimons, c’est si facile de plaire à\nune jeune fille !"
+    }
+   ]
+  },
+  {
+   "file": "ponsard-lucrece.txt",
+   "desc": "Ponsard, Lucrèce (tragédie, 1843)",
+   "chars": 98042,
+   "bangs": 238,
+   "candidates": 18,
+   "windows": [
+    {
+     "prep": "de",
+     "infinitive_shaped": "colère",
+     "dist": 1,
+     "byte_offset": 20799,
+     "window": " m’accorde une sœur.\nQue les dieux, vous suivant d’un regard tutélaire,\nRéservent pour moi seul leurs regards de colère !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "colère",
+     "dist": 25,
+     "byte_offset": 27700,
+     "window": "ais de me battre exprès les flancs pour m’irriter.\nOh ! qu’un mot bienveillant apaise de colère\nAu cœur d’un malheureux !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "augure",
+     "dist": 1,
+     "byte_offset": 29089,
+     "window": "contents. »\nLà, j’ai clos l’entretien sans plus ample ouverture.\nC’est alors, plaise aux Dieux qu’il soit de bon augure !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "punir",
+     "dist": 1,
+     "byte_offset": 29347,
+     "window": "ore attendre.\nValère\nEst-ce Brute qui parle ?\nEt que viens-je d’entendre ?\nBrute tient sa vengeance, et diffère à punir !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "notre",
+     "dist": 28,
+     "byte_offset": 34329,
+     "window": "des aïeux fermaient la chambre austère.\nToute force s’énerve en ce relâchement,\nEt, de notre destin signe plus alarmant !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "pauvre",
+     "dist": 9,
+     "byte_offset": 44413,
+     "window": "r dont vous étiez seule dépositaire ?\nEt combien votre nom serait-il-rehaussé\nSi vous aviez vécu pour le pauvre insensé !"
+    },
+    {
+     "prep": "a",
+     "infinitive_shaped": "entendre",
+     "dist": 50,
+     "byte_offset": 57724,
+     "window": "ront d’aujourd’hui.\nComme il me déchirait ! comme il m’a fait entendre,\nSi je doutais encore, ce que j’en dois attendre !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "railler",
+     "dist": 29,
+     "byte_offset": 57917,
+     "window": "’émeut d’en être le témoin,\nJe fais rougir un fou : ma honte est son ouvrage,\nEt de railler encore il trouve le courage !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "fuir",
+     "dist": 34,
+     "byte_offset": 61824,
+     "window": ", pose un pied incertain,\nEt, quand un doigt sacré lui montre la lumière,\nPour en fuir la clarté, se rejette en arrière !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "guerre",
+     "dist": 24,
+     "byte_offset": 66102,
+     "window": " moi, qui vit en solitude.\nA-t-on vu Collatin ? Parle-t-on de combats ?\nCombien vont à la guerre et n’en reviennent pas !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "parler",
+     "dist": 62,
+     "byte_offset": 73669,
+     "window": " suis venu, bravant l’heure inaccoutumée,\nPour vous parler plutôt d’une personne aimée,\nDe Collatin…\nLucrèce\nDieux bons !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "parler",
+     "dist": 85,
+     "byte_offset": 73692,
+     "window": "eure inaccoutumée,\nPour vous parler plutôt d’une personne aimée,\nDe Collatin…\nLucrèce\nDieux bons ! Collatin, dites-vous !"
+    },
+    {
+     "prep": "de",
+     "infinitive_shaped": "pourpre",
+     "dist": 72,
+     "byte_offset": 75001,
+     "window": "ont son front s’environne,\nEt la robe de pourpre et de neige des rois,\nContre ce simple habit que lui filent vos doigts !"
+    },
+    {
+     "prep": "pour",
+     "infinitive_shaped": "dissiper",
+     "dist": 34,
+     "byte_offset": 82901,
+     "window": " Sulpice !\nSulpice\nVos vœux impatients hâtaient l’heure propice,\nEt, pour les dissiper, il suffit d’un regard ?\nEh bien !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "terre",
+     "dist": 1,
+     "byte_offset": 85690,
+     "window": "llements.\nLucrétius , qui s’est levé, et s’est avancé vers Lucrèce.\nQuoi ! les cheveux épars ! Les yeux baissés à terre !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "terre",
+     "dist": 23,
+     "byte_offset": 85712,
+     "window": "qui s’est levé, et s’est avancé vers Lucrèce.\nQuoi ! les cheveux épars ! Les yeux baissés à terre !\nUn noir habillement !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "terre",
+     "dist": 47,
+     "byte_offset": 85736,
+     "window": " avancé vers Lucrèce.\nQuoi ! les cheveux épars ! Les yeux baissés à terre !\nUn noir habillement ! Quel terrible mystère !"
+    },
+    {
+     "prep": "à",
+     "infinitive_shaped": "terre",
+     "dist": 58,
+     "byte_offset": 85747,
+     "window": "s Lucrèce.\nQuoi ! les cheveux épars ! Les yeux baissés à terre !\nUn noir habillement ! Quel terrible mystère !\nMa fille !"
+    }
+   ]
+  }
+ ],
+ "grand": {
+  "chars": 1206208,
+  "bangs": 5102,
+  "candidates": 371
+ }
+}

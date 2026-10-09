@@ -1,0 +1,3148 @@
+{
+ "total_chars": 27657940,
+ "dem_comma_hits": 231,
+ "per_file": [
+  {
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "chars": 769437,
+   "pour_de_inf_excl_hits": 4
+  },
+  {
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "chars": 830700,
+   "pour_de_inf_excl_hits": 3
+  },
+  {
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "chars": 852681,
+   "pour_de_inf_excl_hits": 2
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "chars": 1992545,
+   "pour_de_inf_excl_hits": 10
+  },
+  {
+   "file": "harvest-log.txt",
+   "chars": 1755,
+   "pour_de_inf_excl_hits": 0
+  },
+  {
+   "file": "levant-correspondence-1841-p3.txt",
+   "chars": 1690926,
+   "pour_de_inf_excl_hits": 1
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "chars": 1492023,
+   "pour_de_inf_excl_hits": 13
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "chars": 1723645,
+   "pour_de_inf_excl_hits": 20
+  },
+  {
+   "file": "nesselrode-v10.txt",
+   "chars": 556659,
+   "pour_de_inf_excl_hits": 2
+  },
+  {
+   "file": "nesselrode-v7.txt",
+   "chars": 521560,
+   "pour_de_inf_excl_hits": 8
+  },
+  {
+   "file": "nesselrode-v8.txt",
+   "chars": 614206,
+   "pour_de_inf_excl_hits": 4
+  },
+  {
+   "file": "nesselrode-v9.txt",
+   "chars": 498642,
+   "pour_de_inf_excl_hits": 2
+  },
+  {
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "chars": 1001901,
+   "pour_de_inf_excl_hits": 1
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "chars": 3013552,
+   "pour_de_inf_excl_hits": 40
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "chars": 2964405,
+   "pour_de_inf_excl_hits": 27
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "chars": 3054350,
+   "pour_de_inf_excl_hits": 25
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "chars": 3165234,
+   "pour_de_inf_excl_hits": 40
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "chars": 926037,
+   "pour_de_inf_excl_hits": 8
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "chars": 677686,
+   "pour_de_inf_excl_hits": 26
+  },
+  {
+   "file": "gutenberg-30513-tocqueville-t1.txt",
+   "chars": 597763,
+   "pour_de_inf_excl_hits": 0
+  },
+  {
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "chars": 712233,
+   "pour_de_inf_excl_hits": 0
+  }
+ ],
+ "total_controls": 236,
+ "n_distinct_strings": 233,
+ "records": [
+  {
+   "match": "de\nl'affaire des états-unis!",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t3-gutenberg.txt"
+   ],
+   "first_file": "guizot-memoires-t3-gutenberg.txt",
+   "first_offset": 511128,
+   "context": " elle ne/sera pas longtemps tenable. Mais quelle mauvaise aventure pour le pays/en présence de la question d'Orient, de la guerre civile d'Espagne et de/l'affaire des États-Unis!»//M. Jouffroy avait, je crois, pleinement raison, et dans son jugement/sur la crise naguère accomplie, et dans son appréciation des chances de/l'aven",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de\nl'observatoire!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 312789,
+   "context": "sont étonnants. Quelle fête/partout! Le rossignol est un Elleviou gratis. Été, je te salue. Ô/Luxembourg, ô Géorgiques de la rue Madame et de l'allée de/l'Observatoire! Ô pioupious rêveurs! ô toutes ces bonnes charmantes qui,/tout en gardant des enfants, s'amusent à en ébaucher! Les pampas de/l'Amérique me plairaient",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de \nbaviere  entre  soixante  et  quatre-vingts  florins!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 498713,
+   "context": " pour  moi, /car  la  forme  ne  va  pas  a  autre  cliose.  Des  colonnes  comme /Celles  qui  se  trouvent  sur  notre  terrasse  coütent  au  Roi  de /Baviere  entre  soixante  et  quatre-vingts  florins!  Je  suis  curieux /de  comparer  ce  prix  avec  celui  de  nos  belies  pierres. ///1837.  Ueßer  9ftüncf)en  nadj  Xeplit}.  197 //Je  partirai  d",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de \nconduire;  leurs  troupeaux  hors  de  la  vue  des  habitations!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 2906524,
+   "context": "ne  jouent-ils  pas  aux  chasseurs  assez  téméraires  pour  s'engager /trop  avant  dans  la  montagne,  et  aux  bergers  qui  ne  redoutent  pas  de /conduire;  leurs  troupeaux  hors  de  la  vue  des  habitations! //Les  lutins  et  les  nains  sont  également  fort  redoutés  par  ces  hommes ///LES  SETTE  COMMUNI.  927 //simples  et  crédules,  surtout  à  c",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de \nfaire!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 1331617,
+   "context": "ieu  qui  te  l'ordonne  par  ma  bouche,  et  si  tu  ne  m'obéis  pas, /tu  es  mort.  —  Tiens,  dit  l'empereur,  quel  étrange  rêve  je  viens  de /faire! — Et  là-dessus,  il  se  tourne  de  l'autre  côté  et  se  rendort  de  nou- /veau; mais  voilà  que  l'ange  l'appelle  une  seconde  fois,  plus ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de \nfaire,  eh  bien!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 745136,
+   "context": "t  prévoir  :  un  malheur  est  si  vite  arrivé!  Du  moins,  si  on  a /fait,  pour  le  prévenir,  tout  ce  qu'il  était  humainement  possible  de /faire,  eh  bien!  ma  foi,  lorsqu'il  arrive,  on  n'a  rien  à  se  reprocher; /la  conscience  est  calme  et  on  dort  tranquille.  — Pas  vrai,  Louison? /ajout",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de \ngloire!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 451711,
+   "context": " ©@.  9k.  1271. //Mais  quelle  habitude  infernale,  mon  eher  ambassadeur, /que  celle  des  assassins,  qui  en  fönt  un  mutier,  une  espece  de /gloire!  Un  corps  social  est  bien  malade  quand  un  courage /aussi  infernal  s'empare  de  jeunes  tetes. //1271-1275.  Mtttttnitfy  an  SCggotnii. //",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de \nkrüdener!",
+   "n_files": 1,
+   "files": [
+    "talleyrand-memoires-v1.txt"
+   ],
+   "first_file": "talleyrand-memoires-v1.txt",
+   "first_offset": 210327,
+   "context": "ravages si la Révolution ///les s //////française n'eût effrayé tous les gouvernements et dispersé /les novateurs; ceux qui restent, ÿ compris madame de /Krüdener!, ne sont que ridicules. ///4. Julis de Wietinghoff, fille d'un riche seigneur de Livonie, née en /4764, épousa à dix-huit ans le baron de Krüdener, d",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de \nl'atelier!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 2594058,
+   "context": "là  le  fameux  tonnelier  de  Rouen,  c'est  là  cet  organe /généreux  et  fruste  qui  ne  s'exerçait  qu'en  plein  vent  et  dans  les  loisirs  de /l'atelier!  A  coup  sur,  lorsque  M.  Duponchel  ou  M.  Halévy  (je  ne  sais  plus /lequel)  fit  cette  trouvaille,  ce  dut  être  par  une  nuit  de  pro",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de \nl'atmosphère  et  l'amélioration  de  la  race  chevaline  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 1157471,
+   "context": "x  où  son  amc  de  faune  et  de  centaure  ignorait  les  tourmens /de  la  jalousie  et  ne  connaissait  d'autres  soucis  que  les  variations  de /l'atmosphère  et  l'amélioration  de  la  race  chevaline  !  Il  savoura  long- /temps le  miel  de  ses  souvenirs;  puis,  en  repassant  dans  son  esprit  les /derniers  jours  qui  venaient  de  s'écouler",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de \nl'avenir!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 1220258,
+   "context": "  faire  naître  de  sérieux  travaux.  Si,  dès  la  première  année, /nous  avons  eu  de  si  beaux  résultats ,  que  ne  faut-il  pas  attendre  de /l'avenir!  Les  jeunes  gens  qui  remporteront  les  prix  à  la  licence, /seront  attirés  aux  examens  du  doctorat,  puisque  cet  examen  et  les /inscr",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de \nnotre  jeune  roi!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 2874127,
+   "context": "nières  bouteilles  du  meilleur  vin  qui  me  reste.  Mais  avant /tout,  messieurs...  Il  se  leva  et,  haussant  son  verre  :  — A  la  santé  de /notre  jeune  roi!...  Que  le  Seigneur,  qui  l'a  miraculeusement  délivré, /lui  donne  victoires  sur  victoires,  et  le  porte,  de  sa  main  puissante, /jusque",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de \nrencontre,  allons  donc!",
+   "n_files": 1,
+   "files": [
+    "nesselrode-v10.txt"
+   ],
+   "first_file": "nesselrode-v10.txt",
+   "first_offset": 231329,
+   "context": "s  peuples,  —  à  la  bonne /heure!  c'est  là  un  bon  gouvernement,  c'est  peut-être  le /meilleur,  mais  un  despote  de  hasard,  un  maître  de /rencontre,  allons  donc!  »  Et  ils  iront  et  ils  n'auront /que  ce  qu'ils  méritent. //1.  Faucher  (Léon),  économiste  et  homme  d'État,  né  en  1803,  mort /en  18",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de \nterritoire, où par des contributions pécuniaires !",
+   "n_files": 1,
+   "files": [
+    "talleyrand-memoires-v1.txt"
+   ],
+   "first_file": "talleyrand-memoires-v1.txt",
+   "first_offset": 543460,
+   "context": "///Google le ///1791-1808. æs ///début de la Révolution, avaient dà chercher leur salut dans /une paix que la plupart avaient acheté par des cessions de /territoire, où par des contributions pécuniaires !. L'Autriche, /battue en Italie, battue en Allemagne, voyant son terriloire /envahi de deux côtés, et sa capitale menacie par le général /Bonaparle, a",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de \nvoir!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 1441230,
+   "context": "saire  courut  à  sec  et  vent  arrière  au  milieu  des  ténèbres  : /—  le  plus  beau  et  le  plus  terrible  spectacle  qu'on  puisse  désirer  de /voir!  Les  mats  ploient,  les  cordes  crient,  sifflent,  cassent  de  temps  à /autre;  si  le  bout  d'une  de  ces  cordes  plombées  parle  goudron ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  bière \nmousseuse!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 718653,
+   "context": "eau ne  serait-elle  pas  réduite  elle-même  à  tenir  sa  maison  sur  un /pied  plus  modeste?  Adieu  les  réunions  du  kiosque  et  les  flots  de  bière /mousseuse!  Le  docteur  Herbeau  n'aurait  plus  désormais  que  de  l'ab- /synthe  dans  sa  cave,  disait,  à  ce  propos,  un  poète  de  Saint-Léonard. /Et",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  cendre,  et  je  crie \nà  dieu  et  au  peuple  :  grâce!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 2262916,
+   "context": "tre  une  victoire  qui  vous  fera  vivre. /Voilà  ce  que  crie  l'esprit  exterminateur. //«  Et  moi,  je  pleure,  et  je  me  couvre  la  tête  de  cendre,  et  je  crie /à  Dieu  et  au  peuple  :  grâce!...  Et  ils  répondent:  il  n'y  a  plus  de /grâce. //«  Arrière,  honnêtes  gens  engraissés  de  rapines,  et  qui  avez  fait  des /vertus  à  v",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  chanceler,  de  glisser;  on  s'écrie  :  nous  sommes  perdus!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 2652142,
+   "context": "ous  contraint  à  marcher,  à  courir /avec  lui  sur  la  crête  d'un  précipice;  il  se  balance  sur  l'abîme;  de  temps  en  temps /il  feint  de  chanceler,  de  glisser;  on  s'écrie  :  Nous  sommes  perdus!  Point.  11 /s'accroche  à  un  brin  d'herbe,  à  une  feuille,  à  un  fétu  qui  échappait  à  vos  re- /gards; il  se  relève,  il  est  sauvé;  ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  chanter  cette  lamentable  épopée  : \n\n—  rappelez  célestin  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 1178219,
+   "context": "  un  sourire  fatal  passa  sur  ses /lèvres. //—  C'est  bien  !  dit-il  d'un  air  à  la  fois  calme  et  sombre. //Dès  qu'ils  eurent  achevé  de  chanter  cette  lamentable  épopée  : //—  Rappelez  Célestin  !  reprirent  les  amis  en  chœur.  C'est  le  seul /parti  qu'il  vous  reste  à  prendre;  c'est  la  seule  digue,  le  seul  rempart /que  vous  p",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  colère,  hors  de  lui  :  arrêtez!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 260739,
+   "context": "nte  ne  pouvait  m'atteindre,  j'étais  dans  ma  vocation. //Sepli  eut  conscience  du  danger  qui  me  menaçait,  et,  les  yeux  en- /fiaramés  de  colère,  hors  de  lui  :  Arrêtez!  cria-t-il  à  ces  bêtes  féroces, /arrêtez!  le  premier  qui  s'avance  à  dix  pas,  je  l'étends  raide  mort /avec  ce  pistolet!  Retirez-vous",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  confirmer  le \nlangage  de  ses  yeux  par  un  mot,  un  seul  mot!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 90114,
+   "context": "imable  et /plus  cruelle  qu'elle  n'était  charmante,  M™^  Baretty  devait  me  per- /mettre de  l'adorer.  Pour  conclusion ,  je  la  suppliais  de  confirmer  le /langage  de  ses  yeux  par  un  mot,  un  seul  mot!  formule  consacrée,  y /compris  le  point  d'exclamation  que  je  n'eus  garde  d'oublier,  car  à  la /fin  d'une  lettre  passionnée  il  fait  ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  conquérir  une  situation  littéraire!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 1354398,
+   "context": "écrivains  du  pays,  et  pour  lesquelles  l'éclat /et  la  pureté  du  langage  sont  un  devoir.  Il  était  si  facile  sous  la  restau- /ration de  conquérir  une  situation  littéraire!  Etiez-vous  royaliste  ou /libéral ,  apparteniez-vous  à  la  phalange  du  Conservateur  ou  au  ba- /taillon de  la  Minerve,  votre  parti  se  ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  céder!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 2782916,
+   "context": "gneuse, /on  ne  trouvait  une  concession  du  gouvernement  français;  et  quelle /concession!  le  conseil  donné  par  nous  au  pacha  d'Egypte  de  céder! /Lord  Granville  dit  dans  la  même  dépèche  : //^<  Le  prince  Metternich  appréhende  que,  dans  l'état  d'excitation  où  est  la /(I)  Lord ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  demeurer  si  tard  en  la  rue  à  causer  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 1777350,
+   "context": "  descouvrir  ta  lumière  empruntée, /JMes  amoureux  secrets  ne  pourras  déceler. //Que  de  fascheuses  gens  !  mon  Dieu  !  quelle  coustume /De  demeurer  si  tard  en  la  rue  à  causer  ! /Ostez-vous  du  serein;  craignez-vous  point  la  reume.^ /La  nuict  s'en  va  passée,  allez  vous  reposer. //Je  vay,  je  vien ,  je  fuy,  j'",
+   "topic_class": "G-exclaimed-NP",
+   "reason": "exclamative \"quelle coustume\" NP embedding \"de demeurer... a causer\" (Cause-C)",
+   "genuine_gov_excl_inf": true
+  },
+  {
+   "match": "de  dresser \nses  batteries  contre  la  tourbe  des  novateurs !",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v4.txt"
+   ],
+   "first_file": "metternich-papiere-v4.txt",
+   "first_offset": 1459207,
+   "context": "nnees !  Qu'elles  ne /se  trompent  pas  sur  la  necessite  dans  laquelle  va  se  sentir /placee  Sa  Majeste  Imperiale  de  Russie  elle-meme,  de  dresser /ses  batteries  contre  la  tourbe  des  novateurs !  La  guerre  que /les  memes  factions  qui,  sous  des  couleurs  tantot  politiques, /tantot  philanthropiques,  se  sont  prononcees  avec  une  v",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  défendre  certaines  manifestations  trop \n\n!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 1997231,
+   "context": " sujets.  Au  mois  de  juin  1830, /les  autorités  de  Dresde  et  de  Leipzig  avaient  eu  la  maladresse,  pour /faire  leur  cour  au  prince,  de  défendre  certaines  manifestations  trop //!{V)  Résidence  d'été ,  à  une  lieue  de  Cassel. //(2)  La  branche  royale,  ci-devant  électorale ,  de  la  maison  de  Saxe  est  catholique /d",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "truncated/OCR \"trop //!{V)\"",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  déranger  cette  barmonie  si  dif- \nficile à  établir!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 1920660,
+   "context": "/620  REVUE  DES  DEUX  MONDES. //me  semble  que  je  suis  ce  clavecin  :  combien  fréquemment  faut-il /m'accorder,  et  comme  il  est  facile  de  déranger  cette  barmonie  si  dif- /ficile à  établir!  Mon  imagination  surtout  est  un  instrument  dont  je /ne  dispose  guère.  Quelquefois  l'influence  est  bonne,  et  me  voilà  heu- /reux; mai",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  désespoir!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 305169,
+   "context": "etti,  Vinetti!  ma  bien-aimée!  «  Nul  ne  comprendra  jamais  ce /qu'un  homme  peut  souffrir  dans  une  nuit  pareille,  nuit  d'angoisse  et /de  désespoir!  Un  vent  frais  poussait  vers  la  haute  mer  la  barque  qui /m'entraînait  après  elle.  La  lune  s'était  enfin  couchée;  je  sentais  mes /",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  désir!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 377747,
+   "context": "-être  que  cette /impartialité  devenue  facile  par  la  même  aptitude  successive  à  tous  les  systèmes, /par  le  manque  commun  de  but  et  de  désir!  Au  moins  profitons  de  nos  avan- /tages, et  maintenons  les  privilèges  du  bon  sens  :  toute  idolâtrie  est  dange- /reuse. //Je  commence",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  faire  autrement!",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t5-t6.txt"
+   ],
+   "first_file": "guizot-memoires-t5-t6.txt",
+   "first_offset": 504074,
+   "context": "magne;  mais  en  France  d'oii  je  viens,  les  gens /sensés,  les  amis  de  la  paix  ne  vous  comprennent  pas. /El  il  vous  était  si  aisé  de  faire  autrement!  Un  peu  de /résistance  passive,  sans  le  moindre  danger  ! //—  «  Il  peut  y  avoir  du  vrai  dans  ce  que  vous  dites  là, /reprit  M.  d",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  faire  ici  l'énumération  de  tous  les \nouvrages  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 2751322,
+   "context": "  l'éditeur  (init  par  indisposer /le  lecteur,  et  ne  saurait  jamais  contribuer  au  succès  de  l'ouvrage. //si  ne  serait  guère  possible  de  faire  ici  l'énumération  de  tous  les /ouvrages  !ii:-toriqoes  qui  ont  paru  en  Toscane  dans  ces  dernières  an- /!!ées.  Plusieurs  sont  d'un  iiitérêt  trop  restreint  et  trop  local  pour ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  faire  penser \nhommes  et  femmes  sur  toute  chose!",
+   "n_files": 1,
+   "files": [
+    "nesselrode-v8.txt"
+   ],
+   "first_file": "nesselrode-v8.txt",
+   "first_offset": 166035,
+   "context": "ées  se  voient,  se  réunissent.  Dans /les  coteries,  comme  on  critique  l'intimité  de  celle-ci, /de  celle-là,  et  comme  on  a  vite  fait  de  faire  penser /hommes  et  femmes  sur  toute  chose!  Cependant  la  prin- /cesse Lieven  est  devenue  très  discrète;  Pahlen  est  per- /suadé que  c'est  Guizot  qui  l'a  forcée  à  l'être.  Je  ne",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  faire  sa  fortune!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 2944210,
+   "context": " de  papier  réglé,  qu'on  s'impose  la  tâche  de /couvrir  dans  un  temps  donné;  quel  supplice,  si  ce  n'était  un  plaisir,  le  plai- /sir de  faire  sa  fortune!  —  Ce  soir,  le  bénéfice  de  Rubini  nous  rend  Otello, /et  s'il  faut  en  croire  les  bruits  du  théâtre,  au  milieu  de  cette  foule  de",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  faire!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 1610227,
+   "context": "iennes  tendances. /Puisse  ce  fragment,  quel  qu'il  soit,  jeter  un  peu  de  variété  sur  la /sèche  nomenclature  d'édifices  que  je  viens  de  faire! ///LE  COUVENT  DE  L'INQUISITION. //Parmi  les  décombres  d'un  couvent  ruiné,  deux  hommes  se  ren- /contrèrent à  la  clarté  sereine  de  la ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  fautre!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 860094,
+   "context": "omte,  parce  que  MM.  Thiers  et  Guizot  veulent  etre  Ministres /a  tout  prix  et,  —  notez  bien  ceci,  —  Fun  en  de*pit  et  aux /depens  de  Fautre!  Vive  donc  le  regime  representatif  moderne! //1352-1353.  Mtttcmitfj  an  Sjipotnii. //Vienne,  ce  15  Fevrier. //1352.  Je  vous  avouerai,  m",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR: \"de Fautre!\" = \"de l'autre\"",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  fhistoire !",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v4.txt"
+   ],
+   "first_file": "metternich-papiere-v4.txt",
+   "first_offset": 759989,
+   "context": "eonscience  du  Cabinet /britannique  sur  notre  compte ;  je  ne  crains  pas  de  me  compro- /mettre,  car  ce  que  je  viens  d'ecrire,  c'est  de  Fhistoire ! //La  negociation  isolee  entre  la  Grande-Bretagne  et  la  Russie, /et  l'assentiment  du  Sultan  aux  premieres  propositions  de  FEm- /pereur",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR: \"de Fhistoire!\" = \"de l'histoire\"",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  fièvre: \ncette  eau  de  diamant  avait  un  goût  de  mort  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 3012213,
+   "context": "r  en  boire  un  peu  je  m'approchai  du  bord. /Dans  le  cristal  glacé  quand  je  trempai  ma  lèvre^ /Je  me  sentis  saisi  par  un  frisson  de  fièvre: /Cette  eau  de  diamant  avait  un  goût  de  mort  ! //Chartreuse  de  Miraflores,  près  de  Burgos. ///976  REVUE   DES  DEUX  MONDES. ///DANS  LA  SIERRA. //J'aime  d'un  fol  amour  les  monts  fier",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  gagner, \net  c'est  beaucoup  livrer  au  hasard!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 1023740,
+   "context": "temps  e'clairera /toujours  davantage  le  bon  sens  public.  Je  l'espere  avec  Sa /Majeste\",  mais  c'est  le  temps  necessaire  qu'il  s'agit  de  gagner, /et  c'est  beaucoup  livrer  au  hasard! //—  Ce  4  Mars. //1373.  Dans  quel  e*tat  se  trouve  cette  France  qui  a  la. /Prätention  de  servir  de  modele  au  monde,  et  qui  ne  sa",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  gloire  et \nde  justes  hommages !",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v4.txt"
+   ],
+   "first_file": "metternich-papiere-v4.txt",
+   "first_offset": 692292,
+   "context": "eux  endroits  aban- /donnes  de  la  nature  et  des  hommes,  et  qui  ont  vu  s'eteindre /deux  existences  naguere  encore  entourees  de  tant  de  gloire  et /de  justes  hommages ! //Nous  n'enverrons  point  d'ambassade  extraordinaire  au /couronnement.  La  France  et  FAngleterre  ont  tellement  ren- /force  les  extraordin",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  gloire;  et  voilà  qu'on  l'abreuve  d'humi- \nliations!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 872997,
+   "context": "de /Riquemont!  les  fruits  du  triomphe  de  la  veille!  Qu'est-ce  à  dire?  A ///LE  DOCTEUR   HERBE  AU.  291 //Tëhtendre,  il  s'est  couvert  de  gloire;  et  voilà  qu'on  l'abreuve  d'humi- /liations! Depuis  quand  l'honneur  de  la  victoire  revient-il  au  vaincu, /la  honte  de  la  défaite  au  vainqueur?  Depuis  quand  recueillc-t-on  des /",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  guerre  ne  s'est  ein- \nparke des  esprits!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 1172062,
+   "context": "rontieres  de  cet  Etat,  meme  dans /les  directions  les  plus  eloigne'es,  n'est  en  marche;  pas  un /arsenal  ne  travaille;  pas  une  idee  de  guerre  ne  s'est  ein- /parke des  esprits!  Oü  donc  est  l'ennemi?  C'est  le  pays  qui /pousse  le  cri  de  guerre,  qui  se  couvre  de  soldats,  qui  fait  un /appel  aux  ide'es  guer",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR \"einparke\"; \"!\" terminates finite clause",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  guerre,  que  d'artistes  la  charrue  a  en- \nvoyés au  monde!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 2936696,
+   "context": "et  assidu  que  l'homme  entretient  avec /la  nature,  une  cause  déterminante  et  féconde  de  nobles  inspirations. /Que  d'hommes  d'état  et  de  guerre,  que  d'artistes  la  charrue  a  en- /voyés au  monde! //«  Rien  n'était  plus  convenable  à  mon  humeur,  ni  plus  propre  à /me  rendre  heureux,  écrit  Rousseau  dans  ses  Confessions ,  que  l'é",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'abandonner  aux  outrages  de  la  grande  route  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 2669100,
+   "context": "  ne  vous  serait-il  point  arrivé,  au  moment  de  vous /en  séparer,  de  le  jeter  sous  l'ombrage  caché  de  quelque  fouillis  plutôt  que /de  l'abandonner  aux  outrages  de  la  grande  route  !  Si  vous  me  disiez  non ,  non /jamais...,  à  grand  regret,  cher  lecteur,  je  verrais  se  perdre  un  petit  grain  de /cette  sympathie  qu",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'abandonner  avant  d'en \navoir  tiré  parti  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 2144124,
+   "context": "e  pas  la  situation /que  les  hommes  politiques  avaient  prédite,  que  la  nation  tout  en- /tière avait  espérée,  et  fallait-il  se  hâter  de  l'abandonner  avant  d'en /avoir  tiré  parti  ! //En  soi,  la  politique  de  l'isolement  était  bonne.  Point  de  doute  à /cet  égard.  Qu'on  veuille  bien  maintenant  montrer  les  évènemen",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'adversaire,  elles  se  disent  à  demi-voix  :  «  partageons  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 809130,
+   "context": "andes  rivales  se  mesurent  de  l'œil,  et, /dans  l'impuissance  oii  elles  sont  l'une  et  l'autre  d'éteindre  sans  retour  les /prétentions  de  l'adversaire,  elles  se  disent  à  demi-voix  :  «  Partageons  !  «  Elles /savent  bien  que  leur  accord  factice  ne  peut  être  durable,  et  qu'aussitôt  le  pillage /achevé,  lorsque  le  pavillon  britanni",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'angleterre \ncontre  les  prétentions  de  la  russie!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 2323408,
+   "context": "ter  la  res- /ponsabilité sur  ses  collègues!  Comme  on  sent,  dans  ses  paroles,  le /regret  qu'il  éprouve  d'avoir  à  d'îfcndre  l'honneur  de  l'Angleterre /contre  les  prétentions  de  la  Russie!  Gomme  ce  ministre  orgueilleux /se  fait  petit  devant  M.  de  Brunnow!  S'il  insiste  sur  la  présence  du /pavillon  anglais  aux  Dardanell",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'angleterre!",
+   "n_files": 2,
+   "files": [
+    "nesselrode-v8.txt",
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "nesselrode-v8.txt",
+   "first_offset": 195669,
+   "context": "tre  nous-mêmes  chez  nos  meilleurs /amis  et  alliés.  Combien  de  fois  Metternich  ne  nousa-t-il /pas  prêché,  conjuré  de  nous  rapprocher  de  l'Angleterre! /A  présent  que  nous  sommes  bienavecelle,  il  craintque /nos  relations  ne  deviennent  trop  intimes.  On  ne  sait /plus  que  faire  pour  ê",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'assurer  à  onze  mille  officiers  !",
+   "n_files": 1,
+   "files": [
+    "pozzo-di-borgo-correspondance-v1.txt"
+   ],
+   "first_file": "pozzo-di-borgo-correspondance-v1.txt",
+   "first_offset": 77015,
+   "context": " aux  autres  généraux  et  aux  officiers  des  grades /inférieurs,  ils  ne  sont  inquiets  que  de  leur  existence  future; /il  est  difficile  de  l'assurer  à  onze  mille  officiers  ! //Le  roi  devrait  garder  la  Légion  d'honneur  et  lui  conserver /ses  avantages  pécuniaires.  Elle  touche  au  bien-être  et  à  la ///8  COR",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'autre  côté  :  nous  y  voilà  encore  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 2623729,
+   "context": "'abattit ,  se  releva,  trébucha  encore,  et  se  releva  enfin /à  demi  noyé.  La  brouette  s'enfonça  de  côté  :  Nous  y  voilà!  se  rejeta /de  l'autre  côté  :  Nous  y  voilà  encore  !  fit  des  craquemens  sinistres, /des  bonds  fabuleux,  et  sortit  enfin  triomphante  de  l'épreuve,  comme /un  navire  qui  a  touché  les  écu",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'autre  on  voit,  ô  bénédiction  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 204790,
+   "context": "illes  de  Scribe.  Toute  la  salle  est  pleine  de /chaises  et  de  petites  tables  rangées  symétriquement.  D'un  coté  est  le /théâtre,  et  de  l'autre  on  voit,  ô  bénédiction  !  le  buffet  du  restaurateur /et  du  limonadier,  la  théière  fumante,  les  larges  tranches  de  veau  ou /de  jambon,  dont  l'aspect  seul  am",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'autre  par  une  corne  de  chamois!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 99807,
+   "context": " porte  de  l'auberge  un /b!^^l  '^,b;\"d,e,  un  sac  de  voyage  sur  le  dos,  et  à  la  main  un  iong /bâton  ferre  d  un  bout,  et  terminé  de  l'autre  par  une  corne  de  chamois! /de  b  ^o^rte\".  \"\"\"'  '\"'  '^'■\"'\"\"'^H«,  surpris  de  le  voir  équipé //d'^ut'^lf far;;  [f  ■\"'■\".\"::'■\"  '\"  *'\"^\"''  ^\"PP^™^^  ?«\"  I»  quart ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR-garbled window; \"!\" terminates finite clause",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'avenir  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 2914077,
+   "context": "nsensé  qui  veut  entraîner  avec  lui /dans  la  mort  ses  compagnons  et  ses  frères,  qui  dans  son  égoïsme  les /déshérite  de  la  vie  et  de  l'avenir  !  Étrange  réformateur  qui ,  pour  ne /savoir  pas  supporter  un  premier  revers,  pense  que  le  genre  humain /ne  doit  point  lui  survivre  ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'avenir  de \ncélestin,  déjà  trop  compromis,  hélas!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 1727739,
+   "context": "/pour  entrevoir  les  funestes  résultats  qu'aurait  cette  affaire  en  suivant /son  cours.  Il  ne  s'agissait  de  rien  moins  en  effet  que  de  l'avenir  de /Célestin,  déjà  trop  compromis,  hélas!  il  s'agissait  aussi  de  sauver  l'hon- /neur de  son  nom.  Ayant  donc  de  nouveau  ouvert  son  secrétaire,  où /se  trouvaient  heureusement ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'avenir!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 1927327,
+   "context": "les,  que  l'on  accusait  d'être  ambiguës.  Homme  honnête /et  homme  dévoué,  dont  l'apostolat  charitable  et  sincère  mérite  la /vénération  de  l'avenir! //Il  ne  manquait  point  d'habileté;  pendant  toute  sa  vie,  il  conserva /l'appui  de  William  Pitt.  William  Pitt  n'était  pas  seulement  ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'avenir,  car  avec \nmoi  finira  mon  pouvoir!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 1093095,
+   "context": "t-Ali  peutajuste  titre /dire:  L'Egypte,  c'est  moi;  le  present,  qui  est  entierement  de /ma  creation,  c'est  moi;  il  en  est  autrement  de  l'avenir,  car  avec /moi  finira  mon  pouvoir!  —  Teile  est  a  l'^gard  de  la  puissance /egyptienne  la  verite*  et  toute  la  verite.  Ni  Ibrahim  ni  tel  autre /fils  de  Mehemet-Ali  n",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'empire \nottoman!",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t5-t6.txt"
+   ],
+   "first_file": "guizot-memoires-t5-t6.txt",
+   "first_offset": 947803,
+   "context": "sent  les  trois  autres /pachaliks  de  Syrie ,  les  pachaliks  de  Damas  ,  d'Alep  ,  de /Tripoli.  Elles  appellent  cela  sauver  l'intégrité  de  l'Empire /ottoman!  Ainsi,  Tinlégrité  de  l'Empire  ottoman  est  sauvée /même  quand  on  en  détache  l'Egypte  et  le  pachalik  d'Acre; /mais  elle  est  détruite",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'empire  ottoman!",
+   "n_files": 2,
+   "files": [
+    "metternich-papiere-v6.txt",
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 1146645,
+   "context": "e,  dont  Fexpression  la  plus  simple  se  r^sume /dans  les  termes  suivants:  la  conservation  du  Trone,  l'in- /d^pendance  et  l'integrite\"  de  l'Empire  ottoman!  Si,  en /choisissant  cette  ligne  de  pens^e  politique,  nous   devions  nous ///1840.  2>er  3utitiertvag  unb  ftran!retd)$  ifoltrte  (Stellun",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'empire  turc,  et  on  y \nfomente  des  insurrections!",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t5-t6.txt"
+   ],
+   "first_file": "guizot-memoires-t5-t6.txt",
+   "first_offset": 429237,
+   "context": "tile  à  l'Empire  turc,  d'agir  ainsi  contre /le  vice-roi?  On  veut  rétablir  un  peu  d'ordre  et  d'obéis- /sance dans  toutes  les  parties  de  l'Empire  turc,  et  on  y /fomente  des  insurrections!  On  ajoute  de  nouveaux  dés- /ordres à  ce  désordre  général  que  toutes  les  puissances /déplorent  dans  l'intérêt  de  la  paix!  Et  ces  p",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'empire !",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v4.txt"
+   ],
+   "first_file": "metternich-papiere-v4.txt",
+   "first_offset": 1259608,
+   "context": "de*pense  en  une  seule  Operation  le  patrimoine  de /gloire  et  de  prestige  que  lui  avaient  laisse  ses  devanciers  depuis /la  fondation  de  l'Empire !  Ce  bien  est  perdu,  et  il  Test  d'une /maniere  irreparable.  L'Empereur  aura-t-il  la  force  de  caractere /et  ce  calme  de  la  vöritable",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'enfer  !",
+   "n_files": 2,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt",
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 324954,
+   "context": "  du  glaive  des  douleurs, /car  une  résolution  terrible  et  suprême  vient  d'être  prise  dans  le /triangle  mystérieux ,  celle  du  rachat  de  l'enfer  !  Si  nous  étions  des /théologiens,  nous  tancerions  d'importance  cette  imagination  qui  sent /l'hérésie  d'une  lieue  à  la  ronde,  et  qui,",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'enfer  ne  prévaudront  pas  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 135854,
+   "context": " combattez  le  bon  combat,  faites  l'œuvre  de /Dieu  avec  courage  et  une  volonté  entière.  Dieu  vous  bénira  d'en /haut,  et  les  portes  de  l'enfer  ne  prévaudront  pas  !  »  Ses  derniers  sou- /pirs furent  une  malédiction  et  une  prophétie.  Grange  avait  déserté  la /cause  des  barons  et  pris  en  main  cell",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'enterrer  en  rendant  tout  autre \ntraité  impossible  !",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t5-t6.txt"
+   ],
+   "first_file": "guizot-memoires-t5-t6.txt",
+   "first_offset": 1135999,
+   "context": "is  poindre  le  même  danger  sous  une  autre  forme  ; /alors  c'était  un  traité  à  inaugurer;  il  s'agit  aujourd'hui /de  l'enterrer,  mais  de  l'enterrer  en  rendant  tout  autre /traité  impossible  !  » //Je  ne  me  dissimulai  point  le  péiil  de  cette  situation /et  la  nécessité  de  le  prévenir.  Je  répondis  à  M.  de /Bourqueney  :  « ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'histoire  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 289325,
+   "context": "  de  Jaffî»,  de  Kaïffa, /et  saluent  à  coups  de  fusil  les  Anglais  et  les  Turcs  à  Saint-Jean-d'Acre. /Nous  nous  inscrivons  au  livre  de  l'histoire  ! //Ce  n'était  point  assez  des  hommes  pour  nous  vaincre  ;  les  destins /ennemis  soulèvent  contre  nous  la  peste,  le  fanatisme,  la  rus",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'hiver,  de  berlin  à \nsaint-pétersbourg!",
+   "n_files": 1,
+   "files": [
+    "nesselrode-v10.txt"
+   ],
+   "first_file": "nesselrode-v10.txt",
+   "first_offset": 23982,
+   "context": " qui,  dans  cette  pièce,  nous  est  adressée  en /termes  généraux  ;  et  c'est  pour  cela  que  le  Roi  envoie /un  pauvre  malade,  au  cœur  de  l'hiver,  de  Berlin  à /Saint-Pétersbourg!  Qui  se  montre  peut-être  pire  encore /que  lui,  c'est  son  frère,  le  Prince  de  Prusse.  Il  s'est /mis  ouvertement  à  la  tête  du  part",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  l'émir  béchir  et  de  tous  les  autres  scbeiks!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 1633188,
+   "context": "et-Ali,  aux  termes  de  l'arrangement  de  Kutaya,  arrangement /que  l'Angleterre  elle-même  avait  garanti?  L'ambassadeur  britannique /répond  de  l'émir  Béchir  et  de  tous  les  autres  scbeiks!  ïl  s'était  donc /mis  en  rapport  avec  eux;  il  y  avait  donc  eu  d'autres  émissaires  que /ceux  de  la  Porte  envoyés  dans  le  Liban  p",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  lièvre!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 2776720,
+   "context": "/heure  :  regardez  à  vos  montres. //La  demi-heure  écoulée  :  —  Je  veux  tuer  un  lièvre,  dit-il;  il  faut  que /je  le  tue,  ce  diable  de  lièvre! //Le  lièvre  passa  à  une  telle  dislance,  que  mon  frère  cria  :  Ne  tirez /pijs,  c'est  inutile;  il  est  hors  de  portée. //58. ///896  ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  m'aliter,  le  médecin  emporte  le  fruit  de  ma  peine!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 2352674,
+   "context": "e  me  paie  pas  comptant;  si  je  suis  souf- /frant, il  faut  que  je  travaille  comme  si  je  me  portais  bien,  et,  si  je- /suis  obligé  de  m'aliter,  le  médecin  emporte  le  fruit  de  ma  peine! /lo  fui  un  caballo  de  libertar  me!  (J'ai  été  un  cheval  de  m'affranchir).  » //Une  fois  le  nègre  affranchi  et  hors  de  la  maison, ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  m'ecrier  avec  le  grenadier  frangais : \n„ab !",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v4.txt"
+   ],
+   "first_file": "metternich-papiere-v4.txt",
+   "first_offset": 59881,
+   "context": "nfants,  Tun  entre  deux  et  trois  ans, /l'autre  entre  trois  et  quatre,  assis  tout  nus  sur  le  cbamp  la- /boure.  J'e*tais  bien  tente  de  m'ecrier  avec  le  grenadier  frangais : /„Ab !  les  malbeureux  appellent  cela  une  patrie !\"  Le  premier /petit  Silesien  que  j'ai  vu  avait  un  bon  petit  bonnet,  une  bonne /camisole,",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  m'ecrier  comme  dandini: \n„ma  mi  stracciate!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 180591,
+   "context": "table,  et  Nesselrode,  Ancillon /et  Tatistscbeff  sont  dans  mon  salon  pour  entrer  en  Conference. /Je  suis  vingt  fois  par  jour  tente\"  de  m'ecrier  comme  Dandini: /„Ma  mi  stracciate!\"  —  Adieu.  Je  ne  serais  pas  surpris  si /FEmpereur  Nicolas  arrivait  ici  ce  soir.  Nous  ne  savons  encore /rien  de  lui,  et  comme  FIm",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  m'intéresser  aux  malheurs  de  saint-léonard!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 920903,
+   "context": "ous  plongés  dans  une  consternation  que  vous  partagerez /sans  doute. //—  Pardieu!  monsieur,  s'écria  M.  Riquemont,  j'ai  bien  le  temps /de  m'intéresser  aux  malheurs  de  Saint-Léonard!  savez-vous  ce  qui ///LE  DOCTEUR  HERBEAU.  307 //m'arrive?  ma  ferme  de  Gros-Bois  est  écroulée,  j'ai  trois  bœufs  écra- /sés, deux  grang",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  m'écrire  le  !",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t5-t6.txt"
+   ],
+   "first_file": "guizot-memoires-t5-t6.txt",
+   "first_offset": 1873567,
+   "context": " » //5»  M.  Guizot  à  M.  Casimir  Périer, //Paris,  4  janvier  1842. //«  Monsieur,  j'ai  reçu  la  dépêche  que  vous  m'avez  fait /l'honneur  de  m'écrire  le  !21  décembre,  et  dans  laquelle  vous /me  (li les  que,  le  IS  du  niêiiKMnois,  vous  vous  êtes  exaclement ///478  PIÈCES  HISTORIQUES, //conf",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR artifact: \"le !21 decembre\" for \"le 21 decembre\"",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  maistre,  quelle  modestie!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 1356631,
+   "context": "  part  :  (f  Avec  M.  de  Maistre,  ou  au-delà  de /M.  de  Maistre,  nous  pensons...  »  M.  Guiraud  pensant  quelque  chose /au-delà  de  M.  de  Maistre,  quelle  modestie!  Mais  ne  serait-il  pas /encore  temps  pour  l'auteur  de  la  Philosophie  catholique  de  revenir /à  des  idées  plus  sages?  Dans  la  préfac",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  manière  ou  d'autre,  je  sois  gouverné!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 196094,
+   "context": "assé,  un  de  ceux  qui  ne  s'embarrassent  guère  des  choses /politiques  et  qui  disent  :  Me  gouverne  qui  voudra,  il  faudra  bien  quoy /de  manière  ou  d'autre,  je  sois  gouverné!  traversa  Castel-o-Branco. /Que  venait-il  y  faire?  il  serait  long  de  le  déterminer.  Quoi  qu'il  en /soit,  au  milieu  du  chemin ,  il  ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  manière!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 65978,
+   "context": "le  exécu- /tion plus  malheureuse  encore!  Quel  style,  quel  goût,  quel  choix  de /couleurs  et  de  tons!  Quelle  vulgarité  de  pensées  et  de  manière! /Enfin,  car  il  y  a  quelques  bonnes  choses  dans  celte  peinture,  quelle' /audace  de  plagiat  ! //Les  peintures  à  sujets  religieux  qu'",
+   "topic_class": "G-exclaimed-NP",
+   "reason": "exclaimed \"Quelle vulgarite de pensees et de maniere\" NP; no infinitive",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  marcher  sur  londres,  et  de  s'en  emparer!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 654802,
+   "context": "  dernière  guerre,  il  apportait  avec  lui /des  chaînes  en  or  destinées  à  lord  Amherst,  et  il  avait  ordre,  une  fois /Calcutta  pris,  de  marcher  sur  Londres,  et  de  s'en  emparer!  Les  dé- /faites succédèrent  aux  défaites,  sans  dissiper  cette  ivresse  d'aveugle /orgueil  qui  caractérise  si  particulièrement  les  Ilind",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  mesure  dans  leur  langage;  les  orientaux  ennemis \ndu  généra!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 965799,
+   "context": "que  comme  un  écho  fort  affaibli. //Dès-lors  tout  arrangement  parut  impossible,  les  passions  haineuses  déchaî- /nées ne  gardèrent  plus  de  mesure  dans  leur  langage;  les  Orientaux  ennemis /du  généra!  Rosas  et  les  Argentins  proscrits  envenimèrent  la  querelle,  on /soufflait  partout  la  guerre  à  mort  contre  Rosas;  mais  comment  y  en",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "noun \"mesure\"/OCR \"genera\"; \"!\" terminates finite clause",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  ministre  des  affaires  etrangeres!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 1074144,
+   "context": "pagne.  Quel  genie  singulier  que  celui  de  M.  Triers, /qui  se  croyait  bien  specialement  appele  par  ses  qualites  a /oecuper  le  poste  de  Ministre  des  affaires  etrangeres!  II /n'a  pas  eu  besom  de  lmit  mois  pour  ruiner  le  seul  allie*  qu'il /ait  voulu  proteger,  pour  se  brouiller  avec  l'allie  qu'il  av",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  ministère  entretiennent  (agitation  !",
+   "n_files": 1,
+   "files": [
+    "nesselrode-v7.txt"
+   ],
+   "first_file": "nesselrode-v7.txt",
+   "first_offset": 355471,
+   "context": "ue  les  gazettes  sont /muettes  à  ce  sujet.  Comme  son  poste  est  devenu  désa- /gréable, en  celle  France  où  les  changements  continuels /de  ministère  entretiennent  (agitation  !  Soult  sera  le /premier  à  trahir  le  Roi. ///La  même  au  même. //Sidmouth,  5/15  août  1831. //La  question  qui  se  pose  maintenant  est  ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR artifact: \"(agitation !\"",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  misere  ni  de  mort!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v4.txt"
+   ],
+   "first_file": "metternich-papiere-v4.txt",
+   "first_offset": 59525,
+   "context": "es  bommes.  Plus  de  baillons ; /les  maisons  sont  propres  et  les  babitants  bien  couverts ;  plus /de  juifs,  plus  de  gale;  de  teigne,  de  misere  ni  de  mort!  J'ai /vu;  il  y  a  deux  jours,  par  un  froid  de  trois  ou  quatre  degres, /des  paysans  travaillant  dans  les  cbamps,  couverts  de  leur",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  montpellier,  et  eut  de  ce  mariage  jacnie  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 2532551,
+   "context": "ans  la  ville  de  Montpellier. /Pierre  II,  tué  à  Muret  (1213)  en  combattant  Simon  de  Montfort,  avait  épousé  Marie, /fdlc  d'un  comte  de  Montpellier,  et  eut  de  ce  mariage  Jacnie  !<='\",  dit  lo  Conquistador, /qui  naquit  dans  cette  ville  et  y  passa  les  premières  années  de  son  enfance. //Un  des  caractères  qui  di",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  multiplier  las  embarras  de  rosas!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 1075858,
+   "context": "  distribués  pour  soulever  une  armée /révolutionnaire ,  tout  ce  que  nous  pouvions  espérer  de  la  grande  expédition /française,  c'était  de  multiplier  las  embarras  de  Rosas!  Cette  lettre  de  Lavalle ///AFFAIRES  DE   BUENOS-AYBES:  351 //est  désolante.  Non,  la  France  ne  pouvait  point  adopter  cette  cause.  Dis",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  naître!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 1704962,
+   "context": "  cette  vieille  buveuse  de  sang,  l'allopathie,  puisqu'il /faut  l'appeler  par  son  nom,  l'allopathie  est  morte,  et  l'homœopathie /vient  de  naître!  » //Exprime  qui  pourra  l'effet  que  produisit  cette  profession  de  foi  sur /les  convives  en  général  et  sur  lej  docteur  Herbeau  en  ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  notre \nbon  empereur  !",
+   "n_files": 1,
+   "files": [
+    "nesselrode-v7.txt"
+   ],
+   "first_file": "nesselrode-v7.txt",
+   "first_offset": 97507,
+   "context": "'il  nous  faut  dans  les  circon- /stances présentes  où  la  Providence  nous  protège  visi- /blement. Qu'elle  veille  aussi  sur  la  personne  de  notre /bon  Empereur  ! //Le  public  d'ici,  qui  prend  beaucoup  de  part  à  nos /succès  et  nous  en  félicite  avec  intérêt,  observe  avec  nous /que  Sa  Majesté  ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  notre \nentiere  independance  !",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v4.txt"
+   ],
+   "first_file": "metternich-papiere-v4.txt",
+   "first_offset": 1130069,
+   "context": "   de   satisfac- ///1828.  Tom  äÄtfluel'l  cvftc*  auftreten  in  vifjafcon.  459 //tion,  nous  le  trouverions  sans  doute  dans  le  sentiment  de  notre /entiere  independance  ! //Ce  n'est  pas  ä  nous,  mon  Prince,  qu'il  peut  appartenir /d'articuler  en  premier  rien  de  ce  qui  pourrait  etre  considere /comme  un ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  notre  am- \nbassadeur, un  homme  charmant!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 12821,
+   "context": " /oreilles  bourgeoises  les  titres  des  hôtes  de  distinction  qu'il  avait  reçus /la  semaine  précédente.  Nous  avons  eu  aussi  la  visite  de  notre  am- /bassadeur, un  homme  charmant!  Nous  sommes  fort  bien  ensemble^ /Je  vous  présenterai  à  lui  la  première  fois  qu'il  dînera  ici. //—  C'est  à  M\"''  Richomme  que  je  ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  notre  cour !",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v4.txt"
+   ],
+   "first_file": "metternich-papiere-v4.txt",
+   "first_offset": 1189655,
+   "context": "en  nous  portant  sur  un  autre  terrain,  ä  quelle  nullite\"  absolue /ne  condamne-t-on  pas  FAmbassadeur  de  Sa  Majeste\"  Britannique /pres  de  notre  Cour !  Les  moments,  certes,  sont  d'une  gravite /extreme,  et  Lord  Cowley  se  trouve  sans  directions  sous  Fad- /ministration  bienveillante  de ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  notre  dieu \nqui  est  au  ciel  !",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t5-t6.txt"
+   ],
+   "first_file": "guizot-memoires-t5-t6.txt",
+   "first_offset": 812306,
+   "context": "x,  le  genre  humain  tout /entier  être  uni  d^esprit  et  de  cœur  dans  son  passage  sur  la /terre,  comme  nous  sommes  tous  les  enfants  de  notre  Dieu /qui  est  au  ciel  !  » ///PIÈCES  HISTORIQUES.  441 ///VII //(Page  191.) //Noie  adressée  par  S.  Ex.  Ghéïdb-Efendi,  envoyé  extraor- /dinaire de  la  Sublime  Port",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  notre  gouver- \nnement d'è!",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t5-t6.txt"
+   ],
+   "first_file": "guizot-memoires-t5-t6.txt",
+   "first_offset": 723793,
+   "context": " Au  prix  de  notre  honneur.  Nous  le ///AVÈNEMENT  DU  MINlSTEPxE  DU  29  OCTOBRE  1840.    393 //disons  depuis  dix  ans  ;  c'est  l'honneur  de  notre  gouver- /nement d'è!re  devenu  un  gouvernement  le  lendemain /d'une  révolution,  d'avoir  soutenu  nos  droits  sans  faire /nulle  pari  appel  aux  passions,  ('  ^",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR: \"d'etre!\" fragment",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  notre  langue  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 1748694,
+   "context": "aînante,  et  non /sans  grâce. //Que  de  petits  touts  ainsi,  que  de  décadences  après  une  courte  flo- /raison ,  depuis  les  commencemens  de  notre  langue  !  Sous  Philippe- /Auguste,  je  suppose,  un  je  ne  sais  quoi  de  rude  et  d'énergique /s'ébauche,  qui  se  décore  plus  vivement  sous  saint",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  notre  peur  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 2889875,
+   "context": "ns  l'orage , /Du  Rhin  tu  fuis  jusques  au  Nil  I ///Ah  !  qu'ils  vont  triompher  de  ta  blanche  élégie  ! /Que  l'écho  de  Leipsig  rira  de  notre  peur  ! /Déjà  l'or  de  ton  chant  transformé  par  l'orgie, ///LE  RHIN.  933 //Dans  l'air  m'est  renvoyé  comme  une  balle  au  cœur. /J'écoutais  l'a",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  notre  vie  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 2204162,
+   "context": " beaux  jours  de  sa  jeunesse!  Mon  Dieu! /comme  ce  livre  des  Confessions  nous  a  impressionnés!  Comme  il  a /rempli  toute  une  période  de  notre  vie  !  Comme  nous  l'avons  aimé  ce /Jean-Jacques,  avec  tous  ses  travers  et  tous  ses  défauts  !  Comme  nous /avons  suivi  chacun  de  ses  pas ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  notre  époque  :  si  nous  re- \ncommencions!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 1714903,
+   "context": "léités  se  ravivent, /de  furieux  désirs  de  lutte  et  de  succès  s'irritent;  on  se  dit,  au  spec- /tacle des  misères  et  des  avortemens  de  notre  époque  :  Si  nous  re- /commencions! et  l'on  recommence.  Après  la  coupe  de  juillet,  on  en /veut  au  regain  d'octobre.  A  peine  M.  Guiraud  a-t-il  donné  le  branle /avec  ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  parjure  et  de  traître  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 796545,
+   "context": "s  vis  à  vis  de  M.  Riquemont  et  d'Adélaïde  !  Que /de  fois  il  entendit  les  serpens  du  remords  lui  siffler  aux  oreilles  les /noms  de  parjure  et  de  traître  !  Quand  par  hasard  il  trouvait  au  logis /Adélaïde  affectueuse  et  soumise,  au  château  M.  Riquemont  amical /et  poli,  il  se  sentait  mo",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  penser,  ou  qu'il  soit  impossil)!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 1703714,
+   "context": "  soutenir  qu'à  la  vérité  nous  ne  savons  pas  que  la  matière /pense,  mais  que  nous  ne  savons  pas  davantage  qu'elle  soit  incapable /de  penser,  ou  qu'il  soit  impossil)!e  à  Dieu  de  la  rendre  intelligente. /Cet  argument ,  fort  inditïérent  du  reste  maintenant  que  la  question /est  jugée  de  plus  haut,  ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  pierre  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 283315,
+   "context": " rêver  sur  l'his- /toire du  monde  devant  la  maison  des  Pharaons, ()uel  spectacle  pourtant! /que  d'imposante  grandeur  dans  ces  massifs  de  pierre  !  Devant  ces  im- /menses piliers  se  tiennent  assises  ou  debout  les  caryatides  colos- /sales avec  leur  visage  immobile  empreint  de  la  ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  pierre,  toujours  pleures!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 243042,
+   "context": " Itys,  toujours  Itys.  Hélas!  hélas!  ô  Niobé,  qui  as /tant  souffert,  tu  es  pour  moi  comme  un  dieu,  ô  toi  qui,  dans  ton /sépulcre  de  pierre,  toujours  pleures!  r>  Eh  bien!  qu'est-ce  là  autre /chose  que  l'inspiration  constante  et  même  les  images  familières  de /l'orpheline  Colomba,  plus  calme",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  posséder!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 1691042,
+   "context": "noirs,  il  l'appelle  la  plus  abominable /mesure  :  abominable  en  effet,  puisqu'elle  mettait  le  droit  d'être  libre /au-dessus  du  droit  de  posséder!  Dans  des  conditions  pareilles,  un /esprit  pénétrant,  un  cœur  pur,  ne  suffisent  pas  pour  nous  préserver /de  l'erreur. //Quelle  aurait",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  pourpre  sur  la  vallée  paisible!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 2567212,
+   "context": " à  ses  heures  de  loisir,  la  veille,  lorsque /la  patrie  était  calme  et  que  les  voiles  de  l'occident  s'étendaient  comme /un  manteau  de  pourpre  sur  la  vallée  paisible!  Hurrah!  voici  le  canon; /ce  n'est  plus  un  brin  d'herbe,  ce  n'est  plus  la  tige  d'un  lis  qu'il  lui /faut,  mais  une  tige  d'acier, ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  pourpre  sur  nos  seconds  plans!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 2468400,
+   "context": "iques  pénétrant  par  les  déchi- /rures des  rochers,  ou  glissant  entre  les  croupes  des  montagnes, /venaient  tracer  des  crêtes  d'or  et  de  pourpre  sur  nos  seconds  plans! /Quelquefois  nos  cyprès,  noirs  obélisques  qui  servaient  de  repoussoir /au  fond  du  tableau,  trempaient  leurs  tètes  dans  ce  fluide  em",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  pouvoir  jouer  une  niche  a  nicolas!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 1630401,
+   "context": "imes  soit  a  M.  de  Sainte -Aulaire,  soit  a  Lord /Cowley,  et  voila  le  Gouvernement  francais  qui  se  met  de  la /partie,  dans  Fespoir  de  pouvoir  jouer  une  niche  a  Nicolas! /Ce  plan  est  miserable,  et  si  nous  ne  reussissons  pas  a  le  reduire /au  n^ant  dont  il  porte  Fempreinte,  il  en  ira  de  Faffaire  s",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  pouvoir  épargner  le  sang!",
+   "n_files": 1,
+   "files": [
+    "nesselrode-v7.txt"
+   ],
+   "first_file": "nesselrode-v7.txt",
+   "first_offset": 350841,
+   "context": "  villes  devront /momentanément  se  cacher.  Le  bruit  court  que  si  le /maréchal  passe  la  Yislule,  on  ne  se  battra  pas.  Quel /bonheur  de  pouvoir  épargner  le  sang! //D'après  ce  que  Heytesbury  écrit,  le  choléra  ne  lui  fait /pas  peur;  s'il  fait  tant  le  brave,  n'est-ce  pas  l'espoir  de /s'embarque",
+   "topic_class": "G-exclaimed-NP",
+   "reason": "\"Quel bonheur de pouvoir epargner le sang\" NP embedding governed infinitive (Cause-C)",
+   "genuine_gov_excl_inf": true
+  },
+  {
+   "match": "de  prevoir  avec  une  egale  certitude  ce  qui  assurera  le \nsalut!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 1052013,
+   "context": "t  en  rien  faire  eüt  e'te  un  decret  de  mort  pour  le  Sultan /et  un  appel  au  partage  de  ses  depouilles.  Je  voudrais  etre  a /meme  de  prevoir  avec  une  egale  certitude  ce  qui  assurera  le /salut!  A  cinq,  celui-ci  ötait  assure^  pourquoi  des  lors  se  re- /fuser a  y  aider?  Comment  n'a-t-on  pas  saisi  du  moins  notre /formule  du  ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  prophétiser  ici  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 2731077,
+   "context": "t  prophétiser  à  tes /enfans  (1),  lui  crie  l'incrédule  Eurymaque;  va  les  empêcher  de  se /faire  mal  ;  c'est  à  moi  qu'il  apparlicut  de  prophétiser  ici  !  il  vole  bien /des  oiseaux  sous  les  rayons  du  soleil  ;  mais  ils  ne  sont  pas  tous  des /oracles.  Ulysse  est  mort;  puisses-tu  l'êtr",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  präsenter \nla  demande  des  dotations!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 469257,
+   "context": " parfaitement /raison;  je  sais  obeir,  et  cependant,  si  j'etais  ministre  francais, /j'aurais  mille  fois  prefere  me  retirer  plutot  que  de  präsenter /la  demande  des  dotations! //Ce  sentiment,  que  je  garde  pour  moi,  ne  m'empeche  pas /de  me  livrer  a  de  lourds  travaux,  et  mon  expedition  de  ce /jour  en  ren",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  quartier  à  ce  barbare!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 60334,
+   "context": "il  avec  une  gravité  bouffonne;  sus  à  la /Barbe  Bleue  !  haro  sur  ce  sauvage  qui  ne  veut  pas  qu'on  trouve  sa /femme  jolie!  Point  de  quartier  à  ce  barbare!  Vous  savez  qu'il  tire /aux  jambes,  visez-le  à  la  tête. //En  retour  de  ma  franchise,  mon  ami  finit  par  m'avouer  que  j'avais /devin",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  quatre  contre  un!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 2730947,
+   "context": "d'un  œil  serein /les  préparatifs  militaires  de  la  France,  quand  on  a  la  certitude  d'ar- /river sur  le  champ  de  bataille  au  nombre  de  quatre  contre  un! //Le  ministère  du  1\"  mars  avait  suspendu  la  guerre  sur  la  tête  des /puissances,  et  en  cela  il  prenait  conseil  de  nos  vrais  inté",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  quatre  pieds,  long  de  quatre-vingts!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 1433072,
+   "context": "  car  un  plus  grand  nombre  pouvait /cacher  un  espion  ou  un  traître,  creusèrent  à  coups  d'ongles  dans /leur  cachot  un  chemin  large  de  quatre  pieds,  long  de  quatre-vingts! /Ce  chemin  souterrain  passait  sous  la  prison,  sous  les  fossés,  et  allait /aboutir  à  vingt  pieds  de  la  sentinelle  extérieure.  Quand",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  quitter  mon  bureau!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v4.txt"
+   ],
+   "first_file": "metternich-papiere-v4.txt",
+   "first_offset": 1012781,
+   "context": "ur  de  pouvoir  y  aller  cet  ete^  nous  aurons /de  la  peine  a  reconnaitre  l'endroit.  Dieu  sait,  au  reste,  si  je /trouverai  le  moyen  de  quitter  mon  bureau!  Mon  voeu  serait /de  pouvoir  aller  au  Johannisberg  et  de  passer  par  Königswart /en  allant  ou  en  retournant.  Le  sejour  au  Johannisb",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  rappeler  le  trop  célèbre  mot  de  cicéron  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 1544422,
+   "context": "burnouss,  comme  il  jouait  avec  la  lame  de  son /bon  poignard  de  Damas,  poignard  démesuré,  gigantesque,  et  qui  n'avait /que  le  tort  de  rappeler  le  trop  célèbre  mot  de  Cicéron  !  Jamais  plus  grand /chanteur  n'eut  la  face  plus  noire  et  le  manteau  plus  blanc.  Si  c'était  un /défi  de  costume  que  Duprez  ce  soi",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  rassurer,  —  moi  au  lit !",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v4.txt"
+   ],
+   "first_file": "metternich-papiere-v4.txt",
+   "first_offset": 50563,
+   "context": "re  la  Russie  et  la  Porte,  ou  la  paix  egalement  imme- /diate. Moi;  tenant  la  paix  entre  mes  mains  et  connaissant  seul /les  moyens  de  rassurer,  —  moi  au  lit !  Je  vous  jure  qu'il  faut /etre  doue  d'une  force  d'äme  et  de  volonte*  peu  commune  pour /ne  pas  succomber.  Aussi  n'ai-je  pas  succom",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  rejeter  l'émanation, \nemploie  souvent  le  mot  û!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 1725582,
+   "context": "té  employées, /qu'il  est  difficile  d'en  trouver  une  qui  ne  caractérise  une  école  et  un /système.  M.  Lamennais,  qui  s'empresse  tant  de  rejeter  l'émanation, /emploie  souvent  le  mot  û! écoulement  :  «  toute  force  est  un  écoule- /ment du  père,  «  ou  le  mot  de  participation.  Celui  de  génération, /qu'il  emploie  aussi, ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR artifact: \"le mot u!\"",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  rejeter  la  res- \nponsabilité sur  ses  collègues!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 2323250,
+   "context": "tobre  1839.) //Voilà  une  réponse  doucereuse  et  humble.  Avec  quel  soin  touchant /lord  Palmerston  atténue  la  décision  dont  il  a  soin  de  rejeter  la  res- /ponsabilité sur  ses  collègues!  Comme  on  sent,  dans  ses  paroles,  le /regret  qu'il  éprouve  d'avoir  à  d'îfcndre  l'honneur  de  l'Angleterre /contre  les  prétentions  de ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  rendre  pru- \ndent et  régulier  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 2632725,
+   "context": "  moins  tant  que  cela  se  peut  avec  quelque  dignité,  et  qu'aucun  crime /ne  vient  déshonorer  un  mouvement  qu'on  peut  encore  essayer  de  rendre  pru- /dent et  régulier  ! //A  vrai  dire,  il  est  difficile  de  comprendre  les  motifs  de  cette  levée  de  bou- /cliers. Une  révolution ,  une  constituante,  une  re",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  restaurer \nle  xv!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 2706559,
+   "context": "  lui /dicte  sa  propre  imagination  fécondée  aux  sources  étrangères.  Au- /jourd'hui la  question  paraît  toute  simple.  Il  s'agissait  non  de  restaurer /le  xv!*\"  siècle  en  son  ensemble,  mais  de  retremper  dans  son  esprit  la /forme  qu'on  avait  sous  la  main.  C'est  un  des  plus  beaux  titres ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  rester  fidele  ä  notre  idee  pri- \nmitive!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v4.txt"
+   ],
+   "first_file": "metternich-papiere-v4.txt",
+   "first_offset": 1119694,
+   "context": "  de  poser  le /principe  d'une  independance  absolue  ä  l'epoque  du  protocole,  combien  de /motifs  n'existe-t-il  pas  de  plus  aujourd'hui  de  rester  fidele  ä  notre  idee  pri- /mitive! Comment  le  Gouvernement  britannique  pourrait-il,  sans  courir  le  risque /de  se  mettre  en  contradiction  avec  les  principes  quil  a  pro",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  rester  unis!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 768131,
+   "context": "Après  beaucoup  de  bruit,  les  récriminations  cessèrent,  et  tout  parut /oublié.  Les  cabinets,  d'ailleurs,  avaient  de  si  justes  sujets  de  rester  unis!  Les /novateurs  se  remuaient  en  tous  lieux  :  l'Espagne  venait  de  se  soulever,  Kaples /se  donnait  tumultueusement  une  constitution.  L",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  revenir  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 2821651,
+   "context": "rédictions /sinistres  :  «  Qu'est-ce  que  ce  tumulte?  Oh  !  il  est  mort!  Je  lui  avais /tant  dit  de  ne  sauver  que  les  vaisseaux  et  de  revenir  !  »  Patrocle  est /mort  en  effet;  Antiloque  vient  lui  confirmer  cette  nouvelle.  Alors /nouvelle  tempête.  «  Un  noir  nuage  enveloppe  so",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  résister  à  un  nouvel  orage!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 1546590,
+   "context": "  arrivant  auprès  de  ce /bâtiment  ils  le  trouvèrent  dans  un  état  de  délabrement  complet,  ou- /vert de  plusieurs  côtés,  et  incapable  de  résister  à  un  nouvel  orage! /Cependant  ils  furent  généreusement  reçus  à  bord,  et  à  peine  y  étaient- /ils  qu'ils  furent  suivis  d'une  cinquantaine  d'hommes  appar",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  rêver  le  retour  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 2202983,
+   "context": "la  vue  de  ces /chaumières!  leur  histoire  est  celle  de  nos  plus  beaux  jours!  jours  trop /tôt  écoulés ,  et  dont  il  n'est  pas  sage  de  rêver  le  retour  ! //((  Le  chemin  que  j'ai  pris  pour  retourner  à  Chambéry  doit  être /celui  que  suivait  Rousseau  en  faisant  sa  prière  du  matin,  et  ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  s'accroître  (3)  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 1399418,
+   "context": " sous  des  capuchons;  moines,  nonnes,  chanoines, /de  nuances  et  de  formes  diverses,  blancs,  noirs  et  tachetés;  que /Dieu  les  empêche  de  s'accroître  (3)  ! //Le  roi  Jean.  —  Que  je  sache  votre  nom,  avant  d'aller  plus  loin? //La  veuve  Angleterre.  — Angleterre,  monseigneur,  Angleterre; /c'e",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  s'expliquer,  consulter  le  bon \nplaisir  de  mehe'met-ali!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 1044298,
+   "context": "  la  communication  des  points  de  vue /des  Cours  (il  y  a  de  cela  deux  mois  ou  a  peu  pres),  a  fait /annoncer  qu'il  devait,  avant  de  s'expliquer,  consulter  le  bon /plaisir  de  Mehe'met-Ali!  II  a  des  lors  ete  naturel  que  Ton /gardät  le  silence. //M.  Thiers  a  cru  que  les  Ministres  anglais  ne  parviendraient /pas  a  maint",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  sauver  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 569116,
+   "context": "ccupait  peu  des  usurpations  européennes.  «  Mais,  s'écria  M.  de  Neuville, /c'est  le  plus  honnête  homme  de  son  royaume  qu'il  s'agit  de  sauver  !  c'est  ua /père  que  son  fils  veut  assassiner!  »  — «  Je  vous  suivrai  donc!  »  répondit  le ///EE   PORTUGAL.  l^SB //ministre  républicai",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  savoir \n!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 1173507,
+   "context": "ès  le /nombre  d'hommes  que  ses  domaines  pouvaient  nourrir  et  mettre /sous  les  armes;  bientôt  après,  on  ne  s'est  plus  inquiété  que  de  savoir /!a  quantité  de  bétail  noir  [blach  caille)  que  ces  mêmes  domaines /pourraient  faire  vivre.  A  présent,  il  n'est  question  que  du  nombr",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR artifact: \"!a\" for \"la\"",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  savoir  auquel  d'entre  eux  restera  la  victoire!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 1049704,
+   "context": "  donc  pris  un  caractere  qu'elle  n'avait  pas  ante\"rieurement  aux /ev^nements  du  1er  Mars,  et  la  question  qui  reste  a  r^soudre /est  de  savoir  auquel  d'entre  eux  restera  la  victoire! //Dans  de  pareilles  conditions,  comment  la  France  pourrait- /elle  aujourd'bui  inspirer  de  la  confiance?  Pour  re\"pondre  a /cette  quest",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  seconder  le  parti  mo- \ndéré !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 1039733,
+   "context": "e  l'Angleterre  seconde  ouvertement  en  Espagne ///REVUE.  —  CHRONIQUE.  347 //le  parti  exalté,  il  nous  serait  interdit  à  nous,  France,  de  seconder  le  parti  mo- /déré ! //Quoi  qu'il  en  soit,  notre  gouvernement,  iidèle  à  ses  principes  trop  négatifs, /a  poussé  la  neutralité  jusqu'au  scrupule.  Il  n'a  ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  siffler  ou \nde  crier  :  quon  amène  les  chiens  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 185744,
+   "context": "n ,  les /plus  graves  personnes  se  coiffaient  d'une  montera  de  Malaga  et  se /mêlaient  au  petit  peuple.  Là  leur  divertissement  était  de  siffler  ou /de  crier  :  Quon  amène  les  chiens  !  Les  théâtres ,  qui  portaient  encore /et  à  juste  titre  le  nom  de  basses-cours  ou  corrales,  n'étaient  ni  moins /bruyans  ni  plus  mor",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  signer  une  paix  durable  avec  les  turcs  !",
+   "n_files": 1,
+   "files": [
+    "nesselrode-v7.txt"
+   ],
+   "first_file": "nesselrode-v7.txt",
+   "first_offset": 237043,
+   "context": "eontre  II  Turquie,  genéralisaime,  en   plaee  du  maréchal   comte //Wittgenstein. ///ARCHIVES  DU  COMTE  CH.  DE  NESSELRODE.  139 //Souverain  de  signer  une  paix  durable  avec  les  Turcs  ! /Quelle  belle  campagne  ;  elle  est  sans  exemple  dans  ce /pays  ;  c'est  la  première  fois  que  cet  Empire  est  menacé /du  côté  de  l'A",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "archival rubric fragment \"Souverain de signer...!\" - verbless, non-exclamatory, topic-less either way (sole fragmentary near-miss)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  sortir  de  ma  prison  qu'il  m'est  im- \npossible de  decrire  !",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v4.txt"
+   ],
+   "first_file": "metternich-papiere-v4.txt",
+   "first_offset": 1347543,
+   "context": "probable,  peut-etre  gagnerai-je  mes  semaines  de /vacances,  apres  lesquelles  je  soupire  avec  une  ardeur  ve*ri- /table.  J'ai  un  besoin  de  sortir  de  ma  prison  qu'il  m'est  im- /possible de  decrire  !  Demain,  il  y  aura  trois  mois  que  le  bon- /lieur  de  mon  intärieur  a  e'te'  de\"truit  et  que  je  me  trouve /replace  en  face  de  moi",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  souffrir!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 1647298,
+   "context": "'à  la  révélation  et /au  droit  divin ,  qui  donne  à  un  frère  le  pouvoir  et  la  richesse,  et  à /l'autre  frère  le  devoir  d'obéir  et  de  souffrir! //Rien  n'étonnait  davantage  les  nobles,  quand  nous  en  avions  en /France,  que  ces  réclamations  du  menu  peuple  et  ces  cris  à  l'inju",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  suivre  le  conclave!",
+   "n_files": 1,
+   "files": [
+    "nesselrode-v8.txt"
+   ],
+   "first_file": "nesselrode-v8.txt",
+   "first_offset": 526554,
+   "context": "  le  défunt. /Je  regrette  fort  de  ne  point  être  à  Rome  ;  que  de  belles /cérémonies  vont  avoir  lieu  et  comme  il  sera  intéressant /de  suivre  le  conclave!  Il  est  probable  qu'il  durera  et /que,  vu  l'état  actuel  du  Saint-Siège,  les  cardinaux  s'ef- /forceront de  choisir  pour  succéder  à  G",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  traiter  avec  lui  d'égal  à \négal!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 602600,
+   "context": "/la  manière  la  plus  respectueuse,  par  le  troisième  grand  dignitaire  de  l'empire, /de  venir  au  rendez-vous  que  celui-ci  propose,  et  de  traiter  avec  lui  d'égal  à /égal!  La  proposition  fut,  comme  on  le  pense  bien,  acceptée,  et  le  30  août /au  matin  six  embarcations  bien  armées,  mais  avec  toutes  le",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  venir  à  bout  d'un  tel  homme  !",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t5-t6.txt"
+   ],
+   "first_file": "guizot-memoires-t5-t6.txt",
+   "first_offset": 539834,
+   "context": "e  quelconque, /de  mettre  le  feu  aux  poudres.  En  preuve,  je  vous  envoie /une  dépèche  de  Cochelet.  Vous  verrez  comme  il  est /facile  de  venir  à  bout  d'un  tel  homme  !  Vous  verrez  si, /quand  je  vous  parlais,  il  y  a  deux  mois,  de  la  difliculté /de  la  Syrie  viagère  et  de  U Egypte  héréditaire,  j'a",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  victoire!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 832810,
+   "context": "ïde  avait  déplu  au  docteur  Herbeau,  le /fond  de  la  proposition  ne  lui  avait  pas  agréé  davantage.  Abdiquer  le /lendemain  d'un  jour  de  victoire!  vendre  Colette!  abandonner  Rique- /mont!  céder  à  d'autres  soins  la  santé  de  Louise,  ce  trésor  si  doux  et /si  cher!  Aristide  senti",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  vivre  en  plein  vent,  et  c'est  u!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 540759,
+   "context": " serrures  et  jusqu'aux  gonds  des  portes.  Son  succes- /seur est  obligé  de  commencer  par  les  remplacer,  à  moins  qu'il  n'ait /le  goût  de  vivre  en  plein  vent,  et  c'est  u!i  goût  fort  répandu  à  Palma. /Or,  il  faut  au  moins  six  mois  pour  faire  faire  non-seulement  les  portes /et  fenêtres,  mais  les  lits",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR artifact: \"c'est u!i gout\" for \"un gout\"",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  voir \net  de  juger  que  cela  semblerait  etre  uniquement  du!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 1307090,
+   "context": "ent  fogte  ber  Äönig:  „Le  Prince  de  Metternich  attribue /tout  ce  qui  s'est  fait  de  bien  ä  M.  Guizot;  c'est  ä  lui,  a  sa  maniere  de  voir /et  de  juger  que  cela  semblerait  etre  uniquement  du!  Je  n'ai  pas  besoin  de /vous  dire  que  je  suis  enchante  du  suffrage  donne  par  le  Prince  de  Metternich /ä  M.  Guizot;  il  est  merit",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  voir  des  russes \nse  complaire  à  dénigrer  leur  pays  !",
+   "n_files": 1,
+   "files": [
+    "nesselrode-v8.txt"
+   ],
+   "first_file": "nesselrode-v8.txt",
+   "first_offset": 333892,
+   "context": "lu  la  brochure  que  vient  de  publier /le  bancal  Dolgorouki.  C'est  un  ouvrage  rempli  de  fiel  et /des  plus  mauvais.  Quelle  tristesse  de  voir  des  Russes /se  complaire  à  dénigrer  leur  pays  !  C'est  la  maladie  du /moment. ///La  même  au  même. //Saint-Pétersbourg,  17  mars  1845. //Nous  recevrons  dans  un  mois,  selon  toute  proba",
+   "topic_class": "G-exclaimed-NP",
+   "reason": "\"Quelle tristesse de voir des Russes...\" NP embedding governed infinitive (Cause-C)",
+   "genuine_gov_excl_inf": true
+  },
+  {
+   "match": "de  voir  les  belges \nbattus  partout  par  les  hollandais  !",
+   "n_files": 1,
+   "files": [
+    "nesselrode-v7.txt"
+   ],
+   "first_file": "nesselrode-v7.txt",
+   "first_offset": 5306,
+   "context": "es,  par  laquelle  ils /s'étaient  engagés  à  les  faire  rentrer  dans  leurs  foyers  dès  la /fin  des  hostilités.  Comme  j'ai  été  contente  de  voir  les  Belges /battus  partout  par  les  Hollandais  !  Ces  succès  remportés  par /les  troupes  hollandaises  ont  fait  beaucoup  de  bien  au  prince /d'Orange  qui  les  dirigeait.  Ces  Français  e",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  voir  les  belges  battus  partout  par  les  hol- \nlandais!",
+   "n_files": 1,
+   "files": [
+    "nesselrode-v7.txt"
+   ],
+   "first_file": "nesselrode-v7.txt",
+   "first_offset": 362906,
+   "context": "LRODE. //laquelle  ils  s'élaient  engagés  à  les  faire  rentrer  dans /leurs  foyers,  dès  la  lin  des  hostilités.  Comme  j'ai  été /contente  de  voir  les  Belges  battus  partout  par  les  Hol- /landais! Ces  succès  remportés  par  les  troupes  hollan- /daises ont  fait  beaucoup  de  bien  au  prince  d'Orange /qui  les  dirigeait.  Ces  Français  ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  voir  un  empire \ngrec  libre  et  independant!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v4.txt"
+   ],
+   "first_file": "metternich-papiere-v4.txt",
+   "first_offset": 681527,
+   "context": "'est  la  ce  que  voulait  l'Empereur  Alexandre,  et  c'est /ce  que  nous  avons  voulu  avec  lui. //Nous  n'eussions  pas  demande*  mieux  que  de  voir  un  Empire /grec  libre  et  independant!  Nous  l'avons  propose ;  on  a  crie /haro  contre  nous,  et  je  le  concois. //Nous  ne  marclions  pas  et  nous  ne  marcherons  jamais  dans ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  voire  patience,  mais  je  dois  vous \navouer  que  !",
+   "n_files": 1,
+   "files": [
+    "nesselrode-v7.txt"
+   ],
+   "first_file": "nesselrode-v7.txt",
+   "first_offset": 218586,
+   "context": "tions /privées  qui  noient  ce  mouvement  en  avant  que  j'ai /remarqué  à  mon  retour  de  la  province.  Je  ne  veux  vrai- /ment pas  abuser  de  voire  patience,  mais  je  dois  vous /avouer  que  !<■  reste  de  cette  page  ne  suffirait  pas  pour /mes  observations,  et  je  vous  prie  de  vous  résigner  à  lire /sue  seconde  lettre  que  ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR garbage (\"voire\", \"!<box>\")",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  votre  argent,  gros  vilain  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 1148642,
+   "context": "acheter  des  dragées,  ajouta /M.  Riquemont  en  lui  présentant  un  gros  sou  tout  souillé  de  vert-de- /gris. //—  Est-ce  que  j'ai  besoin  de  votre  argent,  gros  vilain  !  dit  M\"''  d'Oli- /bès  en  lui  jetant  son  morceau  de  cuivre  à  la  tête. //M.  Savenay'prit  l'enfant  sur  ses  genoux,  la  caressa  avec  ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  votre  jardin  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 890168,
+   "context": "  veux  ;  ne  le  voulez-vous  pas?  Quelle  joie /pour  moi,  docteur,  et  pour  vous  aussi,  quelle  joie  de  me  voir  courir /sur  le  sable  de  votre  jardin  !  car  c'est  à  vous,  ami,  que  je  devrai  la /vie,  la  santé,  la  jeunesse. //Ces  paroles  comblèrent  Aristide  de  bonheur  et  d'effroi ,  ",
+   "topic_class": "G-exclaimed-NP",
+   "reason": "\"quelle joie de me voir courir...\" NP embedding governed infinitive (Cause-C)",
+   "genuine_gov_excl_inf": true
+  },
+  {
+   "match": "de  votre  père  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 1762135,
+   "context": "  déshonneur.  Puisse  Dieu  vous  pardonner!  puisse  aussi  vous /are  douce  et  consolante  la  pensée  que  vous  aurez  abrégé  la  vieillesse /de  votre  père  ! //A  ces  mots,  Célestin,  véritablement  ému,  ôta  son  bonnet  de  ve- /lours qu'il  avait  d'abord  gardé  sur  sa  tête. //—  Ne  m'interrompez",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  weber  dans  toute  sa  pureté  (  sa  pureté  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 2976461,
+   "context": " prétentions  qu'on /affiche.  Écoutez-les,  ils  vous  diront  que  le  besoin  se  faisait  sentir  à  l'Opéra /d'entendre  enfin  le  Freyschutz.  de  Weber  dans  toute  sa  pureté  (  sa  pureté  ! /avec  des  récitatifs  de  M.  Berlioz  et  des  airs  de  ballet  en  manière  de  pot- /pourri).  On  se  figure  ici  connaître  le  chef-d'œuvre",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  weber!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 1776274,
+   "context": "assistant  le  génie. /Ainsi  Virgile  un  jour,  de  sa  savante  main , /Conduisit  le  Toscan  dans  son  âpre  chemin. //Virgile,  Dante,  Marie  de  Weber!  beaucoup  de  bruit  pour...  M.  Ber- /lioz. A  ce  propos,  nous  remarquerons  la  liberté,  quelque  peu  grande, /dont  M.  Antoni  Deschamps  ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de  winchester  vient  de  faire  obtenir  une  riche  prébende \n/!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 2149245,
+   "context": "  dit  que  le  docteur  Beard  vient  de  prêcher, /à  la  Croix  de  Saint-Paul,  un  sermon  totalement  papiste.  Je  sais  aussi /que  l'évèque  de  Winchester  vient  de  faire  obtenir  une  riche  prébende //!  Mainwaring,  que  vous  venez  de  censurer.  Si,  pour  devenir  pré- /bendaire,  il  faut  désobéir  aux  lois  et  aux  comnuines,  à  quoi  ne  ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de comprendre, il dit: je suis champmathieu, je ne sors pas de là!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 460898,
+   "context": "a/chauffe; il se démènerait, il crierait, la bouilloire chante devant le/feu, il ne voudrait pas être Jean Valjean, et caetera. Lui, il n'a pas/l'air de comprendre, il dit: Je suis Champmathieu, je ne sors pas de là!/Il a l'air étonné, il fait la brute, c'est bien mieux. Oh! le drôle est/habile. Mais c'est égal, les preuves sont là. Il est reconnu par quatre/perso",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de conjurer les périls présents du pays!",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t2-gutenberg.txt"
+   ],
+   "first_file": "guizot-memoires-t2-gutenberg.txt",
+   "first_offset": 47837,
+   "context": "le, et des apostrophes du général Dubourg à M. le duc/d'Orléans. Quels périls futurs se révélaient déjà pour cette monarchie/naissante, seule capable de conjurer les périls présents du pays!//Dans les jours suivants, quand le gouvernement commença, j'allais/fréquemment au Palais-Royal, d'abord à titre de commissaire, puis comme/ministre d",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de dire, se parlant à lui-même:\n\n--je crois que je le tiens!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 383624,
+   "context": "rfois à mots couverts, que quelqu'un avait pris certaines/informations dans un certain pays sur une certaine famille disparue. Une/fois il lui arriva de dire, se parlant à lui-même://--Je crois que je le tiens!//Puis il resta trois jours pensif sans prononcer une parole. Il paraît/que le fil qu'il croyait tenir s'était rompu. Du reste, et ceci est le/correct",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de faire hautement ce qu'ils désirent!",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t1-gutenberg.txt"
+   ],
+   "first_file": "guizot-memoires-t1-gutenberg.txt",
+   "first_offset": 190402,
+   "context": "e les voir échouer, et votèrent pour la loi. Que de fautes et de maux/s'épargneraient les hommes s'ils avaient le courage d'agir comme ils/pensent et de faire hautement ce qu'ils désirent!//Tous ces débats n'étaient que le prélude de la grande lutte près de/s'engager sur la plus grande des questions de circonstance dont/la Chambre eût à",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de faire le grand et le généreux,--c'est du mélodrame, après\ntout!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 509696,
+   "context": "j'étais absurde, qu'est-ce que je parlais donc de me dénoncer? Il faut/faire attention, vraiment, et ne rien précipiter. Quoi! parce qu'il/m'aura plu de faire le grand et le généreux,--c'est du mélodrame, après/tout!--parce que je n'aurai songé qu'à moi, qu'à moi seul, quoi! pour/sauver d'une punition peut-être un peu exagérée, mais juste au fond, on/ne sait qui, ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de l'autre \nay!",
+   "n_files": 1,
+   "files": [
+    "levant-correspondence-1841-p3.txt"
+   ],
+   "first_file": "levant-correspondence-1841-p3.txt",
+   "first_offset": 1168784,
+   "context": " / participer a la transaction, par laquelle, d’une- part, le Sultan déclarerait //‘sa’ ferme résolution de maintenir a l’avenir le susdit. principe; de l'autre /ay! * A similar despatch: was sent to the Marquess of Clanricarde, Lord William Russell, Lord /_ Beauyale, and Earl Granville. : ; | /Ps ; 2 7T ///322 //",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR garbage (\"ay!\")",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de l'avoir ici dans un tel moment, mais hélas!",
+   "n_files": 1,
+   "files": [
+    "nesselrode-v9.txt"
+   ],
+   "first_file": "nesselrode-v9.txt",
+   "first_offset": 115616,
+   "context": "le midi. Quelle triste destinée! ! ! Je /n'ai pas besoin de vous dépeindre l’état moral de notre /pauvre ami Rochow. C'est pour moi un grand bonheur /de l'avoir ici dans un tel moment, mais hélas! ce /bonheur ne durera pas. Sa santé se soutient. //Adieu, mon cher ami, je n’ai plus rien à vous dire. /Mille tendres hommages à Madame de Meyendorff",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de l'insulter d'une\nfaçon hideuse, il la sauvait!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 440203,
+   "context": "omme qu'elle abhorrait, ce/maire qu'elle avait si longtemps considéré comme l'auteur de tous ses/maux, ce Madeleine! et au moment même où elle venait de l'insulter d'une/façon hideuse, il la sauvait! S'était-elle donc trompée? Devait-elle/donc changer toute son âme?... Elle ne savait, elle tremblait. Elle/écoutait éperdue, elle regardait effarée, ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de l'ombre, et dit:\n\n--un instant, s'il vous plaît!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 428264,
+   "context": "les/prières désespérées de la Fantine. Au moment où les soldats mirent la/main sur la malheureuse, qui ne voulait pas se lever, il fit un pas,/sortit de l'ombre, et dit://--Un instant, s'il vous plaît!//Javert leva les yeux et reconnut M. Madeleine. Il ôta son chapeau, et/saluant avec une sorte de gaucherie fâchée://--Pardon, monsieur le maire....//",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de maire!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 430318,
+   "context": "n'aille pas en prison six/mois! Qui est-ce qui a dit cela? Il n'est pas possible qu'on ait dit/cela. J'ai mal entendu. Ça ne peut pas être ce monstre de maire! Est-ce/que c'est vous, mon bon monsieur Javert, qui avez dit qu'on me mette en/liberté? Oh! voyez-vous! je vais vous dire et vous me laisserez aller.",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de mère!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 626142,
+   "context": "qui contenait tout ce/que la prière peut avoir à la fois de plus violent et de plus doux.//--Oh! s'écria-t-elle, apportez-la-moi!//Touchante illusion de mère! Cosette était toujours pour elle le petit/enfant qu'on apporte.//--Pas encore, reprit le médecin, pas en ce moment. Vous avez un reste de/fièvre. La ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de müller !",
+   "n_files": 1,
+   "files": [
+    "talleyrand-memoires-v1.txt"
+   ],
+   "first_file": "talleyrand-memoires-v1.txt",
+   "first_offset": 901896,
+   "context": "nd, et vous ne //////négligez aucun de vos avantages. Je crois que vous saviez //////que je n'aimais pas Tacite. Êtes-vous en correspondance avec /M. de Müller ! que j'ai vu à Berlin ? — Oui, Sire. — Convenez /qu'il vous a écrit sur ce qui fait le sujet de notre conversa- /tion? — Cest vrai, Sire, c'est par lu",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de peindre ta bouche!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 308097,
+   "context": "ite, tu as des lèvres ioniennes. Il y avait un/peintre grec, appelé Euphorion, qu'on avait surnommé le peintre des/lèvres. Ce Grec seul eût été digne de peindre ta bouche! Écoute! avant/toi, il n'y avait pas de créature digne de ce nom. Tu es faite pour/recevoir la pomme comme Vénus ou pour la manger comme Ève. La beaut",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de penthièvre!",
+   "n_files": 1,
+   "files": [
+    "talleyrand-memoires-v1.txt"
+   ],
+   "first_file": "talleyrand-memoires-v1.txt",
+   "first_offset": 57205,
+   "context": "a. Née en 1ju3, elle épousa Louis XY en 1723. Elle /deux fils et huit files; elle mourut en 1768. //////Google DNNÉGRTOREOR ///1754-1791, 5 /dour. M. de Penthièvre!, la maréchale de Duras’, madame /de Luynes*, madame de Marsant, madame de Périgords, la /duchesse de Fleury*, M. de Sourches”, madame de Villars”, /M",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de porter sur mon coeur les trois\ncrapauds!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 113308,
+   "context": "impériale de la croix que Napoléon lui/avait donnée, cela faisait un trou, et il n'avait rien voulu mettre à la/place. «Plutôt mourir, disait-il, que de porter sur mon coeur les trois/crapauds!» Il raillait volontiers tout haut Louis XVIII. «Vieux goutteux/à guêtres d'anglais!» disait-il, «qu'il s'en aille en Prusse avec son/salsifis!» Heure",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de prendre une résolution!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 512414,
+   "context": "'arrête et s'abat sur une tête, tant pis pour elle!//Il se regarda dans le petit miroir qui était sur sa cheminée, et dit://--Tiens! cela m'a soulagé de prendre une résolution! Je suis tout autre/à présent.//Il marcha encore quelques pas, puis il s'arrêta court://--Allons! dit-il, il ne faut hésiter devant aucune des conséqu",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de profiter d'un grand acte de bonté de gustave i!",
+   "n_files": 1,
+   "files": [
+    "talleyrand-memoires-v1.txt"
+   ],
+   "first_file": "talleyrand-memoires-v1.txt",
+   "first_offset": 236462,
+   "context": "ù je me suis trouvé /dans ma vie, et qui n'ont laisséde traces ni dans mon esprit /ni dans mon cœur. Je me souviens à peine que la reine m'em- /pêcha de profiter d'un grand acte de bonté de Gustave I! qui /avait obtenu pour moi du pape Pie VI un chapeau de cardinal *. //////Elle dit à M. de Merey d'engager la cour de Vienne à s'op- /poser à la nomi",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de prononcer avec\nl'énergie convenable le mot sacramentel: _mâtin_!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 316495,
+   "context": "isée et accablée, avait/refusé d'aller plus loin. Cet incident avait fait de la foule. À peine/le charretier, jurant et indigné, avait-il eu le temps de prononcer avec/l'énergie convenable le mot sacramentel: _mâtin_! appuyé d'un implacable/coup de fouet, que la haridelle était tombée pour ne plus se relever. Au/brouhaha des passants, les gais auditeurs de Tholomyè",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de prêtre!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 170514,
+   "context": "rave/homme. Vous êtes aubergiste, n'est-ce pas?//--Je suis, dit l'évêque, un prêtre qui demeure ici.//--Un prêtre! reprit l'homme. Oh! un brave homme de prêtre! Alors vous ne/me demandez pas d'argent? Le curé, n'est-ce pas? le curé de cette grande/église? Tiens! c'est vrai, que je suis bête! je n'avais pas vu",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de quartier, guerre à outrance!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 310871,
+   "context": "x autres sans remords vos bien-aimées. Chassez-croisez. En amour, il/n'y a pas d'amis. Partout où il y a une jolie femme l'hostilité est/ouverte. Pas de quartier, guerre à outrance! Une jolie femme est un/casus belli; une jolie femme est un flagrant délit. Toutes les invasions/de l'histoire sont déterminées par des cotillons. La ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de raviver les tristes\nsouvenirs de cette réaction!",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t1-gutenberg.txt"
+   ],
+   "first_file": "guizot-memoires-t1-gutenberg.txt",
+   "first_offset": 204120,
+   "context": "tout à coup redevenu le maître/et se livrait avec emportement aux plaisirs d'un pouvoir nouveau qu'il/regardait comme son ancien droit. Dieu me garde de raviver les tristes/souvenirs de cette réaction! je ne veux qu'en marquer le vrai caractère./C'était, dans la société civile, dans l'administration intérieure, dans/les affaires locales, et sur pres",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de s'entr'aider surtout pour obtenir l'amélioration de leur\nmalheureux sort!",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t3-gutenberg.txt"
+   ],
+   "first_file": "guizot-memoires-t3-gutenberg.txt",
+   "first_offset": 679376,
+   "context": "ence/qu'ils viennent attaquer. En. abolissant les sociétés, ils veulent/empêcher aux ouvriers de se soutenir dans leurs besoins, dans leurs/maladies, de s'entr'aider surtout pour obtenir l'amélioration de leur/malheureux sort!... Le peuple est juste, le peuple est bon; ceux qui/lui attribuent des pensées de dévastation et de sang sont _d'infâmes/calomniateurs_; mais ceux qu",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de s'écrier: «là!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 358893,
+   "context": "de/Montreuil-sur-mer. Ceux qui avaient déclaré ce nouveau venu «un/ambitieux», saisirent avec transport cette occasion que tous les hommes/souhaitent de s'écrier: «Là! qu'est-ce que nous avions dit?» Tout/Montreuil-sur-mer fut en rumeur. Le bruit était fondé. Quelques jours/après, la nomination parut dans _le Monite",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de sucre, et vous vivrez!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 310610,
+   "context": "a solidification du sang; de là les tubercules dans/le poumon; de là la mort. Et c'est pourquoi le diabète confine à la/phthisie. Donc ne croquez pas de sucre, et vous vivrez! Je me tourne/vers les hommes. Messieurs, faites des conquêtes. Pillez-vous les uns/aux autres sans remords vos bien-aimées. Chassez-croisez. En amour",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de terre en carrosse!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 96035,
+   "context": "tion probable de m'apporter/de la sagesse. À qui est-ce que je parle? Qui êtes-vous?//L'évêque baissa la tête et répondit://--_Vermis sum_.//--Un ver de terre en carrosse! grommela le conventionnel.//C'était le tour du conventionnel d'être hautain, et de l'évêque d'être/humble.//L'évêque reprit avec douceur.//--Monsieur",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "de votre \nvilaine migraine; puisse-t-elle ne jamais revenir !",
+   "n_files": 1,
+   "files": [
+    "nesselrode-v9.txt"
+   ],
+   "first_file": "nesselrode-v9.txt",
+   "first_offset": 118950,
+   "context": " de cette erreur. À ma grande satisfaction, /il m'a confirmé ce que vous me dites de votre santé, /et assuré que les révolutions vous avaient délivré de votre /vilaine migraine; puisse-t-elle ne jamais revenir ! //L'Empereur est avec raison indigné de la conduite du //io1 de Sardaigne. [Il approuve le départ de Kokochkine\". /Demain je remettrai par son ordre ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour \nfaire  place  à  hi  répu!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 2723310,
+   "context": "t  huit  cents  ans;  leur  lutte  linit  pour  Athènes  dans  la  courte /monarchie  de  Pisistrate  et  de  ses  enfans,  laquelle  fut  détruite,  pour /faire  place  à  hi  répu!)lique,  par  une  réaction  de  la  race  vaincue, /car  1:î  famille  d'iïarmoduis  et  d'Arislogiton,  qui  chassèrent  llippias, /était  phénicien",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR \"hi repu!)lique\"; \"!\" terminates finite clause",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour \nprouver  que  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 1184656,
+   "context": "- /tocratique de  l'Angleterre  en  soit  encore  embarrassé?  Il  ne  manque /pas  plus  en  Angleterre  qu'en  France  d'écrivains  et  d'orateurs  pour /prouver  que  !e  beau  idéal  pour  chaque  nation  est  de  produire  elle- /même  tout  ce  qu'elle  consomme,  de  philosophes  pour  établir  que /le  peuple  n",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR artifact: \"!e\" for \"le\"",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour \nvenir  a  prague!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 203985,
+   "context": "'a  eu  plus /de  succes!  L'auguste  assemblee,  tout  gens  enrag^s  de  danse /et  de  plaisirs,  m'a  acclame.  Sur  ce;  je  me  suis  esquive\"  pour /venir  a  Prague! //—  Ce  5  Octobre. //1235.  .  .  .  L'Empereur  et  l'Imperatrice  sont  arrive's  ici /hier  a  cinq  heures  du  soir.  Ils  ont  e\"te  accueill",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour \nêtre  vrai  et  simple  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 165725,
+   "context": " mais,  pour  qui  aspire  à  la  vérité,  à  la  simplicité,  quel  danger /que  de  si  bien  connaître  les  moyens  qui  furent  jadis  employés  pour /être  vrai  et  simple  !  Quelle  tentation  d'imiter  au  lieu  de  créer,  et  de /tomber  ainsi  dans  cette  naïveté  intentionnelle  et  systématique  qui /n'est,  elle ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  acquérir  des  connaissances  qui  doi- \nvent à  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 2900853,
+   "context": "ieuse  activité  de  ses  bras  le /pain  de  chaque  jour,  dispute  soit  au  sommeil,  soit  à  des  distractions /grossières,  quelques  instans  pour  acquérir  des  connaissances  qui  doi- /vent à  !a  fois  lui  ouvrir  l'esprit  et  de  nouveaux  moyens  de  travail  et /de  bien-être,  on  ne  saurait  accorder  trop  d'estime  à  cette  initia",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR artifact: \"!a\" for \"a\"",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  apaiser  les  soldats,  bauî!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 1302818,
+   "context": "ot,  dit  Polybe  (2),  un  seul  qui  fût  com- /pris de  tout  le  monde  :  Frappe!  (Baxxs),  et  quand  un  chef  haranguait /dans  une  langue  pour  apaiser  les  soldats,  BaUî!  s'écriaient  les  soldats /d'une  autre  langue,  craignant  d'être  trahis,  et  le  chef  était  aussitôt /lapidé.  Rien  ne  peint  mieux  l'inst",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  briser  l'enlétement  du  chef!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 929591,
+   "context": "ant  le  gouvernement  de  Buénos- /Ayres  ne  venait  pas  faire  amende  honorable,  et  les  habitans  de  la  province /ne  se  soulevaient  pas  pour  briser  l'enlétement  du  chef!  iS'os  agens  s'aperçu- /rent enfin  qu'il  pouvait  bien  y  avoir  quoique  chose  d'exagéré  dans  leurs  pre- /mières espérances.  Les  lettres ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  continuer  sa  route!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 861496,
+   "context": "s  actions.  Vienne /le  jour  où  la  France  bien  inspirée  se  souviendra  que  la  révolution  grecque /attend,  l'arme  au  bras,  son  signal  pour  continuer  sa  route!  et  le  monde  entier /verra  qui  doit  l'emporter  du  bon  droit  ou  de  la  rapacité  des  vainqueurs  de /Beyrouth  et  de  Saint-.Tean-d'Acre",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  croire  à  de  pareilles  sornettes!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 2750721,
+   "context": "un  bourgeois  de  Paris  qui /disait,  d'un  air  profond,  au  second  acte  du.  FreyscJt ut 3  :  Faut-il  que /ces  Allemands  soieîit  simples  pour  croire  à  de  pareilles  sornettes!  — /Et  un  bon  Allemand  qui  s'écriait  avec  indignation ,  en  levant  les  yeux /et  les  bras  au  ciel,  c'est-à-dire  au  plafond  :  — Ces ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  dernier  adieu  à  sa  patrie:  f  ive  la \nfrance!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 1040555,
+   "context": "  vertébrale  et  lés /reins  brisés  par  un  boulet  :  frappé  à  mort,  et  tombant  en  secouant  son  bras /coupé  du  même  coup,  il  criait  pour  dernier  adieu  à  sa  patrie:  f  ive  la /France! //La  flottille  arriva  devant  San-Pedro,  où  elle  s'arrêta.  Les  vivres  commençaient /à  manquer;  il  était  à  craindre  qu'on  n'en  eût  p",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR \"f ive la france!\"; \"!\" belongs to \"vive la France!\"",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  desservir  notre  correspondance  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 1167357,
+   "context": "quait  plus  que  cela!  s'écria-t-il  d'un  ton  ironique; /vous  m'écrivez  !  Je  vais  être  obligé  d'établir  à  Riquemont  une  petite /poste  pour  desservir  notre  correspondance  !  Je  suis  en  effet  un  mari /si  terrible  et  si  redoutable!  Vous  allez  voir  que  j'interdis  à  madame /la  liberté  de  la  parole. //—  M",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  dire  barbarie!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 2479086,
+   "context": "de  Dieu? /De  frontières  au  ciel  voyons-nous  quelques  traces? /Sa  voûte  a-t-elle  un  mur,  une  borne,  un  milieu? /Nations!  mot  pompeux  pour  dire  barbarie! /L'amour  s'arréte-t-il  où  s'arrêtent  vos  pas? /Déchnez  ces  drapeaux;  une\" autre  voix  vous  crie  : ///LA  MARSEILLAISE  DE  LA  PAIX.  \"  7",
+   "topic_class": "G-exclaimed-NP",
+   "reason": "\"mot pompeux pour dire barbarie\" NP embedding governed infinitive (Cause-C)",
+   "genuine_gov_excl_inf": true
+  },
+  {
+   "match": "pour  diviser  ses  tils,  mais  pour  les  réunir!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 2478069,
+   "context": "e  et  béni  !  Ce  Dieu  qui  fond  la  voûte /Où  la  coupe  du  gland  pourrait  te  contenir, /Ne  grossit  pas  ainsi  ta  merveilleuse  goutte /Pour  diviser  ses  tils,  mais  pour  les  réunir! ///Pourquoi  nous  disputer  la  montagne  ou  la  plaine? /Notre  tente  est  légère ,  un  vent  va  l'enlever; /La  table  où  nous  rompons  le  ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  donner  l'impulsion  au \nsystème  généra!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 1816728,
+   "context": "  aux /anciens.  »  Sans  doute,  l'antiquité  n'a  pas  connu  ces  rouages  financiers  qui /fonctionnent  chez  nous  avec  assez  de  puissance,  pour  donner  l'impulsion  au /système  généra!  du  gouvernement;  mais  il  y  avait  à  Rome,  et  dans  les  cités /provinciales  comme  aujourd'hui  à  Paris  et  à  Londres,  des  jours  de  ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR \"genera!\"; \"!\" terminates finite clause",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  dénoncer  les  con- \nseillers royaux,  et  qui,  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 2186476,
+   "context": " situation  pour /l'accabler.  Ce  fut  Pym  qui,  en  octobre  16il,  marchant  à  la  tète  des /communes,  se  rendit  à  la  chambre  des  lords  pour  dénoncer  les  con- /seillers royaux,  et  qui,  !)ientôt  après  (en  novembre  .  fit  retentir  la /grande  remontrance  sur  l'état  de  la  nation,  et  passer  le  bill  sur  la  levée /di's  tr",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR artifact: \"!)\"",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  enrichir  quelque  employé  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 305267,
+   "context": "immenses  travaux  ont  été  en- /trepris et  abandonnés,  les  sommes  qui  devaient  être  consacrées  à  leur /achèvement  ayant  été  détournées  pour  enrichir  quelque  employé  ! /Un  fait  peut  servir  d'exemple  :  tous  les  vaisseaux  russes  qui  se  con- /struisent dans  la  mer  Noire,  ne  durent  jamais  plus  de  di",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  exciter  de  pauvres  ouvriers  à \nhasarder  des  œuvres  informes!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 2943882,
+   "context": "  qu'inspire /l'indigence,  et  l'apathique  mollesse  que  traînent  après  elles  de  trop /grandes  prospérités. //Et  quel  temps  choisirait-on  pour  exciter  de  pauvres  ouvriers  à /hasarder  des  œuvres  informes!  Précisément  une  époque  où  tout /semble  avoir  été  dit  et  pensé.  Dans  leur  ignorance,  ces  écrivains /s'imagineront  être  nouveaux  en  ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  exciter  la  révolte!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 1633392,
+   "context": "!  ïl  s'était  donc /mis  en  rapport  avec  eux;  il  y  avait  donc  eu  d'autres  émissaires  que /ceux  de  la  Porte  envoyés  dans  le  Liban  pour  exciter  la  révolte!  Lord /Ponsonby  avait  donc  abdiqué  son  caractère  de  médiateur  et  d'arbitre! /il  avait  prêché  la  paix  au  pacha  d'Egypte,  et  la  guer",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  faire  sortir  les \nfrançais  de  la  belgique!",
+   "n_files": 1,
+   "files": [
+    "nesselrode-v7.txt"
+   ],
+   "first_file": "nesselrode-v7.txt",
+   "first_offset": 360917,
+   "context": "besoin  d'être  encore  humiliés,  et  certainement  que  Dieu /dans  sa  justice  leur  préparc  de  grands  revers. //Que  va  faire  l'Angleterre  pour  faire  sortir  les /Français  de  la  Belgique!  Selon  moi,  il  n'est  pas  du /tout  mauvais  qu'il  y  ait  entre  ces  deux  pays  des  sujets /de  mécontentement,  l'intimité  commençait  à  ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  justifier  sa  d^cision!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 842851,
+   "context": ":  „J'ignore  les  motifs  du  Roi;  il  est  possible  que /votre  figure  n'ait  point  ete*  agreable  a  Sa  Majeste,  et  cette /raison  suffit  pour  justifier  sa  d^cision!\" //Voila  de  la  Monarchie  repräsentative  monarchique,  tout /comme  il  y  a  de  la  d^mocratie  gouvernementale  aux /Etats-Unis,  oü  le  Pres",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  l'aider  à  dé- \nguiser sa  curiosité  puérile!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 679960,
+   "context": "  cet /édifice  aux  lambris  élégans  et  dorés.  Que  de  ruses  en  effet!  que  de /finesses  viennent  au  secours  de  M'\"\"\"  de  Clainville ,  pour  l'aider  à  dé- /guiser sa  curiosité  puérile!  Il  faut  changer  de  nom,  faire  inviter  le /bel  officier  de  la  part  de  M\"\"  de  Wordacle,  une  vieille  comtesse,  si /laide  et  si  bo",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  l'angleterre \ndevant  l'europe  et  devant  l'histoire!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 2746229,
+   "context": "  fait /pour  la  rendre  inévitable,  quand  la  France  faisait  tout  et  faisait  peut- /être  trop  pour  l'empêcher  :  grande  responsabilité  pour  l'Angleterre /devant  l'Europe  et  devant  l'histoire! //J'arrive  au  dernier  acte  diplomatique  du  précédent  cabinet,  à  la /note  du  8  octobre,  que  l'on  a  si  diversement  jugée.  Il  serait",
+   "topic_class": "G-exclaimed-NP",
+   "reason": "\"grande responsabilite pour l'Angleterre...\" exclaimed NP; no infinitive",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  l'ordre  de  choses  existant!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 360182,
+   "context": "es  un  attentat  manque  deviennent  stereotypes  en  France. /Cette  mode  est  bien  triste,  et  eile  mar  que  le  danger  le  plus /incessant  pour  l'ordre  de  choses  existant! //Ce  qui  est  clair,  c'est  que  le  Roi  n'a  qu'une  maniere /de  s'assurer  des  chances  de  vie,  celle  d' avancer  d'un  pas /ferme.  Chaqu",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  lancer  l'idée  ou  la  mort  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 2481512,
+   "context": "aire,  ils  blessent  sans  remord; /Fiers  enfans,  de  leur  cœur  l'impatiente  fibre /Est  la  corde  de  l'arc  où  toujours  leur  main  vibre /Pour  lancer  l'idée  ou  la  mort  ! ///Roule  libre ,  et  bénis  ces  deux  sangs  dans  ta  course  ; /Souviens-toi  pour  eux  tous  de  la  main  d'où  tu  sors  : /L'aigle  et  le ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  m'avoir  donné  de  bons  yeux!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 2467103,
+   "context": " venait  bien  des  élans  religieux;  mais  il /ne  m'arrivait  pas  d'autre  formule  d'enthousiasme  que  celle-ci  :  Bon /Dieu ,  béni  sois-tu  pour  m'avoir  donné  de  bons  yeux! //Au  reste,  je  crois  que,  si  la  jouissance  accidentelle  de  ces  spectacles /sublimes  est  rafraîchissante  et  salutaire,  leur  continuel",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  monter  toute  son  armée,  peut-être  se  relè- \nverait-il encore!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 1038455,
+   "context": "ns  son  esprit  : /si,  pendant  le  trajet,  il  pouvait  s'emparer,  sur  les  rives  du  Parana,  d'un  nombre /de  chevaux  assez  considérable  pour  monter  toute  son  armée,  peut-être  se  relè- /verait-il encore!  Nos  navires  appareillèrent  suivis  d'un  convoi,  et  emportèrent /avec  Lavalle  et  ses  mille  Argentins  deux  mille  Correntinos,  l'espoir ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  mourir  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 1533982,
+   "context": "  cependant,  on  ne  saurait  le  nier, /chez  Duprez,  l'art  est  plus  grand.  Comme  il  compose  son  jeu!  comme  il  s'ar- /range habilement  pour  mourir  !  comme  il  règle  son  intonation  et  la  mesure  sur /les  convenances  dramatiques!  Rubini,  lui,  ne  fait  rien  de  tout  cela,  il  chante /",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  pacifier  et  consolider \nl'empire  ottoman  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 2145945,
+   "context": "ent  tel  que  l'ont  fait  les  quatre  puissance^ ///SITUATION  ACTUELLE  DE  LA  FRANCE.  693 //réunies,  comme  on  sait,  le  15  juillet  1840  pour  pacifier  et  consolider /l'empire  ottoman  !  Et  l'on  cherche  dans  de  tels  évènemens  un  motif /pour  la  France  de  joindre  sa  signature  à  celle  des  quatre  puissances, /en  renon",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  pleurer  et  pour  mourir,  poètes!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 923233,
+   "context": "  les  nuits, /Au  lieu  d'avoir  des  voix  n'ont  plus  rien  que  des  bruits, /Qu'écoutons-nous  encor?  Sur  nos  lyres  muettes /Penchons-nous  pour  pleurer  et  pour  mourir,  poètes! //LE   CHOEUR. //Heureux  le  toit  caché  dans  l'ombre  et  vert  de  mousse. /Où  l'homme  est  à  l'abri  de  l'ardeur  qui  nous  pousse, /Adore",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  porter  des  lois  et  les  faire  exécuter!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 1630185,
+   "context": "issance  législative  :  «  Comme  si /la  Pologne,  comme  si  un  état  qui  a  un  chef  et  des  ministres,  n'avait /pas  tout  ce  qu'il  faut  pour  porter  des  lois  et  les  faire  exécuter!  Les /amis  de  la  Pologne  n'avaient  qu'une  proposition  à  lui  faire,  celle  de /constituer  son  pouvoir;  et,  si  elle  s'y  fût  refusée, ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  pouvoir  marcher!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 843506,
+   "context": "e  d'abus  en  France  de  ce  qu'il  faudra  modifier, /ou  bien  F ordre  de  choses  existant  devra  perir  par  suite  de  ce /qui  lui  manque  pour  pouvoir  marcher! //Teile  est  ma  pr^diction,  mon  eher  Comte,  et  j'espere  voir /se  realiser  la  premiere  de  ces  conditions. //1344-1345.  Mttttmiü)  an  $",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  punir  leurs  parents,  disent  souvent: \nje  ne  mangerai  pas!",
+   "n_files": 1,
+   "files": [
+    "metternich-papiere-v6.txt"
+   ],
+   "first_file": "metternich-papiere-v6.txt",
+   "first_offset": 373843,
+   "context": "e  pour /la  France.  Quand  on  me  dit:  Si  vous  faites  Fun  je  ferai  Fautre, /c'est  tout  comme  si  Fon  ne  disait  rien. //Les  enfants,  pour  punir  leurs  parents,  disent  souvent: /Je  ne  mangerai  pas!  Aussi  souvent  que  j'entends  une  menace /pareille,  je  dis  a  Fenfant:  Eh  bien,  ne  mange  pas!  Veuillez /saisir  l'idee  et  Fappliquer  ",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  recommander  au  sultan  d'accorder  à  méhémet- \na!",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t5-t6.txt"
+   ],
+   "first_file": "guizot-memoires-t5-t6.txt",
+   "first_offset": 890006,
+   "context": "tion  bien /fondée  à  toute  extension  du  pouvoir  de  Mébémet-Ali  au /delà  de  l'Egypte,  et  qu'il  se  joindrait  au  gouvermement /français  pour  recommander  au  sultan  d'accorder  à  Méhémet- /A!i,  outre  le  pachalik  d'Egypte,  l'administration  de  la /partie  basse  de  la  Syrie,  bornée  au  nord  par  une  ligne  tirée /du  cap  Carmel",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR truncated \"Mehemet-A!i\"; \"!\" terminates finite clause",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  rendre  ma  cause  odieuse  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 1029375,
+   "context": "cet  appui  de  la  France  que  mes  ennemis  me  reprochent  comme  un  opprobre. ///AFFAIRES  DE  BUÉXOS-AYRES.  339 //et  dont  ils  se  servent  pour  rendre  ma  cause  odieuse  !  »  Et  alors  il  agissait  sans /consulter  Ferré ,  sans  lui  donner  avis  de  ses  résolutions,  quelquefois  même /malgré  les  ordres  qu'il ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  retrouver  un  point \nd'arrêt  !",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t5-t6.txt"
+   ],
+   "first_file": "guizot-memoires-t5-t6.txt",
+   "first_offset": 650279,
+   "context": "ement  libre  est  définitivement  battu  et /dissous,  Dieu  sait  ce  qui  arrivera  !  Dieu  sait  quel  temps /et  quels  événements  il  faudra  pour  retrouver  un  point /d'arrêt  ! //«  Pensez  bien  à  ceci,  je  vous  prie.  Voyez  ce  que  vous /pouvez  faire,  jusqu'à  quel  point  vous  pouvez  agir  sur /le  cabinet.  Épui",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  résister  si  long-temps  à  vos  indignes  pro- \ncédés !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 1260858,
+   "context": "êtes  venu  à  vos  fins.  Vous  avez  si  bien  fait,  que /M.  Herbeau  m'abandonne.  Quelle  patience  et  quel  dévouement /n'a-t-il  pas  fallu  pour  résister  si  long-temps  à  vos  indignes  pro- /cédés ! //M.  Riquemont  releva  la  lettre  échappée  des  mains  de  sa  femme; /puis,  après  en  avoir  pris  connaissance  : //•^Comment,  mille  diable",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  résoudre \n!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 344271,
+   "context": " Lon- /dres. La  France  ne  comprenait  pas  qu'elle  n'avait  plus  de  concession /à  attendre  depuis  qu'elle  avait  cessé  d'être  nécessaire  pour  résoudre /!a  question  de  Constatitinople;  elle  ne  voyait  pas  se  î)roduire  cette /évolution  nouvelle  par  laquelle  la  politique  anglaise  allait  c",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "OCR artifact: \"!a\" for \"la\"",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  s'écrier  :  saga!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 2024450,
+   "context": "s  tous  les  yeux  l'éloquent  Latsiska /pouvait  lire  la  preuve  de  son  succès.  Par  intervalles,  les  chefs  inter- /rompaient le  discours  pour  s'écrier  :  Saga!  (  c'est  juste) ,  ou  binaka! /(c'est  bien).  Quelques  hommes  seulement  semblaient,  au  milieu  de /l'assentiment  général,  conserver  un  a",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  sauver  les  apparences  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q2.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q2.txt",
+   "first_offset": 2946837,
+   "context": "incipes,  de  la  philosophie /par  conséquent,  et  de  la  morale,  et  qui  ne  consentent  à  admettre  les  faits  dans /la  vie  pratique  que  pour  sauver  les  apparences  !  On  raconte  qu'étant  avec  ses /amis  sur  un  vaisseau  en  danger  de  périr,  Pyrrhon  demeura  seul  inaccessible  à /la  crainte;  et  montra",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  soulever  contre  nous  l'opinion  du  monde  civi- \nlisé!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 1544616,
+   "context": "ce,  l'Angleterre  en  particulier  professait /les  dispositions  en  apparence  les  plus  cordiales,  et  c'est  le  moment /que  l'on  a  choisi  pour  soulever  contre  nous  l'opinion  du  monde  civi- /lisé! Les  mêmes  cabinets  qui  nous  ont  accusés  de  légèreté,  de  mau- /vaise foi,  et  qui  nous  ont  prêté  des  vues  ambitieuses,  protestaient ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  tomber,  hélas  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q3.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q3.txt",
+   "first_offset": 2992204,
+   "context": " votre  second /choix?  —  La  France.  » //Nous  quittons  cette  ère  de  l'histoire  intellectuelle  de  l'Amérique /avec  tristesse,  car  c'est  pour  tomber,  hélas  !  dans  la  littérature  jour- /nalisle.  On  se  ferait  difficilement  une  idée  de  l'immense  fécondité  de /l'Amérique  dans  ce  dernier  genre",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  violer  l'arche  sainte,  n'avez  attendu  que \nl'occasion  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 2977846,
+   "context": " de  grâce  cessez  devons /poser  en  mystagogue  incorruptible,  en  quaker  de  l'art  pur,  en  solennel  gar- /dien du  sanctuaire,  vous  qui,  pour  violer  l'arche  sainte,  n'avez  attendu  que /l'occasion  ! //H.  W. ///CHRONIQUE  DE  LA  QUINZAINE. ///14  mars  18il. //La  querelle  entre  l'Angleterre  et  les  État-Unis  paraît  s'envenimer.  Il  est  ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  vivifier  ces  études!",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q4.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q4.txt",
+   "first_offset": 2855413,
+   "context": "grands  artistes?  Pour  les  faire  agir  et  parler  avec /vérité,  que  d'études  et  de  recherches!  que  de  pénétration,  que /d'intelligence  pour  vivifier  ces  études!  C'est  un  drame  où  tout  est  à /inventer  et  où  pourtant  rien  ne  peut  être  de  fantaisie.  Et  d'un  autre /côté,  comment,  avec  une  s",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  vivre  des  momies  de  leurs  an- \ncêtres !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 287462,
+   "context": " ces  hommes  représentés  sur  les  monumens /du  monde  antique.  INIèmes  visages,  même  air,  mêmes  costumes! /Ceux  d'aujourd'hui  trafiquent  pour  vivre  des  momies  de  leurs  an- /cêtres ! //Sij'avais  une  patrie  quelque  part  sur  la  terre,  je  voudrais  m'y  rendre /pieds  nus,  en  mendiant ,  en  me  traînant  sur  les  genoux ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour  élire  un  nouveau  président,  eh  bien  !",
+   "n_files": 1,
+   "files": [
+    "revue-deux-mondes-1841-q1.txt"
+   ],
+   "first_file": "revue-deux-mondes-1841-q1.txt",
+   "first_offset": 1118183,
+   "context": "  dictatorial  expirait,  notre  blocus /durait  depuis  deux  ans,  la  ville  et  la  campagne  souffraient  beaucoup;  la  nation /fut  convoquée  pour  élire  un  nouveau  président,  eh  bien  !  le  choix  qui  l'appela /fut  unanime.  Et  ce  ne  furent  pas  seulement  quelques  députés  timorés  qui  lui ///362  REVUE  DES  DEUX  .MONDES.",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour aller\nchercher l'enfant de cette fille!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 643871,
+   "context": "pagnerez si vous voulez.//--Tu veux rire! cria Javert. Ah çà! je ne te croyais pas bête! Tu me/demandes trois jours pour t'en aller! Tu dis que c'est pour aller/chercher l'enfant de cette fille! Ah! ah! c'est bon! voilà qui est bon!/Fantine eut un tremblement.//--Mon enfant! s'écria-t-elle, aller chercher mon enfant! Elle n'est donc/pas ici! ",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour aller chercher l'enfant de\ncette malheureuse femme!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 643624,
+   "context": "st-ce que cela me fait? je n'écoute pas!//Jean Valjean se tourna vers lui et lui dit rapidement et très bas://--Accordez-moi trois jours! trois jours pour aller chercher l'enfant de/cette malheureuse femme! Je payerai ce qu'il faudra. Vous/m'accompagnerez si vous voulez.//--Tu veux rire! cria Javert. Ah çà! je ne te croyais pas bête! Tu me/demandes trois",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour aller à arras d'une traite!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 538621,
+   "context": "le?//--C'est vrai, vous m'y faites penser. Il ne l'endure pas.//--Alors....//--Mais je trouverai bien dans le village un cheval à louer?//--Un cheval pour aller à Arras d'une traite!//--Oui.//--Il faudrait un cheval comme on n'en a pas dans nos endroits. Il/faudrait l'acheter d'abord, car on ne vous connaît pas. Mais ni à vendre/n",
+   "topic_class": "G-exclaimed-NP",
+   "reason": "\"Un cheval pour aller a Arras d'une traite\" exclaimed NP embedding governed infinitive (Cause-C)",
+   "genuine_gov_excl_inf": true
+  },
+  {
+   "match": "pour arriver\nà une conclusion positive: «bah!",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t2-gutenberg.txt"
+   ],
+   "first_file": "guizot-memoires-t2-gutenberg.txt",
+   "first_offset": 242938,
+   "context": " lui offrait le Roi./M. de Montalivet, en sortant, exprima des doutes et insista auprès de M./Laffitte sur la nécessité d'une explication péremptoire pour arriver/à une conclusion positive: «Bah! lui dit M. Laffitte, laissez là/vos défiances incurables et vos rigueurs mathématiques; l'affaire/s'arrangera.» Le Roi, qui ne la trouvait pas arrang",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour autre chose, si ce\nn'est pour cela!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 510298,
+   "context": "vu son enfant! sans que l'enfant/ait presque connu sa mère! Et tout ça pour ce vieux gredin de voleur de/pommes qui, à coup sûr, a mérité les galères pour autre chose, si ce/n'est pour cela! Beaux scrupules qui sauvent un coupable et qui/sacrifient des innocents, qui sauvent un vieux vagabond, lequel n'a plus/que quelques années à vivre a",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour cythère!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 290999,
+   "context": "que cela ne finira jamais. Les philosophes, les/poètes, les peintres regardent ces extases et ne savent qu'en faire,/tant cela les éblouit. Le départ pour Cythère! s'écrie Watteau; Lancret,/le peintre de la roture, contemple ses bourgeois envolés dans le bleu;/Diderot tend les bras à toutes ces amourettes, et d'",
+   "topic_class": "G-exclaimed-NP",
+   "reason": "\"Le depart pour Cythere\" exclaimed NP; \"pour\"+NP, no infinitive",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour dire : ah!",
+   "n_files": 1,
+   "files": [
+    "talleyrand-memoires-v1.txt"
+   ],
+   "first_file": "talleyrand-memoires-v1.txt",
+   "first_offset": 135968,
+   "context": "ont, d'une voix /forte et rauque, me demande, en m'interpellant par mon /nom, ce qui m'avait assez frappé en entrant dans le salon, /où jela suivais, pour dire : Ah! ah /… « Madame la duchesse, /lui répondis-je, ne m'a pas bien entendu, ce n'est pas Ah! /ah! que j'ai dit; c'est Oh/ oh... » Cette misérable ré- /pon",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour employer ainsi la tombe à la vanité!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 26419,
+   "context": " bon dos a la mort! s'écria-t-il. Quelle admirable charge de/titres on lui fait allègrement porter, et comme il faut que les hommes/aient de l'esprit pour employer ainsi la tombe à la vanité!//Il avait dans l'occasion une raillerie douce qui contenait presque/toujours un sens sérieux. Pendant un carême, un jeune vicaire vint à/Digne et prê",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour exécuter la charte, dont on s'est, hélas!",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t1-gutenberg.txt"
+   ],
+   "first_file": "guizot-memoires-t1-gutenberg.txt",
+   "first_offset": 673448,
+   "context": "nvocation, un parti propre à nous/préserver d'un malheur effrayant?//Le renouvellement par cinquième, qui, dans tous les cas, me semble/indispensable pour exécuter la Charte, dont on s'est, hélas! trop écarté/au mois de juillet 1815, ne diminuera guère les probabilités de la/dissolution.//Les députations de la quatrième série, à peu d'exception",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour gouverner sans en tenir compte!",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t1-gutenberg.txt"
+   ],
+   "first_file": "guizot-memoires-t1-gutenberg.txt",
+   "first_offset": 255861,
+   "context": "ois, de 1789 à 1814, on avait inscrit, dans nos institutions et dans/nos lois, des libertés et des droits politiques, pour les y laisser/ensevelis et pour gouverner sans en tenir compte! Le premier entre les/gouvernements de notre époque, la Restauration a pris ses paroles au/sérieux; quels que fussent ses traditions et ses penchants,",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour l'affermir!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 518559,
+   "context": "atalité! quelle rencontre que ce Champmathieu pris pour lui! Être/précipité justement par le moyen que la providence paraissait d'abord/avoir employé pour l'affermir!//Il y eut un moment où il considéra l'avenir. Se dénoncer, grand Dieu! se/livrer! Il envisagea avec un immense désespoir tout ce qu'il faudrait/quitt",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour l'empècher!",
+   "n_files": 1,
+   "files": [
+    "talleyrand-memoires-v1.txt"
+   ],
+   "first_file": "talleyrand-memoires-v1.txt",
+   "first_offset": 891520,
+   "context": " L'apparition de la Russie à la paix de Teschen a /été un grand malheur pour l'Europe et une grande faute de /la part de la France, qui n'a rien fait pour l'empècher!. /Il n'est plus question de cela; mon cher, il faut prendre /le temps comme il est. Sur le temps passé, prenez-vous-en /à M. de Vergennes, si vous vo",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour prendre la parole: «ici, d'argout!",
+   "n_files": 1,
+   "files": [
+    "guizot-memoires-t2-gutenberg.txt"
+   ],
+   "first_file": "guizot-memoires-t2-gutenberg.txt",
+   "first_offset": 282489,
+   "context": "r par/la brusque explosion de son autorité. Je l'ai entendu s'écrier un jour,/impatienté que M. d'Argout se mît en mouvement, mal à propos selon lui,/pour prendre la parole: «Ici, d'Argout!» et M. d'Argout revenait, non/sans humeur, mais sans la montrer.//La première fois que M. Casimir Périer monta à la tribune de la Chambre/des députés",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour quatre francs cinquante centimes!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 314819,
+   "context": " la mer! Attention en buvant! trois cent dix-sept toises! et/monsieur Bombarda, le magnifique restaurateur, vous donne ces trois cent/dix-sept toises pour quatre francs cinquante centimes!//Fameuil interrompit de nouveau://--Tholomyès, tes opinions font loi. Quel est ton auteur favori?//--Ber....//--Quin?//--Non. Choux.//Et Tholomyès po",
+   "topic_class": "H-false-friend/artifact",
+   "reason": "match is not a de/pour+infinitive reading: noun false friend, or \"!\" belongs to a different clause/word (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour rire!",
+   "n_files": 1,
+   "files": [
+    "gutenberg-17489-miserables1.txt"
+   ],
+   "first_file": "gutenberg-17489-miserables1.txt",
+   "first_offset": 299530,
+   "context": "na une question de Blachevelle://--Qu'est-ce que tu ferais, Favourite, si je cessais de t'aimer?//--Moi! s'écria Favourite. Ah! ne dis pas cela, même pour rire! Si tu/cessais de m'aimer, je te sauterais après, je te grifferais, je te/gratignerais, je te jetterais de l'eau, je te ferais arrêter.//Blachevelle s",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  },
+  {
+   "match": "pour servir l'intérêt des \nbonaparte !",
+   "n_files": 1,
+   "files": [
+    "talleyrand-memoires-v1.txt"
+   ],
+   "first_file": "talleyrand-memoires-v1.txt",
+   "first_offset": 710938,
+   "context": "d'après le langage vague de M. de Beauhamais, /qu'il eût des instructions positives; mais, soil qu'il agit pour /servir l'intérêt des Beauharnais, ou pour servir l'intérêt des /Bonaparte !, il créait une intrigue avec le prince des Asturies ; /et une intrigue placée là ne pouvait qu'être utile aux vues ///1. Les Beauharaais désiraient q",
+   "topic_class": "F-finite-matrix",
+   "reason": "\"!\" terminates a finite clause; the de/pour+infinitive is plain-governed inside it (see context)",
+   "genuine_gov_excl_inf": false
+  }
+ ],
+ "note": "distinct lowercased 'pour/de [inf] !' strings per file, verbatim CTRL pattern from disloc_governed_excl_prose_recall_census.py"
+}

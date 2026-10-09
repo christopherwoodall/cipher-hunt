@@ -4009,6 +4009,33 @@ unchanged since the watermark (mtime 03:03:21 UTC); the grid HTML/PNG
 are the coordinator's 03:03 UTC regeneration. `generate.py` ran this
 sweep: printed **UNCHANGED** — the periodic table grid is current.
 
+**Round-19 red-team merge 2026-10-09 12:16 UTC** —
+`_meta.round19`: 11 new cells — 68=[noun,cls] (R19-107),
+69=[noun,cls] (R19-109; 'ce' value-lead R19-110),
+63=[verb,cls] (R19-102), 38=[verb,lead] conditional (R19-029),
+35=[noun,cls] (R19-050), 43=[noun,cls] (R19-045; @21
+excluded/fenced R19-064), 83=[de,lead] conditioned 11-window scope
+(R19-128), 93=[verb,cls] (R19-166), 98=[verb,cls] (R19-171/176;
+'vient' value-lead R19-172), 03=[verb-stem,cls] scoped to '03 29'×3
+(R19-178), 58=[nominal,cls] (R19-185). 76 lead→prom, masculine
+(R19-111). 62 ['il','lead'] REMOVED ('il' killed at kill grade
+R19-106). 24 DECLARED as S7 exception: 24='en' iff follower=85,
+verb elsewhere (R19-191); R_et3 retired. 43 and 44 polyvalence
+declarations REJECTED (R19-064, R19-066); 94 split rejected/CLOSED
+(R19-167); 89 infinitive rival killed, noun lead ratified (R19-161);
+corpus-search rule: whitespace-normalized search required for corpus
+zeros (R19-063). Registry is now 50 cells (7 gt, 13 prom, 20 cls,
+8 lead, 2 prov). The grid HTML/PNG carry the merge-time
+regeneration (mtime 12:16 UTC); `generate.py` ran this sweep: printed
+**UNCHANGED** — the periodic table grid is current.
+
+**New asset `key-table-history.gif`** (136 KB, 560×709, 8 frames,
+2026-10-09 13:00 UTC): an animation of the R5005 key-table grid from
+2026-10-08 01:35 UTC ("16/96 cells banked") through the round-19
+red-team state at 2026-10-09 12:18 UTC ("50/96 cells banked");
+captions quoted from the file. Maker not recorded in the lane
+(provenance unknown — no generating script found in `code/`).
+
 ### Round-18 red-team adjudication addenda (2026-10-08 UTC — 29 batteries
 adjudicated; red-team ruling AUTHORITATIVE)
 
@@ -5015,6 +5042,101 @@ below. The supervisor has queued their follow-ups (queue meta
 followups_queued_p16–p22, 2026-10-09): the three finder-proposed
 targets neque-79-twin-frame, neque-82-frame-family, neque-14-frame-value
 are now all verdict-bearing.
+
+### Round-17 wave-15 arrivals, post-sweep batch (2026-10-09 UTC —
+26 battery notes landed after the ~11:20 UTC sweep: 11 promotes,
+3 kills, 12 nulls; battery grade)
+
+**58-det-numeral-tension is resolving.** Frame B of `58-value-name`
+is confirmed collapsed: at @1696, under 15=adverb, rescue (a)
+clause-boundary-after-58 fails (no nameable subject) and rescue (b)
+verb+object+adverb fails under R24 — the surviving parse is the
+inversion "que en [85-fin] [58-subj-noun] [15-adv]" with one
+ungranted assumption (85 finite). 24@1693='en' per R24 ("24 85"
+bigram exactly 5× stream-wide: @732/@955/@1438/@1693/@1754).
+(**F217**, battery-1696-reparse-adverb PROMOTE; n(58)=7.) The numeral
+case now rests solely on frame A @1756 "[58] fois". Frame C
+("ce [58]" @1201-1202) stands — 45='dict' fails all 4 documented
+mechanics, 45='ce' parses with zero hard contradictions — hardening
+the 58-value-name NULL fence (**F218**, battery-58-a11-hold-test
+PROMOTE; "45 58" hapax bigram; scope is frame-level only, 45='ce'
+remains an ungranted A11 HOLD). At @1691–1695 the tail
+"[27] que(46) [24] [85] [58]" yields the licensed clause
+"que en [85-verb] [58-noun]" with zero new assumptions (46='que' is
+pencil ground truth) (**F219**, battery-neque-tail-24-85-clause
+PROMOTE; no value named for 85 or 27).
+
+**The bare-"ne" locus at @1330 resolves at construction level.**
+32,895,030 chars over 71 files of `code/side-period/corpus` yield
+2,229 strict bare-"ne" candidates (a line-wrap artifact class —
+6,096 raw — was caught and fixed in the census); the licensed class
+is pouvoir/savoir/oser/cesser/falloir/vouloir/devoir (1,307/2,229),
+and the exact "ne [finite] de [INF]" shape the locus needs is
+attested ("ne cesse de rapprocher") — the finite-verb arm at @1334
+stays unstrained (**F220**, battery-ne-1330-bare-corpus PROMOTE).
+Sharpening: targeted search for "ne/n'" governing
+prescrire/préserver/prévoir finds zero in 32.9M chars (the two
+"ne prescrivent" hits carry partners) — the three cipher candidates'
+verbs sit outside the licensed class; the strain is lexical, not
+constructional (`ne-1330-lexical-trio` queued). The "ne mentent"
+(3pl) rival at "94 82 06 06" is forced false at both windows
+(@578/@1182): no 3pl subject licensed, preverbal slots positively
+filled by singular determiners, and a 12-rescue audit at @1182 finds
+no grammatical rescue — recorded as N327/N328 in section 5; 06="ent"
+and 94="ne" are untouched. The cross-window comparison delivers a
+red-team evidence package: both windows share ONE subject account —
+the gap is systematic, a property of the x2 frame (**F221**,
+battery-nementent-W2-subject PROMOTE; consistent with the closed
+R19-167 94-split record, no new red-team act requested). The particle
+"ne" control paradigm is delivered as a 6-window clean core
+(@65/@161/@774/@1330/@1705/@1773, byte-exact; @651 contradicts the
+parent census's own "no non-clitic intervener" definition)
+(**F222**, battery-ne-attachable-paradigm PROMOTE).
+
+**The governed exclamatory infinitive is drama-wide.** 7 new
+non-comic plays (1,206,208 chars, 5,102 bangs; 371 candidates all
+hand-classified) yield 4 genuine attestations (Hugo *Le Roi s'amuse*
+×2, *Lucrèce Borgia* ×1, Dumas fils *La Dame aux camélias* ×1;
+census `code/crowd17/next-token/gov-excl-inf-drama-comedy-skew_census.json`).
+Cumulative drama state: 35 files, ~5.2M chars, 10 genuine —
+6 comedy, 4 drame. The comedy-skew hypothesis is falsified at its
+stated standard (≥1 genuine in a non-comedy play); dialogue-elliptical
+fragment grade predicts the construction, not the genre label
+(**F223**, battery-gov-excl-inf-drama-comedy-skew PROMOTE).
+Caveat: tragédie proper still zero.
+
+**08's letter-tier signature is positively stated.**
+n(08)=18: 5 word-initial-letter (@631/@881/@1488/@1520/@1592),
+4 internal junctions, 1 word-final (@198); letter-neighbor inventory
+delivered (predecessor 40='e' ×2, successor 34='i' ×1, successor
+29='er' ×1; 82='m' 0/36 contacts). The spelling-vs-clitic adverse is
+answered as two positional flavors of the landed spelling-letter
+reading, so promote rather than fence (**F224**,
+battery-08-letter-geometry PROMOTE, signature-level; the
+`stem-08` NULL stands untouched — no 08 value named). The "[08][31]"
+word is complete in all 3 windows but unnameable at battery grade
+(08's letter open; 31 is class-only `["VERBAL","cls"]` in the
+registry) — recorded as N319 in section 5.
+
+**89/97 word-class ties tighten.** At @639–642 ("le [89]e [20]"),
+the adjective arm is agreement-admissible: once 89's value resolves
+here it must be a masculine singular noun (89 census n=14;
+77='le' provisional — the premise moves if 77 resolves otherwise)
+(**F225**, battery-agr-89-642-adj PROMOTE). At @524–526, 81 is
+NOMINAL (10/14 windows sit after determiner-position cells) —
+adverbial-81 dead at this window, the infinitive-topic revival route
+closed; NOM-97 hardened at @526 (window-level, no registry change;
+the global INF/NOM tie survives via the four "pour [97]" windows)
+(**F226**, battery-nom-97-526-adverb PROMOTE). The @65 word-final
+fence hardens: 4,913,029 tokens over 32,547,082 bytes of
+`code/side-period/corpus` yield 0 genuine "erenne"/"ierenne"/"enne"
+word forms (14 raw, all adjudicated hyphenation/OCR artifacts)
+(**F227**, battery-enne-65-lexicon-tighten PROMOTE; consistent with
+the "enne-word-64" KILL).
+
+The 12 nulls of this batch are nulled as N315–N326 in section 5
+below; the 3 kills as N327–N329. No follow-ups are requested in
+this sweep — all belong to the supervisor's battery queue.
 
 ---
 
@@ -7542,9 +7664,95 @@ edge; the note carries a data-quality flag for supervisor audit).
   Xeent candidates at any window — the 8-way tie stands.
 - **N313** — verb56-register-closeout NULL: the register venue is
   closed — yield is one kill (réer) plus the fenced 8-way tie.
-- **N314** — xeent-register-tiebreak NULL: 56's identity
-  underdetermined on the register axis; réer dead; maugréer is v.n.,
-  not marked "fam." (parent brief's premise corrected).
+- **N315** — 15-noun-verify NULL: at @1696 the plural noun claim dies
+  at class level — "ne [15] [33]" @775 and "pas [15] [01]" @1730 are
+  canonical adverb slots, zero determiner-adjacent bigrams in 10
+  windows; §7 bars any adverb/noun split. R1 @1495 ("[66] [15]
+  [59='est']") keeps a live "en"/"y" pronoun rival fenced as a
+  window-level residual. Delivers to the 58-det-numeral-tension
+  docket: frame B of `58-value-name` loses its licensing leg.
+- **N316** — 15-value-id NULL: 'encore' killed (0 genuine "ne encore +
+  V" in 31,664,431 chars; 3 raw hits = substrings of
+  "règne"/"jeune"/"me répugne"); 'jamais' killed (0 occurrences);
+  'plus' survives but cannot be named (needs 01's class, n(01)=28,
+  open; needs 41's value, unvalued). Pronoun rival ('en'/'y') KILLED
+  as 15's global value (clitic order forces elision to "n'en").
+- **N317** — bound-1132-modal-edge NULL: 24's value at @1132 unnamed
+  (R24 grants class only); even a named value would not fix the right
+  edge, because modal + clitic + governed infinitive binds 86 into the
+  clause and 20 remains licensable as a clause-final adverb ("…le
+  laisser ainsi"-shaped, queued as `adv-1135-leftward`).
+- **N318** — ceci-correlative-corpus NULL: exact "ce qui par" = 3 in
+  31,664,431 chars of `code/side-period/corpus` (2 finite-verb
+  relatives, 1 c'est-cleft — all excluded); generosity
+  "qui par"+ceci ≤600 chars = 0. Confirmed zero hardens the
+  `leftedge-1024-43-governor` fence (census:
+  `code/crowd17/next-token/ceci-correlative_census.json`,
+  `ceci-correlative_generosity.json`). Comedy-register check queued.
+- **N319** — 31-08-word-host NULL: the [08][31] host-class gate is
+  licensed (complete two-cell word in all 3 windows) but the word is
+  unnameable at battery grade (≤1 ungranted assumption allowed; needs
+  ≥2: 08's letter + 31's spelling value). "ce [08][31]" @1488 demands
+  a nominal/adjectival word while 31's banked class is VERBAL —
+  recorded as non-contradiction (nominal word can contain a
+  verbal-shaped syllable) for the naming battery.
+- **N320** — dwindow-voisin-family NULL: 0/26 D-windows parse a
+  'vois-'-prefixed word with a named neighbor value (n(86)=32;
+  named followers ne/pre/ver/par/e/n/noun-class/verb-class compose
+  non-words). Not dead — re-opens on any follower value named to
+  "in"/"ine"/"ins"/"ines" (candidates 56×4, 52, 01, 66, 24, 21, 91,
+  16, 20, 44, 50, 67, 71).
+- **N321** — inf89-letter-interior NULL: no interior letter of the
+  "[89]e" word is nameable with byte evidence (89 census n=14;
+  "29 89 48" trigram 0× stream-wide; only letter-tier neighbors 48
+  word-final and 29 §7-barred-as-interior). Re-open routes queued:
+  `inf89-er89-boundary`, `word89e-right-bound`,
+  `inf89-rerun-77gate`.
+- **N322** — inf97-526-vs-567 NULL: the joint class test is undecidable
+  at battery grade — W1 @526 parses under nominal-97 but W2 @567 is
+  blocked by 13's ungranted class (13 unvalued in the registry), not
+  by anything about 97. Follow-up `val-13-567` (P3) is the direct
+  blocker. INF/NOM tie survives.
+- **N323** — lex-52-deinf-register NULL: the tie-break route is closed
+  at battery grade — "prescrira" 0, "prévoira" 0, "préserva" 1 (de +
+  noun, not +INF) in 32,547,082 chars; lemma-level de+INF count 0/0/0
+  for all three candidates ("préserver de" ×7, all de+noun). Register
+  cannot discriminate the 52 candidates. Corpus zeros do not falsify
+  the lexicon-level de+INF government claims.
+- **N324** — locus-368-fullparse NULL: 8 parse routes at @362–375 all
+  fail (cheapest needs 49 + 61 named + "pre fois" adjacency licensed =
+  ≥3 ungranted assumptions vs budget ≤1); no finite verb exists in the
+  window. Fenced as undecidable-at-battery-grade, stated cause:
+  unresolvable "48 49 61" trigram, unlicensed "pre fois" adjacency.
+  Naming 49/61/85 could revive routes 3–4.
+- **N325** — neque-verb-slot-wide NULL: the verb slot is empty in 15/16
+  '94…46' brackets — but W03 (94@161 → 46@217) is a genuine exception
+  (24@162 finite/modal per R24), so the systematic-residual fence
+  cannot fire. The family is undecided, not killed. Regenerates
+  `neque-W3-parse` (P3), `neque-15slot-fence` (P3),
+  `val-24-162-modal` (P4).
+- **N326** — qui-38-608-aqui NULL: the "à qui" shape is grammatical,
+  but both antecedents are unnameable at battery grade (@26–@36 span
+  holds no noun-class cell; @608's left neighbor is another qui,
+  fenced by the a-39 adverse). Follow-ups `ant-91-36-noun`,
+  `ant-54-605-noun`, `wordbound-39-607` queued.
+- **N327** — mentent-580-rival KILL: the "ne mentent" (3pl of
+  *mentir*) rival segmentation of "94 82 06 06" is forced false at
+  battery grade at both Frame A windows — no 3pl subject licensed;
+  preverbal slots positively filled by singular determiners (87='ce',
+  45='ce'); French is non-pro-drop. Kills only the rival clause
+  parse; 06="ent" (R17-007), 94="ne" (R19-167), 82='m' untouched.
+- **N328** — mentent-w2-killseek KILL: 12-rescue audit at @1182–1187
+  ("ne mentent est [42]") finds no grammatical rescue (subject,
+  noun, segmentation, clitic, mood, downstream-24, value-challenge
+  families all dead). Kills only the W2 "ne mentent" one-word rival
+  parse; consistent with `nementent-W2-subject` PROMOTE.
+- **N329** — modal-80-license KILL: the modal-80 arm is dead at
+  battery grade — 17/17 80-windows fail (16 on follower class: zero
+  infinitive-shaped followers; @565 on adjacent-finite conflict).
+  Consequence: the INF reading at @567 is killed; the @567 question
+  reduces to the NOM arm plus 13's class. 80's split is red-team
+  venue (`poly-80-docket`, untouched).
 
 ---
 
@@ -8248,6 +8456,21 @@ unmeasured, provisional; the mine-v3/corpus copies were removed
 - **71: §7 split candidate — nominal@1337 vs non-nominal@925** (F159).
   Independent checks still needed: (a) a second nominal leg at
   distributional grade; (b) red-team split declaration.
+
+### Sweep deltas — open-hypothesis status + housekeeping (2026-10-09 13:15 UTC)
+
+- 62='il' is KILLED at kill grade (R19-106, registry round19 merge);
+  the ['il','lead'] cell is removed. Open-hypothesis items riding on
+  an unpromoted 62='il' (e.g. the four '[62] vient' windows noted in
+  the wave-11 deltas) are closed on that value; 62's value remains
+  open (62='on' FENCED-LEAD stands).
+- 76=noun (masculine) lead→prom (R19-111) — F104 ratified at the
+  registry; 76 is no longer an open cell.
+- Housekeeping: `code/side-keyhunt/repaired_offsets.json` mtime moved
+  11:16→11:34 UTC; no baseline exists for a content diff. All
+  in-session batteries re-derive the stream and assert 1,847 pairs /
+  96 types, and `generate.py` printed UNCHANGED, so the grid
+  frequencies are unaffected.
 
 ---
 

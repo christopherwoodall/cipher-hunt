@@ -1,0 +1,10 @@
+Delavigne tragédies for battery gov-excl-inf-tragedy-n2 (2026-10-09).
+Source: Internet Archive full-text OCR of Delavigne's Théâtre (1854 Didier set).
+Examen-critique appendices and comédies excluded; only tragédie acts kept.
+OCR is UNCORRECTED (Google/Google-scanner noise, e.g. 'Lies Vêpres').
+
+- raw-thtredecasim01dela-djvu.txt: Internet Archive OCR of Delavigne Théâtre volume (identifier in filename). Retrieved 2026-10-09 13:23 UTC via archive.org/download (https://archive.org/download/<id>/<id>_djvu.txt). sha256 a233bbe64c560684aee3b64ccab7412dcb1aeeb2ba1e1f0d2c88be46e9074e4b, 714306 chars. UNCLEANED OCR; diacritic noise present.
+  - delavigne-vepres-siciliennes.txt: byte-split [707:106891] of raw-thtredecasim01dela-djvu.txt. Casimir Delavigne, *Les Vêpres siciliennes, tragédie en cinq actes* (repr. Théâtre de l'Odéon, 23 oct 1819). sha256 f91bfbcf77ed778f46321b4ee5d0646d14255341dfb6371d5d7cffec113e53ff, 106184 chars.
+  - delavigne-paria.txt: byte-split [263121:399414] of raw-thtredecasim01dela-djvu.txt. Casimir Delavigne, *Le Paria, tragédie* (1821). sha256 8354e8e236c036f93a8c1fb419008c8257a08c2e5d352d3037e63a8f86007265, 136293 chars.
+- raw-thtredecasim03dela-djvu.txt: Internet Archive OCR of Delavigne Théâtre volume (identifier in filename). Retrieved 2026-10-09 13:23 UTC via archive.org/download (https://archive.org/download/<id>/<id>_djvu.txt). sha256 cab109a8110760e68a2b3ae3885bb9604d67ee290fe69ac2f49e1ac0d716f9a7, 618289 chars. UNCLEANED OCR; diacritic noise present.
+  - delavigne-famille-luther.txt: byte-split [672:80199] of raw-thtredecasim03dela-djvu.txt. Casimir Delavigne, *Une famille au temps de Luther, tragédie* (1836). sha256 7e40ec6d090f47f52f6babc3e9c5281342a22ff38bf09e4502f9196eacbca723, 79527 chars.
