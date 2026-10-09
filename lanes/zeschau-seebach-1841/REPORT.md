@@ -116,6 +116,22 @@ fr.wikisource); census runs must use one Hernani edition per play to
 avoid double-counting (validated non-load-bearing by the edition-delta
 battery). All works public domain.
 
+**Memoir/period-history expansion (2026-10-09).** 24 new .txt files
+commissioned and ingested 2026-10-09 into `code/side-period/corpus/`
+(98 .txt files total): Chateaubriand *Mémoires d'outre-tombe* t1–t5,
+Guizot *Mémoires* t3–t4 (U of Toronto digitization), Pozzo di Borgo
+*Correspondance* v2, Talleyrand *Mémoires* v2–v5,
+Thiers *Histoire du Consulat et de l'Empire* v1–v4,
+Tocqueville *De la Démocratie en Amérique* t1–t4 (Gutenberg
+#30513–30516), *Revue des deux mondes* 1840 vol. 2–3. Provenance with
+source URLs, byte counts and sha256 per file in
+`code/side-period/corpus/PROVENANCE.md` (updated 2026-10-09); sources
+are Project Gutenberg and Internet Archive OCR. **Hygiene flag:**
+`revue-deux-mondes-1840-q1.txt` is a 170-byte nginx 500-error page, not
+a corpus text — the worker saved the failed harvest (archive.org
+returned HTTP 500 for the vol. 1 _djvu.txt); treat as absent and retry
+the harvest, do not cite it in censuses.
+
 ---
 
 END DRAFT
@@ -5690,6 +5706,70 @@ red-team input — verdict tags in
   validation (canonicality caveat stands — a re-pairing could dissolve
   @1477).
 
+### Battery promotes — backlog fold 7 (2026-10-09 UTC)
+
+All promotes below are battery grade; red-team ratification pending
+where the note says so. Reports in `code/crowd17/report_inbox/`
+(unprocessed at fold time) or `code/crowd17/report_inbox/processed/`.
+
+- **F285** — val-08-31-letter PROMOTE: **08='t'** named at battery grade
+  with seven independent spelling legs, all rivals dead. Provisional —
+  red-team ratification pending.
+- **F286** — subclass-66-98-noun PROMOTE: 66 = **plain noun** in the
+  X-66-98 subject role (@88/@123/@766); the substantivized-infinitive
+  rival killed at grammaticality grade (0 genuine infinitive subjects
+  of "vient" in 57.4M chars / 2,431 tokens of period corpus).
+  Provisional — red-team ratification pending.
+- **F287** — val-02-1153 PROMOTE: 02 = **finite verb** at @1152
+  (locus-level); the @1156 finite-80 reading is revived. Provisional —
+  red-team ratification pending.
+- **F288** — 23-1697-class PROMOTE: 23 = **VERB class** uniformly across
+  all 8 windows (finite + copula realizations); the "ce [23]" test
+  kill-grades the noun rival. Provisional — red-team ratification
+  pending.
+- **F289** — ce86-le86-parity PROMOTE: the ce-pair (@175/@1345) + the
+  le-quadruple **merge promoted** — one shared masculine determiner
+  hypothesis (6 windows); 86's value stays unnamed. Provisional —
+  red-team ratification pending.
+- **F290** — cela-1117-frame-resume PROMOTE: the R19-108 GRANT located,
+  branch A fires; **88's determiner window set shrinks to {@402}**.
+  Red-team ratification pending.
+- **F291** — cequi-par-corpus-widen PROMOTE (corpus harden): the verbless
+  "ce qui par [N], ceci" correlative is **unattested across 57.37M chars**
+  (~2× the parent census) — the battery cequi-par chain's negative
+  corpus arm is now survey-grade.
+- **F292** — envoyer-1232-close PROMOTE: envoyer's @1232 conditional
+  closed; the "s'envoyer [85]" rescue's 47='se' arm is dead.
+- **F293** — rival-elim-ratify PROMOTE (ratification): the porter+envoyer
+  eliminations are ratified standing (R19-188 confirmed by R20;
+  54.16M-char re-check) — a standing ratification, not a new
+  class/value claim.
+- **F294** — faire-tense-311 PROMOTE (battery grade): 24@311/@474 =
+  finite 'fait' (present indicative) under the R19-191-narrowed
+  24='faire' candidate. Red-team ratification pending; §7 intact.
+
+### Round-17 wave-17 arrivals (2026-10-09 UTC — 94 battery notes; battery grade)
+
+Notes trace: `code/crowd17/report_inbox/` (1796-conditional, 21-67-follower-compat, 41-verb-arm-package, adv-09-1059-1766-value, bare-subj-corpus, ci345-fence-refresh, class-71-233-rerun, close-09-1767-rerun, coord-62-21-field-retest, det-14-clitic-178, det-14-locus-117, dict-45-independent-leg, domaine-kill-harden, en24-cequi-1766, entonne-60-gate, er-45-1200-rerun, er-96-85-stem-vs-noun, er-96-85-value, er85-adjacency-reseg, erce-08-singleton, erce-14-singleton, erce-stem-fenceA, frame-62-94-79-reparse, gate-09-class-w3-rerun, hybrid-37-17-98-license, laisser-85-gate-status, leftedge-88-70-12, letter-41-08-rerun, letter-41-88-classcheck, letter-boundary-1195, ne-319-32-06, ne-attachable-651-rerun, noun-86-878-fois, noun-88-epicene-rescope, obj-87-closure, offset-drop-census, poly-31-docket-input, poly-42-syllable-word, redteam-01-rival-input, redteam-42-tier-input, redteam-94-v2-input, redteam-gate-trigger-input, redteam-reinforced-head-closure, s5-stem-ranking-feed, seg-1772-wordbound, seg-55-61-94-letters, split-38de-redteam-input, split-74-redteam-input, stem-03-value-discriminator, stem-26-nent-verb, stem-62-7994-residual, stem-85-value-rerun, subj-62-1329-agree, syllable-91-pre-word, tier-86-867-prefix, trans-60-1690, trans-60-995, trans-80-768, unif-52a-1334-orphan, uniform-55-verb-w2w6, val-01-40-41-boundary, val-13-letter, val-16-187-bound, val-20-703-66, val-23-182-semantic, val-23-copula-gather, val-24-1132-name, val-26-copula-gather, val-32-narrow, val-41-40-classconfirm, val-42-219-queframe, val-52-55-class, val-61-223-object, val-61-participle, val-65-at-508, val-66-87-verb, val-73-verbclass, val-74-letter, val-74-unaccusative, val-80-1596-3sg, val-80-469-stem, val-83-de-98frame, val-86-728-entr, val-94-576-nem, val-98-702-importe, ver78-76-47-78-48-legfamily, verb-91-277-frame, verb-91-277, verb-slot-62-1686-cross100, verbless-cequi-relatives, verdict-arm-819-strengthen, vois-follower-56-value, wordbound-63-29-373, x-er-89-frame). 17 promotes, 5 kills, 72 nulls — verdict tags in `code/crowd17/next-token/battery-queue.json` match 94/94 (1,730 targets: 1,211 verdict, 519 queued/other). All 17 promotes are PROVISIONAL, battery grade; red-team ratification pending.
+
+- **F295** — bare-subj-corpus PROMOTE (corpus grammar rule): bare -de-final subjects are legal iff proper nouns. 61.07M-char 1841 corpus (97 files): 77 genuine hits / 63 distinct bare proper nouns ("Aristide avait pris" ×17, "M. Baude a essayé" ×6); bare common nouns: 0. Licenses the noun-38de-1829-host proper-noun rescue at grammaticality grade; @1828's "[38]de" needs a proper-noun value claim (not licensed). Ground-truth-anchored (corpus-attested); 38's §7 block untouched. PROVISIONAL, battery grade.
+- **F296** — ci345-fence-refresh PROMOTE (bookkeeping: fence cause re-stated on standing values only): post spell-06-entre KILL, the @345–352 fence ("87 01 06 70 12 94 74 67 78"; 06-70 bigram stream-hapax) is re-derived — @346–349 = syllabic "entprenne" (a non-word) per the 06-attachment rule, breakage invariant under all three 01 readings. No new dependency beyond ent-06: if ent-06 falls, the fence re-opens with it. Ground-truth-anchored (standing grants + adopted kill). PROVISIONAL, battery grade.
+- **F297** — det-14-clitic-178 PROMOTE (locus-level): 14 as clitic 'le' at @174–179 ("87 86 21 69 14 24 87 64", row a1_05). Arm A parses "69-noun le 24-verb" ("L'homme le sait") on standing values only, zero ungranted assumptions; Arm B ("ce 86 21 69" absorption) fenced on three closed grounds. Consistent with, not contradicting, the global 14='le' kill (le-14-kill-1121): a locus-level reading is not the global value. PROVISIONAL, battery grade.
+- **F298** — domaine-kill-harden PROMOTE (kill-hardening evidence): Littré carries zero headwords DOMAIER/DOMAINER; "domaine" is noun-only; corpus grep (59.2M chars, 98 files) for "domaient"/"domaier"/"domainer": 0 hits. The 62-ne-noun kill's *"domaient" elimination under val-62-ne-noun C1 now stands on dictionary evidence, not assumption — the only dom- verb ("dominer" → "dominent") does not rescue the forced "[62]ent". Ground-truth-anchored (Littré + corpus zero); hardens an existing kill. PROVISIONAL, battery grade.
+- **F299** — en24-cequi-1766 PROMOTE (finding grade, conditional): row a8_08 @1763–1771 = "77 84 09 24 87 64 26 37 78". C1 passes (S3 frame operative under the 24='en' premise; @1766 fenced-not-killed by 24-en-verb-conflict) and C2 passes on four legs (stated positional rule → verb-branch; umbrella explicit decision; corpus exclusivity — 41/41 "en ce qui" hits followed by a finite verb, "concerne" 12×, zero noun followers; parallel @531) — naming 26 = finite verb (concerne-frame shape), value open (n(26)=17). Holds ONLY under 24='en': if the red team ratifies modal-24, the naming re-opens. PROVISIONAL, battery grade.
+- **F300** — leftedge-88-70-12 PROMOTE (locus-level class): 88 = finite verb at @1117 (1-based @1118; 88's census n=23). The cela grant (R19-108) dissolves "la [88]" ("69 11 88" @1115–1117); battery kills remove the pronoun (prennent-88-subject), plural-noun-subject, and determiner arms — only "cela [88-fin]" parses "pas cela [88] pre-n-ent …" with zero ungranted assumptions. Class only, value open; globally consistent with 88's verb-class, no §7 split. PROVISIONAL, battery grade.
+- **F301** — seg-1772-wordbound PROMOTE (locus-level boundary): locus @1770–1779 = "37 78 62 94 24 87 64 59 19 48"; boundary named @1771|@1772|@1773. 94='ne' STRONG LEAD forces a standalone particle, so no "[62]ne" word exists at this window ('62 94' ×9); the 'le [62]ne' rival is killed on both arms (needs 78='le', barred by adverse + R16-005 LEAD). Standing parse: `37 78-ver | 62 | ne | 24-verb…`. Ground-truth-anchored premises (94='ne' R17-001 STRONG LEAD, granted 87='ce', 64='qui', 62='il' kill R19-106/R20-125). PROVISIONAL, battery grade.
+- **F302** — seg-55-61-94-letters PROMOTE (segmentation): '55 61 94' exactly 2× (@576, @1167; the '78 45 13 55' 4-gram precedes both). Segmentation B wins — "prend" (55-61, R19-077 GRANT) + 94='ne' particle, adopted by five independent batteries; option A ('reprenne') is kill-grade dead (61='pren' killed at two windows; it consumes 94 word-internally against STRONG LEAD). Residual: the internal letter split 55='pre'+61='nd' vs 55='pr'+61='end' stays open but is verdict-irrelevant. Anchors on the kill-grade 61='pren' kill + 94='ne' STRONG LEAD. PROVISIONAL, battery grade.
+- **F303** — tier-86-867-prefix PROMOTE (tier, locus-level): @867 (row a5_07, "que pour [86]pre ce le [89] e") — the "86 70" contact is a stream hapax. Stem-tier fails (no -er stem makes "pour S+pre" grammatical; no completion neighbor; 70='pre' is a pencil-GT syllable); the sole licensed word-internal "Xpre" family is the -prendre compounds, where X occupies the prefix slot → 86 is prefix-tier at @867, vs stem-tier at the four "86 29" windows (@431/@1375/@1391/@1825). A conditioned tier-split shape, packaged as red-team §7 input (no split declared at battery grade; no prefix VALUE selectable — five -prendre compounds tested). PROVISIONAL, battery grade.
+- **F304** — unif-52a-1334-orphan PROMOTE (uniformity-limit): 52="a" holds at 26/27 windows; @1332 is the sole orphan (1/27) — four composition arms all dead ("preaa"/"prea" non-words; "a de [INF]" ungrammatical per de83-39-1334). Uniformity extension to @1332 fenced; the locus keeps the adopted 'scri'/'ser'/'voi' syllable three-way tie. The 1/27 outlier is the classic conditioned-split signature → escalated to the red team as `redteam-52a-syllable-split`. Refines, does not overturn, seg-528294-word PROMOTE. PROVISIONAL, battery grade.
+- **F305** — val-41-40-classconfirm PROMOTE (locus-level class): 41 = finite verb at @39 (0-based; "qui [41]", 64='qui' at @38, n(41)=19). "Qui" forces a finite verb head in the relative slot — noun, infinitive, and sub-lexical rivals all fail; independent corroboration (@5's noun-41 evidence is 06-conditioned and does not transfer to @39; 41 standalone at @808). Class ≠ value ≠ uniformity: the @5 noun arm and split-41 stay red-team venue. PROVISIONAL, battery grade.
+- **F306** — val-52-55-class PROMOTE (locus-level class) + fence: @575/@1166 ("[78] ce [13] [55] [61] ne …") — 55=VERB at @576/@1167 (word-internal to granted "prend" 55-61, R19-077; same-structure precedent R19-079; zero new assumptions); the C2 else-arm fences 52's class (finite-verb arm kill-grade dead: "pour"+finite is ungrammatical; all other arms need open neighbor values). This closes the nominal-55 route to the reseg-13-rightward docket — only "13"+"prend" survives, needing 13's letter content. Anchors on R19-077/R19-079 grants + battery PROMOTE. PROVISIONAL, battery grade.
+- **F307** — val-94-576-nem PROMOTE (discrimination): @576–580 reads "ne(94) mentent(82-06-06)" — a complete negated 3pl verb at battery grade with zero ungranted assumptions. The @1167 "ne ce" deviation is window-specific (94+87 hapax; no verb for 'ne' to negate; the "...ne" rescue already fenced). Distributional control: 3 of 4 "94 82" windows carry clean "ne ment(ent)" frames — the ne-frame is productive, the @1167 break local, not systemic. 94='ne' STRONG LEAD intact; W1's subjectless-3pl residual and §7 untouched. PROVISIONAL, battery grade.
+- **F308** — ver78-76-47-78-48-legfamily PROMOTE (leg family only): '76-47-78-48' exactly 2× (@364/@1397); both windows parse "[76-masc noun] + [ce verre NP]" under 47='ce' (A4) + 48='e' (R20-008 grant), zero contradictions at either, and both rows lack any 45 — the "ce verre" legs are 45-independent, decoupling the "ver" half of 78 from the 45='dict' half that bottlenecks "verdict". 78='ver' NOT promoted globally; R16-005 LEAD stands. PROVISIONAL, battery grade.
+- **F309** — verb-91-277-frame PROMOTE (locus-level class): @277 — "on(84) [91]" — the subject pronoun forces a finite verb with zero ungranted assumptions (84='on' A15 grant); the adverb arm is fenced (ungrammatical as written; rescue needs two ungranted assumptions). Class named locus-level, value open — the sibling battery-verb-91-277 fences value-naming (8 candidates parse identically; N495 below). Explicit §7 conditioned-split shape: the locus-level PP at @538/@1371 (R19-164) vs finite verb at @277 are each sound but mutually exclusive under single-form uniformity. Honors ant-91-36-noun KILL and val-91-pp-adj. PROVISIONAL, battery grade.
+- **F310** — verb-slot-62-1686-cross100 PROMOTE (structural discrimination): @100's "62 94 93 59 45 28 00 46" does NOT parse as ne...que — even holding the only licensed finite verb (59='est' provisional), "00 46" is the stronger licensed "pour que" unit that consumes the terminal que, stranding "ne" without a second negative particle, and the "n'être pour X que Y" rescue fails on word order. The @1686 "empty verb slot" dissolves into a shape problem: the terminal que's attachment differs at @100 vs @1686, so the parent's control comparison that framed the question is invalid. Honors the 62='il' kill and 94='ne' STRONG LEAD. PROVISIONAL, battery grade.
+- **F311** — verbless-cequi-relatives PROMOTE (census): complete 8-window "ce qui" census — the 3 verbless windows (@148, @340, @1024) all have "par" immediately after "qui"; the 4th candidate (@180) is conditional on 23's undecided class; 4 windows carry finite verbs. Corpus control: 0 genuine "ce qui par [complement]" attestations in ~61M chars of 1841 French. Verblessness is confined to the "ce qui par" shape, not systematic beyond the 'par' geometry; @340/@1024 are twins with byte-identical tails "par [43] ce [01]" — a construction-level phenomenon, not three independent accidents. §7 rescues at @148/@340 untouched. PROVISIONAL, battery grade.
+
 ## 5. Failures & null results (N-series)
 
 "Nulls are first-class in this lane. Every one below is a measured outcome,
@@ -8993,6 +9073,167 @@ red-team verdict or §7.
   donn-41-44 lands 41="une"); quant-71-rerun-neighbors (P4). Caveat: the
   battery-grade census is only as complete as report_inbox coverage.
 
+### Round-17 null/kill batch, backlog fold 7 (crowd17, 2026-10-09 UTC —
+53 notes: 10 substantive promotes (F285–F294 in §4), 6 gather-only
+red-team packages (see the fold-7 sweep deltas), 6 kills, 31 nulls;
+battery grade)
+
+- **N386** — bare-noun-1841 KILL (kill-grade grammatical rule):
+  productive bare singular common nominals as direct objects are
+  unattested in 1841 French — only closed exceptions (idiom inventory,
+  proper names, vocatives). A cipher parse requiring a bare-noun direct
+  object is ungrammatical. Applies to all future batteries; already
+  cited as precedent inside subsequent reports. Follow-ups: none (rule
+  grade).
+- **N387** — coord-637-89gate KILL: the coordinated-adjective parse @637
+  is ruled out at red-team grade (R19-161 ratified 89=noun LEAD;
+  positional split rejected under §7). Follow-ups: none at battery
+  level (red-team venue).
+- **N388** — val-42-282-fem KILL: the "[61] [42]e" feminine-composition
+  hypothesis is dead — the standing masculine "premier" blocks it.
+  Follow-ups: redteam-42-tier-input; syll-42-wordedge; val-42-219-queframe.
+- **N389** — val-92-93-equivalence KILL: the 7-gram "one frame" claim for
+  92~93 is killed at battery grade (chi-square p≈0.02–0.03, zero frame
+  interchangeability); the equivalence reduces to the 4-gram
+  "94 79 14 60" (2× stream-wide). Follow-ups: none listed.
+- **N390** — standalone-08-wordrole KILL: separate-word 08 is killed —
+  08 is only ever prefixal/sub-lexical 't' outside the three 08-31
+  windows (see F285). Follow-ups: syllable-08-letter-value.
+- **N391** — val-31-1515-noun KILL: noun-31 at @1515–1516 is killed
+  ("88 11 31" cannot parse as governor + art+noun object). Note: this
+  worker's queue write was lost to the shared-tmp race (see lane
+  lesson) and re-applied by the supervisor from the inbox report —
+  verdict stands, battery-queue.json updated. Follow-ups: none at
+  battery level.
+- **N392** — subj-20-872 NULL (fence executed per the bar's else-arm).
+  Follow-ups: agr-89-642-adj; agr-89-872-adj; ce-le-869-residual-input;
+  ce-le-verb-frame; celle-7780-fusion-515-869; verb-74-874-class.
+- **N393** — val-48-initial NULL (fence executed): fences only the
+  initial-locus/standalone-word question for 48. Untouched: 48='e'
+  letter-tier promote (R17-003), fem-e-48 function scope,
+  elision82-48-x1. Follow-ups: distrib-48-tier-census; resid-48-1525;
+  resid-48-928.
+- **N394** — val-49-61-pair NULL (fence executed). Follow-ups:
+  e49-wordinitial-366; letter-49-collocation; nominal-61-367-test.
+- **N395** — val-80-768-inf NULL (fence): the '[98] 80' infinitive-value
+  bar was not satisfied at battery grade. Follow-ups: subj-98-441-1662;
+  trans-80-768; val-80-517-lefaire.
+- **N396** — val-93-1540 NULL (fence executed): R19-166 + R20 value-defer
+  stand for 93. Follow-ups: gov-93-88-frame; val-62-1539-discrim;
+  val-93-111-inf.
+- **N397** — val-74-212 NULL (fence executed): 74 is verb-shaped (finite)
+  at @212 at battery grade — the sole grammatical arm by local
+  elimination ("[74-fin] le ver" = finite verb + direct object), with 4
+  independent stream-wide verb legs ("ne [74]" ×3 @350/@786/@1103,
+  "on [74]" ×1 @261; 94="ne" STRONG LEAD, 84="on" A15 granted). The
+  bar's subject-NP parse ("[74-fin] le ver" as subject-NP left clause)
+  failed: postverbal-subject licensing needs an unaccusative verb value
+  or a licensing context, both unestablished (74's value open;
+  @210–211 open). Period-corpus check: the "[unaccusative-V] le [N]"
+  shape is genuine — 279 hits ("vient le pasteur", "naît le monde",
+  "entre le directeur"), every one unaccusative/presentational, zero
+  with a plain transitive taking a postverbal subject. 74 is
+  split-shaped stream-wide (verb in ne/on frames; noun in "ce [74]"
+  @1637 and "le [74]" @1307) — split declaration is §7 red-team venue.
+  The parent @214 'ent' deadlock is unmoved ('ent' still host-less).
+  Follow-ups: val-74-unaccusative (P3); split-74-redteam-input (P2,
+  gather-only); leftedge-212-88-19 (P4).
+- **N398** — adj-32-inflect-gate NULL (gate unfired). Follow-ups:
+  adj-32-inflect-gate-2; qui32e-855-reseg; val-32-narrow.
+- **N399** — adj-71-234-locus NULL (fence). Follow-ups:
+  class-71-233-rerun; stacked-epithet-corpus.
+- **N400** — bare-excl-inf-head-inventory-prose NULL: prose inventory
+  census of the bare-excl-inf head (evidence in
+  `code/crowd17/next-token/bare_excl_inf_head_inventory_prose_census.json`).
+  Follow-ups: bare-excl-inf-tonic-recall-prose; dem-excl-inf-diachronic;
+  reinforced-head-excl-adj-prose.
+- **N401** — ceci-1841-corpus NULL (attestation arm fenced). Follow-ups:
+  ceci-inf-frame-widen; e3-grammaticality-census; faire-cela-register.
+- **N402** — ceci-correlative-comedy NULL (fence hardened at drama
+  register): the verbless 'ce qui par [N], ceci' correlative tested in
+  the 28-play drama corpus (evidence in
+  `code/crowd17/next-token/ceci-correlative-comedy_census.json`) —
+  fence stands at the drama register too. Follow-ups:
+  cequi-par-dialogue-ellipsis-scope; hyphenation-artifact-audit-drama.
+- **N403** — class-27-independent NULL (fence executed). Follow-ups:
+  prep-27-pourque-test; que-1692-relative-test; trans-60-1690
+  (val-27-1691-np already queued).
+- **N404** — head-government-direction-redteam NULL (gather-only by
+  design — no adjudication, no battery-level decision).
+- **N405** — importe-gated-retest NULL (bar's else-branch fires —
+  confinement re-confirmed): the gate trigger was legitimate — 30='pas'
+  is red-team PROMOTE (R17-004; R20-009 duplicate, "conditional on
+  94-LEAD and 59-provisional") — and the worker audited the per-window
+  sub-gates before testing: @1251/@1561 (noun-26 NULL; 26 carries 8
+  verb/copula legs, zero noun legs), @1327 (62='il' killed R19-106/
+  R20-125; 62's value unnamed), @1309 (74's value open; 52 split-shaped,
+  no granted determiner tier). Result: 0/4 windows discriminate ('pas'
+  parses; 'importe' needs a granted subject); the parent's 0/19 stands.
+  'importe' stays @1702-word-formation-confined; the pas/importe rivalry
+  is settled at battery level. Adverses answered; §7 intact; A10 HOLD
+  respected. Follow-ups: importe-1702-singleton-sweep;
+  importe-gated-retest-2; neque-94lead-gate.
+- **N406** — lon-77-le-gate-rerun NULL: **R20-130/131 — 77='le' = FENCE,
+  provisional survives.** The dispatch brief's "gate satisfied" line was
+  checked against the red-team record and did NOT meet the bar — a
+  correct refusal under the gate-trigger rule. Follow-ups:
+  ci-77-split-evidence-watch; lon-77-le-gate-rerun-2.
+- **N407** — on-01-vs-84-homophony NULL — escalate to red team: the
+  evidence points to a conditioned split (01='on' preverbal-only vs
+  84='on' unconditioned) — a **second §7 polyvalence** now live on the
+  docket. R20-113's grant kills the @984 leg of the on-01 hypothesis
+  ("ceci(45-01)"). Follow-ups: on-01-40-en-tension;
+  on-01-893-970-corpus (redteam-01-split-docket already queued).
+- **N408** — reseg-a2_03-a2_04-97gate NULL (fence executed). Follow-ups:
+  joint-97-13-567; redteam-97-tie-adjudication; reseg-13-rightward.
+- **N409** — seg-94-60-12 NULL (fence executed). Follow-ups:
+  redteam-55-polyvalence-rerun; seg-55-61-94-letters; uniform-55-verb-w2w6.
+- **N410** — sel-65-1745-pressure NULL: 65's value at the @1745
+  postverbal-subject slot is not named at battery grade — the
+  animate-subject vs rigging-like-object discriminator is not
+  established. Follow-ups: anim-65-select; num-65-agreement;
+  subj-65-1748-corpus.
+- **N411** — split-03-redteam-feed NULL (gather-only package delivered).
+- **N412** — val-37ent-adjective NULL. Follow-ups: val-23-182-semantic;
+  val-37-participle-183.
+- **N413** — val-38-vouloir-devoir NULL (tie unbroken — no discriminator
+  window). Follow-ups: val-38-que-signature-widen;
+  vouloir-devoir-rearm-65; noun-38de-1829-host;
+  noun-38de-premise-reconcile; val-38-corpus-modal-owe.
+- **N414** — val-50-crosswindow NULL (fence — value underdetermined, open
+  class). Follow-ups: la-50-frames; mentent-580-rival; split-50-meme-stem;
+  val-50-209-discrim.
+- **N415** — val-60-qui-relative NULL (value named, promotion requires
+  red-team split adjudication): "vient" was named for the "[60t]"
+  windows with two independent legs (@1338 "qui vient", @197 "[21] vient
+  et"), but promotion needs a conditioned split of 60 (60="vien" vs
+  60=-dre-stem) — a naming that's won but cannot be banked at battery
+  grade. Follow-ups: dre-60-rerun; poly-60-redteam; vient-98-60-coord
+  (redteam-60-vient-split-input done).
+- **N416** — val-61-646-secondleg-sweep NULL (fence executed). Follow-ups:
+  adj-61-follower-noun-census; nominal-61-645-test.
+- **N417** — val-73-776-frame NULL: the 73-naming test at @776
+  ("[15] [33] [73] [37]" — 'croire [73] [37-pred]' vs 'dire [73]
+  [37-pred]' selectional) — the conditional antecedent (73 nominal)
+  was not met at battery grade; fence. Follow-ups: nom73-contingent-rerun;
+  val-73-verbclass; w73-66-trigram.
+- **N418** — val-86-1391 NULL (hard constraint, not a loss): "[86]er"
+  @1391-1392 is a spelled -er infinitive (stem 86 + 'er'), so the 89
+  slot there can only be licensed infinitive-shaped, never by a lexical
+  noun — a tier-level exclusion rule. Follow-ups: masc-noun-86-name;
+  redteam-86-inventory-refresh; val-86-dwindows-ledger;
+  val-86-728-entr; det-86-29-431; stem-86-29-value.
+- **N419** — val-94-w2 NULL. Follow-ups: ne-ce-1169; nece-1169-revisit;
+  val-94-576-nem (redteam-94-functional-split + w2-42-94-24en-gate
+  already queued).
+- **N420** — w1-342-tail-parse NULL (fence executed per the bar's
+  else-branch). Follow-ups: none listed.
+- **N421** — val-20-lettertier NULL (fence executed per the bar's
+  else-arm — letter-tier naming under-powered, not refuted). Follow-ups:
+  letter-20-sandwich-revisit; un-20-12-census; val-20-703-66.
+- **N422** — val-42-lettertier NULL. Follow-ups: redteam-42-tier-input;
+  syll-42-wordedge.
+
 ## 6. Open hypotheses (not promoted — each needs ≥2 independent checks)
 
 **Round-12/13 status deltas (2026-10-07):** 31=VERBAL (finite)
@@ -9947,6 +10188,59 @@ unmeasured, provisional; the mine-v3/corpus copies were removed
   re-package after their return proposed. Citations R20-034/R20-045/R19-077
   verified verbatim in the R20 round report. No §7 polyvalence declared.
 
+### Sweep deltas — backlog fold 7 (2026-10-09 UTC)
+
+- **Gate status this batch: one legitimate gate satisfaction, one
+  correct refusal, no bogus claims.** importe-gated-retest (N405) fired
+  on a red-team-level 30='pas' promote (R17-004; R20-009 duplicate) —
+  the worker verified the trigger against the red-team record AND
+  audited the per-window sub-gates before testing; the bar's else-branch
+  then fired (0/4 windows discriminate). lon-77-le-gate-rerun (N406)
+  correctly refused a dispatch brief's "gate satisfied" line after
+  checking it against the red-team record (R20-130/131: 77='le' = FENCE,
+  provisional survives). Workers are now routinely refusing bogus gate
+  lines — the gate-trigger rule holds.
+- **Red-team packages (gather-only, no verdict):** adj-71-split-venue;
+  poly-89-redteam-package; poly-94-r17018-input (R17-018 poly-94
+  evidence); redteam-94-split-input; split-09-redteam-input (09 is
+  split-shaped: nominal forced @915, adverbial-particle @1059/@1765,
+  verb fenced stream-wide — joins 88 and 52 awaiting red-team §7
+  positional adjudication); redteam-60-vient-split-input
+  (redteam-60-vient docket). Note: redteam-55-polyvalence was re-read
+  in this window but was already folded in the fold-6 delta; no
+  re-numbering.
+- **The §7 queue is the bottleneck:** four independent naming-class
+  results this batch cannot be banked at battery grade because each
+  needs a conditioned split or polyvalence adjudication — val-60-qui-relative
+  (N415: "vient" named, 60="vien" vs 60=-dre-stem split needed);
+  on-01-vs-84-homophony (N407: 01='on' preverbal-only vs 84='on'
+  unconditioned — second polyvalence); split-09-redteam-input (above);
+  val-74-212 (N397: 74 split-shaped, verb vs noun arms). The battery
+  layer keeps producing the evidence; the red-team docket decides.
+- **Notable null with teeth:** val-86-1391 (N418) — "[86]er" @1391-1392
+  is a spelled -er infinitive, so the 89 slot there can only be licensed
+  infinitive-shaped, never by a lexical noun (tier-level exclusion
+  rule). val-31-1515-noun (N391): the worker's queue write was eaten by
+  the shared-tmp race and the supervisor re-applied the KILL from the
+  inbox report — verdict stands.
+- **Queue state (read-only cross-check, 2026-10-09 ~19:22 UTC):**
+  1,564 targets in `code/crowd17/next-token/battery-queue.json` (was
+  1,353 at ~15:16 UTC); 1,096 verdicts (530 null / 365 promote / 199
+  kill / 2 split), 468 queued. The 10 fresh inbox notes from this window
+  all carry queue-entry confirmations for their own targets (3 promote,
+  1 kill, 6 null); follow-up queueing remains the supervisor's per its
+  protocol — the ~90 proposed follow-ups from this batch are recorded
+  in the N-entries above and open for the supervisor's audit.
+- **Corpus delta:** 24 memoir/period-history texts ingested (see §2);
+  `code/side-period/corpus/` now holds 98 .txt files; PROVENANCE.md
+  updated. Hygiene flag: `revue-deux-mondes-1840-q1.txt` is a 170-byte
+  500-error stub, not a corpus text — exclude from censuses until the
+  harvest is retried. New next-token census evidence files:
+  `code/crowd17/next-token/bare_excl_inf_head_inventory_prose_census.json`,
+  `ceci-correlative-comedy_census.json`,
+  `cequi_par_widen_census.json`, `standalone-08-wordrole_census.json`
+  (plus their .py generators).
+
 ## 7. Next steps (from STATE.md, round-5 work orders + adjudications, round-6 sweep)
 
 1. **Refresh fig5** — superseded by item 16 below (rounds 6–11 rows
@@ -10377,3 +10671,88 @@ era-dead; F48); 47="ce"'s positional exceptions (round-16 ce47 battery);
 list; lane code and NOTES.md use 0-based indices (figure #N = code rank N−1).
 Parse convention: 1,847-pair repaired parse; old-parse indices ≥773 shift +1
 (see `code/crowd4/REINDEX.md`).*
+
+
+---
+
+### Round-17 null/kill batch, wave 17 (crowd17, 2026-10-09 UTC — 94 notes: 5 kills, 72 nulls; battery grade)
+
+- **N423** — 1796-conditional NULL: clause 1 was a gate (the red team must lift S5 before testing); R10 fenced @1796 and R12 kept the fence, so the bar was untestable as written — null, never kill. The S5 fence on @1796 survives into R12 with corrected adverses ("n'est le" = 8/10 idiom + 2 real counterexamples); @1796 stays excluded from the est-arm set (7 pre∈{64,94,93} 59-windows, @1796 the 7th).
+- **N424** — 21-67-follower-compat NULL: the bar's gate precondition ("the named 21 value") fails — 21 has no named value (provisional covers only 59/77; "suite" killed, "les" unconfirmed). The eight 21-67 windows (@109/@115/@505/@850/@1162/@1422/@1456/@1841; followers 93/14/77/91/78/33/86/78) are located and verified; the 67 positional rule (67="veut" iff follower infinitive-shaped) means @109/@850 may not even read "[21] et <verb>" — the retest must branch on 67's resolution per window.
+- **N425** — 41-verb-arm-package NULL (gather-only): the package is delivered with all four legs (@39 finite verb forced under granted 64="qui"; @237 determiner-slot "fois [41] fois"; @5 noun-stem "ce [41+ent]"; @808 standalone word) plus the split-shaped conflict (uniform verb dies at the noun windows, uniform noun dies at @39). Batteries do not declare splits — adjudication is red-team venue, queued as `split-41-redteam`. 41 n=19; the @39–42 boundary holds.
+- **N426** — adv-09-1059-1766-value NULL (fence): exactly two 77-84-09 windows (@1059, @1765; 09 census n=12). C3 holds (77='le' provisional + 84='on' grant survive) but C1 fails — only one value-discriminating leg exists (the 'y' leg at W1, conditional on battery-grade 98='vient'; 'en' unnamed by any leg) and W2's membership is unstable (24='en' vs finite-modal unresolved; on the 'en' reading W2 leaves the claim's scope). 09's adverbial value is unfalsifiable at battery level; the "two l'on windows" premise collapses to W1 alone if 24='en' is ratified.
+- **N427** — class-71-233-rerun NULL (fence): no class carries ≥1 frame-leg at @230–236 ("96 21 60 71 51 70 98", row a2_01; 71 n=7 with all distinct successors; '71 51' 1×/1847) — uniform adjective killed, locus-adjective fenced, determiner/quantifier legs blocked on 51's unlanded class, nominal ungrammatical, sub-lexical unevidenced — and the explicit '71|51' boundary test is byte-unresolvable (CT is digit soup). 51's class is now the blocking dependency and the queue has no `class-51-*` target; @233 stays fenced with 71 class-open. Adopts the uniform-adjective kill and the poly-60 fence (R20-119).
+- **N428** — close-09-1767-rerun NULL (premature): C1 fails — 09's class is ungranted, so the claim's own trigger has not fired and composition is untestable; the bar's else-arm (permanent fence) does not fire either, because it presupposes a granted-but-non-composing role. W3's fence (triple 84-09-24 at 1-based @1765–1767, row a8_08) stays fenced-with-cause — premature permanent fencing would foreclose the queued 09-class landings (adv-09-1059-1766-value, nom09-open-windows) that exist to unblock it. Sequencing matters.
+- **N429** — coord-62-21-field-retest NULL (fence, gates fail): both gates fail — 62's value is not landed (62='il' KILLED at R19-106; règne/trône tie unresolved; the w508-noun-ne promote is battery-only, not landed) and 21's value is not ratified (21=NOUN is a battery promote, unratified) — so the '[21] et le [62]' test at @505-508 was not attempted per worker orders. 62 stays value-open and 21 stays battery-promote/unratified exactly per the red-team record (one report's casual "(21=noun, ratified)" corrected to unratified battery grade).
+- **N430** — det-14-locus-117 KILL (of the robustness claim): '67 14 21' is a stream-wide hapax (1×/1847) at @116–118, and under offset-1 re-phase of row a1_03, '67'/'14'/'21' occur 0× — the contact is annihilated, not relocated. The @117 determiner leg is therefore phase-conditional (exists only under offset 0); a leg built on a single-row hapax carries hidden phase risk. det-14-census's PROMOTE under offset 0 is untouched — the kill is scoped to the survival claim, not the leg.
+- **N431** — dict-45-independent-leg NULL (hunt failure, stated scope): zero windows leg 45='dict' at battery grade (n(45)=22; hunt set = 18 non-78-adjacent windows; 'dict'-host inventory closed at {verdict, interdict}). Three windows actively discriminate against 'dit' in favor of standing 45='ce' (e.g. @437's 63 verb-class kills "[V] dit que"); the syllabic route is closed (no eligible predecessor); 11 windows dead-both-ways, 4 non-discriminating. The ['ce/dict'] lead now leans 'ce'; openings left are the 'inter' sweep on unvalued predecessors and the four open-neighbor windows. A11 45='ce' HOLD and 78='ver' LEAD untouched.
+- **N432** — entonne-60-gate NULL (gated, gate closed): '06 60 12 48' verified at @1734–1737 (row a8_07), but clause 1 (60 named 'on') fails as a precondition — no standing verdict names 60's value (4 kills, many nulls, poly-60-redteam still queued), and the promoted 'on' belongs to cell 84 (A15). The gate audit exposes that nothing licenses transferring 84's 'on' onto 60 — the "entonne" decomposition is window-shopping until poly-60-redteam rules; window offsets banked for the re-arm.
+- **N433** — er-45-1200-rerun KILL: the one-word "erreur" route at @1200 (@1195–1206 = "16 96 82 16 64 29 45 58 47 43 55 61") dies on two independent grounds — no article is licensed between "qui" (granted 64@1199) and the noun (64 adjacent to 29@1200, nothing between), and named 45="ce" (A11 hold) contradicts the "reur" syllable the route needs ("er"+"ce"="erce", not a word). The sibling *errer* infinitive arm ("qui erre") is untouched. Ground-truth-anchored (A11 hold + granted 64='qui' + pencil 29='er').
+- **N434** — er-96-85-stem-vs-noun NULL (fence): the bar's own "with the named value" precondition is unmet — 85's value is named nowhere (registry 85 cell = null; zero PROMOTE names an 85 value; 85 = A3 frame-granted, value open). Window geometry banked: row a1_02 @95=46 @96=29 @97=85 — 46 immediately precedes 29 with no determiner slot, so the noun ("qu'erreur") arm is pre-fenced: the rerun kills it without composition if 85 names as a noun.
+- **N435** — er-96-85-value NULL (fence): "once 85's value is named" is unmet — every 85-related verdict on record is NULL or frame-level (en85-gerund-reaudit PROMOTE names no value), so the parent's C1–C4 bar was untestable and the test did not fire. 85-value batteries are a dependency queue, not a test queue (six 85-naming candidates queued, none resolved); follow-up `er-96-85-value-rerun` proposed.
+- **N436** — er85-adjacency-reseg NULL: "29 85" exactly 3× stream-wide (W1 @97, W2 @375, W3 @1234). Exclusion-via-licensed-re-segmentation is untestable at W1/W2 (no licensed parse exists), so the verdict is NULL — but the deliverables stand: kill-grade 'laisser' exclusion at W3 (the licensed parse `47|33+29|85|56` excludes it), class-wide zero-survivor -er-stem exclusion at all three loci, and the C3 conditioned-split package for the red team. No -er verb lexeme in any form can surface after a bare infinitive at these three windows, so the "29 85" loci cannot discriminate among -er stems.
+- **N437** — erce-08-singleton NULL: the bar's precondition "once 08's value resolves" is unmet — stem-08 returned NULL and on-08-homophony killed the only standing 08 hypothesis (08='on'). 08 is the tightest unvalued cluster item (18 contacts, no class pattern at all); the @1591 erce window carries the only 'ce 08' contact with successor census ready for the re-arm.
+- **N438** — erce-14-singleton NULL (dependency fence): 14's value is not resolved at battery grade — 14='en' exists only as unratified battery promotes (en14-value-tighten: "red-team ratification still pending"), and a battery promote is not a resolved value for this bar. '29 47 14' @423 is confirmed a true singleton (1× stream-wide) — the unique erce locus where 14 could break the tie; the fence is purely on admissibility, nothing decided.
+- **N439** — erce-stem-fenceA NULL (fence): "29 47" exactly 4× (@22, @422, @1230, @1590). The frame-wide kill clause is unfirable while 43's value is open (the internal word at @22 would be "m"+value(43)+"erce") — but the internal 'erce' reading is dead at @1230 at kill grade: 82+48+29+47 composes "meerce", and zero genuine French words contain "eer" (~59M-char, 98-file corpus check) — a hard corpus-graded constraint, reusable kill material for any internal-'erce' hypothesis. The residual narrows to @22 only. Ground-truth-anchored (GT 82='m'/48='e'/29='er'/47='ce' A4-granted + corpus counts); the verdict class itself stays battery NULL pending red-team.
+- **N440** — frame-62-94-79-reparse NULL (fence executed): '94 79' ("ne tout") 2×, both inside the byte-identical 5-gram at @1362/@1686 ('14 60' 2×, both inside). The re-test dependency is unmet (neither 14 nor 60 named; 62='il' killed R20-125) — so the bar's else-arm fires: '94 79' is fenced as a genuine anomaly ('tout' between 'ne' and the verb slot is ungrammatical in 1841 French; noun-60's kill removed the last lexical escape). The wall is structural and independent of 62/14/60 — framed as scribal/idiolectal artifact or pair-phase mis-segmentation (rows a7_06/a8_05 unvalidated), not a value question. 94='ne' STRONG LEAD, 79='tout' A5, noun-60 KILL all honored.
+- **N441** — gate-09-class-w3-rerun NULL: C1 passed (adv-09-1059-1766-value landed NULL → fire at P4) but C3 fails — 09's class is ungranted (all 9 verdict-bearing 09-class targets are null; the sole 09 PROMOTE, split-09-redteam-input, grants no class). The report also found a live second gate: the 24 docket (24='en' vs finite-modal, red-team adjudication QUEUED) re-parses the window under the S3 reading — so the re-arm needs both gates, and the queued `val-09-w3-compose` is missing the 24 contingency (joint-gate follow-up covers it).
+- **N442** — hybrid-37-17-98-license NULL (fence executed): locus hybrid in-row pairs 15–19 ("79 37 17 98 55", global @50–54); all 7 decompositions of "[37] fois [98]" fail at battery grade — 37 has no determiner/number/adjective leg (adj-37 fenced), "fois" cannot be a bare common-noun subject of "vient" (bare-subj-corpus F295: zero in ~61M chars), and 55 is not in 98's licensed complement inventory — so locus-level licensing is fenced with per-decomposition stated cause. Re-opens on red-team 37 adjudication, a "fois"-subject leg, or 55 re-classing. Adopts (does not re-litigate) the seg-a1_01-hybrid-phase battery kill.
+- **N443** — laisser-85-gate-status NULL (fence; gates unmet): gate 1 fails — 16's class is unnameable (frame-82-16's finite-"a"/"est" LEAD contradicts standing gate-satisfiability-16-85's infinitive PROMOTE; §5 bars overwrite); gate 2 fails — the 33 dire/croire tie is unbroken (4 NULLs + 1 residual-cleanup PROMOTE). The 'laisser' LEAD itself is honored, not weakened. The single event that moves gate 1 is now explicit — red-team adjudication of the frame-82-16 vs gate-satisfiability-16-85 contradiction (gate-16-class-laisser fed to the docket).
+- **N444** — letter-41-08-rerun NULL (fence; dependency unmet): the claim is conditional ("once 08's letter value is banked") and the condition has not fired — no '08' key in the 50-cell registry; R20-100 on 08-letter-geometry is a signature-level GRANT that named no value; the battery-level 08='t' package is unratified (per the standing gate-trigger rule: a battery promote the red team has not ratified does not fire a gate). Locus byte-confirmed @59–63 = "41 08 34('i') 29('er') 40('e')"; the uniqueness/segmentation test is value-dependent in both directions, so pre-computing the legs (follow-up letter-41-08-candidate-sweep) is the only value-free work available now.
+- **N445** — letter-41-88-classcheck NULL: C1 fails — seg-88er-1049 PROMOTE reinforces (not scopes away) 88's A3 frame at @1049 ("[88 29 40] | [29 74 74]", "[88]ere" finite shape; the forced boundary makes 41 word-external at @1048). C2 fails — seven ??ère rivals (frère, bière, fière, opère, avère, acère, + guère) defeat uniqueness. The W2 locus now has a positively licensed parse without the letter arm; the W2 letter arm stays fenced with stated cause (adverse "do not re-litigate A3 at battery level" honored).
+- **N446** — letter-boundary-1195 NULL (fence): locus 1-based @1195–1200 = "82 16 96 82 16 64" (row a7_00); no letter value named for 16 (5 verdicts: NULLs + kills, no naming), 64='qui' grant-blocked from letter tier, no neighbor letter value — the only phase-neutral banked items are 82='m' and 29='er'. The @1195 phase tie is now fully characterized as a letter-tier vacuum; the fence dissolves on any 16/64/neighbor letter naming (adopts doubled-1195-offset-audit NULL).
+- **N447** — ne-319-32-06 NULL (fence executed): '32 94 06' hapax (0-based @317–319; '32 94' 1×, '94 06' 1×). Dual stated cause: 32's value is unmet-and-blocked — val-32-narrow found the @33 bare-3sg vs @855 '-e' 3sg finite-morphology contradiction (no French verb has both), now R20-DEFERRED, so 32-value work is exhausted at battery grade → red-team 32-duality docket — and the "[32]ne" composition is independently unstatable under standing values (32's only letter-tier contact is inflectional 48='e'). 94='ne' STRONG LEAD, A1 predicative grant, verb-32 single-lexeme PROMOTE all honored.
+- **N448** — ne-attachable-651-rerun NULL (fence executed): locus @651–656 ("ne [76] [49] [24-verb] [26] [30-pas]"). C1 passes (76 → ["noun","prom"] registered) but C2 fails — the registry has no 49 entry and R20-049 fences 49's class ("still open"), explicitly superseding the two unratified battery 49-class promotes (per §7/pipeline convention, they do not count as "named"). Surfaced an open venue question: battery-pas-30's PROMOTE counted "ne 76 49 24 26 pas" as a valid ne…pas frame while the 49 fence stands — that conflict now has its own dedicated target (ne-651-pas30-conflict).
+- **N449** — noun-86-878-fois NULL (fence executed): locus 1-based @876–883 ("49 16 77 86 78 17 08 31"); the exhaustive class-by-class test found no grammatical French frame licensing a class for 78 in "le [86] [78] fois" under stated values ('86 78' hapax; 4-gram '77 86 78 17' unique), so the @879 locus is fenced. 78's class there is decoupled from its global determiner-nominal profile (n(78)=31). No contradiction with the parent's masc-noun-86-name NULL. Uses provisional 77='le', class-level 86=INF, promoted 17='fois'.
+- **N450** — noun-88-epicene-rescope KILL: the epicene test dies at frame level — with the cela ratification (R19-108/R20-135) killing the @1117 "la [88]" frame ("69 11 88" @1115–1117) and ce88-leftedge-402 having already killed the @402 determiner frame ("11 45 88" @400–402), the 88 determiner window set shrinks to empty — zero surviving determiner frames anywhere, so rescope is impossible. The 88-determiner question is closed stream-wide at battery grade (n(88)=23 predecessor census). Adopts, does not re-litigate, cela-1117-frame-resume, ce88-leftedge-402, subj-88-730.
+- **N451** — obj-87-closure NULL (fence executed): the uniform "87=ce object-closure" frame needs 2 ungranted assumptions (A1: 24 transitive; A2: 43 verb/infinitive) > the bar's ≤1, across 6 windows (@163/@344/@1028/@824/@830/@1426). @824/@830 fenced as 24-load-bearing (the rival "c'est [38]" parse needs zero assumptions); @344/@1028 additionally fenced as 43-load-bearing — the byte-identical twins ("qui par [43] ce [01]") parse as new-clause subject "ce" under the only licensed "par suite" reading, not clause-final object. Weakens (does not downgrade) the parent's 87-left-attach-census NULL. Uses R17-009 class-level 24, granted 87=ce, provisional 59=est.
+- **N452** — offset-drop-census NULL (evidentiary negative): 28 odd-length rows (10 first-drops, 18 last-drops); the census is complete and byte-exact but no association test fires — runs test z=−1.20 (|z|>2 bar unmet); Fisher halves p=0.6946, line-start p=0.6692, page heterogeneity permutation p=0.4025 (200k draws), a1-page p=1.0 — so no usable process prior exists. Explicitly an evidentiary negative, not a kill: no position-based transcription-process pattern at battery grade; remaining venues are content-based (dropped-digit values) and the 42 even rows. Complements, does not duplicate, seg-a1_01-hybrid-phase.
+- **N453** — poly-31-docket-input NULL (gather-only, red-team docket input): n(31)=8 (@338/@882/@1257/@1489/@1516/@1521/@1615/@1647). 31 stands as finite-VERB (3 legs) vs word-internal SYLLABLE (3 legs) at battery grade — finite-verb legs @338/@1647 (hapax "64 31" ×2); zero nominal legs of 8; "31 29" ×1 at @1257. Both the @1257 infinitive and noun arms are blocked by §7 pending red-team polyvalence rulings. Adopts six standing battery verdicts (val-08-successor-class PROMOTE, val-31-1257-word NULL, val-31-finite-name KILL, val-31-1515-noun KILL, edge-340-31-14 KILL).
+- **N454** — poly-42-syllable-word NULL (gather-only, second R20 42-venue leg): the joint-unsatisfiability proof is packaged — no single 42 value satisfies both (a) the syllable completing an "er-"-initial word ("29 42" ×3 demand) and (b) the standalone noun; the "er"+C inventory is exhausted at ≤1/20 per member (corpus: "l'erreur" 129×, bare "erreur" zero, "quer" 119 hits all hyphenation artifacts; 59.2M-char corpus). Resolving requires a §7 polyvalence or overturning the adopted T3 fence — independent of the nominal-vs-42ent leg. Keeps R19-055 (42=["noun","cls"]), adopted T3 fence, R20-081 intact.
+- **N455** — redteam-01-rival-input NULL (gather-only, 01 docket input): 15 windows tested; 'ein' word-initial is impossible in French — 0 genuine in 33.6M chars (kill at @195/@1255/@1462 + support @484); 'ain'/'in'/'an' fenced. The letter-cluster rival hypotheses for 01 are now closed ('ein' dead, the other three shelved) — any future 01 value/split decision must reckon with these closures. Companion to the queued redteam-01-split-docket.
+- **N456** — redteam-42-tier-input NULL (gather-only, 42 tier input): the complete letter-composition ledger (n(42)=20) — 42-06 ×5 escalated; 42-94 KILLED (41,923 word types → one stem "re", already killed); "29 42" ×3 FAIL; "33 42" ×2 FAIL; "42 48" KILLED (val-42-282-fem); 40 arm vacuous. Only the noun-word arm (R19-055) and the escalated 42-06 verb-stem question survive. Explicitly preserves the clause-level "42 ne X" frame (94='ne' STRONG LEAD) as separate from the killed letter-composition arm.
+- **N457** — redteam-94-v2-input NULL (gather-only, red-team 94 venue input): four byte-verified loci packaged (@699 V2 "28 94 60 12 98", @841 twin, @1169 ne-ce residual, @1705 "94 88 26 12"); every resegmentation arm dies on open neighbors (98, 61, 60, 28) or §7. The 94-family segmentation problem is a four-window pattern — 94 repeatedly sits in an unparseable position with the same neighbor structure (noun-class cell + letter 'n') — not a V2 one-off. Feeds redteam-94-functional-split (P1, queued); 94='ne' STRONG LEAD adverse honored.
+- **N458** — redteam-gate-trigger-input NULL (gather-only, gate-trigger rule package): six evidentiary cases (ne-508-reseg-gate62, verdict78-gate-wordbound-rearm, adj-32-inflect-gate, lon-77-le-gate-rerun, pour66-class-rerun, val-61-645-det) document a systematic dispatcher failure — the hook triaged "gate satisfied" from rejected/downgraded leg-gain verdicts (62='il' killed R20-125; 78='ver' deferred; det-87-644-function downgraded R19-138). Proposes rule text: gate triggers need red-team ratification of the gating value, checked against the latest red-team round report — the GATE-TRIGGER RULE already landed in the hook prompt. Live pipeline flag (recorded here for the paper trail): det-87-644-function's queue entry showed promote vs standing FENCE at report time — the queue entry has since been reconciled to the standing red-team verdict (verified this sweep: status=verdict, result=fence, "R20-091 confirms the FENCE stands").
+- **N459** — redteam-reinforced-head-closure NULL (gather-only closure): 0 genuine reinforced-head + exclamatory-infinitive attestations in 27.66M chars prose (4/4 classified) AND 0 in 2.94M chars drama (1/1 classified) — drama was the theorised natural habitat, and the pairing is at confirmed zero in both registers. Government runs the wrong way: heads are the infinitive's resumed OBJECT, never its governor. 41 dem-comma windows fully mapped (22/41 resolve by resumption). Source NULL verdicts and all §7 questions untouched.
+- **N460** — s5-stem-ranking-feed NULL (gather-only evidence feed): 24 finite-verb attestations with file+line refs — 'satis' 15 3sg + 5 3pl (346 total "satisfait" matches, rest participles); 'contre' 3 3sg + 1 3pl (10 total "contrefait"). Both stems are period-attested finite 3sg verbs with transitive government in matching register (RDM/Nesselrode/Guizot/Talleyrand) — but frequency (15 vs 3) is not a selectional leg; the stem choice is unresolvable at battery grade. 37's value stays open.
+- **N461** — split-38de-redteam-input NULL (gather-only, §7 38-split package): 38's classic conditioned-split shape — uniform verb-form evidence (6 of 7 windows, incl. finite 3sg @1113 at KILL GRADE, 1 indeterminate) vs the lone sub-lexical hapax @1828 ("38 83"). The common-noun fork at @1828 is dead via the 61M-char corpus (77 bare-proper-noun attestations per bare-subj-corpus F295, 0 bare-common-noun); the proper-noun fork is unnameable. Value tie {vouloir, devoir} symmetric; 29 adjacent to 38 = 0× stream-wide. The red team must choose split vs @1828-as-residual (n(38)=7). Adopts noun26-38-profile PROMOTE, val-52-38-unit KILL.
+- **N462** — split-74-redteam-input NULL (gather-only, §7 74-split package): 74's conditioned-split shape (n(74)=34) — verb-forced: 5 windows (3× "ne [74]" @350/@786/@1103, "on [74]" @261, verb-shaped @212); noun-forced: 2 windows ("ce [74]" @1637 with granted 87, "le [74]" @1307 with provisional 77); the "ce [74]" frame sits in a 74×3 contact @1635–1638. Parallel to poly-66-split and the 09 package — a declared split vs second polyvalence question for the red team; 74's class remains battery-unresolved. Adopts subj-74-261-1500 KILL, ne-alone-02-74 KILL.
+- **N463** — stem-03-value-discriminator NULL (fence): the "03 29 80" fixed trigram is exactly 3× stream-wide (@1030/@1320/@1594); no independent standing constraint picks one -er stem with zero new assumptions — 24's modal-class constraint admits every -er stem, and 81 has no standing value (positing one is a new assumption). Structural reason: modal/finite verbs select infinitives by argument structure, never by stem lexeme — naming "value-nondiscriminating" legs is blocked by French selectional semantics. Follow-up `stem-03-24-vouloir-select` gated on red-team ratification (val-24-1132-name narrowed 24's rival set to "savoir"/"vouloir").
+- **N464** — stem-26-nent-verb KILL: the uniform verb-stem 26 fork dies — "la 26" windows (@240/@1560, "la 02 26" @129) make uniform verb-stem ungrammatical at kill grade, and 12 rival -nent verbs (viennent, tiennent, …) parse identically with no selector among them. Kills only the UNIFORM verb-stem; the locus-level @1707 "88 [26]n-ent" verb reading ("[26]n-ent" trigram 1× stream-wide) survives as a §7 conditioned-split question (consistent with 26-class-1754 PROMOTE). Anchors: 11='la' banked GT, 06='ent' R17-007 granted. Honors battery-noun-26 NULL and noun26-26n-exclude NULL.
+- **N465** — stem-62-7994-residual NULL (hard residual confirmed): the 62-94-79 twins (@1362/@1686; full 62-94 family n=9, the twins the only "ne followed by tout" windows). The blocker is 62-independent and structural — 94='ne' (STRONG LEAD, R17-001) is unlicensable at both windows: post-verbal in every segmentation, followed by "tout" (unique to these twins), no expletive licenser, no reachable finite verb. All 6 lexeme choices for 62 fail within ≤1 ungranted assumption. This hardens scope-62-verb-noun's residual — the failure is the "ne" placement, not 62's identity. 62='il' kill (R19-106/R20-125) honored; the seg-62-94-word fusion follow-up packaged as red-team input.
+- **N466** — stem-85-value-rerun NULL: 85's 15 windows byte-confirmed; 29='er' occurs 0× after 85 — a structural no-completion result: under the stem+completion model a stem with zero 'er'-neighbor can never surface as a complete word, so the naming problem is structural, not candidate-specific. 'laisser' is the only scored candidate but its only selective frame (causative @1699) was locus-killed (laisser-85-1699 KILL), "29 85" ×3 (@97/@375/@1234) kill 'laisser' there, and all remaining frames accept any -er stem identically (val-03-value-census precedent: parsing ≠ naming). Strengthens the 2026-10-08 NULL; A3 (85 verb-stem frame) untouched.
+- **N467** — subj-62-1329-agree NULL: locus @1328–1335 ("[06] [62] ne pre [52] a de [86-INF]"); the subject slot admits noun/pronoun/proper-noun values identically (no determiner, no agreement controller beyond 3sg, no selectional restriction) — zero battery-grade selectors. 62='il' is dead at kill grade (R19-106, R20-125), so C3's "if 62='il'" arm is permanently dead, not merely unfired — the 'il' kill's blast radius removed the one demonstrated rival, leaving an overdetermined unnameability. Adopts syll-52-locus-1334 NULL, unif-52a-1334-orphan PROMOTE (F304), class-62-fullcensus NULL; `ne-1330-bare-corpus` already queued.
+- **N468** — syllable-91-pre-word NULL (fence): '70 91' bigram exactly 1× stream-wide (@519–520); window @515–524 = "ce le [80] [09] pre [91] le ent [55] [81]" — 10 "pre-"+X word compositions tested, all dead; 0 corpus hits for "presque/premier le [V]ent" (98-file 1841 corpus). The word-internal arm is fenced at battery grade — a segmentation residual, not a class residual: 91's locus-level promotes (val-91-pp-adj @537/@1370, adj-91-723) are untouched, so 91's word-internal arm dies at exactly one window. Anchors: 70='pre' pencil GT, 06='ent' promoted, 77='le' provisional.
+- **N469** — trans-60-1690 NULL: full sweep of all 18 bare-60 windows (follower census {90, 09, 08×2, 71×2, 15, 65, 67×2, 03×4, 12×2, 06, 27}); zero battery-grade object-taking windows — the only window with a licensed adjacent noun (@454 "le [60] [65]") fails both parse arms; all others have open followers. Negative result — absence of evidence, not evidence of absence: object drop/ellipsis and open neighbors keep all nine -dre candidates alive, and the fence is a documented zero, not a block. The N1 leg ("en [V-ger] [27-N]") stays assumption-bound on the ungranted "60 is transitive".
+- **N470** — trans-60-995 NULL: locus byte-confirmed @991–1002 ("[24] [26] pas [03] [60] et la par m [33-INF] pour [86-INF]"). 03's role at @994 narrows to ADVERB (only grammatical arm: "pas encore/seulement/…" is period-attested; verb-stem kill-grade dead by adoption; n(03)=20) — but C2a/C2b both fail: the frame neither forces nor forbids an object for 60. 03's role is decided (lexeme open) yet the @995 frame is transitivity-neutral for 60 — the two questions decouple completely. Convergence `val-03-994-role` already queued, not duplicated.
+- **N471** — trans-80-768 NULL (fence): three windows — W1 @441 "[98] [80] [50]", W2 @768 "[88-gov] [66] [98] [80] [10] [22] [94-ne]", W3 @1662 "[47-ce] [98] [98] [80] [22] [94-ne] [84-on]". C1 (forced-transitive) fails: W1's 50 is nominal-capable (determiner+50 at @379/@1263) but attachment unforced; W2's 10 class open (undetermined); W3's 22 is verb-shaped ("qui [22]" @1836, granted 64) and cannot be a direct object. C2 (forced-intransitive) fails: a nominal 50 keeps transitivity live. Partial progress: 22 is eliminated as an object candidate on other-window class evidence (the adverse-required method), while 50's nominal legs survive unforced.
+- **N472** — uniform-55-verb-w2w6 NULL (fence): W2 @523 (row a3_00) and W6 @1671 (row a8_05) byte-confirmed; all six verb-class readings (finite, infinitive, imperative, past participle, gerund, subjunctive) are structurally blocked at both windows (missing subject/governor/auxiliary) — value-independent kills, so no future lexeme choice re-opens them. Per the bar, option (C) — uniform verb-class 55 across all 12 windows — is fenced. The fence kills only option (C): the red-team docket keeps options (A) and (B) (positional rule) alive, consistent with R20-034 which already recorded both blocks. R19-077 (55 verb-class at 55-61 windows) and seg-55-61-21-stem PROMOTE ("prend") untouched; 06 syllabic at both windows per the 06-attachment rule.
+- **N473** — val-01-40-41-boundary NULL (fence, terminal): window 0-based @38–42 ("qui(64) [41] [01] [24] [88-gov]"; n(01)=28, n(41)=19; "41 01" hapax; 41 has 0× 29='er' contact stream-wide). '[41]en' is fenced terminally on three value-independent causes (clitic 'en' is strictly preverbal — postverbal "41-word+en" is ungrammatical; 01's word-level grouphood (A12, R20-113 'ceci') contradicts a sub-lexical reading; 41 is a standalone word per 41-808-role PROMOTE); '[41]tain' fenced terminally (zero positive legs, no composition partner). This is a terminal fence at battery grade — re-open is gated on red-team §7 action only, no battery path (stronger closure than the evidentiary fences elsewhere). The 41|01 boundary holds.
+- **N474** — val-13-letter NULL: 13's 12 windows byte-confirmed; {a,d,e,l,n,r,s,t,y} swept — 13='y' is the unique survivor with 3 clean parses (@68, @1360, @1684), 'a' killed globally, 'n'/'s' dead by homophone/word-final kills — but C2 fails at headline grade: @68/@1684 are arm-A windows where reseg-13-armA holds a standing red-team GRANT (R19-170, confirmed R20-106: "13 is not a word here at all"). Per §5.2, recorded NULL with the contradiction as headline and escalated (`armA-y-adjudicate`): the armA-consistent 'y'-as-suffix-gloss is live but unnameable (all leftward neighbors value-open) — the underdetermination itself is the finding. R20-134 FENCE and letter-13-verdicts KILL untouched.
+- **N475** — val-16-187-bound NULL (fence): locus 0-based @185–189 ("pour(00) [33] [16] pour(00) [66]"; 16's full profile n=28, incl. "82 16" ×11 clitic-'m'+16). The conjunction/boundary arm is killed at kill grade (K1 adopted from frame-82-16; K2 new: a boundary 16 strands the preverbal clitic 'm' in 11 windows — a distributional kill from just banked 82='m' + the boundary role, never touching 16's value). Finite-verb fenced (unnameable: @1481 forced contradiction on the class lead + §7 locus-naming); infinitive fenced — recording a battery-level contradiction without resolving it: frame-82-16 (NULL, 2026-10-09, kills infinitive-16) vs gate-satisfiability-16-85 (PROMOTE, 2026-10-08, exhibits infinitive-16), packaged as `redteam-16-inf-contradiction` (per §5: no verdict downgraded). Noun killed.
+- **N476** — val-20-703-66 NULL (fence): locus 0-based @701–711 ("n(12) vient(98) [20] n(12) [66] [21-noun] …"); "20 12" composes to "en" (20='e') or "un" (20='u') — the parent val-20-lettertier NULL's sole surviving leg — but no selective leg exists for any place (France, Paris, Rome all parse identically) or any count noun (zero selectional pressure at the window). 66's class at @705 is unestablished (poly-66-split "no hypothesized class" group), so the bar's noun-class dichotomy is presupposed, not standing. Naming 66 would have discriminated 'e' vs 'u' — the discriminator stays armed but unfired. Honors subclass-66-98-noun PROMOTE (locus-level noun @88/@123/@766 only) and queued redteam-66-polyvalence P1.
+- **N477** — val-23-182-semantic NULL (fence executed): locus @176–189 ("qui [23-fin] [37-pred] [06] pour [33]…"); the candidate field is open (rendre/sembler/demeurer were examples, not a closed set) — no verb's semantics is forced at battery grade, and the copular subset {sembler, demeurer, paraître, rester, devenir} parses identically. Fenced on three causes: open field; identical parses; the -ent-adjective premise is itself only NULL-licensed. 06='ent' conditional, 23=verb class, §7 (23~26 split) untouched.
+- **N478** — val-23-copula-gather NULL (gather-only package): n(23)=8, n(59)=27; combined 1.90% of pairs vs 1841-corpus 'est' rate 0.86%; runs test z=−1.15 (pass); follower Fisher p=0.216 (n.s.); predecessor: 45 precedes 23 in 3/8 vs 0/27 → Fisher p=0.0086 (significant) — the "ce [23]" slot is 23-exclusive, consistent with positional convention (cf. 23~26 split) rather than free homophony; 59:23 ratio 3.4:1. Rate comparison + 1690 uniformity data delivered for the red-team's 23-vs-59 homophony decision; no naming. 62='il' kill stands; 59='est' stays provisional.
+- **N479** — val-24-1132-name NULL: locus @1132 "…[86-INF] [24] 77(le,prov) [86-INF]…" = "[24] le [86-INF]" (n(24)=52 windows); survivors "sait"/"veut" — zero discriminator between them, they parse identically in every frame. "dit" killed at locus (dit + "le+INF" is ungrammatical); "faire"/"laisser" dead globally (standing kills); "pouvoir"/"doit" killed only if 24 uniform (not established). Most promising discriminator: indirect-interrogative frames ("savoir" licenses si/comment/où + clause). R17-009 class grant untouched; 24-en-verb-conflict stays red-team venue.
+- **N480** — val-26-copula-gather NULL (gather-only package): n(26)=17, n(59)=27; χ²=2.2727, p=0.1317 (uniformity passes); runs z=+1.01 (interleaved, no clumping); 8 leg shapes tabulated vs 59's 11 A1 windows — 4 of 8 leg shapes shared, 2 of 26's leg shapes wholly absent from 59 ("[N] [26] pour" ×3, absent from 59). Per lane law uniformity is insufficient — frame segregation is evidence against homophony; naming 26="est" needs a red-team polyvalence grant (67 et/veut is the sole true polyvalence). 59='est' provisional; §7 split intact.
+- **N481** — val-32-narrow NULL (fence executed): n(32)=13 windows; L1 homograph leg yields 20+ identical-parsing lexemes (dit, fait, écrit, -uire family, suffit…); L2: @33 finite 3sg bare-stem vs @855 finite 3sg with -e — no French verb has both forms (value-independent block). Value-naming is blocked at battery grade regardless of candidate; the @855 seam goes to the 32-duality docket, not to a battery. adj-32-inflect-gate-2 correctly stays unfired (fires only on actual naming). verb-32 single-lexeme PROMOTE adopted; R20 defer respected.
+- **N482** — val-42-219-queframe NULL (fence executed): 0-based @216–221 = "59 46 29 42 16 24"; "29 42" exactly 3× stream-wide (@78, @218, @1143); no verb identifiable from 29's left context with stated values (five exhaustion arms dead, incl. "quer"-final blocked by 46='que' pencil GT and "que"+"errer" ungrammatical). Neither '29 42' parse (verb+standalone vs one word) holds. The only battery-grade path back into this window is naming 42's letter content (re-opens the "er"+letter arm). 46='que'/29='er' pencil GT upheld; 42 tier-open adverse honored.
+- **N483** — val-61-223-object NULL (fence executed): n(61)=18 windows; locus @223 "…[89-inf] [61] par ce que vient…"; object→verb selection is impossible — 61 has no independent selective leg (noun/adverb/pronominal parse identically; global naming dead per val-61-contact KILL) — so the locus value-naming is fenced. Strategy reversed: only the verb→object direction is viable (name 89 first; its selectional restrictions then discriminate 61), which is what the already-queued follow-ups pursue. val-61-contact KILL adopted; §7 intact.
+- **N484** — val-61-participle NULL (fence executed): @923–930: "[65-N] [71] fois [61] par e m vient"; "fois X par" census: 34 raw hits, ALL participles — so participle is the sole grammatical class for 61 at @926 even though the bar's exact frame dies. C1 fails on two grounds: (a) feminine not forced (corpus: "une fois ému", "plusieurs fois reçu", "une fois fini" all masc.); (b) the "par [agent]" arm is unparsed ("par e", 48 letter-tier). The specified "[Q] fois [part-fem] par [agent]" frame is fenced; gender control and the "par e" residual are the blockers.
+- **N485** — val-65-at-508 NULL: 0-based @507–512 = "77 62 94 64 98 65" ("le [62]ne qui vient [65]"); 65 at @512, right neighbor of "vient"; exhaustive 7-arm sweep — arms 1–5 dead/fenced, arms 6–7 need new assumptions and select nothing. "Venir" licenses no bare-noun object; inversion needs a determiner; the temporal arm is terminally fenced (temp-65-loc-census C2). The temporal-directionality adverse is answered: temporal 65 cannot parse at @512 at all — so 65's value here decides neither règne nor trône; the strain localizes to the open-value complement cluster. The @508 "trône" promote about 62 is untouched.
+- **N486** — val-66-87-verb KILL (battery grade): verb-66 at @88 is forced false — (1) subclass-66-98-noun PROMOTE (66=plain noun, "le [66] vient") and (2) kill-grade corpus evidence: 0 genuine infinitive subjects of "vient" in 57.4M chars of 1841 French. The only rescue is a §7 conditioned split (red-team venue). The kill also takes down the @86 "[88-fin] le [66-inf]" pronoun leg, hardening objpron-88-77-11's C1 fence to kill grade. n(66)=19; the live rival at @86–88 is article+NP ("le [66-noun] vient").
+- **N487** — val-73-verbclass NULL (fence executed): six 73 windows (@268/@392/@777/@1110/@1347/@1534); "on [X]" cohort: 8 verb-selecting vs 1 non-verb among class-resolved successors ("on est" ×4; "on tout" @1418 the sole anomaly) — cohort test confirms verb-class for 73, but C1 fails: no single finite verb parses all six windows with zero contradiction (@777 blocks every uniform finite verb under standing 33-class: a bare stem cannot be subject of "[V-fin] [37-pred]"; "veut"-type killed at @268 — "veut ce" ungrammatical; dit/fait/pense-type parse identically with zero selective legs). The verb value-naming arm is fenced with the surviving candidate set; the only re-opens are red-team acts (name 33 nominal at @777, or a §7 conditioned split).
+- **N488** — val-74-letter NULL (fence executed): n(74)=34 windows, 20 distinct predecessors / 19 distinct followers (free-word scatter à la 40='e'); "74 29" ×0, "74 06" ×0. Collocation profile is letter-shaped but zero-selective (parsing ≠ naming); the only contact-compatible family ("ce"+'t'/'l'/'s') was killed at W1–W3. Letter-74 is fenced at all 34 windows — kill-grade at 8 ('ne [74]' @350/@786/@1103 + 'on [74]' @261: a letter cannot host finiteness; four "49 74 74" chains killed by unit-49-74-74). The letter hypothesis dies on French grammar; the only rescue (conditioned split) is §7 red-team venue. unit-49-74-74 KILL and the split-74 package adopted.
+- **N489** — val-74-unaccusative NULL (fence executed, permanent per adverse): 5 verb-forced windows (@212/@261/@350/@786/@1103) × 8 unaccusative candidates (vient/arrive/reste/entre/sort/naît/tombe/paraît) — all parse every window identically (zero selective legs); six "74 74" doublings kill uniform verb-74 at kill grade; noun windows @1307/@1637 force noun class. C3 fires: the @212 "[74-fin] le ver" subject-NP arm is fenced TERMINALLY (permanent per the bar's adverse; re-opens only on new legs: an independent-tier named 74 value or a red-team §7 split). Presentational inversion is a real frame — the fence is on value, not grammar.
+- **N490** — val-80-1596-3sg NULL (fence executed): n(80)=17 loci; "03 29 80" trigram 3× (@1032/@1322/@1596); est/dit/peut/doit/veut/vaut/semble/reste all parse "[03]er [80] et le [81] m vient" identically (parsing ≠ naming; frequency cannot name); seven naming routes already failed at @1322 (80-value-host-w2 NULL). The finite-80 revival path (infinitive-subject reading) stays fenced, not killed — the revival needs the coordination blocker resolved (follow-up `imp-80-1596-coord`). The parent's right-edge blocker stands ("[80-fin] et le [81]…" leaves "et le [81]" verb-less). poly-80-docket §7 adverse honored.
+- **N491** — val-80-469-stem NULL: "80 06" bigram exactly 2× (@469/@1090; frame "00(pour) 33(?) 79(tout) [80] 06(ent)"); 20+ French 3pl "-ent" candidates fit identically — no agreement controller, object, or complement selects one (parsing ≠ naming per val-03-value-census). Value-naming fenced, not killed. The real question may not be the stem at all: bare "tout" hosting a 3pl finite verb is morphologically tense, which may kill the whole "tout [80]ent" 3pl frame (re-segmentation venue).
+- **N492** — val-83-de-98frame NULL (fence): only 1 of 5 '98 83' windows (@899, "vient de [86-INF]") licenses 83='de' at battery grade, below the ≥2 bar; the formula ×3 (@229/@1062/@1785, "vient de m par [noun]") is ungrammatical as French at battery grade; @932 "vient de [56]" is 'de'-untested (56 open). The C1 claim is fenced — "compatible" ≠ "licenses": the battery-grade / red-team-grade distinction is doing the work, not the bytes. R20-109 conditioned 83='de' LEAD stands; R19-126 LEG-1/2 stand.
+- **N493** — val-86-728-entr NULL (fence): 86='entr' parses at 14 windows ("pour entrer" ×10, "entrer" ×4) but is kill-grade excluded at @867 ("que pour [86]pre ce le" — 'entr' is not one of the -prendre X-stems {com, ap, sur, re, entre}); no selector picks 'entr' over rival -er stems anywhere; @728's "entre"+[88] compound is undecidable (88's content open). A uniform value cannot survive the @867 counterexample — 86's tier-split (prefix at @867 per F303 vs stem elsewhere, §7 venue) now gates any 'entr' claim.
+- **N494** — val-98-702-importe NULL (fence): 0 battery-grade legs of 40 98-windows — both 'importe'-shaped contacts die: @702 "n'importe" is blocked on four independent grounds (notably @703's 20 is forced infinitive, "vient [20-INF]", killing the right edge; 94+30 fused "n'importe" already banked elsewhere at @1701–1702); @227 "qu'importe" has no grammatical completion ("qu'importe de m par" is unidiomatic). The 98='importe' value-naming is fenced (evidentiary — no window forces 98≠'importe'); the 'importe' word-formation rivalry is settled at lane level (it lives as fused 94+30 at the terminal singleton), and 98='vient' LEAD is strengthened by elimination.
+- **N495** — verb-91-277 NULL (fence): the sibling battery-verb-91-277-frame named the class (finite verb, F309 above); this battery finds est/fait/dit/peut/doit/veut/semble/reste all parse "on [91] [37-pred] 61 20 61 42 48" identically — zero selective legs in the tail (parsing ≠ naming). Value-naming is fenced (re-openable if 37's, 61's, or 20's class supplies the missing discriminator). Locus-level class promotes are cheap and useful, but value-naming needs a second selective leg — the queue now knows exactly which neighbor to value first (37's class).
+- **N496** — verdict-arm-819-strengthen NULL (fence): R20-035's @819 "ce verre" leg strengthens only the "ver" half — no window outside @573 yields an independent full "verdict" composition: W3 @982 is byte-available but epistemically identical to W2 (both halves lead-grade; 45='dict' unratified per R20 DEFER/R17-006); W4 @1164 is residual; W1 @313 is excluded (45="ce", R18-014). The cross-window composition arm is fenced (not killed) — half-scoped strengthening is real progress but does not un-fence W3. The "verdict" question is now exactly the "45='dict' needs an independent 78-free leg" question, and the follow-up names it.
+- **N497** — vois-follower-56-value NULL (fence): all 23 windows of 56 (n=23; modal 86-follower at 4/26 D-windows) yield zero selective legs — at @1745 the Xéent-class 3pl set {créer, agréer, suppléer, recréer, gréer, maugréer, dégréer, réer} parses identically; at @795 any finite 3sg verb fits; the 86-follower windows supply no composition (dwindow-voisin-family killed the 'vois-' arm). Underdetermined across the board (parsing ≠ naming) — fenced evidentiary, third naming NULL consistent with the prior two. The 86-follower modal position is value-blank: if 56 ever reads 'in'-family, the leg must come from outside, because 56='in' cannot be its own selectional leg. stem-56-whole PROMOTE, name-56-verb NULL, pasent-subject-26-56 KILL all held.
+- **N498** — wordbound-63-29-373 NULL (fence both arms): @373|374 — fused ("[63]er") dies on the governor kill (bare infinitive after noun killed at kill grade) plus an ungranted stem-tier shift (63 is verb-class R19-102, not stem-class); split ("[63] | er…") dies because "er" standalone is a non-word and the "29 85" → "er[85]" composition is fenced exhausted 0/3. "63 29" is a stream hapax (1×). A clean unfenceable-at-battery-grade result: the residual is pinned to exactly two re-open conditions — bank 63's value (re-opens fused) or 85's completion (re-opens split).
+- **N499** — x-er-89-frame NULL (fence): Frame F ("89 = noun/adverb complement of the preceding -er infinitive") parses 3/5 windows (@275, @1377, @1393) but fails at @113 ("[93]er" unattested infinitive — 93 is verb-class not stem, hapax, standing precedent fenced it ambiguous) and @781 ("[08]er" tier-incompatible — 08 is letter-tier 't'); "29 89" exactly 5× confirmed. The 3/5 split is itself a structural fact: the two fenced windows die on different causes (unattested vs tier-incompatible), which smells like a §7 conditioned split the red team should adjudicate, not a bar failure to fix at battery grade. 89=noun LEAD R19-161 untouched; er89-wordinternal-govern KILL honored; infinitive-89 killed at red-team level (R19-161) and never invoked.
+
+Notes trace: the 94 notes named in the wave-17 arrivals trace above; the 77 kill/null bullets in this section cover the 77 non-promote notes in that same trace order (N423–N499). All battery grade; all PROVISIONAL pending red-team ratification unless stated otherwise.
