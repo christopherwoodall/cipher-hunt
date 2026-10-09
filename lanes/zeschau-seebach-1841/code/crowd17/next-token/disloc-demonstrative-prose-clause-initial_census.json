@@ -1,0 +1,150 @@
+{
+ "files": [
+  {
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "chars": 769437,
+   "dem_comma_hits": 5
+  },
+  {
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "chars": 830700,
+   "dem_comma_hits": 7
+  },
+  {
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "chars": 852681,
+   "dem_comma_hits": 4
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "chars": 1992545,
+   "dem_comma_hits": 46
+  },
+  {
+   "file": "nesselrode-v10.txt",
+   "chars": 556659,
+   "dem_comma_hits": 9
+  },
+  {
+   "file": "nesselrode-v7.txt",
+   "chars": 521560,
+   "dem_comma_hits": 11
+  },
+  {
+   "file": "nesselrode-v8.txt",
+   "chars": 614206,
+   "dem_comma_hits": 19
+  },
+  {
+   "file": "nesselrode-v9.txt",
+   "chars": 498642,
+   "dem_comma_hits": 24
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "chars": 3013552,
+   "dem_comma_hits": 47
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "chars": 2964405,
+   "dem_comma_hits": 47
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "chars": 3054350,
+   "dem_comma_hits": 39
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "chars": 3165234,
+   "dem_comma_hits": 42
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "chars": 1492023,
+   "dem_comma_hits": 15
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "chars": 1723645,
+   "dem_comma_hits": 27
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "chars": 926037,
+   "dem_comma_hits": 22
+  },
+  {
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "chars": 1001901,
+   "dem_comma_hits": 9
+  },
+  {
+   "file": "levant-correspondence-1841-p3.txt",
+   "chars": 1690926,
+   "dem_comma_hits": 12
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "chars": 677686,
+   "dem_comma_hits": 53
+  },
+  {
+   "file": "gutenberg-30513-tocqueville-t1.txt",
+   "chars": 597763,
+   "dem_comma_hits": 4
+  },
+  {
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "chars": 712233,
+   "dem_comma_hits": 5
+  }
+ ],
+ "total_chars": 27656185,
+ "clause_initial_dem_hits": 16,
+ "clause_initial_candidates": [],
+ "confound_candidates": [
+  {
+   "file": "metternich-papiere-v6.txt",
+   "offset": 860050,
+   "dem": "ceci",
+   "window": "ceci,  —  Fun  en  de*pit  et  aux \ndepens  de  Fautre!",
+   "inf_hits": [
+    "fautre"
+   ],
+   "gate_reason": "mid-clause (preceded by running text)"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "offset": 299519,
+   "dem": "cela",
+   "window": "cela, même pour rire!",
+   "inf_hits": [
+    "rire"
+   ],
+   "gate_reason": "mid-clause (preceded by running text)"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "offset": 307350,
+   "dem": "cela",
+   "window": "cela, elle erre gaîment, la douce\namourette!",
+   "inf_hits": [
+    "erre"
+   ],
+   "gate_reason": "mid-clause (preceded by running text)"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "offset": 601675,
+   "dem": "ça",
+   "window": "ça, je ne peux pas dire, on parle contre moi,\non me dit: répondez!",
+   "inf_hits": [
+    "contre",
+    "dire"
+   ],
+   "gate_reason": "mid-clause (preceded by running text)"
+  }
+ ]
+}

@@ -1,0 +1,323 @@
+{
+ "total_chars": 465531,
+ "files": [
+  {
+   "file": "labiche-29-degres-ombre.txt",
+   "chars": 34634,
+   "variant_candidates": 5
+  },
+  {
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "chars": 43172,
+   "variant_candidates": 7
+  },
+  {
+   "file": "labiche-la-cagnotte.txt",
+   "chars": 134353,
+   "variant_candidates": 7
+  },
+  {
+   "file": "labiche-voyage-perrichon.txt",
+   "chars": 97395,
+   "variant_candidates": 9
+  },
+  {
+   "file": "scribe-le-lorgnon.txt",
+   "chars": 67028,
+   "variant_candidates": 2
+  },
+  {
+   "file": "scribe-le-savant.txt",
+   "chars": 88949,
+   "variant_candidates": 1
+  }
+ ],
+ "candidates": [
+  {
+   "head": "ça",
+   "pause": "comma",
+   "start": 14572,
+   "window": "non !",
+   "inf_hits": [],
+   "file": "labiche-29-degres-ombre.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "comma",
+   "start": 19628,
+   "window": "un amant !",
+   "inf_hits": [],
+   "file": "labiche-29-degres-ombre.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "exclq",
+   "start": 19820,
+   "window": "… ce n’était pas convenu !",
+   "inf_hits": [],
+   "file": "labiche-29-degres-ombre.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "exclq",
+   "start": 27099,
+   "window": "… Renoncer à ce duel… maintenant… c’est impossible !",
+   "inf_hits": [
+    "renoncer"
+   ],
+   "file": "labiche-29-degres-ombre.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "exclq",
+   "start": 30867,
+   "window": "Il est enragé, celui-là !",
+   "inf_hits": [],
+   "file": "labiche-29-degres-ombre.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "comma",
+   "start": 11304,
+   "window": "un prix de vers latins !",
+   "inf_hits": [],
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "pass": "A"
+  },
+  {
+   "head": "cela",
+   "pause": "comma",
+   "start": 20260,
+   "window": "point d’embarras,\nLa conscience, ami, ça n’se voit pas !",
+   "inf_hits": [],
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "comma",
+   "start": 37381,
+   "window": "il n’y a plus de témoins !",
+   "inf_hits": [],
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "exclq",
+   "start": 3348,
+   "window": "… Monsieur qui n’est pas sorti hier… il est allé se coucher à cinq heures, en se plaignant d’un fort mal de tête… Mais je ne vois pas son pantalon !",
+   "inf_hits": [
+    "coucher",
+    "hier"
+   ],
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "exclq",
+   "start": 9737,
+   "window": "… il me reconnaît !",
+   "inf_hits": [],
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "exclq",
+   "start": 11598,
+   "window": "Deux labadens !",
+   "inf_hits": [],
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "exclq",
+   "start": 11800,
+   "window": "des noyaux de cerises !",
+   "inf_hits": [],
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "pass": "A"
+  },
+  {
+   "head": "cela",
+   "pause": "comma",
+   "start": 92375,
+   "window": "elle ne peut pas m’entraîner bien loin !",
+   "inf_hits": [
+    "entraîner"
+   ],
+   "file": "labiche-la-cagnotte.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "ellipsis",
+   "start": 11468,
+   "window": "Allons !",
+   "inf_hits": [],
+   "file": "labiche-la-cagnotte.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "ellipsis",
+   "start": 44463,
+   "window": "je ne sais pas ce que c’est, mais j’aime assez ça !",
+   "inf_hits": [],
+   "file": "labiche-la-cagnotte.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "ellipsis",
+   "start": 49568,
+   "window": "Nous irons tous !",
+   "inf_hits": [],
+   "file": "labiche-la-cagnotte.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "ellipsis",
+   "start": 79453,
+   "window": "un vrai lit de plumes !",
+   "inf_hits": [],
+   "file": "labiche-la-cagnotte.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "ellipsis",
+   "start": 130918,
+   "window": "c’est du faux !",
+   "inf_hits": [],
+   "file": "labiche-la-cagnotte.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "exclq",
+   "start": 119328,
+   "window": "Je proteste !",
+   "inf_hits": [],
+   "file": "labiche-la-cagnotte.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "comma",
+   "start": 5311,
+   "window": "chaque fois qu’elle n’a pas pris son café !",
+   "inf_hits": [],
+   "file": "labiche-voyage-perrichon.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "comma",
+   "start": 11511,
+   "window": "mon ami !",
+   "inf_hits": [],
+   "file": "labiche-voyage-perrichon.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "ellipsis",
+   "start": 64867,
+   "window": "moi et le mont Blanc… tranquille et majestueux !",
+   "inf_hits": [],
+   "file": "labiche-voyage-perrichon.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ceci",
+   "pause": "ellipsis",
+   "start": 93819,
+   "window": "et surtout gardez-moi le secret : les hommes ne s’attachent point à nous en raison des services que nous leur rendons, mais en raison de ceux qu’ils nous rendent !",
+   "inf_hits": [],
+   "file": "labiche-voyage-perrichon.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "exclq",
+   "start": 3279,
+   "window": "PERRICHON\nC’est le départ qui est laborieux… une fois que nous serons casés !",
+   "inf_hits": [],
+   "file": "labiche-voyage-perrichon.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "exclq",
+   "start": 10676,
+   "window": "MAJORIN\nPardon !",
+   "inf_hits": [],
+   "file": "labiche-voyage-perrichon.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "exclq",
+   "start": 11534,
+   "window": "MAJORIN , sèchement\nAllons !",
+   "inf_hits": [],
+   "file": "labiche-voyage-perrichon.txt",
+   "pass": "A"
+  },
+  {
+   "head": "cela",
+   "pause": "exclq",
+   "start": 25772,
+   "window": "MADAME PERRICHON\nMerci, monsieur Armand !",
+   "inf_hits": [],
+   "file": "labiche-voyage-perrichon.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "exclq",
+   "start": 87164,
+   "window": "des excuses !",
+   "inf_hits": [],
+   "file": "labiche-voyage-perrichon.txt",
+   "pass": "A"
+  },
+  {
+   "head": "cela",
+   "pause": "comma",
+   "start": 8652,
+   "window": "et si monsieur le baron et madame\nla baronne… justement la voici !",
+   "inf_hits": [],
+   "file": "scribe-le-lorgnon.txt",
+   "pass": "A"
+  },
+  {
+   "head": "cela",
+   "pause": "exclq",
+   "start": 59205,
+   "window": "J’en étais sûr, je ne\nm’étais pas trompé !",
+   "inf_hits": [],
+   "file": "scribe-le-lorgnon.txt",
+   "pass": "A"
+  },
+  {
+   "head": "ça",
+   "pause": "comma",
+   "start": 43400,
+   "window": "Que de maris seraient sans place !",
+   "inf_hits": [],
+   "file": "scribe-le-savant.txt",
+   "pass": "A"
+  }
+ ]
+}

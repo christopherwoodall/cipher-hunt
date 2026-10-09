@@ -1,0 +1,519 @@
+{
+ "stats": {
+  "files": [
+   "labiche-29-degres-ombre.txt",
+   "labiche-affaire-rue-lourcine.txt",
+   "labiche-baron-fourchevif.txt",
+   "labiche-chapeau-de-paille.txt",
+   "labiche-doit-on-le-dire.txt",
+   "labiche-edgard-bonne.txt",
+   "labiche-la-cagnotte.txt",
+   "labiche-main-leste.txt",
+   "labiche-martin-poudre-aux-yeux.txt",
+   "labiche-misanthrope-auvergnat.txt",
+   "labiche-noces-bouchencoeur.txt",
+   "labiche-prix-martin.txt",
+   "labiche-voyage-perrichon.txt",
+   "scribe-bertrand-et-raton.txt",
+   "scribe-charlatanisme.txt",
+   "scribe-le-lorgnon.txt",
+   "scribe-le-savant.txt",
+   "scribe-verre-d-eau.txt"
+  ],
+  "n_files": 18,
+  "heads_total": 76,
+  "n_candidates": 61,
+  "verse_candidates": 4,
+  "dialogue_candidates": 57
+ },
+ "candidates": [
+  {
+   "file": "labiche-29-degres-ombre.txt",
+   "offset": 30887,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là !… Voyons, soyons calmes… je ne sais pas me battre, moi ; je vends des épées, mais je ne sais pas me battre… Eh bien, s’il me tue, il n’en aura pas moins embrassé ma femme.\nPiget.\nOnze fois !\nCourtin.\nLe malheur, c’est que tu l’as provoqué !\nPomadour.\nJe l’ai provoqué !… oui, je l’ai provoqué !… mais, depuis, il s’est passé un fait nouveau qui nécessite un répression plus sévère… Est-ce q"
+  },
+  {
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "offset": 12503,
+   "head": "celui-là",
+   "sep": "-",
+   "partition": "dialogue",
+   "window": "celui-là ?\nLenglumé.\nTu mettras trois couverts… j’ai un ami à déjeuner… Dépêche-toi.\nJustin.\nTout de suite, monsieur. ( À part. ) Par où diable est-il entré ?\nIl sort.\nScène VI\nLes mêmes ; moins Justin\nTous deux s’asseyent et mettent leurs bottes.\nLenglumé.\nDis donc, je vais te présenter à ma femme… mais ne lui parle pas du banquet Labadens.\nMistingue.\nSois tranquille ! ( À part, entrant ses botte"
+  },
+  {
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "offset": 39634,
+   "head": "ceux-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "ceux-là !\nScène XX\nLes mêmes, Justin ; puis Potard\nJustin , entrant par la gauche, deuxième plan.\nMonsieur, Madame fait demander si…\nLenglumé.\nHein !… tu n’es pas mort ?\nJustin.\nPar exemple !\nLenglumé.\nBrave garçon !… Tiens, voilà cent sous pour toi !\nJustin.\nPour n’être pas mort ?\nLenglumé.\nReste à un !\nPotard , sortant, sa lettre à la main.\nCousin, je vous remercie !\nLenglumé.\nL’autre… Tu n’es p"
+  },
+  {
+   "file": "labiche-baron-fourchevif.txt",
+   "offset": 37520,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là !\n\n Rouquérolle. \n Dites donc, baron, une confidence.\n\n Fourchevif. \n Quoi encore ?\n\n Rouquérolle. \n Je n’ai pas déjeuné. (Mettant la main sur son estomac.) Ça fait cri cri !\n\n Fourchevif. \n Ah ! vous n’avez pas… ? C’est bien, je vais voir à l’office, (À part.) Je crois qu’il reste de la dinde. (Haut.) Tenez, en attendant, faites mes quittances de loyer…\n\n Rouquérolle. \n Moi ?\n\n Fourchevi"
+  },
+  {
+   "file": "labiche-baron-fourchevif.txt",
+   "offset": 43030,
+   "head": "ceux-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "ceux-là, on ne les coupe jamais !\n\n Fourchevif. \n Mais mon marchand de bois…\n\n Lambert. \n Je viens d’arrêter les travaux…\n\n Fourchevif. \n Cependant…\n\n Lambert. \n Il le faut !\n\n Fourchevif. \n Bien ! bien !\n\n Lambert , à part. \nJ’en ai commencé une étude, ça me permettra de la finir ! Fourchevif , à part. \n Il est un peu exigeant !\n\n Lambert. \n J’ai encore à vous parler de notre mausolée… Il est dan"
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 38030,
+   "head": "celle-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celle-là, imbécile.\n\nIl les met toutes les deux. Tardiveau a pris un gilet de flanelle sous le comptoir.\n\nTardiveau, à part.\n\nEnfin, je vais pouvoir changer ! \n\nNonancourt, prend Hélène par la main et la présente à Tardiveau.\n\nMonsieur, voici la mariée… (Bas.) Salue !\n\nHélène fait plusieurs révérences.\n\nTardiveau, cachant vivement son gilet de flanelle et à part.\n\nQu’est-ce que c’est que ça ?\n\nNon"
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 83038,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là !… c’en est un autre !… Toute une bande !… Où est passé le premier ?… Brigand, où est ton capitaine ?\n\nVézinet, très aimable.\n\nMerci !… je ne prendrai plus rien… j’ai sommeil.\n\nBruit d’un meuble qui tombe dans la chambre où est entré Fadinard.\n\nBeauperthuis.\n\nIl est là !\n\nIl s’élance dans la chambre, à droite.\n\n Scène VI.\n\nVÉZINET, NONANCOURT, HÉLÈNE, BOBIN,\nDames de la Noce.\n\nVézinet.\n\nE"
+  },
+  {
+   "file": "labiche-doit-on-le-dire.txt",
+   "offset": 24077,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là même, qui avait fait mon contrat de mariage !… Ils tournaient le dos, les coudes appuyés sur la balustrade… Aussitôt je fus partagé entre deux tentations bien vives… la première était d’adresser une plainte sévère à la Chambre des notaires !… la seconde… plus sanguinaire peut-être… de lui envoyer mon pied… dans la partie qu’il me présentait… C’est ce que je fis. V’lan ! Il pousse un cri, "
+  },
+  {
+   "file": "labiche-doit-on-le-dire.txt",
+   "offset": 80826,
+   "head": "celui-là",
+   "sep": "—",
+   "partition": "dialogue",
+   "window": "celui-là ! Il a promis de me le dire… Ce n’est pas un lâcheur !\n\n ‌ \n\n ACTE TROISIÈME. \n\n Le cabinet de Gargaret. — Au fond, grand vitrage avec rideaux verts, une porte donnant sur les magasins. — Portes latérales, troisième plan. — À gauche deuxième plan, une cheminée, du même côté ; au premier plan, une armoire dans la boiserie. — À droite au deuxième plan, une autre porte ; du même côté, premie"
+  },
+  {
+   "file": "labiche-doit-on-le-dire.txt",
+   "offset": 95348,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là aussi !…\n\n Muserolle , cherchant à boutonner son pardessus. \n Allons, bien !… Allons, bien !…\n\n Gargaret. \n Quoi ?\n\n Muserolle. \n Il manque un bouton… Après ça, je peux m’en passer.\n\n Il retire son pardessus. \n Gargaret , le lui prenant des mains. \n Donne… je le ferai recoudre par la bonne… Mâtin ! comme tu sens le musc !\n\n Albert. \n Hum !\n\n Il remonte. \n Muserolle. \n Je ne sens rien… je "
+  },
+  {
+   "file": "labiche-edgard-bonne.txt",
+   "offset": 3307,
+   "head": "Celui-ci",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "Celui-ci… Ah ! n’oubliez donc pas de changer ces rideaux.\n Elle indique les rideaux des portes du fond.\n\n Florestine. \n Oui, madame.\n\n Madame Beaudeloche , redescendant. \n Maintenant, voyez si mon fils est prêt ?\n\n Florestine , baissant les yeux. \n Moi, madame ?\n\n Madame Beaudeloche. \n Qu’avez-vous donc ?\n\n Florestine , de même. \n Entrer dans la chambre d’un jeune homme !\n\n Madame Beaudeloche. \n C"
+  },
+  {
+   "file": "labiche-edgard-bonne.txt",
+   "offset": 20303,
+   "head": "ceux-ci",
+   "sep": ",",
+   "partition": "verse",
+   "window": "ceux-ci, je vais chercher les autres rideaux… Montez…\n\n Edgard , résistant. \n Moi ? je ne monte pas à l’échelle !…\n\n Florestine. \n Montez donc !…\n\n Edgard. \n Mais, mademoiselle…\n\n Florestine. \nAllons donc !… dépêchez-vous !… Edgard , montant de très mauvaise humeur. \n Voilà, mon Dieu !… voilà !… (Florestine sort par l’angle de droite.\nSur l’échelle.) Voilà ce que c’est que de se familiariser…\n\n Sc"
+  },
+  {
+   "file": "labiche-la-cagnotte.txt",
+   "offset": 70528,
+   "head": "Celui-là",
+   "sep": "(",
+   "partition": "dialogue",
+   "window": "Celui-là est idiot… (Haut.) Il résulte de tout ceci que vous n’êtes pas de Paris… Champbourcy , se levant.\nEnfants de La Ferté-sous-Jouarre !…\nBéchut , vivement à Champbourcy.\nAsseyez-vous !… (Colladan s’assied.) Vous êtes venus à Paris en visiteurs ?…\nColladan , se levant.\nC’est la cagnotte.\nChampbourcy , se levant.\nEn admirateurs de la grande cité.\nBéchut , à Champbourcy.\nVoyons ! puisque vous v"
+  },
+  {
+   "file": "labiche-la-cagnotte.txt",
+   "offset": 77717,
+   "head": "celle-là",
+   "sep": ";",
+   "partition": "dialogue",
+   "window": "celle-là !…\nColladan.\nQuoi ?\nBéchut.\nJe vais envoyer chercher une voiture pour vous conduire au Dépôt ;\nTous - Au Dépôt ?\nBéchut.\nVous êtes tous des pick-pockets.\nIl sort, suivi du gardien.\nScène VII\nLes Mêmes, moins Béchut et Le Gardien\nTous.\nPick-pockets !\nChampbourcy.\nQu’est-ce que c’est que ça ?\nBlanche.\nC’est un mot anglais… qui veut dire… fouilleurs de poches.\nTous.\nNous !… Colladan.\nEt l’on"
+  },
+  {
+   "file": "labiche-la-cagnotte.txt",
+   "offset": 96294,
+   "head": "ceux-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "ceux-là ?\nChampbourcy.\nVous êtes sûr qu’on ne nous a pas suivis ?\nColladan.\nNous sommes venus toujours en courant…\nLéonida.\nJolie manière d’aller en soirée !\nChampbourcy.\nTu grognes toujours !… heureusement qu’il gèle… nous ne sommes pas crottés.\nBlanche , apercevant la cheminée.\nAh ! du feu !\nElle s’approche de la cheminée avec Léonida.\nChampbourcy.\nEnfin nous sommes libres ! Colladan.\nOui… il fa"
+  },
+  {
+   "file": "labiche-la-cagnotte.txt",
+   "offset": 107960,
+   "head": "celle-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celle-là…\nCocarel , lisant.\n\"Santé parfaite… caractère enjoué… musicienne si on le désire…\"\nColladan.\nOh ! nous ne tenons pas à ces bêtises-là.\nCocarel , venant à eux.\nSeulement il faut tout dire… elle a un œil…\nSylvain.\nElle louche ?\nCocarel.\nOh non !… elle est borgne… vous finiriez toujours par vous en apercevoir… j’aime mieux vous prévenir.\nColladan.\nMon Dieu, nous ne tenons pas aux yeux…\nSylva"
+  },
+  {
+   "file": "labiche-la-cagnotte.txt",
+   "offset": 114075,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là ne compte pas !… l’autre, celui pour lequel je vous ai écrit… dans une haute position… il est là…\nLéonida.\nAh !\nCocarel.\nUn jeune homme charmant ; je vais le chercher.\nIl sort par le fond.\nScène XII\nLéonida ; puis Cocarel et Béchut\nLéonida , seule.\nUn jeune homme charmant… il va venir… tâchons d’être belle.\nElle se place devant la glace, à la cheminée, et arrange sa toilette.\nCocarel , in"
+  },
+  {
+   "file": "labiche-la-cagnotte.txt",
+   "offset": 117379,
+   "head": "ceux-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "ceux-là depuis quinze jours… Tricoche.\nQuinze jours !… des œufs frais !… après ça, vous ne pouvez pas les perdre.\nIl va à sa boutique.\nMadame Chalamel.\nComme vous dites…\nTricoche , nouveau bruit de trompe.\nCristi ! qu’ils sont embêtants… (Entrant.) Au revoir, voisine.\nMadame Chalamel.\nBonjour, voisin !\nTous deux rentrent.\nScène II\nChampbourcy ; puis Colladan et Cordenbois\nLa scène reste un moment "
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 2735,
+   "head": "ceux-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "ceux-là ! quand ils approchent un malade, ce n’est pas pour deux jours ! Ils disent tout de suite : \"Ce sera long, très long ! \" Et ils appellent un de leurs collègues en consultation.\n\nMalingear.\n\nÀ quoi bon ?…\n\nMadame Malingear.\n\nC’est une politesse que celui-ci s’empresse de rendre la semaine suivante… Voilà comment on se fait une clientèle ! Malingear, se levant.\n\nQuant à moi, jamais !\n\nMadame"
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 2991,
+   "head": "celui-ci",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-ci s’empresse de rendre la semaine suivante… Voilà comment on se fait une clientèle ! Malingear, se levant.\n\nQuant à moi, jamais !\n\nMadame Malingear.\n\nToi, avec ta bonhomie, tu as perdu peu à peu tous tes clients… Il t’en restait un… le dernier… un brave homme…\n\nMalingear.\n\nM. Dubourg… notre voisin ?\n\nMadame Malingear.\n\nIl avait avalé une aiguille, sans s’en douter… Tu le traites quinze jour"
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 11553,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là devient bâtonnier !…\n\nFrédéric, saluant.\n\nMadame… monsieur… (À Malingear en sortant.) Veuillez dire à mademoiselle Emmeline que je l’aime, que je l’adore… et tant qu’un souffle d’existence…\n\nMalingear, l’accompagnant.\n\nOui… plus tard… pas si haut !…\n\nIls sortent par le fond. \n\n Scène IV\n\nMadame Malingear, Emmeline ; puis Malingear ; puis Alexandrine\n\nMadame Malingear.\n\nC’est un bon jeune "
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 14243,
+   "head": "celle-ci",
+   "sep": ")",
+   "partition": "dialogue",
+   "window": "celle-ci coiffe sa fille qui est à genoux. À Alexandrine.) Plus en arrière !… Malingear… une épingle !\n\nEmmeline.\n\nPapa, une épingle ! Madame Malingear.\n\nDépêche-toi donc !\n\nMalingear, l’apportant.\n\nVoilà ! (À part.) Qu’est-ce qu’elles ont ?…\n\nMadame Malingear.\n\nLà !… Faites entrer ! (Alexandrine sort. Bas à son mari.) Surtout, ne me tutoie pas devant cette dame.\n\nMalingear.\n\nPourquoi ?\n\nMadame Ma"
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 16796,
+   "head": "celle-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celle-là est trop forte !\n\nEmmeline, à part.\n\nQuelle idée a donc maman ?…\n\nMadame Ratinois, examinant le tableau.\n\nC’est d’une vérité… d’une fraîcheur !… On dirait que c’est d’un peintre. Malingear, àpart.\n\nJe crois bien… c’est un Lambinet… Ca me coûte deux mille francs !\n\nMadame Ratinois, à part.\n\nTrès belle, très belle éducation ! (Haut.) Et cet appartement… est-il libre ?…\n\nElle se rasseyent.\n\n"
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 29009,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là ?\n\nRatinois, à part.\n\nIl a un chasseur !\n\nLe chasseur, présentant une lettre sur un plat d’argent.\n\nC’est une lettre qu’on apporte de la part de madame la duchesse de Montefiascone.\n\nMalingear, prenant la lettre, très étonné.\n\nPour moi !… (À part.) Je ne connais pas !\n\nIl se lève.\n\nRatinois, à part.\n\nIl soigne des duchesses !… Malingear, regardant la lettre et à part.\n\nTiens, l’écriture d"
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 44424,
+   "head": "celui-là",
+   "sep": ":",
+   "partition": "dialogue",
+   "window": "celui-là !\n\nMadame Ratinois.\n\nPourquoi ?\n\nRatinois.\n\nIls donnent toujours la même pièce… Voilà quatre fois que nous y allons :… quatre fois Rigoletto ! D’abord, c’est en italien… on n’y comprend rien !\n\nMadame Ratinois.\n\nToi ! Ratinois.\n\nToi non plus ! Tu as beau crier : \"Brava ! brava ! \" pour te faire remarquer, je te défie de me raconter la pièce.\n\nMadame Ratinois.\n\nJ’applaudis la musique.\n\nRat"
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 72842,
+   "head": "celui-là",
+   "sep": "-",
+   "partition": "dialogue",
+   "window": "celui-là ! le connais-tu ?…\n\nFrédéric.\n\nNon !\n\nRatinois, au domestique qui pose les lampes sur la cheminée.\n\nMon ami, d’où sortez-vous ?…\n\nLe Domestique.\n\nJe suis le domestique du premier. Ratinois.\n\nAh ! très bien ! (À Frédéric.) C’est un emprunt !… Il est superbe ! (Regardant le domestique qui sort.) Mais moins grand que celui de Malingear.\n\nOn entend un bruit de voiture.\n\nFrédéric, courant à la"
+  },
+  {
+   "file": "labiche-misanthrope-auvergnat.txt",
+   "offset": 1374,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là, il vit tout seul, dans des endroits noirs, comme un colimaçon !… Dans ce moment, il se rase… en se rasant, il se coupe… et, pour arrêter le sang, il cherche des toiles d’araignée… il n’en trouve pas, et alors il bougonne… Ah ! et puis il a encore un autre tic… quand il a fini sa barbe… il va se recoucher. Il se lève tard, très tard, afin, dit-il, de contempler moins longtemps ses semblab"
+  },
+  {
+   "file": "labiche-misanthrope-auvergnat.txt",
+   "offset": 54515,
+   "head": "celle-là",
+   "sep": ",",
+   "partition": "verse",
+   "window": "celle-là !\n\n Tous. \n Hein ?\n\n Machavoine , levant la main très haut. \n L’autre était grande comme ceci et large comme cela.\n\n Coquenard. \n Vous m’avez donc fait un mensonge ce matin ?\n\n Machavoine. \n Eh ben, oui ! j’ai menti !\n\n Chiffonnet , à part, avec joie. \n Il ment lui-même !… tout seul !… Fi ! fi ! que c’est laid !\n\n Coquenard , à sa femme. \n Allons, madame… j’avais tort.\n\n Machavoine , à pa"
+  },
+  {
+   "file": "labiche-noces-bouchencoeur.txt",
+   "offset": 37704,
+   "head": "celles-là",
+   "sep": "(",
+   "partition": "verse",
+   "window": "celles-là?... (haut) Qui demandez-vous ?...\n\n Première demoiselle \n Nous amenons la mariée...\n\n Le Portier \n Ah bah !... ici?...\n\n Deuxième demoiselle \n Sans doute... chez son mari !...\n\n Le Portier \n Je veux bien, moi!... (à part) Elle est gentille, mame Natole !\n\n II sort. \n Scène III \n Cocotte, les deux demoiselles d'honneur \n Cocotte \n Mon Dieu ! que j'ai peur !... Mesdemoiselles, ne me quitte"
+  },
+  {
+   "file": "labiche-prix-martin.txt",
+   "offset": 2277,
+   "head": "ceux-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "ceux-là !… Tu as raison de rester garçon.\n\n Pionceux , qui s’est assis derrière Martin. \n Etes-vous bête !\n\n Martin. \n Comment, je suis bête ?\n\n Pionceux , indiquant. \n Quarante de bésigue.\n\n Martin. \n C’est vrai, je ne le voyais pas. (Se retournant tout à coup.) Mais je vous prie, monsieur Pionceux, de surveiller vos expressions.\n\n Pionceux , se levant et rangeant son siège. \n Bah ! devant le cap"
+  },
+  {
+   "file": "labiche-prix-martin.txt",
+   "offset": 86636,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là.\n\n Martin. \n Ainsi c’est vous… vous à qui j’ouvrais tous les jours mon foyer, ma table à manger… ma table de jeu ! vous n’avez pas craint de…\n\n Agénor. \n Oh ! si tu savais le chagrin que ça me faisait, ce que j’ai souffert !\n\n Martin. \nTa ta ta ! répondez… Que feriez-vous à ma place ? Agénor. \n À ta place, je dirais : \"Agénor, c’est mal, ce que tu as fait là… mais je sais que tu m’aimes b"
+  },
+  {
+   "file": "labiche-voyage-perrichon.txt",
+   "offset": 14814,
+   "head": "celui-là",
+   "sep": "(",
+   "partition": "dialogue",
+   "window": "celui-là ? Dix sous ?…\nMADAME PERRICHON\nQuinze.\nHENRIETTE\nVingt.\nPERRICHON\nAllons… va pour vingt sous ! (Les lui donnant.) Tenez mon garçon.\nLE FACTEUR\nMerci, monsieur !\nIl sort.\nMADAME PERRICHON\nEntrons-nous ? PERRICHON\nUn instant… Henriette, prends ton carnet et écris.\nMADAME PERRICHON\nDéjà !\nPERRICHON , dictant.\nDépenses : fiacre, deux francs… chemin de fer, cent soixante-douze francs cinq cent"
+  },
+  {
+   "file": "labiche-voyage-perrichon.txt",
+   "offset": 37755,
+   "head": "celle-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celle-là !… Je comptais m’en amuser trois jours, et voilà trois ans qu’elle me tient ! Elle me trompe, elle me ruine, elle me rit au nez !… Je passe ma vie à lui acheter des mobiliers… qu’elle revend le lendemain !… Je veux la quitter, je pars, je fais deux cents lieues ; j’arrive à la mer de Glace… et je ne suis pas sûr de ne pas retourner ce soir à Paris… C’est plus fort que moi !… L’amour à cin"
+  },
+  {
+   "file": "labiche-voyage-perrichon.txt",
+   "offset": 39088,
+   "head": "celui-là",
+   "sep": "(",
+   "partition": "dialogue",
+   "window": "celui-là ! (Apercevant madame Perrichon qui entre de la gauche.) Ah ! madame Perrichon !\nMADAME PERRICHON\nComment ! vous êtes seul, monsieur ? Je croyais que vous deviez accompagner ces messieurs.\nARMAND\nJe suis déjà venu ici l’année dernière, et j’ai demandé à M. Perrichon la permission de me mettre à vos ordres. MADAME PERRICHON\nAh ! monsieur… (À part.) C’est tout à fait un homme du monde !… (Ha"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 28982,
+   "head": "celui-là",
+   "sep": "-",
+   "partition": "dialogue",
+   "window": "celui-là ? \n\nRANTZAU.\n \nJe crois à tout le monde… jusqu’à vingt ans. Passé cet âge-là, c’est différent. \n\nLA REINE.\n \nEt pourquoi ? \n\nRANTZAU.\n \nParce qu’alors ce sont des hommes ! \n\nLA REINE.\n\nVous pensez donc qu’on peut compter sur lui, et que pour soulever le peuple, par \nexemple, ce serait l’homme qu'il faudrait ?…\n\nRANTZAU.\n \nNon. il y a dans cette tête-là autre chose que de l’ambition ; et à"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 99830,
+   "head": "ceux-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "ceux-là même que l’on vient d’arrêter… et qui ne manqueront pas de s’en défendre… ou de m’accuser… mais, par bonheur… j’ai là des preuves ; cette liste écrite… sous leur dictée. \n\nFALKENSKIELD, la prenant vivement.\n \nLa liste des conjurés. \n\n(Il la parcourt.)\n \nRANTZAU, avec compassion et à part.\n \nD’honnêtes conspirateurs sans doute… pauvres gens !… Fiez-vous donc à des lâches comme celui-là… qui"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 100217,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là… qui au premier danger vous livrent pour se sauver. \n\nFALKENSKIELD, lui remettant la liste\n \nTenez. Eh bien ! qu’en dites-vous ?\n\nRANTZAU.\n \nJe dis que je ne vois dans tout cela rien encore de bien positif. Tout le monde peut faire une liste de conjurés ; cela ne prouve pas qu’il y ait conspiration ! Il faut en outre un but ; il faut un chef. \n\nFALKENSKIELD.\n \nEt ne voyez-vous pas que le "
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 110103,
+   "head": "ceux-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "ceux-là, et, s’il fallait les perdre ou les voir compromis… j’aimerais mieux mourir !\n\nÉRIC.\n \nEt moi, plutôt perdre la vie que de vous exposer au moindre soupçon ; ne craignez rien, je m’éloigne. (Il ouvre la porte à droite par laquelle il est entré.) Ô ciel ! il y a des soldats au bas de cet escalier. \n\nCHRISTINE.\n \nDes soldats !\n\nÉRIC, montrant la porte du fond.\n \nMais par ici du moins. \n\nCHRIS"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 123054,
+   "head": "celle-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celle-là, mais nous l’obtiendrons. \n\nLA REINE.\n \nElle est entre vos mains ; je vous seconderai de tout mon pouvoir, moi et les amis attachés à ma cause ; mais agissez !… agissez de votre côté pour renverser Struensée. \n\nMARTHE.\n \nOui, madame, et pour sauver mon fils ; comptez sur notre dévouement. \n\nLA REINE.\n \nTenez-moi au courant de ce que vous ferez et des progrès de la sédition. (Montrant la p"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 141443,
+   "head": "ceux-là",
+   "sep": ";",
+   "partition": "dialogue",
+   "window": "ceux-là ne reculeront pas ; et en leur donnant de l’argent. \n\nMARTHE, vivement.\n \nIl a raison !… De l’or ! de l’or ! tout ce que nous avons ! \n\nRATON.\n \nPermets donc. \n\nMARTHE.\n \nVous hésiteriez ? \n\nRATON.\n \nDu tout ; je ne dis pas non, mais je ne dit pas oui. \n\nJEAN.\n \nEt qu’est-ce que vous dites donc ? \n\nRATON.\n \nJe dis qu’il faut attendre. \n\nMARTHE.\n \nAttendre !… et qui vous empêche de prendre "
+  },
+  {
+   "file": "scribe-charlatanisme.txt",
+   "offset": 49689,
+   "head": "celui-ci",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-ci, je l’ai traité en conscience.\n\n DELMAR. \n Ah ! te voilà Rondon ? as-tu envoyé l’article de ce matin sur l’ouvrage du docteur Rémy ? \n\n RONDON. \n Oui, oui, il était même imprimé ; et dans un quart d’heure, il va paraître, si je ne fais rien dire. Mais j’ai prié qu’on attendît, parce que je veux en\nenvoyer un autre que je viens de composer dans ton cabinet.\n\n DELMAR. \n Un second ! c’est tr"
+  },
+  {
+   "file": "scribe-charlatanisme.txt",
+   "offset": 53071,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là est de bonne foi, et ce sont les meilleurs.\n\n GERMONT. \n De là, je suis passé au Palais-Royal ; j’ai demandé ton Traité sur le Croup . \n\n RÉMY , à part. \n Ah, mon dieu !\n\n RONDON , de même. \n Je respire.\n\n DELMAR. \n Eh bien ! monsieur ?\n\n GERMONT. \n Impossible d’en trouver un exemplaire !\n\n RONDON. \n Cela n’est pas croyable !\n\n RÉMY. \n Vous vous êtes mal adressé.\n\n GERMONT. \n Je me suis a"
+  },
+  {
+   "file": "scribe-charlatanisme.txt",
+   "offset": 57627,
+   "head": "ceux-là",
+   "sep": ":",
+   "partition": "dialogue",
+   "window": "ceux-là en bas : c’est toute l’édition.\n\n DELMAR. \n Veux-tu bien te taire !\n\n JOHN. \n Il n’y manque qu’un seul exemplaire qui a été enlevé.\n\n DELMAR. \n C’est bon ; porte la première édition dans ma chambre : ( À part. ) cela servira pour la seconde.\n\n RÉMY. \n Que veux-tu dire, et quels sont ces livres ?\n\n DELMAR. \n Tu le sauras plus tard ; jouis de ton triomphe ; tu le peux sans rougir, car cette "
+  },
+  {
+   "file": "scribe-le-lorgnon.txt",
+   "offset": 5398,
+   "head": "Celui-là",
+   "sep": ",",
+   "partition": "verse",
+   "window": "Celui-là, fidèle et sensible,\nNe me vole pas, j’en suis sûr.\nREYNOLDS.\nComme le mien. Est-il possible ?\nCHRISTIAN.\nComme le mien. Est-il possible ?\nREYNOLDS.\nOui, maintenant, honnête homme à regret,\nJe le défie, hélas ! de me rien prendre…\nPour me voler quelque chose, il faudrait\n﻿ Qu’il commençât par me le rendre.\nALCÉE , à Birman.\nQui t’amène, mon vieil ami ?\nBIRMAN.\nJe venais, monsieur le baron"
+  },
+  {
+   "file": "scribe-le-lorgnon.txt",
+   "offset": 24408,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là…\nLE COMTE , secouant la tête.\nIl a cependant bien manqué être ajourné…\nREYNOLDS , effrayé.\nNe plaisantons pas ! Est-ce qu’il y aurait quelque\nobstacle… quelque retard ?\nLE COMTE.\nHé… hé… cela a tenu à bien peu de chose. Si Alcée\navait monté le cheval alezan…\nREYNOLDS.\nQu’est-ce que cela signifie ?\nLE COMTE.\nQue ce cheval-là doit aujourd’hui jeter par terre\nson cavalier !…\nREYNOLDS.\nAh ! m"
+  },
+  {
+   "file": "scribe-le-lorgnon.txt",
+   "offset": 32988,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là\npeut compter sur moi, sur mon amitié, sur mon\ndévouement… jusqu’au moment où il deviendrait\ncomme les autres…\nALCÉE.\nAh ! si je le croyais…\nLE COMTE.\nTout est possible, mais ce serait dommage. Maintenant\ntu me connais ; je n’ai qu’une parole, dispose\nde moi et de ce que je puis savoir, si cela te rend\nservice, tant mieux ! une fois du moins cela aura\nservi à quelque chose.\nALCÉE.\nEh bien "
+  },
+  {
+   "file": "scribe-le-lorgnon.txt",
+   "offset": 45162,
+   "head": "celui-là",
+   "sep": "-",
+   "partition": "dialogue",
+   "window": "celui-là.\nMINA.\nQu’est-ce que ça fait ?\nALCÉE.\nPrends-en un autre.\nMINA.\nÇa sera de même !… je ne l’aimerai pas davantage,\net alors autant prendre M. Foster qui convient à mon\npère ; il y aura du moins quelqu’un à qui cela fera\nplaisir. Mais ne craignez rien, je ferai bon ménage,\nje me conduirai en honnête femme, je vous le jure ;\net si je souffre, si je pleure, personne ne s’en apercevra.\nALCÉE.\n"
+  },
+  {
+   "file": "scribe-le-lorgnon.txt",
+   "offset": 51597,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là !…\nCHRISTIAN ET LES AUTRES.\nEt moi aussi !\nREYNOLDS.\nNous lui apprendrons à nous méconnaître, à nous\noutrager : d’abord, je le perdrai de réputation ; vous\nm’y aiderez.\nCHRISTIAN.\nCertainement. Je vais répandre qu’il a refusé de se\nbattre ; je le dirai partout.\nTOUS.\nEt nous aussi.\nREYNOLDS.\nC’est ça, et dès ce soir, dans notre petite ville,\ntout le monde le saura ; ne perdez pas de temps"
+  },
+  {
+   "file": "scribe-le-lorgnon.txt",
+   "offset": 61506,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là…\nMINA , qui, pendant ce temps, a pris le lorgnon et regardé Alcée.\nÔ ciel !… qu’ai-je vu ?\nALCÉE , vivement.\nQu’as-tu donc ?…\nMINA , lui faisant signe de la main de ne pas la déranger.\nRien ! rien ! (Regardant toujours et avec la plus grande émotion.)\nIl m’aime, il m’aime d’amour ! lui, mon jeune maître,\nil n’aime que moi.\nALCÉE.\nQu’oses-tu dire ?\nMINA , avec contentement.\nAh ! je le vois"
+  },
+  {
+   "file": "scribe-le-savant.txt",
+   "offset": 29684,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là ?\nHANTZ.\nDam ! monsieur est assez curieux pour cela, et si\nvous le connaissez…\nFRÉDÉRIC.\nDu tout.\nHANTZ.\nVous venez donc pour faire sa connaissance ?\nFRÉDÉRIC.\nEn aucune façon, je ne viens pas pour lui, mais\npour son appartement, qui est à louer pour quinze\nflorins par mois, car j’ai vu écriteau.\nHANTZ.\nÀ louer ! notre appartement est à louer ? est-il possible,\nmonsieur ?\nREYNOLDS , toujo"
+  },
+  {
+   "file": "scribe-le-savant.txt",
+   "offset": 56303,
+   "head": "Celle-là",
+   "sep": "-",
+   "partition": "dialogue",
+   "window": "Celle-là est à vous.\nREYNOLDS.\nDites-vous vrai ?\nM. DE WURTZBOURG.\nC’est le présent de noce.\nREYNOLDS , lui sautant au cou.\nAh ! mon oncle ! mon cher oncle !… Eh bien ! docteur,\nje sens que vous aviez raison, et que je m’habituerai\nau mariage.\nSCHULTZ.\nVraiment !\nREYNOLDS.\nTout ce que j’en vois jusqu’ici me semble si doux,\nsi agréable. Des gravures, des livres ! je crois encore\nêtre chez moi, et p"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 18119,
+   "head": "celle-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celle-là… Douce et bonne par caractère, mais faible et indécise, n’osant prendre un parti sans prendre l’avis de ceux qui l’entourent, elle devait nécessairement se laisser subjuguer par ses conseillers et ses favoris, et il s’est trouvé près d’elle une femme à l’esprit ferme, résolu et audacieux, au coup d’œil juste et prompt, qui vise toujours droit et haut !… c’est lady Churchill, duchesse de M"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 36952,
+   "head": "ceux-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "ceux-là, je ne suis pas libre de les accueillir… lui, surtout… ancien ministre, je ne puis le voir sans exciter la défiance et les plaintes des nouveaux ! Ah ! quand ne serai-je plus reine, pour être ma maîtresse ! Dans le choix même de mes amis, demander avis et permission aux conseillers de la Couronne, aux Chambres, à la majorité… à tout le monde enfin… c’est à n’y pas tenir… c’est un esclavage"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 46812,
+   "head": "celle-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celle-là qui est reine… c’est l’autre !… et je me laisserais protéger, c’est-à-dire tyranniser par elle !… plutôt mourir !\nJe refuserai… Et cependant maintenant plus que jamais nous aurions besoin d’amis et de protecteurs… car depuis hier… depuis le départ d’Arthur… je n’ai pas vu M. de Saint-Jean… Je ne sais ce qu’il devient… de sorte que j’ai peur toute seule… (Avec effroi.) C’est ici, dans le p"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 60344,
+   "head": "celle-là",
+   "sep": "-",
+   "partition": "dialogue",
+   "window": "celle-là soit si redoutable…\n\nABIG. Plus que je ne peux vous le dire.\n\nBOL. Et quelle est-elle donc ?\n\nABIG., montrant la duchesse qui entre par la galerie à droite. La voici !\n\nBOL., vivement et lui prenant la lettre qu’elle tient. La duchesse !… \n(À Abigaïl qu’il renvoie.) Laissez-nous… laissez-nous.\n\nABIG. Elle m’avait dit de l’attendre…\n\nBOL., la poussant par la porte à gauche. Eh bien ! c’est"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 81502,
+   "head": "celui-là",
+   "sep": "(",
+   "partition": "dialogue",
+   "window": "celui-là surtout !…\n\n(Abigaïl et Masham sortent.)\n \n Scène VI.\n\nBOLINGBROKE, LA REINE qui a été s’asseoir sur le fauteuil, à droite, près du guéridon.\n\nLA REINE, à Bolingbroke qui s’approche d’elle et la salue respectueusement. Dans tout autre moment, Bolingbroke, je vous recevrais avec plaisir, car, vous le savez, j’en ai toujours à vous voir… mais aujourd’hui et pour la première fois…\n\nBOL. Je v"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 102926,
+   "head": "celle-ci",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celle-ci a signé !…\n\nBOL., avec effroi. Le départ de l’ambassadeur !…\n\nABIG. Oh ! ce n’est rien encore !… imaginez-vous que Masham…\n\nBOL. Le marquis s’éloigne de Londres…\n\nABIG., sans l’écouter. Dans vingt-quatre heures ! (Avec force.) Mais si vous saviez…\n\nBOL., avec colère. Et la duchesse…\n\nABIG., vivement. La duchesse n’est pas le plus à craindre !… un autre obstacle plus redoutable encore…\n\nBO"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 105318,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là… Et comment le défendre, moi, pauvre fille ! comment le disputer à deux grandes dames ?\n\nBOL. Tant mieux !… c’est moins redoutable qu’une seule…\n\nABIG., étonnée. Si vous pouvez me prouver cela ?\n\nBOL. Très facilement… Qu’un grand royaume veuille conquérir une petite province, il n’y a pas d’obstacles, elle est perdue ! Mais qu’un autre grand empire ait aussi le même projet, c’est une chan"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 108305,
+   "head": "celle-ci",
+   "sep": "—",
+   "partition": "dialogue",
+   "window": "celle-ci une révérence ironique. — Abigaïl la lui rend et sort. Bolingbroke est resté placé entre les deux dames.\n\nBOL., avec ironie. Grâce au ciel ! la voix du sang agit enfin ! et vous voilà à merveille avec votre parente !… cela me donne de l’espoir pour moi !\n\nLA DUCH., de même. En effet, vous m’avez prédit qu’un jour nous finirions par nous aimer…\n\nBOL., galamment. J’ai déjà commencé ! et vou"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 124330,
+   "head": "celui-là",
+   "sep": ",",
+   "partition": "dialogue",
+   "window": "celui-là, j’en suis sûre… Et la reine jusque-là froide et sévère, a dit, d’un air de bonté : N’en parlons plus, qu’elle vienne ! je la reverrai.\n\nBOL., avec colère. La duchesse ! rentrer dans ce palais dont je la croyais pour jamais bannie…\n\nABIG. Et dans mon trouble, tout ce qui m’est venu à l’idée a été de vous écrire sur-le-champ : Venez ! pour vous apprendre ce qui se passait et ce qui a été c"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 141478,
+   "head": "celle-ci",
+   "sep": "(",
+   "partition": "dialogue",
+   "window": "celle-ci !\n\nABIG. Et ce bruit au dehors !… les appartements se remplissent de monde.\n\nLA REINE. Comment fuir maintenant ?… (À part avec effroi.) Et cette phrase de la duchesse ! (Haut.) Et si on le voit ici…\n\nABIG. Là, sur ce balcon…\n\n(Masham s’élance sur le balcon à gauche. Abigaïl referme la fenêtre.)\n \nLA REINE. C’est bien… va leur ouvrir.\n\nABIG. Oui, madame… mais du calme… du sang froid.\n\nLA R"
+  }
+ ]
+}

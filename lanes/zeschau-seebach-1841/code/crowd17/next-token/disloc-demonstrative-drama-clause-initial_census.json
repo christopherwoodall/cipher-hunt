@@ -1,0 +1,195 @@
+{
+ "files": [
+  {
+   "file": "dumas-antony.txt",
+   "chars": 102234,
+   "dem_comma_hits": 7
+  },
+  {
+   "file": "dumas-henri-iii.txt",
+   "chars": 128462,
+   "dem_comma_hits": 3
+  },
+  {
+   "file": "dumas-kean.txt",
+   "chars": 152233,
+   "dem_comma_hits": 23
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "chars": 204641,
+   "dem_comma_hits": 35
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "chars": 132586,
+   "dem_comma_hits": 12
+  },
+  {
+   "file": "hugo-burgraves.txt",
+   "chars": 151408,
+   "dem_comma_hits": 3
+  },
+  {
+   "file": "hugo-hernani-1870.txt",
+   "chars": 203769,
+   "dem_comma_hits": 1
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "chars": 198265,
+   "dem_comma_hits": 7
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "chars": 118567,
+   "dem_comma_hits": 9
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "chars": 87042,
+   "dem_comma_hits": 11
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "chars": 972696,
+   "dem_comma_hits": 48
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "chars": 182448,
+   "dem_comma_hits": 14
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "chars": 146451,
+   "dem_comma_hits": 7
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "chars": 188780,
+   "dem_comma_hits": 10
+  }
+ ],
+ "total_chars": 2969582,
+ "clause_initial_dem_hits": 12,
+ "clause_initial_candidates": [],
+ "confound_candidates": [
+  {
+   "file": "dumas-antony.txt",
+   "offset": 69365,
+   "dem": "cela",
+   "window": "cela, et ce serait dommage ; vous, bâtie de fleurs et de gaze, vous voulez aimer et être aimée d’amour ; ah !",
+   "inf_hits": [
+    "aimer",
+    "être"
+   ],
+   "gate_reason": "mid-clause (preceded by running text)"
+  },
+  {
+   "file": "dumas-kean.txt",
+   "offset": 119377,
+   "dem": "cela",
+   "window": "cela, sous prétexte qu’il est noble, qu’il est lord, qu’il est pair… Ah !",
+   "inf_hits": [
+    "pair"
+   ],
+   "gate_reason": "mid-clause (preceded by running text)"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 101348,
+   "dem": "cela",
+   "window": "cela,  che- \nvalier !",
+   "inf_hits": [
+    "valier"
+   ],
+   "gate_reason": "mid-clause (preceded by running text)"
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "offset": 129575,
+   "dem": "cela",
+   "window": "cela, qui m’a mis au cœur cet amour bizarre, tout de mère et pas d’amante !",
+   "inf_hits": [
+    "bizarre",
+    "mère"
+   ],
+   "gate_reason": "mid-clause (preceded by running text)"
+  },
+  {
+   "file": "hugo-hernani-1870.txt",
+   "offset": 185467,
+   "dem": "cela",
+   "window": "cela,  c'est  assez I^ \nEn  maudissant  tout  bas  le  mendiant  avide \nAuquel  il  faut  jeter  le  fond  du  verre  vide!",
+   "inf_hits": [
+    "jeter",
+    "verre"
+   ],
+   "gate_reason": "mid-clause (preceded by running text)"
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "offset": 74859,
+   "dem": "cela",
+   "window": "cela, pour si peu, s’aventurer ainsi !",
+   "inf_hits": [
+    "aventurer"
+   ],
+   "gate_reason": "mid-clause (preceded by running text)"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 21031,
+   "dem": "cela",
+   "window": "cela  ,  avoir \npeuplé  un  palais  d'ouvrages  magnifiques,  et  rallumé  le  feu \nsacré  des  arts,  prêt  à  s'éteindre  à  Florence!",
+   "inf_hits": [
+    "avoir",
+    "s'éteindre"
+   ],
+   "gate_reason": "mid-clause (preceded by running text)"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 63055,
+   "dem": "cela",
+   "window": "cela,  mou  cher  seigneur,  et  puisse  le  ciel  venir  à \nvotre  aide  !",
+   "inf_hits": [
+    "cher",
+    "venir",
+    "votre"
+   ],
+   "gate_reason": "mid-clause (preceded by running text)"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 88090,
+   "dem": "cela",
+   "window": "cela  ,  je  suis  volé  d'un  millier \nde  ducats  !",
+   "inf_hits": [
+    "millier"
+   ],
+   "gate_reason": "mid-clause (preceded by running text)"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 21271,
+   "dem": "cela",
+   "window": "cela, risquer ma position, mon crédit !",
+   "inf_hits": [
+    "risquer"
+   ],
+   "gate_reason": "mid-clause (preceded by running text)"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 91030,
+   "dem": "cela",
+   "window": "cela, il faut le connaître !",
+   "inf_hits": [
+    "connaître"
+   ],
+   "gate_reason": "mid-clause (preceded by running text)"
+  }
+ ]
+}

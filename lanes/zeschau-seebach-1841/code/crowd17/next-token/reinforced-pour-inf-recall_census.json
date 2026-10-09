@@ -1,0 +1,167 @@
+{
+ "census_1841_register": {
+  "files": [
+   {
+    "file": "guizot-memoires-t1-gutenberg.txt",
+    "chars": 769437,
+    "old_searched": 1,
+    "recall_occurrences": 0,
+    "recall_candidates": 0
+   },
+   {
+    "file": "guizot-memoires-t2-gutenberg.txt",
+    "chars": 830700,
+    "old_searched": 0,
+    "recall_occurrences": 4,
+    "recall_candidates": 0
+   },
+   {
+    "file": "guizot-memoires-t3-gutenberg.txt",
+    "chars": 852681,
+    "old_searched": 4,
+    "recall_occurrences": 1,
+    "recall_candidates": 0
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "chars": 1992545,
+    "old_searched": 8,
+    "recall_occurrences": 4,
+    "recall_candidates": 0
+   },
+   {
+    "file": "harvest-log.txt",
+    "chars": 1755,
+    "old_searched": 0,
+    "recall_occurrences": 0,
+    "recall_candidates": 0
+   },
+   {
+    "file": "levant-correspondence-1841-p3.txt",
+    "chars": 1690926,
+    "old_searched": 3,
+    "recall_occurrences": 1,
+    "recall_candidates": 0
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "chars": 1492023,
+    "old_searched": 2,
+    "recall_occurrences": 0,
+    "recall_candidates": 0
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "chars": 1723645,
+    "old_searched": 8,
+    "recall_occurrences": 2,
+    "recall_candidates": 0
+   },
+   {
+    "file": "nesselrode-v10.txt",
+    "chars": 556659,
+    "old_searched": 4,
+    "recall_occurrences": 2,
+    "recall_candidates": 0
+   },
+   {
+    "file": "nesselrode-v7.txt",
+    "chars": 521560,
+    "old_searched": 4,
+    "recall_occurrences": 1,
+    "recall_candidates": 0
+   },
+   {
+    "file": "nesselrode-v8.txt",
+    "chars": 614206,
+    "old_searched": 6,
+    "recall_occurrences": 2,
+    "recall_candidates": 0
+   },
+   {
+    "file": "nesselrode-v9.txt",
+    "chars": 498642,
+    "old_searched": 7,
+    "recall_occurrences": 1,
+    "recall_candidates": 0
+   },
+   {
+    "file": "pozzo-di-borgo-correspondance-v1.txt",
+    "chars": 1001901,
+    "old_searched": 5,
+    "recall_occurrences": 6,
+    "recall_candidates": 0
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "chars": 3013552,
+    "old_searched": 19,
+    "recall_occurrences": 11,
+    "recall_candidates": 0
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "chars": 2964405,
+    "old_searched": 23,
+    "recall_occurrences": 10,
+    "recall_candidates": 0
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "chars": 3054350,
+    "old_searched": 18,
+    "recall_occurrences": 12,
+    "recall_candidates": 0
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "chars": 3165234,
+    "old_searched": 24,
+    "recall_occurrences": 9,
+    "recall_candidates": 0
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "chars": 926037,
+    "old_searched": 4,
+    "recall_occurrences": 1,
+    "recall_candidates": 0
+   }
+  ],
+  "total_chars": 25670258,
+  "old_searched_windows": 140,
+  "dropped_windows_reopened": 66,
+  "new_pause_mark_windows": 1,
+  "candidates": []
+ },
+ "census_wider_19c": {
+  "files": [
+   {
+    "file": "gutenberg-17489-miserables1.txt",
+    "chars": 677686,
+    "old_searched": 4,
+    "recall_occurrences": 0,
+    "recall_candidates": 0
+   },
+   {
+    "file": "gutenberg-30513-tocqueville-t1.txt",
+    "chars": 597763,
+    "old_searched": 7,
+    "recall_occurrences": 4,
+    "recall_candidates": 0
+   },
+   {
+    "file": "gutenberg-30514-tocqueville-t2.txt",
+    "chars": 712233,
+    "old_searched": 7,
+    "recall_occurrences": 3,
+    "recall_candidates": 0
+   }
+  ],
+  "total_chars": 1987682,
+  "old_searched_windows": 18,
+  "dropped_windows_reopened": 7,
+  "new_pause_mark_windows": 0,
+  "candidates": []
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "file": "hugo-hernani.txt",
+ "chars": 173559,
+ "dem_comma_hits": 1,
+ "excl_candidates": 1,
+ "strict_hits": 0,
+ "loose_hits": 1,
+ "candidates": [
+  {
+   "dem": "cela",
+   "offset": 167356,
+   "window": "cela, c’est assez !",
+   "inf_hits": []
+  }
+ ],
+ "strict": [],
+ "loose": [
+  {
+   "offset": 29452,
+   "window": "cela pour rire ? Quoi !",
+   "context": "uy Gomez.  Suivez-moi !Seigneur duc…Suivez-moi ! suivez-moi !  Messieurs, avons-nous fait cela pour rire ? Quoi !  Un trésor est chez moi. C’est l’honneur d’une fille,  D’une femme, l’honneur de toute un"
+  }
+ ]
+}

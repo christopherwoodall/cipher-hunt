@@ -1,0 +1,1038 @@
+{
+ "files": {
+  "dumas-antony.txt": {
+   "chars": 102234,
+   "dem_sep_hits": 10,
+   "with_excl_70": 7
+  },
+  "dumas-henri-iii.txt": {
+   "chars": 128462,
+   "dem_sep_hits": 6,
+   "with_excl_70": 3
+  },
+  "dumas-kean.txt": {
+   "chars": 152233,
+   "dem_sep_hits": 24,
+   "with_excl_70": 10
+  },
+  "dumas-mariage-louis-xv-1841.txt": {
+   "chars": 204641,
+   "dem_sep_hits": 41,
+   "with_excl_70": 20
+  },
+  "dumas-tour-de-nesle.txt": {
+   "chars": 132586,
+   "dem_sep_hits": 11,
+   "with_excl_70": 1
+  },
+  "hugo-burgraves.txt": {
+   "chars": 151408,
+   "dem_sep_hits": 7,
+   "with_excl_70": 2
+  },
+  "hugo-hernani.txt": {
+   "chars": 173559,
+   "dem_sep_hits": 6,
+   "with_excl_70": 5
+  },
+  "hugo-ruy-blas.txt": {
+   "chars": 198265,
+   "dem_sep_hits": 19,
+   "with_excl_70": 9
+  },
+  "labiche-chapeau-de-paille.txt": {
+   "chars": 118567,
+   "dem_sep_hits": 36,
+   "with_excl_70": 17
+  },
+  "labiche-martin-poudre-aux-yeux.txt": {
+   "chars": 87042,
+   "dem_sep_hits": 16,
+   "with_excl_70": 11
+  },
+  "musset-comedies-proverbes-1850.txt": {
+   "chars": 972696,
+   "dem_sep_hits": 76,
+   "with_excl_70": 12
+  },
+  "scribe-bertrand-et-raton.txt": {
+   "chars": 182448,
+   "dem_sep_hits": 19,
+   "with_excl_70": 9
+  },
+  "scribe-verre-d-eau.txt": {
+   "chars": 146451,
+   "dem_sep_hits": 22,
+   "with_excl_70": 10
+  },
+  "vigny-chatterton-1835.txt": {
+   "chars": 188780,
+   "dem_sep_hits": 14,
+   "with_excl_70": 4
+  }
+ },
+ "candidates": [
+  {
+   "file": "dumas-antony.txt",
+   "offset": 22241,
+   "head": "cela ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "us garder… j’aurais une excuse aux yeux de ce monde… mais… /  / ANTONY, déchirant l’appareil de sa blessure et de sa saignée. /  / Une excuse, ne faut-il que cela ? /  / ADÈLE. /  / Dieu ! Oh ! le malheureux ! il a déchiré l’appareil… Du sang ! mon Dieu ! du sang ! (Elle sonne.) Au secours !… Ce sang ne s’arrêtera-t-il pas ?… il pâlit… ses yeux se ferment… /  / ANTONY, retombant presque évanoui sur le sofa. /  / Et maintenant "
+  },
+  {
+   "file": "dumas-antony.txt",
+   "offset": 41854,
+   "head": "cela !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " rappela à moi que je n’avais ni rang, ni nom à offrir à celle à qui j’aurais offert mon sang… /  / ADÈLE. /  / Et pourquoi… pourquoi alors ne dîtes-vous pas cela !… — (Elle regarde la pendule.) Dix heures et demie ; le malheureux !… le malheureux !… /  / ANTONY. /  / Dire cela !… oui, peut-être vous, qui, à cette époque, croyiez m’aimer, auriez-vous oublié un instant qui j’étais pour vous en souvenir plus tard… mais à"
+  },
+  {
+   "file": "dumas-antony.txt",
+   "offset": 41962,
+   "head": "cela !",
+   "infinitive": "peut-être",
+   "infinitive_offset": 41975,
+   "context": "ourquoi… pourquoi alors ne dîtes-vous pas cela !… — (Elle regarde la pendule.) Dix heures et demie ; le malheureux !… le malheureux !… /  / ANTONY. /  / Dire cela !… oui, peut-être vous, qui, à cette époque, croyiez m’aimer, auriez-vous oublié un instant qui j’étais pour vous en souvenir plus tard… mais à vos parents il fallait un nom… et quelle probabilité qu’ils préférassent à l’honorable baron d’Hervey le pa"
+  },
+  {
+   "file": "dumas-antony.txt",
+   "offset": 63266,
+   "head": "cela ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "te chambre… — (Elle se précipite vers la porte, qu’elle ferme au verrou.) Et j’avais oublié… cette chambre est sombre… Pourquoi donc tremblé-je comme cela ?… — (Elle sonne.) Des chevaux ! des chevaux ! au nom du ciel !… je meurs ici !… — (À la porte de l’escalier.) Quelqu’un ! madame !… /  /  Scène  VII. /   / L’HÔTESSE, ADÈLE. /  / L’HÔTESSE. /  / (en dehors.) — Voilà ! Voilà ! — (Entrant.) Madame appelle ? /  / ADÈLE. /  / J"
+  },
+  {
+   "file": "dumas-antony.txt",
+   "offset": 93804,
+   "head": "cela…",
+   "infinitive": "dire",
+   "infinitive_offset": 93847,
+   "context": "ment j’avais supporté cette affreuse soirée… eh bien ! je suis calme, je suis tranquille, ne craignez rien… retirez-vous. /  / ANTONY. /  / Oh ! ce n’est pas cela… ne t’alarme pas de ce que je vais te dire… /  / ADÈLE. /  / Parle ! parle ! quoi donc ? /  / ANTONY. /  / Il faut me suivre. /  / ADÈLE. /  / Vous !… et pourquoi ? /  / ANTONY. /  / Pourquoi ? Oh ! mon Dieu ! Pauvre Adèle… écoute, tu sais si ma vie est à toi, si je t’aime avec dél"
+  },
+  {
+   "file": "dumas-antony.txt",
+   "offset": 94900,
+   "head": "cela…",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "s l’époque de son retour. /  / ANTONY. /  / Et si des soupçons le ramènent, si des lettres anonymes ont été écrites. /  / ADÈLE. /  / Des soupçons !… oui, oui, c’est cela… Oh ! mais je suis perdue, moi !… Sauvez-moi, vous… mais n’avez-vous rien résolu ?… vous le saviez avant moi… vous aviez le temps de chercher… Moi, moi… vous voyez bien que j’ai la tête renversée. /  / ANTONY. /  / Il faut te soustraire d’abord à une premièr"
+  },
+  {
+   "file": "dumas-antony.txt",
+   "offset": 97583,
+   "head": "cela !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "-tu ? il va venir, il vient, il est là !… /  / ADÈLE. /  / Oh ! malheureuse !… où en suis-je venue, où m’as-tu conduite ? Et il n’a fallu que trois mois pour cela !… Un homme me confie son nom… met en moi son bonheur… Sa fille… il l’adore… c’est son espoir de vieillesse… l’être dans lequel il doit se survivre… Tu viens il y a trois mois… mon amour éteint se réveille, je souille le nom qu’il me confie… je brise "
+  },
+  {
+   "file": "dumas-henri-iii.txt",
+   "offset": 32741,
+   "head": "cela ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " /  / Mauvaises, monseigneur, mauvaises ; rien ne / marche… tout dégénère. Morbleu ! nous sommes / des conspirateurs à l’eau rose. /  / LE DUC DE GUISE. /  / Comment cela ? /  / CRUCÉ. /  / Eh ! oui… nous perdons le temps en fadaises politiques ; nous courons de porte en porte faire signer / l’Union. Par saint Thomas ! vous n’avez qu’à vous / montrer, monsieur le duc ; quand ils vous regardent, les huguenots sont de la Ligue… /  / LE "
+  },
+  {
+   "file": "dumas-henri-iii.txt",
+   "offset": 39774,
+   "head": "cela ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "stolet ou la lame d’un poignard… Ah ! —  / (Il laisse tomber sa main avec découragement ; elle se pose sur le mouchoir oublié par la duchesse.)  / Qu’est cela ?… mille damnations !… ce mouchoir appartient à la duchesse / de Guise… voilà les armes réunies de Clèves et de / Lorraine… Elle serait venue ici !… Saint-Mégrin !… / Oh ! Mayenne ! Mayenne ! tu ne t’étais donc pas / trompé ! et lui… lui… — (Appelant.) Saint-"
+  },
+  {
+   "file": "dumas-henri-iii.txt",
+   "offset": 43209,
+   "head": "cela…",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "nfidence que le roi avait / abandonné les fraises goudronnées pour prendre / les collets renversés à l’italienne. /  / D’ÉPERNON. /  / Eh ! que ne nous disais-tu cela… nous serons en / retard d’un jour… Tiens ! Saint-Mégrin le savait, / lui… — (À son page.) Que je trouve demain un / collet renversé au lieu de cette fraise… /  / SAINT-LUC, riant. /  / Ah ! ah !… tu te souviens que le roi t’a exilé / quinze jours, parce qu’il manqu"
+  },
+  {
+   "file": "dumas-kean.txt",
+   "offset": 3143,
+   "head": "cela…",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "tes… /  / AMY. /  / Préparez-vous alors à entendre ce qui a jamais été inventé de plus absurde. /  / ELENA. /  / Parlez… /  / AMY. /  / Je ne sais vraiment comment vous dire cela… c’est si ridicule ! /  / ELENA. /  / Mais, mon Dieu, qu’est-ce donc ? /  / AMY. /  / Personne ne peut nous entendre ? /  / ELENA. /  / Vous commencez à m’effrayer, savez-vous ? /  / AMY. /  / Eh bien ! je vous dirai que l’on commence à remarquer dans le monde que vous êtes bien as"
+  },
+  {
+   "file": "dumas-kean.txt",
+   "offset": 4620,
+   "head": "cela…",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "es qui s’ouvrent devant l’autre ? /  / AMY. /  / Sa réputation affreuse, chère amie… /  / ELENA. /  / Vraiment ? AMY. /  / Oh ! mais il n’y a que vous qui ne sachiez pas / cela… mais Kean est un véritable héros de débauche et de scandale ! un homme qui se pique d’effacer Lovelace par la multiplicité de ses amours, / qui lutte de luxe avec le prince royal, et qui avec / tout cela, par un contraste qui dénonce son extraction, rev"
+  },
+  {
+   "file": "dumas-kean.txt",
+   "offset": 7255,
+   "head": "cela !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "de consacrer sa soirée à / la reine de l’Angleterre, à la belle comtesse Amy / de Gosswill. /  / AMY. /  / Quel malheur qu’on ne puisse pas croire un mot / de tout cela ! /  / ELENA. /  / N’a-t-il pas dit que jusqu’à demain il avait rompu / avec la diplomatie ? /  / AMY. /  / Oui… mais l’habitude est une seconde nature, /  / LE COMTE. /  / S’il en est ainsi, je vais dire un mal horrible de / vous. Qui vous habille donc, milady ? cette robe / vous"
+  },
+  {
+   "file": "dumas-kean.txt",
+   "offset": 7744,
+   "head": "cela…",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "ôtre !… Si au / moins vous aviez les cheveux blonds et les yeux / noirs, cette beauté sévère rachèterait tous les autres / défauts… mais, non, rien de tout cela… Oh ! sur / mon honneur ! quand on a été aussi maltraitée de / la nature, on doit être Jalouse de tout le monde !… / Eh bien ! suis-je vrai, cette fois-ci ? /  / AMY. /  / Pas plus que la première… /  / LE COMTE. /  / Mais alors, que croirez-vous ? /  / AMY. /  / Tout ce que vous"
+  },
+  {
+   "file": "dumas-kean.txt",
+   "offset": 25876,
+   "head": "cela ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "Sois tranquille, ce n’est pas le public. /  / DAVID. /  / Ah ! c’est vous, père Borée… /  / SALOMON. /  / Moi-même, enchanté de vous rencontrer. /  / DAVID. /  / Et pourquoi cela ? /  / SALOMON. /  / Chut !… Vous demeurez dans Regent-Street, n’est-ce pas ? /  / DAVID. /  / Numéro 20. /  / SALOMON. /  / C’est bien cela… Eh bien !… imaginez-vous que je voulais passer chez vous ce matin, pour vous dire que vous aviez été superbe hier. /  / DAVID. /  / Vraiment "
+  },
+  {
+   "file": "dumas-kean.txt",
+   "offset": 25993,
+   "head": "cela…",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "rencontrer. /  / DAVID. /  / Et pourquoi cela ? /  / SALOMON. /  / Chut !… Vous demeurez dans Regent-Street, n’est-ce pas ? /  / DAVID. /  / Numéro 20. /  / SALOMON. /  / C’est bien cela… Eh bien !… imaginez-vous que je voulais passer chez vous ce matin, pour vous dire que vous aviez été superbe hier. /  / DAVID. /  / Vraiment ? /  / SALOMON. /  / Parole d’honneur !… La peau de lion vous va à ravir… Lorsque je trouve au bout de la rue, auprès de la "
+  },
+  {
+   "file": "dumas-kean.txt",
+   "offset": 33514,
+   "head": "ça !",
+   "infinitive": "père",
+   "infinitive_offset": 33530,
+   "context": "out à fait, j’en casse toujours deux ou trois… mais maintenant je les fais durcir… ça fait qu’ils ne sont pas perdus, je les mange… Mais ce n’est pas ça !… Quand mon père a vu que le bon Dieu lui avait fait la grâce de lui en envoyer encore un, et que celui-là faisait le treizième, il a dit : Tu portes un mauvais numéro, toi. Avec ça notez qu’il était venu au monde un vendredi… il faudrait lui choisir"
+  },
+  {
+   "file": "dumas-kean.txt",
+   "offset": 34932,
+   "head": "ça…",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "s-tu qu’elle refuse ? /  / PISTOL. /  / Elle, refuser !… oh ! pauvre fille… oh ! oui, vous ne la connaissez pas ; il va falloir des précautions pour lui dire ça… elle pâmerait… Oh ! Ketty ! pauvre Ketty ! va-t-elle être contente !… /  / (Il fait une cabriole.) /  / SALOMON. /  / Eh bien ! que fais-tu donc ? /  / PISTOL. /  / Oh bien ! tant pis, père Salomon ! je sois comme les paons, moi : quand je suis content, je fais la roue"
+  },
+  {
+   "file": "dumas-kean.txt",
+   "offset": 61373,
+   "head": "ça ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " bien ! si demain il ôtait son enseigne, on croirait qu’il a fait banqueroute, et personne n’entrerait plus. /  / KEAN. /  / Il n’y a pas d’autre malheur que ça ? PISTOL. /  / Eh ! mais il me semble que c’en est un des malheurs que de jeûner six semaines, quand on n’est pas dans le carême. /  / KEAN. /  / Peter ! /  / PETER. /  / Votre Honneur ? /  / KEAN. /  / Une plume, de l’encre, du papier. /  / KETTY. /  / Que va-t-il faire ? /  / PETER. /  / Voil"
+  },
+  {
+   "file": "dumas-kean.txt",
+   "offset": 64794,
+   "head": "cela ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "urg, Vienne. Sont-ils ennuyeux d’emplir leurs journaux de nouvelles politiques, de la France, de la Russie, de l’Autriche, qui est-ce qui s’occupe de cela ? qui est-ce que ça intéresse ? Ah ! « Théâtre de Drury-Lane, représentation du Maure de Venise. M. Kean. » « Le spectacle d’hier a attiré peu de monde… » On a refusé cinq cents places au bureau ; la salle craquait. « La mauvaise composition de la soi"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 3405,
+   "head": "cela?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "eureuse  !  /  / JASMIN.  /  / Comment...  au  fond  de  sa  province,  dans  son  cou-  / vent de  Soissons...  elle  avait  déjà  prisses  arrangemens  / pour  cela?...  /  / MARTON.  /  / iUi  !  monsieur  le  comte ,  vous  ne  saurez  jamais  ce  / que  nous  vous  sacrifions.  /  / JASMIN.  /  / Eh  bien  !  mais ,  et  nous  autres  ,  Marton ,  est-ce  que  / vous  nous  croyez  tout-à-fait  esseulés?...  je  sais  cer-  / tain"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 13168,
+   "head": "cela  !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "bre  du  Comte.  /  / marton  ,  ï arrêtant.  / Par  où  vous  en  allez- vous  donc?  /  / LE  CHEVALIER.  /  / Mais,  par  où  je  suis  venu.  /  / MARTON.  /  / C'est  cela  !  pour  que  tout  le  monde  vous  voie.  Te-  / nez, passez  par  cette  chambre;  c'est  la  mienne,  et  si  / l'on  vous  voit  sortir...  eh  bien  !  il  n'y  aura  que  moi  de  / compromise.  /  / le  chevalier  ,  se  retournant.  /  / Il  y  a  donc  un"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 20667,
+   "head": "cela?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "  m'avez  faite,  que  le  comte  de  / «  Candale  ne  serait  jamais  pour  vous  autre  chose  qu'un  / t  frère.  /  / MARTON.  /  / Vous  lui  avez  promis  cela?...  (La  Comtesse  fait  de  la  / tète  signe  que  oui.)  Hum!...  /  / la  comtesse,  continuant.  /  / «  Si  vous  avez  l'espoir  de  tenir  votre  serment,  un  mot,  / «  un  signe ,  je  vous  en  supplie,  qui  me  tranquillise...  / «  quelques  accord"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 24088,
+   "head": "cela?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "  convenance ,  et  que  mademoiselle  / «  de  Torigny  ne  serait  jamais  pour  vous  qu'une  sœur.  »  /  / JASMIN.  /  / Monsieur  le  comte  lui  a  dit  cela?  /  / LE  COMTE.  /  / Ma  foi,  oui...  Mais,  que  veux-tu  !  je  ne  savais  que  / lui  dire...  J'aurais  bien  voulu  te  voir,  maraud ,  faisant  / la  cour  à  une  femme  et  en  épousant  une  autre.  /  / JASMIN.  /  / Monsieur  le  comte  me  connaît  tro"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 43042,
+   "head": "cela?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "je  vinsse  ?  je  te  sa-  / vais en  grandes  affaires.  /  / LE    COMTE.  /  / Ab  !  c'est  vrai...  à  propos,  je  me  suis  marié  hier...  / lu  as  su  cela?  /  / LE    CHEVALIER.  /  / Pardieu  !  il  serait  beau  ,  quand  un  homme  comme  / ,oi  se  marie  ,  que  tout  Paris  ne  s'en  occupât  point  !  /  / LE  comte.  /  / C'était  une  chose  arrangée  depuis  longtemps,  et  que  / ous  les  trois  mois  mon  on"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 46223,
+   "head": "cela!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "LIER.  /  / Oh  !  très-souvent  :  deux  ou  trois  fois  la  semaine  ,  et  / quelquefois  plus.  /  / LE    COMTE.  /  / Mais  c'est  d'un  excellent  frère ,  cela!  /  / LE    CHEVALIER.  /  / Que  veux- tu?  on  s'ennuie  tant  dans  ces  maudites  / garnisons,  qu'il  faut  bien  se  distraire  un  peu...  de  sorte  / que  tu  comprends ,  je  ne  serais  pas  étonné  d'avoir  vu  / ta  femme.  /  / LE    COMTE.  /  / Eh  bien  "
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 54159,
+   "head": "cela  !",
+   "infinitive": "encore",
+   "infinitive_offset": 54221,
+   "context": "!  parce  qu'on  a  eu  la  / faiblesse  de  vous  dire  qu'on  vous  aime,  voilà  que  vous  / devenez  exigeant,  tyrannique...Mais  c'est  fort  mal  cela  !  / Souvenez-vous  donc  que  si  je  n'appartiens  pas  encore  / à  un  autre ,  je  ne  m'appartiens  déjà  plus  à  moi-même.  /  /  / ACTE  II ,  SCÈNE  V.  45  /  / LE    CHEVALIER.  /  / Ah!  comtesse,  oubliez-vous  que  cet  autre  vous  a  en-  / levée à  moi,"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 60794,
+   "head": "cela!",
+   "infinitive": "chevalier",
+   "infinitive_offset": 60806,
+   "context": "mtesse.  / Je  n'ai  rien  à  dire  pour  vous,  chevalier;  maisquant  / à  moi ,  je  sais  que  je  n'ai  point  à  me  plaindre;  j'ai  / bien  mérité  cela!  /  / le  chevalier.  / Pardon  ,  mais  cela  me  passe ,  comtesse  ;  et  corn-  /  /  / ACTE  II,  SCENE  VI.  47  /  / lient  avez-vous  pu,  je  vous  prie,  mériter  une  pareille  / algarade?  /  / LA   COMTESSE.  /  / Comment,  chevalier?  en  oubliant  aujourd'hui "
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 78334,
+   "head": "cela...",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " de  naître  grande  dame.  Mais,  c'est  égal  !  j'ai  / vu  des  gens  bien  malades  de  ma  façon.  /  / LA  COMTESSE.  /  / Mais  c'est  de  la  cruauté  cela...  /  / MARTON.  /  / Oh  !  que  madame  se  rassure...  jamais  personne  n'en  / est  mort.  /  / LA  COMTESSE.  /  / Et  cela  t'a  toujours  réussi?  /  / MARTON.  /  / Toujours.  /  / LA  COMTESSE.  /  / Marton ,  je  veux  être  coquette.  /  / MARTON.  /  / Ohî  mais  ce  pauvre  chev"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 79197,
+   "head": "ça  !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "N,  puis  MARTON.  /  / jasmin  ,  entrant  avec  le  Commandeur.  / Vraiment,  c'est  vous,  monsieur  le  commandeur,  / vous-même?  /  / LE  COMMANDEUR.  /  / Ah  ça  !  drôle ,  est-ce  que  tu  me  croyais  déjà  mort,  / avec  tes  exclamations?...  Je  te  préviens  que  tu  n'es  / pas  porté  sur  mon  testament.  /  / JASMIN.  /  / Fi  donc  !  j'espère  que  monsieur  le  commandeur  me  / rend  plus  de  justice  que  d"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 80194,
+   "head": "ça  !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": ";  deux  doigt  de  vin  d'Espagne,  / avec  un  biscuit  dedans.  /  / JASMIN.  /  / Marton ,  tu  entends  ?  /  / MARTON.  /  / J  y  cours.  /  / LE  COMMANDEUR.  /  / Ah  ça  !  mais ,  est-ce  que  pendant  ce  temps-là  je  ne  / pourrais  pas  toujours  embrasser  mon  neveu?  /  / JASMIN.  /  / Monsieur  le  comte  n'a  pas  encore  sonné  ;  mais  si  / monsieur  le  commandeur  désire  que  je  le  réveille...  /  / LE  COMMANDEUR. "
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 82375,
+   "head": "cela!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "E  COMMANDEUR.  /  / Eh  bien  !  après  ?  /  / MARTON.  /  / Tenez ,  voilà  madame  la  comtesse  qui  appelle.  /  / IX  COMMANDEUR.  /  / Mais ,  c'est  monstrueux  cela!  /  /  / 62  UN  MARIAGE  SOUS  LOUIS  XV.  /  / JASMIN.  /  / Monsieur  le  commandeur  sait  tout  maintenant.  /  / LE  COMMANDEUR.  /  / Mais  d'où  cela  vient-il?...  Est-ce  la  faute  de  Can-  / dale?  est-ce  celle  de  Louise?...  Mon  neveu  aurait-il  de  / l'am"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 100675,
+   "head": "cela...",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "MTESSE.  /  / Ah!  au  fait,  je  me  rappelle,  il  m'a  dit  lui-même  / qu'il  était  joueur.  /  / LE   CHEVALIER.  /  / Il  vous  l'a  dit?  Eh  bien!  c'est  cela...  il  a  joué...  le  / joueur!  /  / LA    COMTESSE.  /  / Ah  !  mon  Dieu!  Et  croyez-vous  qu'il  ait  perdu  beau-  / coup?  /  / LE    CHEVALIER.  /  / Quelque  cinquante  mille  livres  peut-être  ;  de  sorte  / que  vous  comprenez,  au  moment  où  il  vient  d"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 109531,
+   "head": "cela?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "alors ,  tu  en  es  content  ?  /  / LE  CHEVALIER.  /  / Très-content!...  mais  je  n'en  dirai  pas  autant  de  / tout  le  monde.  /  / LE  COMTE.  /  / Comment  cela?  /  / LE  CHEVALIER.  /  / Ah  !  tu  as  un  oncle!...  Dis-moi  donc,  mon  cher,  tu  / ne  m'avais  pas  prévenu  de  cet  oncle-là...  Est-ce  que  / tu  le  gardes?  /  / LE  COMTE.  /  / Le  commandeur?...  Eh  bien!  mais  c'est  un  très-  / brave  homme,  un  p"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 131560,
+   "head": "cela?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " ;  j'ai  bien  été  forcé,  moi ,  de  lui  dire  quel-  / ques mots  dû  chevalier.  /  / LA   COMTESSE.  /  / Mais  encore  ,  que  peut  faire  le  roi  à  cela?  /  / LE   COMTE.  /  / Le  roi  !  il  peut  beaucoup  ,  comtesse  :  il  peut  auto-  / riser une  séparation.  /  / LA  COMTESSE.  /  / Une  séparation!...  Mais  il  me  semble,  monsieur  / le  comte,  qu'une  pareille  chose  ne  se  fait  point  sans  / un  grand"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 171526,
+   "head": "cela  !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "LA    COMTESSE.  /  / Hélas  !  oui.  /  / LE  COMMANDEUR.  /  / Tu  sais  qu'il  en  aime  une  autre.  /  / LA    COMTESSE.  /  / 0  mon  oncle  !  ne  me  dites  pas  cela  !  /  / LE  COMMANDEUR.  /  / Mais  au  contraire,  mais  je  te  le  dirai...  mais  je  te  le  / répéterai  sans  cesse...  car  il  faut  que  tu  en  guérisses  de  / cet  amour.  /  / LA   COMTESSE.  /  / Oh  !  jamais!...  jamais  !  /  / LE  COMMANDEUR.  /  / Jamais!... "
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 173861,
+   "head": "cela?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " / gir ainsi  :  il  serait  embarrassant  pour  elle ,  je  le  com-  / prends, de  se  trouver  face-à-face  avec  moi.  /  / LE    COMMANDEUR.  /  / Pourquoi  cela?  /  / LE  COMTE.  /  / Ah  !  c'est  vrai  ;  vous  ne  savez  pas  ce  qui  est  arrivé,  / (ion  oncle.  /  /  / 428        UN  MARIAGE  SOUS  LOUIS  XV.  /  / LE  COMMANDEUR.  /  / Qn'est-il  donc  arrivé  ?  /  / LE  COMTE.  /  / Il  est  arrivé  que  la  comtesse  a  été  hie"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 174345,
+   "head": "cela?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " / querelle  à  cause  d'elle,  avec  monsieur  de  Saillant,  et  / qu'il  doit  se  battre  avec  lui  ce  matin.  /  / LE  COMMANDEUR.  /  / Comment  sais-tu  cela?  /  / LE  COMTE.  /  / Pardieu  !  je  les  avais  reconnus,  je  les  suivais,  et  j'ai  / tout  entendu.  /  / LE   COMMANDEUR.  /  / Eli  bien  !  que  comptes-tu  faire  ?  /  / LE  COMTE.  /  / Ce  que  je  compte  faire  ?  la  chose  est  on  ne  peut  plus  / simple.."
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 179007,
+   "head": "cela  !",
+   "infinitive": "clair",
+   "infinitive_offset": 179029,
+   "context": "mmandeur.  / Ah!  ça,  mais  est-ce  que  ie  suis  dans  une  maison  de  / fous?  J  /  / LE  COMTE.  /  / Imbécile  que  je  suis  de  n'avoir  pas  vu  tout  cela  !  Mais  / c'est  clair  comme  le  jour,  le  diable  m'emporte!...  Eh  / bien!  voilà  ce  que  c'est  que  d'être  trop  modeste  !  /  / LE    COMMANDEUR.  /  / Mais  enfin,  m'expliqueras-tu?...  /  / LE  COMTE.  /  / Voyons  maintenant,  mon  oncle;  écoutez -moi."
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 196798,
+   "head": "cela...",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "ifférence!...  e'est  de  la  haine,  c'est  du  / mépris  !  /  /  / 1*2        UN  MARIAGE  SOUS  LOUIS  XV.  /  / LE  COMMANDEUR.  /  / Ce  n'est  rien  de  tout  cela...  c'est  de  l'amour!...  car  / loin  de  te  haïr  et  de  te  mépriser  ,  il  t'aimait,  Louise.  /  / LA   COMTESSE.  /  / Il  m'aimait  !...  Vous  le  croyez,  mon  oncle  ?  /  / LE  COMMANDEUR.  /  / Il  t'aimait  comme  tu  l'aimes  ,  et  plus  encore  peut"
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "offset": 60903,
+   "head": "cela ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " : Reste, mon Gaultier, reste ; meure ma réputation, meure ma puissance ! mais reste, reste près de moi, près de moi toujours ! /  / GAULTIER. /  / Tu ferais cela ? /  / MARGUERITE. /  / Oui ! mais je suis une femme !… moi, dont l’honneur n’est rien, qui peux être parjure impunément / et qu’on peut torturer à loisir, pourvu qu’on ne manque pas à sa parole de gentilhomme ; qu’on / peut faire mourir de jalousie, pourvu qu’on"
+  },
+  {
+   "file": "hugo-burgraves.txt",
+   "offset": 62326,
+   "head": "ceci !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " / Guanhumara sort.  /  / Otbert, seul.  /  / \t\t\t\t\t\t\tMerci, femme !  /  / Quel que soit ton projet, qui que tu sois, merci !  /  / Ma Régina vivra ! — Mais portons-lui ceci !  /  / Il se dirige vers la porte bâtarde, puis s'arrête un moment et fixe son regard sur la fiole.  /  / Oh ! que l'enfer me prenne, et qu'elle vive !  /  / Il entre précipitamment sous la porte bâtarde, qui se referme derrière lui. Cependant on entend du-côté "
+  },
+  {
+   "file": "hugo-burgraves.txt",
+   "offset": 71789,
+   "head": "cela!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "triomphait,  /  / L'incendie et l'exil, les fers, mille aventures,  /  / Les juges, les cachots, les greffiers, les tortures,  /  / Oui, nous avons souffert tout cela! nous avons,  /  / Grand Dieu ! comme des Juifs, comme des Esclavons /   / Subi ce long affront, cette longue victoire,  /  / Et nos fils dégradés n'en savent plus l'histoire! — /   / Tout pliait devant lui. — Quand Frédéric premier,  /  / Masqué, mais couvert d'or du t"
+  },
+  {
+   "file": "hugo-hernani.txt",
+   "offset": 26661,
+   "head": "ceci !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "a petite porte. /  / Fuyons par là. /  / Don Carlos. /  / Fuyons par là.Bonsoir. Pour moi, je reste ici. /  / Hernani. /  / Ah ! Tête et sang ! Monsieur, vous me paierez ceci ! /  / ﻿À doña Sol. /  / Si je barricadais l’entrée ? /  / Don Carlos, à Josefa. /  / Si je barricadais l’entrée ? Ouvrez la porte. /  / Hernani. /  / Que dit-il ? /  / Don Carlos, à Josefa interdite. /  / Que dit-il ?Ouvrez donc, vous dis-je ! /  / On frappe toujours. Doña Josefa va ou"
+  },
+  {
+   "file": "hugo-hernani.txt",
+   "offset": 77096,
+   "head": "cela ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "fois, cent fois moins que la femme /  / Qui sous un front si pur cache ce cœur infâme ! /  / Examinant de nouveau le coffret. / Et qu’avez-vous donné pour tout cela ? — Fort bien ! /  / Un peu de votre amour ? mais, vraiment, c’est pour rien ! /  / Grand Dieu ! trahir ainsi ! n’avoir pas honte, et vivre ! /  / Examinant l’écrin. / Mais peut-être après tout c’est perle fausse et cuivre /  / Au lieu de l’or, verre et plomb, diamants"
+  },
+  {
+   "file": "hugo-hernani.txt",
+   "offset": 113164,
+   "head": "cela ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "udeur, /  / À tous ces affamés émiette la grandeur ! /  / Rêvant. / Dieu seul et l’empereur sont grands ! — et le saint-père ! /  / Le reste, rois et ducs ! qu’est cela ? /  / Don Ricardo. /  / Le reste, rois et ducs ! qu’est cela ?Moi, j’espère /  / Qu’ils prendront votre altesse. /  / Don Carlos, à part. /  / Qu’ils prendront votre altesse.Altesse ! Altesse, moi ! /  / J’ai du malheur en tout. — S’il fallait rester roi ! /  / Don Ricardo, à p"
+  },
+  {
+   "file": "hugo-hernani.txt",
+   "offset": 122401,
+   "head": "cela !",
+   "infinitive": "Monter",
+   "infinitive_offset": 122410,
+   "context": "des empires sans nombre, /  / Grands vaisseaux naufragés, que son flux et reflux /  / Roule, et qui le gênaient, et qu’il ne connaît plus ! /  / — Gouverner tout cela ! — Monter, si l’on vous nomme, /  / À ce faîte ! Y monter, sachant qu’on n’est qu’un homme ! /  / Avoir l’abîme là !… — Pourvu qu’en ce moment /  / Il n’aille pas me prendre un éblouissement ! /  / Oh ! d’états et de rois mouvante pyramide, /  / Ton faîte est bien étroi"
+  },
+  {
+   "file": "hugo-hernani.txt",
+   "offset": 170720,
+   "head": "cela ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "on dans le cœur fait éclore /  / Une hydre à mille dents qui ronge et qui dévore ! /  / Oh ! je ne savais pas qu’on souffrît à ce point ! /  / Qu’est-ce donc que cela ? c’est du feu ! Ne bois point ! /  / Oh ! tu souffrirais trop ! /  / Hernani, à don Ruy. /  / Oh ! tu souffrirais trop !Ah ! ton âme est cruelle ! /  / Pouvais-tu pas choisir d’autre poison pour elle ? /  / Il boit et jette la fiole. /  / Doña Sol. /  / Que fais-tu ? /  / Hernani. / "
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "offset": 24219,
+   "head": "cela !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "e. /  / Ah ! vous voilà, bandit ! /  / Don César. /  / Ah ! vous voilà, bandit !Oui, cousin, me voilà. /  / Don Salluste. /  / C’est grand plaisir de voir un gueux comme cela ! /  / Don César, saluant. /  / Je suis charmé… /  / Don Salluste. /  / Je suis charmé…Monsieur, on sait de vos histoires. /  / Don César, gracieusement. /  / Qui sont de votre goût ? /  / Don Salluste. /  / Qui sont de votre goût ? Oui, des plus méritoires. /  /   / Don Charles de Mira l"
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "offset": 46106,
+   "head": "ceci ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "ar. /  /   /  / Ayez pitié de moi, mon dieu ! Je me rappelle. /  / Ne demandais-tu pas pourquoi je l’aime ainsi, /  / Et depuis quand ?… — Un jour… — Mais à quoi bon ceci ? /  / C’est vrai, je t’ai toujours connu cette manie ! /  / Par mille questions vous mettre à l’agonie ! /  / Demander où ? comment ? quand ? pourquoi ? Mon sang bout ! /  / Je l’aime follement ! Je l’aime, voilà tout ! /  /   / Don César. /  / Là ; ne te fâche pas. /  / Ruy Blas"
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "offset": 144248,
+   "head": "cela ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "ameux poëte appelé le soleil ! /  / Xérès-des-Chevaliers n’a rien de plus vermeil. /  /   /  / Il s’assied, se verse un second verre et boit. /  /   /  / Quel livre vaut cela ? Trouvez-moi quelque chose /  / De plus spiritueux ! /  /   /  / Il boit. /  /   /  / De plus spiritueux ! Ah Dieu, cela repose ! /  / Mangeons. /  /   /  / Il entame le pâté. /  /   /  / Mangeons.Chiens d’alguazils ! Je les ai déroutés. /  / Ils ont perdu ma trace. /  /   /  / Il mange. /  /   /  / Ils ont p"
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "offset": 151023,
+   "head": "ça !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "si je sais que lui dire. /  /   /  / Haut. /  /   /  / Approche, galion, et d’abord — /  /   /  / Il remplit de vin l’autre verre. /  /   /  / Approche, galion, et d’abord —bois-moi ça ! /  / Le Laquais. /  / Quoi, seigneur ! /  / Don César. /  / Quoi, seigneur !Bois-moi ça ! /  /   /  / Le laquais boit. Don César lui remplit son verre. /  /   /  / Quoi, seigneur !Bois-moi ça !Du vin d’Oropesa ! /  /   /  / Il fait asseoir le laquais, le fait boire, et lui verse de nouvea"
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "offset": 151097,
+   "head": "ça !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "Il remplit de vin l’autre verre. /  /   /  / Approche, galion, et d’abord —bois-moi ça ! /  / Le Laquais. /  / Quoi, seigneur ! /  / Don César. /  / Quoi, seigneur !Bois-moi ça ! /  /   /  / Le laquais boit. Don César lui remplit son verre. /  /   /  / Quoi, seigneur !Bois-moi ça !Du vin d’Oropesa ! /  /   /  / Il fait asseoir le laquais, le fait boire, et lui verse de nouveau du vin. /  /   /  / Causons. /  /   /  / À part. /  /   /  / Causons.Il a déjà la prunelle allum"
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "offset": 151185,
+   "head": "ça !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "uais. /  / Quoi, seigneur ! /  / Don César. /  / Quoi, seigneur !Bois-moi ça ! /  /   /  / Le laquais boit. Don César lui remplit son verre. /  /   /  / Quoi, seigneur !Bois-moi ça !Du vin d’Oropesa ! /  /   /  / Il fait asseoir le laquais, le fait boire, et lui verse de nouveau du vin. /  /   /  / Causons. /  /   /  / À part. /  /   /  / Causons.Il a déjà la prunelle allumée. /  /   /   /  / Haut et s’étendant sur sa chaise. /  /   /  / L’homme, mon cher ami, n’est que de la f"
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "offset": 165738,
+   "head": "cela ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "orter ces quatre mots écrits dans une boîte : /  / « Gardez le plus longtemps possible ce vieux fou ! » /  / Don César, éclatant de rire. /  / Parfait ! qui donc cela ? /  / Don Guritan. /  / Parfait ! qui donc cela ?Mais je tordrai le cou /  / À César De Bazan ! /  / Don César, gravement. /  / À César De Bazan !Ah ! /  / Don Guritan. /  / À César De Bazan ! Ah !Pour comble d’audace, /  / Tout à l’heure il m’envoie un laquais à sa place. /  / Pour l’"
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "offset": 165779,
+   "head": "cela ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "te : /  / « Gardez le plus longtemps possible ce vieux fou ! » /  / Don César, éclatant de rire. /  / Parfait ! qui donc cela ? /  / Don Guritan. /  / Parfait ! qui donc cela ?Mais je tordrai le cou /  / À César De Bazan ! /  / Don César, gravement. /  / À César De Bazan !Ah ! /  / Don Guritan. /  / À César De Bazan ! Ah !Pour comble d’audace, /  / Tout à l’heure il m’envoie un laquais à sa place. /  / Pour l’excuser, dit-il ! Un dresseur de buffet !"
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "offset": 169953,
+   "head": "cela !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "an ! /  / C’est quelque contre-mine ! oui, quelque avis fidèle /  / Dont il aura chargé don Guritan pour elle ! /  / — On ne peut rien savoir des muets ! — C’est cela ! /  / Je n’avais pas prévu ce don Guritan-là ! /  /   /  / Rentre don César. Il tient à la main l’épée nue qu’il jette en entrant sur un fauteuil. /  /   /   /  /  Scène SEPTIÈME. /  / DON SALLUSTE, DON CÉSAR. /  / Don César, du seuil de la porte. /  / Ah ! j’en étais bien sûr ! vous"
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 11270,
+   "head": "ça :",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "artager sa soupe aux choux en compagnie du cousin Bobin, un grand dadais qui a la manie d’embrasser tout le monde… surtout ma femme… — On me répond à ça : « Bah ! ils ont été élevés ensemble ! » — Ce n’est pas une raison… Et une fois marié… — Marié !!! (Au public.) Êtes-vous comme moi ?… Ce mot me met une fourmi à chaque pointe de cheveu… Il n’y a pas à dire… dans une heure, je le serai… (Vivement.) m"
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 20017,
+   "head": "ça !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " un myrte pour moi ? /  / Fadinard. /  / Un myrte !… pour quoi faire ?  /  / Nonancourt. /  / C’est un emblème, monsieur… /  / Fadinard. /  / Ah ! /  / Nonancourt. /  / Vous riez de ça !… vous vous moquez de nous… parce que nous sommes des gens de la campagne… des paysans !… /  / Bobin, pleurant. /  / Des pipiniéristes ! /  / Fadinard. /  / Allez, allez ! /  / Nonancourt. /  / Mais ça m’est égal… Je veux le placer moi-même dans la chambre à coucher de ma f"
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 34150,
+   "head": "ça…",
+   "infinitive": "autre",
+   "infinitive_offset": 34163,
+   "context": "te donne ma pratique… (Changeant de ton.) Ah !… j’ai besoin d’un chapeau de paille d’Italie… tout de suite… avec des coquelicots. /  / Clara. /  / Oui, c’est ça… pour une autre femme ! /  / Fadinard. /  / Oh ! oh ! qu’elle est bête !… un chapeau de paille pour… non, c’est pour un capitaine de dragons… qui veut faire des traits à son colonel. /  / Clara. /  / Hum ! ce n’est pas bien sûr !… mais je vous pardonne… à une condit"
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 34682,
+   "head": "ça :",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " me conduirez ce soir à l’Ambigu. /  / Fadinard. /  / Ah ! c’est une bonne idée !… voilà une bonne idée !… J’ai justement ma soirée libre… Je me disais comme ça : « Mon Dieu ! qu’est-ce que je vais donc faire de ma soirée ?… » Voyons les chapeaux ! /  / Clara. /  / C’est ici mon salon… venez dans mon magasin et ne faites pas l’œil à mes ouvrières. /  / Elle entre à droite au deuxième plan. Fadinard va pour la suivre. /  / No"
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 36677,
+   "head": "ça…",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "Oui, je fus sa mère nourrice /  / Au moyen de mon arrosoir. /  / (S’interrompant et secouant son pied.) Cristi ! (Remettant le myrte à Bobin.) Tiens ! prends ça… j’ai une crampe ! /  / Vézinet. /  / C’est très gentil ici… (Montrant le comptoir.) Voilà le prétoire… (Montrant le livre.) Le registre de l’état civil… nous allons tous signer là-dessus. /  / Bobin. /  / Ceux qui ne savent pas ? /  / Nonancourt. /  / Y feront une croix. ("
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 42441,
+   "head": "ça !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "assée est ma cousine aussi. /  / Tous. /  / Ah !!! /  / Nonancourt. /  / Présentez-la-moi… je vais l’inviter à la noce. /  / Fadinard, à part. /  / Il ne manquerait plus que ça ! (Haut.) C’est inutile… elle n’accepterait pas… elle est en deuil. /  / Nonancourt. /  / En robe rose ? /  / Fadinard. /  / Oui, c’est de son mari. /  / Nonancourt. /  / Ah ! (À Tardiveau.) Monsieur, je renoue ! Bobin, je te la retire.  /  / Bobin, vexé à part. /  / Vieux tournique"
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 47373,
+   "head": "ça ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "i rentre étonnée, par la gauche, en regardant à la cantonade. La ramenant vivement sur le devant.) Clara !… vite !… où demeure-t-elle ?… /  / Clara. /  / Qui ça ?  /  / Fadinard. /  / Ta baronne ! /  / Clara. /  / Quelle baronne ? /  / Fadinard. /  / La baronne au chapeau, crétine !… /  / Clara, se révoltant. /  / Ah ! mais dites donc !… /  / Fadinard. /  / Non !… cher ange !… je voulais dire : cher ange !… Donne-moi son adresse. /  / Clara. /  / M. Tardiv"
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 60861,
+   "head": "ça ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "e, lui remettant gracieusement une fleur. /  / Voici, monsieur, je paye comptant. /  / Fadinard, prenant la fleur avec stupéfaction. /  / Qu’est-ce que c’est que ça ?… Un œillet d’Inde !!! Ah çà ! elle n’a donc pas reçu ma lettre ?… je porterai plainte contre le facteur !… /  /  Scène VI. /  / FADINARD, LA BARONNE, / invités des deux sexes. Les invités entrent par la droite. /  /   /  / CHŒUR. /  / AIR de Nargeot. /  / Les invités. /  / ﻿Quel"
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 61516,
+   "head": "ceci ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "p courts. /  / ﻿Je vous ai promis /  / ﻿Un chanteur exquis : /  / ﻿Saluez, voici /  / ﻿Le fameux Nisnardi. /  / Fadinard, à part. /  / ﻿Qui, moi, Nisnardi ! /  / ﻿Que diable est ceci ? /  / La Baronne /  / ﻿Rival du grand Rubini ! /  / Fadinard /  / ﻿Mais non !… quelle erreur ! /  / La Baronne, souriant. /  / ﻿Taisez-vous, monsieur /  / ﻿De Bologne les bravos /  / ﻿Ont des échos. /  / Fadinard, à part. /  / ﻿Pour rester ici, /  / ﻿Soyons Nisnardi /  / ﻿Au lieu de Fadinardi. /  / ﻿("
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 63077,
+   "head": "ça…",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "antaisies. /  / La Baronne. /  / Je le sais. /  / Fadinard. /  / Ah ! tant mieux !… et quand on refuse de les satisfaire… ça me prend ici… à la gorge… je parle comme ça… (Stimulant l’extinction de voix.) Impossible de chanter !… /  / La Baronne, à part. /  / Ah ! mon Dieu ! et mon concert ! (Haut.) Parlez, monsieur, que vous faut-il ? que désirez-vous ? /  / Fadinard. /  / Ah ! voilà !… c’est très difficile à demander… /  / La Baronne,"
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 66158,
+   "head": "ça ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "ris. /  / Mon gendre, tout est rompu ! /  / Fadinard, se retournant. /  / Hein ?… vous ! Qu’est-ce que vous faites là ? /  / Nonancourt. /  / Nous dînons. /  / Fadinard. /  / Où ça ? /  / Nonancourt. /  / Là !  /  / Fadinard, à part. /  / Sapristi ! le dîner de la baronne ! /  / Nonancourt. /  / Satané Veau-qui-tète !… quelle crâne maison !… J’y reviendrai quelquefois ! /  / Fadinard. /  / Permettez !… /  / Nonancourt. /  / Mais, c’est égal, votre conduite est celle d"
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 79116,
+   "head": "ça !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "’eau chaude dans le bain. /  / Chauffez votre bain… /  / Beauperthuis, criant. /  / Aïe ! (Lui arrachant la bouilloire qu’il repose à terre.) Voulez-vous laisser ça ! Que demandez-vous, monsieur ? Qui êtes-vous ? /  / Fadinard. /  / Léonidas Fadinard, vingt-cinq ans, rentier… marié d’aujourd’hui… Mes huit fiacres sont à votre porte. /  / Beauperthuis. /  / Qu’est-ce que ça me fait, monsieur ? Je ne vous connais pas. /  / Fadinard. /  / "
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 87884,
+   "head": "ça !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "es rideaux de l’alcôve du fond qui se ferment. /   /  Scène VII. /  / NONANCOURT, puis FADINARD. /  / Nonancourt, regardant le paravent, et avec indignation. /  / Ah ça ! mais… il ne bouge pas, là-dedans !… Est-ce que ce monstre-là se serait endormi pendant mon discours ? (Il ouvre brusquement le paravent.) Personne ! (Le voyant entrer vivement par la porte de gauche, premier plan, que cachait le paravent.) Ah !!! /  / F"
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 91216,
+   "head": "ça !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "ui montre. /  / Beauperthuis, à part, voyant l’échantillon. /  / Grand Dieu ! /  / Fadinard. /  / Paille de Florence… coquelicots… /  / Beauperthuis, à part. /  / C’est bien ça ! c’est le sien !… et elle est chez lui… Les gants de Suède étaient une craque ! /  / Fadinard. /  / Voyons… combien ?… /  / Beauperthuis, à part. /  / Oh ! il va se passer des choses atroces… (Haut.) Marchons, monsieur. /  / Il lui prend le bras. /  / Fadinard. /  / Où ça ? /  / Be"
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 91462,
+   "head": "ça ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "Voyons… combien ?… /  / Beauperthuis, à part. /  / Oh ! il va se passer des choses atroces… (Haut.) Marchons, monsieur. /  / Il lui prend le bras. /  / Fadinard. /  / Où ça ? /  / Beauperthuis. /  / Chez vous ! /  / Fadinard. /  / Sans chapeau ? /  / Beauperthuis. /  / Silence ! /  / Il écoute vers la chambre où est Hélène. /  / Virginie, entrant par le fond. /  / Monsieur, je viens du Gros-Caillou… personne !  /  / Beauperthuis, écoutant. /  / Silence ! /  / Fadinard"
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 95012,
+   "head": "ça !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "perthuis.) Monsieur, vous daignerez excuser une légère erreur… /  / Nonancourt. /  / Repassons nos habits, Bobin… /  / Bobin. /  / Oui, mon oncle.  /  / Fadinard. /  / C’est ça ! et filons chez moi. Je passe devant avec ma femme !… /  / Il va vers elle. Beauperthuis le retient. /  / Beauperthuis, à voix basse. /  / Monsieur, la mienne n’est pas rentrée ! /  / Fadinard. /  / Elle aura manqué l’omnibus. /  / Beauperthuis, qui ôte sa robe de chambre e"
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 106947,
+   "head": "ça !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "q cents francs. /  / Fadinard, tirant son échantillon. /  / De Florence !… (Lui prenant le chapeau et le comparant à l’échantillon sous le réverbère.) Donnez ça !… Est-il possible !… moi qui, depuis ce matin… et il était… (Étouffant de joie.) Mais, oui… conforme !… conforme !… conforme !… et des coquelicots !… (Criant.) Vive l’Italie !… /  / Il le remet dans le carton. /  / Tous. /  / Il est fou !… /  / Fadinard, sautant, ch"
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 10244,
+   "head": "ça !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "mon piano… Frédéric. /  / Oh !… je suis avocat… /  / Malingear. /  / Exécutant ? /  / Frédéric. /  / Non ! mais je commence… J’ai peu de clients. /  / Malingear. /  / Je connais ça !… Je ne vous en veux pas ! /  / Frédéric. /  / Du reste, ma position est indépendante… Mon père, ancien négociant, s’est retiré des affaires avec une fortune honorable… Je suis fils unique. /  / Madame Malingear, à part. /  / Ah ! /  / Frédéric. /  / Enfin, je n’ai pas cru "
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 27624,
+   "head": "ça…",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "emme me dit : \"Comme tu es rouge !… Est-ce que tu es malade ?…\" Je lui réponds : \"Je ne suis pas positivement malade… mais je me sens comme ci, comme ça…\" Et j’ai pris un bain de pieds… Voilà comment ça m’est venu ! Malingear, à part. /  / Il a l’air d’un brave homme ! (Haut, se levant.) Et qu’éprouvez-vous ? /  / Ratinois ; embarrassé. /  / Mon Dieu, bien des petites choses… tantôt d’un côté… tantôt de l’autre."
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 38432,
+   "head": "ça…",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "à madame Ratinois. /  / Quelle heureuse surprise ! Etes-vous enfin décidée à prendre l’appartement ? Ratinois. /  / Non, nous ne venons pas positivement pour ça… (À part.) Dieu ! que je suis ému ! /  / Malingear, à Ratinois. /  / Votre indisposition se serait-elle aggravée ? /  / Ratinois. /  / Merci, ça ne vas pas mal ! /  / Madame Ratinois. /  / Nous venons pour autre chose… /  / M. et Madame Malingear, feignant l’étonnement. /  / Pour a"
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 45278,
+   "head": "ça !",
+   "infinitive": "contre",
+   "infinitive_offset": 45313,
+   "context": " demoiselle. /  / Ratinois. /  / Oui ! nous les saluons de notre loge ; ils nous saluent de la leur… et voilà ! Ca peut durer une infinité de Rigoletto comme ça ! Par exemple, il y a une chose contre laquelle je proteste formellement ! /  / Madame Ratinois. /  / Quoi donc ? /  / Ratinois, se levant. /  / Pour faire croire aux Malingear que nous avons des relations, tu me forces à distribuer des salutations à un tas de gens q"
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 46762,
+   "head": "ça !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "gauche. /  /  Scène II /  / Ratinois ; puis Robert /  / Ratinois, seul. /  / Oui, des robes, pour les Italiens ! avec des corsages… rigoletto… C’est encore très salé ça ! Nous ferons nos petits comptes à la fin du mois ! /  / Robert, entrant par le fond. Il porte des boucles d’oreilles. /  / Bonjour, Ratinois ! /  / Ratinois. /  / Tiens, c’est l’oncle Robert ! /  / Ils se donnent la main. /  / Robert. /  / Tout le monde va bien ? /  / Ratinois. /  / Ou"
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 47707,
+   "head": "ça…",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "rt.) C’est drôle ! depuis que je vais dans un certain monde, je le trouve commun, l’oncle Robert ! /  / Robert. /  / Eh bien, je n’en suis pas plus fier pour ça… /  / Ratinois. /  / Parbleu ! (À part.) Ses boucles d’oreilles sont odieuses ! /  / Robert. /  / Parce que je me dis : \"L’homme vaut ce qu’il vaut ! \" /  / Ratinois. /  / Dites donc, ça ne vous gêne pas !… /  / Robert. /  / Quoi donc ? /  / Ratinois, montrant les boucles d’oreilles. /  / "
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 49967,
+   "head": "ça !",
+   "infinitive": "voir",
+   "infinitive_offset": 49992,
+   "context": "arti inespéré. /  / Robert. /  / Un marchand de bois ? /  / Ratinois. /  / Pas tout à fait ! Malheureusement, ça ne marche pas… ça traîne. /  / Robert. /  / Il faut chauffer ça ! Veux-tu que j’aille voir la famille ? /  / Ratinois, effrayé. /  / Non, merci ! (À part.) S’il se rencontrait avec la duchesse !… /  / Robert. /  / Tu sais ce que je t’ai dit : \"Je n’ai pas d’enfants, je suis riche ; le jour du mariage, je ferai un cadeau, un beau "
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 68513,
+   "head": "ça ?",
+   "infinitive": "Maître",
+   "infinitive_offset": 68522,
+   "context": "n en buisson d’ananas, surmontée d’un Chinois filé en sucre. /  / Madame Ratinois. /  / Oh ! cela doit être charmant !… /  / Ratinois. /  / Qu’est-ce que vous vendez ça ? /  / Le Maître d’Hôtel. /  / Soixante-quatre francs. Ratinois. /  / Ah ! permettez !… les sucreries, ça me connaît, en ma qualité d’ancien… /  / Madame Ratinois, Vivement. /  / C’est bien !… Nous verrons… nous réfléchirons. /  / Le Maître d’Hôtel. /  / Quand Madame voudra, c’e"
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 80161,
+   "head": "cela !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " autant !… /  / Robert - Comment, toi ? /  / Ratinois, embarrassé. /  / Naturellement. /  / Robert, à Ratinois. /  / Mon compliment ! Je ne te savais pas aussi riche que cela ! /  / Ratinois. /  / Aussi riche ! aussi riche ! Certainement, je suis à mon aise… mais, quand on se trouve en face de gens… millionnaires… qui ont des exigences… /  / Malingear. /  / Ah ! permettez, monsieur… je n’ai rien exigé… C’est vous, au contraire, qui… /  / Rati"
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 84253,
+   "head": "ça !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "Mon oncle Robert… vous avez des boucles d’oreilles… vous n’avez pas d’esprit, vous n’avez pas d’instruction… (Se frappant le cœur.) Mais vous avez de ça ! Malingear. /  / Oh ! oui. /  / Ratinois, très ému. /  / Vous m’avez remué… vous m’avez bouleversé !… Vous m’avez prouvé que je n’étais qu’un père à jeter par la fenêtre. (montrant Malingear) et Monsieur aussi… Mais ce n’est pas ma faute… c’est la faute de ma fe"
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 86457,
+   "head": "ça !",
+   "infinitive": "maître",
+   "infinitive_offset": 86466,
+   "context": "c douze sous dans sa poche, donne cent mille francs de dot à son neveu ! /  / Frédéric. /  / Ah ! mon oncle ! /  / Emmeline. /  / Mon bon oncle ! /  / Ratinois. /  / Il a de ça ! /  / Le maître d’hôtel, entrant. /  / Le dîner est servi ! /  / Robert. /  / Allons, à table ! /  / Ratinois. /  / Un instant ! /  / Tous. /  / Quoi donc ?… Ratinois. /  / C’est que j’ai commandé un dîner insensé… j’en suis honteux !… Six plats de truffes !… /  / Tous, avec reproches. /  / Oh"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 125647,
+   "head": "cela  !",
+   "infinitive": "orfèvre",
+   "infinitive_offset": 125677,
+   "context": "  de  ma  fille.  /  / Elle  s'approche  d'une  boutique.  / Blanc  et  or,  cela  fait  bien  le  soir;  mais  le  jour,  le  moyen  / d'être  propre  avec  cela  !  /  / Le  marchand  et  l'orfèvre  devant  leurs  boutiques  / avec  quelques  cavaliers.  / l'orfèvre.  / La  citadelle!  voilà  ce  que  le  peuple  ne  souffrira  jamais  ;  / voir  tout  d'un  coup  s'élever  sur  la  ville  cette  nouvelle  tour  de  / Dabel"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 138398,
+   "head": "cela?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "  docteur,  la  / plus  belle  jeunesse  du  monde,  et  couronner  d'un  diadème  d'or  / tous  mes  songes  chéris?  Ne  devais-je  pas  m'allendre  à  cela?  / Ah!  Cattina  ,  pour  dormir  tranquille,  il  faut  n'avoir  jamais  / fait  certains  rêves.  Cela  est  trop  cruel  d'avoir  vécu  dans  un  / palais  de  fées ,  où  murmuraient  les  cantiques  des  anges,  de  s'y  / être  endormie,  bercée  par "
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 188942,
+   "head": "cela?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": ",  / et  tu  es  pâle  comme  la  mort.  /  / LORENZO ,  se  levant.  /  / Tu  es  beau,  Pierre  ;  tu  es  grand  comme  la  vengeance.  /  / PIERRE.  /  / Qui  dit  cela?  Te  voilà  ici,  toi,  Lorenzaccio!  /  / Il  s'approche  de  son  père.  /  / Quand  donc  fermerez-vous  votre  porte  à  ce  misérable?  ne  / savez-vous  donc  pas  ce  que  c'est,  sans  compter  l'histoire  de  / son  duel  avec  Maurice?  /  / PHILIPPE.  /  / C"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 218104,
+   "head": "cela!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "le  / serpent,  les  morceaux  mutilés  de  Philippe  se  rejoindraient  / encore  et  se  lèveraient  pour  la  vengeance.  Je  connais  si  bien  / tout  cela!  Les  Huit!  un  tribunal  d'hommes  de  marbre!  une  / forêt  de  spectres,  sur  laquelle  passe  de  temps  en  temps  le  vent  / lugubre  du  doute  qui  les  agite  pendant  une  minute,  pour  se  / résoudre  en  un  mot  sans  appel.  Un  mot,  u"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 303933,
+   "head": "cela  ;",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "  sur  tous  ces  gros  plâtras  et  sur  / toutes  ces  poutres.  Eh,  mignon,  eh,  mignon!  mettez  vos  / ganis  neufs  ,  un  plus  bel  habit  que  cela  ;  tra  la  la  !  faites-vous  / beau,  la  mariée  est  belle.  Mais,  je  vous  le  dis  à  l'oreille,  pre-  / nez garde  à  son  petit  couteau.  /  / //  sort  en  courant.  /  /  / ACTE  IV,  SCKNi:  X.  171  /  / SCKNE  X.  /  / Chez  le  duo.  /  / LE  DUC,  à  souper"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 429666,
+   "head": "ça  !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "  /  / Oh  !  s'il  y  avait  un  diable  dans  le  ciel  !  s'il  y  avait  un  enfer,  / comme  je  me  brûlerais  la  cervelle  pour  aller  voir  tout  ça  !  / Quelle  misérable  chose  que  l'homme!  ne  pas  pouvoir  seule-  / ment sauter  par  sa  fenêtre  sans  se  casser  les  jambes!  être  / obligé  de  jouer  du  violon  dix  ans  pour  devenir  un  musicien  / passable!  Apprendre  pour  être  peintre,"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 473914,
+   "head": "cela?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "  / la  cour,  à  la  tète  de  son  état-major,  sa  perruque  s'est  enlevée  / dans  les  airs,  et  a  disparu  tout  à  coup,  /  / ELSBETH.  /  / Pourquoi  cela?  Quelle  niaiserie!  /  / LE   PAGE.  /  / Madame,  je  veux  mourir  si  ce  n'est  pas  la  vérité.  La  per-  / ruque s'est  enlevée  en  l'air  au  bout  d'un  hameçon.  Nous  l'a-  / vons retrouvée  dans  l'office,  à  côté  d'une  bouleille  cassée;  on  / "
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 482445,
+   "head": "cela?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "isé?  / Que  faites-vous  ici?  /  / FANTASIO.  /  / Madame,  je  vous  supplie  de  me  pardonner.  /  / Il  se  jette  à  genoux.  /  / ELSlîETII.  /  / Que  veut  dire  cela?  Holovez-vous ,  homme,  et  sorh-z  (l'iii  !  / Je  vous  fais  grâce  d'une  punition  que  vous  niérilcrioz  peut-  / èlie.  Qui  vous  a  poussé  à  celte  adion?  /  /  / 272  FANTASIO.  /  / FANTASIO.  /  / Je  ne  puis  dire  le  motif  qui  m'a  conduit  ic"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 558583,
+   "head": "cela  !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " reverrons  /  / ')  demain ,  et  pour  toujours.  Toute  à  vous  du  meilleur  de  /  / »  mon  âme.  /  / »  Camille.  »  /  / Kst-il  possible?  Camille  écrit  cela  !  C'est  de  moi  qu'elle  parle  / ainsi  !  Moi  au  désespoir  de  son  refus!  Eh  !  bon  Dieu!  si  cela  / était  vrai ,  on  le  verrait  bien  ;  quelle  honte  peut-il  y  avoir  à  / aimer?  Elle  a  fait  tout  au  monde  pour  me  dégoûter,  d"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 579453,
+   "head": "cela?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "  / Mais  je  suis  fâchée  pour  vous  d'une  chose  :  c'est  qu'on  dira  / que  vous  l'avez  fait  par  dépit.  /  / PERDICAN.  /  / Vous  êtes  fâchée  de  cela?  Oh  !  que  non.  /  / CAMILLE.  /  / Si,  j'en  suis  vraiment  fâchée  pour  vous.  Cela  fait  du  tort  / à  un  jeune  homme,  de  ne  pouvoir  résister  à  un  moment  de  / dépit.  /  / PERDICAN.  /  / Soyez-en  donc  fâchée;  quant  à  moi,  cela  m'est  bien "
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 606631,
+   "head": "cela?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": ",  ni  les  / arts.  Vous  avez  encore  perdu,  /  / LE     MAUgilS.  /  / Ah!  ah!  c'est  du  dernier  plaisant!...  Coiiunent!  il  n'aime  / rien  de  tout  cela?.,.  Ah!  ah!  Vous  avez  parfaitement  raison,  / j'ai  perdu.  C'est  délicieux  !  /  / LE    SECRÉTAIRE.  /  / Il  a  beaucoup  voyagé,  en  Kurope  surtout.  Jamais  nous  / n'avons  été  instruits  de  ses  hitenlions  que  le  matin  même  du  / jour  où  "
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 637452,
+   "head": "cela?",
+   "infinitive": "sourire",
+   "infinitive_offset": 637463,
+   "context": "Et  que  fais-tu  donc  maintenant?  / Ne  viens-tu  pas  de  m'arracher  un  secret  que  j'avais  résolu  de  / cacher?  Et  que  fa-t-il  fallu  pour  cela?  un  sourire.  /  / BARBERINE.  /  / Et  un  baiser.  /  / ULRIC.  /  / Ah!  que  tes  baisers  m'appartiennent!  qu'ils  soient  coninie  /  /  / ACTK  i,   SCi:NE  1.  350  /  / une  source  fraîche,  et  que  tu  me  la  verses  goutte  à  gouUe  / jusqu'à  la  moi  t!  Mai"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 31505,
+   "head": "cela !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "?… /  / RATON. /   / Et riant avec lui aux éclats… de moi, sans doute.  /  / RANTZAU, avec un grand sérieux. /   / Oh ! non, non ; par exemple, je ne puis pas croire cela ! /  / RATON. /   / Si, monsieur le comte ! j’en suis sûr ; et, au lieu de railler un syndic, un bourgeois respectable qui paie exactement à l’état sa patente et ses impôts, le ministre et la reine feraient mieux de s’occuper, l’un des affaires du royaume, et"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 43449,
+   "head": "cela ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "i tu avais vu, ma femme, comme elle m’a accueilli ce matin et en quelle estime je suis auprès d’elle !… /  / MARTHE. /   / Et qu’est-ce qu’il te reviendra de cela ?  /  / RATON. /   / Ce qu’il m’en reviendra ! tu parles bien comme une femme, comme une marchande  / de soie qui n’entend rien aux affaires. Ce qu’il m’en reviendra ! (Il se lève et sort de son comptoir.) du crédit, de la considération… on devient un homme inf"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 54388,
+   "head": "cela !",
+   "infinitive": "quartier",
+   "infinitive_offset": 54431,
+   "context": "ère sont furieux contre moi ; on veut m’arrêter, m’incarcérer, m’emprisonner, peut-être pire.  /  / JEAN. /  / Ah ! bien, par exemple ! je voudrais bien voir cela ! Il y aurait un fameux bruit dans le quartier, et vous m’y verriez, notre maître ; vous verriez quel tapage ! madame m’entendra crier.  /  / RATON. /   / Taisez-vous, Jean, vous êtes trop vif.  /  / MARTHE. /   / Vous êtes un tapageur.  /  / ÉRIC. /   / Et du reste, ta bonn"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 62276,
+   "head": "ça !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "ras.) Ça m’appartient, c’est mon bien, et on ne me l’ôtera pas !  /  /  Scène V. /  / MARTHE, JEAN, ÉRIC. /  / JEAN, avec joie et regardant la cantonade. /   / C’est ça ! à merveille !… continuez comme ça. /  / ÉRIC. /   / Eh quoi ! déjà de retour !… est-ce que mon père est chez Michelson ?  /  / JEAN, avec joie. /   / Mieux que cela.  /  / MARTHE, avec impatience. /   / Enfin il est en sûreté ?  /  / JEAN, d’un air de triomphe. /   / Il a été arrê"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 66063,
+   "head": "ça…",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "ne jeune dame, qui est bien belle, ma foi, et bien élégante. Eh ! mais, est-ce qu’elle serait évanouie ! (Redescendant le théâtre.) Elle a eu peur de ça… est-elle bonne !  /  / ÉRIC, rentrant et portant dans ses bras Christine qui est évanouie, et qu’il dépose sur un fauteuil à gauche[8]. /   / Vite des secours… ma mère… /  / JEAN. /   / Elle vient de sortir pour avoir des nouvelles de notre bourgeois.  /  / ÉRIC, regar"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 99112,
+   "head": "cela !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "poser d’entrer dans un complot qui aura lieu ce soir même… pendant le dîner que vous devez donner aux ministres, vos collègues. /  / GŒLHER. /   / Voyez-vous cela !… /  / KOLLER. /   / Les conjurés doivent s’introduire dans l’hôtel, sous divers déguisements, et, pénétrant dans la salle à manger, s’emparer de tout ce qu’ils y trouveront.  /  / FALKENSKIELD. /   / Est-il possible ? /  / GŒLHER. /   / Même de ceux qui ne sont pas ministr"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 132947,
+   "head": "cela !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " et envers vous, madame, et c’est là sur-tout ce qui m’a décidé… /  / LA REINE. /   / En effet, oser me retenir en ces lieux !  /  / RANTZAU. /   / Si ce n’était que cela !… /  / LA REINE. /   / Ô ciel !… ils ont d’autres projets !… vous les connaissez ?  /  / RANTZAU. /   / Oui, madame ; et maintenant que je ne suis plus membre du conseil, mon amitié peut vous les révéler. Éric n’est pas le seul qu’on ait arrêté. Deux autres agents s"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 143609,
+   "head": "ça ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "t le papier cacheté.) « À Raton de Burkenstaff, pour remettre au général Koller. »  /  / MARTHE. /   / Koller !  /  / RATON, cherchant. /   / Qu’est-ce que c’est que ça ? (Se rappelant.) Ah ! je sais… un des nôtres dont la reine nous parlait ce matin… tu ne te rappelles pas ?  /  / MARTHE. /   / Si vraiment ! /  / RATON. /   / Il l’aura bientôt, c’est convenu. Quant à nous, mes enfants, ce qui nous reste à exécuter, c’est de sortir "
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 159721,
+   "head": "cela ?",
+   "infinitive": "mère",
+   "infinitive_offset": 159737,
+   "context": " parlaient, et mon père m’a trompée ! (À Marthe.) Il est condamné ! /  / MARTHE. /   / Oui, mademoiselle. Struensée a signé, la reine a signé ; concevez-vous cela ? elle est mère cependant !… elle a un fils ! /  / CHRISTINE. /   / Remettez-vous !… tout n’est pas perdu ; j’ai encore de l’espoir.  /  / MARTHE. /   / Et moi, je n’en ai plus qu’en vous !… Mon mari a des projets qu’il ne veut pas m’expliquer ; je ne devrais pas vou"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 3045,
+   "head": "cela ?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "nts que je vous dois toujours !… /  / BOL. Pardieu, mon cher, je voudrais bien être à votre place, et je changerais volontiers avec vous… /  / MASH. Pourquoi cela ? /  / BOL. Parce que j’en dois cent fois davantage. /  / MASH. Ô ciel ! vous êtes malheureux ! /  / BOL. Non pas !… je suis ruiné, voilà tout !… mais jamais je n’ai été plus dispos, plus joyeux et plus libre… Pendant cinq années les plus longues de ma vie, riche"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 3844,
+   "head": "cela !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " cour, elle était du parti des Marlborough, elle était wigh… vous comprenez que je devais être tory ; je me suis jeté dans l’opposition : je lui dois cela !… je lui dois mon bonheur ! car, depuis ce jour, mon instinct et ma vocation se sont révélés ! c’était là l’aliment qu’il fallait à mon âme ardente et inactive ! Dans nos tourments politiques, dans nos orages de tribune, je respire, je suis à l’aise,"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 21802,
+   "head": "cela ?",
+   "infinitive": "rendre",
+   "infinitive_offset": 21823,
+   "context": "nommée ! si elle était reçue parmi les femmes de Sa Majesté, tous mes messages parviendraient en dépit de la duchesse. /  / MASH., vivement. N’est-ce que cela ?… je puis vous rendre ce service. /  / BOL. Est-il possible ! /  / MASH. Tous les matins à dix heures, et les voici bientôt, je porte à Sa Majesté pendant son déjeuner, (Prenant le journal sur la table à droite.) la Gazette du monde élégant et des gens à la "
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 63679,
+   "head": "cela !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": ". Je le voudrais ! /  / BOL. Et pourquoi ? /  / LA DUCH., de même. Un homme d’État amoureux, il est perdu !… il n’est plus à craindre !… /  / BOL. Je ne vois pas cela !… Je connais de hautes capacités politiques qui mènent de front les amours et les affaires… qui se délassent des préoccupations sérieuses par de plus douces pensées et sortent parfois des détours de la diplomatie pour entrer dans de piquantes et myst"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 96864,
+   "head": "cela…",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "vous que je craignais… vous que je redoutais… Ah ! dans ma reconnaissance… je dois vous ouvrir mon âme tout entière…. /  / LA DUCH. Ce soir vous me direz cela… Du silence ! on vient. /  /  Scène III. /  / Les MÊMES, ABIGAÏL, entrant tout émue par la porte à droite. /  / ABIG. Seul avec elle… un tête-à-tête !… /  / LA DUCH., à part. Encore cette Abigaïl, que je l’encontrerai sans cesse. (Haut.) Qui vous amène ?… que voulez"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 101248,
+   "head": "cela !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "a tendu gracieusement sa belle main… que j’ai baisée. (A Abigaïl.) Qu’avez-vous, la vôtre est glacée ?… /  / ABIG. Non… (À part.) Elle ne m’avait pas dit cela ! (Haut) Et moi aussi, Masham, je suis déjà en grande faveur auprès de la reine… je suis comblée de ses bontés, de son amitié, et cependant, pour notre bonheur à tous deux, mieux eût valu rester pauvres et misérables et ne jamais venir ici à la cour ;"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 102330,
+   "head": "cela !",
+   "infinitive": "encore",
+   "infinitive_offset": 102348,
+   "context": " amour. /  / Ah ! Arthur !… plus qu’autrefois… plus que jamais ! peut-être aussi parce qu’elles veulent toutes me l’enlever… Ah ! non, je l’aimerais sans cela ! (On frappe encore à la porte à gauche.) Et mylord que j’oubliais… je perds la tête… /  / (Elle va ouvrir la porte à gauche à Bolingbroke.) /  /  Scène VI. /  / BOLINGBROKE, ABIGAÏL. /  / BOL., entrant gaîment. J’accours aux ordres de la nouvelle favorite, car vous "
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 118736,
+   "head": "cela !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " différentes charges du palais… C’est à une de vos femmes qu’appartient le droit de présenter à Votre Majesté… /  / LA REINE, étonnée. Tant de bruit pour cela !… (Se retournant vers la table de jeu.) Eh bien ! duchesse, donnez-le-moi vous-même… /  / LA DUCH., stupéfaite. Moi ! /  / BOL., à la duchesse à qui Masham présente en ce moment le plateau.  / Je conviens, duchesse, qu’être obligée de présenter vous-même… là, "
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 127888,
+   "head": "cela !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "ais le petit Masham… ce que vous m’en aviez dit !… /  / BOL. Eh bien ! /  / LA REINE, souriant avec contentement. Erreur complète ! /  / BOL., à part. C’est donc cela ! /  / LA REINE. Elle n’y pense seulement pas, au contraire. /  / BOL. Vous croyez ? /  / LA REINE, souriant. J’ai pour cela d’excellentes raisons, des preuves évidentes qu’on m’a données, et dont il ne faut pas parler !… c’est qu’elle est au mieux avec lord Evan"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 132900,
+   "head": "cela !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "a enchantée !… Ils se sont brouillés… une guerre à mort. /  / LA REINE, dont la colère tombe tout à coup. Ah !… (D’un ton radouci.) Vous ne me disiez pas cela ! /  / BOL., à demi-voix, riant. Elle a découvert, à n’en pouvoir douter, que Masham ne l’aimait pas, qu’il ne l’avait jamais aimée… qu’il en aimait une autre ! /  / LA REINE, vivement. En êtes-vous sûr !… qui vous l’a dit ? /  / BOL., de même. Mon jeune prisonni"
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "offset": 16021,
+   "head": "ceci  !",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "  de  Juliette;  mais  / le  malheur  est  que  personne  n'oserait  ouvrir  la  / bouche  pour  les  prononcer  devant  une  telle  / douleur.  Songez  à  ceci  !  la  raiso  est  une  puis-  / sance froide  et  lente  qui  nous  lie  peu  à  peu  par  / les  idées  qu'elle  apporte  l'une  après  l'autre  ,  / comme  les  liens  subtils  ,  déliés  et  innombrables  / de  Gulliver;  elle  persuade,  elle  impose  qu"
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "offset": 99965,
+   "head": "cela!",
+   "infinitive": "divertir",
+   "infinitive_offset": 99977,
+   "context": "  celui-là  / soit  décrit  par  l'autre;  le  troubadour  par  le  / mendiant.  Voilà  les  deux  poésies  possibles,  ça  / ne  va  pas  plus  loin  que  cela!  Les  divertir  ou  / leur  faire  pitié  ;  faire  jouer  de  misérables  pou-  / pées ,  ou  l'être  soi-même  et  faire  trafic  de  (  ette  / singerie  !  Ouvrir  son  cœur  pour  le  mettre  eu  / étalage  sur  un  comptoir  !  S'il  a  des  blessures"
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "offset": 104702,
+   "head": "ceci...",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "-...  0  Ciel?  la  folie  ne  marche-t-elle  / pas  ainsi  !  Voilà  qui  peut  épouvanter  le  plus  / brave...  Allons  !  calme-toi.  — Je  relisais  ceci...  / Oui!....  Ce  poème-là  n'est  pas  assez  beau!  —  / Écrit  trop  vite  !  —  Écrit  pour  vivre  !  —  0  sup-  /  /  / 106  CHATTERTON.  /  / plice  !  La  bataille  d'Hastingsï...  —  Les  vieux  / Saxons  !...  Les  jeunes  Normands!...  Me  suis-je  / intér"
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "offset": 147533,
+   "head": "cela?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "a  porte  et  tombe  / dans  sa  chambre.  /  / KITTY  BELL.  /  / lia!  —Grand  Dieu!  /  / Bile  trouve  la  fiole.  /  / i3.  /  /  / 1 430  CHATTERTON.  /  / Qu'est-ce  que  cela?  —  Mon  Dieu!   pardon-  / nez-lui.  /  /  / SCENE  IX.  /  / KITTÏ  BELL  ,  LE  QUAKER.  / LE  QUAKER  ,  accourant.  /  / Vous  êtes  perdue...  Que  faites-vous  ici?  /  / KITTY  BELL  ,  renversée  sur  les  marches  Je  l'escalier.  /  / Montez  vite!  montez,  monsi"
+  }
+ ],
+ "total_dem_sep_hits": 307,
+ "total_candidates": 120
+}

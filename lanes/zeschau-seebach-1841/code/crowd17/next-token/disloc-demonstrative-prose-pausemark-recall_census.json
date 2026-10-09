@@ -1,0 +1,457 @@
+{
+ "files": {
+  "code/side-period/corpus/guizot-memoires-t1-gutenberg.txt": {
+   "chars": 769437,
+   "dem_sep_hits": 4,
+   "candidates_with_excl": 0
+  },
+  "code/side-period/corpus/guizot-memoires-t2-gutenberg.txt": {
+   "chars": 830700,
+   "dem_sep_hits": 0,
+   "candidates_with_excl": 0
+  },
+  "code/side-period/corpus/guizot-memoires-t3-gutenberg.txt": {
+   "chars": 852681,
+   "dem_sep_hits": 2,
+   "candidates_with_excl": 0
+  },
+  "code/side-period/corpus/guizot-memoires-t5-t6.txt": {
+   "chars": 1992545,
+   "dem_sep_hits": 13,
+   "candidates_with_excl": 1
+  },
+  "code/side-period/corpus/harvest-log.txt": {
+   "chars": 1755,
+   "dem_sep_hits": 0,
+   "candidates_with_excl": 0
+  },
+  "code/side-period/corpus/levant-correspondence-1841-p3.txt": {
+   "chars": 1690926,
+   "dem_sep_hits": 2,
+   "candidates_with_excl": 0
+  },
+  "code/side-period/corpus/metternich-papiere-v4.txt": {
+   "chars": 1492023,
+   "dem_sep_hits": 2,
+   "candidates_with_excl": 1
+  },
+  "code/side-period/corpus/metternich-papiere-v6.txt": {
+   "chars": 1723645,
+   "dem_sep_hits": 5,
+   "candidates_with_excl": 2
+  },
+  "code/side-period/corpus/nesselrode-v10.txt": {
+   "chars": 556659,
+   "dem_sep_hits": 2,
+   "candidates_with_excl": 0
+  },
+  "code/side-period/corpus/nesselrode-v7.txt": {
+   "chars": 521560,
+   "dem_sep_hits": 3,
+   "candidates_with_excl": 0
+  },
+  "code/side-period/corpus/nesselrode-v8.txt": {
+   "chars": 614206,
+   "dem_sep_hits": 1,
+   "candidates_with_excl": 0
+  },
+  "code/side-period/corpus/nesselrode-v9.txt": {
+   "chars": 498642,
+   "dem_sep_hits": 5,
+   "candidates_with_excl": 1
+  },
+  "code/side-period/corpus/pozzo-di-borgo-correspondance-v1.txt": {
+   "chars": 1001901,
+   "dem_sep_hits": 3,
+   "candidates_with_excl": 0
+  },
+  "code/side-period/corpus/revue-deux-mondes-1841-q1.txt": {
+   "chars": 3013552,
+   "dem_sep_hits": 15,
+   "candidates_with_excl": 3
+  },
+  "code/side-period/corpus/revue-deux-mondes-1841-q2.txt": {
+   "chars": 2964405,
+   "dem_sep_hits": 13,
+   "candidates_with_excl": 4
+  },
+  "code/side-period/corpus/revue-deux-mondes-1841-q3.txt": {
+   "chars": 3054350,
+   "dem_sep_hits": 12,
+   "candidates_with_excl": 2
+  },
+  "code/side-period/corpus/revue-deux-mondes-1841-q4.txt": {
+   "chars": 3165234,
+   "dem_sep_hits": 24,
+   "candidates_with_excl": 9
+  },
+  "code/side-period/corpus/talleyrand-memoires-v1.txt": {
+   "chars": 926037,
+   "dem_sep_hits": 5,
+   "candidates_with_excl": 1
+  },
+  "data/gutenberg-17489-miserables1.txt": {
+   "chars": 677686,
+   "dem_sep_hits": 39,
+   "candidates_with_excl": 14
+  },
+  "data/gutenberg-30513-tocqueville-t1.txt": {
+   "chars": 597763,
+   "dem_sep_hits": 3,
+   "candidates_with_excl": 0
+  },
+  "data/gutenberg-30514-tocqueville-t2.txt": {
+   "chars": 712233,
+   "dem_sep_hits": 3,
+   "candidates_with_excl": 0
+  }
+ },
+ "candidates": [
+  {
+   "file": "code/side-period/corpus/guizot-memoires-t5-t6.txt",
+   "offset": 201293,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "  avancer.  J'aime  cette  vie  et  ce  spectacle;  j'y  prends  / part  en  France  ;  j'y  assiste  en  Angleterre.  Cela  vaut  la  / peine  de  vivre.  Si  peu  de  choses  méritent  qu'on  en  dise  / cela!  »  /  / Je  me  rendis  sur-le-champ  chez  lord  Palmerston,  et  / je  lui  communiquai  le  vœu  du  gouvernement  du  Roi.  / Lui  aussi  fut  un  peu  surpris,  et  quelque  soin  qu'il  prîi  / de  ne  pas  le  témoigner,  je  vis  passer  sur  ses  lèvres  un  / sourire  fugitif  qui  révélait  son  se"
+  },
+  {
+   "file": "code/side-period/corpus/metternich-papiere-v4.txt",
+   "offset": 1148124,
+   "dem": "cela",
+   "separator": ":",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "lons  / arreter  pour  les  empecher  de  re*duire  leurs  sujets  re'volte's?  / Est-ce  qu'ils  endureront  patiemment  ce  que  nous  voulons  leur  / dicter?\"  Le  Duc  de  Wellington  m'a  repondu  k  cela:  „Ob!  les  / Turcs,  lorsqu'ils  verront  notre  de'termination  bien  se'rieuse,  ne  / pousseront  jamais  les  cboses  ä  F  extreme,  il  ne  faudra  de  notre  / part  que  quelques  fre'gates  pour  les  empScher  d'exercer  des  / hostilites,  pour  les  intimider  et  pour  leur  faire  entendre  "
+  },
+  {
+   "file": "code/side-period/corpus/metternich-papiere-v6.txt",
+   "offset": 840006,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": "votre",
+   "infinitive_offset": 840037,
+   "context": "uidation    de    cette    espece,  je    vous  /  / aiderai  bien  volontiers.  /  / —  Ce  17  Janvier.  /  / 1343.  Le  compte  que  vous  rendez  de  ma  pensee,  mon  / eher  Comte,  est  bien  exaet;  c'est  cela!  /  / Quant  a  la  fin  de  votre  travail,  je  dois  vous  faire  re-  / marquer  que  le  sujet  si  iinportant  qui  en  forme  la  matiere  est  / susceptible  d'un  grand  et  important  developpement.  /  / Voici  la  forme  anglaise  mieux  precisee:  /  / C'est  le  Roi  qui  est  le  Chef  de  la  polit"
+  },
+  {
+   "file": "code/side-period/corpus/metternich-papiere-v6.txt",
+   "offset": 960146,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "andu  que  / je  ne  viendrais  pas;  quand  ce  bruit  a  ete  dementi  par  le  fait  de  mon  arrivee,  / il  en  est  r6sult6  une  veritable  satisfaction  pour  tous  les  partis.  C'est  toujours  / cela!  Nos  diplomates  ne  quittent  pas  la  salle  des  sßances,  oü  ils  doivent  / s'amuser  beaucoup,  car  il  y  fait  vingt-cinq  degres  de  chaleur,  et  on  n'y  parle  / que  hongrois  ....  /  / „J'ai  arrange  un  rendez-vous  avec  l'Eveque  Lonovics:  avec  lui,  j'arran-  / gerai  les  affaires "
+  },
+  {
+   "file": "code/side-period/corpus/nesselrode-v9.txt",
+   "offset": 207897,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": "prépare",
+   "infinitive_offset": 207936,
+   "context": "itung.  /  /  / 140 ARCHIVES DU COMTE CH. DE NESSELRODE.  /  /  / devoir ; figurez-vous que les régiments lombards, dans  / une dernière affaire, près de Crémone, ont passé du  / côté des Autrichiens. Que dire après cela! Lei, tout  / est tranquille, on se prépare à reconquérir la Sicile et,  / n'étaient les inquiétudes sur le choléra, nous jouirions  / bien, Michel et moi, de notre séjour à Castellamare, au  / milieu de cette belle nature, dans sa plus riche parure.  / Mais adieu. Michel vous fait ses amitiés et je vous  / réi"
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q1.txt",
+   "offset": 94521,
+   "dem": "ceci",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "  / jury,  choisit  Bothwell  comme  gardien  et  porteur  de  lacouroime  et  du  / sceptre  (juaiul  elle  se  rend  aux  communes,  accorde  aux  protcstans  /  / (1)  Arcliives  crAn-^lotorrc,  Dniry  à  Ceci! ,  2!)  mars  15Cr.  /  / (2)  Forsler  à  Cooil,  15  nvril  ISiJT.  /  / (3)  Diury  à  Cecil,  10  avril  ISiiT.  /  /  / DOCUMENS  INÉDITS    SUR  MARIE   STUART.  37  /  / des  concessions  importantes,  dans  l'espoir  de  vaincre  les  répugnances  / et  de  gagner  les  cœurs  qui  s'éloignaient  d'elle,  ferm"
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q1.txt",
+   "offset": 103594,
+   "dem": "ceci",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "s  moyens  magiques  et  philtres  amoureux  / dont  Bothwell  avait  appris  le  secret  pendant  ses  voyages  en  Italie,  et  /  /  / (1)  Archives  d'Angleterre,  leUre  copiée  parle  secret  lire  de  Ceci!,  à  qui  lord  / Bedford  l'envoya.  /  / (2)  8  mai  1567.  Archives  d'Angleterre.  /  / (3)  10  mai  1567.  /  /  / 40  REVUE  DES  DEUX  MONDES.  /  / racontant  l'histoire  de  lady  Buccleugh,  séduite  et  perdue,  quelques  / années  auparavant,  par  le  même  Botliwell  (1).  La  magie  de  Botinvell,  / ruse"
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q1.txt",
+   "offset": 1446022,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": "première",
+   "infinitive_offset": 1446042,
+   "context": "hi  de  son  propre  fait.  Puis  bientôt  on  s'en  console;  / on  s'en  frotte  même  quelque  peu  les  mains;  on  se  dit  avec  une  sorte  d'étonne-  / ment  orgueilleux ,  j'ai  donc  pu  faire  cela  !  Et  à  la  première  occasion  on  recom-  / mence ce  jeu  déplorable ,  sans  savoir  au  juste  ni  ce  qu'on  veut  ni  où  l'on  / va;  on  abat  pour  abattre,  pour  essayer  ses  forces,  pour  se  convaincre  soi-  / même  qu'on  est  un  homme  important,  redoutable.  /  / INous  ne  savons  pas "
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q2.txt",
+   "offset": 313774,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": "empire",
+   "infinitive_offset": 313790,
+   "context": "  pour  pouvoir  être  lus,  qu'une  toute  petite  chose  bien  / dédaignée,  bien  repoussée  aujourd'hui  par  les  mystagogues  et  les  / rêveurs  à  grandes  prétentions....  la  forme,  rien  que  cela!  /  / Sous  l'empire  et  au  commencement  de  la  restauration ,  il  y  eut  / recrudescence  d'épopées;  Népomucène  Lemercicr,  novateur  mal-  / heureux que  l'absence  de  style  empêcha  d'être  un  poète,  en  a  fait  / trois  ou  quatre  à  lui  seul,  V Atlantide,  Attila,  les  Chants  cataloni-"
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q2.txt",
+   "offset": 403126,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "  regard  pétillait  en  se  fixant  sur  le  mien  ;  elle  s'arrêta  un  instant  / et  reprit  le  cours  de  ses  questions  :  —  Ouel  âge  avez-vous?  —  Vingt  / ans. —  Vingt  ans!  c'est  bien  cela!...  Allons,  allons,  mais  je  suis  une  / folle;  que  devez-vous  penser  de  moi?  Et  pourtant!...  Elle  s'arrêta  / encore ,  mit  sa  main  dans  la  mienne ,  et  me  dit  d'une  voix  affectueuse  :  /  / —  Écoutez ,  monsieur  Charles  ;  voulez-vous  bien  faire  un  grand  plaisir  / à  une  p"
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q2.txt",
+   "offset": 1011885,
+   "dem": "ça",
+   "separator": "!",
+   "infinitive": "faire",
+   "infinitive_offset": 1011937,
+   "context": "  pas  / toutes  vos  parades.  /  / Cependant  le  brave  marchand  d'horloges  fit  apporter  à  son  an-  / cien condisciple  la  liqueur  reconfortante;  et,  lorsqu'il  le  vit  un  peu  / ranimé:  —  Ah  ça!  lui  dit-il,  Achab,  que  diable  venez-vous  faire  / ici?  La  dernière  fois  que  je  vous  ai  vu,  votre  commerce  de  sermons  /  /  / LA  VIE   PRIVÉE  DANS  L'AMÉRIQUE  DU  NORD.  323  /  / allait  merveilleusement  bien ,  et  vous  tiriez  un  bon  parti  de  votre  / règle  grammaticale  sur  le  "
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q2.txt",
+   "offset": 1446264,
+   "dem": "ça",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "oupa  une  belle  tranche  qu'il  logea  dans  sa  bouche.  /  / —  Le  brigand!  murmura  le  capitaine  Grenouille;  il  en  avait,  et  il  / vient  de  me  faire  jeter  ma  dernière  chique.  /  / —  Ah!  ça!  prenons  conseil,  dit  ensuite  le  capitaine  Gueux;  nous  / sommes  entre  l'île  de  Guernesey  et  Cherbourg ,  entre  l'Angleterre  et  / la  France,  mais  plus  près  cependant  de  Guernesey  que  de  Cherbourg;  / mon  avis  est  de  piquer  dans  l'ouest,  et  d'aborder  cette  îie  anglaise"
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q3.txt",
+   "offset": 1391512,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "se  catholique  discute  contre  la  philosophie  et  / contre  l'indifférence;  elle  semble  plutôt  une  doctrine  qu'une  insti-  / tution. A  Dieu  ne  plaise  que  je  lui  fasse  un  reproche  de  cela!  l'é-  / glise approprie  son  action  aux  temps  et  aux  choses  :  en  France  et  en  / Europe  aujourd'hui,  elle  ne  peut  pas  prouver  sa  foi  par  le  martyre,  / elle  la  prouve  par  la  discussion.  Elle  ne  se  borne  pas  d'ailleurs  à  la  / discussion  ;  elle  dirige  les  paroisses, "
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q3.txt",
+   "offset": 2620958,
+   "dem": "ceci",
+   "separator": "?",
+   "infinitive": "marcher",
+   "infinitive_offset": 2621010,
+   "context": " ces  deux  vers  si  naïfs,  écrits  sous  / le  berceau  d'un  enfant  que  la  Mort  venait  prendre  pour  l'entraîner  / dans  le  terrible  divertissement:  «  0  Mort,  comment  dois-je  entendre  / ceci?  Tu  veux  que  je  danse,  et  je  ne  puis  marcher  encore  !  »  /  / Nous  avons  voulu  donner  une  idée  du  lied  religieux  en  Allemagne,  / du  lied  mystique  et  divin  ;  essayons  maintenant  de  caractériser  en  peu  / de  mots  un  autre  genre  de  cette  poésie  populaire ,  de  mettre"
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q4.txt",
+   "offset": 56980,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "es.  /  / —  Nierez-vous  que  vous  fassiez  la  cour  à  M\"\"=  Richomme?  repris-je  / d'un  air  railleur.  /  / Maléchard  me  regarda  fixement.  /  /  / LE  PARATONNERRE.  25  /  / —  Ah  !  vous  avez  découvert  cela!  dit-il  au  bout  d'un  instant  avec  / un  accent  où  il  me  parut  entrer  plus  de  persifflage  que  de  mauvaise  / humeur.  /  / —  Je  ne  suis  ni  sourd  ni  aveugle.  En  conscience,  vous  auriez  dû  / me  mettre  au  fait,  au  lieu  de  me  réduire  à  faire  usage  de  ma  perspi-  / cacité."
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q4.txt",
+   "offset": 235596,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "iques,  / chargée  aussi  de  bizarrerie  et  d'excès,  se  pose  devant  lui,  il  peut  la  / méconnaître;  mais,  dès  qu'une  production  parfaite  se  présente,  il  dit  / du  premier  coup  :  Cest  cela!  Très  peu  de  gens  sont  allés  en  Corse;  / les  mœurs  de  ce  pays  diffèrent  des  nôtres  autant  qu'il  se  peut;  elles  / sont  souvent  atroces,  sanglantes,  et  le  monde  n'aime  guère  en  soi  / l'atroce  et  le  sanglant.  Quand  on  lui  en  sert  au  théâtre  ou  en  roman  / d'un  air"
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q4.txt",
+   "offset": 752604,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " ce  vertueux  médecin,  / le  zèle  du  vicaire  ne  connut  plus  de  bornes;  ce  prêtre  fanatique  arma  / son  bras  d'un  fer  assassin...  »  /  /  / LE  DOCTEUR  IIERBEAU.  251  /  / —  C'est  horrible ,  cela!  s'écria  Louise.  /  / —  ce  Et  se  précipitant  sur  la  victime ,  au  bruit  de  la  foudre,  à  la  / lueur  des  éclairs,  au  tintement  de  la  cloche  funèbre...  »  /  / —  Mais,  monsieur,  c'est  horrible!  répéta  Louise  en  arrachant  le  / journal  des  mains  de  M.  Riquemont.  /  / — Voilà  do"
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q4.txt",
+   "offset": 836509,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": "riser",
+   "infinitive_offset": 836550,
+   "context": "  /  / —  Ne  jurez  pas;  je  sais  le  cbarme  qui  vous  attire  à  Riquemont,  / j'apprécie  l'intérêt  que  vous  portez  à  cette  péronnelle  qui  ne  sait  ni  / vivre  ni  mourir.  Ruses  que  tout  cela!  mensonges  imaginés  pour  auto-  / riser vos  visites  !  Voilà  pourquoi  l'apparition  de  M.  Savenay  vous  a  / jeté  dans  un  si  grand  trouble;  car  ce  n'était  pas  pour  notre  avenir  / que  vous  trembliez,  mauvais  époux,  ni  pour  l'héritage  de  votre  fils,  / mauvais  père,  mais  p"
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q4.txt",
+   "offset": 921954,
+   "dem": "ça",
+   "separator": "!",
+   "infinitive": "venir",
+   "infinitive_offset": 921993,
+   "context": "a  vaisselle  et  tordu  indignement  tous  les  instru-  / mens  de  ma  trousse.  Jour  funeste!  Mais  plût  à  Dieu  que  nous  n'eus-  / sions pas  de  plus  grand  désastre  à  déplorer  !  /  / —  Ah  ça  !  monsieur,  où  voulez-vous  en  venir?  s'écria  M,  Rique-  / mont  avec  impatience.  M\"'  Herbeau  est-plie  morte?  /  / —  M.  Savenay,  ce  grand  médecin ,  cet  aimable  jeune  homme  qui  / avait  su  vous  plaire,  vient  d'être  enlevé  prématurément  à  la  science  / et  à  ses  amis.  M.  Save"
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q4.txt",
+   "offset": 1167225,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "me.  Louise  baissa  la  tète  et  at-  / tendit l'arrêt  de  son  juge.  Après  un  long  silence,  durant  lequel  il  tint  / Louise  palpitante  sous  son  regard  :  /  / —  Il  ne  manquait  plus  que  cela!  s'écria-t-il  d'un  ton  ironique;  / vous  m'écrivez  !  Je  vais  être  obligé  d'établir  à  Riquemont  une  petite  / poste  pour  desservir  notre  correspondance  !  Je  suis  en  effet  un  mari  / si  terrible  et  si  redoutable!  Vous  allez  voir  que  j'interdis  à  madame  / la  liberté  de  "
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q4.txt",
+   "offset": 1261252,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "ent,  mille  diables!  s'écria-t-il ,  le  docteur  Herbeau  quitte  / les  affaires!  le  docteur  Herbeau  abandonne  ses  amis!  Il  trahit  l'ami-  / tié, le  docteur  Herbeau!  Mais  c'est  infâme,  cela!  mais  c'est  impos-  / sible! je  ne  le  souffrirai  pas;  j'irai  plutôt  me  jeter  à  ses  pieds,  j'em-  / hrasserai  ses  genoux,  je  lui  demanderai  excuse  à  mains  jointes.  Bap-  /  /  / h-lk-  REVUE   DES  DEUX   MONDES.  /  / liste,  qu'on  me  selle  un  cheval  !  Rassure-toi ,  Louison  ;  la "
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q4.txt",
+   "offset": 1722425,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "is,  2,V33  fr.  / 75  c.  :  cela  donne  au  total,  ainsi  que  j'ai  eu  l'honneur  de  vous  le  dire,  / 3,333  fr.  75  c,  sauf  erreur,  ajouta-t-il  en  s'inclinant.  /  / —  Mais  c'est  affreux,  cela!  mais  savez-vous,  monsieur,  que  c'est  / infâme?  s'écria  le  docteur  Herbeau,  qui,  ayant  toujours  suivi  la  ligne  / inflexible  de  l'ordre  et  du  devoir,  n'avait  jamais  soupçormé  qu'il  / existât  de  pareilles  misères.  /  / —  Permettez,  monsieur,  permettez,  dit  Grippard  en  dépli"
+  },
+  {
+   "file": "code/side-period/corpus/revue-deux-mondes-1841-q4.txt",
+   "offset": 2652611,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "nouvelles  feintes,  et  parvenu  en  lieu  de  sûreté,  c'est-à-dire  au  dénouement,  il  / vous  regarde  et  semble  vous  dire  avec  un  sourire  moqueur  :  Ce  n'est  pas  plus  / difficile  que  cela!  vous  en  êtes  pour  vos  frais  d'épouvante,  mais  c'est  juste-  / ment la  frayeur  qui  fait  le  plaisir.  /  / Cette  pièce  jouée  avec  beaucoup  d'ensemble  par  tous  les  acteurs,  et  par  / quelques-uns  avec  un  véritable  talent,  paraît  destinée  à  la  vogue  de  la  Cama-  / raderie et"
+  },
+  {
+   "file": "code/side-period/corpus/talleyrand-memoires-v1.txt",
+   "offset": 838917,
+   "dem": "cela",
+   "separator": "?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "lant également un de ceux auxquels s'ap-  / plique l'alliance qui unit les deux puissances, — C'est à l'article  /  /  / Google RCE péri  /  /  / ENTREVUE D'ERFURT (1808). ss  /  /  / essentiel, comment avez-vous oublié cela ? Vous êtes toujours  / Autrichien !— Un peu, Sire, mais je crois qu'il serait plus  / exact de dire que je ne suis jamais Russe, et que je suis toujours  / Français.— Faites vos dispositions pour partir :il faut que vous  / soyez à Erfurt un jour ou deux avant moi. Pendant le temps  / que durera le voyage, vo"
+  },
+  {
+   "file": "data/gutenberg-17489-miserables1.txt",
+   "offset": 171235,
+   "dem": "cela",
+   "separator": "?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " l'évêque, gardez votre argent. Combien avez-vous? ne / m'avez-vous pas dit cent neuf francs? /  / --Quinze sous, ajouta l'homme. /  / --Cent neuf francs quinze sous. Et combien de temps avez-vous mis à / gagner cela? /  / --Dix-neuf ans. /  / --Dix-neuf ans! /  / L'évêque soupira profondément. /  / L'homme poursuivit: /  / --J'ai encore tout mon argent. Depuis quatre jours je n'ai dépensé que / vingt-cinq sous que j'ai gagnés en aidant à décharger des voitures à / Grasse. Puisque vous êtes abbé, je vais vous dire, nous avions un / aumôn"
+  },
+  {
+   "file": "data/gutenberg-17489-miserables1.txt",
+   "offset": 185498,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": "rire",
+   "infinitive_offset": 185540,
+   "context": " Il se tourna brusquement vers le vieillard, / croisa les bras, et, fixant sur son hôte un regard sauvage, il s'écria / d'une voix rauque: /  / --Ah çà! décidément! vous me logez chez vous près de vous comme cela! /  / Il s'interrompit et ajouta avec un rire où il y avait quelque chose de / monstrueux: /  / --Avez-vous bien fait toutes vos réflexions? Qui est-ce qui vous dit que / je n'ai pas assassiné? /  / L'évêque leva les yeux vers le plafond et répondit: /  / --Cela regarde le bon Dieu. /  / Puis, gravement et remuant les lèvr"
+  },
+  {
+   "file": "data/gutenberg-17489-miserables1.txt",
+   "offset": 237446,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": "loger",
+   "infinitive_offset": 237458,
+   "context": "uiller ni / d'une fourchette, même en bois, pour tremper un morceau de pain dans une / tasse de lait. /  / --Aussi a-t-on idée! disait madame Magloire toute seule en allant et / venant, recevoir un homme comme cela! et le loger à côté de soi! et quel / bonheur encore qu'il n'ait fait que voler! Ah mon Dieu! cela fait frémir / quand on songe! /  / Comme le frère et la soeur allaient se lever de table, on frappa à la / porte. /  / --Entrez, dit l'évêque. /  / La porte s'ouvrit. Un groupe étrange et violent apparut sur le seuil. / T"
+  },
+  {
+   "file": "data/gutenberg-17489-miserables1.txt",
+   "offset": 317165,
+   "dem": "ça",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "les rosses,_ /                    _L'espace d'un: mâtin!_ /  / --Pauvre cheval, soupira Fantine. /  / Et Dahlia s'écria: /  / --Voilà Fantine qui va se mettre à plaindre les chevaux! Peut-on être / fichue bête comme ça! /  / En ce moment, Favourite, croisant les bras et renversant la tête en / arrière, regarda résolûment Tholomyès et dit: /  / --Ah çà! et la surprise? /  / --Justement. L'instant est arrivé, répondit Tholomyès. Messieurs, / l'heure de la surprise a sonné. Mesdames, attendez-nous un moment. /  / --Cela commence par un "
+  },
+  {
+   "file": "data/gutenberg-17489-miserables1.txt",
+   "offset": 407146,
+   "dem": "ça",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "payer. Si vous ne nous envoyez pas quarante / francs avant huit jours, la petite est morte.» /  / Elle se mit à rire aux éclats, et elle dit à sa vieille voisine: /  / --Ah! ils sont bons! quarante francs! que ça! ça fait deux napoléons! Où / veulent-ils que je les prenne? Sont-ils bêtes, ces paysans! /  / Cependant elle alla dans l'escalier près d'une lucarne et relut la / lettre. /  / Puis elle descendit l'escalier et sortit en courant et en sautant, riant / toujours. Quelqu'un qui la rencontra lui dit: /  / --Qu'est-ce que"
+  },
+  {
+   "file": "data/gutenberg-17489-miserables1.txt",
+   "offset": 495048,
+   "dem": "ceci",
+   "separator": "?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "l tient son Jean Valjean! Qui sait même, il est / probable qu'il voudra quitter la ville! Et tout cela s'est fait sans / moi! Et je n'y suis pour rien! Ah çà, mais! qu'est-ce qu'il y a de / malheureux dans ceci? Des gens qui me verraient, parole d'honneur! / croiraient qu'il m'est arrivé une catastrophe! Après tout, s'il y a du / mal pour quelqu'un, ce n'est aucunement de ma faute. C'est la providence / qui a tout fait. C'est qu'elle veut cela apparemment! /  / Ai-je le droit de déranger ce qu'elle arrange? Qu'est-c"
+  },
+  {
+   "file": "data/gutenberg-17489-miserables1.txt",
+   "offset": 498651,
+   "dem": "ceci",
+   "separator": ":",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "homme venait de / sentir la saveur amère d'une mauvaise pensée et d'une mauvaise action. /  / Il la recracha avec dégoût. /  / Il continua de se questionner. Il se demanda sévèrement ce qu'il avait / entendu par ceci: \"Mon but est atteint!\" Il se déclara que sa vie avait / un but en effet. Mais quel but? cacher son nom? tromper la police? / Était-ce pour une chose si petite qu'il avait fait tout ce qu'il avait / fait? Est-ce qu'il n'avait pas un autre but, qui était le grand, qui / était le vrai? Sauver, non sa personne"
+  },
+  {
+   "file": "data/gutenberg-17489-miserables1.txt",
+   "offset": 499851,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "nir par devoir le forçat Jean Valjean, / c'était là vraiment achever sa résurrection, et fermer à jamais l'enfer / d'où il sortait! Y retomber en apparence, c'était en sortir en réalité! / Il fallait faire cela! il n'avait rien fait s'il ne faisait pas cela! / toute sa vie était inutile, toute sa pénitence était perdue, et il n'y / avait plus qu'à dire: à quoi bon? Il sentait que l'évêque était là, que / l'évêque était d'autant plus présent qu'il était mort, que l'évêque le / regardait fixement, que désormais le m"
+  },
+  {
+   "file": "data/gutenberg-17489-miserables1.txt",
+   "offset": 499898,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "là vraiment achever sa résurrection, et fermer à jamais l'enfer / d'où il sortait! Y retomber en apparence, c'était en sortir en réalité! / Il fallait faire cela! il n'avait rien fait s'il ne faisait pas cela! / toute sa vie était inutile, toute sa pénitence était perdue, et il n'y / avait plus qu'à dire: à quoi bon? Il sentait que l'évêque était là, que / l'évêque était d'autant plus présent qu'il était mort, que l'évêque le / regardait fixement, que désormais le maire Madeleine avec toutes ses / vertus lui serai"
+  },
+  {
+   "file": "data/gutenberg-17489-miserables1.txt",
+   "offset": 507179,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "r ma personne ou sauver mon âme,--être un magistrat / méprisable et respecté ou un galérien infâme et vénérable, c'est moi, / c'est toujours moi, ce n'est que moi! Mais, mon Dieu, c'est de l'égoïsme / tout cela! Ce sont des formes diverses de l'égoïsme, mais c'est de / l'égoïsme! Si je songeais un peu aux autres? La première sainteté est de / penser à autrui. Voyons, examinons. Moi excepté, moi effacé, moi oublié, / qu'arrivera-t-il de tout ceci?--Si je me dénonce? on me prend. On lâche / ce Champmathieu, on me re"
+  },
+  {
+   "file": "data/gutenberg-17489-miserables1.txt",
+   "offset": 510333,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": " la mère ait revu son enfant! sans que l'enfant / ait presque connu sa mère! Et tout ça pour ce vieux gredin de voleur de / pommes qui, à coup sûr, a mérité les galères pour autre chose, si ce / n'est pour cela! Beaux scrupules qui sauvent un coupable et qui / sacrifient des innocents, qui sauvent un vieux vagabond, lequel n'a plus / que quelques années à vivre au bout du compte et ne sera guère plus / malheureux au bagne que dans sa masure, et qui sacrifient toute une / population, mères, femmes, enfants! Cette p"
+  },
+  {
+   "file": "data/gutenberg-17489-miserables1.txt",
+   "offset": 547389,
+   "dem": "cela",
+   "separator": "?",
+   "infinitive": "livre",
+   "infinitive_offset": 547398,
+   "context": "--Si vous allez de ce train, vous n'y arriverez pas de bonne heure. /  / Il arrêta le cheval et demanda au cantonnier: /  / --Combien y a-t-il encore d'ici à Arras? /  / --Près de sept grandes lieues. /  / --Comment cela? le livre de poste ne marque que cinq lieues et un quart. /  / --Ah! reprit le cantonnier, vous ne savez donc pas que la route est en / réparation? Vous allez la trouver coupée à un quart d'heure d'ici. Pas / moyen d'aller plus loin. /  / --Vraiment. /  / --Vous prendrez à gauche, le chemin qui va à Carency, vous p"
+  },
+  {
+   "file": "data/gutenberg-17489-miserables1.txt",
+   "offset": 565187,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": "peut-être",
+   "infinitive_offset": 565212,
+   "context": "ui sait? il y a des crises si étonnantes, / on a vu de grandes joies arrêter court des maladies; je sais bien que / celle-ci est une maladie organique, et bien avancée, mais c'est un tel / mystère que tout cela! Nous la sauverions peut-être. /  /  /  /  / Chapitre VII /  / Le voyageur arrivé prend ses précautions pour repartir. /  /  / Il était près de huit heures du soir quand la carriole que nous avons / laissée en route entra sous la porte cochère de l'hôtel de la Poste / à Arras. L'homme que nous avons suivi jusqu'à ce moment"
+  },
+  {
+   "file": "data/gutenberg-17489-miserables1.txt",
+   "offset": 648743,
+   "dem": "ça",
+   "separator": "?",
+   "infinitive": "maire",
+   "infinitive_offset": 648751,
+   "context": " pas encore les / détails de l'événement d'Arras. Toute la journée on entendait dans / toutes les parties de la ville des conversations comme celle-ci: /  / --Vous ne savez pas? c'était un forçat libéré! Qui ça?--Le maire.--Bah! / M. Madeleine?--Oui. Vraiment?--Il ne s'appelait pas Madeleine, il a un / affreux nom, Béjean, Bojean, Boujean.--Ah, mon Dieu!--Il est / arrêté.--Arrêté!--En prison à la prison de la ville, en attendant qu'on / le transfère.--Qu'on le transfère! On va le transférer! Où va-t-on le / transfér"
+  }
+ ],
+ "by_file_counts": {},
+ "total_chars": 27657940,
+ "total_dem_sep_hits": 156,
+ "total_candidates": 38
+}

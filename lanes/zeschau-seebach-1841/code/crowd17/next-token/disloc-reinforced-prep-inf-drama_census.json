@@ -1,0 +1,246 @@
+{
+ "files": [
+  {
+   "file": "hugo-hernani-1870.txt",
+   "chars": 203769,
+   "dem_comma_hits": 0,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "hugo-burgraves.txt",
+   "chars": 151408,
+   "dem_comma_hits": 2,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "chars": 198265,
+   "dem_comma_hits": 6,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "chars": 204641,
+   "dem_comma_hits": 2,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "dumas-antony.txt",
+   "chars": 102234,
+   "dem_comma_hits": 1,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "dumas-henri-iii.txt",
+   "chars": 128462,
+   "dem_comma_hits": 1,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "dumas-kean.txt",
+   "chars": 152233,
+   "dem_comma_hits": 4,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "chars": 132586,
+   "dem_comma_hits": 6,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "chars": 182448,
+   "dem_comma_hits": 2,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "chars": 146451,
+   "dem_comma_hits": 3,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "chars": 118567,
+   "dem_comma_hits": 1,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "chars": 87042,
+   "dem_comma_hits": 0,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "chars": 188780,
+   "dem_comma_hits": 2,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "chars": 972696,
+   "dem_comma_hits": 11,
+   "gov_excl_candidates": 0
+  }
+ ],
+ "total_chars": 2969582,
+ "register_control": [
+  {
+   "file": "hugo-hernani-1870.txt",
+   "pour_inf_excl_hits": 16,
+   "sample": [
+    "de  bavière, 2  allez!",
+    "de  flandre, \nje  les  donnerais  !",
+    "de  l'enfer  !",
+    "de  l'ombre  me  conseille  !",
+    "de  m'ôter  cette  joie  !"
+   ]
+  },
+  {
+   "file": "hugo-burgraves.txt",
+   "pour_inf_excl_hits": 12,
+   "sample": [
+    "de cendre, hélas!",
+    "de grand'mére!",
+    "de jouer avec l'âme et la douleur d'un nomme !",
+    "de l'autre côté, \n\ninnocence, vertu, jeunesse, amour, beauté!",
+    "de l'ombre !"
+   ]
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "pour_inf_excl_hits": 13,
+   "sample": [
+    "de colère !",
+    "de foudre !",
+    "de mourir et faire de la sorte,\n\nc’est d’un brave jeune homme !",
+    "de payer mes dettes !",
+    "de prendre une épée, une hache, un couteau !"
+   ]
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "pour_inf_excl_hits": 4,
+   "sample": [
+    "de \nvotre  mère,  au  nom  de  votre  sœur,  soyez  généreux!",
+    "de  n'avoir  pas  vu  tout  cela  !",
+    "de  notre  cœur  deman- \ndent à  voir  le  jour!",
+    "pour  t'écraser  sous  la  responsabilité  de  ce \nmalheureux  duel!"
+   ]
+  },
+  {
+   "file": "dumas-antony.txt",
+   "pour_inf_excl_hits": 6,
+   "sample": [
+    "de cacher un seul sentiment de mon cœur… oh !",
+    "de notre tombeau, et l’on dira : regarde… les voilà !",
+    "de rester près d’elle… de vivre dans la même ville qu’elle !",
+    "de souvenir… pauvre antony, je ne suis plus si jolie que cela, va !",
+    "pour lire dans les yeux du médecin sa mort ou sa vie !"
+   ]
+  },
+  {
+   "file": "dumas-henri-iii.txt",
+   "pour_inf_excl_hits": 6,
+   "sample": [
+    "de fuir !",
+    "de nommer un chef à une grande association !",
+    "pour fuir vos\nyeux, pour m’éloigner de votre voix !",
+    "pour héritier…\nj’y songerai… que de peines !",
+    "pour meurtrir le bras\nd’une femme… ah !"
+   ]
+  },
+  {
+   "file": "dumas-kean.txt",
+   "pour_inf_excl_hits": 7,
+   "sample": [
+    "de faire !",
+    "de faire des tragédies… ; on ne les jouait\n\n» pas, eh bien !",
+    "de regarder dans ma vie privée, oh !",
+    "de rentrer !",
+    "de shakspeare !"
+   ]
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "pour_inf_excl_hits": 6,
+   "sample": [
+    "de gaultier !",
+    "de mourir pour mon chevalier !",
+    "de mère et pas d’amante !",
+    "de plaisir !",
+    "de prêtre à qui on ose confier de pareils secrets !"
+   ]
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "pour_inf_excl_hits": 17,
+   "sample": [
+    "de baisser \nles yeux et de ne rien voir !",
+    "de comprendre, il n’est plus bon à rien !",
+    "de courir les rues et de crier avec les autres !",
+    "de demander… \nsur-tout lorsque, ainsi que moi, l’on n’a \naucun droit !",
+    "de koller !"
+   ]
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "pour_inf_excl_hits": 17,
+   "sample": [
+    "de deviner que cela me concernait… moi !",
+    "de faire !",
+    "de guerre !",
+    "de montrer du caractère… c’est ce qui est arrivé !",
+    "de notre ami !"
+   ]
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "pour_inf_excl_hits": 18,
+   "sample": [
+    "de chambre !",
+    "de chambre… il paraît qu’on va se coucher… je n’en suis pas fâché !",
+    "de changer !",
+    "de chanter !",
+    "de courir\n\naprès des pailles d’italie !"
+   ]
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "pour_inf_excl_hits": 14,
+   "sample": [
+    "de choisir le théâtre… je n’aurais, pas choisi celui-là !",
+    "de crier que vous êtes marchand de bois !",
+    "de dire qu’elle est en imitation !",
+    "de fréquenter mon salon… pour ça, ils sont très gentils !",
+    "de notre loge ; ils nous saluent de la leur… et voilà !"
+   ]
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "pour_inf_excl_hits": 8,
+   "sample": [
+    "de \npublier  (  dieu  fasse  qu'il  l'ignore  !",
+    "de  m'apprendre  !",
+    "de  m'avoir  ainsi  créé  !",
+    "de  parler  !",
+    "de  premier  valet  de  chambre  dam \n\nsa  maison!"
+   ]
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "pour_inf_excl_hits": 49,
+   "sample": [
+    "de \ndistinguer  un  trait  spirituel  d'une  grosse  sottise!",
+    "de \nl'enfer  !",
+    "de \nmourir  pour  la  liberté!",
+    "de \npierre  strozzi,  empoisonneur  que  tu  es!",
+    "de  battre  quelqu'un!"
+   ]
+  }
+ ],
+ "candidates": [],
+ "note": "hugo-hernani.txt (Hetzel 1889) excluded: duplicate Hernani edition; ONE edition per play per queue gate"
+}

@@ -1,0 +1,1128 @@
+{
+ "files": [
+  {
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "chars": 769437,
+   "postposed_dem_candidates": 0
+  },
+  {
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "chars": 830700,
+   "postposed_dem_candidates": 1
+  },
+  {
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "chars": 852681,
+   "postposed_dem_candidates": 1
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "chars": 1992545,
+   "postposed_dem_candidates": 6
+  },
+  {
+   "file": "nesselrode-v10.txt",
+   "chars": 556659,
+   "postposed_dem_candidates": 1
+  },
+  {
+   "file": "nesselrode-v7.txt",
+   "chars": 521560,
+   "postposed_dem_candidates": 2
+  },
+  {
+   "file": "nesselrode-v8.txt",
+   "chars": 614206,
+   "postposed_dem_candidates": 0
+  },
+  {
+   "file": "nesselrode-v9.txt",
+   "chars": 498642,
+   "postposed_dem_candidates": 4
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "chars": 3013552,
+   "postposed_dem_candidates": 10
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "chars": 2964405,
+   "postposed_dem_candidates": 18
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "chars": 3054350,
+   "postposed_dem_candidates": 7
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "chars": 3165234,
+   "postposed_dem_candidates": 22
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "chars": 1492023,
+   "postposed_dem_candidates": 3
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "chars": 1723645,
+   "postposed_dem_candidates": 8
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "chars": 926037,
+   "postposed_dem_candidates": 8
+  },
+  {
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "chars": 1001901,
+   "postposed_dem_candidates": 0
+  },
+  {
+   "file": "levant-correspondence-1841-p3.txt",
+   "chars": 1690926,
+   "postposed_dem_candidates": 0
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "chars": 677686,
+   "postposed_dem_candidates": 55
+  },
+  {
+   "file": "gutenberg-30513-tocqueville-t1.txt",
+   "chars": 597763,
+   "postposed_dem_candidates": 0
+  },
+  {
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "chars": 712233,
+   "postposed_dem_candidates": 0
+  }
+ ],
+ "candidates": [
+  {
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "inf": "être",
+   "inf_abs_offset": 244971,
+   "dem": "cela",
+   "window": "être, de bataille et de péril?--Ah!\nsi c'est de cela qu'il s'agit, à la bonne heure; il en arrivera ce\nq"
+  },
+  {
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "inf": "contenir",
+   "inf_abs_offset": 169049,
+   "dem": "cela",
+   "window": "contenir tous, et que nous\nne voulons de liberté que pour nous! Non, Messieurs, cela n'est pas\npossible! Hât"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "inf": "courir",
+   "inf_abs_offset": 76108,
+   "dem": "ca",
+   "window": "courir  de  chances;  vous  n'au- \nra:' p;s  là  une  nu'i!Ii'Uii*  rirmét'  ri  un  plus  grand  ca|>i- \n"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "inf": "angleterre",
+   "inf_abs_offset": 201197,
+   "dem": "cela",
+   "window": "Angleterre.  Cela  vaut  la \npeine  de  vivre.  Si  peu  de  choses  méritent  qu'on  en  dise \ncela!  » \n\nJe "
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "inf": "vivre",
+   "inf_abs_offset": 201237,
+   "dem": "cela",
+   "window": "vivre.  Si  peu  de  choses  méritent  qu'on  en  dise \ncela!  » \n\nJe  me  rendis  sur-le-champ  chez  lo"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "inf": "retrouver",
+   "inf_abs_offset": 650285,
+   "dem": "ceci",
+   "window": "retrouver  un  point \nd'arrêt  ! \n\n«  Pensez  bien  à  ceci,  je  vous  prie.  Voyez  ce  que  vous \npouvez  "
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "inf": "propre",
+   "inf_abs_offset": 732517,
+   "dem": "ca",
+   "window": "propre  situation! \n\n«  Pour  moi,  je  regarderais  l'adoption  officielle  et  le \nsuccès  de  cette  ca"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "inf": "replacer",
+   "inf_abs_offset": 1413031,
+   "dem": "ca",
+   "window": "replacer  notre \ncommerce  sous  la  surveillance  exclusive  du  pavillon \nnational!  »  Loin  de  nous  ca"
+  },
+  {
+   "file": "nesselrode-v10.txt",
+   "inf": "paraître",
+   "inf_abs_offset": 477931,
+   "dem": "cela",
+   "window": "paraître \nà  Vienne!  Cela  ne  me  paraît  pas  possible.  Un  tel  dénoue- \nment placerait  la  Russie  en"
+  },
+  {
+   "file": "nesselrode-v7.txt",
+   "inf": "partner",
+   "inf_abs_offset": 398992,
+   "dem": "cela",
+   "window": "partner,  venez!  (El  nom  nous \nmîmes  au  whist). \n\nTout  cela  se  passait  deux  jours  après  la  rat"
+  },
+  {
+   "file": "nesselrode-v7.txt",
+   "inf": "derrière",
+   "inf_abs_offset": 443977,
+   "dem": "cela",
+   "window": "derrière.  La  crainte  des  réactions  le \nmaintiendra,  mais,  tôt  ou  tard,  cela  finira  ma!  pour \nlu"
+  },
+  {
+   "file": "nesselrode-v9.txt",
+   "inf": "dernière",
+   "inf_abs_offset": 207811,
+   "dem": "cela",
+   "window": "dernière affaire, près de Crémone, ont passé du \ncôté des Autrichiens. Que dire après cela! Lei, tout \nest t"
+  },
+  {
+   "file": "nesselrode-v9.txt",
+   "inf": "affaire",
+   "inf_abs_offset": 207820,
+   "dem": "cela",
+   "window": "affaire, près de Crémone, ont passé du \ncôté des Autrichiens. Que dire après cela! Lei, tout \nest tranquill"
+  },
+  {
+   "file": "nesselrode-v9.txt",
+   "inf": "dire",
+   "inf_abs_offset": 207886,
+   "dem": "cela",
+   "window": "dire après cela! Lei, tout \nest tranquille, on se prépare à reconquérir la Sicile et, \nn'étaient les inq"
+  },
+  {
+   "file": "nesselrode-v9.txt",
+   "inf": "d'accomplir",
+   "inf_abs_offset": 246111,
+   "dem": "cela",
+   "window": "d'accomplir une si \nbelle œuvre ! Dans les temps où nous vivons, cela frise \nle miracle. Mais, plaisanterie à p"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "noyer",
+   "inf_abs_offset": 30461,
+   "dem": "ceci",
+   "window": "noyer.  Elle  s'écria  incontinent  :  Ha! \nmon  Dieu!  quel  augure  de  voyage  est  ceci?  S'estant  é"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "votre",
+   "inf_abs_offset": 64114,
+   "dem": "cela",
+   "window": "Votre  mari  atout  fait! \n—  Ah  !  cela  est  ainsi ,  répondit-elle ,  adieu  donc  larmes  !  c'est  "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "d'angleterre",
+   "inf_abs_offset": 103539,
+   "dem": "ceci",
+   "window": "d'Angleterre,  leUre  copiée  parle  secret  lire  de  Ceci!,  à  qui  lord \nBedford  l'envoya. \n\n(2)  8  mai  1"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "leure",
+   "inf_abs_offset": 103554,
+   "dem": "ceci",
+   "window": "leUre  copiée  parle  secret  lire  de  Ceci!,  à  qui  lord \nBedford  l'envoya. \n\n(2)  8  mai  1567.  Ar"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "lire",
+   "inf_abs_offset": 103584,
+   "dem": "ceci",
+   "window": "lire  de  Ceci!,  à  qui  lord \nBedford  l'envoya. \n\n(2)  8  mai  1567.  Archives  d'Angleterre. \n\n(3)  "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "plaisir",
+   "inf_abs_offset": 569924,
+   "dem": "cela",
+   "window": "plaisir  était  neuf,  grande \nfut  la  surprise.  —  Quoi!  cela  est  encore  beau,  se  dit-on. — Et  là"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "faire",
+   "inf_abs_offset": 1446015,
+   "dem": "cela",
+   "window": "faire  cela  !  Et  à  la  première  occasion  on  recom- \nmence ce  jeu  déplorable ,  sans  savoir  au "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "notre",
+   "inf_abs_offset": 1524253,
+   "dem": "cela",
+   "window": "notre  influence  détruite,  notre  honneur  compromis!  Puis, \naprès  cela,  il  suffira  de  cin(i  ou "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "notre",
+   "inf_abs_offset": 1524282,
+   "dem": "cela",
+   "window": "notre  honneur  compromis!  Puis, \naprès  cela,  il  suffira  de  cin(i  ou  six  phrases  bienveillantes"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "être",
+   "inf_abs_offset": 2560691,
+   "dem": "cela",
+   "window": "être  quecela  ne  mange  pas! — Cela  \\it-il  sur  terre  ou  sur  mer? \n— Probablement  cela  vit  tou"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "accuser",
+   "inf_abs_offset": 501253,
+   "dem": "cela",
+   "window": "accuser  d'avoir \ncommis  une  faute,  et  commencé  une  folie  ! \n\nIl  faut  pourtant  le  dire  :  cela "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "d'avoir",
+   "inf_abs_offset": 501262,
+   "dem": "cela",
+   "window": "d'avoir \ncommis  une  faute,  et  commencé  une  folie  ! \n\nIl  faut  pourtant  le  dire  :  cela  n'est  p"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "père",
+   "inf_abs_offset": 895149,
+   "dem": "cela",
+   "window": "père!  murmurait-il  suffoqué;  je  ne  ie  serai  pas \nlong-temps  si  cela  est.  Je  tuerai  tout  à "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "traiter",
+   "inf_abs_offset": 901694,
+   "dem": "cela",
+   "window": "traiter  de  fourbe  ! \n\nIl  mitl'épée  au  vent  en  disant  cela.  Les  autres  dégainèrent  aussi. \nM.  "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "faire",
+   "inf_abs_offset": 1399795,
+   "dem": "ceci",
+   "window": "faire  un  neuf,  moi  je  te  couperai  la  tête  pour \nfaire  de  toi  un  zéro.  Ah!  ceci  n'est  pas"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "faire",
+   "inf_abs_offset": 1399852,
+   "dem": "ceci",
+   "window": "faire  de  toi  un  zéro.  Ah!  ceci  n'est  pas  trop  mal ,  j'espère. \n\nToutes  les  bouteilles,  tous"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "faire",
+   "inf_abs_offset": 1446218,
+   "dem": "ça",
+   "window": "faire  jeter  ma  dernière  chique. \n\n—  Ah!  ça!  prenons  conseil,  dit  ensuite  le  capitaine  Gueux;"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "jeter",
+   "inf_abs_offset": 1446225,
+   "dem": "ça",
+   "window": "jeter  ma  dernière  chique. \n\n—  Ah!  ça!  prenons  conseil,  dit  ensuite  le  capitaine  Gueux;  nous "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "dernière",
+   "inf_abs_offset": 1446236,
+   "dem": "ça",
+   "window": "dernière  chique. \n\n—  Ah!  ça!  prenons  conseil,  dit  ensuite  le  capitaine  Gueux;  nous \nsommes  entre"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "mesure",
+   "inf_abs_offset": 1534042,
+   "dem": "cela",
+   "window": "mesure  sur \nles  convenances  dramatiques!  Rubini,  lui,  ne  fait  rien  de  tout  cela,  il  chante \nc"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "maître",
+   "inf_abs_offset": 1537960,
+   "dem": "cela",
+   "window": "maître!  comme  cela  soupire  la  douleur  et  la \nplainte!  comme  cette  phrase  entrecoupée,  où  les "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "terre",
+   "inf_abs_offset": 1946045,
+   "dem": "cela",
+   "window": "terre  autour  du  soleil!  Et \nc'est  avec  cela  qu'on  veut  réaliser  des  progrès  et  hâter  la  ve"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "arrière",
+   "inf_abs_offset": 1975155,
+   "dem": "cela",
+   "window": "arrière  de  l'Allemagne!  et  tout  cela \nparce  que  l'Alsace  a  le  malheur  d'être  réunie  à  la  Fra"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "aumônier",
+   "inf_abs_offset": 2264351,
+   "dem": "cela",
+   "window": "aumônier,  on  l'a  fait  disparaître  !  et  sur  cela  entre \ndans  une  telle  fureur,  comme  c'était  s"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "disparaître",
+   "inf_abs_offset": 2264377,
+   "dem": "cela",
+   "window": "disparaître  !  et  sur  cela  entre \ndans  une  telle  fureur,  comme  c'était  son  naturel,  dès  qu'il  se "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "maître",
+   "inf_abs_offset": 2350959,
+   "dem": "cela",
+   "window": "Maître,  un  réal  pour  du  tabac! \n—  Mademoiselle,  deux  réaux  pour  du  vin  !  )  En  disant  cela,"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "retourner",
+   "inf_abs_offset": 2381800,
+   "dem": "cela",
+   "window": "retourner  :  «  Mi  amo ,  allez \nvous-en!....  je  m'entendrai  avec  eux.  »  Cela  dit,  il  donna  un  c"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "dernier",
+   "inf_abs_offset": 2790701,
+   "dem": "ça",
+   "window": "dernier  des  maladroits  !  s'écria-t-il \nen  frappant  la  terre  de  la  crosse  de  son  arme.  Ah  ça "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "inf": "singulier",
+   "inf_abs_offset": 1766127,
+   "dem": "cela",
+   "window": "singulier  livre.  Terrible  voyage,  je  vous \njure  !  Et  cela  se  prolonge  ainsi  près  de  deux  cents"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "inf": "livre",
+   "inf_abs_offset": 1766138,
+   "dem": "cela",
+   "window": "livre.  Terrible  voyage,  je  vous \njure  !  Et  cela  se  prolonge  ainsi  près  de  deux  cents  pages"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "inf": "jure",
+   "inf_abs_offset": 1766175,
+   "dem": "cela",
+   "window": "jure  !  Et  cela  se  prolonge  ainsi  près  de  deux  cents  pages,  à  travers  la \nmaladie,  le  dés"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "inf": "dernier",
+   "inf_abs_offset": 2812736,
+   "dem": "ceci",
+   "window": "dernier  goujat  devrait  l'arracher  de  la  poitrine! \n\nCeci,  dit  au  fort  de  la  colère  et  peut-êt"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "inf": "l'arracher",
+   "inf_abs_offset": 2812762,
+   "dem": "ceci",
+   "window": "l'arracher  de  la  poitrine! \n\nCeci,  dit  au  fort  de  la  colère  et  peut-être  sans  intention  ,  tomba"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "inf": "guerre",
+   "inf_abs_offset": 2838234,
+   "dem": "cela",
+   "window": "guerre?  —  Ou  bien  il  interrompait  tout  net  : \n—  Comment!  qu'est-ce?  mais  cela  est  impossible"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "inf": "sortir",
+   "inf_abs_offset": 2943820,
+   "dem": "cela",
+   "window": "sortir. — Ah!  c'est  toi,  Paulet,  s'écria-t-il,  cela  est \nheureux...  —  Et  comme  il  entamait  ses"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "paratonnerre",
+   "inf_abs_offset": 56927,
+   "dem": "cela",
+   "window": "PARATONNERRE.  25 \n\n—  Ah  !  vous  avez  découvert  cela!  dit-il  au  bout  d'un  instant  avec \nun  accent  o"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "contre",
+   "inf_abs_offset": 69300,
+   "dem": "ca",
+   "window": "Contre-temps  fâcheux!  la \npremière  figure  que  j'aperçus  en  entrant  fut  celle  du  détestable  ca-"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "premier",
+   "inf_abs_offset": 235572,
+   "dem": "cela",
+   "window": "premier  coup  :  Cest  cela!  Très  peu  de  gens  sont  allés  en  Corse; \nles  mœurs  de  ce  pays  diff"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "vicaire",
+   "inf_abs_offset": 748489,
+   "dem": "cela",
+   "window": "vicaire  de  moins,  w \n\n—  Eh  bien!  que  dites-vous  de  cela?  s'écria  M.  Riquemont. \n\n—  Je  dis,  m"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "heure",
+   "inf_abs_offset": 760488,
+   "dem": "ça",
+   "window": "heure  !  c'est  beau , \nc'est  vaillant,  c'est  bien  attaché,  ça  fait  honneur  à  son  cavalier.  M"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "dire",
+   "inf_abs_offset": 835907,
+   "dem": "cela",
+   "window": "dire?  s'écria  le  docteur  pâlissant. \n\n-  Vous  le  demandez  !  vous  demandez  ce  que  cela  veut "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "vivre",
+   "inf_abs_offset": 836471,
+   "dem": "cela",
+   "window": "vivre  ni  mourir.  Ruses  que  tout  cela!  mensonges  imaginés  pour  auto- \nriser vos  visites  !  Voi"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "mourir",
+   "inf_abs_offset": 836482,
+   "dem": "cela",
+   "window": "mourir.  Ruses  que  tout  cela!  mensonges  imaginés  pour  auto- \nriser vos  visites  !  Voilà  pourquoi"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "désastre",
+   "inf_abs_offset": 921920,
+   "dem": "ça",
+   "window": "désastre  à  déplorer  ! \n\n—  Ah  ça  !  monsieur,  où  voulez-vous  en  venir?  s'écria  M,  Rique- \nmont  "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "déplorer",
+   "inf_abs_offset": 921933,
+   "dem": "ça",
+   "window": "déplorer  ! \n\n—  Ah  ça  !  monsieur,  où  voulez-vous  en  venir?  s'écria  M,  Rique- \nmont  avec  impatie"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "l'air",
+   "inf_abs_offset": 1095036,
+   "dem": "ça",
+   "window": "l'air  de  la  reconnaître  : \n\nViens  ça,  l'ami!  N'attends  demain!... \nAh!  pardon,  seigneur!...  Je"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "reconnaître",
+   "inf_abs_offset": 1095051,
+   "dem": "ça",
+   "window": "reconnaître  : \n\nViens  ça,  l'ami!  N'attends  demain!... \nAh!  pardon,  seigneur!...  Je  m'égare  : \nTant  c"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "s'établir",
+   "inf_abs_offset": 1268136,
+   "dem": "cela",
+   "window": "s'établir  à  Riquemont  tout  exprès  pour  soigner  vos  gastrites?  A  votre \naise!  Vivez,  mourez,  cela"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "soigner",
+   "inf_abs_offset": 1268181,
+   "dem": "cela",
+   "window": "soigner  vos  gastrites?  A  votre \naise!  Vivez,  mourez,  cela  vous  regarde;  pour  moi,  je  ne  m'en "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "votre",
+   "inf_abs_offset": 1268210,
+   "dem": "cela",
+   "window": "votre \naise!  Vivez,  mourez,  cela  vous  regarde;  pour  moi,  je  ne  m'en  môle \nplus. \n\nIl  sortit. "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "s'ouvrir",
+   "inf_abs_offset": 1707032,
+   "dem": "cela",
+   "window": "s'ouvrir  un  passage,  il  ne  vous  reste  plus  qu'à  abjurer \nla  religion  de  vos  pères! \n\n—  Cela  v"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "abjurer",
+   "inf_abs_offset": 1707089,
+   "dem": "cela",
+   "window": "abjurer \nla  religion  de  vos  pères! \n\n—  Cela  viendra,  répondit  Célestin  avec  calme.  Il  en  est  "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "sombre",
+   "inf_abs_offset": 1750415,
+   "dem": "ça",
+   "window": "sombre \ndécouragement,  ça  ne  mord  pas!  C'est  tous  les  jours  la  même  chose. \n\nCes  paroles  tirè"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "dire",
+   "inf_abs_offset": 2652536,
+   "dem": "cela",
+   "window": "dire  avec  un  sourire  moqueur  :  Ce  n'est  pas  plus \ndifficile  que  cela!  vous  en  êtes  pour  "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "sourire",
+   "inf_abs_offset": 2652552,
+   "dem": "cela",
+   "window": "sourire  moqueur  :  Ce  n'est  pas  plus \ndifficile  que  cela!  vous  en  êtes  pour  vos  frais  d'épouv"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "avoir",
+   "inf_abs_offset": 2818210,
+   "dem": "cela",
+   "window": "avoir \nvoulu  étendre  la  portée,  quelle  leçon  pour  M.  Guizot!  mais  que  cela \nest  triste  pour "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "étendre",
+   "inf_abs_offset": 2818224,
+   "dem": "cela",
+   "window": "étendre  la  portée,  quelle  leçon  pour  M.  Guizot!  mais  que  cela \nest  triste  pour  la  France!  Ai"
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "inf": "m'ecrier",
+   "inf_abs_offset": 59885,
+   "dem": "cela",
+   "window": "m'ecrier  avec  le  grenadier  frangais : \n„Ab !  les  malbeureux  appellent  cela  une  patrie !\"  Le  prem"
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "inf": "grenadier",
+   "inf_abs_offset": 59905,
+   "dem": "cela",
+   "window": "grenadier  frangais : \n„Ab !  les  malbeureux  appellent  cela  une  patrie !\"  Le  premier \npetit  Silesien "
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "inf": "dicter",
+   "inf_abs_offset": 1148072,
+   "dem": "cela",
+   "window": "dicter?\"  Le  Duc  de  Wellington  m'a  repondu  k  cela:  „Ob!  les \nTurcs,  lorsqu'ils  verront  notre  "
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "inf": "encore",
+   "inf_abs_offset": 142138,
+   "dem": "cela",
+   "window": "encore! \n\nTout  cela,  et  vous  allez  trouver  que  je  suis  bien  difficile, \nne  me  console  pas  de"
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "inf": "retourner",
+   "inf_abs_offset": 182378,
+   "dem": "cela",
+   "window": "retourner!  Quant  a  se  retrouver, \nje  crois  que  cela  ne  reussirait  pas.  Tout  est  r^gle  aujourd'h"
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "inf": "entre",
+   "inf_abs_offset": 327665,
+   "dem": "cela",
+   "window": "entre  Constantine  et  le  quai \nde  la  Terrasse!  Mais  aussi  comme  tout  cela  est  conduit! \n\nAdie"
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "inf": "eher",
+   "inf_abs_offset": 839966,
+   "dem": "cela",
+   "window": "eher  Comte,  est  bien  exaet;  c'est  cela! \n\nQuant  a  la  fin  de  votre  travail,  je  dois  vous  "
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "inf": "remplir",
+   "inf_abs_offset": 873320,
+   "dem": "cela",
+   "window": "remplir  le  vide! \n\nTout  cela  se  reglera  sans  doute;  mais  le  quand  et  le \ncomment  sont  Caches "
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "inf": "baser",
+   "inf_abs_offset": 1320528,
+   "dem": "cela",
+   "window": "baser \nune  preponderance  sur  le  soutien  d'interets  purement  reli- \ngieux!  Tout  cela  est  de  la"
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "inf": "autre",
+   "inf_abs_offset": 1664468,
+   "dem": "cela",
+   "window": "autre,  et  il  en  est  de  ces  manieres  comme  des  goüts;  tous  sont \ndans  la  nature!  Cela  n'em"
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "inf": "nature",
+   "inf_abs_offset": 1664554,
+   "dem": "cela",
+   "window": "nature!  Cela  n'empeche  pas  qu'il  y  en  ait  de  bonnes \net  de  fort  r^prehensibles !  Comme  ce  n"
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "inf": "éonsulter",
+   "inf_abs_offset": 156996,
+   "dem": "cela",
+   "window": "éonsulter son ami, l'évêque d'Arras! \n\n\n\n\n\n\n\n\nà vit dans sa théologie que cela ne lui serait bon à \n\n\nOn ja m"
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "inf": "ministère",
+   "inf_abs_offset": 319769,
+   "dem": "cela",
+   "window": "ministère pour sacrer un des nouveaux \névêques élus, qui, à son tour, sacra les autres!, \n\nCela fait, je donn"
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "inf": "sacrer",
+   "inf_abs_offset": 319784,
+   "dem": "cela",
+   "window": "sacrer un des nouveaux \névêques élus, qui, à son tour, sacra les autres!, \n\nCela fait, je donnai ma démiss"
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "inf": "rendre",
+   "inf_abs_offset": 386561,
+   "dem": "cela",
+   "window": "rendre \nLes cœurs français qu'ils ont perdus. \nSans miracle cela peut être; \n\nHélas! ils n'ont qu'à le vou"
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "inf": "l'autre",
+   "inf_abs_offset": 542113,
+   "dem": "cela",
+   "window": "l'autre. Carnot, \nen levant la main dit : « Je jure sur ma parole d'honneur que \ncela n'est pas vrai! — Ne "
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "inf": "jure",
+   "inf_abs_offset": 542160,
+   "dem": "cela",
+   "window": "jure sur ma parole d'honneur que \ncela n'est pas vrai! — Ne lève pas la main, lui répond \nBarras, il en "
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "inf": "sire",
+   "inf_abs_offset": 868526,
+   "dem": "cela",
+   "window": "Sire, beaucoup. — Eh \nbien! pas moi; mais nous parlerons de cela une autre fois. \nÉcrivez à M. Wicland d"
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "inf": "l'empècher",
+   "inf_abs_offset": 891525,
+   "dem": "cela",
+   "window": "l'empècher!. \nIl n'est plus question de cela; mon cher, il faut prendre \nle temps comme il est. Sur le temps p"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "crier",
+   "inf_abs_offset": 31039,
+   "dem": "ceci",
+   "window": "crier bien fort et s'indigner bien vite:\n\n--Oh! oh! disait-il en souriant, il y a apparence que ceci est "
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "s'indigner",
+   "inf_abs_offset": 31058,
+   "dem": "ceci",
+   "window": "s'indigner bien vite:\n\n--Oh! oh! disait-il en souriant, il y a apparence que ceci est un gros\ncrime que tout l"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "couture",
+   "inf_abs_offset": 52061,
+   "dem": "cela",
+   "window": "couture dessinait une croix. L'évêque le faisait souvent\nremarquer.\n\n--Comme cela fait bien! disait-il.\n\nTo"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "remarquer",
+   "inf_abs_offset": 52118,
+   "dem": "cela",
+   "window": "remarquer.\n\n--Comme cela fait bien! disait-il.\n\nToutes les chambres de la maison, au rez-de-chaussée ainsi qu"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "partir",
+   "inf_abs_offset": 59358,
+   "dem": "cela",
+   "window": "partir dans une heure.\n\n--Partir?\n\n--Partir.\n\n--Seul?\n\n--Seul.\n\n--Monseigneur! vous ne ferez pas cela.\n\n--"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "heure",
+   "inf_abs_offset": 59374,
+   "dem": "cela",
+   "window": "heure.\n\n--Partir?\n\n--Partir.\n\n--Seul?\n\n--Seul.\n\n--Monseigneur! vous ne ferez pas cela.\n\n--Il y a là, dans"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "partir",
+   "inf_abs_offset": 59384,
+   "dem": "cela",
+   "window": "Partir?\n\n--Partir.\n\n--Seul?\n\n--Seul.\n\n--Monseigneur! vous ne ferez pas cela.\n\n--Il y a là, dans la montagn"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "partir",
+   "inf_abs_offset": 59395,
+   "dem": "cela",
+   "window": "Partir.\n\n--Seul?\n\n--Seul.\n\n--Monseigneur! vous ne ferez pas cela.\n\n--Il y a là, dans la montagne, reprit l"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "rire",
+   "inf_abs_offset": 141598,
+   "dem": "cela",
+   "window": "rire et se tourna vers la cheminée et les fourneaux.\n\n--Rien! et tout cela?\n\n--Tout cela m'est retenu.\n\n"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "dormir",
+   "inf_abs_offset": 174282,
+   "dem": "ca",
+   "window": "dormir, le\nchaud, le froid, le travail, la chiourme, les coups de bâton! La double\nchaîne pour rien. Le ca"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "magloire",
+   "inf_abs_offset": 237380,
+   "dem": "cela",
+   "window": "Magloire toute seule en allant et\nvenant, recevoir un homme comme cela! et le loger à côté de soi! et quel\nb"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "recevoir",
+   "inf_abs_offset": 237422,
+   "dem": "cela",
+   "window": "recevoir un homme comme cela! et le loger à côté de soi! et quel\nbonheur encore qu'il n'ait fait que voler! "
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "loger",
+   "inf_abs_offset": 237458,
+   "dem": "cela",
+   "window": "loger à côté de soi! et quel\nbonheur encore qu'il n'ait fait que voler! Ah mon Dieu! cela fait frémir\nqua"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "encore",
+   "inf_abs_offset": 237495,
+   "dem": "cela",
+   "window": "encore qu'il n'ait fait que voler! Ah mon Dieu! cela fait frémir\nquand on songe!\n\nComme le frère et la soe"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "voler",
+   "inf_abs_offset": 237523,
+   "dem": "cela",
+   "window": "voler! Ah mon Dieu! cela fait frémir\nquand on songe!\n\nComme le frère et la soeur allaient se lever de tab"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "quatre",
+   "inf_abs_offset": 280044,
+   "dem": "ça",
+   "window": "quatre\nbouches à la fois et que Blachevelle s'écria:\n\n--Ça, c'est une idée!\n\nUn estaminet plein de fumée s"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "t'aimer",
+   "inf_abs_offset": 299468,
+   "dem": "cela",
+   "window": "t'aimer?\n\n--Moi! s'écria Favourite. Ah! ne dis pas cela, même pour rire! Si tu\ncessais de m'aimer, je te sa"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "dire",
+   "inf_abs_offset": 300971,
+   "dem": "ça",
+   "window": "dire des\nchoses comme ça. Ah! il est très bien. Je suis en train d'être insensée\nde ce petit-là. C'est é"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "beurre",
+   "inf_abs_offset": 301454,
+   "dem": "ça",
+   "window": "beurre est si cher! et\npuis, vois, c'est une horreur, nous dînons dans un endroit où il y a un\nlit, ça me "
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "cher",
+   "inf_abs_offset": 301468,
+   "dem": "ça",
+   "window": "cher! et\npuis, vois, c'est une horreur, nous dînons dans un endroit où il y a un\nlit, ça me dégoûte de l"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "erre",
+   "inf_abs_offset": 309318,
+   "dem": "ceci",
+   "window": "erre dans un jardin où il y a plus d'oiseaux qu'il n'en existe! Ô\nFantine, sache ceci: moi Tholomyès, je"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "mettre",
+   "inf_abs_offset": 317103,
+   "dem": "ça",
+   "window": "mettre à plaindre les chevaux! Peut-on être\nfichue bête comme ça!\n\nEn ce moment, Favourite, croisant les b"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "plaindre",
+   "inf_abs_offset": 317112,
+   "dem": "ça",
+   "window": "plaindre les chevaux! Peut-on être\nfichue bête comme ça!\n\nEn ce moment, Favourite, croisant les bras et renv"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "être",
+   "inf_abs_offset": 317142,
+   "dem": "ça",
+   "window": "être\nfichue bête comme ça!\n\nEn ce moment, Favourite, croisant les bras et renversant la tête en\narrière,"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "lettre",
+   "inf_abs_offset": 320693,
+   "dem": "ceci",
+   "window": "lettre en\neffet.\n\n--Tiens! dit-elle. Il n'y a pas d'adresse. Mais voici ce qui est écrit\ndessus:\n\nCeci est"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "donner",
+   "inf_abs_offset": 340102,
+   "dem": "cela",
+   "window": "donner, repartit la voix d'homme.\n\n--Je crois bien que je le donnerai! dit la mère. Ce serait cela qui\nser"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "s'enfoncer",
+   "inf_abs_offset": 388050,
+   "dem": "ça",
+   "window": "s'enfoncer lentement. Le père\nFauchelevent râlait et hurlait:\n\n--J'étouffe! Ça me brise les côtes! Un cric! qu"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "père",
+   "inf_abs_offset": 388075,
+   "dem": "ça",
+   "window": "père\nFauchelevent râlait et hurlait:\n\n--J'étouffe! Ça me brise les côtes! Un cric! quelque chose! Ah!\n\nM"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "remplacer",
+   "inf_abs_offset": 388395,
+   "dem": "ça",
+   "window": "remplacer un cric. C'était ce\nforçat.\n\n--Ah! voilà que ça m'écrase! cria le vieillard.\n\nMadeleine leva la têt"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "rire",
+   "inf_abs_offset": 407052,
+   "dem": "ça",
+   "window": "rire aux éclats, et elle dit à sa vieille voisine:\n\n--Ah! ils sont bons! quarante francs! que ça! ça fai"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "entendre",
+   "inf_abs_offset": 408649,
+   "dem": "ça",
+   "window": "entendre la voix\nenrouée de l'homme qui lui criait: Réfléchissez, la belle! deux\nnapoléons, ça peut servir. "
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "d'abîmer",
+   "inf_abs_offset": 425615,
+   "dem": "cela",
+   "window": "d'abîmer le chapeau de ce monsieur. Pourquoi s'est-il en\nallé? Je lui demanderais pardon. Oh! mon Dieu, cela"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "pauvre",
+   "inf_abs_offset": 426217,
+   "dem": "ça",
+   "window": "pauvre loup! Je\nvais vous dire, c'est les Thénardier, des aubergistes, des paysans, ça\nn'a pas de raisonne"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "aller",
+   "inf_abs_offset": 430154,
+   "dem": "cela",
+   "window": "aller! que je n'aille pas en prison six\nmois! Qui est-ce qui a dit cela? Il n'est pas possible qu'on ait "
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "pierre",
+   "inf_abs_offset": 438360,
+   "dem": "cela",
+   "window": "pierre de taille. Enfin, il y\na des choses dans ce monde! Quoi qu'il en soit, monsieur le maire, cela,\nc'e"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "venger",
+   "inf_abs_offset": 464071,
+   "dem": "ceci",
+   "window": "venger, je vous ai dénoncé comme forçat, vous, un homme\nrespectable, un maire, un magistrat! ceci est grav"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "maire",
+   "inf_abs_offset": 464143,
+   "dem": "ceci",
+   "window": "maire, un magistrat! ceci est grave. Très grave. J'ai\noffensé l'autorité dans votre personne, moi, agent "
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "quitter",
+   "inf_abs_offset": 494918,
+   "dem": "cela",
+   "window": "quitter la ville! Et tout cela s'est fait sans\nmoi! Et je n'y suis pour rien! Ah çà, mais! qu'est-ce qu'il "
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "l'enfer",
+   "inf_abs_offset": 499754,
+   "dem": "cela",
+   "window": "l'enfer\nd'où il sortait! Y retomber en apparence, c'était en sortir en réalité!\nIl fallait faire cela! il n"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "retomber",
+   "inf_abs_offset": 499781,
+   "dem": "cela",
+   "window": "retomber en apparence, c'était en sortir en réalité!\nIl fallait faire cela! il n'avait rien fait s'il ne fai"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "sortir",
+   "inf_abs_offset": 499815,
+   "dem": "cela",
+   "window": "sortir en réalité!\nIl fallait faire cela! il n'avait rien fait s'il ne faisait pas cela!\ntoute sa vie étai"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "faire",
+   "inf_abs_offset": 499845,
+   "dem": "cela",
+   "window": "faire cela! il n'avait rien fait s'il ne faisait pas cela!\ntoute sa vie était inutile, toute sa pénitence"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "mère",
+   "inf_abs_offset": 510137,
+   "dem": "ça",
+   "window": "mère ait revu son enfant! sans que l'enfant\nait presque connu sa mère! Et tout ça pour ce vieux gredin d"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "mère",
+   "inf_abs_offset": 510202,
+   "dem": "ça",
+   "window": "mère! Et tout ça pour ce vieux gredin de voleur de\npommes qui, à coup sûr, a mérité les galères pour aut"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "autre",
+   "inf_abs_offset": 510303,
+   "dem": "cela",
+   "window": "autre chose, si ce\nn'est pour cela! Beaux scrupules qui sauvent un coupable et qui\nsacrifient des innocen"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "tenir",
+   "inf_abs_offset": 511804,
+   "dem": "ceci",
+   "window": "tenir à quelque chose. Mon parti est pris.\nLaissons faire! Ne vacillons plus, ne reculons plus. Ceci est "
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "faire",
+   "inf_abs_offset": 511856,
+   "dem": "ceci",
+   "window": "faire! Ne vacillons plus, ne reculons plus. Ceci est dans\nl'intérêt de tous, non dans le mien. Je suis Ma"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "heure",
+   "inf_abs_offset": 512160,
+   "dem": "cela",
+   "window": "heure, qu'il s'arrange! cela ne\nme regarde pas. C'est un nom de fatalité qui flotte dans la nuit, s'il\ns'"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "miroir",
+   "inf_abs_offset": 512345,
+   "dem": "cela",
+   "window": "miroir qui était sur sa cheminée, et dit:\n\n--Tiens! cela m'a soulagé de prendre une résolution! Je suis to"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "portière",
+   "inf_abs_offset": 519357,
+   "dem": "cela",
+   "window": "portière, la seule servante qu'il eût, ne lui monterait plus son café le\nmatin. Grand Dieu! au lieu de cela,"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "réfléchir",
+   "inf_abs_offset": 561557,
+   "dem": "ça",
+   "window": "réfléchir que la vie n'est pas éternelle! Oh!\ncomme il est bon d'être parti, monsieur le maire! C'est vrai ça"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "d'être",
+   "inf_abs_offset": 561620,
+   "dem": "ça",
+   "window": "d'être parti, monsieur le maire! C'est vrai ça, qu'il\nfait bien froid? avait-il son manteau au moins? Il s"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "maire",
+   "inf_abs_offset": 561646,
+   "dem": "ça",
+   "window": "maire! C'est vrai ça, qu'il\nfait bien froid? avait-il son manteau au moins? Il sera ici demain,\nn'est-ce "
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "mystère",
+   "inf_abs_offset": 565170,
+   "dem": "cela",
+   "window": "mystère que tout cela! Nous la sauverions peut-être.\n\n\n\n\nChapitre VII\n\nLe voyageur arrivé prend ses précaut"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "inf": "pauvre",
+   "inf_abs_offset": 628616,
+   "dem": "cela",
+   "window": "pauvre chou! Les enfants, cela n'a\npas de mémoire. C'est comme des oiseaux. Aujourd'hui cela voit une chos"
+  }
+ ]
+}

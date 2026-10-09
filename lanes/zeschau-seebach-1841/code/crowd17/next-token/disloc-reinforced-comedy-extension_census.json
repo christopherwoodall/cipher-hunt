@@ -1,0 +1,42 @@
+{
+ "files": [
+  {
+   "file": "scribe-le-savant.txt",
+   "chars": 88949,
+   "dem_comma_hits": 1,
+   "excl_candidates": 0
+  },
+  {
+   "file": "scribe-le-lorgnon.txt",
+   "chars": 67028,
+   "dem_comma_hits": 1,
+   "excl_candidates": 0
+  },
+  {
+   "file": "labiche-voyage-perrichon.txt",
+   "chars": 97395,
+   "dem_comma_hits": 0,
+   "excl_candidates": 0
+  },
+  {
+   "file": "labiche-la-cagnotte.txt",
+   "chars": 134353,
+   "dem_comma_hits": 0,
+   "excl_candidates": 0
+  },
+  {
+   "file": "labiche-29-degres-ombre.txt",
+   "chars": 34634,
+   "dem_comma_hits": 0,
+   "excl_candidates": 0
+  },
+  {
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "chars": 43172,
+   "dem_comma_hits": 0,
+   "excl_candidates": 0
+  }
+ ],
+ "total_chars": 465531,
+ "candidates": []
+}

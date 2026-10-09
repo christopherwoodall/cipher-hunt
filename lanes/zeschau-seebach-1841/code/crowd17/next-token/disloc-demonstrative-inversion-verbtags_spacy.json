@@ -1,0 +1,710 @@
+{
+ "rows": [
+  {
+   "span_kind": "guillemet",
+   "inf": "noyer",
+   "inf_abs_offset": 30461,
+   "left_context": [
+    "des",
+    "mariniers",
+    "se"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "ceci",
+   "window": "noyer.  Elle  s'écria  incontinent  :  Ha! \nmon  Dieu!  quel  augure  de  voyage  est  ceci?  S'estant  é",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "spacy_token": "noyer",
+   "spacy_pos": "VERB",
+   "spacy_morph": "VerbForm=Inf",
+   "genuine_inf": true
+  },
+  {
+   "span_kind": "dquote",
+   "inf": "être",
+   "inf_abs_offset": 2560691,
+   "left_context": [
+    "uns",
+    "répondaient",
+    "peut"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "cela",
+   "window": "être  quecela  ne  mange  pas! — Cela  \\it-il  sur  terre  ou  sur  mer? \n— Probablement  cela  vit  tou",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "spacy_token": "être",
+   "spacy_pos": "ADV",
+   "spacy_morph": "",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "guillemet",
+   "inf": "faire",
+   "inf_abs_offset": 1399795,
+   "left_context": [
+    "une",
+    "queue",
+    "pour"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "ceci",
+   "window": "faire  un  neuf,  moi  je  te  couperai  la  tête  pour \nfaire  de  toi  un  zéro.  Ah!  ceci  n'est  pas",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "spacy_token": "faire",
+   "spacy_pos": "VERB",
+   "spacy_morph": "VerbForm=Inf",
+   "genuine_inf": true
+  },
+  {
+   "span_kind": "guillemet",
+   "inf": "faire",
+   "inf_abs_offset": 1399852,
+   "left_context": [
+    "la",
+    "tête",
+    "pour"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "ceci",
+   "window": "faire  de  toi  un  zéro.  Ah!  ceci  n'est  pas  trop  mal ,  j'espère. \n\nToutes  les  bouteilles,  tous",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "spacy_token": "faire",
+   "spacy_pos": "VERB",
+   "spacy_morph": "VerbForm=Inf",
+   "genuine_inf": true
+  },
+  {
+   "span_kind": "guillemet",
+   "inf": "aumônier",
+   "inf_abs_offset": 2264351,
+   "left_context": [
+    "l'ai",
+    "fait",
+    "grand"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "cela",
+   "window": "aumônier,  on  l'a  fait  disparaître  !  et  sur  cela  entre \ndans  une  telle  fureur,  comme  c'était  s",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "spacy_token": "grand-aumônier",
+   "spacy_pos": "ADV",
+   "spacy_morph": "",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "guillemet",
+   "inf": "disparaître",
+   "inf_abs_offset": 2264377,
+   "left_context": [
+    "on",
+    "l'a",
+    "fait"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "cela",
+   "window": "disparaître  !  et  sur  cela  entre \ndans  une  telle  fureur,  comme  c'était  son  naturel,  dès  qu'il  se ",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "spacy_token": "disparaître",
+   "spacy_pos": "NOUN",
+   "spacy_morph": "Gender=Masc|Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "dquote",
+   "inf": "traiter",
+   "inf_abs_offset": 901694,
+   "left_context": [
+    "apprendrai",
+    "à",
+    "me"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "cela",
+   "window": "traiter  de  fourbe  ! \n\nIl  mitl'épée  au  vent  en  disant  cela.  Les  autres  dégainèrent  aussi. \nM.  ",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "spacy_token": "traiter",
+   "spacy_pos": "VERB",
+   "spacy_morph": "VerbForm=Inf",
+   "genuine_inf": true
+  },
+  {
+   "span_kind": "dquote",
+   "inf": "maître",
+   "inf_abs_offset": 1537960,
+   "left_context": [
+    "musique",
+    "du",
+    "grand"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "cela",
+   "window": "maître!  comme  cela  soupire  la  douleur  et  la \nplainte!  comme  cette  phrase  entrecoupée,  où  les ",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "spacy_token": "maître",
+   "spacy_pos": "NOUN",
+   "spacy_morph": "Gender=Masc|Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "dquote",
+   "inf": "arrière",
+   "inf_abs_offset": 1975155,
+   "left_context": [
+    "deux",
+    "siècles",
+    "en"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "cela",
+   "window": "arrière  de  l'Allemagne!  et  tout  cela \nparce  que  l'Alsace  a  le  malheur  d'être  réunie  à  la  Fra",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "spacy_token": "arrière",
+   "spacy_pos": "NOUN",
+   "spacy_morph": "Gender=Fem|Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "dquote",
+   "inf": "maître",
+   "inf_abs_offset": 2350959,
+   "left_context": [
+    "rea",
+    "pa",
+    "vino"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "cela",
+   "window": "Maître,  un  réal  pour  du  tabac! \n—  Mademoiselle,  deux  réaux  pour  du  vin  !  )  En  disant  cela,",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "spacy_token": "Maître",
+   "spacy_pos": "PROPN",
+   "spacy_morph": "",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "em-dash",
+   "inf": "père",
+   "inf_abs_offset": 895149,
+   "left_context": [
+    "je",
+    "suis",
+    "grand"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "cela",
+   "window": "père!  murmurait-il  suffoqué;  je  ne  ie  serai  pas \nlong-temps  si  cela  est.  Je  tuerai  tout  à ",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "spacy_token": "grand-père",
+   "spacy_pos": "ADJ",
+   "spacy_morph": "Gender=Fem|Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "guillemet",
+   "inf": "l'arracher",
+   "inf_abs_offset": 2812762,
+   "left_context": [
+    "dernier",
+    "goujat",
+    "devrait"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "ceci",
+   "window": "l'arracher  de  la  poitrine! \n\nCeci,  dit  au  fort  de  la  colère  et  peut-être  sans  intention  ,  tomba",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "spacy_token": "arracher",
+   "spacy_pos": "NOUN",
+   "spacy_morph": "Gender=Masc|Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "dquote",
+   "inf": "sortir",
+   "inf_abs_offset": 2943820,
+   "left_context": [
+    "murs",
+    "comme",
+    "pour"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "cela",
+   "window": "sortir. — Ah!  c'est  toi,  Paulet,  s'écria-t-il,  cela  est \nheureux...  —  Et  comme  il  entamait  ses",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "spacy_token": "sortir",
+   "spacy_pos": "VERB",
+   "spacy_morph": "VerbForm=Inf",
+   "genuine_inf": true
+  },
+  {
+   "span_kind": "guillemet",
+   "inf": "contre",
+   "inf_abs_offset": 69300,
+   "left_context": [
+    "salle",
+    "de",
+    "billard"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "ca",
+   "window": "Contre-temps  fâcheux!  la \npremière  figure  que  j'aperçus  en  entrant  fut  celle  du  détestable  ca-",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "spacy_token": "Contre-temps",
+   "spacy_pos": "NOUN",
+   "spacy_morph": "Gender=Masc|Number=Plur",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "guillemet",
+   "inf": "vicaire",
+   "inf_abs_offset": 748489,
+   "left_context": [
+    "n'y",
+    "avait",
+    "qu'un"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "cela",
+   "window": "vicaire  de  moins,  w \n\n—  Eh  bien!  que  dites-vous  de  cela?  s'écria  M.  Riquemont. \n\n—  Je  dis,  m",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "spacy_token": "vicaire",
+   "spacy_pos": "NOUN",
+   "spacy_morph": "Gender=Fem|Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "guillemet",
+   "inf": "désastre",
+   "inf_abs_offset": 921920,
+   "left_context": [
+    "de",
+    "plus",
+    "grand"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "ça",
+   "window": "désastre  à  déplorer  ! \n\n—  Ah  ça  !  monsieur,  où  voulez-vous  en  venir?  s'écria  M,  Rique- \nmont  ",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "spacy_token": "désastre",
+   "spacy_pos": "NOUN",
+   "spacy_morph": "Gender=Fem|Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "guillemet",
+   "inf": "déplorer",
+   "inf_abs_offset": 921933,
+   "left_context": [
+    "grand",
+    "désastre",
+    "à"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "ça",
+   "window": "déplorer  ! \n\n—  Ah  ça  !  monsieur,  où  voulez-vous  en  venir?  s'écria  M,  Rique- \nmont  avec  impatie",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "spacy_token": "déplorer",
+   "spacy_pos": "VERB",
+   "spacy_morph": "VerbForm=Inf",
+   "genuine_inf": true
+  },
+  {
+   "span_kind": "dquote",
+   "inf": "heure",
+   "inf_abs_offset": 760488,
+   "left_context": [
+    "a",
+    "la",
+    "bonne"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "ça",
+   "window": "heure  !  c'est  beau , \nc'est  vaillant,  c'est  bien  attaché,  ça  fait  honneur  à  son  cavalier.  M",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "spacy_token": "heure",
+   "spacy_pos": "NOUN",
+   "spacy_morph": "Gender=Fem|Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "dquote",
+   "inf": "avoir",
+   "inf_abs_offset": 2818210,
+   "left_context": [
+    "gouvernement",
+    "français",
+    "d'en"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "cela",
+   "window": "avoir \nvoulu  étendre  la  portée,  quelle  leçon  pour  M.  Guizot!  mais  que  cela \nest  triste  pour ",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "spacy_token": "avoir",
+   "spacy_pos": "AUX",
+   "spacy_morph": "VerbForm=Inf",
+   "genuine_inf": true
+  },
+  {
+   "span_kind": "dquote",
+   "inf": "étendre",
+   "inf_abs_offset": 2818224,
+   "left_context": [
+    "d'en",
+    "avoir",
+    "voulu"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "cela",
+   "window": "étendre  la  portée,  quelle  leçon  pour  M.  Guizot!  mais  que  cela \nest  triste  pour  la  France!  Ai",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "spacy_token": "étendre",
+   "spacy_pos": "VERB",
+   "spacy_morph": "VerbForm=Inf",
+   "genuine_inf": true
+  },
+  {
+   "span_kind": "em-dash",
+   "inf": "vivre",
+   "inf_abs_offset": 836471,
+   "left_context": [
+    "ne",
+    "sait",
+    "ni"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "cela",
+   "window": "vivre  ni  mourir.  Ruses  que  tout  cela!  mensonges  imaginés  pour  auto- \nriser vos  visites  !  Voi",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "spacy_token": "vivre",
+   "spacy_pos": "VERB",
+   "spacy_morph": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "em-dash",
+   "inf": "mourir",
+   "inf_abs_offset": 836482,
+   "left_context": [
+    "ni",
+    "vivre",
+    "ni"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "cela",
+   "window": "mourir.  Ruses  que  tout  cela!  mensonges  imaginés  pour  auto- \nriser vos  visites  !  Voilà  pourquoi",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "spacy_token": "mourir",
+   "spacy_pos": "NOUN",
+   "spacy_morph": "Gender=Fem|Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "em-dash",
+   "inf": "s'établir",
+   "inf_abs_offset": 1268136,
+   "left_context": [
+    "vienne",
+    "de",
+    "paris"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "cela",
+   "window": "s'établir  à  Riquemont  tout  exprès  pour  soigner  vos  gastrites?  A  votre \naise!  Vivez,  mourez,  cela",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "spacy_token": "établir",
+   "spacy_pos": "VERB",
+   "spacy_morph": "VerbForm=Inf",
+   "genuine_inf": true
+  },
+  {
+   "span_kind": "em-dash",
+   "inf": "soigner",
+   "inf_abs_offset": 1268181,
+   "left_context": [
+    "tout",
+    "exprès",
+    "pour"
+   ],
+   "filter_keep": true,
+   "filter_rule": null,
+   "dem": "cela",
+   "window": "soigner  vos  gastrites?  A  votre \naise!  Vivez,  mourez,  cela  vous  regarde;  pour  moi,  je  ne  m'en ",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "spacy_token": "soigner",
+   "spacy_pos": "VERB",
+   "spacy_morph": "VerbForm=Inf",
+   "genuine_inf": true
+  },
+  {
+   "span_kind": "guillemet",
+   "inf": "votre",
+   "inf_abs_offset": 64114,
+   "left_context": [
+    "dit",
+    "à",
+    "marie"
+   ],
+   "filter_keep": false,
+   "filter_rule": "F3",
+   "dem": "cela",
+   "window": "Votre  mari  atout  fait! \n—  Ah  !  cela  est  ainsi ,  répondit-elle ,  adieu  donc  larmes  !  c'est  ",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "spacy_token": "Votre",
+   "spacy_pos": "DET",
+   "spacy_morph": "Number=Sing|Poss=Yes",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "dquote",
+   "inf": "mesure",
+   "inf_abs_offset": 1534042,
+   "left_context": [
+    "intonation",
+    "et",
+    "la"
+   ],
+   "filter_keep": false,
+   "filter_rule": "F1",
+   "dem": "cela",
+   "window": "mesure  sur \nles  convenances  dramatiques!  Rubini,  lui,  ne  fait  rien  de  tout  cela,  il  chante \nc",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "spacy_token": "mesure",
+   "spacy_pos": "NOUN",
+   "spacy_morph": "Gender=Fem|Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "guillemet",
+   "inf": "dernier",
+   "inf_abs_offset": 2812736,
+   "left_context": [
+    "à",
+    "qui",
+    "le"
+   ],
+   "filter_keep": false,
+   "filter_rule": "F1",
+   "dem": "ceci",
+   "window": "dernier  goujat  devrait  l'arracher  de  la  poitrine! \n\nCeci,  dit  au  fort  de  la  colère  et  peut-êt",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "spacy_token": "dernier",
+   "spacy_pos": "ADJ",
+   "spacy_morph": "Gender=Masc|NumType=Ord|Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "dquote",
+   "inf": "singulier",
+   "inf_abs_offset": 1766127,
+   "left_context": [
+    "bout",
+    "de",
+    "ce"
+   ],
+   "filter_keep": false,
+   "filter_rule": "F1",
+   "dem": "cela",
+   "window": "singulier  livre.  Terrible  voyage,  je  vous \njure  !  Et  cela  se  prolonge  ainsi  près  de  deux  cents",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "spacy_token": "singulier",
+   "spacy_pos": "NOUN",
+   "spacy_morph": "Gender=Masc|Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "dquote",
+   "inf": "livre",
+   "inf_abs_offset": 1766138,
+   "left_context": [
+    "de",
+    "ce",
+    "singulier"
+   ],
+   "filter_keep": false,
+   "filter_rule": "F1",
+   "dem": "cela",
+   "window": "livre.  Terrible  voyage,  je  vous \njure  !  Et  cela  se  prolonge  ainsi  près  de  deux  cents  pages",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "spacy_token": "livre",
+   "spacy_pos": "NOUN",
+   "spacy_morph": "Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "dquote",
+   "inf": "jure",
+   "inf_abs_offset": 1766175,
+   "left_context": [
+    "voyage",
+    "je",
+    "vous"
+   ],
+   "filter_keep": false,
+   "filter_rule": "F2",
+   "dem": "cela",
+   "window": "jure  !  Et  cela  se  prolonge  ainsi  près  de  deux  cents  pages,  à  travers  la \nmaladie,  le  dés",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "spacy_token": "jure",
+   "spacy_pos": "ADJ",
+   "spacy_morph": "Gender=Fem|Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "dquote",
+   "inf": "guerre",
+   "inf_abs_offset": 2838234,
+   "left_context": [
+    "pas",
+    "mieux",
+    "la"
+   ],
+   "filter_keep": false,
+   "filter_rule": "F1",
+   "dem": "cela",
+   "window": "guerre?  —  Ou  bien  il  interrompait  tout  net  : \n—  Comment!  qu'est-ce?  mais  cela  est  impossible",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "spacy_token": "guerre",
+   "spacy_pos": "NOUN",
+   "spacy_morph": "Gender=Fem|Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "guillemet",
+   "inf": "paratonnerre",
+   "inf_abs_offset": 56927,
+   "left_context": [
+    "regarda",
+    "fixement",
+    "le"
+   ],
+   "filter_keep": false,
+   "filter_rule": "F1",
+   "dem": "cela",
+   "window": "PARATONNERRE.  25 \n\n—  Ah  !  vous  avez  découvert  cela!  dit-il  au  bout  d'un  instant  avec \nun  accent  o",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "spacy_token": "PARATONNERRE",
+   "spacy_pos": "PROPN",
+   "spacy_morph": "Gender=Masc|Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "guillemet",
+   "inf": "dire",
+   "inf_abs_offset": 2652536,
+   "left_context": [
+    "et",
+    "semble",
+    "vous"
+   ],
+   "filter_keep": false,
+   "filter_rule": "F2",
+   "dem": "cela",
+   "window": "dire  avec  un  sourire  moqueur  :  Ce  n'est  pas  plus \ndifficile  que  cela!  vous  en  êtes  pour  ",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "spacy_token": "dire",
+   "spacy_pos": "VERB",
+   "spacy_morph": "VerbForm=Inf",
+   "genuine_inf": true
+  },
+  {
+   "span_kind": "guillemet",
+   "inf": "sourire",
+   "inf_abs_offset": 2652552,
+   "left_context": [
+    "dire",
+    "avec",
+    "un"
+   ],
+   "filter_keep": false,
+   "filter_rule": "F1",
+   "dem": "cela",
+   "window": "sourire  moqueur  :  Ce  n'est  pas  plus \ndifficile  que  cela!  vous  en  êtes  pour  vos  frais  d'épouv",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "spacy_token": "sourire",
+   "spacy_pos": "ADJ",
+   "spacy_morph": "Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "dquote",
+   "inf": "premier",
+   "inf_abs_offset": 235572,
+   "left_context": [
+    "il",
+    "dit",
+    "du"
+   ],
+   "filter_keep": false,
+   "filter_rule": "F1",
+   "dem": "cela",
+   "window": "premier  coup  :  Cest  cela!  Très  peu  de  gens  sont  allés  en  Corse; \nles  mœurs  de  ce  pays  diff",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "spacy_token": "premier",
+   "spacy_pos": "ADJ",
+   "spacy_morph": "Gender=Masc|NumType=Ord|Number=Sing",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "em-dash",
+   "inf": "votre",
+   "inf_abs_offset": 1268210,
+   "left_context": [
+    "vos",
+    "gastrites",
+    "a"
+   ],
+   "filter_keep": false,
+   "filter_rule": "F3",
+   "dem": "cela",
+   "window": "votre \naise!  Vivez,  mourez,  cela  vous  regarde;  pour  moi,  je  ne  m'en  môle \nplus.",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "spacy_token": "votre",
+   "spacy_pos": "DET",
+   "spacy_morph": "Number=Sing|Poss=Yes",
+   "genuine_inf": false
+  },
+  {
+   "span_kind": "em-dash",
+   "inf": "sombre",
+   "inf_abs_offset": 1750415,
+   "left_context": [
+    "flamborough",
+    "avec",
+    "un"
+   ],
+   "filter_keep": false,
+   "filter_rule": "F1",
+   "dem": "ça",
+   "window": "sombre \ndécouragement,  ça  ne  mord  pas!  C'est  tous  les  jours  la  même  chose.",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "spacy_token": "sombre",
+   "spacy_pos": "NOUN",
+   "spacy_morph": "Gender=Masc|Number=Sing",
+   "genuine_inf": false
+  }
+ ],
+ "model": "fr_core_news_sm-3.8.0",
+ "tagger": "spacy 3.8.16",
+ "alignment": "last-token-of-INF-match"
+}

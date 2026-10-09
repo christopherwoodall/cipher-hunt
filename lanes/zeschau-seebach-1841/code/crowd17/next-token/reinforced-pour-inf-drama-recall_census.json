@@ -1,0 +1,935 @@
+{
+ "census_drama": {
+  "files": [
+   {
+    "file": "dumas-mariage-louis-xv-1841.txt",
+    "chars": 204641,
+    "passA_hits": 2,
+    "passA_uncapped": 0,
+    "passB_hits": 2,
+    "passA_candidates": 0,
+    "passB_candidates": 0
+   },
+   {
+    "file": "vigny-chatterton-1835.txt",
+    "chars": 188780,
+    "passA_hits": 2,
+    "passA_uncapped": 1,
+    "passB_hits": 2,
+    "passA_candidates": 0,
+    "passB_candidates": 0
+   },
+   {
+    "file": "musset-comedies-proverbes-1850.txt",
+    "chars": 972696,
+    "passA_hits": 11,
+    "passA_uncapped": 0,
+    "passB_hits": 11,
+    "passA_candidates": 0,
+    "passB_candidates": 0
+   },
+   {
+    "file": "hugo-hernani-1870.txt",
+    "chars": 203769,
+    "passA_hits": 0,
+    "passA_uncapped": 0,
+    "passB_hits": 0,
+    "passA_candidates": 0,
+    "passB_candidates": 0
+   },
+   {
+    "file": "hugo-ruy-blas.txt",
+    "chars": 198265,
+    "passA_hits": 6,
+    "passA_uncapped": 2,
+    "passB_hits": 6,
+    "passA_candidates": 0,
+    "passB_candidates": 1
+   },
+   {
+    "file": "hugo-burgraves.txt",
+    "chars": 151408,
+    "passA_hits": 2,
+    "passA_uncapped": 0,
+    "passB_hits": 2,
+    "passA_candidates": 0,
+    "passB_candidates": 0
+   },
+   {
+    "file": "dumas-antony.txt",
+    "chars": 102234,
+    "passA_hits": 1,
+    "passA_uncapped": 0,
+    "passB_hits": 1,
+    "passA_candidates": 0,
+    "passB_candidates": 0
+   },
+   {
+    "file": "dumas-tour-de-nesle.txt",
+    "chars": 132586,
+    "passA_hits": 6,
+    "passA_uncapped": 2,
+    "passB_hits": 6,
+    "passA_candidates": 0,
+    "passB_candidates": 0
+   },
+   {
+    "file": "dumas-henri-iii.txt",
+    "chars": 128462,
+    "passA_hits": 1,
+    "passA_uncapped": 0,
+    "passB_hits": 1,
+    "passA_candidates": 0,
+    "passB_candidates": 0
+   },
+   {
+    "file": "dumas-kean.txt",
+    "chars": 152233,
+    "passA_hits": 4,
+    "passA_uncapped": 1,
+    "passB_hits": 4,
+    "passA_candidates": 0,
+    "passB_candidates": 1
+   },
+   {
+    "file": "scribe-bertrand-et-raton.txt",
+    "chars": 182448,
+    "passA_hits": 2,
+    "passA_uncapped": 0,
+    "passB_hits": 2,
+    "passA_candidates": 0,
+    "passB_candidates": 0
+   },
+   {
+    "file": "scribe-verre-d-eau.txt",
+    "chars": 146451,
+    "passA_hits": 3,
+    "passA_uncapped": 0,
+    "passB_hits": 3,
+    "passA_candidates": 1,
+    "passB_candidates": 1
+   },
+   {
+    "file": "labiche-chapeau-de-paille.txt",
+    "chars": 118567,
+    "passA_hits": 1,
+    "passA_uncapped": 0,
+    "passB_hits": 1,
+    "passA_candidates": 0,
+    "passB_candidates": 0
+   },
+   {
+    "file": "labiche-martin-poudre-aux-yeux.txt",
+    "chars": 87042,
+    "passA_hits": 0,
+    "passA_uncapped": 0,
+    "passB_hits": 0,
+    "passA_candidates": 0,
+    "passB_candidates": 0
+   }
+  ],
+  "total_chars": 2969582,
+  "hits": [
+   {
+    "offset": 115561,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là,  je  vous  le  donne.",
+    "file": "dumas-mariage-louis-xv-1841.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 172768,
+    "dem": "celle-ci",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celle-ci,  ce \nsera ,  je  vous  le  jure,  une  leçon  pour  toute  ma  vie.",
+    "file": "dumas-mariage-louis-xv-1841.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 115561,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là,  je  vous  le  donne.",
+    "file": "dumas-mariage-louis-xv-1841.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 172768,
+    "dem": "celle-ci",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celle-ci,  ce \nsera ,  je  vous  le  jure,  une  leçon  pour  toute  ma  vie.",
+    "file": "dumas-mariage-louis-xv-1841.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 25120,
+    "dem": "celle-ci",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celle-ci ,  je  la  choisirais.",
+    "file": "vigny-chatterton-1835.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 151996,
+    "dem": "celle-ci",
+    "sep": ",",
+    "uncapped": true,
+    "win_preview": "celle-ci,  et  le \nmérite  en  est  grand;  car,  derrière  le  drame \nécrit,  il  y  a  comme  un  second  drame  que  l'écri- \nture  n'atteint  pas,  et  que   n'expriment  pas  ",
+    "file": "vigny-chatterton-1835.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 25120,
+    "dem": "celle-ci",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celle-ci ,  je  la  choisirais.",
+    "file": "vigny-chatterton-1835.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 151996,
+    "dem": "celle-ci",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celle-ci,  et  le \nmérite  en  est  grand;  car,  derrière  le  drame \nécrit,  il  y  a  comme  un  second  drame  que  l'écri- \nture  n'atteint  pas,  et  que   n'expriment  pas  let \nparoles.",
+    "file": "vigny-chatterton-1835.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 2635,
+    "dem": "celle-ci",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celle-ci,  pleine  de  jeunes  gens, \nde  valets!",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 40999,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "Celui-là,  Cordiani,  tu  l'as  tué;  celui-là  ira  demain  au  cime- \ntière avec  la  dépouille  du  vieux  Grémio;  l'autre  reste,  et  c'est \nlui  qui  te  parle  ici.",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 54850,
+    "dem": "celui-ci",
+    "sep": ":",
+    "uncapped": false,
+    "win_preview": "celui-ci  :  Cordiani  !",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 93942,
+    "dem": "celle-là",
+    "sep": ";",
+    "uncapped": false,
+    "win_preview": "celle-là  ;  et  cependant  Dieu  sait  si  leur \ndamnée  de  musique  me  donne  envie  de  danser.",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 104030,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "Celui-là ,  c'est  ÎNicoliiii  ;  celui-là  ,  c'est  le  provéditeur.",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 104064,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là  ,  c'est  le  provéditeur.",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 248302,
+    "dem": "celui-là",
+    "sep": ":",
+    "uncapped": false,
+    "win_preview": "celui-là  :  Je  peux  si  je  veux!",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 421386,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là,  quand  j'a>ais \ndouze  ans ,  sur  la  couverture  de  mes  livres  de  classe.",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 430933,
+    "dem": "celle-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celle-là,  Spark?",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 731479,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là,  et  il  a  un \nmaître  à  danser  ?",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 928715,
+    "dem": "celle-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celle-là ,  ce  sera  donc  l'autre  que  je \nbrûlerai.",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 2635,
+    "dem": "celle-ci",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celle-ci,  pleine  de  jeunes  gens, \nde  valets!",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 40999,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "Celui-là,  Cordiani,  tu  l'as  tué;  celui-là  ira  demain  au  cime- \ntière avec  la  dépouille  du  vieux  Grémio;  l'autre  reste,  et  c'est \nlui  qui  te  parle  ici.",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 54850,
+    "dem": "celui-ci",
+    "sep": ":",
+    "uncapped": false,
+    "win_preview": "celui-ci  :  Cordiani  !",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 93942,
+    "dem": "celle-là",
+    "sep": ";",
+    "uncapped": false,
+    "win_preview": "celle-là  ;  et  cependant  Dieu  sait  si  leur \ndamnée  de  musique  me  donne  envie  de  danser.",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 104030,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "Celui-là ,  c'est  ÎNicoliiii  ;  celui-là  ,  c'est  le  provéditeur.",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 104064,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là  ,  c'est  le  provéditeur.",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 248302,
+    "dem": "celui-là",
+    "sep": ":",
+    "uncapped": false,
+    "win_preview": "celui-là  :  Je  peux  si  je  veux!",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 421386,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là,  quand  j'a>ais \ndouze  ans ,  sur  la  couverture  de  mes  livres  de  classe.",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 430933,
+    "dem": "celle-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celle-là,  Spark?",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 731479,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là,  et  il  a  un \nmaître  à  danser  ?",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 928715,
+    "dem": "celle-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celle-là ,  ce  sera  donc  l'autre  que  je \nbrûlerai.",
+    "file": "musset-comedies-proverbes-1850.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 1185,
+    "dem": "ceux-ci",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "ceux-ci, le plaisir des yeux ; celles-là, le plaisir du cœur ; les derniers, le plaisir de l’esprit.",
+    "file": "hugo-ruy-blas.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 1216,
+    "dem": "celles-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celles-là, le plaisir du cœur ; les derniers, le plaisir de l’esprit.",
+    "file": "hugo-ruy-blas.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 3153,
+    "dem": "ceux-là",
+    "sep": ";",
+    "uncapped": true,
+    "win_preview": "ceux-là ; et enfin, du choc de ces caractères et de ces passions avec les grandes lois providentielles, faire sortir la vie humaine, c’est-à-dire des événements grands, petits, dou",
+    "file": "hugo-ruy-blas.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 14744,
+    "dem": "ceux-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "ceux-là, c’est un jaloux ; pour ceux-ci, c’est la jalousie.",
+    "file": "hugo-ruy-blas.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 14776,
+    "dem": "ceux-ci",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "ceux-ci, c’est la jalousie.",
+    "file": "hugo-ruy-blas.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 34184,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": true,
+    "win_preview": "Celui-là, — fût-il grand de Castille, fût-il\n\nSuivi de cent clairons sonnant des tintamarres,\n\nFût-il tout harnaché d’ordres et de chamarres,\n\nEt marquis, et vicomte, et fils des a",
+    "file": "hugo-ruy-blas.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 1185,
+    "dem": "ceux-ci",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "ceux-ci, le plaisir des yeux ; celles-là, le plaisir du cœur ; les derniers, le plaisir de l’esprit.",
+    "file": "hugo-ruy-blas.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 1216,
+    "dem": "celles-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celles-là, le plaisir du cœur ; les derniers, le plaisir de l’esprit.",
+    "file": "hugo-ruy-blas.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 3153,
+    "dem": "ceux-là",
+    "sep": ";",
+    "uncapped": false,
+    "win_preview": "ceux-là ; et enfin, du choc de ces caractères et de ces passions avec les grandes lois providentielles, faire sortir la vie humaine, c’est-à-dire des événements grands, petits, douloureux, comiques, t",
+    "file": "hugo-ruy-blas.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 14744,
+    "dem": "ceux-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "ceux-là, c’est un jaloux ; pour ceux-ci, c’est la jalousie.",
+    "file": "hugo-ruy-blas.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 14776,
+    "dem": "ceux-ci",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "ceux-ci, c’est la jalousie.",
+    "file": "hugo-ruy-blas.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 34184,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "Celui-là, — fût-il grand de Castille, fût-il\n\nSuivi de cent clairons sonnant des tintamarres,\n\nFût-il tout harnaché d’ordres et de chamarres,\n\nEt marquis, et vicomte, et fils des anciens preux,\n\nN’est",
+    "file": "hugo-ruy-blas.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 30427,
+    "dem": "celle-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "Celle-là, c'est un ange.",
+    "file": "hugo-burgraves.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 117981,
+    "dem": "ceux-ci",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "ceux-ci, je les ai laissés dire, \n\nExcusez-les, ce sont des jeunes gens.",
+    "file": "hugo-burgraves.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 30427,
+    "dem": "celle-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "Celle-là, c'est un ange.",
+    "file": "hugo-burgraves.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 117981,
+    "dem": "ceux-ci",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "ceux-ci, je les ai laissés dire, \n\nExcusez-les, ce sont des jeunes gens.",
+    "file": "hugo-burgraves.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 59732,
+    "dem": "celle-ci",
+    "sep": ":",
+    "uncapped": false,
+    "win_preview": "celle-ci : c’est, je crois, la plus grande et la plus commode… je me contenterai de l’autre.",
+    "file": "dumas-antony.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 59732,
+    "dem": "celle-ci",
+    "sep": ":",
+    "uncapped": false,
+    "win_preview": "celle-ci : c’est, je crois, la plus grande et la plus commode… je me contenterai de l’autre.",
+    "file": "dumas-antony.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 20203,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là, il faut le sauver… Oh !",
+    "file": "dumas-tour-de-nesle.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 51454,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là, c’est celui qui a voulu que tu ôtasses ton\nmasque ;… celui-là, c’est celui qui t’a fait à la figure la cicatrice que voici.",
+    "file": "dumas-tour-de-nesle.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 51517,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là, c’est celui qui t’a fait à la figure la cicatrice que voici.",
+    "file": "dumas-tour-de-nesle.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 79885,
+    "dem": "celui-ci",
+    "sep": ",",
+    "uncapped": true,
+    "win_preview": "celui-ci, des murs aussi sourds et aussi épais que ceux-ci, des murs qui étouffent les cris, éteignent les sanglots, absorbent l’agonie : le prêtre sort le premier, et le bourreau ",
+    "file": "dumas-tour-de-nesle.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 79936,
+    "dem": "ceux-ci",
+    "sep": ",",
+    "uncapped": true,
+    "win_preview": "ceux-ci, des murs qui étouffent les cris, éteignent les sanglots, absorbent l’agonie : le prêtre sort le premier, et le bourreau ensuite : puis, lorsque le lendemain le guichetier ",
+    "file": "dumas-tour-de-nesle.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 121981,
+    "dem": "celui-ci",
+    "sep": ";",
+    "uncapped": false,
+    "win_preview": "celui-ci ; moi qui vous demandais du repos, je suis le premier à vous dire : Il le faut.",
+    "file": "dumas-tour-de-nesle.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 20203,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là, il faut le sauver… Oh !",
+    "file": "dumas-tour-de-nesle.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 51454,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là, c’est celui qui a voulu que tu ôtasses ton\nmasque ;… celui-là, c’est celui qui t’a fait à la figure la cicatrice que voici.",
+    "file": "dumas-tour-de-nesle.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 51517,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là, c’est celui qui t’a fait à la figure la cicatrice que voici.",
+    "file": "dumas-tour-de-nesle.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 79885,
+    "dem": "celui-ci",
+    "sep": ",",
+    "uncapped": true,
+    "win_preview": "celui-ci, des murs aussi sourds et aussi épais que ceux-ci, des murs qui étouffent les cris, éteignent les sanglots, absorbent l’agonie : le prêtre sort le premier, et le bourreau ensuite : puis, lors",
+    "file": "dumas-tour-de-nesle.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 79936,
+    "dem": "ceux-ci",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "ceux-ci, des murs qui étouffent les cris, éteignent les sanglots, absorbent l’agonie : le prêtre sort le premier, et le bourreau ensuite : puis, lorsque le lendemain le guichetier entre dans la prison",
+    "file": "dumas-tour-de-nesle.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 121981,
+    "dem": "celui-ci",
+    "sep": ";",
+    "uncapped": false,
+    "win_preview": "celui-ci ; moi qui vous demandais du repos, je suis le premier à vous dire : Il le faut.",
+    "file": "dumas-tour-de-nesle.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 33211,
+    "dem": "ceux-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "ceux-là, morbleu !",
+    "file": "dumas-henri-iii.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 33211,
+    "dem": "ceux-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "ceux-là, morbleu !",
+    "file": "dumas-henri-iii.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 43821,
+    "dem": "ceux-là",
+    "sep": ",",
+    "uncapped": true,
+    "win_preview": "Ceux-là, c’est la gloire de la presse… ce sont les anges du jugement de la nation… Mais il en est d’autres, miss, que l’impuissance de produire a jetés dans la critique… Ceux-là so",
+    "file": "dumas-kean.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 55087,
+    "dem": "celui-là",
+    "sep": ";",
+    "uncapped": false,
+    "win_preview": "celui-là ; ce qui n’est pas difficile, en vous y prenant comme vous faites.",
+    "file": "dumas-kean.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 66336,
+    "dem": "celui-là",
+    "sep": ";",
+    "uncapped": false,
+    "win_preview": "celui-là ; l’autre le trouvait trop fort, « a servi à faire mieux ressortir encore la profondeur du jeu de notre célèbre… » (Il jette le journal.",
+    "file": "dumas-kean.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 109567,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là, je ne ferais plus de perruques ; et pourtant je les fais crânement, les perruques…\n\nKEAN, se levant.",
+    "file": "dumas-kean.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 43821,
+    "dem": "ceux-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "Ceux-là, c’est la gloire de la presse… ce sont les anges du jugement de la nation… Mais il en est d’autres, miss, que l’impuissance de produire a jetés dans la critique… Ceux-là sont jaloux de tout, i",
+    "file": "dumas-kean.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 55087,
+    "dem": "celui-là",
+    "sep": ";",
+    "uncapped": false,
+    "win_preview": "celui-là ; ce qui n’est pas difficile, en vous y prenant comme vous faites.",
+    "file": "dumas-kean.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 66336,
+    "dem": "celui-là",
+    "sep": ";",
+    "uncapped": false,
+    "win_preview": "celui-là ; l’autre le trouvait trop fort, « a servi à faire mieux ressortir encore la profondeur du jeu de notre célèbre… » (Il jette le journal.",
+    "file": "dumas-kean.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 109567,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là, je ne ferais plus de perruques ; et pourtant je les fais crânement, les perruques…\n\nKEAN, se levant.",
+    "file": "dumas-kean.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 110103,
+    "dem": "ceux-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "ceux-là, et, s’il fallait les perdre ou les voir compromis… j’aimerais mieux mourir !",
+    "file": "scribe-bertrand-et-raton.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 123054,
+    "dem": "celle-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celle-là, mais nous l’obtiendrons.",
+    "file": "scribe-bertrand-et-raton.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 110103,
+    "dem": "ceux-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "ceux-là, et, s’il fallait les perdre ou les voir compromis… j’aimerais mieux mourir !",
+    "file": "scribe-bertrand-et-raton.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 123054,
+    "dem": "celle-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celle-là, mais nous l’obtiendrons.",
+    "file": "scribe-bertrand-et-raton.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 15786,
+    "dem": "celle-ci",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celle-ci, qui me va bien, à ce qu’on dit.",
+    "file": "scribe-verre-d-eau.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 36952,
+    "dem": "ceux-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "ceux-là, je ne suis pas libre de les accueillir… lui, surtout… ancien ministre, je ne puis le voir sans exciter la défiance et les plaintes des nouveaux !",
+    "file": "scribe-verre-d-eau.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 124330,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là, j’en suis sûre… Et la reine jusque-là froide et sévère, a dit, d’un air de bonté : N’en parlons plus, qu’elle vienne !",
+    "file": "scribe-verre-d-eau.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 15786,
+    "dem": "celle-ci",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celle-ci, qui me va bien, à ce qu’on dit.",
+    "file": "scribe-verre-d-eau.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 36952,
+    "dem": "ceux-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "ceux-là, je ne suis pas libre de les accueillir… lui, surtout… ancien ministre, je ne puis le voir sans exciter la défiance et les plaintes des nouveaux !",
+    "file": "scribe-verre-d-eau.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 124330,
+    "dem": "celui-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celui-là, j’en suis sûre… Et la reine jusque-là froide et sévère, a dit, d’un air de bonté : N’en parlons plus, qu’elle vienne !",
+    "file": "scribe-verre-d-eau.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 38030,
+    "dem": "celle-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celle-là, imbécile.",
+    "file": "labiche-chapeau-de-paille.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 38030,
+    "dem": "celle-là",
+    "sep": ",",
+    "uncapped": false,
+    "win_preview": "celle-là, imbécile.",
+    "file": "labiche-chapeau-de-paille.txt",
+    "pass": "B"
+   }
+  ],
+  "candidates": [
+   {
+    "offset": 34184,
+    "dem": "celui-là",
+    "sep": ",",
+    "window": "Celui-là, — fût-il grand de Castille, fût-il\n\nSuivi de cent clairons sonnant des tintamarres,\n\nFût-il tout harnaché d’ordres et de chamarres,\n\nEt marquis, et vicomte, et fils des anciens preux,\n\nN’est pour moi qu’un maraud sinistre et ténébreux\n\nQue je voudrais, pour prix de sa lâcheté vile,\n\nVoir pendre à quatre clous au gibet de la ville !",
+    "gov_inf_hits": [
+     "à + à quatre"
+    ],
+    "file": "hugo-ruy-blas.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 43821,
+    "dem": "ceux-là",
+    "sep": ",",
+    "window": "Ceux-là, c’est la gloire de la presse… ce sont les anges du jugement de la nation… Mais il en est d’autres, miss, que l’impuissance de produire a jetés dans la critique… Ceux-là sont jaloux de tout, ils flétrissent ce qui est noble… ils ternissent ce qui est beau… ils abaissent ce qui est grand !",
+    "gov_inf_hits": [
+     "de + de produire"
+    ],
+    "file": "dumas-kean.txt",
+    "pass": "B"
+   },
+   {
+    "offset": 36952,
+    "dem": "ceux-là",
+    "sep": ",",
+    "window": "ceux-là, je ne suis pas libre de les accueillir… lui, surtout… ancien ministre, je ne puis le voir sans exciter la défiance et les plaintes des nouveaux !",
+    "gov_inf_hits": [
+     "de + de les accueillir"
+    ],
+    "file": "scribe-verre-d-eau.txt",
+    "pass": "A"
+   },
+   {
+    "offset": 36952,
+    "dem": "ceux-là",
+    "sep": ",",
+    "window": "ceux-là, je ne suis pas libre de les accueillir… lui, surtout… ancien ministre, je ne puis le voir sans exciter la défiance et les plaintes des nouveaux !",
+    "gov_inf_hits": [
+     "de + de les accueillir"
+    ],
+    "file": "scribe-verre-d-eau.txt",
+    "pass": "B"
+   }
+  ]
+ },
+ "excluded_edition": {
+  "files": [
+   {
+    "file": "hugo-hernani.txt",
+    "chars": 173559,
+    "passA_hits": 0,
+    "passA_uncapped": 0,
+    "passB_hits": 0,
+    "passA_candidates": 0,
+    "passB_candidates": 0
+   }
+  ],
+  "total_chars": 173559,
+  "hits": [],
+  "candidates": []
+ }
+}

@@ -1,0 +1,413 @@
+{
+ "files": [
+  {
+   "file": "hugo-hernani-1870.txt",
+   "chars": 203769,
+   "pron_comma_hits": 103,
+   "gov_excl_candidates": 1
+  },
+  {
+   "file": "hugo-burgraves.txt",
+   "chars": 151408,
+   "pron_comma_hits": 137,
+   "gov_excl_candidates": 3
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "chars": 198265,
+   "pron_comma_hits": 104,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "chars": 204641,
+   "pron_comma_hits": 129,
+   "gov_excl_candidates": 2
+  },
+  {
+   "file": "dumas-antony.txt",
+   "chars": 102234,
+   "pron_comma_hits": 106,
+   "gov_excl_candidates": 4
+  },
+  {
+   "file": "dumas-henri-iii.txt",
+   "chars": 128462,
+   "pron_comma_hits": 100,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "dumas-kean.txt",
+   "chars": 152233,
+   "pron_comma_hits": 132,
+   "gov_excl_candidates": 2
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "chars": 132586,
+   "pron_comma_hits": 161,
+   "gov_excl_candidates": 3
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "chars": 182448,
+   "pron_comma_hits": 169,
+   "gov_excl_candidates": 5
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "chars": 146451,
+   "pron_comma_hits": 103,
+   "gov_excl_candidates": 4
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "chars": 118567,
+   "pron_comma_hits": 39,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "chars": 87042,
+   "pron_comma_hits": 30,
+   "gov_excl_candidates": 1
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "chars": 188780,
+   "pron_comma_hits": 95,
+   "gov_excl_candidates": 1
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "chars": 972696,
+   "pron_comma_hits": 578,
+   "gov_excl_candidates": 3
+  }
+ ],
+ "total_chars": 2969582,
+ "candidates": [
+  {
+   "file": "hugo-hernani-1870.txt",
+   "offset": 44016,
+   "pron": "moi",
+   "window": "Moi,  pour  vouloir  si  peu  je  ne  suis  pas  si  fou!",
+   "strict_gov_inf": [
+    "pour  vouloir"
+   ],
+   "loose_gov_inf": [],
+   "context": "iens  de  palais  dressés  à  suivre  un  roi,  /  / Ne  seront  sur  tes  pas  plus  assidus  que  moi  !  /  / Ce  qu'ils  veulent  de  toi,  tous  ces  grands  de  Castille,  /  / C'est  quelque  titre  creux,  quelque  hochet  qui  brille,  /  / C'est  quelque  mouton  d'or  i  qu'on  se  va  pendre  au  cou  /  / Moi,  pour  vouloir  si  peu  je  ne  suis  pas  si  fou!  /  / Ce  que  je  veux  de  toi,  ce  n'est  point  faveurs  vaines,  /  / C'est  l'âme  de  ton  corps,  c'est  le  sang  de  tes  veines  /  /  / ACTE  ler.   SCÈNE  IV.  86  /  / C'est  tout  ce  qu'un  poignard,  furieux  et  vainqueur,  /  / En  y  fouillant  longtemps  peut  prendre  au  fond  d'un  /  / cœurl"
+  },
+  {
+   "file": "hugo-burgraves.txt",
+   "offset": 50171,
+   "pron": "vous",
+   "window": "vous,\n \nDans ce morne château, plein de crimes sans nombre, \n\nComme au seul lis du gouffre, au seul astre de l'ombre !",
+   "strict_gov_inf": [
+    "de l'ombre"
+   ],
+   "loose_gov_inf": [],
+   "context": "— La nuit ! — J'y vais tomber. Vous m'oublirez après.  /  / Otbert. /  / Mais pour vous je mourrais et je me damnerais !  /  / Je ne vous aime pas! — Elle me désespère !  /  / Depuis un an, du jour où dans ce noir repaire  /  / Je vous vis, au milieu de ces bandits jaloux,  /  / Je vous aimai. Mes yeux, madame, allaient à vous, /   / Dans ce morne château, plein de crimes sans nombre,  /  / Comme au seul lis du gouffre, au seul astre de l'ombre !  /  / Oui, j'osai vous aimer, vous, comtesse du Rhin !  /  / Vous, promise à Hatto, le comte au cœur d'airain !  /  / Je vous l'ai dit, je suis un pauvre capitaine,  /  / Homme de ferme épée et de race incertaine.  /  / Peut-être moins qu'un serf, peu"
+  },
+  {
+   "file": "hugo-burgraves.txt",
+   "offset": 72938,
+   "pron": "lui",
+   "window": "lui, s'il n'est pas mort, ou du moins sur sa race, \n\nRien ne m'empêchera de le frapper!",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de le frapper"
+   ],
+   "context": "t vous, mon père vénéré !  /  / Se redressant.  /  / — Barberousse ! — Malheur à ce nom abhorré ! —  /  / Nos blasons sont cachés sous l'herbe et les épines.  /  / Le Rhin déshonoré coule entre des ruines! —  /  / Oh ! je nous vengerai! — ce sera ma grandeur ! —  /  / Sans trêve, sans merci, sans pitié, sans pudeur,  /  / Sur lui, s'il n'est pas mort, ou du moins sur sa race,  /  / Rien ne m'empêchera de le frapper! — Dieu fasse  /  Qu'avant d'être au tombeau mon cœur soit soulagé,  /  / Que je ne meure pas avant d'être vengé !  /  / Car, pour avoir enfin cette suprême joie,  /  / Pour sortir de la tombe et ressaisir ma proie,  /  / Pour pouvoir revenir sur terre après ma mort,  /  / Jeunes gens"
+  },
+  {
+   "file": "hugo-burgraves.txt",
+   "offset": 143260,
+   "pron": "moi",
+   "window": "Moi, dont souvent la vie impure et sanguinaire \n\nA fait aux pieds de Dieu murmurer le tonnerre!",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de dieu murmurer"
+   ],
+   "context": " maudit,  /  / Dont l'ombre, à chaque instant autour d'elle grandit!  /  / Sauve-la!  /  / Otbert, égaré  / .  / \t\tVous croyez qu'il faut que je la sauve?  /  / Job. /  Peux-tu donc hésiter? D'un côté, moi, front chauve,  /  / Vieux damné, qu'à finir tout semble convier,  /  / Moins héros que brigand, moins aigle qu’épervier, /   / Moi, dont souvent la vie impure et sanguinaire  /  / A fait aux pieds de Dieu murmurer le tonnerre!  /  / Moi, vieillesse, ennui, crime! et, de l'autre côté,  /  / Innocence, vertu, jeunesse, amour, beauté!  /  / Une femme qui t'aime ! un enfant qui t'implore!  /  / O l'insensé ! qui doute et qui balance encore  /  / Entre un haillon souillé, sans pourpre et sans honneur,"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 60684,
+   "pron": "vous",
+   "window": "vous,  chevalier;  maisquant \nà  moi ,  je  sais  que  je  n'ai  point  à  me  plaindre;  j'ai \nbien  mérité  cela!",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "à  me  plaindre"
+   ],
+   "context": "  / LE  CHEVALIER,  LA  COMTESSE.  /  / le  chevalier,  tombant  dans  le  fauteuil  en  face  de  celui  / où  est  assise  la  Comtesse.  / Mais  cet  homme  a  donc  un  démon  familier  qui  vient  / lui  conter  ce  qui  se  passe  dans  le  cœur  des  gens?  /  / la  comtesse.  / Je  n'ai  rien  à  dire  pour  vous,  chevalier;  maisquant  / à  moi ,  je  sais  que  je  n'ai  point  à  me  plaindre;  j'ai  / bien  mérité  cela!  /  / le  chevalier.  / Pardon  ,  mais  cela  me  passe ,  comtesse  ;  et  corn-  /  /  / ACTE  II,  SCENE  VI.  47  /  / lient  avez-vous  pu,  je  vous  prie,  mériter  une  pareille  / algarade?  /  / LA   COMTESSE.  /  / Comment,  chevalier?  en  oublian"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 60717,
+   "pron": "moi",
+   "window": "moi ,  je  sais  que  je  n'ai  point  à  me  plaindre;  j'ai \nbien  mérité  cela!",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "à  me  plaindre"
+   ],
+   "context": " / le  chevalier,  tombant  dans  le  fauteuil  en  face  de  celui  / où  est  assise  la  Comtesse.  / Mais  cet  homme  a  donc  un  démon  familier  qui  vient  / lui  conter  ce  qui  se  passe  dans  le  cœur  des  gens?  /  / la  comtesse.  / Je  n'ai  rien  à  dire  pour  vous,  chevalier;  maisquant  / à  moi ,  je  sais  que  je  n'ai  point  à  me  plaindre;  j'ai  / bien  mérité  cela!  /  / le  chevalier.  / Pardon  ,  mais  cela  me  passe ,  comtesse  ;  et  corn-  /  /  / ACTE  II,  SCENE  VI.  47  /  / lient  avez-vous  pu,  je  vous  prie,  mériter  une  pareille  / algarade?  /  / LA   COMTESSE.  /  / Comment,  chevalier?  en  oubliant  aujourd'hui  sa  / bonté  d'hier"
+  },
+  {
+   "file": "dumas-antony.txt",
+   "offset": 7858,
+   "pron": "toi",
+   "window": "toi, Clara, ma sœur, mon amie… à toi, qui sais que je l’ai aimé… que j’essaierai de cacher un seul sentiment de mon cœur… Oh !",
+   "strict_gov_inf": [
+    "de cacher"
+   ],
+   "loose_gov_inf": [],
+   "context": "conservée… Mais sais-tu qu’il y a vraiment de l’amour-propre… car, qui te dit qu’il t’aime encore ? /  / ADÈLE, mettant la main sur son cœur. /  / Je le sens là… /  / CLARA. /  / Il annonce son départ… /  / ADÈLE. /  / Si nous nous revoyons, il restera… Écoute, je ne veux pas le revoir, je ne le veux pas… Ce n’est point à toi, Clara, ma sœur, mon amie… à toi, qui sais que je l’ai aimé… que j’essaierai de cacher un seul sentiment de mon cœur… Oh ! non, je crois bien que je ne l’aime plus… D’Hervey est si bon, si digne d’être aimé, que je n’ai conservé aucun regret d’un autre temps… Mais il ne faut pas que je le revoie… Si je le revois… s’il me parle, s’il me regarde…"
+  },
+  {
+   "file": "dumas-antony.txt",
+   "offset": 7891,
+   "pron": "toi",
+   "window": "toi, qui sais que je l’ai aimé… que j’essaierai de cacher un seul sentiment de mon cœur… Oh !",
+   "strict_gov_inf": [
+    "de cacher"
+   ],
+   "loose_gov_inf": [],
+   "context": " vraiment de l’amour-propre… car, qui te dit qu’il t’aime encore ? /  / ADÈLE, mettant la main sur son cœur. /  / Je le sens là… /  / CLARA. /  / Il annonce son départ… /  / ADÈLE. /  / Si nous nous revoyons, il restera… Écoute, je ne veux pas le revoir, je ne le veux pas… Ce n’est point à toi, Clara, ma sœur, mon amie… à toi, qui sais que je l’ai aimé… que j’essaierai de cacher un seul sentiment de mon cœur… Oh ! non, je crois bien que je ne l’aime plus… D’Hervey est si bon, si digne d’être aimé, que je n’ai conservé aucun regret d’un autre temps… Mais il ne faut pas que je le revoie… Si je le revois… s’il me parle, s’il me regarde… Oh ! c’est qu’il y a dans ses ye"
+  },
+  {
+   "file": "dumas-antony.txt",
+   "offset": 26490,
+   "pron": "toi",
+   "window": "toi ; tu auras aidé à me sauver… Oh !",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "à me sauver"
+   ],
+   "context": "n, je te laisse ma fille ; la route est longue et fatigante : je ne dois pas exposer cette enfant ; reste près d’elle. Il est neuf heures et demie… qu’à onze ma voiture soit prête : surtout le plus grand secret… Oui, je le recevrai… maintenant je ne le crains plus… Ma sœur, mon amie, je me confie à toi ; tu auras aidé à me sauver… Oh ! dis-moi donc que j’ai raison. /  / CLARA. /  / Je ferai ce que tu voudras. /  / ADÈLE. /  / Bien… laisse-moi seule à présent… rentre à onze heures… je saurai en te voyant que tout est prêt, et tu n’auras besoin de me rien dire : pas un signe, pas un mot qui puisse lui faire soupçonner… Oh ! tu ne le connais pas ! /  / CLARA. /  / Tout"
+  },
+  {
+   "file": "dumas-antony.txt",
+   "offset": 58307,
+   "pron": "moi",
+   "window": "moi, pour la vie entière, je serai loin… Ah !",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "pour la vie entière"
+   ],
+   "context": "n temps lorsque par hasard on prononcera mon nom devant elle… puis on ne le prononcera plus… l’oubli viendra… l’oubli, ce second linceul des morts !… Enfin, elle sera heureuse… mais pas seule… un autre partagera son bonheur… cet autre, dans deux heures elle sera près de lui… pour la vie entière… et moi, pour la vie entière, je serai loin… Ah ! qu’il ne la revoie jamais !… N’ai-je pas entendu ?… oui, oui… le roulement d’une voiture… La nuit vient… c’est heureux qu’il fasse nuit !… Cette voiture… c’est la sienne… oh ! cette fois encore je me jetterai au-devant de toi, Adèle… mais ce ne sera pas pour te sauver… Cinq jours sans me voir, et elle m"
+  },
+  {
+   "file": "dumas-kean.txt",
+   "offset": 95215,
+   "pron": "vous",
+   "window": "vous, Elena, c’est à me rendre fou !",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "à me rendre"
+   ],
+   "context": "à la promenade, au spectacle, il est toujours à vos côtés… Comment voulez-vous qu’on croie que le plus riche, le plus noble et le plus puissant prince de l’Angleterre après le roi aime sans espoir… avec cela que l’on sait parfaitement que ce n’est point son habitude ?… oh ! quand je le vois près de vous, Elena, c’est à me rendre fou ! /  / ELENA. /  / Eh bien ! voulez-vous que je ne vienne pas au spectacle ce soir ? /  / KEAN. /  / Au contraire… oh ! venez-y, je vous en supplie… Si vous n’y veniez pas, et que par hasard il n’y vint pas non plus, lui, alors, alors je penserais que vous êtes ensemble, /  / ELENA. /  / Que vous êtes insensé de vous créer de pareilles c"
+  },
+  {
+   "file": "dumas-kean.txt",
+   "offset": 126372,
+   "pron": "moi",
+   "window": "moi, à moi qui souffre tant pour elle, mon Dieu !",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "à moi qui souffre"
+   ],
+   "context": " une ici, l’autre chez le concierge. Celle-ci est celle des amis intimes. /  / KEAN. /  / C’est bien, va !… Elle n’aura pas osé monter jusqu’ici, elle, mais elle sera venue en bas, ou elle aura envoyé ; je trouverai non pas son nom, sans doute, mais un mot, un signe auquel je reconnaîtrai qu’elle a pensé à moi, à moi qui souffre tant pour elle, mon Dieu ! /  / SALOMON. /  / Tenez. /  / KEAN. /  / Donne. /  / SALOMON. /  / Il y a là plus de deux noms qui sont bien étonnés de se trouver ensemble. /  / KEAN. /  / Oui, oui, il y a là des noms de riches, de nobles et de puissants ; il y a là des noms d’artistes, d’ouvriers, de portefaix, depuis celui du duc de Sutzerland, premier minist"
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "offset": 62103,
+   "pron": "lui",
+   "window": "lui : moi aussi je tiendrai ma promesse, et nous ne serons pas séparés : peu m’importe les soupçons du roi ; je serais si heureuse de mourir pour mon chevalier !",
+   "strict_gov_inf": [
+    "de mourir"
+   ],
+   "loose_gov_inf": [
+    "pour mon chevalier"
+   ],
+   "context": " pour te venger, mon frère ! pardon ! /  / MARGUERITE,  rentrant. /  / Oh ! j’étais insensée ! Non, non ! il n’y avait rien dans ces tablettes ; ce n’était point une femme qui / te les avait données ! Mon Gaultier ne ment pas lorsqu’il dit qu’il m’aime, qu’il n’aime que moi. Eh / bien ! moi aussi je n’aime que lui : moi aussi je tiendrai ma promesse, et nous ne serons pas séparés : peu m’importe les soupçons du roi ; je serais si heureuse de mourir pour mon chevalier ! /  / GAULTIER. /  / Pensons à mon frère, Marguerite. /  / MARGUERITE. /  / Eh bien ! mon ami, des recherches ont déjà été faites, et l’on soupçonne… /  / GAULTIER. /  / Et qui soupçonne-t-on ? /  / MARGUERITE. /  / Un ca"
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "offset": 127250,
+   "pron": "toi",
+   "window": "toi, malheureux, à ses devoirs, son premier crime, son plus horrible, n’aurait pas été commis ; pour qu’on ne me soupçonnât pas de la mort de mon père, j’ai perdu mes fils !",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de mon père"
+   ],
+   "context": "E. /  / Oh ! oui, oui, car il n’est point de prêtre à qui on ose confier de pareils secrets ! il n’y a qu’un complice et tu es le mien ! le mien, de tous mes crimes ! Oui, Buridan… ou plutôt Lyonnet, oui, tous mes crimes sont dans ma première faute !… Si la jeune fille n’avait pas manqué pour toi, pour toi, malheureux, à ses devoirs, son premier crime, son plus horrible, n’aurait pas été commis ; pour qu’on ne me soupçonnât pas de la mort de mon père, j’ai perdu mes fils !… Poursuivie par le remords, je me suis réfugiée dans le crime !… j’ai voulu étouffer dans le sang et les plaisirs cette voix de la conscience qui me criait incessamment : Malhe"
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "offset": 127761,
+   "pron": "moi",
+   "window": "moi, que je pouvais le bouleverser pour un moment de plaisir !",
+   "strict_gov_inf": [
+    "de plaisir"
+   ],
+   "loose_gov_inf": [],
+   "context": "s réfugiée dans le crime !… j’ai voulu étouffer dans le sang et les plaisirs cette voix de la conscience qui me criait incessamment : Malheur !… Autour de moi pas un mot pour me rappeler à la vertu, des bouches de courtisans qui me souriaient, qui me disaient que j’étais belle, que le monde était à moi, que je pouvais le bouleverser pour un moment de plaisir !… pas de forces pour lutter… des passions, des remords… des nuits pleines de spectres, si elles ne l’étaient de volupté !… Oh ! oui, oui, il n’y a qu’à un complice qu’on puisse dire de pareilles choses ! /  / BURIDAN. /  / Mais, dis-moi, si près de toi tu avais eu tes fils ? /  / MARGUERITE. /  / Oh ! a"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 63227,
+   "pron": "moi",
+   "window": "moi, pas si bête… je me mets à crier de toutes mes forces : À moi !",
+   "strict_gov_inf": [
+    "à crier"
+   ],
+   "loose_gov_inf": [],
+   "context": "omte Struensée, je vous invite à nous suivre ; il désire vous parler.  /  / ÉRIC. /   / Eh bien ?  /  / JEAN. /   / Voyant un air si doux et si honnête, votre père répond : Messieurs, je suis prêt à vous accompagner : et tout cela s’était passé si tranquillement que personne dans la rue ne s’en était aperçu ; mais moi, pas si bête… je me mets à crier de toutes mes forces : À moi ! au secours ! on arrête mon maître… Raton Burkenstaff… à moi les amis !  /  / ÉRIC. /   / Imprudent !  /  / JEAN. /   / Pas du tout ; car j’avais aperçu un groupe d’ouvriers qui se rendaient à l’ouvrage : ils accourent à ma voix ; en les voyant courir, les femmes et les enfants font comme eux, on n"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 67110,
+   "pron": "vous",
+   "window": "vous ; ces magasins, ce comptoir, sont bien différents des brillants salons de votre père ; mais nous sommes si peu de chose, nous ne sommes que des marchands !",
+   "strict_gov_inf": [
+    "de votre"
+   ],
+   "loose_gov_inf": [],
+   "context": "voix. (Se retournant.) Éric. c’est vous !  /  / ÉRIC. /   / Oui, c’est moi qui vous revois et qui suis le plus heureux des hommes… car j’ai pu vous défendre… vous protéger et vous donner asile.  /  / CHRISTINE. /   / Où donc ?  /  / ÉRIC. /   / Chez moi, chez ma mère ; pardon de vous recevoir en des lieux si peu dignes de vous ; ces magasins, ce comptoir, sont bien différents des brillants salons de votre père ; mais nous sommes si peu de chose, nous ne sommes que des marchands !  /  / CHRISTINE. /   / Ce serait déjà un titre à la considération de tous ; mais auprès de moi et auprès de mon père vous en avez d’autres encore, et le service que vous venez de me rendre.  /  / ÉRIC."
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 106359,
+   "pron": "vous",
+   "window": "vous, mon père ; je sais que l’idée seule d’une mésalliance ferait le malheur de votre vie, et, je vous le promets, ce n’est pas vous qui serez malheureux !",
+   "strict_gov_inf": [
+    "de votre"
+   ],
+   "loose_gov_inf": [],
+   "context": " / Je l’ai congédié ; et, quels que soient ses talents, son mérite personnel, que je vous ai entendue élever beaucoup trop haut… je vous déclare ici, et vous savez si mes résolutions sont fortes et énergiques, que, mon existence dût-elle en dépendre, je ne consentirais jamais.  /  / CHRISTINE. /   / Rassurez-vous, mon père ; je sais que l’idée seule d’une mésalliance ferait le malheur de votre vie, et, je vous le promets, ce n’est pas vous qui serez malheureux ! /  / FALKENSKIELD, prend la main de sa fille, puis, après un instant de silence, lui dit : /  / Voilà le courage que je te voulais. Je te laisse… je t’excuserai près de ces messieurs ; je leur dirai qu"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 134823,
+   "pron": "vous",
+   "window": "vous, madame, de la tête de Koller !",
+   "strict_gov_inf": [
+    "de koller"
+   ],
+   "loose_gov_inf": [],
+   "context": "eux qu’il jugerait convenable.  /  / LA REINE, qui a ouvert son secrétaire et qui y a pris des lettres qu’elle présente à Rantzau. /  / Tenez… tenez !… et, si je succombe, qu’au moins j’aie le plaisir de faire tomber sa tête.  /  / RANTZAU, prenant vivement les lettres, qu’il met dans sa poche. /   / Et que feriez-vous, madame, de la tête de Koller ! Il ne s’agit pas ici de se venger… mais de réussir. /  / LA REINE. /   / Réussir !… et comment ?… Tous mes amis m’abandonnent, excepté un seul… une main  / inconnue, la vôtre peut-être, qui m’a conseillé de m’adresser à Raton Burkenstaff.  /  / RANTZAU. /   / Moi !… Y pensez-vous ?  /  / LA REINE, vivement. /   / Enfin, croyez-vous qu’il"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 161965,
+   "pron": "moi",
+   "window": "moi, pour me sauver qu’il marcherait à la mort !",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "pour me sauver"
+   ],
+   "context": "romets.  /  / MARTHE. /   / Vous leur direz qu’il n’est pas coupable ; il ne l’est pas, je vous le jure ; il ne s’est jamais occupé de révolte ni de complots ; il n’a jamais songé à conspirer ; il ne songeait à rien, qu’à vous aimer !… /  / CHRISTINE. /   / Je le sais, et c’est son amour qui l’a perdu ; c’est pour moi, pour me sauver qu’il marcherait à la mort !… Oh ! non… ça ne se peut pas. Soyez tranquille, je réponds de ses jours. MARTHE. /  / Est-il possible ! /  / CHRISTINE. /   / Oui, madame, oui, il y aura quelqu’un de perdu, mais ce ne sera pas lui !  /  / MARTHE. /   / Que voulez-vous dire ?… /  / CHRISTINE. /  / Rien !… rien !… Retournez chez vous, partez ; dans quelques inst"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 103586,
+   "pron": "moi",
+   "window": "moi, si vous m’abandonnez, je n’ai plus qu’à mourir !",
+   "strict_gov_inf": [
+    "à mourir"
+   ],
+   "loose_gov_inf": [],
+   "context": "tre obstacle plus redoutable encore… /  / BOL. Pour qui ? /  / ABIG. Pour Masham ! /  / BOL., avec impatience. Traitez donc d’affaires d’État avec des amoureux… Je vous parle de la paix, de la guerre, de tous les intérêts de l’Europe… /  / ABIG. Et moi, je vous parle des miens ! L’Europe peut aller toute seule, et moi, si vous m’abandonnez, je n’ai plus qu’à mourir ! /  / BOL. Pardon, mon enfant, pardon… vous d’abord. C’est que, voyez-vous, l’ambition est égoïste et commence toujours par elle ! /  / ABIG. Comme l’amour ! /  / BOL. Eh bien ! voyons ! Vous dites donc que la reine a signé ? /  / ABIG., avec impatience. Oui, à cause d’un bill qu’on doit présenter. /  / BOL. Je sais"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 126691,
+   "pron": "vous",
+   "window": "vous, Bolingbroke, je suis heureuse de vous voir !",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de vous voir"
+   ],
+   "context": ", et quand elle paraîtra, venez nous avertir ! /  / ABIG. Oui milord !… Que Dieu le protège !… /  / (Abigaïl sort par la porte du fond à droite.) /  /  Scène III. /  / LA REINE, BOLINGBROKE. /  / LA REINE, à part. Oui, pourvu qu’à ce prix j’achète le repos, j’y suis décidée !… (Levant les yeux, et gaîment.) Ah ! c’est vous, Bolingbroke, je suis heureuse de vous voir ! je viens de passer la journée la plus ennuyeuse… /  / BOL., souriant, avec ironie. J’apprends le nouveau trait de clémence de Votre Majesté !… c’est magnanime à elle d’oublier ainsi le scandale d’hier.  /  / LA REINE. L’oublier, dites-vous… Mais le moyen !… Il n’est question que de cela, et si vous saviez "
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 131969,
+   "pron": "moi",
+   "window": "moi, sommes prêts à exécuter vos ordres !",
+   "strict_gov_inf": [
+    "à exécuter"
+   ],
+   "loose_gov_inf": [],
+   "context": "! ils m’ont crue faible, et je ne le suis pas. /  / BOL. Nous le voyons bien ! /  / LA REINE, avec colère. C’est aussi trop abuser de ma patience ! /  / BOL. C’est un état de choses intolérable… /  / LA REINE. Et qui ne peut durer. /  / BOL., vivement. C’est ce que nous disons depuis longtemps !… Parlez !… mes amis et moi, sommes prêts à exécuter vos ordres ! /  / LA REINE, se levant. Mes ordres… certainement !… je vous les donnerai ! et c’est à vous que je me confie… Mais, dites-moi… et Masham ?… /  / BOL. Est toujours mon prisonnier, et nous nous occuperons de cette affaire dès que le nouveau ministère sera formé, la chambre dissoute, et le duc de Marlborough rappelé "
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 138561,
+   "pron": "moi",
+   "window": "moi, et qui sont de la dernière importance !",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de la dernière"
+   ],
+   "context": " de la main d’avancer) /  / LA REINE, bas à Abigaïl. Ferme ces portes et reviens ! / (Abigaïl ferme la porte du cabinet à droite et celles du fond et revient vivement se placer près de la reine.) /  / MASH. Lord Bolingbroke m’envoie présenter à Votre Majesté ces papiers qu’il ne pouvait, dit-il, confier qu’à moi, et qui sont de la dernière importance !… /  / LA REINE, avec bonté et prenant les papiers. C’est bien, je vous remercie ! /  / MASH. Je dois les lui reporter avec la signature de Votre Majesté. /  / LA REINE. C’est vrai !… je l’oubliais !…  / (Elle passe près de la table à gauche et s’assied. — Regardant les papiers.) Ah ! mon Dieu ! comme en voilà !… /  / (Ell"
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 54243,
+   "pron": "vous",
+   "window": "vous, monsieur, vous avez eu la bonté de nous adresser, il y a quinze jours, une demande qui nous flatte autant qu’elle nous honore !",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de nous adresser"
+   ],
+   "context": " de la haute industrie ! /  / Ratinois, à part. /  / Confiseur… raffineur… c’est toujours dans le sucre !… /  / Madame Malingear, à part. /  / Les raffineurs sont tous millionnaires ! (Nouveau silence.) Docteur, vous oubliez que nous devons une réponse… /  / Malingear, se levant. /  / C’est juste ! (Se posant.) Madame… et vous, monsieur, vous avez eu la bonté de nous adresser, il y a quinze jours, une demande qui nous flatte autant qu’elle nous honore !…  /  / M. et Madame Ratinois, s’inclinant. /  / Docteur… Madame !… /  / Malingear. /  / Les renseignements que nous avons dû prendre, tant sur M. votre fils que sur la famille à laquelle il a l’honneur d’appartenir… ces renseignemen"
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "offset": 38642,
+   "pron": "vous",
+   "window": "vous  ;  mais  si  je  savais  lequel  de  ceux-là \nvient  de  parler  !",
+   "strict_gov_inf": [
+    "de  parler"
+   ],
+   "loose_gov_inf": [],
+   "context": "pondu  cela,  je  le  chasse-  / rais Bur-le-champ  coma     l'autre.  /  / LE  i.'i  \\k  i  /  / Bien  dit,  John  Bell)  tu  es  bran  précisément  / comme  un  monarque  au  milieu  de  ses  sujets.  /  / JOHN    11    II.  /  / Comme  vous  êtes  Quaker,  je  ne  vous  écoute  /  /  / ACTE  I,   SCÈ\\E  II.  39  /  / pas  ,  vous  ;  mais  si  je  savais  lequel  de  ceux-là  / vient  de  parler  !  Ah!...   l'homme  sans  foi  que  / celui  qui  a  dit  cette  parole  !  Ne  m'avez-vous  pas  / tous   vu   compagnon   parmi   vous  ?   Comment  / suis-je  arrivé  au  bien-être  que  l'on  me  voit  ?  / Ai-je  acheté  tout  d'un  coup  toutes  les  maisons  / de  Norton  avec  sa"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 143858,
+   "pron": "toi",
+   "window": "toi,  dans  le  silence  du  ca- \nbinet, de  tracer  d'une  main  légère  une  ligne  mince  et  pure \ncomme  un  cheveu  sur  ce  papier  blanc!",
+   "strict_gov_inf": [
+    "de  tracer"
+   ],
+   "loose_gov_inf": [],
+   "context": "ité!  quel  nom  portes-tu  donc?  celui  de  / la  race,  ou  celui  de  ton  baptême?  Et  nous  autres  vieux  rê-  / veurs, quelle  tache  originelle  avons-nous  lavée  sur  la  face  / humaine  depuis  quatre  ou  cinq  mille  ans  que  nous  jaunissons  / avec  nos  livres?  Qu'il  t'est  facile  à  toi,  dans  le  silence  du  ca-  / binet, de  tracer  d'une  main  légère  une  ligne  mince  et  pure  / comme  un  cheveu  sur  ce  papier  blanc!  qu'il  t'est  facile  de  / bâtir  des  palais  et  des  villes  avec  ce  petit  compas  et  un  peu  / d'encre!  Mais  l'architecte  qui  a  dans  son  pupitre  des  milliers  / de  plans  admirables  ne  pe"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 187096,
+   "pron": "nous",
+   "window": "nous  ,  dans \nces  palais  somptueux  ,  nous  attendons  qu'on  nous  insulte  pour \ntirer  nos  épées!",
+   "strict_gov_inf": [
+    "pour \ntirer"
+   ],
+   "loose_gov_inf": [],
+   "context": "l  yen  a  bien  d'autres  / à  cette  heure  qui  ont  pris  leur  manteau  et  leur  épée  pour  / s'enfoncer  dans  cette  nuit  obscure;  et  ceux  qui  les  attendent  / ne  sont  point  inquiets;  ils  savent  qu'ils  mourront  demain  / de  misère  ,  s'ils  ne  meurent  de  froid  cette  nuit.  Et  nous  ,  dans  / ces  palais  somptueux  ,  nous  attendons  qu'on  nous  insulte  pour  / tirer  nos  épées!  Le  propos  d'un  ivrogne  nous  transporte  de  / colère  ,  et  disperse  dans  ces  sombres  rues  nos  fils  et  nos  amis  !  / Mais  les  malheurs  publics  ne  secouent  pas  la  poussière  de  nos  / armes.  On  croit  Philippe  Strozzi  un "
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 746377,
+   "pron": "nous",
+   "window": "nous,  et  quels  pauvres \ndiables  nous  sommes  quand  il  vous  plaît  de  nous  eiîdiabler  !",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de  nous  eiîdiabler"
+   ],
+   "context": "votre  boudoir?  Je  le  vois  d'ici,  les  mains  jointes,  / tournant  son  chapeau  dans  ses  doigts.  Mais  quel  conte  lui  / avez-vous  fait  pour  réussir  en  si  peu  de  temps?  /  / JACQUELINE.  /  / Le  premier  venu;  je  n'en  sais  rion.  /  / CLAVAROCHE.  /  / Voyez  un  peu  ce  que  c'est  que  de  nous,  et  quels  pauvres  / diables  nous  sommes  quand  il  vous  plaît  de  nous  eiîdiabler  !  / Et  notre  mari,  comment  voit-il  la  chose?  La  foudre  qui  nous  / menaçait  s<Mit-elle  déjà  l'aiguille  aimanlée ,  conmience-t-elle  / à  se  dét<un«i<r ?  /  / JA«QlELh\\E.  /  / Oui.  /  /  / ACTt:  11,  SCKM-:  1.  41Ô  /  / CLAVAROCIIE.  /  / Paibleu!  nous  nous "
+  }
+ ],
+ "note": "hugo-hernani.txt (Hetzel 1889) excluded: duplicate Hernani edition; ONE edition per play per queue gate"
+}

@@ -1,0 +1,129 @@
+{
+ "files": {
+  "nesselrode-v7.txt": {
+   "chars": 521560,
+   "dem_sep_hits": 3,
+   "candidates_with_excl": 0
+  },
+  "nesselrode-v8.txt": {
+   "chars": 614206,
+   "dem_sep_hits": 1,
+   "candidates_with_excl": 0
+  },
+  "nesselrode-v9.txt": {
+   "chars": 498642,
+   "dem_sep_hits": 5,
+   "candidates_with_excl": 1
+  },
+  "nesselrode-v10.txt": {
+   "chars": 556659,
+   "dem_sep_hits": 2,
+   "candidates_with_excl": 0
+  },
+  "talleyrand-memoires-v1.txt": {
+   "chars": 926037,
+   "dem_sep_hits": 5,
+   "candidates_with_excl": 1
+  },
+  "guizot-memoires-t1-gutenberg.txt": {
+   "chars": 769437,
+   "dem_sep_hits": 4,
+   "candidates_with_excl": 0
+  },
+  "guizot-memoires-t2-gutenberg.txt": {
+   "chars": 830700,
+   "dem_sep_hits": 0,
+   "candidates_with_excl": 0
+  },
+  "guizot-memoires-t3-gutenberg.txt": {
+   "chars": 852681,
+   "dem_sep_hits": 2,
+   "candidates_with_excl": 0
+  },
+  "guizot-memoires-t5-t6.txt": {
+   "chars": 1992545,
+   "dem_sep_hits": 13,
+   "candidates_with_excl": 1
+  },
+  "metternich-papiere-v4.txt": {
+   "chars": 1492023,
+   "dem_sep_hits": 2,
+   "candidates_with_excl": 1
+  },
+  "metternich-papiere-v6.txt": {
+   "chars": 1723645,
+   "dem_sep_hits": 5,
+   "candidates_with_excl": 2
+  },
+  "pozzo-di-borgo-correspondance-v1.txt": {
+   "chars": 1001901,
+   "dem_sep_hits": 3,
+   "candidates_with_excl": 0
+  },
+  "levant-correspondence-1841-p3.txt": {
+   "chars": 1690926,
+   "dem_sep_hits": 2,
+   "candidates_with_excl": 0
+  }
+ },
+ "candidates": [
+  {
+   "file": "nesselrode-v9.txt",
+   "offset": 207897,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": "prépare",
+   "infinitive_offset": 207936,
+   "context": "itung.  /  /  / 140 ARCHIVES DU COMTE CH. DE NESSELRODE.  /  /  / devoir ; figurez-vous que les régiments lombards, dans  / une dernière affaire, près de Crémone, ont passé du  / côté des Autrichiens. Que dire après cela! Lei, tout  / est tranquille, on se prépare à reconquérir la Sicile et,  / n'étaient les inquiétudes sur le choléra, nous jouirions  / bien, Michel et moi, de notre séjour à Castellamare, au  / milieu de cette belle nature, dans sa plus riche parure.  / Mais adieu. Michel vous fait ses amitiés et je vous  / réi"
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "offset": 838917,
+   "dem": "cela",
+   "separator": "?",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "lant également un de ceux auxquels s'ap-  / plique l'alliance qui unit les deux puissances, — C'est à l'article  /  /  / Google RCE péri  /  /  / ENTREVUE D'ERFURT (1808). ss  /  /  / essentiel, comment avez-vous oublié cela ? Vous êtes toujours  / Autrichien !— Un peu, Sire, mais je crois qu'il serait plus  / exact de dire que je ne suis jamais Russe, et que je suis toujours  / Français.— Faites vos dispositions pour partir :il faut que vous  / soyez à Erfurt un jour ou deux avant moi. Pendant le temps  / que durera le voyage, vo"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "offset": 201293,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "  avancer.  J'aime  cette  vie  et  ce  spectacle;  j'y  prends  / part  en  France  ;  j'y  assiste  en  Angleterre.  Cela  vaut  la  / peine  de  vivre.  Si  peu  de  choses  méritent  qu'on  en  dise  / cela!  »  /  / Je  me  rendis  sur-le-champ  chez  lord  Palmerston,  et  / je  lui  communiquai  le  vœu  du  gouvernement  du  Roi.  / Lui  aussi  fut  un  peu  surpris,  et  quelque  soin  qu'il  prîi  / de  ne  pas  le  témoigner,  je  vis  passer  sur  ses  lèvres  un  / sourire  fugitif  qui  révélait  son  se"
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "offset": 1148124,
+   "dem": "cela",
+   "separator": ":",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "lons  / arreter  pour  les  empecher  de  re*duire  leurs  sujets  re'volte's?  / Est-ce  qu'ils  endureront  patiemment  ce  que  nous  voulons  leur  / dicter?\"  Le  Duc  de  Wellington  m'a  repondu  k  cela:  „Ob!  les  / Turcs,  lorsqu'ils  verront  notre  de'termination  bien  se'rieuse,  ne  / pousseront  jamais  les  cboses  ä  F  extreme,  il  ne  faudra  de  notre  / part  que  quelques  fre'gates  pour  les  empScher  d'exercer  des  / hostilites,  pour  les  intimider  et  pour  leur  faire  entendre  "
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "offset": 840006,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": "votre",
+   "infinitive_offset": 840037,
+   "context": "uidation    de    cette    espece,  je    vous  /  / aiderai  bien  volontiers.  /  / —  Ce  17  Janvier.  /  / 1343.  Le  compte  que  vous  rendez  de  ma  pensee,  mon  / eher  Comte,  est  bien  exaet;  c'est  cela!  /  / Quant  a  la  fin  de  votre  travail,  je  dois  vous  faire  re-  / marquer  que  le  sujet  si  iinportant  qui  en  forme  la  matiere  est  / susceptible  d'un  grand  et  important  developpement.  /  / Voici  la  forme  anglaise  mieux  precisee:  /  / C'est  le  Roi  qui  est  le  Chef  de  la  polit"
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "offset": 960146,
+   "dem": "cela",
+   "separator": "!",
+   "infinitive": null,
+   "infinitive_offset": null,
+   "context": "andu  que  / je  ne  viendrais  pas;  quand  ce  bruit  a  ete  dementi  par  le  fait  de  mon  arrivee,  / il  en  est  r6sult6  une  veritable  satisfaction  pour  tous  les  partis.  C'est  toujours  / cela!  Nos  diplomates  ne  quittent  pas  la  salle  des  sßances,  oü  ils  doivent  / s'amuser  beaucoup,  car  il  y  fait  vingt-cinq  degres  de  chaleur,  et  on  n'y  parle  / que  hongrois  ....  /  / „J'ai  arrange  un  rendez-vous  avec  l'Eveque  Lonovics:  avec  lui,  j'arran-  / gerai  les  affaires "
+  }
+ ],
+ "by_file_counts": {},
+ "total_chars": 13470962,
+ "total_dem_sep_hits": 47,
+ "total_candidates": 6
+}

@@ -1,0 +1,155 @@
+{
+ "files": [
+  {
+   "file": "hugo-hernani-1870.txt",
+   "chars": 203769,
+   "dem_comma_hits": 0,
+   "excl_candidates": 0
+  },
+  {
+   "file": "hugo-burgraves.txt",
+   "chars": 151408,
+   "dem_comma_hits": 2,
+   "excl_candidates": 0
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "chars": 198265,
+   "dem_comma_hits": 6,
+   "excl_candidates": 0
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "chars": 204641,
+   "dem_comma_hits": 2,
+   "excl_candidates": 0
+  },
+  {
+   "file": "dumas-antony.txt",
+   "chars": 102234,
+   "dem_comma_hits": 1,
+   "excl_candidates": 0
+  },
+  {
+   "file": "dumas-henri-iii.txt",
+   "chars": 128462,
+   "dem_comma_hits": 1,
+   "excl_candidates": 1
+  },
+  {
+   "file": "dumas-kean.txt",
+   "chars": 152233,
+   "dem_comma_hits": 4,
+   "excl_candidates": 0
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "chars": 132586,
+   "dem_comma_hits": 6,
+   "excl_candidates": 1
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "chars": 182448,
+   "dem_comma_hits": 2,
+   "excl_candidates": 1
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "chars": 146451,
+   "dem_comma_hits": 3,
+   "excl_candidates": 2
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "chars": 118567,
+   "dem_comma_hits": 1,
+   "excl_candidates": 0
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "chars": 87042,
+   "dem_comma_hits": 0,
+   "excl_candidates": 0
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "chars": 188780,
+   "dem_comma_hits": 2,
+   "excl_candidates": 0
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "chars": 972696,
+   "dem_comma_hits": 11,
+   "excl_candidates": 3
+  }
+ ],
+ "total_chars": 2969582,
+ "candidates": [
+  {
+   "dem": "ceux-là",
+   "window": "ceux-là, morbleu !",
+   "inf_hits": [],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "dem": "celui-là",
+   "window": "celui-là, il faut le sauver… Oh !",
+   "inf_hits": [
+    "sauver"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "dem": "ceux-là",
+   "window": "ceux-là, et, s’il fallait les perdre ou les voir compromis… j’aimerais mieux mourir !",
+   "inf_hits": [
+    "mourir",
+    "perdre",
+    "voir"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "dem": "ceux-là",
+   "window": "ceux-là, je ne suis pas libre de les accueillir… lui, surtout… ancien ministre, je ne puis le voir sans exciter la défiance et les plaintes des nouveaux !",
+   "inf_hits": [
+    "accueillir",
+    "exciter",
+    "libre",
+    "ministre",
+    "voir"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "dem": "celui-là",
+   "window": "celui-là, j’en suis sûre… Et la reine jusque-là froide et sévère, a dit, d’un air de bonté : N’en parlons plus, qu’elle vienne !",
+   "inf_hits": [
+    "sévère",
+    "sûre"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "dem": "celle-ci",
+   "window": "celle-ci,  pleine  de  jeunes  gens, \nde  valets!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "dem": "celui-ci",
+   "window": "celui-ci  :  Cordiani  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "dem": "celui-là",
+   "window": "celui-là  :  Je  peux  si  je  veux!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  }
+ ],
+ "note": "hugo-hernani.txt (Hetzel 1889) excluded: duplicate Hernani edition; ONE edition per play per queue gate"
+}

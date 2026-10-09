@@ -1,0 +1,135 @@
+{
+ "total_chars": 27657940,
+ "files": [
+  {
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "chars": 769437,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "chars": 830700,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "chars": 852681,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "chars": 1992545,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "harvest-log.txt",
+   "chars": 1755,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "levant-correspondence-1841-p3.txt",
+   "chars": 1690926,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "chars": 1492023,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "chars": 1723645,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "nesselrode-v10.txt",
+   "chars": 556659,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "nesselrode-v7.txt",
+   "chars": 521560,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "nesselrode-v8.txt",
+   "chars": 614206,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "nesselrode-v9.txt",
+   "chars": 498642,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "chars": 1001901,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "chars": 3013552,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "chars": 2964405,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "chars": 3054350,
+   "dem_pausemark_hits": 1,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "chars": 3165234,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "chars": 926037,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "chars": 677686,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "gutenberg-30513-tocqueville-t1.txt",
+   "chars": 597763,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  },
+  {
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "chars": 712233,
+   "dem_pausemark_hits": 0,
+   "governed_excl_candidates": 0
+  }
+ ],
+ "total_dem_pausemark_hits": 1,
+ "total_candidates": 0,
+ "note": "P1 = dash-family/ellipsis/open-paren pause marks after reinforced demonstrative head (comma/semicolon/colon deliberately excluded — parent battery covers them). P2/P3/P3b verbatim from the parent battery.",
+ "candidates": []
+}

@@ -1,0 +1,274 @@
+{
+ "files": [
+  {
+   "file": "scribe-le-savant.txt",
+   "chars": 88949,
+   "heads": 4,
+   "sep_coverage": {
+    ",": 1
+   },
+   "candidates": 0
+  },
+  {
+   "file": "scribe-le-lorgnon.txt",
+   "chars": 67028,
+   "heads": 8,
+   "sep_coverage": {
+    ",": 1
+   },
+   "candidates": 1
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "chars": 182448,
+   "heads": 12,
+   "sep_coverage": {
+    ",": 2
+   },
+   "candidates": 2
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "chars": 146451,
+   "heads": 11,
+   "sep_coverage": {
+    ",": 3
+   },
+   "candidates": 2
+  },
+  {
+   "file": "labiche-voyage-perrichon.txt",
+   "chars": 97395,
+   "heads": 3,
+   "sep_coverage": {},
+   "candidates": 0
+  },
+  {
+   "file": "labiche-la-cagnotte.txt",
+   "chars": 134353,
+   "heads": 6,
+   "sep_coverage": {},
+   "candidates": 0
+  },
+  {
+   "file": "labiche-29-degres-ombre.txt",
+   "chars": 34634,
+   "heads": 1,
+   "sep_coverage": {},
+   "candidates": 0
+  },
+  {
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "chars": 43172,
+   "heads": 4,
+   "sep_coverage": {},
+   "candidates": 0
+  },
+  {
+   "file": "scribe-charlatanisme.txt",
+   "chars": 60202,
+   "heads": 3,
+   "sep_coverage": {
+    ",": 1
+   },
+   "candidates": 1
+  },
+  {
+   "file": "labiche-misanthrope-auvergnat.txt",
+   "chars": 56991,
+   "heads": 2,
+   "sep_coverage": {
+    ",": 1
+   },
+   "candidates": 1
+  },
+  {
+   "file": "labiche-main-leste.txt",
+   "chars": 39272,
+   "heads": 2,
+   "sep_coverage": {},
+   "candidates": 0
+  },
+  {
+   "file": "labiche-edgard-bonne.txt",
+   "chars": 57212,
+   "heads": 2,
+   "sep_coverage": {
+    ",": 1
+   },
+   "candidates": 1
+  },
+  {
+   "file": "labiche-prix-martin.txt",
+   "chars": 103002,
+   "heads": 2,
+   "sep_coverage": {},
+   "candidates": 0
+  },
+  {
+   "file": "labiche-noces-bouchencoeur.txt",
+   "chars": 80053,
+   "heads": 2,
+   "sep_coverage": {},
+   "candidates": 0
+  },
+  {
+   "file": "labiche-baron-fourchevif.txt",
+   "chars": 54412,
+   "heads": 4,
+   "sep_coverage": {
+    ",": 1
+   },
+   "candidates": 1
+  },
+  {
+   "file": "labiche-doit-on-le-dire.txt",
+   "chars": 114163,
+   "heads": 3,
+   "sep_coverage": {},
+   "candidates": 0
+  }
+ ],
+ "total_chars": 1359737,
+ "total_heads": 69,
+ "candidates": [
+  {
+   "dem": "celui-là",
+   "sep": ",",
+   "offset": 5398,
+   "closed_180": true,
+   "window": "Celui-là, fidèle et sensible,\nNe me vole pas, j’en suis sûr.\nREYNOLDS.\nComme le mien. Est-il possible ?\nCHRISTIAN.\nComme le mien. Est-il possible ?\nREYNOLDS.\nOui, maintenant, honnête homme à regret,\nJe le défie, hélas ! de me rien prendre…\nPour me voler quelque chose, il faudrait\n﻿ Qu’il commençât par me le rendre.\nALCÉE , à Birman.\nQui t’amène, mon vieil ami ?\nBIRMAN.\nJe venais, monsieur le baron",
+   "inf_hits": [
+    "prendre",
+    "rendre",
+    "voler"
+   ],
+   "file": "scribe-le-lorgnon.txt"
+  },
+  {
+   "dem": "ceux-là",
+   "sep": ",",
+   "offset": 110103,
+   "closed_180": true,
+   "window": "ceux-là, et, s’il fallait les perdre ou les voir compromis… j’aimerais mieux mourir !\n\nÉRIC.\n \nEt moi, plutôt perdre la vie que de vous exposer au moindre soupçon ; ne craignez rien, je m’éloigne. (Il ouvre la porte à droite par laquelle il est entré.) Ô ciel ! il y a des soldats au bas de cet escalier. \n\nCHRISTINE.\n \nDes soldats !\n\nÉRIC, montrant la porte du fond.\n \nMais par ici du moins. \n\nCHRIS",
+   "inf_hits": [
+    "escalier",
+    "exposer",
+    "moindre",
+    "mourir",
+    "ouvre",
+    "perdre",
+    "voir"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "dem": "celle-là",
+   "sep": ",",
+   "offset": 123054,
+   "closed_180": true,
+   "window": "celle-là, mais nous l’obtiendrons. \n\nLA REINE.\n \nElle est entre vos mains ; je vous seconderai de tout mon pouvoir, moi et les amis attachés à ma cause ; mais agissez !… agissez de votre côté pour renverser Struensée. \n\nMARTHE.\n \nOui, madame, et pour sauver mon fils ; comptez sur notre dévouement. \n\nLA REINE.\n \nTenez-moi au courant de ce que vous ferez et des progrès de la sédition. (Montrant la p",
+   "inf_hits": [
+    "entre",
+    "notre",
+    "pouvoir",
+    "renverser",
+    "sauver",
+    "votre"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "dem": "ceux-là",
+   "sep": ",",
+   "offset": 36952,
+   "closed_180": true,
+   "window": "ceux-là, je ne suis pas libre de les accueillir… lui, surtout… ancien ministre, je ne puis le voir sans exciter la défiance et les plaintes des nouveaux ! Ah ! quand ne serai-je plus reine, pour être ma maîtresse ! Dans le choix même de mes amis, demander avis et permission aux conseillers de la Couronne, aux Chambres, à la majorité… à tout le monde enfin… c’est à n’y pas tenir… c’est un esclavage",
+   "inf_hits": [
+    "accueillir",
+    "demander",
+    "exciter",
+    "libre",
+    "ministre",
+    "tenir",
+    "voir",
+    "être"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "dem": "celui-là",
+   "sep": ",",
+   "offset": 124330,
+   "closed_180": true,
+   "window": "celui-là, j’en suis sûre… Et la reine jusque-là froide et sévère, a dit, d’un air de bonté : N’en parlons plus, qu’elle vienne ! je la reverrai.\n\nBOL., avec colère. La duchesse ! rentrer dans ce palais dont je la croyais pour jamais bannie…\n\nABIG. Et dans mon trouble, tout ce qui m’est venu à l’idée a été de vous écrire sur-le-champ : Venez ! pour vous apprendre ce qui se passait et ce qui a été c",
+   "inf_hits": [
+    "apprendre",
+    "colère",
+    "rentrer",
+    "sévère",
+    "sûre",
+    "écrire"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "dem": "celui-ci",
+   "sep": ",",
+   "offset": 49689,
+   "closed_180": true,
+   "window": "celui-ci, je l’ai traité en conscience.\n\n DELMAR. \n Ah ! te voilà Rondon ? as-tu envoyé l’article de ce matin sur l’ouvrage du docteur Rémy ? \n\n RONDON. \n Oui, oui, il était même imprimé ; et dans un quart d’heure, il va paraître, si je ne fais rien dire. Mais j’ai prié qu’on attendît, parce que je veux en\nenvoyer un autre que je viens de composer dans ton cabinet.\n\n DELMAR. \n Un second ! c’est tr",
+   "inf_hits": [
+    "autre",
+    "composer",
+    "dire",
+    "envoyer",
+    "heure",
+    "paraître"
+   ],
+   "file": "scribe-charlatanisme.txt"
+  },
+  {
+   "dem": "celui-là",
+   "sep": ",",
+   "offset": 1374,
+   "closed_180": true,
+   "window": "celui-là, il vit tout seul, dans des endroits noirs, comme un colimaçon !… Dans ce moment, il se rase… en se rasant, il se coupe… et, pour arrêter le sang, il cherche des toiles d’araignée… il n’en trouve pas, et alors il bougonne… Ah ! et puis il a encore un autre tic… quand il a fini sa barbe… il va se recoucher. Il se lève tard, très tard, afin, dit-il, de contempler moins longtemps ses semblab",
+   "inf_hits": [
+    "arrêter",
+    "autre",
+    "contempler",
+    "encore",
+    "recoucher"
+   ],
+   "file": "labiche-misanthrope-auvergnat.txt"
+  },
+  {
+   "dem": "ceux-ci",
+   "sep": ",",
+   "offset": 20303,
+   "closed_180": true,
+   "window": "ceux-ci, je vais chercher les autres rideaux… Montez…\n\n Edgard , résistant. \n Moi ? je ne monte pas à l’échelle !…\n\n Florestine. \n Montez donc !…\n\n Edgard. \n Mais, mademoiselle…\n\n Florestine. \nAllons donc !… dépêchez-vous !… Edgard , montant de très mauvaise humeur. \n Voilà, mon Dieu !… voilà !… (Florestine sort par l’angle de droite.\nSur l’échelle.) Voilà ce que c’est que de se familiariser…\n\n Sc",
+   "inf_hits": [
+    "chercher",
+    "familiariser"
+   ],
+   "file": "labiche-edgard-bonne.txt"
+  },
+  {
+   "dem": "ceux-là",
+   "sep": ",",
+   "offset": 43030,
+   "closed_180": true,
+   "window": "ceux-là, on ne les coupe jamais !\n\n Fourchevif. \n Mais mon marchand de bois…\n\n Lambert. \n Je viens d’arrêter les travaux…\n\n Fourchevif. \n Cependant…\n\n Lambert. \n Il le faut !\n\n Fourchevif. \n Bien ! bien !\n\n Lambert , à part. \nJ’en ai commencé une étude, ça me permettra de la finir ! Fourchevif , à part. \n Il est un peu exigeant !\n\n Lambert. \n J’ai encore à vous parler de notre mausolée… Il est dan",
+   "inf_hits": [
+    "arrêter",
+    "encore",
+    "finir",
+    "notre",
+    "parler"
+   ],
+   "file": "labiche-baron-fourchevif.txt"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+[
+ {
+  "file": "scribe-le-savant.txt",
+  "desc": "Eugène Scribe, *Le Savant, comédie en cinq actes* (1832), from the Dentu *Théâtre complet* transcription on fr.wikisource",
+  "url": "https://fr.wikisource.org/w/api.php?action=parse&page=Le+Savant+%28Scribe%29&prop=text&redirects=1&format=json&formatversion=2",
+  "chars": 88948,
+  "sha256": "6c2cc8275073be23169271463dd92a778cc753ef5cec47cf0168fb64876456d6",
+  "raw_api_json": "/home/hatch/workspace/goals/cipher-hunt-cracking-lanes/hidden_files/comedy-extension-ingest/scribe-le-savant.txt.api.json"
+ },
+ {
+  "file": "scribe-le-lorgnon.txt",
+  "desc": "Eugène Scribe, *Le Lorgnon, comédie en deux actes* (1833), from the Dentu *Théâtre complet* transcription on fr.wikisource",
+  "url": "https://fr.wikisource.org/w/api.php?action=parse&page=Le+Lorgnon+%28Scribe%29&prop=text&redirects=1&format=json&formatversion=2",
+  "chars": 67027,
+  "sha256": "206a5990c24f651451e363872a08125ca5a7d4cf12d26d82c32b9cb849bb0985",
+  "raw_api_json": "/home/hatch/workspace/goals/cipher-hunt-cracking-lanes/hidden_files/comedy-extension-ingest/scribe-le-lorgnon.txt.api.json"
+ },
+ {
+  "file": "labiche-voyage-perrichon.txt",
+  "desc": "Eugène Labiche & Édouard Martin, *Le Voyage de monsieur Perrichon, comédie en quatre actes* (1860), Calmann-Lévy *Théâtre complet* transcription on fr.wikisource",
+  "url": "https://fr.wikisource.org/w/api.php?action=parse&page=Le+Voyage+de+monsieur+Perrichon&prop=text&redirects=1&format=json&formatversion=2",
+  "chars": 97394,
+  "sha256": "6fb829c40d71ac952f77b0f2781cbf6d52e2005335cf81b44aa4aa86b4a6c923",
+  "raw_api_json": "/home/hatch/workspace/goals/cipher-hunt-cracking-lanes/hidden_files/comedy-extension-ingest/labiche-voyage-perrichon.txt.api.json"
+ },
+ {
+  "file": "labiche-la-cagnotte.txt",
+  "desc": "Eugène Labiche & Alfred Delacour, *La Cagnotte, comédie-vaudeville en cinq actes* (1864), Calmann-Lévy *Théâtre complet* (1898) transcription on fr.wikisource",
+  "url": "https://fr.wikisource.org/w/api.php?action=parse&page=La+Cagnotte&prop=text&redirects=1&format=json&formatversion=2",
+  "chars": 134352,
+  "sha256": "83b99bb3ac5e0ec8632aea2ca58534f35f845a0d5a4ecf23e5d2781353e3f579",
+  "raw_api_json": "/home/hatch/workspace/goals/cipher-hunt-cracking-lanes/hidden_files/comedy-extension-ingest/labiche-la-cagnotte.txt.api.json"
+ },
+ {
+  "file": "labiche-29-degres-ombre.txt",
+  "desc": "Eugène Labiche, *29 degrés à l'ombre, comédie en un acte* (1873), Calmann-Lévy *Théâtre complet*, t. 7 (1898) transcription on fr.wikisource",
+  "url": "https://fr.wikisource.org/w/api.php?action=parse&page=29+degr%C3%A9s+%C3%A0+l%27ombre&prop=text&redirects=1&format=json&formatversion=2",
+  "chars": 34633,
+  "sha256": "a6cdfbc11cf01251283101d2f24e3243241f6a30f220c9cee260ddfdf010b3b0",
+  "raw_api_json": "/home/hatch/workspace/goals/cipher-hunt-cracking-lanes/hidden_files/comedy-extension-ingest/labiche-29-degres-ombre.txt.api.json"
+ },
+ {
+  "file": "labiche-affaire-rue-lourcine.txt",
+  "desc": "Eugène Labiche, Albert Monnier & Édouard Martin, *L'Affaire de la rue de Lourcine, comédie en un acte* (1857), Calmann-Lévy *Théâtre complet* transcription on fr.wikisource",
+  "url": "https://fr.wikisource.org/w/api.php?action=parse&page=L%27Affaire+de+la+rue+de+Lourcine&prop=text&redirects=1&format=json&formatversion=2",
+  "chars": 43171,
+  "sha256": "a6c298132d76d5e73061dc638083221eb65ed9db7fca5d49078c709e0c9fe2ec",
+  "raw_api_json": "/home/hatch/workspace/goals/cipher-hunt-cracking-lanes/hidden_files/comedy-extension-ingest/labiche-affaire-rue-lourcine.txt.api.json"
+ }
+]

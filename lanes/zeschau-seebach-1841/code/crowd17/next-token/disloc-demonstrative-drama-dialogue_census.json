@@ -1,0 +1,976 @@
+{
+ "files": [
+  {
+   "file": "dumas-antony.txt",
+   "chars": 102234,
+   "dem_comma_hits": 7,
+   "passA_candidates": 2
+  },
+  {
+   "file": "dumas-henri-iii.txt",
+   "chars": 128462,
+   "dem_comma_hits": 3,
+   "passA_candidates": 0
+  },
+  {
+   "file": "dumas-kean.txt",
+   "chars": 152233,
+   "dem_comma_hits": 23,
+   "passA_candidates": 3
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "chars": 204641,
+   "dem_comma_hits": 35,
+   "passA_candidates": 3
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "chars": 132586,
+   "dem_comma_hits": 12,
+   "passA_candidates": 1
+  },
+  {
+   "file": "hugo-burgraves.txt",
+   "chars": 151408,
+   "dem_comma_hits": 3,
+   "passA_candidates": 2
+  },
+  {
+   "file": "hugo-hernani.txt",
+   "chars": 173559,
+   "dem_comma_hits": 1,
+   "passA_candidates": 1
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "chars": 198265,
+   "dem_comma_hits": 7,
+   "passA_candidates": 1
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "chars": 118567,
+   "dem_comma_hits": 9,
+   "passA_candidates": 2
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "chars": 87042,
+   "dem_comma_hits": 11,
+   "passA_candidates": 5
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "chars": 972696,
+   "dem_comma_hits": 48,
+   "passA_candidates": 8
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "chars": 182448,
+   "dem_comma_hits": 14,
+   "passA_candidates": 1
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "chars": 146451,
+   "dem_comma_hits": 7,
+   "passA_candidates": 4
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "chars": 188780,
+   "dem_comma_hits": 10,
+   "passA_candidates": 2
+  }
+ ],
+ "candidates": [
+  {
+   "pass": "A",
+   "file": "dumas-antony.txt",
+   "offset": 13240,
+   "dem": "cela",
+   "window": "cela, va !",
+   "inf_hits": [],
+   "context": "ue moi avait ouvert ce portefeuille, mon portrait qu’il a fait de souvenir… Pauvre Antony, je ne suis plus si jolie que cela, va !… Dans ta pensée j’étais belle… j’étais heureuse… tu me retrouveras bien changée… J’ai tant souffert. — (Continuant ses "
+  },
+  {
+   "pass": "A",
+   "file": "dumas-antony.txt",
+   "offset": 69365,
+   "dem": "cela",
+   "window": "cela, et ce serait dommage ; vous, bâtie de fleurs et de gaze, vous voulez aimer et être aimée d’amour ; ah !",
+   "inf_hits": [
+    "aimerer",
+    "êtrere"
+   ],
+   "context": "évère… Votre teint est rosé, vos yeux sont pétillants, votre bouche est rieuse… de violentes passions détruiraient tout cela, et ce serait dommage ; vous, bâtie de fleurs et de gaze, vous voulez aimer et être aimée d’amour ; ah ! prenez-y garde, madame !\n\nLA VICOMTESSE.\n\nMais vous m’effrayez !… Au fait, peut-être cela vaut-il mieux comme cela est."
+  },
+  {
+   "pass": "A",
+   "file": "dumas-kean.txt",
+   "offset": 35666,
+   "dem": "ça",
+   "window": "ça, moi !",
+   "inf_hits": [],
+   "context": " larmes de versées si un malheur comme celui-là arrivait.\n\nKEAN.\n\nSois tranquille… PISTOL, rentrant.\n\nJe n’oubliais que ça, moi !… où ferons-nous le gatelet ?…\n\nKEAN.\n\nChez Peter Patt, au Trou du Charbon… connais-tu cela ?…\n\nPISTOL.\n\nSi je connais ?"
+  },
+  {
+   "pass": "A",
+   "file": "dumas-kean.txt",
+   "offset": 65809,
+   "dem": "ça",
+   "window": "ça, lui ; mais nous autres !",
+   "inf_hits": [],
+   "context": " ; il a pris l’habitude de les faire lui-même, de peur que les autres ne lui rendent pas justice. Le public ne sait pas ça, lui ; mais nous autres !… Voyons. « La représentation a été magnifique hier à Drury-Lane ; la salle regorgeait ; et la moitié des personnes qui "
+  },
+  {
+   "pass": "A",
+   "file": "dumas-kean.txt",
+   "offset": 119377,
+   "dem": "cela",
+   "window": "cela, sous prétexte qu’il est noble, qu’il est lord, qu’il est pair… Ah !",
+   "inf_hits": [
+    "pairir"
+   ],
+   "context": "e enleveur de jeunes filles, qui porte une épée au côté, et qui refuse de se battre avec ceux dont il a volé le nom, et cela, sous prétexte qu’il est noble, qu’il est lord, qu’il est pair… Ah ! oui ! un bâton pour lord Mewill… et nous rirons… Ah ! ah ! ah ! que je souffre… À moi ! mon Dieu ! à moi !\n\n(Il tombe d"
+  },
+  {
+   "pass": "A",
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 44415,
+   "dem": "cela",
+   "window": "cela,  moi  !",
+   "inf_hits": [],
+   "context": "  faisant  semblant  de  chercher. \n\nMademoiselle  de  Torigny...  attends  donc,  attends \ndonc...  mais  je  connais  cela,  moi  ! \n\nLE  COMTE. \n\nSans  doute...  d'abord,  tu  as  connu  le  maréchal  qui \nest  mort ,  c'était  son  père;  et  puis, "
+  },
+  {
+   "pass": "A",
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 101348,
+   "dem": "cela",
+   "window": "cela,  che- \nvalier !",
+   "inf_hits": [
+    "valierer"
+   ],
+   "context": "e  je  vous \ndis  en  confiance  revînt  au  comte. \n\nLA    COMTESSE. \n\nOh!  soyez  donc  tranquille...  c'est  sacré,  cela,  che- \nvalier !  Ah  !  vous  êtes  im  bon  ami,  et  c'est  bien  à  vous \nd'avoir  consenti  à  me  faire  comprendre  mes  torts  ;"
+  },
+  {
+   "pass": "A",
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 122127,
+   "dem": "cela",
+   "window": "cela ,  mon  oncle ,  je  peux  vous  en  répon- \ndre,  parole  d'honneur!",
+   "inf_hits": [],
+   "context": "NDEUR. \n\nTu   m'as  dit  enfin  que  ma  nièce  et  toi  vous  étiez \nmariés  sans  l'être? \n\nLE  COMTE. \n\nOh  !  pour  cela ,  mon  oncle ,  je  peux  vous  en  répon- \ndre,  parole  d'honneur! \n\nLE  COMMANDEUR. \n\nC'est  tout  ce  qu'il  me  faut.  Adieu ,  Caudale. \nle  comte  ,  le  suivant  des  yeux ,  après"
+  },
+  {
+   "pass": "A",
+   "file": "dumas-tour-de-nesle.txt",
+   "offset": 129575,
+   "dem": "cela",
+   "window": "cela, qui m’a mis au cœur cet amour bizarre, tout de mère et pas d’amante !",
+   "inf_hits": [
+    "bizarrere",
+    "mèrere"
+   ],
+   "context": "GUERITE.\n\nPar le sang du martyr qui a coulé là, je te le jure !… Oh ! oui, oui, c’est la main de Dieu qui a dirigé tout cela, qui m’a mis au cœur cet amour bizarre, tout de mère et pas d’amante ! c’est Dieu… Dieu bon, Dieu sauveur qui voulait qu’avec le repentir le bonheur revint dans ma vie !… Oh ! mon Dieu, merc"
+  },
+  {
+   "pass": "A",
+   "file": "hugo-burgraves.txt",
+   "offset": 80459,
+   "dem": "ceci",
+   "window": "ceci :\n\nSi tout est en repos au fond de vos pensées, \n\nSi rien, en méditant vos actions passées, \n\nNe trouble vos cœurs, purs comme le ciel est bleu,\n \nVivez, riez, chantez!",
+   "inf_hits": [],
+   "context": "aute.\n\nLe Mendiant.\n\nPrinces, comtes, seigneurs, — vous, esclaves, aussi ! — \n\nJ'entre et je vous salue, et je vous dis ceci :\n\nSi tout est en repos au fond de vos pensées, \n\nSi rien, en méditant vos actions passées, \n\nNe trouble vos cœurs, purs comme le ciel est bleu,\n \nVivez, riez, chantez!—Sinon, pensez à Dieu! \n\nJeunes hommes, vieillards aux longues destinées, \n\n— Vous, couronnés de fleurs, — vous, couronn"
+  },
+  {
+   "pass": "A",
+   "file": "hugo-burgraves.txt",
+   "offset": 145006,
+   "dem": "cela",
+   "window": "cela, par grâce !",
+   "inf_hits": [],
+   "context": "une voix qui ment. \n\nOtbert.\n\nMonseigneur! monseigneur! si j'étais votre enfant! \n\nJob.\n\nMais ne va pas au moins croire cela, par grâce ! \n\nJ'eus la preuve... — O mon Dieu ! que faut-il que je fasse ! — \n\nQue des Juifs ont tué l'enfant dans un festin. \n\nSon"
+  },
+  {
+   "pass": "A",
+   "file": "hugo-hernani.txt",
+   "offset": 167356,
+   "dem": "cela",
+   "window": "cela, c’est assez !",
+   "inf_hits": [],
+   "context": " regard de vous il me ferait l’aumône !\n\nEt s’il fallait un mot à mes vœux insensés,\n\nC’est lui qui vous dirait : — Dis cela, c’est assez ! —\n\nEn maudissant tout bas le mendiant avide\n\nAuquel il faut jeter le fond du verre vide !\n\nHonte ! dérision ! Non. Il f"
+  },
+  {
+   "pass": "A",
+   "file": "hugo-ruy-blas.txt",
+   "offset": 74859,
+   "dem": "cela",
+   "window": "cela, pour si peu, s’aventurer ainsi !",
+   "inf_hits": [
+    "aventurerer"
+   ],
+   "context": "’est sa faute.\n\nPourquoi vouloir franchir la muraille si haute ?\n\nPour m’apporter les fleurs qu’on me refuse ici,\n\nPour cela, pour si peu, s’aventurer ainsi !\n\nC’est aux pointes de fer qu’il s’est blessé sans doute.\n\nUn morceau de dentelle y pendait. Une goutte\n\nDe ce sang répa"
+  },
+  {
+   "pass": "A",
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 11270,
+   "dem": "ça",
+   "window": "ça : « Bah !",
+   "inf_hits": [],
+   "context": "compagnie du cousin Bobin, un grand dadais qui a la manie d’embrasser tout le monde… surtout ma femme… — On me répond à ça : « Bah ! ils ont été élevés ensemble ! » — Ce n’est pas une raison… Et une fois marié… — Marié !!! (Au public.) Êtes-vous comme "
+  },
+  {
+   "pass": "A",
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 34682,
+   "dem": "ça",
+   "window": "ça : « Mon Dieu !",
+   "inf_hits": [],
+   "context": "gu.\n\nFadinard.\n\nAh ! c’est une bonne idée !… voilà une bonne idée !… J’ai justement ma soirée libre… Je me disais comme ça : « Mon Dieu ! qu’est-ce que je vais donc faire de ma soirée ?… » Voyons les chapeaux !\n\nClara.\n\nC’est ici mon salon… venez dans mon m"
+  },
+  {
+   "pass": "A",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 19881,
+   "dem": "ça",
+   "window": "ça, ils sont très gentils !",
+   "inf_hits": [],
+   "context": "ear.\n\nOh !… des artistes… Mais ces messieurs se font un plaisir… je dirai même un devoir… de fréquenter mon salon… Pour ça, ils sont très gentils ! très gentils !\n\nMalingear, à part.\n\nEt patati ! et patata !… Madame Ratinois, à part.\n\nQuel intérieur charmant !\n\nMadam"
+  },
+  {
+   "pass": "A",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 48985,
+   "dem": "ça",
+   "window": "ça, je me tais !",
+   "inf_hits": [],
+   "context": "ux autres : \"Imbéciles ! vous ne l’êtes pas, vous… et moi je le suis !…\" C’est de la gloriole !\n\nRobert.\n\nAh ! si c’est ça, je me tais !… (Tirant sa montre.) Deux heures et demie ! Bonjour ! vous me reverrez tantôt !\n\nRatinois, étonné.\n\nAh !\n\nRobert.\n\nC’es"
+  },
+  {
+   "pass": "A",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 62669,
+   "dem": "ça",
+   "window": "Ça, je l’ai vu ; sept à huit pieds !",
+   "inf_hits": [],
+   "context": ".\n\nIl n’est pas question de rompre ! Les Malingear sont riches… très riches… des gens qui ont un chasseur !\n\nRatinois.\n\nÇa, je l’ai vu ; sept à huit pieds !\n\nMadame Ratinois.\n\nEh bien, qu’ils donnent plus ! Il faut que tu reparles au père… Il va venir ?\n\nRatinois.\n\nOui… Comme"
+  },
+  {
+   "pass": "A",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 72673,
+   "dem": "ça",
+   "window": "ça, quand le faux à l’air vrai… ce n’est plus du faux !",
+   "inf_hits": [],
+   "context": "rbe !\n\nFrédéric.\n\nElle est en imitation… il ne faut pas le dire.\n\nRatinois, indigné.\n\nDu faux !… (Par réflexion.) Après ça, quand le faux à l’air vrai… ce n’est plus du faux ! (Un grand domestique en livrée entre par le fond avec deux lampes allumées. À Frédéric.) Qu’est-ce que c’est que celui-"
+  },
+  {
+   "pass": "A",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 75702,
+   "dem": "ça",
+   "window": "ça, c’est du sentiment… ça nous éloigne !",
+   "inf_hits": [],
+   "context": "\nRatinois, lui serrant la main.\n\nCe bon Malingear !\n\nMalingear, de même.\n\nExcellent Ratinois !\n\nRatinois, à part.\n\nTout ça, c’est du sentiment… ça nous éloigne ! (Haut.) Tantôt, nous avons causé de la dot un peu superficiellement…\n\nIls s’asseyent près de la table à gauche.\n\nMaling"
+  },
+  {
+   "pass": "A",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 21031,
+   "dem": "cela",
+   "window": "cela  ,  avoir \npeuplé  un  palais  d'ouvrages  magnifiques,  et  rallumé  le  feu \nsacré  des  arts,  prêt  à  s'éteindre  à  Florence!",
+   "inf_hits": [
+    "avoirir",
+    "s'éteindrere"
+   ],
+   "context": "  enrichir!  le  rôle  d'un  bon  ange  à  jouer!  les \nbénédictions  de  Ja  patrie  à  recevoir ,  et ,  après  tout  cela  ,  avoir \npeuplé  un  palais  d'ouvrages  magnifiques,  et  rallumé  le  feu \nsacré  des  arts,  prêt  à  s'éteindre  à  Florence!  André!  comme \ntu  te  serais  mis  à  genoux  de  bon  cœur  au  chevet  de  ton  lit  le \njour  où  tu  aurais  rend"
+  },
+  {
+   "pass": "A",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 63055,
+   "dem": "cela",
+   "window": "cela,  mou  cher  seigneur,  et  puisse  le  ciel  venir  à \nvotre  aide  !",
+   "inf_hits": [
+    "cherer",
+    "venirir",
+    "votrere"
+   ],
+   "context": "  science  hu- \nmaine ne  guérira  pas  cette  nuit.  Pauvre  André  !  pauvre  André  ! \nLE  PORTIER  rentre. \n\nBuvez  cela,  mou  cher  seigneur,  et  puisse  le  ciel  venir  à \nvotre  aide  ! \n\nLIONEL. \n\nA  qui  appartient  c^tte  maison? \n\nLE   PORTIER. \n\nA  Monna  Flora  del  Fede. \n\nCORDIANI. \n\nLa  mère  de"
+  },
+  {
+   "pass": "A",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 88090,
+   "dem": "cela",
+   "window": "cela  ,  je  suis  volé  d'un  millier \nde  ducats  !",
+   "inf_hits": [
+    "millierer"
+   ],
+   "context": "is  un  sot,  et  que  la  vieille \nmère  est  une  honnête  femme. \n\nLE    DCC. \n\nEntrailles  du  pape  !  avec  tout  cela  ,  je  suis  volé  d'un  millier \nde  ducats  ! \n\nLORENZO. \n\nNous  n'avons  avancé  que  moitié.  Je  réponds  de  la  petite. \nDeux  grands  yeux  languissants,  cela"
+  },
+  {
+   "pass": "A",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 293411,
+   "dem": "cela",
+   "window": "cela,  une  occasion!",
+   "inf_hits": [],
+   "context": "pays,  ou  sans  cela  vous  profileriez \nd'une  occasion  commo  celle-ci. \n\nPHILIPPE. \n\nUne  occasion  ,  mon  Dieu!  cela,  une  occasion! \n\nIl  frappe  le  tombeau. \n\nPIEURK. \n\nLaissez-vous  fléchir. \n\nPHILIPPE. \n\nJe  n'ai  pas  une  douleur  ambitieuse  ; "
+  },
+  {
+   "pass": "A",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 303933,
+   "dem": "cela",
+   "window": "cela  ;  tra  la  la  !",
+   "inf_hits": [],
+   "context": "s  et  sur \ntoutes  ces  poutres.  Eh,  mignon,  eh,  mignon!  mettez  vos \nganis  neufs  ,  un  plus  bel  habit  que  cela  ;  tra  la  la  !  faites-vous \nbeau,  la  mariée  est  belle.  Mais,  je  vous  le  dis  à  l'oreille,  pre- \nnez garde  à  son  petit  "
+  },
+  {
+   "pass": "A",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 587968,
+   "dem": "cela",
+   "window": "cela ,  ô  Dieu  !",
+   "inf_hits": [],
+   "context": "mari  ,  je  réparerai  ma  faute;  elle  est  jeune  , \nelle  sera  riche ,  elle  sera  heureuse  ;  ne  faites  pas  cela ,  ô  Dieu  ! \nvous  pouvez  bénir  encore  quatre  de  vos  eufauls.  Eh  bien  ! \nCamille,  qu'y  a-t-il? \n\nCamille  rentre. \n\nCAMI"
+  },
+  {
+   "pass": "A",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 789464,
+   "dem": "cela",
+   "window": "cela ,  et  si \nje  vous  le  dis,  dame!",
+   "inf_hits": [],
+   "context": "n  direz  rien  ,  n'est-ce  pas?  Il  veut  se  cacher \ncette  nuit  dans  l'étude  ;  c'est  moi  qui  ai  découvert  cela ,  et  si \nje  vous  le  dis,  dame!  c'est  que  je  pense  que  vous  n'y  êtes  pas \nindifférent. \n\nFOUTUMO. \n\nPourquoi  se  cacher  dans  l'étude? \n\nMAD"
+  },
+  {
+   "pass": "A",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 878534,
+   "dem": "ça",
+   "window": "ça,  je  n'ai  pas  de  bougies!",
+   "inf_hits": [],
+   "context": "  pu  ,  sans  blesser \npersonne... \n\nhï' \n\n\n486  IL  NE  FAIT  JLIŒK  UE  KIEN. \n\nLA    BARONNE. \n\nEl  au  milieu  de  ça,  je  n'ai  pas  de  bougies!  Voyez  donc  un \npeu  si  Dupré  est  là. \n\nl'aube. \nJe  pense  qu'il  s'occupe  des  sirops. \n\nLA    BARONNE. \n\nVous "
+  },
+  {
+   "pass": "A",
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 21271,
+   "dem": "cela",
+   "window": "cela, risquer ma position, mon crédit !",
+   "inf_hits": [
+    "risquerer"
+   ],
+   "context": "t pas. Mais moi, je raisonne ; j’ai \nsoixante ans, j'ai quelque pouvoir, quelque richesse… et j'irais compromettre tout cela, risquer ma position, mon crédit !… Pourquoi, je vous le demande ? \n\nLA REINE.\n \nPour arriver au premier rang ; pourvoir à vos pieds un collègue, un rival"
+  },
+  {
+   "pass": "A",
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 61683,
+   "dem": "cela",
+   "window": "cela, et pour bonnes raisons !",
+   "inf_hits": [],
+   "context": "vous aviez eu la confiance d’estimer mes dettes.\n\nLA DUCH. Monsieur…\n\nBOL. C’était beaucoup !… je n’en aurais pas donné cela, et pour bonnes raisons !… Par l’événement, et malgré vous, il se trouve que vous y aurez gagné trois cents pour cent… j’en suis ravi… vous voyez"
+  },
+  {
+   "pass": "A",
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 91030,
+   "dem": "cela",
+   "window": "cela, il faut le connaître !",
+   "inf_hits": [
+    "connaîtrere"
+   ],
+   "context": "terroger…\n\nABIG., gaîment. Qui ?… l’inconnu ?\n\nLA REINE. Oui… tu me l’amèneras, cela te regarde !\n\nABIG., de même. Pour cela, il faut le connaître !\n\nLA REINE, se retournant et apercevant Masham qui vient d’entrer par la porte du fond et lui présente ses gants et sa B"
+  },
+  {
+   "pass": "A",
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 99172,
+   "dem": "cela",
+   "window": "cela, malheureux !",
+   "inf_hits": [],
+   "context": "i, sans doute… je lui ai dit que j’irai prendre ses dépêches pour le maréchal, ce soir, chez elle.\n\nABIG. Vous avez dit cela, malheureux !…\n\nMASH. Où est le mal ?\n\nABIG. Et vous irez ?\n\nMASH. Oui vraiment… Et elle était pour moi si affable, si gracieuse, que"
+  },
+  {
+   "pass": "A",
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 101916,
+   "dem": "cela",
+   "window": "cela, il faut que vous nous laissiez !",
+   "inf_hits": [],
+   "context": "olingbroke, a qui j’ai écrit de venir ! Lui seul peut me donner avis et conseil.\n\nMASH. Vous croyez ?…\n\nABIG. Mais pour cela, il faut que vous nous laissiez !\n\nMASH., étonné. Moi !…\n\nABIG. Ah ! vous m’avez promis obéissance…\n\nMASH. Et je tiendrai tous mes serments.\n\n(Il lui bai"
+  },
+  {
+   "pass": "A",
+   "file": "vigny-chatterton-1835.txt",
+   "offset": 75863,
+   "dem": "cela",
+   "window": "cela,  sou- \nviens-toi de  Primerose-IIill  !",
+   "inf_hits": [],
+   "context": ". \n\nGeorges,  tout  cela  est  bien  léger;  mon  ca- \n\n\n78  effAxrxRTOir. \n\nractère  ne  s'y  prête  pas...  Tu  sais  cela,  sou- \nviens-toi de  Primerose-IIill  !  .  .  .  J'aurai  à  ' \nparler  à  ton  retour  de  la  chasse. \n\nLO&D  T AI.iSOT,  consterné. \n\nAh!  si  tu  veux  jo"
+  },
+  {
+   "pass": "A",
+   "file": "vigny-chatterton-1835.txt",
+   "offset": 105683,
+   "dem": "cela",
+   "window": "cela  ,  je  ne  lui  répon- \ndrais pas!",
+   "inf_hits": [],
+   "context": " \nsans  cesse  pour  avoir  son  or,  et  lui  disent  qu'elle \npeut  se  passer  du  Ciel. \n\nEt  moi!  moi  qui  sens  cela  ,  je  ne  lui  répon- \ndrais pas!  Si!  par  le  ('ici:  je  lui  répondrai.  Je \nfrapperai  du  fouet  les  méchans  et  le  -  li\\  poèmes. \nJe  dévoil"
+  }
+ ],
+ "controls": [
+  {
+   "pass": "C2-loose",
+   "file": "dumas-kean.txt",
+   "offset": 9979,
+   "dem": "cela",
+   "window": "cela sans m’en prévenir ?",
+   "context": "E COMTE.\n\nD’un côté de ma table à l’autre… je l’ai invité à dîner avec nous.\n\nELENA.\n\nComment, monsieur, vous avez fait cela sans m’en prévenir ?\n\nAMY.\n\nInviter Kean !\n\nLE COMTE.\n\nPourquoi pas ? le prince royal l’invite bien ! d’ailleurs, inviter, inviter comme on "
+  },
+  {
+   "pass": "C2-loose",
+   "file": "dumas-kean.txt",
+   "offset": 34932,
+   "dem": "ça",
+   "window": "ça… elle pâmerait… Oh !",
+   "context": "\n\nElle, refuser !… oh ! pauvre fille… oh ! oui, vous ne la connaissez pas ; il va falloir des précautions pour lui dire ça… elle pâmerait… Oh ! Ketty ! pauvre Ketty ! va-t-elle être contente !…\n\n(Il fait une cabriole.)\n\nSALOMON.\n\nEh bien ! que fais-tu donc ?\n\nPIS"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "dumas-kean.txt",
+   "offset": 55829,
+   "dem": "ça",
+   "window": "ça me fait ?",
+   "context": "\nKEAN.\n\nTu le vois bien, je me prépare.\n\nPETER, à John.\n\nMais tu ne sais pas à qui tu as affaire.\n\nJOHN.\n\nQu’est-ce que ça me fait ?\n\nPETER.\n\nMonsieur le constable !\n\nLE CONSTABLE, monté sur une chaise pour mieux voir.\n\nLaisse-moi donc regarder, imbéci"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 6978,
+   "dem": "cela",
+   "window": "cela  à  son  couvent  !",
+   "context": "'elle...  que  ce  mariage  fait \nmon  désespoir  et  que  j'en  mourrai. \n\nMARTON. \n\nMais  vous  lui  avez  dit  tout  cela  à  son  couvent  !... \n\nLE    CHEVALIER. \n\nEh  bien!  Marton,  je  le  lui  répéterai. \n\nMARTON. \n\nEh  !  la  pauvre  enfant  ne  le  sait"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 19975,
+   "dem": "cela",
+   "window": "cela  s'ouvre  toujours  tout  seul.",
+   "context": "..  Je \nte  jure ,  Marton  ,  que  je  ne  sais  pas  comment  cela  s'est \nfait!... \n\nMARTON. \n\nOh!  les  lettres...  cela  s'ouvre  toujours  tout  seul. \n\nLA  COMTESSE. \n\nDam  !  maintenant ,  puisqu'elle  est  ouverte ,  qu'en \ndis-tu?...  autant  la  lire... \n\nMARTON. \n"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 43042,
+   "dem": "cela",
+   "window": "cela?",
+   "context": "is en  grandes  affaires. \n\nLE    COMTE. \n\nAb  !  c'est  vrai...  à  propos,  je  me  suis  marié  hier... \nlu  as  su  cela? \n\nLE    CHEVALIER. \n\nPardieu  !  il  serait  beau  ,  quand  un  homme  comme \n,oi  se  marie  ,  que  tout  Paris  ne "
+  },
+  {
+   "pass": "C2-loose",
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 58692,
+   "dem": "cela",
+   "window": "cela  se  rencontre!",
+   "context": "le  comte,  T arrêtant. \n\nAllons  donc,  chevalier,  du  courage!  heureusement \nque  le  mari,  voyez  un  peu  comme  cela  se  rencontre!... \nheureusement,  dis-je,  que  le  mari  était  des  amis  les \nplus  intimes  du  chevalier,  de  sorte  que  tout  "
+  },
+  {
+   "pass": "C2-loose",
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 101348,
+   "dem": "cela",
+   "window": "cela,  che- \nvalier !",
+   "context": "e  je  vous \ndis  en  confiance  revînt  au  comte. \n\nLA    COMTESSE. \n\nOh!  soyez  donc  tranquille...  c'est  sacré,  cela,  che- \nvalier !  Ah  !  vous  êtes  im  bon  ami,  et  c'est  bien  à  vous \nd'avoir  consenti  à  me  faire  comprendre  mes  torts  ;"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 109531,
+   "dem": "cela",
+   "window": "cela?",
+   "context": "? \n\nLE  CHEVALIER. \n\nTrès-content!...  mais  je  n'en  dirai  pas  autant  de \ntout  le  monde. \n\nLE  COMTE. \n\nComment  cela? \n\nLE  CHEVALIER. \n\nAh  !  tu  as  un  oncle!...  Dis-moi  donc,  mon  cher,  tu \nne  m'avais  pas  prévenu  de  cet  on"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 138025,
+   "dem": "cela",
+   "window": "cela  me  fait  de  la  peine.",
+   "context": "ier  aux  Champs-Elysées  de  mon  côté  ,  j'ai  été \nlui  promettre  d'être  son  cavalier  ce  soir.  C'est  égal , \ncela  me  fait  de  la  peine.  Cette  pauvre  comtesse! \n\nSCENE    IV. \n\nLE  COMTE , LE  COMMANDEUR. \n\nle  commandeur,  entrant,  posant  son  chapea"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 156859,
+   "dem": "cela",
+   "window": "cela  qu'elle  t'a  écrit.",
+   "context": "  je  viens  de  la  voir...  et  de  lui  refuser \nmoi-même  ce  qu'elle  me  demandait.  C'est  probable- \nment pour  cela  qu'elle  t'a  écrit. \n\nLE    CHEVALIER. \n\nAh  !  ah  !...  tu  sais  que  la  comtesse  m'a  écrit? \n\nLE   COMTE. \n\nPardieu  !  te  figures-"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 179007,
+   "dem": "cela",
+   "window": "cela  !",
+   "context": "-ce  que  ie  suis  dans  une  maison  de \nfous?  J \n\nLE  COMTE. \n\nImbécile  que  je  suis  de  n'avoir  pas  vu  tout  cela  !  Mais \nc'est  clair  comme  le  jour,  le  diable  m'emporte!...  Eh \nbien!  voilà  ce  que  c'est  que  d'être  trop  "
+  },
+  {
+   "pass": "C2-loose",
+   "file": "dumas-tour-de-nesle.txt",
+   "offset": 93694,
+   "dem": "cela",
+   "window": "cela.",
+   "context": " valait faire sa cour à Marguerite de Bourgogne qu’à Louis le Hutin. \n\nSAVOISY.\n\nPeut-être y a-t-il quelque chose comme cela. — (À sire Raoul qui entre.) Bonjour ! baron, quelle nouvelle ?\n\nSIRE RAOUL.\n\nQue voici le roi qui vient, messeigneurs.\n"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "hugo-hernani.txt",
+   "offset": 29452,
+   "dem": "cela",
+   "window": "cela pour rire ?",
+   "context": "ivez-moi !Seigneur duc…\n\nDon Ruy Gomez.\n\nSuivez-moi !Seigneur duc…Suivez-moi ! suivez-moi !\n\nMessieurs, avons-nous fait cela pour rire ? Quoi !\n\nUn trésor est chez moi. C’est l’honneur d’une fille,\n\nD’une femme, l’honneur de toute une famille,\n\nCette fille"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "hugo-hernani.txt",
+   "offset": 122401,
+   "dem": "cela",
+   "window": "cela !",
+   "context": "ds vaisseaux naufragés, que son flux et reflux\n\nRoule, et qui le gênaient, et qu’il ne connaît plus !\n\n— Gouverner tout cela ! — Monter, si l’on vous nomme,\n\nÀ ce faîte ! Y monter, sachant qu’on n’est qu’un homme !\n\nAvoir l’abîme là !… — Pourvu q"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "hugo-hernani.txt",
+   "offset": 163334,
+   "dem": "cela",
+   "window": "Cela peut s’oublier.",
+   "context": ". Fort bien.\n\nSur quoi donc m’as-tu fait ce serment ? — Ah, sur rien.\n\nPeu de chose après tout ! La tête de ton père !\n\nCela peut s’oublier. La jeunesse est légère.\n\nHernani.\n\nMon père ! Mon père !… — Ah ! j’en perdrai la raison !\n\nLe masque.\n\nNon, ce n’est qu"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "hugo-ruy-blas.txt",
+   "offset": 32715,
+   "dem": "cela",
+   "window": "cela peut-être servira.",
+   "context": "ste.\n\nVous en traînez toujours après vous une meute ;\n\nVous pourriez, au besoin, soulever une émeute,\n\nJe le sais. Tout cela peut-être servira.\n\nDon César, éclatant de rire.\n\nD’honneur ! vous avez l’air de faire un opéra.\n\nQuelle part donnez-vous dans l’œuvre à m"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "hugo-ruy-blas.txt",
+   "offset": 65925,
+   "dem": "cela",
+   "window": "cela veut dire : — joie !",
+   "context": "ourire triste.\n\nTais-toi !\n\nCasilda.\n\nTais-toi !Pour être heureux, il suffit qu’il vous voie !\n\nVoir la reine, pour lui cela veut dire : — joie !\n\n \n\nS’extasiant sur une boîte posée sur le guéridon.\n\n \n\nOh ! la divine boîte !\n\nLa Reine.\n\nOh ! la divine boîte !Ah ! "
+  },
+  {
+   "pass": "C2-loose",
+   "file": "hugo-ruy-blas.txt",
+   "offset": 74859,
+   "dem": "cela",
+   "window": "cela, pour si peu, s’aventurer ainsi !",
+   "context": "’est sa faute.\n\nPourquoi vouloir franchir la muraille si haute ?\n\nPour m’apporter les fleurs qu’on me refuse ici,\n\nPour cela, pour si peu, s’aventurer ainsi !\n\nC’est aux pointes de fer qu’il s’est blessé sans doute.\n\nUn morceau de dentelle y pendait. Une goutte\n\nDe ce sang répa"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "hugo-ruy-blas.txt",
+   "offset": 144916,
+   "dem": "ceci",
+   "window": "Ceci peut ne cacher qu’une intrigue de femme.",
+   "context": "es morceaux doubles.\n\n \n\nMon dîner fait, j’irai visiter la maison.\n\nMais qui peut l’habiter ? peut-être un bon garçon.\n\nCeci peut ne cacher qu’une intrigue de femme.\n\nBah ! quel mal fais-je ici ? qu’est-ce que je réclame ?\n\nRien, — l’hospitalité de ce digne mortel,\n\nÀ la manière antiq"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 4340,
+   "dem": "ça",
+   "window": "ça va finir !",
+   "context": " Eh ! eh ! ça fait plaisir de rencontrer un joli minois.\n\nFélix, lui offrant une chaise.\n\nPar exemple !… à votre âge !… ça va finir !… gros farceur, ça va finir !…\n\nVézinet, assis à gauche.\n\nMerci !… (À part.) Il est très convenable, ce garçon… \n\n Scène"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 4369,
+   "dem": "ça",
+   "window": "ça va finir !",
+   "context": " rencontrer un joli minois.\n\nFélix, lui offrant une chaise.\n\nPar exemple !… à votre âge !… ça va finir !… gros farceur, ça va finir !…\n\nVézinet, assis à gauche.\n\nMerci !… (À part.) Il est très convenable, ce garçon… \n\n Scène III.\n\nVÉZINET, FADINARD, FÉL"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 16006,
+   "dem": "ça",
+   "window": "ça, Tavernier ?",
+   "context": "…\n\nAnaïs.\n\nMonsieur !…\n\nÉmile, avec colère.\n\nQue voulez-vous dire ?\n\nAnaïs.\n\nApprenez que M. Tavernier…\n\nFadinard.\n\nQui ça, Tavernier ?\n\nÉmile, brusquement.\n\nC’est moi, monsieur ! \n\nAnaïs.\n\nQue M. Tavernier… est… mon cousin… Nous avons été élevés ensemble"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 21185,
+   "dem": "ça",
+   "window": "ça la fera descendre.",
+   "context": " !…\n\nNonancourt.\n\nPourquoi ?\n\nFadinard.\n\nC’est plein de serruriers.\n\nNonancourt, à sa fille.\n\nAlors marche… secoue-toi… ça la fera descendre. (Secouant son pied.) Cristi ! je n’y tiens plus… je vais mettre des chaussons de lisière.\n\nIl se dirige vers le cabinet"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 34150,
+   "dem": "ça",
+   "window": "ça… pour une autre femme !",
+   "context": "nt de ton.) Ah !… j’ai besoin d’un chapeau de paille d’Italie… tout de suite… avec des coquelicots.\n\nClara.\n\nOui, c’est ça… pour une autre femme !\n\nFadinard.\n\nOh ! oh ! qu’elle est bête !… un chapeau de paille pour… non, c’est pour un capitaine de dragons… qui veut "
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-chapeau-de-paille.txt",
+   "offset": 103230,
+   "dem": "ça",
+   "window": "ça m’est bien défendu… la dame est encore là-haut.",
+   "context": "après lui. \n\nNonancourt.\n\nNous nous passerons de lui… Ouvre-nous la porte, Pierrot.\n\nFélix.\n\nOh ! monsieur… impossible… ça m’est bien défendu… la dame est encore là-haut.\n\nTous.\n\nUne dame !\n\nNonancourt, avec un cri sauvage.\n\nUne dame !!!\n\nFélix.\n\nOui, monsieur… qui est chez nous… sans chap"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 9799,
+   "dem": "ceci",
+   "window": "ceci est clair !",
+   "context": " en mariage.\n\nMadame Malingear, à part.\n\nJe m’en doutais.\n\nMalingear, se levant, ainsi que sa femme.\n\nÀ la bonne heure, ceci est clair !… Oserais-je vous demander maintenant quelques renseignements…\n\nFrédéric.\n\nSur ma famille. : . sur ma profession ?… Bien"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 28547,
+   "dem": "cela",
+   "window": "Cela suffit ; je vois très clairement votre affaire.",
+   "context": " ! très fort !…\n\nRatinois, à part, se levant.\n\nJe suis curieux de savoir quelle maladie il va me trouver !\n\nMalingear.\n\nCela suffit ; je vois très clairement votre affaire.\n\nRatinois.\n\nAh ! (À part.) Il va me couvrir de sangsues !…\n\nMalingear.\n\nMon cher monsieur, vous n’avez absolument rien "
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 45232,
+   "dem": "ca",
+   "window": "Ca peut durer une infinité de Rigoletto comme ça !",
+   "context": "ngear… avec leur demoiselle.\n\nRatinois.\n\nOui ! nous les saluons de notre loge ; ils nous saluent de la leur… et voilà ! Ca peut durer une infinité de Rigoletto comme ça ! Par exemple, il y a une chose contre laquelle je proteste formellement !\n\nMadame Ratinois.\n\nQuoi donc ?\n\nRatinois, se l"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 48985,
+   "dem": "ça",
+   "window": "ça, je me tais !",
+   "context": "ux autres : \"Imbéciles ! vous ne l’êtes pas, vous… et moi je le suis !…\" C’est de la gloriole !\n\nRobert.\n\nAh ! si c’est ça, je me tais !… (Tirant sa montre.) Deux heures et demie ! Bonjour ! vous me reverrez tantôt !\n\nRatinois, étonné.\n\nAh !\n\nRobert.\n\nC’es"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 49929,
+   "dem": "ça",
+   "window": "ça traîne.",
+   "context": "h ! un parti inespéré.\n\nRobert.\n\nUn marchand de bois ?\n\nRatinois.\n\nPas tout à fait ! Malheureusement, ça ne marche pas… ça traîne.\n\nRobert.\n\nIl faut chauffer ça ! Veux-tu que j’aille voir la famille ?\n\nRatinois, effrayé.\n\nNon, merci ! (À part.) S’il "
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 61105,
+   "dem": "cela",
+   "window": "Cela viendra ; l’avenir est à lui !",
+   "context": "s.\n\nC’est juste. (Par réflexion.) Mais, s’il n’a pas de causes, c’est comme s’il n’était pas avocat.\n\nMadame Ratinois.\n\nCela viendra ; l’avenir est à lui !… Je ne comprends pas que tu aies accepté ce chiffre !\n\nRatinois.\n\nUn jeune ménage qui a dix mille francs de rente… c’es"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 61753,
+   "dem": "cela",
+   "window": "cela prouve ?",
+   "context": "tte… coupé… vingt-quatre mille francs !\n\nMadame Ratinois.\n\nEt nous avons oublié les enfants !\n\nRatinois.\n\nQu’est-ce que cela prouve ?… Ce budget, on peut le réduire.\n\nMadame Ratinois.\n\nOh ! si mademoiselle Malingear était une jeune fille simple, élevée "
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 68448,
+   "dem": "cela",
+   "window": "cela doit être charmant !",
+   "context": "e d’Hôtel.\n\nC’est une tour de Nankin en buisson d’ananas, surmontée d’un Chinois filé en sucre.\n\nMadame Ratinois.\n\nOh ! cela doit être charmant !…\n\nRatinois.\n\nQu’est-ce que vous vendez ça ?\n\nLe Maître d’Hôtel.\n\nSoixante-quatre francs. Ratinois.\n\nAh ! permettez !… l"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 68513,
+   "dem": "ça",
+   "window": "ça ?",
+   "context": "ée d’un Chinois filé en sucre.\n\nMadame Ratinois.\n\nOh ! cela doit être charmant !…\n\nRatinois.\n\nQu’est-ce que vous vendez ça ?\n\nLe Maître d’Hôtel.\n\nSoixante-quatre francs. Ratinois.\n\nAh ! permettez !… les sucreries, ça me connaît, en ma qualité d"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 71862,
+   "dem": "ça",
+   "window": "ça va faire une histoire !",
+   "context": "\n\nRatinois ; puis Frédéric ; puis Un Domestique\n\nRatinois.\n\nMe voilà bien ! Il ne nous trouvera pas chez les Blanchard, ça va faire une histoire !\n\nFrédéric, entrant, chargé de livres avec un stéréoscope.\n\nVoici nos acquisitions.\n\nRatinois.\n\nQu’est-ce que tu as ache"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 78980,
+   "dem": "ça",
+   "window": "ça me fasse ?",
+   "context": " question d’argent ?\n\nRatinois.\n\nJe n’hésite pas ! Cent mille francs de plus ou de moins… qu’est-ce que vous voulez que ça me fasse ? J’offre trois cent mille francs ! Voilà comme j’hésite !\n\nMalingear, étonné.\n\nHein !… trois cents ?… Ratinois, à part.\n"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 83970,
+   "dem": "cela",
+   "window": "cela fait ?",
+   "context": "eux bourgeois…\" on préfère sacrifier l’avenir, le bonheur de ses enfants… Ils s’aiment… mais on répond : \"Qu’est-ce que cela fait ?…\" Et voilà des pères !… Bonsoir !…\n\nIl veut sortir.\n\nRatinois, le retenant vivement.\n\nMon oncle Robert, restez !… (Emu."
+  },
+  {
+   "pass": "C2-loose",
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "offset": 86457,
+   "dem": "ça",
+   "window": "ça !",
+   "context": "nne cent mille francs de dot à son neveu !\n\nFrédéric.\n\nAh ! mon oncle !\n\nEmmeline.\n\nMon bon oncle !\n\nRatinois.\n\nIl a de ça !\n\nLe maître d’hôtel, entrant.\n\nLe dîner est servi !\n\nRobert.\n\nAllons, à table !\n\nRatinois.\n\nUn instant !\n\nTous.\n\nQuoi do"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 19923,
+   "dem": "ceci",
+   "window": "ceci.",
+   "context": " oh!  mais  c'est  là  qu'il \nfaut  s'arrêter.  Tais-toi,  me  suis-je  dit,  Grémio;  holà,  mon \nvieux  ,  point  de  ceci.  Cela  serait  drôle  à  penser!  penser  n'est \nrien  :  qu'est-ce  qu'on  en  voit?  on  pense  ce  qu'on  veut. \n\nIl"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 19930,
+   "dem": "cela",
+   "window": "Cela  serait  drôle  à  penser!",
+   "context": "ais  c'est  là  qu'il \nfaut  s'arrêter.  Tais-toi,  me  suis-je  dit,  Grémio;  holà,  mon \nvieux  ,  point  de  ceci.  Cela  serait  drôle  à  penser!  penser  n'est \nrien  :  qu'est-ce  qu'on  en  voit?  on  pense  ce  qu'on  veut. \n\nIl  chante. \n\nLe  berger  dit  au  "
+  },
+  {
+   "pass": "C2-loose",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 25437,
+   "dem": "cela",
+   "window": "Cela  est  singulier!",
+   "context": "ommencé; \nc'était  de  la  fenêtre  de  madame  Lucrèce. \n\nANDRÉ. \n\nDe  Lucrèce? \n\nGRÉMIO. \n\nOui,  monsieur. \n\nANDRÉ. \n\nCela  est  singulier! \n\nGRÉMIO. \n\nBref,  il  s'est  enfui  dans  le  parc.  J'ai  bien  appelé  et  crié  «u \nvoleur!  mais  là-dessus  voilà"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 60600,
+   "dem": "cela",
+   "window": "cela  rend-il  la  vie  ,  de  faire \nmourir  un  meurtrier?",
+   "context": "ai \nperdu  !  Qu'est-ce  donc  pour  moi  que  la  vengeance?  Quoi  !  voilà \ntout?  Et  rester  seul  ainsi?  A  qui  cela  rend-il  la  vie  ,  de  faire \nmourir  un  meurtrier?  Quoi!  répondez?  Qu'avais-je  affaire \nde  chasser  ma  femme,  d'égorger  cet  homme?  Il  n'y  a  point \nd'offensé "
+  },
+  {
+   "pass": "C2-loose",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 88090,
+   "dem": "cela",
+   "window": "cela  ,  je  suis  volé  d'un  millier \nde  ducats  !",
+   "context": "is  un  sot,  et  que  la  vieille \nmère  est  une  honnête  femme. \n\nLE    DCC. \n\nEntrailles  du  pape  !  avec  tout  cela  ,  je  suis  volé  d'un  millier \nde  ducats  ! \n\nLORENZO. \n\nNous  n'avons  avancé  que  moitié.  Je  réponds  de  la  petite. \nDeux  grands  yeux  languissants,  cela"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 140016,
+   "dem": "cela",
+   "window": "cela  ne  me  crie  :  Tu  es  la  mère  de  nos \nmalheurs!",
+   "context": " gris!  Ah  !  ne \npuis-je  voir  une  fille  sans  pudeur,  un  malheureux  privé  de  sa \nfamille ,  sans  que  tout  cela  ne  me  crie  :  Tu  es  la  mère  de  nos \nmalheurs!  Quand  serai-je  là  ? \n\nElle  frappe  la  terre. \n\nCATHERINE. \n\nMa  pauvre  mère,  vos  larmes  se  gagnent. \nElles  "
+  },
+  {
+   "pass": "C2-loose",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 180584,
+   "dem": "cela",
+   "window": "cela  est  aisé  de  mentir  impu- \ndemment au  nez  d'un  butor!",
+   "context": "gnon!  J'avoue  que  je  ne \ncomprends  pas  comment  ils  te  reçoivent. \n\nL0RE>Z0. \n\nBon  !  si  vous  saviez  comme  cela  est  aisé  de  mentir  impu- \ndemment au  nez  d'un  butor!  Cela  prouve  bien  que  vous \nn'avez  jamais  essayé.  A  propos,  ne  m'avcz-vous  pas  dit  que \nvous  vouliez  don"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 269905,
+   "dem": "cela",
+   "window": "Cela  est  singulier;  les  volets  sont  fermés  !",
+   "context": "t  me  renverraient  absous,  et  toi \naussi.  Viens,  frappons  à  notre  porte,  et  allons  embrasser  notre \npère.  Cela  est  singulier;  les  volets  sont  fermés  ! \nLE  PORTIER,  ouvrant. \n\nHélas  !  seigneur ,  vous  savez  les  nouvelles. \n\nPIERRE. \n\nQuelles  nouvelles?  Tu  as  l"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 507670,
+   "dem": "cela",
+   "window": "cela  m'ennuie.",
+   "context": "  dis  que  les  souvenirs  d'enfance  ne  sont  pas  de  mon  goût. \n\nPEIIDICAN. \n\nCela  l'ennuie? \n\nCAMILLE. \n\nOui ,  cela  m'ennuie. \n\nPERDICAN. \n\nPauvre  enfant  !  je  te  plains  sincèrement. \n\nIls  sortent  chacun  de  leur  côté. \nLE  KARON  ,  re"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 637452,
+   "dem": "cela",
+   "window": "cela?",
+   "context": "nant? \nNe  viens-tu  pas  de  m'arracher  un  secret  que  j'avais  résolu  de \ncacher?  Et  que  fa-t-il  fallu  pour  cela?  un  sourire. \n\nBARBERINE. \n\nEt  un  baiser. \n\nULRIC. \n\nAh!  que  tes  baisers  m'appartiennent!  qu'ils  soient  conin"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 690652,
+   "dem": "cela",
+   "window": "cela  pourrait  me  prêter  un  personnage  ridicule.",
+   "context": " m'inquiéter.  Oui ,  sans \ndoute,  ce  n'est  qu'un  jeu;  mais  il  me  semble  qu'il  est  un  peu \nfort,  el  tout  cela  pourrait  me  prêter  un  personnage  ridicule. \nHum!  m'eniermcr  dans  une  tourelle!  Traite-t-on  aussi  légè- \nrement nue  personne  de  mon  rang?  Fou  que  je "
+  },
+  {
+   "pass": "C2-loose",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 692047,
+   "dem": "cela",
+   "window": "cela  est  sérieux.",
+   "context": "u'est-ce \nque  cela  veut  dire?  Une  bonne  nuit?  Combien  de  temps  va-t-on \ndonc  me  laisser  ici?  Assurément,  cela  est  sérieux.  Mort  et \nmassacre!  feu!  sang!  tonnerre!  exécrable  Barberine!  misé- \nrable! infâme!  bourreau!  malédiction!  Ah"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 721294,
+   "dem": "cela",
+   "window": "cela.",
+   "context": "  de  remplir  ce  rôle  important  , \nqui,  de  bonne  foi,  n'est  pas  sans  douceur?  Cherchez,  voyez, \npensez  à  cela.  [Il  regarde  à  sa  montre.)  Sept  heures  !  il  faut \nque  je  vous  quitte.  Je  suis  de  semaine  d'aujourd'hui"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 941642,
+   "dem": "cela",
+   "window": "cela  va  sans  dire.",
+   "context": "ange  de  la  sienne.  Je  l'ai  prié...  je  l'ai  supplié... \n\nMADAME    DE    LERY. \n\nEt  il  n'eu  a  rien  fiiit;  cela  va  sans  dire.  Pauvre  innocente  ! \nil  u'est  pas  digue  de  vous  ! \n\nMATHILDE. \n\nAh  !  malgré  tout,  je  ne  le  croirai  jama"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 21271,
+   "dem": "cela",
+   "window": "cela, risquer ma position, mon crédit !",
+   "context": "t pas. Mais moi, je raisonne ; j’ai \nsoixante ans, j'ai quelque pouvoir, quelque richesse… et j'irais compromettre tout cela, risquer ma position, mon crédit !… Pourquoi, je vous le demande ? \n\nLA REINE.\n \nPour arriver au premier rang ; pourvoir à vos pieds un collègue, un rival"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 41361,
+   "dem": "cela",
+   "window": "cela pourrait lui attirer de fâcheuses affaires.",
+   "context": "ZAU.\n \nUn avis encore que je vous donne, à vous, sous le sceau du secret. Votre père est imprudent… il parle trop haut… cela pourrait lui attirer de fâcheuses affaires. \n\nÉRIC.\n \nÔ ciel ! en voudrait-on à sa liberté ? \n\nRANTZAU.\n \nJe n’en sais rien, mais ce n’est pas impossible. En tout "
+  },
+  {
+   "pass": "C2-loose",
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 43811,
+   "dem": "cela",
+   "window": "cela pour être fournisseur breveté, de la couronne !",
+   "context": "t un homme influent dans son quartier, dans la ville, dans l’état… on devient quelque chose, enfin. \n\nMARTHE.\n \nEt tout cela pour être fournisseur breveté, de la couronne ! il te faut des titres ! tu n’as jamais eu d’autres rêves, d’autres désirs. \n\nRATON.\n \nLaisse-moi donc tranquille… il s’"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 63932,
+   "dem": "ça",
+   "window": "ça a été un bien autre tapage !",
+   "context": "emmenaient en triomphe suivi de la foule qui grossissait toujours ; mais en passant rue d’Altona, où sont nos ateliers, ça a été un bien autre tapage !… le bruit s’était déjà répandu qu’on avait voulu assassiner notre bourgeois, qu’il y avait eu un combat acharné avec le"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 90584,
+   "dem": "cela",
+   "window": "cela doit être… en amant bien épris.",
+   "context": "elle est toute émue, toute troublée \n\nRANTZAU, froidement et le regardant.\n \nEt vous partagez bien vivement ses peines… cela doit être… en amant bien épris. (Apercevant Koller.) Ah ! vous voilà, colonel ! \n\nKOLLER.\n \nJe viens prendre les ordres du conseil. \n\nGŒLHER, vivement."
+  },
+  {
+   "pass": "C2-loose",
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 94415,
+   "dem": "cela",
+   "window": "cela ne pouvait pas durer !",
+   "context": "Rassurez-vous ! ces cris que l’on entend dans le lointain n’ont plus rien d’effrayant. \n\nGŒLHER.\n \nJe le disais bien !… cela ne pouvait pas durer !\n\nCHRISTINE.\n \nTout est donc terminé ?\n\nFALKENSKIELD.\n \nPas encore ! mais cela va mieux. \n\nRANTZAU et KOLLER, chacun à p"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 145717,
+   "dem": "cela",
+   "window": "cela signifie ?",
+   "context": "je suis chargé de vous remettre, et de la part du roi. \n\nKOLLER, vivement.\n \nDu roi !… est-il possible !… Qu’est-ce que cela signifie ? (Il ouvre la lettre, qu’il parcourt.) Ô ciel ! un pareil ordre !…\n\nRATON, le regardant et s’adressant à sa femme et à J"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 159721,
+   "dem": "cela",
+   "window": "cela ?",
+   "context": "ompée ! (À Marthe.) Il est condamné !\n\nMARTHE.\n \nOui, mademoiselle. Struensée a signé, la reine a signé ; concevez-vous cela ? elle est mère cependant !… elle a un fils !\n\nCHRISTINE.\n \nRemettez-vous !… tout n’est pas perdu ; j’ai encore de l’espo"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 21802,
+   "dem": "cela",
+   "window": "cela ?",
+   "context": "armi les femmes de Sa Majesté, tous mes messages parviendraient en dépit de la duchesse.\n\nMASH., vivement. N’est-ce que cela ?… je puis vous rendre ce service.\n\nBOL. Est-il possible !\n\nMASH. Tous les matins à dix heures, et les voici bientôt, je "
+  },
+  {
+   "pass": "C2-loose",
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 91030,
+   "dem": "cela",
+   "window": "cela, il faut le connaître !",
+   "context": "terroger…\n\nABIG., gaîment. Qui ?… l’inconnu ?\n\nLA REINE. Oui… tu me l’amèneras, cela te regarde !\n\nABIG., de même. Pour cela, il faut le connaître !\n\nLA REINE, se retournant et apercevant Masham qui vient d’entrer par la porte du fond et lui présente ses gants et sa B"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 108532,
+   "dem": "cela",
+   "window": "cela me donne de l’espoir pour moi !",
+   "context": "dames.\n\nBOL., avec ironie. Grâce au ciel ! la voix du sang agit enfin ! et vous voilà à merveille avec votre parente !… cela me donne de l’espoir pour moi !\n\nLA DUCH., de même. En effet, vous m’avez prédit qu’un jour nous finirions par nous aimer…\n\nBOL., galamment. J’ai déjà "
+  },
+  {
+   "pass": "C2-loose",
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 126114,
+   "dem": "cela",
+   "window": "cela une demi-heure !",
+   "context": "e sache comment s’est tout à coup éteinte cette haine attisée par moi, et qu’à tout prix je rallumerai ! Mais pour tout cela une demi-heure !…\n\nABIG., lui montrant la porte du fond, à gauche, qui s’ouvre. Quel bonheur !… c’est la reine !\n\nBOL., respirant. Je sa"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 146421,
+   "dem": "cela",
+   "window": "cela grâce à un verre d’eau !",
+   "context": "rsé… l’Europe pacifiée…\n\nMASH., lui remettant les papiers que la reine a signés. Bolingbroke, ministre !…\n\nBOL. Et tout cela grâce à un verre d’eau !\n"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "vigny-chatterton-1835.txt",
+   "offset": 26982,
+   "dem": "cela",
+   "window": "cela  me  suffit.",
+   "context": "que  lu  aies  été  juste \nou  non ,  tu  as  été  malheureux  ;  j'en  suis  certain  , \n\n\nDE  TRAVAIL.  2 \n\n\n* \n\n\net  cela  me  suffit.  —  Ame  désolée,  pauvre  arae \nde  dix-huit  ans!  pardonne-moi  de  prendre \npour  symbole  le  nom  que  tu  portai"
+  },
+  {
+   "pass": "C2-loose",
+   "file": "vigny-chatterton-1835.txt",
+   "offset": 76368,
+   "dem": "ça",
+   "window": "ça ,  moi.",
+   "context": "it,  moi.  J'ai  voulu  te  mettre \nbien  avec  eux  tous.  Tu  viens  ici  pour  la  petite \nfemme ,  hein?  J'ai  vu  ça ,  moi. \n\nCHATTE!   rON. \n\nCiel  et  terre  !  Mylord  ,  pas  un  mot  de  plus. \n\nLO&D  TAl.lîOT. \n\nAllons!  il  est  de  mau"
+  }
+ ]
+}

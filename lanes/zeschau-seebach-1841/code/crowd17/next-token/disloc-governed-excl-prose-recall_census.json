@@ -1,0 +1,380 @@
+{
+ "files": [
+  {
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "chars": 769437,
+   "dem_comma_hits": 1,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "chars": 830700,
+   "dem_comma_hits": 4,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "chars": 852681,
+   "dem_comma_hits": 5,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "chars": 1992545,
+   "dem_comma_hits": 12,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "harvest-log.txt",
+   "chars": 1755,
+   "dem_comma_hits": 0,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "levant-correspondence-1841-p3.txt",
+   "chars": 1690926,
+   "dem_comma_hits": 4,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "chars": 1492023,
+   "dem_comma_hits": 2,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "chars": 1723645,
+   "dem_comma_hits": 10,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "nesselrode-v10.txt",
+   "chars": 556659,
+   "dem_comma_hits": 6,
+   "gov_excl_candidates": 1
+  },
+  {
+   "file": "nesselrode-v7.txt",
+   "chars": 521560,
+   "dem_comma_hits": 5,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "nesselrode-v8.txt",
+   "chars": 614206,
+   "dem_comma_hits": 8,
+   "gov_excl_candidates": 2
+  },
+  {
+   "file": "nesselrode-v9.txt",
+   "chars": 498642,
+   "dem_comma_hits": 8,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "chars": 1001901,
+   "dem_comma_hits": 11,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "chars": 3013552,
+   "dem_comma_hits": 30,
+   "gov_excl_candidates": 1
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "chars": 2964405,
+   "dem_comma_hits": 33,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "chars": 3054350,
+   "dem_comma_hits": 29,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "chars": 3165234,
+   "dem_comma_hits": 33,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "chars": 926037,
+   "dem_comma_hits": 5,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "chars": 677686,
+   "dem_comma_hits": 4,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "gutenberg-30513-tocqueville-t1.txt",
+   "chars": 597763,
+   "dem_comma_hits": 11,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "chars": 712233,
+   "dem_comma_hits": 10,
+   "gov_excl_candidates": 0
+  }
+ ],
+ "total_chars": 27657940,
+ "dem_comma_hits": 231,
+ "register_control": [
+  {
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "pour_de_inf_excl_hits": 4,
+   "sample": [
+    "de faire hautement ce qu'ils désirent!",
+    "de raviver les tristes\nsouvenirs de cette réaction!",
+    "pour exécuter la charte, dont on s'est, hélas!",
+    "pour gouverner sans en tenir compte!"
+   ]
+  },
+  {
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "pour_de_inf_excl_hits": 3,
+   "sample": [
+    "de conjurer les périls présents du pays!",
+    "pour arriver\nà une conclusion positive: «bah!",
+    "pour prendre la parole: «ici, d'argout!"
+   ]
+  },
+  {
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "pour_de_inf_excl_hits": 2,
+   "sample": [
+    "de\nl'affaire des états-unis!",
+    "de s'entr'aider surtout pour obtenir l'amélioration de leur\nmalheureux sort!"
+   ]
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "pour_de_inf_excl_hits": 10,
+   "sample": [
+    "de  faire  autrement!",
+    "de  l'empire \nottoman!",
+    "de  l'empire  turc,  et  on  y \nfomente  des  insurrections!",
+    "de  l'enterrer  en  rendant  tout  autre \ntraité  impossible  !",
+    "de  m'écrire  le  !"
+   ]
+  },
+  {
+   "file": "harvest-log.txt",
+   "pour_de_inf_excl_hits": 0,
+   "sample": []
+  },
+  {
+   "file": "levant-correspondence-1841-p3.txt",
+   "pour_de_inf_excl_hits": 1,
+   "sample": [
+    "de l'autre \nay!"
+   ]
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "pour_de_inf_excl_hits": 13,
+   "sample": [
+    "de  dresser \nses  batteries  contre  la  tourbe  des  novateurs !",
+    "de  fhistoire !",
+    "de  gloire  et \nde  justes  hommages !",
+    "de  l'empire !",
+    "de  m'ecrier  avec  le  grenadier  frangais : \n„ab !"
+   ]
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "pour_de_inf_excl_hits": 20,
+   "sample": [
+    "de \nbaviere  entre  soixante  et  quatre-vingts  florins!",
+    "de \ngloire!",
+    "de  fautre!",
+    "de  gagner, \net  c'est  beaucoup  livrer  au  hasard!",
+    "de  guerre  ne  s'est  ein- \nparke des  esprits!"
+   ]
+  },
+  {
+   "file": "nesselrode-v10.txt",
+   "pour_de_inf_excl_hits": 2,
+   "sample": [
+    "de \nrencontre,  allons  donc!",
+    "de  l'hiver,  de  berlin  à \nsaint-pétersbourg!"
+   ]
+  },
+  {
+   "file": "nesselrode-v7.txt",
+   "pour_de_inf_excl_hits": 8,
+   "sample": [
+    "de  ministère  entretiennent  (agitation  !",
+    "de  notre \nbon  empereur  !",
+    "de  pouvoir  épargner  le  sang!",
+    "de  signer  une  paix  durable  avec  les  turcs  !",
+    "de  voir  les  belges \nbattus  partout  par  les  hollandais  !"
+   ]
+  },
+  {
+   "file": "nesselrode-v8.txt",
+   "pour_de_inf_excl_hits": 4,
+   "sample": [
+    "de  faire  penser \nhommes  et  femmes  sur  toute  chose!",
+    "de  l'angleterre!",
+    "de  suivre  le  conclave!",
+    "de  voir  des  russes \nse  complaire  à  dénigrer  leur  pays  !"
+   ]
+  },
+  {
+   "file": "nesselrode-v9.txt",
+   "pour_de_inf_excl_hits": 2,
+   "sample": [
+    "de l'avoir ici dans un tel moment, mais hélas!",
+    "de votre \nvilaine migraine; puisse-t-elle ne jamais revenir !"
+   ]
+  },
+  {
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "pour_de_inf_excl_hits": 1,
+   "sample": [
+    "de  l'assurer  à  onze  mille  officiers  !"
+   ]
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "pour_de_inf_excl_hits": 40,
+   "sample": [
+    "de \nconduire;  leurs  troupeaux  hors  de  la  vue  des  habitations!",
+    "de \nfaire!",
+    "de \nl'avenir!",
+    "de  colère,  hors  de  lui  :  arrêtez!",
+    "de  désespoir!"
+   ]
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "pour_de_inf_excl_hits": 27,
+   "sample": [
+    "de \nvoir!",
+    "de  demeurer  si  tard  en  la  rue  à  causer  !",
+    "de  l'adversaire,  elles  se  disent  à  demi-voix  :  «  partageons  !",
+    "de  l'empire  ottoman!",
+    "de  l'enfer  !"
+   ]
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "pour_de_inf_excl_hits": 25,
+   "sample": [
+    "de \nnotre  jeune  roi!",
+    "de  cendre,  et  je  crie \nà  dieu  et  au  peuple  :  grâce!",
+    "de  conquérir  une  situation  littéraire!",
+    "de  défendre  certaines  manifestations  trop \n\n!",
+    "de  déranger  cette  barmonie  si  dif- \nficile à  établir!"
+   ]
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "pour_de_inf_excl_hits": 40,
+   "sample": [
+    "de \nfaire,  eh  bien!",
+    "de \nl'atelier!",
+    "de \nl'atmosphère  et  l'amélioration  de  la  race  chevaline  !",
+    "de  bière \nmousseuse!",
+    "de  chanceler,  de  glisser;  on  s'écrie  :  nous  sommes  perdus!"
+   ]
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "pour_de_inf_excl_hits": 8,
+   "sample": [
+    "de \nkrüdener!",
+    "de \nterritoire, où par des contributions pécuniaires !",
+    "de müller !",
+    "de penthièvre!",
+    "de profiter d'un grand acte de bonté de gustave i!"
+   ]
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "pour_de_inf_excl_hits": 26,
+   "sample": [
+    "de\nl'observatoire!",
+    "de comprendre, il dit: je suis champmathieu, je ne sors pas de là!",
+    "de dire, se parlant à lui-même:\n\n--je crois que je le tiens!",
+    "de faire le grand et le généreux,--c'est du mélodrame, après\ntout!",
+    "de l'insulter d'une\nfaçon hideuse, il la sauvait!"
+   ]
+  },
+  {
+   "file": "gutenberg-30513-tocqueville-t1.txt",
+   "pour_de_inf_excl_hits": 0,
+   "sample": []
+  },
+  {
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "pour_de_inf_excl_hits": 0,
+   "sample": []
+  }
+ ],
+ "candidates": [
+  {
+   "file": "nesselrode-v10.txt",
+   "offset": 494889,
+   "dem": "celle-ci",
+   "window": "celle-ci,  je  me  suis  convaincu  qu'il  n'y  a \naucun  inconvénient  à  en  donner  lecture  in  extenso  ; \nqu'il  y  a  même  nécessité  à  le  faire,  puisqu'il  en  es!",
+   "gov_inf_strict": [],
+   "gov_inf_clitic": [
+    "à  en  donner",
+    "à  le  faire"
+   ],
+   "context": "éviens,  mon  cher  baron,  que /j'envoie  aujourd'hui  à  Londres,  Berlin  et  Paris,  les  trois /dépêches  que  je  vous  ai  adressées  par  mon  dernier /courrier.  J'autorise  nos  ministres  à  donner  communi- /cation de  la  dépêche  n°  1  et  de  l'annexe  du  n°  2,  car /en  relisant  celle-ci,  je  me  suis  convaincu  qu'il  n'y  a /aucun  inconvénient  à  en  donner  lecture  in  extenso  ; /qu'il  y  a  même  nécessité  à  le  faire,  puisqu'il  en  es!  fait /mention  dans  le  n°  1.  Vous  voudrez  donc  bien  égale- /ment la  faire  lire  au  comte  Duol  et  à  vos  collègues. /Quant  à  la  dépêche  n°  3,  il  n'en  sera  donné  ni  copie, /ni  le"
+  },
+  {
+   "file": "nesselrode-v8.txt",
+   "offset": 165979,
+   "dem": "celle-ci",
+   "window": "celle-ci, \nde  celle-là,  et  comme  on  a  vite  fait  de  faire  penser \nhommes  et  femmes  sur  toute  chose!",
+   "gov_inf_strict": [
+    "de  faire"
+   ],
+   "gov_inf_clitic": [
+    "de  faire  penser"
+   ],
+   "context": "  volontiers  ;  j'espère  que  lu  ne  tarderas /pas  à  lui  faire  part  de  ton  appréciation.  Cette  société /française  est  bien  curieuse  à  observer  :  les  gens  des /opinions  les  plus  opposées  se  voient,  se  réunissent.  Dans /les  coteries,  comme  on  critique  l'intimité  de  celle-ci, /de  celle-là,  et  comme  on  a  vite  fait  de  faire  penser /hommes  et  femmes  sur  toute  chose!  Cependant  la  prin- /cesse Lieven  est  devenue  très  discrète;  Pahlen  est  per- /suadé que  c'est  Guizot  qui  l'a  forcée  à  l'être.  Je  ne /m'explique  pas  que  tu  puisses  supposer  que  cette  dame /a  de  l'influence  sur  moi,  elle  n'en  a  aucune"
+  },
+  {
+   "file": "nesselrode-v8.txt",
+   "offset": 165994,
+   "dem": "celle-là",
+   "window": "celle-là,  et  comme  on  a  vite  fait  de  faire  penser \nhommes  et  femmes  sur  toute  chose!",
+   "gov_inf_strict": [
+    "de  faire"
+   ],
+   "gov_inf_clitic": [
+    "de  faire  penser"
+   ],
+   "context": "  j'espère  que  lu  ne  tarderas /pas  à  lui  faire  part  de  ton  appréciation.  Cette  société /française  est  bien  curieuse  à  observer  :  les  gens  des /opinions  les  plus  opposées  se  voient,  se  réunissent.  Dans /les  coteries,  comme  on  critique  l'intimité  de  celle-ci, /de  celle-là,  et  comme  on  a  vite  fait  de  faire  penser /hommes  et  femmes  sur  toute  chose!  Cependant  la  prin- /cesse Lieven  est  devenue  très  discrète;  Pahlen  est  per- /suadé que  c'est  Guizot  qui  l'a  forcée  à  l'être.  Je  ne /m'explique  pas  que  tu  puisses  supposer  que  cette  dame /a  de  l'influence  sur  moi,  elle  n'en  a  aucune,  mais  étant "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 2467062,
+   "dem": "celle-ci",
+   "window": "celle-ci  :  Bon \nDieu ,  béni  sois-tu  pour  m'avoir  donné  de  bons  yeux!",
+   "gov_inf_strict": [
+    "pour  m'avoir"
+   ],
+   "gov_inf_clitic": [
+    "pour  m'avoir"
+   ],
+   "context": "ine d'après  l'emphase  de  leur  forme.  Quant  à  moi,  je  n'ai  jamais /mieux  senti  le  néant  des  mots  que  dans  ces  heures  de  contemplation /passées  à  la  Chartreuse.  Il  me  venait  bien  des  élans  religieux;  mais  il /ne  m'arrivait  pas  d'autre  formule  d'enthousiasme  que  celle-ci  :  Bon /Dieu ,  béni  sois-tu  pour  m'avoir  donné  de  bons  yeux! //Au  reste,  je  crois  que,  si  la  jouissance  accidentelle  de  ces  spectacles /sublimes  est  rafraîchissante  et  salutaire,  leur  continuelle  possession /est  dangereuse.  On  s'habitue  à  vivre  sous  l'empire  de  la  sensation,  et /la  loi  qui  préside  à  tous  les  abus  de  la  se"
+  }
+ ],
+ "note": "byte-identical to battery-disloc-demonstrative-reinforced corpus (21 files); charter said '18-file set' but the claim's 231 hits span the full 21-file battery corpus"
+}

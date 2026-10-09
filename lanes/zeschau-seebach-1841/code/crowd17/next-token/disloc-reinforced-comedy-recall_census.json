@@ -1,0 +1,60 @@
+{
+ "files": [
+  {
+   "file": "scribe-le-savant.txt",
+   "chars": 88949,
+   "sep_coverage": {
+    ",": 1
+   },
+   "recall_candidates": 0
+  },
+  {
+   "file": "scribe-le-lorgnon.txt",
+   "chars": 67028,
+   "sep_coverage": {
+    ",": 1
+   },
+   "recall_candidates": 1
+  },
+  {
+   "file": "labiche-voyage-perrichon.txt",
+   "chars": 97395,
+   "sep_coverage": {},
+   "recall_candidates": 0
+  },
+  {
+   "file": "labiche-la-cagnotte.txt",
+   "chars": 134353,
+   "sep_coverage": {},
+   "recall_candidates": 0
+  },
+  {
+   "file": "labiche-29-degres-ombre.txt",
+   "chars": 34634,
+   "sep_coverage": {},
+   "recall_candidates": 0
+  },
+  {
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "chars": 43172,
+   "sep_coverage": {},
+   "recall_candidates": 0
+  }
+ ],
+ "total_chars": 465531,
+ "candidates": [
+  {
+   "dem": "celui-là",
+   "sep": ",",
+   "offset": 5398,
+   "closed_180": true,
+   "window": "Celui-là, fidèle et sensible,\nNe me vole pas, j’en suis sûr.\nREYNOLDS.\nComme le mien. Est-il possible ?\nCHRISTIAN.\nComme le mien. Est-il possible ?\nREYNOLDS.\nOui, maintenant, honnête homme à regret,\nJe le défie, hélas ! de me rien prendre…\nPour me voler quelque chose, il faudrait\n﻿ Qu’il commençât par me le rendre.\nALCÉE , à Birman.\nQui t’amène, mon vieil ami ?\nBIRMAN.\nJe venais, monsieur le baron",
+   "inf_hits": [
+    "prendre",
+    "rendre",
+    "voler"
+   ],
+   "file": "scribe-le-lorgnon.txt"
+  }
+ ]
+}

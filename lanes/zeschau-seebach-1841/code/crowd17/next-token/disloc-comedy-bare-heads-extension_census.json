@@ -1,0 +1,217 @@
+{
+ "files": [
+  {
+   "file": "labiche-29-degres-ombre.txt",
+   "chars": 34634,
+   "dem_comma_hits": 4,
+   "ce_comma_hits": 0,
+   "excl_candidates": 2,
+   "strict_hits": 0,
+   "loose_hits": 1
+  },
+  {
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "chars": 43172,
+   "dem_comma_hits": 6,
+   "ce_comma_hits": 0,
+   "excl_candidates": 3,
+   "strict_hits": 0,
+   "loose_hits": 2
+  },
+  {
+   "file": "labiche-la-cagnotte.txt",
+   "chars": 134353,
+   "dem_comma_hits": 10,
+   "ce_comma_hits": 0,
+   "excl_candidates": 1,
+   "strict_hits": 0,
+   "loose_hits": 4
+  },
+  {
+   "file": "labiche-voyage-perrichon.txt",
+   "chars": 97395,
+   "dem_comma_hits": 7,
+   "ce_comma_hits": 0,
+   "excl_candidates": 2,
+   "strict_hits": 0,
+   "loose_hits": 4
+  },
+  {
+   "file": "scribe-le-lorgnon.txt",
+   "chars": 67028,
+   "dem_comma_hits": 8,
+   "ce_comma_hits": 0,
+   "excl_candidates": 1,
+   "strict_hits": 0,
+   "loose_hits": 0
+  },
+  {
+   "file": "scribe-le-savant.txt",
+   "chars": 88949,
+   "dem_comma_hits": 16,
+   "ce_comma_hits": 0,
+   "excl_candidates": 1,
+   "strict_hits": 0,
+   "loose_hits": 1
+  }
+ ],
+ "total_chars": 465531,
+ "candidates": [
+  {
+   "dem": "ça",
+   "start": 14572,
+   "window": "ça, non !",
+   "inf_hits": [],
+   "file": "labiche-29-degres-ombre.txt",
+   "pass": "A"
+  },
+  {
+   "dem": "ça",
+   "start": 19628,
+   "window": "Ça, un amant !",
+   "inf_hits": [],
+   "file": "labiche-29-degres-ombre.txt",
+   "pass": "A"
+  },
+  {
+   "dem": "ça",
+   "start": 11304,
+   "window": "ça, un prix de vers latins !",
+   "inf_hits": [],
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "pass": "A"
+  },
+  {
+   "dem": "cela",
+   "start": 20260,
+   "window": "cela, point d’embarras,\nLa conscience, ami, ça n’se voit pas !",
+   "inf_hits": [],
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "pass": "A"
+  },
+  {
+   "dem": "ça",
+   "start": 37381,
+   "window": "ça, il n’y a plus de témoins !",
+   "inf_hits": [],
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "pass": "A"
+  },
+  {
+   "dem": "cela",
+   "start": 92375,
+   "window": "cela, elle ne peut pas m’entraîner bien loin !",
+   "inf_hits": [
+    "entraîner"
+   ],
+   "file": "labiche-la-cagnotte.txt",
+   "pass": "A"
+  },
+  {
+   "dem": "ça",
+   "start": 5311,
+   "window": "ça, chaque fois qu’elle n’a pas pris son café !",
+   "inf_hits": [],
+   "file": "labiche-voyage-perrichon.txt",
+   "pass": "A"
+  },
+  {
+   "dem": "ça",
+   "start": 11511,
+   "window": "ça, mon ami !",
+   "inf_hits": [],
+   "file": "labiche-voyage-perrichon.txt",
+   "pass": "A"
+  },
+  {
+   "dem": "cela",
+   "start": 8652,
+   "window": "cela ; et si monsieur le baron et madame\nla baronne… justement la voici !",
+   "inf_hits": [],
+   "file": "scribe-le-lorgnon.txt",
+   "pass": "A"
+  },
+  {
+   "dem": "ça",
+   "start": 43400,
+   "window": "ça,\nQue de maris seraient sans place !",
+   "inf_hits": [],
+   "file": "scribe-le-savant.txt",
+   "pass": "A"
+  }
+ ],
+ "loose_cross_hits": [
+  {
+   "window": "ça va faire une diversion au tonneau !",
+   "context": " ne se passera pas comme ça… Il me faut une explication. Piget , à part, content. Tiens ! ça va faire une diversion au tonneau ! Pomadour , à Courtin. Va me le chercher, et nous allons voir, nom d’un petit bonhomme ! C",
+   "start": 6654,
+   "file": "labiche-29-degres-ombre.txt"
+  },
+  {
+   "window": "ça coûte cher !",
+   "context": ". J’aurais préféré des sardines, parce que les melons et les fraises… au mois de janvier… ça coûte cher !… mais j’avais peur que le petit n’en fût marqué. Norine. Mon filleul marqué d’un melon, q",
+   "start": 27896,
+   "file": "labiche-affaire-rue-lourcine.txt"
+  },
+  {
+   "window": "Ceci fera l’affaire !",
+   "context": " , frappés d’une idée. Ah !… Lenglumé , prenant sur la table une grande cuiller à potage. Ceci fera l’affaire !… Mistingue , allant prendre une bûche près de la cheminée. Dès que je pourrai trouver mon",
+   "start": 38090,
+   "file": "labiche-affaire-rue-lourcine.txt"
+  },
+  {
+   "window": "ça doit être bon !",
+   "context": "is d’anchois, d’olives, d’huîtres marinées, de laitues, de truffes. Colladan. Mâtin ! que ça doit être bon ! Cordenbois. Je vote pour ça ! Tous. Oui… oui… Champbourcy , au garçon. Tournedos à la plé",
+   "start": 45466,
+   "file": "labiche-la-cagnotte.txt"
+  },
+  {
+   "window": "ça ?… c’est bizarre. (On sonne.) Voilà ! voilà !",
+   "context": "h bah ! Champbourcy. Il faudra nous partager tout ça. Benjamin , à part. Se partager tout ça ?… c’est bizarre. (On sonne.) Voilà ! voilà ! Il sort à gauche, tous se lèvent. Scène VII Les Mêmes, Cordenbois ; puis Benjamin Cordenb",
+   "start": 53384,
+   "file": "labiche-la-cagnotte.txt"
+  },
+  {
+   "window": "cela, elle ne peut pas m’entraîner bien loin !",
+   "context": "t.) Mais la benzine domine !… C’est peut-être une bêtise que je fais en venant ici… Après cela, elle ne peut pas m’entraîner bien loin !… De deux choses l’une : ou cette jeune fille… celle qui se fait annoncer dans le journal…",
+   "start": 92375,
+   "file": "labiche-la-cagnotte.txt"
+  },
+  {
+   "window": "ça ne peut pas durer comme ça ! Je proteste !",
+   "context": "coup. Ils sont tous les trois couverts de plâtre. C’est une infamie ! c’est une horreur ! ça ne peut pas durer comme ça ! Je proteste ! Champbourcy. Qu’avez-vous ? Colladan. Je suis las de dormir dans les démolitions, de dîne",
+   "start": 119301,
+   "file": "labiche-la-cagnotte.txt"
+  },
+  {
+   "window": "ça va en Suisse !… Carrossier !",
+   "context": "ts francs que je te dois… Adieu ! (À part.) Que d’histoires ! pour six cents francs !… et ça va en Suisse !… Carrossier !… Il disparaît par la droite. PERRICHON Eh bien, il part ! il ne m’a seulement pas dit mer",
+   "start": 11671,
+   "file": "labiche-voyage-perrichon.txt"
+  },
+  {
+   "window": "ça lui apprendra à ne pas acquitter les droits !",
+   "context": "’asseoir sur le banc de l’infamie ? Jamais ! jamais ! MAJORIN , à part. C’est bien fait ! ça lui apprendra à ne pas acquitter les droits ! PERRICHON Ah ! mes amis, mon avenir est brisé. MADAME PERRICHON Voyons, calme-toi ! HENRI",
+   "start": 60429,
+   "file": "labiche-voyage-perrichon.txt"
+  },
+  {
+   "window": "ça m’a échappé, ton père se bat !",
+   "context": "à lui. Un duel ! papa ! PERRICHON Eh bien, oui, mon enfant, je ne voulais pas te le dire, ça m’a échappé, ton père se bat !… MADAME PERRICHON Mais avec qui ? PERRICHON Avec un commandant au 2 e zouaves. MADAME PER",
+   "start": 73544,
+   "file": "labiche-voyage-perrichon.txt"
+  },
+  {
+   "window": "ça ! des excuses ! encore des excuses !",
+   "context": "Seulement, vous écrirez au douanier quelques mots de regrets. PERRICHON , éclatant. C’est ça ! des excuses ! encore des excuses !… De quoi vous mêlez-vous, à la fin ? ARMAND Mais… PERRICHON Est-ce que vous ne perdrez pa",
+   "start": 87164,
+   "file": "labiche-voyage-perrichon.txt"
+  },
+  {
+   "window": "cela le mène : à être malade, à se tuer !",
+   "context": "e l’Allemagne. HANTZ. Vous croyez ?… tant pis. HÉLÈNE. Et pourquoi donc ? HANTZ. Voyez où cela le mène : à être malade, à se tuer ! Et comment en serait-il autrement ?… il ne fait pas autre chose que lire et écrire depuis",
+   "start": 4840,
+   "file": "scribe-le-savant.txt"
+  }
+ ]
+}

@@ -94,6 +94,32 @@ skeleton ledger (30.66% coverage on 1,846), tester harness, banked contactor
 phases, this report's figures before regeneration — must be rebuilt or
 re-derived.
 
+**19th-century French drama/comedy corpus (2026-10-09).** The lane
+previously held zero drama texts — a corpus gap flagged by the
+dislocated-demonstrative battery chain (see the corpus-linguistics
+census program, wave-14 addenda). 29 new .txt files commissioned and
+ingested 2026-10-09: Hugo ×4, Dumas ×5, Labiche ×13, Musset ×1, Scribe
+×5, Vigny ×1 = 28 distinct plays (Hernani in two editions), 661,743
+words (count computed at sweep time, not a PROVENANCE.md figure).
+Provenance in `code/side-period/corpus/PROVENANCE.md` (families 9 +
+wikisource-drama + comedy-extension + comedy-widercorpus): archive.org
+scans via `curl -sSL` (plain curl returns zero bytes on the
+dn*.archive.org redirect), fr.wikisource MediaWiki parse API
+(transclusions expanded server-side), both with sha256 per file; raw
+API JSON archived (`goals/cipher-hunt-cracking-lanes/hidden_files/`
+for the drama and comedy-extension ingests;
+`code/crowd17/next-token/widercomedy-ingest-raw/` for the wider comedy
+ingest). Caveats: mostly post-1841 reprint editions (textual variance
+vs 1841 performance texts unexamined); `scribe-verre-d-eau.txt` is a
+1861-edition substitution (the 1841 subpage does not exist on
+fr.wikisource); census runs must use one Hernani edition per play to
+avoid double-counting (validated non-load-bearing by the edition-delta
+battery). All works public domain.
+
+---
+
+END DRAFT
+
 **Instruments built this round (lane-local, all in `code/`):** a repaired
 parse (`code/crowd4/repaired_parse.py`, `code/crowd4/phase_map_repaired.json`);
 a 17-group applied-value ledger (`code/sidepath/skeleton.json`, built on the
@@ -3825,6 +3851,15 @@ this sweep verified the file still carries 70 binary offsets, 39×0 /
 31×1 — a same-day re-write was content-identical). Trace:
 `code/crowd18/report_inbox/processed/offset-validation.md`.
 
+
+- **Housekeeping:** `repaired_offsets.json` rewritten 2026-10-09 09:12
+  UTC — content-neutral. Re-verified 70 offsets, 39×0 / 31×1,
+  byte-matching the record above (a4_01/a5_07 still 1 and
+  flagged-but-unflipped per the red-team adjudication rule; a5_03=0;
+  formula-confirmed a2_01=1, a6_04=1, a8_09=0). No byte-diff possible
+  (the lane keeps no git history); verification rests on the exact
+  match to every named special case.
+
 ### Smith rebuild2 status (2026-10-08 UTC — rung-C clean re-run PASS;
 memorization re-probe CLEAN)
 
@@ -4471,6 +4506,440 @@ verb class fenced lane-wide (stem-14-84-retest), 14=verb killed
 (N163), while the determiner arm promotes at one locus @117 (F182)
 and the 'en' arm survives at battery grade (F185), none of them
 contradicting each other.
+
+
+### Round-17 wave-14 addenda (2026-10-09 UTC, crowd17 — 139 battery notes;
+red-team ratification pending)
+
+139 notes trace: `code/crowd17/report_inbox/` (all new since the wave-13
+sweep): 94 cipher-side next-token batteries (28 promotes, 30 kills,
+35 nulls, 1 mixed-partition) + 45 corpus-linguistics census notes
+(9 promotes, 2 kills, 34 nulls — the dislocated-demonstrative /
+governed-exclamatory / reinforced-pour-inf register program).
+Verdicts entered in `code/crowd17/next-token/battery-queue.json`
+(955 targets: 628 verdict, 327 queued at read time — +407 targets /
++265 verdicts / +142 queued since the wave-13 read of 548/363/185).
+Supervisor 2026-10-09 ingestion audit
+(`code/crowd17/next-token/ingest-2026-10-09.json`): 214 reports read,
+0 new ingested, 276 follow-ups proposed (209 mandatory / 67
+non-mandatory), 50 queued, 50 gaps, 140 flags — the follow-up sections
+are queued per the standing supervisor directive. No note contradicts a
+standing red-team verdict; two conditional risks flagged below.
+
+- **F226 — battery-PROMOTE: the nine-window envelope of 24 closed**
+  (battery-24-nine-left-envelope). The envelope is fully censused, named,
+  and fenced with zero standing-verdict conflicts — census/record grade.
+- **F227 — battery-PROMOTE: 98's distributional function at @838/@839
+  named** (battery-boundary-98-839). Clause-terminal function at @838
+  hardens the @839 clause boundary and a particle fork; @1137–1146
+  doubled-98 cluster stays fenced.
+- **F228 — battery-PROMOTE (finding grade): 69="ce" global support at
+  battery level** (battery-ce69-global). The actual global promotion is
+  red-team venue, not a battery act.
+- **F229 — battery-PROMOTE: "53 34" @403–404 is one word "[53]i", no
+  word boundary** (battery-ce88-53-wordbound). 88's complement stays
+  53-headed; 53's value open (the "don" lead would read "doni").
+- **F230 — battery-PROMOTE: the "ce [88-noun]" determiner frame FALLS
+  at @402** (battery-ce88-leftedge-402). 45 at @401 is a
+  non-determiner — the "ce" demonstrative pronoun — killing the
+  determiner reading of 45 there. Residual @400 "la" unparsed under
+  standing values.
+- **F231 — battery-PROMOTE: 53 as 88's complement/object at @402–403
+  with zero standing-value contradiction** (battery-ce88-pronoun-frame),
+  cross-checked at @86/@646/@1541. 88's class stays battery-grade.
+- **F232 — battery-PROMOTE: 37's class at @185 is the predicative
+  adjective** (battery-class-37-06-185; A1's "est 37" frame stands).
+  "37ent" @183–184 is one adjective word with promoted 06="ent" as its
+  final "-ent" — not 37's finite verb ending. MATERIAL GLOSS
+  CORRECTION (recorded, not hidden): the claim was queued before
+  06="ent" promoted, when it glossed 06 as word-initial; under the
+  promote, 06 at @184 is word-FINAL and word-initial "ent" is
+  positionally impossible before promoted standalone "pour". Class
+  decision unaffected.
+- **F233 — battery-PROMOTE (finding grade): 14="en" clitic at @622–626
+  banked** (battery-core-14-622-bank). The core parses as
+  "[76-noun] m'en est [37-pred]" with zero new assumptions,
+  independently corroborated by the "79 14" ×2 "tout en [60]" frames.
+- **F234 — battery-PROMOTE: 14="en" tightened by value-independence
+  legs** (battery-en14-value-tighten). Legs rest on battery-level /
+  provisional neighbors (94="ne" lead, 98="vient" battery, 62="il"
+  battery, 30="pas" promoted, 59="est" provisional) — corroboration,
+  not grant. @587's "en pour" strain is a residual watch-item.
+- **F235 — battery-PROMOTE (ruling-ready input package): the 77="le"
+  package merged with F104** (battery-f104-77-merge-input). All bar
+  clauses pass with zero adverses; evidence for the red-team 77 docket
+  — not a ruling.
+- **F236 — battery-PROMOTE: 86 as feminine noun at @671** (class-level
+  only, value unnamed; battery-fem-noun-86-frames). Two distinct frames
+  (F1 determinative licensing, F2 subject licensing).
+- **F237 — battery-PROMOTE (ruling-ready input package): fem-32e @1211
+  packaged for the red-team docket** (battery-fem32e-1211-redteam-input).
+  Constraints: 32's adjective arm unresolved (adj-32 NULL), @855
+  unresolved.
+- **F238 — battery-PROMOTE (finding grade): fem-32e is not
+  gender-conditioned at battery grade** (battery-fem32e-subject-gender).
+  No forced masculine subject exists at any of the three copula frames;
+  subject identity itself undecided.
+- **F239 — battery-PROMOTE: 67="et" (not "veut") at both 67–76 windows
+  (@1045/@199)** (battery-frame-76-67). The "veut" condition is not met
+  under the standing positional rule; 76 fails every
+  lane-operationalized infinitive test. 76's class fork stays open, no
+  value assigned.
+- **F240 — battery-PROMOTE: 94's right-context census discriminates its
+  function** (battery-ne-94-right-context). Verbal-negator is the
+  majority function (7 clean + 8 conditional windows); minority windows'
+  functions unverified.
+- **F241 — battery-PROMOTE: the (c2) loophole closed, hardening
+  inf-20-nepas's verbal-slot forcing at @1703 to unconditional**
+  (battery-nepas-20-adverb-gate). 20's value unnamed; 88's verb class
+  stays battery-grade but is not needed by the kill.
+- **F242 — battery-PROMOTE (structured evidence package): the 53
+  "don"-vs-"doni" irreconcilability packaged for the red-team §7
+  docket** (battery-poly-53-redteam-package). The conditioned-split vs
+  re-parse question is venue-only; no adjudication here.
+- **F243 — battery-PROMOTE: 88 = VERB at battery grade** (battery-prof-88).
+  Seven independent frame-legs, zero hard contradictions across all 23
+  windows; consistent with governor-88-value, finiteness-88-86,
+  88-prep-rival, ce88-pronoun-frame, and the noun-88-subject kill
+  (N-below). No value named (verb88-26-stem's stem kill stands);
+  @1706 fused-3pl locus stays red-team venue.
+- **F244 — battery-PROMOTE (scoped): word-final-"ne" segmentation for
+  the 6 D3-un-attachable 62–94 windows** (battery-seg-62-94-wordless6).
+  Adopts (not duplicates) the seg-62-94-wordfinal KILL below — the x9
+  claim is dead at @1772; this promotes the scoped residue, superseding
+  its own "donne"-verb weak pass at @1363/@1687. 62's value: syntactic
+  class only.
+- **F245 — battery-PROMOTE: the imp-80-set skeleton revised to "Ceci,
+  [03]er! [80]-le, la première fois!"** (battery-skeleton-1032-revise).
+  @1028–1040 re-parsed with zero reliance on the killed bare-"ce"-topic;
+  87's role open (87="ce" stands; role fenced).
+- **F246 — battery-PROMOTE (slot verdict): 60 at @196–197 parses
+  verb-class** (battery-slot-60-at-197; queue result=promote). Value
+  unnamed — consistent with verb-60's value-open null. Single
+  assumption (01 = determiner/adjective) is a hapax with no
+  distributional support.
+- **F247 — battery-PROMOTE: 44 is the object clitic "l'" at @1712–1714**
+  (battery-val-44-1712-pronoun). The gate parses with zero ungranted
+  assumptions and the pronominal branch fires on "65 ne l'est pas";
+  the frame is anaphoric, so @1712 contributes NO constraint on 65's
+  value. CONDITIONAL TENSION (the note itself flags it): conditional on
+  94="ne" (battery-promoted) and 59="est" (provisional); if the red
+  team ratifies escalate-1714-ne44 (queued), this promote AND the
+  standing noun-44 kill must both be revisited — the two cannot both
+  survive ratification.
+- **F248 — battery-PROMOTE (finding grade): the predicted string
+  "le ver ne ment(ent)" materializes byte-exactly at @1181 and @1352**
+  (battery-ver78-flagship-1181-1352) — the two and only two loci —
+  under settled battery-promoted values.
+- **F249 — battery-PROMOTE (of the confirmation claim): 98="vient"
+  SURVIVES stem-14-84-retest's lane-wide 14-verb fence**
+  (battery-vient-98-894-reaudit). All clauses hold without the @894
+  conditional parse; the fence adds no new contradiction. 98="vient"
+  itself stays battery-promoted — ratification is red-team venue.
+- **F250 — battery-PROMOTE (locus-level word name): the @508 62–94 word
+  named "trône"** (battery-w508-noun-ne). Resolves R17-022's fenced
+  residual: "et le trône qui vient". Naming rests on 2 "et le trône"
+  frame attestations + genre fit; "le trône qui vient" is semantically
+  strained; 14 at @896 stays a residual on the "en"-clitic arm.
+- **F251 — battery-PROMOTE (same-X demonstrated): both 33–29–87 crux
+  windows' stems take the identical complement class** (87="ce" as
+  direct object; battery-x-33-626-identity). Five-window stem census:
+  one valency class, 0% orphan. X's value open (class-level:
+  transitive "ce"-DO stems); left-context classes differ (predicative
+  37 vs volitional "veut" 67).
+- **F252 — battery-PROMOTE (audit battery): the adv-62 count corrected
+  and the prior fence stands** (battery-audit-adv62-count). Numerical
+  correction of a prior battery null — not inferential; the fence is
+  untouched.
+- **F253 — battery-PROMOTE (of the fence): the 48–32 @855 residual is
+  not killed — 48 is word-final/stem-bound at kill grade, and the
+  verb-32 conditional leg "51 qui [32-V]e" parses with zero new
+  assumptions beyond battery-promoted 32-verb-class**
+  (battery-qui32e-855-reseg). No value named; 32's adjective/verb arms
+  stay unresolved at battery level; the "on 02 24…" right edge fenced.
+
+### Corpus-linguistics census program (2026-10-09 UTC, disloc-demonstrative /
+governed-exclamatory / reinforced-pour-inf register study — 45 notes:
+9 promotes, 2 kills, 34 nulls; no standing verdict contradicted)
+
+*Why this program exists:* several cipher-side value batteries hinge on
+whether candidate plaintext constructions are grammatical in 1841
+French — e.g. a dislocated demonstrative licensing an exclamatory
+infinitive ("celui-là, pour rire !" shape) or "pour + infinitive" in
+exclamatory fragments. The lane held 27.66M chars of French with zero
+drama texts (Hugo/Dumas/Scribe/vaudeville absent) — a corpus gap the
+battery itself flagged (battery-disloc-demonstrative-drama: bar
+untestable, fence-executed null per BATTERY-PROTOCOL.md §2 — §7
+forbids inventing "zero attestations"). The program commissioned a new
+register-matched corpus and censused the construction family across
+registers instead of asserting it.
+
+**Corpus commission.** `code/side-period/corpus/PROVENANCE.md` (rewritten
+2026-10-09 09:02 UTC) now documents four drama families: **Family 9**
+(archive.org, 4 files): `hugo-hernani-1870.txt`,
+`dumas-mariage-louis-xv-1841.txt` (1841 edition — contemporary with the
+R5005 letter), `vigny-chatterton-1835.txt`,
+`musset-comedies-proverbes-1850.txt` — 1,598,104 bytes / 1,569,886
+chars, Internet Archive OCR of named scans, sha256 per file, `curl -sSL`
+required (plain curl returns zero bytes on the dn*.archive.org
+redirect). **Wikisource drama** (11 files): Hugo ×3 (Hernani, Ruy Blas,
+Burgraves), Dumas ×4 (Antony, Tour de Nesle, Henri III, Kean), Scribe ×2
+(Bertrand et Raton, Verre d'eau), Labiche ×2 (Chapeau de paille,
+Martin-la-poudre-aux-yeux) — 1,658,808 bytes / 1,573,255 chars via
+fr.wikisource MediaWiki parse API, raw API JSON archived off-lane;
+UA `cipher-hunt-lane/1.0 (research corpus ingest)`. **Comedy extension**
+(6 files, 465,525 chars): Scribe ×2 (Le Savant, Le Lorgnon),
+Labiche ×4 (Voyage de Perrichon, La Cagnotte, 29 degrés d'ombre,
+Affaire rue Lourcine) — `comedy_extension_ingest.py/.json`. **Comedy
+wider corpus** (8 files, 565,307 chars): Scribe's Charlatanisme +
+Labiche ×7 — `code/crowd17/next-token/widercomedy_ingest.py` with
+`widercomedy-ingest-raw/manifest.json` (8 entries, all "ok", sha256 per
+file). On-disk: 29 new .txt files — Hugo ×4, Dumas ×5, Labiche ×13,
+Musset ×1, Scribe ×5, Vigny ×1 = 28 distinct plays (Hernani in two
+editions), 661,743 words (count computed at sweep time, not a
+PROVENANCE.md figure). **Caveats (PROVENANCE.md states these):**
+Hernani appears twice (1889 Hetzel + 1870 Jenkins) — census runs must
+use ONE edition per play to avoid double-counting (the edition-delta
+battery below validates this rule as non-load-bearing);
+`scribe-verre-d-eau.txt` is a SUBSTITUTION (the 1841 edition subpage
+does not exist on fr.wikisource — 1861 edition used); editions are
+mostly post-1841 reprints (Calmann-Lévy 1898, Hetzel 1889) — textual
+variance vs 1841 performance texts unexamined; all works public domain.
+
+**The headline finding (KILL-grade): pronoun-only licensing.**
+`disloc-topic-inventory-excl-inf_census.json`: 27.66M chars → 341,564
+topic-comma hits → 3,310 exclamatory candidates; pronoun class 53
+reviewed, demonstrative 10 reviewed, 100 noun-topic hits reviewed → 2
+genuine only: "Moi, voler !" and "Lui, ...s'opposer... !". The
+demonstrative gap is a genuine topic-licensing restriction, not sampling
+noise — only personal tonic pronouns license the bare exclamatory
+infinitive. Watch item (the note's own): if drama yields noun-headed
+bare exclamatory infinitives, the pronoun-only claim is
+register-specific. Enlightenment: the kill converts every sibling
+null's "zero is an absence" into a positive distributional finding.
+
+**Drama confirms the pronoun class (battery-PROMOTE).**
+`disloc-tonic-personal-census.json` (2,969,582 drama chars): 1,986
+pronoun-comma hits → 427 exclamatory → 153 infinitive-shaped →
+21 genuine (moi 14, toi 2, elle 3, vous 1, lui 1) across 8 of 14 plays.
+"Moi, voler !" generalizes — the positive class is pronoun-headed,
+which explains why every demonstrative-headed census zeroes out. No
+adverses were pre-registered; promotion is battery-grade pending
+red-team adjudication.
+
+**The governed variant lives in elliptical dramatic dialogue, never
+under a dislocated topic (battery-PROMOTE).**
+`gov-excl-inf-register-drama_census.json`: 839 candidates (524 tight /
+315 wide) → 1 genuine: Scribe's *Bertrand et Raton*, "Pour conspirer
+!" — a dialogue-anaphoric fragment completing the Queen's previous turn
+("vous me refusez [pour conspirer]!"), not a conventionalized
+standalone. Thin by the note's own caveat (n=1, dialogue-anaphoric).
+Pair with the comedy sibling
+(`disloc-comedy-governed-inf_census.json`, 465,531 chars, 217 candidates
+→ 1 genuine: Labiche's *Voyage de Perrichon* "Pas pour être témoin !…"
+— Majorin's negated purpose exclamation, zero topic, no finite matrix):
+the governed shape lives in elliptical zero-topic turns, same texture as
+drama. Print-prose absence (0 in 27.66M chars) is absence of habitat,
+not of grammar — the `gov-excl-inf-register` null's explanation reframed
+as print-register specific.
+
+**Head-local fencing, validated by recall.** The whole
+tonic-demonstrative + bare-infinitive family is fenced in drama
+(`disloc-demonstrative-drama-reinforced_census.json`: 2,969,582 chars,
+41 reinforced-head-comma hits, 0 genuine — head reinforcement buys
+nothing) and in prose (`disloc-demonstrative-reinforced_census.json`:
+27.66M chars, 231 hits, 0 genuine). The fence is not a separator
+artifact: drama covers comma AND non-comma separators
+(`disloc-demonstrative-drama-pausemark-recall_census.json`: 307
+separator hits → 120 hand-classified → 0 genuine); prose covers all
+seven pause-mark classes plus 929 zero-pause windows
+(`disloc-reinforced-pausemark-prose-recall_census.json` and
+`reinforced-pour-inf-zeropause_census.json` — the latter's script had a
+`\s*` backtracking bug caught in review; all reported numbers come from
+the fixed manual-skip version). The fence is not a word-order artifact:
+postposed "[inf] !, cela/ceci/ça" zeroes at full-corpus level
+(`disloc-demonstrative-inversion-fullcorpus_census.json`:
+12,197,541 chars of *Revue des Deux Mondes* 1841 q1–q4, 57 candidates,
+0 genuine) and in quoted dialogue with spaCy POS reconciliation
+(`disloc-demonstrative-inversion-verbtags_census.json`,
+fr_core_news_sm-3.8.0, rule-based and statistical instruments agree on
+the same 37-candidate universe). The fence is not an edition artifact:
+`disloc-demonstrative-drama-edition-delta_census.json` — excluded vs
+main Hernani editions → 0 genuine in both — validates the
+one-edition-per-play rule as non-load-bearing (battery-PROMOTE, method).
+The 2,733 classified candidates under the gov-excl-inf zero
+(859 parent + 1,874 recall) is the largest classified base in the
+family.
+
+**Corpus-side KILLs (2).** (a) **Sampling-noise KILL** — the
+topic-inventory census above kills the "demonstrative gap = sampling
+noise" hypothesis at KILL grade. (b) **59-hardening KILL**
+(battery-est-59-frame-census): byte-exact follower census — 20/27 =
+74.1% of 59's windows parse as copular, with 4 kill-grade residuals and
+3 fenced windows — the 80% harden antecedent fails, so the harden claim
+dies at battery grade while 59="est" survives as provisional standing
+(the known genuine residual "59 34 17" @554 counted inside the 20).
+Re-open conditions named: any kill-grade residual re-parsing.
+
+**Remaining corpus-side PROMOTEs.** (a) **No bare-"ce" dislocation,
+register-wide** (battery-dislocation-ce-sweep; `/tmp/ce_census.py`,
+dump `/tmp/ce_census_full.json` — lane-external scratch, noted as
+such): 27.7M chars (1841 corpus + Tocqueville 1835/1840 + Hugo 1862) →
+23 Tier-A + 2 Tier-B bare-"ce," hits, all classified, zero topics; the
+fronted-demonstrative topic slot is owned by tonic forms (cela ×320,
+ceci ×45, ça ×17). The ce87-topic-licensing KILL stands, confirmed at
+register level. (b) **The 20-window census** (battery-census-20-open-windows,
+PROMOTE method): 9 unexamined windows of 20 on the repaired 1,847-pair
+stream (`data/upstream-ct_R5005.txt` +
+`code/side-keyhunt/repaired_offsets.json`): verbal ×2 (@703 licensed
+infinitive "vient [20-INF]"; @873 finite via "le [89]e [20] 74" S-V-X),
+unforced ×7. Enlightenment: @668 is a clean noun/infinitive tie under
+"pour [20]" — the lane's cleanest future discriminator for 20's value.
+(c) **syl79 word-name** (battery-syl79-wordname, PROMOTE): 4 S-windows —
+@451 and @1460 named "toutefois" (79+17); "toutefois" occurs 318× in the
+1841 corpus (22× in RDM 1841-q1), a common diplomatic-prose adverb, not
+an invention; @53 and @1419 fenced (85/58 and 15 open). No polyvalence
+declared (§7: inflectional allomorphy of the banked lemma). The 79-split
+declaration stays red-team venue; rows a2_10/a7_09/a1_01/a7_08 carry
+unvalidated upstream offsets (canonicality caveat).
+
+**Lane infrastructure from this wave.** `repaired_offsets.json`
+rewritten 2026-10-09 09:12 UTC — content-neutral: re-verified 70
+offsets, 39×0 / 31×1, byte-matching the offset-validation section
+(a4_01/a5_07 still 1 and flagged-but-unflipped per red-team rule;
+a5_03=0; a2_01=1, a6_04=1, a8_09=0); no byte-diff possible (no lane git
+history), verification rests on the exact match. `table-registry.json`
+unchanged since 2026-10-09 03:03 UTC and the table-grid was regenerated
+at the same time — `generate.py` NOT re-run. `decode-current.txt` /
+`decode-sidebyside.txt` (R5005 render) already documented at the DECODE
+R5005 render section — no new decode. `comedy_extension_ingest.json` /
+`.py` document the 6-file comedy ingest (file/desc/wikisource-URL/
+chars/sha256/raw-API-JSON path).
+
+---
+
+
+### Round-17 backlog fold (2026-10-09 UTC — 26 pre-wave-13 notes whose
+verdicts were never folded: 8 promotes, 8 kills, 10 nulls; battery
+grade, red-team ratification pending)
+
+These 26 notes sat in `code/crowd17/report_inbox/` from earlier waves
+and were never folded nor moved. This sweep folds their verdicts now
+(trace: each note name below) and moves them to `processed/` alongside
+the wave-14 batch.
+
+- **F254 — battery-PROMOTE: 26's class at @1754 is verb-class**
+  (battery-26-class-1754). Resolves the window's 3-way ambiguity to one
+  surviving parse — the gerund "[26] en [85] [58]" ("[89-S?]
+  [26-V] en [85-gérondif] [58]"); the modal and pronoun+finite parses
+  both need 26 nominal and die. @1756's 58 sits in the complement slot
+  of the resolved gerund frame. Caveat: load-bearing on a positional
+  rule awaiting red-team §7 declaration; 58's complement role is
+  consistent-but-unadjudicated (a concurrent battery's domain).
+- **F255 — battery-PROMOTE: 58 = nominal, noun-class**
+  (battery-58-complement-1695). All bar clauses pass at @1695 and
+  sibling windows (@1202/@122/@157/@1754/@1756); @55 fenced on the
+  banked "la tout" contradiction; all adverses answered. Exact noun
+  value unnamed (beyond battery grade); zero determiner predecessors is
+  distributional, not forced.
+- **F256 — battery-PROMOTE: the "elision x4" lead is really x1**
+  (battery-elision82-48-x1). At @1229, "82 48" is necessarily "m'"
+  before the vowel-initial infinitive [48]er; the other three 82-48
+  windows (@126/@377/@398/@1589 checked) are not elision legs. All
+  three bar clauses pass, adverse answered.
+- **F257 — battery-PROMOTE (finding grade): "[69] 26 pour dire" decides
+  26 = VERB** (battery-noun26-69-pour-dire). 2 independent attestations,
+  3 trigram tokens: 26 = VERB via 69's nominal (subject) class — the
+  noun arm for 26 is dead in this frame. And 69 = noun (10–11/12
+  windows) with @1115 ("pas [69-modal-inf] la [88-inf]") as a live
+  verbal leg → §7 split candidate for the red team. Caveat: 33's
+  word-vs-stem split ("00 33" never +29, 0/8; "33 29" never after 00)
+  packaged for red team — conditional only for the "pour dire" gloss,
+  not for 26's class.
+- **F258 — battery-PROMOTE (finding grade): the stem-valency
+  divergence computation, byte-exact** (battery-stem-valency-gradient).
+  Governors (33 vs 86) JS = 0.6286 bits, exact permutation p = 0.2698;
+  complements (33 vs 86) JS = 0.3958 bits, p = 0.5714; ce-complement
+  Fisher p = 0.4444; veut/pour governor Fisher p = 0.4000. Headline:
+  the gradient does not reach significance at the lane's standard —
+  underpowered at n=5/4 (power gap); the strict bar's @1392 failure is
+  not rescued. Live arms stay with the queued ce-complement-86-negative
+  and veut-86-1392-adjudicate targets.
+- **F259 — battery-PROMOTE (finding grade): the subject of "que
+  [56]ent" @1744–1747 is 65 in postverbal position**
+  (battery-subj-1744-que). "que [56]ent [65]" parses as a
+  que-subordinate clause with 3pl verb and postverbal plural subject
+  under the single stated assumption that 65 is plural. The subject
+  gap is closed; the @1742–1744 red-team fence keeps only left-edge
+  debris. Caveat: the "65 is plural" assumption is stated, not proven;
+  red-team ratification required before any registry change.
+- **F260 — battery-PROMOTE (census finding): the 38-window 48-boundary
+  census is byte-exact — 29/38 admit stem-internal 48 (76.3%)**
+  (battery-w48-boundary-census). Below the 80% bar, so the A7-L2
+  stem-frame does NOT generalize to 48 and is scoped to its exclusive
+  legs @1229/@1589 (narrow-vs-retire ratification: red team). Residuals:
+  @1525 ("la e par" — stranded word-initial "e"); @365/@1398 (78-48,
+  indeterminate — 78's value ungranted); @542 (sole 29-48, residual per
+  fem-e-48).
+- **F261 — battery-PROMOTE: the 06-forces-84 gate resolves cleanly**
+  (battery-06-forces-84). 06 = "ent" (promoted, single value); under it
+  @1188's "06-84" parses as "ent"+"on" with a word boundary, so the
+  feared "en on est" contradiction never fires and unconditioned
+  84="on" at @1189 survives the 06-class gate. The NULL/escalation
+  branch (06="en") is closed. Control @1289 confirms the
+  clause-initial-"on" mechanism. Caveat: the -este verb-unit rival (84
+  as middle syllable of 06-84-59) remains live at the red-team venue
+  per este-verb-id's pre-registered not-a-kill — fenced here, not
+  adjudicated. (REPORT.md's prior sole mention, F109's "@1188 fenced to
+  06-forces-84", was a fence routing, not a fold of this verdict —
+  this fold completes it.)
+
+### Round-17 wave-14 mid-sweep arrivals (2026-10-09 UTC — 8 battery notes
+landed during this sweep: 4 cipher-side, 4 corpus-side; battery grade)
+
+Two carry substantive register consequences. **(1) The @508 "trone"
+locus promote (F250) is under red-team escalation**
+(battery-regne-trone-tiebreak). The one frame where "regne" and
+"trone" make different predictions ("le [62]ne qui vient") favors
+"regne": "regne" as subject of "venir" is selectionally licensed
+("l'annee qui vient"-class) and attested once, while "trone" as
+subject of lexical "venir" has 0 attestations in 31,662,737 chars of
+1841-register French (the sole "trone"+"venir" collocation is "venir
+de" recent-past + passive participle, a different construction) and is
+selectionally strained — exactly the strain F250 itself recorded.
+Below battery-grade naming confidence (corpus n=1 vs n=0), so the tie
+is NOT broken; per battery-protocol section 5 a battery cannot
+downgrade a standing battery verdict — the package (frame +
+selectional asymmetry + corpus census) is escalated to the red team:
+downgrade the @508 "trone" promote and ratify "regne", or keep the tie
+fenced pending 65's value at @508 (the keyhole follow-up: a landed 65
+value creates the selectional pressure this battery lacks). **(2)
+Avenue A (01 as infinitive governor at @1029) is RE-OPENED, not
+killed** (battery-01-verbclass-probe). 28-window census of 01 for
+finite-verb/modal shape: exactly 1 verb-shaped window (@1256/P1:
+"[65-N] que [01-V-finite] [61-S]", subject-verb inversion in the
+"que"-relative, "le livre que lit Marie"-shaped) fires C3, so the
+@1028-1031 fence is NOT hardened. The P1/P2 section-7 tension (01
+cannot be both verbal and nominal — 67 is the sole polyvalence) is
+red-team venue; the TLFi "ce"+lexical-verb archaism constraint will
+bite at @1029 if avenue A is pursued. The other two cipher-side nulls:
+the @1585-1588 "36 70 64 65" 4-gram is a syntax orphan
+(battery-stem48-qui-65-hapax — "pour [36-noun]" closes cleanly, so the
+breakage localizes to the stranded word-initial "pre" (70) at the
+70|64 boundary; every rival "qui"-role dies at kill grade; the fence
+is phase-conditional on row a8_02's unvalidated upstream offset); the
+fin-41-lexicon bar is untestable-as-written (no finite-verb candidates
+for 41 on the lane record; the "qui [41]" frame is a singleton with a
+hapax antecedent — an epistemic null, not a refutation). The four
+corpus-side nulls (nulled in the section-5 batch below):
+inverted-order zero confirmed in drama dialogue (490 candidates, 0
+genuine); the head-inventory census (0 genuine demonstrative-headed
+bare exclamatory infinitives in drama dialogue vs 5 genuine
+tonic-pronoun heads — the arm-(a) fence holds exactly at the
+demonstrative head); inverted-order zero in prose (146 candidates in
+27.66M chars, 0 genuine — both word orders, all three registers); the
+dialogue-scoped pausemark zero (128 candidates in 2,539,841 scoped
+chars, 0 genuine — arm (a) now fenced at seven levels).
 
 ---
 
@@ -6359,6 +6828,522 @@ Nulls (47, grouped by family):
   syll-83-de NULL; verb-41-value NULL; w4-21-leftedge NULL;
   frame-43-pour-que-1544 NULL — the frame is a dead discriminator
   at battery level.
+
+### Round-17 null batch, wave 14 (crowd17, 2026-10-09 UTC)
+
+**KILLs (30, cipher-side):**
+
+- **N175 — 62="bien" adverb KILLED** (battery-adv-62-bien-1482). The
+  five "bien vient" kills rest on 98's promoted finite-verb class —
+  preverbal "bien" before an ordinary finite verb is ungrammatical
+  outside fixed idioms; @1482's concessive pass fails.
+- **N176 — 85's value cannot be named from the -cier family**
+  (battery-cier-85-595-name). No -cier member's stem fits 85's windows;
+  @97 kills every stem at kill grade.
+- **N177 — 86 = object clitic on the four 77-adjacent D-windows KILLED**
+  (battery-clitic-86-77-windows). @951 forces the reading false at kill
+  grade on granted values.
+- **N178 — the 62–98 compound-venir prefix hypothesis KILLED**
+  (battery-compound-62-vient). "62 98" never forms a compound-venir
+  word at any of the five windows; the two-word "[62=il] vient"
+  reading holds.
+- **N179 — uniform-determiner-value over 86's 26 D-windows KILLED**
+  (battery-det-86-dlife-value). Three windows independently force all 8
+  candidates false (D00 @175 with 87=ce granted; D04 @671 with 11=la
+  pencil; D21 @1345 with 47=ce granted). Scope note (the note's own):
+  the kill is of the UNIFORM claim only — subset noun values untouched
+  (see N205).
+- **N180 — 06 rightward "pas"+"ent[65/62/60]" parse KILLED at
+  @1251/@1327/@1561/@1733** (battery-ent-right-attach-sweep). 2 of 6
+  control legs force non-words (@271, @789), firing clause 2.
+- **N181 — uniform 37="re" candidate KILLED (conditional)**
+  (battery-enterre-37re-s5). Re-opens only iff 77≠"le".
+- **N182 — word-internal "[G]er89" KILLED at @113/@275/@781/@1377/@1393**
+  (battery-er89-wordinternal-govern). "29 89" is a word boundary at all
+  five — 89 is standalone.
+- **N183 — 20's verbal value KILLED** (battery-inf-20-nepas). No
+  verbal-20 value parses both "pas [20]" windows; at @1270 the bar
+  fails at kill grade because "qui ce [76-noun]" is ungrammatical
+  value-independently.
+- **N184 — 60's "de" arm KILLED at @1736–1739**
+  (battery-leftedge-60-value). Promoted 06="ent" cannot stand or attach
+  left, so 60 is word-internal under the standing ent-60 arm; as a
+  uniform value, 60="de" is contradicted by the 03 ×4 verb-stem
+  successors.
+- **N185 — the "[97-imperative] les!" re-segmentation at @567 KILLED**
+  (battery-les567-imperative). 97 is nominal (forced at @289, zero
+  contradictions across all windows).
+- **N186 — uniform-gendered-noun over 86's D-windows KILLED**
+  (battery-noun-86-dlife). @671 (11=la pencil) forces feminine while
+  @175/@1345 (87/47=ce granted) force masculine; the only escape is an
+  unevidenced epicene.
+- **N187 — the uniform-86 noun value is unnameable AND distributionally
+  dead** (battery-noun-86-dlife-name). PROMOTE:FAIL — no noun value
+  nameable (feminine window count 1 < the bar's ≥2); KILL:PASS — the
+  gender split forces every single gendered noun value false. Subset
+  values untouched (see N205).
+- **N188 — 88 as plural noun subject at @1117 KILLED**
+  (battery-noun-88-subject). Forced false by @1114–1123 ("la" + plural
+  noun agreement violation on banked 11=la) and @496–497 ("tout" + bare
+  plural noun on granted 79=tout). Consistent with F243's 88=VERB
+  promote.
+- **N189 — 08="on" homophony KILLED** (battery-on-08-homophony). 08 is
+  not a homophone of granted 84="on": clumped cycling (z=-2.516,
+  kill-grade per the {33,86} precedent), predecessor segregation (08
+  excluded from 84's signature "l'on" frame, Fisher p=0.030), zero frame
+  interchangeability across 29 anchor frames. §7: asserting it would
+  declare a second polyvalence. 08's value stays open.
+- **N190 — 62's "other" windows fail the participial census**
+  (battery-part-62-elsewhere). The participial-shaped environment with
+  a clean right edge fails the bar across 62-94 ×9, 62-48 ×6, 62-98 ×5,
+  62-16 ×4, 62-61 ×2, 62-06 ×2, 62-96 ×1. 62's conditioned scope stays
+  a red-team docket item.
+- **N191 — the one-stem "re-[62]ent" reading KILLED at window A**
+  (battery-re-prefix-03-665).
+- **N192 — 61="son" possessive KILLED** (battery-re61-son-test). C1
+  fails: zero clean "son" legs; the two flagships are one repeated
+  formula and flagship 1's parse is dead.
+- **N193 — 83="gar" KILLED across the n=15 census**
+  (battery-re83-gar-test). The 87-83="cède" window is a different,
+  incompatible 83 value; five 98-conditioned "de" windows kept intact.
+- **N194 — the x9 62–94 word-final-"ne" claim KILLED**
+  (battery-seg-62-94-wordfinal). @1772 forces a word break between 62
+  and 94 at kill grade under standing promoted values; only 2/9
+  windows parse as one word. The scoped residue is separately promoted
+  (F244).
+- **N195 — 06="entre" spelling KILLED at the "06 70 12 94" window**
+  (battery-spell-06-entre). Any future 06="entre" claim needs
+  independent byte evidence (red-team §7 venue only).
+- **N196 — the subject reading of 26 at @1753 KILLED at kill grade on
+  all three live class hypotheses** (battery-subj-26-1753) — the
+  pasent-subject-26-56 category clash.
+- **N197 — 61 is not word-internal to a longer unit at either locus**
+  (battery-unit-78-45-13-55-61).
+- **N198 — 53's "[X]i"-noun space KILLED** (battery-val-53-Xi-noun).
+  Exhaustive French "[X]i" enumeration admits only three weak
+  candidates ("bon", "so", "co"), each forced false by the @402 object
+  slot and the "53 12" ×4 windows with zero new assumptions. 53's
+  value itself unnamed; the "don"-vs-"doni" irreconcilability untouched
+  (F242).
+- **N199 — the "que [60-V] et le [89-V]e" verb-coordination parse at
+  @637 is an unresolved parse and a kill-grade contradiction**
+  (battery-verb-coord-637) — the subject gap is unbridgeable here.
+- **N200 — 88's uniform vient/tient-family verb stem KILLED**
+  (battery-verb88-26-stem). Stem-level only: 88's class is separately
+  promoted (F243).
+- **N201 — W1's 55–61 non-detachable arms KILLED**
+  (battery-w1-55-61-reseg). 55-61-94 closed by a standing kill-grade
+  verdict (red-team-only re-open); 13-55-61 forced false at kill grade.
+- **N202 — W2's 55–61 window fenced as a "ne ce"-driven residual with
+  stated cause** (battery-w2-5561-nece-frame; stream-unique 94-87
+  hapax). The bar's resolution arm is met — fenced, not killed (the
+  distinction matters).
+- **N203 — 07 = verb stem KILLED at kill grade**
+  (battery-x-07-verb-stem). Three independent windows (@794/@1193/
+  @1751) force 07 non-verb-stem; the sole stem-shaped window (@772)
+  parses as such only under the claim itself; the ≥2-frame threshold
+  is unmet (exactly 1).
+- **N204 — the detachable-slot reading (one French word X over the
+  55–61 bigram at W1/W2/W3) KILLED** (battery-x-55-61-candidate-list).
+  The candidate space collapses to zero (W3's promoted "prend" is
+  ungrammatical at W1/W2; the plural-noun alternative is already
+  kill-grade dead). 55 or 61 individually unexamined; the 55-61-94
+  word-unit hypothesis stays live.
+
+**Mixed partition (1):**
+
+- **N205 — MIXED per subset over 86's 26 D-windows**
+  (battery-det-86-dlife-partition). (1) "le"-life subset: NULL — the
+  "le" lead survives, promote gated on par-pour-962-adjudicate; (2)
+  det-left 3 (noun-class): PROMOTE — 86=noun at battery level,
+  subset-scoped, class-level, value unnamed; (3) 77-adjacent 4: clitic
+  value KILL (granted window forces false), noun reading PROMOTE. The
+  lane's 86 picture is now partitioned — determiner dead uniformly
+  (N179), noun live per-subset (N186/N187 killed only the uniform
+  noun claims). No verdict overwritten.
+
+**NULLs (35, cipher-side):**
+
+- **N206** — 01 as adverb at @483 ("30 01 19") fenced per the bar's
+  else-branch (battery-adv-01-19-frame).
+- **N207** — no modal nameable for 02; "fait" packaged as a conditioned
+  candidate for the red-team §7 split docket (battery-adv-02-858).
+- **N208** — 44's l'-antecedent unresolved (fence executed;
+  battery-antecedent-44-l-prime).
+- **N209** — no grammatical 1841-French parse of @1028–1040 under
+  standing values once the exclamatory-infinitive assumption is removed
+  — residual fenced (battery-ce01-slot-1029-infinitive-avenue).
+- **N210** — 87's role at @1028 fenced, not named; leading arm: the
+  "ceci" compound (87 + bound "-ci"); alternative: stranded-"ce"
+  (battery-ce87-1028-role).
+- **N211** — 53's value unnamed and unnameable at battery grade without
+  inventing data (battery-ce88-53-value).
+- **N212** — effect of the "cela" promote on @1117's determiner frame
+  undecidable until the trigger fires (conditional bar;
+  battery-cela-1117-frame).
+- **N213** — 23's class not uniformly decidable: verb established at 7/8
+  windows but W8 @1782 ("65 23 98-vient") forces a non-verb parse (1/8
+  = 12.5% > the 10% bar); packaged as a FENCED SPLIT for the red-team
+  docket — implicates the vient-98 formula leg at @1783 and the §7
+  sole-polyvalence law (battery-class-23-qui-adjective).
+- **N214** — the 20-window paradigm decided affirmative at battery
+  grade but escalated to the red team ("@760 forces determiner-block"
+  fails — @760 admits grammatical 20-valued parses;
+  battery-det-20-window-local-paradigm).
+- **N215** — 65's gender unadjudicated at battery grade; the masculine
+  leg ("tout 65" @1682–1683) is now the stronger; the feminine leg
+  (@1211 "est 32e par") is conditional on 32's unresolved adjective arm
+  (battery-det-65-gender-adjudicate).
+- **N216** — the 18-window "premier"-duality census complete and
+  escalated: 9 premier-resisting, 5 unresolved, window-level reasons
+  recorded (battery-duality-61-7034-pattern).
+- **N217** — each window fenced with stated cause
+  (battery-ere-word-65-frames).
+- **N218** — the "et 86 er" licensor (16) stays unnamed; fence executed
+  under the R_et3-conditional (battery-et86er-licensor-16).
+- **N219** — the [42ne] composition is a live conditioned hypothesis
+  (clean at W3) but docket-gated at W2 (needs 24="en") — cannot
+  promote under standing values; no polyvalence declared
+  (battery-frame-42-94-leftward).
+- **N220** — "ne [76]" ×2 verb-vs-sub-word inconclusive — verb read
+  blocked by the missing verb lock (battery-frame-76-ne-94).
+- **N221** — 76's gender tension: no window forces the one-class claim
+  false at kill grade; each rival admits a live alternative
+  (battery-frame-76-tension).
+- **N222** — 09's "lon"-resegmentation fenced (fence executed); a
+  general prefix-class for 09 is killed at battery grade (@290)
+  (battery-lon-09-reseg).
+- **N223** — trigger condition not met — the bar's precondition is
+  absent, not falsified (battery-lon-77-le-gate).
+- **N224** — pas-slot audit: zero "ne" legs on 08 across all 18 windows
+  (kill-grade baseline for any future "ne" claim on 08: must produce
+  ≥2 clean "ne…pas" frames or explain @1323's order inversion and
+  @1520's 24-contradiction; battery-ne-08-frames).
+- **N225** — 09's noun claim at @916 fenced (battery-noun-09-916).
+- **N226** — neither arm kills: the adjective arm retains its battery
+  HOLD ("est 19[e]" @1778–1780); the PP arm is unsupported (no agent,
+  no verb-frame evidence at 9 windows; battery-participle-19e-frame).
+- **N227** — particle face confirmed at battery grade; value "mais"
+  named and routed to the poly-20-docket (battery-particle-20-760-839).
+- **N228** — 08 as verbal prefix/syllable with 31 survives everything
+  but composition is not demonstrated over adjacency — inconclusive,
+  regenerates work (battery-prefix-08-31).
+- **N229** — 43's class cannot be named at battery grade (noun is
+  distributionally the runaway leader but triple-barred: noun-43
+  closure, 43-29-segment's scope bar, la-frame's red-team gate); the
+  "43 81" direct-object NP fails, so the seg-81-30-boundary fence stays
+  closed (battery-prof-43-object).
+- **N230** — 09 at @290 fenced per C3 (battery-rel-09-290).
+- **N231** — all three word-internal arms blocked at battery grade — no
+  arm parses the full clause (battery-seg-86-52-37-86).
+- **N232** — the second 06's value in the 06-06 doublings fenced: "ent
+  ent" (two-word) kill-grade dead; the new-word "ent…" reading
+  unfalsified but unnameable within the ≤1-assumption bar
+  (battery-seg-94-82-06-f3).
+- **N233** — 08's value undecided: "se" eliminated at kill grade;
+  "on"/"ne" inseparable from granted 84="on"/promoted 94="ne" without
+  forcing (battery-stem-08).
+- **N234** — the "42 94" frame fenced: the nominal arm fails (02 and 74
+  take no stated nominal class), the verbal arm is already dead
+  (battery-subj-42-ne-frame).
+- **N235** — 16/84's role (fail closed; battery-val-16-84-role).
+- **N236** — 92's value unnameable at battery level (coordinate with
+  the split-92 red-team docket if unresolved;
+  battery-verb-92-value).
+- **N237** — the global-"voi" hypothesis on the D-partition is neither
+  killed nor promoted — converges with the earlier voir-86-sweep NULL
+  on an independent ratified-only re-derivation
+  (battery-voi-86-dwindow-composition).
+- **N238** — 16's class: C1 passes but C2 (the left-edge-closing
+  hypothesis) fails; the bar as a whole is not satisfied
+  (battery-w2-16-class).
+- **N239** — fence executed per the bar's second disjunct
+  (battery-w2-knot-etque).
+- **N240** — the W4 left edge @1158–1163 ("77 82 44 83 21 67") does not
+  decide whether "et" coordinates an antecedent NP — the decision still
+  pivots on 21's value (battery-w4-left-edge-21-83).
+
+**Corpus-side nulls (34, compressed — each is a fence-executed null from
+the disloc-demonstrative / governed-exclamatory / reinforced-pour-inf
+program; no standing verdict touched):** the drama corpus-gap null
+(battery-disloc-demonstrative-drama — bar untestable until the ingest
+landed, which fired the commission instead); prose disloc-demonstrative
+zero (`disloc-demonstrative-inf_census.json`: 27.66M chars, 15
+candidates, 0 genuine); quoted-dialogue disloc-demonstrative zero
+(`disloc-demonstrative-quoted-drama_census.json`: ~10.3M chars, 169
+dem-comma in dialogue, 0 genuine — the "ca" control zero too);
+reinforced-head prose zero
+(`disloc-demonstrative-reinforced_census.json`: 27.66M chars, 231 hits,
+0 genuine); drama reinforced-head zero
+(`disloc-demonstrative-drama-reinforced_census.json`: 2,969,582 chars,
+41 hits, 0 genuine); drama clause-initial demonstrative zero
+(`disloc-demonstrative-drama-clause-initial_census.json`: 2,969,582
+chars, 190 dem-comma → 12 clause-initial → 0 exclamatory — the three
+near-misses dissolve on "cela" as governed object, not fronted topic);
+drama dialogue-scoped zero
+(`disloc-demonstrative-drama-dialogue_census.json`: 2,939,372 chars,
+35 candidates, 0 genuine — Hernani has bare exclamatory infinitives but
+never under dislocated demonstratives); drama reissue zero
+(`disloc-demonstrative-drama-reissue_census.json`: 2,969,582 chars, 190
+dem-comma → 35 candidates → 0 genuine); pausemark-recall zero in drama
+(`disloc-demonstrative-drama-pausemark-recall_census.json`: 307
+separator hits → 120 hand-classified → 0 genuine — fence covers comma
+AND non-comma separators); reinforced-head prose clause-initial zero
+(`disloc-demonstrative-prose-clause-initial_census.json`: 27,656,185
+chars, 447 dem-comma → 16 clause-initial, all finite — arm (a) of
+ce87-1028-role now fenced in prose as well as drama); prose pausemark
+recall (`disloc-reinforced-pausemark-prose-recall_census.json`:
+27,657,940 chars, exactly 1 dem-pausemark hit, 0 genuine — all seven
+pause-mark classes accounted); zero-pause extension
+(`reinforced-pour-inf-zeropause_census.json`: 929 zero-pause windows, 0
+genuine; 16 declarative zero-pause governed-infinitive windows exist);
+reinforced-head drama clause-complete
+(`disloc-demonstrative-drama-reinforced_census.json` counted above);
+drama governed-inf prep-family zero
+(`disloc-reinforced-prep-inf-drama_census.json`: 2,969,582 chars, 41
+hits, 0 governed-infinitive candidates); drama modal/perception
+governor zero (`reinforced-modal-inf-drama_census.json`: 2,939,372
+chars, 41 dem-comma hits, 0 pattern candidates — fence robust to
+governor widening); drama reinforced pour-inf recall
+(`reinforced-pour-inf-drama-recall_census.json`: 41 dem-comma hits, 6
+uncapped windows, 0 genuine; side observation — Ruy Blas @34184 shows
+the register HAS bare exclamatory infinitives under modal/perception
+government in reinforced-head windows); drama pour-inf
+(`reinforced-pour-inf-drama_census.json`: 2.94M chars, 41 dem-comma
+hits, 1 candidate dissolving on clitic resumption, 0 genuine —
+two-register program complete: 0 genuine in 30.6M chars prose+drama);
+pour-inf diagnostic (`reinforced-pour-inf-diagnostic_census.json`:
+27.66M chars, 206 dem-comma → 4 governed-infinitive candidates → 0
+genuine — the "pinpoint the fence at governed-vs-bare" fork resolves as
+no-line: the fence is head-local); pour-inf recall
+(`reinforced-pour-inf-recall_census.json`: complete 232-occurrence
+inventory in 27,657,940 chars → 0 genuine); reinforced adjacent-excl
+recall (`reinforced-pour-inf-adjacent-excl_census.json`: 24 head+prep+inf
+hits → 22 genuine declarative zero-pause windows, 0 adjacent
+exclamatory clauses — the parent zero is not a window-boundary
+artifact); comedy bare-heads zero
+(`disloc-comedy-bare-heads-extension_census.json`: 465,531 chars, 51
+dem-comma hits, 0 bare-"ce"-comma hits → 0 genuine) and its recall
+(`disloc-comedy-bare-heads-recall_census.json`: 31 variant candidates,
+0 genuine — dash/paren documented as empty pause classes); comedy
+governed-inf zero-pause recall covered above; reinforced-head comedy
+extension zero (`disloc-reinforced-comedy-extension_census.json`:
+465,531 chars, 2 reinforced-head-comma hits, 0 candidates — dem-comma
+hit rate ~1/233k in comedy vs ~1/72k in drama); comedy recall zero
+(`disloc-reinforced-comedy-recall_census.json`: 1 recall candidate —
+cross-speaker bleed, excluded — 0 genuine); wider-comedy zero
+(`disloc-reinforced-comedy-widercorpus_census.json`: 1,359,737 chars, 9
+candidates, 0 genuine — the note honestly logs the shortfall: only
+565k added vs the parent's ≥1M suggestion); verse-vs-prose comedy zero
+(`disloc-reinforced-verse-vs-prose-comedy_census.json`: verse 4
+candidates in 362,408 chars, dialogue 57 in ~1.2M chars, 0 genuine —
+fence generalizes across sung verse and spoken dialogue); gov-excl-inf
+register zero (`gov-excl-inf-register_census.json`: 27.66M chars, 859
+candidates → 0 genuine — the headline reframe: the zero is
+REGISTER-LEVEL, not head-local); gov-excl-inf recall zero
+(`gov-excl-inf-recall_census.json` + classification: 1,874 candidates
+across previously unsearched window classes → 0 genuine — combined
+2,733 classified candidates, the largest base in the family); epistolary
+zero (`disloc-governed-excl-epistolary_census.json`: 11.78M chars
+correspondence, 77 reinforced + 198 plain-demonstrative-head hits → 0
+genuine — closes the last live prose hunting ground); prose recall
+(`disloc-governed-excl-prose-recall_census.json`: 30.6M chars, 231 hits
+→ 0 genuine — with 236 "pour/de [inf] !" positive controls, so the
+absence is head-specific, not register-wide); tonic-pronoun governed
+zeros — drama (`battery-personal-tonic-governed-excl-drama`: 1,986
+pronoun-comma hits → 29 candidates → 0 genuine — the fence sits exactly
+at governed-vs-bare) and prose
+(`personal-tonic-governed-excl-prose_census.json`: 27,656,185 chars,
+4,495 pronoun-comma hits → 26 candidates → 0 genuine); pasX-adverb
+census (battery-pasX-adverb-census: 19 "30 X" windows re-derived on the
+repaired stream — no adverb-shaped X with a complement-bearing right
+edge; the note carries a data-quality flag for supervisor audit).
+
+### Round-17 backlog null/kill fold (2026-10-09 UTC — 18 notes: 8 kills, 10 nulls; battery grade)
+
+ — N241–N248:**
+
+- **N241 — the "06-14-06" residual @1120–1122 confirmed UNRESOLVABLE
+  at battery grade** (battery-ent14ent-residual-adjudicate). Every
+  sub-word role for 14 dies under standing values within the
+  one-assumption budget; all four battery-named escapes ("le", "sou",
+  verb-stem, single-n "prennent") are kill- or fence-grade dead.
+  Narrow scope: kills resolvability, not 14 globally. The surviving
+  "le"-legs (@72/@117/@178) remain homophony-question evidence,
+  escalated to the red team.
+- **N242 — the "A3 mirror" KILLED** (battery-formula-94-07-06-94). Two
+  adjacent, independent negated clauses abutting across a manuscript
+  row break ("…ne [07]ent | ne [15]…"), not one mirror frame — forced
+  false at kill grade. Reinforces the ne-94 and ent-06 promotions (two
+  more clean ne-frames, one more -ent verb). Follow-up: name 07 via the
+  "94 07 06" = "ne [07]ent" leg (x-07-verb-stem, P3).
+- **N243 — @486 contains no relative clause**
+  (battery-noun-19-486-relative). "19 qui 76…" with 76 a
+  battery-promoted noun cannot parse as antecedent + subject-relative
+  in 1841 diplomatic French, against clean "qui + verb" controls at @19
+  and @511; the relative-clause rival to the predicative account of 19
+  dies at kill grade, and the single predicative leg ("est 19[e]")
+  stands alone. "01 19" ×2 with 01 classless out of scope here.
+- **N244 — the word-internal rival for 86 is dead at all four problem
+  windows** (battery-reseg-86-problem-windows). At #0/#6/#8 any
+  word-internal parse contradicts banked ground truth or granted
+  standalone values (kill grade); at #7 no French word is nameable
+  without invented values. The standalone assumption survives; #7 stays
+  a residual orphan under stem-86's adjudication.
+- **N245 — search closure on 21's value, not a class downgrade**
+  (battery-val-21-reopen). "A battery-grade value for 21 exists" fails
+  at kill grade: @134 forces every noun value false, @109/@359 force
+  every masculine value false, and non-noun values contradict the
+  battery-promoted noun class. 21=noun (de-frame-21-class) stands
+  untouched. Re-open is red-team venue only (overturn prof-65's
+  65=noun promote; grant the §7 21-65 unit-verb rescue; re-tier 21's
+  class).
+- **N246 — the claim "W4's 'qui 52 38 ce 86' can be resolved with 38's
+  class open" falsified at @1343** (battery-adj-38-w4-parse). All 9
+  candidate parses fail (7 classes of 38 + the 52–38 unit + 3
+  clause-boundary rescues), so W4 is fenced with stated cause. n(38) =
+  7 byte-confirmed at @384/@826/@1113/@1343/@1469/@1650/@1828. Re-open
+  conditional on a standing grant changing underneath (52's class, 86
+  beyond INF-class, or 47's allophone tier).
+- **N247 — "qui" (64 @531, 1-based) cannot be the 3pl subject of
+  "[42]ent" (@544)** (battery-subj-42-qui). A subject relative pronoun
+  does not sit 12 lexical tokens from its verb (stream max is 3,
+  clitics only), and a 3pl verb cannot agree with the singular
+  antecedent the relative clause requires. The live rivals for @544's
+  subject stay undecided (w3's fenced 44-29-48 hypothesis vs the
+  "qui [26]" short-clause cut) — this kill decides neither.
+- **N248 — bare "ce" cannot head an exclamatory infinitive clause in
+  1841 French** (battery-ce87-topic-licensing). Clitics cannot be
+  dislocated; zero attestations in the 24.4M-character 1841-register
+  corpus — tonic cela/ceci/ça own the slot. Candidates A ("c'en") and
+  B ("ce se") at @1029 both die on their single shared load-bearing
+  assumption (refuted), and ce01-slot-1029 found no alternative
+  grammatical route. 87="ce" value stands; 87's role at @1028
+  re-opened. This is the register-level precursor of the wave-14
+  corpus program's pronoun-only licensing finding; F245's skeleton
+  revision ("Ceci, [03]er!…") is consistent with it.
+
+**Backlog nulls (10) — N249–N258:**
+
+- **N249** — the W1 full-window-parse claim under 14="en" is NOT
+  falsified ("[76] m'en est [37]" parses cleanly; "82 14" has a second
+  "m'en" leg @896; "79 14" ×2 fits "tout en") but the bar's
+  full-window parse cannot be completed within battery authority and
+  the ≤1-assumption budget — blocked at 1-based @626–627 ("37 33",
+  A1-predicative + bare INF-class 33, a stream-wide hapax)
+  (battery-clitic-14-623-steelman).
+- **N250** — 74 stays class-open; @141's "le [74]" stays headless as a
+  determiner leg (independently unlicensable per det14-elsewhere)
+  (battery-noun-74-census). All doubling windows sit on offset-0 rows
+  with unvalidated upstream offsets — a row re-phase would re-open
+  that window only.
+- **N251** — the verb-branch residual claim ("resolve @531/@1470/
+  @1753") not established: 1 of 3 windows parses (@531), 2 fenced with
+  stated cause (@1470 blocked on 38's class, @1753 on 89's class); not
+  killed — no window forces the claim false
+  (battery-noun26-residual-adjud).
+- **N252** — the @354/@356 "40 92 98 92" segmentation unresolved:
+  the word-internal alternative dies only conditional on battery-grade
+  98="vient" (not §7), and the two-word alternative is underdetermined,
+  not refuted (battery-seg-92-354-356).
+- **N253** — "12 16" occurs exactly 3× (@241/@843/@1430): 12 is
+  word-initial at the 2 decided windows, but uniformity is not
+  established (W2 @241 is the fenced window itself)
+  (battery-tail-12-16-uniform).
+- **N254** — clause 1 fails at null grade: 52 unnameable at battery
+  grade — the "ne [52] [INF]" frame is real but no value covers 52's 27
+  windows without red-team-declared polyvalence; clauses 2–3 pass. Not
+  killed: no window forces the "ne [52] [86]" parse structure false
+  (battery-leftedge-52-86-1736).
+- **N255** — 56's value underdetermined at @1745 (mixed class profile,
+  §7 polyvalence question): not killed (the segment parses cleanly as
+  "que"+3pl verb), not promoted (the bar demands 56 NAMED)
+  (battery-rightedge-56-1745).
+- **N256** — the one-word read of "11-78-40-97-86" @296–@300 not
+  demonstrated under the licensed frames (frame-97-profile: 97 =
+  INFINITIVE class, value open; stem-86: NULL). Not killed: @296 stays
+  compatible with 78="ver" as the R16-005-fenced 1-window residual; the
+  fence reason updates — lack of a licensed 97/86 completion, not the
+  (now-dead) "l'ere" rival (battery-ver78-296-97gate).
+- **N257** — W4 (@1164) undecidable at battery level: the word-medial
+  rule's antecedent is conditional on the red-team-escalated one-word
+  boundary (dict-78-45-wordbound null), and its consequent ("et verdict
+  [13-55-61]") fails to compose under standing values. W4 stays fenced
+  as the last unclassified 78-45 window, pending (a) the red-team §7
+  boundary declaration and (b) ver-78's resolution
+  (battery-dict-45-w4-adjudicate).
+- **N258** — the "77-62-94" word's syntactic slot identified (62,
+  masculine nominal stem, "-ne"-final under the conditional
+  syllabic-94 reading) but no lexical value forced — the word cannot
+  be named at battery grade (battery-head-77-62-94-noun). REPORT.md's
+  prior "77-62-94" hits all belong to the separate
+  battery-lon-ne-77-62-94 note, not this verdict.
+
+### Round-17 null batch, wave-14 mid-sweep arrivals (2026-10-09 UTC —
+8 notes: 8 nulls; battery grade)
+
+- **N259** — stem48-qui-65-hapax NULL (fence executed). The @1585-1588
+  "36 70 64 65" 4-gram has no licensed full parse under standing
+  values: "pour [36-noun]" closes cleanly upstream (licensed PP frame,
+  class-36-profile), so the orphan localizes to the stranded "pre"
+  (70) — word-initial in all 15 windows of its profile, with "qui"
+  (granted 64) occupying its continuation slot at the 70|64 boundary;
+  "36 70" hapax, "70 64" hapax, "64 65" hapax; every rival "qui"-role
+  (relative/interrogative/indefinite/exclamative/"ce qui") dies at
+  kill grade. Phase-conditional: row a8_02's upstream offset is one of
+  the 68 unvalidated.
+- **N260** — regne-trone-tiebreak NULL: the "regne"-vs-"trone" tie at
+  @508 is NOT broken at battery grade. Avenue (b) negative (no landed
+  neighbor creates selectional pressure); avenue (a) finds a
+  differential frame ("le [62]ne qui vient" — "regne" selectionally
+  licensed + 1 weak attestation vs "trone" strained + 0 in 31.66M
+  chars) but below battery-grade naming confidence. Per section 5 the
+  contradiction with the standing battery-grade @508 "trone" locus
+  promote (F250) is escalated to the red team — a battery never
+  downgrades an existing verdict. Follow-ups: val-65-at-508 (P3),
+  trone-vient-register (P3), redteam-508-reread (P2).
+- **N261** — 01-verbclass-probe NULL: 1 of 28 windows verb-shaped
+  (@1256/P1, "[65-N] que [01-V-finite] [61-S]") re-opens avenue A (01
+  as infinitive governor at @1029); the @1028-1031 fence is NOT
+  hardened. The P1/P2 section-7 tension (01 verbal vs nominal — 67 is
+  the sole polyvalence) is red-team venue; 61-verbclass-probe (P3)
+  would flip @1256 to P2 and re-kill avenue A.
+- **N262** — fin-41-lexicon NULL: untestable-as-written — no
+  finite-verb value candidate for 41 exists on the lane record (lexicon
+  generation would be invention, not testing), and the "qui [41]"
+  frame's subject (antecedent "08 91 39") is a stream-hapax with no
+  landed value, so the agreement shape is unrecoverable. An epistemic
+  null, not a refutation. Follow-ups: antec-08-91-39, qui-subject-
+  recoverability, fin-41-lexicon-r2 (all gated).
+- **N263** — disloc-demonstrative-inversion-drama NULL: 490 unique
+  candidates hand-classified with cause across the 14-play drama
+  corpus → 0 genuine postposed-demonstrative + bare exclamatory
+  infinitives. Inverted order fenced in drama dialogue; arm (a) of
+  ce87-1028-role now fenced at seven levels. Script
+  `disloc_demonstrative_inversion_drama_census.py`; raw
+  `disloc-demonstrative-inversion-drama_census.json`.
+- **N264** — bare-excl-inf-head-inventory-drama NULL: the head-type
+  table lands (1,641 pattern candidates over 2,939,372 chars) — 0
+  genuine demonstrative-headed bare exclamatory infinitives (all 13
+  demonstrative-involving candidates excluded with cause) vs 5 genuine
+  tonic-pronoun heads ("moi, fuir devant le duc de Guise !" et al.).
+  The arm-(a) fence holds exactly at the demonstrative head, with
+  positive-space contrast. Raw
+  `bare-excl-inf-head-inventory-drama_census.json`.
+- **N265** — disloc-demonstrative-inversion-prose NULL: 146 candidates
+  hand-classified with cause over the 21-file prose corpus
+  (27,656,185 chars) → 0 genuine; strict-pattern check ("[inf-suffix]
+  ! , cela/ceci/ça") run over all 21 files → 0 hits, so the loose-rule
+  zero is not a recall artifact. Inverted order fenced in prose: arm
+  (a) now fenced in both word orders across all three registers.
+  Raw `disloc-demonstrative-inversion-prose_census.json`.
+- **N266** — disloc-demonstrative-drama-pausemark-dialogue NULL: 128
+  candidates in dialogue-scoped drama text (2,539,841 scoped chars;
+  front matter, ALL-CAPS headers, stage directions stripped) → 0
+  genuine (119 carried from the parent's 0-genuine classification, 9
+  new all excluded with cause). Non-comma separators fenced at dialogue
+  level too. Raw
+  `disloc-demonstrative-drama-pausemark-dialogue_census.json`.
 
 ---
 

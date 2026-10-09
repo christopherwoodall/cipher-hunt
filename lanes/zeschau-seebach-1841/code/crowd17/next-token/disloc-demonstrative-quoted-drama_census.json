@@ -1,0 +1,80 @@
+{
+ "files": [
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "chars": 3013552,
+   "dialogue_spans": 713,
+   "dialogue_chars": 2245389,
+   "dem_comma_hits_in_dialogue": 37,
+   "excl_candidates": 2
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "chars": 2964405,
+   "dialogue_spans": 730,
+   "dialogue_chars": 2375587,
+   "dem_comma_hits_in_dialogue": 43,
+   "excl_candidates": 0
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "chars": 3054350,
+   "dialogue_spans": 530,
+   "dialogue_chars": 2584536,
+   "dem_comma_hits_in_dialogue": 37,
+   "excl_candidates": 0
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "chars": 3165234,
+   "dialogue_spans": 1617,
+   "dialogue_chars": 3110318,
+   "dem_comma_hits_in_dialogue": 52,
+   "excl_candidates": 4
+  }
+ ],
+ "candidates": [
+  {
+   "span_kind": "dquote",
+   "dem": "cela",
+   "window": "cela,  un  vagabondage  éternel ,  sans  but  !",
+   "inf_hits": [],
+   "file": "revue-deux-mondes-1841-q1.txt"
+  },
+  {
+   "span_kind": "em-dash",
+   "dem": "cela",
+   "window": "cela,  un  vagabondage  éternel ,  sans  but  !",
+   "inf_hits": [],
+   "file": "revue-deux-mondes-1841-q1.txt"
+  },
+  {
+   "span_kind": "dquote",
+   "dem": "cela",
+   "window": "cela ,  papa  !",
+   "inf_hits": [],
+   "file": "revue-deux-mondes-1841-q4.txt"
+  },
+  {
+   "span_kind": "dquote",
+   "dem": "cela",
+   "window": "cela,  vous!",
+   "inf_hits": [],
+   "file": "revue-deux-mondes-1841-q4.txt"
+  },
+  {
+   "span_kind": "em-dash",
+   "dem": "cela",
+   "window": "cela ,  papa  !",
+   "inf_hits": [],
+   "file": "revue-deux-mondes-1841-q4.txt"
+  },
+  {
+   "span_kind": "em-dash",
+   "dem": "cela",
+   "window": "cela,  vous!",
+   "inf_hits": [],
+   "file": "revue-deux-mondes-1841-q4.txt"
+  }
+ ]
+}

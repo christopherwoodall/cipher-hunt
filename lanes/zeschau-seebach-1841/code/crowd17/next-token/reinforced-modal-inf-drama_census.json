@@ -1,0 +1,93 @@
+{
+ "census_drama": {
+  "files": [
+   {
+    "file": "dumas-mariage-louis-xv-1841.txt",
+    "chars": 204641,
+    "dem_comma_hits": 2,
+    "mod_inf_candidates": 0
+   },
+   {
+    "file": "vigny-chatterton-1835.txt",
+    "chars": 188780,
+    "dem_comma_hits": 2,
+    "mod_inf_candidates": 0
+   },
+   {
+    "file": "musset-comedies-proverbes-1850.txt",
+    "chars": 972696,
+    "dem_comma_hits": 11,
+    "mod_inf_candidates": 0
+   },
+   {
+    "file": "hugo-hernani.txt",
+    "chars": 173559,
+    "dem_comma_hits": 0,
+    "mod_inf_candidates": 0
+   },
+   {
+    "file": "hugo-ruy-blas.txt",
+    "chars": 198265,
+    "dem_comma_hits": 6,
+    "mod_inf_candidates": 0
+   },
+   {
+    "file": "hugo-burgraves.txt",
+    "chars": 151408,
+    "dem_comma_hits": 2,
+    "mod_inf_candidates": 0
+   },
+   {
+    "file": "dumas-antony.txt",
+    "chars": 102234,
+    "dem_comma_hits": 1,
+    "mod_inf_candidates": 0
+   },
+   {
+    "file": "dumas-tour-de-nesle.txt",
+    "chars": 132586,
+    "dem_comma_hits": 6,
+    "mod_inf_candidates": 0
+   },
+   {
+    "file": "dumas-henri-iii.txt",
+    "chars": 128462,
+    "dem_comma_hits": 1,
+    "mod_inf_candidates": 0
+   },
+   {
+    "file": "dumas-kean.txt",
+    "chars": 152233,
+    "dem_comma_hits": 4,
+    "mod_inf_candidates": 0
+   },
+   {
+    "file": "scribe-bertrand-et-raton.txt",
+    "chars": 182448,
+    "dem_comma_hits": 2,
+    "mod_inf_candidates": 0
+   },
+   {
+    "file": "scribe-verre-d-eau.txt",
+    "chars": 146451,
+    "dem_comma_hits": 3,
+    "mod_inf_candidates": 0
+   },
+   {
+    "file": "labiche-chapeau-de-paille.txt",
+    "chars": 118567,
+    "dem_comma_hits": 1,
+    "mod_inf_candidates": 0
+   },
+   {
+    "file": "labiche-martin-poudre-aux-yeux.txt",
+    "chars": 87042,
+    "dem_comma_hits": 0,
+    "mod_inf_candidates": 0
+   }
+  ],
+  "total_chars": 2939372,
+  "candidates": []
+ },
+ "excluded_edition_note": "hugo-hernani-1870.txt excluded per one-edition-per-play rule; spot-checked separately"
+}

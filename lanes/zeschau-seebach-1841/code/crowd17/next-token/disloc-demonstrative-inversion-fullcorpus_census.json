@@ -1,0 +1,425 @@
+{
+ "files": [
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "chars": 3013552,
+   "postposed_dem_candidates": 10
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "chars": 2964405,
+   "postposed_dem_candidates": 18
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "chars": 3054350,
+   "postposed_dem_candidates": 7
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "chars": 3165234,
+   "postposed_dem_candidates": 22
+  }
+ ],
+ "candidates": [
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "noyer",
+   "inf_abs_offset": 30461,
+   "dem": "ceci",
+   "window": "noyer.  Elle  s'écria  incontinent  :  Ha! \nmon  Dieu!  quel  augure  de  voyage  est  ceci?  S'estant  é"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "votre",
+   "inf_abs_offset": 64114,
+   "dem": "cela",
+   "window": "Votre  mari  atout  fait! \n—  Ah  !  cela  est  ainsi ,  répondit-elle ,  adieu  donc  larmes  !  c'est  "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "d'angleterre",
+   "inf_abs_offset": 103539,
+   "dem": "ceci",
+   "window": "d'Angleterre,  leUre  copiée  parle  secret  lire  de  Ceci!,  à  qui  lord \nBedford  l'envoya. \n\n(2)  8  mai  1"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "leure",
+   "inf_abs_offset": 103554,
+   "dem": "ceci",
+   "window": "leUre  copiée  parle  secret  lire  de  Ceci!,  à  qui  lord \nBedford  l'envoya. \n\n(2)  8  mai  1567.  Ar"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "lire",
+   "inf_abs_offset": 103584,
+   "dem": "ceci",
+   "window": "lire  de  Ceci!,  à  qui  lord \nBedford  l'envoya. \n\n(2)  8  mai  1567.  Archives  d'Angleterre. \n\n(3)  "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "plaisir",
+   "inf_abs_offset": 569924,
+   "dem": "cela",
+   "window": "plaisir  était  neuf,  grande \nfut  la  surprise.  —  Quoi!  cela  est  encore  beau,  se  dit-on. — Et  là"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "faire",
+   "inf_abs_offset": 1446015,
+   "dem": "cela",
+   "window": "faire  cela  !  Et  à  la  première  occasion  on  recom- \nmence ce  jeu  déplorable ,  sans  savoir  au "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "notre",
+   "inf_abs_offset": 1524253,
+   "dem": "cela",
+   "window": "notre  influence  détruite,  notre  honneur  compromis!  Puis, \naprès  cela,  il  suffira  de  cin(i  ou "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "notre",
+   "inf_abs_offset": 1524282,
+   "dem": "cela",
+   "window": "notre  honneur  compromis!  Puis, \naprès  cela,  il  suffira  de  cin(i  ou  six  phrases  bienveillantes"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "inf": "être",
+   "inf_abs_offset": 2560691,
+   "dem": "cela",
+   "window": "être  quecela  ne  mange  pas! — Cela  \\it-il  sur  terre  ou  sur  mer? \n— Probablement  cela  vit  tou"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "accuser",
+   "inf_abs_offset": 501253,
+   "dem": "cela",
+   "window": "accuser  d'avoir \ncommis  une  faute,  et  commencé  une  folie  ! \n\nIl  faut  pourtant  le  dire  :  cela "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "d'avoir",
+   "inf_abs_offset": 501262,
+   "dem": "cela",
+   "window": "d'avoir \ncommis  une  faute,  et  commencé  une  folie  ! \n\nIl  faut  pourtant  le  dire  :  cela  n'est  p"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "père",
+   "inf_abs_offset": 895149,
+   "dem": "cela",
+   "window": "père!  murmurait-il  suffoqué;  je  ne  ie  serai  pas \nlong-temps  si  cela  est.  Je  tuerai  tout  à "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "traiter",
+   "inf_abs_offset": 901694,
+   "dem": "cela",
+   "window": "traiter  de  fourbe  ! \n\nIl  mitl'épée  au  vent  en  disant  cela.  Les  autres  dégainèrent  aussi. \nM.  "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "faire",
+   "inf_abs_offset": 1399795,
+   "dem": "ceci",
+   "window": "faire  un  neuf,  moi  je  te  couperai  la  tête  pour \nfaire  de  toi  un  zéro.  Ah!  ceci  n'est  pas"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "faire",
+   "inf_abs_offset": 1399852,
+   "dem": "ceci",
+   "window": "faire  de  toi  un  zéro.  Ah!  ceci  n'est  pas  trop  mal ,  j'espère. \n\nToutes  les  bouteilles,  tous"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "faire",
+   "inf_abs_offset": 1446218,
+   "dem": "ça",
+   "window": "faire  jeter  ma  dernière  chique. \n\n—  Ah!  ça!  prenons  conseil,  dit  ensuite  le  capitaine  Gueux;"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "jeter",
+   "inf_abs_offset": 1446225,
+   "dem": "ça",
+   "window": "jeter  ma  dernière  chique. \n\n—  Ah!  ça!  prenons  conseil,  dit  ensuite  le  capitaine  Gueux;  nous "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "dernière",
+   "inf_abs_offset": 1446236,
+   "dem": "ça",
+   "window": "dernière  chique. \n\n—  Ah!  ça!  prenons  conseil,  dit  ensuite  le  capitaine  Gueux;  nous \nsommes  entre"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "mesure",
+   "inf_abs_offset": 1534042,
+   "dem": "cela",
+   "window": "mesure  sur \nles  convenances  dramatiques!  Rubini,  lui,  ne  fait  rien  de  tout  cela,  il  chante \nc"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "maître",
+   "inf_abs_offset": 1537960,
+   "dem": "cela",
+   "window": "maître!  comme  cela  soupire  la  douleur  et  la \nplainte!  comme  cette  phrase  entrecoupée,  où  les "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "terre",
+   "inf_abs_offset": 1946045,
+   "dem": "cela",
+   "window": "terre  autour  du  soleil!  Et \nc'est  avec  cela  qu'on  veut  réaliser  des  progrès  et  hâter  la  ve"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "arrière",
+   "inf_abs_offset": 1975155,
+   "dem": "cela",
+   "window": "arrière  de  l'Allemagne!  et  tout  cela \nparce  que  l'Alsace  a  le  malheur  d'être  réunie  à  la  Fra"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "aumônier",
+   "inf_abs_offset": 2264351,
+   "dem": "cela",
+   "window": "aumônier,  on  l'a  fait  disparaître  !  et  sur  cela  entre \ndans  une  telle  fureur,  comme  c'était  s"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "disparaître",
+   "inf_abs_offset": 2264377,
+   "dem": "cela",
+   "window": "disparaître  !  et  sur  cela  entre \ndans  une  telle  fureur,  comme  c'était  son  naturel,  dès  qu'il  se "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "maître",
+   "inf_abs_offset": 2350959,
+   "dem": "cela",
+   "window": "Maître,  un  réal  pour  du  tabac! \n—  Mademoiselle,  deux  réaux  pour  du  vin  !  )  En  disant  cela,"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "retourner",
+   "inf_abs_offset": 2381800,
+   "dem": "cela",
+   "window": "retourner  :  «  Mi  amo ,  allez \nvous-en!....  je  m'entendrai  avec  eux.  »  Cela  dit,  il  donna  un  c"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "inf": "dernier",
+   "inf_abs_offset": 2790701,
+   "dem": "ça",
+   "window": "dernier  des  maladroits  !  s'écria-t-il \nen  frappant  la  terre  de  la  crosse  de  son  arme.  Ah  ça "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "inf": "singulier",
+   "inf_abs_offset": 1766127,
+   "dem": "cela",
+   "window": "singulier  livre.  Terrible  voyage,  je  vous \njure  !  Et  cela  se  prolonge  ainsi  près  de  deux  cents"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "inf": "livre",
+   "inf_abs_offset": 1766138,
+   "dem": "cela",
+   "window": "livre.  Terrible  voyage,  je  vous \njure  !  Et  cela  se  prolonge  ainsi  près  de  deux  cents  pages"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "inf": "jure",
+   "inf_abs_offset": 1766175,
+   "dem": "cela",
+   "window": "jure  !  Et  cela  se  prolonge  ainsi  près  de  deux  cents  pages,  à  travers  la \nmaladie,  le  dés"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "inf": "dernier",
+   "inf_abs_offset": 2812736,
+   "dem": "ceci",
+   "window": "dernier  goujat  devrait  l'arracher  de  la  poitrine! \n\nCeci,  dit  au  fort  de  la  colère  et  peut-êt"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "inf": "l'arracher",
+   "inf_abs_offset": 2812762,
+   "dem": "ceci",
+   "window": "l'arracher  de  la  poitrine! \n\nCeci,  dit  au  fort  de  la  colère  et  peut-être  sans  intention  ,  tomba"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "inf": "guerre",
+   "inf_abs_offset": 2838234,
+   "dem": "cela",
+   "window": "guerre?  —  Ou  bien  il  interrompait  tout  net  : \n—  Comment!  qu'est-ce?  mais  cela  est  impossible"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "inf": "sortir",
+   "inf_abs_offset": 2943820,
+   "dem": "cela",
+   "window": "sortir. — Ah!  c'est  toi,  Paulet,  s'écria-t-il,  cela  est \nheureux...  —  Et  comme  il  entamait  ses"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "paratonnerre",
+   "inf_abs_offset": 56927,
+   "dem": "cela",
+   "window": "PARATONNERRE.  25 \n\n—  Ah  !  vous  avez  découvert  cela!  dit-il  au  bout  d'un  instant  avec \nun  accent  o"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "contre",
+   "inf_abs_offset": 69300,
+   "dem": "ca",
+   "window": "Contre-temps  fâcheux!  la \npremière  figure  que  j'aperçus  en  entrant  fut  celle  du  détestable  ca-"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "premier",
+   "inf_abs_offset": 235572,
+   "dem": "cela",
+   "window": "premier  coup  :  Cest  cela!  Très  peu  de  gens  sont  allés  en  Corse; \nles  mœurs  de  ce  pays  diff"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "vicaire",
+   "inf_abs_offset": 748489,
+   "dem": "cela",
+   "window": "vicaire  de  moins,  w \n\n—  Eh  bien!  que  dites-vous  de  cela?  s'écria  M.  Riquemont. \n\n—  Je  dis,  m"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "heure",
+   "inf_abs_offset": 760488,
+   "dem": "ça",
+   "window": "heure  !  c'est  beau , \nc'est  vaillant,  c'est  bien  attaché,  ça  fait  honneur  à  son  cavalier.  M"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "dire",
+   "inf_abs_offset": 835907,
+   "dem": "cela",
+   "window": "dire?  s'écria  le  docteur  pâlissant. \n\n-  Vous  le  demandez  !  vous  demandez  ce  que  cela  veut "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "vivre",
+   "inf_abs_offset": 836471,
+   "dem": "cela",
+   "window": "vivre  ni  mourir.  Ruses  que  tout  cela!  mensonges  imaginés  pour  auto- \nriser vos  visites  !  Voi"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "mourir",
+   "inf_abs_offset": 836482,
+   "dem": "cela",
+   "window": "mourir.  Ruses  que  tout  cela!  mensonges  imaginés  pour  auto- \nriser vos  visites  !  Voilà  pourquoi"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "désastre",
+   "inf_abs_offset": 921920,
+   "dem": "ça",
+   "window": "désastre  à  déplorer  ! \n\n—  Ah  ça  !  monsieur,  où  voulez-vous  en  venir?  s'écria  M,  Rique- \nmont  "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "déplorer",
+   "inf_abs_offset": 921933,
+   "dem": "ça",
+   "window": "déplorer  ! \n\n—  Ah  ça  !  monsieur,  où  voulez-vous  en  venir?  s'écria  M,  Rique- \nmont  avec  impatie"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "l'air",
+   "inf_abs_offset": 1095036,
+   "dem": "ça",
+   "window": "l'air  de  la  reconnaître  : \n\nViens  ça,  l'ami!  N'attends  demain!... \nAh!  pardon,  seigneur!...  Je"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "reconnaître",
+   "inf_abs_offset": 1095051,
+   "dem": "ça",
+   "window": "reconnaître  : \n\nViens  ça,  l'ami!  N'attends  demain!... \nAh!  pardon,  seigneur!...  Je  m'égare  : \nTant  c"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "s'établir",
+   "inf_abs_offset": 1268136,
+   "dem": "cela",
+   "window": "s'établir  à  Riquemont  tout  exprès  pour  soigner  vos  gastrites?  A  votre \naise!  Vivez,  mourez,  cela"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "soigner",
+   "inf_abs_offset": 1268181,
+   "dem": "cela",
+   "window": "soigner  vos  gastrites?  A  votre \naise!  Vivez,  mourez,  cela  vous  regarde;  pour  moi,  je  ne  m'en "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "votre",
+   "inf_abs_offset": 1268210,
+   "dem": "cela",
+   "window": "votre \naise!  Vivez,  mourez,  cela  vous  regarde;  pour  moi,  je  ne  m'en  môle \nplus. \n\nIl  sortit. "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "s'ouvrir",
+   "inf_abs_offset": 1707032,
+   "dem": "cela",
+   "window": "s'ouvrir  un  passage,  il  ne  vous  reste  plus  qu'à  abjurer \nla  religion  de  vos  pères! \n\n—  Cela  v"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "abjurer",
+   "inf_abs_offset": 1707089,
+   "dem": "cela",
+   "window": "abjurer \nla  religion  de  vos  pères! \n\n—  Cela  viendra,  répondit  Célestin  avec  calme.  Il  en  est  "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "sombre",
+   "inf_abs_offset": 1750415,
+   "dem": "ça",
+   "window": "sombre \ndécouragement,  ça  ne  mord  pas!  C'est  tous  les  jours  la  même  chose. \n\nCes  paroles  tirè"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "dire",
+   "inf_abs_offset": 2652536,
+   "dem": "cela",
+   "window": "dire  avec  un  sourire  moqueur  :  Ce  n'est  pas  plus \ndifficile  que  cela!  vous  en  êtes  pour  "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "sourire",
+   "inf_abs_offset": 2652552,
+   "dem": "cela",
+   "window": "sourire  moqueur  :  Ce  n'est  pas  plus \ndifficile  que  cela!  vous  en  êtes  pour  vos  frais  d'épouv"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "avoir",
+   "inf_abs_offset": 2818210,
+   "dem": "cela",
+   "window": "avoir \nvoulu  étendre  la  portée,  quelle  leçon  pour  M.  Guizot!  mais  que  cela \nest  triste  pour "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "inf": "étendre",
+   "inf_abs_offset": 2818224,
+   "dem": "cela",
+   "window": "étendre  la  portée,  quelle  leçon  pour  M.  Guizot!  mais  que  cela \nest  triste  pour  la  France!  Ai"
+  }
+ ]
+}

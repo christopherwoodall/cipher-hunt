@@ -1,0 +1,534 @@
+{
+ "files": [
+  {
+   "file": "dumas-antony.txt",
+   "chars": 102234,
+   "dem_comma_hits": 7,
+   "excl_candidates": 2,
+   "strict_hits": 0,
+   "loose_hits": 1
+  },
+  {
+   "file": "dumas-henri-iii.txt",
+   "chars": 128462,
+   "dem_comma_hits": 3,
+   "excl_candidates": 0,
+   "strict_hits": 0,
+   "loose_hits": 1
+  },
+  {
+   "file": "dumas-kean.txt",
+   "chars": 152233,
+   "dem_comma_hits": 23,
+   "excl_candidates": 3,
+   "strict_hits": 0,
+   "loose_hits": 1
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "chars": 204641,
+   "dem_comma_hits": 35,
+   "excl_candidates": 3,
+   "strict_hits": 1,
+   "loose_hits": 2
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "chars": 132586,
+   "dem_comma_hits": 12,
+   "excl_candidates": 1,
+   "strict_hits": 0,
+   "loose_hits": 2
+  },
+  {
+   "file": "hugo-burgraves.txt",
+   "chars": 151408,
+   "dem_comma_hits": 3,
+   "excl_candidates": 2,
+   "strict_hits": 0,
+   "loose_hits": 0
+  },
+  {
+   "file": "hugo-hernani-1870.txt",
+   "chars": 203769,
+   "dem_comma_hits": 1,
+   "excl_candidates": 1,
+   "strict_hits": 0,
+   "loose_hits": 1
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "chars": 198265,
+   "dem_comma_hits": 7,
+   "excl_candidates": 1,
+   "strict_hits": 0,
+   "loose_hits": 2
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "chars": 118567,
+   "dem_comma_hits": 9,
+   "excl_candidates": 2,
+   "strict_hits": 0,
+   "loose_hits": 3
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "chars": 87042,
+   "dem_comma_hits": 11,
+   "excl_candidates": 5,
+   "strict_hits": 0,
+   "loose_hits": 8
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "chars": 972696,
+   "dem_comma_hits": 48,
+   "excl_candidates": 8,
+   "strict_hits": 0,
+   "loose_hits": 5
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "chars": 182448,
+   "dem_comma_hits": 14,
+   "excl_candidates": 1,
+   "strict_hits": 0,
+   "loose_hits": 5
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "chars": 146451,
+   "dem_comma_hits": 7,
+   "excl_candidates": 4,
+   "strict_hits": 0,
+   "loose_hits": 4
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "chars": 188780,
+   "dem_comma_hits": 10,
+   "excl_candidates": 2,
+   "strict_hits": 0,
+   "loose_hits": 0
+  }
+ ],
+ "total_chars": 2969582,
+ "candidates": [
+  {
+   "dem": "cela",
+   "window": "cela, va !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela, et ce serait dommage ; vous, bâtie de fleurs et de gaze, vous voulez aimer et être aimée d’amour ; ah !",
+   "inf_hits": [
+    "aimer",
+    "être"
+   ],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "dem": "ça",
+   "window": "ça, moi !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "dem": "ça",
+   "window": "ça, lui ; mais nous autres !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela, sous prétexte qu’il est noble, qu’il est lord, qu’il est pair… Ah !",
+   "inf_hits": [
+    "pair"
+   ],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela,  moi  !",
+   "inf_hits": [],
+   "file": "dumas-mariage-louis-xv-1841.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela,  che- \nvalier !",
+   "inf_hits": [
+    "valier"
+   ],
+   "file": "dumas-mariage-louis-xv-1841.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela ,  mon  oncle ,  je  peux  vous  en  répon- \ndre,  parole  d'honneur!",
+   "inf_hits": [],
+   "file": "dumas-mariage-louis-xv-1841.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela, qui m’a mis au cœur cet amour bizarre, tout de mère et pas d’amante !",
+   "inf_hits": [
+    "bizarre",
+    "mère"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "dem": "ceci",
+   "window": "ceci :\n\nSi tout est en repos au fond de vos pensées, \n\nSi rien, en méditant vos actions passées, \n\nNe trouble vos cœurs, purs comme le ciel est bleu,\n \nVivez, riez, chantez!",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela, par grâce !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela,  c'est  assez I^ \nEn  maudissant  tout  bas  le  mendiant  avide \nAuquel  il  faut  jeter  le  fond  du  verre  vide!",
+   "inf_hits": [
+    "jeter",
+    "verre"
+   ],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela, pour si peu, s’aventurer ainsi !",
+   "inf_hits": [
+    "aventurer"
+   ],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "dem": "ça",
+   "window": "ça : « Bah !",
+   "inf_hits": [],
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "dem": "ça",
+   "window": "ça : « Mon Dieu !",
+   "inf_hits": [],
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "dem": "ça",
+   "window": "ça, ils sont très gentils !",
+   "inf_hits": [],
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "dem": "ça",
+   "window": "ça, je me tais !",
+   "inf_hits": [],
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "dem": "ça",
+   "window": "Ça, je l’ai vu ; sept à huit pieds !",
+   "inf_hits": [],
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "dem": "ça",
+   "window": "ça, quand le faux à l’air vrai… ce n’est plus du faux !",
+   "inf_hits": [],
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "dem": "ça",
+   "window": "ça, c’est du sentiment… ça nous éloigne !",
+   "inf_hits": [],
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela  ,  avoir \npeuplé  un  palais  d'ouvrages  magnifiques,  et  rallumé  le  feu \nsacré  des  arts,  prêt  à  s'éteindre  à  Florence!",
+   "inf_hits": [
+    "avoir",
+    "s'éteindre"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela,  mou  cher  seigneur,  et  puisse  le  ciel  venir  à \nvotre  aide  !",
+   "inf_hits": [
+    "cher",
+    "venir",
+    "votre"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela  ,  je  suis  volé  d'un  millier \nde  ducats  !",
+   "inf_hits": [
+    "millier"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela,  une  occasion!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela  ;  tra  la  la  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela ,  ô  Dieu  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela ,  et  si \nje  vous  le  dis,  dame!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "dem": "ça",
+   "window": "ça,  je  n'ai  pas  de  bougies!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela, risquer ma position, mon crédit !",
+   "inf_hits": [
+    "risquer"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela, et pour bonnes raisons !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela, il faut le connaître !",
+   "inf_hits": [
+    "connaître"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela, malheureux !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela, il faut que vous nous laissiez !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela,  sou- \nviens-toi de  Primerose-IIill  !",
+   "inf_hits": [],
+   "file": "vigny-chatterton-1835.txt"
+  },
+  {
+   "dem": "cela",
+   "window": "cela  ,  je  ne  lui  répon- \ndrais pas!",
+   "inf_hits": [],
+   "file": "vigny-chatterton-1835.txt"
+  }
+ ],
+ "loose_cross_hits": [
+  {
+   "window": "cela soit donc, qu’elle souffre et pleure comme j’ai pleuré et souffert !",
+   "context": "ent pas rendre malheur pour malheur ?… cela ne serait pas juste, et Dieu est juste !… Que cela soit donc, qu’elle souffre et pleure comme j’ai pleuré et souffert !… Elle, pleurer !… elle, souffrir, ô mon Dieu !… elle, ma vie, mon âme… c’est affreux… Oh ",
+   "file": "dumas-antony.txt"
+  },
+  {
+   "window": "cela ne serait-il pas l’œuvre du démon ? Oh !",
+   "context": "tenant, madame… nous pouvons… Eh bien ! où est-elle ?… disparue… par où ? comment ?… Tout cela ne serait-il pas l’œuvre du démon ? Oh ! ma tête ! ma tête !… Maintenant qu’il entre !  (Il ouvre la porte.)  LE DUC DE GUISE, ent",
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "window": "ça… elle pâmerait… Oh ! Ketty ! pauvre Ketty ! va-t-elle être contente !",
+   "context": " fille… oh ! oui, vous ne la connaissez pas ; il va falloir des précautions pour lui dire ça… elle pâmerait… Oh ! Ketty ! pauvre Ketty ! va-t-elle être contente !…  (Il fait une cabriole.)  SALOMON.  Eh bien ! que fais-tu donc ?  PISTOL.  Oh bien ! tan",
+   "file": "dumas-kean.txt"
+  },
+  {
+   "window": "cela  se  rencontre!",
+   "context": "ns  donc,  chevalier,  du  courage!  heureusement  que  le  mari,  voyez  un  peu  comme  cela  se  rencontre!...  heureusement,  dis-je,  que  le  mari  était  des  amis  les  plus  intimes  du  chev",
+   "file": "dumas-mariage-louis-xv-1841.txt"
+  },
+  {
+   "window": "cela  me  fait  de  la  peine.  Cette  pauvre  comtesse!",
+   "context": "mon  côté  ,  j'ai  été  lui  promettre  d'être  son  cavalier  ce  soir.  C'est  égal ,  cela  me  fait  de  la  peine.  Cette  pauvre  comtesse!   SCENE    IV.   LE  COMTE , LE  COMMANDEUR.   le  commandeur,  entrant,  posant  son  ch",
+   "file": "dumas-mariage-louis-xv-1841.txt"
+  },
+  {
+   "window": "cela. — (À sire Raoul qui entre.) Bonjour !",
+   "context": "rite de Bourgogne qu’à Louis le Hutin.   SAVOISY.  Peut-être y a-t-il quelque chose comme cela. — (À sire Raoul qui entre.) Bonjour ! baron, quelle nouvelle ?  SIRE RAOUL.  Que voici le roi qui vient, messeigneurs.  SAVOISY",
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "window": "cela, qui m’a mis au cœur cet amour bizarre, tout de mère et pas d’amante !",
+   "context": "r qui a coulé là, je te le jure !… Oh ! oui, oui, c’est la main de Dieu qui a dirigé tout cela, qui m’a mis au cœur cet amour bizarre, tout de mère et pas d’amante ! c’est Dieu… Dieu bon, Dieu sauveur qui voulait qu’avec le repentir le bonheur revint dans",
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "window": "cela! — Monter,  si  l'on  vous  nomme!",
+   "context": "flux  Roule,  et  qui  le  gênaient,  et  qu'il  ne  connaît  plus  !  — Gouverner  tout  cela! — Monter,  si  l'on  vous  nomme!  A  ce  faîte  ! — Y  monter,  sachant  qu'on  n'est  qu'un  homme  I   — Avoir  l'abîme ",
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "window": "cela veut dire : — joie !",
+   "context": "silda.  Tais-toi !Pour être heureux, il suffit qu’il vous voie !  Voir la reine, pour lui cela veut dire : — joie !     S’extasiant sur une boîte posée sur le guéridon.     Oh ! la divine boîte !  La Reine",
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "window": "cela, pour si peu, s’aventurer ainsi !",
+   "context": "ir franchir la muraille si haute ?  Pour m’apporter les fleurs qu’on me refuse ici,  Pour cela, pour si peu, s’aventurer ainsi !  C’est aux pointes de fer qu’il s’est blessé sans doute.  Un morceau de dentelle y pendai",
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "window": "ça va finir !… gros farceur, ça va finir !",
+   "context": "rencontrer un joli minois.  Félix, lui offrant une chaise.  Par exemple !… à votre âge !… ça va finir !… gros farceur, ça va finir !…  Vézinet, assis à gauche.  Merci !… (À part.) Il est très convenable, ce garçon…    Scèn",
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "window": "ça la fera descendre. (Secouant son pied.) Cristi !",
+   "context": "Fadinard.  C’est plein de serruriers.  Nonancourt, à sa fille.  Alors marche… secoue-toi… ça la fera descendre. (Secouant son pied.) Cristi ! je n’y tiens plus… je vais mettre des chaussons de lisière.  Il se dirige vers le cabinet",
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "window": "ça… pour une autre femme !",
+   "context": "d’un chapeau de paille d’Italie… tout de suite… avec des coquelicots.  Clara.  Oui, c’est ça… pour une autre femme !  Fadinard.  Oh ! oh ! qu’elle est bête !… un chapeau de paille pour… non, c’est pour un c",
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "window": "ceci est clair !",
+   "context": ", à part.  Je m’en doutais.  Malingear, se levant, ainsi que sa femme.  À la bonne heure, ceci est clair !… Oserais-je vous demander maintenant quelques renseignements…  Frédéric.  Sur ma famille.",
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "window": "ça ! Par exemple, il y a une chose contre laquelle je proteste formellement !",
+   "context": "e ; ils nous saluent de la leur… et voilà ! Ca peut durer une infinité de Rigoletto comme ça ! Par exemple, il y a une chose contre laquelle je proteste formellement !  Madame Ratinois.  Quoi donc ?  Ratinois, se levant.  Pour faire croire aux Malingear que",
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "window": "ça, je me tais !… (Tirant sa montre.) Deux heures et demie ! Bonjour !",
+   "context": "ne l’êtes pas, vous… et moi je le suis !…\" C’est de la gloriole !  Robert.  Ah ! si c’est ça, je me tais !… (Tirant sa montre.) Deux heures et demie ! Bonjour ! vous me reverrez tantôt !  Ratinois, étonné.  Ah !  Robert.  C’est aujourd’hui la fête de",
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "window": "Cela viendra ; l’avenir est à lui !",
+   "context": "n.) Mais, s’il n’a pas de causes, c’est comme s’il n’était pas avocat.  Madame Ratinois.  Cela viendra ; l’avenir est à lui !… Je ne comprends pas que tu aies accepté ce chiffre !  Ratinois.  Un jeune ménage qui a d",
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "window": "cela doit être charmant !",
+   "context": "Nankin en buisson d’ananas, surmontée d’un Chinois filé en sucre.  Madame Ratinois.  Oh ! cela doit être charmant !…  Ratinois.  Qu’est-ce que vous vendez ça ?  Le Maître d’Hôtel.  Soixante-quatre francs. ",
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "window": "ça va faire une histoire !",
+   "context": "uis Un Domestique  Ratinois.  Me voilà bien ! Il ne nous trouvera pas chez les Blanchard, ça va faire une histoire !  Frédéric, entrant, chargé de livres avec un stéréoscope.  Voici nos acquisitions.  Ratin",
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "window": "ça me fasse ? J’offre trois cent mille francs !",
+   "context": ".  Je n’hésite pas ! Cent mille francs de plus ou de moins… qu’est-ce que vous voulez que ça me fasse ? J’offre trois cent mille francs ! Voilà comme j’hésite !  Malingear, étonné.  Hein !… trois cents ?… Ratinois, à part.  Je ",
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "window": "cela fait ?…\" Et voilà des pères !… Bonsoir !",
+   "context": "rifier l’avenir, le bonheur de ses enfants… Ils s’aiment… mais on répond : \"Qu’est-ce que cela fait ?…\" Et voilà des pères !… Bonsoir !…  Il veut sortir.  Ratinois, le retenant vivement.  Mon oncle Robert, restez !… (Emu.) Mo",
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "window": "ceci.  Cela  serait  drôle  à  penser!",
+   "context": "faut  s'arrêter.  Tais-toi,  me  suis-je  dit,  Grémio;  holà,  mon  vieux  ,  point  de  ceci.  Cela  serait  drôle  à  penser!  penser  n'est  rien  :  qu'est-ce  qu'on  en  voit?  on  pense  ce  qu'on  veut.   Il  c",
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "window": "Cela  est  singulier!",
+   "context": "être  de  madame  Lucrèce.   ANDRÉ.   De  Lucrèce?   GRÉMIO.   Oui,  monsieur.   ANDRÉ.   Cela  est  singulier!   GRÉMIO.   Bref,  il  s'est  enfui  dans  le  parc.  J'ai  bien  appelé  et  crié  «u  v",
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "window": "Cela  est  singulier;  les  volets  sont  fermés  !",
+   "context": "et  toi  aussi.  Viens,  frappons  à  notre  porte,  et  allons  embrasser  notre  père.  Cela  est  singulier;  les  volets  sont  fermés  !  LE  PORTIER,  ouvrant.   Hélas  !  seigneur ,  vous  savez  les  nouvelles.   PIERRE.   ",
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "window": "cela.  [Il  regarde  à  sa  montre.)  Sept  heures  !",
+   "context": "tant  ,  qui,  de  bonne  foi,  n'est  pas  sans  douceur?  Cherchez,  voyez,  pensez  à  cela.  [Il  regarde  à  sa  montre.)  Sept  heures  !  il  faut  que  je  vous  quitte.  Je  suis  de  semaine  d'aujourd'hui.   JACQUELINE.   ",
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "window": "cela  va  sans  dire.  Pauvre  innocente  !",
+   "context": "i  prié...  je  l'ai  supplié...   MADAME    DE    LERY.   Et  il  n'eu  a  rien  fiiit;  cela  va  sans  dire.  Pauvre  innocente  !  il  u'est  pas  digue  de  vous  !   MATHILDE.   Ah  !  malgré  tout,  je  ne  le  croir",
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "window": "cela, risquer ma position, mon crédit !",
+   "context": " j’ai  soixante ans, j'ai quelque pouvoir, quelque richesse… et j'irais compromettre tout cela, risquer ma position, mon crédit !… Pourquoi, je vous le demande ?   LA REINE.   Pour arriver au premier rang ; pourvoir à v",
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "window": "ça a été un bien autre tapage !",
+   "context": "e la foule qui grossissait toujours ; mais en passant rue d’Altona, où sont nos ateliers, ça a été un bien autre tapage !… le bruit s’était déjà répandu qu’on avait voulu assassiner notre bourgeois, qu’il y avai",
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "window": "cela ne pouvait pas durer !",
+   "context": "’on entend dans le lointain n’ont plus rien d’effrayant.   GŒLHER.   Je le disais bien !… cela ne pouvait pas durer !  CHRISTINE.   Tout est donc terminé ?  FALKENSKIELD.   Pas encore ! mais cela va mieux.  ",
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "window": "cela signifie ? (Il ouvre la lettre, qu’il parcourt.) Ô ciel !",
+   "context": "e, et de la part du roi.   KOLLER, vivement.   Du roi !… est-il possible !… Qu’est-ce que cela signifie ? (Il ouvre la lettre, qu’il parcourt.) Ô ciel ! un pareil ordre !…  RATON, le regardant et s’adressant à sa femme et à Jean.   Vous voyez",
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "window": "cela ? elle est mère cependant !… elle a un fils !",
+   "context": "damné !  MARTHE.   Oui, mademoiselle. Struensée a signé, la reine a signé ; concevez-vous cela ? elle est mère cependant !… elle a un fils !  CHRISTINE.   Remettez-vous !… tout n’est pas perdu ; j’ai encore de l’espoir.   MARTHE. ",
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "window": "cela, il faut le connaître !",
+   "context": " ?… l’inconnu ?  LA REINE. Oui… tu me l’amèneras, cela te regarde !  ABIG., de même. Pour cela, il faut le connaître !  LA REINE, se retournant et apercevant Masham qui vient d’entrer par la porte du fond et ",
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "window": "cela me donne de l’espoir pour moi !",
+   "context": "ce au ciel ! la voix du sang agit enfin ! et vous voilà à merveille avec votre parente !… cela me donne de l’espoir pour moi !  LA DUCH., de même. En effet, vous m’avez prédit qu’un jour nous finirions par nous aimer",
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "window": "cela une demi-heure !",
+   "context": "oup éteinte cette haine attisée par moi, et qu’à tout prix je rallumerai ! Mais pour tout cela une demi-heure !…  ABIG., lui montrant la porte du fond, à gauche, qui s’ouvre. Quel bonheur !… c’est la r",
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "window": "cela grâce à un verre d’eau !",
+   "context": ", lui remettant les papiers que la reine a signés. Bolingbroke, ministre !…  BOL. Et tout cela grâce à un verre d’eau ! ",
+   "file": "scribe-verre-d-eau.txt"
+  }
+ ]
+}

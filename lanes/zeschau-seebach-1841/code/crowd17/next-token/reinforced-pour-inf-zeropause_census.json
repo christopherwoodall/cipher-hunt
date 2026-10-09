@@ -1,0 +1,210 @@
+{
+ "census_1841_register": {
+  "files": [
+   {
+    "file": "guizot-memoires-t1-gutenberg.txt",
+    "chars": 769437,
+    "zero_pause_occurrences": 21,
+    "candidates": 0
+   },
+   {
+    "file": "guizot-memoires-t2-gutenberg.txt",
+    "chars": 830700,
+    "zero_pause_occurrences": 25,
+    "candidates": 0
+   },
+   {
+    "file": "guizot-memoires-t3-gutenberg.txt",
+    "chars": 852681,
+    "zero_pause_occurrences": 20,
+    "candidates": 1
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "chars": 1992545,
+    "zero_pause_occurrences": 36,
+    "candidates": 0
+   },
+   {
+    "file": "harvest-log.txt",
+    "chars": 1755,
+    "zero_pause_occurrences": 0,
+    "candidates": 0
+   },
+   {
+    "file": "levant-correspondence-1841-p3.txt",
+    "chars": 1690926,
+    "zero_pause_occurrences": 12,
+    "candidates": 0
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "chars": 1492023,
+    "zero_pause_occurrences": 59,
+    "candidates": 0
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "chars": 1723645,
+    "zero_pause_occurrences": 62,
+    "candidates": 0
+   },
+   {
+    "file": "nesselrode-v10.txt",
+    "chars": 556659,
+    "zero_pause_occurrences": 27,
+    "candidates": 0
+   },
+   {
+    "file": "nesselrode-v7.txt",
+    "chars": 521560,
+    "zero_pause_occurrences": 25,
+    "candidates": 1
+   },
+   {
+    "file": "nesselrode-v8.txt",
+    "chars": 614206,
+    "zero_pause_occurrences": 48,
+    "candidates": 0
+   },
+   {
+    "file": "nesselrode-v9.txt",
+    "chars": 498642,
+    "zero_pause_occurrences": 25,
+    "candidates": 1
+   },
+   {
+    "file": "pozzo-di-borgo-correspondance-v1.txt",
+    "chars": 1001901,
+    "zero_pause_occurrences": 47,
+    "candidates": 0
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "chars": 3013552,
+    "zero_pause_occurrences": 110,
+    "candidates": 0
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "chars": 2964405,
+    "zero_pause_occurrences": 89,
+    "candidates": 1
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "chars": 3054350,
+    "zero_pause_occurrences": 115,
+    "candidates": 0
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "chars": 3165234,
+    "zero_pause_occurrences": 81,
+    "candidates": 1
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "chars": 926037,
+    "zero_pause_occurrences": 29,
+    "candidates": 0
+   }
+  ],
+  "total_chars": 25670258,
+  "zero_pause_occurrences": 831,
+  "candidates": [
+   {
+    "dem": "ceux-ci",
+    "offset": 677865,
+    "after_head": " sont\npurs et braves; ils ne chérissent l'existence que parce qu'elle leur\ndonne",
+    "window": "Ceux-ci sont\npurs et braves; ils ne chérissent l'existence que parce qu'elle leur\ndonne la faculté d'aimer et de servir leur patrie; c'est pourquoi aussi\non les emprisonne, on les assomme dans les rues, ou on les envoie à\nAlger!",
+    "capped": false,
+    "gov_inf_hits": [
+     "de + de servir",
+     "à + à\nalger"
+    ],
+    "tight_gov_inf": [],
+    "file": "guizot-memoires-t3-gutenberg.txt"
+   },
+   {
+    "dem": "celle-ci",
+    "offset": 210608,
+    "after_head": "  suffiraient  pour  rendre  célèbre \nune  administration  ;  les  avoir  réalis",
+    "window": "celle-ci  suffiraient  pour  rendre  célèbre \nune  administration  ;  les  avoir  réalisées  dans  l'espace \nd'une  année,  c'est  beaucoup  !",
+    "capped": false,
+    "gov_inf_hits": [
+     "pour + pour  rendre  célèbre"
+    ],
+    "tight_gov_inf": [
+     "pour + pour  rendre  célèbre"
+    ],
+    "file": "nesselrode-v7.txt"
+   },
+   {
+    "dem": "celle-ci",
+    "offset": 451769,
+    "after_head": " nous a bien attristés ; tout ce qu’il y a de bon \ndans ce monde est donc destin",
+    "window": "Celle-ci nous a bien attristés ; tout ce qu’il y a de bon \ndans ce monde est donc destiné à disparaître !",
+    "capped": false,
+    "gov_inf_hits": [
+     "à + à disparaître"
+    ],
+    "tight_gov_inf": [],
+    "file": "nesselrode-v9.txt"
+   },
+   {
+    "dem": "celui-ci",
+    "offset": 602576,
+    "after_head": "  propose,  et  de  traiter  avec  lui  d'égal  à \négal!",
+    "window": "celui-ci  propose,  et  de  traiter  avec  lui  d'égal  à \négal!",
+    "capped": false,
+    "gov_inf_hits": [
+     "de + de  traiter"
+    ],
+    "tight_gov_inf": [
+     "de + de  traiter"
+    ],
+    "file": "revue-deux-mondes-1841-q2.txt"
+   },
+   {
+    "dem": "celui-ci",
+    "offset": 847271,
+    "after_head": "  se  fût  tenu  à  ce  premier  triomphe!",
+    "window": "celui-ci  se  fût  tenu  à  ce  premier  triomphe!",
+    "capped": false,
+    "gov_inf_hits": [
+     "à + à  ce  premier"
+    ],
+    "tight_gov_inf": [
+     "à + à  ce  premier"
+    ],
+    "file": "revue-deux-mondes-1841-q4.txt"
+   }
+  ]
+ },
+ "census_wider_19c": {
+  "files": [
+   {
+    "file": "gutenberg-17489-miserables1.txt",
+    "chars": 677686,
+    "zero_pause_occurrences": 18,
+    "candidates": 0
+   },
+   {
+    "file": "gutenberg-30513-tocqueville-t1.txt",
+    "chars": 597763,
+    "zero_pause_occurrences": 30,
+    "candidates": 0
+   },
+   {
+    "file": "gutenberg-30514-tocqueville-t2.txt",
+    "chars": 712233,
+    "zero_pause_occurrences": 50,
+    "candidates": 0
+   }
+  ],
+  "total_chars": 1987682,
+  "zero_pause_occurrences": 98,
+  "candidates": []
+ }
+}

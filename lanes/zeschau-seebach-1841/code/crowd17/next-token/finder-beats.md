@@ -50,6 +50,18 @@ confidence × testability, write to
 | f-qui-par full read | 43/01 profiles + formula French; the 6-gram is resolving from the edges | complete — next-token-findings-f-qui-par.md (2026-10-08) |
 | est-reexam | crowd16 est-finder's fenced-leftover challenge vs A1 grant: re-derive fencing window by window for red-team adjudication | complete — next-token-findings-est-reexam.md (2026-10-08) |
 
+## Wave 3 (proposed from null-mandated follow-ups, status: queued)
+
+Spawned by the supervisor when null batteries propose finder-type sweeps.
+Each beat: extract windows from the repaired 1,847-pair stream, cluster by
+follower pattern first, predict from 1840s diplomatic French, rank by
+confidence × testability, write to
+`code/crowd17/report_inbox/next-token-findings-<beat>.md`. Nulls are results.
+
+| beat | why now | status |
+|---|---|---|
+| neque-instance-sweep | neque-bracket-verb-search NULL (2026-10-09): classify all six 94…46 windows stream-wide — is the @1687 empty-slot anomaly a singleton or part of a wider 94→79 adjacency pattern? | queued |
+
 ## Beat method (all waves)
 
 1. Extract every target occurrence ±3 groups from the repaired stream.

@@ -1,0 +1,5929 @@
+{
+ "target": "gov-excl-inf-recall",
+ "date": "2026-10-09",
+ "census_script": "code/crowd17/next-token/gov_excl_inf_recall_census.py",
+ "census_json": "code/crowd17/next-token/gov-excl-inf-recall_census.json",
+ "corpus": {
+  "files_1841": 18,
+  "chars_1841": 25670258,
+  "files_wider": 3,
+  "chars_wider": 1987682,
+  "total_chars": 27657940,
+  "bang": 5896,
+  "qmark": 7758,
+  "identity": "byte-identical file set to parent battery (asserted in-session)"
+ },
+ "auto_A_denylist": [
+  "aber",
+  "aboukir",
+  "affaire",
+  "angleterre",
+  "arrière",
+  "autre",
+  "avenir",
+  "aventure",
+  "barbare",
+  "baviere",
+  "bavière",
+  "beer",
+  "berger",
+  "bière",
+  "caractère",
+  "carrossier",
+  "cendre",
+  "chambre",
+  "cher",
+  "colleter",
+  "colère",
+  "commodore",
+  "contraire",
+  "contre",
+  "célèbre",
+  "d'acre",
+  "d'autre",
+  "damier",
+  "dampierre",
+  "dernier",
+  "derniere",
+  "dernière",
+  "dictature",
+  "dictionnaire",
+  "droiture",
+  "désarpier",
+  "désastre",
+  "désire",
+  "empire",
+  "empörter",
+  "encore",
+  "enterre",
+  "entier",
+  "entre",
+  "espoir",
+  "fardier",
+  "fautre",
+  "fiacre",
+  "figure",
+  "fordre",
+  "foyer",
+  "frère",
+  "galaizière",
+  "genre",
+  "giinther",
+  "gloire",
+  "grenadier",
+  "grégoire",
+  "guerre",
+  "guiser",
+  "guêpier",
+  "heure",
+  "histoire",
+  "iieure",
+  "insulaire",
+  "intermédiaire",
+  "intérieure",
+  "jupiter",
+  "koir",
+  "l'affaire",
+  "l'angleterre",
+  "l'anjïleterre",
+  "l'autre",
+  "l'avenir",
+  "l'empire",
+  "l'heure",
+  "l'histoire",
+  "l'ombre",
+  "l'ouvrier",
+  "l'équilibre",
+  "l'étranger",
+  "l'étrangére",
+  "lavoisier",
+  "letellier",
+  "lettre",
+  "libre",
+  "livre",
+  "lumière",
+  "lyser",
+  "légère",
+  "maire",
+  "maitre",
+  "manière",
+  "massacre",
+  "matière",
+  "maître",
+  "mesure",
+  "ministre",
+  "ministère",
+  "misère",
+  "miutaire",
+  "moindre",
+  "moinsd'enadmirer",
+  "montpellier",
+  "mystère",
+  "mère",
+  "mémoire",
+  "métier",
+  "müller",
+  "nature",
+  "noir",
+  "nomenclature",
+  "notre",
+  "novembre",
+  "nécessaire",
+  "oeuvre",
+  "ombre",
+  "ordre",
+  "outre",
+  "palmer",
+  "papier",
+  "pauvre",
+  "peinture",
+  "plaisir",
+  "pontarlier",
+  "poudre",
+  "premier",
+  "première",
+  "propre",
+  "prêtre",
+  "père",
+  "qu'engendre",
+  "quatre",
+  "ratt'ermir",
+  "raumer",
+  "rességuier",
+  "rivière",
+  "routier",
+  "régulier",
+  "salaire",
+  "septembre",
+  "signature",
+  "solitaire",
+  "speare",
+  "sphère",
+  "surgére",
+  "tempre",
+  "terre",
+  "territoire",
+  "thénardier",
+  "théodore",
+  "tionner",
+  "titre",
+  "toire",
+  "traître",
+  "vibre",
+  "voire",
+  "votre",
+  "vôtre",
+  "werther"
+ ],
+ "tight_decisions": {
+  "0": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 36022,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "m'attaquer"
+  },
+  "1": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 102371,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "diviser"
+  },
+  "2": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 127575,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "s'accomplir"
+  },
+  "3": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 530760,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "rester"
+  },
+  "4": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 549443,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "contenir"
+  },
+  "5": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 602663,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "juger"
+  },
+  "6": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "term_offset": 440202,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "perdre"
+  },
+  "7": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "term_offset": 694464,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "l'empêcher"
+  },
+  "8": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "term_offset": 21725,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "soutenir"
+  },
+  "9": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "term_offset": 87594,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "faire"
+  },
+  "10": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "term_offset": 287411,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "succomber"
+  },
+  "11": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "term_offset": 445460,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "donner"
+  },
+  "12": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 302517,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "réorganiser"
+  },
+  "13": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 693734,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "faire"
+  },
+  "14": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 1097218,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "démembrer"
+  },
+  "15": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 1329107,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "l'obtenir"
+  },
+  "16": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 1652898,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "fonder"
+  },
+  "17": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 1938068,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "ôter"
+  },
+  "18": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 169122,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "coucher"
+  },
+  "19": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 299475,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "t'aimer"
+  },
+  "20": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 509607,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "dénoncer"
+  },
+  "21": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 536302,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "vendre"
+  },
+  "22": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 536770,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "louer"
+  },
+  "23": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 537026,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "vendre"
+  },
+  "24": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 538606,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "louer"
+  },
+  "25": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 576118,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "suivre"
+  },
+  "26": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 591481,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "condamner"
+  },
+  "27": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 609766,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "dire"
+  },
+  "28": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 18225,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "flatter"
+  },
+  "29": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 48419,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "agir"
+  },
+  "30": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 48608,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "faire"
+  },
+  "31": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 116772,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "parcourir"
+  },
+  "32": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 179524,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "dire"
+  },
+  "33": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 219317,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "voter"
+  },
+  "34": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 535555,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "parvenir"
+  },
+  "35": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 538075,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "s'affaiblir"
+  },
+  "36": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 123215,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "resoudre"
+  },
+  "37": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 1163023,
+   "dist": 0,
+   "prep": "a",
+   "infinitive_shaped": "tomber"
+  },
+  "38": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 1308670,
+   "dist": 0,
+   "prep": "a",
+   "infinitive_shaped": "diner"
+  },
+  "39": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 1413925,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "repeter"
+  },
+  "40": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 127933,
+   "dist": 0,
+   "prep": "a",
+   "infinitive_shaped": "recommander"
+  },
+  "41": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 375671,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "m'e'couter"
+  },
+  "42": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 393748,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "changer"
+  },
+  "43": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 455207,
+   "dist": 0,
+   "prep": "a",
+   "infinitive_shaped": "etablir"
+  },
+  "44": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 672802,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "vouloir"
+  },
+  "45": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 877328,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "completer"
+  },
+  "46": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 916965,
+   "dist": 0,
+   "prep": "a",
+   "infinitive_shaped": "rencontrer"
+  },
+  "47": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1052169,
+   "dist": 0,
+   "prep": "a",
+   "infinitive_shaped": "aider"
+  },
+  "48": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1164351,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "rencontrer"
+  },
+  "49": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1171874,
+   "dist": 0,
+   "prep": "a",
+   "infinitive_shaped": "tattaquer"
+  },
+  "50": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1703503,
+   "dist": 0,
+   "prep": "a",
+   "infinitive_shaped": "confectionner"
+  },
+  "51": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v10.txt",
+   "term_offset": 32813,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "renvoyer"
+  },
+  "52": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v10.txt",
+   "term_offset": 438464,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "dire"
+  },
+  "53": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v7.txt",
+   "term_offset": 396429,
+   "dist": 0,
+   "prep": "a",
+   "infinitive_shaped": "rire"
+  },
+  "54": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v8.txt",
+   "term_offset": 58870,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "surgir"
+  },
+  "55": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v8.txt",
+   "term_offset": 330689,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "m'envoyer"
+  },
+  "56": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v8.txt",
+   "term_offset": 495145,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "défendre"
+  },
+  "57": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v9.txt",
+   "term_offset": 198328,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "entendre"
+  },
+  "58": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 81965,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "redire"
+  },
+  "59": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 526880,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "secouer"
+  },
+  "60": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 541875,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "louer"
+  },
+  "61": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 542037,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "vendre"
+  },
+  "62": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 542515,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "aller"
+  },
+  "63": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 646238,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "prendre"
+  },
+  "64": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 851756,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "défendre"
+  },
+  "65": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1249928,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "souffrir"
+  },
+  "66": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1281737,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "occuper"
+  },
+  "67": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1332277,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "voler"
+  },
+  "68": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1385880,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "mourir"
+  },
+  "69": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1398948,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "maltraiter"
+  },
+  "70": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1530073,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "accepter"
+  },
+  "71": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1532971,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "renouer"
+  },
+  "72": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1677335,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "réfuter"
+  },
+  "73": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1700891,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "l'adorer"
+  },
+  "74": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1733236,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "réaliser"
+  },
+  "75": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1735232,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "créer"
+  },
+  "76": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2108544,
+   "dist": 0,
+   "prep": "a",
+   "infinitive_shaped": "imiter"
+  },
+  "77": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2434426,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "produire"
+  },
+  "78": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2765504,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "dire"
+  },
+  "79": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2908845,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "perdre"
+  },
+  "80": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2975452,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "l'approprier"
+  },
+  "81": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 510911,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "dire"
+  },
+  "82": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1047391,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "dire"
+  },
+  "83": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1162112,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "chanter"
+  },
+  "84": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1420212,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "recommander"
+  },
+  "85": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1746865,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "préférer"
+  },
+  "86": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1789148,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "aimer"
+  },
+  "87": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1819534,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "gouverner"
+  },
+  "88": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1852879,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "céder"
+  },
+  "89": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1854168,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "former"
+  },
+  "90": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1889425,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "combattre"
+  },
+  "91": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1905972,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "concevoir"
+  },
+  "92": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1920485,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "communiquer"
+  },
+  "93": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1921355,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "acquérir"
+  },
+  "94": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1936943,
+   "dist": 0,
+   "prep": "a",
+   "infinitive_shaped": "faire"
+  },
+  "95": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2076775,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "former"
+  },
+  "96": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2504611,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "céder"
+  },
+  "97": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2785270,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "voir"
+  },
+  "98": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 915829,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "t'armer"
+  },
+  "99": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1151552,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "retirer"
+  },
+  "100": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1179029,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "retirer"
+  },
+  "101": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1258630,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "augmenter"
+  },
+  "102": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1689449,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "diriger"
+  },
+  "103": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2054237,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "réaliser"
+  },
+  "104": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2117128,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "fortifier"
+  },
+  "105": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2121255,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "empêcher"
+  },
+  "106": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2255747,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "guérir"
+  },
+  "107": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2310939,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "émouvoir"
+  },
+  "108": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2538365,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "résoudre"
+  },
+  "109": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2811729,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "tromper"
+  },
+  "110": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2835206,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "déclarer"
+  },
+  "111": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2941327,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "parler"
+  },
+  "112": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 3039606,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "sortir"
+  },
+  "113": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 38518,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "deviner"
+  },
+  "114": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 76368,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "refuser"
+  },
+  "115": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 78828,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "prendre"
+  },
+  "116": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 82061,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "dire"
+  },
+  "117": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 106108,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "faire"
+  },
+  "118": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 175736,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "sourire"
+  },
+  "119": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 331415,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "dire"
+  },
+  "120": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 565344,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "l'exercer"
+  },
+  "121": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 811867,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "faire"
+  },
+  "122": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 834082,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "engloutir"
+  },
+  "123": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 835911,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "dire"
+  },
+  "124": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 852621,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "revoir"
+  },
+  "125": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 872925,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "dire"
+  },
+  "126": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 903251,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "recevoir"
+  },
+  "127": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 924724,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "réjouir"
+  },
+  "128": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 946338,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "dire"
+  },
+  "129": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1129704,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "retirer"
+  },
+  "130": {
+   "cause": "A",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1200946,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "l'enfer"
+  },
+  "131": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1212590,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "compromettre"
+  },
+  "132": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1220155,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "défendre"
+  },
+  "133": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1456048,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "demander"
+  },
+  "134": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1475731,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "dédaigner"
+  },
+  "135": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1476842,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "s'organiser"
+  },
+  "136": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1573953,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "violer"
+  },
+  "137": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1603955,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "défendre"
+  },
+  "138": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1657134,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "franchir"
+  },
+  "139": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1863984,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "prononcer"
+  },
+  "140": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1873012,
+   "dist": 0,
+   "prep": "a",
+   "infinitive_shaped": "confier"
+  },
+  "141": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1902827,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "s'établir"
+  },
+  "142": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2571609,
+   "dist": 0,
+   "prep": "a",
+   "infinitive_shaped": "venir"
+  },
+  "143": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2571829,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "mourir"
+  },
+  "144": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2879042,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "souvenir"
+  },
+  "145": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2963344,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "séparer"
+  },
+  "146": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 3121523,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "soutenir"
+  },
+  "147": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 401525,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "désapprouver"
+  },
+  "148": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 509898,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "voir"
+  },
+  "149": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "levant-correspondence-1841-p3.txt",
+   "term_offset": 625978,
+   "dist": 1,
+   "prep": "pour",
+   "infinitive_shaped": "rattacher"
+  },
+  "150": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "levant-correspondence-1841-p3.txt",
+   "term_offset": 1167926,
+   "dist": 1,
+   "prep": "pour",
+   "infinitive_shaped": "manifester"
+  },
+  "151": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "levant-correspondence-1841-p3.txt",
+   "term_offset": 1288670,
+   "dist": 1,
+   "prep": "de",
+   "infinitive_shaped": "gouverner"
+  },
+  "152": {
+   "cause": "A",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 4410,
+   "dist": 1,
+   "prep": "de",
+   "infinitive_shaped": "tembre"
+  },
+  "153": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 176858,
+   "dist": 1,
+   "prep": "de",
+   "infinitive_shaped": "durer"
+  },
+  "154": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 506662,
+   "dist": 2,
+   "prep": "à",
+   "infinitive_shaped": "faire"
+  },
+  "155": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 1274681,
+   "dist": 2,
+   "prep": "à",
+   "infinitive_shaped": "souffrir"
+  },
+  "156": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 1633339,
+   "dist": 2,
+   "prep": "de",
+   "infinitive_shaped": "répandre"
+  },
+  "157": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 1770066,
+   "dist": 2,
+   "prep": "a",
+   "infinitive_shaped": "espérer"
+  },
+  "158": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 961405,
+   "dist": 2,
+   "prep": "de",
+   "infinitive_shaped": "comprendre"
+  },
+  "159": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 1053646,
+   "dist": 2,
+   "prep": "a",
+   "infinitive_shaped": "commettre"
+  },
+  "160": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 1115510,
+   "dist": 2,
+   "prep": "de",
+   "infinitive_shaped": "developper"
+  },
+  "161": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "term_offset": 269147,
+   "dist": 2,
+   "prep": "pour",
+   "infinitive_shaped": "parvenir"
+  },
+  "162": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1617603,
+   "dist": 2,
+   "prep": "de",
+   "infinitive_shaped": "revivre"
+  },
+  "163": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1908262,
+   "dist": 2,
+   "prep": "de",
+   "infinitive_shaped": "combattre"
+  },
+  "164": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 164680,
+   "dist": 4,
+   "prep": "pour",
+   "infinitive_shaped": "aller"
+  },
+  "165": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 1144132,
+   "dist": 5,
+   "prep": "de",
+   "infinitive_shaped": "s'engager"
+  },
+  "166": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 171239,
+   "dist": 5,
+   "prep": "à",
+   "infinitive_shaped": "gagner"
+  },
+  "167": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v8.txt",
+   "term_offset": 245131,
+   "dist": 5,
+   "prep": "de",
+   "infinitive_shaped": "vouloir"
+  },
+  "168": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 546519,
+   "dist": 5,
+   "prep": "pour",
+   "infinitive_shaped": "substituer"
+  },
+  "169": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 724088,
+   "dist": 6,
+   "prep": "de",
+   "infinitive_shaped": "dire"
+  },
+  "170": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 434955,
+   "dist": 6,
+   "prep": "de",
+   "infinitive_shaped": "laisser"
+  },
+  "171": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1650043,
+   "dist": 6,
+   "prep": "à",
+   "infinitive_shaped": "démontrer"
+  },
+  "172": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1266120,
+   "dist": 7,
+   "prep": "pour",
+   "infinitive_shaped": "donner"
+  },
+  "173": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 91121,
+   "dist": 8,
+   "prep": "de",
+   "infinitive_shaped": "murmurer"
+  },
+  "174": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 182161,
+   "dist": 8,
+   "prep": "de",
+   "infinitive_shaped": "toucher"
+  },
+  "175": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 407479,
+   "dist": 8,
+   "prep": "à",
+   "infinitive_shaped": "être"
+  },
+  "176": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 111160,
+   "dist": 8,
+   "prep": "de",
+   "infinitive_shaped": "m'abandonner"
+  },
+  "177": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2073883,
+   "dist": 8,
+   "prep": "à",
+   "infinitive_shaped": "écouter"
+  },
+  "178": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 3096626,
+   "dist": 8,
+   "prep": "à",
+   "infinitive_shaped": "laisser"
+  },
+  "179": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 467337,
+   "dist": 9,
+   "prep": "à",
+   "infinitive_shaped": "être"
+  },
+  "180": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 386048,
+   "dist": 9,
+   "prep": "pour",
+   "infinitive_shaped": "sauver"
+  },
+  "181": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 198392,
+   "dist": 9,
+   "prep": "de",
+   "infinitive_shaped": "briller"
+  },
+  "182": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 220257,
+   "dist": 9,
+   "prep": "de",
+   "infinitive_shaped": "désobéir"
+  },
+  "183": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 779018,
+   "dist": 9,
+   "prep": "pour",
+   "infinitive_shaped": "atteindre"
+  },
+  "184": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1060891,
+   "dist": 9,
+   "prep": "de",
+   "infinitive_shaped": "faire"
+  },
+  "185": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1437653,
+   "dist": 9,
+   "prep": "de",
+   "infinitive_shaped": "pouvoir"
+  },
+  "186": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2745397,
+   "dist": 9,
+   "prep": "de",
+   "infinitive_shaped": "tenir"
+  },
+  "187": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1062511,
+   "dist": 9,
+   "prep": "de",
+   "infinitive_shaped": "devenir"
+  },
+  "188": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1876301,
+   "dist": 9,
+   "prep": "à",
+   "infinitive_shaped": "perdre"
+  },
+  "189": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1328077,
+   "dist": 9,
+   "prep": "de",
+   "infinitive_shaped": "composer"
+  },
+  "190": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 129553,
+   "dist": 9,
+   "prep": "pour",
+   "infinitive_shaped": "rendre"
+  },
+  "191": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 946690,
+   "dist": 9,
+   "prep": "à",
+   "infinitive_shaped": "dire"
+  },
+  "192": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1502967,
+   "dist": 9,
+   "prep": "à",
+   "infinitive_shaped": "manifester"
+  },
+  "193": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1851445,
+   "dist": 9,
+   "prep": "pour",
+   "infinitive_shaped": "obtenir"
+  },
+  "194": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2282331,
+   "dist": 9,
+   "prep": "pour",
+   "infinitive_shaped": "trouver"
+  },
+  "195": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2357625,
+   "dist": 9,
+   "prep": "de",
+   "infinitive_shaped": "tenir"
+  },
+  "196": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 603922,
+   "dist": 10,
+   "prep": "pour",
+   "infinitive_shaped": "chanceler"
+  },
+  "197": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 560592,
+   "dist": 10,
+   "prep": "à",
+   "infinitive_shaped": "dire"
+  },
+  "198": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v7.txt",
+   "term_offset": 254313,
+   "dist": 10,
+   "prep": "à",
+   "infinitive_shaped": "apprendre"
+  },
+  "199": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 80511,
+   "dist": 10,
+   "prep": "de",
+   "infinitive_shaped": "quitter"
+  },
+  "200": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 541885,
+   "dist": 10,
+   "prep": "à",
+   "infinitive_shaped": "louer"
+  },
+  "201": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1255463,
+   "dist": 10,
+   "prep": "de",
+   "infinitive_shaped": "conserver"
+  },
+  "202": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1279182,
+   "dist": 10,
+   "prep": "pour",
+   "infinitive_shaped": "mettre"
+  },
+  "203": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1858277,
+   "dist": 10,
+   "prep": "à",
+   "infinitive_shaped": "donner"
+  },
+  "204": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2022199,
+   "dist": 10,
+   "prep": "de",
+   "infinitive_shaped": "représenter"
+  },
+  "205": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2769074,
+   "dist": 10,
+   "prep": "à",
+   "infinitive_shaped": "chercher"
+  },
+  "206": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2800532,
+   "dist": 10,
+   "prep": "de",
+   "infinitive_shaped": "refuser"
+  },
+  "207": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 452685,
+   "dist": 11,
+   "prep": "à",
+   "infinitive_shaped": "plaindre"
+  },
+  "208": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 494354,
+   "dist": 11,
+   "prep": "à",
+   "infinitive_shaped": "songer"
+  },
+  "209": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 528276,
+   "dist": 11,
+   "prep": "a",
+   "infinitive_shaped": "demander"
+  },
+  "210": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 539288,
+   "dist": 11,
+   "prep": "pour",
+   "infinitive_shaped": "raccommoder"
+  },
+  "211": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 543294,
+   "dist": 11,
+   "prep": "à",
+   "infinitive_shaped": "revenir"
+  },
+  "212": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1109525,
+   "dist": 11,
+   "prep": "de",
+   "infinitive_shaped": "retirer"
+  },
+  "213": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v10.txt",
+   "term_offset": 275117,
+   "dist": 11,
+   "prep": "à",
+   "infinitive_shaped": "visiter"
+  },
+  "214": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v8.txt",
+   "term_offset": 586086,
+   "dist": 11,
+   "prep": "pour",
+   "infinitive_shaped": "faire"
+  },
+  "215": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v9.txt",
+   "term_offset": 22777,
+   "dist": 11,
+   "prep": "de",
+   "infinitive_shaped": "réunir"
+  },
+  "216": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 542048,
+   "dist": 11,
+   "prep": "à",
+   "infinitive_shaped": "vendre"
+  },
+  "217": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 770915,
+   "dist": 11,
+   "prep": "à",
+   "infinitive_shaped": "n'être"
+  },
+  "218": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1262047,
+   "dist": 11,
+   "prep": "de",
+   "infinitive_shaped": "ravir"
+  },
+  "219": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2103519,
+   "dist": 11,
+   "prep": "à",
+   "infinitive_shaped": "combattre"
+  },
+  "220": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2446210,
+   "dist": 11,
+   "prep": "à",
+   "infinitive_shaped": "oublier"
+  },
+  "221": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2694296,
+   "dist": 11,
+   "prep": "à",
+   "infinitive_shaped": "analyser"
+  },
+  "222": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 999618,
+   "dist": 11,
+   "prep": "de",
+   "infinitive_shaped": "parler"
+  },
+  "223": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1013440,
+   "dist": 11,
+   "prep": "à",
+   "infinitive_shaped": "faire"
+  },
+  "224": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1520057,
+   "dist": 11,
+   "prep": "pour",
+   "infinitive_shaped": "remontrer"
+  },
+  "225": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1902340,
+   "dist": 11,
+   "prep": "à",
+   "infinitive_shaped": "n'être"
+  },
+  "226": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2258039,
+   "dist": 11,
+   "prep": "pour",
+   "infinitive_shaped": "perdre"
+  },
+  "227": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2954305,
+   "dist": 11,
+   "prep": "à",
+   "infinitive_shaped": "songer"
+  },
+  "228": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 830318,
+   "dist": 11,
+   "prep": "pour",
+   "infinitive_shaped": "chercher"
+  },
+  "229": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1196438,
+   "dist": 11,
+   "prep": "de",
+   "infinitive_shaped": "méditer"
+  },
+  "230": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1718103,
+   "dist": 11,
+   "prep": "à",
+   "infinitive_shaped": "dire"
+  },
+  "231": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1752872,
+   "dist": 11,
+   "prep": "a",
+   "infinitive_shaped": "fier"
+  },
+  "232": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2855140,
+   "dist": 11,
+   "prep": "de",
+   "infinitive_shaped": "donner"
+  },
+  "233": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2892645,
+   "dist": 11,
+   "prep": "de",
+   "infinitive_shaped": "charmer"
+  },
+  "234": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "term_offset": 694560,
+   "dist": 12,
+   "prep": "de",
+   "infinitive_shaped": "réveiller"
+  },
+  "235": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 555677,
+   "dist": 12,
+   "prep": "de",
+   "infinitive_shaped": "ratifier"
+  },
+  "236": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 500007,
+   "dist": 12,
+   "prep": "à",
+   "infinitive_shaped": "dire"
+  },
+  "237": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 23019,
+   "dist": 12,
+   "prep": "a",
+   "infinitive_shaped": "blesser"
+  },
+  "238": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1173027,
+   "dist": 12,
+   "prep": "de",
+   "infinitive_shaped": "rendre"
+  },
+  "239": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v7.txt",
+   "term_offset": 442520,
+   "dist": 12,
+   "prep": "de",
+   "infinitive_shaped": "passer"
+  },
+  "240": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v9.txt",
+   "term_offset": 464164,
+   "dist": 12,
+   "prep": "de",
+   "infinitive_shaped": "m'écrire"
+  },
+  "241": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "term_offset": 344628,
+   "dist": 12,
+   "prep": "pour",
+   "infinitive_shaped": "croire"
+  },
+  "242": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1736312,
+   "dist": 12,
+   "prep": "de",
+   "infinitive_shaped": "créer"
+  },
+  "243": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1776105,
+   "dist": 12,
+   "prep": "pour",
+   "infinitive_shaped": "baiser"
+  },
+  "244": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1046874,
+   "dist": 12,
+   "prep": "de",
+   "infinitive_shaped": "signer"
+  },
+  "245": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1108045,
+   "dist": 12,
+   "prep": "de",
+   "infinitive_shaped": "confesser"
+  },
+  "246": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1196514,
+   "dist": 12,
+   "prep": "à",
+   "infinitive_shaped": "adoucir"
+  },
+  "247": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2726234,
+   "dist": 12,
+   "prep": "de",
+   "infinitive_shaped": "emparer"
+  },
+  "248": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 100364,
+   "dist": 13,
+   "prep": "de",
+   "infinitive_shaped": "faire"
+  },
+  "249": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1709207,
+   "dist": 13,
+   "prep": "de",
+   "infinitive_shaped": "nier"
+  },
+  "250": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v7.txt",
+   "term_offset": 359756,
+   "dist": 13,
+   "prep": "à",
+   "infinitive_shaped": "écraser"
+  },
+  "251": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v8.txt",
+   "term_offset": 447042,
+   "dist": 13,
+   "prep": "à",
+   "infinitive_shaped": "envier"
+  },
+  "252": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v9.txt",
+   "term_offset": 276137,
+   "dist": 13,
+   "prep": "à",
+   "infinitive_shaped": "s'appuyer"
+  },
+  "253": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 421891,
+   "dist": 13,
+   "prep": "de",
+   "infinitive_shaped": "servir"
+  },
+  "254": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1245958,
+   "dist": 13,
+   "prep": "à",
+   "infinitive_shaped": "porter"
+  },
+  "255": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1676308,
+   "dist": 13,
+   "prep": "de",
+   "infinitive_shaped": "croire"
+  },
+  "256": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1935254,
+   "dist": 13,
+   "prep": "de",
+   "infinitive_shaped": "ramener"
+  },
+  "257": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2607702,
+   "dist": 13,
+   "prep": "de",
+   "infinitive_shaped": "considérer"
+  },
+  "258": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 76410,
+   "dist": 13,
+   "prep": "à",
+   "infinitive_shaped": "orner"
+  },
+  "259": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1599301,
+   "dist": 13,
+   "prep": "pour",
+   "infinitive_shaped": "étouffer"
+  },
+  "260": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2114912,
+   "dist": 13,
+   "prep": "à",
+   "infinitive_shaped": "repasser"
+  },
+  "261": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 915559,
+   "dist": 13,
+   "prep": "de",
+   "infinitive_shaped": "absenter"
+  },
+  "262": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1751116,
+   "dist": 13,
+   "prep": "de",
+   "infinitive_shaped": "ruiner"
+  },
+  "263": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 604005,
+   "dist": 14,
+   "prep": "à",
+   "infinitive_shaped": "confesser"
+  },
+  "264": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "term_offset": 445698,
+   "dist": 14,
+   "prep": "de",
+   "infinitive_shaped": "garder"
+  },
+  "265": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 460611,
+   "dist": 14,
+   "prep": "de",
+   "infinitive_shaped": "débattre"
+  },
+  "266": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 571108,
+   "dist": 14,
+   "prep": "de",
+   "infinitive_shaped": "pénétrer"
+  },
+  "267": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 1091590,
+   "dist": 14,
+   "prep": "a",
+   "infinitive_shaped": "adresser"
+  },
+  "268": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 315351,
+   "dist": 14,
+   "prep": "de",
+   "infinitive_shaped": "chercher"
+  },
+  "269": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2641954,
+   "dist": 14,
+   "prep": "a",
+   "infinitive_shaped": "passer"
+  },
+  "270": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1310069,
+   "dist": 14,
+   "prep": "de",
+   "infinitive_shaped": "refaire"
+  },
+  "271": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 235478,
+   "dist": 15,
+   "prep": "à",
+   "infinitive_shaped": "débattre"
+  },
+  "272": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 400931,
+   "dist": 15,
+   "prep": "pour",
+   "infinitive_shaped": "demander"
+  },
+  "273": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 1128290,
+   "dist": 15,
+   "prep": "à",
+   "infinitive_shaped": "faire"
+  },
+  "274": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 474563,
+   "dist": 15,
+   "prep": "pour",
+   "infinitive_shaped": "refaire"
+  },
+  "275": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v10.txt",
+   "term_offset": 82812,
+   "dist": 15,
+   "prep": "pour",
+   "infinitive_shaped": "présenter"
+  },
+  "276": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v9.txt",
+   "term_offset": 252240,
+   "dist": 15,
+   "prep": "à",
+   "infinitive_shaped": "porter"
+  },
+  "277": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 812599,
+   "dist": 15,
+   "prep": "pour",
+   "infinitive_shaped": "respecter"
+  },
+  "278": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1296042,
+   "dist": 15,
+   "prep": "à",
+   "infinitive_shaped": "plaindre"
+  },
+  "279": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2429847,
+   "dist": 15,
+   "prep": "pour",
+   "infinitive_shaped": "s'accuser"
+  },
+  "280": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 481769,
+   "dist": 15,
+   "prep": "de",
+   "infinitive_shaped": "retourner"
+  },
+  "281": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1903282,
+   "dist": 15,
+   "prep": "à",
+   "infinitive_shaped": "soutenir"
+  },
+  "282": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2633370,
+   "dist": 15,
+   "prep": "pour",
+   "infinitive_shaped": "constituer"
+  },
+  "283": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 385553,
+   "dist": 15,
+   "prep": "de",
+   "infinitive_shaped": "passer"
+  },
+  "284": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1224916,
+   "dist": 15,
+   "prep": "de",
+   "infinitive_shaped": "monter"
+  },
+  "285": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2248783,
+   "dist": 15,
+   "prep": "de",
+   "infinitive_shaped": "arracher"
+  },
+  "286": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "term_offset": 525751,
+   "dist": 16,
+   "prep": "pour",
+   "infinitive_shaped": "refaire"
+  },
+  "287": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "term_offset": 779698,
+   "dist": 16,
+   "prep": "de",
+   "infinitive_shaped": "déclarer"
+  },
+  "288": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 381238,
+   "dist": 16,
+   "prep": "de",
+   "infinitive_shaped": "s'entendre"
+  },
+  "289": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 69630,
+   "dist": 16,
+   "prep": "à",
+   "infinitive_shaped": "faire"
+  },
+  "290": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30513-tocqueville-t1.txt",
+   "term_offset": 498333,
+   "dist": 16,
+   "prep": "pour",
+   "infinitive_shaped": "changer"
+  },
+  "291": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 518952,
+   "dist": 16,
+   "prep": "à",
+   "infinitive_shaped": "confondre"
+  },
+  "292": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "levant-correspondence-1841-p3.txt",
+   "term_offset": 1284594,
+   "dist": 16,
+   "prep": "a",
+   "infinitive_shaped": "demander"
+  },
+  "293": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 937361,
+   "dist": 16,
+   "prep": "de",
+   "infinitive_shaped": "servir"
+  },
+  "294": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1260904,
+   "dist": 16,
+   "prep": "de",
+   "infinitive_shaped": "parler"
+  },
+  "295": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2256217,
+   "dist": 16,
+   "prep": "à",
+   "infinitive_shaped": "rompre"
+  },
+  "296": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 52214,
+   "dist": 16,
+   "prep": "à",
+   "infinitive_shaped": "divertir"
+  },
+  "297": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1268204,
+   "dist": 16,
+   "prep": "pour",
+   "infinitive_shaped": "soigner"
+  },
+  "298": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 205738,
+   "dist": 16,
+   "prep": "de",
+   "infinitive_shaped": "reconquérir"
+  },
+  "299": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 456514,
+   "dist": 17,
+   "prep": "a",
+   "infinitive_shaped": "ressembler"
+  },
+  "300": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 679723,
+   "dist": 17,
+   "prep": "de",
+   "infinitive_shaped": "recourir"
+  },
+  "301": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "term_offset": 338965,
+   "dist": 17,
+   "prep": "à",
+   "infinitive_shaped": "provoquer"
+  },
+  "302": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "term_offset": 739539,
+   "dist": 17,
+   "prep": "de",
+   "infinitive_shaped": "surmonter"
+  },
+  "303": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30513-tocqueville-t1.txt",
+   "term_offset": 253146,
+   "dist": 17,
+   "prep": "à",
+   "infinitive_shaped": "servir"
+  },
+  "304": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v8.txt",
+   "term_offset": 399195,
+   "dist": 17,
+   "prep": "pour",
+   "infinitive_shaped": "avoir"
+  },
+  "305": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 575273,
+   "dist": 17,
+   "prep": "pour",
+   "infinitive_shaped": "fixer"
+  },
+  "306": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1127180,
+   "dist": 17,
+   "prep": "à",
+   "infinitive_shaped": "gagner"
+  },
+  "307": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1260487,
+   "dist": 17,
+   "prep": "a",
+   "infinitive_shaped": "arrêter"
+  },
+  "308": {
+   "cause": "A",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 860613,
+   "dist": 17,
+   "prep": "de",
+   "infinitive_shaped": "l'escadre"
+  },
+  "309": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 33331,
+   "dist": 17,
+   "prep": "pour",
+   "infinitive_shaped": "causer"
+  },
+  "310": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1118764,
+   "dist": 17,
+   "prep": "de",
+   "infinitive_shaped": "refaire"
+  },
+  "311": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1598064,
+   "dist": 17,
+   "prep": "à",
+   "infinitive_shaped": "conserver"
+  },
+  "312": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1954790,
+   "dist": 17,
+   "prep": "à",
+   "infinitive_shaped": "répondre"
+  },
+  "313": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2098804,
+   "dist": 17,
+   "prep": "a",
+   "infinitive_shaped": "faire"
+  },
+  "314": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2439986,
+   "dist": 17,
+   "prep": "à",
+   "infinitive_shaped": "donner"
+  },
+  "315": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1736345,
+   "dist": 17,
+   "prep": "a",
+   "infinitive_shaped": "faire"
+  },
+  "316": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1872688,
+   "dist": 17,
+   "prep": "à",
+   "infinitive_shaped": "troubler"
+  },
+  "317": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 199064,
+   "dist": 18,
+   "prep": "à",
+   "infinitive_shaped": "ressusciter"
+  },
+  "318": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30513-tocqueville-t1.txt",
+   "term_offset": 423825,
+   "dist": 18,
+   "prep": "à",
+   "infinitive_shaped": "être"
+  },
+  "319": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 100369,
+   "dist": 18,
+   "prep": "de",
+   "infinitive_shaped": "faire"
+  },
+  "320": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2939986,
+   "dist": 18,
+   "prep": "pour",
+   "infinitive_shaped": "sympathiser"
+  },
+  "321": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 397804,
+   "dist": 18,
+   "prep": "pour",
+   "infinitive_shaped": "mériter"
+  },
+  "322": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1679132,
+   "dist": 18,
+   "prep": "de",
+   "infinitive_shaped": "donner"
+  },
+  "323": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2915842,
+   "dist": 18,
+   "prep": "de",
+   "infinitive_shaped": "courir"
+  },
+  "324": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1517457,
+   "dist": 18,
+   "prep": "de",
+   "infinitive_shaped": "vaincre"
+  },
+  "325": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 3120333,
+   "dist": 18,
+   "prep": "à",
+   "infinitive_shaped": "s'élever"
+  },
+  "326": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 574471,
+   "dist": 19,
+   "prep": "à",
+   "infinitive_shaped": "faire"
+  },
+  "327": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 1521404,
+   "dist": 19,
+   "prep": "de",
+   "infinitive_shaped": "balancer"
+  },
+  "328": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 414274,
+   "dist": 19,
+   "prep": "à",
+   "infinitive_shaped": "gagner"
+  },
+  "329": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 495343,
+   "dist": 19,
+   "prep": "de",
+   "infinitive_shaped": "déranger"
+  },
+  "330": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 1120156,
+   "dist": 19,
+   "prep": "pour",
+   "infinitive_shaped": "soutenir"
+  },
+  "331": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 526772,
+   "dist": 19,
+   "prep": "de",
+   "infinitive_shaped": "partir"
+  },
+  "332": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 628133,
+   "dist": 19,
+   "prep": "pour",
+   "infinitive_shaped": "m'agrandir"
+  },
+  "333": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1165162,
+   "dist": 19,
+   "prep": "de",
+   "infinitive_shaped": "exécuter"
+  },
+  "334": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1622794,
+   "dist": 19,
+   "prep": "à",
+   "infinitive_shaped": "vivre"
+  },
+  "335": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1676831,
+   "dist": 19,
+   "prep": "à",
+   "infinitive_shaped": "douter"
+  },
+  "336": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 444497,
+   "dist": 19,
+   "prep": "pour",
+   "infinitive_shaped": "récompenser"
+  },
+  "337": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 860200,
+   "dist": 19,
+   "prep": "de",
+   "infinitive_shaped": "d'annihiler"
+  },
+  "338": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2580381,
+   "dist": 19,
+   "prep": "pour",
+   "infinitive_shaped": "l'acclimater"
+  },
+  "339": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 135534,
+   "dist": 20,
+   "prep": "de",
+   "infinitive_shaped": "l'assurer"
+  },
+  "340": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 1938718,
+   "dist": 20,
+   "prep": "de",
+   "infinitive_shaped": "considérer"
+  },
+  "341": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 1939037,
+   "dist": 20,
+   "prep": "pour",
+   "infinitive_shaped": "brouiller"
+  },
+  "342": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 425381,
+   "dist": 20,
+   "prep": "pour",
+   "infinitive_shaped": "dire"
+  },
+  "343": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "levant-correspondence-1841-p3.txt",
+   "term_offset": 518639,
+   "dist": 20,
+   "prep": "pour",
+   "infinitive_shaped": "prévenir"
+  },
+  "344": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 941002,
+   "dist": 20,
+   "prep": "de",
+   "infinitive_shaped": "compter"
+  },
+  "345": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1218468,
+   "dist": 20,
+   "prep": "de",
+   "infinitive_shaped": "jeter"
+  },
+  "346": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2008040,
+   "dist": 20,
+   "prep": "pour",
+   "infinitive_shaped": "procurer"
+  },
+  "347": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1504345,
+   "dist": 20,
+   "prep": "de",
+   "infinitive_shaped": "faire"
+  },
+  "348": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1674145,
+   "dist": 20,
+   "prep": "a",
+   "infinitive_shaped": "exister"
+  },
+  "349": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2068196,
+   "dist": 20,
+   "prep": "pour",
+   "infinitive_shaped": "s'allier"
+  },
+  "350": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2553131,
+   "dist": 20,
+   "prep": "de",
+   "infinitive_shaped": "honorer"
+  },
+  "351": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "term_offset": 234726,
+   "dist": 21,
+   "prep": "à",
+   "infinitive_shaped": "sauver"
+  },
+  "352": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "term_offset": 528071,
+   "dist": 21,
+   "prep": "à",
+   "infinitive_shaped": "savoir"
+  },
+  "353": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 627463,
+   "dist": 21,
+   "prep": "a",
+   "infinitive_shaped": "chercher"
+  },
+  "354": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 100103,
+   "dist": 21,
+   "prep": "de",
+   "infinitive_shaped": "ouvrir"
+  },
+  "355": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 171458,
+   "dist": 21,
+   "prep": "de",
+   "infinitive_shaped": "périr"
+  },
+  "356": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1682697,
+   "dist": 21,
+   "prep": "à",
+   "infinitive_shaped": "connaître"
+  },
+  "357": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 522899,
+   "dist": 21,
+   "prep": "pour",
+   "infinitive_shaped": "gagner"
+  },
+  "358": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2834509,
+   "dist": 21,
+   "prep": "de",
+   "infinitive_shaped": "marcher"
+  },
+  "359": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 935208,
+   "dist": 21,
+   "prep": "de",
+   "infinitive_shaped": "laisser"
+  },
+  "360": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1209250,
+   "dist": 21,
+   "prep": "pour",
+   "infinitive_shaped": "cacher"
+  },
+  "361": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 3110875,
+   "dist": 21,
+   "prep": "de",
+   "infinitive_shaped": "s'épancher"
+  },
+  "362": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "term_offset": 694985,
+   "dist": 22,
+   "prep": "de",
+   "infinitive_shaped": "modifier"
+  },
+  "363": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "term_offset": 187990,
+   "dist": 22,
+   "prep": "de",
+   "infinitive_shaped": "chercher"
+  },
+  "364": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 733149,
+   "dist": 22,
+   "prep": "de",
+   "infinitive_shaped": "manifester"
+  },
+  "365": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 169144,
+   "dist": 22,
+   "prep": "à",
+   "infinitive_shaped": "coucher"
+  },
+  "366": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v10.txt",
+   "term_offset": 313393,
+   "dist": 22,
+   "prep": "pour",
+   "infinitive_shaped": "donner"
+  },
+  "367": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v10.txt",
+   "term_offset": 522137,
+   "dist": 22,
+   "prep": "à",
+   "infinitive_shaped": "faire"
+  },
+  "368": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1710015,
+   "dist": 22,
+   "prep": "de",
+   "infinitive_shaped": "rester"
+  },
+  "369": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2433410,
+   "dist": 22,
+   "prep": "pour",
+   "infinitive_shaped": "prouver"
+  },
+  "370": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1480458,
+   "dist": 22,
+   "prep": "de",
+   "infinitive_shaped": "faire"
+  },
+  "371": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 3042747,
+   "dist": 22,
+   "prep": "pour",
+   "infinitive_shaped": "sauver"
+  },
+  "372": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2277136,
+   "dist": 22,
+   "prep": "à",
+   "infinitive_shaped": "agir"
+  },
+  "373": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 673364,
+   "dist": 23,
+   "prep": "à",
+   "infinitive_shaped": "préserver"
+  },
+  "374": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "term_offset": 470337,
+   "dist": 23,
+   "prep": "de",
+   "infinitive_shaped": "maintenir"
+  },
+  "375": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 453511,
+   "dist": 23,
+   "prep": "de",
+   "infinitive_shaped": "tenter"
+  },
+  "376": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 1352827,
+   "dist": 23,
+   "prep": "de",
+   "infinitive_shaped": "toucher"
+  },
+  "377": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 1461844,
+   "dist": 23,
+   "prep": "a",
+   "infinitive_shaped": "pousser"
+  },
+  "378": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "term_offset": 147552,
+   "dist": 23,
+   "prep": "à",
+   "infinitive_shaped": "lever"
+  },
+  "379": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1868953,
+   "dist": 23,
+   "prep": "de",
+   "infinitive_shaped": "ressusciter"
+  },
+  "380": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2277185,
+   "dist": 23,
+   "prep": "à",
+   "infinitive_shaped": "dire"
+  },
+  "381": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2422530,
+   "dist": 23,
+   "prep": "pour",
+   "infinitive_shaped": "disposer"
+  },
+  "382": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 948049,
+   "dist": 23,
+   "prep": "pour",
+   "infinitive_shaped": "blâmer"
+  },
+  "383": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1287629,
+   "dist": 23,
+   "prep": "à",
+   "infinitive_shaped": "revenir"
+  },
+  "384": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 349109,
+   "dist": 23,
+   "prep": "de",
+   "infinitive_shaped": "comprendre"
+  },
+  "385": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 1105394,
+   "dist": 24,
+   "prep": "pour",
+   "infinitive_shaped": "prévenir"
+  },
+  "386": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 181821,
+   "dist": 24,
+   "prep": "pour",
+   "infinitive_shaped": "gouverner"
+  },
+  "387": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 702157,
+   "dist": 24,
+   "prep": "pour",
+   "infinitive_shaped": "trouver"
+  },
+  "388": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1103054,
+   "dist": 24,
+   "prep": "a",
+   "infinitive_shaped": "employer"
+  },
+  "389": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1104542,
+   "dist": 24,
+   "prep": "pour",
+   "infinitive_shaped": "l'employer"
+  },
+  "390": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 542177,
+   "dist": 24,
+   "prep": "de",
+   "infinitive_shaped": "faire"
+  },
+  "391": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1483870,
+   "dist": 24,
+   "prep": "de",
+   "infinitive_shaped": "vouloir"
+  },
+  "392": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2107621,
+   "dist": 24,
+   "prep": "pour",
+   "infinitive_shaped": "parvenir"
+  },
+  "393": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 55485,
+   "dist": 24,
+   "prep": "de",
+   "infinitive_shaped": "peindre"
+  },
+  "394": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 13421,
+   "dist": 24,
+   "prep": "de",
+   "infinitive_shaped": "répudier"
+  },
+  "395": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2541745,
+   "dist": 24,
+   "prep": "de",
+   "infinitive_shaped": "partager"
+  },
+  "396": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 950633,
+   "dist": 24,
+   "prep": "pour",
+   "infinitive_shaped": "dire"
+  },
+  "397": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1479036,
+   "dist": 24,
+   "prep": "de",
+   "infinitive_shaped": "remettre"
+  },
+  "398": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2823445,
+   "dist": 24,
+   "prep": "pour",
+   "infinitive_shaped": "déjouer"
+  },
+  "399": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 467669,
+   "dist": 24,
+   "prep": "à",
+   "infinitive_shaped": "porter"
+  },
+  "400": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 381724,
+   "dist": 25,
+   "prep": "pour",
+   "infinitive_shaped": "savoir"
+  },
+  "401": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 18344,
+   "dist": 25,
+   "prep": "de",
+   "infinitive_shaped": "laisser"
+  },
+  "402": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v9.txt",
+   "term_offset": 268625,
+   "dist": 25,
+   "prep": "de",
+   "infinitive_shaped": "violer"
+  },
+  "403": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v9.txt",
+   "term_offset": 311559,
+   "dist": 25,
+   "prep": "pour",
+   "infinitive_shaped": "créer"
+  },
+  "404": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1659225,
+   "dist": 25,
+   "prep": "à",
+   "infinitive_shaped": "tracer"
+  },
+  "405": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1685281,
+   "dist": 25,
+   "prep": "à",
+   "infinitive_shaped": "voter"
+  },
+  "406": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2869471,
+   "dist": 25,
+   "prep": "à",
+   "infinitive_shaped": "prendre"
+  },
+  "407": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 208317,
+   "dist": 25,
+   "prep": "à",
+   "infinitive_shaped": "croire"
+  },
+  "408": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 382158,
+   "dist": 26,
+   "prep": "pour",
+   "infinitive_shaped": "être"
+  },
+  "409": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 205637,
+   "dist": 26,
+   "prep": "de",
+   "infinitive_shaped": "rendre"
+  },
+  "410": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1645419,
+   "dist": 26,
+   "prep": "de",
+   "infinitive_shaped": "chercher"
+  },
+  "411": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v9.txt",
+   "term_offset": 329350,
+   "dist": 26,
+   "prep": "à",
+   "infinitive_shaped": "écrire"
+  },
+  "412": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v9.txt",
+   "term_offset": 410219,
+   "dist": 26,
+   "prep": "de",
+   "infinitive_shaped": "procéder"
+  },
+  "413": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 963508,
+   "dist": 26,
+   "prep": "à",
+   "infinitive_shaped": "faire"
+  },
+  "414": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2362519,
+   "dist": 26,
+   "prep": "à",
+   "infinitive_shaped": "soulager"
+  },
+  "415": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1873169,
+   "dist": 26,
+   "prep": "à",
+   "infinitive_shaped": "avoir"
+  },
+  "416": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2448823,
+   "dist": 26,
+   "prep": "à",
+   "infinitive_shaped": "comparer"
+  },
+  "417": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2896319,
+   "dist": 26,
+   "prep": "à",
+   "infinitive_shaped": "signer"
+  },
+  "418": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 290166,
+   "dist": 26,
+   "prep": "à",
+   "infinitive_shaped": "jouer"
+  },
+  "419": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2109722,
+   "dist": 26,
+   "prep": "de",
+   "infinitive_shaped": "reprendre"
+  },
+  "420": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2598676,
+   "dist": 26,
+   "prep": "de",
+   "infinitive_shaped": "pencher"
+  },
+  "421": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1228174,
+   "dist": 26,
+   "prep": "de",
+   "infinitive_shaped": "recourir"
+  },
+  "422": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2006501,
+   "dist": 26,
+   "prep": "pour",
+   "infinitive_shaped": "garantir"
+  },
+  "423": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 3000613,
+   "dist": 26,
+   "prep": "à",
+   "infinitive_shaped": "servir"
+  },
+  "424": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 804709,
+   "dist": 26,
+   "prep": "de",
+   "infinitive_shaped": "donner"
+  },
+  "425": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 820025,
+   "dist": 26,
+   "prep": "pour",
+   "infinitive_shaped": "jouer"
+  },
+  "426": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 396426,
+   "dist": 27,
+   "prep": "pour",
+   "infinitive_shaped": "expliquer"
+  },
+  "427": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30513-tocqueville-t1.txt",
+   "term_offset": 353202,
+   "dist": 27,
+   "prep": "de",
+   "infinitive_shaped": "permettre"
+  },
+  "428": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 59232,
+   "dist": 27,
+   "prep": "pour",
+   "infinitive_shaped": "triompher"
+  },
+  "429": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v10.txt",
+   "term_offset": 463658,
+   "dist": 27,
+   "prep": "à",
+   "infinitive_shaped": "avaler"
+  },
+  "430": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v7.txt",
+   "term_offset": 374362,
+   "dist": 27,
+   "prep": "de",
+   "infinitive_shaped": "rétablir"
+  },
+  "431": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "term_offset": 33980,
+   "dist": 27,
+   "prep": "de",
+   "infinitive_shaped": "donner"
+  },
+  "432": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2971975,
+   "dist": 27,
+   "prep": "à",
+   "infinitive_shaped": "prendre"
+  },
+  "433": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1489175,
+   "dist": 27,
+   "prep": "de",
+   "infinitive_shaped": "résister"
+  },
+  "434": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1518824,
+   "dist": 27,
+   "prep": "à",
+   "infinitive_shaped": "traîner"
+  },
+  "435": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1873697,
+   "dist": 27,
+   "prep": "de",
+   "infinitive_shaped": "clamer"
+  },
+  "436": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 311248,
+   "dist": 27,
+   "prep": "de",
+   "infinitive_shaped": "chercher"
+  },
+  "437": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 867378,
+   "dist": 27,
+   "prep": "de",
+   "infinitive_shaped": "recourir"
+  },
+  "438": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2335979,
+   "dist": 27,
+   "prep": "pour",
+   "infinitive_shaped": "connaître"
+  },
+  "439": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2573186,
+   "dist": 27,
+   "prep": "de",
+   "infinitive_shaped": "souvenir"
+  },
+  "440": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2667342,
+   "dist": 27,
+   "prep": "de",
+   "infinitive_shaped": "opposer"
+  },
+  "441": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 472408,
+   "dist": 27,
+   "prep": "à",
+   "infinitive_shaped": "entendre"
+  },
+  "442": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 169736,
+   "dist": 28,
+   "prep": "à",
+   "infinitive_shaped": "balbutier"
+  },
+  "443": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 894630,
+   "dist": 28,
+   "prep": "a",
+   "infinitive_shaped": "designer"
+  },
+  "444": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v7.txt",
+   "term_offset": 351052,
+   "dist": 28,
+   "prep": "de",
+   "infinitive_shaped": "s'embarquer"
+  },
+  "445": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "term_offset": 50066,
+   "dist": 28,
+   "prep": "pour",
+   "infinitive_shaped": "arracher"
+  },
+  "446": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 875638,
+   "dist": 28,
+   "prep": "de",
+   "infinitive_shaped": "conserver"
+  },
+  "447": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1349266,
+   "dist": 28,
+   "prep": "pour",
+   "infinitive_shaped": "avoir"
+  },
+  "448": {
+   "cause": "A",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2859722,
+   "dist": 28,
+   "prep": "de",
+   "infinitive_shaped": "rire"
+  },
+  "449": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 836110,
+   "dist": 28,
+   "prep": "à",
+   "infinitive_shaped": "émouvoir"
+  },
+  "450": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1490856,
+   "dist": 28,
+   "prep": "pour",
+   "infinitive_shaped": "combiner"
+  },
+  "451": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2490510,
+   "dist": 28,
+   "prep": "de",
+   "infinitive_shaped": "secouer"
+  },
+  "452": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1356793,
+   "dist": 28,
+   "prep": "de",
+   "infinitive_shaped": "revenir"
+  },
+  "453": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 94640,
+   "dist": 28,
+   "prep": "de",
+   "infinitive_shaped": "partir"
+  },
+  "454": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "term_offset": 542961,
+   "dist": 29,
+   "prep": "à",
+   "infinitive_shaped": "avaler"
+  },
+  "455": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 536184,
+   "dist": 29,
+   "prep": "de",
+   "infinitive_shaped": "raccommoder"
+  },
+  "456": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30513-tocqueville-t1.txt",
+   "term_offset": 343906,
+   "dist": 29,
+   "prep": "de",
+   "infinitive_shaped": "procéder"
+  },
+  "457": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 919344,
+   "dist": 29,
+   "prep": "a",
+   "infinitive_shaped": "evaluer"
+  },
+  "458": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 1411844,
+   "dist": 29,
+   "prep": "de",
+   "infinitive_shaped": "signaler"
+  },
+  "459": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2402813,
+   "dist": 29,
+   "prep": "a",
+   "infinitive_shaped": "vaincre"
+  },
+  "460": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2504691,
+   "dist": 29,
+   "prep": "de",
+   "infinitive_shaped": "retirer"
+  },
+  "461": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1278375,
+   "dist": 29,
+   "prep": "de",
+   "infinitive_shaped": "représenter"
+  },
+  "462": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1340104,
+   "dist": 29,
+   "prep": "pour",
+   "infinitive_shaped": "servir"
+  },
+  "463": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1051262,
+   "dist": 29,
+   "prep": "de",
+   "infinitive_shaped": "plaindre"
+  },
+  "464": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1210187,
+   "dist": 29,
+   "prep": "de",
+   "infinitive_shaped": "justifier"
+  },
+  "465": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1240977,
+   "dist": 29,
+   "prep": "de",
+   "infinitive_shaped": "dîner"
+  },
+  "466": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2571895,
+   "dist": 29,
+   "prep": "à",
+   "infinitive_shaped": "refleurir"
+  },
+  "467": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 267325,
+   "dist": 29,
+   "prep": "à",
+   "infinitive_shaped": "défendre"
+  },
+  "468": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 198527,
+   "dist": 30,
+   "prep": "à",
+   "infinitive_shaped": "agir"
+  },
+  "469": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 388766,
+   "dist": 30,
+   "prep": "à",
+   "infinitive_shaped": "faire"
+  },
+  "470": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 595687,
+   "dist": 30,
+   "prep": "de",
+   "infinitive_shaped": "mettre"
+  },
+  "471": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 43796,
+   "dist": 30,
+   "prep": "pour",
+   "infinitive_shaped": "etre"
+  },
+  "472": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 719959,
+   "dist": 30,
+   "prep": "de",
+   "infinitive_shaped": "pouvoir"
+  },
+  "473": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 892289,
+   "dist": 30,
+   "prep": "à",
+   "infinitive_shaped": "exercer"
+  },
+  "474": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1736330,
+   "dist": 30,
+   "prep": "de",
+   "infinitive_shaped": "créer"
+  },
+  "475": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2564955,
+   "dist": 30,
+   "prep": "de",
+   "infinitive_shaped": "dépendre"
+  },
+  "476": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1667877,
+   "dist": 30,
+   "prep": "de",
+   "infinitive_shaped": "raisonner"
+  },
+  "477": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2101585,
+   "dist": 30,
+   "prep": "de",
+   "infinitive_shaped": "compter"
+  },
+  "478": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2580392,
+   "dist": 30,
+   "prep": "pour",
+   "infinitive_shaped": "l'acclimater"
+  },
+  "479": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1657259,
+   "dist": 30,
+   "prep": "de",
+   "infinitive_shaped": "récompenser"
+  },
+  "480": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 100657,
+   "dist": 31,
+   "prep": "à",
+   "infinitive_shaped": "voter"
+  },
+  "481": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "levant-correspondence-1841-p3.txt",
+   "term_offset": 524670,
+   "dist": 31,
+   "prep": "pour",
+   "infinitive_shaped": "devenir"
+  },
+  "482": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2320285,
+   "dist": 31,
+   "prep": "à",
+   "infinitive_shaped": "briser"
+  },
+  "483": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2931177,
+   "dist": 31,
+   "prep": "pour",
+   "infinitive_shaped": "tendre"
+  },
+  "484": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 500275,
+   "dist": 31,
+   "prep": "à",
+   "infinitive_shaped": "rappeler"
+  },
+  "485": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1208019,
+   "dist": 31,
+   "prep": "à",
+   "infinitive_shaped": "placer"
+  },
+  "486": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2836800,
+   "dist": 31,
+   "prep": "de",
+   "infinitive_shaped": "écraser"
+  },
+  "487": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 255635,
+   "dist": 31,
+   "prep": "de",
+   "infinitive_shaped": "refaire"
+  },
+  "488": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 360729,
+   "dist": 31,
+   "prep": "à",
+   "infinitive_shaped": "entendre"
+  },
+  "489": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1524997,
+   "dist": 31,
+   "prep": "à",
+   "infinitive_shaped": "traîner"
+  },
+  "490": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 683312,
+   "dist": 32,
+   "prep": "pour",
+   "infinitive_shaped": "conserver"
+  },
+  "491": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 1564360,
+   "dist": 32,
+   "prep": "pour",
+   "infinitive_shaped": "mettre"
+  },
+  "492": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "term_offset": 31702,
+   "dist": 32,
+   "prep": "pour",
+   "infinitive_shaped": "rendre"
+  },
+  "493": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "term_offset": 361692,
+   "dist": 32,
+   "prep": "pour",
+   "infinitive_shaped": "rendre"
+  },
+  "494": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1730126,
+   "dist": 32,
+   "prep": "de",
+   "infinitive_shaped": "placer"
+  },
+  "495": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 901160,
+   "dist": 32,
+   "prep": "à",
+   "infinitive_shaped": "dire"
+  },
+  "496": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2400874,
+   "dist": 32,
+   "prep": "à",
+   "infinitive_shaped": "être"
+  },
+  "497": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 112571,
+   "dist": 32,
+   "prep": "pour",
+   "infinitive_shaped": "tomber"
+  },
+  "498": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1401237,
+   "dist": 32,
+   "prep": "de",
+   "infinitive_shaped": "dire"
+  },
+  "499": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 233416,
+   "dist": 32,
+   "prep": "de",
+   "infinitive_shaped": "parler"
+  },
+  "500": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "term_offset": 722186,
+   "dist": 33,
+   "prep": "pour",
+   "infinitive_shaped": "laisser"
+  },
+  "501": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "term_offset": 689414,
+   "dist": 33,
+   "prep": "de",
+   "infinitive_shaped": "dire"
+  },
+  "502": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 1063422,
+   "dist": 33,
+   "prep": "pour",
+   "infinitive_shaped": "donner"
+  },
+  "503": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 435647,
+   "dist": 33,
+   "prep": "à",
+   "infinitive_shaped": "oublier"
+  },
+  "504": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30513-tocqueville-t1.txt",
+   "term_offset": 369656,
+   "dist": 33,
+   "prep": "à",
+   "infinitive_shaped": "appartenir"
+  },
+  "505": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 18258,
+   "dist": 33,
+   "prep": "de",
+   "infinitive_shaped": "flatter"
+  },
+  "506": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 337529,
+   "dist": 33,
+   "prep": "a",
+   "infinitive_shaped": "profiter"
+  },
+  "507": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 541908,
+   "dist": 33,
+   "prep": "à",
+   "infinitive_shaped": "louer"
+  },
+  "508": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 710364,
+   "dist": 33,
+   "prep": "à",
+   "infinitive_shaped": "briser"
+  },
+  "509": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2832016,
+   "dist": 33,
+   "prep": "à",
+   "infinitive_shaped": "craindre"
+  },
+  "510": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 563854,
+   "dist": 34,
+   "prep": "a",
+   "infinitive_shaped": "naître"
+  },
+  "511": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 169742,
+   "dist": 34,
+   "prep": "à",
+   "infinitive_shaped": "balbutier"
+  },
+  "512": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 199145,
+   "dist": 34,
+   "prep": "de",
+   "infinitive_shaped": "dire"
+  },
+  "513": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 198669,
+   "dist": 34,
+   "prep": "à",
+   "infinitive_shaped": "laisser"
+  },
+  "514": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v8.txt",
+   "term_offset": 29048,
+   "dist": 34,
+   "prep": "à",
+   "infinitive_shaped": "insérer"
+  },
+  "515": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1051796,
+   "dist": 34,
+   "prep": "pour",
+   "infinitive_shaped": "rentrer"
+  },
+  "516": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1479932,
+   "dist": 34,
+   "prep": "à",
+   "infinitive_shaped": "réglementer"
+  },
+  "517": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2228437,
+   "dist": 34,
+   "prep": "de",
+   "infinitive_shaped": "l'être"
+  },
+  "518": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1885450,
+   "dist": 34,
+   "prep": "de",
+   "infinitive_shaped": "faire"
+  },
+  "519": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1754400,
+   "dist": 34,
+   "prep": "de",
+   "infinitive_shaped": "lamenter"
+  },
+  "520": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2034982,
+   "dist": 34,
+   "prep": "pour",
+   "infinitive_shaped": "repousser"
+  },
+  "521": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 540540,
+   "dist": 34,
+   "prep": "pour",
+   "infinitive_shaped": "arriver"
+  },
+  "522": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 158107,
+   "dist": 35,
+   "prep": "à",
+   "infinitive_shaped": "recevoir"
+  },
+  "523": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1331263,
+   "dist": 35,
+   "prep": "à",
+   "infinitive_shaped": "civiliser"
+  },
+  "524": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2909965,
+   "dist": 35,
+   "prep": "de",
+   "infinitive_shaped": "faire"
+  },
+  "525": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 854342,
+   "dist": 35,
+   "prep": "a",
+   "infinitive_shaped": "d'être"
+  },
+  "526": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1729079,
+   "dist": 35,
+   "prep": "de",
+   "infinitive_shaped": "vouloir"
+  },
+  "527": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 3159223,
+   "dist": 35,
+   "prep": "à",
+   "infinitive_shaped": "être"
+  },
+  "528": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 523466,
+   "dist": 35,
+   "prep": "à",
+   "infinitive_shaped": "rendre"
+  },
+  "529": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 1810054,
+   "dist": 36,
+   "prep": "de",
+   "infinitive_shaped": "pourvoir"
+  },
+  "530": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 358940,
+   "dist": 36,
+   "prep": "de",
+   "infinitive_shaped": "s'écrier"
+  },
+  "531": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2004843,
+   "dist": 36,
+   "prep": "pour",
+   "infinitive_shaped": "l'échanger"
+  },
+  "532": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2724168,
+   "dist": 36,
+   "prep": "à",
+   "infinitive_shaped": "mettre"
+  },
+  "533": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 753885,
+   "dist": 36,
+   "prep": "de",
+   "infinitive_shaped": "répondre"
+  },
+  "534": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1682316,
+   "dist": 36,
+   "prep": "de",
+   "infinitive_shaped": "descendre"
+  },
+  "535": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2634531,
+   "dist": 36,
+   "prep": "de",
+   "infinitive_shaped": "faire"
+  },
+  "536": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 108832,
+   "dist": 36,
+   "prep": "à",
+   "infinitive_shaped": "croire"
+  },
+  "537": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 61335,
+   "dist": 37,
+   "prep": "de",
+   "infinitive_shaped": "donner"
+  },
+  "538": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 506397,
+   "dist": 37,
+   "prep": "à",
+   "infinitive_shaped": "prévaloir"
+  },
+  "539": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "guizot-memoires-t5-t6.txt",
+   "term_offset": 930309,
+   "dist": 37,
+   "prep": "pour",
+   "infinitive_shaped": "ôter"
+  },
+  "540": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 457681,
+   "dist": 37,
+   "prep": "pour",
+   "infinitive_shaped": "cacher"
+  },
+  "541": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "term_offset": 150897,
+   "dist": 37,
+   "prep": "pour",
+   "infinitive_shaped": "établir"
+  },
+  "542": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 79172,
+   "dist": 37,
+   "prep": "a",
+   "infinitive_shaped": "protester"
+  },
+  "543": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 450528,
+   "dist": 37,
+   "prep": "de",
+   "infinitive_shaped": "reprendre"
+  },
+  "544": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2943892,
+   "dist": 37,
+   "prep": "de",
+   "infinitive_shaped": "composer"
+  },
+  "545": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 732057,
+   "dist": 37,
+   "prep": "de",
+   "infinitive_shaped": "dire"
+  },
+  "546": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1950368,
+   "dist": 37,
+   "prep": "de",
+   "infinitive_shaped": "former"
+  },
+  "547": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 2621375,
+   "dist": 38,
+   "prep": "pour",
+   "infinitive_shaped": "jeter"
+  },
+  "548": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 670195,
+   "dist": 38,
+   "prep": "de",
+   "infinitive_shaped": "maintenir"
+  },
+  "549": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2952707,
+   "dist": 38,
+   "prep": "à",
+   "infinitive_shaped": "chercher"
+  },
+  "550": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2999968,
+   "dist": 38,
+   "prep": "a",
+   "infinitive_shaped": "regarder"
+  },
+  "551": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 197200,
+   "dist": 38,
+   "prep": "à",
+   "infinitive_shaped": "chercher"
+  },
+  "552": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 875710,
+   "dist": 38,
+   "prep": "de",
+   "infinitive_shaped": "faire"
+  },
+  "553": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 1252458,
+   "dist": 39,
+   "prep": "a",
+   "infinitive_shaped": "tirer"
+  },
+  "554": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "metternich-papiere-v4.txt",
+   "term_offset": 1421058,
+   "dist": 39,
+   "prep": "de",
+   "infinitive_shaped": "derober"
+  },
+  "555": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2147938,
+   "dist": 39,
+   "prep": "à",
+   "infinitive_shaped": "effrayer"
+  },
+  "556": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1947459,
+   "dist": 39,
+   "prep": "pour",
+   "infinitive_shaped": "être"
+  },
+  "557": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1632847,
+   "dist": 39,
+   "prep": "pour",
+   "infinitive_shaped": "insurger"
+  },
+  "558": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v8.txt",
+   "term_offset": 479494,
+   "dist": 40,
+   "prep": "de",
+   "infinitive_shaped": "démêler"
+  },
+  "559": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "nesselrode-v9.txt",
+   "term_offset": 169196,
+   "dist": 40,
+   "prep": "pour",
+   "infinitive_shaped": "sauver"
+  },
+  "560": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1906881,
+   "dist": 40,
+   "prep": "de",
+   "infinitive_shaped": "préparer"
+  },
+  "561": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2943793,
+   "dist": 40,
+   "prep": "pour",
+   "infinitive_shaped": "penser"
+  },
+  "562": {
+   "cause": "E",
+   "gap": "G1-qmark",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2214218,
+   "dist": 40,
+   "prep": "à",
+   "infinitive_shaped": "souscrire"
+  },
+  "563": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 20166,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "protéger"
+  },
+  "564": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 182387,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "retourner"
+  },
+  "565": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 375812,
+   "dist": 0,
+   "prep": "a",
+   "infinitive_shaped": "tromper"
+  },
+  "566": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 724468,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "apprendre"
+  },
+  "567": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 843528,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "marcher"
+  },
+  "568": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1049759,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "victoire"
+  },
+  "569": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1651808,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "arreter"
+  },
+  "570": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 34190,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "faire"
+  },
+  "571": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 591546,
+   "dist": 0,
+   "prep": "a",
+   "infinitive_shaped": "s'unir"
+  },
+  "572": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 674808,
+   "dist": 0,
+   "prep": "a",
+   "infinitive_shaped": "employer"
+  },
+  "573": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2957036,
+   "dist": 0,
+   "prep": "à",
+   "infinitive_shaped": "recueillir"
+  },
+  "574": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1903815,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "d'admettre"
+  },
+  "575": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1630234,
+   "dist": 0,
+   "prep": "pour",
+   "infinitive_shaped": "exécuter"
+  },
+  "576": {
+   "cause": "A",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 377756,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "désir"
+  },
+  "577": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1313278,
+   "dist": 0,
+   "prep": "de",
+   "infinitive_shaped": "réprimer"
+  },
+  "578": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 891535,
+   "dist": 0,
+   "prep": "a",
+   "infinitive_shaped": "l'empècher"
+  },
+  "579": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1762158,
+   "dist": 2,
+   "prep": "à",
+   "infinitive_shaped": "mourir"
+  },
+  "580": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 569128,
+   "dist": 2,
+   "prep": "de",
+   "infinitive_shaped": "sauver"
+  },
+  "581": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 921943,
+   "dist": 2,
+   "prep": "de",
+   "infinitive_shaped": "déplorer"
+  },
+  "582": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "talleyrand-memoires-v1.txt",
+   "term_offset": 875035,
+   "dist": 5,
+   "prep": "à",
+   "infinitive_shaped": "obéir"
+  },
+  "583": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 768147,
+   "dist": 6,
+   "prep": "de",
+   "infinitive_shaped": "rester"
+  },
+  "584": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "term_offset": 796369,
+   "dist": 7,
+   "prep": "à",
+   "infinitive_shaped": "être"
+  },
+  "585": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "term_offset": 599681,
+   "dist": 8,
+   "prep": "de",
+   "infinitive_shaped": "avoir"
+  },
+  "586": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 631314,
+   "dist": 9,
+   "prep": "de",
+   "infinitive_shaped": "voir"
+  },
+  "587": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 923273,
+   "dist": 9,
+   "prep": "pour",
+   "infinitive_shaped": "mourir"
+  },
+  "588": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 315170,
+   "dist": 12,
+   "prep": "de",
+   "infinitive_shaped": "m'apporter"
+  },
+  "589": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 554273,
+   "dist": 12,
+   "prep": "a",
+   "infinitive_shaped": "venir"
+  },
+  "590": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "gutenberg-17489-miserables1.txt",
+   "term_offset": 561539,
+   "dist": 12,
+   "prep": "a",
+   "infinitive_shaped": "voir"
+  },
+  "591": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 449346,
+   "dist": 12,
+   "prep": "de",
+   "infinitive_shaped": "sentir"
+  },
+  "592": {
+   "cause": "C",
+   "gap": "G2-longspan",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1311599,
+   "dist": 13,
+   "prep": "de",
+   "infinitive_shaped": "d'intervenir"
+  },
+  "593": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1479756,
+   "dist": 15,
+   "prep": "a",
+   "infinitive_shaped": "tuer"
+  },
+  "594": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1430953,
+   "dist": 15,
+   "prep": "de",
+   "infinitive_shaped": "reconnaître"
+  },
+  "595": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 301857,
+   "dist": 16,
+   "prep": "de",
+   "infinitive_shaped": "briser"
+  },
+  "596": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2948403,
+   "dist": 16,
+   "prep": "a",
+   "infinitive_shaped": "couronner"
+  },
+  "597": {
+   "cause": "A",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1906978,
+   "dist": 16,
+   "prep": "pour",
+   "infinitive_shaped": "être"
+  },
+  "598": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 3138255,
+   "dist": 16,
+   "prep": "de",
+   "infinitive_shaped": "regarder"
+  },
+  "599": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1762173,
+   "dist": 17,
+   "prep": "à",
+   "infinitive_shaped": "mourir"
+  },
+  "600": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 921958,
+   "dist": 17,
+   "prep": "de",
+   "infinitive_shaped": "déplorer"
+  },
+  "601": {
+   "cause": "C",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 1647310,
+   "dist": 18,
+   "prep": "à",
+   "infinitive_shaped": "d'obéir"
+  },
+  "602": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2812790,
+   "dist": 18,
+   "prep": "à",
+   "infinitive_shaped": "l'arracher"
+  },
+  "603": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2477497,
+   "dist": 19,
+   "prep": "de",
+   "infinitive_shaped": "livrer"
+  },
+  "604": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2762849,
+   "dist": 20,
+   "prep": "de",
+   "infinitive_shaped": "entendre"
+  },
+  "605": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "nesselrode-v9.txt",
+   "term_offset": 246143,
+   "dist": 21,
+   "prep": "a",
+   "infinitive_shaped": "d'accomplir"
+  },
+  "606": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 2226773,
+   "dist": 21,
+   "prep": "pour",
+   "infinitive_shaped": "mettre"
+  },
+  "607": {
+   "cause": "A",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1117983,
+   "dist": 23,
+   "prep": "de",
+   "infinitive_shaped": "déser"
+  },
+  "608": {
+   "cause": "D",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1095085,
+   "dist": 23,
+   "prep": "a",
+   "infinitive_shaped": "reconnaître"
+  },
+  "609": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2943954,
+   "dist": 23,
+   "prep": "pour",
+   "infinitive_shaped": "hasarder"
+  },
+  "610": {
+   "cause": "D",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 1220180,
+   "dist": 25,
+   "prep": "de",
+   "infinitive_shaped": "défendre"
+  },
+  "611": {
+   "cause": "D",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 34216,
+   "dist": 26,
+   "prep": "à",
+   "infinitive_shaped": "faire"
+  },
+  "612": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 949184,
+   "dist": 26,
+   "prep": "de",
+   "infinitive_shaped": "donner"
+  },
+  "613": {
+   "cause": "C",
+   "gap": "G2-longspan",
+   "file": "nesselrode-v8.txt",
+   "term_offset": 333955,
+   "dist": 27,
+   "prep": "de",
+   "infinitive_shaped": "complaire"
+  },
+  "614": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 398838,
+   "dist": 28,
+   "prep": "de",
+   "infinitive_shaped": "perdre"
+  },
+  "615": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1308112,
+   "dist": 28,
+   "prep": "pour",
+   "infinitive_shaped": "permettre"
+  },
+  "616": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "term_offset": 620238,
+   "dist": 28,
+   "prep": "à",
+   "infinitive_shaped": "blesser"
+  },
+  "617": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "nesselrode-v9.txt",
+   "term_offset": 107565,
+   "dist": 29,
+   "prep": "de",
+   "infinitive_shaped": "d'attendre"
+  },
+  "618": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "nesselrode-v9.txt",
+   "term_offset": 107566,
+   "dist": 30,
+   "prep": "de",
+   "infinitive_shaped": "d'attendre"
+  },
+  "619": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "nesselrode-v9.txt",
+   "term_offset": 107567,
+   "dist": 31,
+   "prep": "de",
+   "infinitive_shaped": "d'attendre"
+  },
+  "620": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 923093,
+   "dist": 31,
+   "prep": "de",
+   "infinitive_shaped": "d'avoir"
+  },
+  "621": {
+   "cause": "D",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 185801,
+   "dist": 31,
+   "prep": "de",
+   "infinitive_shaped": "crier"
+  },
+  "622": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 540800,
+   "dist": 32,
+   "prep": "à",
+   "infinitive_shaped": "vivre"
+  },
+  "623": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "term_offset": 1173903,
+   "dist": 32,
+   "prep": "de",
+   "infinitive_shaped": "engraisser"
+  },
+  "624": {
+   "cause": "D",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 372530,
+   "dist": 32,
+   "prep": "à",
+   "infinitive_shaped": "dire"
+  },
+  "625": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 511588,
+   "dist": 33,
+   "prep": "de",
+   "infinitive_shaped": "jeter"
+  },
+  "626": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "term_offset": 678631,
+   "dist": 35,
+   "prep": "de",
+   "infinitive_shaped": "détruire"
+  },
+  "627": {
+   "cause": "D",
+   "gap": "G2-longspan",
+   "file": "nesselrode-v9.txt",
+   "term_offset": 115661,
+   "dist": 35,
+   "prep": "pour",
+   "infinitive_shaped": "l'avoir"
+  },
+  "628": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2604510,
+   "dist": 37,
+   "prep": "de",
+   "infinitive_shaped": "briser"
+  },
+  "629": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 1558225,
+   "dist": 38,
+   "prep": "de",
+   "infinitive_shaped": "gambader"
+  },
+  "630": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2557233,
+   "dist": 38,
+   "prep": "de",
+   "infinitive_shaped": "offrir"
+  },
+  "631": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "nesselrode-v8.txt",
+   "term_offset": 166091,
+   "dist": 39,
+   "prep": "a",
+   "infinitive_shaped": "penser"
+  },
+  "632": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "metternich-papiere-v6.txt",
+   "term_offset": 1143284,
+   "dist": 40,
+   "prep": "a",
+   "infinitive_shaped": "faire"
+  },
+  "633": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 2669156,
+   "dist": 40,
+   "prep": "de",
+   "infinitive_shaped": "l'abandonner"
+  },
+  "634": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "term_offset": 677609,
+   "dist": 40,
+   "prep": "de",
+   "infinitive_shaped": "applaudir"
+  },
+  "635": {
+   "cause": "B",
+   "gap": "G2-longspan",
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "term_offset": 2803696,
+   "dist": 40,
+   "prep": "pour",
+   "infinitive_shaped": "offrir"
+  },
+  "636": {
+   "cause": "B",
+   "gap": "G3-dashcolon",
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "term_offset": 680012,
+   "dist": 39,
+   "prep": "pour",
+   "infinitive_shaped": "l'aider"
+  }
+ },
+ "wide_scan": {
+  "count": 866,
+  "by_gap": {
+   "G1": 616,
+   "G2": 215,
+   "G3": 35
+  },
+  "genuine": 0,
+  "treatment": "all 866 scanned (parent battery's 'scanned' treatment); 0 genuine"
+ },
+ "g3_diag": {
+  "tight_scanned": 16,
+  "genuine": 0,
+  "note": "non-closest matches with no dash/colon; out of bar scope, scanned as due diligence"
+ },
+ "genuine_total": 0
+}

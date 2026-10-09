@@ -1,0 +1,3027 @@
+{
+ "files": [
+  {
+   "file": "hugo-hernani-1870.txt",
+   "chars": 203769,
+   "pron_comma_hits": 103,
+   "excl_candidates": 28
+  },
+  {
+   "file": "hugo-burgraves.txt",
+   "chars": 151408,
+   "pron_comma_hits": 137,
+   "excl_candidates": 63
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "chars": 198265,
+   "pron_comma_hits": 104,
+   "excl_candidates": 36
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "chars": 204641,
+   "pron_comma_hits": 129,
+   "excl_candidates": 10
+  },
+  {
+   "file": "dumas-antony.txt",
+   "chars": 102234,
+   "pron_comma_hits": 106,
+   "excl_candidates": 30
+  },
+  {
+   "file": "dumas-henri-iii.txt",
+   "chars": 128462,
+   "pron_comma_hits": 100,
+   "excl_candidates": 19
+  },
+  {
+   "file": "dumas-kean.txt",
+   "chars": 152233,
+   "pron_comma_hits": 132,
+   "excl_candidates": 31
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "chars": 132586,
+   "pron_comma_hits": 161,
+   "excl_candidates": 39
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "chars": 182448,
+   "pron_comma_hits": 169,
+   "excl_candidates": 38
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "chars": 146451,
+   "pron_comma_hits": 103,
+   "excl_candidates": 33
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "chars": 118567,
+   "pron_comma_hits": 39,
+   "excl_candidates": 14
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "chars": 87042,
+   "pron_comma_hits": 30,
+   "excl_candidates": 9
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "chars": 188780,
+   "pron_comma_hits": 95,
+   "excl_candidates": 16
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "chars": 972696,
+   "pron_comma_hits": 578,
+   "excl_candidates": 61
+  }
+ ],
+ "total_chars": 2969582,
+ "candidates": [
+  {
+   "pron": "lui",
+   "window": "lui,) \nHernani  !",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "nous",
+   "window": "nous,  plus  rien  qu'une \n\nheure !",
+   "inf_hits": [
+    "heure"
+   ],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, \nDona  Sol  !",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous,  mon  fils,  de  cette  île  bossue, \nAu  monde  impérial  au  bout  d'un  fil  cousue  !",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi,  pour  vouloir  si  peu  je  ne  suis  pas  si  fou!",
+   "inf_hits": [
+    "vouloir"
+   ],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "nous",
+   "window": "Nous,  des  duels  avec  vous!",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "nous",
+   "window": "nous,  et  le  reste  est  folie  I \nParle-moi,  ravis-moi  !",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  ravis-moi  !",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi,  jeune  et  beau!",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi  :   \"  Je  t'aime  !",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  repousse!",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui,  sois  heureuse!",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi,  je  me  résigne  !",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi,  fuis  !",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi,  c'est  le  bonheur  I \nTu  n'es  donc  pas  pour  moi  !",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "nous",
+   "window": "nous,  et  nous  ceci  pour  toi  !",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous,  pardon,  si  ma  colère \nDit  l'hospitalité  mauvaise  conseillère  !",
+   "inf_hits": [
+    "colère",
+    "conseillère"
+   ],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  messeigneurs,  dites  !",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  monseigneur  !",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, \nVous  tous  !",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  Tout  m'est  bon,  dague,  épée  ou  poignard  I \nMais  fais-moi,  par  pitié,  cette  suprême  joie  I \nDuc  !",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  par  pitié,  cette  suprême  joie  I \nDuc  !",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous,  ce  trône  où  tout  monarque  aspire  !",
+   "inf_hits": [
+    "aspire"
+   ],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "nous",
+   "window": "nous,  grands  d'Espagne  !",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  comme  l'empire  est  à  vous!",
+   "inf_hits": [
+    "l'empire"
+   ],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi,  j'aime \n!",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi,  démon,  je  me  délivre!",
+   "inf_hits": [
+    "délivre"
+   ],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  belle  pitié  !",
+   "inf_hits": [],
+   "file": "hugo-hernani-1870.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "Vous, seule au monde!",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous,\n \nDans ce morne château, plein de crimes sans nombre, \n\nComme au seul lis du gouffre, au seul astre de l'ombre !",
+   "inf_hits": [
+    "astre",
+    "gouffre",
+    "l'ombre",
+    "nombre"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, comtesse du Rhin !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "Vous, promise à Hatto, le comte au cœur d'airain !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, ô noble fille, \n\nEn vous, son dernier culte et son dernier flambeau,\n \nAube qui blanchissez le seuil de son tombeau !",
+   "inf_hits": [
+    "dernier"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, son dernier culte et son dernier flambeau,\n \nAube qui blanchissez le seuil de son tombeau !",
+   "inf_hits": [
+    "dernier"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, moi, je sentais, à bouillonnements sourds, \n\nDe mon cœur à mon front qu'un feu sinistre éclaire, \n\nMonter toute ma haine et toute ma colère !",
+   "inf_hits": [
+    "colère",
+    "monter",
+    "sinistre",
+    "éclaire"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, je sentais, à bouillonnements sourds, \n\nDe mon cœur à mon front qu'un feu sinistre éclaire, \n\nMonter toute ma haine et toute ma colère !",
+   "inf_hits": [
+    "colère",
+    "monter",
+    "sinistre",
+    "éclaire"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, dans l'ombre où vont mes pas,\n \nDans l'entrave où mon pied se sent pris en arrière, \n\nPlus que la délivrance et plus que la lumière !",
+   "inf_hits": [
+    "arrière",
+    "l'ombre",
+    "lumière"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, \n\nMon Dieu!",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, \n\nNe point contrarier ta fièvre et ton délire, \n\nEt te baiser les mains en te laissant tout dire !",
+   "inf_hits": [
+    "baiser",
+    "contrarier",
+    "dire",
+    "délire",
+    "fièvre"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, ton père et ta mère !",
+   "inf_hits": [
+    "mère",
+    "père"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, mon amant !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "Toi, mourir si jeune !",
+   "inf_hits": [
+    "mourir"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, la vie au front, la joie au cœur,\n\nAnge ressuscité, souriante figure, \n\nTu m'appartiens !",
+   "inf_hits": [
+    "figure"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, mon père vénéré !",
+   "inf_hits": [
+    "père"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui, s'il n'est pas mort, ou du moins sur sa race, \n\nRien ne m'empêchera de le frapper!",
+   "inf_hits": [
+    "frapper"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, vieillard solitaire !",
+   "inf_hits": [
+    "solitaire"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "nous",
+   "window": "nous, Dieu puissant !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi ; \n\nMais s'ils te font enfin quelque injure dernière, \n\nFais-les frissonner tous en dressant ta crinière !",
+   "inf_hits": [
+    "crinière",
+    "dernière",
+    "frissonner",
+    "injure"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, esclaves, aussi !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, vieillards, songez aux morts!",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, douces fleurs !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, nuit ; vieux comme vous, grands chênes !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, grands chênes !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "Toi, jeune homme vaillant; toi, douce jeune fille; \n\nVous qui semblez, vers moi quand vos yeux sont tournés, \n\nDeux anges indulgents sur Satan inclinés !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, douce jeune fille; \n\nVous qui semblez, vers moi quand vos yeux sont tournés, \n\nDeux anges indulgents sur Satan inclinés !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, quand je le voyais rire, \n\nJ'avais, pauvre vieillard, un soleil dans le cœur!",
+   "inf_hits": [
+    "pauvre",
+    "rire"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle, disparaître, \n \nHélas !",
+   "inf_hits": [
+    "disparaître"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "Toi, du moins, sois heureuse !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "Toi, fils, va, grandis!",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, mon âme !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "nous",
+   "window": "nous, que tu n'es qu'un poltron; \n\nEt que tous ces seigneurs, — meilleurs que toi, baron !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, baron !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, gardez le fossé !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, duc !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, je tombe à genoux en ce lieu \n\nDevant mon empereur que ramène mon Dieu !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, \n\nTerribles, enchaînés, les mains de sang trempées, \n\nForçats par nos carcans héros par nos épées !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, géant, \n\nRiait quand on louait ma tête vénérable, \n\nEt, me mordant au cœur, me criait : Misérable !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, Fosco, dans les plis du serpent!",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "eux",
+   "window": "eux, \n\nFuis !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, maudit dans mes fils, maudit dans mes neveux!",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, Caïn, je porte!",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, je suis tombé sur le pavé !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, dont le cœur est vide !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, fratricide!",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, je m'abhorre ; \n\nJe ne vous en veux pas, j'ignore tout, j'ignore \n\nPourquoi vous demeurez immobile, et pourquoi \n\nVous ne vous dressez pas terrible devant moi !",
+   "inf_hits": [
+    "j'ignore",
+    "m'abhorre"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, d'un suaire vêtue, \n\nMorte si je faiblis, vivante si je tue !",
+   "inf_hits": [
+    "suaire"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, vieillard !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, moins sombres que les miens !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, \n \nO vieillard !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, dont souvent la vie impure et sanguinaire \n\nA fait aux pieds de Dieu murmurer le tonnerre!",
+   "inf_hits": [
+    "impure",
+    "murmurer",
+    "sanguinaire",
+    "tonnerre"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, vieillesse, ennui, crime!",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, \n\nQue l'idée aurait pu m'en venir comme à toi !",
+   "inf_hits": [
+    "venir"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, \n\nSois tranquille, mon fils !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, la lutte à mon âge est bien rude, \n\nNe garde pas de doute, obéis-moi sans peur!",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "Toi, mon fils !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, mon Dieu !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, Dieu!",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "Vous, mon frère !",
+   "inf_hits": [
+    "frère"
+   ],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "Toi, ton fils George !",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, Regina, ton épouse!",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, je mourrai!",
+   "inf_hits": [],
+   "file": "hugo-burgraves.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi,\n\nZafari !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, quel changement !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, triste faveur !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, le laquais, — tu m’entends, — Eh bien !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, frère !",
+   "inf_hits": [
+    "frère"
+   ],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, mon dieu !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, mon dieu !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, cœur éteint, dont l’âme, hélas !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, mon cher !",
+   "inf_hits": [
+    "cher"
+   ],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, toutes mes femmes !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, nous courions dans les herbes !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, madame !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, non !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, je dis que si !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, je n’ai rien !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, je n’ai rien !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, je n’ai rien !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, pour vos plaisirs, pour vos filles de joie,\n\nLe peuple misérable, et qu’on pressure encor,\n\nA sué quatre cent trente millions d’or !",
+   "inf_hits": [
+    "pressure",
+    "quatre"
+   ],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, près du pont de Tolède !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui, votre seigneur, plein de deuil et d’effroi,\n\nSeul, dans l’Escurial, avec les morts qu’il foule,\n\nCourbe son front pensif sur l’empire qui croule !",
+   "inf_hits": [
+    "empire",
+    "votre"
+   ],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, hors moi, joie, extase et mystère,\n\nEt l’ivresse, et l’orgueil, et ce qui sur la terre\n\nSe rapproche le plus de la Divinité,\n\nL’amour dans la puissance et dans la majesté !",
+   "inf_hits": [
+    "mystère",
+    "terre"
+   ],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, joie, extase et mystère,\n\nEt l’ivresse, et l’orgueil, et ce qui sur la terre\n\nSe rapproche le plus de la Divinité,\n\nL’amour dans la puissance et dans la majesté !",
+   "inf_hits": [
+    "mystère",
+    "terre"
+   ],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, Seigneur !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, Seigneur !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, moi, te dis-je !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, te dis-je !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, moi, te dis-je !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, te dis-je !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, — un duel !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, je suis enragé !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, je suis enragé !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, deux mille !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, l’on m’a vendu !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, pauvre enfant, qui te prends dans un piége !",
+   "inf_hits": [
+    "pauvre"
+   ],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, je n’ai pas l’âme vile !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, mon Dieu !",
+   "inf_hits": [],
+   "file": "hugo-ruy-blas.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi,  Marton!",
+   "inf_hits": [],
+   "file": "dumas-mariage-louis-xv-1841.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi,  mon  cher  chevalier!",
+   "inf_hits": [
+    "cher",
+    "chevalier"
+   ],
+   "file": "dumas-mariage-louis-xv-1841.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous,  monsieur  le  chevalier;  cependant, \nfaites-y  attention  ,  monsieur  le  comte  est  bien  fin  !",
+   "inf_hits": [
+    "chevalier"
+   ],
+   "file": "dumas-mariage-louis-xv-1841.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi,  m'en  aller!",
+   "inf_hits": [
+    "aller"
+   ],
+   "file": "dumas-mariage-louis-xv-1841.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous,  chevalier;  maisquant \nà  moi ,  je  sais  que  je  n'ai  point  à  me  plaindre;  j'ai \nbien  mérité  cela!",
+   "inf_hits": [
+    "chevalier",
+    "plaindre"
+   ],
+   "file": "dumas-mariage-louis-xv-1841.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi ,  je  sais  que  je  n'ai  point  à  me  plaindre;  j'ai \nbien  mérité  cela!",
+   "inf_hits": [
+    "plaindre"
+   ],
+   "file": "dumas-mariage-louis-xv-1841.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle ,  cette  pauvre  enfant  !",
+   "inf_hits": [
+    "pauvre"
+   ],
+   "file": "dumas-mariage-louis-xv-1841.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi ,  il  me  semble  que  vous  ne  nous  sépare- \nriez pas  malgré  nous  !",
+   "inf_hits": [
+    "sépare"
+   ],
+   "file": "dumas-mariage-louis-xv-1841.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous,  que  celle-là!",
+   "inf_hits": [],
+   "file": "dumas-mariage-louis-xv-1841.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi,  avec  le  chevalier!",
+   "inf_hits": [
+    "chevalier"
+   ],
+   "file": "dumas-mariage-louis-xv-1841.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, Clara, ma sœur, mon amie… à toi, qui sais que je l’ai aimé… que j’essaierai de cacher un seul sentiment de mon cœur… Oh !",
+   "inf_hits": [
+    "cacher"
+   ],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, qui sais que je l’ai aimé… que j’essaierai de cacher un seul sentiment de mon cœur… Oh !",
+   "inf_hits": [
+    "cacher"
+   ],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui, afin que je sache qui il est ; car il est évanoui, vois-tu, évanoui, peut être mort !",
+   "inf_hits": [
+    "être"
+   ],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle ; sans doute il l’a relue mille fois… c’est son bien, sa consolation… et je le lui ravirais !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, toujours belle… calme… comme si pour vous seule la vie n’avait pas de souvenirs amers… Vous êtes donc heureuse, madame !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, pitié !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, seule avec ma fille, isolée avec mes souvenirs, parmi lesquels il en est un qui me poursuit comme un spectre… Oh !",
+   "inf_hits": [
+    "spectre"
+   ],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi ; tu auras aidé à me sauver… Oh !",
+   "inf_hits": [
+    "sauver"
+   ],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, j’ai été obligé de m’en créer un : il me faut à moi d’autres émotions, d’autres douleurs, d’autres plaisirs, et peut-être d’autres crimes !",
+   "inf_hits": [
+    "créer",
+    "être"
+   ],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, au nom du ciel !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, qui n’as pas de parents !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, qui ne peux pas avouer à la face de la société d’où te vient ta fortune !",
+   "inf_hits": [
+    "avouer"
+   ],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, Adèle !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, malheureux !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, ayez pitié de moi !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, où je te disais : Adèle !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "Elle, pleurer !",
+   "inf_hits": [
+    "pleurer"
+   ],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle, souffrir, ô mon Dieu !",
+   "inf_hits": [
+    "souffrir"
+   ],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle, ma vie, mon âme… c’est affreux… Oh !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, pour la vie entière, je serai loin… Ah !",
+   "inf_hits": [
+    "entière"
+   ],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui, je n’étais pas heureuse, mais du moins j’étais calme… chaque lendemain ressemblait à la veille… Dieu !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle, oh !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, j’ai été enchantée ; je me suis dit : Oh !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, bâtie de fleurs et de gaze, vous voulez aimer et être aimée d’amour ; ah !",
+   "inf_hits": [
+    "aimer",
+    "être"
+   ],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, que vous êtes folle !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, seule avec vous-même, vous pouvez en souriant vous regarder dans votre glace et dire : Calomnie !",
+   "inf_hits": [
+    "dire",
+    "regarder",
+    "votre"
+   ],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, tais-toi !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle, de ce qui ferait le salut d’un autre, et vous consentez, ô mon Dieu !",
+   "inf_hits": [
+    "autre"
+   ],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, l’éternité dans tes bras… Oh !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, par pitié !",
+   "inf_hits": [],
+   "file": "dumas-antony.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, mon père !",
+   "inf_hits": [
+    "père"
+   ],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, mon père !",
+   "inf_hits": [
+    "père"
+   ],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "Elle, mon père !",
+   "inf_hits": [
+    "père"
+   ],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi : ce sommeil m’épouvante !",
+   "inf_hits": [],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, comte !",
+   "inf_hits": [],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, m’éloigner !",
+   "inf_hits": [
+    "éloigner"
+   ],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, Ruggieri !",
+   "inf_hits": [],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, ma\nbrave noblesse !",
+   "inf_hits": [],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, pâle !",
+   "inf_hits": [],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, vous tromper… Ah !",
+   "inf_hits": [
+    "tromper"
+   ],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi ; ce n’est point un songe… ma tête ne s’égare pas… Cette clef…\nce papier… ces lignes tracées, tout est réel !",
+   "inf_hits": [
+    "papier",
+    "égare"
+   ],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, fâché !",
+   "inf_hits": [],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, mon\ncousin : à vous qui êtes le premier du royaume après\nmoi… Eh bien, vous hésitez !",
+   "inf_hits": [
+    "premier"
+   ],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi ; mais, la violence, la torture…\nVoyez !",
+   "inf_hits": [
+    "torture"
+   ],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, qu’ils veulent !",
+   "inf_hits": [],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, fuir !",
+   "inf_hits": [
+    "fuir"
+   ],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, fuir devant le duc de Guise !",
+   "inf_hits": [
+    "fuir"
+   ],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, ne me dis plus que tu m’aimes… Avec ta haine,\nj’aurais bravé leurs poignards ; et maintenant, ah !",
+   "inf_hits": [],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, vous dis-je… ou bien !",
+   "inf_hits": [],
+   "file": "dumas-henri-iii.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, avoir oublié mes vieux camarades !",
+   "inf_hits": [
+    "avoir"
+   ],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "Elle, refuser !",
+   "inf_hits": [
+    "refuser"
+   ],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, quitter le théâtre, renoncer à ses émotions, à ses éblouissements, à ses douleurs !",
+   "inf_hits": [
+    "quitter",
+    "renoncer",
+    "théâtre"
+   ],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, céder la place à Kemble et à Macready, pour qu’on m’oublie au bout d’un an, au bout de six mois, peut-être !",
+   "inf_hits": [
+    "céder",
+    "être"
+   ],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui, qu’il ne vit que pendant sa vie, que sa mémoire s’en va avec la génération à laquelle il appartient, et qu’il tombe du jour dans la nuit… du trône dans le néant… Non !",
+   "inf_hits": [
+    "mémoire"
+   ],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, miss, sur mon honneur !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, Votre Honneur !",
+   "inf_hits": [
+    "votre"
+   ],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous ; diable !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui ; mais nous autres !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous ; il vient d’arriver quelque chose à l’hôtel !",
+   "inf_hits": [
+    "arriver"
+   ],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, quel est le lâche qui veut fuir !",
+   "inf_hits": [
+    "fuir"
+   ],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, Kean… Allons donc !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, drôle !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi : mon pauvre Ibrahim !",
+   "inf_hits": [
+    "pauvre"
+   ],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, Desdemona !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, Elena, c’est à me rendre fou !",
+   "inf_hits": [
+    "rendre"
+   ],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle, je vous l’ai dit, que cet amour artistique auquel les plus grands acteurs ont dû leurs plus beaux succès… mais cet amour, j’en ai fait ma vie, voyez-vous, plus que ma vie !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, plus que ma vie !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, Pons… à moi !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, jamais !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, à moi qui souffre tant pour elle, mon Dieu !",
+   "inf_hits": [
+    "souffre"
+   ],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle, mon Dieu !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle, pas un message, pas une lettre !",
+   "inf_hits": [
+    "lettre"
+   ],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, madame… oh !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle, maître !",
+   "inf_hits": [
+    "maître"
+   ],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, Elena… c’est vous… oh !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, fuir… moi, quitter Londres, l’Angleterre, comme un lâche qui tremble… Oh !",
+   "inf_hits": [
+    "angleterre",
+    "fuir",
+    "quitter"
+   ],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, quitter Londres, l’Angleterre, comme un lâche qui tremble… Oh !",
+   "inf_hits": [
+    "angleterre",
+    "quitter"
+   ],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, madame, l’erreur fut pour moi seul, moi seul fus égaré, moi seul ai été fou ; oh !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, Elena, cachez-vous !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, monsieur le constable !",
+   "inf_hits": [],
+   "file": "dumas-kean.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, les enfants !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, frère, à moi !",
+   "inf_hits": [
+    "frère"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, tout jeune ; lui, jeune encore… N’y allez pas, mes amis, n’y allez pas !",
+   "inf_hits": [
+    "encore"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui, jeune encore… N’y allez pas, mes amis, n’y allez pas !",
+   "inf_hits": [
+    "encore"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi : cette nuit ne ressemble pas aux nuits précédentes ; ce jeune homme ne ressemble\npas aux autres jeunes gens : il ressemble à un seul, si au-dessus de tous !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, hâte-toi !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, cette marque… priez Dieu !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, mon frère !",
+   "inf_hits": [
+    "frère"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous ; ou plutôt vous êtes tout pour moi, vous : âme, vie, existence ; je vis en vous, et je compterais les battements de mon cœur en mettant la main sur le vôtre… Oh !",
+   "inf_hits": [
+    "vôtre"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, vous : âme, vie, existence ; je vis en vous, et je compterais les battements de mon cœur en mettant la main sur le vôtre… Oh !",
+   "inf_hits": [
+    "vôtre"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous : âme, vie, existence ; je vis en vous, et je compterais les battements de mon cœur en mettant la main sur le vôtre… Oh !",
+   "inf_hits": [
+    "vôtre"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, et je compterais les battements de mon cœur en mettant la main sur le vôtre… Oh !",
+   "inf_hits": [
+    "vôtre"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui, madame,\nOh !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, c’est moi, ouvrez !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, ouvrez !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, fille\nde duc ; moi, femme de roi ; moi, régente de France !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, femme de roi ; moi, régente de France !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, régente de France !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, près de moi toujours !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui : moi aussi je tiendrai ma promesse, et nous ne serons pas séparés : peu m’importe les soupçons du roi ; je serais si heureuse de mourir pour mon chevalier !",
+   "inf_hits": [
+    "chevalier",
+    "mourir"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, à moi celle-là !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, la preuve, la seule preuve que tu eusses contre moi : tiens !",
+   "inf_hits": [
+    "contre"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi : tiens !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, Orsini !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, quitter Paris !",
+   "inf_hits": [
+    "quitter"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, n’est que déception ; chaque objet me parait réel jusqu’à ce que je le touche, puis alors il s’évanouit entre mes mains… Fantômes !",
+   "inf_hits": [
+    "entre"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "Toi, jaloux !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle, l’autre par moi, justice de Dieu !",
+   "inf_hits": [
+    "autre"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, justice de Dieu !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, un rendez-vous à la tour de Nesle !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui ; c’était tenter Dieu !",
+   "inf_hits": [
+    "tenter"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, oh !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, moi !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "Toi, toi !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, malheureux, à ses devoirs, son premier crime, son plus horrible, n’aurait pas été commis ; pour qu’on ne me soupçonnât pas de la mort de mon père, j’ai perdu mes fils !",
+   "inf_hits": [
+    "premier",
+    "père"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, que je pouvais le bouleverser pour un moment de plaisir !",
+   "inf_hits": [
+    "bouleverser",
+    "plaisir"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, et rien ne t’a dit : Marguerite, voilà tes fils !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "eux",
+   "window": "eux, malheureuse mère, l’un d’eux… tu l’as vu à tes genoux, demandant merci contre le poignard des assassins !",
+   "inf_hits": [
+    "contre",
+    "mère"
+   ],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui, lui qu’on égorge !",
+   "inf_hits": [],
+   "file": "dumas-tour-de-nesle.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, se précipitera avec eux dans les rues de Copenhague en criant : Les traîtres ne sont plus !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, qui en secret aviez toujours pris ma défense, vous en qui j’espérais !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, je raisonne ; j’ai \nsoixante ans, j'ai quelque pouvoir, quelque richesse… et j'irais compromettre tout cela, risquer ma position, mon crédit !",
+   "inf_hits": [
+    "compromettre",
+    "pouvoir",
+    "risquer"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui ; \net pour cela il faut que ses intérêts soient en \njeu… qu’on le lui persuade du moins !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, l’on n’a \naucun droit !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, Raton de Burkenstaff, syndic des marchands !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, mon cher collègue ; voilà de l’exactitude !",
+   "inf_hits": [
+    "cher"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, déprécier le commerce !",
+   "inf_hits": [
+    "déprécier"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, fille et femme de fabricant !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, qui trouve que c’est l’état le plus utile au pays, la source de sa richesse et de sa prospérité !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, enfin, qui ne vois rien de plus honorable et de plus estimable qu’un commerçant qui est commerçant !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, mon affaire d’état ; je ne m’informe pas de ce qui se passe ailleurs ; peu m’importe que la reine ait un favori, ou n’en ait pas !",
+   "inf_hits": [
+    "affaire"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "nous",
+   "window": "nous, où il aurait été si bien !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, je ne m’en mêlais pas ; je comptais sur toi ; j’ai tant d’occupations !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi ; j’ai tant d’occupations !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, je ne regarde que vous, je \nn’aime que vous !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, je \nn’aime que vous !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, pas si bête… je me mets à crier de toutes mes forces : À moi !",
+   "inf_hits": [
+    "crier"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous ; ces magasins, ce comptoir, sont bien différents des brillants salons de votre père ; mais nous sommes si peu de chose, nous ne sommes que des marchands !",
+   "inf_hits": [
+    "comptoir",
+    "père",
+    "votre"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, monsieur le comte !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle, en grand costume, du velours bleu magnifique, et un bel homme, une belle voix !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "nous",
+   "window": "nous, les amis !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, troublé !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "Vous, Koller !",
+   "inf_hits": [
+    "koller"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, mon père ; je sais que l’idée seule d’une mésalliance ferait le malheur de votre vie, et, je vous le promets, ce n’est pas vous qui serez malheureux !",
+   "inf_hits": [
+    "père",
+    "votre"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui, alors on eût approuvé mon choix… tandis que maintenant y penser même est un crime !",
+   "inf_hits": [
+    "penser"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, monsieur !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, je suis perdue !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, ministre d’un jour !",
+   "inf_hits": [
+    "ministre"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "Vous, Rantzau, donner votre démission !",
+   "inf_hits": [
+    "donner",
+    "votre"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, madame, de la tête de Koller !",
+   "inf_hits": [
+    "koller"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, femme !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, général !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, je n’en ai plus qu’en vous !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, pour me sauver qu’il marcherait à la mort !",
+   "inf_hits": [
+    "sauver"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, partez ; dans quelques instants il aura sa grâce, il sera sauvé !",
+   "inf_hits": [],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, caché dans votre appartement !",
+   "inf_hits": [
+    "votre"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "Lui, nous trahir !",
+   "inf_hits": [
+    "trahir"
+   ],
+   "file": "scribe-bertrand-et-raton.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "Vous, à qui je dois tout !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, dans mon élément, dans mon empire… Le bonheur, c’est le mouvement !",
+   "inf_hits": [
+    "empire"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle, un Churchill s’était brouillé avec sa noble famille en épousant ma mère !",
+   "inf_hits": [
+    "mère"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, et sur notre alliance !",
+   "inf_hits": [
+    "notre"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui, surtout… ancien ministre, je ne puis le voir sans exciter la défiance et les plaintes des nouveaux !",
+   "inf_hits": [
+    "exciter",
+    "ministre",
+    "voir"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, la reine !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, mon Dieu !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "nous",
+   "window": "nous, ses fidèles sujets, qu’elle doit s’en prendre… mais à ceux qui l’entourent et dont l’opinion publique réclame depuis longtemps le renvoi !",
+   "inf_hits": [
+    "prendre"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, ma vie n’est plus la même !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, la reine… que par un bill du parlement que je n’obtiendrai peut-être pas !",
+   "inf_hits": [
+    "être"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui, jamais !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, vous m’avez promis de ne pas l’être !",
+   "inf_hits": [
+    "être"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, c’est que tu n’es pas comme eux tous, qui me parlent toujours d’affaires d’État !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi, jamais !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "nous",
+   "window": "nous, à la condition que la question sera nettement tranchée, et qu’on renoncera à toute négociation avec Louis XIV !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, je suis perdu !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, monsieur Masham !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, madame, car le voici !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, la reine, je veux… je dois tout savoir !",
+   "inf_hits": [
+    "savoir"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, attaché à la cour et à la maison de la reine !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, je vous parle des miens !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, si vous m’abandonnez, je n’ai plus qu’à mourir !",
+   "inf_hits": [
+    "mourir"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, l’ambition est égoïste et commence toujours par elle !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, pauvre fille !",
+   "inf_hits": [
+    "pauvre"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, peu m’importe !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, les miennes !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, et qu’à tout prix je rallumerai !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, Bolingbroke, je suis heureuse de vous voir !",
+   "inf_hits": [
+    "voir"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, sommes prêts à exécuter vos ordres !",
+   "inf_hits": [
+    "exécuter"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, et qui sont de la dernière importance !",
+   "inf_hits": [
+    "dernière"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, Arthur… j’ai le crédit… le pouvoir de la duchesse !",
+   "inf_hits": [
+    "pouvoir"
+   ],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, madame… jamais !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, milords !",
+   "inf_hits": [],
+   "file": "scribe-verre-d-eau.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, monsieur Félix !",
+   "inf_hits": [],
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, monsieur !",
+   "inf_hits": [],
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, mesdemoiselles !",
+   "inf_hits": [],
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, je vais chercher un parapluie… » J’attends, et vous revenez… au bout de six mois… sans parapluie !",
+   "inf_hits": [
+    "chercher"
+   ],
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, épouser une autre femme !",
+   "inf_hits": [
+    "autre",
+    "épouser"
+   ],
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, un médecin !",
+   "inf_hits": [],
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, Nisnardi !",
+   "inf_hits": [],
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "pron": "nous",
+   "window": "nous, voyez-vous, je suis un drôle de corps… Vous savez… les artistes !",
+   "inf_hits": [],
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, je suis un drôle de corps… Vous savez… les artistes !",
+   "inf_hits": [],
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui, et il nous plante à la porte !",
+   "inf_hits": [],
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, mon gendre !",
+   "inf_hits": [
+    "gendre"
+   ],
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "Toi, ma fille… tu vois bien cet arbuste… je l’ai empoté le jour de ta naissance… qu’il soit ton emblème !",
+   "inf_hits": [],
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "pron": "nous",
+   "window": "nous ;\n\nLa patrouille veille ;\n\nMalheur aux filous !",
+   "inf_hits": [],
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, madame, j’espère qu’il ne vous trouvera pas là-haut !",
+   "inf_hits": [
+    "espère"
+   ],
+   "file": "labiche-chapeau-de-paille.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, jamais !",
+   "inf_hits": [],
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, ma femme me dit : \"Comme tu es rouge !",
+   "inf_hits": [],
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "Toi, mets-toi au piano… la tête en arrière, et fais des roulades !",
+   "inf_hits": [
+    "arrière"
+   ],
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, j’ai vu le chasseur : un homme de sept à huit pieds !",
+   "inf_hits": [],
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, monsieur, vous avez eu la bonté de nous adresser, il y a quinze jours, une demande qui nous flatte autant qu’elle nous honore !",
+   "inf_hits": [
+    "adresser",
+    "honore"
+   ],
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, suffisent !",
+   "inf_hits": [],
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi, j’ai bu !",
+   "inf_hits": [],
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous, un médecin illustre… qui reçoit quatre mille francs d’un coup !",
+   "inf_hits": [
+    "illustre",
+    "quatre"
+   ],
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi, moi !",
+   "inf_hits": [],
+   "file": "labiche-martin-poudre-aux-yeux.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  et  faites  que  je  vive!",
+   "inf_hits": [],
+   "file": "vigny-chatterton-1835.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi ,  et  faites \nque  je  ne  meure  pas!",
+   "inf_hits": [
+    "meure"
+   ],
+   "file": "vigny-chatterton-1835.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle,  hélas!",
+   "inf_hits": [],
+   "file": "vigny-chatterton-1835.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous  ;  mais  si  je  savais  lequel  de  ceux-là \nvient  de  parler  !",
+   "inf_hits": [
+    "parler"
+   ],
+   "file": "vigny-chatterton-1835.txt"
+  },
+  {
+   "pron": "nous",
+   "window": "nous,  nous  le  connaissons  si \npeu  !",
+   "inf_hits": [],
+   "file": "vigny-chatterton-1835.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  monsieur!",
+   "inf_hits": [],
+   "file": "vigny-chatterton-1835.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  le  tuer  !",
+   "inf_hits": [
+    "tuer"
+   ],
+   "file": "vigny-chatterton-1835.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi ,  sa  vue ,  oui  !",
+   "inf_hits": [],
+   "file": "vigny-chatterton-1835.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  et  mes  en- \nfans  !",
+   "inf_hits": [],
+   "file": "vigny-chatterton-1835.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi ,  créature  de  Dieu  ,  faite  à  son  image, \net  admire-toi  encore  dans  cette  condition  !",
+   "inf_hits": [
+    "admire",
+    "créature",
+    "encore"
+   ],
+   "file": "vigny-chatterton-1835.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi,  et  travaille, \nmalheureux!",
+   "inf_hits": [],
+   "file": "vigny-chatterton-1835.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  je  t'en  supplie, \ndécouragement  glacé!",
+   "inf_hits": [],
+   "file": "vigny-chatterton-1835.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous  ,  et  le  jour  vous  vous  battiez  !",
+   "inf_hits": [],
+   "file": "vigny-chatterton-1835.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous  ,  ce  me  semble  !",
+   "inf_hits": [],
+   "file": "vigny-chatterton-1835.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous  ,  et  je  le  soutiendrai  devant  Dieu  !",
+   "inf_hits": [],
+   "file": "vigny-chatterton-1835.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi,  misérable!",
+   "inf_hits": [],
+   "file": "vigny-chatterton-1835.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi ,  elle  m'aime!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui,  le  chevalier  sans  reproche, \nl'honnête  homme  ,  aussi  bien  que  l'homme  généreux  !",
+   "inf_hits": [
+    "chevalier"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui ,  le \nprotecteur  des  arts!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi,  et  tu  Tas  trompé!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous,  mais  pour  Lucrèce  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  il  y  aurait  eu \nd'autre  sang  de  versé  que  celui-là  !",
+   "inf_hits": [
+    "d'autre"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi,  nuit  pro- \nfonde, que  je  ne  puis  partir!",
+   "inf_hits": [
+    "partir"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi ,  te  dis-je!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous,  André!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui ,  mon  ennemi  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi ,  pauvre  fille  !",
+   "inf_hits": [
+    "pauvre"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi ,  assassin  que  tu  es  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous  ,  voisin  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi ,  et ,  par  la  mort  de  Dieu  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi,  dans  le  silence  du  ca- \nbinet, de  tracer  d'une  main  légère  une  ligne  mince  et  pure \ncomme  un  cheveu  sur  ce  papier  blanc!",
+   "inf_hits": [
+    "légère",
+    "papier",
+    "pure",
+    "tracer"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous,  marquise!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi ,  un  livre  sous  le  bras  :  c'était  toi ,  Renzo  : \n(•  Comme  tu  reviens  de  bonne  heure  !",
+   "inf_hits": [
+    "heure",
+    "livre"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi ,  Renzo  : \n(•  Comme  tu  reviens  de  bonne  heure  !",
+   "inf_hits": [
+    "heure"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "nous",
+   "window": "nous  ,  dans \nces  palais  somptueux  ,  nous  attendons  qu'on  nous  insulte  pour \ntirer  nos  épées!",
+   "inf_hits": [
+    "tirer"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi,  Lorenzaccio!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  mes  archers!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi ,   misérables ,  ou  je  vous  éventrc  comme  des \npourceaux  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi,  un  banni  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  et  pour  tous  ,  j'irai  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  —  dis-moi \ndonc,  toi  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi; — mais  toi!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi,  et  ma  chère  Florence  !",
+   "inf_hits": [
+    "chère"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi  ,  si  tu  jouesavec  ma  colère!",
+   "inf_hits": [
+    "colère"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi ,  moi , \nmoi!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi , \nmoi!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous;  sachez-le,  les  con- \nfédérés comptent  sur  votre  nom;  François  !",
+   "inf_hits": [
+    "votre"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi,  insolent!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  le  roi  de  France  en  veut,  lui;  et  qu'ils \nprennent  garde  qu'on  ne  me  donne  la  main  haute  sur  vous \ntous  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui;  et  qu'ils \nprennent  garde  qu'on  ne  me  donne  la  main  haute  sur  vous \ntous  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  assis  sous  les  arbres!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi ,  pardonne-moi  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "Vous,  si  belle  ,  si  jeune,  si  pure  en- \ncore, livrée  à  un  vieillard  qui  n'a  plus  de  sens,  et  qui  n'a \njamais  eu  de  cœur  !",
+   "inf_hits": [
+    "core",
+    "pure"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous;  mais  il  vous  dt-- \npliiil  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "toi",
+   "window": "toi,  courtisan!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi,  si  vous  n'êtes  pas  sorti, \nvous,  votre  femme  et  vos  petits  chiens!",
+   "inf_hits": [
+    "votre"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous,  votre  femme  et  vos  petits  chiens!",
+   "inf_hits": [
+    "votre"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi ,  hélas  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous  ,  priiii'ossc  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous ,  homme,  et  sorh-z  (l'iii  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi,  morte!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous  ,  monseigneur!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi ,  écoutez-moi  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "moi , \nlu  m'aimes,  entends-tu  ;  mais  tu  épouseras  cette  fille,  ou  tu \nn'es  qu'un  lâche!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "lui",
+   "window": "lui,  au  nom  du  ciel!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle,  s'il  était  vrai!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous,  seigneur  comte  , \ndans  cette  dernière  bataille;  la  faveur  dont  le  roi  vous  honore \ndoit  remplir  votre  cœur;  un  avancement  si  rapide,  si  glorieux!",
+   "inf_hits": [
+    "dernière",
+    "honore",
+    "remplir",
+    "votre"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous ,  Jacqueline!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi,  madame!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "nous",
+   "window": "nous,  et  quels  pauvres \ndiables  nous  sommes  quand  il  vous  plaît  de  nous  eiîdiabler  !",
+   "inf_hits": [
+    "eiîdiabler"
+   ],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle,  et \nlorsque ,  me  voyant  à  ses  pieds  ,  elle  me  sourit  et  me  dit \nqu'elle  m'aime,  c'est  un  calcul,  et  rien  de  plus!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi,  madame!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "vous",
+   "window": "vous,  seule  à  pied  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi  ,  grand  Dieu  !",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi,  je  vous  dis  :  Pleurez!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "elle",
+   "window": "elle ,  en \néchange  d'un  cadeau  de  madame  de  Blainville!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  },
+  {
+   "pron": "moi",
+   "window": "Moi,  par  exemple!",
+   "inf_hits": [],
+   "file": "musset-comedies-proverbes-1850.txt"
+  }
+ ],
+ "note": "hugo-hernani.txt (Hetzel 1889) excluded: duplicate Hernani edition; ONE edition per play per queue gate"
+}

@@ -284,3 +284,114 @@ Total wikisource drama ingest: 1,658,808 bytes (1,573,255 characters by
 Python count) across 11 files. Combined with the archive.org drama family
 above, the lane now holds 15 French drama files (14 distinct plays —
 Hernani in two editions).
+
+## Family — Scribe/Labiche comedy extension (fr.wikisource ingest, 2026-10-09)
+
+Ingested 2026-10-09 by the battery worker `disloc-reinforced-comedy-extension`
+(follow-up #3 of `disloc-demonstrative-drama-reinforced`, null 2026-10-09) to
+close the comedy-register gap: the parent battery found Scribe contributed the
+only infinitive-rich near-misses, and the ingested corpus held only Scribe ×2 /
+Labiche ×2. Retrieval method: same as the drama wikisource ingest —
+`curl -sSL` against the fr.wikisource MediaWiki parse API
+(`https://fr.wikisource.org/w/api.php?action=parse&page=<title>&prop=text&redirects=1&format=json&formatversion=2`;
+transclusions expanded server-side), HTML stripped to plain UTF-8 text
+(script/style/catlinks/printfooter/jump-link elements removed), whitespace
+collapsed, header-nav chrome trimmed. Retrieval 2026-10-09 08:48 UTC
+(retrieval time for all files). Raw API JSON kept in the goal workspace
+(`goals/cipher-hunt-cracking-lanes/hidden_files/comedy-extension-ingest/`).
+User-Agent: `cipher-hunt-lane/1.0 (research corpus ingest)`. All works public
+domain (authors d.: Eugène Scribe 1861, Eugène Labiche 1888; co-authors
+Édouard Martin 1866, Alfred Delacour d. 1890, Albert Monnier d. 1869). French
+comedy/vaudeville throughout.
+
+- `scribe-le-savant.txt` — Eugène Scribe, *Le Savant, comédie en cinq actes*
+  (1832), Aimé André éd., 1835 (Théâtre complet, t. XII, p. 266–362).
+  Source page: https://fr.wikisource.org/wiki/Le_Savant_(Scribe) (full text).
+  88,948 characters. sha256:
+  6c2cc8275073be23169271463dd92a778cc753ef5cec47cf0168fb64876456d6
+- `scribe-le-lorgnon.txt` — Eugène Scribe, *Le Lorgnon, comédie en deux
+  actes* (1833), Aimé André éd., 1835 (Théâtre complet, t. XIII, p. 384–460).
+  Source page: https://fr.wikisource.org/wiki/Le_Lorgnon_(Scribe) (full text).
+  67,027 characters. sha256:
+  206a5990c24f651451e363872a08125ca5a7d4cf12d26d82c32b9cb849bb0985
+- `labiche-voyage-perrichon.txt` — Eugène Labiche & Édouard Martin,
+  *Le Voyage de monsieur Perrichon, comédie en quatre actes* (1860),
+  Calmann-Lévy, Théâtre complet t. 2 (1898, p. 1–121).
+  Source page: https://fr.wikisource.org/wiki/Le_Voyage_de_monsieur_Perrichon
+  (full text). 97,394 characters. sha256:
+  6fb829c40d71ac952f77b0f2781cbf6d52e2005335cf81b44aa4aa86b4a6c923
+- `labiche-la-cagnotte.txt` — Eugène Labiche & Alfred Delacour,
+  *La Cagnotte, comédie-vaudeville en cinq actes* (1864), Calmann-Lévy,
+  Théâtre complet t. 5 (1898, p. 1–170).
+  Source page: https://fr.wikisource.org/wiki/La_Cagnotte (full text).
+  134,352 characters. sha256:
+  83b99bb3ac5e0ec8632aea2ca58534f35f845a0d5a4ecf23e5d2781353e3f579
+- `labiche-29-degres-ombre.txt` — Eugène Labiche,
+  *29 degrés à l'ombre, comédie en un acte* (1873), Calmann-Lévy,
+  Théâtre complet t. 7 (1898, p. 173–215).
+  Source page: https://fr.wikisource.org/wiki/29_degr%C3%A9s_%C3%A0_l%27ombre
+  (full text). 34,633 characters. sha256:
+  a6cdfbc11cf01251283101d2f24e3243241f6a30f220c9cee260ddfdf010b3b0
+- `labiche-affaire-rue-lourcine.txt` — Eugène Labiche, Albert Monnier &
+  Édouard Martin, *L'Affaire de la rue de Lourcine, comédie en un acte*
+  (1857), Calmann-Lévy, Théâtre complet t. I (1898, p. 431–487).
+  Source page: https://fr.wikisource.org/wiki/L%27Affaire_de_la_rue_de_Lourcine
+  (full text). 43,171 characters. sha256:
+  a6c298132d76d5e73061dc638083221eb65ed9db7fca5d49078c709e0c9fe2ec
+
+## Family — Scribe/Labiche comedy WIDER corpus (fr.wikisource ingest, 2026-10-09)
+
+Ingested 2026-10-09 ~08:52 UTC by the battery worker
+`disloc-reinforced-comedy-widercorpus` (follow-up #1 of
+`disloc-reinforced-comedy-recall`, null 2026-10-09) to harden the
+comedy-register fence: the recall battery's suggested bar was "0 genuine in
+≥1M added chars confirms". 565,307 chars added (8 full-text comedies).
+Retrieval method: `curl -sSL` against the fr.wikisource MediaWiki parse API
+(`https://fr.wikisource.org/w/api.php?action=parse&page=<title>&prop=text&redirects=1&format=json&formatversion=2`;
+transclusions expanded server-side), HTML stripped to plain UTF-8 text
+(script/style elements, catlinks/printfooter chrome removed), whitespace
+collapsed. Retrieval 2026-10-09 ~08:52 UTC. Raw API JSON kept in
+`code/crowd17/next-token/widercomedy-ingest-raw/`. User-Agent:
+`cipher-hunt-lane/1.0 (research corpus ingest)`. All works published pre-1923
+(played/published 1825–1872), public domain.
+
+- `scribe-charlatanisme.txt` — Eugène Scribe, *Le Charlatanisme* (1825),
+  Théâtre complet. Source page: https://fr.wikisource.org/wiki/Le_Charlatanisme
+  (full text). 60,202 characters. sha256:
+  64cdd6c2b0773a023fc5a43587a11ae4fe6cbd5db9ecdeedb223be0bffe857a6
+- `labiche-misanthrope-auvergnat.txt` — Eugène Labiche, Lubize & Paul
+  Siraudin, *Le Misanthrope et l'Auvergnat* (1852), Calmann-Lévy, Théâtre
+  complet t. I (1898, p. 133–199). Source page:
+  https://fr.wikisource.org/wiki/Le_Misanthrope_et_l%27Auvergnat (full text).
+  56,991 characters. sha256:
+  f25906b4dad1197ce25d42d428a99a5b2216b81af224b0b683e3db5c99d54642
+- `labiche-main-leste.txt` — Eugène Labiche, *La Main leste*, Calmann-Lévy,
+  Théâtre complet t. 7 (1898, p. 273–318). Source page:
+  https://fr.wikisource.org/wiki/La_Main_leste (full text). 39,272 characters.
+  sha256: c1334f3c62cadde5749a06535071d87014267642076effb21b000e4a62a8605c
+- `labiche-edgard-bonne.txt` — Eugène Labiche & Marc-Michel,
+  *Edgard et sa bonne* (1852), Calmann-Lévy, Théâtre complet t. I (1898,
+  p. 201–264). Source page:
+  https://fr.wikisource.org/wiki/Edgard_et_sa_bonne (full text). 57,212
+  characters. sha256:
+  e33a790252d0aecc21e8979ef2e04556797eea21503a7654c2853fa4859ee9b9
+- `labiche-prix-martin.txt` — Eugène Labiche & Émile Augier, *Le Prix Martin*
+  (1876), Calmann-Lévy, Théâtre complet t. 10 (1898, p. 1–121). Source page:
+  https://fr.wikisource.org/wiki/Le_Prix_Martin (full text). 103,002
+  characters. sha256:
+  f6a79a643933f4785c7f0fce0820da50bf9afa9c3c02b92f1ddd20f8bed4ab81
+- `labiche-noces-bouchencoeur.txt` — Eugène Labiche, *Les Noces de
+  Bouchencœur* (1857). Source page:
+  https://fr.wikisource.org/wiki/Les_Noces_de_Bouchenc%C5%93ur (full text).
+  80,053 characters. sha256:
+  6a3c866c62500817c5e4917063345eb09d6b304cd51bfc7ce5b5cf3dd6592258
+- `labiche-baron-fourchevif.txt` — Eugène Labiche & Alphonse Jolly,
+  *Le Baron de Fourchevif* (1859). Source page:
+  https://fr.wikisource.org/wiki/Le_Baron_de_Fourchevif (full text). 54,412
+  characters. sha256:
+  25c94e9813afae945b2d76d8c30584adbdb38296c883920d0f1fba4cf1c8aa39
+- `labiche-doit-on-le-dire.txt` — Eugène Labiche & Alfred Duru,
+  *Doit-on le dire ?* (1872), Calmann-Lévy, Théâtre complet. Source page:
+  https://fr.wikisource.org/wiki/Doit-on_le_dire_%3F (full text). 114,163
+  characters. sha256:
+  96ea69eae6160d9b6aeaf06a3267167154262a3e673cbd09fe35911e731eec4a
