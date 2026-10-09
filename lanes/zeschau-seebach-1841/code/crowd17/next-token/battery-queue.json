@@ -88,7 +88,8 @@
   "followups_queued_p72": "2026-10-09 supervisor: 6 follow-ups queued from 2 mid-run NULL reports landed during the p71 push window (word-t52-630-identify x3: end-52-uniform-value, t52-74que60-tail, veut-67-633-infinitive; stem-93-29-test x3: stem-93-1761-ent, w1-113-framef-rerun-gated, stem-93-inventory-14-gather); wordbound-41-59-seg PROMOTE proposes none per section 4; 3 reports moved to report_inbox/processed/ + verdict.report paths repaired",
   "followups_queued_p73": "2026-10-09 supervisor: 3 follow-ups queued from part-88-86 NULL (xent-14-adverb-value, pp-88-frame-census-gather, aux-16-83); report moved to report_inbox/processed/ + verdict.report path repaired",
   "report_paths_repaired_2026-10-09c": "2026-10-09 supervisor: 94 stale verdict.report paths repaired (top-level -> report_inbox/processed/; files moved during this run by the topup hook's housekeeping without path repair)",
-  "followups_queued_p75": "2026-10-09 supervisor: 16 null-mandated follow-ups queued from the 10 hook-verdicted top-level reports' audit gap-fill (sel-37-913-agentive-par x2: par09-915-rerun-gated, adj-37-913-elim; val-08-31-rerun-gated x3: val-31-syllable-value, t31-frame-corpus, f1-881-structure; val-55-1084-frame x3: val-55-nominal-census, val-81-55-rerun-gated, prep-02-rerun-gated; val-61-925-timeunit x3: part-61-gender-ctrl, par48-e-agent, fois-part-abs-frame [val-61-participle's unqueued proposals, pipeline gap closed]; val-81-55-collocation x3: leftedge-08-81-1594, class-55-5581-windows, colloc-55-81-uniform-rerun-gated; verb-74-874-class x2: verb-74-874-rerun-r20, frame-74-874-complement); 4 promotes (la-1006-52-frame, pourque-00-46-role, val-14-determiner-test, w3-06-29-leftedge) propose none per section 4; 10 reports moved to report_inbox/processed/ + verdict.report paths repaired"
+  "followups_queued_p75": "2026-10-09 supervisor: 16 null-mandated follow-ups queued from the 10 hook-verdicted top-level reports' audit gap-fill (sel-37-913-agentive-par x2: par09-915-rerun-gated, adj-37-913-elim; val-08-31-rerun-gated x3: val-31-syllable-value, t31-frame-corpus, f1-881-structure; val-55-1084-frame x3: val-55-nominal-census, val-81-55-rerun-gated, prep-02-rerun-gated; val-61-925-timeunit x3: part-61-gender-ctrl, par48-e-agent, fois-part-abs-frame [val-61-participle's unqueued proposals, pipeline gap closed]; val-81-55-collocation x3: leftedge-08-81-1594, class-55-5581-windows, colloc-55-81-uniform-rerun-gated; verb-74-874-class x2: verb-74-874-rerun-r20, frame-74-874-complement); 4 promotes (la-1006-52-frame, pourque-00-46-role, val-14-determiner-test, w3-06-29-leftedge) propose none per section 4; 10 reports moved to report_inbox/processed/ + verdict.report paths repaired",
+  "followups_queued_p76": "2026-10-09 supervisor: 3 follow-ups queued from trans-24-cela-scale NULL (vouloir-cela-gap, cela-subject-scope, trans-24-cela-window - gather-only; surfaced by the ingest-audit coordinator's full report after the supervisor's own regex missed the report's follow-up section; pipeline gap closed)"
  },
  "targets": [
   {
@@ -23315,6 +23316,33 @@
    "status": "queued",
    "evidence": "Null-mandated follow-up from battery-verb-74-874-class.md (NULL, 2026-10-09).",
    "adverses": "R20-049 fence is the blocker."
+  },
+  {
+   "id": "vouloir-cela-gap",
+   "claim": "Gather-only census: 'vouloir + cela/ceci/ca' with intervening material (negations, adverbs) in the 1841 corpus - test whether vouloir's bare-cela gap is a bare-DO gap or a style gap (the trans-24-cela-scale census found only 1 vouloir hit of 25).",
+   "bars": "Gather-only corpus census, classified; no adjudication.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-trans-24-cela-scale.md (NULL gather-complete, 2026-10-09).",
+   "adverses": ""
+  },
+  {
+   "id": "cela-subject-scope",
+   "claim": "Gather-only census: 'cela' as SUBJECT of savoir/vouloir ('cela se sait', 'cela se veut'?) in the 1841 corpus; register-asymmetry hypothesis from the parent report.",
+   "bars": "Gather-only corpus census; no adjudication.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-trans-24-cela-scale.md (NULL gather-complete, 2026-10-09).",
+   "adverses": ""
+  },
+  {
+   "id": "trans-24-cela-window",
+   "claim": "Re-examine 24's 52 stream windows for any '24 + [bare-DO-class follower]' signature consistent with the 25-hit 'V + cela' corpus census; corpus-backed cross-check feeding the 24-value docket.",
+   "bars": "Gather-only cross-check against the parent census; no adjudication.",
+   "priority": 4,
+   "status": "queued",
+   "evidence": "Null-mandated follow-up from battery-trans-24-cela-scale.md (NULL gather-complete, 2026-10-09).",
+   "adverses": ""
   }
  ]
 }
