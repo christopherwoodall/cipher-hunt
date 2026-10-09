@@ -5609,6 +5609,87 @@ note; battery grade)
 No promotes in this batch.
 
 
+### Round-17 backlog fold, sixth batch (2026-10-09 UTC — 8 battery
+notes; battery grade)
+
+Notes trace: `code/crowd17/report_inbox/` (doublet-589-97-role,
+en-988-standalone-leg, laisser-unique-sweep, adj-37-independent-slot,
+det-385-leftedge, residual-86-finer, un-71-det-census,
+redteam-55-polyvalence). 3 promotes, 0 kills, 4 nulls, 1 gather-only
+red-team input — verdict tags in
+`code/crowd17/next-token/battery-queue.json` match 8/8 (1,468 entries:
+1,028 verdict, 440 queued/other).
+
+- **F282** — doublet-589-97-role PROMOTE (class-level): 97 = VERB class.
+  Bar ("≥2 independent legs name one class with zero kill-grade
+  contradictions") passed on all 10 windows of 97 in the repaired
+  1,847-pair / 96-type stream (`data/upstream-ct_R5005.txt` +
+  `code/side-keyhunt/repaired_offsets.json`, parsed per
+  `code/side-keyhunt/repair_parse.py`). Four clean "pour"-infinitive legs
+  at independent loci (@2, @288, @588 — the doublet locus, @1823), each
+  `00=pour [97] X` under granted 00="pour" (A9); three verb-consistent
+  supporting legs (@94 with 46="que" pencil GT, @525 with 47="ce" granted
+  A4, @1412 with 69 noun-class grant R19-109). Noun rival dead (zero
+  determiner precedes 97 in any window). @751 forces letter-tier ("97e",
+  40="e" pencil GT cannot stand alone) — resolved as a positional split
+  (mirroring the established 88/52 non-uniformity), not a kill-grade
+  contradiction; @299/@566 stay ambiguous. Scope: class, not value; any
+  formal split declaration is red-team venue (suggested docket:
+  split-97). PROVISIONAL, battery grade — red-team ratification pending,
+  and against the live record: frame-97-profile's infinitive-class
+  promote (F125) was REJECTED at R18-009/R18-023; this battery's broader
+  VERB-class framing honors but does not re-litigate that rejection —
+  whether it evades the rejection's logic is a red-team call. Follow-ups:
+  split-97 docket (red-team venue); doublet-589-09-role (already queued
+  per N381; 97's verb class now constrains the "41 41 09" resolution).
+- **F283** — en-988-standalone-leg PROMOTE (locus-level): 'en'-local
+  reading at @988 — "48 [en] [76-N]". Both bar legs passed on the
+  repaired stream. Right edge: @988 = 01 with follower 76 (`01 76`
+  stream-unique at @987–988, row a6_01); 76 a promoted masculine noun
+  (R19-111, confirmed by battery-val-76-class-census "ce [76]" legs
+  @1273/@1275, no longer dependent on provisional 77="le") — licenses
+  "en [N-masc]". Left edge: 48 takes prepositional complements at @377
+  ("m [48] pour la"), @1212, @1525 under standing values (82='m' GT,
+  00='pour' granted, 11='la' GT, 96='par' granted, 45='ce' A11) —
+  licenses "48 [prep] [nominal]" with 01 in the preposition slot. Legs
+  independent (neither assumes 01='en'). Rivals dead at this locus:
+  uniform-'on' kill-grade dead at @988 (battery-val-01-census); 28
+  01-windows censused, no other offers a nominal follower under standing
+  values. Scope: locus only — does NOT name uniform 01='en' (dead at 9
+  windows); does NOT touch R20-016 ('en'-local LEAD at the 01-24 windows
+  — redteam-01-split-docket venue). PROVISIONAL, battery grade —
+  red-team ratification pending; the reading confirms at battery grade
+  evidence the redteam-01-split-docket already gathered (no adjudication
+  yet). No standing verdict contradicted; §7 intact. Follow-ups: none at
+  battery level (docket already open).
+- **F284** — laisser-unique-sweep PROMOTE (candidate-elimination claim
+  only; NOT a 33="laisser" value promote — registry unchanged).
+  Re-derived the repaired stream (1,847 pairs / 96 types) and re-tested
+  all 7 erstwhile -er candidates for 33 (donner, montrer, prouver,
+  trouver, porter, envoyer, prononcer) against the @1477 discriminator
+  frame ("veut [X]er m[16]" = `53 60 06 67 33 29 82 16 98`), byte-exact at
+  the 5 re-derived 33-29 windows (@273/@626/@1232/@1424/@1477). All 7 die
+  at kill grade, 16-class-independent: with 82="m" banked, @1477 is a
+  post-infinitive clitic licensed in French only by the causative class
+  and imperatives; all 7 candidates are non-causative. Independent corpus
+  check (56 French files, 29,487,677 chars): genuine "V(-er,
+  non-causative) + me + INF" post-infinitive = 0 hits (worker-reported,
+  not independently re-read). Uniqueness extends from tested to ALL -er:
+  the French causative periphrastic class is closed {faire, laisser},
+  faire is not -er, so 'laisser' is the sole -er verb that can occupy
+  @1477. The 33="laisser" identification stays UNGATED-OPEN: gated on
+  16=inf (frame-82-16) and 85=inf (stem-85), both provisional. Scope
+  fence: under the whole face 33="dire", "dire" is likewise
+  non-causative but out of scope (A10 HOLD untouched). Gate: R19-188
+  SATISFIED and supported by the red-team record
+  (`code/crowd17/report_inbox/processed/next-token-redteam-r19.md` line
+  1193: RATIFY the porter+envoyer eliminations, conditioned on the "82
+  16" segmentation — condition checked against frame-82-16, null
+  2026-10-09). No standing/red-team verdict contradicted. Follow-ups:
+  16=inf discriminator (frame-82-16); 85=inf (stem-85); a7_10 offset
+  validation (canonicality caveat stands — a re-pairing could dissolve
+  @1477).
+
 ## 5. Failures & null results (N-series)
 
 "Nulls are first-class in this lane. Every one below is a measured outcome,
@@ -8831,6 +8912,87 @@ red-team verdict or §7.
   Follow-ups: doublet-589-97-role, doublet-589-09-role,
   linebreak-repeat-audit (all for the supervisor).
 
+### Round-17 null/kill batch, backlog fold 6 (crowd17, 2026-10-09 UTC —
+4 notes: 0 kills, 4 nulls; battery grade)
+
+- **N382** — adj-37-independent-slot NULL (fence with cause): the supply
+  arm fails on count — the independent (non-43-family) prenominal
+  adjective-slot claim for 37 is fenced. Bar required ≥2 independent "37
+  [granted-noun-head]" windows outside the 43 family; all 28 windows of
+  group 37 censused ±3 context on the repaired stream, followers
+  tabulated against the granted noun roster (43 per R19-064/R20-117, 65
+  per R20-047, 68 per R19-107, 69 per R19-109, 76 per R19-111). Only one
+  non-43 "37 [granted-noun]" window exists: @620 (`29('er') 88 [37] 76
+  82('m') 14`, row a4_01), held hostage by the live rival S5 (37="le",
+  MEDIUM, never killed) reading the same bigram as determiner+noun —
+  mutually exclusive with the adjective slot, so @620 cannot count as a
+  clean leg. The 43-family ("37 43" ×3 at @385/@1125/@1723) excluded by
+  the bar; zero "37 65/68/69" windows stream-wide. Scarcity-of-legs null,
+  not a rival-victory null. 37's noun-class grant (R17-003/R17-008), the
+  A12 "37 01" unit, and the 43-family windows untouched. Follow-ups:
+  adj-37-76-rerun (P3) — re-test @620's adjective reading once S5 is
+  adjudicated (s5-37-385-adjudicate, already queued); adj-37-nounwatch
+  (P4) — re-run this census if a new noun grant lands.
+- **N383** — det-385-leftedge NULL (fence with cause): the bar's
+  else-branch fires — no battery-grade determiner candidate in the @385
+  left edge to head the '38 37 43' fragment; the bare-NP reading stays
+  fenced under the adjectival-37 frame. Byte-traced on the repaired
+  stream: left edge @378–383 = `00 11 50 82 16 52`, fragment @384–386 =
+  `38 37 43` (row a2_07) — verified in this fold against
+  `code/side-keyhunt/repair_parse.py` (1,847 pairs / 96 types; the
+  target's "@379-383" is the 1-based lane convention, worker offsets
+  0-based). Six candidates excluded with cause: 00="pour" (A9)
+  preposition; 82="m" (pencil GT) sub-lexical; 16 finite-verb here
+  ("m'a/m'est [52]" per battery-val-16-a-vs-est); 50 no determiner arm
+  (frameA-50-value NULL); 52 no determiner tier (val-52-630-frame PROMOTE:
+  verb/adverb/sub-lexical only); 11="la" (pencil GT) genuine determiner
+  but cannot span five cells — 82="m" forces "50-82-16" word-internal,
+  "52-38" collapse KILLed, zero battery-grade evidence stream-wide for
+  an 11-headed span of >1 intervening cell. Wider @355–377:
+  determiner-valued cells (47="ce" @357/@363, 11="la" @358) 20+ cells out
+  behind finite-verb clauses — no cross-clausal determiner heading is
+  grammatical. Adopted: battery-tail-385-rerun-43poly NULL,
+  battery-val-52-38-unit KILL, val-52-630-frame PROMOTE. S5 fork
+  untouched — fence applies strictly under the adjectival-37 frame; if
+  37="le" (s5-37-385-adjudicate, queued), no external determiner was ever
+  needed. Follow-ups: la-379-span-test (P4); det-52-arm-kill (P3);
+  np-43-determiner-census (P4).
+- **N384** — residual-86-finer NULL (fence outcome): re-derived all 32
+  86-windows (±4 context, repaired stream); the residual 10 from
+  det-86-dlife-partition Subset 4 neither partitions into a
+  frame-consistent value subset (86='le' and 86=noun already NULL at
+  det-86-dlife-partition §4a/4b; nothing in the 08='t', 52-split, 76=noun
+  verdicts re-opens any window) nor leaves any window unaddressed. Fence
+  inventory: A ×2 orthogonal granted-defect (@728 "la pour", @867 "que
+  pour" — ungrammatical left of 86 under any 86 value, par-pour-962
+  docket); B ×2 83-left pair (@899/@1335) — 83's noun fork live per
+  syll-83-de-1829 NULL but selects no 86 value; C ×4 confirmed orphans
+  (@300/@716/@1131/@1147 via adopted kill-grade orphan86 KILLs); D ×2
+  open-neighbor (@557 "fois [86]" absolute-construction tension; @1739
+  fully open neighbors, force-free). 86='le'/noun stay unforced. §7
+  intact; det-86-dlife-partition's PROMOTE untouched (never-downgrade).
+  Follow-ups: residual-86-83pair (P4); residual-86-557-fois (P4);
+  redteam-86-residual-closure (P2, gather-only) for the red-team 86-split
+  docket (already queued). Caveat: fences are conditional — each names
+  the value that un-fences it; if any lands, the window must be
+  re-tested, not the null re-cited as closure.
+- **N385** — un-71-det-census NULL: determiner census across all 96 cells
+  at two grades found no cell holding "un"/"une" other than 71 itself.
+  Red-team grade: all 50 registry cells in
+  `code/table-grid/table-registry.json` censused — zero "un"/"une".
+  Battery grade: full-text grep of `code/crowd17/report_inbox/` (inbox +
+  processed/) — "un" zero value claims; "une" only as scoped/window-local
+  readings: 20="une" (fenced to @307), 41="une" (bar-stipulation at @239;
+  global value owned by queued donn-41-44; the four 41-PROMOTE batteries
+  name no "une" value), 71 itself (frequency leader;
+  quant-71-925-value NULL). No homophony exclusion fires; "une" stays
+  frequency leader for 71, value underdetermined (une/deux/plusieurs/trois
+  per quant-71-925-value); §5.2 does not fire; §7 intact. 71's 7 windows
+  re-derived (@233/@325/@711/@924/@1336/@1564/@1613). Follow-ups:
+  un-71-gender-frame (P3); un-41-vs-71-homophony (P3 — re-test iff
+  donn-41-44 lands 41="une"); quant-71-rerun-neighbors (P4). Caveat: the
+  battery-grade census is only as complete as report_inbox coverage.
+
 ## 6. Open hypotheses (not promoted — each needs ≥2 independent checks)
 
 **Round-12/13 status deltas (2026-10-07):** 31=VERBAL (finite)
@@ -9748,6 +9910,42 @@ unmeasured, provisional; the mine-v3/corpus copies were removed
   (pin 97's class from its 10 windows), doublet-589-09-role (pin 09's
   class from its 12 windows), linebreak-repeat-audit (test the scribal-
   dittography rival across all 69 row breaks).
+
+### Sweep deltas — backlog fold 6 (2026-10-09 UTC)
+
+- **Gate status this batch: one legitimate gate satisfaction.**
+  laisser-unique-sweep's R19-188 claim verified against the red-team
+  record (`code/crowd17/report_inbox/processed/next-token-redteam-r19.md`
+  line 1193: RATIFY the porter+envoyer eliminations, conditioned on the
+  "82 16" segmentation — condition checked against frame-82-16, null
+  2026-10-09). No other gate claims in this batch. Both other PROMOTEs
+  remain battery-grade, red-team ratification pending: 97's VERB-class
+  promote lands against the live R18-009/R18-023 rejection of
+  frame-97-profile (red-team venue); en-988's locus promote confirms
+  evidence the redteam-01-split-docket already gathered (no adjudication
+  yet).
+- **Follow-ups for the supervisor:** split-97 (suggested red-team docket
+  — formal declaration of the 97 verb-class vs @751 letter-tier split);
+  adj-37-76-rerun (P3, gated on s5-37-385-adjudicate);
+  adj-37-nounwatch (P4); la-379-span-test (P4); det-52-arm-kill (P3);
+  np-43-determiner-census (P4); residual-86-83pair (P4);
+  residual-86-557-fois (P4); redteam-86-residual-closure (P2,
+  gather-only); un-71-gender-frame (P3); un-41-vs-71-homophony (P3);
+  quant-71-rerun-neighbors (P4); 16=inf discriminator (frame-82-16 —
+  gates the laisser value); 85=inf (stem-85); a7_10 offset validation.
+  (doublet-589-09-role already queued per N381; s5-37-385-adjudicate,
+  redteam-86-split-docket, redteam-01-split-docket already open.)
+- **§6 venue — redteam-55-polyvalence input package (gather-only, no
+  verdict):** re-derived 55's 12-window census byte-exact (followers 81×6
+  / 61×3 / 83×2 / 68×1; 61↔81 zero contact stream-wide); three resolution
+  options recorded for red-team decision, none adjudicated: (A) second
+  polyvalence — 55="prend"-stem @1205 vs 55="re"-prefix at the 55-81 ×6
+  windows; (B) positional segmentation rule — "55 word-internal iff
+  followed by 61" covers all 12 with zero exceptions; (C) uniform
+  verb-class (R19-077 battery-grade) blocked at W2 and W6. Missing
+  evidence: re81-W2-noun-discrim and re81-W4-02-class still queued —
+  re-package after their return proposed. Citations R20-034/R20-045/R19-077
+  verified verbatim in the R20 round report. No §7 polyvalence declared.
 
 ## 7. Next steps (from STATE.md, round-5 work orders + adjudications, round-6 sweep)
 
