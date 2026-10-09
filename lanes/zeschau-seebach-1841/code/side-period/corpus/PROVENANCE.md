@@ -156,3 +156,131 @@ French unless noted.
   ≈1.85 MB (see `harvest-log.txt`).
 - **Corpus total: 28.2 MB across 33 text files** (books/context 26.3 MB +
   newspapers 1.85 MB).
+
+## Family 9 — 19th-century French DRAMA (harvested 2026-10-09)
+
+Ingested 2026-10-09 by the battery worker `disloc-demonstrative-drama-ingest`
+to make the drama-register bars of the disloc-demonstrative battery chain
+testable. Retrieval method: `curl -sSL` downloads (follows archive.org's
+redirect to the dn*.archive.org host — plain `curl` returns zero bytes)
+to `code/side-period/corpus/`. Retrieval time 2026-10-09 ~08:30 UTC for all
+files. All works public domain (19th-century editions listed; authors
+d. Hugo 1885, Musset 1857, Dumas 1870, Vigny 1863). French drama.
+
+- `hugo-hernani-1870.txt` — Victor Hugo, *Hernani, drame en cinq actes*
+  (New York: William R. Jenkins, 1870 ed., with explanatory notes by Gustave
+  Masson). Source URL:
+  https://archive.org/download/hernanidrameenci00hugouoft/hernanidrameenci00hugouoft_djvu.txt
+  (archive.org item `hernanidrameenci00hugouoft`; Internet Archive OCR).
+  207,880 bytes. sha256:
+  05a6b8f71d5812e28cff6b4f469637e4f32b215c431ec11dea77c0a587e0bac6
+- `dumas-mariage-louis-xv-1841.txt` — Alexandre Dumas père, *Un mariage sous
+  Louis XV, comédie en cinq actes* (Paris, 1841 ed. — contemporary with the
+  R5005 letter). Source URL:
+  https://archive.org/download/unmariagesouslou00duma/unmariagesouslou00duma_djvu.txt
+  (archive.org item `unmariagesouslou00duma`; Internet Archive OCR).
+  207,347 bytes. sha256:
+  f51b724d73e997c59874ea092cb11c423e221d4460c4e4c1a949205e63b4dfcc
+- `vigny-chatterton-1835.txt` — Alfred de Vigny, *Chatterton* (in *Oeuvres*,
+  Bruxelles: Louis Hauman et comp., 1835). Source URL:
+  https://archive.org/download/chatterton00vignuoft/chatterton00vignuoft_djvu.txt
+  (archive.org item `chatterton00vignuoft`; Internet Archive OCR).
+  192,684 bytes. sha256:
+  277dd951ac8c9ff49d405ab37a436c64ccb13b1a356357130ba608ac851c046a
+- `musset-comedies-proverbes-1850.txt` — Alfred de Musset, *Comédies et
+  proverbes* (Poitiers: A. Dupré, 1850 ed.; contains André del Sarto,
+  Lorenzaccio, Les Caprices de Marianne, Fantasio, On ne badine pas avec
+  l'amour, La Nuit vénitienne, La Quenouille de Barberine, Le Chandelier,
+  Il ne faut jurer de rien, Un Caprice). Source URL:
+  https://archive.org/download/comdiesetpro00muss/comdiesetpro00muss_djvu.txt
+  (archive.org item `comdiesetpro00muss`; Internet Archive OCR).
+  990,193 bytes. sha256:
+  fb6074c38356213443c5337bdf54ab9db14e955afb0b91ac3d5d1aa3423ca76a
+
+Total new drama: 1,598,104 bytes (1,569,886 characters by Python count).
+
+## Family — 19th-century French drama, wikisource ingest (2026-10-09)
+
+Ingested 2026-10-09 by the corpus-ingest commission
+(`disloc-demonstrative-drama-ingest` follow-up #1 of battery
+`disloc-demonstrative-drama`) to complete the drama register for the
+dislocated-demonstrative census. Retrieval method: `curl -sL` against the
+fr.wikisource MediaWiki parse API
+(`https://fr.wikisource.org/w/api.php?action=parse&page=<title>&prop=text&redirects=1&format=json&formatversion=2`;
+transclusions expanded server-side), HTML stripped to plain UTF-8 text,
+wikisource header-nav chrome trimmed. Retrieval window 2026-10-09
+~08:20–08:45 UTC for all files. Raw API JSON kept in the goal workspace
+(`goals/cipher-hunt-cracking-lanes/hidden_files/drama-ingest/`). All works
+public domain (authors d.: Victor Hugo 1885, Alexandre Dumas père 1870,
+Eugène Scribe 1861, Eugène Labiche 1888, Marc-Michel 1887,
+Édouard Martin 1866). French drama throughout.
+
+- `hugo-hernani.txt` — Victor Hugo, *Hernani* (drame, 1830), éd. Hetzel 1889.
+  Source page: https://fr.wikisource.org/wiki/Hernani_(Hetzel,_1889)/Texte_entier
+  (full text). 182,092 bytes. sha256:
+  63b22c5c5edfc632debbe5949ae9032b220bb836fc60c2f8fe67fabcdcaa1a95
+  NOTE: second edition of Hernani in this dir — `hugo-hernani-1870.txt`
+  (Jenkins 1870 ed., archive.org OCR) already present. Census runs should
+  use ONE edition per play to avoid double-counting.
+- `hugo-ruy-blas.txt` — Victor Hugo, *Ruy Blas* (drame, 1838), édition 1839
+  (Société Belge de librairie). Source pages:
+  https://fr.wikisource.org/wiki/Ruy_Blas/Préface,
+  /Personnages, /Acte_1 … /Acte_5 (the top-level "Ruy Blas" page renders
+  only the sommaire, so acts fetched individually). 208,673 bytes. sha256:
+  a4c467c746ed65a6bb3ccdb79e41558c75d32ef74e41d9701145b92ae6704a56
+- `hugo-burgraves.txt` — Victor Hugo, *Les Burgraves* (drame, 1843),
+  Œuvres complètes Impr. nat., Théâtre t. III. Source page:
+  https://fr.wikisource.org/wiki/Les_Burgraves (full text). 155,722 bytes.
+  sha256:
+  2f44125d708ce5e8216ef54c5c667707322a4aa37e3728b7135d4f54f9d3fca0
+- `dumas-antony.txt` — Alexandre Dumas père, *Antony* (drame, 1831),
+  Œuvres 1838 vol. 2 (Meline, Cans et cie, Bruxelles). Source pages:
+  https://fr.wikisource.org/wiki/Antony + /Acte_I … /Acte_V.
+  109,308 bytes. sha256:
+  eb2fb304799e451c35d3946692a3bae864a5d8a3afd90dfc3e9ca7bf4eed4865
+- `dumas-tour-de-nesle.txt` — Alexandre Dumas père (with Frédéric
+  Gaillardet), *La Tour de Nesle* (drame, 1832), Œuvres 1838 vol. 2.
+  Source pages: https://fr.wikisource.org/wiki/La_Tour_de_Nesle_(Dumas)/Personnages
+  + /Acte_I … /Acte_V (top-level page is a title page only, excluded).
+  138,666 bytes. sha256:
+  1f583b70ee88d1b807874546077f6c233ab523a4e6dd768aa71e6ae5bf486753
+- `dumas-henri-iii.txt` — Alexandre Dumas père, *Henri III et sa cour*
+  (drame, 1829), Œuvres 1838 vol. 2. Source pages:
+  https://fr.wikisource.org/wiki/Henri_III_et_sa_cour/Personnages
+  + /Acte_I … /Acte_V (top-level page is a title page only, excluded).
+  136,064 bytes. sha256:
+  64ddd49d10e0100bdb46c9b081bec784d2f72532dea6f662f86da1f03c0afc86
+- `dumas-kean.txt` — Alexandre Dumas père, *Kean* (drame, 1836),
+  Œuvres 1838 vol. 2. Source pages:
+  https://fr.wikisource.org/wiki/Kean_(Dumas)/Acte_I … /Acte_V
+  (top-level page is a title page only, excluded). 160,337 bytes. sha256:
+  54e433311f5990a271e204b633d150908a1969c3f3b8ebed8d5a7b0bceb1b4da
+- `scribe-bertrand-et-raton.txt` — Eugène Scribe, *Bertrand et Raton, ou
+  l'Art de conspirer* (comédie, 1833), éd. 1835 (Théâtre, 15). Source page:
+  https://fr.wikisource.org/wiki/Bertrand_et_Raton,_ou_l’Art_de_conspirer
+  (full text). 192,218 bytes. sha256:
+  9cccc55f2b68e130249e6c3d04100b2229a34eb68b7624630efd5189e3ed8cab
+- `scribe-verre-d-eau.txt` — Eugène Scribe, *Le Verre d'eau, ou les Effets
+  et les Causes* (comédie, 1840), éd. 1861 (from the 1860 djvu). Source page:
+  https://fr.wikisource.org/wiki/Le_Verre_d’eau_(1861) (full text).
+  156,592 bytes. sha256:
+  1ded328072f42eb5eeddcef9ee17a85e35b2907d372d5889ef84dbaafa66587c
+  SUBSTITUTION: the éd. 1841 full-text subpage ("Le Verre d’eau ou les
+  Effets et les Causes", Scribe - Théâtre, 22.djvu) does not exist on
+  fr.wikisource (API `missingtitle`); the 1861 edition was used instead.
+- `labiche-chapeau-de-paille.txt` — Eugène Labiche & Marc-Michel,
+  *Un chapeau de paille d'Italie* (comédie-vaudeville, 1851), Théâtre
+  complet Calmann-Lévy 1898 vol. 1. Source page:
+  https://fr.wikisource.org/wiki/Un_chapeau_de_paille_d’Italie (full text).
+  126,750 bytes. sha256:
+  5748dd9e0d5b946756eee02b971409adcebb7deb8704f6999e2bcabff0ad84fe
+- `labiche-martin-poudre-aux-yeux.txt` — Eugène Labiche & Édouard Martin,
+  *La Poudre aux yeux* (comédie, 1861), Théâtre complet Calmann-Lévy 1898
+  vol. 2. Source page: https://fr.wikisource.org/wiki/La_Poudre_aux_yeux
+  (full text). 92,386 bytes. sha256:
+  da5000a14f04499c48509ce2c44a96dc02ad16681a1ab5a37f869118f9df6da1
+
+Total wikisource drama ingest: 1,658,808 bytes (1,573,255 characters by
+Python count) across 11 files. Combined with the archive.org drama family
+above, the lane now holds 15 French drama files (14 distinct plays —
+Hernani in two editions).
