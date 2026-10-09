@@ -52,7 +52,8 @@
   "followups_queued_pasx": "2026-10-09 supervisor: 3 null-verdict follow-ups from battery-pasX-ellipsis-frames queued (fence executed)",
   "followups_queued_p41": "2026-10-09 supervisor: 9 follow-ups queued from the 37-report inbox audit (postnom-91-otherhosts x3: noun-91-det-frames P3, inf-03-91-complement P3, ce63-91-host-gate P4 gated on 63; re81-stem-elim x3: re81-W2-noun-discrim P3, re81-W4-02-class P4, redteam-55-class-input P2 input; val-01-census x3: val-01-rival-sweep P3, redteam-01-split-input P2 input, val-01-40-41-boundary P3); quant-71-925-value's 3 follow-ups (val-61-participle, un-71-det-census, deux-71-numeral-test) verified ALREADY QUEUED by workers/hook — not re-queued; remaining verdicts (promotes/kills/nulls with already-queued follow-ups: noun-42-value x2, pasX-ellipsis-frames x3, particle-20-value-rivals x3, personal-tonic-* family, all other nulls' follow-ups verified queued/verdicted) need no follow-ups per §4; 37 reports moved to report_inbox/processed/ + verdict.report paths repaired Also: personal-tonic-governed-excl-prose-recall NULL ingested by supervisor (worker's own queue write did not land); 3 follow-ups queued: personal-tonic-governed-interr-prose P3, prose-drama-gov-excl-rate-diff P4, personal-tonic-governed-inf-negation-prose P4.",
   "followups_queued_p42": "2026-10-09 supervisor: 8 new follow-ups queued from the 30-report ingestion (21 proposed follow-ups verified ALREADY QUEUED; 2 proposed follow-ups skipped — seg-77-03-722 and val-41-letter-census already have null verdicts, not re-queued; noun-91-nondet-windows proposed by noun-91-det-frames already verdict/null, not re-queued; ne-508-reseg-gate62 + verdict78-gate-wordbound-rearm follow-ups all already queued; all 11 promotes + 4 kills propose no follow-ups per §4); 30 reports moved to report_inbox/processed/ + verdict.report paths repaired. GATE AUDIT: both gate batteries correctly refused — ne-508-reseg-gate62 NULL per §5.2 (gate fired on 62='il' battery promote REJECTED R19-097 / KILLED permanent R20-125); verdict78-gate-wordbound-rearm NULL (six trigger returns are leg-gains/arm-kills, not a 78='ver' status change; R20 defers 78='ver', R16-005 LEAD stands). Gates remain unfired.",
-  "followups_queued_p43": "2026-10-09 supervisor: follow-up audit of the 17-report inbox wave (8 promotes + 1 kill + 8 nulls): all 23 null-mandated follow-ups verified ALREADY QUEUED (no re-queue); adv-49-653-990 proposal skipped (already verdict/promote); 1 supervisor-discretion target queued: sel-37-913-agentive-par (P3, from sel-37-nominal-1179 scope). 17 verdict.report paths repaired to report_inbox/processed/. Gate audit vs R20: ne-508-reseg-gate62 and verdict78-gate-wordbound-rearm remain UNFIRED — R20-125 confirms 62='il' KILLED at kill grade permanent; R20-032-038 defers 78='ver' (R16-005 LEAD stands). R20 override note: R20-080 fences formula-76-49-24 (N-ADJ-Vfin license vacuous after adj-49-420-366 killed adjective-49); standing revision R20-116 lifts the @889 clause-boundary fence (one-word 'pourvoient' parse)."
+  "followups_queued_p43": "2026-10-09 supervisor: follow-up audit of the 17-report inbox wave (8 promotes + 1 kill + 8 nulls): all 23 null-mandated follow-ups verified ALREADY QUEUED (no re-queue); adv-49-653-990 proposal skipped (already verdict/promote); 1 supervisor-discretion target queued: sel-37-913-agentive-par (P3, from sel-37-nominal-1179 scope). 17 verdict.report paths repaired to report_inbox/processed/. Gate audit vs R20: ne-508-reseg-gate62 and verdict78-gate-wordbound-rearm remain UNFIRED — R20-125 confirms 62='il' KILLED at kill grade permanent; R20-032-038 defers 78='ver' (R16-005 LEAD stands). R20 override note: R20-080 fences formula-76-49-24 (N-ADJ-Vfin license vacuous after adj-49-420-366 killed adjective-49); standing revision R20-116 lifts the @889 clause-boundary fence (one-word 'pourvoient' parse).",
+  "followups_queued_p44": "2026-10-09 supervisor: val-85-1700-compound NULL ingested (fence executed); 3 follow-ups queued: compound-85-33-scheme (P4), ne30-1701-tail-reconcile (P3), laisser-85-1699 (P3); report moved to processed/ + verdict.report path repaired. Note: worker's post-push queue write preserved all supervisor edits (p43 + sel-37-913-agentive-par intact) — no last-writer-wins loss."
  },
  "targets": [
   {
@@ -14447,8 +14448,12 @@
    "evidence": "battery-stem-85-then-1700.md NULL 2026-10-09, follow-up 2",
    "id": "val-85-1700-compound",
    "priority": 3,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/processed/battery-val-85-1700-compound.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "adverses": "GATED on a named 85 value - do not run before",
@@ -18700,6 +18705,36 @@
    "bars": "name 37's class at @913 iff unique-survivor elimination under standing values forces past participle with zero new assumptions; do NOT adjudicate 37's global class (red-team venue, frame-37-reexam untouched); fence @913 as locus-scoped if premises fail",
    "adverses": "load-bearing on provisional 59='est' and 78='verre' lead (R16-005, not re-litigated); 'par [09]' agentive reading needs 96='par' granted; canonical-stream caveat (row offsets unvalidated)",
    "evidence": "battery-sel-37-nominal-1179 (promote 2026-10-09) scopes @913 as the natural next locus: 'est [37] par [09]' is participle-suggestive but NOT adjudicated; queued at supervisor's discretion per that report",
+   "priority": 3,
+   "status": "queued",
+   "verdict": null
+  },
+  {
+   "id": "compound-85-33-scheme",
+   "claim": "gather cipher-scheme precedent for 85-33 compounds: do clear prefix-compounds elsewhere ('re-', 'contre-', 'pour-') segment the same way; evidence-gathering only, red-team venue for any declaration",
+   "bars": null,
+   "adverses": null,
+   "evidence": "battery-val-85-1700-compound NULL (fence executed) follow-up #1",
+   "priority": 4,
+   "status": "queued",
+   "verdict": null
+  },
+  {
+   "id": "ne30-1701-tail-reconcile",
+   "claim": "reconcile the fused 'n'importe' reading at @1701-1702 with conditional 30='pas' (pasX-leftverb-59): does the fused item hold wherever 30='pas' parses elsewhere; tail reading gates every compound parse at the locus",
+   "bars": null,
+   "adverses": null,
+   "evidence": "battery-val-85-1700-compound NULL follow-up #2",
+   "priority": 3,
+   "status": "queued",
+   "verdict": null
+  },
+  {
+   "id": "laisser-85-1699",
+   "claim": "test 'laisser' at @1699 ('[91] laisser [33] n'importe ou...'): can 33 compose as laisser's object/complement under standing values; kill iff no composition parses with zero new assumptions",
+   "bars": null,
+   "adverses": null,
+   "evidence": "battery-val-85-1700-compound NULL follow-up #3",
    "priority": 3,
    "status": "queued",
    "verdict": null
