@@ -18632,11 +18632,16 @@
   {
    "id": "procreer-56-semantic-reweight",
    "priority": 3,
-   "status": "queued",
+   "status": "verdict",
    "claim": "Re-score the 8-way X\u00e9ent tie at @1745 with the Littr\u00e9-absolute advantage removed per this fence.",
    "bars": "Re-score per this fence.",
    "evidence": "battery-procreer-absolute-corpus NULL (2026-10-09): 8-way tie at @1745 leaned on the Littr\u00e9-absolute advantage; this fence removes it.",
-   "adverses": null
+   "adverses": null,
+   "verdict": {
+    "result": "promote",
+    "report": "code/crowd17/report_inbox/battery-procreer-56-semantic-reweight.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "id": "qui-fol-23-26-value",
