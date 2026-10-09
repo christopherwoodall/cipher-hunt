@@ -3969,6 +3969,101 @@ ran 2026-10-08 ~23:16 UTC (this sweep): printed **UNCHANGED** — the
 periodic table grid is current. Registry is coordinator-owned;
 batteries keep feeding it via the adjudication queue.
 
+### Round-18 red-team adjudication addenda (2026-10-08 UTC — 29 batteries
+adjudicated; red-team ruling AUTHORITATIVE)
+
+Adjudicator: red team, kill authority. Scope: 29 unprocessed promote
+verdicts (all queue targets with status=verdict/result=promote not
+adjudicated in rounds 15/16/17). Stream: repaired 1,847-pair parse.
+Ten review lanes ran in parallel (9 claim-family adjudicators + 1
+pure attacker); the undersigned red-team adjudicator is the sole
+conflict-resolver. Every number below is the red team's own
+re-derivation from `data/upstream-ct_R5005.txt` +
+`code/side-keyhunt/repaired_offsets.json` (anchors: 1,847 pairs /
+96 types). Trace:
+`code/crowd17/report_inbox/processed/next-token-redteam-r18.md`.
+
+- **F123 — GRANTS (R18-001, R18-022, R18-027 — registry cells):**
+  65="noun" CLASS-tier (R18-001; qui-relative head @1208 with
+  verb-65 kill-grade ungrammatical, que-relative @1253, post-verb DO
+  @812/@1383; @724 struck as anomaly; conditional on 59="est"
+  provisional; participle rival fenced as caveat — value open);
+  92="verb" CLASS-tier, SUBSET-SCOPED (R18-022; 8/8 verbal-governor
+  windows @49/@66/@330/@593/@978/@1154/@1379/@1453 parse with zero
+  new forced contradictions; @1154 "pour [92]er [80] fois" the
+  smoking gun; 'la'-governed ×3 + @683/@1022 residuals fenced;
+  global class HELD pending the §7 split question); 36=NOUN
+  CLASS-tier (R18-027; "par ce [36]" @1215 forces nominal on
+  A11-hold + promoted 96; "pour [36-ADJ]" ×3 ungrammatical;
+  infinitive/adjective excluded as single-class readings; "est
+  [36]" legs honestly marked provisional-59-dependent). Registry:
+  +36=["noun","cls"], +65=["noun","cls"], +92=["verb","cls"]
+  (subset note in `_meta`); 40/96 cells now represented.
+- **F124 — GRANTS, frame/finding/evidence tier (no registry cells):**
+  86 residual disposition (R18-002: both residuals take verb-valued
+  followers, fenced with byte-level cause — the AMENDED RULE itself
+  is RECORDED AS PROPOSAL, not promoted; self-grading bar; §7
+  declaration HELD); 37-78 conditional unit/frame (R18-003; 37-78
+  ×4, followers four distinct groups, 78 word-final at W1 via the
+  exclusive 24→37 frame — bar-calibration warning recorded; does not
+  weaken R16-005); noun26 fragment constructional (R18-004; @1733
+  parallel proves "30 06 60" left-independent; "pas" heads RIGHT of
+  the forced 26|30 boundary — R17-011 re-scoped ×4→×3 with NEW byte
+  evidence, declaration stays HELD); le-par calibration (R18-005:
+  article+promoted-preposition violation ×2 — @913 S5-conditional,
+  @997 S5-independent on banked 11 + promoted 96; prejudgment warning
+  logged); le-qui calibration (R18-006: "le qui" on 37 ×3
+  S5-conditional + 77 ×1 doubly-conditional; @790 logged as potential
+  adverse for provisional 77="le"); ceci @983-986 restricted frame
+  (R18-007: "ceci [24-modal] [89-inf]", A11-conditional; wins the
+  @984 triple-count); 44="l'" window-local @1714 (R18-010;
+  conditional; 44 NOT promoted globally); 44@1839 whole-word
+  segmentation (R18-011; "42 44" two-token adjacency); 29
+  word-initial finding (R18-012: "qui erre" @291/@685, "cela erre"
+  @500 — the @146 un-fence KILLED, @147 parse invalid); 84-successor
+  census evidence package (R18-013; 84→29 ×1 @146 unique resister);
+  W1 "ce qui" fork-window adjudication (R18-014; corrected 2-vs-3
+  assumption count; installs 45="ce" at @314 — NOT 45="dict");
+  W1 conditional structural (R18-015; clause (c) corrected to
+  {78="ver" LEAD, 59="est" provisional}); 37 value-race ranking
+  (R18-016: verb > adjective > "le" > stem > noun; no value named);
+  24-87-64 formula frames (R18-017); "pasent"-spelling kill-grade
+  (R18-018: "30 06" ×4 hardened genuine residuals); lever era gate
+  (R18-020: zero absolute-"lever"="rise" attestations in 17th–19th
+  c. authorities, with corpus-count + Acad.-6e caveats); 94
+  verbless-family census (R18-021: 9/28 reproduced exactly; @508
+  re-framed as non-particle candidate); 68-predecessor typicality
+  (R18-024: M1=1.0 typical of thin cells, not anomalous); 37-11
+  window-disposition (R18-025: @51/@1655 fenced as genuine
+  S5-straining residuals; does NOT preempt the "la tout" docket);
+  rpos refined-rule candidate (R18-026: 45="dict" iff 78 word-MEDIAL
+  — §7-docket evidence only, no declaration); 45→93 ×3 frame
+  (R18-028: governor + "ce" + nominal head); @995 postnominal frame
+  (R18-029: "[03-N][60-adj] et[67] la[11]").
+- **F125 — LEADS granted (R18-008, R18-023; `_meta` only):**
+  24="faire" value-candidate (conditional on R17-009; rival
+  "laisser" LIVE — the uniqueness proof is broken); 01="en" local
+  to @40/@828 only; 60~68 shared free frames (census fact — NOT a
+  homophone claim; the pair-60-68 kill and thirds-60-68 null stand).
+- **F126 — REJECTS (R18-008, R18-009, R18-019, R18-023):**
+  disc-01-24-ci-X promote REJECTED (salvaged as the F125 leads +
+  byte-verified findings); w3-01-adjudicate promote REJECTED —
+  01@984="en" FENCED as the adjudicated loser (wrong rival tested;
+  destroys the R17-015-fenced 45-01 "ceci" frame); en85-gerund
+  REJECTED (undeclared overwrite attempt of standing R17-009 on
+  identical windows — "A3 ground truth 24=en" overstates the
+  record); frame-97-profile REJECTED (INF/N tie at the R17
+  class-promote standard; finite-verb kill + @299 fence stand as
+  sub-findings).
+- **Standing revisions with new byte evidence:** R17-011 "'26 30'
+  [verb] pas" re-scoped ×4→×3 (@1560 excluded — the @1733 parallel
+  is new); noun26-1560-pas residual RESOLVED. @146 un-fence attempt
+  KILLED (@147 parse double-consumes granted 87="ce").
+- **Docket notes (NOT resolved):** @997 "la par" joins "la tout"
+  @52-53 as a banked-value contradiction; @790 as potential adverse
+  for provisional 77="le"; the 86 amended-rule and 26 positional-rule
+  declarations remain HELD under §7 (67 sole polyvalence).
+
 ---
 
 ## 5. Failures & null results (N-series)
