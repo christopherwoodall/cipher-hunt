@@ -50,7 +50,8 @@
   "followups_queued_noun42": "2026-10-09 supervisor: 2 null-verdict follow-ups from battery-noun-42-value queued (val-42-det-gap P3, poly-42-syllable-word P3)",
   "followups_queued_tonicdrama": "2026-10-09 supervisor: 3 null-verdict follow-ups from battery-personal-tonic-pour-inf-drama queued (venue-mismatch null)",
   "followups_queued_pasx": "2026-10-09 supervisor: 3 null-verdict follow-ups from battery-pasX-ellipsis-frames queued (fence executed)",
-  "followups_queued_p41": "2026-10-09 supervisor: 9 follow-ups queued from the 37-report inbox audit (postnom-91-otherhosts x3: noun-91-det-frames P3, inf-03-91-complement P3, ce63-91-host-gate P4 gated on 63; re81-stem-elim x3: re81-W2-noun-discrim P3, re81-W4-02-class P4, redteam-55-class-input P2 input; val-01-census x3: val-01-rival-sweep P3, redteam-01-split-input P2 input, val-01-40-41-boundary P3); quant-71-925-value's 3 follow-ups (val-61-participle, un-71-det-census, deux-71-numeral-test) verified ALREADY QUEUED by workers/hook \u2014 not re-queued; remaining verdicts (promotes/kills/nulls with already-queued follow-ups: noun-42-value x2, pasX-ellipsis-frames x3, particle-20-value-rivals x3, personal-tonic-* family, all other nulls' follow-ups verified queued/verdicted) need no follow-ups per \u00a74; 37 reports moved to report_inbox/processed/ + verdict.report paths repaired Also: personal-tonic-governed-excl-prose-recall NULL ingested by supervisor (worker's own queue write did not land); 3 follow-ups queued: personal-tonic-governed-interr-prose P3, prose-drama-gov-excl-rate-diff P4, personal-tonic-governed-inf-negation-prose P4."
+  "followups_queued_p41": "2026-10-09 supervisor: 9 follow-ups queued from the 37-report inbox audit (postnom-91-otherhosts x3: noun-91-det-frames P3, inf-03-91-complement P3, ce63-91-host-gate P4 gated on 63; re81-stem-elim x3: re81-W2-noun-discrim P3, re81-W4-02-class P4, redteam-55-class-input P2 input; val-01-census x3: val-01-rival-sweep P3, redteam-01-split-input P2 input, val-01-40-41-boundary P3); quant-71-925-value's 3 follow-ups (val-61-participle, un-71-det-census, deux-71-numeral-test) verified ALREADY QUEUED by workers/hook \u2014 not re-queued; remaining verdicts (promotes/kills/nulls with already-queued follow-ups: noun-42-value x2, pasX-ellipsis-frames x3, particle-20-value-rivals x3, personal-tonic-* family, all other nulls' follow-ups verified queued/verdicted) need no follow-ups per \u00a74; 37 reports moved to report_inbox/processed/ + verdict.report paths repaired Also: personal-tonic-governed-excl-prose-recall NULL ingested by supervisor (worker's own queue write did not land); 3 follow-ups queued: personal-tonic-governed-interr-prose P3, prose-drama-gov-excl-rate-diff P4, personal-tonic-governed-inf-negation-prose P4.",
+  "followups_queued_p42": "2026-10-09 supervisor: 8 new follow-ups queued from the 30-report ingestion (21 proposed follow-ups verified ALREADY QUEUED; 2 proposed follow-ups skipped \u2014 seg-77-03-722 and val-41-letter-census already have null verdicts, not re-queued; noun-91-nondet-windows proposed by noun-91-det-frames already verdict/null, not re-queued; ne-508-reseg-gate62 + verdict78-gate-wordbound-rearm follow-ups all already queued; all 11 promotes + 4 kills propose no follow-ups per \u00a74); 30 reports moved to report_inbox/processed/ + verdict.report paths repaired. GATE AUDIT: both gate batteries correctly refused \u2014 ne-508-reseg-gate62 NULL per \u00a75.2 (gate fired on 62='il' battery promote REJECTED R19-097 / KILLED permanent R20-125); verdict78-gate-wordbound-rearm NULL (six trigger returns are leg-gains/arm-kills, not a 78='ver' status change; R20 defers 78='ver', R16-005 LEAD stands). Gates remain unfired."
  },
  "targets": [
   {
@@ -5460,7 +5461,7 @@
    "status": "verdict",
    "verdict": {
     "result": "null",
-    "report": "code/crowd17/report_inbox/battery-verdict78-gate-wordbound-rearm.md",
+    "report": "code/crowd17/report_inbox/processed/battery-verdict78-gate-wordbound-rearm.md",
     "date": "2026-10-09"
    }
   },
@@ -5579,7 +5580,7 @@
    "status": "verdict",
    "verdict": {
     "result": "null",
-    "report": "code/crowd17/report_inbox/battery-ne-508-reseg-gate62.md",
+    "report": "code/crowd17/report_inbox/processed/battery-ne-508-reseg-gate62.md",
     "date": "2026-10-09"
    }
   },
@@ -7702,8 +7703,12 @@
    "evidence": "battery-split-13-det-pron.md (null, 2026-10-09) follow-up #2: -2 slot value-disjoint across arms, class-open lead",
    "id": "split-13-secondleft",
    "priority": 3,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "kill",
+    "report": "code/crowd17/report_inbox/battery-split-13-secondleft.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "adverses": "76=noun promoted (never downgraded) - @567 is a hard wall; 13's predecessor set heterogeneous (65x3, 69x2, 45x2, 00, 97, 95, 35, 99)",
@@ -10121,8 +10126,12 @@
    "evidence": "battery-vient-65-complement null (2026-10-09): 98-65 FENCED as a complement-class residual ('vient [65]' admits no grammatical complement reading under current values); correction \u2014 @12 (98-76) is a second inert 98+[noun-class] contact failing the same way; 98='vient' untouched.",
    "id": "temp-65-loc-census",
    "priority": 3,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-temp-65-loc-census.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "adverses": null,
@@ -10215,8 +10224,12 @@
    "evidence": "battery-det-80-1156-corrob null (2026-10-09): the X-17 census proved the \"determiner slot\" frame is not uniform lane-wide (word-internal X's exist); \"la premi\u00e8re fois\" byte-confirmed @1035\u20131041 ('11 70 82 34 29 40 17').",
    "id": "x17-wordbound-audit",
    "priority": 3,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "promote",
+    "report": "code/crowd17/report_inbox/battery-x17-wordbound-audit.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "adverses": null,
@@ -10595,8 +10608,12 @@
    "evidence": "Granted 79=\"tout\" at @496 forces 88 != plural pronoun under \u00a77 monovalence; \"88 le\" x3 frames keep a plural-NOUN subject reading alive (separate arm).",
    "id": "tout-88-frame",
    "priority": 3,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "promote",
+    "report": "code/crowd17/report_inbox/processed/battery-tout-88-frame.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "adverses": null,
@@ -10605,8 +10622,12 @@
    "evidence": "stem-03-nounfamily promote: convergence on a noun/word reading (not a lexeme) across the forced-nominal windows; @722's leg conditional on provisional 77='le'.",
    "id": "val-03-noun",
    "priority": 3,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-val-03-noun.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "adverses": null,
@@ -11125,7 +11146,7 @@
    "status": "verdict",
    "verdict": {
     "result": "promote",
-    "report": "code/crowd17/report_inbox/battery-quice-verb-1024.md",
+    "report": "code/crowd17/report_inbox/processed/battery-quice-verb-1024.md",
     "date": "2026-10-09"
    }
   },
@@ -11149,7 +11170,7 @@
    "status": "verdict",
    "verdict": {
     "result": "kill",
-    "report": "code/crowd17/report_inbox/battery-reseg-13-armB.md",
+    "report": "code/crowd17/report_inbox/processed/battery-reseg-13-armB.md",
     "date": "2026-10-09"
    }
   },
@@ -11330,8 +11351,12 @@
    "evidence": "val-31-verb-test (P3) \u2014 name 31's verb value (finite vs stem) at the \"qui [31]\" x2 + \"31 29\" frames; 31's verb class (3 legs, established here) is battery-grade material for red-team ratification.",
    "id": "val-31-verb-test",
    "priority": 3,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-val-31-verb-test.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "adverses": null,
@@ -11603,7 +11628,7 @@
    "status": "verdict",
    "verdict": {
     "result": "promote",
-    "report": "code/crowd17/report_inbox/battery-premier-61-admit-fence.md",
+    "report": "code/crowd17/report_inbox/processed/battery-premier-61-admit-fence.md",
     "date": "2026-10-09"
    }
   },
@@ -11965,7 +11990,7 @@
    "status": "verdict",
    "verdict": {
     "result": "promote",
-    "report": "code/crowd17/report_inbox/battery-quoted-dialogue-goldset.md",
+    "report": "code/crowd17/report_inbox/processed/battery-quoted-dialogue-goldset.md",
     "date": "2026-10-09"
    }
   },
@@ -12121,7 +12146,7 @@
    "status": "verdict",
    "verdict": {
     "result": "kill",
-    "report": "code/crowd17/report_inbox/battery-prefix-productivity-08.md",
+    "report": "code/crowd17/report_inbox/processed/battery-prefix-productivity-08.md",
     "date": "2026-10-09"
    }
   },
@@ -12173,7 +12198,7 @@
    "status": "verdict",
    "verdict": {
     "result": "promote",
-    "report": "code/crowd17/report_inbox/battery-reinforced-pour-inf-interro.md",
+    "report": "code/crowd17/report_inbox/processed/battery-reinforced-pour-inf-interro.md",
     "date": "2026-10-09"
    }
   },
@@ -12187,7 +12212,7 @@
    "status": "verdict",
    "verdict": {
     "result": "promote",
-    "report": "code/crowd17/report_inbox/battery-reinforced-pour-inf-widercorpus.md",
+    "report": "code/crowd17/report_inbox/processed/battery-reinforced-pour-inf-widercorpus.md",
     "date": "2026-10-09"
    }
   },
@@ -12469,7 +12494,7 @@
    "status": "verdict",
    "verdict": {
     "result": "null",
-    "report": "code/crowd17/report_inbox/battery-reinforced-head-topology-drama.md",
+    "report": "code/crowd17/report_inbox/processed/battery-reinforced-head-topology-drama.md",
     "date": "2026-10-09"
    }
   },
@@ -12511,7 +12536,7 @@
    "status": "verdict",
    "verdict": {
     "result": "null",
-    "report": "code/crowd17/report_inbox/battery-reinforced-head-narrative-uncapped-drama.md",
+    "report": "code/crowd17/report_inbox/processed/battery-reinforced-head-narrative-uncapped-drama.md",
     "date": "2026-10-09"
    }
   },
@@ -12674,7 +12699,7 @@
    "status": "verdict",
    "verdict": {
     "result": "promote",
-    "report": "code/crowd17/report_inbox/battery-reinforced-head-frequency-comedy.md",
+    "report": "code/crowd17/report_inbox/processed/battery-reinforced-head-frequency-comedy.md",
     "date": "2026-10-09"
    }
   },
@@ -13104,7 +13129,7 @@
    "status": "verdict",
    "verdict": {
     "result": "null",
-    "report": "code/crowd17/report_inbox/battery-reinforced-modal-inf-prose.md",
+    "report": "code/crowd17/report_inbox/processed/battery-reinforced-modal-inf-prose.md",
     "date": "2026-10-09"
    }
   },
@@ -13832,7 +13857,7 @@
    "status": "verdict",
    "verdict": {
     "result": "null",
-    "report": "code/crowd17/report_inbox/battery-procreer-absolute-corpus.md",
+    "report": "code/crowd17/report_inbox/processed/battery-procreer-absolute-corpus.md",
     "date": "2026-10-09"
    }
   },
@@ -13891,8 +13916,12 @@
    "evidence": "battery-croire-33-compound85.md NULL 2026-10-09, follow-up 1",
    "id": "val-85-narrow",
    "priority": 3,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/processed/battery-val-85-narrow.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "adverses": "GATED on 85 value naming - do not run before",
@@ -14085,8 +14114,12 @@
    "evidence": "battery-left-88-02-88-307.md NULL 2026-10-09, follow-up 1",
    "id": "val-02-prep-sweep",
    "priority": 3,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/processed/battery-val-02-prep-sweep.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "adverses": "GATED on 24 tense/form resolving (red-team venue) - do not run before",
@@ -14193,8 +14226,12 @@
    "evidence": "battery-par43-ce-scope.md NULL 2026-10-09, follow-up 2",
    "id": "scope-87-follower-census",
    "priority": 3,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "promote",
+    "report": "code/crowd17/report_inbox/battery-scope-87-follower-census.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "adverses": null,
@@ -14269,8 +14306,12 @@
    "evidence": "battery-qui-02-609-parse.md NULL 2026-10-09, follow-up 2",
    "id": "val-39-class-census",
    "priority": 3,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "kill",
+    "report": "code/crowd17/report_inbox/processed/battery-val-39-class-census.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "adverses": "GATED on validated rival offsets - do not run before",
@@ -14319,8 +14360,12 @@
    "evidence": "battery-reseg-367-4961-bound.md NULL 2026-10-09, follow-up 1",
    "id": "val-49-74-frame",
    "priority": 3,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-val-49-74-frame.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "adverses": null,
@@ -14367,8 +14412,12 @@
    "evidence": "battery-seg-08-ier-61.md NULL 2026-10-09, follow-up 2",
    "id": "seg-41-08-leftedge",
    "priority": 3,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/processed/battery-seg-41-08-leftedge.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "adverses": "GATED on 69 value resolving - do not run before",
@@ -14916,7 +14965,7 @@
    "status": "verdict",
    "verdict": {
     "result": "promote",
-    "report": "code/crowd17/report_inbox/battery-reladv-20-1703.md",
+    "report": "code/crowd17/report_inbox/processed/battery-reladv-20-1703.md",
     "date": "2026-10-09"
    }
   },
@@ -15415,8 +15464,12 @@
    "evidence": "Follow-up proposed by worker report code/crowd17/report_inbox/battery-sel-37-pressure.md (verdict null, 2026-10-09). Worker item: 1. `sel-37-nominal-1179` (P3) \u2014 test 37's class at @1179 (\"est [37] le [78]\"): does the remaining non-cleft, non-@625 \"est 37\" window also force nominal? Bar: name 37's class at @1179 at battery grade, or fence with stated cause.",
    "id": "sel-37-nominal-1179",
    "priority": 3,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "promote",
+    "report": "code/crowd17/report_inbox/battery-sel-37-nominal-1179.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "adverses": null,
@@ -15534,7 +15587,7 @@
    "status": "verdict",
    "verdict": {
     "result": "null",
-    "report": "code/crowd17/report_inbox/battery-qui-predicate-87-census.md",
+    "report": "code/crowd17/report_inbox/processed/battery-qui-predicate-87-census.md",
     "date": "2026-10-09"
    }
   },
@@ -16153,7 +16206,7 @@
    "status": "verdict",
    "verdict": {
     "result": "promote",
-    "report": "code/crowd17/report_inbox/battery-seg-88er-1049.md",
+    "report": "code/crowd17/report_inbox/processed/battery-seg-88er-1049.md",
     "date": "2026-10-09"
    }
   },
@@ -17592,7 +17645,7 @@
    "status": "verdict",
    "verdict": {
     "result": "kill",
-    "report": "code/crowd17/report_inbox/battery-reseg-1564-26pas.md",
+    "report": "code/crowd17/report_inbox/processed/battery-reseg-1564-26pas.md",
     "date": "2026-10-09"
    }
   },
@@ -17682,7 +17735,7 @@
    ],
    "verdict": {
     "result": "null",
-    "report": "code/crowd17/report_inbox/battery-tonic-pronoun-stream-locate.md",
+    "report": "code/crowd17/report_inbox/processed/battery-tonic-pronoun-stream-locate.md",
     "date": "2026-10-09"
    }
   },
@@ -17752,7 +17805,7 @@
    ],
    "verdict": {
     "result": "promote",
-    "report": "code/crowd17/report_inbox/battery-pasX-leftverb-59.md",
+    "report": "code/crowd17/report_inbox/processed/battery-pasX-leftverb-59.md",
     "date": "2026-10-09"
    }
   },
@@ -17792,7 +17845,7 @@
    ],
    "verdict": {
     "result": "promote",
-    "report": "code/crowd17/report_inbox/battery-personal-tonic-pour-only-drama-recall.md",
+    "report": "code/crowd17/report_inbox/processed/battery-personal-tonic-pour-only-drama-recall.md",
     "date": "2026-10-09"
    }
   },
@@ -17859,7 +17912,7 @@
    "status": "verdict",
    "verdict": {
     "result": "null",
-    "report": "code/crowd17/report_inbox/battery-noun-91-det-frames.md",
+    "report": "code/crowd17/report_inbox/processed/battery-noun-91-det-frames.md",
     "date": "2026-10-09"
    }
   },
@@ -17873,7 +17926,7 @@
    "status": "verdict",
    "verdict": {
     "result": "null",
-    "report": "code/crowd17/report_inbox/battery-inf-03-91-complement.md",
+    "report": "code/crowd17/report_inbox/processed/battery-inf-03-91-complement.md",
     "date": "2026-10-09"
    }
   },
@@ -17950,7 +18003,7 @@
    "status": "verdict",
    "verdict": {
     "result": "null",
-    "report": "code/crowd17/report_inbox/battery-personal-tonic-governed-interr-prose.md",
+    "report": "code/crowd17/report_inbox/processed/battery-personal-tonic-governed-interr-prose.md",
     "date": "2026-10-09"
    }
   },
@@ -18006,7 +18059,7 @@
    "dependencies": [],
    "verdict": {
     "result": "null",
-    "report": "code/crowd17/report_inbox/battery-noun-91-nondet-windows.md",
+    "report": "code/crowd17/report_inbox/processed/battery-noun-91-nondet-windows.md",
     "date": "2026-10-09"
    }
   },
@@ -18084,21 +18137,31 @@
   },
   {
    "id": "val-03-value-census",
-   "status": "queued",
+   "status": "verdict",
    "priority": 3,
    "claim": "census all 20 '03' windows for a uniform verb-stem value, lead with the '03 29'=Xer legs (@1030/@1320/@1594)",
    "bars": "name 03's verb-stem value iff it holds across windows with zero kill-grade contradictions; else fence uniform-verb-03",
    "adverses": "R20 deferred the 03/71 \u00a77 split; '77 03' determiner frame at @722 disfavors infinitive-03 there",
-   "dependencies": []
+   "dependencies": [],
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-val-03-value-census.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "id": "seg-77-03-722",
-   "status": "queued",
+   "status": "verdict",
    "priority": 3,
    "claim": "decide the '77 03' frame at @722 directly: nominal-03 vs nominalized infinitive vs word-boundary rival",
    "bars": "name the frame with standing values and zero new assumptions; else fence all three arms at the locus",
    "adverses": "77='le' provisional; 03 value open",
-   "dependencies": []
+   "dependencies": [],
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-seg-77-03-722.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "id": "ne-508-reseg-rearm",
@@ -18120,12 +18183,17 @@
   },
   {
    "id": "reseg-13-rightward",
-   "status": "queued",
+   "status": "verdict",
    "priority": 3,
    "claim": "test rightward attachment of 13 at @481/@575/@1166 ('pour [13-52]', 'ce [13-55]')",
    "bars": "name the rightward attachment with standing values and zero new assumptions at >=2 windows; else fence rightward-13 at those loci",
    "adverses": "52/55 class-open; 13's gloss open; leftward account killed at those windows",
-   "dependencies": []
+   "dependencies": [],
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-reseg-13-rightward.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "id": "suffix-13-narrow",
@@ -18206,6 +18274,413 @@
    "claim": "test whether R19-164's past-participle 91 extends beyond the two 16-91 windows (@538/@1371)",
    "bars": "name extending windows iff they parse as past participle with zero kill-grade contradictions; else fence the extension",
    "adverses": "R19-164 grant is locus-scoped",
+   "dependencies": []
+  },
+  {
+   "id": "val-55-1084-frame",
+   "status": "queued",
+   "priority": 3,
+   "claim": "value 55 in the @1084 window ('24-V [02] 55') \u2014 the strongest remaining geometry for a 02-preposition",
+   "bars": "name 55's value iff it composes a licensed preposition-complement parse at @1084 with standing values; else fence @1084 as a 02-prep leg",
+   "adverses": "55's class open; 24 finite/modal verb class",
+   "dependencies": []
+  },
+  {
+   "id": "syllable-02-tier",
+   "status": "queued",
+   "priority": 4,
+   "claim": "test 02 at syllable tier (word-internal) given 0/17 windows license a word-level preposition",
+   "bars": "name 02's syllable content iff it composes French words at >=2 windows with byte evidence; else fence the syllable arm",
+   "adverses": "02's value open; preposition arm fenced",
+   "dependencies": []
+  },
+  {
+   "id": "redteam-02-prep-fence-input",
+   "status": "queued",
+   "priority": 4,
+   "claim": "package the 02-preposition fence (0/17 windows license) as red-team input",
+   "bars": "evidence package for red-team adjudication; gather-only, no battery decision",
+   "adverses": "red-team venue: batteries do not decide red-team docket items",
+   "dependencies": []
+  },
+  {
+   "id": "val-41-letter-census",
+   "status": "verdict",
+   "priority": 3,
+   "claim": "census 41's 19 windows for letter-cell vs word-cell behavior; a letter-cell 41 re-opens the @59 onset arm",
+   "bars": "name 41's letter content iff a uniform letter parses with byte evidence at >=2 windows; else fence letter-cell-41",
+   "adverses": "41's letter content not standing; \u00a77 split candidate per R20-108/R20-082",
+   "dependencies": [],
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-val-41-letter-census.md",
+    "date": "2026-10-09"
+   }
+  },
+  {
+   "id": "val-08-letter-census",
+   "status": "verdict",
+   "priority": 3,
+   "claim": "census 08's 18 windows for a uniform letter value (lead with 'h'/'f'/'b' from seg-08-ier-61); a named 08 re-opens seg-41-08-leftedge",
+   "bars": "name 08's letter value iff it parses with byte evidence at >=2 windows with zero kill-grade contradictions",
+   "adverses": "08's value open (N189)",
+   "dependencies": [],
+   "verdict": {
+    "result": "promote",
+    "report": "code/crowd17/report_inbox/battery-val-08-letter-census.md",
+    "date": "2026-10-09"
+   }
+  },
+  {
+   "id": "seg-53-12-41-58",
+   "status": "queued",
+   "priority": 4,
+   "claim": "test whether @57-59 ('53 12 41') forms a word-final unit; word-final 41 kills the word-initial-unit claim at kill grade",
+   "bars": "name the word-final unit with standing values and byte evidence; kill iff 41 is word-final at @59",
+   "adverses": "none",
+   "dependencies": []
+  },
+  {
+   "id": "nominal-39-37",
+   "status": "verdict",
+   "priority": 3,
+   "claim": "test nominal 39 at @37 ('[91] [39] qui [41]') \u2014 39 as the nominal antecedent of relative qui",
+   "bars": "name nominal-39 iff it parses with standing values and zero kill-grade contradictions; else fence",
+   "adverses": "R17-005 /a/ allophone LEAD (confirmed R20-010) compatible with nominal",
+   "dependencies": [],
+   "verdict": {
+    "result": "promote",
+    "report": "code/crowd17/report_inbox/battery-nominal-39-37.md",
+    "date": "2026-10-09"
+   }
+  },
+  {
+   "id": "syllable-39-pre",
+   "status": "queued",
+   "priority": 4,
+   "claim": "test 39 as word-internal syllable/stem in the 'pre[39]' windows (@1068/@1605)",
+   "bars": "name 39's syllable/stem content with byte evidence at >=2 windows; else fence the syllable arm",
+   "adverses": "70='pre' bound GT; 39 word-internal at both loci",
+   "dependencies": []
+  },
+  {
+   "id": "laisser-85-gate-status",
+   "status": "queued",
+   "priority": 3,
+   "claim": "check whether the 'laisser' lead's gates moved (16's class via frame-82-16; 33's dire/croire tie); if both resolve favorably, re-run the naming bar",
+   "bars": "name 'laisser' for 85 iff both gates resolve favorably and the value parses across windows with zero kill-grade contradictions",
+   "adverses": "'laisser' is LEAD; gates may be open",
+   "dependencies": []
+  },
+  {
+   "id": "laisser-85-15window",
+   "status": "queued",
+   "priority": 3,
+   "claim": "score 'laisser' against all 15 windows of 85, especially the 'tout [85]' x2 nominal frames (@54/@595) under granted 79='tout'",
+   "bars": "kill iff any window forces 85 non--er-stem; promote iff all 15 parse with zero kill-grade contradictions",
+   "adverses": "79='tout' granted (A5)",
+   "dependencies": []
+  },
+  {
+   "id": "en85-successor-constraint",
+   "status": "queued",
+   "priority": 4,
+   "claim": "test whether any of 85's successors (58 x3, 01 x2, 93/04/08/82/28/41/36/56/48/33 x1) forces a non-stem reading",
+   "bars": "name the constraint iff a successor forces non-stem-85; else fence the successor arm",
+   "adverses": "none",
+   "dependencies": []
+  },
+  {
+   "id": "val-74-letter",
+   "status": "queued",
+   "priority": 3,
+   "claim": "test 74 as a letter cell: the '74 74' doubling kill is scoped to whole-word 74; a letter reading (doubled 'ss'/'ll'-type) would dissolve the doubling at all 6 windows",
+   "bars": "name the letter with byte evidence (collocation profile a la 40='e') or fence letter-74",
+   "adverses": "74 class-open; doubling contradicts whole-word 74 at kill grade (noun-74-census)",
+   "dependencies": []
+  },
+  {
+   "id": "noun-49-nonchain",
+   "status": "queued",
+   "priority": 3,
+   "claim": "test noun-49 at the non-chain windows (@653/@990 '76 49 24 26 30 03' x2, @909 '54 49 qui', @875, @1433) where 74 is not adjacent",
+   "bars": "name noun-49 iff >=2 windows parse with zero new assumptions; else fence noun-49 globally",
+   "adverses": "noun-49 strained at @420 (que 49 [36-noun]); adjective-49 dead at kill grade",
+   "dependencies": []
+  },
+  {
+   "id": "adv-49-653-990",
+   "status": "verdict",
+   "priority": 3,
+   "claim": "test adverb-49 at the byte-identical '76 49 24' x2 frame (@653/@990)",
+   "bars": "name iff both windows parse with <=1 total unstated assumption; else fence adverb-49",
+   "adverses": "adverb-49 strained at @909 ('[54] [49-adv] qui'); noun-74-formula scope",
+   "dependencies": [],
+   "verdict": {
+    "result": "promote",
+    "report": "code/crowd17/report_inbox/battery-adv-49-653-990.md",
+    "date": "2026-10-09"
+   }
+  },
+  {
+   "id": "val-31-finite-name",
+   "status": "queued",
+   "priority": 3,
+   "claim": "name 31's finite value from the two 'qui [31]' legs (@338/@1647)",
+   "bars": "name iff one value parses both windows with zero new assumptions, else fence",
+   "adverses": "64='qui' granted requires a finite verb; 31 standalone at both loci",
+   "dependencies": []
+  },
+  {
+   "id": "val-31-1257-word",
+   "status": "queued",
+   "priority": 3,
+   "claim": "decide '[31]er' at @1257: infinitive vs noun vs word-internal-31",
+   "bars": "name with byte evidence or fence all three arms at the locus",
+   "adverses": "29='er' GT; 01 and 61 unvalued",
+   "dependencies": []
+  },
+  {
+   "id": "val-31-1516-finite",
+   "status": "queued",
+   "priority": 4,
+   "claim": "test finite-31 at @1516 ('la [31] la') as a corroborating third finite leg",
+   "bars": "name iff it parses as finite verb with standing values; else fence",
+   "adverses": "11='la' pencil GT",
+   "dependencies": []
+  },
+  {
+   "id": "val-03-letter-probe",
+   "status": "queued",
+   "priority": 3,
+   "claim": "establish 03's letter content (@1237, '40 03' junctions); prerequisite for lexeme candidates",
+   "bars": "name 03's letter content with byte evidence at >=2 windows; else fence the letter arm",
+   "adverses": "03's value open; R20 deferred the 03/71 split",
+   "dependencies": []
+  },
+  {
+   "id": "noun-03-gender-test",
+   "status": "queued",
+   "priority": 3,
+   "claim": "test masculine uniformity via @722 'le [03]' (77 provisional) vs 'ce [03]' x2",
+   "bars": "name the gender iff it holds across all forced-nominal windows with zero kill-grade contradictions",
+   "adverses": "77='le' provisional",
+   "dependencies": []
+  },
+  {
+   "id": "noun-03-frame-extend",
+   "status": "queued",
+   "priority": 4,
+   "claim": "fold remaining noun-compatible 03 windows ('60 03 39' x3, 'pas [03]' x3) into the frame inventory",
+   "bars": "complete frame inventory with per-window parse status under standing values",
+   "adverses": "none",
+   "dependencies": []
+  },
+  {
+   "id": "temp-65-en-frame",
+   "status": "queued",
+   "priority": 3,
+   "claim": "test the two '24 65' ('en [65]') windows @812/@1383 for a temporal/locative reading under stated period evidence",
+   "bars": "name the temporal/locative reading iff a period-evidenced frame licenses it; else fence the en-frame arm",
+   "adverses": "65 noun-class (R20-047); 'en'+N polysemous",
+   "dependencies": []
+  },
+  {
+   "id": "val-65-value-census",
+   "status": "queued",
+   "priority": 4,
+   "claim": "full 25-window census of 65 for a uniform noun value",
+   "bars": "name 65's value iff it holds across windows with zero kill-grade contradictions; else fence uniform-value-65",
+   "adverses": "65's gender deferred (R20); 98-65 fenced terminally",
+   "dependencies": []
+  },
+  {
+   "id": "temp-98-65-corpus-recheck",
+   "status": "queued",
+   "priority": 4,
+   "claim": "recheck the 'vient + bare temporal/locative noun' 0/2,636 corpus finding with the drama register added",
+   "bars": "a corpus recheck with stated counts; any genuine attestation re-opens the @512 fence",
+   "adverses": "98='vient' lead-grade only",
+   "dependencies": []
+  },
+  {
+   "id": "val-13-letter",
+   "status": "queued",
+   "priority": 3,
+   "claim": "name 13's letter content with byte evidence; a named 13 re-opens the @481/@575/@1166 rightward attachment",
+   "bars": "name 13's letter content iff it parses with byte evidence at >=2 windows with zero kill-grade contradictions",
+   "adverses": "13='les' killed at kill grade; 13='que' \u00a77-blocked; 13's gloss open",
+   "dependencies": []
+  },
+  {
+   "id": "val-52-55-class",
+   "status": "queued",
+   "priority": 3,
+   "claim": "name the classes of 52 and 55 to license the rightward-13 attachment at @481/@575/@1166",
+   "bars": "name 52/55 classes iff they parse with standing values and zero new assumptions; else fence",
+   "adverses": "52/55 class-open",
+   "dependencies": []
+  },
+  {
+   "id": "standalone-13-481",
+   "status": "queued",
+   "priority": 4,
+   "claim": "test standalone word-13 at @481/@575/@1166 given both leftward and rightward attachment arms are closed",
+   "bars": "name the standalone parse with standing values and zero new assumptions; else fence standalone-13 at those loci",
+   "adverses": "leftward killed; rightward unfenceable-until-named",
+   "dependencies": []
+  },
+  {
+   "id": "val-41-word-census",
+   "status": "queued",
+   "priority": 3,
+   "claim": "which windows force standalone-word 41; name 41's word-class",
+   "bars": "name 41's word-class iff it parses across forcing windows with zero kill-grade contradictions",
+   "adverses": "\u00a77 split venue (R20-108/R20-082) untouched; 41's value open",
+   "dependencies": []
+  },
+  {
+   "id": "seg-41-41-double",
+   "status": "queued",
+   "priority": 4,
+   "claim": "word repetition vs doubled letter at @589/@590 ('41 41' doubling)",
+   "bars": "decide with byte evidence and French grammar; fence the unfavored arm",
+   "adverses": "non-discriminating as stated",
+   "dependencies": []
+  },
+  {
+   "id": "reseg-41-06-05",
+   "status": "queued",
+   "priority": 4,
+   "claim": "does 06's syllable '-ent' attach left at @5, making 41 stem-shaped there",
+   "bars": "name the attachment iff it parses with standing values; else fence",
+   "adverses": "06 syllable-tier under the ent-06-host-census decision rule",
+   "dependencies": []
+  },
+  {
+   "id": "val-77-722-det",
+   "status": "queued",
+   "priority": 3,
+   "claim": "determiner-vs-clitic test for 77 at @721 (follower-class census across n(77)=44)",
+   "bars": "name determiner-77 iff follower classes license a determiner reading with zero new assumptions; clitic-77 iff object-pronoun geometry forced; else fence at the locus",
+   "adverses": "77='le' provisional; '77 03' hapax",
+   "dependencies": []
+  },
+  {
+   "id": "seg-77-03-wordinternal",
+   "status": "queued",
+   "priority": 3,
+   "claim": "test the 'le[03]' one-word arm at @721-722 once 03's letter content is named",
+   "bars": "name the one-word parse iff 03's letter content composes a French word with 'le' under standing licenses; else fence",
+   "adverses": "GATED on 03's letter content being named (val-03-value-census / val-03-noun) \u2014 do not run before",
+   "dependencies": []
+  },
+  {
+   "id": "frame-722-65-qui",
+   "status": "queued",
+   "priority": 4,
+   "claim": "parse the right context '[03] [91] [65-N] qui la' (@722-@726) to bound 03's options from the right flank",
+   "bars": "name the constraint iff the right flank forces 03's class with zero new assumptions; else fence",
+   "adverses": "91 class open; 65 noun-class (R20-047); 64='qui' granted; 11='la' GT",
+   "dependencies": []
+  },
+  {
+   "id": "personal-tonic-governed-interr-drama",
+   "priority": 3,
+   "status": "queued",
+   "claim": "Drama-register interrogative-force variant: test whether '?' force licenses the tonic-governed pour-infinitive shape.",
+   "bars": "Same P1/P3 census, drama corpus, first-terminator-'?' filter.",
+   "evidence": "Parent battery-personal-tonic-governed-interr-prose NULL (2026-10-09); drama register licensed the exclamatory shape; '?' force untested.",
+   "adverses": null
+  },
+  {
+   "id": "personal-tonic-interr-inf-negation-prose",
+   "priority": 4,
+   "status": "queued",
+   "claim": "Negation-scoped subclass ('Moi, pour ne pas rire ?'): test whether negation licenses a bare interrogative infinitive where the plain form fails.",
+   "bars": "Bound the subclass.",
+   "evidence": "battery-personal-tonic-governed-interr-prose NULL (2026-10-09); prose plain-form fence; negation subclass untested.",
+   "adverses": null
+  },
+  {
+   "id": "gov-interr-inf-ellipsis-shape",
+   "priority": 4,
+   "status": "queued",
+   "claim": "Ellipsis-interrupted interrogative-infinitive variants where the '?' belongs to an elided later clause.",
+   "bars": "Bound the subclass.",
+   "evidence": "battery-personal-tonic-governed-interr-prose NULL (2026-10-09); 3 analogous confounds in the drama exclamatory sibling.",
+   "adverses": null
+  },
+  {
+   "id": "procreer-littre-absolute-date",
+   "priority": 4,
+   "status": "queued",
+   "claim": "Date Littr\u00e9's absolute-use citations for procr\u00e9er.",
+   "bars": "A pre-1841 diplomatic citation re-opens, otherwise the register question closes.",
+   "evidence": "battery-procreer-absolute-corpus NULL (2026-10-09): corpus transitivity census fences the absolute use; Littr\u00e9 citations undated.",
+   "adverses": null
+  },
+  {
+   "id": "procreer-absolute-drama-corpus",
+   "priority": 4,
+   "status": "queued",
+   "claim": "Same transitivity census for the absolute use of procr\u00e9er on the 14-play drama corpus.",
+   "bars": "A different register may hold the absolute use.",
+   "evidence": "battery-procreer-absolute-corpus NULL (2026-10-09): fence is this-corpus-only; drama register untested.",
+   "adverses": null
+  },
+  {
+   "id": "procreer-56-semantic-reweight",
+   "priority": 3,
+   "status": "queued",
+   "claim": "Re-score the 8-way X\u00e9ent tie at @1745 with the Littr\u00e9-absolute advantage removed per this fence.",
+   "bars": "Re-score per this fence.",
+   "evidence": "battery-procreer-absolute-corpus NULL (2026-10-09): 8-way tie at @1745 leaned on the Littr\u00e9-absolute advantage; this fence removes it.",
+   "adverses": null
+  },
+  {
+   "id": "qui-fol-23-26-value",
+   "priority": 3,
+   "status": "queued",
+   "claim": "Test whether 23 or 26 can carry copula/verb value under standing values via their other stream windows.",
+   "bars": "Name the value with >=2 independent legs, or fence the followers as non-verbal.",
+   "evidence": "battery-qui-predicate-87-census NULL (2026-10-09): @181/@1768 qui-predicate windows blocked by follower values 23/26.",
+   "adverses": null
+  },
+  {
+   "id": "qui-59-1776-scope",
+   "priority": 4,
+   "status": "queued",
+   "claim": "Bound the sole-licensor window: parse the full predicate after 59=est* at @1776 with zero new assumptions.",
+   "bars": "Fence the clause's right edge if the parse runs out.",
+   "evidence": "battery-qui-predicate-87-census NULL (2026-10-09): @1776 = sole licensor window (59=est* @1776, @1777=19 onward) with unparsed right edge.",
+   "adverses": null
+  },
+  {
+   "id": "stem-03-value-discriminator",
+   "status": "queued",
+   "priority": 3,
+   "claim": "the @1320/@1594 '03 29' legs are genuine but value-nondiscriminating; test whether 24's finite/modal subclass selection at @1320 or a future 81 value at @1594 constrains the stem",
+   "bars": "name the stem value iff an independent standing constraint picks exactly one -er stem with zero new assumptions; else fence value-naming at these legs",
+   "adverses": "R19-178 conditioned verb-stem grant (scope '03 29' x3); @1030 window red-team-fenced (R19-142/R20-038)",
+   "dependencies": []
+  },
+  {
+   "id": "noun-03-seven-windows",
+   "status": "queued",
+   "priority": 3,
+   "claim": "counterpart of the uniform-verb-03 fence: name 03's noun value across nounfamily's forced-nominal windows (@336/@674/@1645/@1014/@1790/@722)",
+   "bars": "name 03's noun value iff one lexeme parses all six with zero kill-grade contradictions; else fence uniform-noun-03",
+   "adverses": "val-03-noun NULL 2026-10-09 killed its singleton candidate; fresh inventory needed",
+   "dependencies": []
+  },
+  {
+   "id": "split-03-redteam-feed",
+   "status": "queued",
+   "priority": 2,
+   "claim": "package the uniform-verb-03 fence (12 kill-grade windows documented in battery-val-03-value-census) as red-team input for the deferred 03/71 section-7 split docket",
+   "bars": "evidence package for red-team adjudication; gather-only, no battery decision",
+   "adverses": "red-team venue: batteries do not decide splits (R20 deferred 03/71)",
    "dependencies": []
   }
  ]
