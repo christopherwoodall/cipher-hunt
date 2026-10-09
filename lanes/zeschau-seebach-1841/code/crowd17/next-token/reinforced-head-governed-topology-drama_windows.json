@@ -1,0 +1,716 @@
+{
+ "windows41": [
+  {
+   "idx": 0,
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "off": 115561,
+   "dem": "celui-là",
+   "kind": "comma",
+   "turn": "celui-là,  je  vous  le  donne. ",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 1,
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "off": 172768,
+   "dem": "celle-ci",
+   "kind": "comma",
+   "turn": "celle-ci,  ce \nsera ,  je  vous  le  jure,  une  leçon  pour  toute  ma  vie. ",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 2,
+   "file": "vigny-chatterton-1835.txt",
+   "off": 25120,
+   "dem": "celle-ci",
+   "kind": "comma",
+   "turn": "celle-ci ,  je  la  choisirais.  L'action  matérielle  est \nassez  peu  de  chose  pourtant.  Je  ne  crois  pas \nque  personne  la  réduise  à  une  plus  simple \nexpression  que  moi-même  je  ne  le  vais  faire  : \n—  c'est  l'histoire  d'un  homme  qui  a  écrit  une \nlettre  le  matin,  et  qui  attend  la  réponse  jusqu'au \nsoir  ;  elle  arrive ,  et  le  tue.  —  Mais  ici  l'action \nmorale  est  tout.  L'action  est  dans  cette  ame \nlivrée  à  de  noires  tempêtes;  elle  est  dans  les ",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [
+     [
+      259,
+      "a  écrit  une \nlettre"
+     ]
+    ],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 3,
+   "file": "vigny-chatterton-1835.txt",
+   "off": 151996,
+   "dem": "celle-ci",
+   "kind": "comma",
+   "turn": "celle-ci,  et  le \nmérite  en  est  grand;  car,  derrière  le  drame \nécrit,  il  y  a  comme  un  second  drame  que  l'écri- \nture  n'atteint  pas,  et  que   n'expriment  pas  let \nparoles.  Ce  drame  repose  dans  le  mystérieux \namour  de  Cbatterton  et  de    K.u\\    Bell  ;    cet \namour  qui  >c  devine  toujours  et  ne  se  ditjamais; \ncel  amour  de  deux  êtres  m  purs  qu'ils  n'oseront ",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 4,
+   "file": "musset-comedies-proverbes-1850.txt",
+   "off": 2635,
+   "dem": "celle-ci",
+   "kind": "comma",
+   "turn": "celle-ci,  pleine  de  jeunes  gens, \nde  valets!  T'a-t-on  payé  pour  imaginer  ce  mauvais  roman  sur \nle  compte  de  la  femme  de  mon  meilleur  ami?  Tu  cries  au \nvoleur,  et  tu  prétends  qu'on  a  sauté  par  sa  fenêtre?  Es-tu \nfou  ou  es-tu  payé?  Dis,  réponds;  que  je  t'entende. ",
+   "flags": {
+    "n_excl": 1,
+    "gov_inf": [
+     [
+      67,
+      "pour  imaginer"
+     ],
+     [
+      209,
+      "a  sauté  par  sa  fenêtre"
+     ]
+    ],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 5,
+   "file": "musset-comedies-proverbes-1850.txt",
+   "off": 40999,
+   "dem": "celui-là",
+   "kind": "comma",
+   "turn": "Celui-là,  Cordiani,  tu  l'as  tué;  celui-là  ira  demain  au  cime- \ntière avec  la  dépouille  du  vieux  Grémio;  l'autre  reste,  et  c'est \nlui  qui  te  parle  ici. ",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 6,
+   "file": "musset-comedies-proverbes-1850.txt",
+   "off": 54850,
+   "dem": "celui-ci",
+   "kind": "comma",
+   "turn": "celui-ci  :  Cordiani  !  Cor- \ndiani !... ",
+   "flags": {
+    "n_excl": 2,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 7,
+   "file": "musset-comedies-proverbes-1850.txt",
+   "off": 93942,
+   "dem": "celle-là",
+   "kind": "comma",
+   "turn": "celle-là  ;  et  cependant  Dieu  sait  si  leur \ndamnée  de  musique  me  donne  envie  de  danser. \nDeux  écoliers  passent ",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [
+     [
+      89,
+      "de  danser"
+     ]
+    ],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 8,
+   "file": "musset-comedies-proverbes-1850.txt",
+   "off": 104030,
+   "dem": "celui-là",
+   "kind": "comma",
+   "turn": "Celui-là ,  c'est  ÎNicoliiii  ;  celui-là  ,  c'est  le  provéditeur. \nLe  duc  sort ,  vêtu  en  religieuse  ,  avec  Julien  Salviati ,  habillé \n(le  même ,  tous  deux  masqués. ",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 9,
+   "file": "musset-comedies-proverbes-1850.txt",
+   "off": 104064,
+   "dem": "celui-là",
+   "kind": "comma",
+   "turn": "celui-là  ,  c'est  le  provéditeur. \nLe  duc  sort ,  vêtu  en  religieuse  ,  avec  Julien  Salviati ,  habillé \n(le  même ,  tous  deux  masqués. ",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 10,
+   "file": "musset-comedies-proverbes-1850.txt",
+   "off": 248302,
+   "dem": "celui-là",
+   "kind": "comma",
+   "turn": "celui-là  :  Je  peux  si  je  veux!  Ah  !  Dieu  lui-même  n'en  sait  pas \nplus:  devant  ce  mot,  les  mains  des  peuples  se  joignent  dans \nune  prière  craintive,  et  le  pâle  troupeau  des  hommes  relient \nson  haleine  pour  écouter. ",
+   "flags": {
+    "n_excl": 2,
+    "gov_inf": [
+     [
+      234,
+      "pour  écouter"
+     ]
+    ],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 11,
+   "file": "musset-comedies-proverbes-1850.txt",
+   "off": 421386,
+   "dem": "celui-là",
+   "kind": "comma",
+   "turn": "celui-là,  quand  j'a>ais \ndouze  ans ,  sur  la  couverture  de  mes  livres  de  classe. ",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 12,
+   "file": "musset-comedies-proverbes-1850.txt",
+   "off": 430933,
+   "dem": "celle-là",
+   "kind": "comma",
+   "turn": "celle-là,  Spark? \nC'est  une  romance  portugaise.  Elle  ne  m'est  jamais  venue  à \nl'esprit  sans  me  donner  envie  d'aimer  quelqu'un. ",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [
+     [
+      85,
+      "à \nl'esprit  sans  me  donner"
+     ]
+    ],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 13,
+   "file": "musset-comedies-proverbes-1850.txt",
+   "off": 731479,
+   "dem": "celui-là",
+   "kind": "comma",
+   "turn": "celui-là,  et  il  a  un \nmaître  à  danser  ? ",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [
+     [
+      19,
+      "a  un \nmaître  à  danser"
+     ]
+    ],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 14,
+   "file": "musset-comedies-proverbes-1850.txt",
+   "off": 928715,
+   "dem": "celle-là",
+   "kind": "comma",
+   "turn": "celle-là ,  ce  sera  donc  l'autre  que  je \nbrûlerai. ",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 15,
+   "file": "hugo-ruy-blas.txt",
+   "off": 1185,
+   "dem": "ceux-ci",
+   "kind": "comma",
+   "turn": "ceux-ci, le plaisir des yeux ; celles-là, le plaisir du cœur ; les derniers, le plaisir de l’esprit. De là, sur notre scène, trois espèces d’œuvres bien distinctes, l’une vulgaire et inférieure, les deux autres illustres et supérieures, mais qui, toutes les trois, satisfont un besoin : le mélodrame pour la foule ; pour les femmes, la tragédie qui analyse la passion ; pour les penseurs, la comédie qui peint l’humanité.",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 16,
+   "file": "hugo-ruy-blas.txt",
+   "off": 1216,
+   "dem": "celles-là",
+   "kind": "comma",
+   "turn": "celles-là, le plaisir du cœur ; les derniers, le plaisir de l’esprit. De là, sur notre scène, trois espèces d’œuvres bien distinctes, l’une vulgaire et inférieure, les deux autres illustres et supérieures, mais qui, toutes les trois, satisfont un besoin : le mélodrame pour la foule ; pour les femmes, la tragédie qui analyse la passion ; pour les penseurs, la comédie qui peint l’humanité.",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 17,
+   "file": "hugo-ruy-blas.txt",
+   "off": 3153,
+   "dem": "ceux-là",
+   "kind": "comma",
+   "turn": "ceux-là ; et enfin, du choc de ces caractères et de ces passions avec les grandes lois providentielles, faire sortir la vie humaine, c’est-à-dire des événements grands, petits, douloureux, comiques, terribles, qui contiennent pour le cœur ce plaisir qu’on appelle l’intérêt, et pour l’esprit cette leçon qu’on appelle la morale : tel est le but du drame. On le voit ; le drame tient de la tragédie par la peinture des passions, et de la comédie par la peinture des caractères. Le drame est la troisième grande forme de l’art, comprenant, enserrant, et fécondant les deux premières. Corneille et Molière existeraient indépendamment l’un de l’autre, si Shakespeare n’était entre eux, donnant à Corneille la main gauche, à Molière la main droite. De cette façon, les deux électricités opposées de la comédie et de la tragédie se rencontrent, et l’étincelle qui en jaillit, c’est le drame.",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [
+     [
+      718,
+      "à Molière"
+     ]
+    ],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 18,
+   "file": "hugo-ruy-blas.txt",
+   "off": 14744,
+   "dem": "ceux-là",
+   "kind": "comma",
+   "turn": "ceux-là, c’est un jaloux ; pour ceux-ci, c’est la jalousie. Et cette diversité d’aspects n’ôte rien à l’unité fondamentale de la composition. Nous l’avons déjà dit ailleurs : mille rameaux et un tronc unique.",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 19,
+   "file": "hugo-ruy-blas.txt",
+   "off": 14776,
+   "dem": "ceux-ci",
+   "kind": "comma",
+   "turn": "ceux-ci, c’est la jalousie. Et cette diversité d’aspects n’ôte rien à l’unité fondamentale de la composition. Nous l’avons déjà dit ailleurs : mille rameaux et un tronc unique.",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 20,
+   "file": "hugo-ruy-blas.txt",
+   "off": 34184,
+   "dem": "celui-là",
+   "kind": "comma",
+   "turn": "Celui-là, — fût-il grand de Castille, fût-il",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 21,
+   "file": "hugo-burgraves.txt",
+   "off": 30427,
+   "dem": "celle-là",
+   "kind": "comma",
+   "turn": "Celle-là, c'est un ange. ",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 22,
+   "file": "hugo-burgraves.txt",
+   "off": 117981,
+   "dem": "ceux-ci",
+   "kind": "comma",
+   "turn": "ceux-ci, je les ai laissés dire, ",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 23,
+   "file": "dumas-antony.txt",
+   "off": 59732,
+   "dem": "celle-ci",
+   "kind": "comma",
+   "turn": "celle-ci : c’est, je crois, la plus grande et la plus commode… je me contenterai de l’autre.",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 24,
+   "file": "dumas-tour-de-nesle.txt",
+   "off": 20203,
+   "dem": "celui-là",
+   "kind": "comma",
+   "turn": "celui-là, il faut le sauver… Oh ! je le puis : car toute cette nuit je me suis contrainte ; toute cette nuit j’ai gardé mon masque ; il ne m’a donc pas vue, Orsini, ce noble jeune homme : mon visage est resté voilé pour lui : il me verrait demain qu’il ne pourrait me reconnaître. Eh bien ! je lui sauve la vie ; je veux que cela soit ainsi. Je le renvoie sain et sauf ; qu’il soit reconduit dans la ville ; qu’il vive pour se rappeler cette nuit, pour qu’elle brûle le reste de sa vie de souvenirs d’amour ; pour qu’elle soit un de ces rêves célestes qu’on a une fois sur la terre ; pour qu’elle soit pour lui enfin ce\nqu’elle sera pour moi.",
+   "flags": {
+    "n_excl": 2,
+    "gov_inf": [
+     [
+      419,
+      "pour se rappeler"
+     ]
+    ],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 25,
+   "file": "dumas-tour-de-nesle.txt",
+   "off": 51454,
+   "dem": "celui-là",
+   "kind": "comma",
+   "turn": "celui-là, c’est celui qui a voulu que tu ôtasses ton\nmasque ;… celui-là, c’est celui qui t’a fait à la figure la cicatrice que voici.",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [
+     [
+      91,
+      "a fait à la figure"
+     ]
+    ],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 26,
+   "file": "dumas-tour-de-nesle.txt",
+   "off": 51517,
+   "dem": "celui-là",
+   "kind": "comma",
+   "turn": "celui-là, c’est celui qui t’a fait à la figure la cicatrice que voici.",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [
+     [
+      28,
+      "a fait à la figure"
+     ]
+    ],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 27,
+   "file": "dumas-tour-de-nesle.txt",
+   "off": 79885,
+   "dem": "celui-ci",
+   "kind": "comma",
+   "turn": "celui-ci, des murs aussi sourds et aussi épais que ceux-ci, des murs qui étouffent les cris, éteignent les sanglots, absorbent l’agonie : le prêtre sort le premier, et le bourreau ensuite : puis, lorsque le lendemain le guichetier entre dans la prison, il remonte tout effrayé, disant que le condamné, à qui on avait eu l’imprudence de laisser les mains libres, s’est étranglé lui-même, preuve qu’il était coupable.",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [
+     [
+      333,
+      "de laisser"
+     ]
+    ],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 28,
+   "file": "dumas-tour-de-nesle.txt",
+   "off": 79936,
+   "dem": "ceux-ci",
+   "kind": "comma",
+   "turn": "ceux-ci, des murs qui étouffent les cris, éteignent les sanglots, absorbent l’agonie : le prêtre sort le premier, et le bourreau ensuite : puis, lorsque le lendemain le guichetier entre dans la prison, il remonte tout effrayé, disant que le condamné, à qui on avait eu l’imprudence de laisser les mains libres, s’est étranglé lui-même, preuve qu’il était coupable.",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [
+     [
+      282,
+      "de laisser"
+     ]
+    ],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 29,
+   "file": "dumas-tour-de-nesle.txt",
+   "off": 121981,
+   "dem": "celui-ci",
+   "kind": "comma",
+   "turn": "celui-ci ; moi qui vous demandais du repos, je suis le premier à vous dire : Il le faut.",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [
+     [
+      63,
+      "à vous dire"
+     ]
+    ],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 30,
+   "file": "dumas-henri-iii.txt",
+   "off": 33211,
+   "dem": "ceux-là",
+   "kind": "comma",
+   "turn": "ceux-là, morbleu ! j’ai fait une croix blanche sur leur porte, et si jamais l’occasion se présente\nde décrocher ma pauvre arquebuse, qui est au repos\ndepuis six ans… Mais je n’aurai pas ce bonheur-là,\nmonseigneur ; les bonnes traditions se perdent…\nTête Dieu ! si j’étais à votre place…",
+   "flags": {
+    "n_excl": 2,
+    "gov_inf": [
+     [
+      99,
+      "de décrocher"
+     ],
+     [
+      272,
+      "à votre"
+     ]
+    ],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": [
+     [
+      99,
+      "de décrocher",
+      "de décrocher ma pauvre arquebuse, qui est au repos\ndepuis six ans… Mais je n’aurai pas ce bonheur-là,\nmonseigneur ; les bonnes traditions se perdent…\nTête Dieu !"
+     ]
+    ]
+   }
+  },
+  {
+   "idx": 31,
+   "file": "dumas-kean.txt",
+   "off": 43821,
+   "dem": "ceux-là",
+   "kind": "comma",
+   "turn": "Ceux-là, c’est la gloire de la presse… ce sont les anges du jugement de la nation… Mais il en est d’autres, miss, que l’impuissance de produire a jetés dans la critique… Ceux-là sont jaloux de tout, ils flétrissent ce qui est noble… ils ternissent ce qui est beau… ils abaissent ce qui est grand ! Un de ces hommes, pour votre malheur, vous trouvera belle, peut-être… le lendemain il attaquera votre talent… le surlendemain votre honneur… Alors, dans votre innocence du mal, vous voudrez savoir quelle cause le pousse… naïve et pure, vous irez chez lui comme vous êtes venue chez moi… Vous lui demanderez le motif de sa haine et ce que vous pouvez faire pour qu’elle cesse. Alors il vous dira que vous vous êtes trompée à ses intentions, que votre talent lui plaît, qu’il ne vous hait pas, qu’il vous aime au contraire… Vous vous lèverez comme vous venez de le faire, et il dira : Rasseyez-vous, miss… ou demain…",
+   "flags": {
+    "n_excl": 1,
+    "gov_inf": [
+     [
+      132,
+      "de produire"
+     ],
+     [
+      316,
+      "pour votre"
+     ],
+     [
+      855,
+      "de le faire"
+     ]
+    ],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": [
+     [
+      132,
+      "de produire",
+      "de produire a jetés dans la critique… Ceux-là sont jaloux de tout, ils flétrissent ce qui est noble… ils ternissent ce qui est beau… ils abaissent ce qui est grand !"
+     ]
+    ]
+   }
+  },
+  {
+   "idx": 32,
+   "file": "dumas-kean.txt",
+   "off": 55087,
+   "dem": "celui-là",
+   "kind": "comma",
+   "turn": "celui-là ; ce qui n’est pas difficile, en vous y prenant comme vous faites.",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 33,
+   "file": "dumas-kean.txt",
+   "off": 66336,
+   "dem": "celui-là",
+   "kind": "comma",
+   "turn": "celui-là ; l’autre le trouvait trop fort, « a servi à faire mieux ressortir encore la profondeur du jeu de notre célèbre… » (Il jette le journal.) Coterie ! coterie ! Ah ! mon Dieu, que je suis heureux de n’être qu’un pauvre souffleur !",
+   "flags": {
+    "n_excl": 4,
+    "gov_inf": [
+     [
+      44,
+      "a servi à faire"
+     ],
+     [
+      104,
+      "de notre célèbre"
+     ]
+    ],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 34,
+   "file": "dumas-kean.txt",
+   "off": 109567,
+   "dem": "celui-là",
+   "kind": "comma",
+   "turn": "celui-là, je ne ferais plus de perruques ; et pourtant je les fais crânement, les perruques…",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 35,
+   "file": "scribe-bertrand-et-raton.txt",
+   "off": 110103,
+   "dem": "ceux-là",
+   "kind": "comma",
+   "turn": "ceux-là, et, s’il fallait les perdre ou les voir compromis… j’aimerais mieux mourir !",
+   "flags": {
+    "n_excl": 1,
+    "gov_inf": [],
+    "bare_inf_excl": [
+     [
+      77,
+      "mourir !"
+     ]
+    ],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 36,
+   "file": "scribe-bertrand-et-raton.txt",
+   "off": 123054,
+   "dem": "celle-là",
+   "kind": "comma",
+   "turn": "celle-là, mais nous l’obtiendrons. ",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 37,
+   "file": "scribe-verre-d-eau.txt",
+   "off": 15786,
+   "dem": "celle-ci",
+   "kind": "comma",
+   "turn": "celle-ci, qui me va bien, à ce qu’on dit.",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 38,
+   "file": "scribe-verre-d-eau.txt",
+   "off": 36952,
+   "dem": "ceux-là",
+   "kind": "comma",
+   "turn": "ceux-là, je ne suis pas libre de les accueillir… lui, surtout… ancien ministre, je ne puis le voir sans exciter la défiance et les plaintes des nouveaux ! Ah ! quand ne serai-je plus reine, pour être ma maîtresse ! Dans le choix même de mes amis, demander avis et permission aux conseillers de la Couronne, aux Chambres, à la majorité… à tout le monde enfin… c’est à n’y pas tenir… c’est un esclavage odieux, insupportable, et ici du moins, je ne veux obéir à personne, je serai libre chez moi, dans mon palais. — Oui, et quoi qu’il puisse arriver, j’y suis décidée (Elle sonne, Thompson paraît.) Thompson, rendez-vous à l’instant dans la Cité, chez maître Tomwood, le joaillier… vous demanderez miss Abigaïl Churchill, et vous lui direz qu’elle vienne à l’instant même au palais. — Je le veux, je l’ordonne moi, la reine !… allez !… ",
+   "flags": {
+    "n_excl": 5,
+    "gov_inf": [
+     [
+      30,
+      "de les accueillir"
+     ],
+     [
+      190,
+      "pour être"
+     ]
+    ],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": [
+     [
+      30,
+      "de les accueillir",
+      "de les accueillir… lui, surtout… ancien ministre, je ne puis le voir sans exciter la défiance et les plaintes des nouveaux !"
+     ],
+     [
+      190,
+      "pour être",
+      "pour être ma maîtresse !"
+     ]
+    ]
+   }
+  },
+  {
+   "idx": 39,
+   "file": "scribe-verre-d-eau.txt",
+   "off": 124330,
+   "dem": "celui-là",
+   "kind": "comma",
+   "turn": "celui-là, j’en suis sûre… Et la reine jusque-là froide et sévère, a dit, d’un air de bonté : N’en parlons plus, qu’elle vienne ! je la reverrai.",
+   "flags": {
+    "n_excl": 1,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  },
+  {
+   "idx": 40,
+   "file": "labiche-chapeau-de-paille.txt",
+   "off": 38030,
+   "dem": "celle-là",
+   "kind": "comma",
+   "turn": "celle-là, imbécile.",
+   "flags": {
+    "n_excl": 0,
+    "gov_inf": [],
+    "bare_inf_excl": [],
+    "gov_inf_before_excl": []
+   }
+  }
+ ],
+ "dash_paren": []
+}
