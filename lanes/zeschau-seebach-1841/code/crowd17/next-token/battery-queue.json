@@ -53,7 +53,8 @@
   "followups_queued_p41": "2026-10-09 supervisor: 9 follow-ups queued from the 37-report inbox audit (postnom-91-otherhosts x3: noun-91-det-frames P3, inf-03-91-complement P3, ce63-91-host-gate P4 gated on 63; re81-stem-elim x3: re81-W2-noun-discrim P3, re81-W4-02-class P4, redteam-55-class-input P2 input; val-01-census x3: val-01-rival-sweep P3, redteam-01-split-input P2 input, val-01-40-41-boundary P3); quant-71-925-value's 3 follow-ups (val-61-participle, un-71-det-census, deux-71-numeral-test) verified ALREADY QUEUED by workers/hook — not re-queued; remaining verdicts (promotes/kills/nulls with already-queued follow-ups: noun-42-value x2, pasX-ellipsis-frames x3, particle-20-value-rivals x3, personal-tonic-* family, all other nulls' follow-ups verified queued/verdicted) need no follow-ups per §4; 37 reports moved to report_inbox/processed/ + verdict.report paths repaired Also: personal-tonic-governed-excl-prose-recall NULL ingested by supervisor (worker's own queue write did not land); 3 follow-ups queued: personal-tonic-governed-interr-prose P3, prose-drama-gov-excl-rate-diff P4, personal-tonic-governed-inf-negation-prose P4.",
   "followups_queued_p42": "2026-10-09 supervisor: 8 new follow-ups queued from the 30-report ingestion (21 proposed follow-ups verified ALREADY QUEUED; 2 proposed follow-ups skipped — seg-77-03-722 and val-41-letter-census already have null verdicts, not re-queued; noun-91-nondet-windows proposed by noun-91-det-frames already verdict/null, not re-queued; ne-508-reseg-gate62 + verdict78-gate-wordbound-rearm follow-ups all already queued; all 11 promotes + 4 kills propose no follow-ups per §4); 30 reports moved to report_inbox/processed/ + verdict.report paths repaired. GATE AUDIT: both gate batteries correctly refused — ne-508-reseg-gate62 NULL per §5.2 (gate fired on 62='il' battery promote REJECTED R19-097 / KILLED permanent R20-125); verdict78-gate-wordbound-rearm NULL (six trigger returns are leg-gains/arm-kills, not a 78='ver' status change; R20 defers 78='ver', R16-005 LEAD stands). Gates remain unfired.",
   "followups_queued_p43": "2026-10-09 supervisor: follow-up audit of the 17-report inbox wave (8 promotes + 1 kill + 8 nulls): all 23 null-mandated follow-ups verified ALREADY QUEUED (no re-queue); adv-49-653-990 proposal skipped (already verdict/promote); 1 supervisor-discretion target queued: sel-37-913-agentive-par (P3, from sel-37-nominal-1179 scope). 17 verdict.report paths repaired to report_inbox/processed/. Gate audit vs R20: ne-508-reseg-gate62 and verdict78-gate-wordbound-rearm remain UNFIRED — R20-125 confirms 62='il' KILLED at kill grade permanent; R20-032-038 defers 78='ver' (R16-005 LEAD stands). R20 override note: R20-080 fences formula-76-49-24 (N-ADJ-Vfin license vacuous after adj-49-420-366 killed adjective-49); standing revision R20-116 lifts the @889 clause-boundary fence (one-word 'pourvoient' parse).",
-  "followups_queued_p44": "2026-10-09 supervisor: val-85-1700-compound NULL ingested (fence executed); 3 follow-ups queued: compound-85-33-scheme (P4), ne30-1701-tail-reconcile (P3), laisser-85-1699 (P3); report moved to processed/ + verdict.report path repaired. Note: worker's post-push queue write preserved all supervisor edits (p43 + sel-37-913-agentive-par intact) — no last-writer-wins loss."
+  "followups_queued_p44": "2026-10-09 supervisor: val-85-1700-compound NULL ingested (fence executed); 3 follow-ups queued: compound-85-33-scheme (P4), ne30-1701-tail-reconcile (P3), laisser-85-1699 (P3); report moved to processed/ + verdict.report path repaired. Note: worker's post-push queue write preserved all supervisor edits (p43 + sel-37-913-agentive-par intact) — no last-writer-wins loss.",
+  "followups_queued_p45": "2026-10-09 supervisor: noun-03-seven-windows NULL (supervisor-dispatched worker) ingested; 3 follow-ups queued: noun-03-determiner-census (P4), noun-03-qui-frame-census (P4), noun-03-context-split-census (P4); report moved to processed/ + verdict.report path repaired."
  },
  "targets": [
   {
@@ -18683,12 +18684,17 @@
   },
   {
    "id": "noun-03-seven-windows",
-   "status": "queued",
+   "status": "verdict",
    "priority": 3,
    "claim": "counterpart of the uniform-verb-03 fence: name 03's noun value across nounfamily's forced-nominal windows (@336/@674/@1645/@1014/@1790/@722)",
    "bars": "name 03's noun value iff one lexeme parses all six with zero kill-grade contradictions; else fence uniform-noun-03",
    "adverses": "val-03-noun NULL 2026-10-09 killed its singleton candidate; fresh inventory needed",
-   "dependencies": []
+   "dependencies": [],
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/processed/battery-noun-03-seven-windows.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "id": "split-03-redteam-feed",
@@ -18736,6 +18742,36 @@
    "adverses": null,
    "evidence": "battery-val-85-1700-compound NULL follow-up #3",
    "priority": 3,
+   "status": "queued",
+   "verdict": null
+  },
+  {
+   "id": "noun-03-determiner-census",
+   "claim": "full-stream census of '47 03' / '77 03' determiner frames for noun-03; tighten candidate constraints once letters exist",
+   "bars": null,
+   "adverses": null,
+   "evidence": "battery-noun-03-seven-windows NULL follow-up #1",
+   "priority": 4,
+   "status": "queued",
+   "verdict": null
+  },
+  {
+   "id": "noun-03-qui-frame-census",
+   "claim": "test coherence of the nominal-relative-head parse across the five '[03] qui' windows (@336/@674/@1645 + others)",
+   "bars": null,
+   "adverses": null,
+   "evidence": "battery-noun-03-seven-windows NULL follow-up #2",
+   "priority": 4,
+   "status": "queued",
+   "verdict": null
+  },
+  {
+   "id": "noun-03-context-split-census",
+   "claim": "class census of all 20 03 windows; gather-only evidence for the deferred 03/71 section-7 split docket",
+   "bars": null,
+   "adverses": null,
+   "evidence": "battery-noun-03-seven-windows NULL follow-up #3",
+   "priority": 4,
    "status": "queued",
    "verdict": null
   }
