@@ -1,0 +1,144 @@
+CURRENT BEST DECODE — DECODE R5005 (Zeschau -> Seebach, 18 Jan 1841)
+Rendered 2026-10-08 from the 1,847-pair repaired stream.
+Values: plain = banked/promoted; '?' = provisional or battery-lead; [NN] = unknown group; <X> = class only.
+
+--- row a1_00 ---
+[09] pour [97] [51] ce [41] ent le? ver? [18] [93] il? [98] noun? ce/dict? [91] [53] fois qui [98] m [43] er ce <INF> [55] [81] pour i <verb> pas [03] qui <verb> [01]
+--- row a1_01 ---
+[08] [91] a/à? qui [41] [01] <verb> <gov> [43] [81] pas il? par pour [92] tout [37] la tout [85] [58] [35] [53] n [41] [08] i er e n ne? [92] [69] [13] <verb>
+--- row a1_02 ---
+[56] ce [14] <verb> ce la pour la er <noun> [98] [51] il? [16] [14] ent <gov> le? [66] [98] [19] [41] [98] [81] [97] que er [85] [08] <noun> il? ne?
+--- row a1_03 ---
+[93] est? ce/dict? [28] pour que la <noun> [67] [93] er noun? [68] <noun> [67] [14] <noun> [60] [90] [19] [58] [66] [98] m e la [02] noun? <verb> par [56]
+--- row a1_04 ---
+qui <noun> [65] [23] [91] [65] [13] [66] [14] [74] [67] qui le? on er ce qui par ce que [66] on noun? [35] [58] [35] [93] [52]
+--- row a1_05 ---
+ne? <verb> ce la <verb> m on [53] n e <noun> [60] [09] ce <INF> <noun> [69] [14] <verb> ce qui [23] [37] ent pour <INF> [16] pour [66]
+--- row a2_00 ---
+<verb> ce [98] [56] ce [01] <noun> [60] [08] [67] noun? ce la [92] [63] <noun> ent le? [44] [50] <gov> [19] [74] le? ver? ent est?
+--- row a2_01 ---
+que er <noun> [16] <verb> noun? [61] par ce que [98] [83] m par <noun> [60] [71] [51] pre [98] [41] fois la noun? n [16] [56]
+--- row a2_02 ---
+[43] pour [66] [91] <verb> [44] ne? [65] [63] pour [66] [01] [91] <verb> [43] le? on [74] ce/dict? [93] [52] <INF> <noun> ent [73] ce la
+--- row a2_03 ---
+ent [67] <INF> er noun? on [91] [37] [61] [20] [61] <noun> e [52] noun? [28] pour [97] [09] qui er e [65] [16] [01] la
+--- row a2_04 ---
+ver? e [97] <INF> [91] [18] noun? <gov> [02] <gov> [20] fois que on <verb> [37] ver? ce/dict? qui est? <verb> ne? ent la [92] [60] [15]
+--- row a2_05 ---
+[63] [71] [10] [01] [19] pour [92] [50] ce/dict? [54] <gov> e [03] qui <VERBAL> [14] ce/dict? qui par [43] ce [01] ent pre n ne? [74]
+--- row a2_06 ---
+[67] ver? e [92] [98] [92] ce la <noun> il? e noun? ce ver? e [49] [61] pre fois ent <noun> [65] [63] er [85]
+--- row a2_07 ---
+m e pour la [50] m [16] [52] [38] [37] [43] [91] [36] il? [91] on [73] i [67] qui tout m e ent
+--- row a2_08 ---
+la ce/dict? <gov> [53] i [69] noun? pour <INF> [01] [02] [53] on [51] [37] ver? [49] [74] [74] que [49] [36] er ce
+--- row a2_09 ---
+[14] il? e noun? <noun> [63] le? <INF> er m [16] ver? [63] ce/dict? que [43] [98] [80] [50] ver? [41] [10] il? [61] est? <verb> e
+--- row a2_10 ---
+tout fois le? [60] [65] [13] [66] [14] [02] tout ce la est? <noun> par pour <INF> tout [80] ent [67] que on <verb> [37] ver?
+--- row a2_11 ---
+[74] ce/dict? [93] pour [13] [52] pas [01] [19] qui noun? <noun> [41] [20] [67] ver? <noun> ne? [02] tout <gov> ce la er e
+--- row a3_00 ---
+[56] a/à? [68] <noun> [67] le? il? ne? qui [98] [65] <gov> [56] ce le? [80] [09] pre [91] le? ent [55] [81] [97] ce [44] est? [37] qui
+--- row a3_01 ---
+noun? <verb> [16] [08] <verb> m [16] [91] n [44] er e <noun> ent pour que <verb> ce que [55] [81] pour <INF> est? i fois <INF>
+--- row a3_02 ---
+ne? est? pas [67] la [43] <verb> [80] [97] [13] noun? ce/dict? ne? [52] ce ver? ce/dict? [13] [55] [61] ne? m ent ent [50] [10] [19] [18] [14] pour [97] [41]
+--- row a4_00 ---
+[41] [09] pour [92] tout [85] [01] er e [03] a/à? noun? par ce/dict? [93] [54] qui a/à? qui [02] [58] ce le? ce [83] pre <gov> [10]
+--- row a4_01 ---
+er <gov> [37] noun? m [14] est? [37] <INF> er ce ver? [67] [08] [52] [67] [63] [74] que [60] [67] le? noun? e [20]
+--- row a4_02 ---
+<verb> ce [61] <gov> le? ver? [52] m ne? noun? [49] <verb> noun? pas [03] il? [16] pour <INF> [50] [80] [03] il? ent pour
+--- row a5_00 ---
+[20] [67] la <INF> <verb> [80] [03] qui [37] le? ce/dict? [23] [09] [07] pour [92] qui er e [65] ne? er [60] [03] a/à? [74]
+--- row a5_01 ---
+que [02] [50] ce/dict? [28] ne? [60] n [98] [20] n [66] <noun> [35] [53] n e [71] n [63] pour [66] <INF> [01] [02] <noun> [80]
+--- row a5_02 ---
+le? [03] [91] [65] qui la pour <INF> e <gov> la <verb> [85] [93] noun? [18] m ent pour [36] [20] pas [67] le? [81] [85] [28]
+--- row a5_03 ---
+pour qui [02] [97] e [67] la pre m i er e [20] il? ne? est? a/à? <gov> [66] [98] [80] [10] [22] ne? [07] ent
+--- row a5_04 ---
+ne? [15] <INF> [73] [37] [08] er noun? la <verb> <noun> ne? [74] [65] on ent le? qui que [07] qui [56] [37] [44] le? <INF>
+--- row a5_05 ---
+[44] [74] il? [98] [53] [69] <verb> <verb> [41] n e <verb> [65] [14] er [49] [74] [74] ce ver? e [95] [13] <verb> ce
+--- row a5_06 ---
+est? [38] m [01] <verb> ce la le? noun? est? [35] [56] fois [98] [20] il? ne? noun? n [16] pour <INF> par e il?
+--- row a5_07 ---
+<noun> [67] [91] [51] qui <verb> e on [02] <verb> [49] [74] [74] e ce que pour <INF> pre ce le? noun? e [20]
+--- row a5_08 ---
+[74] [49] [16] le? <INF> ver? fois [08] <VERBAL> tout [68] [37] [03] [02] pour <INF> ent le? noun? [01] [98] m [14] [98] [83] <INF>
+--- row a5_09 ---
+[16] [92] [67] [16] <gov> [18] [55] [83] [54] [49] qui [83] est? [37] par [09] [02] <verb> [49] [74] [74] e [08] [65]
+--- row a5_10 ---
+[71] fois [61] par e m [98] [83] [56] [69] noun? pour <INF> <noun> qui [37] [01] [07] [50] e [08] il? [98] par
+--- row a6_00 ---
+<INF> [01] le? <INF> par ce que <verb> [85] [04] [20] [67] par pour <INF> [56] [41] [19] <verb> ent le? noun? [01] [98]
+--- row a6_01 ---
+e [51] ce/dict? [08] [01] pour [92] [07] noun? ce ver? ce/dict? [01] <verb> noun? e [01] noun? [49] <verb> noun? pas [03] [60]
+--- row a6_02 ---
+[67] la par m <INF> pour <INF> [56] ce [91] la [52] [35] [18] tout [80] ver? ce [03] <verb> [41] [15] [66] [91]
+--- row a6_03 ---
+[53] on [92] qui ce/dict? qui par [43] ce [01] [03] er [80] le? la pre m i er e fois le? m [63] la
+--- row a6_04 ---
+[67] noun? [85] [41] <gov> er e er [74] [74] ce/dict? [23] le? on [09] [98] [83] m par <noun> il? [18] pre a/à? la
+--- row a6_05 ---
+[44] [74] <noun> [98] [98] n e le? ver? qui ent [52] noun? <verb> [02] [55] [81] pour <INF> tout [80] ent
+--- row a6_06 ---
+[43] [07] [55] [81] ent er [67] <INF> [52] m ne? [74] ce ver? [65] [63] pour [66] [73] [41] [65]
+--- row a6_07 ---
+[38] pas [69] la <gov> pre n ent [14] ent la [52] [37] [43] pour <INF> [52] [37] <INF> <verb>
+--- row a6_08 ---
+le? <INF> [20] il? [98] pour [98] ver? il? [16] er <noun> [98] [98] <INF> [67] <INF> [66] on [02]
+--- row a6_09 ---
+pour [92] er [80] fois le? m [44] [83] <noun> [67] ver? ce/dict? [13] [55] [61] ne? ce [83] <noun>
+--- row a6_10 ---
+[85] [36] [74] <verb> e est? [37] le? ver? ne? m ent ent est? <noun> ent on est?
+--- row a7_00 ---
+que [07] <verb> m [16] par m [16] qui er ce/dict? [58] ce [43] [55] [61] <noun> [65] qui est? <verb> e par ce/dict? [36] le? [83] [92]
+--- row a7_01 ---
+[61] <verb> e pas [09] [20] [57] qui tout m e er ce <INF> er [85] [56] [10] [03] e [67] le? [81] ce la pour <INF> [16] pour
+--- row a7_02 ---
+[67] que noun? pas ent [65] que [01] [61] <VERBAL> er [69] <gov> [01] [09] la [50] que [69] <gov> <verb> pas [20] qui ce noun? ce noun?
+--- row a7_03 ---
+e [56] [85] e [53] [61] [56] <verb> [98] [55] [68] pour la fois on est? [35] ne? [52] [80] [04] il? [16] [02] pre [37] [08] [43] <noun>
+--- row a7_04 ---
+[43] le? [74] [52] pas [92] [44] pour [36] [74] il? e [98] [15] <verb> [03] er [80] [08] il? [98] [56] pas ent il? ne? pre
+--- row a7_05 ---
+[52] a/à? [83] <INF> [71] qui [60] [08] [65] qui [52] [38] ce <INF> [66] [73] i il? e le? ver? ne? m ent [52] [37] qui
+--- row a7_06 ---
+[35] [13] [92] il? ne? tout [14] [60] [03] pas m [16] [91] [67] [98] pour <INF> er noun? on [92] [69] [13] <verb> [65] [68] [52] m
+--- row a7_07 ---
+[16] ent er [67] <INF> er noun? [16] noun? ce ver? e e [67] le? [81] ce la pour la [95] que [52] <noun> [16] [97] [69] [74]
+--- row a7_08 ---
+i [52] <verb> on tout [15] <INF> <noun> [67] <INF> er ce [63] [91] [61] n [16] noun? [49] qui [52] m [16] <verb> [85] [01] [52]
+--- row a7_09 ---
+[68] est? [37] qui le? on est? [36] [67] <INF> que [92] il? [61] <noun> [67] <INF> [66] tout fois [01] <noun> il? e <noun> [02] il? [38]
+--- row a7_10 ---
+noun? n [41] [53] [60] ent [67] <INF> er m [16] [98] il? que le? on <verb> ce [08] <VERBAL> [92] a/à? <verb> pour [66] [15] est?
+--- row a7_11 ---
+<verb> noun? [41] [74] on <INF> <noun> <INF> pour <INF> [56] [41] n [61] est? a/à? [81] <gov> la <VERBAL> la [91] [67] [08] <VERBAL> <verb> la la
+--- row a8_00 ---
+e par ce que <noun> [65] [63] pour [66] [73] [41] il? ent <noun> il? [93] <gov> le? ver? [43] pour que pre n ne? [92] ce/dict? [23]
+--- row a8_01 ---
+[99] [13] [93] [61] e fois la noun? pas ent [60] [71] [50] er <verb> [74] il? e [56] <verb> [28] [52] m ne? noun? ce [98] <verb>
+--- row a8_02 ---
+[53] n [44] pour [36] pre qui [65] e er ce [08] [81] [03] er [80] [67] le? [81] m [98] pour [44] pre a/à? la [92] [65] [23]
+--- row a8_03 ---
+[08] [55] [83] [71] e <VERBAL> noun? <noun> [44] la on ver? [66] [67] <INF> que [56] [69] noun? pour <INF> <noun> qui [37] [01] [74] ce [74]
+--- row a8_04 ---
+[74] [35] [56] n <INF> [98] [60] [03] qui <VERBAL> [10] [03] [38] m [16] [01] [56] [37] la <verb> e ce [98] [98] [80] [22] ne? on
+--- row a8_05 ---
+qui ent [91] la ver? [55] [81] [92] [60] [03] a/à? [74] le? [44] pour que tout [65] [13] [93] il? ne? tout [14] [60] [27] que
+--- row a8_06 ---
+<verb> [85] [58] [15] [23] [91] [85] <INF> ne? pas [20] il? ne? <gov> noun? n ent er e [65] ne? [44] est? pas qui ce
+--- row a8_07 ---
+[68] ent la [52] [37] [43] [98] a/à? <gov> <verb> pas [15] [01] [56] pas ent [60] n e [52] <INF> n i ne? m que
+--- row a8_08 ---
+[56] e ent [65] i [07] [28] noun? noun? <verb> [85] [58] fois ver? [41] [15] [93] ent le? on [09] <verb> ce qui noun? [37]
+--- row a8_09 ---
+ver? il? ne? <verb> ce qui est? [19] e [74] [65] [23] [98] [83] m par <noun> [68] ce [03] pour <INF> [56] <noun> ne?
+--- row a8_10 ---
+est? [37] [91] tout ce qui le? on est? [35] ne? [52] [80] [04] [61] [15] [93] [50] <noun> ent er [37] [01] [02] [09] [19]
+--- row a8_11 ---
+pour [97] pour <INF> er m [38] [83] <verb> m [16] est? [36] [69] qui [22] <noun> [44] [83] <noun> [67] ver? [49] [74] [93]

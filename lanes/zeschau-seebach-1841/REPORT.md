@@ -3618,6 +3618,124 @@ battery-tout-slot-14.md, battery-verb-60.md, battery-vient-98-name.md).
   poly-60-redteam (p1, red-team adjudication packet — queued),
   adj-frames-995-637 (p2 — queued), participle-60 (p2 — queued).
 
+### Round-17 wave-11 addenda (2026-10-08/09 UTC, crowd17 — 21 battery notes;
+red-team ratification pending)
+
+21 notes trace: `code/crowd17/report_inbox/` (all new this sweep — 21
+files: adj-frames-995-637, dict-45-ce-rival-1165, dict-45-w3-ceci,
+dict-78-45-wordbound, disc-01-24-ci-X, feeder-ceci-47-45,
+frame-97-profile, la-523743-adjective, le-par-distributional,
+lon-62-on-conditioned, lon-94-64-rightedge, name-21-obj,
+prenne-92-noun, prenne-trigger-348, qui-2326-prefix,
+qui37-rival-values, suite-21-qui-que, ver78-la78-census,
+verb-92-subset, w1-314-ambig, w1-314-rebar). 7 promotes, 3 kills,
+11 nulls — verdict tags in `code/crowd17/next-token/battery-queue.json`
+match 21/21 (326 entries total: 152 verdict, 174 queued).
+
+- **F124 — battery-PROMOTE: 24="faire" (verb lexeme); 01="en" LOCAL**
+  (battery-disc-01-24-ci-X). 24="faire": finite "fait", infinitive
+  "faire", participle "fait" — decided across the three 01-24 windows
+  (@40/@828/@984). 01="en" LOCAL to those three windows only. Two
+  standing kills mechanically explained, not reopened: general 01="ci"
+  stays KILLED ("ci" never precedes a finite verb @40/@828; no
+  ci-compound hosts a verb @984); 01="faisant" stays KILLED
+  (participle + finite "fait" with no subject is ungrammatical at all
+  three windows). WHY: the discriminator decided on non-'ci' 01 — the
+  three windows parse fully only under 01="en" + finite-24. Provisional
+  (battery grade), red-team ratification pending. Note: this promote
+  fires the never-downgrade rule — dict-45-w3-ceci's 01='-ci' at @984
+  was held at null because it would downgrade this verdict (N111).
+- **F125 — battery-PROMOTE (class-level): 97 = infinitive-class**
+  (battery-frame-97-profile). Class-level grant; value open, not
+  named. No standing red-team verdict contradicted (no A-series
+  ruling names 97; §7 untouched). Unlock note: the gated target
+  ver78-296-97gate still needs stem-86 to name 97/86 VALUES — this
+  class promote does not clear it (queued, verified in queue.json).
+- **F126 — battery-PROMOTE (distributional calibration): 'ARTICLE +
+  PROMOTED PREPOSITION' violation is systematic**
+  (battery-le-par-distributional). @913 "le par" is not isolated:
+  @997 "la par" (row a6_02: `60 67 11 96 82 33 00`) is the same
+  violation class — ungrammatical under banked 11='la' and promoted
+  96='par', no neighbor rescue, no covering unit. Promoted scope is
+  the distributional claim only: it does NOT decide S5, does NOT
+  assign any value to 37, does NOT touch the A1 predicative-frame
+  dispute. Natural next step (not pre-committed): calibrate the
+  adjacent 82='m'+96 pronoun+preposition class the same way.
+- **F127 — battery-PROMOTE: 24=finite modal verb (class), 87=ce, 64=qui
+  in the "qui [23/26] 37" frames** (battery-qui-2326-prefix). Both
+  windows parse with 24/87 named; the frames stay in verb-position
+  after naming (23/26 post-qui verb slot; 37 post-verbal predicative
+  per A1). All listed adverses answered; §7 respected, no new
+  polyvalence; R5005, sealed gates, and the red-team queue untouched.
+- **F128 — battery-PROMOTE: the 37 rival-value RANKING**
+  (battery-qui37-rival-values). The ranking is promoted as
+  battery-decided; NO value for 37 is named/granted/promoted; the A1
+  predicative-frame grant is not decided (red-team re-adjudication
+  stands); no second polyvalence declared (§7). Both adverses fenced
+  with stated cause (A1 deferred to red team; A12 unit grant
+  untouched).
+- **F129 — battery-PROMOTE: 92=verb on its verbal-governor subset**
+  (battery-verb-92-subset; stem/inf/fin per governor). All bar clauses
+  pass; every listed adverse answered (fenced with stated cause). The
+  split/polyvalence consequence for 92's global class is ESCALATED to
+  the red team — subset-scoped only, no polyvalence declared here.
+- **F130 — battery-PROMOTE: W1 decides for CE under the corrected
+  mapping** (battery-w1-314-rebar; W1 = 78@313, @307-321, row a2_04).
+  All four bar clauses pass: (a) 37-78 is word-internal as the complete
+  infinitive complement of modal-24 (84-24-37-78 x2 re-derived
+  @310/@473; 24->37 x2 = exhaustive, both inside the 84-24-37
+  windows); (b) "37-78-45" single-word refuted — no French
+  "X-verdict" infinitive exists, and the @475 control (byte-identical
+  left context 84-24-37, 78@476 followed by 74, not 45) strands 78
+  word-final; (c) the CE parse is grammatical with zero non-granted
+  assumptions beyond provisional 59='est' ("qu'on [modal]
+  [infinitive]. ce qui est [32-predicative] ne [06-ent] la [92]…");
+  (d) all three dict parses shown ungrammatical with stated cause
+  each. Forced word boundary before 45 → 45@314 is word-initial 'ce'
+  (A11 HOLD; the 45-64 mirror leg stays intact). Scope: W1 and the
+  84-24-37 family only (W2/W3/W4 untouched; dict-78-45-wordbound owns
+  the global boundary, rpos-w1-exception owns the refined positional
+  rule — both queued). Enlightenment: W1 falsifies unconditioned
+  R-pos (45='dict' iff preceded by 78 — 45@314 is preceded by 78 yet
+  parses 'ce', because 78 is word-final here); R-pos was never adopted,
+  and the sibling w1-314-ambig (N119) recorded the bar's original
+  consequence mapping as inverted — this rebar promote is under the
+  corrected mapping.
+
+### DECODE R5005 render (2026-10-08 — new render files, not a new decode)
+
+`decode-current.txt` and `decode-sidebyside.txt` — the lane's current
+best decode rendered from the 1,847-pair repaired stream.
+Notation: plain = banked/promoted; `?` = provisional or battery-lead;
+`[NN]` = unknown group; `<X>` = class only. Header self-reports ~1/3
+of groups readable, the rest holes — visible as dense `[NN]`
+brackets even in heavily-banked rows. Status markers encode this
+wave's verdicts: `ce/dict?` = the unresolved 78-45 fork (R-pos
+falsified at W1 by F130/N119), `le?` = the S5-fence under red-team
+pressure (N114), `ver?` = the 78='ver' LEAD (R16-005), class tags
+(`<INF>`, `<verb>`, `<noun>`) = this wave's class promotes (97,
+92-subset, 21).
+
+### Housekeeping (this sweep)
+
+- 19 files deleted since the watermark: 18 `side-period/work/mine-v3/
+  corpus/` copies (14× Allgemeine Zeitung Augsburg 1841-01-12..25,
+  Guizot t1–t3, Talleyrand v1) — removal as duplicates of `corpus/`
+  was already recorded in the wave-6 deltas; 1 crowd17 lock file
+  (`ver78-la78-census.lock`) — transient, expected (locks are
+  created/deleted per battery run).
+- `code/table-grid/table-registry.json` unchanged → no grid
+  regeneration this sweep (the HTML/PNG are current).
+- SUPERVISOR GAP (wave-10 deltas): CLOSED. All 9 proposed follow-ups
+  are now in `code/crowd17/next-token/battery-queue.json` — name-71,
+  prof-35, phon-44-elision, stem-44-value, poly-44-docket (red-team
+  decision), faire-86-causative-test, adv-89-1376, tail-1376-on92 =
+  queued; name-21-obj = verdict (null). Every one of this wave's 21
+  notes has a verdict-tagged queue entry matching the note's verdict
+  (7 promote / 3 kill / 11 null — verified).
+
+---
+
 ### Offset-validation (crowd18, 2026-10-08 UTC — bedrock validation of
 the 70 row offsets)
 
@@ -5056,6 +5174,170 @@ on scorecard integrity. Round-2's F13 dissolution and round-3's rival
   — PROPOSED, not yet queued (supervisor audit pending). Trace:
   `code/crowd17/report_inbox/battery-noun-89-1377-adjudicate.md`.
 
+### Round-17 null batch, wave 11 (crowd17, 2026-10-08/09 UTC)
+
+- **N106 — prenne-92-noun KILL (92 as unconditioned feminine noun
+  dead)** (battery-prenne-92-noun). The bar's distributional gate
+  rejects the claim at the lane's standard; two windows force an
+  unconditioned feminine-noun value false at kill grade. No standing
+  verdict contradicted: A14's 92 INF-signal grant was set-level
+  ("genuinely ambiguous"), untouched; the A6 '-ère' value kill
+  untouched (@683 fenced, never re-valued); the 09~92 HOLD untouched;
+  prenne-subject-S1545's promote (92 direct-object-shaped as a SLOT
+  claim) stands — it was never a value claim. The split/polyvalence
+  question stays with the red team (split-92-redteam-evidence is
+  verdict-tagged in queue.json) — this kill is the noun VALUE arm
+  only, per §7.
+- **N107 — prenne-trigger-348 KILL (subjunctive trigger claim false)**
+  (battery-prenne-trigger-348). Clause-boundary analysis @300-347
+  locates no subjunctive trigger for @347-349 — the window is
+  triggerless, with stated cause. No standing verdict contradicted;
+  the 12/94 duality stays fenced for the red team (the sibling
+  battery-prenne-70-12-94 null's fencing untouched); neither the
+  ne-94 nor the n-e-12-48 promote is downgraded (scoped to the
+  trigger bar only). Follow-up: prenne-R3-relative-341 (p2 — the
+  surviving horn: @347 as the verb of the @341 'qui'-relative,
+  subjunctive licensed by the @340 45 antecedent's force — queued).
+- **N108 — suite-21-qui-que KILL (21="suite" VALUE dead at bar grade)**
+  (battery-suite-21-qui-que). @134 forces the claim ("@134 and @1529
+  resolve under 21='suite'") false under standing values; the sole
+  structural rescue is the 21-65 unit-verb reading — a §7 red-team
+  act, ESCALATED, never decided here (if the red team grants it,
+  this kill re-opens). The noun CLASS verdict (F122) is NOT
+  downgraded — no window forces the class false; the contradictions
+  are value-grade. No cleaner rival value demonstrated here; rival
+  testing continues in queued rival-21-feminine; prof-65 (queued,
+  still open) decides @1529's conditional "que suite [65-verb]" parse.
+- **N109 — adj-frames-995-637 NULL (@637 fenced for the red team)**
+  (battery-adj-frames-995-637). C1/C3/C4 pass: the @995
+  postnominal-adjective frame holds with independently supported
+  03-nominal anchors ('ce [03]' x2 @1014/@1790 via granted 47='ce';
+  'le [03]' @722; '03 64' x4; 'pas [03] qui' @30) and zero
+  contradictions. C2 fails at battery level: @637's
+  coordinated-adjective parse is blocked by standing A8 (89
+  verb-framed) and needs a red-team ruling on 89's class/polyvalence.
+  Not kill — no window forces the @637 frame false; unpromotable
+  now, not refuted. Follow-up: adj-frame-995-solo (p2 — narrow re-bar
+  on @995 alone — queued).
+- **N110 — dict-45-ce-rival-1165 NULL (double residual recorded)**
+  (battery-dict-45-ce-rival-1165). No 'ce' parse within the assumption
+  budget; the 78='ver' adverse stays LEAD, unresolved. Not kill: the
+  bar's second arm is a record instruction and is discharged by
+  recording the double-residual (the determiner-gap finding at reading
+  1 is kill-grade within the two-token scope but is recorded as the
+  residual, not as a kill of the claim, pending the red-team
+  polyvalence decision — per the fork-78-45-adjudication precedent,
+  an unfired conditional is null, not kill). A11 HOLD (45='ce')
+  untouched; scope fenced to the fork windows. Follow-up:
+  vers-78-w4-gate (p2 — re-test W4's 'ce' parse once gates clear —
+  queued).
+- **N111 — dict-45-w3-ceci NULL (promote blocked three ways)**
+  (battery-dict-45-w3-ceci). "ce verdict-ci fait [89]" R1 parses with
+  full window coverage — not kill. Promote blocked on three
+  independent grounds: (i) the queue's never-downgrade rule —
+  promoting 01='-ci' at @984 would downgrade F124's standing
+  battery-promote of 01='en' at the same window; (ii) the 78='ver'
+  ↔ 45='dict' mutual conditionality means the window adds no
+  independent positive leg (it re-counts ver-78-rebar's conditional
+  positive); (iii) both adverses fence rather than answer. No
+  standing verdict contradicted or downgraded. Follow-up:
+  dict-45-circle-break (p2 — independent leg for 45='dict'-syllable
+  at post-78 windows where 01 is absent — queued).
+- **N112 — dict-78-45-wordbound NULL (boundary holds; value arm
+  escalated)** (battery-dict-78-45-wordbound). The boundary holds at
+  W2-W4 with W1 fenced as a two-word exception (per F130), but the
+  claim cannot promote — the value arm ('verdict') and the positional
+  declaration both need red-team action, so this escalates. Naming
+  78-45='verdict' would jump ahead of R16-005's LEAD grading of
+  78='ver' (ver-78 returned null 2026-10-08; @296 the fenced
+  residual) — per §5 this is null-and-escalated, not kill.
+  Follow-up: verdict78-gate-wordbound (p1 — re-test this bar once
+  ver-78 resolves — queued).
+- **N113 — feeder-ceci-47-45 NULL (clause (a) resists with stated
+  cause)** (battery-feeder-ceci-47-45). The resistance is downstream
+  of the 47-01 bigram (at [21]/[60]) and does not force "ceci" false
+  at the bigram — not kill-grade; but the bar's (a) is not met, so
+  not a promote-feed either. @984 stands as the one clean
+  ceci+modal+infinitive window; @195 cannot serve as a clean
+  ceci+verb window while 21 is nominal and 60's slot is open. No
+  standing verdict contradicted or downgraded (A4, A11, A8, the
+  21-noun promote, the 24-modal promote all used, not re-litigated).
+  Follow-ups: ceci-195-nounslot (p3), residual-345-06,
+  residual-1029-infinitive — all queued (no duplicates of queued
+  ceci-984-195-pair, disc-01-24-ci-X, poly-60-redteam, etc.).
+- **N114 — la-523743-adjective NULL (S5 contradiction escalated)**
+  (battery-la-523743-adjective). The headline is not the verdict — it
+  is the contradiction: the la-finder's adjective vote for 37 parses
+  the two vote windows as "[verb-ent] la [52-37] 43" with 52-37 a
+  prenominal adjective unit, under which 37="le" reads "la [52] le
+  [43]" (double article, ungrammatical) — contradicting the standing
+  S5 fence (round-7, 37="le" MEDIUM). New data for the red team:
+  "37-11" x2 (@51 "tout 37 la tout", @1655 "[56] 37 la [24]") are
+  "le la"-shaped under S5 and were never examined by the le-la
+  battery (which dissolved only the three 77-11 co-occurrences). The
+  S5 fence is not overturned here — it is escalated to the
+  designated venue s5-foundation (verdict-tagged in queue.json, p1).
+  The adjective vote itself is recorded as UNANCHORED (2 tokens, 1
+  phrase type, LEAD-grade per the la-battery — not killed: no window
+  forces adjective-class 37 false). Follow-ups: lela-37-51-1655
+  (p2), unit-52-37-name (p2 — both queued).
+- **N115 — lon-62-on-conditioned NULL (open question packaged for the
+  red team)** (battery-lon-62-on-conditioned). Clause (a) passes
+  fully: @508's elision context is unique to 62 (77 x1/35
+  predecessors; 62->59 x0; no other vowel-context predecessor).
+  Clause (b) is not battery-decidable — conditioned 62='on'
+  admissibility is the deferred red-team act from collision-62-84
+  (§7: 67 is the sole true polyvalence; this battery declares none).
+  No standing verdict contradicted: collision-62-84's unconditioned
+  kill stands; lon-ne-77-62-94's null stands beside it.
+- **N116 — lon-94-64-rightedge NULL (genuine 1-window residual,
+  fenced)** (battery-lon-94-64-rightedge). The 'ne qui' singleton at
+  @509-510 is a genuine residual: no clause boundary can intervene
+  between the pairs ('ne' dangles on both rival readings and cannot
+  open the next clause), and no window-local cause exists for
+  64='qui' to fail here. The contact is symmetric (94's sole 'qui' of
+  37; 64's sole 'ne' of 47), so the residual localizes to the
+  contact itself, not to either value's profile. Per the task brief,
+  this is null-grade: the 64='qui' grant is NOT downgraded, the
+  94='ne' promotion-track is NOT re-litigated. Fenced with stated
+  cause.
+- **N117 — name-21-obj NULL ("suite" leads, promote blocked)**
+  (battery-name-21-obj). Class resolved (noun, cited promote). Value
+  "suite" leads on anchored idiom frames but is blocked at
+  promote-grade by two bar-grade contradictions (@134, @1529) in the
+  "qui/que + 21 + 65" family. Not kill: no window forces the class
+  false, and "suite" beats every rival tested on the anchored frames.
+  Relationship to this wave: the battery's own follow-up
+  suite-21-qui-que ran and KILLED the "suite" VALUE (N108) — the
+  kill stands; this null records the idiom-frame lead as the
+  residual shape of the evidence. Downstream: ceci-984-195-pair,
+  stem-85-then-1700 unaffected (both queued).
+- **N118 — ver78-la78-census NULL (clause (a) fails 5/9 < 7/9)**
+  (battery-ver78-la78-census). Not promote. Not kill: no window
+  forces 78 as noun-head false at kill grade (the three failures are
+  soft — unparsed, not contradicted), and no cleaner rival value was
+  demonstrated on these frames (lever-77-78 is NULL, not
+  demonstrated). The 16/31 determiner-headed noun distribution for 78
+  stands unrebutted. R16-005's 78='ver' LEAD untouched; the ne-le-1075
+  kill respected; §7 unviolated. Follow-up: ver78-rerun-214-1543
+  (p2 — re-parse @214 and @1543 once 06's class and 43's value
+  resolve — queued).
+- **N119 — w1-314-ambig NULL (the bar's consequence mapping was
+  inverted)** (battery-w1-314-ambig). Headline: the modal-24 evidence
+  inverts the bar's consequence mapping — W1 decides for CE, but the
+  bar as written would have said dict. The data conclusively
+  establishes: 37-78 word-internal as the infinitive complement of
+  promoted modal-24; the infinitive complete at 78 (@475 control:
+  identical left context strands 78 before 74); the forced boundary
+  before 45 makes 45@314 word-initial 'ce' (A11 HOLD, mirror leg
+  45-64 intact); every dict parse of W1 ungrammatical. CE wins W1;
+  the "verdict" reading is excluded at W1. Scope: W1 and the
+  84-24-37 family only — W2/W3/W4 have different left contexts and
+  are untouched. Not a promote here (the promote is F130,
+  w1-314-rebar, which was this battery's own proposed p1 follow-up
+  and already ran). Nulls never duplicate: this battery's follow-up
+  list is discharged by the rebar's verdict.
+
 ---
 
 ## 6. Open hypotheses (not promoted — each needs ≥2 independent checks)
@@ -5272,6 +5554,52 @@ unmeasured, provisional; the mine-v3/corpus copies were removed
   (standing directive: the supervisor queues proposed targets
   itself).
 
+- **Round-17 wave-11 deltas (2026-10-08/09):** battery-PROMOTED: 24="faire"
+  (verb lexeme) + 01="en" LOCAL to the three 01-24 windows (F124 —
+  general 01="ci" and 01="faisant" stay KILLED, now mechanically
+  explained; never-downgrade rule fired against 01='-ci' @984), 97 =
+  infinitive-class (F125 — value open; ver78-296-97gate still gated),
+  'ARTICLE + PROMOTED PREPOSITION' violation systematic at @913/@997
+  (F126 — distributional calibration only, S5/A1 untouched),
+  24=finite-modal-class + 87=ce + 64=qui in "qui [23/26] 37" frames
+  (F127), the 37 rival-value RANKING (F128 — no value named),
+  92=verb on its verbal-governor subset (F129 — global split to the
+  red team), W1 decides for CE (F130 — 37-78 word-internal infinitive
+  complement of modal-24; 45@314 word-initial 'ce'; all dict parses
+  ungrammatical; unconditioned R-pos falsified). KILLED: 92 as
+  unconditioned feminine noun (N106 — A14/A6/09~92 holdings and the
+  prenne-subject-S1545 slot claim untouched), subjunctive trigger
+  @347-349 (N107 — triggerless), 21="suite" VALUE (N108 — noun class
+  F122 not downgraded; 21-65 unit-verb rescue escalated to red team).
+  NULLs: adj-frames-995-637 (N109 — @637 blocked by A8, red-team
+  ruling on 89 needed), dict-45-ce-rival-1165 (N110 — double residual;
+  78='ver' LEAD unresolved), dict-45-w3-ceci (N111 — promote blocked
+  by never-downgrade, conditionality, fenced adverses),
+  dict-78-45-wordbound (N112 — boundary holds W2-W4, 'verdict' value
+  arm escalated), feeder-ceci-47-45 (N113 — @984 the clean window),
+  la-523743-adjective (N114 — S5 contradiction escalated; the
+  adjective vote UNANCHORED; new "37-11" x2 data), lon-62-on-conditioned
+  (N115 — clause (a) passes; conditioned admissibility red-team),
+  lon-94-64-rightedge (N116 — genuine 1-window residual, fenced),
+  name-21-obj (N117 — "suite" idiom lead, promote blocked;
+  suite-21-qui-que killed the value), ver78-la78-census (N118 —
+  5/9 < 7/9; 16/31 determiner-headed noun distribution unrebutted),
+  w1-314-ambig (N119 — bar's consequence mapping inverted; promote
+  discharged via rebar F130). Open and queued (all verified in
+  queue.json this sweep): adj-frame-995-solo (p2), vers-78-w4-gate
+  (p2), dict-45-circle-break (p2), verdict78-gate-wordbound (p1),
+  ceci-195-nounslot (p3), residual-345-06, residual-1029-infinitive,
+  lela-37-51-1655 (p2), unit-52-37-name (p2), prenne-R3-relative-341
+  (p2), rival-21-feminine, prof-65, ver78-rerun-214-1543 (p2),
+  rpos-w1-exception. SUPERVISOR STATUS: HEALTHY — the wave-10 gap is
+  closed (all 9 follow-ups queued or verdict-tagged) and every
+  wave-11 note has a verdict-tagged queue entry matching its verdict;
+  null-regeneration protocol held (w1-314-ambig's p1 follow-up
+  w1-314-rebar ran and promoted). Decode renders:
+  `decode-current.txt` / `decode-sidebyside.txt` (R5005, 1,847-pair
+  stream; ~1/3 of groups readable) now mark `ce/dict?` at the 78-45
+  loci, `le?` at the S5-fence, `ver?` for the 78='ver' LEAD, and
+  class tags for the wave-11 class promotes.
 
 - **62="on"** — FENCED-LEAD (STRONG LEAD, promotion DENIED by red team,
   Ruling 1; round-6 non-ear battery: NO PROMOTION, honest null — N25):

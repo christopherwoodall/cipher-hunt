@@ -1,0 +1,524 @@
+R5005 SIDE-BY-SIDE DECODE — 2026-10-08
+FR = best French reconstruction (? = provisional/lead, [NN] = unknown, <x> = class).
+EN = English gloss of the same tokens. ~1/3 of groups readable; the rest is holes.
+
+===== row a1_00 =====
+FR: [09] pour [97] [51] ce [41] ent le? ver? [18] [93] il? [98] noun?
+EN: [09] for [97] [51] this [41] -ent the? ver-? [18] [93] he? [98] [noun]?
+
+FR: ce/dict? [91] [53] fois qui [98] m [43] er ce <INF> [55] [81] pour
+EN: this?? [91] [53] time(s) who [98] m [43] -er this [infinitive] [55] [81] for
+
+FR: i <verb> pas [03] qui <verb> [01]
+EN: i [verb] not [03] who [verb] [01]
+
+===== row a1_01 =====
+FR: [08] [91] a/à? qui [41] [01] <verb> <gov> [43] [81] pas il? par pour
+EN: [08] [91] to/at? who [41] [01] [verb] [governor] [43] [81] not he? by for
+
+FR: [92] tout [37] la tout [85] [58] [35] [53] n [41] [08] i er
+EN: [92] all [37] the all [85] [58] [35] [53] n [41] [08] i -er
+
+FR: e n ne? [92] [69] [13] <verb>
+EN: e n (neg)? [92] [69] [13] [verb]
+
+===== row a1_02 =====
+FR: [56] ce [14] <verb> ce la pour la er <noun> [98] [51] il? [16]
+EN: [56] this [14] [verb] this the for the -er [noun] [98] [51] he? [16]
+
+FR: [14] ent <gov> le? [66] [98] [19] [41] [98] [81] [97] que er [85]
+EN: [14] -ent [governor] the? [66] [98] [19] [41] [98] [81] [97] that -er [85]
+
+FR: [08] <noun> il? ne?
+EN: [08] [noun] he? (neg)?
+
+===== row a1_03 =====
+FR: [93] est? ce/dict? [28] pour que la <noun> [67] [93] er noun? [68] <noun>
+EN: [93] is? this?? [28] for that the [noun] [67] [93] -er [noun]? [68] [noun]
+
+FR: [67] [14] <noun> [60] [90] [19] [58] [66] [98] m e la [02] noun?
+EN: [67] [14] [noun] [60] [90] [19] [58] [66] [98] m e the [02] [noun]?
+
+FR: <verb> par [56]
+EN: [verb] by [56]
+
+===== row a1_04 =====
+FR: qui <noun> [65] [23] [91] [65] [13] [66] [14] [74] [67] qui le? on
+EN: who [noun] [65] [23] [91] [65] [13] [66] [14] [74] [67] who the? one
+
+FR: er ce qui par ce que [66] on noun? [35] [58] [35] [93] [52]
+EN: -er this who by this that [66] one [noun]? [35] [58] [35] [93] [52]
+
+===== row a1_05 =====
+FR: ne? <verb> ce la <verb> m on [53] n e <noun> [60] [09] ce
+EN: (neg)? [verb] this the [verb] m one [53] n e [noun] [60] [09] this
+
+FR: <INF> <noun> [69] [14] <verb> ce qui [23] [37] ent pour <INF> [16] pour
+EN: [infinitive] [noun] [69] [14] [verb] this who [23] [37] -ent for [infinitive] [16] for
+
+FR: [66]
+EN: [66]
+
+===== row a2_00 =====
+FR: <verb> ce [98] [56] ce [01] <noun> [60] [08] [67] noun? ce la [92]
+EN: [verb] this [98] [56] this [01] [noun] [60] [08] [67] [noun]? this the [92]
+
+FR: [63] <noun> ent le? [44] [50] <gov> [19] [74] le? ver? ent est?
+EN: [63] [noun] -ent the? [44] [50] [governor] [19] [74] the? ver-? -ent is?
+
+===== row a2_01 =====
+FR: que er <noun> [16] <verb> noun? [61] par ce que [98] [83] m par
+EN: that -er [noun] [16] [verb] [noun]? [61] by this that [98] [83] m by
+
+FR: <noun> [60] [71] [51] pre [98] [41] fois la noun? n [16] [56]
+EN: [noun] [60] [71] [51] pre- [98] [41] time(s) the [noun]? n [16] [56]
+
+===== row a2_02 =====
+FR: [43] pour [66] [91] <verb> [44] ne? [65] [63] pour [66] [01] [91] <verb>
+EN: [43] for [66] [91] [verb] [44] (neg)? [65] [63] for [66] [01] [91] [verb]
+
+FR: [43] le? on [74] ce/dict? [93] [52] <INF> <noun> ent [73] ce la
+EN: [43] the? one [74] this?? [93] [52] [infinitive] [noun] -ent [73] this the
+
+===== row a2_03 =====
+FR: ent [67] <INF> er noun? on [91] [37] [61] [20] [61] <noun> e [52]
+EN: -ent [67] [infinitive] -er [noun]? one [91] [37] [61] [20] [61] [noun] e [52]
+
+FR: noun? [28] pour [97] [09] qui er e [65] [16] [01] la
+EN: [noun]? [28] for [97] [09] who -er e [65] [16] [01] the
+
+===== row a2_04 =====
+FR: ver? e [97] <INF> [91] [18] noun? <gov> [02] <gov> [20] fois que on
+EN: ver-? e [97] [infinitive] [91] [18] [noun]? [governor] [02] [governor] [20] time(s) that one
+
+FR: <verb> [37] ver? ce/dict? qui est? <verb> ne? ent la [92] [60] [15]
+EN: [verb] [37] ver-? this?? who is? [verb] (neg)? -ent the [92] [60] [15]
+
+===== row a2_05 =====
+FR: [63] [71] [10] [01] [19] pour [92] [50] ce/dict? [54] <gov> e [03] qui
+EN: [63] [71] [10] [01] [19] for [92] [50] this?? [54] [governor] e [03] who
+
+FR: <VERBAL> [14] ce/dict? qui par [43] ce [01] ent pre n ne? [74]
+EN: VERBAL [14] this?? who by [43] this [01] -ent pre- n (neg)? [74]
+
+===== row a2_06 =====
+FR: [67] ver? e [92] [98] [92] ce la <noun> il? e noun? ce ver?
+EN: [67] ver-? e [92] [98] [92] this the [noun] he? e [noun]? this ver-?
+
+FR: e [49] [61] pre fois ent <noun> [65] [63] er [85]
+EN: e [49] [61] pre- time(s) -ent [noun] [65] [63] -er [85]
+
+===== row a2_07 =====
+FR: m e pour la [50] m [16] [52] [38] [37] [43] [91] [36] il?
+EN: m e for the [50] m [16] [52] [38] [37] [43] [91] [36] he?
+
+FR: [91] on [73] i [67] qui tout m e ent
+EN: [91] one [73] i [67] who all m e -ent
+
+===== row a2_08 =====
+FR: la ce/dict? <gov> [53] i [69] noun? pour <INF> [01] [02] [53] on [51]
+EN: the this?? [governor] [53] i [69] [noun]? for [infinitive] [01] [02] [53] one [51]
+
+FR: [37] ver? [49] [74] [74] que [49] [36] er ce
+EN: [37] ver-? [49] [74] [74] that [49] [36] -er this
+
+===== row a2_09 =====
+FR: [14] il? e noun? <noun> [63] le? <INF> er m [16] ver? [63] ce/dict?
+EN: [14] he? e [noun]? [noun] [63] the? [infinitive] -er m [16] ver-? [63] this??
+
+FR: que [43] [98] [80] [50] ver? [41] [10] il? [61] est? <verb> e
+EN: that [43] [98] [80] [50] ver-? [41] [10] he? [61] is? [verb] e
+
+===== row a2_10 =====
+FR: tout fois le? [60] [65] [13] [66] [14] [02] tout ce la est? <noun>
+EN: all time(s) the? [60] [65] [13] [66] [14] [02] all this the is? [noun]
+
+FR: par pour <INF> tout [80] ent [67] que on <verb> [37] ver?
+EN: by for [infinitive] all [80] -ent [67] that one [verb] [37] ver-?
+
+===== row a2_11 =====
+FR: [74] ce/dict? [93] pour [13] [52] pas [01] [19] qui noun? <noun> [41] [20]
+EN: [74] this?? [93] for [13] [52] not [01] [19] who [noun]? [noun] [41] [20]
+
+FR: [67] ver? <noun> ne? [02] tout <gov> ce la er e
+EN: [67] ver-? [noun] (neg)? [02] all [governor] this the -er e
+
+===== row a3_00 =====
+FR: [56] a/à? [68] <noun> [67] le? il? ne? qui [98] [65] <gov> [56] ce
+EN: [56] to/at? [68] [noun] [67] the? he? (neg)? who [98] [65] [governor] [56] this
+
+FR: le? [80] [09] pre [91] le? ent [55] [81] [97] ce [44] est? [37]
+EN: the? [80] [09] pre- [91] the? -ent [55] [81] [97] this [44] is? [37]
+
+FR: qui
+EN: who
+
+===== row a3_01 =====
+FR: noun? <verb> [16] [08] <verb> m [16] [91] n [44] er e <noun> ent
+EN: [noun]? [verb] [16] [08] [verb] m [16] [91] n [44] -er e [noun] -ent
+
+FR: pour que <verb> ce que [55] [81] pour <INF> est? i fois <INF>
+EN: for that [verb] this that [55] [81] for [infinitive] is? i time(s) [infinitive]
+
+===== row a3_02 =====
+FR: ne? est? pas [67] la [43] <verb> [80] [97] [13] noun? ce/dict? ne? [52]
+EN: (neg)? is? not [67] the [43] [verb] [80] [97] [13] [noun]? this?? (neg)? [52]
+
+FR: ce ver? ce/dict? [13] [55] [61] ne? m ent ent [50] [10] [19] [18]
+EN: this ver-? this?? [13] [55] [61] (neg)? m -ent -ent [50] [10] [19] [18]
+
+FR: [14] pour [97] [41]
+EN: [14] for [97] [41]
+
+===== row a4_00 =====
+FR: [41] [09] pour [92] tout [85] [01] er e [03] a/à? noun? par ce/dict?
+EN: [41] [09] for [92] all [85] [01] -er e [03] to/at? [noun]? by this??
+
+FR: [93] [54] qui a/à? qui [02] [58] ce le? ce [83] pre <gov> [10]
+EN: [93] [54] who to/at? who [02] [58] this the? this [83] pre- [governor] [10]
+
+===== row a4_01 =====
+FR: er <gov> [37] noun? m [14] est? [37] <INF> er ce ver? [67] [08]
+EN: -er [governor] [37] [noun]? m [14] is? [37] [infinitive] -er this ver-? [67] [08]
+
+FR: [52] [67] [63] [74] que [60] [67] le? noun? e [20]
+EN: [52] [67] [63] [74] that [60] [67] the? [noun]? e [20]
+
+===== row a4_02 =====
+FR: <verb> ce [61] <gov> le? ver? [52] m ne? noun? [49] <verb> noun? pas
+EN: [verb] this [61] [governor] the? ver-? [52] m (neg)? [noun]? [49] [verb] [noun]? not
+
+FR: [03] il? [16] pour <INF> [50] [80] [03] il? ent pour
+EN: [03] he? [16] for [infinitive] [50] [80] [03] he? -ent for
+
+===== row a5_00 =====
+FR: [20] [67] la <INF> <verb> [80] [03] qui [37] le? ce/dict? [23] [09] [07]
+EN: [20] [67] the [infinitive] [verb] [80] [03] who [37] the? this?? [23] [09] [07]
+
+FR: pour [92] qui er e [65] ne? er [60] [03] a/à? [74]
+EN: for [92] who -er e [65] (neg)? -er [60] [03] to/at? [74]
+
+===== row a5_01 =====
+FR: que [02] [50] ce/dict? [28] ne? [60] n [98] [20] n [66] <noun> [35]
+EN: that [02] [50] this?? [28] (neg)? [60] n [98] [20] n [66] [noun] [35]
+
+FR: [53] n e [71] n [63] pour [66] <INF> [01] [02] <noun> [80]
+EN: [53] n e [71] n [63] for [66] [infinitive] [01] [02] [noun] [80]
+
+===== row a5_02 =====
+FR: le? [03] [91] [65] qui la pour <INF> e <gov> la <verb> [85] [93]
+EN: the? [03] [91] [65] who the for [infinitive] e [governor] the [verb] [85] [93]
+
+FR: noun? [18] m ent pour [36] [20] pas [67] le? [81] [85] [28]
+EN: [noun]? [18] m -ent for [36] [20] not [67] the? [81] [85] [28]
+
+===== row a5_03 =====
+FR: pour qui [02] [97] e [67] la pre m i er e [20] il?
+EN: for who [02] [97] e [67] the pre- m i -er e [20] he?
+
+FR: ne? est? a/à? <gov> [66] [98] [80] [10] [22] ne? [07] ent
+EN: (neg)? is? to/at? [governor] [66] [98] [80] [10] [22] (neg)? [07] -ent
+
+===== row a5_04 =====
+FR: ne? [15] <INF> [73] [37] [08] er noun? la <verb> <noun> ne? [74] [65]
+EN: (neg)? [15] [infinitive] [73] [37] [08] -er [noun]? the [verb] [noun] (neg)? [74] [65]
+
+FR: on ent le? qui que [07] qui [56] [37] [44] le? <INF>
+EN: one -ent the? who that [07] who [56] [37] [44] the? [infinitive]
+
+===== row a5_05 =====
+FR: [44] [74] il? [98] [53] [69] <verb> <verb> [41] n e <verb> [65] [14]
+EN: [44] [74] he? [98] [53] [69] [verb] [verb] [41] n e [verb] [65] [14]
+
+FR: er [49] [74] [74] ce ver? e [95] [13] <verb> ce
+EN: -er [49] [74] [74] this ver-? e [95] [13] [verb] this
+
+===== row a5_06 =====
+FR: est? [38] m [01] <verb> ce la le? noun? est? [35] [56] fois [98]
+EN: is? [38] m [01] [verb] this the the? [noun]? is? [35] [56] time(s) [98]
+
+FR: [20] il? ne? noun? n [16] pour <INF> par e il?
+EN: [20] he? (neg)? [noun]? n [16] for [infinitive] by e he?
+
+===== row a5_07 =====
+FR: <noun> [67] [91] [51] qui <verb> e on [02] <verb> [49] [74] [74] e
+EN: [noun] [67] [91] [51] who [verb] e one [02] [verb] [49] [74] [74] e
+
+FR: ce que pour <INF> pre ce le? noun? e [20]
+EN: this that for [infinitive] pre- this the? [noun]? e [20]
+
+===== row a5_08 =====
+FR: [74] [49] [16] le? <INF> ver? fois [08] <VERBAL> tout [68] [37] [03] [02]
+EN: [74] [49] [16] the? [infinitive] ver-? time(s) [08] VERBAL all [68] [37] [03] [02]
+
+FR: pour <INF> ent le? noun? [01] [98] m [14] [98] [83] <INF>
+EN: for [infinitive] -ent the? [noun]? [01] [98] m [14] [98] [83] [infinitive]
+
+===== row a5_09 =====
+FR: [16] [92] [67] [16] <gov> [18] [55] [83] [54] [49] qui [83] est? [37]
+EN: [16] [92] [67] [16] [governor] [18] [55] [83] [54] [49] who [83] is? [37]
+
+FR: par [09] [02] <verb> [49] [74] [74] e [08] [65]
+EN: by [09] [02] [verb] [49] [74] [74] e [08] [65]
+
+===== row a5_10 =====
+FR: [71] fois [61] par e m [98] [83] [56] [69] noun? pour <INF> <noun>
+EN: [71] time(s) [61] by e m [98] [83] [56] [69] [noun]? for [infinitive] [noun]
+
+FR: qui [37] [01] [07] [50] e [08] il? [98] par
+EN: who [37] [01] [07] [50] e [08] he? [98] by
+
+===== row a6_00 =====
+FR: <INF> [01] le? <INF> par ce que <verb> [85] [04] [20] [67] par pour
+EN: [infinitive] [01] the? [infinitive] by this that [verb] [85] [04] [20] [67] by for
+
+FR: <INF> [56] [41] [19] <verb> ent le? noun? [01] [98]
+EN: [infinitive] [56] [41] [19] [verb] -ent the? [noun]? [01] [98]
+
+===== row a6_01 =====
+FR: e [51] ce/dict? [08] [01] pour [92] [07] noun? ce ver? ce/dict? [01] <verb>
+EN: e [51] this?? [08] [01] for [92] [07] [noun]? this ver-? this?? [01] [verb]
+
+FR: noun? e [01] noun? [49] <verb> noun? pas [03] [60]
+EN: [noun]? e [01] [noun]? [49] [verb] [noun]? not [03] [60]
+
+===== row a6_02 =====
+FR: [67] la par m <INF> pour <INF> [56] ce [91] la [52] [35] [18]
+EN: [67] the by m [infinitive] for [infinitive] [56] this [91] the [52] [35] [18]
+
+FR: tout [80] ver? ce [03] <verb> [41] [15] [66] [91]
+EN: all [80] ver-? this [03] [verb] [41] [15] [66] [91]
+
+===== row a6_03 =====
+FR: [53] on [92] qui ce/dict? qui par [43] ce [01] [03] er [80] le?
+EN: [53] one [92] who this?? who by [43] this [01] [03] -er [80] the?
+
+FR: la pre m i er e fois le? m [63] la
+EN: the pre- m i -er e time(s) the? m [63] the
+
+===== row a6_04 =====
+FR: [67] noun? [85] [41] <gov> er e er [74] [74] ce/dict? [23] le? on
+EN: [67] [noun]? [85] [41] [governor] -er e -er [74] [74] this?? [23] the? one
+
+FR: [09] [98] [83] m par <noun> il? [18] pre a/à? la
+EN: [09] [98] [83] m by [noun] he? [18] pre- to/at? the
+
+===== row a6_05 =====
+FR: [44] [74] <noun> [98] [98] n e le? ver? qui ent [52] noun? <verb>
+EN: [44] [74] [noun] [98] [98] n e the? ver-? who -ent [52] [noun]? [verb]
+
+FR: [02] [55] [81] pour <INF> tout [80] ent
+EN: [02] [55] [81] for [infinitive] all [80] -ent
+
+===== row a6_06 =====
+FR: [43] [07] [55] [81] ent er [67] <INF> [52] m ne? [74] ce ver?
+EN: [43] [07] [55] [81] -ent -er [67] [infinitive] [52] m (neg)? [74] this ver-?
+
+FR: [65] [63] pour [66] [73] [41] [65]
+EN: [65] [63] for [66] [73] [41] [65]
+
+===== row a6_07 =====
+FR: [38] pas [69] la <gov> pre n ent [14] ent la [52] [37] [43]
+EN: [38] not [69] the [governor] pre- n -ent [14] -ent the [52] [37] [43]
+
+FR: pour <INF> [52] [37] <INF> <verb>
+EN: for [infinitive] [52] [37] [infinitive] [verb]
+
+===== row a6_08 =====
+FR: le? <INF> [20] il? [98] pour [98] ver? il? [16] er <noun> [98] [98]
+EN: the? [infinitive] [20] he? [98] for [98] ver-? he? [16] -er [noun] [98] [98]
+
+FR: <INF> [67] <INF> [66] on [02]
+EN: [infinitive] [67] [infinitive] [66] one [02]
+
+===== row a6_09 =====
+FR: pour [92] er [80] fois le? m [44] [83] <noun> [67] ver? ce/dict? [13]
+EN: for [92] -er [80] time(s) the? m [44] [83] [noun] [67] ver-? this?? [13]
+
+FR: [55] [61] ne? ce [83] <noun>
+EN: [55] [61] (neg)? this [83] [noun]
+
+===== row a6_10 =====
+FR: [85] [36] [74] <verb> e est? [37] le? ver? ne? m ent ent est?
+EN: [85] [36] [74] [verb] e is? [37] the? ver-? (neg)? m -ent -ent is?
+
+FR: <noun> ent on est?
+EN: [noun] -ent one is?
+
+===== row a7_00 =====
+FR: que [07] <verb> m [16] par m [16] qui er ce/dict? [58] ce [43]
+EN: that [07] [verb] m [16] by m [16] who -er this?? [58] this [43]
+
+FR: [55] [61] <noun> [65] qui est? <verb> e par ce/dict? [36] le? [83] [92]
+EN: [55] [61] [noun] [65] who is? [verb] e by this?? [36] the? [83] [92]
+
+===== row a7_01 =====
+FR: [61] <verb> e pas [09] [20] [57] qui tout m e er ce <INF>
+EN: [61] [verb] e not [09] [20] [57] who all m e -er this [infinitive]
+
+FR: er [85] [56] [10] [03] e [67] le? [81] ce la pour <INF> [16]
+EN: -er [85] [56] [10] [03] e [67] the? [81] this the for [infinitive] [16]
+
+FR: pour
+EN: for
+
+===== row a7_02 =====
+FR: [67] que noun? pas ent [65] que [01] [61] <VERBAL> er [69] <gov> [01]
+EN: [67] that [noun]? not -ent [65] that [01] [61] VERBAL -er [69] [governor] [01]
+
+FR: [09] la [50] que [69] <gov> <verb> pas [20] qui ce noun? ce noun?
+EN: [09] the [50] that [69] [governor] [verb] not [20] who this [noun]? this [noun]?
+
+===== row a7_03 =====
+FR: e [56] [85] e [53] [61] [56] <verb> [98] [55] [68] pour la fois
+EN: e [56] [85] e [53] [61] [56] [verb] [98] [55] [68] for the time(s)
+
+FR: on est? [35] ne? [52] [80] [04] il? [16] [02] pre [37] [08] [43]
+EN: one is? [35] (neg)? [52] [80] [04] he? [16] [02] pre- [37] [08] [43]
+
+FR: <noun>
+EN: [noun]
+
+===== row a7_04 =====
+FR: [43] le? [74] [52] pas [92] [44] pour [36] [74] il? e [98] [15]
+EN: [43] the? [74] [52] not [92] [44] for [36] [74] he? e [98] [15]
+
+FR: <verb> [03] er [80] [08] il? [98] [56] pas ent il? ne? pre
+EN: [verb] [03] -er [80] [08] he? [98] [56] not -ent he? (neg)? pre-
+
+===== row a7_05 =====
+FR: [52] a/à? [83] <INF> [71] qui [60] [08] [65] qui [52] [38] ce <INF>
+EN: [52] to/at? [83] [infinitive] [71] who [60] [08] [65] who [52] [38] this [infinitive]
+
+FR: [66] [73] i il? e le? ver? ne? m ent [52] [37] qui
+EN: [66] [73] i he? e the? ver-? (neg)? m -ent [52] [37] who
+
+===== row a7_06 =====
+FR: [35] [13] [92] il? ne? tout [14] [60] [03] pas m [16] [91] [67]
+EN: [35] [13] [92] he? (neg)? all [14] [60] [03] not m [16] [91] [67]
+
+FR: [98] pour <INF> er noun? on [92] [69] [13] <verb> [65] [68] [52] m
+EN: [98] for [infinitive] -er [noun]? one [92] [69] [13] [verb] [65] [68] [52] m
+
+===== row a7_07 =====
+FR: [16] ent er [67] <INF> er noun? [16] noun? ce ver? e e [67]
+EN: [16] -ent -er [67] [infinitive] -er [noun]? [16] [noun]? this ver-? e e [67]
+
+FR: le? [81] ce la pour la [95] que [52] <noun> [16] [97] [69] [74]
+EN: the? [81] this the for the [95] that [52] [noun] [16] [97] [69] [74]
+
+===== row a7_08 =====
+FR: i [52] <verb> on tout [15] <INF> <noun> [67] <INF> er ce [63] [91]
+EN: i [52] [verb] one all [15] [infinitive] [noun] [67] [infinitive] -er this [63] [91]
+
+FR: [61] n [16] noun? [49] qui [52] m [16] <verb> [85] [01] [52]
+EN: [61] n [16] [noun]? [49] who [52] m [16] [verb] [85] [01] [52]
+
+===== row a7_09 =====
+FR: [68] est? [37] qui le? on est? [36] [67] <INF> que [92] il? [61]
+EN: [68] is? [37] who the? one is? [36] [67] [infinitive] that [92] he? [61]
+
+FR: <noun> [67] <INF> [66] tout fois [01] <noun> il? e <noun> [02] il? [38]
+EN: [noun] [67] [infinitive] [66] all time(s) [01] [noun] he? e [noun] [02] he? [38]
+
+===== row a7_10 =====
+FR: noun? n [41] [53] [60] ent [67] <INF> er m [16] [98] il? que
+EN: [noun]? n [41] [53] [60] -ent [67] [infinitive] -er m [16] [98] he? that
+
+FR: le? on <verb> ce [08] <VERBAL> [92] a/à? <verb> pour [66] [15] est?
+EN: the? one [verb] this [08] VERBAL [92] to/at? [verb] for [66] [15] is?
+
+===== row a7_11 =====
+FR: <verb> noun? [41] [74] on <INF> <noun> <INF> pour <INF> [56] [41] n [61]
+EN: [verb] [noun]? [41] [74] one [infinitive] [noun] [infinitive] for [infinitive] [56] [41] n [61]
+
+FR: est? a/à? [81] <gov> la <VERBAL> la [91] [67] [08] <VERBAL> <verb> la la
+EN: is? to/at? [81] [governor] the VERBAL the [91] [67] [08] VERBAL [verb] the the
+
+===== row a8_00 =====
+FR: e par ce que <noun> [65] [63] pour [66] [73] [41] il? ent <noun>
+EN: e by this that [noun] [65] [63] for [66] [73] [41] he? -ent [noun]
+
+FR: il? [93] <gov> le? ver? [43] pour que pre n ne? [92] ce/dict? [23]
+EN: he? [93] [governor] the? ver-? [43] for that pre- n (neg)? [92] this?? [23]
+
+===== row a8_01 =====
+FR: [99] [13] [93] [61] e fois la noun? pas ent [60] [71] [50] er
+EN: [99] [13] [93] [61] e time(s) the [noun]? not -ent [60] [71] [50] -er
+
+FR: <verb> [74] il? e [56] <verb> [28] [52] m ne? noun? ce [98] <verb>
+EN: [verb] [74] he? e [56] [verb] [28] [52] m (neg)? [noun]? this [98] [verb]
+
+===== row a8_02 =====
+FR: [53] n [44] pour [36] pre qui [65] e er ce [08] [81] [03]
+EN: [53] n [44] for [36] pre- who [65] e -er this [08] [81] [03]
+
+FR: er [80] [67] le? [81] m [98] pour [44] pre a/à? la [92] [65]
+EN: -er [80] [67] the? [81] m [98] for [44] pre- to/at? the [92] [65]
+
+FR: [23]
+EN: [23]
+
+===== row a8_03 =====
+FR: [08] [55] [83] [71] e <VERBAL> noun? <noun> [44] la on ver? [66] [67]
+EN: [08] [55] [83] [71] e VERBAL [noun]? [noun] [44] the one ver-? [66] [67]
+
+FR: <INF> que [56] [69] noun? pour <INF> <noun> qui [37] [01] [74] ce [74]
+EN: [infinitive] that [56] [69] [noun]? for [infinitive] [noun] who [37] [01] [74] this [74]
+
+===== row a8_04 =====
+FR: [74] [35] [56] n <INF> [98] [60] [03] qui <VERBAL> [10] [03] [38] m
+EN: [74] [35] [56] n [infinitive] [98] [60] [03] who VERBAL [10] [03] [38] m
+
+FR: [16] [01] [56] [37] la <verb> e ce [98] [98] [80] [22] ne? on
+EN: [16] [01] [56] [37] the [verb] e this [98] [98] [80] [22] (neg)? one
+
+===== row a8_05 =====
+FR: qui ent [91] la ver? [55] [81] [92] [60] [03] a/à? [74] le? [44]
+EN: who -ent [91] the ver-? [55] [81] [92] [60] [03] to/at? [74] the? [44]
+
+FR: pour que tout [65] [13] [93] il? ne? tout [14] [60] [27] que
+EN: for that all [65] [13] [93] he? (neg)? all [14] [60] [27] that
+
+===== row a8_06 =====
+FR: <verb> [85] [58] [15] [23] [91] [85] <INF> ne? pas [20] il? ne? <gov>
+EN: [verb] [85] [58] [15] [23] [91] [85] [infinitive] (neg)? not [20] he? (neg)? [governor]
+
+FR: noun? n ent er e [65] ne? [44] est? pas qui ce
+EN: [noun]? n -ent -er e [65] (neg)? [44] is? not who this
+
+===== row a8_07 =====
+FR: [68] ent la [52] [37] [43] [98] a/à? <gov> <verb> pas [15] [01] [56]
+EN: [68] -ent the [52] [37] [43] [98] to/at? [governor] [verb] not [15] [01] [56]
+
+FR: pas ent [60] n e [52] <INF> n i ne? m que
+EN: not -ent [60] n e [52] [infinitive] n i (neg)? m that
+
+===== row a8_08 =====
+FR: [56] e ent [65] i [07] [28] noun? noun? <verb> [85] [58] fois ver?
+EN: [56] e -ent [65] i [07] [28] [noun]? [noun]? [verb] [85] [58] time(s) ver-?
+
+FR: [41] [15] [93] ent le? on [09] <verb> ce qui noun? [37]
+EN: [41] [15] [93] -ent the? one [09] [verb] this who [noun]? [37]
+
+===== row a8_09 =====
+FR: ver? il? ne? <verb> ce qui est? [19] e [74] [65] [23] [98] [83]
+EN: ver-? he? (neg)? [verb] this who is? [19] e [74] [65] [23] [98] [83]
+
+FR: m par <noun> [68] ce [03] pour <INF> [56] <noun> ne?
+EN: m by [noun] [68] this [03] for [infinitive] [56] [noun] (neg)?
+
+===== row a8_10 =====
+FR: est? [37] [91] tout ce qui le? on est? [35] ne? [52] [80] [04]
+EN: is? [37] [91] all this who the? one is? [35] (neg)? [52] [80] [04]
+
+FR: [61] [15] [93] [50] <noun> ent er [37] [01] [02] [09] [19]
+EN: [61] [15] [93] [50] [noun] -ent -er [37] [01] [02] [09] [19]
+
+===== row a8_11 =====
+FR: pour [97] pour <INF> er m [38] [83] <verb> m [16] est? [36] [69]
+EN: for [97] for [infinitive] -er m [38] [83] [verb] m [16] is? [36] [69]
+
+FR: qui [22] <noun> [44] [83] <noun> [67] ver? [49] [74] [93]
+EN: who [22] [noun] [44] [83] [noun] [67] ver-? [49] [74] [93]
+
