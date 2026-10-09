@@ -55,7 +55,8 @@
   "followups_queued_p43": "2026-10-09 supervisor: follow-up audit of the 17-report inbox wave (8 promotes + 1 kill + 8 nulls): all 23 null-mandated follow-ups verified ALREADY QUEUED (no re-queue); adv-49-653-990 proposal skipped (already verdict/promote); 1 supervisor-discretion target queued: sel-37-913-agentive-par (P3, from sel-37-nominal-1179 scope). 17 verdict.report paths repaired to report_inbox/processed/. Gate audit vs R20: ne-508-reseg-gate62 and verdict78-gate-wordbound-rearm remain UNFIRED — R20-125 confirms 62='il' KILLED at kill grade permanent; R20-032-038 defers 78='ver' (R16-005 LEAD stands). R20 override note: R20-080 fences formula-76-49-24 (N-ADJ-Vfin license vacuous after adj-49-420-366 killed adjective-49); standing revision R20-116 lifts the @889 clause-boundary fence (one-word 'pourvoient' parse).",
   "followups_queued_p44": "2026-10-09 supervisor: val-85-1700-compound NULL ingested (fence executed); 3 follow-ups queued: compound-85-33-scheme (P4), ne30-1701-tail-reconcile (P3), laisser-85-1699 (P3); report moved to processed/ + verdict.report path repaired. Note: worker's post-push queue write preserved all supervisor edits (p43 + sel-37-913-agentive-par intact) — no last-writer-wins loss.",
   "followups_queued_p45": "2026-10-09 supervisor: noun-03-seven-windows NULL (supervisor-dispatched worker) ingested; 3 follow-ups queued: noun-03-determiner-census (P4), noun-03-qui-frame-census (P4), noun-03-context-split-census (P4); report moved to processed/ + verdict.report path repaired.",
-  "followups_queued_p46": "2026-10-09 supervisor: noun-03-gender-test PROMOTE (supervisor-dispatched worker; masculine-uniform 03, 3-window byte evidence, @722 fenced on provisional 77='le'); no follow-ups per §4; report moved to processed/ + path repaired."
+  "followups_queued_p46": "2026-10-09 supervisor: noun-03-gender-test PROMOTE (supervisor-dispatched worker; masculine-uniform 03, 3-window byte evidence, @722 fenced on provisional 77='le'); no follow-ups per §4; report moved to processed/ + path repaired.",
+  "followups_queued_p47": "2026-10-09 supervisor: temp-65-en-frame KILL ingested (en-frame arm fenced at kill grade on two independent legs; no follow-ups per §4); val-77-722-det NULL ingested with 3 follow-ups queued: objpron-77-89 (P3), det-77-86-substantivized (P3), locus-721-rerun (P4 gated on 03 batteries); 2 reports moved to processed/ + verdict.report paths repaired."
  },
  "targets": [
   {
@@ -18495,12 +18496,17 @@
   },
   {
    "id": "temp-65-en-frame",
-   "status": "queued",
+   "status": "verdict",
    "priority": 3,
    "claim": "test the two '24 65' ('en [65]') windows @812/@1383 for a temporal/locative reading under stated period evidence",
    "bars": "name the temporal/locative reading iff a period-evidenced frame licenses it; else fence the en-frame arm",
    "adverses": "65 noun-class (R20-047); 'en'+N polysemous",
-   "dependencies": []
+   "dependencies": [],
+   "verdict": {
+    "result": "kill",
+    "report": "code/crowd17/report_inbox/processed/battery-temp-65-en-frame.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "id": "val-65-value-census",
@@ -18576,12 +18582,17 @@
   },
   {
    "id": "val-77-722-det",
-   "status": "queued",
+   "status": "verdict",
    "priority": 3,
    "claim": "determiner-vs-clitic test for 77 at @721 (follower-class census across n(77)=44)",
    "bars": "name determiner-77 iff follower classes license a determiner reading with zero new assumptions; clitic-77 iff object-pronoun geometry forced; else fence at the locus",
    "adverses": "77='le' provisional; '77 03' hapax",
-   "dependencies": []
+   "dependencies": [],
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/processed/battery-val-77-722-det.md",
+    "date": "2026-10-09"
+   }
   },
   {
    "id": "seg-77-03-wordinternal",
@@ -18781,6 +18792,36 @@
    "bars": null,
    "adverses": null,
    "evidence": "battery-noun-03-seven-windows NULL follow-up #3",
+   "priority": 4,
+   "status": "queued",
+   "verdict": null
+  },
+  {
+   "id": "objpron-77-89",
+   "claim": "discriminating clitic frame for 77 at the two '77 89' windows; fail -> object-pronoun-77 closes at battery grade",
+   "bars": null,
+   "adverses": null,
+   "evidence": "battery-val-77-722-det NULL follow-up #1",
+   "priority": 3,
+   "status": "queued",
+   "verdict": null
+  },
+  {
+   "id": "det-77-86-substantivized",
+   "claim": "determiner-77's last stand via substantivized-infinitive 86 at '77 86' windows; fail -> determiner-77 closes at battery grade",
+   "bars": null,
+   "adverses": null,
+   "evidence": "battery-val-77-722-det NULL follow-up #2",
+   "priority": 3,
+   "status": "queued",
+   "verdict": null
+  },
+  {
+   "id": "locus-721-rerun",
+   "claim": "re-run the @721-722 locus once the 03 batteries resolve (consumes the val-77-722-det fence)",
+   "bars": null,
+   "adverses": null,
+   "evidence": "battery-val-77-722-det NULL follow-up #3",
    "priority": 4,
    "status": "queued",
    "verdict": null
