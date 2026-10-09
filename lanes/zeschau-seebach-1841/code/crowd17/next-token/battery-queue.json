@@ -57,7 +57,8 @@
   "report_paths_repaired_2026-10-09b": "2026-10-09 supervisor: 25 verdict reports moved to report_inbox/processed/ + verdict.report paths repaired",
   "stream": "repaired 1,847-pair parse (code/side-keyhunt/repaired_offsets.json + data/upstream-ct_R5005.txt)",
   "version": 2,
-  "followups_queued_p48": "2026-10-09 supervisor: val-31-finite-name KILL ingested (no finite-verb value nameable; 31 program continues via already-queued val-31-1257-word/val-31-1516-finite — not re-queued); noun-49-nonchain PROMOTE ingested (bar's else-arm: noun-49 FENCED globally at battery grade; surviving tier syllable/letter); mooted target noun-49-909-875 closed as kill (its @909/@875 noun premise is the fenced arm); val-49-61-pair adverses annotated with the fence context; 2 reports moved to processed/ + paths repaired; no follow-ups per §4."
+  "followups_queued_p48": "2026-10-09 supervisor: val-31-finite-name KILL ingested (no finite-verb value nameable; 31 program continues via already-queued val-31-1257-word/val-31-1516-finite — not re-queued); noun-49-nonchain PROMOTE ingested (bar's else-arm: noun-49 FENCED globally at battery grade; surviving tier syllable/letter); mooted target noun-49-909-875 closed as kill (its @909/@875 noun premise is the fenced arm); val-49-61-pair adverses annotated with the fence context; 2 reports moved to processed/ + paths repaired; no follow-ups per §4.",
+  "followups_queued_p49": "2026-10-09 supervisor: val-41-word-census NULL ingested (kill-grade contradiction @39 finite-verb vs @237 determiner-slot; queueing premise corrected — @808/@1016 'en [41]' rejected, 24 is finite/modal per R24); 3 follow-ups queued: 41-verb-arm-package (P3, red-team docket input), 41-808-role (P3), 41-05-class (P3); report moved to processed/ + path repaired."
  },
  "targets": [
   {
@@ -18579,7 +18580,7 @@
    "status": "verdict",
    "verdict": {
     "date": "2026-10-09",
-    "report": "code/crowd17/report_inbox/battery-val-41-word-census.md",
+    "report": "code/crowd17/report_inbox/processed/battery-val-41-word-census.md",
     "result": "null"
    }
   },
@@ -18844,6 +18845,36 @@
    "evidence": "battery-val-77-722-det NULL follow-up #3",
    "id": "locus-721-rerun",
    "priority": 4,
+   "status": "queued",
+   "verdict": null
+  },
+  {
+   "id": "41-verb-arm-package",
+   "claim": "package the verb-arm evidence for 41 (@39 forces finite verb etc.) as red-team input for the split-41-redteam docket; batteries do not decide splits",
+   "bars": null,
+   "adverses": null,
+   "evidence": "battery-val-41-word-census NULL follow-up #1",
+   "priority": 3,
+   "status": "queued",
+   "verdict": null
+  },
+  {
+   "id": "41-808-role",
+   "claim": "test 41's role at @808 (@808 forces standalone-word 41 under finite-verb 24 boundary): standalone vs word-internal tier",
+   "bars": null,
+   "adverses": null,
+   "evidence": "battery-val-41-word-census NULL follow-up #2",
+   "priority": 3,
+   "status": "queued",
+   "verdict": null
+  },
+  {
+   "id": "41-05-class",
+   "claim": "test adj vs noun class for 41 at @5",
+   "bars": null,
+   "adverses": null,
+   "evidence": "battery-val-41-word-census NULL follow-up #3",
+   "priority": 3,
    "status": "queued",
    "verdict": null
   }
