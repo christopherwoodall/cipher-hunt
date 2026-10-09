@@ -4064,6 +4064,48 @@ re-derivation from `data/upstream-ct_R5005.txt` +
   for provisional 77="le"; the 86 amended-rule and 26 positional-rule
   declarations remain HELD under §7 (67 sole polyvalence).
 
+### Round-17 wave-12 addenda (2026-10-08/09 UTC, crowd17 — 85 battery notes;
+red-team ratification pending)
+
+85 notes trace: `code/crowd17/report_inbox/` (all new this sweep — 85
+files, incl. 11 that landed while the sweep ran). 17 kills, 3 promotes,
+65 nulls — verdicts entered in `code/crowd17/next-token/battery-queue.json`
+(465 entries: 267 verdict, 198 queued at read time; the fleet is
+adding follow-up targets in real time).
+
+- **F134 — battery-PROMOTE (locus-level): "69 11" @1115–1116 = one word,
+  "cela"-shaped** (battery-cela-69-11-word). The locus parses as one word
+  with 69 in the "ce"-class; no conflict with standing verdicts, no
+  adverses listed. Global 69 value stays OPEN — not banked, not promoted.
+- **F135 — battery-PROMOTE (locus-level): "61 40 17" @1556 reads "première
+  fois"** (battery-val-61-premier). 61 = "premier"-stem at this locus
+  only; the global-61 value question is DEAD at the same wave
+  (val-61-contact, N139) — locus promote and global kill coexist,
+  no downgrade either way.
+- **F136 — battery-PROMOTE (evidence-package grade): byte-exact map of
+  ungrammatical-"ne" windows** (battery-ne-particle-ungrammatical-sweep).
+  The complete map is produced with byte-exact @-offsets on the repaired
+  1,847-pair stream, no adverses. Scope explicit: an evidence package for
+  the red-team 94 duality adjudication, NOT a value claim — it does not
+  promote 94="ne" globally.
+
+Methodology notes (this wave, first-class per REPORTING.md): every worker
+re-derived counts on the repaired 1,847-pair stream (`repair_parse.py`);
+`canonical.py` never touched; R5005 and sealed gates untouched; bars were
+pre-registered with numbered clauses, frozen before data examination, never
+modified after; value status was marked on every use (pencil/granted/
+promoted/provisional/battery-promoted-unratified); kill grade means a
+window forces the claim false — not just "no evidence"; conditioned splits
+need red-team approval (§7 sole-polyvalence law) — batteries package,
+never grant; residuals fenced with stated cause and a named venue, never
+ignored. Enlightenment moments: spelling repair can fit perfectly and
+still die distributionally (14="souv" gives exact "souvent" at both
+windows, but @586 kills it — N136); the mannequin letter-family died on a
+concrete dictionary fact — 62-48 ×6 reads "mane", which is not a French
+word ("crinière" is) (N130); a value verdict can die while its class
+verdict stands (the suite-21 value kill vs the untouched 21=NOUN class
+verdict, wave 11).
+
 ---
 
 ## 5. Failures & null results (N-series)
@@ -5528,6 +5570,127 @@ during this sweep)
   conditioned-'on' reading false, and the single-observation @508
   side structurally cannot promote.
 
+### Round-17 null batch, wave 12 (crowd17, 2026-10-08/09 UTC)
+
+17 kills, 65 nulls. Kill grade = a window forces the claim false.
+All notes trace to `code/crowd17/report_inbox/` (file names below).
+
+- **N124 — ce-inf-1841 KILL: "ce + infinitive" nominalization is
+  ungrammatical in 1841 French** (battery-ce-inf-1841). Period corpus
+  (Littré 1872–1877, period grammars) positively establishes "le" as the
+  substantivizer; @23-24 and @1232 cannot parse under "ce + infinitive".
+- **N125 — dite-52-37-anaphora KILL: "dite" (=ladite) eliminated from the
+  Type-A 52-37 adjective set** (battery-dite-52-37-anaphora). No antecedent
+  at @1124/@1722. Caveat: bar scoped to the named rows — a
+  whole-discourse scope would NOT eliminate "dite".
+- **N126 — edge-1024-clause-boundary KILL** (battery-edge-1024-clause-boundary).
+  Boundary between @1023 "qui" and @1024 "ce" killed — strands a verb-less
+  relative "qui".
+- **N127 — ellipsis-760 KILL (partial): the uniform clause-initial-particle
+  account of 20 is killed @1703** (battery-ellipsis-760). "ne pas" requires
+  a verbal complement. The W1-local ellipsis reading @760 survives.
+- **N128 — le-14-kill-1121 KILL: 14="le" as a window-independent value**
+  (battery-le-14-kill-1121). Kill-grade at the @1121 breaker window; 14
+  fully open ("le", "sou", "souv" all dead at window level).
+- **N129 — lever-213-complement KILL** (battery-lever-213-complement). "@213
+  '74 lever 06' resolves the 06-complement problem" killed — the window
+  forces the conditional claim false.
+- **N130 — lex-passepartout-48 KILL: "passe-partout" reading of @44–48**
+  (battery-lex-passepartout-48). Needs @48="tout", but @48=00="pour"
+  (granted).
+- **N131 — mannequin-62-98-test KILL: joint 62="man"/98="n"**
+  (battery-mannequin-62-98-test). 62-48 ×6 reads "mane" — not a French
+  word ("crinière" is); 98-83 ×5 strands a bare "n".
+- **N132 — name-88-value KILL: one value for 88 across its 23 windows**
+  (battery-name-88-value). No single value covers all 23.
+- **N133 — ne-317-wide-parse KILL** (battery-ne-317-wide-parse). No
+  grammatical parse of @314–325 under standing values with ≤1 new-value
+  assumption; the "verdict qui" rival also dead.
+- **N134 — nece-94-87-initial KILL: the word-initial "néce-" rescue**
+  (battery-nece-94-87-initial). @1169–1172 forces it false. Does NOT
+  disturb 94="ne" STRONG LEAD (R17-001) or the 87="ce" grant.
+- **N135 — prennent-70-12-06 KILL (stated parse only)**
+  (battery-prennent-70-12-06). The "'11 88 70 12 06' as plural NP +
+  'prennent' with subject agreement" reading killed @1116–1120; the
+  souvent clause itself is not killed, only this subject-agreement
+  reading.
+- **N136 — prennent-88-subject KILL: the plural-pronoun arm for 88**
+  (battery-prennent-88-subject). Banked 79="tout" at @496 cannot precede
+  a plural pronoun.
+- **N137 — souv-14-06-repair KILL** (battery-souv-14-06-repair). 14="souv"
+  gives exact "souvent" at both windows but is distributionally
+  untenable (@586) — the spelling repair works, the value dies.
+- **N138 — souvent-14-06-retest KILL: 14="sou"** (battery-souvent-14-06-retest).
+  Killed at @84 ("souent" ≠ "souvent" under standing 06="ent").
+- **N139 — stem48-legs-rival KILL: the rival letter-"e" claim @1229/@1589**
+  (battery-stem48-legs-rival). Eliminated at kill grade — the stem
+  requirement stands.
+- **N140 — val-61-contact KILL: any global 61 value**
+  (battery-val-61-contact). No single French value covers the four
+  discriminating 61 frames. Coexists with F135's locus-level
+  "première fois" @1556 — locus promote and global kill, no downgrade
+  either way.
+
+Nulls (65, grouped by family):
+
+- **62 family** (7: 62-third-leg, class-62-25, class-62-fullcensus,
+  class-62-nof94, frame-20-62-94, seg-30-62-96, seg-a1_01-offset1-test):
+  no third noun frame-leg — class stays open (2 legs < the lane's ≥3
+  standard); no single class over the 25 non-94 windows; "il" dead at
+  kill grade across the full 35-window census; the conditioned split is
+  the live hypothesis but needs red-team approval (§7 sole-polyvalence
+  law); @46 fenced as segmentation-open; "96 00" ungrammatical ×3
+  (@47/@465/@960) routed to seg-par-pour-96-00.
+- **Determiner/adjective block** (13: det-20-value, det-20-307-fenced,
+  noun-20-value, det-80-1156-corrob, det-adj-80-adjudicate,
+  le-86-determiner-subset, homophone-79-split, homophone-86-split,
+  s5-la-tout-adjudicate, s5-rival-five-windows,
+  s5-verb-rival-four-windows, adj-frames-995-637,
+  adj-groundwork-refollower): no feminine-noun value for 20; the
+  determiner/adjective paradox is confirmed structural; 86="voi" (voir
+  stem) fails globally; the 37-"le" MEDIUM (S5 fence) contradicts the
+  adjective vote and is escalated to red team (s5-foundation, P1) with
+  new "37-11" ×2 @51/@1655 "le la"-shaped data; 91 (n=21) shows exactly
+  one adjective-shaped window (@723) — no adjective value nameable.
+- **ceci/dictionary block** (6: ce33-noun-slot, ceci-984-195-pair,
+  feeder-ceci-47-45, dict-45-ce-rival-1165, dict-independence-census,
+  dict-78-45-wordbound): restricted "-ci bound, 2 loci" reading not
+  both-parsed; the 45/78 ceci line stays open.
+- **ne family** (6: ne-ce-1169, ne-508-reseg, qui-94-syllabic-rival,
+  finite-88-ne, verb-gap-ne-508, seg-94-82-06): "ne ce" @1169 unresolved
+  (rescue-2 killed); @508 fenced to the red-team 12/94 duality; "ne qui"
+  @509–510 fenced as a singleton; verb gap @505–525 confirmed as a
+  second window residual; no uniform left-edge for "94/18 82 06" —
+  frame D parses "ne ment pas" cleanly but needs 2+ assumptions.
+  seg-94-82-06-f2: 18's distribution (n=7) too thin for
+  slot-equivalence in either direction; word-edge-after-X not advanced.
+- **vient block** (3: cont98-43-value, vient-65-complement,
+  vient-98-511-relative): naming 98 does not decide condition vs mesure;
+  98-65 fenced; @510–517 inconclusive for the battery-promoted
+  98="vient" (unratified).
+- **60 block** (5: participle-60, poly-66-split, verb-60-bare,
+  verb-60-ent, npframe-60-454): single-class rescue fails; 66 split NULL
+  by authority (§7), not evidence; V1/V3/V4 cohere under the -dre family
+  but no verb is nameable.
+- **segmentation block** (7: seg-55-61-94-word, seg-61-94-word,
+  seg-55-re-prefix, par-pour-962-adjudicate, wordbound-30-06-importent,
+  breaker-b4-1121, reseg-700-verbal): "30 06" boundary not independently
+  decided; 55="re" prefix NULL (81="prin" kill intact); @1121 breaker
+  resolved window-locally only (clause 2 rested on 14="sou", since
+  killed — do not cite as a leg).
+- **value/name block** (rest, incl. name-13-55-61, name-55-61-core,
+  name-21-obj, rival-21-feminine, rival-porter-envoyer,
+  unit-13-55-61-contact, unit-52-37-name, adj-52-37-value,
+  val-33-verb, w1-314-ambig, verdict78-gate-wordbound, fence-92-1218,
+  ellipsis-65-62-60-profile, ent-er-residual, ce-le-verb-frame,
+  importe-30-subject-sweep): name-55-61-core NULL — the 13/43 slot values
+  cannot be stated under §7, so no French word X is nameable over the
+  55-61 bigram; 52-37 split candidacy to red team (Type-A adjectival
+  firm but window-local; adj tie {même, seule} unbroken after "dite"
+  died — N125); rival-porter-envoyer escalated for red-team promotion
+  ratification; 62="on" conditioned-elision package complete and open;
+  preverbal ce+le stack fenced as a 77-value residual.
+
 ---
 
 ## 6. Open hypotheses (not promoted — each needs ≥2 independent checks)
@@ -5812,6 +5975,29 @@ unmeasured, provisional; the mine-v3/corpus copies were removed
   battery fleet is consuming wave-11 follow-ups in real time
   (dict-45-circle-break and prenne-R3-relative-341 were proposed in
   this same sweep and already ran).
+
+- **Round-17 wave-12 deltas (2026-10-08/09, 85 battery notes):** battery-PROMOTED:
+  "69 11" @1115–1116 locus-level "cela"-shaped (F134 — global 69 stays
+  open), "61 40 17" @1556 locus-level "première fois" (F135 — global 61
+  DEAD at the same wave), byte-exact ungrammatical-"ne" window map as an
+  evidence package for the red-team 94 duality (F136 — no value claim).
+  KILLED (N124–N140): "ce + infinitive" nominalization (period corpus:
+  "le" is the substantivizer), "dite" from the 52-37 Type-A set,
+  the @1023/@1024 clause boundary, the uniform 20-particle account
+  (W1-local ellipsis survives), window-independent 14="le", the @213
+  06-complement claim, "passe-partout" @44–48, joint 62="man"/98="n",
+  one-value-for-88, the @314–325 parse family, the "néce-" rescue (94="ne"
+  STRONG LEAD untouched), the prennent subject-agreement reading
+  @1116–1120 (souvent clause itself not killed), the 88 plural-pronoun
+  arm, 14="souv" (spelling works, distribution kills), 14="sou", the
+  rival letter-"e" @1229/@1589, any global 61 value. NULLs: 62 noun-class
+  holds 2/3 legs (conditioned split with red team); 98="vient"
+  battery-promoted, unratified; 43 ∈ {condition, mesure} undecided;
+  52-37 {même, seule} tie; 37 under S5 escalated (s5-foundation P1);
+  14 fully open. Note: no wave-12 note proposes a change to
+  `code/table-grid/table-registry.json` (`generate.py` reports UNCHANGED);
+  `code/side-keyhunt/repaired_offsets.json` was rewritten but is
+  byte-identical to the pushed copy — content-neutral.
 
 - **62="on"** — FENCED-LEAD (STRONG LEAD, promotion DENIED by red team,
   Ruling 1; round-6 non-ear battery: NO PROMOTION, honest null — N25):
