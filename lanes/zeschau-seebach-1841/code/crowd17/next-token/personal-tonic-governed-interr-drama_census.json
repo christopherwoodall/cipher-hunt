@@ -1,0 +1,479 @@
+{
+ "files": [
+  {
+   "file": "hugo-hernani-1870.txt",
+   "chars": 203769,
+   "pron_comma_hits": 103,
+   "gov_interr_candidates": 0
+  },
+  {
+   "file": "hugo-burgraves.txt",
+   "chars": 151408,
+   "pron_comma_hits": 137,
+   "gov_interr_candidates": 2
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "chars": 198265,
+   "pron_comma_hits": 104,
+   "gov_interr_candidates": 0
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "chars": 204641,
+   "pron_comma_hits": 129,
+   "gov_interr_candidates": 2
+  },
+  {
+   "file": "dumas-antony.txt",
+   "chars": 102234,
+   "pron_comma_hits": 106,
+   "gov_interr_candidates": 1
+  },
+  {
+   "file": "dumas-henri-iii.txt",
+   "chars": 128462,
+   "pron_comma_hits": 100,
+   "gov_interr_candidates": 3
+  },
+  {
+   "file": "dumas-kean.txt",
+   "chars": 152233,
+   "pron_comma_hits": 132,
+   "gov_interr_candidates": 1
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "chars": 132586,
+   "pron_comma_hits": 161,
+   "gov_interr_candidates": 6
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "chars": 182448,
+   "pron_comma_hits": 169,
+   "gov_interr_candidates": 5
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "chars": 146451,
+   "pron_comma_hits": 103,
+   "gov_interr_candidates": 2
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "chars": 118567,
+   "pron_comma_hits": 39,
+   "gov_interr_candidates": 0
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "chars": 87042,
+   "pron_comma_hits": 30,
+   "gov_interr_candidates": 0
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "chars": 188780,
+   "pron_comma_hits": 95,
+   "gov_interr_candidates": 1
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "chars": 972696,
+   "pron_comma_hits": 578,
+   "gov_interr_candidates": 11
+  }
+ ],
+ "total_chars": 2969582,
+ "candidates": [
+  {
+   "file": "hugo-burgraves.txt",
+   "offset": 110084,
+   "pron": "vous",
+   "window": "vous, lâchement enhardis, \n\nPour faire, vous, barons, ce métier de bandits ?",
+   "strict_gov_inf": [
+    "pour faire"
+   ],
+   "loose_gov_inf": [],
+   "context": "elque mare immonde au bord du grand chemin,  /  / D'un chien qui peut passer redoutant les morsures,  /  / Vous épiez le soir, près des roules peu sûres,  /  / Le pas d'un voyageur, le grelot d'un mulet ;  /  / Vous êtes cent pour prendre un pauvre homme au collet,  /   / Le coup fait, vous fuyez en hâte à vos repaires.  /  / Et vous osez parler de vos pères ! —Vos pères,  /  / Hardis parmi les forts, grands parmi les meilleurs,  /  / Etaient des conquérants ; vous êtes des voleurs !  /  / Les burgraves baissent la tête avec une sombre expression d'abattement, d'indignation et d'épouvante. Il poursuit.  /  / Si vous aviez des cœurs, si vous aviez des âmes,  /  / On vous dirait : Vraiment, vous êtes trop infâmes !  /  / Quel moment prenez-vous, lâchement enhardis,  /  / Pour faire, vous, barons, ce métier de bandits ?  /  / L'heure où notre Allemagne expire! Ignominie!  /  / Fils méchants, vous pillez la-mère à l'agonie!  /  / Elle pleure, et, levant au ciel ses bras roidis,  /  / Sa voix faible en râlant vous dit : Soyez maudits!  /  Ce qu'elle dit tout bas, je le crie à voix haute.  /  / Je suis votre empereur, je ne suis plus votre hôte.  /  / Soyez maudits ! je rentre en mes droits aujourd'hui,  /  / Et, m'étant châtié, puis châtier autrui.  /  / Il aperçoit les deux margraves Platon et Gilissa et marche droit à eux.  /  / Marquis de Moravie et marquis de Lusace,  /  / Vous sur les bords du Rhin ! Est-ce là votre place? /   / Tandis que ces bandits vous fêtent en riant, "
+  },
+  {
+   "file": "hugo-burgraves.txt",
+   "offset": 147679,
+   "pron": "eux",
+   "window": "Eux, ces spectres masqués, pour me rendre la force?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "pour me rendre"
+   ],
+   "context": " miasmes du meurtre à la tête me montent!  /  / L'air qu'ici l'on respire est un air malfaisant.  /  / Egaré.  /  / Est-ce que ce vieux mur veut boire encor du sang?  /  / Job, lui remettant le couteau dans la main.  /  / Oui ! /  / Otbert. /  / \tNe me poussez pas !  /  / Job. /  / \t\t\t\tViens!  /  / Otbert. /  / \t\t\t\t\tJe glisse dans l'abîme !  /  / Je ne me retiens plus qu'à peine aux bords du crime.  /  / Je sens qu'en ce moment je puis faire un grand, pas,  /  / Faire une chose horrible!... —Oh! ne me poussez pas !  /  / Job. /  / Donc sauve l'innocent et punis le coupable!  /  / Otbert, prenant le couteau.  /  / Mais ne voyez-vous pas que j'en serais capable !  /  / Savez-vous que je n'ai qu'à demi ma raison ?  /  / Qu'ils m'ont fait boire là je ne sais quel poison,  /  / Eux, ces spectres masqués, pour me rendre la force?  /  / Que ce poison m'a mis au cœur une âme corse?  /  / Que je sens Régina qui se meurt? et qu'enfin  /  / La louve est là dans l'ombre et la tigresse a faim !  /  / Job. /  / Il est temps ! il est temps que mon crime s'expie,  /  / Donato m'implorait ici. Je fus impie.  /  / Otbert, sois sans pitié comme je fus sans cœur !  /  / Je suis le vieux Satan, sois l'archange vainqueur !  /  / Otbert, levant le couteau.  /  / De ma main, malgré moi, Dieu! le meurtre s'échappe!  /  / Job, à genoux devant lui.  /  / Vois quel monstre je suis ! Je le poignardai! Frappe!  /  / Je le tuai ! c'était mon frère !  /  / Otbert, comme fou et hors de lui, lève le couteau. Il va frapper.  /  / Quelqu'un lui arrête le"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 87806,
+   "pron": "nous",
+   "window": "nous,  Candale,  tu  m'as \nl'air  de  l'aimer ,  cette  marquise  ?",
+   "strict_gov_inf": [
+    "de  l'aimer"
+   ],
+   "loose_gov_inf": [],
+   "context": "mpte  aller  pour  la  pre-  / mière fois  aujourd'hui  avec  cet  équipage  au  Champs-  / Elysées  ,  et  que  si  elle  en  voit  un  pareil  à  la  comtesse,  / elle  m'arrachera  les  yeux.  Vous  comprenez  mon  em-  / barras... qu'elle  me  demande  des  choses  que  je  puisse  / lui  donner,  qu'elle  me  demande  huit  chevaux  alezans  / et  deux  coureurs  pistache,  elle  les  aura.  /  / LE    COMMANDEUR.  /  / Et  qu'est-ce  que  c'est  que  cette  marquise?  /  / LE  COMTE.  /  / La  marquise  d'Esparville...  5  /  /  / C6         UN  MARIAGE  SOUS  LOUIS  XV.  /  / LE    COMMANDEUR.  /  / La  marquise  d'Esparville?  /  / LE  COMTE.  /  / Oui ,  une  femme  charmante  !  /  / LE    COMMANDEUR.  /  / Mais ,  dis-moi  donc,  entre  nous,  Candale,  tu  m'as  / l'air  de  l'aimer ,  cette  marquise  ?  /  / LE  COMTE.  /  / Je  l'adore...  Ah!  pardon,  mon  oncle,  mais  vous  / êtes  si  bon  que  j'oublie  toujours...  /  / LE   COMMANDEUR.  /  / Comment!  tu  l'adores?...  et  si  ta  femme  allait  s'a-  / percevoir de  cette  passion?  /  / LE  COMTE.  /  / Elle  la  connaît,  mon  oncle.  /  / LE    COMMANDEUR.  /  / Elle  la  connaît  ?  /  / LE  COMTE.  /  / Sans  doute.  /  / LE  COMMANDEUR.  /  / Et  depuis  quand  ?  /  / LE  COMTE.  /  / Attendez  !  combien  y  a-t-il  que  nous  sommes  mariés?  / il  y  a  trois  jours,  n'est-ce  pas?  Eh  bien  !  mais  elle  la  / connaît  depuis  trois  jours  ;  le  soir  même  de  notre  ma-  / riage nous  nous  sommes  fait  toute"
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "offset": 133512,
+   "pron": "vous",
+   "window": "vous,  comte,  que  j'ai  grande  envie  de  séduire \nvotre  valet  de  chambre?",
+   "strict_gov_inf": [
+    "de  chambre",
+    "de  séduire"
+   ],
+   "loose_gov_inf": [],
+   "context": " / Je  vous  en  remercie...  (Jjirèsun  instant  de  silence.)  / Que  vous  avez  là  une  charmante  garniture  de  boutons,  / monsieur  le  comte  !  /  / LE  COMTE.  /  / Mais  comment  donc  la  voyez- vous?  vous  me  tournez  /  / le  doS.  LA   COMTESSE.  /  / Dans  ce  miroir.  /  / LE  COMTE.  /  / Pardon  ,  mais  je  vous  croyais  occupée  de  quelque  / chose  de  mieux  que  de  m'y  regarder.  /  / LA  COMTESSE.  /  / Ce  n'est  pas  vous  non  plus  que  j'y  regarde  ;  mais  / vous  êtes  si  près  de  moi,  qu'en  m'y  voyant  il  faut  bien  / que  je  vous  y  voie.  /  / LE   COMTE.  /  / Ce  sont  des  diamans  montés  par  Josse.  /  / LA  COMTESSE.  /  / Le  fameux  bijoutier  ;  oui  r  cela  se  voit  au  goût...  / Savez-vous,  comte,  que  j'ai  grande  envie  de  séduire  / votre  valet  de  chambre?  /  / LE  COMTE.  /  / Il  n'est  point  besoin  de  cela;  il  est  possible  d'en  / trouver  de  pareils ,  madame.  /  / LA  COMTESSE.  /  / Non  ,  je  parlais  de  ceux-là  et  non  point  d'autres  ;  / d'ailleurs,  je  veux  réserver  toute  votre  bonne  volonté  / pour  une  chose  que  je  compte  vous  demander.  /  / LE    COMTE.  /  / Laquelle  ?  /  /  / ACTE  IV,  SCÈNE  IL  99  /  / LA  COMTESSE.  /  / Oh  !  vraiment,  je  n'ose  vous  la  dire.  /  / LE  COMTE.  /  / C'est  me  faire  sentir  le  tort  que  j'ai  eu  hier  envers  / vous ,  madame ,  et  me  mettre  en  retard  pour  le  réparer.  /  / LA   COMTESSE.  /  / Eh  bien  !  je  voulais  vous "
+  },
+  {
+   "file": "dumas-antony.txt",
+   "offset": 31276,
+   "pron": "vous",
+   "window": "vous ; toute votre famille pour moi était donc en vous… vous étiez là… Je vous appelais Antony, vous me répondiez ; qu’avais-je besoin de vous chercher d’autres noms ?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de vous chercher"
+   ],
+   "context": "oilà les mille pensées qu’il éveille en moi. Direz-vous aussi qu’il a été créé par le hasard ? /  / ANTONY. /  / Eh bien ! puisqu’un mot, un seul mot éveille en vous tant de pensées différentes… lorsque vous entendiez autrefois prononcer le nom d’Antony… mon nom… au milieu des noms nobles, distingués, connus, ce nom isolé d’Antony n’éveillait-il pas pour celui qui le portait une idée d’isolement ? ne vous êtes-vous pas dit quelquefois que ce ne pouvait être le nom de mon père, celui de ma famille ? N’avez-vous pas désiré savoir quelle était ma famille, quel était mon père ? /  / ADÈLE. /  / Jamais… Je croyais votre père mort pendant votre enfance, et je vous plaignais. Je n’avais connu de votre famille que vous ; toute votre famille pour moi était donc en vous… vous étiez là… Je vous appelais Antony, vous me répondiez ; qu’avais-je besoin de vous chercher d’autres noms ? /  / ANTONY. /  / Et, lorsqu’en jetant les yeux sur la société, vous voyez chaque homme s’appuyer, pour vivre, sur une industrie quelconque, et donner pour avoir le droit de recevoir, vous êtes-vous demandé pourquoi, seul, au milieu de tous, je n’avais ni rang qui me dispensât d’un état, ni état qui me dispensât d’un rang ? /  / ADÈLE. /  / Jamais : vous me paraissiez né pour tous les rangs, appelé à remplir tous les états ; je n’osais rien spécialiser à l’homme qui me paraissait capable de parvenir à tout. /  / ANTONY. /  / Eh bien ! madame, le hasa"
+  },
+  {
+   "file": "dumas-henri-iii.txt",
+   "offset": 86138,
+   "pron": "moi",
+   "window": "Moi, aucune… mais j’avais besoin de son absence\npour vous exposer plus librement le motif qui m’amène… Voulez-vous bien me servir de secrétaire ?",
+   "strict_gov_inf": [
+    "de secrétaire"
+   ],
+   "loose_gov_inf": [
+    "pour vous exposer"
+   ],
+   "context": "endes, madame ? /  / LA DUCHESSE DE GUISE. /  / Arthur, éloignez-vous. /  / ARTHUR. /  / J’obéis. /  / (Il sort.) /  /  Scène V. /  / LE DUC DE GUISE, LA DUCHESSE DE GUISE. /  / LE DUC DE GUISE. /  / Vrai Dieu ! madame, il est bien bizarre que les / ordres donnés par ma bouche aient besoin d’être / ratifiés par la vôtre… /  / LA DUCHESSE DE GUISE. /  / Ce jeune homme m’appartient, et il a cru devoir / attendre de moi-même… /  / LE DUC DE GUISE. /  / Cette obstination n’est pas naturelle, madame ; / on connaît Henri de Lorraine, et l’on sait qu’il a / toujours chargé son poignard de réitérer un ordre / de sa bouche. /  / LA DUCHESSE DE GUISE. /  / Eh ! monsieur, quelle conséquence pouvez-vous / tirer du plus ou moins d’obéissance de cet enfant ? /  / LE DUC DE GUISE. /  / Moi, aucune… mais j’avais besoin de son absence / pour vous exposer plus librement le motif qui m’amène… Voulez-vous bien me servir de secrétaire ? /  / LA DUCHESSE DE GUISE. /  / Moi, monsieur, et pour écrire à qui ? /  / LE DUC DE GUISE. /  / Que vous importe ? c’est moi qui dicterai. (Approchant une plume et du papier.) Voilà ce qu’il / vous faut. /  / LA DUCHESSE DE GUISE. /  / Je crains de ne pouvoir former un seul mot ; ma / main tremble… ne pourriez-vous par une autre / personne ?… /  / LE DUC DE GUISE. /  / Non, madame… il est indispensable que ce soit vous. /  / LA DUCHESSE DE GUISE. /  / Mais, au moins, remettez à plus tard… /  / LE DUC DE GUISE. /  / Cela ne peut se remettre, madame ; d’ailleurs, / il suffira que votre écriture soit lisi"
+  },
+  {
+   "file": "dumas-henri-iii.txt",
+   "offset": 86308,
+   "pron": "moi",
+   "window": "Moi, monsieur, et pour écrire à qui ?",
+   "strict_gov_inf": [
+    "pour écrire"
+   ],
+   "loose_gov_inf": [],
+   "context": "ieu ! madame, il est bien bizarre que les / ordres donnés par ma bouche aient besoin d’être / ratifiés par la vôtre… /  / LA DUCHESSE DE GUISE. /  / Ce jeune homme m’appartient, et il a cru devoir / attendre de moi-même… /  / LE DUC DE GUISE. /  / Cette obstination n’est pas naturelle, madame ; / on connaît Henri de Lorraine, et l’on sait qu’il a / toujours chargé son poignard de réitérer un ordre / de sa bouche. /  / LA DUCHESSE DE GUISE. /  / Eh ! monsieur, quelle conséquence pouvez-vous / tirer du plus ou moins d’obéissance de cet enfant ? /  / LE DUC DE GUISE. /  / Moi, aucune… mais j’avais besoin de son absence / pour vous exposer plus librement le motif qui m’amène… Voulez-vous bien me servir de secrétaire ? /  / LA DUCHESSE DE GUISE. /  / Moi, monsieur, et pour écrire à qui ? /  / LE DUC DE GUISE. /  / Que vous importe ? c’est moi qui dicterai. (Approchant une plume et du papier.) Voilà ce qu’il / vous faut. /  / LA DUCHESSE DE GUISE. /  / Je crains de ne pouvoir former un seul mot ; ma / main tremble… ne pourriez-vous par une autre / personne ?… /  / LE DUC DE GUISE. /  / Non, madame… il est indispensable que ce soit vous. /  / LA DUCHESSE DE GUISE. /  / Mais, au moins, remettez à plus tard… /  / LE DUC DE GUISE. /  / Cela ne peut se remettre, madame ; d’ailleurs, / il suffira que votre écriture soit lisible… écrivez / donc. /  / LA DUCHESSE DE GUISE. /  / Je suis prête… /  / LE DUC DE GUISE, dictant. /  / Plusieurs membres de la Sainte-Union se rassemblent, cette nuit, à l’hôtel de Guise "
+  },
+  {
+   "file": "dumas-henri-iii.txt",
+   "offset": 111451,
+   "pron": "elle",
+   "window": "elle, monsieur, pour en faire si peu de\ncas ?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "pour en faire"
+   ],
+   "context": "tu n’en as pas eu le temps ?… As-tu / donc oublié le duel de Jarnac et de La Châtaigneraie ? il avait été fixé à quinze jours de celui du / défi… Eh bien ! ces quinze jours, Jarnac les a / passés en prières, tandis que La Châtaigneraie courait de plaisirs en plaisirs, sans penser autrement / à Dieu… Aussi Dieu l’a puni, Saint-Mégrin ! /  / SAINT-MÉGRIN. /  / Sire, mon intention est d’accomplir tous mes / devoirs de chrétien : mais, auparavant, il en est / d’autres qui m’appellent… Permettez… /  / HENRI. /  / Comment, d’autres ! /  / SAINT-MÉGRIN, avec impatience. /  / Sire, ma vie est entre les mains de Dieu… et, s’il / a décidé ma mort, sa volonté soit faite ! /  / HENRI. /  / Eh !… que dites-vous là ?… Votre existence vous / appartient-elle, monsieur, pour en faire si peu de / cas ?… Non, par la mort-Dieu ! elle est à nous qui / sommes votre roi et votre ami. Quand il s’agira de / vos affaires, vous vous laisserez tuer, si tel est votre / bon plaisir : mais quand il s’agira des nôtres, monsieur le comte, nous vous prions d’y regarder à / deux fois. /  / SAINT-MÉGRIN. /  / Vrai Dieu, sire, je ferai de mon mieux ; soyez / tranquille. /  / HENRI. /  / Tu feras de ton mieux… ce n’est point assez : / fais-lui jurer qu’il n’a ni plastron, ni talisman, ni / armes cachées ; et, quand il l’aura fait, alors rappelle toute ta force, tout ton courage ; pousse vivement à lui. /  / SAINT-MÉGRIN. /  / Oui, sire. /  / HENRI. /  / Une fois délivré de lui, vois-tu, nous ne sommes / plus de"
+  },
+  {
+   "file": "dumas-kean.txt",
+   "offset": 131108,
+   "pron": "vous",
+   "window": "vous, monsieur Kean, que 20,000 livres sterling de rente suffiront à payer mon costume ?",
+   "strict_gov_inf": [
+    "à payer"
+   ],
+   "loose_gov_inf": [],
+   "context": "ela rit… cela chante… cela ne se souvient de rien ! /  / ANNA. /  / Ah ! maintenant, je partirai donc tranquille, sinon heureuse ! /  / KEAN. /  / Vous partez ? vous quittez Londres ? /  / ANNA. /  / Londres, oh ! ce ne serait point assez ; je quitte l’Angleterre. /  / KEAN. /  / Mais êtes-vous libre de le faire ? et votre tuteur ? /  / ANNA. /  / J’ai atteint ce matin ma majorité, et le premier usage que j’en ai fait a été de signer un engagement avec le correspondant du théâtre de New-York. /  / KEAN. /  / Ainsi, rien n’a pu changer votre résolution ; et le tableau que je vous ai fait de cette carrière… /  / ANNA. /  / Ce tableau était tracé pour la pauvre fille, et non pour la riche héritière. Si cher que coûtent le velours et la soie, pensez-vous, monsieur Kean, que 20,000 livres sterling de rente suffiront à payer mon costume ? KEAN. /  / Et comment, avec tant de fortune et tant de beauté !… /  / ANNA. /  / Ni l’une, ni l’autre n’ont suffi pour me faire aimer, et je veux y ajouter le talent pour compléter ma dot. /  / KEAN. /  / Pauvre enfant ! /  / ANNA. /  / Oh ! n’est-ce pas, qu’au milieu de vos triomphes, de vos plaisirs, de vos amours, n’est-ce pas que vous garderez un souvenir à la pauvre exilée, qui aura tout quitté dans un seul but, et avec un seul espoir ? /  / KEAN. /  / Anna… chère Anna !… /  / ANNA. /  / N’est-ce pas que vous me permettrez de vous écrire, de vous raconter mes chagrins… mes travaux… mes progrès… car, j’en ferai, oh ! je vous le jure… oh ! surt"
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "offset": 1916,
+   "pron": "toi",
+   "window": "toi, à moins qu’en ta qualité d’Italien et de sorcier, tu ne veuilles nous dire quel est le vampire qui a besoin de tant de sang jeune et chaud pour empêcher le sien de vieillir et de se figer ?",
+   "strict_gov_inf": [
+    "de sorcier",
+    "de vieillir",
+    "pour empêcher"
+   ],
+   "loose_gov_inf": [
+    "de se figer"
+   ],
+   "context": "!  /  / RICHARD. /  / Ou, pour parler plus chrétiennement, combien on a relevé de cadavres sur le bord de la Seine, depuis la tour de Nesle jusqu’aux Bons-Hommes.  /  / ORSINI. /  / Trois.  /  / RICHARD. /  / C’est le compte ! et tous trois, sans doute, nobles, jeunes et beaux ?  /  / ORSINI. /  / Tous trois nobles, jeunes et beaux.  /  / RICHARD. /  / C’est l’habitude. Étrangers tous trois à la bonne ville de Paris ?…  /  / ORSINI. /  / Arrivés tous trois depuis la huitaine. RICHARD. /  / C’est la règle ; du moins ce fléau-là a cela de bon qu’il est tout le contraire de la peste et de la royauté : il tombe sur les gentilshommes et épargne les manants. Cela console de la taxe et de la corvée. Merci, tavernier ; c’est tout ce qu’on voulait de toi, à moins qu’en ta qualité d’Italien et de sorcier, tu ne veuilles nous dire quel est le vampire qui a besoin de tant de sang jeune et chaud pour empêcher le sien de vieillir et de se figer ? /  / ORSINI. /  / Je n’en sais rien. /  / SIMON. /  / Et pourquoi c’est toujours au-dessous de la tour de Nesle et jamais au-dessus qu’on retrouve les / noyés ? /  / ORSINI. /  / Je n’en sais rien. /  / PHILIPPE, appelant Orsini. /  / Maître… /  / SIMON. /  / Tu n’en sais rien ? Eh bien ! laisse-nous tranquilles et réponds à ce jeune seigneur qui te fait l’honneur de t’appeler. /  / PHILIPPE. /  / Maître… /  / ORSINI. /  / Messire ? /  / PHILIPPE. /  / Un de tes garçons taverniers peut-il, moyennant ces deux sous parisis, porter ce billet ? /  / ORSINI. /  / Landry… Landry"
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "offset": 91213,
+   "pron": "moi",
+   "window": "moi, car elle me confie à moi\naussi tous ses secrets ; ne crains rien et répète-moi ce que tu sais, je lui dirai que je t’ai forcée de me\nle dire, et elle te pardonnera ; et moi, moi, Charlotte, tu me tireras un poignard du cœur ; n’est-ce pas, elle t’a dit où elle allait ?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de me\nle dire"
+   ],
+   "context": "nseigneur, que je venais voir si la reine n’était pas dans cette salle. /  / GAULTIER. /  / La reine n’est point dans son appartement, elle n’est point ici, elle n’est point au palais… Oh ! mon Dieu ! mais ne sais-tu rien, enfant ? ne sais-tu rien qui puisse nous indiquer où elle pourrait être ? /  / CHARLOTTE. /  / Hier au soir elle m’a demandé sa mante pour sortir, et je ne l’ai pas revue depuis. /  / GAULTIER. /  / Tu ne l’as pas revue !… mais tu sais peut-être où elle allait… dis-le-moi ; que je coure sur ses pas ; que je sache ce qu’elle est devenue, que je la retrouve. /  / CHARLOTTE. /  / Je ne sais point où elle allait, monseigneur. /  / GAULTIER. /  / Écoute, ne crains rien ; si c’est un secret qu’elle t’a confié, dis-le-moi, car elle me confie à moi / aussi tous ses secrets ; ne crains rien et répète-moi ce que tu sais, je lui dirai que je t’ai forcée de me / le dire, et elle te pardonnera ; et moi, moi, Charlotte, tu me tireras un poignard du cœur ; n’est-ce pas, elle t’a dit où elle allait ? /  / CHARLOTTE. /  / Elle ne m’a rien dit, je vous le jure. /  / GAULTIER. /  / Oui, oui ! elle t’a recommandé la discrétion, tu fais bien, mon enfant, de la lui garder… mais moi, moi, tu sais, elle m’aurait dit comme à toi où elle allait ; dis-le-moi ; attends, désires-tu quelque chose que tu n’espérais pas obtenir dans ce monde ? /  / CHARLOTTE. /  / Je ne désire rien, que de savoir ce qu’est devenue la reine. /  / GAULTIER. /  / Demande ce que tu vou"
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "offset": 102455,
+   "pron": "moi",
+   "window": "moi, Marguerite, pour promettre et retirer en même temps votre parole ?",
+   "strict_gov_inf": [
+    "pour promettre"
+   ],
+   "loose_gov_inf": [],
+   "context": " pas avant votre départ, bon voyage, sire Gaultier. /  / GAULTIER. /  / Dieu vous garde. /  / (Ils sortent.) /  / GAULTIER, seul. /  / Partir !… partir, quitter Paris !… Est-ce cela qu’on m’avait promis ?… Mais qui me dira donc sur quel terrain je marche depuis quelques jours ? Tout, alentour de moi, n’est que déception ; chaque objet me parait réel jusqu’à ce que je le touche, puis alors il s’évanouit entre mes mains… Fantômes ! /  /  Scène VI /  / GAULTIER, MARGUERITE. /  / MARGUERITE, entrant du fond. /  / Gaultier ! /  / GAULTIER. /  / Ah ! c’est vous enfin, madame. /  / MARGUERITE. /  / Silence ! /  / GAULTIER. /  / Assez longtemps je me suis tû ; il faut que je vous parle, dût chaque parole me coûter une année d’existence… Vous raillez-vous de moi, Marguerite, pour promettre et retirer en même temps votre parole ?… Suis-je un jouet dont on s’amuse ? suis-je un enfant dont on se rit ?… Hier vous me jurez que rien ne nous séparera, et aujourd’hui… l’on m’envoie, loin de Paris, dans je ne sais quelle comté ! /  / MARGUERITE. /  / Vous avez reçu l’ordre du roi ? /  / GAULTIER, montrant les morceaux qui sont à terre. /  / Et le voilà, tenez. /  / MARGUERITE. /  / Modérez-vous. /  / GAULTIER. /  / Vous avez pu approuver cet ordre ? /  / MARGUERITE. /  / J’ai été forcée. /  / GAULTIER. /  / Forcée ! et par qui ? qui peut forcer la reine ? /  / MARGUERITE. /  / Un démon qui en a le pouvoir. /  / GAULTIER. /  / Mais quel est-il ? dites-le-moi. /  / MARGUERITE. /  / Feins d’obéir, et peut-être d’ici à demain po"
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "offset": 114543,
+   "pron": "elle",
+   "window": "elle, quand elle vous parle d’amour, n’est-ce pas qu’il est doux de passer la main dans ses longs cheveux qu’elle laisse si voluptueusement flotter ; d’en couper une tresse comme celle-ci ?",
+   "strict_gov_inf": [
+    "de passer"
+   ],
+   "loose_gov_inf": [],
+   "context": " /  / Calme-toi, enfant ; et ne tourmente pas ton épée dans le fourreau… C’est une femme belle et passionnée que Marguerite, n’est-ce pas ? Que t’a-t-elle dit quand tu lui as demandé d’où lui venait cette blessure à la joue ? /  / GAULTIER. /  / Mon Dieu ! mon Dieu ! prenez pitié de moi. /  / BURIDAN. /  / Sans doute elle t’a écrit ? /  / GAULTIER. /  / Que t’importe ? /  / BURIDAN. /  / C’est d’un style magique et ardent qu’elle peint la passion, n’est-ce pas ? GAULTIER. /  / Tes yeux damnés n’ont jamais vu, je l’espère, l’écriture sacrée de la reine. /  / BURIDAN, ouvrant la boîte de fer. /  / La reconnais-tu ?… Lis : Ta Marguerite bien-aimée. /  / GAULTIER. /  / C’est un prestige ! c’est un enfer ! /  / BURIDAN. /  / N’est-ce pas, quand on est près d’elle, quand elle vous parle d’amour, n’est-ce pas qu’il est doux de passer la main dans ses longs cheveux qu’elle laisse si voluptueusement flotter ; d’en couper une tresse comme celle-ci ? /  / (Il lui montre une tresse de cheveux enfermée dans la boîte.) /  / GAULTIER. /  / C’est son écriture !… la couleur de ses cheveux !… Dis-moi que tu lui as volé cette lettre ; dis-moi que tu lui as coupé ces cheveux par surprise. /  / BURIDAN. /  / Tu le lui demanderas à elle-même : je t’ai promis de te la faire voir. /  / GAULTIER. /  / À l’instant ! à l’instant ! /  / BURIDAN. /  / Mais peut-être n’est-elle pas encore au rendez-vous. /  / GAULTIER. /  / Un rendez-vous !… Qui a un rendez-vous avec elle ?… Nomme-moi celui-là… Oh ! j’ai soif de "
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "offset": 116546,
+   "pron": "moi",
+   "window": "moi, combien faut-il de temps à ce jeune homme pour aller d’ici à la tour de Nesle ?",
+   "strict_gov_inf": [
+    "pour aller"
+   ],
+   "loose_gov_inf": [],
+   "context": "ef. /  / GAULTIER. /  / Donne. /  / BURIDAN. /  / Un mot encore. /  / GAULTIER. /  / Dis. /  / BURIDAN. /  / C’est elle qui a tué ton frère. /  / GAULTIER. /  / Damnation !… /  / (Il disparaît.) /  /  Scène IV /  / BURIDAN, puis LANDRY. /  / BURIDAN, seul /  / C’est bien, va la rejoindre, et perdez-vous l’un par l’autre ; c’est bien. Si Savoisy est aussi exact qu’eux, il fera d’étranges prisonniers. Maintenant une seule chose me reste à savoir… ce que sont devenus ces deux malheureux enfants. Oh ! si je les avais pour leur faire partager ma fortune et m’appuyer sur eux ! Landry sera bien fin si je ne parviens à apprendre de lui ce qu’ils sont devenus. Le voilà. /  / LANDRY. /  / Vous avez encore quelque chose à me dire, capitaine ? /  / BURIDAN. /  / Oh ! rien. Dis-moi, combien faut-il de temps à ce jeune homme pour aller d’ici à la tour de Nesle ? /  / LANDRY. /  / Vu qu’il ne se trouvera pas de bateau maintenant, il faudra qu’il remonte jusqu’au Pont-aux-Moulins ; c’est une demi-heure à peu près. /  / BURIDAN. /  / C’est bien, mets ce sablier sur cette table ; je voulais causer de notre ancienne connaissance, Landry, de nos guerres d’Italie : ajoute un verre et assieds-toi. /  / LANDRY. /  / Oui, oui, c’étaient de rudes guerres et un bon temps ; les jours se passaient en bataille et les nuits en orgie. Vous rappelez-vous, capitaine, les vins de ce riche prieur de Gênes, dont nous bûmes jusqu’à la dernière goutte ? ce couvent de jeunes filles dont nous enlevâmes jusqu’à la d"
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "offset": 117086,
+   "pron": "vous",
+   "window": "vous, capitaine, les vins de ce riche prieur de Gênes, dont nous bûmes jusqu’à la dernière goutte ?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "à la dernière"
+   ],
+   "context": "i je ne parviens à apprendre de lui ce qu’ils sont devenus. Le voilà. /  / LANDRY. /  / Vous avez encore quelque chose à me dire, capitaine ? /  / BURIDAN. /  / Oh ! rien. Dis-moi, combien faut-il de temps à ce jeune homme pour aller d’ici à la tour de Nesle ? /  / LANDRY. /  / Vu qu’il ne se trouvera pas de bateau maintenant, il faudra qu’il remonte jusqu’au Pont-aux-Moulins ; c’est une demi-heure à peu près. /  / BURIDAN. /  / C’est bien, mets ce sablier sur cette table ; je voulais causer de notre ancienne connaissance, Landry, de nos guerres d’Italie : ajoute un verre et assieds-toi. /  / LANDRY. /  / Oui, oui, c’étaient de rudes guerres et un bon temps ; les jours se passaient en bataille et les nuits en orgie. Vous rappelez-vous, capitaine, les vins de ce riche prieur de Gênes, dont nous bûmes jusqu’à la dernière goutte ? ce couvent de jeunes filles dont nous enlevâmes jusqu’à la dernière nonne ? Toutes ces choses sont de joyeux souvenirs, mais de gros péchés, capitaine. /  / BURIDAN. /  / Au jour de la mort on mettra nos péchés d’un côté de la balance et nos bonnes actions de l’autre : j’espère que tu as fait assez provision de ces dernières pour que le bassin l’emporte ? /  / LANDRY. /  / Oui, oui, j’ai bien quelques œuvres méritantes, et dans lesquelles j’espère… /  / (Ils boivent) /  / BURIDAN. /  / Raconte-les-moi, cela m’édifiera. /  / LANDRY. /  / Dans le procès des Templiers, qui a eu lieu au commencement de cette année, il manquait un té"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 29216,
+   "pron": "lui",
+   "window": "lui, et que pour soulever le peuple, par \nexemple, ce serait l’homme qu'il faudrait ?",
+   "strict_gov_inf": [
+    "pour soulever"
+   ],
+   "loose_gov_inf": [],
+   "context": "d’en disposer ; et tant qu’il en restera une goutte dans mes veines, vous pouvez la réclamer ; je ne suis pas un ingrat.  /  / RANTZAU. /   / Je vous crois, mon jeune ami… je vous crois. (Lui montrant la table à droite) Écrivez votre demande ; je la ferai approuver tout-à-l’heure  / par Falkenskield, que je trouverai au conseil. (À la reine, pendant qu’Éric s’est mis à la table.) Voilà un cœur chaud et généreux, une tête capable de tout !  /  / LA REINE. /   / Vous croyez donc à celui-là ?  /  / RANTZAU. /   / Je crois à tout le monde… jusqu’à vingt ans. Passé cet âge-là, c’est différent.  /  / LA REINE. /   / Et pourquoi ?  /  / RANTZAU. /   / Parce qu’alors ce sont des hommes !  /  / LA REINE. /  / Vous pensez donc qu’on peut compter sur lui, et que pour soulever le peuple, par  / exemple, ce serait l’homme qu'il faudrait ?… /  / RANTZAU. /   / Non. il y a dans cette tête-là autre chose que de l’ambition ; et à votre place… mais, après cela, votre majesté fera ce qu’elle voudra. Notez bien que je ne vous conseille pas, que je ne conseille rien.  /  / (Éric a achevé sa pétition et la présente au comte de Rantzau. En ce moment on entend Raton crier en dehors.)  /  / RATON. /   / C’est inconcevable… c’est inouï ! /  / ÉRIC. /   / Ciel ! la voix de mon père !… /  / RANTZAU. /   / Cela se trouve à merveille.  /  / ÉRIC. /   / Non, monseigneur, non, je vous en conjure, qu’il n’en sache rien.  /  / (Pendant ce temps la reine a traversé le théâtre à gauche, et Rantzau lui avance un"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 40553,
+   "pron": "moi",
+   "window": "moi, à dîner ?",
+   "strict_gov_inf": [
+    "à dîner"
+   ],
+   "loose_gov_inf": [],
+   "context": "ntion.) Et ce que vous ferez, je le ferai.  /  / FALKENSKIELD, à part. /   / Morbleu ! (Haut et cherchant à cacher son dépit.) Vous faites de moi ce que vous voulez, et j’examinerai, je verrai.  /  / RANTZAU, d’un air dégagé. /   / Quand il vous conviendra, aujourd’hui, ce matin ; tenez, avant le conseil, vous pouvez m’en faire expédier le brevet.  /  / FALKENSKIELD. /   / Nous n’avons pas le temps… il est deux heures.  /  / RANTZAU, tirant sa montre. /   / Moins un quart.  /  / FALKENSKIELD. /   / Vous retardez.  /  / RANTZAU, causant avec lui en remontant le théâtre. /   / Non pas, et la preuve c’est que j’ai toujours su arriver à l’heure.  /  / FALKENSKIELD, souriant. /   / Je m’en aperçois. (D’un air aimable.) Nous vous verrons ce soir… chez moi, à dîner ?  /  / RANTZAU. /   / Je n’en sais rien encore, je crains que mes maux d’estomac ne me le permettent pas… mais en tout cas je serai exact au conseil, et vous m’y retrouverez.  /  / FALKENSKIELD. /   / J’y compte. (Il sort par la porte du fond.) /   /  Scène X. /  / ÉRIC, RANTZAU. /  / (Éric s’est montré à gauche pendant que Rantzau et Falkenskield remontaient le théâtre.)  /  / ÉRIC. /   / Eh bien, monsieur le comte ?… je sèche d’impatience.  /  / RANTZAU, froidement. /   / Vous êtes nommé, vous êtes lieutenant.  /  / ÉRIC. /   / Est-il possible !  /  / RANTZAU. /   / À la sortie du conseil j’irai chez votre père choisir quelques étoffes, et je vous porterai moi-même votre brevet.  /  / ÉRIC. /   / Ah !… c’est trop de bontés.  /  / RANTZAU. /   / Un av"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 60912,
+   "pron": "moi",
+   "window": "moi ; oui, ma mère, oui, il m’a frappé, non pas deux fois, car à la première je l’avais étendu à mes pieds ; mais il m’avait frappé, il m’avait fait affront ; et quand je courus à son maître, quand je lui en demandai satisfaction : « Volontiers, me dit-il, qui êtes-vous ?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "à la première",
+    "à son maître"
+   ],
+   "context": "s du soir ; personne ne m’avait aperçu, personne, qu’un jeune fat qui, suivi de deux domestiques, traversait une allée pour se rendre chez lui… c’était le baron Frédéric de Gœlher, neveu du ministre de la marine, qui tous les soirs, à ce qu’il paraît, venait faire sa cour. Oui, ma mère, c’est son prétendu, celui qui doit l’épouser. Je n’en savais rien alors, mais je le devinais déjà à la haine que j’éprouvais pour lui ; et quand il me cria, d’un ton impertinent et hautain, Où allez-vous ainsi ? qui êtes-vous ? l’insolence de ma réponse égala celle de la demande, et alors… ah ! ce souvenir ne s’effacera jamais de ma mémoire, il ordonna à ses gens de me châtier, et l’un d’eux leva la main sur moi ; oui, ma mère, oui, il m’a frappé, non pas deux fois, car à la première je l’avais étendu à mes pieds ; mais il m’avait frappé, il m’avait fait affront ; et quand je courus à son maître, quand je lui en demandai satisfaction : « Volontiers, me dit-il, qui êtes-vous ? » Je lui dis mon nom. « Burkenstaff ! s’écria-t-il avec dédain ; je ne me bats pas avec le fils d’un marchand. Si vous étiez noble ou officier, je ne dis pas !… »  /  / MARTHE, effrayée. /   / Grand Dieu !  /  / ÉRIC. /   / Noble ! je ne puis jamais l’être, c’est impossible ! mais officier.  /  / MARTHE, vivement. /   / Tu ne le seras pas ! tu n’obtiendras pas ce grade, où tu n’as pas de droit ; non, tu n’en as  / pas. Ta place est ici, dans cette m"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 156600,
+   "pron": "vous",
+   "window": "vous ; mais lui, n’est-ce pas, il n’y a pas à trembler \npour ses jours ?",
+   "strict_gov_inf": [
+    "à trembler"
+   ],
+   "loose_gov_inf": [],
+   "context": "ALKENSKIELD. /   / Quelle audace !  /  / CHRISTINE. /   / Cet incident avait rassemblé quelques personnes autour de nous, et j’entendais confusément murmurer ces mots : « Le ministre a raison ; il faut un exemple. » « Soit, disaient les autres, mais le condamner à mort !… » Le condamner !!! à ce mot un froid mortel s’est glissé dans mes veines ; un voile a couvert mes yeux… j’ai senti que la force m’abandonnait.  /  / FALKENSKIELD. /   / Heureusement, j’étais là, près de toi !  /  / CHRISTINE. /   / Oui, c’était une terreur absurde, chimérique, je le sens, mais que voulez-vous ? Renfermée aujourd’hui dans mon appartement, je n’avais  / vu ni interrogé personne. Il est un nom, vous le savez, que je n’ose prononcer devant vous ; mais lui, n’est-ce pas, il n’y a pas à trembler  / pour ses jours ?  /  / FALKENSKIELD. /  / Non… sans doute… rassure-toi.  /  / CHRISTINE. /   / C’est ce que je pensais… c’est impossible ; et puis, arrêté hier, il ne peut pas être condamné aujourd’hui ; et les démarches, les instances de  / ses amis, les vôtres, mon père.  /  / FALKENSKIELD. /   / Certainement ; et comme tu le disais, demain, mon enfant, demain nous parlerons de cela. Je me retire, je te quitte.  /  / CHRISTINE. /   / Vous retournez à ce bal ?  /  / FALKENSKIELD. /   / Non, j’y ai laissé Gœlher, qui nous représente à merveille, et qui dansera probablement toute la nuit. Le jour ne peut pas tarder à  / paraître, je ne me coucherai pas, j’ai à travailler, et je va"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 156612,
+   "pron": "lui",
+   "window": "lui, n’est-ce pas, il n’y a pas à trembler \npour ses jours ?",
+   "strict_gov_inf": [
+    "à trembler"
+   ],
+   "loose_gov_inf": [],
+   "context": " /   / Quelle audace !  /  / CHRISTINE. /   / Cet incident avait rassemblé quelques personnes autour de nous, et j’entendais confusément murmurer ces mots : « Le ministre a raison ; il faut un exemple. » « Soit, disaient les autres, mais le condamner à mort !… » Le condamner !!! à ce mot un froid mortel s’est glissé dans mes veines ; un voile a couvert mes yeux… j’ai senti que la force m’abandonnait.  /  / FALKENSKIELD. /   / Heureusement, j’étais là, près de toi !  /  / CHRISTINE. /   / Oui, c’était une terreur absurde, chimérique, je le sens, mais que voulez-vous ? Renfermée aujourd’hui dans mon appartement, je n’avais  / vu ni interrogé personne. Il est un nom, vous le savez, que je n’ose prononcer devant vous ; mais lui, n’est-ce pas, il n’y a pas à trembler  / pour ses jours ?  /  / FALKENSKIELD. /  / Non… sans doute… rassure-toi.  /  / CHRISTINE. /   / C’est ce que je pensais… c’est impossible ; et puis, arrêté hier, il ne peut pas être condamné aujourd’hui ; et les démarches, les instances de  / ses amis, les vôtres, mon père.  /  / FALKENSKIELD. /   / Certainement ; et comme tu le disais, demain, mon enfant, demain nous parlerons de cela. Je me retire, je te quitte.  /  / CHRISTINE. /   / Vous retournez à ce bal ?  /  / FALKENSKIELD. /   / Non, j’y ai laissé Gœlher, qui nous représente à merveille, et qui dansera probablement toute la nuit. Le jour ne peut pas tarder à  / paraître, je ne me coucherai pas, j’ai à travailler, et je vais passer da"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 84346,
+   "pron": "lui",
+   "window": "lui ; si, au lieu de demander aux salons de Versailles un duc de Villeroi pour commander ses armées… Louis XIV eût interrogé les champs de batailles et choisi Vendôme ou Catinat… savez-vous ce qui serait arrivé à nous et à-nos alliés ?",
+   "strict_gov_inf": [
+    "de demander",
+    "pour commander"
+   ],
+   "loose_gov_inf": [],
+   "context": "ts. Ruiner l’Angleterre pour agrandir l’Autriche… payer des impôts pour que l’empereur soit puissant et le prince Eugène glorieux… continuer une alliance dont ils profitent seuls… Oui, madame si vous ne croyez pas à mes paroles, s’il vous faut des faits positifs, savez-vous que la prise de Bouchain, dont les alliés ont eu tout l’honneur, a coûté sept millions de livres sterling à l’Angleterre ? /  / LA REINE. Permettez, mylord !… /  / BOL., continuant. Savez-vous qu’à Malplaquet nous avons perdu trente mille combattants, et que dans leur glorieuse défaite les vaincus n’en ont perdu que huit mille. Et si Louis XIV eût résisté à l’influence de madame de Maintenon, qui est sa duchesse de Marlborough à lui ; si, au lieu de demander aux salons de Versailles un duc de Villeroi pour commander ses armées… Louis XIV eût interrogé les champs de batailles et choisi Vendôme ou Catinat… savez-vous ce qui serait arrivé à nous et à-nos alliés ?… Seule contre tous, la France en armes tient tête à l’Europe, et bien commandée elle lui commande. Nous l’avons vu et peut-être le verrions-nous encore : ne l’y contraignons pas ! /  / LA REINE. Oui, Bolingbroke, oui, vous qui voulez la paix… vous avez peut-être raison… Mais je ne suis qu’une faible femme, et pour arriver à ce que vous me proposez… il faut un courage que je n’ai pas… Il faut se décider entre vous et des personnes qui, elles aussi, me sont dévouées"
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "offset": 97848,
+   "pron": "vous",
+   "window": "vous, monsieur, qui vous a donné celui de prendre sa défense ?",
+   "strict_gov_inf": [
+    "de prendre"
+   ],
+   "loose_gov_inf": [],
+   "context": "BIG., troublée et les regardant tous deux. Rien… je ne sais pas… je craignais… (Se rappelant ses idées.) Ah !… si, vraiment… je me rappelle… la reine veut vous parler, madame… /  / LA DUCH. C’est bien… je m’y rendrai plus tard… /  / ABIG. À l’instant même, madame, car la reine vous attend !  /  / LA DUCH., avec colère. Eh bien ! dites à votre maîtresse… /  / ABIG., avec dignité. Je n’ai rien à dire à personne… qu’à vous, madame la duchesse, à qui j’ai transmis les ordres de ma maîtresse et de la vôtre. /  / (La duchesse fait un geste de colère, puis elle se reprend, se contient et sort.) /  /  Scène IV. /  / MASHAM, ABIGAIL. /  / MASH. Y pensez-vous, Abigaïl ? lui parler ainsi ? /  / ABIG. Pourquoi pas ?… j’en ai le droit. Et vous, monsieur, qui vous a donné celui de prendre sa défense ? /  / MASH. Tout ce qu’elle a fait pour nous… Vous qui me l’aviez représentée si terrible… /  / ABIG. Si méchante !… je l’ai dit, et je le dis encore. /  / MASH. Eh bien ! vous êtes dans l’erreur… Vous ne savez pas tout ce que je dois à ses bontés… à sa protection. /  / ABIG. Sa protection !… Comment ! qui vous a dit ?… /  / MASH. Personne… c’est moi, au contraire, qui viens de lui avouer mon duel avec Richard Bolingbroke, et dans sa générosité elle a promis de me défendre… de me protéger. /  / ABIG., sèchement. À quoi bon ?… M. de Saint-Jean n’est-il pas là… Je ne vois pas alors qu’il y ait besoin de tant d’autres protections. /  / MASH., étonné. Abigaïl… j"
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "offset": 106976,
+   "pron": "vous",
+   "window": "vous,  qui  étiez  vieux  et  qui \nsaviez  qu'il  faut  de  l'argent  pour  vivre,  et  que \nvous  n'en  aviez  pas  à   me  laisser,  pourquoi \nm'avez-vous  créé  ?",
+   "strict_gov_inf": [
+    "pour  vivre"
+   ],
+   "loose_gov_inf": [
+    "à   me  laisser"
+   ],
+   "context": "ne  de  haut-Lord  ,  vous  dor-  / miez la  nuit ,  vous  ,  et  le  jour  vous  vous  battiez  !  / vous   n'étiez  pas  un   Parût    intelligent  comme  / l'est  devenu  votre  pauvre  enfant.  Voyez-vous  ,  / voyez-vous  ce  papier  blanc  ?  s'il  n'est  pas  rempli  / demain  j'irai  en  prison,  mon  père,   et  je  n'ai  / pas  dans  la  tète  un  mot  pour  noircir  ce  papier,  / parce  que  j'ai  faim.  —  J'ai  vendu,  pour  manger,  / le  diamant  qui  était  là,  sur  cette  boîte  ,  comme  / une  étoile  sur  votre  beau  front.  Et  à  présent  je  / ne  l'ai  plus  ,    et  j'ai  toujours  la  faim.  Et  j'ai  / aussi  votre  orgueil,  mon  père,  qui  fait  que  je  / ne  le  dis  pas. — Mais  vous,  qui  étiez  vieux  et  qui  / saviez  qu'il  faut  de  l'argent  pour  vivre,  et  que  / vous  n'en  aviez  pas  à   me  laisser,  pourquoi  / m'avez-vous  créé  ?  /  / Il  jette  la  boite. —  Il  court  après  ,  se  met.  / à  genoux  et  pleure.  /  / Ah!  pardon ,  pardon ,  mon  père  !  mon  vieux  / père  en  cheveux  blancs  !  — Vous  m'avez  tant  / embrassé  sur  vos  genoux!  —  C'est  ma  faute!  / j'ai  cru  être  poète!  C'est  ma  faute  ;  mais  je  / vous  assure  que  votre  nom  n'ira  pas  en  prison  !  / Je  vous  le  jure ,  mon  vieux  père.  Tenez,  tenez,  / voilà  de  l'opium  !  si  j'ai  par  trop  faim...  je  ne  / mangerai  pas ,  je  boirai.  /  /  / 108  CHATTERTON .  /  / Il  fornl  en"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 91482,
+   "pron": "nous",
+   "window": "nous  ,  qu'avons-nous  à  craindre?",
+   "strict_gov_inf": [
+    "à  craindre"
+   ],
+   "loose_gov_inf": [],
+   "context": "pités  de  mon  cœur  font  place  à  une  / douce  tranquillité.  Insensé  1  mes  yeux  se  remplissent  de  lar-  / mes, comme  si  ma  pauvre  sœur  avait  couru  un  véritable  / danger. — Qu'entcnds-je?  Qui  remue  là  entre  les  branches?  /  / La  sœur  de  Maffio  passe  dans  l'éloignement.  /  / Suis-je  éveillé?  c'est  le  fantôme  de  ma  sœur.  Il  tient  une  / lanterne  sourde,  et  un  collier  brillant  étincelle  sur  sa  poitrine  / aux  rayons  de  la  lune.  Gabrielle  !  Gabrielle!  où  vas-tu?  /  / Rentrent  Giorno  et  le  duc.  /  / GIOMO.  /  / Ce  sera  le  bonhomme  de  frère  pris  de  somnambulisme.  —  / Lorenzo  conduira  votre  belle  au  palais  par  la  petite  porte;  et  / quant  à  nous  ,  qu'avons-nous  à  craindre?  /  / MAFFIO.  /  / Qui  êtes-vous?  Holà  !  arrêtez  !  /  / Il  tire  son  épée.  /  / GIOMO.  /  / Honnête  rustre,  nous  sommes  tes  amis.  /  / MAFFIO.  /  / Où  est  ma  sœur?  que  cherchez- vous  ici?  /  / GIOMO.  /  / Ta  sœur  est  dénichée ,  brave  canaille.  Ouvre  la  grille  de  Ion  / jardin.  /  /  / 60  LOUENZACCIO.  /  / MAFFIO.  /  / Tire  ton  épée  et  défends-toi ,  assassin  que  tu  es  !  /  / GiOMO  saute  sur  lui  et  le  désarme,  / Ilalte-ià!  maître  sot,  pas  si  vite.  /  / MAFFIO.  /  / 0  honte!  ô  excès  de  misère!  S'il  y  a  des  lois  à  Florence,  / si  quelque  justice  vit  encore  sur  la  terre,  par  ce  qu'il  y  a  de  / vrai  et  de  sacré  au  monde,  je  me  jettera"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 275406,
+   "pron": "moi",
+   "window": "moi ,  pour  savoir  quelle  est  ma  puissance?",
+   "strict_gov_inf": [
+    "pour  savoir"
+   ],
+   "loose_gov_inf": [],
+   "context": "oudrai  tirer  mon  épée  du  fourreau ,  j'ai  peur  de  tirer  l'épée  / tlambloyant  de  l'archange  ,  et  de  tomber  en  cendres  sur  ma  / proie.  /  / Il  sort.    •  /  /  / 13G  LORENZACCIO.  /  / SCÈNE  IV.  / Chez  le  marquis  de  Cibo.  /  / Entrent  LE  CARDINAL  et  LA  MARQUISE.  /  / LA    MARQUISE.  /  / Comme  vous  voudrez,  Malaspina.  /  / LE    CARDINAL.  /  / Oui,  comme  je  voudrai.  Peosez-y  à  deux  fois,  marquise,  / avant  de  vous  jouer  à  moi.  Êtes-vous  une  femme  comme  les  / autres,  et  faut-il  qu'on  ait  une  chaîne  d'or  au  cou  et  un  man-  / dat à  la  main  pour  que  vous  compreniez  qui  on  est?  Attendez-  / vous  qu'un  valet  crie  à  tue-tête  en  ouvrant  une  porte  devant  / moi ,  pour  savoir  quelle  est  ma  puissance?  Apprenez-le  :  ce  ne  / sont  pas  les  titres  qui  font  l'homme;  je  ne  suis  ni  envoyé  du  / pape  ni  capitaine  de  Charles-Quint,  je  suis  plus  que  cela.  /  / LA   MARQUISE.  /  / Oui,  je  le  sais  :  César  a  vendu  son  ombre  au  diable;  celte  / ombre  impériale  se  promène,  affublée  d'une  robe  rouge,  sous  / le  nom  de  Cibo.  /  / LE    CARDINAL.  /  / Vous  êtes  la  maîtresse  d'Alexandre,  songez  à  cela;  et  votre  / secret  est  entre  mes  mains.  /  / LA   MARQUISE.  /  / Faites-en  ce  qu'il  vous  plaira;  nous  verrons  l'usage  qu'un  / confesseur  sait  faire  de  sa  conscience.  /  / LE    CARDINAL.  /  / Vous  VOUS  trompez  ;  ce  n'"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 286253,
+   "pron": "moi",
+   "window": "moi ,  que  penses-tu  de  sa  lettre?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de  sa  lettre"
+   ],
+   "context": " / LORENZO.  /  / Ma  mère  est  malade  ?  /  / CATHERINE.  /  / Hélas!  je  ne  puis  te  cacher  la  vérité.  J'ai  reçu  hier  un  billet  / du  duc,  dans  lequel  il  me  disait  que  lu  avais  dû  me  parler  / d'amour  pour  lui  ;  cette  lecture  a  fait  bien  du  mal  à  Marie.  /  / LORENZO.  /  / Cependant  je  ne  t'avais  pas  parlé  de  cela.  N'as-tu  pas  pu  lui  / dire  que  je  n'étais  pour  rien  là  dedans?  /  / CATHERINE.  /  / Je  le  lui  ai  dit.  Pourquoi  ta  chambre  est-elle  aujourd'hui  si  / belle  et  en  si  bon  étal?  je  ne  croyais  pas  que  l'esprit  d'ordre  fût  / ton  majordome.  /  / LORENZO.  /  / Le  duc  t'a  donc  écrit?  Cela  est  singulier  que  je  ne  l'aie  / point  su.  Et,   dis-moi ,  que  penses-tu  de  sa  lettre?  /  / CATHERINE.  /  / Ce  que  j'en  pense?  /  / LORENZO.  /  / Oui ,  de  la  déclaration  d'Alexandre.  Qu'en  pense  ce  petit  / cœur  innocent?  /  / CATHERINE.  /  / Que  veux-tu  que  j'en  pense?  /  / LORENZO.  /  / N'as-tu  pas  été  flattée?  un  amour  qui  fait  ren\\i«'  dr  tant  /  /  / 162  LOKENZACCIO.  /  / de  femmes!  un  titre  si  beau  à  conquérir,  la  maîtresse  de....  / Va-t'en,  Catherine,  va  dire  à  ma  mère  que  je  te  suis.  Sors  / d'ici.  Laisse-moi  !  /  / Catherine  sort.  / Par  le  ciel!  quel  homme  de  cire  suis-je  donc?  Le  vice,  / comme  la  robe  de  Déjanirc  ,  s'est-il  si  profondément  incor-  / poré à  mes  fibres ,  que  je  ne  puisse  plus  répon"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 535478,
+   "pron": "vous",
+   "window": "vous,  et  me  disait \nque  vous  m'aimerez  toute  votre  vie,  aurais-je  raison  de  le \ncroire  ?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de  le \ncroire"
+   ],
+   "context": "ieur  k  / beaucoup  d'autres  hommes.  Je  suis  fâchée  que  vous  ne  vous  / souveniez  plus  de  ce  que  je  vous  demande  ;  peut-être  en  vous  / connaissant  mieux  je  m'enhardirais.  /  / l'ERDICAN.  /  / Où  veux-tu  en  venir?  parle  ;  je  répondrai.  /  / CAMILLE.  /  / Répondez  donc  à  ma  première  question.  Ai-je  raison  de  / rester  au  couvent?  /  / PERDICAN.  /  / Non.  /  / CAMILLE.  /  / Je  ferai  donc  mieux  de  vous  épouser  ?  /  / PERDICAN.  /  / Oui.  /  / CAMILLE.  /  / Si  le  curé  de  votre  paroisse  soufflait  sur  un  verre  d'eau  ,  / et  vous  disait  que  c'est  un  verre  de  vin  ,  le  boiriez-vous  / comme  tel  ?  /  / PERDICAN.  /  / Non.  /  / CAMILLE.  /  / Si  le  curé  de  votre  paroisse  soufflait  sur  vous,  et  me  disait  / que  vous  m'aimerez  toute  votre  vie,  aurais-je  raison  de  le  / croire  ?  /  / PERDICAN.  /  / Oui  et  non.  /  / 26  /  /  / 302  ON   NE  BADINE  PAS  AVEC  L'AMOlIl.  /  / CAMILLE.  /  / Que  me  conseillcriez-vous  de  faire  le  jour  où  je  verrais  que  / vous  ne  m'ainiez  plus?  /  / PERDICAN.  /  / De  prendre  un  amant.  /  / CAMILLE.  /  / Que  ferai-je  ensuite  le  jour  où  mou  amant  ne  m'aimera  plus?  /  / PERDICAN.  /  / Tu  en  prendras  un  autre.  /  / CAMILLE.  /  / Combien  de  temps  cela  durera-t-il  ?  /  / PERDICAN.  /  / Jusqu'à  ce  que  tes  cheveux  soient  gris,  et  alors  les  miens  / seront  blancs.  /  / CAMILLE.  /  / Savez-vous  ce  que  c'est  que  les  cloîtres  ,  Perdican  ?  Vous  / êtes-vo"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 570488,
+   "pron": "vous",
+   "window": "vous,  peut-être;  je  suis  fâchée  de  n'avoir  pu  me  rendre \nau  rendez-vous  que  vous  m'avez  demandé  ;  vous  aviez  quel- \nque chose  à  me  dire?",
+   "strict_gov_inf": [
+    "de  n'avoir"
+   ],
+   "loose_gov_inf": [
+    "à  me  dire"
+   ],
+   "context": "t  donc?  Pour-  / quoi faire  ?  /  / CAMILLE.  /  / Perdican  ne  l'épousera  pas,  mon  enfant.  /  / ROSETTE.  /  / Hélas!  je  n'en  sais  rien.  /  / CAMILLE.  /  / Tu  l'aimes,  pauvre  lille;  il  ne  t'épousera  pas,  et  la  preuve,  / je  vais  te  la  donner;  rentre  derrière  ce  rideau  ,  tu  n'auras  qu'à  / prôlei'  Toreillo  et  à  venir  quand  je  t'appellerai.  /  / Rosette  sort,  / CAMILLE,  seule.  / Moi  qui  croyais  faire  un  acte  de  vengeance,  ferais-je  un  / acte  d'humanité?  La  pauvre  fille  a  le  cœur  pris.  / Entre  Perdican.  / lion  jour,  cousin  ,  asseyez-vous.  /  /  / 820  ON  NE  BADINE  PAS  AVEC  L'AMOUR.  /  / PERDICAN.  /  / Quelle  toilette,  Camille!  A  qui  en  voulez-vous?  /  / CAMILLE.  /  / A  vous,  peut-être;  je  suis  fâchée  de  n'avoir  pu  me  rendre  / au  rendez-vous  que  vous  m'avez  demandé  ;  vous  aviez  quel-  / que chose  à  me  dire?  /  / PERDICAN,  à  part.  /  / Voilà  ,  sur  ma  vie,  un  petit  mensonge  assez  gros,  pour  un  / agneau  sans  tache;  je  l'ai  vue  derrière  un  arbre  écouter  la  / conversation.  /  / Haut.  /  / Je  n'ai  rien  à  vous  dire ,  qu'un  adieu  ,  Camille;  je  croyais  que  / vous  parliez;  cependant  votre  cheval  est  à  l'écurie,  et  vous  / n'avez  pas  l'air  d'être  en  robe  de  voyage.  /  / CAMILLE.  /  / J'aime  la  discussion  ;  je  ne  suis  pas  bien  sûre  de  ne  pas  avoir  / eu  envie  de  me  quereller  encore  avec  vous.  /  / PERDICAN.  / "
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 609029,
+   "pron": "vous",
+   "window": "vous,  par  hasard,  bien  aise  de  l'entendre  chanter  ?",
+   "strict_gov_inf": [
+    "de  l'entendre"
+   ],
+   "loose_gov_inf": [],
+   "context": "AIRE.  /  / Ah!  ah!  c'est  juste  !  /  / 29*  /  /  / 312  •  LA  MIT  VÉiNITIKNM::.  /  / LE    MAIIQUIS.  /  / Ce  serait,  lui  répondis-je,  ce  qu'on  pourrait  appeler  un  / bonheur  malheureux.  Eh  !  eh  !  /  / //  rit.  /  / LE    SECRÉTAIRE.  /  / Absolument.  /  / LE    MARQUIS.  /  / Ce  sont  deu\\  mois  qui ,  je  crois,  ne  se  trouvent  pas  souvent  / rapprochés...  Eh!  eh!  —  Mais  permettez-moi ,  de  grâce,  une  / seule  question  :  Son  Excellence  aime-t-elle  la  musique?  /  / LE   SECRÉTAIRE.  /  / Beaucoup.  C'est  son  seul  délassement.  /  / LE    MARQUIS.  /  / Combien  je  me  trouve  heureux  d'avoir  ,  depuis  l'âge  de  onze  / ans,  fait  apprendre  à  ma  nièce  la  harpo-lyre  et  le  forte-piano  !  / Seriez-vous,  par  hasard,  bien  aise  de  l'entendre  chanter  ?  /  / LE   SECRÉTAIRE.  /  / Certainement.  /  / LE  MARQUIS  ,  à  un  vaïet.  / Veuillez  avertir  la  princesse  que  je  désire  lui  parler.  /  / A  Laurette  ,  qui  entre.  /  / Laure,  je  vous  prie  de  nous  faire  eu  tend  le  votre  voix.  Mon-  / sieur le  secrétaire  intime  veut  bien  \\ous  engager  à  nous  / donner  ce  plaisir.  /  / LAURETTE.  /  / Volontiers,  mon  cher  oncle;  quel  air  préférez  vous?  /  / LE  MARQUIS.  /  / Di  piacer,  di  placer,  di  placer.  Ma  nièce  ne  s'est  jamais  fait  / prier.  /  / LAURETTE.  /  / Aidez-moi  à  ouvrir  le  piano.  / RAZETTA,  toujours  masqué ,  s'avance  et  ouvre  le  piano.  À  voix  / basse.  / Eisez  ceci  q"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 680226,
+   "pron": "moi",
+   "window": "moi ,  rien  n'est  capable  de  vous  faire  hésiter?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de  vous  faire"
+   ],
+   "context": "uand  vos  yeux  Meus  s'abais-  / sent sur  moi  avec  ce  rayon  de  lumière  où  respire  la  joie  des  / anges;  non  !  Barberine,  Dieu  ne  le  défend  pas.  Hélas!  point  / de  reproches  ,  je  ne  puis  m'éloigner.  /  / BARBERI^E.  /  / Que  vous  me  trouviez  belle ,  et  que  vous  me  le  disiez,  cela  ne  / me  fâche  pas  beaucoup.  Mais  à  quoi  bon  en  dire  davantage?  / Le  comte  Ulric  est  votre  ami.  /  / ROSEMBEUG.  /  / Qu'en  sais-je  ,  ô  ma  comtesse  chérie  !  de  quoi  puis-je  me  / souvenir  près  de  vous?  /  / BARBERINE,  /  / Quoi!  si  je  consentais  à  vous  écouler,  ni  l'amilié,  ni  la  / crainte  de  Dieu,  ni  la  confiance  d'un  gentilhomme  qui  vous  / envoie  auprès  de  moi ,  rien  n'est  capable  de  vous  faire  hésiter?  /  / ROSEMBERG.  /  / Non,  sur  mon  âme,  rien  au  monde.  Vous  êtes  si  belle,  / Barberine!  Vos  yeux  sont  si  doux!  Votre  sourire  est  le  bon-  / heur lui-même!  /  / BARBERINE,  /  / Je  vous  l'ai  dit,  tout  cela  ne  me  fâche  pas.  Mais  pourquoi  / prendre  ainsi  ma  main?  Songez-vous  à  ce  que  vous  faites?  / Ce  qui  appartient  à  un  ami  n'est-il  pas  sacré  et  scellé?  0  Dieu  !  / il  me  semble  que  si  j'étais  homme,  je  mourrais  plutôt  que  / de  parler  d'amour  à  la  femme  de  mon  ami.  /  / ROSEMBERG.  /  / Et  moi,  je  mourrais  plutôt  que  de  cesser  de  vous  parler  / d'amour.  /  / BARBERINE.  /  / Vraiment!  sur  votre  "
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 815884,
+   "pron": "vous",
+   "window": "vous,  en  rentrant,  ma  chandelle \nchez  mon  portier  :  c'est  pour  ne  pas  monter  sans  lumièr»;  à \nquoi  bon  se  casser  le  cou?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "pour  ne  pas  monter"
+   ],
+   "context": "vous  en  / avez  porté  bien  d'autres.  Ma  barbe  en  pointe  ne  veut  pas  dire  / que  je  sois  un  saint-simonien  :  je  respecte  trop  l'héritage.  / Vous  vous  plaignez  de  mes  gilets  ;  voulez-vous  qu'on  sorte  en  / chemise?  Vous  me  dites  que  je  suis  pauvre  et  que  mes  amis  / ne  le  sont  pas  ;  tant  mieux  pour  eux  ,  ce  n'est  pas  ma  faute.  / Vous  imaginez  qu'ils  me  gâtent  et  que  leur  exemple  me  rend  / dédaigneux  :  je  ne  le  suis  que  de  ce  qui  m'ennuie  ,  et  puisque  / vous  payez  mes  dettes,  vous  voyez  bien  que  je  n'emprunte  / pas.  Vous  me  reprochez  d'aller  en  fiacre  ;  c'est  que  je  n'ai  pas  / de  voiture.  Je  prends,  dites-vous,  en  rentrant,  ma  chandelle  / chez  mon  portier  :  c'est  pour  ne  pas  monter  sans  lumièr»;  à  / quoi  bon  se  casser  le  cou?  Vous  voudriez  me  voir  un  état  :  / faites-moi  nommer  premier  ministre ,  et  vous  verrez  comme  / je  ferai  mon  chemin.  Mais  quand  je  serai  surnuméraire  dans  / l'entre-sol  d'un  avoué ,  je  vous  demande  ce  que  j'y  apprendrai ,  / sinon  que  tout  est  vanité.  Vous  dites  que  je  joue  à  la  bouil-  / lotte :  c'est  que  j'y  gagne  quand  j'ai  brelan  ;  mais  soyez  sûr  / que  je  n'y  perds  pas  plutôt  que  je  me  repens  de  ma  sottise.  / Ce  serait,  dites-vous,  autre  chose,  si  je  descendais  d'un  beau  / cheval  pour "
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 898452,
+   "pron": "moi",
+   "window": "moi ,  qu'est-ce  que  cela  veut  dire \nde  s'aller  jeter  dans  un  fossé?",
+   "strict_gov_inf": [
+    "de  s'aller"
+   ],
+   "loose_gov_inf": [],
+   "context": "riette  / avait  fait.  Quand  je  vous  ai  rencontré  ,  je  vous  l'ai  dit  ;  j'ai  cru  / que  vous  ne  vouliez  pas  le  prendre,  et  que  cela  vous  déplai-  / sait. J'ai  repassé  trois  fois  dans  l'allée;  m'avez-vous  vueV  / Alors  vous  êtes  monté;  je  suis  allée  me  mettre  devant  le  par-  / terre, et  je  vous  ai  vu  par  votre  croisée;  vous  teniez  la  tasse  / à  deux  mains,  et  vous  avez  bu  tout  d'un  trait.  Est-ce  vrai?  / l'avez-vous  trouvé  bon  ?  /  / VALENTIN.  /  / Oui,  chère  enfant,  le  meilleur  du  monde,  bon  comme  ton  / coeur  et  comme  toi.  /  / CÉCILE.  /  / Ah  !  quand  nous  serons  mari  et  femme ,  je  vous  soignerai  / mieux  que  cela.  Mais  ,  dites-moi ,  qu'est-ce  que  cela  veut  dire  / de  s'aller  jeter  dans  un  fossé?  risquer  de  se  tuer  ,  et  pourquoi  / faire?  Vous  saviez  bien  être  reçu  chez  nous.  Que  vous  ayez  / voulu  arriver  tout  seul,  je  le  comprends  ;  mais  à  quoi  bon  le  / reste?  Est-ce  que  vous  aimez  les  romans?  /  / VALENTIN.  /  / Quelquefois;  allons  donc  nous  rasseoir.  /  / Ils  se  rasseoient.  /  / CÉCILE.  /  / Je  VOUS  avoue  qu'ils  ne  me  plaisent  guère;  ceux  que  j'ai  / lus  ne  signifient  rien.  U  me  semble  que  ce  ne  sont  que  des  / mensonges  ,  et  que  tout  s'y  invente  à  plaisir.  On  n'y  parle  que  / de  séductions,  de  ruses  ,  d'intrigues,  de  mille  choses  impos-  / sibles,"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 904509,
+   "pron": "moi",
+   "window": "moi  :  s'il  y  a  ja- \nmais eu  un  moment  où  tout  fut  créé,  en  vertu  de  quelle \nforce  ont-ils  commencé  à  se  mouvoir  ,  ces  mondes  qui  ne  s'ar- \nrêteront jamais?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "à  se  mouvoir"
+   ],
+   "context": "  ma  mère  / les  regardait!  Allez,  elle  a  le  droit  d'èlro  (îère  ,  et  je  l'ai  été  / d'elle  quelquefois  !  /  / VALtMlN.  /  / Tu  regardes  toujours  la  larme  céleste  ;  et  moi  aussi ,  mais  / dans  tes  yeux  bleus.  /  / CLCILE.  /  / Que  le  ciel  osl  grand!  que  ce  monde  est  heureux!  que  la  / nature  est  calme  et  bienfaisante  !  /  / VALENTIIN.  /  / Veux-tu  aussi  que  je  te  fasse  de  la  science  et  que  je  te  parle  / astronomie?  Dis-moi,  dans  celte  poussière  de  mondes,  y  en  / a-l-il  un  qui  ne  sache  sa  roule,  qui  n'ait  reçu  sa  mission  avec  / la  vie,  et  qui  ne  doive  mourir  en  l'accomplissant?  Pourquoi  / ce  ciel  immense  n'est-il  pas  immobile?  Dis-moi  :  s'il  y  a  ja-  / mais eu  un  moment  où  tout  fut  créé,  en  vertu  de  quelle  / force  ont-ils  commencé  à  se  mouvoir  ,  ces  mondes  qui  ne  s'ar-  / rêteront jamais?  /  / CÉCILE.  /  / Par  l'éternelle  pensée.  /  / VALENTIN.  /  / Par  l'éternel  amour.  La  main  qui  les  suspend  dans  l'espace  / n'a  écrit  qu'un  mot  en  lettres  de  feu.  Ils  vivent  parce  qu'ils  / se  cherchent,  et  les  soleils  tomberaient  en  poussière  si  l'un  / d'entre  eux  cessait  d'aimer.  /  / CÉcILL.  /  / Ah!  tçute  la  vie  est  là  !  /  / VALEMIN.  /  / Oui,  toute  la  vie,  —  depuis  l'Océan  qui  se  soulève  sous  les  / pâles  baisers  de  Diane  jusqu'au  scarabée  qui  s'endort  jaloux  / dans  sa  Heur  ché"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 969693,
+   "pron": "moi",
+   "window": "moi,  pour  mériter  tout  cela?",
+   "strict_gov_inf": [
+    "pour  mériter"
+   ],
+   "loose_gov_inf": [],
+   "context": " / me  faire  un  petit  sacrifice,  et  c'est  très-galant  de  votre  part;  / mais  je  ne  veux  pas  vous  tromper  :  la  bourse  rouge  n'est  pas  / de  ma  façon.  /  / CHAVIGNY.  /  / Est-il  possible?  Qui  est-ce  donc  qui  l'a  faite?  /  / MADAME    DE   LERY.  /  / C'est  une  main  plus  belle  que  la  mienne.  Faites-moi  la  / grâce  de  rétléchir  une  minute  et  de  m'expliquer  celte  énigme  / à  mon  tour.  Vous  m'avez  fait,  en  bon  français,  une  déclara-  / lion  très-aimable;  vous  vous  êtes  mis  à  deux  genoux  par  terre,  / et  remarquez  qu'il  n'y  a  pas  de  tapis;  je  vous  ai  demandé  / votre  bourse  bleue,  et  vous  me  l'avez  laissé  brûler.  Qui  suis-je  / donc,  dites-moi,  pour  mériter  tout  cela?  Que  me  trouvez-  / vous  de  si  extraordinaire?  Je  ne  suis  pas  mal,  c'est  vrai;  je  /  /  / SCKNL  Mil.  539  /  / suis  jriino;  il  rsl  ccrlain  (juc  j'ai  le  pit'd  polit.  Mais  onliii  ce  / n'est  pas  si  rare.  Quand  nous  nous  serons  prouvé  l'nn  à  l'aulio  / que  je  suis  une  ((xpictle  et  vous  un  libertin  ,  uniqiKinenl  / parce  qu'il  est  minuit  et  que  nous  sonnnes  en  lète-à-têle ,  / voila  un  beau  fait  d'armes  que  nous  aurons  à  écrire  dans  nos  / mémoires!  C'est  pourtant  là  tout,  n'est-ce  pas?  Ktceque  vous  / m'accorde/  en  riant,  ce  qui  ne  vous  coûte  pas  même  un  re-  / gret, ce  sacrifice  insignifiant  que  "
+  }
+ ],
+ "note": "hugo-hernani.txt (Hetzel 1889) excluded: duplicate Hernani edition; ONE edition per play per queue gate"
+}
