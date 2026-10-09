@@ -4004,6 +4004,11 @@ ran 2026-10-08 ~23:16 UTC (this sweep): printed **UNCHANGED** — the
 periodic table grid is current. Registry is coordinator-owned;
 batteries keep feeding it via the adjudication queue.
 
+**Sweep 2026-10-09 ~11:20 UTC** — `code/table-grid/table-registry.json`
+unchanged since the watermark (mtime 03:03:21 UTC); the grid HTML/PNG
+are the coordinator's 03:03 UTC regeneration. `generate.py` ran this
+sweep: printed **UNCHANGED** — the periodic table grid is current.
+
 ### Round-18 red-team adjudication addenda (2026-10-08 UTC — 29 batteries
 adjudicated; red-team ruling AUTHORITATIVE)
 
@@ -4940,6 +4945,76 @@ demonstrative head); inverted-order zero in prose (146 candidates in
 27.66M chars, 0 genuine — both word orders, all three registers); the
 dialogue-scoped pausemark zero (128 candidates in 2,539,841 scoped
 chars, 0 genuine — arm (a) now fenced at seven levels).
+
+---
+
+### Round-17 late-inbox arrivals (2026-10-09 UTC — 80 battery notes +
+1 wave-3 finder; battery grade)
+
+**The neque finder loop closed end to end.** Wave-3 finder
+`next-token-findings-neque-instance-sweep` (spawned from the
+neque-bracket-verb-search NULL) classified all six 94…46 windows: the
+@1687 empty-slot anomaly is NOT a singleton — @1363 is its structural
+twin (byte-identical `94 79 14 60` occurs exactly 2× stream-wide, both
+times directly after `13 {92|93} 62`; the `79 14 60` string occurs
+exactly 2× as well). The follow-up battery `neque-79-twin-frame`
+returned NULL: the distributional twin is real, but the frame is not
+grammatically licensed at either locus (the "ne"-bracket's verb slot
+is empty at both; the long @1363 interior's licensed verbs head other
+clauses). This CONFIRMS the npframe-60-detleft-closeout fence of the
+instance-B "ne…que" frame as a residual — it does not overturn it.
+14 and 60 stay open. **Kill in the same family**:
+`neque-82-frame-family` — the "94 82" 4× is NOT one licensed "ne m…"
+frame (@1742's banked "que" breaks elision). **Boundary promote**:
+`x-61-94-boundary` — 61 | 94 is a forced two-word boundary; 94
+("ne", battery-promoted) stands independent, not bound to 61.
+
+**The word-initial arm's licensed inventory is complete**
+(`29-initial-word-census`, PROMOTE): census of all 45 29-occurrences
+on the repaired stream — 9 word-initial windows, 6 shapes, **0 named
+French words**. W3 has a twin: W-C @147 ("on er ce qui") — a second
+bare-"er" word-initial window, unparseable at battery level for the
+same cause as W3. The only live naming prospects are gated on one
+open group each: [29 42] ×2 (@78/@218), [29 85] @96, [29 60] @689.
+The "…èrent" 3pl past-historic shape ([29 40 65] @291/@685, the
+W1/W2 trigram) is a licensed shape with an unnameable word.
+
+**Kill: 21's battery-grade value search is dead**
+(`croire-33-noun21`): @134 kills all noun values, @109/@359 kill all
+masculine values. This resolves the reopen condition on the
+`dire-33-asymmetry-no21` fence (it was "21-load-bearing") — that
+fence is now a revisit candidate for the supervisor.
+
+More verdicts of note. `tense-24-311-formclass` PROMOTE: 24 is
+finite-verb at @311 and @474 (twin windows); the 24="en" residual arm
+is dead. `det-80-1156-1011` PROMOTE (reading-level): 80's
+determiner/quantifier reading is licensed ("[80-quant] fois" @1156,
+"tout autre [78]" @1011) — input to the poly-80 docket.
+`laframe-1719-demonstrative` PROMOTE: the rival parse "ce [68ent] la"
+is a clean demonstrative+noun frame — 06="ent" confirmed
+noun-finally. `seg-528294-word` PROMOTE (word-unit only): "52 82 94"
+= "amnestie"/"amnestier" with one new assumption (52="a").
+`seg-62-48-word` KILL: the one-word "62e" reading is false — 62="il"
+is a free word at all 35 windows; the six "62 48" instances are two
+words. `x-33-37-licensing` PROMOTE (parse-level): 37 does not license
+bare infinitive — "[33]er ce [78-N]" is self-licensed.
+`premier-61-flank-census` NULL: "premier" is NOT 61's conditioned
+value — exactly one proven admission (@1556, the val-61-premier
+locus) and one flank-supported candidate (@645). The locus promote is
+sharpened: @1556 is unique on the full 61 population; no global 61
+value is claimed (val-61-contact's kill stands).
+
+Bar quality: workers now formally reject untestable-as-written bars
+(`inf-80-89-ratify` is the second such rejection — the asserted
+precondition "MET" was disproved by the records themselves), and one
+worker corrected a parent brief's Littré premise
+(`xeent-register-tiebreak`: maugréer is v.n., not marked "fam.").
+
+The 48 nulls of this batch are nulled as N267–N314 in section 5
+below. The supervisor has queued their follow-ups (queue meta
+followups_queued_p16–p22, 2026-10-09): the three finder-proposed
+targets neque-79-twin-frame, neque-82-frame-family, neque-14-frame-value
+are now all verdict-bearing.
 
 ---
 
@@ -7344,6 +7419,132 @@ edge; the note carries a data-quality flag for supervisor audit).
   new all excluded with cause). Non-comma separators fenced at dialogue
   level too. Raw
   `disloc-demonstrative-drama-pausemark-dialogue_census.json`.
+
+### Round-17 null batch, wave-15 arrivals (crowd17, 2026-10-09 UTC —
+48 notes: 48 nulls; battery grade)
+
+- **N267** — adj-68-postnominal NULL: three post-nominal windows
+  unresolved (@1719/@884/@1442) — the noun/adjective split forces the
+  fence.
+- **N268** — antec-08-91-39 NULL: the antecedent question unfired at
+  battery grade; no standing verdict touched.
+- **N269** — bound-70-abbrev-premiere NULL: the 70-as-abbreviation
+  route fenced (abbreviation arm only; distinct from the value
+  question).
+- **N270** — complement-14-60-27-head NULL: the bar's else-arm fired
+  as designed — the hapax fence is the finding.
+- **N271** — conj-prep-20-wide NULL: the conj/prep route for 20
+  fenced — no clean route survives.
+- **N272** — croire-33-compound85 NULL: trigger condition fails as
+  gated — the dire-only compound geometry is unfalsified but
+  unnameable.
+- **N273** — det-91-11-frame NULL: neither "91 11" window gives "la"
+  a battery-grade NP frame (W1 lacks tail bytes; W2 crashes on the
+  91/81 agreement).
+- **N274** — dire-33-asymmetry-no21 NULL: the resolve arm unfired;
+  fenced as 21-load-bearing. The N281 kill (croire-33-noun21) resolves
+  the reopen condition — this fence is now a revisit candidate.
+- **N275** — disloc-demonstrative-epistolary-pausemark NULL: zero
+  genuine dislocated-demonstrative + non-comma pausemark in the
+  epistolary corpus; the arm-(a) fence holds there too.
+- **N276** — disloc-demonstrative-prose-pausemark-recall NULL: the
+  recall sweep confirms zero genuine dislocated-demonstrative +
+  non-comma pausemark in prose.
+- **N277** — fin-88-645 NULL: finite-88 at @646 is neither forced
+  nor forced false — "ce [61] [88] le [78]" stays a 61/88 residual.
+- **N278** — follower-65-adjclass-census NULL: the follower route is
+  fenced — adjective-position followers (23×3, 88, 16, 68) cannot
+  supply the gender-agreement window.
+- **N279** — frame-76-94-trigram NULL: the 76-94 trigram frame
+  unfired — fence as designed.
+- **N280** — frame-parallel-08-31 NULL: no polyvalence declared —
+  67="et" follows the positional rule at @630/@1519.
+- **N281** — frameA-50-value NULL: the "ent…" new-word reading is
+  unfalsified but unnameable — 50's value underdetermined.
+- **N282** — imp-80-bare-1156-1596 NULL: both imperative-80
+  candidates fenced, neither killed — the bytes do not ground the
+  boundary.
+- **N283** — inf-7780-reseg NULL: re-segmentation undecidable
+  pending red-team adjudication of the 80/89 infinitive class;
+  3 follow-ups.
+- **N284** — inf-80-89-ratify NULL: the bar is untestable as written
+  — the records prove the precondition "MET" is NOT met at ratified
+  grade. The worker formally rejected the bar (second such rejection
+  lane-wide); a record-adjudicated inter-report conflict was resolved
+  at the records layer without invention.
+- **N285** — inv-98-76-12 NULL: no window forces a falsehood about
+  98-76; fence executed.
+- **N286** — left-64-29-boundary NULL: no uniform reading
+  demonstrable — an epistemic fence, with the 64="qui" grant
+  respected.
+- **N287** — left-88-02-88-307 NULL: a conditional claim at a hapax
+  locus — kill would require excluding every construction.
+- **N288** — mne-52-16-branch NULL: the defect isolates to 94 — C1
+  passes, C2 fails; the kill leg cannot fire at grade.
+- **N289** — ne-08-verb-slot NULL: 08's class stays open — stem-08's
+  word-internal PROMOTE is a live rival explanation, not adjudicated
+  here.
+- **N290** — neque-79-twin-frame NULL: the distributional twin is
+  real (byte-identical "94 79 14 60" @1363/@1687) but not
+  grammatically licensed at either locus — CONFIRMS the
+  npframe-60-detleft-closeout fence as a residual.
+- **N291** — neque-bracket-verb-search NULL (permanent residual):
+  the instance-B "ne…que" verb slot is a structural zero — this NULL
+  spawned the now-complete neque-instance-sweep finder beat.
+- **N292** — nom-71-1336-value NULL: 71's value unfirable; fence
+  executed with stated cause.
+- **N293** — nondet-20-sandwich NULL: all three non-det/adj arms for
+  20 fenced with stated cause.
+- **N294** — noun-43-1205-window NULL: noun-43's candidate set is
+  empty at battery grade (all four killed) — the question is fenced as
+  dependent on the noun-43 line.
+- **N295** — npframe-60-322 NULL: no verbal-60 class parses
+  "92 60 15" at @322.
+- **N296** — npframe-60-detleft-closeout NULL: hapax, class unnamed
+  — the detleft route for 60 closed.
+- **N297** — par43-ce-scope NULL (docket-input grade):
+  discriminating frames delivered to the red-team 43 docket; no
+  verdict claim named.
+- **N298** — parse-1626-clause NULL: @1626 clause structure blocks
+  any semantic verdict — 3 follow-ups (56's form, 69's class,
+  the 69-26-00-33 kernel).
+- **N299** — premier-61-flank-census NULL: "premier" is NOT 61's
+  conditioned value — exactly 1 proven admission (@1556) + 1
+  flank-supported candidate (@645).
+- **N300** — procreer-56-semantic NULL: procréer not excluded (@1745
+  gradient fit via Littré absolute use) but the 8-way tie for 56
+  stands.
+- **N301** — qui-02-609-parse NULL: the verb requirement on 02 at
+  @609 is unmet — the conditional does not fire.
+- **N302** — qui-41-01-boundary NULL: the rival phase is unvalidated;
+  no window forces the boundary false.
+- **N303** — reseg-367-4961-bound NULL: the boundary unfired;
+  3 follow-ups (name 49 via "49 74"×5, 70-as-abbreviation, the gated
+  61pre letter-tier).
+- **N304** — seg-08-ier-61 NULL: no window forces a falsehood about
+  08's class.
+- **N305** — stem-85-then-1700 NULL: a self-gating bar, gate closed —
+  stem-85 has not named 85's value.
+- **N306** — tail-89-16 NULL: the trigger is unresolved; fence
+  executed.
+- **N307** — tense-24-307 NULL: the bar's gating clause fails — 24 is
+  unresolved at standing (a section-5 escalation candidate).
+- **N308** — val-38-verb NULL: 38's verb narrowed to
+  {"vouloir","devoir"} — "vouloir" is the parsimony lead.
+- **N309** — val-42-estframes NULL: 42's value underdetermined — the
+  kill arm's condition ("no value parses") is false.
+- **N310** — val-65-1204-rightedge NULL: the naming bar is
+  unsatisfiable — the @1204 right edge admits an open class of French
+  nouns.
+- **N311** — val-97-verb-test NULL: INF/NOM tie; FIN-97 killed; the
+  class-naming condition unmet.
+- **N312** — valency-56-wide NULL: valency cannot discriminate the
+  Xeent candidates at any window — the 8-way tie stands.
+- **N313** — verb56-register-closeout NULL: the register venue is
+  closed — yield is one kill (réer) plus the fenced 8-way tie.
+- **N314** — xeent-register-tiebreak NULL: 56's identity
+  underdetermined on the register axis; réer dead; maugréer is v.n.,
+  not marked "fam." (parent brief's premise corrected).
 
 ---
 

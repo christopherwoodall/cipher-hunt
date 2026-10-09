@@ -60,7 +60,7 @@ confidence × testability, write to
 
 | beat | why now | status |
 |---|---|---|
-| neque-instance-sweep | neque-bracket-verb-search NULL (2026-10-09): classify all six 94…46 windows stream-wide — is the @1687 empty-slot anomaly a singleton or part of a wider 94→79 adjacency pattern? | queued |
+| neque-instance-sweep | neque-bracket-verb-search NULL (2026-10-09): classify all six 94…46 windows stream-wide — is the @1687 empty-slot anomaly a singleton or part of a wider 94→79 adjacency pattern? | complete — next-token-findings-neque-instance-sweep.md (2026-10-09): @1687 is NOT a singleton, @1363 is its structural twin |
 
 ## Beat method (all waves)
 

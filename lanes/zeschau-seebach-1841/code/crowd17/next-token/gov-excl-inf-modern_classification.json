@@ -1,0 +1,1553 @@
+{
+ "legend": {
+  "A": "never-infinitive word",
+  "B": "finite-matrix embedding",
+  "C": "exclaimed-NP embedding",
+  "D": "terminator belongs to following quotation/interjection",
+  "E": "interrogative matrix",
+  "F": "pattern false friend (bare infinitive / prep not governing)",
+  "NEARMISS": "fenced near-miss",
+  "GENUINE": "genuine attestation"
+ },
+ "tight_classification": [
+  {
+   "index": 0,
+   "file": "pg13525.txt",
+   "prep": "de",
+   "inf": "terre",
+   "dist": 0,
+   "cause": "C",
+   "note": "exclaimed NP \"de la terre\" (terre noun)"
+  },
+  {
+   "index": 1,
+   "file": "pg13525.txt",
+   "prep": "de",
+   "inf": "revoir",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"C'est plaisant\""
+  },
+  {
+   "index": 2,
+   "file": "pg13525.txt",
+   "prep": "de",
+   "inf": "terre",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"On va mourir\"; terre noun"
+  },
+  {
+   "index": 3,
+   "file": "pg13525.txt",
+   "prep": "à",
+   "inf": "contempler",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"Qu'elle etait donc plaisante\""
+  },
+  {
+   "index": 4,
+   "file": "pg13525.txt",
+   "prep": "de",
+   "inf": "terre",
+   "dist": 0,
+   "cause": "C",
+   "note": "exclaimed NP \"de la bonne terre\""
+  },
+  {
+   "index": 5,
+   "file": "pg13525.txt",
+   "prep": "de",
+   "inf": "oublier",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"ils auraient vite fait\""
+  },
+  {
+   "index": 6,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "fenêtre",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"je vais\"; fenetre noun"
+  },
+  {
+   "index": 7,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "naître",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"qui vient\""
+  },
+  {
+   "index": 8,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "c't'heure",
+   "dist": 0,
+   "cause": "A",
+   "note": "\"c't'heure\" not infinitive-shaped verb; matrix \"C'est malheureux\""
+  },
+  {
+   "index": 9,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "chambre",
+   "dist": 0,
+   "cause": "F",
+   "note": "bare infinitive \"connaitre\"; prep \"de\" governs \"silence\", not the infinitive"
+  },
+  {
+   "index": 10,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "fenêtre",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"Ce cri appelle\"; fenetre noun"
+  },
+  {
+   "index": 11,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "fenêtre",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"l'homme est\"; fenetre noun"
+  },
+  {
+   "index": 12,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "l'autre",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"je voudrais\"; l'autre noun"
+  },
+  {
+   "index": 13,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "gibier",
+   "dist": 0,
+   "cause": "C",
+   "note": "exclaimed NP \"plus de gibier\""
+  },
+  {
+   "index": 14,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "savoir",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"avaient hate\""
+  },
+  {
+   "index": 15,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "assassiner",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"preparait\""
+  },
+  {
+   "index": 16,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "fuir",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"donnez les moyens\""
+  },
+  {
+   "index": 17,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "s'échapper",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"fournissant le moyen\""
+  },
+  {
+   "index": 18,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "raisonner",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"Il ne faut point\""
+  },
+  {
+   "index": 19,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "disparaître",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"eu le temps\""
+  },
+  {
+   "index": 20,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "chambre",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"eu le temps que de dissimuler... et de sortir\""
+  },
+  {
+   "index": 21,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "acquitter",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"c'est encore\""
+  },
+  {
+   "index": 22,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "père",
+   "dist": 0,
+   "cause": "C",
+   "note": "exclaimed NP \"devouement a son pere\"; pere noun"
+  },
+  {
+   "index": 23,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "père",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"vole... les papiers\"; pere noun"
+  },
+  {
+   "index": 24,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "cendre",
+   "dist": 0,
+   "cause": "C",
+   "note": "exclaimed NP \"de la cendre\"; cendre noun"
+  },
+  {
+   "index": 25,
+   "file": "pg62100.txt",
+   "prep": "à",
+   "inf": "faire",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"je n'ai\""
+  },
+  {
+   "index": 26,
+   "file": "pg62100.txt",
+   "prep": "à",
+   "inf": "causer",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"consentent\""
+  },
+  {
+   "index": 27,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "voyager",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"je n'ai plus le droit\""
+  },
+  {
+   "index": 28,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "voyager",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"n'avait plus le droit\""
+  },
+  {
+   "index": 29,
+   "file": "pg62100.txt",
+   "prep": "à",
+   "inf": "opposer",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"je n'ai pas\""
+  },
+  {
+   "index": 30,
+   "file": "pg62100.txt",
+   "prep": "à",
+   "inf": "aller",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"il cherche\""
+  },
+  {
+   "index": 31,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "genre",
+   "dist": 0,
+   "cause": "C",
+   "note": "exclaimed NP \"pour un endroit de ce genre\""
+  },
+  {
+   "index": 32,
+   "file": "pg73058.txt",
+   "prep": "de",
+   "inf": "souvenir",
+   "dist": 0,
+   "cause": "B",
+   "note": "matrix \"faisait bien\"; souvenir noun"
+  },
+  {
+   "index": 33,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "chambre",
+   "dist": 3,
+   "cause": "B",
+   "note": "matrix \"comment l'assassin a pu sortir\""
+  },
+  {
+   "index": 34,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "votre",
+   "dist": 4,
+   "cause": "C",
+   "note": "exclaimed NP \"pour votre age\""
+  },
+  {
+   "index": 35,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "croire",
+   "dist": 5,
+   "cause": "B",
+   "note": "matrix \"c'est moi qui etais une vieille bete\""
+  },
+  {
+   "index": 36,
+   "file": "pg13765.txt",
+   "prep": "a",
+   "inf": "encore",
+   "dist": 5,
+   "cause": "A",
+   "note": "\"cela\" never infinitive; matrix \"Il y a\""
+  },
+  {
+   "index": 37,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "répondre",
+   "dist": 5,
+   "cause": "D",
+   "note": "terminator belongs to quoted \"Ah!\""
+  },
+  {
+   "index": 38,
+   "file": "pg62100.txt",
+   "prep": "pour",
+   "inf": "autre",
+   "dist": 5,
+   "cause": "B",
+   "note": "matrix \"C'est bon a savoir\""
+  },
+  {
+   "index": 39,
+   "file": "pg62100.txt",
+   "prep": "à",
+   "inf": "prendre",
+   "dist": 5,
+   "cause": "B",
+   "note": "matrix \"je n'aurais eu que\""
+  },
+  {
+   "index": 40,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "chambre",
+   "dist": 6,
+   "cause": "B",
+   "note": "matrix \"J'etais\"; chambre noun"
+  },
+  {
+   "index": 41,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "chambre",
+   "dist": 6,
+   "cause": "B",
+   "note": "matrix \"comment il est sorti\""
+  },
+  {
+   "index": 42,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "chambre",
+   "dist": 6,
+   "cause": "C",
+   "note": "exclaimed NP \"l'explication du mystere de la Chambre Jaune\""
+  },
+  {
+   "index": 43,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "égarer",
+   "dist": 6,
+   "cause": "B",
+   "note": "matrix \"destinee a\""
+  },
+  {
+   "index": 44,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "métier",
+   "dist": 6,
+   "cause": "B",
+   "note": "matrix \"vous n'allez pas travailler\""
+  },
+  {
+   "index": 45,
+   "file": "pg13525.txt",
+   "prep": "de",
+   "inf": "terre",
+   "dist": 7,
+   "cause": "B",
+   "note": "matrix \"Je vas te faire\"; terre noun"
+  },
+  {
+   "index": 46,
+   "file": "pg13765.txt",
+   "prep": "a",
+   "inf": "guère",
+   "dist": 7,
+   "cause": "B",
+   "note": "matrix \"il ne l'a guere quitte\"; guere adv"
+  },
+  {
+   "index": 47,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "rompre",
+   "dist": 7,
+   "cause": "B",
+   "note": "matrix \"aurait bien des chances\""
+  },
+  {
+   "index": 48,
+   "file": "pg73058.txt",
+   "prep": "de",
+   "inf": "griser",
+   "dist": 7,
+   "cause": "E",
+   "note": "interrogative matrix \"Craindriez-vous\""
+  },
+  {
+   "index": 49,
+   "file": "pg73058.txt",
+   "prep": "de",
+   "inf": "professer",
+   "dist": 7,
+   "cause": "B",
+   "note": "matrix \"je fais la sottise\""
+  },
+  {
+   "index": 50,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "mouchoir",
+   "dist": 8,
+   "cause": "B",
+   "note": "matrix \"on n'aurait pas trouve\"; mouchoir noun"
+  },
+  {
+   "index": 51,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "parler",
+   "dist": 8,
+   "cause": "B",
+   "note": "matrix \"Il leur serait loisible\""
+  },
+  {
+   "index": 52,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "être",
+   "dist": 8,
+   "cause": "B",
+   "note": "matrix \"Il n'y avait que\""
+  },
+  {
+   "index": 53,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "ramener",
+   "dist": 8,
+   "cause": "B",
+   "note": "matrix \"emettait la pretention\""
+  },
+  {
+   "index": 54,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "m'écrier",
+   "dist": 9,
+   "cause": "D",
+   "note": "terminator belongs to quoted \"Voyez!\""
+  },
+  {
+   "index": 55,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "piailler",
+   "dist": 9,
+   "cause": "NEARMISS",
+   "note": "\"assez de piailler comme ca!\" - exclaimed head is degree adverb \"assez\"; de-infinitive is its complement; fenced"
+  },
+  {
+   "index": 56,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "heure",
+   "dist": 9,
+   "cause": "B",
+   "note": "matrix \"qui a eu lieu\"; heure noun"
+  },
+  {
+   "index": 57,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "ouvrir",
+   "dist": 9,
+   "cause": "B",
+   "note": "matrix \"avoir des raisons\""
+  },
+  {
+   "index": 58,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "arrêter",
+   "dist": 9,
+   "cause": "B",
+   "note": "matrix \"mon metier n'est point\""
+  },
+  {
+   "index": 59,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "wagner",
+   "dist": 9,
+   "cause": "B",
+   "note": "matrix \"Ca ne devrait pas etre permis\""
+  },
+  {
+   "index": 60,
+   "file": "pg13765.txt",
+   "prep": "a",
+   "inf": "sortir",
+   "dist": 10,
+   "cause": "B",
+   "note": "matrix \"n'a pu s'enfuir, n'a pu sortir\""
+  },
+  {
+   "index": 61,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "répondre",
+   "dist": 10,
+   "cause": "D",
+   "note": "terminator belongs to quoted \"Ah!--ah!\""
+  },
+  {
+   "index": 62,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "dire",
+   "dist": 11,
+   "cause": "B",
+   "note": "matrix \"etait capable\""
+  },
+  {
+   "index": 63,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "être",
+   "dist": 11,
+   "cause": "B",
+   "note": "matrix \"n'a pas besoin\""
+  },
+  {
+   "index": 64,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "fenêtre",
+   "dist": 11,
+   "cause": "B",
+   "note": "matrix \"Ce cri appelle\"; fenetre noun"
+  },
+  {
+   "index": 65,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "garder",
+   "dist": 11,
+   "cause": "E",
+   "note": "interrogative \"se croit-il\""
+  },
+  {
+   "index": 66,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "représenter",
+   "dist": 11,
+   "cause": "B",
+   "note": "matrix \"C'est si calmant\""
+  },
+  {
+   "index": 67,
+   "file": "pg13525.txt",
+   "prep": "de",
+   "inf": "revoir",
+   "dist": 12,
+   "cause": "B",
+   "note": "matrix \"C'est plaisant\""
+  },
+  {
+   "index": 68,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "entrer",
+   "dist": 12,
+   "cause": "B",
+   "note": "matrix \"Il a bien fait\""
+  },
+  {
+   "index": 69,
+   "file": "pg73058.txt",
+   "prep": "de",
+   "inf": "réfléchir",
+   "dist": 12,
+   "cause": "D",
+   "note": "terminator belongs to following \"Charles!\""
+  },
+  {
+   "index": 70,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "arriver",
+   "dist": 13,
+   "cause": "B",
+   "note": "matrix \"il a traverse... pour arriver\""
+  },
+  {
+   "index": 71,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "plaisir",
+   "dist": 13,
+   "cause": "C",
+   "note": "exclaimed NP \"quel desir\""
+  },
+  {
+   "index": 72,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "condamner",
+   "dist": 14,
+   "cause": "E",
+   "note": "interrogative \"sera-t-il facile\""
+  },
+  {
+   "index": 73,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "découvrir",
+   "dist": 14,
+   "cause": "B",
+   "note": "matrix \"on peut toujours se payer le luxe\""
+  },
+  {
+   "index": 74,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "serrure",
+   "dist": 14,
+   "cause": "B",
+   "note": "matrix \"il n'y a pas de sang\"; serrure noun"
+  },
+  {
+   "index": 75,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "combattre",
+   "dist": 14,
+   "cause": "E",
+   "note": "rhetorical question \"est-ce vraiment... que de combattre\""
+  },
+  {
+   "index": 76,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "constater",
+   "dist": 14,
+   "cause": "B",
+   "note": "matrix \"j'eus la joie\""
+  },
+  {
+   "index": 77,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "éviter",
+   "dist": 14,
+   "cause": "B",
+   "note": "matrix \"sur la priere de sa fille\""
+  },
+  {
+   "index": 78,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "fenêtre",
+   "dist": 14,
+   "cause": "B",
+   "note": "matrix \"Elle court\"; fenetre noun"
+  },
+  {
+   "index": 79,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "reconnaître",
+   "dist": 14,
+   "cause": "B",
+   "note": "matrix \"n'eut garde\""
+  },
+  {
+   "index": 80,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "fermer",
+   "dist": 14,
+   "cause": "B",
+   "note": "matrix \"qui viennent de fermer\""
+  },
+  {
+   "index": 81,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "deviner",
+   "dist": 15,
+   "cause": "B",
+   "note": "matrix \"consiste\""
+  },
+  {
+   "index": 82,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "votre",
+   "dist": 15,
+   "cause": "E",
+   "note": "interrogative \"Qu'est-ce que vous entendez\"; terminator belongs to quote"
+  },
+  {
+   "index": 83,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "l'autre",
+   "dist": 15,
+   "cause": "B",
+   "note": "matrix \"il la frappe avec la pensee arretee\"; l'autre noun"
+  },
+  {
+   "index": 84,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "peinture",
+   "dist": 15,
+   "cause": "B",
+   "note": "matrix \"a un amour sincere\"; peinture noun"
+  },
+  {
+   "index": 85,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "répondre",
+   "dist": 15,
+   "cause": "D",
+   "note": "terminator belongs to quoted \"Ah!\""
+  },
+  {
+   "index": 86,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "revoir",
+   "dist": 16,
+   "cause": "C",
+   "note": "exclaimed NP \"dix ans de ma vie... pour revoir la dame en noir\""
+  },
+  {
+   "index": 87,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "chambre",
+   "dist": 16,
+   "cause": "D",
+   "note": "terminator belongs to quoted \"n'y est plus\""
+  },
+  {
+   "index": 88,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "bizarre",
+   "dist": 16,
+   "cause": "B",
+   "note": "matrix \"croyez bien que... n'est rien\"; bizarre adj"
+  },
+  {
+   "index": 89,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "pénétrer",
+   "dist": 16,
+   "cause": "GENUINE",
+   "note": "\"De ne pas penetrer dans la chambre!\" - independent sentence; the \"!\" terminates the de-infinitive phrase itself; no finite matrix; exclaimed element IS the governed infinitive phrase"
+  },
+  {
+   "index": 90,
+   "file": "pg62100.txt",
+   "prep": "pour",
+   "inf": "sortir",
+   "dist": 16,
+   "cause": "B",
+   "note": "matrix conditional \"il faudrait me payer\""
+  },
+  {
+   "index": 91,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "dire",
+   "dist": 17,
+   "cause": "D",
+   "note": "terminator belongs to quotation \"Il faut tout de suite nous dire le nom, monsieur!\""
+  },
+  {
+   "index": 92,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "être",
+   "dist": 17,
+   "cause": "B",
+   "note": "matrix \"il faut\""
+  },
+  {
+   "index": 93,
+   "file": "pg62100.txt",
+   "prep": "a",
+   "inf": "l'air",
+   "dist": 17,
+   "cause": "D",
+   "note": "terminator belongs to following \"ah!\"; l'air noun"
+  },
+  {
+   "index": 94,
+   "file": "pg73058.txt",
+   "prep": "à",
+   "inf": "pierre",
+   "dist": 17,
+   "cause": "D",
+   "note": "terminator belongs to following \"helas!\"; pierre noun"
+  },
+  {
+   "index": 95,
+   "file": "pg73058.txt",
+   "prep": "de",
+   "inf": "rassasier",
+   "dist": 17,
+   "cause": "B",
+   "note": "matrix \"voici\""
+  },
+  {
+   "index": 96,
+   "file": "pg13525.txt",
+   "prep": "pour",
+   "inf": "contenter",
+   "dist": 18,
+   "cause": "B",
+   "note": "matrix \"pas de danger qu'ils soient assez simples\""
+  },
+  {
+   "index": 97,
+   "file": "pg13525.txt",
+   "prep": "à",
+   "inf": "pleurer",
+   "dist": 18,
+   "cause": "D",
+   "note": "terminator belongs to following \"Oh!\""
+  },
+  {
+   "index": 98,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "arriver",
+   "dist": 18,
+   "cause": "D",
+   "note": "terminator belongs to following \"Ah!\""
+  },
+  {
+   "index": 99,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "répéter",
+   "dist": 18,
+   "cause": "D",
+   "note": "terminator belongs to quotation \"Quelle affaire!\""
+  },
+  {
+   "index": 100,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "n'attacher",
+   "dist": 18,
+   "cause": "B",
+   "note": "matrix \"j'eus peut-etre tort\""
+  },
+  {
+   "index": 101,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "entrer",
+   "dist": 18,
+   "cause": "E",
+   "note": "interrogative \"?\"; terminator belongs to \"Oh!\""
+  },
+  {
+   "index": 102,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "savoir",
+   "dist": 18,
+   "cause": "B",
+   "note": "matrix \"je ne saurai que ce qu'il sera utile\""
+  },
+  {
+   "index": 103,
+   "file": "pg13525.txt",
+   "prep": "à",
+   "inf": "crier",
+   "dist": 19,
+   "cause": "D",
+   "note": "terminator belongs to quoted \"Heulle!\""
+  },
+  {
+   "index": 104,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "chambre",
+   "dist": 19,
+   "cause": "D",
+   "note": "terminator belongs to quoted imperative; chambre noun"
+  },
+  {
+   "index": 105,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "jeter",
+   "dist": 19,
+   "cause": "B",
+   "note": "matrix \"C'est a jeter...\" (finite copula)"
+  },
+  {
+   "index": 106,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "heure",
+   "dist": 19,
+   "cause": "B",
+   "note": "matrix \"y a-t-il succombe\"; heure noun"
+  },
+  {
+   "index": 107,
+   "file": "pg13765.txt",
+   "prep": "a",
+   "inf": "passer",
+   "dist": 20,
+   "cause": "B",
+   "note": "matrix \"Il n'a pu passer\""
+  },
+  {
+   "index": 108,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "répondre",
+   "dist": 20,
+   "cause": "D",
+   "note": "terminator belongs to quoted \"Ah!\""
+  },
+  {
+   "index": 109,
+   "file": "pg73058.txt",
+   "prep": "pour",
+   "inf": "voir",
+   "dist": 20,
+   "cause": "B",
+   "note": "matrix \"Que de fois ai-je bondi\""
+  },
+  {
+   "index": 110,
+   "file": "pg13525.txt",
+   "prep": "a",
+   "inf": "pâtir",
+   "dist": 21,
+   "cause": "B",
+   "note": "matrix \"Comme il a du\""
+  },
+  {
+   "index": 111,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "confier",
+   "dist": 21,
+   "cause": "B",
+   "note": "matrix \"vous n'avez plus que\""
+  },
+  {
+   "index": 112,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "s'échapper",
+   "dist": 21,
+   "cause": "B",
+   "note": "matrix \"Il n'avait pas besoin\""
+  },
+  {
+   "index": 113,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "encore",
+   "dist": 21,
+   "cause": "B",
+   "note": "matrix \"Larsan est assez malin\""
+  },
+  {
+   "index": 114,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "donner",
+   "dist": 22,
+   "cause": "B",
+   "note": "matrix \"se refuse\""
+  },
+  {
+   "index": 115,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "entrer",
+   "dist": 22,
+   "cause": "E",
+   "note": "interrogative \"?\"; terminator belongs to \"Oh! oh!\""
+  },
+  {
+   "index": 116,
+   "file": "pg13765.txt",
+   "prep": "a",
+   "inf": "être",
+   "dist": 22,
+   "cause": "B",
+   "note": "matrix \"a du etre rapide\"; eclair noun"
+  },
+  {
+   "index": 117,
+   "file": "pg13525.txt",
+   "prep": "de",
+   "inf": "dire",
+   "dist": 23,
+   "cause": "B",
+   "note": "matrix \"Vous n'avez pas besoin\""
+  },
+  {
+   "index": 118,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "chercher",
+   "dist": 23,
+   "cause": "B",
+   "note": "matrix \"est entre\""
+  },
+  {
+   "index": 119,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "chercher",
+   "dist": 23,
+   "cause": "D",
+   "note": "terminator belongs to following \"Ah!\""
+  },
+  {
+   "index": 120,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "éviter",
+   "dist": 23,
+   "cause": "B",
+   "note": "matrix \"l'aurait laisse passer\""
+  },
+  {
+   "index": 121,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "sauver",
+   "dist": 23,
+   "cause": "B",
+   "note": "matrix \"le supplier\""
+  },
+  {
+   "index": 122,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "montrer",
+   "dist": 23,
+   "cause": "B",
+   "note": "matrix \"pour avoir toujours la main refermee, pour n'etre point tente\""
+  },
+  {
+   "index": 123,
+   "file": "pg62100.txt",
+   "prep": "a",
+   "inf": "dire",
+   "dist": 23,
+   "cause": "B",
+   "note": "matrix \"il n'y a pas a dire\""
+  },
+  {
+   "index": 124,
+   "file": "pg62100.txt",
+   "prep": "à",
+   "inf": "rire",
+   "dist": 23,
+   "cause": "D",
+   "note": "terminator belongs to quotation \"c'en est malhonnete!\""
+  },
+  {
+   "index": 125,
+   "file": "pg62100.txt",
+   "prep": "pour",
+   "inf": "partir",
+   "dist": 23,
+   "cause": "D",
+   "note": "terminator belongs to quotation \"Helas!\""
+  },
+  {
+   "index": 126,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "monter",
+   "dist": 24,
+   "cause": "B",
+   "note": "matrix \"Il n'en faut pas davantage\""
+  },
+  {
+   "index": 127,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "préoccuper",
+   "dist": 24,
+   "cause": "B",
+   "note": "matrix \"ne me permet point\""
+  },
+  {
+   "index": 128,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "répliquer",
+   "dist": 24,
+   "cause": "D",
+   "note": "terminator belongs to quotation \"Grand bien leur fasse!\""
+  },
+  {
+   "index": 129,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "soigner",
+   "dist": 25,
+   "cause": "B",
+   "note": "matrix \"Il n'y a eu\""
+  },
+  {
+   "index": 130,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "répondre",
+   "dist": 25,
+   "cause": "D",
+   "note": "terminator belongs to quoted \"Ah!\""
+  },
+  {
+   "index": 131,
+   "file": "pg13525.txt",
+   "prep": "à",
+   "inf": "pleurer",
+   "dist": 26,
+   "cause": "D",
+   "note": "terminator belongs to following \"Oh! Samuel!\""
+  },
+  {
+   "index": 132,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "prendre",
+   "dist": 26,
+   "cause": "B",
+   "note": "matrix \"IL S'AGIT DE\" (caps emphasis)"
+  },
+  {
+   "index": 133,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "répéter",
+   "dist": 26,
+   "cause": "B",
+   "note": "matrix \"je me surprends\"; bare infinitive \"La sauver!\""
+  },
+  {
+   "index": 134,
+   "file": "pg13765.txt",
+   "prep": "a",
+   "inf": "vivre",
+   "dist": 26,
+   "cause": "B",
+   "note": "matrix \"a du vivre\""
+  },
+  {
+   "index": 135,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "inviter",
+   "dist": 26,
+   "cause": "B",
+   "note": "matrix \"j'ai trouve le moyen\""
+  },
+  {
+   "index": 136,
+   "file": "pg62100.txt",
+   "prep": "pour",
+   "inf": "éliminer",
+   "dist": 26,
+   "cause": "B",
+   "note": "matrix \"elle n'a pas su devenir\""
+  },
+  {
+   "index": 137,
+   "file": "pg13525.txt",
+   "prep": "à",
+   "inf": "crier",
+   "dist": 27,
+   "cause": "D",
+   "note": "terminator belongs to quoted \"Heulle! Heulle!\""
+  },
+  {
+   "index": 138,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "revolver",
+   "dist": 27,
+   "cause": "B",
+   "note": "matrix \"n'a pas une main pareille\"; revolver noun"
+  },
+  {
+   "index": 139,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "fermer",
+   "dist": 27,
+   "cause": "D",
+   "note": "terminator belongs to quotation; infinitive embedded in quoted finite matrix \"il faut le tuer\""
+  },
+  {
+   "index": 140,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "raisonner",
+   "dist": 27,
+   "cause": "B",
+   "note": "matrix \"Il ne faut point\""
+  },
+  {
+   "index": 141,
+   "file": "pg73058.txt",
+   "prep": "de",
+   "inf": "livre",
+   "dist": 27,
+   "cause": "B",
+   "note": "matrix \"avec quelle folie\"; livre noun"
+  },
+  {
+   "index": 142,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "chambre",
+   "dist": 28,
+   "cause": "B",
+   "note": "matrix \"J'etais\"; chambre noun"
+  },
+  {
+   "index": 143,
+   "file": "pg62100.txt",
+   "prep": "à",
+   "inf": "maîtriser",
+   "dist": 28,
+   "cause": "D",
+   "note": "terminator belongs to quotation \"Que voulez-vous!\""
+  },
+  {
+   "index": 144,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "arriver",
+   "dist": 29,
+   "cause": "B",
+   "note": "matrix \"l'idee que l'on se fait... pour arriver\""
+  },
+  {
+   "index": 145,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "retrouver",
+   "dist": 29,
+   "cause": "B",
+   "note": "matrix \"il est arrive\""
+  },
+  {
+   "index": 146,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "revoir",
+   "dist": 29,
+   "cause": "C",
+   "note": "exclaimed NP \"dix ans de ma vie... pour revoir la dame en noir\""
+  },
+  {
+   "index": 147,
+   "file": "pg62100.txt",
+   "prep": "pour",
+   "inf": "être",
+   "dist": 29,
+   "cause": "E",
+   "note": "interrogative \"Que ne ferait-on pas\""
+  },
+  {
+   "index": 148,
+   "file": "pg62100.txt",
+   "prep": "à",
+   "inf": "supposer",
+   "dist": 29,
+   "cause": "B",
+   "note": "matrix \"je commencais a supposer\""
+  },
+  {
+   "index": 149,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "faire",
+   "dist": 29,
+   "cause": "B",
+   "note": "matrix \"je suis libre\""
+  },
+  {
+   "index": 150,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "greffier",
+   "dist": 31,
+   "cause": "D",
+   "note": "terminator belongs to quotation \"surtout, pas de journalistes!\"; greffier noun"
+  },
+  {
+   "index": 151,
+   "file": "pg62100.txt",
+   "prep": "a",
+   "inf": "heure",
+   "dist": 33,
+   "cause": "B",
+   "note": "matrix \"il y a une heure\"; heure noun"
+  },
+  {
+   "index": 152,
+   "file": "pg62100.txt",
+   "prep": "pour",
+   "inf": "désigner",
+   "dist": 33,
+   "cause": "D",
+   "note": "terminator belongs to quotation \"Hein!\""
+  },
+  {
+   "index": 153,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "mère",
+   "dist": 33,
+   "cause": "B",
+   "note": "matrix \"il est a cote\"; mere noun"
+  },
+  {
+   "index": 154,
+   "file": "pg62100.txt",
+   "prep": "à",
+   "inf": "croire",
+   "dist": 34,
+   "cause": "D",
+   "note": "terminator belongs to \"Oh!\""
+  },
+  {
+   "index": 155,
+   "file": "pg62100.txt",
+   "prep": "à",
+   "inf": "prendre",
+   "dist": 34,
+   "cause": "B",
+   "note": "matrix \"je n'aurais eu que\""
+  },
+  {
+   "index": 156,
+   "file": "pg73058.txt",
+   "prep": "de",
+   "inf": "griser",
+   "dist": 34,
+   "cause": "E",
+   "note": "interrogative \"Craindriez-vous\""
+  },
+  {
+   "index": 157,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "pénétrer",
+   "dist": 35,
+   "cause": "B",
+   "note": "matrix \"s'appretant\""
+  },
+  {
+   "index": 158,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "tuer",
+   "dist": 35,
+   "cause": "E",
+   "note": "interrogative \"Ai-je le droit\""
+  },
+  {
+   "index": 159,
+   "file": "pg13765.txt",
+   "prep": "de",
+   "inf": "connaître",
+   "dist": 36,
+   "cause": "B",
+   "note": "matrix \"j'avais besoin\""
+  },
+  {
+   "index": 160,
+   "file": "pg13525.txt",
+   "prep": "de",
+   "inf": "s'ennuyer",
+   "dist": 38,
+   "cause": "B",
+   "note": "matrix \"Comme elle aura eu le temps\""
+  },
+  {
+   "index": 161,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "cuivre",
+   "dist": 38,
+   "cause": "B",
+   "note": "matrix \"s'appelle Mathilde\"; cuivre noun"
+  },
+  {
+   "index": 162,
+   "file": "pg13765.txt",
+   "prep": "a",
+   "inf": "savoir",
+   "dist": 38,
+   "cause": "B",
+   "note": "matrix \"on n'a pu savoir\""
+  },
+  {
+   "index": 163,
+   "file": "pg13765.txt",
+   "prep": "pour",
+   "inf": "voir",
+   "dist": 38,
+   "cause": "D",
+   "note": "terminator belongs to quotation"
+  },
+  {
+   "index": 164,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "l'heure",
+   "dist": 38,
+   "cause": "B",
+   "note": "matrix \"Vous connaissez\"; l'heure noun"
+  },
+  {
+   "index": 165,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "rejoindre",
+   "dist": 38,
+   "cause": "B",
+   "note": "matrix \"qui lui apprenait les moyens\""
+  },
+  {
+   "index": 166,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "continuer",
+   "dist": 39,
+   "cause": "D",
+   "note": "terminator belongs to \"Ah!\""
+  },
+  {
+   "index": 167,
+   "file": "pg13765.txt",
+   "prep": "à",
+   "inf": "soupçonner",
+   "dist": 40,
+   "cause": "D",
+   "note": "terminator belongs to quotation \"elle se tuerait\""
+  },
+  {
+   "index": 168,
+   "file": "pg62100.txt",
+   "prep": "a",
+   "inf": "encore",
+   "dist": 40,
+   "cause": "B",
+   "note": "matrix \"il y a encore des gens\"; encore adv"
+  },
+  {
+   "index": 169,
+   "file": "pg62100.txt",
+   "prep": "de",
+   "inf": "connaître",
+   "dist": 40,
+   "cause": "B",
+   "note": "matrix \"montrent leur profonde sagesse\""
+  },
+  {
+   "index": 170,
+   "file": "pg62100.txt",
+   "prep": "pour",
+   "inf": "pouvoir",
+   "dist": 40,
+   "cause": "E",
+   "note": "interrogative \"Avez-vous laisse\""
+  }
+ ]
+}
