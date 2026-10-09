@@ -1,0 +1,147 @@
+{
+ "files": [
+  {
+   "file": "hugo-hernani-1870.txt",
+   "chars": 203769,
+   "pron_comma_hits": 103,
+   "gov_excl_candidates": 1
+  },
+  {
+   "file": "hugo-burgraves.txt",
+   "chars": 151408,
+   "pron_comma_hits": 137,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "chars": 198265,
+   "pron_comma_hits": 104,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "dumas-mariage-louis-xv-1841.txt",
+   "chars": 204641,
+   "pron_comma_hits": 129,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "dumas-antony.txt",
+   "chars": 102234,
+   "pron_comma_hits": 106,
+   "gov_excl_candidates": 1
+  },
+  {
+   "file": "dumas-henri-iii.txt",
+   "chars": 128462,
+   "pron_comma_hits": 100,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "dumas-kean.txt",
+   "chars": 152233,
+   "pron_comma_hits": 132,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "chars": 132586,
+   "pron_comma_hits": 161,
+   "gov_excl_candidates": 1
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "chars": 182448,
+   "pron_comma_hits": 169,
+   "gov_excl_candidates": 1
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "chars": 146451,
+   "pron_comma_hits": 103,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "chars": 118567,
+   "pron_comma_hits": 39,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "chars": 87042,
+   "pron_comma_hits": 30,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "chars": 188780,
+   "pron_comma_hits": 95,
+   "gov_excl_candidates": 0
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "chars": 972696,
+   "pron_comma_hits": 578,
+   "gov_excl_candidates": 1
+  }
+ ],
+ "total_chars": 2969582,
+ "candidates": [
+  {
+   "file": "hugo-hernani-1870.txt",
+   "offset": 44016,
+   "pron": "moi",
+   "window": "Moi,  pour  vouloir  si  peu  je  ne  suis  pas  si  fou!",
+   "strict_gov_inf": [
+    "pour  vouloir"
+   ],
+   "loose_gov_inf": [],
+   "context": "iens  de  palais  dressés  à  suivre  un  roi,  /  / Ne  seront  sur  tes  pas  plus  assidus  que  moi  !  /  / Ce  qu'ils  veulent  de  toi,  tous  ces  grands  de  Castille,  /  / C'est  quelque  titre  creux,  quelque  hochet  qui  brille,  /  / C'est  quelque  mouton  d'or  i  qu'on  se  va  pendre  au  cou  /  / Moi,  pour  vouloir  si  peu  je  ne  suis  pas  si  fou!  /  / Ce  que  je  veux  de  toi,  ce  n'est  point  faveurs  vaines,  /  / C'est  l'âme  de  ton  corps,  c'est  le  sang  de  tes  veines  /  /  / ACTE  ler.   SCÈNE  IV.  86  /  / C'est  tout  ce  qu'un  poignard,  furieux  et  vainqueur,  /  / En  y  fouillant  longtemps  peut  prendre  au  fond  d'un  /  / cœurl"
+  },
+  {
+   "file": "dumas-antony.txt",
+   "offset": 58307,
+   "pron": "moi",
+   "window": "moi, pour la vie entière, je serai loin… Ah !",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "pour la vie entière"
+   ],
+   "context": "n temps lorsque par hasard on prononcera mon nom devant elle… puis on ne le prononcera plus… l’oubli viendra… l’oubli, ce second linceul des morts !… Enfin, elle sera heureuse… mais pas seule… un autre partagera son bonheur… cet autre, dans deux heures elle sera près de lui… pour la vie entière… et moi, pour la vie entière, je serai loin… Ah ! qu’il ne la revoie jamais !… N’ai-je pas entendu ?… oui, oui… le roulement d’une voiture… La nuit vient… c’est heureux qu’il fasse nuit !… Cette voiture… c’est la sienne… oh ! cette fois encore je me jetterai au-devant de toi, Adèle… mais ce ne sera pas pour te sauver… Cinq jours sans me voir, et elle m"
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "offset": 62103,
+   "pron": "lui",
+   "window": "lui : moi aussi je tiendrai ma promesse, et nous ne serons pas séparés : peu m’importe les soupçons du roi ; je serais si heureuse de mourir pour mon chevalier !",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "pour mon chevalier"
+   ],
+   "context": " pour te venger, mon frère ! pardon ! /  / MARGUERITE,  rentrant. /  / Oh ! j’étais insensée ! Non, non ! il n’y avait rien dans ces tablettes ; ce n’était point une femme qui / te les avait données ! Mon Gaultier ne ment pas lorsqu’il dit qu’il m’aime, qu’il n’aime que moi. Eh / bien ! moi aussi je n’aime que lui : moi aussi je tiendrai ma promesse, et nous ne serons pas séparés : peu m’importe les soupçons du roi ; je serais si heureuse de mourir pour mon chevalier ! /  / GAULTIER. /  / Pensons à mon frère, Marguerite. /  / MARGUERITE. /  / Eh bien ! mon ami, des recherches ont déjà été faites, et l’on soupçonne… /  / GAULTIER. /  / Et qui soupçonne-t-on ? /  / MARGUERITE. /  / Un ca"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "offset": 161965,
+   "pron": "moi",
+   "window": "moi, pour me sauver qu’il marcherait à la mort !",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "pour me sauver"
+   ],
+   "context": "romets.  /  / MARTHE. /   / Vous leur direz qu’il n’est pas coupable ; il ne l’est pas, je vous le jure ; il ne s’est jamais occupé de révolte ni de complots ; il n’a jamais songé à conspirer ; il ne songeait à rien, qu’à vous aimer !… /  / CHRISTINE. /   / Je le sais, et c’est son amour qui l’a perdu ; c’est pour moi, pour me sauver qu’il marcherait à la mort !… Oh ! non… ça ne se peut pas. Soyez tranquille, je réponds de ses jours. MARTHE. /  / Est-il possible ! /  / CHRISTINE. /   / Oui, madame, oui, il y aura quelqu’un de perdu, mais ce ne sera pas lui !  /  / MARTHE. /   / Que voulez-vous dire ?… /  / CHRISTINE. /  / Rien !… rien !… Retournez chez vous, partez ; dans quelques inst"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "offset": 187096,
+   "pron": "nous",
+   "window": "nous  ,  dans \nces  palais  somptueux  ,  nous  attendons  qu'on  nous  insulte  pour \ntirer  nos  épées!",
+   "strict_gov_inf": [
+    "pour \ntirer"
+   ],
+   "loose_gov_inf": [],
+   "context": "l  yen  a  bien  d'autres  / à  cette  heure  qui  ont  pris  leur  manteau  et  leur  épée  pour  / s'enfoncer  dans  cette  nuit  obscure;  et  ceux  qui  les  attendent  / ne  sont  point  inquiets;  ils  savent  qu'ils  mourront  demain  / de  misère  ,  s'ils  ne  meurent  de  froid  cette  nuit.  Et  nous  ,  dans  / ces  palais  somptueux  ,  nous  attendons  qu'on  nous  insulte  pour  / tirer  nos  épées!  Le  propos  d'un  ivrogne  nous  transporte  de  / colère  ,  et  disperse  dans  ces  sombres  rues  nos  fils  et  nos  amis  !  / Mais  les  malheurs  publics  ne  secouent  pas  la  poussière  de  nos  / armes.  On  croit  Philippe  Strozzi  un "
+  }
+ ],
+ "note": "hugo-hernani.txt (Hetzel 1889) excluded: duplicate Hernani edition; ONE edition per play per queue gate; governor restricted to 'pour' only"
+}

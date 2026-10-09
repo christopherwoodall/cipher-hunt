@@ -1,0 +1,90 @@
+{
+ "files": [
+  {
+   "file": "labiche-29-degres-ombre.txt",
+   "chars": 34634,
+   "dem_comma_hits": 0,
+   "gov_inf_candidates": 0
+  },
+  {
+   "file": "labiche-affaire-rue-lourcine.txt",
+   "chars": 43172,
+   "dem_comma_hits": 0,
+   "gov_inf_candidates": 0
+  },
+  {
+   "file": "labiche-baron-fourchevif.txt",
+   "chars": 54412,
+   "dem_comma_hits": 1,
+   "gov_inf_candidates": 0
+  },
+  {
+   "file": "labiche-doit-on-le-dire.txt",
+   "chars": 114163,
+   "dem_comma_hits": 0,
+   "gov_inf_candidates": 0
+  },
+  {
+   "file": "labiche-edgard-bonne.txt",
+   "chars": 57212,
+   "dem_comma_hits": 1,
+   "gov_inf_candidates": 0
+  },
+  {
+   "file": "labiche-la-cagnotte.txt",
+   "chars": 134353,
+   "dem_comma_hits": 0,
+   "gov_inf_candidates": 0
+  },
+  {
+   "file": "labiche-main-leste.txt",
+   "chars": 39272,
+   "dem_comma_hits": 0,
+   "gov_inf_candidates": 0
+  },
+  {
+   "file": "labiche-misanthrope-auvergnat.txt",
+   "chars": 56991,
+   "dem_comma_hits": 1,
+   "gov_inf_candidates": 0
+  },
+  {
+   "file": "labiche-noces-bouchencoeur.txt",
+   "chars": 80053,
+   "dem_comma_hits": 0,
+   "gov_inf_candidates": 0
+  },
+  {
+   "file": "labiche-prix-martin.txt",
+   "chars": 103002,
+   "dem_comma_hits": 0,
+   "gov_inf_candidates": 0
+  },
+  {
+   "file": "labiche-voyage-perrichon.txt",
+   "chars": 97395,
+   "dem_comma_hits": 0,
+   "gov_inf_candidates": 0
+  },
+  {
+   "file": "scribe-charlatanisme.txt",
+   "chars": 60202,
+   "dem_comma_hits": 1,
+   "gov_inf_candidates": 0
+  },
+  {
+   "file": "scribe-le-lorgnon.txt",
+   "chars": 67028,
+   "dem_comma_hits": 1,
+   "gov_inf_candidates": 0
+  },
+  {
+   "file": "scribe-le-savant.txt",
+   "chars": 88949,
+   "dem_comma_hits": 1,
+   "gov_inf_candidates": 0
+  }
+ ],
+ "total_chars": 1030838,
+ "candidates": []
+}

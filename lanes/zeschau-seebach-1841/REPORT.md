@@ -5138,6 +5138,158 @@ The 12 nulls of this batch are nulled as N315–N326 in section 5
 below; the 3 kills as N327–N329. No follow-ups are requested in
 this sweep — all belong to the supervisor's battery queue.
 
+### Round-17 wave-16 arrivals, post-sweep batch (2026-10-09 UTC —
+10 battery notes landed after the 13:30 UTC sweep: 3 promotes,
+1 kill, 6 nulls; battery grade)
+
+**The @730 clause parses as a full French clause.** `pron730-clause-wide`
+PROMOTE resolves both open items of the parent `objpron-88-77-11` C4: at
+@729–735, `[48-S] [88-fin] la en [85-93-V] [76-voc]` is a grammatical
+French clause ("On veut l'en informer, monsieur!"). The proof is by
+exclusion: with "la en" proclitic to the composed [85-93] verb (standing
+A3/"en [85]" frame, R24 declaring 24@732="en"), 88 cannot be infinitive
+(no licensed structure before a clitic+verb complex) or imperative
+(imperatives take enclitics, not proclitics) — only finite survives. And
+85+93 cannot be two separate verbs within the ≤1-assumption budget (every
+split geometry fails grammatically or costs 2+ assumptions), so 93 is the
+inflectional ending of 85's stem ("85 93" is a stream hapax — expected
+for a single composed word, not a recurring frame). Exactly one ungranted
+assumption: 48=subject (48's class is open). The parent's conditional
+"la en" survival is now unconditional within that budget. The @736–740
+tail ("18 82 06 00 36") is fenced as open post-clausal adjunct material,
+not kill-grade; the @728 (86) left edge belongs to the preceding "la
+pour [86]" purpose clause. Scope is window-local: 48's value beyond
+subjecthood, the tail's internal classes, 85's stem value, and 76's noun
+stay open; this is not a global promotion of 88's finiteness.
+(**F230**, battery-pron730-clause-wide PROMOTE.) The animated decode —
+green = confirmed on the stream, amber = grammatical shape (wording
+illustrative):
+
+![Fig 7 — clause @729–735 animated decode](clause-730-decode.gif)
+
+**Tragédie proper attests the governed exclamatory infinitive.**
+`gov-excl-inf-tragedy-n2` runs the P1/P2 design VERBATIM on 3 new
+Delavigne tragédies (322,004 chars, 987 bangs, 75 candidates, all
+hand-classified; corpus + provenance under `code/side-period/corpus/`;
+census `code/crowd17/next-token/gov-excl-inf-tragedy-n2_census.json`):
+one genuine — *Une famille au temps de Luther* @70173, "Ou plutôt à
+revoir !" — an à+infinitive fragment with no finite verb in the unit,
+the same dialogue-elliptical fragment grade as all prior genuine cases.
+The other 74 candidates are excluded with cause. C1 fires; C2's
+antecedent is false: the tragédie-zero is dead on four data points
+(Ponsard *Lucrèce* ×0, Delavigne *Vêpres siciliennes* ×0, *Le Paria* ×0,
+*Une famille au temps de Luther* ×1). The Round-20 red team confirms the
+full inventory at 13/13 genuine: comedy 8 / drame 4 / tragédie 1
+(**F228**, battery-gov-excl-inf-tragedy-n2 PROMOTE; R20-057 GRANT).
+Cumulative drama state per R20: 38 files, ~5.5M chars, 13 genuine.
+Genre label does not predict the construction.
+
+**The pour-governor question re-opens at drama level.**
+`personal-tonic-pour-only-drama-recall` widens the sibling's net
+(400-char windows, '!' or '?' termination) over the 14-play drama corpus
+(2,969,582 chars; 75 candidates, 37 strict + 38 loose-only, all
+hand-classified; census
+`code/crowd17/next-token/personal-tonic-pour-only-drama-recall_census.json`):
+one genuine — Dumas *Henri III* @86308, "Moi, monsieur, et pour écrire à
+qui ?" — left-dislocated tonic topic + pour-governed self-contained
+interrogative infinitive, no finite verb in the turn. C1 fires; the
+pour-governor question is re-opened. Scope is narrow: the genuine is
+interrogative, not the '!' exclamatory shape — the parent's fence against
+the exclamatory variant stands unrefuted. Headlined disagreement: the
+sibling recall battery held this same window and reported 0 genuine
+overall; its per-candidate ground is unrecoverable from its report
+(stricter exclamatory-only gate, or the cross-turn "et" read) — a
+red-team item, not a rewrite of the sibling verdict. (**F229**,
+battery-personal-tonic-pour-only-drama-recall PROMOTE.)
+
+### Round-20 red-team adjudication addenda (2026-10-09 UTC — 136 rulings;
+red-team ruling AUTHORITATIVE)
+
+Adjudicator: red-team coordinator, sole conflict-resolver. Scope: 108
+unruled battery promotes (every queue target with
+status=verdict/result=promote not adjudicated in R15–R19) + 28 priority-1
+RED-TEAM DECISION targets. All numbers below are the adjudicators' own
+fresh re-derivations from the repaired stream (anchors: 1,847 pairs / 96
+types). Trace:
+`code/crowd17/report_inbox/next-token-redteam-r20.md`.
+
+- **Tally: 136 rulings — GRANT 65, GRANT-WITH-CORRECTIONS 16,
+  DUPLICATE/CONFIRM 31, REJECT 10, FENCE 13, CLOSED 1.** 108/108 promotes
+  covered; 28/28 P1 decisions covered; 0 orphans. **Registry: 0 changes —
+  50/96 cells stand.** §7 intact: 67 et/veut remains the sole true
+  polyvalence; R24 the sole declared exception.
+- **SOLE standing revision: R20-116.** The @889 clause-boundary fence is
+  LIFTED with new byte evidence: "00 86 06" reads as ONE WORD,
+  "pourvoient" (00='pour' A9-granted + 86='voi' + 06='ent' R17-007).
+  86='voi' is grounded twice independently ("86 29" ×4 = "le voir"/
+  "pour voir"/"veut voir"; @886–892 = "pourvoient le [76]").
+  The queued val-86-728-entr ('entr' hypothesis) is untested and does not
+  contradict the local 'voi' composition; 86's global value stays open.
+- **Fresh promote→REJECT (4):** ne-1331-70-52-parse (arm A loads on the
+  unstated 52 prendre-family role), ne-W6-pas-verb (the load-bearing
+  particle reading of 94@1363 is ungranted), residual-1029-infinitive
+  (the bar's A/B race never tested; reading R19-142-fenced), and
+  adv-1135-leftward (premise "62='il'" killed by R19-106 — permanent).
+- **Fresh promote→FENCE (1): formula-76-49-24** (coordinator override of
+  FAM-G's grant). The N-ADJ-Vfin license is vacuous: the promote's scope
+  tied the license to the adjective-49 leg, and adj-49-420-366 KILLED
+  adjective-49 at kill grade. 49's surviving classes (adverb, noun —
+  both strained per N333 above) instantiate no census-licensed geometry.
+  The ×2 byte-identity ("76 49 24 26 30 03" @652/@989) is real and
+  unexplained; the census (65/66 clean) stays a valid resource. Census
+  backing: `code/crowd17/next-token/formula-76-49-24_census.json`.
+- **Ratified kills:** modal-80 (17-window census; the @567 INF reading
+  now KILLED, R20-121); "ne mentent" one-word rival at both windows
+  (@578/@1182; R20-120, R20-105); the 94 functional-split question stays
+  CLOSED. 62='il' stays KILLED at kill grade, permanent (R20-125).
+- **Governed-exclamatory-infinitive family (FAM-E): all 11 corpus
+  batteries GRANT.** Inventory confirmed 13/13 genuine (comedy 8 / drame
+  4 / tragédie 1); no cherry-picking (shared exclusion taxonomy); the
+  construction is licensed, no value named. This is the authority behind
+  F228 above.
+- **Ne-1330 closure (R20-030):** the 7-verb licensed class is closed at
+  construction level (5,032 of 5,435 bare candidates; the 391 "other"
+  dissolved; 13 doubtful, none trio-related); 0 genuine bare-"ne" +
+  prescrire/préserver/prévoir in 207.1M chars. Backing:
+  `ne1330_trio_1841.json` (28/0 in 34,525,238 chars), `ne1330_trio_modern.json`
+  (406/0 in 172,572,549 chars), `ne1330_lexclass_modern.json`.
+- **Poly-20 docket (R20-126):** particle-20-value-rivals NULL — no
+  battery-grade left-context frame separates 'mais'/'or'/'donc'/
+  'cependant' at @760/@839 (the exact ordinal-ellipsis frame favors
+  'mais' 5-0-0-0 but is underpowered). 'mais' stays the routed
+  candidate; the value is unnamed. Backing: `particle20_rivals_census.json`
+  (diplomatic: 9 files; full French: 59 files),
+  `particle20_shortprev_diplomatic.json` (or 150 / mais 2,372 /
+  cependant 186 / donc 44 hits), `particle20_verbless2_diplomatic.json`
+  and `particle20_verbless3_diplomatic.json` (350/240 examples),
+  `ordinal_particle_boost.json` (mais 6, cependant 1).
+- **Pas-bare census backing the 58 family:**
+  `pasbare_candidates.json` (75 files, 34,525,238 chars, 32,095 'pas'
+  tokens, 2,611 bare candidates) and `pasbare_adj.json` (269 classified
+  windows) feed the gov-excl-inf register venue (R20-094: 13 genuine
+  free-bare of 1,938 nominal complements — 0.7% vs 97.0% determined).
+- **Carry-forward:** 78='ver' DEFER with cause (R16-005 LEAD stands; the
+  @819 "ce verre" leg banked for the settle decision); 98='vient' KEEP
+  AT LEAD, DO NOT GRANT; 93 value DEFER; 65 gender DEFER; "values for 88"
+  OPEN (@1706 constrains 88 to compose a 3pl "-nent" verb with
+  word-internal 26 — R20-114 locus parse; the uniform vient-family stem
+  is KILLED). "la tout" exits FENCED; 62 split package FENCED (candidacy
+  as framed dead on arrival; strain evidence banked).
+- **Pipeline flags for the supervisor** (not acted on here): (1)
+  det-87-644-function's queue entry still reads promote against the
+  standing R19-138 FENCE; (2) a-39's queue verdict reads promote vs
+  R17-005 LEAD — do not upgrade; (3) ne-94's queue verdict reads promote
+  vs R17-001 REJECT (STRONG LEAD) — not ratified; (4) ne-1331-70-52's
+  REJECT withdraws the @1331 resolution claim; (5) ne-W6-pas-verb's REJECT
+  withdraws the W6 C1 re-open; (6) doubled report-path metadata
+  (`code/crowd17/code/crowd17/...`) on several queue entries — harmless,
+  worth a one-line repair; (7) byte-identical sibling pair
+  seg-81-30-trepas-kill / seg-81-30-trépas-kill — consider merging.
+
+The 6 nulls of the wave-16 batch are nulled as N330–N334 in section 5
+below; the 1 kill as N335. No follow-ups are requested in this sweep —
+all belong to the supervisor's battery queue.
+
 ---
 
 ## 5. Failures & null results (N-series)
@@ -7754,6 +7906,98 @@ edge; the note carries a data-quality flag for supervisor audit).
   reduces to the NOM arm plus 13's class. 80's split is red-team
   venue (`poly-80-docket`, untouched).
 
+### Round-17 null batch, wave-16 arrivals (crowd17, 2026-10-09 UTC —
+10 notes: 6 nulls, 1 kill, 3 promotes (folded as F228–F230 in
+section 4); battery grade)
+
+- **N330** — fin-88-730-rerun NULL (fence executed): 88's finiteness at
+  @730 is undecidable at battery grade. C1 fails (88=inf needs a
+  licensed governor; the cheapest route costs 2 ungranted assumptions:
+  the T3 boundary reading of the 48-88 contact plus 86=modal). C2
+  fails/moot (88=finite needs a licensed subject; no subject survives —
+  the red team already exhausted the rescues at @732, and an
+  ungoverned 88=inf would not join the governed-infinitive population
+  anyway). Neither arm fires → NULL per protocol. New lead, not a
+  finding: IF 86='entr', all three 86 shapes converge ("pour entrer"
+  ×12, "entrer" ×4, "entre[88]" ×1) and 88 goes word-internal —
+  dissolving the finiteness question at @730 entirely (1 ungranted
+  assumption). 'la' at @731: as article, dead ('en' follows, not a
+  noun); as "l'en" clitic, needs a verbal host (85 open) — recorded,
+  feeds objpron-88-77-11. Follow-ups: val-86-728-entr (P3),
+  gov-88-730-modal (P4, gated), subj-88-730 (P3).
+- **N331** — noun-74-formula NULL: no French nominal/formula frame
+  parses the four '49 74 74 [46/47/48/40]' chains (W1–W4 at
+  @416/@815/@860/@918, byte-exact). The '74 74' doubling (×6) kills any
+  whole-word nominal head at kill grade; the four chains vary on both
+  edges (right followers que/ce/e/e; left contexts differ), so no fixed
+  formula frame covers them; naming a frame would invent a value for 49
+  or 74 (§3). The kill arm does NOT fire: 0/34 74-windows show
+  verb-frame contact under the lane's distributional standard (test set
+  {80, 89, 29, 85, 33}). Two subject-contact windows (@261 "on 74",
+  @1500 "74 on [INF]") are recorded as the lead follow-up — that target
+  lands as N335 below. Follow-ups: subj-74-261-1500 (fired),
+  formula-49-value (fired), chain-follower-class (P4, queued).
+- **N332** — objpron-88-77-11 NULL (fence executed): the uniform
+  verb+clitic-pronoun rival across the '88 77'/'88 11' population
+  (n(88)=23; '88 77' ×3 at @86/@646/@1541; '88 11' ×2 at @730/@1514) is
+  fenced as inconsistent. Kill-grade failures: @646 (78 nominal in all
+  standing uses — no verb host for proclitic "le"), @1541 (same 78
+  ground, reinforced by the adopted "Il [93-fin] [88-inf] le [78]"
+  frame), @1514 (31=VERBAL gives "la" a host but the trailing "la [91]"
+  forces a double-direct-object violation; all rescues dead or
+  over-budget). Fenced: @86 (66 unvalued — the pronoun leg needs an
+  invented 66=verb). The one survival: @730 "la en" — a correctly
+  ordered clitic cluster preceding 85 (standing en85 proclitic host) —
+  CONDITIONAL on 88's finiteness and 93's role. That leg is now F230 in
+  section 4 above. Follow-ups: pron730-clause-wide (fired → PROMOTE),
+  val-66-87-verb (P3, queued), pron1514-dislocation-corpus (P4, queued).
+- **N333** — formula-49-value NULL (fence executed): n(49)=12, no class
+  nameable at battery grade. Verb-49, determiner-49, and
+  relative/interrogative-pronoun-49 are all DEAD at kill grade (the
+  byte-identical "76 49 24 26 30 03" ×2 frame at @652/@989 kills verb and
+  determiner; "49 qui" at @909/@1433 kills the pronoun). Adverb and noun
+  are strained, not nameable. Best surviving leg: adjective — canonical
+  post-nominal position in the ×2 frame — but the hostile windows @366
+  ("48(e) 49 61": nothing for the adjective to modify) and @420
+  ("46(que) 49 [36-noun]": adjective before a bare noun is ungrammatical)
+  cost 2+ rescues — over budget. The '49 74 74' chain parse stays
+  locked: it needs 49 named (failed) AND the '74 74' doubling resolved
+  (`unit-49-74-74`, queued). Follow-ups: adj-49-420-366 (fired → KILL,
+  adjective-49 dead at kill grade — this is the basis of the R20-080
+  override below), formula-76-49-24 (fired → battery PROMOTE, then
+  overridden to FENCE by the red team; see R20-080), noun-49-909-875
+  (P4, queued).
+- **N334** — tonic-pronoun-stream-locate NULL (fence executed): the
+  stream is fenced as tonicless at battery grade — no unvalued group is
+  locatable as a personal-tonic-pronoun candidate
+  (moi/toi/lui/elle/nous/vous/eux inventory) under standing values.
+  Determiner-exclusion removes 86 (8 determiner predecessors; kill
+  grade), 92 (3× after 11="la"; kill grade), 33 (2× after 47="ce"; kill
+  grade), and 66 at battery grade (1× after 77="le" @88, plus the
+  hostile @189 "pour [66] [V-fin]"); zero "00 X INF" windows
+  stream-wide except @714 ("00 66 86" — X=66, already excluded). The
+  5-signature census, the exclusion table, and the gloss gap (the
+  manuscript pencil gloss anchors only "la premiere" and "que" — no
+  pronoun gloss exists) are packaged as `redteam-tonic-fence-input`
+  (P2, queued). Scope: no GROUP is locatable — this does not claim the
+  French text lacks pronouns. 84="on" is adopted as premise, not a
+  candidate. Gated follow-up: tonic-66-rearm (P4, queued).
+- **N335** — subj-74-261-1500 KILL (battery grade): the nominal/formula
+  hypothesis for 74 is KILLED. A15's 'on' conditions C1–C3 all hold at
+  both subject-contact windows (7 77→84 elision legs re-verified
+  stream-wide incl. @260; @1501's successor graded NO-CONTRADICTION),
+  so 'on' is licensed at @260 and @1501, and 74 sits in the finite-verb
+  slot in both frames: predecessor-side "on(84) 74" at @261 (the only
+  84→74 bigram of 25 84-windows) and inversion-side "74 on(84) [33-INF]"
+  at @1500 (the only 74→84 bigram of 34 74-windows). A whole-word noun
+  or formula cannot occupy those slots in French. Scope: NOT a verb
+  promotion for 74 — 74's class stays open at battery grade (promotions
+  are red-team-ratified only); the standing ne-alone-02-74 kill is not
+  re-litigated (different windows, different test). Residual tension
+  (red-team venue): the '74 74' doubling family (×6) independently
+  contradicts whole-word verb-74 at kill grade — a wholesale verb
+  reading would need a red-team polyvalence ruling. §7 intact.
+
 ---
 
 ## 6. Open hypotheses (not promoted — each needs ≥2 independent checks)
@@ -8472,6 +8716,35 @@ unmeasured, provisional; the mine-v3/corpus copies were removed
   96 types, and `generate.py` printed UNCHANGED, so the grid
   frequencies are unaffected.
 
+### Sweep deltas — post-13:30 UTC batch (2026-10-09)
+
+- 74: the nominal/formula hypothesis is KILLED at battery grade
+  (N335); 74's class stays OPEN at battery grade (red-team venue); the
+  '49 74 74' chains stay unparsed (N331). Residual: '74 74' ×6
+  contradicts any whole-word class at kill grade.
+- @730: the "la en" leg is PROMOTED window-local (F230) — the clause
+  @729–735 parses as full French with one ungranted assumption
+  (48=subject). 88=finite here is forced, window-local, not a global
+  promotion; the uniform clitic-pronoun rival across the 88 population
+  stays fenced (N332).
+- New queued follow-ups: val-86-728-entr (tests 'entr'; R20-116's local
+  'voi' composition at @889 stands), gov-88-730-modal (gated),
+  subj-88-730, val-66-87-verb, pron1514-dislocation-corpus,
+  chain-follower-class, unit-49-74-74, tonic-66-rearm (gated),
+  redteam-tonic-fence-input, noun-49-909-875. (adj-49-420-366 already
+  landed: KILL; formula-76-49-24's promote was R20-overridden to FENCE.)
+- Personal-tonic family: the stream side is fenced as tonicless (N334)
+  while the corpus side has one genuine interrogative (F229) — the two
+  arms do not collide (stream-Group locating vs corpus attestation).
+  The sibling disagreement on @86308 (Dumas *Henri III*) is headlined
+  for the red team.
+- Red-team Round 20 (136 rulings) is folded as the R20 addendum in
+  section 4: the sole standing revision is @889 "pourvoient" (one
+  word); registry unchanged at 50/96 cells.
+- Queue state (read-only cross-check, 2026-10-09 ~15:16 UTC): 1,353
+  targets — 434 null / 314 promote / 173 kill / 2 split verdicts;
+  430 still queued.
+
 ---
 
 ## 7. Next steps (from STATE.md, round-5 work orders + adjudications, round-6 sweep)
@@ -8686,9 +8959,11 @@ zeschau-seebach-1841/
 ├── REPORTING.md               ← inbox convention
 ├── NOTES.md                   ← full methodology log
 ├── STATE.md                   ← status / checkpoint / next / blockers
+├── clause-730-decode.gif       @729–735 clause decode animation (F230; green = confirmed, amber = illustrative)
+│   + clause-730-decode.gif.py  generator script
 ├── report_inbox/              ← worker notes land here; processed/ after sweep
 │   └── processed/             ← folded into REPORT.md (136 notes;
-│       plus crowd-local processed/ dirs next to their inboxes — 249 battery
+│       plus crowd-local processed/ dirs next to their inboxes — 885 battery
 │       notes in code/crowd17/report_inbox/processed/ to date)
 ├── report_assets/
 │   ├── fig1_frequency.png         group frequency rank chart (1,847 pairs)

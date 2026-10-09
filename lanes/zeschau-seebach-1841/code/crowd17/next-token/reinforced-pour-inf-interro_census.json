@@ -1,0 +1,410 @@
+{
+ "census_1841_register": {
+  "files": [
+   {
+    "file": "PROVENANCE-delavigne-tragedies.txt",
+    "chars": 1751,
+    "dem_comma_hits": 0,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "delavigne-famille-luther.txt",
+    "chars": 79527,
+    "dem_comma_hits": 0,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "delavigne-paria.txt",
+    "chars": 136293,
+    "dem_comma_hits": 0,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "delavigne-vepres-siciliennes.txt",
+    "chars": 106184,
+    "dem_comma_hits": 0,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "dumas-antony.txt",
+    "chars": 102234,
+    "dem_comma_hits": 1,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "dumas-fils-dame-camelias.txt",
+    "chars": 219166,
+    "dem_comma_hits": 4,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "dumas-henri-iii.txt",
+    "chars": 128462,
+    "dem_comma_hits": 1,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "dumas-kean.txt",
+    "chars": 152233,
+    "dem_comma_hits": 4,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "dumas-mariage-louis-xv-1841.txt",
+    "chars": 204641,
+    "dem_comma_hits": 2,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "dumas-tour-de-nesle.txt",
+    "chars": 132586,
+    "dem_comma_hits": 6,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "guizot-memoires-t1-gutenberg.txt",
+    "chars": 769437,
+    "dem_comma_hits": 1,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "guizot-memoires-t2-gutenberg.txt",
+    "chars": 830700,
+    "dem_comma_hits": 4,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "guizot-memoires-t3-gutenberg.txt",
+    "chars": 852681,
+    "dem_comma_hits": 5,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "guizot-memoires-t5-t6.txt",
+    "chars": 1992545,
+    "dem_comma_hits": 12,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "harvest-log.txt",
+    "chars": 1755,
+    "dem_comma_hits": 0,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "hugo-angelo.txt",
+    "chars": 32212,
+    "dem_comma_hits": 1,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "hugo-burgraves.txt",
+    "chars": 151408,
+    "dem_comma_hits": 2,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "hugo-hernani-1870.txt",
+    "chars": 203769,
+    "dem_comma_hits": 0,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "hugo-hernani.txt",
+    "chars": 173559,
+    "dem_comma_hits": 0,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "hugo-lucrece-borgia.txt",
+    "chars": 136836,
+    "dem_comma_hits": 3,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "hugo-marie-tudor.txt",
+    "chars": 236764,
+    "dem_comma_hits": 6,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "hugo-roi-samuse.txt",
+    "chars": 251766,
+    "dem_comma_hits": 3,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "hugo-ruy-blas.txt",
+    "chars": 198265,
+    "dem_comma_hits": 6,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "labiche-29-degres-ombre.txt",
+    "chars": 34634,
+    "dem_comma_hits": 0,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "labiche-affaire-rue-lourcine.txt",
+    "chars": 43172,
+    "dem_comma_hits": 0,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "labiche-baron-fourchevif.txt",
+    "chars": 54412,
+    "dem_comma_hits": 1,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "labiche-chapeau-de-paille.txt",
+    "chars": 118567,
+    "dem_comma_hits": 1,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "labiche-doit-on-le-dire.txt",
+    "chars": 114163,
+    "dem_comma_hits": 0,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "labiche-edgard-bonne.txt",
+    "chars": 57212,
+    "dem_comma_hits": 1,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "labiche-la-cagnotte.txt",
+    "chars": 134353,
+    "dem_comma_hits": 0,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "labiche-main-leste.txt",
+    "chars": 39272,
+    "dem_comma_hits": 0,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "labiche-martin-poudre-aux-yeux.txt",
+    "chars": 87042,
+    "dem_comma_hits": 0,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "labiche-misanthrope-auvergnat.txt",
+    "chars": 56991,
+    "dem_comma_hits": 1,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "labiche-noces-bouchencoeur.txt",
+    "chars": 80053,
+    "dem_comma_hits": 0,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "labiche-prix-martin.txt",
+    "chars": 103002,
+    "dem_comma_hits": 0,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "labiche-voyage-perrichon.txt",
+    "chars": 97395,
+    "dem_comma_hits": 0,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "levant-correspondence-1841-p3.txt",
+    "chars": 1690926,
+    "dem_comma_hits": 4,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "metternich-papiere-v4.txt",
+    "chars": 1492023,
+    "dem_comma_hits": 2,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "metternich-papiere-v6.txt",
+    "chars": 1723645,
+    "dem_comma_hits": 10,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "musset-comedies-proverbes-1850.txt",
+    "chars": 972696,
+    "dem_comma_hits": 11,
+    "gov_inf_candidates": 1
+   },
+   {
+    "file": "musset-lorenzaccio.txt",
+    "chars": 231422,
+    "dem_comma_hits": 5,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "nesselrode-v10.txt",
+    "chars": 556659,
+    "dem_comma_hits": 6,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "nesselrode-v7.txt",
+    "chars": 521560,
+    "dem_comma_hits": 5,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "nesselrode-v8.txt",
+    "chars": 614206,
+    "dem_comma_hits": 8,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "nesselrode-v9.txt",
+    "chars": 498642,
+    "dem_comma_hits": 8,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "ponsard-lucrece.txt",
+    "chars": 98042,
+    "dem_comma_hits": 0,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "pozzo-di-borgo-correspondance-v1.txt",
+    "chars": 1001901,
+    "dem_comma_hits": 11,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "raw-thtredecasim01dela-djvu.txt",
+    "chars": 714306,
+    "dem_comma_hits": 2,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "raw-thtredecasim03dela-djvu.txt",
+    "chars": 618289,
+    "dem_comma_hits": 2,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "revue-deux-mondes-1841-q1.txt",
+    "chars": 3013552,
+    "dem_comma_hits": 30,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "revue-deux-mondes-1841-q2.txt",
+    "chars": 2964405,
+    "dem_comma_hits": 33,
+    "gov_inf_candidates": 1
+   },
+   {
+    "file": "revue-deux-mondes-1841-q3.txt",
+    "chars": 3054350,
+    "dem_comma_hits": 29,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "revue-deux-mondes-1841-q4.txt",
+    "chars": 3165234,
+    "dem_comma_hits": 33,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "scribe-bertrand-et-raton.txt",
+    "chars": 182448,
+    "dem_comma_hits": 2,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "scribe-charlatanisme.txt",
+    "chars": 60202,
+    "dem_comma_hits": 1,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "scribe-le-lorgnon.txt",
+    "chars": 67028,
+    "dem_comma_hits": 1,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "scribe-le-savant.txt",
+    "chars": 88949,
+    "dem_comma_hits": 1,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "scribe-verre-d-eau.txt",
+    "chars": 146451,
+    "dem_comma_hits": 3,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "talleyrand-memoires-v1.txt",
+    "chars": 926037,
+    "dem_comma_hits": 5,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "vigny-chatterton-1835.txt",
+    "chars": 188780,
+    "dem_comma_hits": 2,
+    "gov_inf_candidates": 0
+   }
+  ],
+  "total_chars": 32706795,
+  "candidates": [
+   {
+    "dem": "celui-là",
+    "window": "celui-là,  et  il  a  un \nmaître  à  danser  ?",
+    "gov_inf_hits": [
+     "a + a  un \nmaître",
+     "à + à  danser"
+    ],
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "dem": "celle-ci",
+    "window": "celle-ci  :  Comment  se  débarrasser  de  la  terre  enlevée  en  faisant  un \ntrou  si  grand,  et  où  la  mettre  cette  terre?",
+    "gov_inf_hits": [
+     "de + de  la  terre"
+    ],
+    "file": "revue-deux-mondes-1841-q2.txt"
+   }
+  ]
+ },
+ "census_wider_19c": {
+  "files": [
+   {
+    "file": "gutenberg-17489-miserables1.txt",
+    "chars": 677686,
+    "dem_comma_hits": 4,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "gutenberg-30513-tocqueville-t1.txt",
+    "chars": 597763,
+    "dem_comma_hits": 11,
+    "gov_inf_candidates": 0
+   },
+   {
+    "file": "gutenberg-30514-tocqueville-t2.txt",
+    "chars": 712233,
+    "dem_comma_hits": 10,
+    "gov_inf_candidates": 0
+   }
+  ],
+  "total_chars": 1987682,
+  "candidates": []
+ }
+}

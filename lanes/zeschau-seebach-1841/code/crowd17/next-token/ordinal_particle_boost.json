@@ -1,0 +1,68 @@
+{
+ "agg": {
+  "mais": {
+   "n": 6
+  },
+  "or": {
+   "n": 0
+  },
+  "donc": {
+   "n": 0
+  },
+  "cependant": {
+   "n": 1
+  }
+ },
+ "files": 76,
+ "rows": [
+  {
+   "file": "raw-thtredecasim01dela-djvu.txt",
+   "particle": "mais",
+   "ordinal_span": "le  premier",
+   "prev": "\nJ'en  conviens  le  premier",
+   "cur": "mais  c'est  une  faiblesse, \nC'est  une  lâcheté,  dont  je  me  punirais"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "particle": "mais",
+   "ordinal_span": "le  cinquième",
+   "prev": "Ici,  dans  diarie  Stuart,  il  y  a  eu  la  grande  scène \ndu  troisième  acte ,  et  le  pathétique  de  tout  le  cinquième",
+   "cur": "Mais,  pour  rester  bon  juge  de  la  valeur  de  cette  œuvre  distinguée, \npour  ne  rien  méconnaître  des  mérites  sérieux  qu'on  y  salua  si  vive- \nment à  sa  naissance"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "particle": "mais",
+   "ordinal_span": "la  première",
+   "prev": "il  fout  chercher  à  donner  du  sérieux  à  ce \nrendez-vous  et  du  respect  à  cet  inconnu,  et  trouver  une  seconde \nruse  à  jeter  par-dessus  la  première",
+   "cur": "Mais  voici  bien  autre  chose"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "particle": "mais",
+   "ordinal_span": "la  première",
+   "prev": "  a  conçues,  et  que  si  la  propriété  en  a  été  reconnue \nappartenir  à  ses  héritiers,  on  ne  sait  pas  pourquoi  la  quatrième  géné- \nration serait  expropriée  plutôt  que  la  première",
+   "cur": "Mais  il  serait  tout \naussi  juste  d'ajouter  que  l'auteur,  n'ayant  conçu  ses  œuvres  que  pour \nen  faire  don  aux  hommes  qui  les  acceptent  et  donnent  en  échange "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "particle": "cependant",
+   "ordinal_span": "une  troisième",
+   "prev": "Le  triste  résultat  de  cette  expédition  ôta  aux  iiégocians  qui  y \navaient  pris  part  et  aux  états-généraux  toute  envie  d'en  organiser \nune  troisième",
+   "cur": "Cependant  la  petite  flotte  avait  encore  rencontré  cette \nlois  des  Samoïèdes  qui  affirmaient  qu'à  l'extrémité  de  la  Nouvelle- \nZemble,  on  trouvait  une  mer  très "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "particle": "mais",
+   "ordinal_span": "la  première",
+   "prev": "C'était  pour  le  moins  une  imprudence  que  d'ajouter \ninutilement  cette  nouvelle  polémique  à  la  première",
+   "cur": "mais  plus  la \nchose  était  imprudente,  et  plus  elle  était  digne  de  l'approbation  du \ncomte  de  Maistre,  qui  n'aimait  que  les  aventures  et  courait  au-devant \ndes"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "particle": "mais",
+   "ordinal_span": "les  premiers",
+   "prev": "Messieurs,  si  vous  voulez  remplir \nla  ville  de  carnage,  vous  n'avez  qu'à  tirer  les  premiers",
+   "cur": "mais  vous \npourrez  bien  vous  en  repentir,  u  Les  bourgeois,  contenus  par  cette \nfermeté,  répondirent  que  ce  n'était  pas  leur  intention,  et  l'enga- \ngèrent à  se "
+  }
+ ]
+}

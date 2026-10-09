@@ -1,0 +1,3662 @@
+{
+ "corpus": "/tmp/modern-fr/corpus",
+ "chars": 172572549,
+ "files": 1,
+ "trio_hits_all": [
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "car elles risquent d'être éternellement assistées si on ne prévoit pas une adaptation graduelle",
+   "sentence": "Les économies des pays candidats à l'élargissement campent un autre problème car elles risquent d'être éternellement assistées si on ne prévoit pas une adaptation graduelle"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Pour les indépendants l'acquis juridique communautaire actuel ne prévoit pas le droit de ressortissants de pays",
+   "sentence": "Pour les indépendants, l'acquis juridique communautaire actuel ne prévoit pas le droit de ressortissants de pays tiers d'effectuer des prestations de services transfrontaliers"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyons",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "services plus la preuve de chaque commande nous ne prévoyons plus la possibilité d'exiger de l'État membre",
+   "sentence": "Une différence essentielle consiste dans le fait qu'au lieu d'un système \"carte de prestation de services plus la preuve de chaque commande\", nous ne prévoyons plus la possibilité d'exiger de l'État membre d'accueil une déclaration préalable pour chaque commande"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "La communication de la Commission ne prévoit toutefois aucune disposition pour les États membres",
+   "sentence": "La communication de la Commission ne prévoit toutefois aucune disposition pour les États membres contenant ces approches intégrées des aspects sociaux et relatifs à l' emploi"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "très minutieux de ma collègue Ursula Stenzel on ne prévoit pas plus de milliards d' euros pour",
+   "sentence": "Comme le précise le rapport très minutieux de ma collègue Ursula Stenzel, on ne prévoit pas plus de 2,8 milliards d' euros pour l' initiative EQUAL"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "pas pourquoi la Commission entreprend des harmonisations et ne prévoit pas aussi l' harmonisation du texte concernant",
+   "sentence": "Monsieur Byrne, nous ne comprenons pas pourquoi la Commission entreprend des harmonisations et ne prévoit pas aussi l' harmonisation du texte concernant les organismes génétiquement modifiés"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "élaborent les programmes d'action nécessaires plus rapidement que ne le prévoit la position commune",
+   "sentence": "J'estime également que nous devons insister auprès des États membres pour qu'ils élaborent les programmes d'action nécessaires plus rapidement que ne le prévoit la position commune"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Mes informations concernent la directive de laquelle ne prévoit aucune mesure dans ce sens",
+   "sentence": "Mes informations concernent la directive de 1995, laquelle ne prévoit aucune mesure dans ce sens"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "France une peine de prison plus longue que ne le prévoit le code portugais",
+   "sentence": "Le Portugal refuse de l'extrader au motif qu'il risquerait en France une peine de prison plus longue que ne le prévoit le code portugais"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "en outre une violation du droit international lequel ne prévoit certes pas l'implication de civils dans des",
+   "sentence": "Les versions fournies sont très contradictoires et il en est même une qui tente de rassurer l'opinion publique internationale sur le sort de Babitsky, en accréditant la thèse d'un échange de prisonniers avec les combattants tchétchènes qui, si elle s'avérait exacte, constituerait en outre une violation du droit international, lequel ne prévoit certes pas l'implication de civils dans des circonstan"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Dès lors que les traités ne prévoient pas de base juridique spécifique pour la",
+   "sentence": "Dès lors que les traités ne prévoient pas de base juridique spécifique pour la mise en uvre d'une véritable politique communautaire du tourisme, l'Union européenne doit contribuer à améliorer et à encourager la coopération dans ce secteur, dans le respect du principe de subsidiarité, afin de concrétiser le potentiel que le tourisme offre en termes d'emploi"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Ils ne prévoient pas d'incitant économique",
+   "sentence": "Ils ne prévoient pas d'incitant économique"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "la vie de tous les jours si elle ne prévoit pas de sanctions en cas de non",
+   "sentence": "La meilleure directive n'aura aucune répercussion dans la vie de tous les jours si elle ne prévoit pas de sanctions en cas de non-respect ou d'infractions"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyaient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "avons un taux de croissance plus élevé que ne le prévoyaient les perspectives financières qui tablaient sur une",
+   "sentence": "Étant donné que nous avons un taux de croissance plus élevé que ne le prévoyaient les perspectives financières, qui tablaient sur une croissance de 2,5 %, nous pouvons envisager de prendre des mesures budgétaires légèrement différentes de celles que nous aurions prises autrement"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "du racisme de la xénophobie parce qu'aucun texte ne prévoit le droit d'immigration",
+   "sentence": "Certes, il existe le droit des immigrés, de ceux qui sont originaires d'un pays extérieur à l'Union, de jouir de leurs droits, mais le fait de fixer des limites à l'immigration ne peut être considéré comme du racisme, de la xénophobie, parce qu'aucun texte ne prévoit le droit d'immigration"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "grasses végétales autres que le beurre de cacao ne prévoit pas l' information rigoureuse du consommateur et",
+   "sentence": "En effet, il banalise l' emploi de matières grasses végétales autres que le beurre de cacao, ne prévoit pas l' information rigoureuse du consommateur et fait peu de cas de l' absence de méthode fiable d' analyse et de mesure des graisses présentes dans le chocolat"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "d'appliquer les dispositions pertinentes du traité Euratom qui ne prévoit pas la consultation du Parlement européen dans",
+   "sentence": "Il revient au Conseil de respecter et d'appliquer les dispositions pertinentes du traité Euratom, qui ne prévoit pas la consultation du Parlement européen dans ces matières - c'est un fait lié aux traités"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Cette procédure reposait sur le traité Euratom et ne prévoit pas non plus la consultation du Parlement",
+   "sentence": "Cette procédure reposait sur le traité Euratom et ne prévoit pas non plus la consultation du Parlement européen"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "que les dispositions en vigueur dans l'Union européenne ne le prévoient pas",
+   "sentence": "Il est assez extraordinaire, par exemple, que ce soient les autorités américaines qui aient informé les autorités d'un État membre qu'un produit particulier était dangereux, parce que les dispositions en vigueur dans l'Union européenne ne le prévoient pas"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "je voudrais vous dire que le droit communautaire ne prévoit aucun système uniforme de sécurité sociale et",
+   "sentence": "Pour ce qui est de la question de savoir si la Commission prendra l'une ou l'autre initiative pour augmenter la disponibilité des traitements par dialyse pendant la période des congés, je voudrais vous dire que le droit communautaire ne prévoit aucun système uniforme de sécurité sociale et qu'il est de la compétence de chaque État membre d'organiser son propre système de sécurité sociale et de déc"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "la Commission fait référence à cette situation mais ne prévoit aucun remède",
+   "sentence": "Le paragraphe 47 du plan d'action de la Commission fait référence à cette situation mais ne prévoit aucun remède"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "et que simultanément la position commune article paragraphe ne prévoit pas de réglementation pour les OGM prévus",
+   "sentence": "Vous savez que la directive sur l'utilisation confinée l' exclut et que, simultanément, la position commune, article 2, paragraphe 4 ne prévoit pas de réglementation pour les OGM prévus pour une utilisation confinée"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "intéresse au premier chef et surtout qu' il ne prévoie pas de dérogations ne ménage pas de",
+   "sentence": "Il faut donc que ce système soit simple et applicable, qu' il soit compréhensible pour les consommateurs - ce qui nous intéresse au premier chef -, et surtout qu' il ne prévoie pas de dérogations, ne ménage pas de \"fenêtres\", comme on dit, autrement dit de possibilités de l' enfreindre par le biais de formalités compliquées ainsi que de dérogations et applications à usage local ou particulier"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Ensuite le texte ne prévoit aucune adaptation en vue de l'élargissement de",
+   "sentence": "Ensuite, le texte ne prévoit aucune adaptation en vue de l'élargissement de l'UE, ce qui est peut-être l'erreur la plus grave"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Il est regrettable que l' Union européenne ne prévoie pas plus d' actions de ce type",
+   "sentence": "Il est regrettable que l' Union européenne ne prévoie pas plus d' actions de ce type pour d' autres produits, au lieu de les éliminer sur les marchés internationaux à des coûts subventionnés qui représentent parfois le double de leur prix sur ces marchés, c' est pourquoi il est d' ailleurs difficile de comprendre l' objectif invoqué d' épargne budgétaire"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "ont à maintes reprises souligné que le Traité ne prévoit aucune compétence particulière pour une politique forestière",
+   "sentence": "Néanmoins, en ce qui concerne les dégâts forestiers, je dois également vous rappeler que le Parlement européen, notamment dans sa résolution du 31 janvier 1997 sur la stratégie forestière de l'Union européenne, ainsi que le Conseil de l'Union européenne, ont, à maintes reprises, souligné que le Traité ne prévoit aucune compétence particulière pour une politique forestière de l'Union"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "non elle ne le prévoit pas",
+   "sentence": "non, elle ne le prévoit pas"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "que l' article du traité instituant la CEEA ne prévoit pas de régime subventionné d' assurance accident",
+   "sentence": "Considère-t-elle dès lors que toute aide d' État en faveur de l' industrie nucléaire est interdite par le traité instituant la CE, étant donné qu' aucune dérogation n' est spécifiée, et que l' article 98 du traité instituant la CEEA ne prévoit pas de régime subventionné d' assurance-accident pour la couverture du risque atomique"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "la directive libéralisant le marché intérieur de l'électricité ne prévoit aucune règle spécifique pour les producteurs nucléaires",
+   "sentence": "Cette position me paraît d'autant plus justifiée que la directive libéralisant le marché intérieur de l'électricité ne prévoit aucune règle spécifique pour les producteurs nucléaires et ne fait pas de distinction en fonction de la source de l'électricité produite"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "la directive sur le marché intérieur de l'électricité ne prévoient d'exceptions concernant des subventions au nucléaire",
+   "sentence": "Monsieur le Commissaire, vous dites que ni le traité ni la directive sur le marché intérieur de l'électricité ne prévoient d'exceptions concernant des subventions au nucléaire"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Elle ne prévoit pas cela ne pourra être possible que",
+   "sentence": "Elle ne prévoit pas, cela ne pourra être possible que dans un document plus technique découlant de l'application même de la Charte, la définition des mesures de nature sectorielle qui pourront être mises en uvre dans le cadre de l'Union, en fonction de l'adoption de cette Charte"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Parce que notre droit statutaire le règlement ne prévoit pas de façon explicite ce qu'il faut",
+   "sentence": "Parce que notre droit statutaire, le règlement, ne prévoit pas de façon explicite ce qu'il faut faire dans une situation comme celle-ci"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "L'article du traité ne prévoit qu'une consultation du Parlement à ce propos",
+   "sentence": "L'article 13 du traité ne prévoit qu'une consultation du Parlement à ce propos"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyons",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "En ce qui concerne ce dernier point nous ne prévoyons aucune amputation de la liste des produits",
+   "sentence": "En ce qui concerne ce dernier point, nous ne prévoyons aucune amputation de la liste des produits pouvant donner lieu à une restitution"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le système d'homologation européen ne prévoit pas de dérogation",
+   "sentence": "Le système d'homologation européen ne prévoit pas de dérogation"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "espace réservé au texte d'avertissement plus important que ne le prévoyait la proposition de la Commission",
+   "sentence": "(SV) Les chrétiens-démocrates suédois ont voté aujourd'hui pour l'application de règles plus sévères pour l'industrie du tabac, y compris l'obligation de prévoir sur les paquets de cigarettes un espace réservé au texte d'avertissement plus important (40 %) que ne le prévoyait la proposition de la Commission (25 %)"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "des paliers plus clairs et plus rapides que ne le prévoit le Conseil",
+   "sentence": "Il s'agit donc de mettre un uvre un processus progressif mais avec des paliers plus clairs et plus rapides que ne le prévoit le Conseil"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "de la position commune ne prévoit qu'une seule possibilité de prolongation de cinq",
+   "sentence": "2 de la position commune ne prévoit qu'une seule possibilité de prolongation de cinq ans du délai imparti pour satisfaire à ces conditions"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Non Monsieur Blokland le règlement ne prévoit pas qu'on puisse mettre aux voix le",
+   "sentence": "Non, Monsieur Blokland, le règlement ne prévoit pas qu'on puisse mettre aux voix le report d'une urgence"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "le fait que le projet de budget ne prévoit aucun moyen pour la Serbie ou de",
+   "sentence": "le fait que le projet de budget ne prévoit aucun moyen pour la Serbie, ou de très faibles moyens, constitue à mon sens un mauvais signal"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le fait que la proposition de la Commission ne prévoie aucune mesure d'intégration est une autre erreur",
+   "sentence": "Le fait que la proposition de la Commission ne prévoie aucune mesure d'intégration est une autre erreur cruciale"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "ce contexte et même si divers accords internationaux ne prévoient aucun droit au regroupement familial je me",
+   "sentence": "Dans ce contexte, et même si divers accords internationaux ne prévoient aucun droit au regroupement familial, je me réjouis, sur le fond, de la proposition de la Commission en vue de la mise en place d'un instrument juridique communautaire dans le domaine du regroupement familial"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Attendu toutefois que la constitution allemande ne prévoit justement pas un tel référendum vos déclarations",
+   "sentence": "Attendu, toutefois, que la constitution allemande ne prévoit justement pas un tel référendum, vos déclarations ont été perçues comme un appel à l'introduction d'un référendum et, dès lors, comme une tentative de repousser l'élargissement à l'est de l'Union européenne"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "clonage d'embryons à des fins de reproduction et ne prévoit pas de financement des recherches sur le",
+   "sentence": "Ce n'est pas un hasard si le cinquième programme-cadre pour la recherche et le développement technologique pour la période 1998-2002 exclut le financement de projets qui induisent le clonage d'embryons à des fins de reproduction et ne prévoit pas de financement des recherches sur le clonage thérapeutique"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Troisièmement je voudrais préciser que l' article paragraphe ne prévoit pas de formalités de conditions ni de",
+   "sentence": "Troisièmement, je voudrais préciser que l' article 7, paragraphe 1, ne prévoit pas de formalités, de conditions, ni de critères additionnels en ce qui concerne les contrôles techniques des véhicules"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le programme d'action à l'examen ne prévoit pas suffisamment de ressources pour remplacer les",
+   "sentence": "Le programme d'action à l'examen ne prévoit pas suffisamment de ressources pour remplacer les travaux pertinents du cinquième programme-cadre - travaux dont, je l'espère, la poursuite sera garantie dans les autres programmes-cadres - et nous devons par conséquent veiller à leur complémentarité"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Or notre règlement ne prévoit aucune motion d'ordre",
+   "sentence": "Or, notre règlement ne prévoit aucune motion d'ordre"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "par rapport à l'année précédente et qu'aucune décision ne prévoit une telle augmentation",
+   "sentence": "Je dois attirer l'attention sur le fait que les décisions de Berlin permettraient d'augmenter les paiements de 6,1 % par rapport à l'année précédente et qu'aucune décision ne prévoit une telle augmentation"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "planification financière prévue l'année dernière pour les Balkans ne prévoyait que milliard d'euros pour l'ensemble de la",
+   "sentence": "Je me permets de rappeler que la planification financière prévue l'année dernière pour les Balkans ne prévoyait que 1,85 milliard d'euros pour l'ensemble de la période courant jusqu'à 2006"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "sont naturellement fixées dans l'accord interinstitutionnel mais il ne prévoit en rien d'utiliser la réserve de flexibilité",
+   "sentence": "Des conditions précises sont naturellement fixées dans l'accord interinstitutionnel mais il ne prévoit en rien d'utiliser la réserve de flexibilité avant tout autre instrument"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "De Rossa je vous signale que le règlement ne prévoit pas la réplique des députés",
+   "sentence": "Monsieur De Rossa, je vous signale que le règlement ne prévoit pas la réplique des députés"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le nouvel accord de financement ne prévoit rien à ce sujet",
+   "sentence": "Le nouvel accord de financement ne prévoit rien à ce sujet"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "d'un vote est déclaré et que le règlement ne prévoit pas de rouvrir le débat cela pourrait",
+   "sentence": "Depuis, il m'est venu à l'esprit que si le résultat d'un vote est déclaré et que le règlement ne prévoit pas de rouvrir le débat, cela pourrait donner lieu, étant donné la fréquence alarmante avec laquelle une série de machines ne fonctionnent pas, à de sérieuses difficultés"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "d'octobre pour des raisons de vote du budget ne prévoit pas la présentation de résolutions d'urgence",
+   "sentence": "Cette période de session d'octobre, pour des raisons de vote du budget, ne prévoit pas la présentation de résolutions d'urgence"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Cette Charte ne prévoit aucun organisme en mesure de faire respecter",
+   "sentence": "Cette Charte ne prévoit aucun organisme en mesure de faire respecter les principes et les droits qu'elle énonce"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Enfin la Charte ne prévoit pas d'articles consacrés aux devoirs qui sont",
+   "sentence": "Enfin, la Charte ne prévoit pas d'articles consacrés aux devoirs qui sont, pourtant, la contrepartie des droits"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "biais de nouveaux régimes d'aide et le budget ne prévoit d'ailleurs aucun crédit à cette fin",
+   "sentence": "Nous n'arriverons pas à réformer la politique agricole par le biais de nouveaux régimes d'aide, et le budget ne prévoit d'ailleurs aucun crédit à cette fin"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "le bon sens tout en déplorant qu' il ne prévoie pas",
+   "sentence": "Nous voterons donc ce rapport qui va dans le bon sens, tout en déplorant qu' il ne prévoie pas"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "l' autorisation de mise sur le marché AMM ne prévoit pas l' utilisation chez l' enfant",
+   "sentence": "Faute de données, l' autorisation de mise sur le marché (AMM) ne prévoit pas l' utilisation chez l' enfant"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "basée sur l'article qui comme vous le savez ne prévoit pas actuellement d'obligation légale de consulter le",
+   "sentence": "La proposition de la Commission est basée sur l'article 133 qui, comme vous le savez, ne prévoit pas actuellement d'obligation légale de consulter le Parlement"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "de la Commission à moins que celle ci ne prévoie un mécanisme suffisamment souple pour que le",
+   "sentence": "En conséquence, je ne cache pas que mon pays éprouvera une énorme difficulté à accepter la proposition de la Commission, à moins que celle-ci ne prévoie un mécanisme suffisamment souple pour que le mode de vie que nous avons hérité de nos ancêtres, par ailleurs tant appréciée aussi bien par les Espagnols que par les visiteurs étrangers, puisse être maintenu"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "situation n'est elle pas suffisamment claire pour qu'on ne prévoie pas d'examen approfondi avant mai",
+   "sentence": "La situation n'est-elle pas suffisamment claire, pour qu'on ne prévoie pas d'examen approfondi avant mai 2001"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "La Commission européenne ne prévoit pas de limite géographique au dispositif de",
+   "sentence": "La Commission européenne ne prévoit pas de limite géographique au dispositif de réaction rapide (DRR)"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "un problème secondaire parce que l'article du Règlement ne prévoit pas que sur un thème de ce",
+   "sentence": "De toute façon, ceci est un problème secondaire, parce que l'article 146 du Règlement ne prévoit pas que sur un thème de ce genre l'on décide maintenant"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "projet de loi d'ailleurs déposé à la Douma ne prévoit il pas la possibilité d'intégrer un État",
+   "sentence": "Un projet de loi, d'ailleurs, déposé à la Douma, ne prévoit-il pas la possibilité d'intégrer un État étranger ou partie de celui-ci, même en l'absence de frontières"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "et qui provient du fait que le Traité ne prévoit pas la moindre disposition positive en matière",
+   "sentence": "Ce faisant, on lèverait le dilemme auquel nous sommes encore confrontés et qui provient du fait que le Traité ne prévoit pas la moindre disposition positive en matière de politique commerciale"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le pays observé ne prévoit pas la présence d'un de ses experts",
+   "sentence": "Le pays observé ne prévoit pas la présence d'un de ses experts nationaux et donc, l'action est, disons, assez libre"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "La Commission ne prévoit pas de mettre en place des programmes",
+   "sentence": "La Commission ne prévoit pas de mettre en place des programmes d'examens médicaux"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "autorités locales et régionales soient davantage impliqués que ne le prévoit la proposition de la Commission",
+   "sentence": "Nous souhaiterions donc que la population soit davantage informée et que les partenaires sociaux, les autorités locales et régionales soient davantage impliqués que ne le prévoit la proposition de la Commission"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Sur ce point la proposition de la Commission ne prévoit pas que l'analyse et l'évaluation soient différenciées",
+   "sentence": "Sur ce point, la proposition de la Commission ne prévoit pas que l'analyse et l'évaluation soient différenciées par sexe, différenciation qui me semble indispensable si nous prenons en considération le fait que le chômage en Europe touche en majorité les femmes"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "un moment où le débat sur l'après Nice ne prévoit pas une annulation des politiques communautaires",
+   "sentence": "Ensuite, en soutenant cette position politique, nous donnerions un signal favorable à la renationalisation de la politique agricole commune, un signal absurde à un moment où le débat sur l'après-Nice ne prévoit pas une annulation des politiques communautaires"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "matière de mesures ciblées sont lacunaires et l'accord ne prévoit aucune disposition visant à garantir une mise",
+   "sentence": "Les dispositions de l'accord actuel en matière de mesures ciblées sont lacunaires et l'accord ne prévoit aucune disposition visant à garantir une mise en uvre transparente et une évaluation des résultats"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Aucune résolution de l' ONU ne prévoit un tel recours à la force",
+   "sentence": "Aucune résolution de l' ONU ne prévoit un tel recours à la force"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le règlement ne prévoit rien dans ce genre de circonstance",
+   "sentence": "Le règlement ne prévoit rien dans ce genre de circonstance"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "En réalité le projet ne prévoit de sanctions que dans le cas d'",
+   "sentence": "En réalité, le projet ne prévoit de sanctions que dans le cas d' immigrants illégaux totalement dépourvus de tout document, ce qu' évidemment un transporteur ne devrait pas pouvoir ignorer"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "problèmes juridiques car le texte de la convention ne prévoit l'adhésion que des États membres",
+   "sentence": "Il existe certains problèmes juridiques, car le texte de la convention ne prévoit l'adhésion que des États membres"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "déjà eu l'occasion de dire que la Commission ne prévoit aucune campagne publicitaire",
+   "sentence": "J'ai déjà eu l'occasion de dire que la Commission ne prévoit aucune campagne publicitaire"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "qui concerne la décision elle même le Traité ne prévoit pas d'autre méthode que celle de la",
+   "sentence": "En ce qui concerne la décision elle-même, le Traité ne prévoit pas d'autre méthode que celle de la conférence intergouvernementale"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "des États membres ou aux USA le Traité ne prévoit pas de législation secondaire notamment parce qu'il",
+   "sentence": "À l'opposé de ce qui prévaut dans la plupart des États membres ou aux USA, le Traité ne prévoit pas de législation secondaire, notamment parce qu'il n'existe pas au niveau communautaire d'organe exécutif auquel il est possible de déléguer ces compétences"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le Traité ne prévoit rien de tel",
+   "sentence": "Le Traité ne prévoit rien de tel"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyaient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "vrai dire s'est présenté plus vite que beaucoup ne le prévoyaient",
+   "sentence": "C'est un cas qui, à vrai dire, s'est présenté plus vite que beaucoup ne le prévoyaient"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "de ces crises sur les dépenses agricoles on ne prévoit pas de mesures compensatoires pour les agriculteurs",
+   "sentence": "La sécurité alimentaire est mentionnée - face à la crise de l'ESB et de la fièvre aphteuse - et on préconise une stratégie à long terme, mais on n'évalue pas les coûts de ces crises sur les dépenses agricoles, on ne prévoit pas de mesures compensatoires pour les agriculteurs - comme nous l'avons suggéré avec la proposition de création d'une réserve spéciale pour les questions de l'ESB - et on n'en"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "rapport Lamfalussy et avez envisagé une voie qui ne prévoit aucune possibilité de contrôle démocratique de la",
+   "sentence": "en matière de libéralisation du marché des capitaux, qui est nécessaire selon nous, vous avez soutenu le rapport Lamfalussy et avez envisagé une voie qui ne prévoit aucune possibilité de contrôle démocratique, de la part du Parlement, des normes qui seront élaborées"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "paragraphe du traité CE sachant que cet article ne prévoit la possibilité d'adopter des mesures restrictives que",
+   "sentence": "\" Dans sa réponse à la question H-0024/01, la Commission a indiqué que selon elle, si un État membre introduit une taxe d'application générale telle que conçue à l'origine par le professeur Tobin (taxe Tobin), cette taxe est probablement contraire à l'article 56, de même qu'aux articles 12, 39, 43 et 49 et aux articles correspondants de l'accord EEE, et qu'une telle taxe, si elle est introduite au"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "important que les exceptions soient plus limitées que ne le prévoyait la Commission",
+   "sentence": "Il est également important que les exceptions soient plus limitées que ne le prévoyait la Commission"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "justifiées les demandes seront examinées plus rapidement que ne le prévoyait la proposition initiale et il est établi",
+   "sentence": "tous les documents sont en principe visés, y compris les documents internes, le nombre d'exceptions a été réduit et celles-ci doivent être dûment justifiées, les demandes seront examinées plus rapidement que ne le prévoyait la proposition initiale et il est établi que les autorités danoises pourront continuer à examiner les demandes d'accès du public aux documents en vertu des règles en vigueur au"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "de l'amendement ne peut être acceptée car elle ne prévoit pas l'information des autres États membres dans",
+   "sentence": "Toutefois, la formulation de l'amendement 6 ne peut être acceptée car elle ne prévoit pas l'information des autres États membres dans un souci de cohérence"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "proposition soit une simple prise de position qui ne prévoit pas comment imposer ses recommandations nous avons",
+   "sentence": "Recommandation Ludford (B5-0340/2001) Bien que cette proposition soit une simple prise de position qui ne prévoit pas comment imposer ses recommandations, nous avons voté pour car le racisme, la xénophobie et l'antisémitisme sont parmi les pires formes de barbarie qui poussent sur le terreau de la société actuelle"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyons",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Nous ne prévoyons pas non plus une telle harmonisation dans",
+   "sentence": "Nous ne prévoyons pas non plus une telle harmonisation dans le futur"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "règlement l'autre règlement suive une voie diverse qui ne prévoit pas la possibilité de le modifier juridiquement",
+   "sentence": "Nous demandons un engagement explicite de la Commission, parce que nous ne voudrions pas que, pendant que nous discutons et que nous intervenons juridiquement sur le règlement 1638, l'autre règlement suive une voie diverse, qui ne prévoit pas la possibilité de le modifier juridiquement"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "juridique sur quelque sujet que ce soit qui ne prévoie pas de sanctions en cas de non",
+   "sentence": "Il n'y a aucune norme juridique, sur quelque sujet que ce soit, qui ne prévoie pas de sanctions en cas de non-respect de la loi"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "que le Parlement européen sera d'accord mais on ne prévoit pas les moyens financiers nécessaires",
+   "sentence": "on suppose que le Parlement européen sera d'accord mais on ne prévoit pas les moyens financiers nécessaires"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "la raison précise que ce traité de Nice ne prévoit aucun nouveau transfert de compétence à l'Union",
+   "sentence": "Pour la raison précise que ce traité de Nice ne prévoit aucun nouveau transfert de compétence à l'Union européenne"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "comme des partenaires adultes même si le Traité ne le prévoit pas encore formellement",
+   "sentence": "Vous devez nous considérer comme des partenaires adultes, même si le Traité ne le prévoit pas encore formellement"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "elle interdit la production d' armes biologiques elle ne prévoit aucun moyen permettant de vérifier leur éventuelle",
+   "sentence": "Le problème de cette Convention tient au fait que, alors qu' elle interdit la production d' armes biologiques, elle ne prévoit aucun moyen permettant de vérifier leur éventuelle production en catimini"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le plan ne le prévoit pas",
+   "sentence": "Le plan ne le prévoit pas"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévois",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "je ne prévois pour ma part aucune aggravation de la",
+   "sentence": "je ne prévois, pour ma part, aucune aggravation de la situation et, je tiens à le préciser, je ne la souhaite pas non plus"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "moniste qui existe par exemple en Grande Bretagne ne prévoit qu'un organe administratif chargé de la direction",
+   "sentence": "le système moniste, qui existe par exemple en Grande-Bretagne, ne prévoit qu'un organe administratif chargé de la direction et de la surveillance"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "En un règlement relatif à cette société européenne ne prévoyait de manière unilatérale que le modèle allemand",
+   "sentence": "En 1970, un règlement relatif à cette société européenne ne prévoyait de manière unilatérale que le modèle allemand de cogestion, alors que la cogestion n' est justement pas exportable"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "qui se plaignait de ce que cette législation ne prévoit pas en particulier dans les domaines de",
+   "sentence": "Medina Ortega, qui se plaignait de ce que cette législation ne prévoit pas, en particulier dans les domaines de l'harmonisation sociale et fiscale - omissions que je salue pour ma part"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "pas nous plaindre de ce que cette législation ne prévoit pas",
+   "sentence": "Mais, quelle que soit notre position au sein de cette Assemblée, nous ne devrions absolument pas nous plaindre de ce que cette législation ne prévoit pas"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "part des entreprises des principes de la directive ne prévoit pas dans l'absolu et encore moins de",
+   "sentence": "La conséquence en est que, au cours de ces dernières années, on a assisté à de nombreux contentieux et recours à la magistrature, précisément parce que le non-respect, de la part des entreprises, des principes de la directive ne prévoit pas dans l'absolu, et encore moins de manière automatique, une mise en discussion du caractère valable des conséquences de la décision prise"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "La législation communautaire ne prévoit à l'heure actuelle aucune limite supérieure applicable",
+   "sentence": "La législation communautaire ne prévoit, à l'heure actuelle, aucune limite supérieure applicable au taux de HAP dans les aliments"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Nous regrettons seulement que le rapport ne prévoit pas l'obligation formelle pour les entreprises d'accorder",
+   "sentence": "Nous regrettons seulement que le rapport ne prévoit pas l'obligation formelle pour les entreprises d'accorder le temps nécessaire à leurs salariés pour donner leur sang et de supprimer les procédures d'autorisation tracassières qui découragent les bonnes volontés"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyaient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "incluant des scénarios d'accident possibles mais ceux ci ne prévoyaient pas une explosion massive de nitrate d'ammonium",
+   "sentence": "Selon des informations que nous avons reçues du ministre français de l'environnement, l'exploitant du site avait procédé à une analyse de risque, incluant des scénarios d'accident possibles, mais ceux-ci ne prévoyaient pas une explosion massive de nitrate d'ammonium"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "justement qu'en ce qui concerne Ignalina la Commission ne prévoit pas la possibilité d'un quelconque compromis",
+   "sentence": "Je souhaiterais saisir l'occasion pour indiquer justement, qu'en ce qui concerne Ignalina, la Commission ne prévoit pas la possibilité d'un quelconque compromis"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "mais on ne pouvait sûrement pas imaginer qu'elle ne prévoie aucune échéance",
+   "sentence": "Monsieur le Président, cette directive, qui a été conçue en 1989, porte le titre très suggestif de \"Télévision sans frontières\", mais on ne pouvait sûrement pas imaginer qu'elle ne prévoie aucune échéance"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "La convention d'Aarhus ne le prévoit pas explicitement tout comme la directive sur",
+   "sentence": "La convention d'Aarhus ne le prévoit pas explicitement, tout comme la directive sur l'évaluation environnementale stratégique des plans et programmes ne couvre pas l'accès à la justice"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "assurer l' égalité entre hommes et femmes mais ne prévoit nullement l' adoption de mesures positives qui",
+   "sentence": "Le programme national relatif à l' adhésion à l' Union européenne parle de revoir la Constitution afin d' assurer l' égalité entre hommes et femmes, mais ne prévoit nullement l' adoption de mesures positives, qui permettraient, ainsi que le soulignent les organisations féminines, de changer toutes les lois instaurant des discriminations à l' égard des femmes"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "pour ce jeudi après midi une solution qui ne prévoie pas de votes",
+   "sentence": "En d' autres termes, je voudrais vous demander, Monsieur le Président, si vous avez déjà envisagé, au sein de la présidence de ce Parlement, des moyens permettant d' augmenter considérablement le nombre de membres présents le jeudi à 18h30, ou de trouver pour ce jeudi après- midi une solution qui ne prévoie pas de votes"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "drogue dans la liste des infractions principales et ne prévoyait de manière contraignante que les banques et",
+   "sentence": "Cette norme minimale prévoyait l'inclusion des délits liés à la drogue dans la liste des infractions principales et ne prévoyait, de manière contraignante, que les banques et les fournisseurs de services financiers parmi les groupes professionnels étant tenus de participer à la lutte contre le blanchiment de capitaux"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "que l'organisation juridique de l'âge de la pierre ne le prévoyait pas non plus",
+   "sentence": "Je suis d'ailleurs relativement convaincu que l'organisation juridique de l'âge de la pierre ne le prévoyait pas non plus"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévois",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Je ne prévois cependant pas l'émergence d'un tel problème",
+   "sentence": "Je ne prévois cependant pas l'émergence d'un tel problème"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "En outre la proposition de la Commission ne prévoit rien pour harmoniser la taxe sur la",
+   "sentence": "En outre, la proposition de la Commission ne prévoit rien pour harmoniser la taxe sur la valeur ajoutée"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "de manuvre dans des domaines où le Traité ne le prévoit pas explicitement soit à un scénario qui",
+   "sentence": "Nous devons avant tout éviter que la déclaration de Laeken n'ouvre la porte soit à des scénarios qui \"bétonneraient\" les compétences de l'Union européenne, qui n'offriraient à l'Europe aucune marge de manuvre dans des domaines où le Traité ne le prévoit pas explicitement, soit à un scénario qui reposerait sur des listes de compétences"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le compromis ne prévoit pas d'octroyer à la Commission des pouvoirs",
+   "sentence": "Le compromis ne prévoit pas d'octroyer à la Commission des pouvoirs importants afin d'intervenir pour des questions ayant trait au spectre radioélectrique"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "semblent formuler des exigences que leurs propres lois ne prévoient pas telles que la rétention de données",
+   "sentence": "Certaines d'entre elles suscitent quelques doutes étant donné que les États-Unis semblent formuler des exigences que leurs propres lois ne prévoient pas, telles que la rétention de données relatives au trafic"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "populi vox dei quand bien même le règlement ne le prévoit pas",
+   "sentence": "\"Vox populi, vox dei\", quand bien même le règlement ne le prévoit pas"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "on ne prévoit pas de permettre l'accès à ces moyens",
+   "sentence": "on ne prévoit pas de permettre l'accès à ces moyens de communication électroniques - c'est-à-dire à la télévision, à l'Internet, à la téléphonie mobile - à des tarifs raisonnables pour les personnes âgées et les retraités qui touchent une pension modeste et auraient le droit d'accéder à ces moyens de communication électronique sans autre charge financière, voire avec une aide des États membres"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "de l'eau de l'énergie et des transports l'on ne prévoit pas de modifier l'article qui est pourtant",
+   "sentence": "Ceci vaut tout d'abord pour la proposition de directive sur les passations de marchés publics de fournitures, de services et de travaux, dont l'article 53 va être modifié pour qu'il soit beaucoup plus facile de tenir compte de l'environnement, tandis que dans le second texte, à savoir la proposition de directive sur les passations de marchés publics concernant les secteurs de l'eau, de l'énergie e"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoirait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "du paragraphe ou tout autre compromis similaire qui ne prévoirait aucun plafond n'est pas acceptable",
+   "sentence": "Aussi, la deuxième partie du paragraphe 57 ou tout autre compromis similaire qui ne prévoirait aucun plafond n'est pas acceptable"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "accrus auxquels ils sont confrontés et qu' il ne prévoit pas d' actions particulières pour leur insertion",
+   "sentence": "Dans la mesure où il ignore leurs besoins spécifiques, qu' il passe outre les problèmes accrus auxquels ils sont confrontés et qu' il ne prévoit pas d' actions particulières pour leur insertion sociale, en réalité, c' est comme s' il leur fermait la porte"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "SV Le processus de Lisbonne ne prévoit pas une stratégie unifiée mais deux stratégies",
+   "sentence": "- (SV) Le processus de Lisbonne ne prévoit pas une stratégie unifiée, mais deux stratégies différentes que l'on a tout juste réunies sous la bannière d'une même décision"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "au Collège des questeurs même si le règlement ne prévoit pas de disposition spéciale pour les députés",
+   "sentence": "Balfe est habilité à conserver son siège au Collège des questeurs, même si le règlement ne prévoit pas de disposition spéciale pour les députés changeant deux fois de groupe en l'espace de deux mois"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévois",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Il n'existe pas de marché unique et je ne le prévois pas pour un proche avenir",
+   "sentence": "Il n'existe pas de marché unique et je ne le prévois pas pour un proche avenir"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "préservera",
+   "lemma": "preserver",
+   "partner": true,
+   "window": "On ne préservera pas la biodiversité en se passant des",
+   "sentence": "On ne préservera pas la biodiversité en se passant des agriculteurs"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "même baptisées directive dès lors que celle ci ne prévoit aucun barème de sanction vraiment contraignant",
+   "sentence": "Quant aux \"initiés\", on voit mal comment ils pourraient être dissuadés par des déclarations d'intention, même baptisées directive, dès lors que celle-ci ne prévoit aucun barème de sanction vraiment contraignant"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "ce qui est de l'indemnisation les dispositions européennes ne prévoient pas d'indemnisations directes dans une situation de",
+   "sentence": "Pour ce qui est de l'indemnisation, les dispositions européennes ne prévoient pas d'indemnisations directes dans une situation de ce type"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Il ne prévoit toutefois aucune mesure spécifique avant le mois",
+   "sentence": "Il ne prévoit toutefois aucune mesure spécifique avant le mois de juin et, de plus, le rapport du Secrétaire général au Conseil limite les documents concernés par la transparence aux textes législatifs soumis à la codécision"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "La modification envisagée de l'accord de Schengen ne prévoit en principe rien d'autre qu'attribuer des pouvoirs",
+   "sentence": "La modification envisagée de l'accord de Schengen ne prévoit en principe rien d'autre qu'attribuer des pouvoirs supplémentaires à la police étrangère lorsqu'elle est en mission d'observation transfrontalière"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "le règlement financier de l'Union européenne ne prévoit pas de séparation entre la position du",
+   "sentence": "le règlement financier de l'Union européenne ne prévoit pas de séparation entre la position du Parlement en matière de gestion financière et celle des différents groupes représentés dans ce Parlement"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "inacceptable ledit régime d'Alicante pour la marque commerciale ne prévoit que l'utilisation des langues de cinq grands",
+   "sentence": "Mais le régime linguistique proposé dans ce rapport est totalement inacceptable, ledit \"régime d'Alicante\" pour la marque commerciale ne prévoit que l'utilisation des langues de cinq grands pays, en contradiction avec le principe de non-discrimination entre les entreprises"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "projet la Commission propose une OCM souple qui ne prévoit aucun mécanisme d'intervention à charge du FEOGA",
+   "sentence": "Dans son nouveau projet, la Commission propose une OCM \"souple\" qui ne prévoit aucun mécanisme d'intervention à charge du FEOGA et des restitutions à l'exportation"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "plus de trois ans affirmait que la Commission ne prévoyait pas de convoquer d'urgence la commission mixte",
+   "sentence": "Cappato sur ces militants laotiens emprisonnés depuis plus de trois ans, affirmait que la Commission ne prévoyait pas de convoquer d'urgence la commission mixte qui aurait suivi les canaux déjà activés"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "à l'enfance une période de la vie qui ne prévoit pas par exemple l'usage des fusils",
+   "sentence": "Nous croyons que toute forme de travail des enfants constitue une violation du droit à l'enfance, une période de la vie qui ne prévoit pas, par exemple, l'usage des fusils"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Dès lors que les traités ne prévoient pas un tel dispositif l'Union européenne doit",
+   "sentence": "Dès lors que les traités ne prévoient pas un tel dispositif, l'Union européenne doit contribuer à améliorer et encourager la coopération dans ce secteur afin de concrétiser le formidable potentiel qu'offre le tourisme"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "le traité ne prévoit pas de compétences communautaires dans le domaine",
+   "sentence": "le traité ne prévoit pas de compétences communautaires dans le domaine du tourisme puisque n'y figure qu'une allusion ponctuelle à l'article 2, qui ne peut pas servir de base juridique"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "celui qui regrette que le projet du Conseil ne prévoie pas la possibilité de listes européennes transnationales",
+   "sentence": "En revanche, l'avis conforme serait assorti de considérants dont beaucoup sont contestables, par exemple celui qui regrette que le projet du Conseil ne prévoie pas la possibilité de listes européennes transnationales"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Celui ci ne prévoit plus aucun contrôle financier indépendant qui vérifie",
+   "sentence": "Celui-ci ne prévoit plus aucun contrôle financier indépendant qui vérifie le travail accompli avant que les comptes du budget de l'UE ne soient faits"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyons",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "fort tard de nos régions frontalières et encore ne prévoyons nous à cet effet que des moyens",
+   "sentence": "Il faut dire en outre que nous ne nous soucions que fort tard de nos régions frontalières et encore ne prévoyons-nous à cet effet que des moyens financiers insuffisants"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Elle a un caractère trop incertain et ne prévoit pas la possibilité de contrôler démocratiquement par",
+   "sentence": "Elle a un caractère trop incertain et ne prévoit pas la possibilité de contrôler démocratiquement, par la voie parlementaire, la façon dont l'industrie automobile assume ses responsabilités"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le projet de budget ne prévoit rien pour la réduction des RAL",
+   "sentence": "Le projet de budget ne prévoit rien pour la réduction des RAL"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "tout simplement impossible et impraticable que les propositions ne prévoient pas de tolérer sous certaines conditions la",
+   "sentence": "Il serait tout simplement impossible et impraticable que les propositions ne prévoient pas de tolérer, sous certaines conditions, la présence de traces infimes d'OGM ou de matériel génétiquement modifié dans les aliments"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévois",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Je ne prévois pas de changement à ce niveau à",
+   "sentence": "Je ne prévois pas de changement à ce niveau à l'avenir"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "raisonnablement satisfaits parce que la proposition de révision ne prévoit que la fixation de nouveaux objectifs pour",
+   "sentence": "J'insiste sur le \"raisonnablement\" satisfaits, parce que la proposition de révision ne prévoit que la fixation de nouveaux objectifs pour la valorisation et le recyclage des déchets"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "La récente proposition concernant la traçabilité et l'étiquetage ne prévoit pas d'étiquetage pour les produits animaux fabriqués",
+   "sentence": "La récente proposition concernant la traçabilité et l'étiquetage ne prévoit pas d'étiquetage pour les produits animaux fabriqués avec des aliments génétiquement modifiés pour animaux"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyons",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Il y a deux raisons pour lesquelles nous ne prévoyons pas de rotation de friches dans notre",
+   "sentence": "Il y a deux raisons pour lesquelles nous ne prévoyons pas de rotation de friches dans notre proposition de révision à mi-parcours"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "de protection bien plus élevé que ce que ne prévoient les propositions actuelles",
+   "sentence": "Il serait en effet absurde de pénaliser des aéroports qui offrent un niveau de protection bien plus élevé que ce que ne prévoient les propositions actuelles"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "parce que sa base juridique l'article du Traité ne prévoit pas d'actions dans ce domaine",
+   "sentence": "C'est une directive qui exclut l'action contre la violence parce que sa base juridique, l'article 13 du Traité, ne prévoit pas d'actions dans ce domaine"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le cadre de l'ONU ne prévoit pas la guerre préventive ou la guerre",
+   "sentence": "Le cadre de l'ONU ne prévoit pas la guerre préventive ou la guerre pour éliminer un gouvernement indésiré, et nous devons en tenir compte"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyaient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "faites à Milosevic avant l'éclatement de la guerre ne prévoyaient bizarrement pas l'indépendance du Kosovo mais bien",
+   "sentence": "Les propositions contraignantes qui avaient été faites à Milosevic avant l'éclatement de la guerre ne prévoyaient, bizarrement, pas l'indépendance du Kosovo, mais bien une influence étrangère sur l'administration et l'économie en Serbie et au Monténégro"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "également demandé pourquoi la révision à mi parcours ne prévoit aucune proposition sur le tabac sur le",
+   "sentence": "Plusieurs députés ont également demandé pourquoi la révision à mi-parcours ne prévoit aucune proposition sur le tabac, sur le sucre et sur le lait"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "il n'est pas contraignant et ne prévoit pas de sanctions à l'encontre de ceux",
+   "sentence": "il n'est pas contraignant et ne prévoit pas de sanctions à l'encontre de ceux qui continuent de livrer des armes dans des zones de conflit"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Aucune disposition ne prévoit d'excuse ni de corrections en cas d'erreur",
+   "sentence": "Aucune disposition ne prévoit d'excuse ni de corrections en cas d'erreur"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Il ne prévoit pas l'adhésion de dix nouveaux États membres",
+   "sentence": "Il ne prévoit pas l'adhésion de dix nouveaux États membres"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "condamner le fait que la collaboration régionale proposée ne prévoit aucun rôle pour les femmes et les",
+   "sentence": "Enfin, je tiens à condamner le fait que la collaboration régionale proposée ne prévoit aucun rôle pour les femmes et les organisations représentant les femmes"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Elle ne prévoit pas la possibilité de dissoudre l'Assemblée nationale",
+   "sentence": "Elle ne prévoit pas la possibilité de dissoudre l'Assemblée nationale en cas de crise majeure et cela peut ouvrir la voie à une réaction politique des plus violentes"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "C'est pourquoi ni le Traité ni le pacte ne prévoient d'objectifs stricts à respecter en toutes circonstances",
+   "sentence": "C'est pourquoi ni le Traité ni le pacte ne prévoient d'objectifs stricts à respecter en toutes circonstances ou de calendrier obligatoire"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "en vertu de l'article de la Constitution mais ne prévoit pas le droit à une protection subsidiaire",
+   "sentence": "Le droit constitutionnel allemand effectue en principe cette distinction puisqu'il définit le droit à réclamer une protection contre les persécutions politiques en vertu de l'article 16 de la Constitution mais ne prévoit pas le droit à une protection subsidiaire"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "et de l'élargissement mais le traité de Nice ne prévoit ni la création de nouveaux emplois ni",
+   "sentence": "Les Irlandais ont voté massivement en faveur de la création de nouveaux emplois, de la neutralité de leur pays et de l'élargissement, mais le traité de Nice ne prévoit ni la création de nouveaux emplois ni la neutralité du pays"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "sommes bien dans le cadre de l'article qui ne prévoit pas la notion d'auteur",
+   "sentence": "Nous sommes bien dans le cadre de l'article 37, qui ne prévoit pas la notion d'auteur"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Si le règlement ne le prévoit pas il le devrait",
+   "sentence": "Si le règlement ne le prévoit pas, il le devrait"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "membres des débats sur l'application adéquate car elle ne prévoit souvent pas de réglementation concrète mais laisse",
+   "sentence": "Je pense que la directive entraînera, dans les États membres, des débats sur l'application adéquate, car elle ne prévoit souvent pas de réglementation concrète, mais laisse aux organes de surveillance nationaux une vaste marge d'appréciation"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "conséquences économiques et sociales de la réforme ils ne prévoient pas de budget pour une réforme si",
+   "sentence": "Naturellement, je suis pour la conservation des ressources, je n'ai rien contre cela, au contraire, mais le rapport et la commission n'envisagent pas comme il se doit les conséquences économiques et sociales de la réforme, ils ne prévoient pas de budget pour une réforme si importante, ils maintiennent le principe de stabilité relative, qui s'avère discriminatoire aujourd'hui et autorise les privil"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Chris Davies qui ne prévoit pas au moins une période de dix",
+   "sentence": "Chris Davies, qui ne prévoit pas au moins une période de dix ans d'utilisation dans l'Union européenne, notamment parce que - sur la base de la constitution génétique des différentes populations -, sans un usage prolongé dans les États membres, de graves effets toxiques peuvent surgir"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Il ne prévoit pas un régime d'approbation préalable des fusions",
+   "sentence": "Il ne prévoit pas un régime d'approbation préalable des fusions"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "ne prévoit pas de la moindre manière que ce",
+   "sentence": "ne prévoit pas, de la moindre manière que ce soit, une révision du pacte de stabilité, des objectifs politico-économiques et politiques sous-jacents"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Ce paragraphe ne prévoit plus la ratification de la décision sur",
+   "sentence": "Ce paragraphe ne prévoit plus la ratification de la décision sur les ressources propres par les parlements nationaux"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "La proposition qui est présentée ne prévoit que la mise en place d'un système",
+   "sentence": "La proposition qui est présentée ne prévoit que la mise en place d'un système d'information entre les États membres concernant les déchéances de droits imposées par une sentence pénale, mais ne prévoit aucun type de reconnaissance mutuelle de la sentence prononcée en vue de son application, ce qui fait que les personnes condamnées et frappées d'une déchéance de droits ou d'une incapacité dans un É"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "de droits imposées par une sentence pénale mais ne prévoit aucun type de reconnaissance mutuelle de la",
+   "sentence": "La proposition qui est présentée ne prévoit que la mise en place d'un système d'information entre les États membres concernant les déchéances de droits imposées par une sentence pénale, mais ne prévoit aucun type de reconnaissance mutuelle de la sentence prononcée en vue de son application, ce qui fait que les personnes condamnées et frappées d'une déchéance de droits ou d'une incapacité dans un É"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "d'un particulier dans le cadre d'une décision pénale ne prévoit aucun type de reconnaissance mutuelle de la",
+   "sentence": "Or, cette initiative du Danemark, bien qu'elle vise à établir un système d'information entre les États membres concernant les déchéances de droits prononcées à l'encontre d'un particulier dans le cadre d'une décision pénale, ne prévoit aucun type de reconnaissance mutuelle de la sentence en vue de son application"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prescrivait",
+   "lemma": "prescrire",
+   "partner": true,
+   "window": "les règles pour nous et les autres institutions ne prescrivait par le passé que le principe de",
+   "sentence": "Le règlement financier, c'est-à-dire le texte qui fixe les règles pour nous et les autres institutions, ne prescrivait par le passé que le principe de la comptabilité de caisse"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Je pense que si la constitution européenne ne prévoit pas un chapitre ou un article solide",
+   "sentence": "Je pense que, si la constitution européenne ne prévoit pas un chapitre ou un article solide sur les services publics, ses auteurs risqueront de faire le jeu de ceux qui veulent la rejeter"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "les tableaux adoptés au Conseil européen de Copenhague ne prévoient pas encore de crédits d'aides financières pour",
+   "sentence": "les tableaux adoptés au Conseil européen de Copenhague ne prévoient pas encore de crédits - d'aides financières - pour la partie nord de Chypre"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "préserve",
+   "lemma": "preserver",
+   "partner": true,
+   "window": "des agents économiques portugais si la rédaction approuvée ne préserve pas les principes énoncés plus haut",
+   "sentence": "La problématique de l'autoassistance est la matière la plus controversée de la directive et celle qui aura le plus d'implications au niveau des agents économiques, notamment dans mon pays, notamment au niveau des agents économiques portugais, si la rédaction approuvée ne préserve pas les principes énoncés plus haut"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Nous sommes également inquiets que le présent texte ne prévoie pas de mécanisme pour la durabilité c'est",
+   "sentence": "Nous sommes également inquiets que le présent texte ne prévoie pas de mécanisme pour la durabilité, c'est-à-dire la dimension environnementale que toutes nos actions doivent réellement incorporer"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "parole du commissaire a déclaré que la Commission ne prévoyait pas de publier cette note",
+   "sentence": "Cet après-midi, le porte-parole du commissaire a déclaré que la Commission ne prévoyait pas de publier cette note"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "parce que le système juridique de l'Union européenne ne prévoit ni de compétences en matière de droit",
+   "sentence": "En effet, la proposition visant à créer un ministère public européen, compétent en matière de jugements et de délits au préjudice des intérêts financiers de la Communauté, est en vérité plutôt inacceptable pour la commission juridique parce que le système juridique de l'Union européenne ne prévoit ni de compétences en matière de droit de procédure pénale, ni de magistrature dotée de tous les degré"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le Traité ne prévoit pas en ce moment une telle possibilité",
+   "sentence": "Le Traité ne prévoit pas en ce moment une telle possibilité"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "produits de recherche et développement pour lesquels l'industrie ne prévoit pas de retour sur l'investissement",
+   "sentence": "Le programme financera les produits de recherche et développement pour lesquels l'industrie ne prévoit pas de retour sur l'investissement"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "qu'en fait le système juridique de l'Union européenne ne prévoit pas de compétences en matière de droit",
+   "sentence": "Mme Theato a fait preuve d'une grande sensibilité dans la prise en charge de ce problème parce qu'en fait, le système juridique de l'Union européenne ne prévoit pas de compétences en matière de droit pénal et de procédure pénale, ni de magistrature dotée de tous les degrés de juridiction à même de garantir le plein droit de la défense"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévois",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Je ne soutiens pas cette voie je ne la prévois pas non plus mais c'est un résultat",
+   "sentence": "Je ne soutiens pas cette voie, je ne la prévois pas non plus, mais c'est un résultat possible de ce rapport"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "fait que la réforme y compris des bâtiments ne prévoit pas d'élargir les langues et la communication",
+   "sentence": "Et je suis surprise par le fait que la réforme, y compris des bâtiments, ne prévoit pas d'élargir les langues et la communication, mais que c'est plutôt un esprit réductionniste qui a prévalu"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Il ne prévoit pas une réglementation en profondeur des questions",
+   "sentence": "Il ne prévoit pas une réglementation en profondeur des questions éthiques"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyons",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Si nous ne prévoyons pas de définitions claires nous encouragerons ceux",
+   "sentence": "Si nous ne prévoyons pas de définitions claires, nous encouragerons ceux qui n'ont pas vraiment l'intention de promouvoir la cogénération en Europe"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "qui montre que des États membres de l'Union ne prévoient pas de telles exemptions",
+   "sentence": "Il existe, Madame la Commissaire, une étude effectuée par la Commission elle-même qui montre que 10 des 15 États membres de l'Union ne prévoient pas de telles exemptions"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Cette proposition ne prévoit pas la possibilité pour les citoyens d'un",
+   "sentence": "Cette proposition ne prévoit pas la possibilité pour les citoyens d'un accès direct à la justice"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "delà du champ d'application du Traité actuel lequel ne prévoit pas explicitement la délégation de compétences législatives",
+   "sentence": "Mais la proposition ne peut dépasser ou aller au-delà du champ d'application du Traité actuel, lequel ne prévoit pas explicitement la délégation de compétences législatives à la Commission"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "traité sur l'Union européenne et que ceux ci ne prévoient hélas aucun rôle du Parlement européen",
+   "sentence": "Premièrement, en ce qui concerne le rôle du Parlement européen dans la procédure de conclusion de ces deux accords, je me vois forcé de vous rappeler - quand bien même c'est peut-être superflu - que ces textes sont négociés sur la base des articles 24 et 38 du traité sur l'Union européenne et que ceux-ci ne prévoient hélas aucun rôle du Parlement européen"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Dans certains cas les accords en vigueur ne prévoient pas actuellement les garanties adéquates",
+   "sentence": "Dans certains cas, les accords en vigueur ne prévoient pas, actuellement, les garanties adéquates"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "trouvées même là où des règles de l'OMS ne le prévoient pas expressément",
+   "sentence": "Il existe des précédents en matière de participation, au sein de l'OMS, d'organes ou organisations non étatiques, et cela démontre que des solutions peuvent être trouvées, même là où des règles de l'OMS ne le prévoient pas expressément"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "expérience jusqu'à présent nous montre que le Traité ne prévoit de base juridique que dans le domaine",
+   "sentence": "En ce qui concerne la légitimité démocratique de la méthode, notre expérience - jusqu'à présent - nous montre que le Traité ne prévoit de base juridique que dans le domaine de l'emploi"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "domaines politiques et le Traité sur l'Union européenne ne prévoit aucune base juridique à cette fin",
+   "sentence": "L'objectif de la méthode ouverte de coordination consiste à obtenir des effets juridiques dans différents domaines politiques, et le Traité sur l'Union européenne ne prévoit aucune base juridique à cette fin"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "envisagé dès lors qu'aucune disposition du règlement financier ne le prévoyait m'a rappelé des rencontres avec des gens",
+   "sentence": "La façon dont la Commission a déclaré que le doublement des montants à rembourser n'était pas envisagé dès lors qu'aucune disposition du règlement financier ne le prévoyait m'a rappelé des rencontres avec des gens qui disent des choses telles que \"on a toujours fait comme ça\", \"on n'a jamais fait comme ça\" et \"qui sait ce qu'il adviendrait"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le rapport de la commission ne le prévoyait pas le compromis le prévoit",
+   "sentence": "Le rapport de la commission ne le prévoyait pas, le compromis le prévoit"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "et aux pays d'origine des immigrés clandestins pourquoi ne prévoit on pas les mesures de protection sanitaires",
+   "sentence": "Par ailleurs, compte tenu des situations sanitaires extrêmement instables propres aux régions et aux pays d'origine des immigrés clandestins, pourquoi ne prévoit-on pas les mesures de protection sanitaires appropriées, notamment dans l'intérêt des immigrés"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyons",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "il garanti dans le temps alors que nous ne prévoyons pas de législation contraignante sur le sujet",
+   "sentence": "Ce choix sera-t-il garanti dans le temps, alors que nous ne prévoyons pas de législation contraignante sur le sujet de la coexistence mais que nous laissons aux États membres le soin de prendre des mesures appropriées"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "du cadre de la déclaration de Doha qui ne prévoit aucune limite de ce genre les mécontente",
+   "sentence": "Toute suggestion qui semble sortir du cadre de la déclaration de Doha, qui ne prévoit aucune limite de ce genre, les mécontente"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "des estimations beaucoup plus élevées que la proposition ne le prévoit",
+   "sentence": "nous nous trouvons dans la situation habituelle où les États membres font des estimations beaucoup plus élevées que la proposition ne le prévoit"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Statut de Rome dans la mesure où ils ne prévoient aucune disposition ferme destinée à éviter l'impunité",
+   "sentence": "Les accords que les États-Unis s'efforcent de conclure ne correspondent pas à nos conditions et ont clairement pour but de saper le Statut de Rome dans la mesure où ils ne prévoient aucune disposition ferme destinée à éviter l'impunité et où ils étendent l'impunité au-delà du cadre des ressortissants américains présents sur un territoire pour certains motifs militaires ou strictement administratif"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le Conseil ne prévoit pas d'exposer sa position sur l'avenir des",
+   "sentence": "Le Conseil ne prévoit pas d'exposer sa position sur l'avenir des Fonds structurels et du Fonds de cohésion dans les régions de l'objectif 1 durant la présidence italienne"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "nouvel État de résidence la France par exemple ne prévoit pas ce type de prestation la prestation",
+   "sentence": "Hughes et d'autres, stipule clairement que, si le nouvel État de résidence - la France, par exemple - ne prévoit, pas ce type de prestation, la prestation n'est pas payée"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Cette réforme pourtant ne prévoit absolument rien de tel pour les zones",
+   "sentence": "Cette réforme, pourtant, ne prévoit absolument rien de tel pour les zones connaissant les situations les plus graves"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "il est rédigé n'est pas satisfaisante car elle ne prévoit pas les situations de crises telles que",
+   "sentence": "Le pacte de stabilité et de croissance, dont la Commission est la garante et la Banque centrale européenne une partisane convaincue, reflète un idéal noble et fondamental, mais la manière dont il est rédigé n'est pas satisfaisante car elle ne prévoit pas les situations de crises telles que celle que nous traversons actuellement"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "même temps la nature inflexible de la proposition ne prévoit aucun mécanisme permettant de réviser la liste",
+   "sentence": "Dans le même temps, la nature inflexible de la proposition ne prévoit aucun mécanisme permettant de réviser la liste des \"États sûrs\" et d'ajouter ou de supprimer des pays"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Il ne prévoit pas la possibilité de réviser d'une manière",
+   "sentence": "Il ne prévoit pas la possibilité de réviser d'une manière plus souple les dispositions constitutionnelles les moins essentielles"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "D'autre part la future Constitution européenne ne prévoit pas non plus l'incorporation au régime linguistique",
+   "sentence": "D'autre part, la future Constitution européenne ne prévoit pas non plus l'incorporation au régime linguistique de l'Union des langues officiellement reconnues dans une partie des territoires des États membres, comme c'est le cas du catalan"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "La proposition actuelle de la Commission ne prévoit pas cette possibilité et doit donc être",
+   "sentence": "La proposition actuelle de la Commission ne prévoit pas cette possibilité et doit donc être adaptée à cet égard"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "S'agissant des investigations sur ce sujet la directive ne prévoit pas que les études doivent être menées",
+   "sentence": "S'agissant des investigations sur ce sujet, la directive ne prévoit pas que les études doivent être menées par la Commission elle-même"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Nous voterons contre une libéralisation prématurée qui ne prévoit pas de mesures d'accompagnement",
+   "sentence": "Nous voterons contre une libéralisation prématurée qui ne prévoit pas de mesures d’accompagnement"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Elle ne prévoit pas de calendrier en ce qui concerne",
+   "sentence": "Elle ne prévoit pas de calendrier en ce qui concerne le transport ferroviaire de personnes"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "et tenus à l'écart de ces programmes qui ne prévoient pas le remboursement de tous les frais",
+   "sentence": "D’autre part, nous savons déjà grâce à notre expérience d’autres projets, notamment le programme Erasmus traditionnel, que les étudiants les moins favorisés tendent à être doublement discriminés et tenus à l’écart de ces programmes, qui ne prévoient pas le remboursement de tous les frais"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Pour cette raison la proposition de la Commission ne prévoit pas de montants globaux par accident pour",
+   "sentence": "Pour cette raison, la proposition de la Commission ne prévoit pas de montants globaux par accident pour ce qui est des dommages corporels et introduit de nouveaux montants minimums qui augmentent considérablement la protection des victimes d’accidents sans négliger la situation du marché et le niveau actuel de protection dans les États membres"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Certains États européens ne prévoient pas la possibilité d'organiser des référendums et",
+   "sentence": "Certains États européens ne prévoient pas la possibilité d’organiser des référendums et d’autres préconisent la possibilité d’organiser des référendums européens sur le projet de traité constitutionnel"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "compris et nous le savons que nos systèmes ne prévoient pas de référendum abrogatif et qu'il n'est",
+   "sentence": "J’ai compris, et nous le savons, que nos systèmes ne prévoient pas de référendum abrogatif et qu’il n’est pas possible actuellement de soumettre ce traité constitutionnel à une évaluation similaire"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le nouveau règlement financier ne prévoit pas d'",
+   "sentence": "Le nouveau règlement financier ne prévoit pas d’"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "à respecter l'agenda social de Nice mais qu'elle ne prévoie toujours pas de présenter de nouvelles initiatives",
+   "sentence": "Nous regrettons que la Commission ne parvienne non seulement pas à respecter l’agenda social de Nice, mais qu’elle ne prévoie toujours pas de présenter de nouvelles initiatives dans certains domaines, déjà réclamées par le Parlement européen, qui avait insisté sur l’urgence de leur élaboration"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyons",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Nous ne prévoyons pas la création de nouveaux organes bureaucratiques",
+   "sentence": "Nous ne prévoyons pas la création de nouveaux organes bureaucratiques, question que M"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "une mauvaise nouvelle pour les dockers car elle ne prévoit aucune norme sociale minimale applicable dans toute",
+   "sentence": "Comme l’ont déjà dit de nombreux orateurs, cette directive est vraiment une mauvaise nouvelle pour les dockers, car elle ne prévoit aucune norme sociale minimale applicable dans toute l’UE"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "suis très préoccupé de ce que cette directive ne prévoit pas l'autorisation obligatoire",
+   "sentence": "Étant originaire d’un État membre insulaire qui exporte 90% de sa production, je suis très préoccupé de ce que cette directive ne prévoit pas l’autorisation obligatoire"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "J'insiste sur le fait que la troisième partie ne prévoit pas de réponse orale",
+   "sentence": "J’insiste sur le fait que la troisième partie ne prévoit pas de réponse orale"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "convient de souligner que le règlement du Conseil ne prévoit pas la possibilité d'octroyer pour les types",
+   "sentence": "En laissant de côté le fait de savoir si certaines activités de pêche entreprises à l’aide de bateaux de moins de 400 tb sont suffisamment rentables, il convient de souligner que le règlement du Conseil ne prévoit pas la possibilité d’octroyer, pour les types d’embarcations que vous mentionnez, des aides au renouvellement des navires pour un montant égal au montant fixé pour les navires de moins d"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "ce que la rédaction actuelle ne prévoyait pas",
+   "sentence": "ce que la rédaction actuelle ne prévoyait pas"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "et le Pacte de stabilité et de croissance ne prévoient rien en termes de relance de la",
+   "sentence": "Le problème est que, dans la pratique, l’union monétaire de l’UE et le Pacte de stabilité et de croissance ne prévoient rien en termes de relance de la croissance et de création de davantage d’emplois"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "cotées en bourse soumises à des régimes qui ne prévoient ni ni neutralisations peuvent opter pour la",
+   "sentence": "Avec le système actuel, les sociétés cotées en bourse soumises à des régimes qui ne prévoient ni ni neutralisations peuvent opter pour la compétitivité, une chose qu’elles ne pourraient faire sans la directive"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "titre que la sixième directive sur la TVA ne prévoit pas le paiement d'une TVA sur les",
+   "sentence": "- Monsieur le Président, Mesdames et Messieurs, le commissaire Bolkestein nous a rappelé à juste titre que la sixième directive sur la TVA ne prévoit pas le paiement d’une TVA sur les services postaux"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "qu'elle améliore la proposition de la Commission qui ne les prévoyait pas mais qu'elle ne s'est avérée ni",
+   "sentence": "Quant à la question des garanties financières, je crois qu’elle améliore la proposition de la Commission - qui ne les prévoyait pas -, mais qu’elle ne s’est avérée ni aussi ambitieuse que nous l’attendions initialement ni aussi concrète qu’elle pouvait l’être"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "personnel des entreprises concernées soient mieux informés que ne le prévoit cette directive",
+   "sentence": "- Certains députés voudraient qu’en cas d’OPA, les représentants du personnel des entreprises concernées soient mieux informés que ne le prévoit cette directive"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Un système qui ne prévoit qu'un salaire même s'il est plus élevé",
+   "sentence": "Un système qui ne prévoit qu’un salaire� - même s’il est plus élevé que le salaire actuel de nombreux députés� - est mieux approprié, parce qu’il s’agit d’un système ouvert, que l’électorat peut examiner et évaluer"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "de recherche communautaires et leurs programmes spécifiques respectifs ne prévoient pas l'attribution d'un budget consacré spécifiquement la",
+   "sentence": "- Les décisions relatives aux 5e et 6e programmes-cadres de recherche communautaires et � leurs programmes spécifiques respectifs ne prévoient pas l’attribution d’un budget consacré spécifiquement � la recherche sur les cellules souches embryonnaires"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "En outre il ne prévoit pas de mécanismes de sanction à l'encontre",
+   "sentence": "En outre, il ne prévoit pas de mécanismes de sanction à l’encontre des États qui ne respectent pas les règles"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "à Chris Patten que pour le moment l'Iran ne prévoit pas de solution alternative à la lapidation",
+   "sentence": "L’Iran du président Khatami est un Iran où, d’après des données officielles, non seulement on continue à lapider des hommes et des femmes, mais également où, le 3 février 2003, l’ayatollah Mahmoud Hashemi-Shahrudi a déclaré à Chris Patten que, pour le moment, l’Iran ne prévoit pas de solution alternative à la lapidation"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "par an les programmes d'aide communautaire en vigueur ne prévoient pas de financement pour l'élimination des pesticides",
+   "sentence": "Si la Commission est prête à apporter à l’Ukraine toute l’aide possible - et je signalerai en passant que l’aide à l’Ukraine se monte à 126 millions d’euros par an -, les programmes d’aide communautaire en vigueur ne prévoient pas de financement pour l’élimination des pesticides périmés en Ukraine"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "toutefois déclaré que nous approuvions la Convention qui ne prévoit rien à ce niveau",
+   "sentence": "Nous avons, toutefois, déclaré que nous approuvions la Convention, qui ne prévoit rien à ce niveau"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "préservons",
+   "lemma": "preserver",
+   "partner": true,
+   "window": "pas espérer avoir une Grèce forte si nous ne préservons pas des régions fortes",
+   "sentence": "Nous ne pouvons néanmoins pas espérer avoir une Grèce forte si nous ne préservons pas des régions fortes"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prescrit",
+   "lemma": "prescrire",
+   "partner": true,
+   "window": "questions et à poser un diagnostic mais il ne prescrit aucun remède",
+   "sentence": "Le rapport parvient à formuler des questions et à poser un diagnostic, mais il ne prescrit aucun remède"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Elle ne prévoit pas de dommages intérêts doubles",
+   "sentence": "Elle ne prévoit pas de dommages-intérêts doubles"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "la Commission ne peut accepter un accord qui ne prévoit pas la fin de cette pratique illégale",
+   "sentence": "Premièrement, il me semble que vous avez affirmé que la Commission ne peut accepter un accord qui ne prévoit pas la fin de cette pratique illégale"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Brésil et où la législation de ces pays ne prévoit pas ce type de disposition ces pays",
+   "sentence": "Dans la mesure où l’anglais n’est pas la langue officielle de pays comme l’Argentine, le Chili ou le Brésil et où la législation de ces pays ne prévoit pas ce type de disposition, ces pays ne peuvent recourir aux mentions traditionnelles sur le marché de la CE"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "mains et porteront leurs fruits plus rapidement que ne le prévoit le rapport de la Commission",
+   "sentence": "Lorsque je me suis rendue dans ce pays, j’ai également rencontré un ministre de la justice engagé et je suis sûre que grâce à elle les réformes sont entre de bonnes mains et porteront leurs fruits plus rapidement que ne le prévoit le rapport de la Commission"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "malheureusement pour autant que je sache notre règlement ne prévoit pas de dispositions pour régler la question",
+   "sentence": "- Monsieur le Président, malheureusement, pour autant que je sache, notre règlement ne prévoit pas de dispositions pour régler la question d’un député qui fait des fausses allégations concernant des collègues, en particulier dans le contexte d’une campagne électorale, ce qui est clairement le cas ici"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "pour remédier à ces lacunes les États membres ne prévoient aucun système d'indemnisation",
+   "sentence": "pour remédier à ces lacunes les États membres ne prévoient aucun système d’indemnisation"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "transfert d'une ligne budgétaire à l'autre si l'on ne prévoit pas une forme de sanctuarisation",
+   "sentence": "Comment éviter le risque de transfert d’une ligne budgétaire à l’autre, si l’on ne prévoit pas une forme de sanctuarisation"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Personne ne prévoit que cela constituera un risque pour l'avenir",
+   "sentence": "Personne ne prévoit que cela constituera un risque pour l’avenir ou portera préjudice à la rentabilité de ces activités, comme le démontrent la réaction du marché et les recherches conduites par le prestigieux Institut océanographique espagnol, qui mène des expériences sur ses propres navires scientifiques"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "terroristes je ne comprends pas pourquoi la Commission ne prévoit aucun contrôle permettant de vérifier la durée",
+   "sentence": "En tenant compte de la nécessité de lutter contre l’immigration clandestine et de prévenir la criminalité, ainsi que l’entrée de terroristes, je ne comprends pas pourquoi la Commission ne prévoit aucun contrôle permettant de vérifier la durée de séjour autorisée"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Elle ne prévoit ni contrôles ni protections ce qui menace",
+   "sentence": "Elle ne prévoit ni contrôles ni protections, ce qui menace les droits, les libertés et les garanties des citoyens"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyaient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "que les propositions faites dans le domaine agricole ne prévoyaient pas de plafonnement",
+   "sentence": "Ce point demande à être corrigé, notamment dès lors que les propositions faites dans le domaine agricole ne prévoyaient pas de plafonnement"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "au sujet de l'autre règlement pour lequel on ne prévoit aucune procédure de codécision une lettre dans",
+   "sentence": "Le commissaire Patten nous a écrit au sujet de l’autre règlement, pour lequel on ne prévoit aucune procédure de codécision, une lettre dans laquelle il propose d’associer plus étroitement le Parlement à la nouvelle approche de révision de ces règlements à partir de 2006"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Il ne prévoit pas la séparation des pouvoirs la participation",
+   "sentence": "Il ne prévoit pas la séparation des pouvoirs, la participation directe des citoyens et, comme M"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Berlusconi on se demande pourquoi la future Convention ne prévoit pas une rotation des présidences de l'Union",
+   "sentence": "Berlusconi, on se demande pourquoi la future Convention ne prévoit pas une rotation des présidences de l’Union entre les petits États, puisque, à l’évidence, ceux-ci ont des présidences plus productives que certains chefs d’États et de gouvernements qui n’ont de grand que la superficie de leurs pays respectifs"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prescrit",
+   "lemma": "prescrire",
+   "partner": true,
+   "window": "Toutefois étant donné que la directive communautaire ne prescrit pas cette transformation la méthode et les",
+   "sentence": "Toutefois, étant donné que la directive communautaire ne prescrit pas cette transformation, la méthode et les critères appliqués pour déterminer le nombre et les catégories de contractants visés ne peuvent être soumis au contrôle de la Commission européenne"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le pacte actuel ne prévoit pas expressément qu'en temps de prospérité économique",
+   "sentence": "Le pacte actuel ne prévoit pas expressément qu’en temps de prospérité économique, ses membres doivent s’atteler à constituer un excédent"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "le baril et que les opérateurs du marché ne prévoient donc pas de nouvelles hausses du prix",
+   "sentence": "Il est vrai que certains économistes parlent de 60 et de 70 dollars, mais il est vrai aussi que les marchés de contrats à terme opèrent sur la base d’une diminution du niveau actuel de 50 dollars le baril et que les opérateurs du marché ne prévoient donc pas de nouvelles hausses du prix du pétrole, mais plutôt une modération de la situation au cours des deux prochaines années vu que, comme certain"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "avec le Parlement européen collaboration plus étroite que ne le prévoit la Constitution",
+   "sentence": "C’est pourquoi, Monsieur Barroso, le groupe CDU-CSU - et j’entends par-là l’ensemble des 49 membres - souhaite que vous entriez en fonction et que vous travailliez en étroite collaboration avec le Parlement européen, collaboration plus étroite que ne le prévoit la Constitution"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "proroger le règlement indéfiniment mais qui d'autre part ne prévoit de financement que jusqu'en",
+   "sentence": "- les positions contradictoires adoptées par la Commission qui, d’une part, propose de proroger le règlement indéfiniment, mais qui, d’autre part, ne prévoit de financement que jusqu’en 2006"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le sixième programme cadre de recherche ne prévoit rien lui non plus",
+   "sentence": "Le sixième programme-cadre de recherche ne prévoit rien, lui non plus"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyons",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "En ce qui concerne les coûts nous ne prévoyons pas d'évolution significative",
+   "sentence": "En ce qui concerne les coûts, nous ne prévoyons pas d’évolution significative"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "immigrés et pour le contrôle des frontières mais ne prévoit aucun fonds spécial pour l'intégration même si",
+   "sentence": "Premièrement, le programme quinquennal de La Haye dont nous débattons aujourd’hui prévoit des fonds spéciaux pour l’éloignement des immigrés et pour le contrôle des frontières, mais ne prévoit aucun fonds spécial pour l’intégration, même si l’intégration est l’une des mesures de base"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "elle met fin à tout processus d'élargissement qui ne prévoit pas au préalable une consultation de la",
+   "sentence": "Si cette Commission s’efforce d’éliminer les discriminations sociales, si elle rectifie les politiques qui précarisent l’existence, si elle soutient des politiques qui encouragent la croissance démographique et qui sont favorables à la famille, si elle défend nos fabricants contre les assauts de concurrents situés hors d’Europe, si elle met fin à tout processus d’élargissement qui ne prévoit pas a"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "faire la distinction entre la situation actuelle qui ne prévoit de rôle ni pour le président de",
+   "sentence": "Quant au remplacement des commissaires, nous devons bien faire la distinction entre la situation actuelle, qui ne prévoit de rôle ni pour le président de la Commission, ni pour le Parlement, et ce que prévoit la Constitution"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "je souhaiterais pour certains qu'ils s'épanouissent mieux que ne le prévoit la Constitution",
+   "sentence": "Leinen nous ait invités à prendre en considération la forêt de la Constitution tout entière, et non ses arbres individuels, je me dois, en tant que porte-parole de la commission de l’industrie, d’accorder une certaine attention aux arbres de la politique industrielle, dont je souhaiterais pour certains qu’ils s’épanouissent mieux que ne le prévoit la Constitution"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "ce que cette Constitution stipule et ce qu'elle ne prévoit pas",
+   "sentence": "- Monsieur le Président, toute position sur la Constitution européenne doit s’appuyer sur un équilibre entre ce que cette Constitution stipule et ce qu’elle ne prévoit pas"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le Traité constitutionnel ne prévoit aucun droit à l'exception de ceux du",
+   "sentence": "Le Traité constitutionnel ne prévoit aucun droit, à l’exception de ceux du marché"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "La Constitution ne prévoit aucune disposition spécifique permettant de faire face",
+   "sentence": "La Constitution ne prévoit aucune disposition spécifique permettant de faire face à cette éventualité"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "un État membre le traité sur l'Union européenne ne prévoit pas cette possibilité",
+   "sentence": "Alors que, pour ce qui concerne le premier pilier, la Commission est habilitée à lancer une procédure d’infraction contre un État membre, le traité sur l’Union européenne ne prévoit pas cette possibilité"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "revoir les plans de conservation trop ambitieux qui ne prévoient que de courtes périodes de renouvellement des",
+   "sentence": "Nous devons revoir les plans de conservation trop ambitieux qui ne prévoient que de courtes périodes de renouvellement des stocks halieutiques, comme dans le cas des stocks de cabillaud dans l’est de la Baltique"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Faiblesse de la politique industrielle qui ne prévoit ni des plans sectoriels dans des secteurs",
+   "sentence": "Faiblesse de la politique industrielle, qui ne prévoit ni des plans sectoriels dans des secteurs comme le textile, ni une stratégie contre les délocalisations"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "pense également qu'il est inacceptable que la Commission ne prévoie aucune action législative dans le domaine prioritaire",
+   "sentence": "Je pense également qu’il est inacceptable que la Commission ne prévoie aucune action législative dans le domaine prioritaire du changement climatique"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "préservait",
+   "lemma": "preserver",
+   "partner": true,
+   "window": "y seraient autorisés si la modification de l'UE ne préservait pas un niveau général d'avantages et de",
+   "sentence": "Les États-Unis y seraient autorisés si la modification de l’UE ne préservait pas un niveau général d’avantages et de concessions réciproques et mutuellement acceptables non moins favorables au commerce qu’avant la modification conformément à l’article 28 de l’accord GATT de 1994"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "En effet la directive ne prévoit que le remboursement des dépenses et une",
+   "sentence": "En effet, la directive ne prévoit que le remboursement des dépenses et une indemnisation des désagréments, et les montants rapportés les dépasseraient largement"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "par le Conseil et les quatre États membres ne prévoit aucune compensation financière",
+   "sentence": "La proposition émise par le Conseil et les quatre États membres ne prévoit aucune compensation financière"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "le secteur du sucre ce que la résolution ne prévoit pas",
+   "sentence": "Il nous faut un marché unique dans le secteur du sucre, ce que la résolution ne prévoit pas"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "juridique pour l'harmonisation du droit pénal lui même ne prévoit rien de tel pour les procédures pénales",
+   "sentence": "Le traité UE, qui prévoit une base juridique pour l’harmonisation du droit pénal lui-même, ne prévoit rien de tel pour les procédures pénales"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "présenté un amendement de rejet global possibilité que ne prévoit pas la procédure de vote",
+   "sentence": "- Vous aviez présenté un amendement de rejet global, possibilité que ne prévoit pas la procédure de vote"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Cependant le traité sur la communauté européenne ne prévoit clairement pas d'harmonisation dans ce secteur spécifique",
+   "sentence": "Cependant, le traité sur la communauté européenne ne prévoit clairement pas d’harmonisation dans ce secteur spécifique, et nos actions devront donc reposer sur le cadre juridique dans lequel nous opérons actuellement"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Elle ne prévoit pas de contrôles par les bassins hydrographiques",
+   "sentence": "Elle ne prévoit pas de contrôles par les bassins hydrographiques, mais par les pays"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoirait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "contre cette directive car elle serait incomplète et ne prévoirait pas le contrôle des quantités d'eau",
+   "sentence": "Par conséquent, si l’amendement 94 est adopté, nous voterons contre cette directive, car elle serait incomplète et ne prévoirait pas le contrôle des quantités d’eau"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "pas de caractère contraignant à cet avis et ne prévoit pas le refus de la fusion en",
+   "sentence": "Toutefois, il ne donne pas de caractère contraignant à cet avis et ne prévoit pas le refus de la fusion en cas d’avis négatif"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Il ne prévoit pas de procédure impliquant des discussions techniques",
+   "sentence": "Il ne prévoit pas de procédure impliquant des discussions techniques entre la Commission et une délégation tripartite issue du gouvernement d’un État membre, comme le suggère l’honorable député"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prescrive",
+   "lemma": "prescrire",
+   "partner": true,
+   "window": "En fait je préférerais que l'on ne prescrive pas de minimums du tout",
+   "sentence": "En fait, je préférerais que l’on ne prescrive pas de minimums du tout"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "également par ailleurs que la proposition de règlement ne prévoie plus de période de grâce pour les",
+   "sentence": "Je regrette également, par ailleurs, que la proposition de règlement ne prévoie plus de période de grâce pour les jeunes agriculteurs, comme c’était le cas pendant la programmation 2000-2006"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "de distinction entre les axes et par conséquent ne prévoit pas une telle différenciation",
+   "sentence": "La proposition relative à la politique de cohésion n’établit pas de distinction entre les axes et, par conséquent, ne prévoit pas une telle différenciation"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Deuxièmement si ce programme ne prévoit pas de mesures spécifiques pour la conservation",
+   "sentence": "Deuxièmement, si ce programme ne prévoit pas de mesures spécifiques pour la conservation du patrimoine culturel commun des régions frontalières, il contribue néanmoins à diffuser les savoir-faire et à promouvoir les bonnes pratiques dans le domaine de la conservation et de la protection de ce patrimoine culturel commun"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "ne pouvions pas convenir d'une perspective financière qui ne prévoie pas au minimum un processus débouchant sur",
+   "sentence": "que nous ne pouvions pas convenir d’une perspective financière qui ne prévoie pas au minimum un processus débouchant sur un budget plus rationnel"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoirions",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Pourquoi ne prévoirions nous pas un cadre pour ce type",
+   "sentence": "Pourquoi ne prévoirions-nous pas un cadre pour ce type d’activités, sous la forme d’un centre indépendant de coordination pour l’ensemble de l’UE"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "situation réelle car malheureusement le nouveau code pénal ne prévoit toujours pas expressément les crimes d'honneur tandis",
+   "sentence": "Ce paragraphe ne reflète pas la situation réelle, car, malheureusement, le nouveau code pénal ne prévoit toujours pas expressément les crimes d’honneur, tandis que l’emprisonnement à vie peut être ramené à 12 ou 24 ans (article 29 du code pénal)"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "le principal défaut de la proposition est qu'elle ne prévoit pas les ressources financières nécessaires à la",
+   "sentence": "Selon moi, le principal défaut de la proposition est qu’elle ne prévoit pas les ressources financières nécessaires à la gestion du réseau Natura 2000 pour la période 2007-2013, alors que le sixième programme d’action pour l’environnement accordait une grande priorité, entre autres, à la diversité et à la protection des espèces"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "que la proposition de règlement que nous examinons ne prévoie pas de modifier les sources de financement",
+   "sentence": "Bien que la proposition de règlement que nous examinons ne prévoie pas de modifier les sources de financement ni le niveau de soutien, elle permettra cependant une plus grande souplesse dans la mise en œuvre des différentes mesures et une meilleure adaptation aux particularités propres à chaque région ultrapériphérique"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "domaine de l'aménagement du territoire puisque les Traités ne prévoient aucune disposition en la matière alors même",
+   "sentence": "Le rapporteur a raison de dire que l’UE ne possède encore aucune compétence dans le domaine de l’aménagement du territoire, puisque les Traités ne prévoient aucune disposition en la matière, alors même qu’il s’agit d’une question épineuse pour les États membres"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Même si le traité ne le prévoit pas compte tenu de l'accord interinstitutionnel comment",
+   "sentence": "Même si le traité ne le prévoit pas, compte tenu de l’accord interinstitutionnel, comment voyez-vous la participation de nos commissions parlementaires"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Aucun plan ne prévoit de désarmement ou de non prolifération des",
+   "sentence": "Aucun plan ne prévoit de désarmement ou de non-prolifération des armes de destruction massive"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Même ainsi aucun plan ne prévoit pour le moment de fusionner les deux",
+   "sentence": "Même ainsi, aucun plan ne prévoit pour le moment de fusionner les deux entités"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "au paragraphe puisque la Charte des Nations unies ne prévoit pas de place pour les organisations comme",
+   "sentence": "Cependant, il n’est pas approprié de parler d’un siège pour l’Union européenne au paragraphe 19, puisque la Charte des Nations unies ne prévoit pas de place pour les organisations comme l’Union européenne"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "les accords de coopération actuels avec la Libye ne prévoient pas uniquement la surveillance des frontières mais",
+   "sentence": "Enfin, le Conseil a-t-il conscience que les accords de coopération actuels avec la Libye ne prévoient pas uniquement la surveillance des frontières, mais aussi l’internement des ressortissants non communautaires refoulés et expulsés dans des camps de réfugiés non identifiés situés dans le désert libyen"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "pas l'impact de nos politiques passées et qu'elle ne prévoit pas d'autre instrument financier afin de fournir",
+   "sentence": "Je ne suis toutefois pas convaincue, en particulier parce qu’elle n’évalue pas l’impact de nos politiques passées et qu’elle ne prévoit pas d’autre instrument financier afin de fournir de meilleures politiques à l’avenir"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "L'actuelle législation communautaire ne prévoit pas la possibilité de délivrer des visas",
+   "sentence": "L’actuelle législation communautaire ne prévoit pas la possibilité de délivrer des visas ou des permis de séjour répondant aux besoins des artistes"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le texte proposé par la Commission ne prévoit que les exigences générales en application du",
+   "sentence": "Le texte proposé par la Commission ne prévoit que les exigences générales, en application du principe de subsidiarité"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "fournies sur les substances seront moins nombreuses que ne le prévoit la proposition initiale de la Commission mais",
+   "sentence": "Par cette approche, les informations fournies sur les substances seront moins nombreuses que ne le prévoit la proposition initiale de la Commission, mais cela ne signifie pas que nous puissions recourir à une approche simplifiée des risques pour les 20 000 substances produites en petites quantités et nous concentrer sur les substances les plus préoccupantes"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "repose pas sur les derniers progrès scientifiques et ne prévoit pas l'utilisation de ressources techniques sans cruauté",
+   "sentence": "- Nous soutenons le rejet de la proposition de la Commission parce que, comme le rapporteur le dit, elle ne repose pas sur les derniers progrès scientifiques et ne prévoit pas l’utilisation de ressources techniques sans cruauté"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "L'ordre du jour ne prévoit pas de résolution clôturant le débat sur",
+   "sentence": "L’ordre du jour ne prévoit pas de résolution clôturant le débat sur la question orale qui concerne les sanctions pénales dans le domaine de l’environnement"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyaient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "seraient davantage affectées au développement que ce que ne prévoyaient les propositions luxembourgeoise et britannique pour",
+   "sentence": "Au cas où les négociations sur les perspectives financières se solderaient par un échec, les ressources financières européennes seraient davantage affectées au développement que ce que ne prévoyaient les propositions luxembourgeoise et britannique pour 2007-2013"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "les perspectives financières actuelles ne prévoient aucune augmentation des fonds destinés à la",
+   "sentence": "les perspectives financières actuelles ne prévoient aucune augmentation des fonds destinés à la recherche et au développement"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Elle n'est pas pour autant efficace puisqu'elle ne prévoit aucune méthodologie pour la mise en uvre",
+   "sentence": "Elle n’est pas pour autant efficace, puisqu’elle ne prévoit aucune méthodologie pour la mise en œuvre de ces dispositions"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le compromis d'aujourd'hui ne prévoit que l'application du principe d' utilisateur payeur",
+   "sentence": "Le compromis d’aujourd’hui ne prévoit que l’application du principe d’«utilisateur-payeur»"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "plus rapides ce que l'objectif de ce compromis ne prévoit pas",
+   "sentence": "Mon groupe aurait souhaité soutenir des amendements axés sur des résultats plus nombreux et plus rapides, ce que l’objectif de ce compromis ne prévoit pas"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "que les nouvelles règles sur les aides d'État ne prévoient plus la mise en difficulté délibérée et",
+   "sentence": "- Madame la Présidente, je suis ravie de constater que les nouvelles règles sur les aides d’État ne prévoient plus la mise en difficulté délibérée et scandaleuse des entreprises dans les régions frontalières de la République tchèque, que l’Allemagne a tenté de refiler à la Commission"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Pire encore c'est une solution épouvantable qui ne prévoit même pas une réduction conséquente du rabais",
+   "sentence": "Pire encore, c’est une solution épouvantable qui ne prévoit même pas une réduction conséquente du rabais britannique"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "de perspectives financières présentée par la présidence britannique ne prévoit pas les coûts d'un nouvel élargissement",
+   "sentence": "La proposition de perspectives financières 2007-2013 présentée par la présidence britannique ne prévoit pas les coûts d’un nouvel élargissement"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "britannique sont exprimés en livres sterling actuelles et ne prévoient aucun ajustement automatique pour tenir compte de",
+   "sentence": "Les votes du parlement britannique sont exprimés en livres sterling actuelles et ne prévoient aucun ajustement automatique pour tenir compte de l’inflation"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "être sans modifier la structure des Traités qui ne prévoient aucun lien entre la citoyenneté européenne et",
+   "sentence": "Je suis convaincu qu’il est possible - peut-être sans modifier la structure des Traités, qui ne prévoient aucun lien entre la citoyenneté européenne et la résidence - de débuter par une notion de citoyenneté civique"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "compensations des pertes sur le marché britannique il ne le prévoyait pas pour les entreprises ou filiales de",
+   "sentence": "Le problème dans cette affaire était qu’alors que le droit britannique permet des compensations des pertes sur le marché britannique, il ne le prévoyait pas pour les entreprises ou filiales de Marks [amp] Spencer dans les autres États membres"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le problème de la Charte est qu'elle ne prévoit pas assez de mesures concrètes susceptibles d'appuyer",
+   "sentence": "Le problème de la Charte est qu'elle ne prévoit pas assez de mesures concrètes susceptibles d'appuyer les entreprises innovantes et leur potentiel de mise en réseau"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "législation applicable à toute l'Europe une législation qui ne prévoit aucune exclusion exemption ou dérogation",
+   "sentence": "Vous pouvez être contents, et nous aussi, que ces travaux donnent naissance à une législation applicable à toute l’Europe, une législation qui ne prévoit aucune exclusion, exemption ou dérogation"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "de l'Union européenne de pour cela car elle ne prévoit pas de telles sanctions au niveau national",
+   "sentence": "On ne peut pas blâmer la directive postale de l’Union européenne de 2002 pour cela, car elle ne prévoit pas de telles sanctions au niveau national"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "est l'aspect général de sa formulation sachant qu'elle ne prévoit pas de modalités précises concernant les interventions",
+   "sentence": "Troisièmement, un des éléments qui ont compromis l’application de la clause est l’aspect général de sa formulation, sachant qu’elle ne prévoit pas de modalités précises concernant les interventions positives ou négatives dans le cadre de la coopération entre l’Union européenne et les pays tiers, laissant le Conseil et les considérations nationales des États membres l’emporter sur les exigences plu"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "préserve",
+   "lemma": "preserver",
+   "partner": true,
+   "window": "dans le domaine des services un document qui ne préserve même pas le statu quo mais qui",
+   "sentence": "Notre deuxième option consiste à tromper les Européens en adoptant une directive sur les services à tout prix, basée sur le plus petit dénominateur commun, en adoptant un document qui ne modifie aucune des conditions protectionnistes actuelles dans le domaine des services - un document qui ne préserve même pas le statu quo -, mais qui, par-dessus tout, est une mesure rétrograde vu qu’il crée encor"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "à une autre mais la proposition de réforme ne prévoit pas de transfert transfrontalier",
+   "sentence": "Par exemple, en Pologne ou dans un autre pays, il est possible de transférer un quota d’une usine à une autre, mais la proposition de réforme ne prévoit pas de transfert transfrontalier"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le traité instituant l'Union européenne ne prévoit cependant pas de base juridique pour une",
+   "sentence": "Le traité instituant l’Union européenne ne prévoit cependant pas de base juridique pour une politique forestière commune"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "chômage de moins de trente ans alors qu'ils ne prévoient aucune mesure pour les femmes de moins",
+   "sentence": "Lorsque des gouvernements qui se prétendent très progressifs présentent des plans tels que, par exemple, le plan national de réforme présenté par le gouvernement de mon pays, ils incluent souvent des phrases telles que «des avantages seront accordés pour l’embauche de jeunes hommes au chômage de moins de trente ans», alors qu’ils ne prévoient aucune mesure pour les femmes de moins de trente ans, p"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "procédure européenne pour les demandes de faible importance ne prévoit au sens strict du terme aucune représentation",
+   "sentence": "La procédure européenne pour les demandes de faible importance ne prévoit, au sens strict du terme, aucune représentation obligatoire par un avocat, ce qui soulève bien évidemment une question essentielle concernant la question du coût, tout particulièrement le remboursement des frais de justice, que les différents États membres régissent selon des dispositions différentes"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "pas vrai que la directive sur les OPA ne prévoit pas les interventions politiques",
+   "sentence": "Enfin, je voudrais souligner qu’il n’est pas vrai que la directive sur les OPA ne prévoit pas les interventions politiques"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "laquelle je demandais qu'il prenne position et qu'il ne prévoyait pas de le faire",
+   "sentence": "L’organe institutionnel compétent a répondu à ma question 5 mois plus tard, le 9 mars 2006 pour être précis, m’informant en 3 lignes que le Conseil n’avait pas discuté de la question sur laquelle je demandais qu’il prenne position et qu’il ne prévoyait pas de le faire"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "il est malheureux que le budget ne prévoie pas suffisamment de crédits pour ce domaine",
+   "sentence": "il est malheureux que le budget ne prévoie pas suffisamment de crédits pour ce domaine"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "la composition n'est pas identique et la Commission ne prévoit pas d'envoyer une délégation officielle de l'UE",
+   "sentence": "Il ne s’agit pas d’une conférence ministérielle à proprement parler et, en conséquence, la composition n’est pas identique et la Commission ne prévoit pas d’envoyer une délégation officielle de l’UE à part entière comme nous en envoyons habituellement aux réunions ministérielles telles que Hong Kong"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "travaillons toutefois via la politique de voisinage qui ne prévoit pas l'adhésion",
+   "sentence": "Pour l’instant, nous travaillons toutefois via la politique de voisinage, qui ne prévoit pas l’adhésion"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Ce régime n'a pas de base juridique et ne prévoit rien en cas de situation déficitaire du",
+   "sentence": "Ce régime n’a pas de base juridique et ne prévoit rien en cas de situation déficitaire du fonds"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "sentira pleinement responsable si l'architecture de la surveillance ne le prévoit pas expressément et dans ce contexte le",
+   "sentence": "À la première difficulté, vous verrez que personne ne se sentira pleinement responsable si l’architecture de la surveillance ne le prévoit pas expressément et, dans ce contexte, le système de délégation a encore de beaux jours devant lui"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Monsieur le Président le Traité ne prévoit qu'une procédure budgétaire annuelle",
+   "sentence": "- Monsieur le Président, le Traité ne prévoit qu’une procédure budgétaire annuelle"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Il ne prévoit pas de perspectives financières",
+   "sentence": "Il ne prévoit pas de perspectives financières"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "droits de l'homme sont très importantes car elles ne prévoient pas seulement des sanctions et la suspension",
+   "sentence": "Je voudrais dire que je considère que les clauses liées aux droits de l’homme sont très importantes, car elles ne prévoient pas seulement des sanctions et la suspension des traités"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Cependant même si le traité CE ne prévoit pas d'information ex ante du Parlement en",
+   "sentence": "Cependant, même si le traité CE ne prévoit pas d’information ex ante du Parlement en cas de scénario tel que celui que je viens de décrire, par exemple, l’extension du traité instituant la Communauté de l’énergie - que concerne la suppression -, la présidence du Parlement fournira régulièrement des informations sur tous les aspects importants de la position du Conseil proposée"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Le traité ne prévoit pas par exemple la participation des partenaires",
+   "sentence": "Le traité ne prévoit pas, par exemple, la participation des partenaires sociaux"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "les statuts de l'Organisation mondiale de la santé ne prévoient pas le statut d'observateur",
+   "sentence": "Or, les statuts de l’Organisation mondiale de la santé ne prévoient pas le statut d’observateur"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "droit pénal et donc que le traité CE ne prévoit que des compétences législatives complémentaires en droit",
+   "sentence": "Si la CJE a agi avec précaution et a réitéré le principe selon lequel la CE n’a aucune compétence primaire en matière de droit pénal et, donc, que le traité CE ne prévoit que des compétences législatives complémentaires en droit pénal pour des questions extrêmement spécifiques, la Commission semble penser que l’arrêt de la Cour offre à la CE une compétence générale en matière de droit pénal"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "l'a mentionné Mme Lucas le protocole de Kyoto ne prévoit pas la limitation des émissions de CO",
+   "sentence": "Comme l’a mentionné Mme Lucas, le protocole de Kyoto ne prévoit pas la limitation des émissions de CO2 produites par le secteur de l’aviation, bien qu’il contienne naturellement une référence à ce sujet au paragraphe 2 de son article 2"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "déçu que la version finale de la proposition ne prévoie pas l'accès aux projets financés par les",
+   "sentence": "C’est pourquoi je suis déçu que la version finale de la proposition ne prévoie pas l’accès aux projets financés par les institutions européennes"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "veut une politique industrielle européenne que les traités ne prévoient pas et surtout pour empêcher les États",
+   "sentence": "La litanie habituelle des politiques menées depuis des années, pour faire croire que l’on veut une politique industrielle européenne que les traités ne prévoient pas, et surtout pour empêcher les États membres, face à la désindustrialisation et à la désintégration sociale qui en découlent, de prendre eux-mêmes les choses en mains"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "et non par exemple une marque et qui ne prévoie pas un règlement détaillé et juridiquement contraignant",
+   "sentence": "Ce rapport invite donc la Commission à présenter une recommandation relative au commerce équitable qui promeuve un concept politique et économique et non, par exemple, une marque et qui ne prévoie pas un règlement détaillé et juridiquement contraignant ou une loi sur le commerce équitable pour toute l’Europe"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "traitement de ressources et de prévention et qu'elle ne prévoie pas de plan d'action viable à l'appui",
+   "sentence": "Il est toutefois regrettable que cette déclaration ne contienne aucun objectif ou délai global en matière de traitement, de ressources et de prévention et qu’elle ne prévoie pas de plan d’action viable à l’appui de l’objectif consistant à assurer, d’ici à 2010, l’accès universel à toutes les personnes souffrant du VIH"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "préserve",
+   "lemma": "preserver",
+   "partner": true,
+   "window": "fait que notre Union ne les protège pas ne préserve pas leurs services publics ne prête pas",
+   "sentence": "Trop d’Européens souffrent du fait que notre Union ne les protège pas, ne préserve pas leurs services publics, ne prête pas suffisamment attention aux conséquences de la mondialisation"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Vous savez que le droit communautaire ne prévoit aucune interdiction de fumer dans les avions",
+   "sentence": "Vous savez que le droit communautaire ne prévoit aucune interdiction de fumer dans les avions"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Malheureusement le budget ne prévoit rien à cet égard",
+   "sentence": "Malheureusement, le budget 2007 ne prévoit rien à cet égard"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "sur une ligne de conduite plus sévère qui ne prévoit le report que pour trois ans",
+   "sentence": "Néanmoins, les États membres eux-mêmes, au sein du Conseil, se sont mis provisoirement d’accord sur une ligne de conduite plus sévère, qui ne prévoit le report que pour trois ans"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prescrivons",
+   "lemma": "prescrire",
+   "partner": true,
+   "window": "Nous ne prescrivons pas d'instrument en particulier tâche qui vous",
+   "sentence": "Nous ne prescrivons pas d’instrument en particulier, tâche qui vous incombe"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "La législation communautaire ne prévoit aucune réduction forcée de la capacité",
+   "sentence": "La législation communautaire ne prévoit aucune réduction forcée de la capacité"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "des Nations unies à celle de l'article qui ne prévoit que des sanctions économiques et commerciales",
+   "sentence": "Monsieur Solana, il serait bon de connaître la position du Conseil en ce qui concerne la série de mesures ou de sanctions que les Nations unies pourraient appliquer à la Corée du Nord, sanctions qui vont de l'application du chapitre VII de la Charte des Nations unies à celle de l'article 41, qui ne prévoit que des sanctions économiques et commerciales"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Par conséquent le plan d'action ne prévoit aucune mesure à cet égard",
+   "sentence": "Par conséquent, le plan d'action ne prévoit aucune mesure à cet égard"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyons",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Au sein de la Commission nous ne prévoyons aucun obstacle majeur au processus de négociation",
+   "sentence": "Au sein de la Commission, nous ne prévoyons aucun obstacle majeur au processus de négociation, dû à l'adhésion du Venezuela"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoie",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "est lié aux exercices et bien qu'aucune disposition ne prévoie la création d'un institut européen conformément au",
+   "sentence": "Le deuxième domaine de travail est lié aux exercices et, bien qu'aucune disposition ne prévoie la création d'un institut européen conformément au rapport Barnier, nous proposons néanmoins la création d'un réseau de centres, ce qui étendra le programme d'exercices existant"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Cependant le Traité ne prévoit pas explicitement de date limite à laquelle",
+   "sentence": "Cependant, le Traité ne prévoit pas explicitement de date limite à laquelle ils doivent se conformer à cette obligation"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyaient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Les articles et ont été supprimés car ils ne prévoyaient qu'un contrôle superficiel des entreprises et de",
+   "sentence": "Les articles 24 et 25 ont été supprimés car ils ne prévoyaient qu'un contrôle superficiel des entreprises et de leurs travailleurs détachés"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "toutes les dispositions antérieures concernant la modulation puisqu'elle ne prévoit aucun cofinancement de la part des États",
+   "sentence": "La proposition va également à l'encontre de toutes les dispositions antérieures concernant la modulation, puisqu'elle ne prévoit aucun cofinancement de la part des États membres"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "de comitologie reviendra à sa position initiale qui ne prévoit aucune dérogation pour les baromètres",
+   "sentence": "Il est pratiquement certain que la Commission, par le biais de la législation REACH ou par une procédure de comitologie, reviendra à sa position initiale qui ne prévoit aucune dérogation pour les baromètres"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyons",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "à ajouter ultérieurement par le consommateur si nous ne prévoyons pas de dérogation pour ces baromètres anciens",
+   "sentence": "Elle n'interdira pas la vente d'un baromètre accompagné d'un flacon de mercure à ajouter ultérieurement par le consommateur si nous ne prévoyons pas de dérogation pour ces baromètres anciens, ce qui est, à mon avis, une option bien moins dangereuse"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Malheureusement les traités de l'Union européenne ne prévoient pas la possibilité d'harmoniser le droit substantiel",
+   "sentence": "Malheureusement, les traités de l'Union européenne ne prévoient pas la possibilité d'harmoniser le droit substantiel sur les successions"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "solutions de remplacement utiles et lorsque le règlement ne prévoit pas de substituts elles garantiront l'élimination progressive",
+   "sentence": "Je suis certaine que de telles informations, qui coûtent beaucoup d'argent, donneront un nouvel élan à la recherche européenne afin de développer des solutions de remplacement utiles et, lorsque le règlement ne prévoit pas de substituts, elles garantiront l'élimination progressive et naturelle de plusieurs substances nocives des produits"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "EN Généralement parlant le règlement CE n ne prévoit pas de circonstances extraordinaires liées au refus",
+   "sentence": "- (EN) Généralement parlant, le règlement (CE) n° 261/2004 ne prévoit pas de circonstances extraordinaires liées au refus d'embarquement"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "La Commission ne prévoit pas de fixer ou de recommander un",
+   "sentence": "La Commission ne prévoit pas de fixer ou de recommander un âge de retraite fixe au niveau administratif"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "cette législation entre en vigueur plus tôt que ne le prévoit le compromis négocié avec le Conseil",
+   "sentence": "Nous voulons que cette législation entre en vigueur plus tôt que ne le prévoit le compromis négocié avec le Conseil"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "naturelle des substances nuisibles pour lesquelles ce règlement ne prévoit aucune substitution",
+   "sentence": "Nous devons donner une impulsion forte à la recherche européenne pour assurer l'élimination progressive et naturelle des substances nuisibles pour lesquelles ce règlement ne prévoit aucune substitution"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "La proposition de compromis ne prévoit cette possibilité que pour les nouveaux États",
+   "sentence": "La proposition de compromis ne prévoit cette possibilité que pour les nouveaux États membres"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyons",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "les dérives qui peuvent se produire si nous ne prévoyons pas des garde fous stricts lors de",
+   "sentence": "L'affaire SWIFT nous montre toutefois une nouvelle fois les dérives qui peuvent se produire, si nous ne prévoyons pas des garde-fous stricts lors de l'échange d'informations"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "la volonté politique le traité instituant la CE ne prévoit pas le domaine évoqué par l'honorable député",
+   "sentence": "Par ailleurs, indépendamment de la question de la volonté politique, le traité instituant la CE ne prévoit pas le domaine évoqué par l'honorable député"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Il ne prévoit pas grand chose en ce qui concerne",
+   "sentence": "Il ne prévoit pas grand-chose en ce qui concerne le droit de propriété de compagnies américaines et ne semble pas très différent des précédents accords, rejetés par l'Union européenne"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyons",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Nous ne prévoyons jamais de vote par appel nominal au",
+   "sentence": "Nous ne prévoyons jamais de vote par appel nominal au cours des deux premiers points de l'heure des votes car nous savons que les membres prennent alors place et qu'ils doivent trouver leur carte"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyions",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "fait souffrir et trop grave pour que nous ne prévoyions pas qu'un trafic maritime en augmentation nous",
+   "sentence": "trop grave des expériences que nous avons déjà vécues, trop grave des accidents qui nous ont fait souffrir et trop grave pour que nous ne prévoyions pas qu'un trafic maritime en augmentation nous exposera à des risques plus grands à l'avenir"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Commission est beaucoup trop timide principalement parce qu'elle ne prévoit pas de cibles ni de calendriers précis",
+   "sentence": "Comme chacun l'a déjà dit, la stratégie présentée par la Commission est beaucoup trop timide, principalement parce qu'elle ne prévoit pas de cibles ni de calendriers précis, alors qu'ils sont requis par le sixième programme d'action pour l'environnement"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "dans des pays comme la République tchèque qui ne le prévoient pas dans leur droit",
+   "sentence": "Je ne suis pas d'accord que l'Union applique la responsabilité pénale contre des entités juridiques dans des pays, comme la République tchèque, qui ne le prévoient pas dans leur droit"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "les raisons que j'ai mentionnées précédemment la proposition ne prévoit pas de mesures supplémentaires pour les contrôles",
+   "sentence": "Toutefois, pour les raisons que j'ai mentionnées précédemment, la proposition ne prévoit pas de mesures supplémentaires pour les contrôles des émissions"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyaient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Groenland et qui incluaient des poissons fictifs qui ne prévoyaient pas le paiement des propriétaires de navires",
+   "sentence": "Peu après l'entrée en vigueur du quatrième protocole le 1er janvier 2001, la Cour des comptes et le Parlement ont fortement critiqué les protocoles qui ont été mis en place dans le cadre de l'accord dans le secteur de la pêche conclu avec le Groenland et qui incluaient des \"poissons fictifs\", qui ne prévoyaient pas le paiement des propriétaires de navires et qui n'étaient pas assez transparents"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "car l'Union ne prend aucune mesure substantielle ni ne prévoit les fonds nécessaires",
+   "sentence": "Les efforts consentis par l'UE pour enrayer la diminution de la biodiversité sont superficiels et hypocrites, car l'Union ne prend aucune mesure substantielle ni ne prévoit les fonds nécessaires"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Il est cependant dommage de constater qu'il ne prévoit pas une égalité de traitement entre les",
+   "sentence": "Il est cependant dommage de constater qu'il ne prévoit pas une égalité de traitement entre les anciens et les nouveaux États membres"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "de réforme de l'OCM des fruits et légumes ne prévoient pas une aide suffisante et n'offrent pas",
+   "sentence": "Les instruments d'aide existants et ceux proposés dans le projet de réforme de l'OCM des fruits et légumes ne prévoient pas une aide suffisante et n'offrent pas de solutions efficaces aux problèmes inhérents à ces marchés"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "et même l'objectif de réduction de d'ici à ne prévoyait pas la date de référence convenue par",
+   "sentence": "Toutefois, je dois rappeler qu'aucun objectif clair et contraignant n'a été fixé et même l'objectif de réduction de 50 % d'ici à 2050 ne prévoyait pas la date de référence convenue par le G8 en Allemagne"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Toutefois le Traité ne prévoit pas explicitement de date limite à laquelle",
+   "sentence": "Toutefois, le Traité ne prévoit pas explicitement de date limite à laquelle les États membres doivent se conformer à cette obligation"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Il ne prévoit rien en matière d'aide aux familles de",
+   "sentence": "Il ne prévoit rien en matière d'aide aux familles, de lutte contre les maladies de la société contemporaine ou d'accès à des conseils hautement spécialisés"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "ne concerne que l'immigration clandestine et pourquoi elle ne prévoit pas le contrôle des visiteurs par la",
+   "sentence": "Le commissaire peut-il nous dire si les États membres ont appliqué cette directive, pourquoi elle ne concerne que l'immigration clandestine et pourquoi elle ne prévoit pas le contrôle des visiteurs par la consultation des listes noires de terroristes"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "la proposition qui nous est présentée ici et ne prévoit de dérogations que dans les cas où",
+   "sentence": "Mme Sornosa Martínez est dans l'ensemble d'accord avec la proposition qui nous est présentée ici et ne prévoit de dérogations que dans les cas où il n'existe pas encore de solutions de remplacement satisfaisantes"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "la proposition de la Commission ne prévoit aucun dispositif clair garantissant que les passagers",
+   "sentence": "la proposition de la Commission ne prévoit aucun dispositif clair garantissant que les passagers n'auront pas à subir de conséquences défavorables en cas de faillite d'une compagnie aérienne, comme le non-remboursement si le vol n'est pas assuré ou le fait de rester bloqués à l'étranger"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Aucune des résolutions adoptées par le Parlement ne prévoit la création de cartes identifiant les zones",
+   "sentence": "Aucune des résolutions adoptées par le Parlement ne prévoit la création de cartes identifiant les zones à risque s'agissant des incendies dont il faut tenir compte en termes de planification et de développement"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "En particulier le Traité actuel ne prévoit pas un dispositif similaire aux procédures d'infractions",
+   "sentence": "En particulier, le Traité actuel ne prévoit pas un dispositif similaire aux procédures d'infractions pour la législation communautaire afin de contrôler la mise en application des actes juridiques dans la législation des États membres"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "des OGM dans l'environnement au sein de l'UE ne prévoit pas la possibilité d'établir des zones où",
+   "sentence": "Le cadre législatif autorisant la mise sur le marché et la dissémination volontaire des OGM dans l'environnement au sein de l'UE ne prévoit pas la possibilité d'établir des zones où la culture ou la mise sur le marché d'OGM sera, en règle générale, interdite"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Ferber aucune disposition ne prévoit que les députés puissent se répondre les",
+   "sentence": "Ferber, aucune disposition ne prévoit que les députés puissent se répondre les uns après les autres"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "que dans certains pays le cadre réglementaire national ne prévoit pas un environnement optimal à cet effet",
+   "sentence": "Nous ne pouvons pas laisser se produire une situation où, au niveau de l'Union européenne, nous induisons les agriculteurs en erreur en les encourageant à produire les matières premières nécessaires à la production de bioénergies, alors que dans certains pays, le cadre réglementaire national ne prévoit pas un environnement optimal à cet effet"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "La proposition de la Commission ne prévoyait d'accorder des droits aux voyageurs que pour",
+   "sentence": "La proposition de la Commission ne prévoyait d'accorder des droits aux voyageurs que pour le transport ferroviaire international"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoira",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "le marché européen du sucre tant qu'aucun législation ne prévoira une protection à l'importation efficace",
+   "sentence": "Dans mon avis sur le rapport du Parlement européen produit il y a quelques temps au nom de la commission du commerce international, j'ai indiqué qu'il serait impossible d'atteindre l'équilibre souhaité sur le marché européen du sucre tant qu'aucun législation ne prévoira une protection à l'importation efficace"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoirait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Une politique qui ne prévoirait que des droits mais pas d'obligations est",
+   "sentence": "Une politique qui ne prévoirait que des droits, mais pas d'obligations, est inconcevable"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "pas à la glorification de ce résultat qui ne prévoit que des mesures rétrogrades comparées au traité",
+   "sentence": "Nous ne participerons pas à la glorification de ce résultat, qui ne prévoit que des mesures rétrogrades comparées au traité constitutionnel"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "savez bien que ce que vous avez adopté ne prévoit pas de proportionnalité dégressive",
+   "sentence": "Nous verrons ce que nous ferons, mais vous savez bien que ce que vous avez adopté ne prévoit pas de proportionnalité dégressive"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Toutefois ce projet de budget ne prévoit que milliard d'euros et milliards d'euros à",
+   "sentence": "Toutefois, ce projet de budget ne prévoit que 22,1 milliard d'euros et 5,3 milliards d'euros à mettre de côté pour les mesures structurelles et le développement rural respectivement pour les nouveaux États membres"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "à plusieurs reprises l'année prochaine car aucune disposition ne le prévoit",
+   "sentence": "je crains que le budget ne doive encore être modifié à plusieurs reprises l'année prochaine, car aucune disposition ne le prévoit"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "nous partageons tous vos inquiétudes mais notre règlement ne prévoit qu'une demi minute pour les questions supplémentaires",
+   "sentence": "(EN) Je pense que nous partageons tous vos inquiétudes, mais notre règlement ne prévoit qu'une demi-minute pour les questions supplémentaires"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "les PMA l'Union européenne ne demande pas et ne prévoit pas de demander de négocier des dispositions",
+   "sentence": "Au vu de la déclaration de Doha dans le cadre des négociations relatives aux APE avec les pays ACP et d'autres futurs accords bilatéraux et régionaux avec les pays pauvres en développement et les PMA, l'Union européenne ne demande pas - et ne prévoit pas de demander - de négocier des dispositions relatives aux produits pharmaceutiques, parfois appelées \"dispositions ADPIC+\", concernant la santé pu"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "d'application de la directive stipule certaines conditions mais ne prévoit aucune sanction d'où en réalité l'inefficacité totale",
+   "sentence": "En Italie, par exemple, le décret d'application de la directive stipule certaines conditions, mais ne prévoit aucune sanction, d'où en réalité l'inefficacité totale de la loi"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "La libre circulation ne prévoit pas un droit à bénéficier d'une aide",
+   "sentence": "La libre circulation ne prévoit pas un droit à bénéficier d'une aide financière de l'État d'accueil"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "par des scientifiques et faire observer que l'on ne prévoit aucun développement de nouvelles technologies capables de",
+   "sentence": "Je voudrais invoquer le point de vue défendu par des scientifiques et faire observer que l'on ne prévoit aucun développement de nouvelles technologies capables de réduire efficacement les niveaux de CO2 dans l'aviation"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Certains citoyens s'inquiètent du fait que l'IFRS ne prévoit pas de conditions strictes quant aux informations",
+   "sentence": "Certains citoyens s'inquiètent du fait que l'IFRS 8 ne prévoit pas de conditions strictes quant aux informations géographiques détaillées, car il semble qu'elle n'exige pas de détails suffisants sur une base pays par pays"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "nouveau traité déjà approuvé mais pas encore signé ne prévoit aucune disposition générale autorisant la transmission de",
+   "sentence": "- (EN) Le nouveau traité, déjà approuvé, mais pas encore signé, ne prévoit aucune disposition générale autorisant la transmission de données à caractère personnel de citoyens européens à des pays tiers"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Les polices d'assurance par exemple ne prévoient pas de protection contre les risques sismiques",
+   "sentence": "Les polices d'assurance, par exemple, ne prévoient pas de protection contre les risques sismiques, ou alors de manière insignifiante"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "accepter l'amendement relatif aux madragues car la proposition ne prévoit pas de mesures qui abordent cette question",
+   "sentence": "De même, je ne peux non plus accepter l'amendement 10 relatif aux madragues, car la proposition ne prévoit pas de mesures qui abordent cette question"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "accepter l'amendement dans ces conditions car la proposition ne prévoit aucune mesure qui aborde cette question",
+   "sentence": "S'agissant des amendements 9 et 11 relatifs à l'harmonisation des sanctions et à la fermeture éventuelle de la pêche nationale d'un État membre lorsque celui-ci ne respecte pas ses normes de rapport, nous dirons que, même si nous comprenons et partageons tout à fait l'esprit sous-jacent de la proposition, nous ne pouvons accepter l'amendement dans ces conditions, car la proposition ne prévoit aucu"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prescrit",
+   "lemma": "prescrire",
+   "partner": true,
+   "window": "La recommandation ne prescrit aucun modèle de licence européenne en particulier",
+   "sentence": "La recommandation ne prescrit aucun modèle de licence européenne en particulier et laisse au marché le soin de la mise en œuvre de ses principes"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoient",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "sensée et à préparer des lignes directrices qui ne prévoient aucune mesure supplémentaire mais adaptent au contraire",
+   "sentence": "Notre mission consiste dès lors à développer plus avant la législation en vigueur de manière sensée et à préparer des lignes directrices qui ne prévoient aucune mesure supplémentaire mais adaptent au contraire les mesures existantes qui contribuent réellement à un air plus propre pour la population de l'UE"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "de l'Union européenne et lorsque le traité rectificatif ne le prévoit pas",
+   "sentence": "Il est donc de notre devoir, en tant que représentants de nos citoyens, de mettre un terme à cette intrusion dans les droits individuels, d'autant plus qu'il n'y a aucune raison d'harmoniser les données relatives à la vie de famille, les circonstances personnelles ou le logement lorsque cela ne relève aucunement des compétences de l'Union européenne et lorsque le traité rectificatif ne le prévoit "
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "la commission de l'agriculture et du développement rural ne prévoit aucune protection à ce sujet",
+   "sentence": "Nous estimons que le rapport adopté par la commission de l'agriculture et du développement rural ne prévoit aucune protection à ce sujet"
+  },
+  {
+   "file": "europarl-fr.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "sur les transports basé sur l'article paragraphe qui ne prévoit aucune intervention du Parlement européen dans la",
+   "sentence": "un pour l'amendement du règlement n° 11 sur les transports, basé sur l'article 75, paragraphe 3, qui ne prévoit aucune intervention du Parlement européen dans la procédure législative et sur lequel la commission des transports a donné son avis"
+  }
+ ],
+ "trio_bare": []
+}

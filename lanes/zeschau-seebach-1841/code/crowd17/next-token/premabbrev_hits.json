@@ -1,0 +1,782 @@
+{
+ "files": 76,
+ "chars": 34526989,
+ "full_premier": 4781,
+ "ordinal_1er": 322,
+ "by_token": {
+  "pr.": 22,
+  "pre.": 4,
+  "premier.": 91,
+  "premiers.": 11
+ },
+ "hits": [
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-12.txt",
+   "line": 935,
+   "token": "pr.",
+   "ctx": "A'/iproc. Obl. 10«'/. P., l«0 G. Promessen auf Bankactien pr. Stück Agio — P., i«2 G. Bayer. B. Act. u Semester 610 P., 605 G. Oesterr. neues Anlehen von 1839 — P-,"
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-12.txt",
+   "line": 1730,
+   "token": "pr.",
+   "ctx": "nur 4 tl. 48 Kr. rkn. «ä. 2«/z rdlr. pr. Lt. ^t?ür jecke» IUon»l»Keft nur"
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-12.txt",
+   "line": 1733,
+   "token": "pr.",
+   "ctx": "?4 Kr. rkeio. «6er 7 8gr. pr. Lt. ocler Zv Iir.e. «. ^1, «Zr»tl»»A,,U»K« ,"
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-12.txt",
+   "line": 1831,
+   "token": "pr.",
+   "ctx": "für diese Zeitschrift im Moaßstobe von zehn bis dreißig Gulden Conv. Mze. _12 bis 36 fl. im 24-GuIdenfuße) pr. Druckbogen honorirt «erden. Schließlich muß noch allen HH. Buchhändlern und dem verehrlichen tech ­"
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-13.txt",
+   "line": 877,
+   "token": "pr.",
+   "ctx": "treten können. Berlin , 8 Jan. 4proc. Staatsschuldsch. 103'/, ; 4vroc. pr. engl. Obl. 100',,-; Prainicnsch. d. Sech. 78>/,z; Berlin-Porsd."
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-14.txt",
+   "line": 525,
+   "token": "pr.",
+   "ctx": "Bischofs (feines vieljährigen Wohlthäters) sehr bekannt nnd der Verdacht siel sogleich auf ihn. (Pr. Gtaatsz.) Ueber denselben Gegenstand erhalten wir so eben folgende"
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-14.txt",
+   "line": 542,
+   "token": "pr.",
+   "ctx": "hier abgesandt, nnd auch der Brigadier der Gendarmerie ik von hier nach Frauenburg abgereist. (Pr. Staatsz.) «erlin, 3 Jan. Auswärtige Blätter lassen sich seit einigen"
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-14.txt",
+   "line": 1024,
+   "token": "pr.",
+   "ctx": "gegeben. Berlin, 9 Jan. 4proc. Staatsfchuldsch. 103 V»; 4proe. pr. engl. Obl. ,00'/,; Prämiensch, d. Steh. 78V»; Berlin-Porsd."
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-14.txt",
+   "line": 1968,
+   "token": "pr.",
+   "ctx": "nur 4 tl. 48 Ki-. rkn. «ck 2«/^ riilr. pr. «t. jl?iir &gt;eckes lUonslslirst nur"
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-14.txt",
+   "line": 2026,
+   "token": "pr.",
+   "ctx": "genau aufzugeben und jeder den Betrag , wenn n hier nicht angewiesen werden kann, beizufügen oder »u gestatten, denselben «««zunehmen, sofern d« Versandt nicht pr. Post stattfinden soll, die auf Waoren nichts vorausbezahlt."
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-15.txt",
+   "line": 793,
+   "token": "pr.",
+   "ctx": "neben der Leiche des Ermordeten verhört, aber er lckugnet Alles und zeigt sich höchst frech. (Pr. Staatsz.) Däne««?."
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-15.txt",
+   "line": 945,
+   "token": "pr.",
+   "ctx": "Z'/zproc. Obl. — P. , 100'/« G. Prvmessen auf Bankaktien pr. Stück Agio — P., 105 G. Bayer. B. Act. » Semester — P., «!8 G. Lesterr. neues Anlehen von 1839 — P.,"
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-16.txt",
+   "line": 1961,
+   "token": "pr.",
+   "ctx": "nur 4 st. 48 Kr. rkv. «ä. ZV, 'ri'I''. pr. Ct. jk°ür jecles IUo»,I»Keft nur"
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-17.txt",
+   "line": 922,
+   "token": "pr.",
+   "ctx": "3'/.proc. Obl. 1««',P., 1007« G. Promesscn auf Bankactien pr. Stück Agio 118 P., — G. Bayer. B. Act. II Semester 624 P., 62l G. Oesterr. neues Änlehen von 1839 — P.,"
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-17.txt",
+   "line": 933,
+   "token": "pr.",
+   "ctx": "Genua 51'/,P. Livorno 61 P. Triest 9?V°P. Venedig— G. Berlin, 12 Jan. 4proc. StaatSschuldsch. 103'/»; 4proc. pr. engl. Obl. ,o«>^; Prämiensch, d. Seeh. 73V,; Berlin-Poröd."
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-17.txt",
+   "line": 2028,
+   "token": "pr.",
+   "ctx": "für diese Zeitschrift im Maaßstabe von zehn bis dreißig Gulden Conv. Mjk. (12 bis 36 fl. im 24 - Guldenfuße) pr. Druckbogen honorirt werden. Schließlich muß noch allen HH. Buchhändlern und dem vkrehrlichen tech ­"
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-19.txt",
+   "line": 936,
+   "token": "pr.",
+   "ctx": "3'/ proc. Obl. 100' °P., 10«'/» G. Promessen auf Bankactien pr. Stück Agio 118 P., — G. Bayer. B. Act. I Semester 624 P„ 621 G. Oestcrr. neues Anlchen von 1839 — P.,"
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-24.txt",
+   "line": 972,
+   "token": "pr.",
+   "ctx": "3'/^proc. Obl. 10« /,P., 100'/. G. Promessen auf Bankaktien pr. Stück Agio 115 P., 115 G. Bayer. B. Act. &gt; Semester 623 P., 62g G. Oesterr. neues Anlchen von 1839 — P.,"
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-24.txt",
+   "line": 997,
+   "token": "pr.",
+   "ctx": "engl. 5proc. &gt;«7. Berlin, 18 Jan. 4prvc. Staatsschuldsch. I03'/g; 4proc. pr. engl. Obl. &gt;««'/.; Prämiensch, d. Seeh. 79'/,?; Berlin-Porsd."
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-25.txt",
+   "line": 1016,
+   "token": "pr.",
+   "ctx": "engl. 5xroc. i«6'/,. Berlin, 19 Jan. 4proc. Staarsschuldsch. 103'/,; 4proc. pr. engl. Obl. i««'/,; Prämiensch, d. Seeh. 79V«; Berlin-Pvtsd."
+  },
+  {
+   "file": "allgemeine-zeitung-augsburg-1841-01-25.txt",
+   "line": 1946,
+   "token": "pre.",
+   "ctx": "von de? Holländischen von O. L- B. ?T«olff. 6 Bände. Pre.« » Thlr. I. van den Hage."
+  },
+  {
+   "file": "delavigne-famille-luther.txt",
+   "line": 1127,
+   "token": "premier.",
+   "ctx": "Si  mes  melons  ont  soif,  je  suis  leur  sommelier  ; Mais  quand  j'ai  soif  aussi,  je  me  sers  le  premier. "
+  },
+  {
+   "file": "delavigne-paria.txt",
+   "line": 3856,
+   "token": "premier.",
+   "ctx": " LE    PREMIER. "
+  },
+  {
+   "file": "dumas-antony.txt",
+   "line": 131,
+   "token": "premier.",
+   "ctx": " ACTE PREMIER. "
+  },
+  {
+   "file": "dumas-antony.txt",
+   "line": 1819,
+   "token": "premier.",
+   "ctx": " Allez, et n’oubliez rien de ce que j’ai dit… L’ennuyeuse chose qu’une soirée pour une maîtresse de maison qui est seule ! À peine ai-je eu le temps d’achever ma toilette, et si cet excellent Eugène ne m’avait aidée dans mes invitations et mes préparatifs, je ne sais comment je m’en serais tirée… mais il avait promis d"
+  },
+  {
+   "file": "dumas-henri-iii.txt",
+   "line": 50,
+   "token": "premier.",
+   "ctx": " ACTE PREMIER. "
+  },
+  {
+   "file": "dumas-kean.txt",
+   "line": 1,
+   "token": "premier.",
+   "ctx": "ACTE PREMIER. "
+  },
+  {
+   "file": "dumas-tour-de-nesle.txt",
+   "line": 48,
+   "token": "premier.",
+   "ctx": " ACTE PREMIER. "
+  },
+  {
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "line": 12259,
+   "token": "premier.",
+   "ctx": " FIN DU TOME PREMIER. "
+  },
+  {
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "line": 12265,
+   "token": "premier.",
+   "ctx": "TABLE DES MATIÈRES DU TOME PREMIER. "
+  },
+  {
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "line": 12564,
+   "token": "premier.",
+   "ctx": " FIN DE LA TABLE DU TOME PREMIER. "
+  },
+  {
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "line": 4486,
+   "token": "premier.",
+   "ctx": "alliés et les confidents intimes de M. Périer. Une ancienne et familière amitié le liait au premier. Il avait appris, dans les rangs de l'opposition avant 1830, à connaître le second, et, depuis qu'il le"
+  },
+  {
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "line": 9533,
+   "token": "premier.",
+   "ctx": " ARTICLE PREMIER. "
+  },
+  {
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "line": 10114,
+   "token": "premier.",
+   "ctx": "à jouer dans le monde. Rôle immense, quoiqu'il ne doive et ne puisse jamais être le premier. Au XVIIIe siècle en appartiendra le principal honneur: c'est là son oeuvre la plus originale."
+  },
+  {
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "line": 3799,
+   "token": "premiers.",
+   "ctx": "Ces fermes vieillards se plaisaient à voir et à faire remarquer que partout ils arrivaient encore les premiers. "
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "line": 3785,
+   "token": "premier.",
+   "ctx": "diatement, pour  que  notre  bâtiment  n'arrivât  pas  le premier.  Ce  qui  vaudrait  tout  autant,  ce  serait  que  le bâtiment  français  transportât  le  commissaire  ou  l'ordre"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "line": 13780,
+   "token": "premier.",
+   "ctx": "pour  mon  compte,  pas  le  moindre  embarras.  Si  cela  ne peut  pas  se  concilier,  je  m'en  apercevrai  le  premier.  » Les  événements  m'épargnèrent  l'embarras  dont  mes"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "line": 33174,
+   "token": "premier.",
+   "ctx": " ARTICLE    PREMIER. "
+  },
+  {
+   "file": "hugo-angelo.txt",
+   "line": 31,
+   "token": "premier.",
+   "ctx": "ANGELO ACTE PREMIER. LA CLEF."
+  },
+  {
+   "file": "hugo-hernani-1870.txt",
+   "line": 1360,
+   "token": "premier.",
+   "ctx": "La  dernière  campagne  s A  fait  monter  bien  haut  le  roi  François  Premier. "
+  },
+  {
+   "file": "hugo-hernani.txt",
+   "line": 1419,
+   "token": "premier.",
+   "ctx": " A fait monter bien haut le roi François premier. "
+  },
+  {
+   "file": "hugo-lucrece-borgia.txt",
+   "line": 2,
+   "token": "premier.",
+   "ctx": "Victor Hugo Lucrèce Borgia Eugène Renduel ,  1836 ( Œuvres complètes de Victor Hugo. Drames, Tome V ,  p.   7 - 82 ). ◄   Personnages Acte II   ► Acte I book Lucrèce Borgia Victor Hugo Eugène Renduel 1836 Paris T Œuvres complètes de Victor Hugo. Drames, Tome V Acte I Hugo Œuvres complètes tome 5.djvu 7-82 ACTE PREMIER."
+  },
+  {
+   "file": "hugo-marie-tudor.txt",
+   "line": 1531,
+   "token": "premier.",
+   "ctx": "LA REINE. Vous êtes tous des lâches, et Clinton tout le premier. Ah ! Clinton, je me souviendrai de cela, mon ami ! SIMON RENARD."
+  },
+  {
+   "file": "hugo-marie-tudor.txt",
+   "line": 1760,
+   "token": "premier.",
+   "ctx": "LA REINE. Que dis-tu là ? Ah ! mon Dieu ! Tu es insensée, ce que tu dis là est fou, et cependant cela m’épouvante ! Ah ! tu viens de remuer une des plus secrètes inquiétudes de mon cœur. Pourquoi cette émeute m’a-t-elle empêché de surveiller tout moi-même ? Pourquoi m’en suis-je remise à d’autres qu’à moi du salut de F"
+  },
+  {
+   "file": "hugo-marie-tudor.txt",
+   "line": 1872,
+   "token": "premier.",
+   "ctx": "(8 août 1853.) ACTE PREMIER. Une des plates-formes intérieures qui flanquent la tour de Londres. À droite, un grand mur percé d’une porte. À gauche, le pied de la tour de laquelle on ne voit pas le sommet. Au fond, une porte large exhaussée sur quelques degrés et s’ouvrant sur un long corridor. À côté de cette porte, u"
+  },
+  {
+   "file": "hugo-roi-samuse.txt",
+   "line": 4,
+   "token": "premier.",
+   "ctx": "PERSONNAGES. FRANÇOIS PREMIER. TRIBOULET."
+  },
+  {
+   "file": "hugo-roi-samuse.txt",
+   "line": 832,
+   "token": "premier.",
+   "ctx": "PERSONNAGES. FRANÇOIS PREMIER. TRIBOULET."
+  },
+  {
+   "file": "hugo-roi-samuse.txt",
+   "line": 1726,
+   "token": "premier.",
+   "ctx": "PERSONNAGES. FRANÇOIS PREMIER. TRIBOULET."
+  },
+  {
+   "file": "hugo-roi-samuse.txt",
+   "line": 2412,
+   "token": "premier.",
+   "ctx": "PERSONNAGES. FRANÇOIS PREMIER. TRIBOULET."
+  },
+  {
+   "file": "hugo-roi-samuse.txt",
+   "line": 3127,
+   "token": "premier.",
+   "ctx": "PERSONNAGES. FRANÇOIS PREMIER. TRIBOULET."
+  },
+  {
+   "file": "hugo-roi-samuse.txt",
+   "line": 3746,
+   "token": "premier.",
+   "ctx": "Qui ont représenté la pièce en 1832. FRANÇOIS PREMIER. M. Perrier."
+  },
+  {
+   "file": "hugo-ruy-blas.txt",
+   "line": 130,
+   "token": "premier.",
+   "ctx": " ACTE PREMIER. "
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "line": 120,
+   "token": "premier.",
+   "ctx": " ACTE PREMIER. "
+  },
+  {
+   "file": "labiche-chapeau-de-paille.txt",
+   "line": 2399,
+   "token": "premier.",
+   "ctx": " Dépêchons-nous… c’est pressé !… (À Tardiveau.) J’ai huit fiacres… prenez le premier… "
+  },
+  {
+   "file": "labiche-doit-on-le-dire.txt",
+   "line": 78,
+   "token": "premier.",
+   "ctx": " ACTE PREMIER. "
+  },
+  {
+   "file": "labiche-la-cagnotte.txt",
+   "line": 720,
+   "token": "premier.",
+   "ctx": "Moi ? Ah ! ben ! je suis votre cadet… vous êtes mon ancien… et de pas mal de pains de quatre livres encore ! Cordenbois. C’est faux ! je ne parlerai pas le premier. Il s’assoit."
+  },
+  {
+   "file": "labiche-la-cagnotte.txt",
+   "line": 2472,
+   "token": "premier.",
+   "ctx": "Cordenbois. Ah ! tant mieux ! Vous savez… vous m’avez promis de me faire passer le premier. Cocarel. Soyez tranquille. (À part, tirant sa montre.) Neuf heures un quart… pourvu qu’elle arrive."
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "line": 1598,
+   "token": "premier.",
+   "ctx": " C’est le chasseur du premier. "
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "line": 3478,
+   "token": "premier.",
+   "ctx": " Le locataire du premier… un créole… est parti pour la campagne, et a laissé ses domestiques… si je pouvais… (Haut.) Viens, Frédéric, j’ai besoin de toi… des commissions à te donner. "
+  },
+  {
+   "file": "labiche-martin-poudre-aux-yeux.txt",
+   "line": 3648,
+   "token": "premier.",
+   "ctx": " Je suis le domestique du premier. Ratinois. "
+  },
+  {
+   "file": "labiche-noces-bouchencoeur.txt",
+   "line": 964,
+   "token": "premier.",
+   "ctx": " Les Tambours sortent, excepté le premier. Formose , à part"
+  },
+  {
+   "file": "labiche-voyage-perrichon.txt",
+   "line": 1036,
+   "token": "premier.",
+   "ctx": "PERRICHON Un instant, que diable ! Depuis cinq minutes, nous suivions, tout pensifs, un sentier abrupt qui serpentait entre deux crevasses… de glace ! Je marchais le premier. MADAME PERRICHON"
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "line": 15763,
+   "token": "premier.",
+   "ctx": " porte  sur  le  premier.  Guizot  se  trompe  en  confondant  des doctrines  avec  des  principes;  Thiers  subordonne  les  uns"
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "line": 27063,
+   "token": "premiers.",
+   "ctx": "qui  portent  sur  le  lendemain,  et  que  j'attache  une  bien  autre valeur  aux  seconds  qu'aux  premiers.  Une  minoritö  et  le  regne d'un  jeune  Prince  qui  la  suit,  sont  des  r^gimes  difficiles  a"
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "line": 30221,
+   "token": "premier.",
+   "ctx": "personnelle  que  le  Roi  des  Francais  porte  a  l'Empereur  de Russie  fausse  de  son  cöte'  le  jugement  du  premier.  Tout  cela aboutit  a  un  gächis  politique  dont  les  conse'quences  sont  encore"
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "line": 148,
+   "token": "premier.",
+   "ctx": " ACTE  PREMIER. "
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "line": 3389,
+   "token": "premier.",
+   "ctx": " ACTE  PREMIER. "
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "line": 5078,
+   "token": "premier.",
+   "ctx": "UN  AUTRE. LE  PREMIER. "
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "line": 7468,
+   "token": "premier.",
+   "ctx": " LE   PREMIER. "
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "line": 11755,
+   "token": "premier.",
+   "ctx": " ACTE  PREMIER. "
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "line": 14108,
+   "token": "premier.",
+   "ctx": " ACTE  PREMIER. "
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "line": 16687,
+   "token": "premier.",
+   "ctx": " ACTE  PREMIER. "
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "line": 22288,
+   "token": "premier.",
+   "ctx": " LE    PREMIER. "
+  },
+  {
+   "file": "musset-comedies-proverbes-1850.txt",
+   "line": 22297,
+   "token": "premier.",
+   "ctx": " LE    PREMIER. "
+  },
+  {
+   "file": "musset-lorenzaccio.txt",
+   "line": 561,
+   "token": "premier.",
+   "ctx": "À Pise ; et vous ? Le premier. À Rome."
+  },
+  {
+   "file": "musset-lorenzaccio.txt",
+   "line": 590,
+   "token": "premier.",
+   "ctx": "Deux bannis montent sur une plate-forme d’où l’on découvre la ville. Le premier. Adieu, Florence, peste de l’Italie ! adieu, mère stérile, qui n’as plus de lait pour tes enfants !"
+  },
+  {
+   "file": "musset-lorenzaccio.txt",
+   "line": 596,
+   "token": "premier.",
+   "ctx": "Adieu, Florence ! maudites soient les mamelles de tes femmes ! maudits soient tes sanglots ! maudits les prières de tes églises, le pain de tes blés, l’air de tes rues ! Malédiction sur la dernière goutte de ton sang corrompu ! FIN DE L’ACTE PREMIER. ↑ C’était l’usage au carnaval de traîner dans les rues un énorme ball"
+  },
+  {
+   "file": "musset-lorenzaccio.txt",
+   "line": 1390,
+   "token": "premier.",
+   "ctx": "Lâche-le ; nous répondons pour lui. Le premier. Oui, oui, nous répondons pour les Strozzi. Laisse-le aller, ou prends garde à tes oreilles."
+  },
+  {
+   "file": "nesselrode-v8.txt",
+   "line": 13518,
+   "token": "pr.",
+   "ctx": "de),  156,  166,  259. Pr.oTASsoF  (Nicolas,  comte),  281, "
+  },
+  {
+   "file": "nesselrode-v9.txt",
+   "line": 6907,
+   "token": "premier.",
+   "ctx": "tôt. Le second lundi ne sera peut-être pas aussi néfaste que le premier. Aussi, mon cher ami, attendrai-je ce qu'aura produit ce second Lundi avant d’arrêter mes"
+  },
+  {
+   "file": "ponsard-lucrece.txt",
+   "line": 591,
+   "token": "premier.",
+   "ctx": "Celui qui le premier embrassera sa mère « Régnera le premier. » Et j’embrassai la terre. N’ai-je pas accompli l’oracle, et puis encor,"
+  },
+  {
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "line": 7202,
+   "token": "premier.",
+   "ctx": "Lord  Clancarty,  excellent  en  second,  est  trop  diffîcul- tueux,  minutieux  et  pédant  pour  être  en  premier.  Quant  à Cathcart  et  Stuart  l,  vous  les  connaissez."
+  },
+  {
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "line": 18425,
+   "token": "premiers.",
+   "ctx": "majorité  des  députés  arrive  avec  des  opinions  modérées,  tout  est  sauvé et  eux  les  premiers.  Sinon  les  embarras  que  les  anciens  députés  nous préparaient  peuvent  se  renouveler."
+  },
+  {
+   "file": "raw-thtredecasim01dela-djvu.txt",
+   "line": 4077,
+   "token": "premier.",
+   "ctx": "VICTOR,  jeune  auteur. FLORIDORE,  jeune  premier. BELROSE,  valet."
+  },
+  {
+   "file": "raw-thtredecasim01dela-djvu.txt",
+   "line": 6561,
+   "token": "premier.",
+   "ctx": " Victor  sort  le  premier.  Blinval  le  suit,  Floridore  dôme la  main  aux  deux  dames.  \\"
+  },
+  {
+   "file": "raw-thtredecasim01dela-djvu.txt",
+   "line": 13658,
+   "token": "premier.",
+   "ctx": " LE    PREMIER. "
+  },
+  {
+   "file": "raw-thtredecasim03dela-djvu.txt",
+   "line": 1192,
+   "token": "premier.",
+   "ctx": "Si  mes  melons  ont  soif,  je  suis  leur  sommelier  ; Mais  quand  j'ai  soif  aussi,  je  me  sers  le  premier. "
+  },
+  {
+   "file": "raw-thtredecasim03dela-djvu.txt",
+   "line": 6921,
+   "token": "premier.",
+   "ctx": " (Au  premier. Me  regarder  en  face  !"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "line": 2830,
+   "token": "premier.",
+   "ctx": "çut qu'elle  était  exposée  à  un  autre  péril  presque  aussi  redoutable que  le  premier.  L'Y  chariait  sans  cesse  dans  son  port  des  masses  de sable.  Le  Zuyderzée,  qui  rejoint  Amsterdam  à  la  mer  du  Nord,  deve-"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "line": 7315,
+   "token": "premier.",
+   "ctx": " ïNous  ne  reviendrons  pas  sur  le  premier.  Fortifier  Paris  et  maintenir  les iirmemens  de  précaution  qu'on  a  appelés  Id  paix  année,  c'est  pour  nous"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "line": 20580,
+   "token": "premiers.",
+   "ctx": "de  pouvoir.  Oui  apporte  de  l'argent  est  le  bien-venu,  et  ses  désirs sont  accomplis  les  premiers.  Parmi  les  hommes  et  parmi  les  femmes 1  argent  produit  l'infidélité,  enfante  la  honte  et  le  faux  témoi-na-e'"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "line": 23225,
+   "token": "pr.",
+   "ctx": "lutte  aucun  ressentiment,  cela  est  naturel,  puisqu'elle  en  est  sortie victorieuse;  mais  nous  ne  sommes  pr.s  dans  la  même  situation,  et tout  palriolisnie  SLM'ait  i  teint  en  France  si  de  t 'Is  évènemens  n'avaient"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "line": 30820,
+   "token": "pre.",
+   "ctx": "plus  exposée;  sa  mâture,  violemment  secouée,  menaçait  de  se  rom- pre. Roulant  sur  les  coraux  qui  déchirèrent  ses  bordages,  l'Astrolabe avait  gagné  un  demi-mille,  et,  assis  sur  la  limite  même  du  récif,  le"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "line": 38686,
+   "token": "premiers.",
+   "ctx": "vorés de  l'ennui  et  de  l'effroi  de  la  solitude,  jusqu'à  ce  qu'ils  retombent dans  un  abrutissement  qui  les  fait  descendre  au-dessous  des  premiers. "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "line": 43026,
+   "token": "premier.",
+   "ctx": "qu'il  la  plongerait  tout  entière  dans  le  ventre  de  celui  des  deux qui  bougerait  le  premier.  Les  misérables  étaient  sans  armes,  ils savaient  que  Leonardo  était  homme  à  bien  tenir  sa  parole,  ils  n'eu-"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "line": 44702,
+   "token": "premiers.",
+   "ctx": "avant  tout  sur  le  champ  de  bataille,  en  face  de  l'ennemi ,  que  nos  princes  veu- lent être  les  premiers. "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "line": 7542,
+   "token": "premier.",
+   "ctx": "ractère eût  été  utile  au  second  rang,  et  ne  peut  être  que  funeste  au premier.  Il  faut  en  prendre  son  parti. "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "line": 12892,
+   "token": "premier.",
+   "ctx": " —  Oui,  auprès  d'elle,  mais  non  pas  avec  moi,  et  je  passe  le  premier. — Vous  n'aurez  pas,  monsieur,  la  cruauté  de  m'ôter  l'espérance."
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "line": 16561,
+   "token": "premier.",
+   "ctx": "conquête  de  V Angleterre,  M.  Thierry  a-t-il  un  peu  trop  subordonné  le éléraens  principaux  à  cet  élément  qui  n'est  pas  toujours  le  premier. Ainsi,  pour  citer  un  des  épisodes  les  plus  frappans  et  les  plus  dra-"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "line": 17000,
+   "token": "pre.",
+   "ctx": "moins  une  sorte  d'austère  magnificence  qui  lui  est  tout-à-fait  pro- pre. Ses  montagnes  incultes,  couvertes  de  marécages  et  de  vastes bruyères,  revêtues  çà  et  là  de  forêts  de  sapins,  se  colorent  d'un  azur"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "line": 22606,
+   "token": "premier.",
+   "ctx": "que  l'effet  d'un  calcul ,  et  qu'il  en  est  de  même  pour  les  bizarreries  et  les digressions  qu'il  se  reproche  tout  le  premier.  Il  est  évident  que  M.  Consi- dérant a  voulu  brusquer  le  public  pour  s'en  faire  remarquer.  Il  y  avait  un"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "line": 28197,
+   "token": "premier.",
+   "ctx": "porelle qu'elle  s'arrogea.  Le  second  enfantement  de  la  philosophie fut  plus  laborieux  que  le  premier.  A  chaque  liberté  réclamée  par l'esprit  humain,  les  bûchers  s'allumaient,  les  guerres  éclataient.  ?sotre"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "line": 41879,
+   "token": "premier.",
+   "ctx": "il  avait  cassé  les  reins  du  même  coup  qui  avait  fracassé  la  cervelle  du premier. "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "line": 42173,
+   "token": "pre.",
+   "ctx": "nelle que  ceUe  de  son  mari.  Elle  était  petite,  fluette,  et  blanche  comme les  narcisses  de  son  pré.  Vivant  toujours  à  l'ombre  des  grands  arbres "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "line": 1129,
+   "token": "premier.",
+   "ctx": "originale  que  nos  artistes  français  conservèrent  dans  ce  second  tiers du  XVI''  siècle  aussi  bien  que  dans  le  premier.  Si  le  goût  académique eût  tout  envahi,  si  sa  domination  eût  été  immédiatement  acceptée,"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "line": 17998,
+   "token": "premiers.",
+   "ctx": "dinge  et  de  quelques  autres.  Laissons  ceux-ci,  et  ne  nous  occupons que  des  premiers. "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "line": 23272,
+   "token": "premiers.",
+   "ctx": "quatre  autres  arrivèrent  sur  la  même  plage ,  à  quelque  distance  des premiers. "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "line": 23692,
+   "token": "premiers.",
+   "ctx": "les  parties  du  monde.  Pour  cette  nature  d'entreprises,  nous  ne  saurions  être  les premiers.  Est-ce  à  dire  qu'il  faille  pour  cela  négliger  cette  branche  importante de  notre  commerce,  et  consommer  inutilement  des  hommes  et  des  capitaux,"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "line": 23868,
+   "token": "premier.",
+   "ctx": "que  celle  du  producteur  national.  Il  se  peut,  en  effet,  que  celui-ci  supporte des  charges  plus  fortes  que  le  premier.  D'un  autre  côté,  un  droit  de  douane modéré,  à  l'égard  surtout  de  certaines  marchandises,  est  un  impôt  équitable,"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "line": 31463,
+   "token": "premier.",
+   "ctx": "affecté  de  confondre  les  deux  engagemens  dont  je  viens  de  parler,  et de  faire  dépendre  le  second  du  premier.  Rien  n'est  plus  faux,  et, pour  s'en  convaincre,  il  suffit  de  remarquer  qu'au  moment  même  où"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "line": 44795,
+   "token": "premiers.",
+   "ctx": "l'Italie;  mais  on  trouverait  en  germe,  au  fond  de  nos  raisonnemens, les  mêmes  principes  premiers.  Si  nous  différons  quelquefois  dans nos  systèmes,  dans  nos  vues,  nous  différons  en  gens  qui,  partant"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "line": 9936,
+   "token": "premier.",
+   "ctx": "Cependant  la  maladie  mortelle  suivait  son  cours;  le  plus  jeune  des deux  enfans  succomba  le  premier.  Ses  parens  voulurent  qu'il  fût enseveli  dans  la  basilique  de  Saint-Denis,  et  ils  firent  transporter  son"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "line": 10026,
+   "token": "premier.",
+   "ctx": "Ce  nouveau  tourment  d'ame  ne  la  conduisit  pas  au  môme  genre  de pensées  que  le  premier.  Un  moment  élevée  au-dessus  d'elle-même par  ce  que  l'instinct  maternel  porte  en  soi  d'inspirations  nobles  et"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "line": 23766,
+   "token": "premier.",
+   "ctx": "une  charge  d'avoué  ou  de  notaire.  Le  second  est  aussi  indépendant et  assurément  aussi  capable  que  le  premier.  Le  premier,  pourtant, est  électeur,  le  second  ne  l'est  pas.  Pourquoi  cela?  Si  la  loi  électorale"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "line": 47664,
+   "token": "premier.",
+   "ctx": "d'autre  ressource  aux  maux  de  son  pays  que  la  protection  des  czars, prit  la  parole  le  premier.  11  rappela  les  malheurs  qui  n'avaient  pas cessé  de  fondre  sur  les  Kirghiz-Kazaks,  «poursuivis  par  les  Kal-"
+  },
+  {
+   "file": "scribe-bertrand-et-raton.txt",
+   "line": 54,
+   "token": "premier.",
+   "ctx": " ACTE PREMIER. "
+  },
+  {
+   "file": "scribe-charlatanisme.txt",
+   "line": 644,
+   "token": "premier.",
+   "ctx": "MADAME DE MELCOURT , étonnée. Monsieur Delmar ! eh mais ! monsieur, comment êtes-vous ici pour me recevoir ? Je venais voir mon oncle, pour qui on a retenu un logement dans cette maison, et l’on m’a dit : « Montez au premier. » "
+  },
+  {
+   "file": "scribe-le-lorgnon.txt",
+   "line": 696,
+   "token": "premier.",
+   "ctx": "ALCÉE. Il l’a prédit, je serai le premier. REYNOLDS."
+  },
+  {
+   "file": "scribe-le-lorgnon.txt",
+   "line": 1530,
+   "token": "premier.",
+   "ctx": "moi, d’abandonner ma sœur, de nous outrager tous… (À Christian.) Toi le premier… CHRISTIAN."
+  },
+  {
+   "file": "scribe-le-savant.txt",
+   "line": 19,
+   "token": "premier.",
+   "ctx": "LE SAVANT. ACTE PREMIER. Le théâtre représente le cabinet de Reynolds ; la bibliothèque occupe le fond et les parties latérales ; plusieurs objets d’histoire naturelle, bustes, coquillages, armures antiques au-dessus des livres. À droite de l’acteur, et un peu sur le devant, une grande table chargée de livres de toute "
+  },
+  {
+   "file": "scribe-verre-d-eau.txt",
+   "line": 23,
+   "token": "premier.",
+   "ctx": " ACTE PREMIER. "
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "line": 4640,
+   "token": "premier.",
+   "ctx": "les noms de vingt personnes se seraient présentés avant le sien; chez Julie, il aurait été nommé le premier. "
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "line": 30002,
+   "token": "premier.",
+   "ctx": " » ARTICLE PREMIER. — Un corps de vingt<inq mille hom- mes d'infanterie et de trois mille de cavalerie, des troupes de Sa"
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "line": 34412,
+   "token": "premiers.",
+   "ctx": "du mouvement pour en être. Les deux aides de camp de l'empereur, Savary et Lauriston® furent choisis les premiers. Le cortège militaire devait être fort brillant. L'empereur voulait"
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "line": 34675,
+   "token": "premier.",
+   "ctx": " » ARTICLE PREMIER.— Sa Majesté l'empereur des Français et Sa Majesté l'empereur de Russie confirment, el, en tant que"
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "line": 37495,
+   "token": "premier.",
+   "ctx": " » ARTICLE PREMIER. — Sa Majesté l'empereur des Fran- çais, ele... et Sa Majesté l'empereur de toutes les Russies,"
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "line": 918,
+   "token": "premier.",
+   "ctx": " ACTE  PREMIER. "
+  },
+  {
+   "file": "vigny-chatterton-1835.txt",
+   "line": 1764,
+   "token": "premier.",
+   "ctx": "incapable  de  suivre  les  lentes  opérations calculs  journaliers  ,  j'y  renonçai  le  premier. J'avouai  mon  esprit  vaincu  par  le  chiffre ,  et"
+  }
+ ]
+}

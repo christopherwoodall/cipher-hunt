@@ -1,0 +1,729 @@
+{
+ "files": [
+  {
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "chars": 769437,
+   "pron_comma_hits": 186,
+   "gov_interr_candidates": 3
+  },
+  {
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "chars": 830700,
+   "pron_comma_hits": 156,
+   "gov_interr_candidates": 2
+  },
+  {
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "chars": 852681,
+   "pron_comma_hits": 174,
+   "gov_interr_candidates": 2
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "chars": 1992545,
+   "pron_comma_hits": 510,
+   "gov_interr_candidates": 10
+  },
+  {
+   "file": "nesselrode-v7.txt",
+   "chars": 521560,
+   "pron_comma_hits": 135,
+   "gov_interr_candidates": 0
+  },
+  {
+   "file": "nesselrode-v8.txt",
+   "chars": 614206,
+   "pron_comma_hits": 135,
+   "gov_interr_candidates": 0
+  },
+  {
+   "file": "nesselrode-v9.txt",
+   "chars": 498642,
+   "pron_comma_hits": 122,
+   "gov_interr_candidates": 2
+  },
+  {
+   "file": "nesselrode-v10.txt",
+   "chars": 556659,
+   "pron_comma_hits": 90,
+   "gov_interr_candidates": 0
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "chars": 3013552,
+   "pron_comma_hits": 579,
+   "gov_interr_candidates": 11
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "chars": 2964405,
+   "pron_comma_hits": 496,
+   "gov_interr_candidates": 5
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "chars": 3054350,
+   "pron_comma_hits": 384,
+   "gov_interr_candidates": 5
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "chars": 3165234,
+   "pron_comma_hits": 515,
+   "gov_interr_candidates": 5
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "chars": 1492023,
+   "pron_comma_hits": 124,
+   "gov_interr_candidates": 2
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "chars": 1723645,
+   "pron_comma_hits": 114,
+   "gov_interr_candidates": 0
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "chars": 926037,
+   "pron_comma_hits": 178,
+   "gov_interr_candidates": 1
+  },
+  {
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "chars": 1001901,
+   "pron_comma_hits": 123,
+   "gov_interr_candidates": 0
+  },
+  {
+   "file": "levant-correspondence-1841-p3.txt",
+   "chars": 1690926,
+   "pron_comma_hits": 50,
+   "gov_interr_candidates": 2
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "chars": 677686,
+   "pron_comma_hits": 230,
+   "gov_interr_candidates": 1
+  },
+  {
+   "file": "gutenberg-30513-tocqueville-t1.txt",
+   "chars": 597763,
+   "pron_comma_hits": 74,
+   "gov_interr_candidates": 0
+  },
+  {
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "chars": 712233,
+   "pron_comma_hits": 120,
+   "gov_interr_candidates": 2
+  }
+ ],
+ "total_chars": 27656185,
+ "candidates": [
+  {
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "offset": 64914,
+   "pron": "moi",
+   "window": "moi: non qu'il ne se\nfût fait autour de lui, et jusque dans sa coterie intime, des efforts\npour l'en empêcher; mais avec une ironie libérale, il répondait à ceux\nqui lui reprochaient ma qualité de protestant: «Croyez-vous que je veux\nle faire pape?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "pour l'en empêcher"
+   ],
+   "context": "t. Il maintenait / bien son rang, son droit, son pouvoir, et se défendait assez bien des / fautes; mais sa dignité et sa prudence une fois rassurées, il laissait / aller et faire, trop peu énergique d'âme et de corps pour dominer les / hommes et les faire concourir à l'accomplissement de ses volontés. /  / Dans mon inexpérience et à mon poste secondaire dans un département / spécial, j'étais loin de sentir tout le vice de cette absence d'unité et / de direction efficace dans le gouvernement. L'abbé de Montesquiou m'en / parlait quelquefois avec impatience et chagrin; il était de ceux qui ont / assez d'esprit et de probité pour ne pas se faire illusion sur leurs / propres fautes. Il avait pris grande confiance en moi: non qu'il ne se / fût fait autour de lui, et jusque dans sa coterie intime, des efforts / pour l'en empêcher; mais avec une ironie libérale, il répondait à ceux / qui lui reprochaient ma qualité de protestant: «Croyez-vous que je veux / le faire pape?» Expansif et causeur, il me racontait ses ennuis à la / cour, son humeur contre M. de Blacas, son impuissance tantôt à faire / faire ce qu'il jugeait bon, tantôt à empêcher ce qui devait nuire. / Il allait bien au delà de ce laisser-aller de conversation; il me / chargeait, dans son département, de beaucoup d'affaires étrangères à mes / attributions naturelles, et m'eût volontiers laissé prendre une bonne / part de son pouvoir[4]. J'intervins ainsi, durant so"
+  },
+  {
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "offset": 64954,
+   "pron": "lui",
+   "window": "lui, et jusque dans sa coterie intime, des efforts\npour l'en empêcher; mais avec une ironie libérale, il répondait à ceux\nqui lui reprochaient ma qualité de protestant: «Croyez-vous que je veux\nle faire pape?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "pour l'en empêcher"
+   ],
+   "context": "t, son pouvoir, et se défendait assez bien des / fautes; mais sa dignité et sa prudence une fois rassurées, il laissait / aller et faire, trop peu énergique d'âme et de corps pour dominer les / hommes et les faire concourir à l'accomplissement de ses volontés. /  / Dans mon inexpérience et à mon poste secondaire dans un département / spécial, j'étais loin de sentir tout le vice de cette absence d'unité et / de direction efficace dans le gouvernement. L'abbé de Montesquiou m'en / parlait quelquefois avec impatience et chagrin; il était de ceux qui ont / assez d'esprit et de probité pour ne pas se faire illusion sur leurs / propres fautes. Il avait pris grande confiance en moi: non qu'il ne se / fût fait autour de lui, et jusque dans sa coterie intime, des efforts / pour l'en empêcher; mais avec une ironie libérale, il répondait à ceux / qui lui reprochaient ma qualité de protestant: «Croyez-vous que je veux / le faire pape?» Expansif et causeur, il me racontait ses ennuis à la / cour, son humeur contre M. de Blacas, son impuissance tantôt à faire / faire ce qu'il jugeait bon, tantôt à empêcher ce qui devait nuire. / Il allait bien au delà de ce laisser-aller de conversation; il me / chargeait, dans son département, de beaucoup d'affaires étrangères à mes / attributions naturelles, et m'eût volontiers laissé prendre une bonne / part de son pouvoir[4]. J'intervins ainsi, durant son ministère, dans / trois circonstances im"
+  },
+  {
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "offset": 158013,
+   "pron": "vous",
+   "window": "vous, mylord, que votre gouvernement consente à me\nrecevoir si je lui demande de nouveau asile?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "à me\nrecevoir"
+   ],
+   "context": "e, l'empereur Alexandre arrivait, le 10 juillet 1815, à Paris, / froid et plein d'humeur envers le Roi et ses conseillers. /  / La France et le Roi avaient pourtant un pressant besoin du bon vouloir / de l'empereur Alexandre. Ils étaient en présence des rancunes et des / ambitions passionnées de l'Allemagne. Ses diplomates dressaient la carte / de notre territoire, moins les provinces qu'ils voulaient nous enlever. / Ses généraux minaient, pour les faire sauter, les monuments qui / rappelaient leurs défaites au milieu de leurs victoires. Louis XVIII / résistait dignement à ces brutalités étrangères; il menaçait de faire / porter son fauteuil sur le pont d'Iéna, et disait tout haut au duc de / Wellington: «Croyez-vous, mylord, que votre gouvernement consente à me / recevoir si je lui demande de nouveau asile?» Wellington entravait / de son mieux les emportements de Blücher et lui adressait des / représentations pressantes, bien que très-mesurées. Mais ni la dignité / du Roi, ni l'intervention amicale de l'Angleterre ne suffisaient contre / les passions et les prétentions allemandes; l'empereur Alexandre pouvait / seul les contenir. M. de Talleyrand essaya de se le concilier par des / satisfactions personnelles; en formant son cabinet, il fit nommer le / duc de Richelieu, encore absent, ministre de la maison du Roi, et le / ministère de l'intérieur fut tenu en réserve pour Pozzo di Borgo, qui / eût volontiers échangé le "
+  },
+  {
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "offset": 20905,
+   "pron": "vous",
+   "window": "vous; au moins la faute n'en est pas à moi; je n'aurai pas à me\nreprocher de n'avoir pas essayé d'ouvrir les yeux au Roi; mais que\nvoulez-vous?",
+   "strict_gov_inf": [
+    "de n'avoir"
+   ],
+   "loose_gov_inf": [
+    "à me\nreprocher"
+   ],
+   "context": "épreuve des Cent-Jours, une pensée le préoccupait surtout: / il ne voulait pas être de nouveau et nécessairement enveloppé dans les / fautes que pouvait commettre la branche aînée de sa maison et dans les / conséquences que ces fautes devaient amener. Le 31 mai 1830, il donnait / à son beau-frère, le roi de Naples, arrivé depuis peu de jours à Paris, / une fête au Palais-Royal; le roi Charles X et toute la famille royale / y assistaient; la magnificence était grande, la réunion brillante et / très-animée; «Monseigneur, dit au duc d'Orléans, en passant près de lui, / M. de Salvandy, ceci est une fête toute napolitaine; nous dansons sur un / volcan:--Que le volcan y soit, lui répondit le duc, je le crois comme / vous; au moins la faute n'en est pas à moi; je n'aurai pas à me / reprocher de n'avoir pas essayé d'ouvrir les yeux au Roi; mais que / voulez-vous? rien n'est écouté. Dieu sait où ils seront dans six mois! / Mais je sais bien où je serai. Dans tous les cas, ma famille et moi, / nous resterons dans ce palais. Quelque danger qu'il puisse y avoir, je / ne bougerai pas d'ici. Je ne séparerai pas mon sort et celui de mes / enfants du sort de mon pays. C'est mon invariable résolution.» Cette / résolution tint plus de place que tout autre dessein dans la conduite de / M. le duc d'Orléans pendant tout le cours de la Restauration; il était / également décidé à n'être ni conspirateur ni victime. Je lui étais alors / comp"
+  },
+  {
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "offset": 20944,
+   "pron": "moi",
+   "window": "moi; je n'aurai pas à me\nreprocher de n'avoir pas essayé d'ouvrir les yeux au Roi; mais que\nvoulez-vous?",
+   "strict_gov_inf": [
+    "de n'avoir"
+   ],
+   "loose_gov_inf": [
+    "à me\nreprocher"
+   ],
+   "context": "réoccupait surtout: / il ne voulait pas être de nouveau et nécessairement enveloppé dans les / fautes que pouvait commettre la branche aînée de sa maison et dans les / conséquences que ces fautes devaient amener. Le 31 mai 1830, il donnait / à son beau-frère, le roi de Naples, arrivé depuis peu de jours à Paris, / une fête au Palais-Royal; le roi Charles X et toute la famille royale / y assistaient; la magnificence était grande, la réunion brillante et / très-animée; «Monseigneur, dit au duc d'Orléans, en passant près de lui, / M. de Salvandy, ceci est une fête toute napolitaine; nous dansons sur un / volcan:--Que le volcan y soit, lui répondit le duc, je le crois comme / vous; au moins la faute n'en est pas à moi; je n'aurai pas à me / reprocher de n'avoir pas essayé d'ouvrir les yeux au Roi; mais que / voulez-vous? rien n'est écouté. Dieu sait où ils seront dans six mois! / Mais je sais bien où je serai. Dans tous les cas, ma famille et moi, / nous resterons dans ce palais. Quelque danger qu'il puisse y avoir, je / ne bougerai pas d'ici. Je ne séparerai pas mon sort et celui de mes / enfants du sort de mon pays. C'est mon invariable résolution.» Cette / résolution tint plus de place que tout autre dessein dans la conduite de / M. le duc d'Orléans pendant tout le cours de la Restauration; il était / également décidé à n'être ni conspirateur ni victime. Je lui étais alors / complètement étranger; avant 1830, je ne l'"
+  },
+  {
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "offset": 12211,
+   "pron": "moi",
+   "window": "moi, à un moindre degré; que sera-t-elle\nprivée de ce secours?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "à un moindre"
+   ],
+   "context": "soit de le pousser contre moi, il y a la moitié de la bonne portion de / la Chambre des députés et les trois quarts de notre meilleur public qui / ne se feraient pas faute d'y croire.» /  / Même le cabinet une fois formé, ses membres n'étaient pas tous bien / confiants dans sa composition et ses chances; l'amiral de Rigny écrivait / à M. Dupin: «J'étais peu porté, vous le savez, pour une pareille / combinaison, malgré ma haute estime pour les personnes. On ne m'accusera / pas au moins d'être resté par goût, car je déclare, et je crois encore / avoir le droit d'être cru, que je me suis fait violence. Certes, la / partie est périlleuse, je ne me le dissimule pas; elle l'eût été avec / votre appui, quoique, suivant moi, à un moindre degré; que sera-t-elle / privée de ce secours?» /  / M. Thiers aussi restait un peu inquiet de l'alliance des doctrinaires, / et quoique convaincu de la nécessité de leur concours, il prenait / quelque soin pour rester et paraître, non pas séparé d'eux, mais / différent et distinct. /  / Une circonstance atténuait les difficultés de cette situation, et devait / aider le pouvoir nouveau à les surmonter. Indépendamment de la pensée / commune qui unissait tous ses membres dans la politique générale, le / cabinet du 11 octobre 1832 avait cet avantage que chacun d'eux était / bien approprié au poste spécial qu'il occupait. L'armée avait besoin / d'être non-seulement réorganisée, mais relevée de l'échec q"
+  },
+  {
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "offset": 445189,
+   "pron": "vous",
+   "window": "vous, je\nsuis toujours dans l'embarras, j'ai fait venir Dupin; nous avons débattu\ntrois ou quatre combinaisons, toutes si difficiles qu'elles sont\nimpossibles; je lui ai dit enfin: «Faites-moi donc vous-même un\nministère; n'avez-vous dans votre monde personne à me donner?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "à me donner"
+   ],
+   "context": "tourner / promptement, quel que fût son déplaisir de voir et de laisser le Roi / dans l'embarras: «Il ne veut faire, et il a bien raison, ajouta-t-il, / qu'une combinaison forte et durable.» En le quittant, j'allai aux / Tuileries; je n'avais pas vu le Roi depuis plusieurs jours, ne voulant / ni le gêner dans sa recherche de nouveaux ministres, ni m'y associer; / «Sébastiani est arrivé, me dit-il en me voyant.--Je l'ai vu, Sire.--Et / que vous a-t-il dit?--Qu'il était venu pour peu de jours et qu'il ne / tarderait pas à repartir.--Oui, oui, il ne fera pas ici un long séjour;» / et laissant là brusquement Sébastiani: «Vous ai-je raconté ma dernière / conversation avec Dupin?--Non, Sire.--Eh bien! comme, grâce à vous, je / suis toujours dans l'embarras, j'ai fait venir Dupin; nous avons débattu / trois ou quatre combinaisons, toutes si difficiles qu'elles sont / impossibles; je lui ai dit enfin: «Faites-moi donc vous-même un / ministère; n'avez-vous dans votre monde personne à me donner?»--Ma foi! / non, m'a-t-il dit, et il m'a nommé quatre ou cinq personnes, Bignon, / Teste, Étienne, en ajoutant: «Nous n'irions pas trois mois avec / cela»--Mais, mon cher Dupin, ce que j'ai de mieux à faire, c'est donc / de garder ceux que j'ai?--Ma foi! oui, Sire, m'a-t-il dit, je crois que / c'est là ce qu'il y a de mieux, et je vous le conseille.» /  / Le Roi s'interrompit un moment, et, me regardant avec un mélange / d'humeur et de bie"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "offset": 69093,
+   "pron": "vous",
+   "window": "vous,  mylord,  que  vous  fortifierez  réelle- \nment l'Empire  ottoman  en  lui  rendant  plus  de  territoire--?",
+   "strict_gov_inf": [
+    "de  territoire"
+   ],
+   "loose_gov_inf": [],
+   "context": "ts  pareils  à  ceux  dont  / nous  sommes  si  embarrassés.  Le  moyen,  c'est  de  ren-  / dre le  sultan  plus  fort,  le  paclia  plus  faible,  et  de  pré-  / venir entre  eu\\  ce  contact  habituel,  inévitable,  (pii  / tente,  à  chaque  instant,  l'ambition  de  l'un  et  la  ^(mi-  / re;MH:e  de  l'autre.  Pour  fortil'rr  ILmuire  ottoman,  il  /  /  / ?-f\\  CHAPITRE  XXV m.  /  / faut  lui  rendre  une  partie  des  territoires  qu'il  a  perdus;  / la  Syrie  est  une  province  peuplée  et  riche;  la  Porte  en  / tirera  des  hommes  et  de  l'argent;  elle  résistera  alors  / bien  mieux  au  pacha  qui,  de  son  côté,  aura  bien  moins  / d'occasions  et  de  moyens  de  Tattaquer.  /  / —  «  Croyez-vous,  mylord,  que  vous  fortifierez  réelle-  / ment l'Empire  ottoman  en  lui  rendant  plus  de  territoire--?  / Ne  nous  repaissons  pas  d'illusions;  cet  Empire  n'est  pas  / mort,  mais  il  se  meurt;  il  tombe  en  lambeaux  ;  nous  pou-  / vons prolonger  sa  vie,  mais  non  le  ressusciter  effective-  / ment. Vous  ne  lui  rendrez  pas,  avec  la  Syrie,  la  force  de  / la  gouverner  et  de  la  garder  ;  l'anarchie,  le  pillage,  la  / violence  et  lïmpuissance  turques  reprendront  posses-  / sion de  cette  province,  et  vous  serez  responsable  de  son  / sort;  vous  serez  obligé  tantôt  d'y  réprimer,  tantôt  d'y  / soutenir  les  Turcs.  Je  suppose  que  vous  ayez  ré"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "offset": 235098,
+   "pron": "vous",
+   "window": "vous,  que \nferions-nous,  dans  toutes  nos  patries,  de  tous  ces  hom- \nmes, de  ces  millions  d'hommes  qui  s'élèvent  incessam- \nment à  la  civilisation,  à  l'influence,  à  la  liberté,  s'ils \nétaient  exclusivement  livrés  à  la  soif  du  bien-être  maté- \nriel et  aux  passions  politiques,  s'il  ne  songeaient  qu'à \ns'enrichir  ou  à  débattre  leurs  droits?",
+   "strict_gov_inf": [
+    "à \ns'enrichir",
+    "à  débattre"
+   ],
+   "loose_gov_inf": [],
+   "context": "n  parcourant  l'Allemagne,  la  France,  et  sans  doute  / aussi  l'Angleterre,  on  voit  s'élever  partout,  dans  les  / provinces  comme  dans  les  capitales,  une  foule  de  monu-  / ments, grands  ou  petits,  ambitieux  ou  modestes.  Les  / statues  des  grands  hommes  viennent  peupler  les  places  /  /  / m  CHAPITRE  XXIX.  /  / publiques.  Si  quelque  exposition  analogue  à  celle-ci  / s'ouvre  quelque  part,  la  foule  y  accourt.  La  peinture,  / la  sculpture,  la  musique,  tous  les  arts  entrent  dans  les  / goûts,  dans  les  mœurs,  deviennent  presque  populaires.  / C'est  un  grand  bonlieur,  messieurs,  à  cette  époque  et  / dans  l'état  des  sociétés  modernes  ;  que  feriez- vous,  que  / ferions-nous,  dans  toutes  nos  patries,  de  tous  ces  hom-  / mes, de  ces  millions  d'hommes  qui  s'élèvent  incessam-  / ment à  la  civilisation,  à  l'influence,  à  la  liberté,  s'ils  / étaient  exclusivement  livrés  à  la  soif  du  bien-être  maté-  / riel et  aux  passions  politiques,  s'il  ne  songeaient  qu'à  / s'enrichir  ou  à  débattre  leurs  droits?  Il  leur  faut  encore  / d'autres  intérêts,  d'autres  sentiments,  d'autres  plaisirs.  / Non  pour  les  détourner  de  l'amélioration  de  leur  condi-  / tion et  du  progrès  de  leurs  libertés;  non  pour  qu'ils  / soient  moins  actifs  et  moins  fiers  dans  la  vie  sociale  ;  / mais  pour  les  rendre  capable"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "offset": 235118,
+   "pron": "nous",
+   "window": "nous,  dans  toutes  nos  patries,  de  tous  ces  hom- \nmes, de  ces  millions  d'hommes  qui  s'élèvent  incessam- \nment à  la  civilisation,  à  l'influence,  à  la  liberté,  s'ils \nétaient  exclusivement  livrés  à  la  soif  du  bien-être  maté- \nriel et  aux  passions  politiques,  s'il  ne  songeaient  qu'à \ns'enrichir  ou  à  débattre  leurs  droits?",
+   "strict_gov_inf": [
+    "à \ns'enrichir",
+    "à  débattre"
+   ],
+   "loose_gov_inf": [],
+   "context": "emagne,  la  France,  et  sans  doute  / aussi  l'Angleterre,  on  voit  s'élever  partout,  dans  les  / provinces  comme  dans  les  capitales,  une  foule  de  monu-  / ments, grands  ou  petits,  ambitieux  ou  modestes.  Les  / statues  des  grands  hommes  viennent  peupler  les  places  /  /  / m  CHAPITRE  XXIX.  /  / publiques.  Si  quelque  exposition  analogue  à  celle-ci  / s'ouvre  quelque  part,  la  foule  y  accourt.  La  peinture,  / la  sculpture,  la  musique,  tous  les  arts  entrent  dans  les  / goûts,  dans  les  mœurs,  deviennent  presque  populaires.  / C'est  un  grand  bonlieur,  messieurs,  à  cette  époque  et  / dans  l'état  des  sociétés  modernes  ;  que  feriez- vous,  que  / ferions-nous,  dans  toutes  nos  patries,  de  tous  ces  hom-  / mes, de  ces  millions  d'hommes  qui  s'élèvent  incessam-  / ment à  la  civilisation,  à  l'influence,  à  la  liberté,  s'ils  / étaient  exclusivement  livrés  à  la  soif  du  bien-être  maté-  / riel et  aux  passions  politiques,  s'il  ne  songeaient  qu'à  / s'enrichir  ou  à  débattre  leurs  droits?  Il  leur  faut  encore  / d'autres  intérêts,  d'autres  sentiments,  d'autres  plaisirs.  / Non  pour  les  détourner  de  l'amélioration  de  leur  condi-  / tion et  du  progrès  de  leurs  libertés;  non  pour  qu'ils  / soient  moins  actifs  et  moins  fiers  dans  la  vie  sociale  ;  / mais  pour  les  rendre  capables  et  dignes  de  l"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "offset": 506195,
+   "pron": "vous",
+   "window": "vous  ;  vous  saviez  d'avance  tout \nce  qu'on  pensait,  tout  ce  qu'on  voulait  ;  soyons  justes  ; \nla  France  n'a-t-elle  pas  cherché  à  faire  prévaloir,  sans \nnous,  sa  pensée  politique?",
+   "strict_gov_inf": [
+    "à  faire"
+   ],
+   "loose_gov_inf": [],
+   "context": "qui,  pour  / un  très-petit,  très-lointain,  très-problématique  motif,  / mettent  en  péril  cette  politique  pacifique,  ces  alhances  /  /  / EXÉCUTION   DU  TRAITÉ  DU  15  JUILLET  1840.        275  /  / pacifiques  qu'ils  avaient  si  laborieusement  soutenues  et  / fait  triorapher.  Ils  sont  blessés;  ils  trouvent  qu'on  a  / manqué  envers  leur  pays,  envers  leur  Roi,  envers  eux-  / mêmes,  de  reconnaissance  et  d'égards,  comme  de  pru-  / dence sur  le  tond  des  choses,  et  ils  sont  irrités  en  même  / temps  qu'inquiets.  /  / — «Je  ne  comprends  pas,  me  dit  vivement  M.  de  Bûlow,  / je  n'accepte  pas  ce  reproche  de  résolutions  prises  contre  / vous  en  se  cachant  de  vous  ;  vous  saviez  d'avance  tout  / ce  qu'on  pensait,  tout  ce  qu'on  voulait  ;  soyons  justes  ;  / la  France  n'a-t-elle  pas  cherché  à  faire  prévaloir,  sans  / nous,  sa  pensée  politique?  N'a-t-elle  pas  cherché  à  / amener,  entre  Constantinople  et  Alexandrie,  un  arran-  / gement direct,  c'est-à-dire  précisément  ce  que,  par  la  / note  du  27  juillet  1839,  nous  avions  tous,  vous  comme  / nous,  engagé  le  sultan  à  ne  pas  faire  ?  La  France  aussi  / avait  signé  cette  note  ;  comme  on  se  serait  moqué  de  / nous  si  l'arrangement  direct  avait  eu  lieu  !  Comme  on  / aurait  dit,  et  avec  raison,  que  la  France  avait  réglé  / seule,  et  à  son "
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "offset": 506616,
+   "pron": "nous",
+   "window": "nous,  engagé  le  sultan  à  ne  pas  faire  ?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "à  ne  pas  faire"
+   ],
+   "context": "t  d'égards,  comme  de  pru-  / dence sur  le  tond  des  choses,  et  ils  sont  irrités  en  même  / temps  qu'inquiets.  /  / — «Je  ne  comprends  pas,  me  dit  vivement  M.  de  Bûlow,  / je  n'accepte  pas  ce  reproche  de  résolutions  prises  contre  / vous  en  se  cachant  de  vous  ;  vous  saviez  d'avance  tout  / ce  qu'on  pensait,  tout  ce  qu'on  voulait  ;  soyons  justes  ;  / la  France  n'a-t-elle  pas  cherché  à  faire  prévaloir,  sans  / nous,  sa  pensée  politique?  N'a-t-elle  pas  cherché  à  / amener,  entre  Constantinople  et  Alexandrie,  un  arran-  / gement direct,  c'est-à-dire  précisément  ce  que,  par  la  / note  du  27  juillet  1839,  nous  avions  tous,  vous  comme  / nous,  engagé  le  sultan  à  ne  pas  faire  ?  La  France  aussi  / avait  signé  cette  note  ;  comme  on  se  serait  moqué  de  / nous  si  l'arrangement  direct  avait  eu  lieu  !  Comme  on  / aurait  dit,  et  avec  raison,  que  la  France  avait  réglé  / seule,  et  à  son  gré,  les  affaires  d'Orient  !  Mais  tout  cela  / est  passé  ;  personne  n'a  plus  rien  à  y  faire,  ni  rien  à  / gagner  à  s'en  occuper.  Parlons  du  présent  qui  nous  / presse  tous.  /  / —  «  La  France  est  étrangère  à  la  situation  présente  / ce  n'est  pas  elle  qui  l'a  faite  :  on  l'a  mise  en  dehors  ;  / elle  se  tient  en  dehors  et  n'agit  que  pour  son  propre  / compte.  /  / —  ((C'est  pr"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "offset": 1121324,
+   "pron": "nous",
+   "window": "nous,  et \nque  restera-t-il  à  faire  pour  que  TEurope  retire,  en \nOrient,  quelque  profit  de  cette  secousse,  et  rentre  elle- \nmême  dans  son  état  normal?",
+   "strict_gov_inf": [
+    "à  faire"
+   ],
+   "loose_gov_inf": [],
+   "context": "raient  bien  et  dûment  tombés  devant  les  faits,  j'écrivis,  le  / Ji)  janvier  1841,  an  comte  de  Sainle-Aulaire:«Jenepiiis  / croire  que  le  fantasque  acharnement  de  lord  Ponsonby  / l'emporte  sur  la  prudence  de  M.  de  Metternich  et  sur  la  / |)arole  de  lord  Paîmerston.  Je  ne  doute  pas  que  la  Porte  / n'accorde  au  pacha  l'hérédité  qu'on  lui  a  promis  d'obte-  / nir pour  lui  quand  on  a  obtenu  de  lui  sa  soumission.  / N'admettez  donc  pas,  à  ce  sujet,  un  doute  que  je  n'admets  / pas  moi-même,  et  persistez  à  regarder  la  concession  / héréditaire  de  l'Egypte  comme  une  affaire  conclue.  /  / «  Quand  elle  le  sera  en  effet,  où  en  serons-nous,  et  / que  restera-t-il  à  faire  pour  que  TEurope  retire,  en  / Orient,  quelque  profit  de  cette  secousse,  et  rentre  elle-  / même  dans  son  état  normal?  /  / «  Nous  n'avons,  vous  le  savez,  à  cet  égard,  rien  à  / faire,  aucune  initiative  à  prendre.  Nous  sommes  seuls,  / nous  sommes  en  paix  et  nous  attendons.  Mais  vous  savez  / aussi  qu'en  demeurant  étrangers,  après  comme  avant,  / au  traité  du  15  juillet,  c'est-à-dire  au  règlement  des  / rapports  entre  le  sultan  et  le  pacha,  la  France  est  dis-  / posée à  reprendre,  dans  les  affaires  d'Orient,  qui  sont  / d'un  intérêt  général  pour  l'Europe,  la  place  qui  lui  / appartient,  et  à  "
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "offset": 1399441,
+   "pron": "nous",
+   "window": "nous,  pratiquer  avec  le  même  zèle \net  la  même  confiance,  de  telle  sorte  que  l'union  de  la \nFrance  et  de  l'Angleterre,  dans  ce  grand  but,  rede- \nvienne quelque  chose  de  vrai  et  d'efficace?",
+   "strict_gov_inf": [
+    "de  l'angleterre"
+   ],
+   "loose_gov_inf": [],
+   "context": ",  vous  et  nous,  dans  une  situa-  / tion fausse.  Préoccupés  surtout  du  droit  de  \\isite,  nous  / perdons  de  vue  la  répression  réelle  de  la  traite;  nous  / sacrifions  le  but  au  moyen.  Les  conventions  de  1831  et  / 1833,  gage  et  symbole  de  Tunion  de  la  France  et  de  / l'Angleterre  pour  réprimer  la  traite,  ont  perdu  presque  / toute  leur  efficacité  pratique,  et  ne  sont  pltis  guère  / qu'une  vaine  apparence,  un  mensonge  officiel.  Est-ce  là  / une  politique  sérieuse  et  digne  de  nous?  N'est-il  pas  / cent  fois  plus  convenable  et  plus  utile  d'adopter,  pour  / la  répression  de  la  traite,  d'autres  moyens  que  nous  / puissions,  vous  et  nous,  pratiquer  avec  le  même  zèle  / et  la  même  confiance,  de  telle  sorte  que  l'union  de  la  / France  et  de  l'Angleterre,  dans  ce  grand  but,  rede-  / vienne quelque  chose  de  vrai  et  d'efficace?  »  /  / L'appel  de  commissaires  spéciaux  chargés  d'étudier  / librement  la  question  et  de  chercher  de  nouveaux  / moyens  d'action  commune  aux  deux  gouvernements  / convint  à  lord  Aberdeen  :  «  Il  a  saisi  cette  idée  avec  /  /  / LE  DROIT  DE  VISITE.  223  /  / empressement,  m'écrivit  M.  de  Sainie-Aulaire;  sa  res-  / ponsabilité en  sera  déchargée,  et  il  pourrait  nommer  / tel  commissaire,  lord  Brougham,  par  exemple,  qui  / serait,  pour  nous,  une  garantie "
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "offset": 1452473,
+   "pron": "lui",
+   "window": "lui;  il  est  intéressé  à  ce  que  ses  voisins  n'aient  pas \nà  se  plaindre  de  lui;  s'il  devenait  fou  ou  ivrogne, \ns'il  se  conduisait  de  manière  à  allumer  un  incendie \nqui  menacerait  le  voisinage,  alors  il  faudrait  venir \nmettre  l'ordre  chez  lui;  jusque-là,  n'tst-il  pas  exor- \nbitant que  vous  me  demandiez  si  la  Porte  a  droit  ou \nn'a  pas  droit?",
+   "strict_gov_inf": [
+    "de  manière",
+    "à  allumer"
+   ],
+   "loose_gov_inf": [
+    "à  se  plaindre"
+   ],
+   "context": "gène  et  chrétienne,  et  depuis  / plus  d'un  siècle  investie,  dans  ces  montagnes,  d'un  / pouvoir  traditionnel.  Le  baron  de  Bourqueney  envoya  / le  drogman  de  la  France,  M.  Cor,  se  plaindre  de  cette  /  /  / AFFAIRES  DIVERSES  A  LEXTÉRIEUR  (1840-1842).     ^51  /  / déchéance  et  avertir  le  ministre  des  affaires  étran-  / gères de  rimpression  qu'elle  produirait  en  Europe  :  / a  Ne  me  parlez  pas  d'Europe,  lui  répondit  Sarim-  / Effendi  ;  nous  en  sommes  ennuyés.  Si  nous  ne  sommes  / pas  des  hommes  d'État  comme  il  y  en  a  en  Europe,  / nous  ne  sommes  pas  fous.  L'empire  ottoman  est  une  / maison  dont  le  propriétaire  veut  être  tranquille  chez  / lui;  il  est  intéressé  à  ce  que  ses  voisins  n'aient  pas  / à  se  plaindre  de  lui;  s'il  devenait  fou  ou  ivrogne,  / s'il  se  conduisait  de  manière  à  allumer  un  incendie  / qui  menacerait  le  voisinage,  alors  il  faudrait  venir  / mettre  l'ordre  chez  lui;  jusque-là,  n'tst-il  pas  exor-  / bitant que  vous  me  demandiez  si  la  Porte  a  droit  ou  / n'a  pas  droit?  Sir  Stratford  Canning  m'a  tout  dernière-  / ment fait  faire  des  questions  sur  ce  qui  s'était  passé;  / j'ai  donné  des  explications  qui  apparemment  l'ont  sa-  / tisfait, car  il  ne  m'a  plus  rien  fait  dire.  »  Sir  Stratford  / Canning,  nullement  satisfait,  unit  très-vivement  ses  / dém"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "offset": 1452560,
+   "pron": "lui",
+   "window": "lui;  s'il  devenait  fou  ou  ivrogne, \ns'il  se  conduisait  de  manière  à  allumer  un  incendie \nqui  menacerait  le  voisinage,  alors  il  faudrait  venir \nmettre  l'ordre  chez  lui;  jusque-là,  n'tst-il  pas  exor- \nbitant que  vous  me  demandiez  si  la  Porte  a  droit  ou \nn'a  pas  droit?",
+   "strict_gov_inf": [
+    "de  manière",
+    "à  allumer"
+   ],
+   "loose_gov_inf": [],
+   "context": "  d'un  / pouvoir  traditionnel.  Le  baron  de  Bourqueney  envoya  / le  drogman  de  la  France,  M.  Cor,  se  plaindre  de  cette  /  /  / AFFAIRES  DIVERSES  A  LEXTÉRIEUR  (1840-1842).     ^51  /  / déchéance  et  avertir  le  ministre  des  affaires  étran-  / gères de  rimpression  qu'elle  produirait  en  Europe  :  / a  Ne  me  parlez  pas  d'Europe,  lui  répondit  Sarim-  / Effendi  ;  nous  en  sommes  ennuyés.  Si  nous  ne  sommes  / pas  des  hommes  d'État  comme  il  y  en  a  en  Europe,  / nous  ne  sommes  pas  fous.  L'empire  ottoman  est  une  / maison  dont  le  propriétaire  veut  être  tranquille  chez  / lui;  il  est  intéressé  à  ce  que  ses  voisins  n'aient  pas  / à  se  plaindre  de  lui;  s'il  devenait  fou  ou  ivrogne,  / s'il  se  conduisait  de  manière  à  allumer  un  incendie  / qui  menacerait  le  voisinage,  alors  il  faudrait  venir  / mettre  l'ordre  chez  lui;  jusque-là,  n'tst-il  pas  exor-  / bitant que  vous  me  demandiez  si  la  Porte  a  droit  ou  / n'a  pas  droit?  Sir  Stratford  Canning  m'a  tout  dernière-  / ment fait  faire  des  questions  sur  ce  qui  s'était  passé;  / j'ai  donné  des  explications  qui  apparemment  l'ont  sa-  / tisfait, car  il  ne  m'a  plus  rien  fait  dire.  »  Sir  Stratford  / Canning,  nullement  satisfait,  unit  très-vivement  ses  / démarches  à  celles  du  baron  de  Bourqueney  ;  les  autres  / ministres  européens  sui"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "offset": 1796272,
+   "pron": "elle",
+   "window": "elle,  comme  la  convention  signée  à  Washington  en \ni8i^,  que  les  deux  gouvernements  s'engagent  l'un  envers \nl'autre  à  entretenir  sur  la  côte  d'Afrique  chacun  une  croi- \nsière de  10,  20,  25  bâtiments,  plus  ou  moins?",
+   "strict_gov_inf": [
+    "à  entretenir"
+   ],
+   "loose_gov_inf": [],
+   "context": " man-  / dats en  nombre  indéterminé,  valables  pour  trois  ans  et  révo-  / cables seulement  en  cas  d'abus  ou  d' inconvénient ,  on  substi-  / tua des  mandats  en  nombre  déterminée!  ralables simplement  / pour  un  an.  /  / Le  but  évident  de  cette  restriction  était  de  placer,  de  plus  / en  plus  chaque  année,  le  maintien  du  droit  de  visite  sous  te  / contrôle  de  chaque  gouvernement.  /  / §  III.  —  Oublions  maintenant  les  principes  posés  dans  / le  premier  numéro  du  présent  mémorandum  ;  oublions  tous  / les  renseignements  historiques  rappelés  dans  le  deuxième  / numéro.  Plaçons-nous  simplement  en  face  de  la  convention  / de  1831.  Que  dit-elle?  /  / Dit-elle,  comme  la  convention  signée  à  Washington  en  / i8i^,  que  les  deux  gouvernements  s'engagent  l'un  envers  / l'autre  à  entretenir  sur  la  côte  d'Afrique  chacun  une  croi-  / sière de  10,  20,  25  bâtiments,  plus  ou  moins?  /  / Nullement.  /  / A  cet  égard,  le  silence  est  absolu.  Le  droit  de  chaque  / gouvernement  d'avoir  ou  de  n'avoir  pas  de  croisière  sur  la  / côte  d'Afrique  est  plein  et  entier.  /  / Mais  la  convention  de  1831  part  de  ce  fait  que  les  deux  / gouvernements  entretiennent  habituellement  des  croiseurs  / sur  la  côte  d'Afrique;  et  le  fait  admis,  ils  s'engagent  l'un  / envers  l'autre  à  investir  leurs  croiseurs  du  droit  de"
+  },
+  {
+   "file": "nesselrode-v9.txt",
+   "offset": 252199,
+   "pron": "moi",
+   "window": "moi, sur une aide à porter au jour- \nnal”?",
+   "strict_gov_inf": [
+    "à porter"
+   ],
+   "loose_gov_inf": [],
+   "context": "ntrée de ce peu n'a lieu que dans le troi-  / sième quartier. Une fois six mois passés, l’entreprise  / qui a en elle-même de la vitalité sait vivre et grandir  / par ses seuls moyens. Moi et quelques amis avons fondé  / l’essai ; 1l faut aujourd’hui élever lenfant et 1l faut à  / cet effet le concours de plus de monde, et c’est là ce qui  / m'engage à m'adresser à vous.  /  / Veuillez, mon cher comte, faire, en mon nom, un  / appel à l'Empereur, votre auguste Maître, appel qui  / devra avoir la valeur d’un secret et qui ne porte que  / sur un fort léger sacrifice en faveur d’une grande cause.  / L'Empereur voudrait-1l ordonner au baron de Brunnow .  /  /  / ARCHIVES DU COMTE CH. DE NESSELRODE. 169  /  /  / de s'entendre avec moi, sur une aide à porter au jour-  / nal”? Je limite d'avance la somme entre mille et deux  / mille ducats (900 et 1000 livres sterling) dont l'emploi  / n'aurait lieu que suivant le besoin de l’entreprise, à  / l'égard duquel je m'entendrais avec votre envoyé que je  / ne voudrais pas engager dans l'affaire dans son attitude  / officielle, parce qu'elle ferait manquer le but. Si mes  / moyens personnels suffisaient pour servir la cause, je  / me dispenserais d’avoir recours à tout secours en dehors  / de ces moyens. Tel n'étant pas le cas, l'Empereur,  / votre auguste Maître, ne sera point étonné, si c’est à Lui  / qu'avec un plein repos de conscience je fais un appel  / en faveur du soutien de la cause dont il "
+  },
+  {
+   "file": "nesselrode-v9.txt",
+   "offset": 265695,
+   "pron": "vous",
+   "window": "vous, cher ami, du nouveau tour que vient \nde jouer le suffrage universel et de tous ceux qu'il tient \nen réserve pour le plus grand bonheur de la France?",
+   "strict_gov_inf": [
+    "de jouer"
+   ],
+   "loose_gov_inf": [],
+   "context": "TE CH. DE NESSELRODE. 177  /  /  / d'une demonstratio ad hominem de mes paroles. La  / vérité se fera Jour, car elle est impérissable ; quelle  / sera la fin? C'est la question et toute la question, et Je  / n'entends pas la préjuger. Que chacun fasse ce qui est  / de son devoir et se trouve dans ses facultés. Les mien-  / nes sont paralysées ; je n'entends pas pour cela me  / conduire comme si J'étais mort.  /  / Adieu, mon cher comte. Brunnow me presse de lui  / envoyer ma lettre. À une autre occasion donc ; chaque  / Jour portera de la lumière et du feu. Soyons et restons,  / vous et moi, ce que nous avons toujours été. Mille  / amitiés.  /  /  / Are  / au comte Dmitri de Nesselrode.  /  /  / Paris, 21 septembre 1848.  /  /  / Que dites-vous, cher ami, du nouveau tour que vient  / de jouer le suffrage universel et de tous ceux qu'il tient  / en réserve pour le plus grand bonheur de la France?  / C'est là assurément la plus piquante des institutions et  / bien faite, ce me semble, pour nous faire entrer à per-  / pétuité dans le régime des changements à vue. Nous  / avons de nouveau Bonaparte et, cette fois, ce sera vrai-  / semblablement pour tout de bon, car 1l est douteux que  / l'exécutif et l’assemblée, quel que soit leur bon vouloir  / à cet égard, se décident à opposer une digue au torrent  /  /  / IX. — 19  /  /  / 178 ARCHIVES DU COMTE CH. DE NESSELRODE.  /  /  / qui porte sur ses flots agités le prince fantastique,  / devenu, par une bizarre coïncidenc"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 111060,
+   "pron": "vous",
+   "window": "vous,  lui  demande  Bothwell,  la  promesse  que  vous \nm'avez  faite  de  ne  m'abandonner  jamais?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de  ne  m'abandonner"
+   ],
+   "context": "te  hommes  et  ses  arquebusiers.  / Elle  parcourt  les  rangs,  montée  sur  son  palefroi,  harangue,  implore,  / sollicite  les  soldats  et  ne  peut  en  retenir  un  seul.  Enfin,  la  désertion  / étant  complète,  elle  demande  à  parlementer.  /  / —  Oui,  lui  répond  Grange,  si  vous  renvoyez  cet  homme  qui  est  près  / de  vous,  l'assassin  du  roi.  /  / —  Je  quitterai  le  duc,  et  me  remettrai  en  vos  mains,  si  vous  me  / promettez  obéissance.  /  / On  le  promet.  L'imprudente  reine  se  livre.  Bothwell,  avec  lequel  / elle  se  consulte  un  moment  et  quelle  prend  à  part,  hésite.  Elle  lui  / prouve  que  tout  est  perdu,  qu'il  faut  se  quitter.  /  / —  Me  tiendrez-vous,  lui  demande  Bothwell,  la  promesse  que  vous  / m'avez  faite  de  ne  m'abandonner  jamais?  /  / —  Oui.  /  / Elle  lui  tend  la  main.  C'était  un  dernier  adieu.  11  remonte  à  cheval,  / et  part  au  galop  (1).  Ces  deux  personnes  étaient  destinées  à  ne  plus  / se  revoir.  Traitée  d'abord  avec  courtoisie  par  les  vainqueurs,  Marie  veut  / faire  parvenir  une  lettre  aux  chefs  de  son  parti,  aux  Hamiltons.  /  / —  Cela  est  impossible,  madame,  lui  dit  Grange.  /  / —  Comment  !  osez-vous  me  traiter  en  prisonnière?  J'en  appelle  à  / votre  parole.  Vous  m'avez  promis  obéissance.  /  / On  ne  l'écoute  pas;  elle  éclate  en  reproches.  Comme  à  son  ordi-  / "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 1249740,
+   "pron": "toi",
+   "window": "toi,  mon  Isabelle, \nlève-toi,  lui  dit-il;  si  le  ciel  ne  nous  avait  pas  destinés  à  éprouver  ces  grandes \ndouleurs,  pourquoi  nous  aurait-il  donné  la  force  de  souffrir?",
+   "strict_gov_inf": [
+    "de  souffrir",
+    "à  éprouver"
+   ],
+   "loose_gov_inf": [],
+   "context": "-  / belle fait  à  son  père;  la  métaphore  et  l'antithèse  y  abondent;  elle  se  perd  en  / déclamations  sentimentales  contre  la  grossièreté  du  sentiment  qui  peut  con-  / sentir à  devoir  à  la  violence  le  prix  dû  seulement  à  l'amour  partagé. Tout  cela,  / bien  qu'exprimé  en  fort  beaux  vers,  est  certainement  fort  ridicule  dans  un  tel  / moment;  mais  on  retrouve  Calderon  dans  la  réponse  de  Crespo.  En  présence  / d'une  infortune  désormais  irréparable,  ce  noble  vieillard,  dont  la  colère  ne  / connaissait  aucune  borne  tant  qu'il  conservait  encore  quelque  espoir,  a  re-  / trouvé tout  son  calme.  C'est  lui  qui  console  sa  fille.  «  Lève-toi,  mon  Isabelle,  / lève-toi,  lui  dit-il;  si  le  ciel  ne  nous  avait  pas  destinés  à  éprouver  ces  grandes  / douleurs,  pourquoi  nous  aurait-il  donné  la  force  de  souffrir?  C'est  dans  de  / telles  occasions  que  nous  devons  user  de  notre  courage.  Hâtons-nous  de  rega-  / gner ma  maison.  Pensons  à  ton  frère.  En  s'attaquant  au  capitaine ,  il  s'est  /  /  / THÉÂTRE  ESPAGNOL.  405  /  / exposé  à  un  grand  danger.  II  faut  l'en  tirer,  il  faut  d'abord  savoir  ce  qu'il  est  / devenu.  Quant  au  capitaine,  si  la  nécessité  de  faire  soigner  sa  blessure  l'a  / xaniené  dans  le  village,  il  eût  mieux  valu  pour  lui  qu'il  en  mourut  sur-le-  / champ... "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 1249767,
+   "pron": "toi",
+   "window": "toi,  lui  dit-il;  si  le  ciel  ne  nous  avait  pas  destinés  à  éprouver  ces  grandes \ndouleurs,  pourquoi  nous  aurait-il  donné  la  force  de  souffrir?",
+   "strict_gov_inf": [
+    "de  souffrir",
+    "à  éprouver"
+   ],
+   "loose_gov_inf": [],
+   "context": ";  la  métaphore  et  l'antithèse  y  abondent;  elle  se  perd  en  / déclamations  sentimentales  contre  la  grossièreté  du  sentiment  qui  peut  con-  / sentir à  devoir  à  la  violence  le  prix  dû  seulement  à  l'amour  partagé. Tout  cela,  / bien  qu'exprimé  en  fort  beaux  vers,  est  certainement  fort  ridicule  dans  un  tel  / moment;  mais  on  retrouve  Calderon  dans  la  réponse  de  Crespo.  En  présence  / d'une  infortune  désormais  irréparable,  ce  noble  vieillard,  dont  la  colère  ne  / connaissait  aucune  borne  tant  qu'il  conservait  encore  quelque  espoir,  a  re-  / trouvé tout  son  calme.  C'est  lui  qui  console  sa  fille.  «  Lève-toi,  mon  Isabelle,  / lève-toi,  lui  dit-il;  si  le  ciel  ne  nous  avait  pas  destinés  à  éprouver  ces  grandes  / douleurs,  pourquoi  nous  aurait-il  donné  la  force  de  souffrir?  C'est  dans  de  / telles  occasions  que  nous  devons  user  de  notre  courage.  Hâtons-nous  de  rega-  / gner ma  maison.  Pensons  à  ton  frère.  En  s'attaquant  au  capitaine ,  il  s'est  /  /  / THÉÂTRE  ESPAGNOL.  405  /  / exposé  à  un  grand  danger.  II  faut  l'en  tirer,  il  faut  d'abord  savoir  ce  qu'il  est  / devenu.  Quant  au  capitaine,  si  la  nécessité  de  faire  soigner  sa  blessure  l'a  / xaniené  dans  le  village,  il  eût  mieux  valu  pour  lui  qu'il  en  mourut  sur-le-  / champ...  »  /  / En  ce  moment  le  gr"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 1266274,
+   "pron": "elle",
+   "window": "elle,  qu'il  le  soit \npar  une  de  ces  mains,  au  lieu  de  l'être  par  l'autre  ?",
+   "strict_gov_inf": [
+    "de  l'être"
+   ],
+   "loose_gov_inf": [],
+   "context": "  n'eu  croyez  pas  mes  paroles,  tournez  les  yeux  de  ce  / côté,  voilà  le  capitaine.  /  / Une  porte  s'ouvre  et  on  aperçoit  le  cadavre  de  don  Alvaro  assis  dans  un  / fauteuil  où  il  vient  de  subir  la  peine  du  garrot,  c'est-à-dire  de  l'étranglement.  /  /  / 408  REVUE  DES  DEUX  MONDES.  /  / Le  Roi.  —  Comment  avez-vous  eu  cette  audaca?  /  / Crespo.  —  Votre  majesté  n  a-t-elle  pas  dit  que  le  procès  était  régulière-  / ment fait?  /  / Le  Roi.  —  Le  tribunal  compétent  n'était-il  pas  là  pour  y  donner  suite?  /  / Crespo.  —  Sire,  toute  votre  justice  n'est  qu'un  seul  corps  avec  plusieurs  / mains.  Qu'importe,  lorsqu'un  homme  doit  être  frappé  par  elle,  qu'il  le  soit  / par  une  de  ces  mains,  au  lieu  de  l'être  par  l'autre  ?  Qu'importe  une  erreur  / dans  la  forme,  lorsqu'on  a  raison  au  fond?  /  / Le  Roi.  -:-  Mais  le  capitaine  était  gentilhomme;  pourquoi  ne  l'avoir  pas  / fait  décapiter?  /  / Crespo.  —  Les  gentilshommes  de  ce  pays  se  conduisent  de  telle  sorte  que  / le  bourreau  n'a  jamais  eu  occasion  d'apprendre  à  couper  les  têtes...  /  / Le  Roi.  —  Don  Lope,  la  chose  est  faite,  le  capitaine  méritait  la  mort,  on  / ne  peut  le  nier;  il  n'y  a  donc  à  blâmer  que  la  forme,  et  cela  importe  peu.  / Faites  partir  à  l'instant  toutes  les  troupes,  il  faut  qu'elles  arrivent "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 1622681,
+   "pron": "vous",
+   "window": "vous,  mon  fils,  auriez-vous  poussé  l'amour  de  l'art  et  de  la \npoésie  jusqu'à  vivre  ici  sans  regret?",
+   "strict_gov_inf": [
+    "à  vivre"
+   ],
+   "loose_gov_inf": [],
+   "context": ".  L'aspect  du  tableau  y  gagnera;  mais  l'hu-  / manité, qu'y  gagne-t-cUe  ?  /  / —  Un  beau  tableau  peut-être,  et  à  coup  sûr  une  grande  leçon.  / Mais  vous  autres  artistes,  qui  donnez  cette  leçon-là,  vous  ne  com-  / prenez pas  ce  que  vous  faites,  et  vous  ne  voyez  ici  que  des  pierres  qui  / tombent  et  de  l'herbe  qui  pousse.  /  / —  Vous  êtes  sévère  :  vous  qui  parlez  ainsi,  on  pourrait  vous  ré-  / pondre que  vous  ne  voyez  dans  cette  grande  catastrophe  que  votre  / prison  détruite  et  votre  liberté  recouvrée,  car  je  soupçonne,  mon  / père,  que  le  couvent  n'était  pas  de  votre  goût.  /  /  / UN  niVER   AU  MIDI  DE   L'EUROPE.  523  /  / —  Et  vous,  mon  fils,  auriez-vous  poussé  l'amour  de  l'art  et  de  la  / poésie  jusqu'à  vivre  ici  sans  regret?  /  / —  Je  m'imagine  que  c'eût  été  pour  moi  la  plus  belle  vie  du  monde.  / Oh!  que  ce  couvent  devait  être  vaste  et  d'un  noble  style!  Que  ces  / vestiges  annoncent  de  splendeur  et  d'élégance  !  Qu'il  devait  être  doux  / de  venir  ici,  le  soir,  respirer  une  douce  brise,  et  rêver  au  bruit  de  la  / mer,  lorsque  ces  légères  galeries  étaient  pavées  de  riches  mosaïques,  / que  des  eaux  cristallines  murmuraient  dans  des  bassins  de  marbre,  / et  qu'une  lampe  d'argent  s'allumait  comme  une  pâle  étoile  au  fond  / du  sanctuaire  !  De"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 1676772,
+   "pron": "eux",
+   "window": "eux,  leur  ferais  à  n'en  pas  douter  la  même \nréponse?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "à  n'en  pas  douter"
+   ],
+   "context": "  jamais  une  telle  question?  Je  / ne  croirai  que  j'existe,  dites-vous,  que  quand  j'aurai  trouvé  pour  / cette  opinion  une  majorité  respectable?  Je  croirai  donc  à  ceux  que  je  / consulte  avant  de  croire  à  moi-même?  Je  croirai  à  leur  voix  que  / j'entends,  je  croirai  que  j'entends,  et  cela  sans  l'autorité  de  per-  / sonne, lorsque  je  ne  veux  pas  croire  sans  garans  à  ma  propre  exis-  / tence et  à  l'existence  de  ceux  qui  me  parlent?  Et  si  ces  hommes  à  / qui  je  demande  :  croyez-vous  que  j'existe  et  que  vous  existez?  me  ré-  / pondaient qu'ils  n'en  savent  rien,  aurais-je  le  droit  de  m'en  étonner,  / moi  qui,  consulté  par  eux,  leur  ferais  à  n'en  pas  douter  la  même  / réponse?  M.  Lamennais  va  jusqu'à  supposer  une  négation  formelle.  / <(  S'ils  disent  que  non,  ajoute-t-il,  évidemmcntWimewiQni,  puisqu'ils  / répondent.  »  Il  y  a  donc  une  évidence  contre  le  témoignage  unanime,  / une  évidence  supérieure  à  lui?  Vous  ne  coiniaissez  leur  réponse  que  / par  vos  sens;  vous  n'en  concluez  qu'ils  existent  que  par  votre  raison  ;  / leur  témoignage  que  vous  invoquiez  est  contre  vous.  Que  pourrait-  / on  dire  de  plus  pour  vous  réfuter?  /  / .AL  Lameimais  semble  n'avoir  pas  assez  remarqué  que  faire  de  la  / philosophie,  discuter  les  bases  de  la  connaissance  "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 1729867,
+   "pron": "lui",
+   "window": "lui,  que  nous  sommes  en  lui, \nque  nous  vivons ,  que  nous  nous  mouvons  en  lui  ;  que  c'est  une \nconclusion  nécessaire  de  l'omniprésence,  et  qu'enfin  c'est  dire  une \nabsurdité  manifeste ,  que  de  placer  quelque  chose  hors  de  Dieu?",
+   "strict_gov_inf": [
+    "de  placer"
+   ],
+   "loose_gov_inf": [],
+   "context": "e  aux  principes  de  / M.  Lamennais,  qui,  sur  ce  point  comme  sur  tant  d'autres,  se  range  / à  l'avis  de  Platon ,  et  considère  les  idées  divines  comme  les  arché-  / types de  tout  ce  que  le  monde  renferme,  comme  des  existences  / réelles,  plus  réelles  que  leurs  images,  qui  occupent  nos  sens.  La  / création  est  donc  si  loin  de  réahser  les  idées  de  Dieu ,  qu'elle  fait  / précisément  une  opération  toute  contraire.  D'ailleurs,  comment  les  / idées  de  Dieu  seraient-elles  réalisées  hors  de  lui,  s'il  est  vrai ,  comme  / M.  Lamennais  le  démontre  ailleurs,  que  Dieu  est  le  lieu  universel,  / que  rien  n'est  ni  ne  peut  être  hors  de  lui,  que  nous  sommes  en  lui,  / que  nous  vivons ,  que  nous  nous  mouvons  en  lui  ;  que  c'est  une  / conclusion  nécessaire  de  l'omniprésence,  et  qu'enfin  c'est  dire  une  / absurdité  manifeste ,  que  de  placer  quelque  chose  hors  de  Dieu?  /  / Cela  ne  prouve  pas  (à  Dieu  ne  plaise!)  que  M.  Lamennais  soit  / panthéiste,  même  à  son  insu,  ni  qu'il  ait  résolu  moins  philosophi-  / quement que  ses  devanciers  le  problème  insoluble  de  la  création.  / Que  l'on  appelle  la  création  une  imitation  comme  Pythagore,  ou  une  / participation  comme  Platon,  ou  une  émanation,  un  écoulement,  une  / irradiation  comme  l'école  d'Alexandrie,  ou  une  fulgura"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 1729896,
+   "pron": "lui",
+   "window": "lui, \nque  nous  vivons ,  que  nous  nous  mouvons  en  lui  ;  que  c'est  une \nconclusion  nécessaire  de  l'omniprésence,  et  qu'enfin  c'est  dire  une \nabsurdité  manifeste ,  que  de  placer  quelque  chose  hors  de  Dieu?",
+   "strict_gov_inf": [
+    "de  placer"
+   ],
+   "loose_gov_inf": [],
+   "context": "mennais,  qui,  sur  ce  point  comme  sur  tant  d'autres,  se  range  / à  l'avis  de  Platon ,  et  considère  les  idées  divines  comme  les  arché-  / types de  tout  ce  que  le  monde  renferme,  comme  des  existences  / réelles,  plus  réelles  que  leurs  images,  qui  occupent  nos  sens.  La  / création  est  donc  si  loin  de  réahser  les  idées  de  Dieu ,  qu'elle  fait  / précisément  une  opération  toute  contraire.  D'ailleurs,  comment  les  / idées  de  Dieu  seraient-elles  réalisées  hors  de  lui,  s'il  est  vrai ,  comme  / M.  Lamennais  le  démontre  ailleurs,  que  Dieu  est  le  lieu  universel,  / que  rien  n'est  ni  ne  peut  être  hors  de  lui,  que  nous  sommes  en  lui,  / que  nous  vivons ,  que  nous  nous  mouvons  en  lui  ;  que  c'est  une  / conclusion  nécessaire  de  l'omniprésence,  et  qu'enfin  c'est  dire  une  / absurdité  manifeste ,  que  de  placer  quelque  chose  hors  de  Dieu?  /  / Cela  ne  prouve  pas  (à  Dieu  ne  plaise!)  que  M.  Lamennais  soit  / panthéiste,  même  à  son  insu,  ni  qu'il  ait  résolu  moins  philosophi-  / quement que  ses  devanciers  le  problème  insoluble  de  la  création.  / Que  l'on  appelle  la  création  une  imitation  comme  Pythagore,  ou  une  / participation  comme  Platon,  ou  une  émanation,  un  écoulement,  une  / irradiation  comme  l'école  d'Alexandrie,  ou  une  fulguration  comme  / Leibnitz;  ou  u"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 1729953,
+   "pron": "lui",
+   "window": "lui  ;  que  c'est  une \nconclusion  nécessaire  de  l'omniprésence,  et  qu'enfin  c'est  dire  une \nabsurdité  manifeste ,  que  de  placer  quelque  chose  hors  de  Dieu?",
+   "strict_gov_inf": [
+    "de  placer"
+   ],
+   "loose_gov_inf": [],
+   "context": "s,  se  range  / à  l'avis  de  Platon ,  et  considère  les  idées  divines  comme  les  arché-  / types de  tout  ce  que  le  monde  renferme,  comme  des  existences  / réelles,  plus  réelles  que  leurs  images,  qui  occupent  nos  sens.  La  / création  est  donc  si  loin  de  réahser  les  idées  de  Dieu ,  qu'elle  fait  / précisément  une  opération  toute  contraire.  D'ailleurs,  comment  les  / idées  de  Dieu  seraient-elles  réalisées  hors  de  lui,  s'il  est  vrai ,  comme  / M.  Lamennais  le  démontre  ailleurs,  que  Dieu  est  le  lieu  universel,  / que  rien  n'est  ni  ne  peut  être  hors  de  lui,  que  nous  sommes  en  lui,  / que  nous  vivons ,  que  nous  nous  mouvons  en  lui  ;  que  c'est  une  / conclusion  nécessaire  de  l'omniprésence,  et  qu'enfin  c'est  dire  une  / absurdité  manifeste ,  que  de  placer  quelque  chose  hors  de  Dieu?  /  / Cela  ne  prouve  pas  (à  Dieu  ne  plaise!)  que  M.  Lamennais  soit  / panthéiste,  même  à  son  insu,  ni  qu'il  ait  résolu  moins  philosophi-  / quement que  ses  devanciers  le  problème  insoluble  de  la  création.  / Que  l'on  appelle  la  création  une  imitation  comme  Pythagore,  ou  une  / participation  comme  Platon,  ou  une  émanation,  un  écoulement,  une  / irradiation  comme  l'école  d'Alexandrie,  ou  une  fulguration  comme  / Leibnitz;  ou  une  chute,  comme  Schelling,  ou  un  développement  / com"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 1733195,
+   "pron": "lui",
+   "window": "lui,  ou  la  puissance  de \nle  réaliser?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de \nle  réaliser"
+   ],
+   "context": "rfait  qu'il  pouvait  l'ôtrc.  Et  pourtant,  si  le  monde  est  nécessai-  / rement parfait  à  cause  de  la  bonté  de  Dieu,  Dieu  est  donc  nécessaire-  / ment déterminé  au  plus  parfait;  c'est  partir  de  la  liberté  de  Dieu  pour  / arriver  à  la  négation  même  de  cette  liberté.  Il  y  a  donc  contradiction  / à  admettre  l'optimisme,  et  il  semble  qu'il  y  ait  aussi  contradiction  à  / ne  pas  l'admettre.  Qui  ne  voit  d'ailleurs  la  longue  série  des  objec-  / tions qu'appelle  l'optimisme?  Ce  monde  si  parfait  n'a  qu'une  perfec-  / tion bornée;  sur  quel  fondement  contester  à  Dieu,  ou  la  faculté  de  / concevoir  quelque  chose  de  plus  rapproché  de  lui,  ou  la  puissance  de  / le  réaliser?  M.  Lamennais,  qui  expose  cette  difficulté,  croit  avoir  / trouvé  le  moyen  de  la  résoudre ,  mais  sa  solution  ne  paraît  pas  plus  / heureuse  que  celle  de  Leibnitz,  qu'il  rejette.  «  La  création,  dit-il ,  / est  la  manifestation  progressive  de  tout  ce  qui  est  en  Dieu,  et  dans  / le  même  ordre  qu'il  existe  en  Dieu;  et  il  est  évident,  dès-lors,  que,  / tout  ce  qui  peut  être  devant  être ,  il  n'y  a  pas  même  lieu  à  ima-  / giner un  choix.  Dieu  est  libre  en  créant...  »  On  demande  à  M.  La-  / mennais ce  que  c'est  que  la  liberté  ,  là  où  il  n'y  a  pas  même  lieu  à  / imaginer  un  choix"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 2908503,
+   "pron": "lui",
+   "window": "lui,  il  se  retourne,  et  il  aperçoit  le  lutin  perché  sur \nun  des  bâtons  de  son  échelle ,  se  frottant  comme  lui  les  mains  en \nriant,  et  murmurant  avec  sa  petite  voix  moqueuse: — Ma  foi,  maître, \nil  était  temps  que  nous  sortissions  ;  n'est-ce  pas ,  maître ,  qu'il  n'y \navait  plus  un  moment  à  perdre?",
+   "strict_gov_inf": [
+    "à  perdre"
+   ],
+   "loose_gov_inf": [],
+   "context": "l  lui  tendait,  ne  / trouva  rien  de  mieux  à  faire  que  de  le  brûler  vif  dans  sa  retraite.  / Une  nuit  donc  qu'il  supposait  que  le  lutin  dormait  au  milieu  des  tas  / de  paille,  il  ferma  à  clé  les  portes  de  la  grange,  en  calfeutra  soigneu-  / sement avec  du  plâtre  les  moindres  ouvertures,  puis  il  mit  le  feu  à  / la  paille  par  un  petit  trou  qu'il  avait  ménagé  et  qu'il  boucha  aussitôt.  / La  grange  fut  en  un  instant  toute  en  flammes.  Tandis  qu'elle  brûlait,  / le  montagnard  se  frottait  joyeusement  les  mains,  enchanté  du  bon  / tour  qu'il  venait  de  jouer  à  l'esprit.  Tout  à  coup  il  entend  un  éclat  / de  rire  derrière  lui,  il  se  retourne,  et  il  aperçoit  le  lutin  perché  sur  / un  des  bâtons  de  son  échelle ,  se  frottant  comme  lui  les  mains  en  / riant,  et  murmurant  avec  sa  petite  voix  moqueuse: — Ma  foi,  maître,  / il  était  temps  que  nous  sortissions  ;  n'est-ce  pas ,  maître ,  qu'il  n'y  / avait  plus  un  moment  à  perdre?  /  / Si  vous  quittez  les  cantons  d'Asiago  et  de  Gallio,  les  plus  civilisés  / et  les  moins  sauvages  du  pays,  et  que  vous  vous  éleviez  jusqu'à  l'ef-  / frayant ravin  dit  le  Creux  de  l'Ours,  cavo  dell  Orso,  qui  s'étend  à  / mi-hauteur  du  mont  Portole,  les  pâtres  de  ces  vallées  solitaires  vous  / raconteront  de  plus  étran"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "offset": 485887,
+   "pron": "lui",
+   "window": "Lui,  depuis \nsix  mois  entiers  qu'il  est  investi  de  la  dictature,  qu'a-t-il  fait?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de  la  dictature"
+   ],
+   "context": "  nous  qu'il  a  méconnus  et  insultés.  /  / Nous  concevrions  d'ailleurs  qu'on  pût  hésiter  un  moment  sur  la  /  / 11.  /  /  / 164  REVUE  DES  DEUX  MONDES.  /  / nature  des  sentimens  que  doit  exciter  la  situation  du  duc  de  la  Vic-  / toire, s'il  présentait  quelques  garanties  sérieuses  pour  faire  un  jour  / le  bien  de  l'Espagne;  mais,  de  bonne  foi,  peut-on  conserver  encore  / la  moindre  illusion  sur  ce  point?  Une  usurpation  comme  la  sienne  / ne  peut  être  excusée  que  lorsqu'elle  est  suivie  de  grands  services  / rendus  à  l'état.  Bonaparte  et  Cromw  ell,  ses  deux  modèles,  ont  marqué  / les  premiers  jours  de  leur  règne  par  de  grandes  choses.  Lui,  depuis  / six  mois  entiers  qu'il  est  investi  de  la  dictature,  qu'a-t-il  fait?  Rien,  / absolument  rien.  Au  contraire,  l'état  de  l'Espagne  est  dix  fois  pire  / aujourd'hui  qu'au  mois  de  septembre  dernier,  tandis  qu'i'  a  sufh  de  / moins  de  temps  au  premier  consul  pour  rétablir  Tordre  au  dedans  et  / fonder  la  grandeur  de  la  France  au  dehors.  /  / Espartero  n'a  eu  qu'une  pensée  depuis  qu'il  est  le  maître ,  c'est  / la  conservation  d'un  état  militai; e  écrasant  et  inutile.  Tant  que  la  / guerre  civile  a  duré,  on  conçoit  que  l'Espagne  se  soit  épuisée  pour  / entretenir  son  armée  sur  un  pied  formidable,  quoique  ce  soit  e"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "offset": 1036711,
+   "pron": "elle",
+   "window": "elle,  pour  notre  plaisir,  pour  renouer  et  consolider \nnos  alliances  européennes,  aux  projets  de  Catherine,  à  la  vieille  et  constante \npensée  de  sa  politique,  disons-le,  à  l'avenir  de  la  puissance  russe?",
+   "strict_gov_inf": [
+    "pour  notre",
+    "pour  renouer",
+    "à  l'avenir"
+   ],
+   "loose_gov_inf": [],
+   "context": "  à  / elle-même,  à  son  avenir,  à  ses  intérêts.  C'est  à  nous  de  songer  aux  nôtres.  /  / L'Angleterre  peut  être  amenée  un  jour  à  s'emparer  de  la  route  des  Indes  / par  l'Egypte;  elle  est  sur  cette  pente ,  elle  le  sait.  Elle  ne  veut  rien  dans  ce  / moment,  cela  est  certain  :  elle  veut  seulement  briser  ce  qui  pourrait  lui  être  / obstacle  dans  les  éventualités  qu'elle  entrevoit.  Elle  n'a  pas  voulu  qu'il  y  eût  / en  Egypte  quelque  chose  qui  ressemblât  à  une  puissance,  qui  pût  un  jour,  à  / l'aide  de  quelques  secours  européens,  lui  barrer  le  chemin  de  la  véritable  An-  / gleterre, qui  est  l'Inde.  /  / La  Russie  renoncerait-elle,  pour  notre  plaisir,  pour  renouer  et  consolider  / nos  alliances  européennes,  aux  projets  de  Catherine,  à  la  vieille  et  constante  / pensée  de  sa  politique,  disons-le,  à  l'avenir  de  la  puissance  russe?  En  sub-  /  /  / REVUE.  —  CHRONIQUE.  333  /  / juguant  la  Pologne,  la  Russie  a  fait  son  dernier  effort  vers  l'Occident.  Elle  / ne  peut  pas  se  faire  d'illusion  à  cet  égard.  Tout  ce  qu'elle  peut  espérer,  c'est  / de  conserver  sa  dernière  et  sanglante  conquête.  C'est  vers  l'Orient  que  doit  / nécessairement  faire  explosion  cette  force  expansive  qui  agite  les  peuples  nou-  / veaux, impatiens,  fanatiques.  Qu'ils  s'appellent  INorman"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "offset": 1041890,
+   "pron": "nous",
+   "window": "nous;  nous  pou- \nvions, par  un  traité  qu'on  nous  offrait,  qu'on  nous  demandait  instamment \nd'accepter,  les  détacher  au  fond  de  la  Russie  et  les  ramener  à  nous;  devions- \nnous  perdre  l'occasion  de  défaire  ce  que  le  cabinet  russe  avait  fait?",
+   "strict_gov_inf": [
+    "de  défaire"
+   ],
+   "loose_gov_inf": [],
+   "context": "e  peut  avoir  des  vues  analogues  aux  leurs,  le  même  désintéresse-  / ment, les  mêmes  pensées  d'avenir.  Devions-nous  repousser  ces  ouvertures,  / et,  pour  un  moment  d'erreur,  sacrifier  de  si  grands  intérêts  à  notre  juste  sus-  / ceptibilité nationale. 'Les repousser,  c'était  les  rejeter  malgré  elles  dans  les  bras  / de  la  Russie.  Les  hommes  sont  ainsi  faits.  Le  refus  de  la  France  leur  aurait  / paru  une  sorte  d'hostilité  à  leur  égard.  Crainte  de  se  trouver  un  jour  aban-  / données par  les  uns  et  par  les  autres,  elles  auraient  à  contre-cœur  resserré  les  / liens  du  15  juillet.  La  Russie  a  tout  fait  pour  les  détacher  de  nous;  nous  pou-  / vions, par  un  traité  qu'on  nous  offrait,  qu'on  nous  demandait  instamment  / d'accepter,  les  détacher  au  fond  de  la  Russie  et  les  ramener  à  nous;  devions-  / nous  perdre  l'occasion  de  défaire  ce  que  le  cabinet  russe  avait  fait?  /  / Est-ce  là  réellement  le  fond  des  choses?  Nous  l'ignorons  complètement.  / Nous  disons  seulement  que,  si  cela  était,  il  serait  difficile,  impossible  peut-  / être  pour  le  ministère,  de  mettre  ces  considérations  dans  toute  leur  lumière  à  / la  tribune  nationale  par  des  discours  officiels.  Nous  disons  que,  réduits  à  / défendre  le  traité  par  la  teneur  de  son  dispositif,  les  mini"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "offset": 1042067,
+   "pron": "nous",
+   "window": "nous;  devions- \nnous  perdre  l'occasion  de  défaire  ce  que  le  cabinet  russe  avait  fait?",
+   "strict_gov_inf": [
+    "de  défaire"
+   ],
+   "loose_gov_inf": [],
+   "context": "t  d'erreur,  sacrifier  de  si  grands  intérêts  à  notre  juste  sus-  / ceptibilité nationale. 'Les repousser,  c'était  les  rejeter  malgré  elles  dans  les  bras  / de  la  Russie.  Les  hommes  sont  ainsi  faits.  Le  refus  de  la  France  leur  aurait  / paru  une  sorte  d'hostilité  à  leur  égard.  Crainte  de  se  trouver  un  jour  aban-  / données par  les  uns  et  par  les  autres,  elles  auraient  à  contre-cœur  resserré  les  / liens  du  15  juillet.  La  Russie  a  tout  fait  pour  les  détacher  de  nous;  nous  pou-  / vions, par  un  traité  qu'on  nous  offrait,  qu'on  nous  demandait  instamment  / d'accepter,  les  détacher  au  fond  de  la  Russie  et  les  ramener  à  nous;  devions-  / nous  perdre  l'occasion  de  défaire  ce  que  le  cabinet  russe  avait  fait?  /  / Est-ce  là  réellement  le  fond  des  choses?  Nous  l'ignorons  complètement.  / Nous  disons  seulement  que,  si  cela  était,  il  serait  difficile,  impossible  peut-  / être  pour  le  ministère,  de  mettre  ces  considérations  dans  toute  leur  lumière  à  / la  tribune  nationale  par  des  discours  officiels.  Nous  disons  que,  réduits  à  / défendre  le  traité  par  la  teneur  de  son  dispositif,  les  ministres  se  trouveraient  / chargés  d'une  tâche  bien  scabreuse,  car,  encore  une  fois,  nous  ne  pouvons  / pas  croire  que  le  traité  renferme  des  stipulations  importa"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "offset": 2052910,
+   "pron": "nous",
+   "window": "nous,  ô  Allemagne,  notre \nsœur,  filez-vous  le  linceul  de  votre  génie,  ou  ne  voyez-vous  pas  poindre  au \nlointain  dans  le  jour  morne  qui  vous  enveloppe  l'éclair  d'une  nouvelle  gloire \net  l'aurore  d'une  nouvelle  vie?",
+   "strict_gov_inf": [
+    "de  votre"
+   ],
+   "loose_gov_inf": [],
+   "context": "  / t-il  au  bout  de  l'année?  Hélas!  je  l'ai  déjà  dit  mainte  fois,  et  il  m'en  coûte  de  / le  répéter  encore,  il  reste  peu  de  chose.  J'ai  beau  chercher  et  fouiller  dans  ces  / gerbes  de  volumes,  de  brochures  qui  arrivent  cliaque  mois  de  Leipzig  à  Paris.  / Pour  quelques  épis  qui  renferment  un  peu  de  bon  grain ,  combien  d'autres  / qui  n'ont  que  des  alvéoles  vides!  Une  tradition  populaire  raconte  que  parfois  / dans  les  champs  du  Nord ,  dans  les  nuits  ténébreuses  d'hiver,  on  entend  le  / rouet  des  filandières  qui  filent  des  linceuls  de  mort.  Dans  le  bruit  journalier  / de  vos  bibliothèques  et  de  vos  écoles,  dites-le-nous,  ô  Allemagne,  notre  / sœur,  filez-vous  le  linceul  de  votre  génie,  ou  ne  voyez-vous  pas  poindre  au  / lointain  dans  le  jour  morne  qui  vous  enveloppe  l'éclair  d'une  nouvelle  gloire  / et  l'aurore  d'une  nouvelle  vie?  /  / X.  Marmter.  /  /  / CHRONIQUE  DE  LA  QUINZAINE.  /  /  / 14  mai  1841.  /  /  / La  discussion  du  budget  de  la  guerre  a  fait  naître  à  la  chambre  des  députés  / un  de  ces  débats  aussi  fâcheux  qu'inutiles  qui  caractérisent  notre  politique  / toute  de  personnalités  et  de  haines.  Le  ministère  du  1*\"'  mars  avait  organisé  / dans  rinfanterie  douze  régimens  nouveaux.  Le  cabinet  du  29  octobre  avait  / adopté  et  consacré  cette  mesu"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "offset": 920406,
+   "pron": "moi",
+   "window": "moi,  parlaient  à  l'étranger; \nQuel  caprice  ou  quel  philtre  avaient  pu  la  changer?",
+   "strict_gov_inf": [
+    "à  l'étranger"
+   ],
+   "loose_gov_inf": [],
+   "context": "ier-rose.  / L'amour  ne  chantait  pas  encore  dans  son  cœur.  / Elle  me  désolait  avec  son  air  moqueur.  / Près  d'elle  sans  rougir  m'attirait  sur  les  gerbes;  / Quand  elle  avait  couru  tout  le  soir  dans  les  herbes ,  / Et  trouvé  quelque  nid,  rien  ne  lui  manquait  plus;  / Elle  avait  cependant  ses  quinze  ans  révolus.  / Et,  sans  qu'une  étincelle  allât  jusqu'à  son  ame.  / L'enfant!  elle  jouait  sous  mes  regards  de  flamme  !  / J'immolai  deux  chevreaux  dans  le  temple  d'Éros,  / Et  le  dieu  réveilla  ce  marbre  de  Paros.  / Myrto  m'avait  quitté  pour  le  Thébain  Évandre;  / Ni  larmes  ni  présens  n'obtenaient  un  mot  tendre;  / Ses  yeux,  muets  pour  moi,  parlaient  à  l'étranger;  / Quel  caprice  ou  quel  philtre  avaient  pu  la  changer?  /  /  / 294  REVUE  DES  DEUX  MONDES.  /  / Et  moi,  de  son  erreur  pour  la  guérir  plus  vite,  / J'apporte  une  colombe  à  l'autel  d'Aphrodite ,  / Et  le  soir  ]\\Iyrto  vient  s'offrir  à  mes  baisers,  / En  tremblant  à  son  tour  de  les  voir  refusés.  /  / Si  l'arc  d'Éros  se  brise,  et  si  tu  meurs,  déesse,  / Si  tu  ne  prêtes  plus  aux  femmes  de  la  Grèce  / Ta  magique  ceinture,  et  lui  son  carquois  d'or.  / Quel  charme  le  printemps  nous  garde-t-il  encor?  / Quel  dieu  fera  chanter  les  nids  sous  les  charmilles ,  / Et  mettra  le  désir  au  cœur  des  jeunes  fdles?  / Et  com"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "offset": 1400454,
+   "pron": "vous",
+   "window": "vous,  pour \nl'église  chrétienne,  de  se  retrouver  au  miheu  des  mœurs  de  la  Bible \net  de  l'Évangile?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de  se  retrouver"
+   ],
+   "context": "  en-  / nemi redoutable ,  la  piété  sera  pendant  long-temps  encore  un  des  / plus  sûrs  moyens  de  se  faire  respecter  des  Arabes  et  de  gagner  leur  / estime.  Or,  l'estime  des  ennemis  a  un  attrait  irrésistible.  Non  que  je  / veuille  dire  que  les  fidèles  à  Alger  ne  seroot  pieux  qjie  par  calculs  /  /  / L'ALGÉRIE.  447  /  / 4e  politique  ou  de  vanité  humaine  :  je  dis  seulement  que  les  Odèles  / tiendront  d'autant  plus  à  la  religion  qu'ils  sauront  qu'aux  yeux  des  / Arabes  le  culte  fait  la  nationalité.  /  / Je  compte  aussi ,  parmi  les  avantages  de  l'église  d'Alger,  le  contact  / des  mœurs  et  du  génie  de  l'Orient.  N'est-ce  rien,  croyez-vous,  pour  / l'église  chrétienne,  de  se  retrouver  au  miheu  des  mœurs  de  la  Bible  / et  de  l'Évangile?  La  vie  des  patriarches  avec  sa  simplicité  et  sa  gra-  / vité, la  résignation  et  l'abandon  à  Dieu,  l'ardeur  et  l'enthousiasme  / des  prophètes,  le  calme  et  la  paix  des  solitaires,  le  merveilleux  accord  / de  la  naïveté  et  de  la  grandeur,  tout  ce  que  nous  aimons  enfin ,  tout  / ce  que  nous  adorons  dans  la  Bible  et  dans  l'Évangile,  tout  cela  est  / encore  en  Orient,  surtout  pour  ceux  qui  y  apportent  avec  eux  la  Bible  / et  l'Évangile  (1).  Sans  ces  deux  livres,  en  effet,  l'Orient  est  presque  / muet,  ou  du  moins  l'Orie"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "offset": 1619489,
+   "pron": "nous",
+   "window": "nous,  n'est-ce  pas  la  choquer  évidemment,  et  avec  elle  le  sens \ncommun ,  que  de  faire  de  Jésus-Christ  un  moyen  géométrique  entre \nDieu  et  l'homme?",
+   "strict_gov_inf": [
+    "de  faire"
+   ],
+   "loose_gov_inf": [],
+   "context": "t-il,  le  respect  des  anciens  pour  le  nombre  / trois,  et  qu'il  conduit  jusqu'à  la  fameuse  trinité  des  pronoms  per-  / sonnels :  «  Toute  langue  a  je,  tu,  il.  «  On  pourrait  aussi,  si  cela  en  / valait  la  peine,  contester  cette  proportion  géométrique,  et  cette  né-  / cessité d'un  milieu  que  les  exemples  choisis  ne  justiflent  pas  parfai-  / tement. Ainsi,  pour  ne  pas  aborder  la  redoutable  question  de  la  / trinité  divine ,  mêlée  fort  mal  à  propos  par  un  certain  nombre  d'écri-  / vains à  leurs  rêveries  philosophiques,  s'il  est  très  conforme  à  la  foi  / catholique  de  dire  que  Jésus-Christ  est  un  médiateiir  entre  le  ciel  / et  nous,  n'est-ce  pas  la  choquer  évidemment,  et  avec  elle  le  sens  / commun ,  que  de  faire  de  Jésus-Christ  un  moyen  géométrique  entre  / Dieu  et  l'homme?  Le  moyen  géométrique  entre  Dieu  et  l'homme ,  si  / une  pareille  absurdité  était  possible,  ce  serait  un  demi-dieu,  et  non  / Jésus-Christ,  qui  est  tout-à-fait  Dieu  et  tout-à-fait  homme.  M.  de  / Bonald  n'a  pas  mieux  réussi  dans  l'exemple  tiré  de  la  famille ,  et  il  / est  curieux  de  voir  comment  il  le  développe.  «  Dans  la  conservation  / ou  instruction  de  l'homme,  comme  dans  sa  reproduction,  dit-il,  le  / père  est  fort  ou  actif,  l'enfant  passif  ou  faible;  la  mère,  moyen  "
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "offset": 2235293,
+   "pron": "elle",
+   "window": "elle ,  et  de \nleur  inspirer  la  juste  inquiétude  qu'elle  ressent,  n'est-il  pas  évident \nque  la  partie  ne  sera  plus  égale,  et  qu'elle  finira  très  probablement \npar  tout  céder,  sans  qu'on  lui  cède  rien?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de \nleur  inspirer"
+   ],
+   "context": "urs.  Quand  les  nations  débattent  entre  elles  leurs  intérêts,  / elles  pèsent  donc  les  unes  sur  les  autres  par  un  sentiment  qui  leur  / est  commun,  la  crainte  de  la  guerre.  C'est  là  ce  qui  les  contient  et  / les  modère  dans  leurs  prétentions,  ce  qui  les  amène  presque  tou-  / jours à  une  juste  transaction.  Mais  qu'il  soit  une  fois  établi  que,  par  / sa  faute  ou  par  celle  de  son  gouvernement,  une  de  ces  nations  est  / décidée  d'avance,  tant  qu'on  respecte  son  territoire,  à  ne  point  tirer  / l'épée  pour  la  défense  de  son  droit;  que  cette  nation  cesse  ainsi  / d'avoir  contre  les  autres  l'arme  que  celles-ci  ont  contre  elle ,  et  de  / leur  inspirer  la  juste  inquiétude  qu'elle  ressent,  n'est-il  pas  évident  / que  la  partie  ne  sera  plus  égale,  et  qu'elle  finira  très  probablement  / par  tout  céder,  sans  qu'on  lui  cède  rien?  J'espère,  malgré  de  bien  / imprudentes  paroles  tout  récemment  prononcées,  que  telle  n'est  pas,  / que  telle  ne  sera  jamais  la  situation  de  la  France;  malheureusement  / beaucoup  le  pensent  au  dehors,  et  la  convention  du  13  juillet  semble  / venir  tout  exprès  pour  justifier  une  si  triste  opinion.  /  / Je  désire  sincèrement  me  tromper;  mais  tel  est,  selon  moi,  le  / sens,  telle  est  la  portée  de  la  signature  donnée  par  la"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "offset": 2915784,
+   "pron": "nous",
+   "window": "nous, \nau  lieu  de  s'en  aller  courir  je  ne  sais  où?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de  s'en  aller"
+   ],
+   "context": "s  soldats  entre  eux  fit  qu'ils  ne  s'aperçurent  de  / rien.  Ils  s'éloignèrent.  Le  marquis,  croyant  qu'il  ne  s'agissait  que  / d'une  frayeur  déraisonnable  de  jeune  fille,  se  fâcha  et  soutint  son  / dire.  M\"'=  de  La  Charnaye,  le  péril  passé,  s'excusa  de  son  mieux.  Ce-  / pendant, quoiqu'il  ne  se  plaignît  pas,  le  marquis  était  visiblement  / excédé  de  besoin  et  de  lassitude;  il  s'inquiétait  de  cette  course  inter-  / minable, et  demanda  plusieurs  fois  si  l'on  n'arriverait  pas  bientôt.  / M\"^  de  La  Charnaye  avoua  qu'elle  se  croyait  égarée.  Le  marquis  disait  / entre  ses  dents  :  —  Ce  drôle  de  Paulet  ne  pouvait-il  rester  avec  nous,  / au  lieu  de  s'en  aller  courir  je  ne  sais  où?  /  / De  temps  en  temps  ils  s'arrêtaient,  le  marquis  donnait  ses  indica-  / tions, qui  étaient  inutiles,  puisqu'il  n'était  point  où  il  croyait  être.  / L'incertitude  et  les  angoisses  de  M\"'  de  La  Charnaye  redoublaient  / par  la  crainte  du  danger  qu'ils  venaient  de  courir.  Elle  se  recom-  / manda à  Dieu  et  entraîna  son  père  dans  un  faux-fuyant  au  bout  / duquel  on  voyait  un  jour  à  travers  les  branches  qui  le  couvraient  en  / voûte.  Elle  entrevit,  en  s'approchant  de  l'issue,  une  espèce  de  / clairière  formée  par  un  de  ces  embranchemens  de  plusieurs  routes  / qu'on  appelle  pa"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 867310,
+   "pron": "lui",
+   "window": "lui,  serait-il  nécessaire  de  recourir \naux  soins  d'un  inconnu?",
+   "strict_gov_inf": [
+    "de  recourir"
+   ],
+   "loose_gov_inf": [],
+   "context": "u  connaissait  les  influences  du  climat,  les  variations  de  la  / température,  la  qualité  des  eaux,  la  nature  du  sol,  la  manière  de  / vivre  des  indigènes,  leurs  besoins ,  leurs  mœurs  et  leurs  habitudes.  /  /  / LE  DOCTEUR  HERBEAC.  289  /  / Combien  d'années  ne  fallait-il  pas  pour  acquérir  ces  connaissances  / essentielles,  si  sévèrement  recommandées  par  Hippocrate,  sans  les-  / quelles un  médecin  est  plus  fécond  en  funérailles  que  la  guerre  / civile  ou  la  peste!  /  / Le  docteur  Herbeau  se  faisait  vieux  sans  doute,  mais  le  fruit  de  / l'expérience  ne  mûrit  pas  sur  de  jeunes  ramean.x.  Enfin,  quand  / l'heure  du  repos  aurait  sonné  pour  lui,  serait-il  nécessaire  de  recourir  / aux  soins  d'un  inconnu?  Saint-Léonard  se  verrait-il  réduit  à  confier  / à  des  mains  étrangères  le  sceptre  échappé  aux  mains  du  vénérable  / Herbeau?  Eh  quoi!  n'aurait-on  pas  Célestin,  revenu  de  Montpel-  / lier, comme  les  arbres  de  ce  doux  pays,  tout  chargé  de  fruits  et  de  / fleurs,  le  front  couronné  des  palmes  de  la  science  et  des  roses  de  la  / jeunesse?  Célestin,  charmant  espoir,  pousse  verdoyante  qui  pro-  / mettait d'ombrager  un  jour  le  tronc  paternel!  /  / Ainsi ,  durant  cette  soirée ,  le  vent  de  la  faveur  avait  tourné  vers  le  / docteur  Herbeau;  mais,  plus  funeste  que  le  siroc"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 1212527,
+   "pron": "vous",
+   "window": "vous,  dit  Louise,  ai-je \ncraint,  moi,  de  me  compromettre?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de  me  compromettre"
+   ],
+   "context": "Vous  n'êtes  pas  galant,  dit-elle.  /  / Ce  reproche  alla  droit  au  cœur  d'Aristide.  Et  puis  il  regardait  / Louise,  et  Louise  était  charmante  sur  son  trône  de  mousse  et  de  / fleurs.  Le  docteur  la  contemplait  avec  amour,  et  ne  pouvait  surtout  / détacher  ses  yeux  de  deux  petits  pieds  qui ,  sous  la  robe  que  lutinait  / la  brise ,  semblaient  lui  sourire  et  l'agacer.  /  / —  Eh  bien  !  vous  ne  venez  pas?  dit  M\"*^  Riquemont.  Ah!  si  vous  / m'aimiez ,  vous  seriez  déjà  près  de  moi.  /  / Aristide  hésitait.  /  / —  Louise ,  s'écria-t-il ,  vous  compromettez  étrangement  la  dignité  / de  mon  caractère  !  /  / —  Quand  vous  m'avez  demandé  un  rendez-vous,  dit  Louise,  ai-je  / craint,  moi,  de  me  compromettre?  car  c'est  un  rendez-vous,  docteur,  / ajouta-t-elle  en  souriant.  /  / Aristide  regardait  toujours  les  deux  petits  pieds  qui  le  fascinaient,  / et  de  temps  en  temps  la  brise  indiscrète  qui  jouait  follement  dans  les  / plis  de  la  robe  de  Louise ,  dévoilait  à  demi  les  trésors  d'une  jambe  / charmante ,  que  pressait  coquettement  un  brodequin  de  coutil  gris.  / Cependant  les  pigeons  piétinaient  et  roucoulaient  amoureusement,  /  /  / LE   DOCTEUR   IIERBEAU.  407  /  / au  bas  du  mur  le  coq  faisait  merveilles,  l'air  embrasé  par  le  soleil  / était  cbargé  de  parfums  irritans,  et  le  docteu"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 1212564,
+   "pron": "moi",
+   "window": "moi,  de  me  compromettre?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de  me  compromettre"
+   ],
+   "context": "  /  / Ce  reproche  alla  droit  au  cœur  d'Aristide.  Et  puis  il  regardait  / Louise,  et  Louise  était  charmante  sur  son  trône  de  mousse  et  de  / fleurs.  Le  docteur  la  contemplait  avec  amour,  et  ne  pouvait  surtout  / détacher  ses  yeux  de  deux  petits  pieds  qui ,  sous  la  robe  que  lutinait  / la  brise ,  semblaient  lui  sourire  et  l'agacer.  /  / —  Eh  bien  !  vous  ne  venez  pas?  dit  M\"*^  Riquemont.  Ah!  si  vous  / m'aimiez ,  vous  seriez  déjà  près  de  moi.  /  / Aristide  hésitait.  /  / —  Louise ,  s'écria-t-il ,  vous  compromettez  étrangement  la  dignité  / de  mon  caractère  !  /  / —  Quand  vous  m'avez  demandé  un  rendez-vous,  dit  Louise,  ai-je  / craint,  moi,  de  me  compromettre?  car  c'est  un  rendez-vous,  docteur,  / ajouta-t-elle  en  souriant.  /  / Aristide  regardait  toujours  les  deux  petits  pieds  qui  le  fascinaient,  / et  de  temps  en  temps  la  brise  indiscrète  qui  jouait  follement  dans  les  / plis  de  la  robe  de  Louise ,  dévoilait  à  demi  les  trésors  d'une  jambe  / charmante ,  que  pressait  coquettement  un  brodequin  de  coutil  gris.  / Cependant  les  pigeons  piétinaient  et  roucoulaient  amoureusement,  /  /  / LE   DOCTEUR   IIERBEAU.  407  /  / au  bas  du  mur  le  coq  faisait  merveilles,  l'air  embrasé  par  le  soleil  / était  cbargé  de  parfums  irritans,  et  le  docteur  sentait  se  réveiller  en  / lui  o"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 1240883,
+   "pron": "lui",
+   "window": "lui; \nmais  se  contenant  d'abord  : \n\n—  Vous  venez  de  dîner  chez  le  curé  de  Savigny?",
+   "strict_gov_inf": [
+    "de  dîner"
+   ],
+   "loose_gov_inf": [],
+   "context": " moins,  avaient  mordu  dans  la  même  pomme.  /  / Il  faudrait  une  langue  qui  s'écrivît  avec  des  larmes  et  se  parlât  avec  / des  sanglots,  pour  pouvoir  raconter  en  quel  état  le  docteur  Herbeau  / retourna  à  Saint-Léonard.  Vers  le  soir,  le  ciel  s'étant  voilé  de  nuages,  / il  faisait  une  nuit  sans  lune  et  sans  étoiles,  moins  sombre  toutefois  / que  le  cœur  du  docteur  lîerbeau.  Quelle  journée!  et  quel  dénouement  / à  de  si  charmantes  amours!  Aristide  s'arrêta  devant  sa  porte,  et,  / s'étant  laissé  glisser  jusqu'à  terre,  il  entra  pâle  et  délait  dans  sa  mai-  / son. Aussitôt  qu'elle  l'aperçut,  Adélaïde  faillit  se  précipiter  sur  lui;  / mais  se  contenant  d'abord  :  /  / —  Vous  venez  de  dîner  chez  le  curé  de  Savigny?  lui  dit-elle  avec  / un  calme  apparent.  /  / —  Sans  doute,  répliqua  négligemment  le  docteur.  /  / Après  un  silence  durant  lequel  la  lionne  rugit  intérieurement  :  /  /  / LE   DOCTEUR   IIERBEAU.  M*I  /  / —  Comprenez-vous  rien ,  reprit-elle ,  au  retard  de  l'arrivée  de  / Célestin  ?  /  / —  Rien  assurément,  répondit  le  docteur  d'un  air  distrait.  /  / —  Il  est  fâcheux  pour  vous,  dit  l'épouse  en  grinçant  des  dents,  / que  le  curé  de  Savigny  ait  dîné  aujourd'hui  même  chez  le  curé  de  / Saint-Léonard.  Deux  heures  après  votre  départ,  vous  avez  reçu  sa  / visite.  Qu"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 1683782,
+   "pron": "elle",
+   "window": "elle,  il  paraît  que  vous  vous  plaisez  beaucoup  à  Montpellier?",
+   "strict_gov_inf": [
+    "à  montpellier"
+   ],
+   "loose_gov_inf": [],
+   "context": "t  /  / qui  dut  sembler  un  siècle  à  chaque  assistant ,  on  entoura  le  jeune  / docteur.  Chacun  s'empressa  de  lui  faire  fête,  et  ce  ne  fut,  durant  / quelques  minutes ,  que  reconnaissances ,  accolades  et  poignées  de  / main.  Lord  Flamborough  eut  sa  part  de  ce  bon  accueil;  mais  il  fut  / impossible  de  lui  arracher  une  parole  ni  même  un  sourire.  Pour  / couper  court  aux  impressions  fâcheuses,  M\"\"'  Herbeau  se  hâta  de  / faire  annoncer  que  le  dîner  attendait  les  convives.  /  / Ayant  pris  le  bras  de  lord  Flamborough  pour  passer  dans  la  salle  / à  manger  :  /  / —  Il  paraît,  milord,  dit  Adélaïde  en  lui  indiquant  une  place  au-  / près d'elle,  il  paraît  que  vous  vous  plaisez  beaucoup  à  Montpellier?  /  / —  Je  m'ennuie  partout,  répondit  froidement  l'Anglais.  / Célestin  avait  offert  son  bras  à  Corinne.  /  / —  J'espère,  monsieur,  lui  dit-elle,  que  la  science  ne  vous  a  pas  / brouillé  avec  les  neuf  sœurs,  et  que  vous  faites  toujours  des  verses?  /  / —  En  médecine,  nous  disons  des  vers,  répondit  Célestin  en  se  / mettant  à  table.  /  / 11  n'entre  ni  dans  nos  goûts  ni  dans  nos  idées  de  donner  le  menu  / du  dîner,  de  compter  les  plats,  d'analyser  les  sauces,  d'énumérer  les  / cristaux  et  de  décrire  les  fourchettes.  Ces  sortes  de  nomenclatures  / sont  fort  à  la  mode, "
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "offset": 1147825,
+   "pron": "moi",
+   "window": "moi,  Monsieur  le  Marechal,  comment \npensez-vous  que  les  Turcs  prendront  ce  que  nous  voulons \narreter  pour  les  empecher  de  re*duire  leurs  sujets  re'volte's?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "pour  les  empecher"
+   ],
+   "context": "enu  de  l'Angleterre  de  s'engager  a  / participer  k  une  entreprise  offrant  des  frais  et  des  risques  / pour  eile  en  renoncant  a  des  acquisitions  ou  k  des  avantages  / pour  son  commerce.  Comme  il  est  bien  loin  de  ma  pensee  de  / songer  a  un  agrandissement  quelconque  de  territoire,  cette  / clause  etait  entierement  k  ma  convenance,  et  j'en  fis  la  pro-  / position  franchement,  pour  m'assurer  de  mon  cöte*  que  l'Angle-  / terre  n'avait  en  vue  ni  avantage  commercial  exclusif,  a  quoi  / eile  vise  souvent,  ni  influence  prödominante.  Je  me  rappelle,  / continua  FEmpereur,  avoir  dit  a  cette  epoque  au  Duc  de  / Wellington:  „Mais,  dites-moi,  Monsieur  le  Marechal,  comment  / pensez-vous  que  les  Turcs  prendront  ce  que  nous  voulons  / arreter  pour  les  empecher  de  re*duire  leurs  sujets  re'volte's?  / Est-ce  qu'ils  endureront  patiemment  ce  que  nous  voulons  leur  / dicter?\"  Le  Duc  de  Wellington  m'a  repondu  k  cela:  „Ob!  les  / Turcs,  lorsqu'ils  verront  notre  de'termination  bien  se'rieuse,  ne  / pousseront  jamais  les  cboses  ä  F  extreme,  il  ne  faudra  de  notre  / part  que  quelques  fre'gates  pour  les  empScher  d'exercer  des  / hostilites,  pour  les  intimider  et  pour  leur  faire  entendre  raison ;  / jamais,  du  reste,  nous  n'en  viendrons  a  la  guerre.\"  L'Empereur  /  / üttetternidj"
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "offset": 1462019,
+   "pron": "elle",
+   "window": "elle,  autant  que  nous  la  voulons,  la  conservation  de \ncet  Empire?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "de \ncet  empire"
+   ],
+   "context": "ourner  au  profit  de  la  Porte,  lui  / laisse  au  moins  la  chance  de  survivre  a  ses  defaites.  En  ex-  / cluant  son  territoire  europden  de  la  garantie  generale  des  / Etats  de  l'Europe,  on  a  commis  une  grande  faute;  une  seconde,  / plus  grave  dans  ses  consdquences,  a  ete  celle  de  subordonner  / explieitement  et  exclusivement  les  affaires  de  la  Turquie  au  bon  / plaisir  de  son  grand  et  puissant  voisin.  Jusqu'oii  TAngleterre  / est-elle  decidee  a  pousser  cette  indifference  ?  Entend-elle,  oui  / ou  non,  considerer  ce  qui  restera  d'existence  a  l'Empire  ottoman  / comme  place\"  sous  la  sauvegarde  de  la  politique  europeenne?  / Voudra-t-elle,  autant  que  nous  la  voulons,  la  conservation  de  / cet  Empire?  L'Autriche  ne  vise  et  ne  visera  jamais  a  s'agrandir  / aux  depeus  de  ses  voisins ;  1'Empereur  ne  demande  rien  k  / personne;  mais  il  doit  dgalement  desirer,  dans  les  termes  d'une  / bonne  foi  reciproque,  que  d'autres  ne  se  prevalent  pas,  pour  / des  empietements  progressifs,  de  ce  qu'il  ne  peut  qualifier  / que  de  complaisance  europeenne,  soit  explieitement,  soit  / tacitement  d'aecord  avec  des  projets  ddsastreux.  /  / Les  factions  ennemies  du  repos  ne  manqueront  pas  de  / mettre  en  avant  Tidee  d'un  partage  de  l'Empire  decliu.  Les  / Cabinets  se  prononceront-ils  "
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "offset": 22877,
+   "pron": "lui",
+   "window": "lui, en \navait-il fait disparaître la trace, ét ne risquait-on pas \nde le voir livré au public par quelque intermédiaire à \nqui il en aurait fait cession à titre gratuit ou onéreux ?",
+   "strict_gov_inf": [
+    "à titre"
+   ],
+   "loose_gov_inf": [
+    "de le voir"
+   ],
+   "context": "t nommé),  / dans une lettre adressé à ce journal, démentait  / celte allégation et se disait prêt à poursuivre devant  / les tribunaux « quiconque s'autoriserait de son nom  / pour donner quelque apparence d'authenticité à des  / écrits de M. de Talleyrand». Mais quelle valeur avait  / ce démenti, qu'on ne pouvait se dispenser de donner à  / moins de se déclarer coupable d’une improbité crimi-  / nelle, et quel fondement avait l'allégation du Times ?  / M. Perrey avait-il essayé sur quelques fragments dé-  / tournés des Mémoires ou sur quelques notes préparées  / pour leur rédaction, ee procédé de reproduction ampli-  / fiée et dénäturée dont on le savait coutumier? Si  / quelque essai de œ genre avait été fait par lui, en  / avait-il fait disparaître la trace, ét ne risquait-on pas  / de le voir livré au public par quelque intermédiaire à  / qui il en aurait fait cession à titre gratuit ou onéreux ?  /  /  / Nalle précaution ne parut superflue à madame la  /  /  / Google .  /  /  / Pnéracr. peu  / duchesse de Talleyrand et à M. de Bacourt contre une  / éventualité qui leur paraissait à craindre ; et pour aller  / au-devant de toute contestation ou confusion possible,  / M. de Bacourt prit le parti de transcrire lui-même de  / sa propre main le texte des Mémoires tel qu'il le tenait  / de M. de Talleyrand avec les notes el pièces qui devaient  / y être jointes.  /  / Cette copie se trouve mentionnée dans l'inventaire  / des papiers de M. de Baco"
+  },
+  {
+   "file": "levant-correspondence-1841-p3.txt",
+   "offset": 524567,
+   "pron": "nous",
+   "window": "nous ; nous pensons \ntous que la soumission de Méhémet Ali, pour devenir complete, doit étre suivie \n\n\n?",
+   "strict_gov_inf": [
+    "pour devenir"
+   ],
+   "loose_gov_inf": [],
+   "context": " /  / M. le Mimstre des Affaires Etrangéres.—La Porte n’a jamais voulu agir avec  / sévérité; les faits Pont déja prouvé. Elle ne le veut pas méme aujourd’hui.  / Elle veut, au contraire, agir de concert avec ses Alliés, et quoique ce soit sans  / doute au Sultan a décider sur la soumission de Méhémet Ali, néanmoins, comme  / ses Alliés ont déclaré leurs intentions dans le mémorandum, j’ai cru devoir con-  / sulter leurs Représentans pour savoir si la démarche de Méhémet Ali est conforme  / 4 Vesprit du mémorandum; mais, puisqu’il y a dissidence dans leurs opinions  / on pourrait s’en remettre a la décision de la Conférence de Londres. ,  /  /  / es fd : Me  / M. l’Internonce.—Mais il n’y a point de dissidence entre nous ; nous pensons  / tous que la soumission de Méhémet Ali, pour devenir complete, doit étre suivie  /  /  / ?, ° e,e . ° ° ’  / de Vexécution des conditions qui lui sont imposées. Je pense encore, que ren-  / voyer la question a la décision de la Conférence de Londres, ce serait en appeler  / de la Conférence 4 la Conférence, et perdre du temps en ajournemens inutiles.  /  /  / . Le Mimsire des Affaires Etrangéres.—Je crois que Méhémet Ali doit d’abord  / exeécuter les conditions qui lui sont imposées; quant 4 l’hérédité, c’est une autre  / question sur laquelle je ne suis pas préparé 4 m’expliquer.  /  /  / M. P’Internonce déclare encore une fois que, le moment venu, il s’associera  / sur ce point aux démarches de M. A"
+  },
+  {
+   "file": "levant-correspondence-1841-p3.txt",
+   "offset": 817983,
+   "pron": "vous",
+   "window": "vous, my Lord, que dans nos conseils il serait \nbon de suggérer dés a présent l’insertion de cette clause restrictive, ou qu’il faut \ns’en tenir 4 la rédaction générale et étendue que vous avez proposée?",
+   "strict_gov_inf": [
+    "de suggérer"
+   ],
+   "loose_gov_inf": [],
+   "context": "nc adhéré, comme le Comte Keoenigsmarck et  / moi, au parti d’offrir aujourd’hui des conseils dans ce sens au Ministre Ottoman,  / et il s’est rendu en personne chez Réchid Pacha pour l’y préparer.  /  / Je suis heureux, pour ma part, d’avoir pu venir ainsi 4 la rencontre de vos  / intentions. Qu’il me soit permis seulement d’émettre ici une remarque faite  / aussi par l’Internonce au sujet de ’hérédité. Dans la lettre par laquelle vous  / avez eu la bonté de me communiquer l’extrait des instructions de Lord Pal-  / merston, votre Excellence opinait qu’il serait utile d’annoncer dés 4 présent que  / Sa Hautesse se réserve de désigner V’individu de la famille appelé chaque fois &  / succéder au Pachalic. Pensez-vous, my Lord, que dans nos conseils il serait  / bon de suggérer dés a présent l’insertion de cette clause restrictive, ou qu’il faut  / s’en tenir 4 la rédaction générale et étendue que vous avez proposée? Votre  / avis 4 cet égard ne manquera pas d’avoir un grand poids pour nous tous.  /  / Votre, &c.,  / (Signe) TITOW.  /  /  / (Translation. )  /  /  / My Lord, Pera, January $4, 1841..  / I HAVE read with much attention your Excellency’s letter to Baron  / Stiirmer, and I cannot sufficiently thank you for having had the goodness to  / communicate it to me. We met soon after midday at the Internuncio’s with  / Count Konigsmarck, and we all three admitted the prudence and the fitness of  / the proposition which you had put"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "offset": 388206,
+   "pron": "lui",
+   "window": "lui:\n\n--Il n'y a donc personne qui veuille gagner vingt louis et sauver la vie\nà ce pauvre vieux?",
+   "strict_gov_inf": [],
+   "loose_gov_inf": [
+    "à ce pauvre"
+   ],
+   "context": "ce. Il faudrait être un terrible homme pour faire la chose / de lever une voiture comme cela sur son dos. /  / Puis, regardant fixement M. Madeleine, il poursuivit en appuyant sur / chacun des mots qu'il prononçait: /  / --Monsieur Madeleine, je n'ai jamais connu qu'un seul homme capable de / faire ce que vous demandez là. /  / Madeleine tressaillit. /  / Javert ajouta avec un air d'indifférence, mais sans quitter des yeux / Madeleine: /  / --C'était un forçat. /  / --Ah! dit Madeleine. /  / --Du bagne de Toulon. /  / Madeleine devint pâle. /  / Cependant la charrette continuait à s'enfoncer lentement. Le père / Fauchelevent râlait et hurlait: /  / --J'étouffe! Ça me brise les côtes! Un cric! quelque chose! Ah! /  / Madeleine regarda autour de lui: /  / --Il n'y a donc personne qui veuille gagner vingt louis et sauver la vie / à ce pauvre vieux? /  / Aucun des assistants ne remua. Javert reprit: /  / --Je n'ai jamais connu qu'un homme qui pût remplacer un cric. C'était ce / forçat. /  / --Ah! voilà que ça m'écrase! cria le vieillard. /  / Madeleine leva la tête, rencontra l'oeil de faucon de Javert toujours / attaché sur lui, regarda les paysans immobiles, et sourit tristement. / Puis, sans dire une parole, il tomba à genoux, et avant même que la / foule eût eu le temps de jeter un cri, il était sous la voiture. /  / Il y eut un affreux moment d'attente et de silence. /  / On vit Madeleine presque à plat ventre sous ce poids effrayant essayer / deux fois en vain de rapp"
+  },
+  {
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "offset": 219271,
+   "pron": "vous",
+   "window": "vous, les\n         noirs ont le droit de voter?",
+   "strict_gov_inf": [
+    "de voter"
+   ],
+   "loose_gov_inf": [],
+   "context": "la milice, la /          prison fut forcée, un des journalistes fut tué sur la place, /          les autres restèrent pour morts: les coupables déférés au /          jury furent acquittés. /  /          Je disais un jour à un habitant de la /          Pensylvanie:--Expliquez-moi, je vous prie, comment, dans un /          État fondé par des quakers, et renommé pour sa tolérance, les /          nègres affranchis ne sont pas admis à exercer les droits de /          citoyens. Ils paient l'impôt, n'est-il pas juste qu'ils /          votent?--Ne nous faites pas cette injure, me répondit-il, de /          croire que nos législateurs aient commis un acte aussi /          grossier d'injustice et d'intolérance.--Ainsi, chez vous, les /          noirs ont le droit de voter?--Sans aucun doute.--Alors, d'où /          vient qu'au collége électoral ce matin je n'en ai pas aperçu /          un seul dans l'assemblée?--Ceci n'est pas la faute de la loi, /          me dit l'Américain; les nègres ont, il est vrai, le droit de /          se présenter aux élections, mais ils s'abstiennent /          volontairement d'y paraître.--Voilà bien de la modestie de /          leur part.--Oh! ce n'est pas qu'ils refusent d'y aller, mais /          ils craignent qu'on ne les y maltraite. Chez nous, il arrive /          quelquefois que la loi manque de force, quand la majorité ne /          l'appuie point. Or, la majorité est imbue des plus grands /     "
+  },
+  {
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "offset": 388544,
+   "pron": "eux",
+   "window": "eux, ou de laisser tomber tous les\ncitoyens au dessous du niveau de l'humanité, n'en serait-ce pas assez\npour vaincre bien des doutes, rassurer bien des consciences, et préparer\nchacun à faire aisément de grands sacrifices?",
+   "strict_gov_inf": [
+    "de laisser",
+    "pour vaincre",
+    "à faire"
+   ],
+   "loose_gov_inf": [],
+   "context": "eurs sujets. /  / Ceux-là me semblent bien aveugles qui pensent retrouver la monarchie de / Henri IV ou de Louis XIV. Quant à moi, lorsque je considère l'état où / sont déjà arrivées plusieurs nations européennes et celui où toutes les / autres tendent, je me sens porté à croire que bientôt parmi elles il ne / se trouvera plus de place que pour la liberté démocratique ou pour la / tyrannie des Césars. /  / Ceci ne mérite-t-il pas qu'on y songe? Si les hommes devaient arriver, / en effet, à ce point qu'il fallût les rendre tous libres ou tous / esclaves, tous égaux en droits ou tous privés de droits; si ceux qui / gouvernent les sociétés en étaient réduits à cette alternative d'élever / graduellement la foule jusqu'à eux, ou de laisser tomber tous les / citoyens au dessous du niveau de l'humanité, n'en serait-ce pas assez / pour vaincre bien des doutes, rassurer bien des consciences, et préparer / chacun à faire aisément de grands sacrifices? /  / Ne faudrait-il pas alors considérer le développement graduel des / institutions et des moeurs démocratiques, non comme le meilleur, mais / comme le seul moyen qui nous reste d'être libres; et sans aimer le / gouvernement de la démocratie, ne serait-on pas disposé à l'adopter / comme le remède le mieux applicable et le plus honnête qu'on puisse / opposer aux maux présents de la société? /  / Il est difficile de faire participer le peuple au gouvernement; il est / plus difficile encore de"
+  }
+ ],
+ "note": "interrogative-force variant of personal-tonic-governed-excl-prose-recall; first terminator must be '?'"
+}

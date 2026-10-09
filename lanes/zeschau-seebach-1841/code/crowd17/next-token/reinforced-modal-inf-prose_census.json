@@ -1,0 +1,145 @@
+{
+ "files": [
+  {
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "chars": 769437,
+   "dem_comma_hits": 1,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "chars": 830700,
+   "dem_comma_hits": 4,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "chars": 852681,
+   "dem_comma_hits": 5,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "chars": 1992545,
+   "dem_comma_hits": 12,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "nesselrode-v7.txt",
+   "chars": 521560,
+   "dem_comma_hits": 5,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "nesselrode-v8.txt",
+   "chars": 614206,
+   "dem_comma_hits": 8,
+   "mod_inf_candidates": 2
+  },
+  {
+   "file": "nesselrode-v9.txt",
+   "chars": 498642,
+   "dem_comma_hits": 8,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "nesselrode-v10.txt",
+   "chars": 556659,
+   "dem_comma_hits": 6,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "chars": 3013552,
+   "dem_comma_hits": 30,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "chars": 2964405,
+   "dem_comma_hits": 33,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "chars": 3054350,
+   "dem_comma_hits": 29,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "chars": 3165234,
+   "dem_comma_hits": 33,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "chars": 1492023,
+   "dem_comma_hits": 2,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "chars": 1723645,
+   "dem_comma_hits": 10,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "chars": 926037,
+   "dem_comma_hits": 5,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "chars": 1001901,
+   "dem_comma_hits": 11,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "levant-correspondence-1841-p3.txt",
+   "chars": 1690926,
+   "dem_comma_hits": 4,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "chars": 677686,
+   "dem_comma_hits": 4,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "gutenberg-30513-tocqueville-t1.txt",
+   "chars": 597763,
+   "dem_comma_hits": 11,
+   "mod_inf_candidates": 0
+  },
+  {
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "chars": 712233,
+   "dem_comma_hits": 10,
+   "mod_inf_candidates": 0
+  }
+ ],
+ "total_chars": 27656185,
+ "candidates": [
+  {
+   "file": "nesselrode-v8.txt",
+   "offset": 165979,
+   "dem": "celle-ci",
+   "window": "celle-ci, \nde  celle-là,  et  comme  on  a  vite  fait  de  faire  penser \nhommes  et  femmes  sur  toute  chose!",
+   "mod_inf_hits": [
+    "faire  penser"
+   ]
+  },
+  {
+   "file": "nesselrode-v8.txt",
+   "offset": 165994,
+   "dem": "celle-là",
+   "window": "celle-là,  et  comme  on  a  vite  fait  de  faire  penser \nhommes  et  femmes  sur  toute  chose!",
+   "mod_inf_hits": [
+    "faire  penser"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,414 @@
+{
+ "comedy": {
+  "label": "COMEDY",
+  "files": [
+   {
+    "file": "labiche-29-degres-ombre.txt",
+    "chars": 34634,
+    "reinforced_heads": 1,
+    "p1_hits": 0,
+    "p2_candidates": 0
+   },
+   {
+    "file": "labiche-affaire-rue-lourcine.txt",
+    "chars": 43172,
+    "reinforced_heads": 4,
+    "p1_hits": 0,
+    "p2_candidates": 0
+   },
+   {
+    "file": "labiche-baron-fourchevif.txt",
+    "chars": 54412,
+    "reinforced_heads": 4,
+    "p1_hits": 1,
+    "p2_candidates": 1
+   },
+   {
+    "file": "labiche-chapeau-de-paille.txt",
+    "chars": 118567,
+    "reinforced_heads": 5,
+    "p1_hits": 1,
+    "p2_candidates": 0
+   },
+   {
+    "file": "labiche-doit-on-le-dire.txt",
+    "chars": 114163,
+    "reinforced_heads": 3,
+    "p1_hits": 0,
+    "p2_candidates": 0
+   },
+   {
+    "file": "labiche-edgard-bonne.txt",
+    "chars": 57212,
+    "reinforced_heads": 2,
+    "p1_hits": 1,
+    "p2_candidates": 0
+   },
+   {
+    "file": "labiche-la-cagnotte.txt",
+    "chars": 134353,
+    "reinforced_heads": 6,
+    "p1_hits": 0,
+    "p2_candidates": 0
+   },
+   {
+    "file": "labiche-main-leste.txt",
+    "chars": 39272,
+    "reinforced_heads": 2,
+    "p1_hits": 0,
+    "p2_candidates": 0
+   },
+   {
+    "file": "labiche-martin-poudre-aux-yeux.txt",
+    "chars": 87042,
+    "reinforced_heads": 8,
+    "p1_hits": 0,
+    "p2_candidates": 0
+   },
+   {
+    "file": "labiche-misanthrope-auvergnat.txt",
+    "chars": 56991,
+    "reinforced_heads": 2,
+    "p1_hits": 1,
+    "p2_candidates": 1
+   },
+   {
+    "file": "labiche-noces-bouchencoeur.txt",
+    "chars": 80053,
+    "reinforced_heads": 2,
+    "p1_hits": 0,
+    "p2_candidates": 0
+   },
+   {
+    "file": "labiche-prix-martin.txt",
+    "chars": 103002,
+    "reinforced_heads": 2,
+    "p1_hits": 0,
+    "p2_candidates": 0
+   },
+   {
+    "file": "labiche-voyage-perrichon.txt",
+    "chars": 97395,
+    "reinforced_heads": 3,
+    "p1_hits": 0,
+    "p2_candidates": 0
+   },
+   {
+    "file": "scribe-bertrand-et-raton.txt",
+    "chars": 182448,
+    "reinforced_heads": 12,
+    "p1_hits": 2,
+    "p2_candidates": 1
+   },
+   {
+    "file": "scribe-charlatanisme.txt",
+    "chars": 60202,
+    "reinforced_heads": 3,
+    "p1_hits": 1,
+    "p2_candidates": 0
+   },
+   {
+    "file": "scribe-le-lorgnon.txt",
+    "chars": 67028,
+    "reinforced_heads": 8,
+    "p1_hits": 1,
+    "p2_candidates": 0
+   },
+   {
+    "file": "scribe-le-savant.txt",
+    "chars": 88949,
+    "reinforced_heads": 4,
+    "p1_hits": 1,
+    "p2_candidates": 0
+   },
+   {
+    "file": "scribe-verre-d-eau.txt",
+    "chars": 146451,
+    "reinforced_heads": 11,
+    "p1_hits": 3,
+    "p2_candidates": 2
+   },
+   {
+    "file": "musset-comedies-proverbes-1850.txt",
+    "chars": 972696,
+    "reinforced_heads": 52,
+    "p1_hits": 11,
+    "p2_candidates": 3
+   }
+  ],
+  "total_chars": 2538042,
+  "total_heads": 134,
+  "total_p1": 23,
+  "total_p2": 8,
+  "candidates": [
+   {
+    "dem": "ceux-là",
+    "offset": 43030,
+    "window": "ceux-là, on ne les coupe jamais !",
+    "inf_hits": [],
+    "file": "labiche-baron-fourchevif.txt"
+   },
+   {
+    "dem": "celui-là",
+    "offset": 1374,
+    "window": "celui-là, il vit tout seul, dans des endroits noirs, comme un colimaçon !",
+    "inf_hits": [],
+    "file": "labiche-misanthrope-auvergnat.txt"
+   },
+   {
+    "dem": "ceux-là",
+    "offset": 110103,
+    "window": "ceux-là, et, s’il fallait les perdre ou les voir compromis… j’aimerais mieux mourir !",
+    "inf_hits": [
+     "mourir",
+     "perdre",
+     "voir"
+    ],
+    "file": "scribe-bertrand-et-raton.txt"
+   },
+   {
+    "dem": "ceux-là",
+    "offset": 36952,
+    "window": "ceux-là, je ne suis pas libre de les accueillir… lui, surtout… ancien ministre, je ne puis le voir sans exciter la défiance et les plaintes des nouveaux !",
+    "inf_hits": [
+     "accueillir",
+     "exciter",
+     "libre",
+     "ministre",
+     "voir"
+    ],
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "dem": "celui-là",
+    "offset": 124330,
+    "window": "celui-là, j’en suis sûre… Et la reine jusque-là froide et sévère, a dit, d’un air de bonté : N’en parlons plus, qu’elle vienne !",
+    "inf_hits": [
+     "sévère",
+     "sûre"
+    ],
+    "file": "scribe-verre-d-eau.txt"
+   },
+   {
+    "dem": "celle-ci",
+    "offset": 2635,
+    "window": "celle-ci,  pleine  de  jeunes  gens, \nde  valets!",
+    "inf_hits": [],
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "dem": "celui-ci",
+    "offset": 54850,
+    "window": "celui-ci  :  Cordiani  !",
+    "inf_hits": [],
+    "file": "musset-comedies-proverbes-1850.txt"
+   },
+   {
+    "dem": "celui-là",
+    "offset": 248302,
+    "window": "celui-là  :  Je  peux  si  je  veux!",
+    "inf_hits": [],
+    "file": "musset-comedies-proverbes-1850.txt"
+   }
+  ]
+ },
+ "drama": {
+  "label": "DRAMA",
+  "files": [
+   {
+    "file": "delavigne-famille-luther.txt",
+    "chars": 79527,
+    "reinforced_heads": 0,
+    "p1_hits": 0,
+    "p2_candidates": 0
+   },
+   {
+    "file": "delavigne-paria.txt",
+    "chars": 136293,
+    "reinforced_heads": 0,
+    "p1_hits": 0,
+    "p2_candidates": 0
+   },
+   {
+    "file": "delavigne-vepres-siciliennes.txt",
+    "chars": 106184,
+    "reinforced_heads": 0,
+    "p1_hits": 0,
+    "p2_candidates": 0
+   },
+   {
+    "file": "dumas-antony.txt",
+    "chars": 102234,
+    "reinforced_heads": 3,
+    "p1_hits": 1,
+    "p2_candidates": 0
+   },
+   {
+    "file": "dumas-fils-dame-camelias.txt",
+    "chars": 219166,
+    "reinforced_heads": 24,
+    "p1_hits": 4,
+    "p2_candidates": 0
+   },
+   {
+    "file": "dumas-henri-iii.txt",
+    "chars": 128462,
+    "reinforced_heads": 7,
+    "p1_hits": 1,
+    "p2_candidates": 1
+   },
+   {
+    "file": "dumas-kean.txt",
+    "chars": 152233,
+    "reinforced_heads": 11,
+    "p1_hits": 4,
+    "p2_candidates": 0
+   },
+   {
+    "file": "dumas-mariage-louis-xv-1841.txt",
+    "chars": 204641,
+    "reinforced_heads": 12,
+    "p1_hits": 2,
+    "p2_candidates": 0
+   },
+   {
+    "file": "dumas-tour-de-nesle.txt",
+    "chars": 132586,
+    "reinforced_heads": 18,
+    "p1_hits": 6,
+    "p2_candidates": 1
+   },
+   {
+    "file": "hugo-angelo.txt",
+    "chars": 32212,
+    "reinforced_heads": 5,
+    "p1_hits": 1,
+    "p2_candidates": 0
+   },
+   {
+    "file": "hugo-burgraves.txt",
+    "chars": 151408,
+    "reinforced_heads": 2,
+    "p1_hits": 2,
+    "p2_candidates": 0
+   },
+   {
+    "file": "hugo-hernani-1870.txt",
+    "chars": 203769,
+    "reinforced_heads": 4,
+    "p1_hits": 0,
+    "p2_candidates": 0
+   },
+   {
+    "file": "hugo-lucrece-borgia.txt",
+    "chars": 136836,
+    "reinforced_heads": 10,
+    "p1_hits": 3,
+    "p2_candidates": 0
+   },
+   {
+    "file": "hugo-marie-tudor.txt",
+    "chars": 236764,
+    "reinforced_heads": 12,
+    "p1_hits": 6,
+    "p2_candidates": 3
+   },
+   {
+    "file": "hugo-roi-samuse.txt",
+    "chars": 251766,
+    "reinforced_heads": 10,
+    "p1_hits": 3,
+    "p2_candidates": 0
+   },
+   {
+    "file": "hugo-ruy-blas.txt",
+    "chars": 198265,
+    "reinforced_heads": 10,
+    "p1_hits": 6,
+    "p2_candidates": 0
+   },
+   {
+    "file": "vigny-chatterton-1835.txt",
+    "chars": 188780,
+    "reinforced_heads": 8,
+    "p1_hits": 2,
+    "p2_candidates": 0
+   },
+   {
+    "file": "musset-lorenzaccio.txt",
+    "chars": 231422,
+    "reinforced_heads": 25,
+    "p1_hits": 5,
+    "p2_candidates": 2
+   },
+   {
+    "file": "ponsard-lucrece.txt",
+    "chars": 98042,
+    "reinforced_heads": 5,
+    "p1_hits": 0,
+    "p2_candidates": 0
+   }
+  ],
+  "total_chars": 2990590,
+  "total_heads": 166,
+  "total_p1": 46,
+  "total_p2": 7,
+  "candidates": [
+   {
+    "dem": "ceux-là",
+    "offset": 33211,
+    "window": "ceux-là, morbleu !",
+    "inf_hits": [],
+    "file": "dumas-henri-iii.txt"
+   },
+   {
+    "dem": "celui-là",
+    "offset": 20203,
+    "window": "celui-là, il faut le sauver… Oh !",
+    "inf_hits": [
+     "sauver"
+    ],
+    "file": "dumas-tour-de-nesle.txt"
+   },
+   {
+    "dem": "celui-là",
+    "offset": 22918,
+    "window": "celui-là, — et l’autre !",
+    "inf_hits": [
+     "autre"
+    ],
+    "file": "hugo-marie-tudor.txt"
+   },
+   {
+    "dem": "ceux-ci",
+    "offset": 114547,
+    "window": "ceux-ci, comme vous avez exterminé Tom Wyat, mon brave Clinton, mon vieil ami, mon bon Robert !",
+    "inf_hits": [],
+    "file": "hugo-marie-tudor.txt"
+   },
+   {
+    "dem": "ceux-là",
+    "offset": 135892,
+    "window": "ceux-là, voyez-vous !",
+    "inf_hits": [],
+    "file": "hugo-marie-tudor.txt"
+   },
+   {
+    "dem": "celle-là",
+    "offset": 5819,
+    "window": "celle-là ; et cependant Dieu sait si leur damnée de musique me donne envie de danser !",
+    "inf_hits": [
+     "danser"
+    ],
+    "file": "musset-lorenzaccio.txt"
+   },
+   {
+    "dem": "celui-là",
+    "offset": 134263,
+    "window": "celui-là : Je peux si je veux !",
+    "inf_hits": [],
+    "file": "musset-lorenzaccio.txt"
+   }
+  ]
+ }
+}

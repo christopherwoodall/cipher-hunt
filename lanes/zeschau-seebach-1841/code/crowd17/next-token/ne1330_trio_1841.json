@@ -1,0 +1,260 @@
+{
+ "corpus": "/home/hatch/workspace/cipher-hunt/lanes/zeschau-seebach-1841/code/side-period/corpus",
+ "chars": 34525238,
+ "files": 75,
+ "trio_hits_all": [
+  {
+   "file": "delavigne-vepres-siciliennes.txt",
+   "ne": "ne",
+   "form": "prévois",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Non tu ne prévois pas quel danger le menace",
+   "sentence": "Non, tu ne prévois pas quel danger le menace"
+  },
+  {
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "tout concilier ne s'inquiétait guère des obstacles et ne prévoyait jamais les revers",
+   "sentence": "ni aristocrate ni démocrate, ni monarchique ni républicain, aimant le mouvement par instinct et pour son plaisir plutôt que dans quelque profond dessein, cherchant l'importance par vanité plus que par ambition, mêlant la fatuité au laisser-aller et l'impertinence à la bonté, vrai financier de grande comédie, engagé dans la politique comme ses pareils de l'ancien régime l'étaient dans les goûts mon"
+  },
+  {
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "il ne prévoyait pas sans inquiétude les dissentiments qui naissent",
+   "sentence": "il ne prévoyait pas sans inquiétude les dissentiments qui naissent et se développent presque infailliblement entre les hommes quand leurs situations deviennent très-diverses"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "disais qu'il y en avait bien d'autres qu'on ne prévoyait pas et je ne laissais entrevoir aucune",
+   "sentence": "je disais qu'il y en avait bien d'autres qu'on ne prévoyait pas, et je ne laissais entrevoir aucune réponse"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "ne": "ne",
+   "form": "prévoyais",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Il était plus grave que de loin je ne le prévoyais",
+   "sentence": "Il était plus grave que, de loin, je ne le prévoyais"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "ne": "ne",
+   "form": "prévoyons",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Nous regretterions ce désaccord que nous ne prévoyons pas mais nous ne saurions nous départir",
+   "sentence": "Nous regretterions ce désaccord que nous ne prévoyons pas, mais nous ne saurions nous départir de cette manière d'entendre et d'assurer le maintien de Téquilibre européen"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "de gouvernement et de finances étaient fort saines ne prévoyait pas toujours bien l'ef fet politique des",
+   "sentence": "Humann, dont les idées générales en fait de gouvernement et de finances étaient fort saines, ne prévoyait pas toujours bien l'ef- fet politique des mesures administratives, ne s'en in- quiétait pas assez d'avance, et ne prenait pas assez de soin pour s'en entendre avec ses coltègues"
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "ne": "ne",
+   "form": "prévoyons",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "de Barante et nous ne prévoyons pas d'autre occasion prochaine et déterminée où",
+   "sentence": "de Barante, et nous ne prévoyons pas d'autre occasion prochaine et déterminée où quelque em- barras de ce genre puisse s'élever pour vous"
+  },
+  {
+   "file": "levant-correspondence-1841-p3.txt",
+   "ne": "ne",
+   "form": "prescrivent",
+   "lemma": "prescrire",
+   "partner": true,
+   "window": "comme pourtant elles ne prescrivent que les moyens d'embarquer les femmes les",
+   "sentence": "comme pourtant elles ne prescrivent que les moyens d’embarquer les femmes, les malades, &c"
+  },
+  {
+   "file": "levant-correspondence-1841-p3.txt",
+   "ne": "ne",
+   "form": "prescrivent",
+   "lemma": "prescrire",
+   "partner": true,
+   "window": "le Capitaine Stewart ne prescrivent non plus aucune autre maniére pour 'évacuation",
+   "sentence": "le Capitaine Stewart, ne prescrivent non plus aucune autre maniére pour |’évacuation de la Syrie par la masse de l’armée ennemie"
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "ne": "ne",
+   "form": "prevois",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Je ne prevois au reste rien qui puisse m'empecher de",
+   "sentence": "Je ne prevois au reste rien qui puisse m'empecher de passer six semaines ou deux mois a la campagne"
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "ne": "ne",
+   "form": "prevois",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Je ne prevois pas que rEmpereur ou son Vice Chancelier",
+   "sentence": "Je ne prevois pas que rEmpereur ou son Vice-Chancelier puissent jamais song-er a ramener la discussion sur le terrain des negociations qui ont precede la rupture des Conferences de Saint -Petersbourg dans le courant de Fete de Tannee 1825"
+  },
+  {
+   "file": "nesselrode-v10.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "est dans le même cas et que personne ne prévoit comment finira en la crise que le",
+   "sentence": "Pour ma part, je suis loin d'y voir clair, et Balabine, qui m'a apporté une intéressante expédition de Kisselef, m'assure qu'à Paris tout le monde est dans le même cas et que personne ne prévoit comment finira en 1852 la crise que le Président a si \n\n\nARCHIVES DU COMTE CH"
+  },
+  {
+   "file": "nesselrode-v10.txt",
+   "ne": "ne",
+   "form": "prévois",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Je ne prévois pas mon cher Michel avoir de sitôt",
+   "sentence": "Je ne prévois pas, mon cher Michel, avoir de sitôt un motif pour vous envoyer un courrier"
+  },
+  {
+   "file": "nesselrode-v8.txt",
+   "ne": "ne",
+   "form": "prévois",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Tout cela vient bien tard et je ne prévois pas la possibilité vu l'absence de Cancrine",
+   "sentence": "Tout cela vient bien tard, et je ne prévois pas la possibilité, vu l'absence de Cancrine*, de rien statuer à cet égard avant l'hiver prochain"
+  },
+  {
+   "file": "nesselrode-v8.txt",
+   "ne": "ne",
+   "form": "prévois",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "nouvelle convention pour le transport des déserteurs je ne prévois aucune difficulté de sa part car il",
+   "sentence": "» Pour le léger surcroît de frais qui résultera de la nouvelle convention pour le transport des déserteurs, je ne prévois aucune difficulté de sa part, car il est assez large en affaires d'argent"
+  },
+  {
+   "file": "nesselrode-v8.txt",
+   "ne": "ne",
+   "form": "prévois",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Je ne vous cacherai pas toutefois que je ne prévois aucune chance de succès",
+   "sentence": "Je ne vous cacherai pas toutefois que je ne prévois aucune chance de succès"
+  },
+  {
+   "file": "raw-thtredecasim01dela-djvu.txt",
+   "ne": "ne",
+   "form": "prévois",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Non tu ne prévois pas quel danger le menace",
+   "sentence": "Non, tu ne prévois pas quel danger le menace"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "ne": "ne",
+   "form": "prévoyais",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "bien l'intention de lui rester fidèle mais je ne prévoyais pas alors que le Courrier français m'af",
+   "sentence": "« Quand je sollicitais les faveurs du 1\" mars, j'avais bien l'intention de lui rester fidèle, mais je ne prévoyais pas alors que le Courrier français m'af- franchirait de toute reconnaissance en ménageant M"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "avec une liberté et une puissance que l'évêque ne prévoyait pas sans doute",
+   "sentence": "» \n\nDepuis que Vidua Ynglond, comme disait l'évêque réformateur, adressait à Henri YIII ses suppliques, les réformes qu'elle demandait se sont opérées avec une liberté et une puissance que l'évêque ne prévoyait pas sans doute"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "ne": "ne",
+   "form": "prescrit",
+   "lemma": "prescrire",
+   "partner": true,
+   "window": "heurtons bien des idées reçues mais la vérité ne prescrit pas",
+   "sentence": "Nous savons qu'en jugeant ainsi Ximenès, nous heurtons bien des idées reçues, mais la vérité ne prescrit pas"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "ne": "ne",
+   "form": "prévoit",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "juillet de l'aveu de ses plus habiles avocats ne prévoit rien ne prévient rien n'empêche rien",
+   "sentence": "S'il s'agit du fait, la conven- tion du 13 juillet, de l'aveu de ses plus habiles avocats, ne prévoit rien, ne prévient rien, n'empêche rien"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "l'idée la plus antipathique à une école qui ne prévoyait pas à coup sûr il y a",
+   "sentence": "La guerre à la concurrence est un mot d'ordre aussi accrédité aujourd'hui dans les rangs du parti démocra- tique que la guerre aux privilèges lors du mouvement de 89, et le bon marché est devenu l'idée la plus antipathique à une école qui ne prévoyait pas à coup sûr, il y a dix ans, où la conduiraient et des déceptions nombreuses, et les faits nouveaux dont elle s'efforce de s'emparer pour se refa"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "fleur épanouie sur ses rameaux jau nissans et ne prévoyait pas qu'elle dût un jour attirer la",
+   "sentence": "il la caressait avec amour, cette fleur épanouie sur ses rameaux jau- nissans, et ne prévoyait pas qu'elle dût un jour attirer la foudre sur l'arbre de ses prospérités"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "ne": "ne",
+   "form": "prévoyez",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "vous ne voyez rien vous ne prévoyez rien",
+   "sentence": "vous ne voyez rien, vous ne prévoyez rien"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "ne": "ne",
+   "form": "prévoyais",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Je ne prévoyais rien je ne me doutais de rien",
+   "sentence": "Je ne prévoyais rien, je ne me doutais de rien"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "ne": "ne",
+   "form": "prévoyait",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "Mais le ministère du mai ne voyait et ne prévoyait rien",
+   "sentence": "Mais le ministère du 12 mai ne voyait et ne prévoyait rien"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "ne": "ne",
+   "form": "prévois",
+   "lemma": "prevoir",
+   "partner": true,
+   "window": "je ne les prévois point quant au présent",
+   "sentence": "je ne les prévois point, quant au présent"
+  }
+ ],
+ "trio_bare": []
+}

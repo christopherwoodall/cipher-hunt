@@ -1,0 +1,655 @@
+{
+ "census_drama": {
+  "files": [
+   {
+    "file": "dumas-mariage-louis-xv-1841.txt",
+    "chars": 204641,
+    "uncapped_at_400": 0,
+    "still_uncapped_c": 0,
+    "passB_candidate_windows": 0,
+    "passC_candidate_windows": 0
+   },
+   {
+    "file": "vigny-chatterton-1835.txt",
+    "chars": 188780,
+    "uncapped_at_400": 0,
+    "still_uncapped_c": 0,
+    "passB_candidate_windows": 0,
+    "passC_candidate_windows": 0
+   },
+   {
+    "file": "musset-comedies-proverbes-1850.txt",
+    "chars": 972696,
+    "uncapped_at_400": 0,
+    "still_uncapped_c": 0,
+    "passB_candidate_windows": 0,
+    "passC_candidate_windows": 0
+   },
+   {
+    "file": "hugo-hernani-1870.txt",
+    "chars": 203769,
+    "uncapped_at_400": 0,
+    "still_uncapped_c": 0,
+    "passB_candidate_windows": 0,
+    "passC_candidate_windows": 0
+   },
+   {
+    "file": "hugo-ruy-blas.txt",
+    "chars": 198265,
+    "uncapped_at_400": 0,
+    "still_uncapped_c": 0,
+    "passB_candidate_windows": 1,
+    "passC_candidate_windows": 1
+   },
+   {
+    "file": "hugo-burgraves.txt",
+    "chars": 151408,
+    "uncapped_at_400": 0,
+    "still_uncapped_c": 0,
+    "passB_candidate_windows": 0,
+    "passC_candidate_windows": 0
+   },
+   {
+    "file": "dumas-antony.txt",
+    "chars": 102234,
+    "uncapped_at_400": 0,
+    "still_uncapped_c": 0,
+    "passB_candidate_windows": 0,
+    "passC_candidate_windows": 0
+   },
+   {
+    "file": "dumas-tour-de-nesle.txt",
+    "chars": 132586,
+    "uncapped_at_400": 1,
+    "still_uncapped_c": 0,
+    "passB_candidate_windows": 0,
+    "passC_candidate_windows": 0
+   },
+   {
+    "file": "dumas-henri-iii.txt",
+    "chars": 128462,
+    "uncapped_at_400": 0,
+    "still_uncapped_c": 0,
+    "passB_candidate_windows": 0,
+    "passC_candidate_windows": 0
+   },
+   {
+    "file": "dumas-kean.txt",
+    "chars": 152233,
+    "uncapped_at_400": 0,
+    "still_uncapped_c": 0,
+    "passB_candidate_windows": 1,
+    "passC_candidate_windows": 1
+   },
+   {
+    "file": "scribe-bertrand-et-raton.txt",
+    "chars": 182448,
+    "uncapped_at_400": 0,
+    "still_uncapped_c": 0,
+    "passB_candidate_windows": 0,
+    "passC_candidate_windows": 0
+   },
+   {
+    "file": "scribe-verre-d-eau.txt",
+    "chars": 146451,
+    "uncapped_at_400": 0,
+    "still_uncapped_c": 0,
+    "passB_candidate_windows": 1,
+    "passC_candidate_windows": 1
+   },
+   {
+    "file": "labiche-chapeau-de-paille.txt",
+    "chars": 118567,
+    "uncapped_at_400": 0,
+    "still_uncapped_c": 0,
+    "passB_candidate_windows": 0,
+    "passC_candidate_windows": 0
+   },
+   {
+    "file": "labiche-martin-poudre-aux-yeux.txt",
+    "chars": 87042,
+    "uncapped_at_400": 0,
+    "still_uncapped_c": 0,
+    "passB_candidate_windows": 0,
+    "passC_candidate_windows": 0
+   }
+  ],
+  "total_chars": 2969582,
+  "hits": [
+   {
+    "file": "dumas-mariage-louis-xv-1841.txt",
+    "off": 115561,
+    "dem": "celui-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 31,
+    "len_wc": 31,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "dumas-mariage-louis-xv-1841.txt",
+    "off": 172768,
+    "dem": "celle-ci",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 77,
+    "len_wc": 77,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "vigny-chatterton-1835.txt",
+    "off": 25120,
+    "dem": "celle-ci",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 31,
+    "len_wc": 31,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "vigny-chatterton-1835.txt",
+    "off": 151996,
+    "dem": "celle-ci",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 193,
+    "len_wc": 193,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "musset-comedies-proverbes-1850.txt",
+    "off": 2635,
+    "dem": "celle-ci",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 49,
+    "len_wc": 49,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "musset-comedies-proverbes-1850.txt",
+    "off": 40999,
+    "dem": "celui-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 172,
+    "len_wc": 172,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "musset-comedies-proverbes-1850.txt",
+    "off": 54850,
+    "dem": "celui-ci",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 24,
+    "len_wc": 24,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "musset-comedies-proverbes-1850.txt",
+    "off": 93942,
+    "dem": "celle-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 100,
+    "len_wc": 100,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "musset-comedies-proverbes-1850.txt",
+    "off": 104030,
+    "dem": "celui-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 70,
+    "len_wc": 70,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "musset-comedies-proverbes-1850.txt",
+    "off": 104064,
+    "dem": "celui-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 36,
+    "len_wc": 36,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "musset-comedies-proverbes-1850.txt",
+    "off": 248302,
+    "dem": "celui-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 36,
+    "len_wc": 36,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "musset-comedies-proverbes-1850.txt",
+    "off": 421386,
+    "dem": "celui-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 90,
+    "len_wc": 90,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "musset-comedies-proverbes-1850.txt",
+    "off": 430933,
+    "dem": "celle-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 17,
+    "len_wc": 17,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "musset-comedies-proverbes-1850.txt",
+    "off": 731479,
+    "dem": "celui-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 46,
+    "len_wc": 46,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "musset-comedies-proverbes-1850.txt",
+    "off": 928715,
+    "dem": "celle-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 55,
+    "len_wc": 55,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "hugo-ruy-blas.txt",
+    "off": 1185,
+    "dem": "ceux-ci",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 100,
+    "len_wc": 100,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "hugo-ruy-blas.txt",
+    "off": 1216,
+    "dem": "celles-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 69,
+    "len_wc": 69,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "hugo-ruy-blas.txt",
+    "off": 3153,
+    "dem": "ceux-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 354,
+    "len_wc": 354,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "hugo-ruy-blas.txt",
+    "off": 14744,
+    "dem": "ceux-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 59,
+    "len_wc": 59,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "hugo-ruy-blas.txt",
+    "off": 14776,
+    "dem": "ceux-ci",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 27,
+    "len_wc": 27,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "hugo-ruy-blas.txt",
+    "off": 34184,
+    "dem": "celui-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 343,
+    "len_wc": 343,
+    "cands_b": [
+     "à + à quatre"
+    ],
+    "cands_c": [
+     "à + à quatre"
+    ]
+   },
+   {
+    "file": "hugo-burgraves.txt",
+    "off": 30427,
+    "dem": "celle-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 24,
+    "len_wc": 24,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "hugo-burgraves.txt",
+    "off": 117981,
+    "dem": "ceux-ci",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 72,
+    "len_wc": 72,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "dumas-antony.txt",
+    "off": 59732,
+    "dem": "celle-ci",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 92,
+    "len_wc": 92,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "dumas-tour-de-nesle.txt",
+    "off": 20203,
+    "dem": "celui-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 33,
+    "len_wc": 33,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "dumas-tour-de-nesle.txt",
+    "off": 51454,
+    "dem": "celui-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 133,
+    "len_wc": 133,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "dumas-tour-de-nesle.txt",
+    "off": 51517,
+    "dem": "celui-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 70,
+    "len_wc": 70,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "dumas-tour-de-nesle.txt",
+    "off": 79885,
+    "dem": "celui-ci",
+    "uncapped_b": true,
+    "still_uncapped_c": false,
+    "len_wb": 400,
+    "len_wc": 415,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "dumas-tour-de-nesle.txt",
+    "off": 79936,
+    "dem": "ceux-ci",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 364,
+    "len_wc": 364,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "dumas-tour-de-nesle.txt",
+    "off": 121981,
+    "dem": "celui-ci",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 88,
+    "len_wc": 88,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "dumas-henri-iii.txt",
+    "off": 33211,
+    "dem": "ceux-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 18,
+    "len_wc": 18,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "dumas-kean.txt",
+    "off": 43821,
+    "dem": "ceux-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 297,
+    "len_wc": 297,
+    "cands_b": [
+     "de + de produire"
+    ],
+    "cands_c": [
+     "de + de produire"
+    ]
+   },
+   {
+    "file": "dumas-kean.txt",
+    "off": 55087,
+    "dem": "celui-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 75,
+    "len_wc": 75,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "dumas-kean.txt",
+    "off": 66336,
+    "dem": "celui-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 145,
+    "len_wc": 145,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "dumas-kean.txt",
+    "off": 109567,
+    "dem": "celui-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 110,
+    "len_wc": 110,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "scribe-bertrand-et-raton.txt",
+    "off": 110103,
+    "dem": "ceux-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 85,
+    "len_wc": 85,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "scribe-bertrand-et-raton.txt",
+    "off": 123054,
+    "dem": "celle-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 34,
+    "len_wc": 34,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "scribe-verre-d-eau.txt",
+    "off": 15786,
+    "dem": "celle-ci",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 41,
+    "len_wc": 41,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "scribe-verre-d-eau.txt",
+    "off": 36952,
+    "dem": "ceux-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 154,
+    "len_wc": 154,
+    "cands_b": [
+     "de + de les accueillir"
+    ],
+    "cands_c": [
+     "de + de les accueillir"
+    ]
+   },
+   {
+    "file": "scribe-verre-d-eau.txt",
+    "off": 124330,
+    "dem": "celui-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 128,
+    "len_wc": 128,
+    "cands_b": [],
+    "cands_c": []
+   },
+   {
+    "file": "labiche-chapeau-de-paille.txt",
+    "off": 38030,
+    "dem": "celle-là",
+    "uncapped_b": false,
+    "still_uncapped_c": false,
+    "len_wb": 19,
+    "len_wc": 19,
+    "cands_b": [],
+    "cands_c": []
+   }
+  ],
+  "candidates": [
+   {
+    "file": "hugo-ruy-blas.txt",
+    "off": 34184,
+    "pass": "B",
+    "window": "Celui-là, — fût-il grand de Castille, fût-il\n\nSuivi de cent clairons sonnant des tintamarres,\n\nFût-il tout harnaché d’ordres et de chamarres,\n\nEt marquis, et vicomte, et fils des anciens preux,\n\nN’est pour moi qu’un maraud sinistre et ténébreux\n\nQue je voudrais, pour prix de sa lâcheté vile,\n\nVoir pendre à quatre clous au gibet de la ville !",
+    "gov_inf_hits": [
+     "à + à quatre"
+    ]
+   },
+   {
+    "file": "hugo-ruy-blas.txt",
+    "off": 34184,
+    "pass": "C",
+    "window": "Celui-là, — fût-il grand de Castille, fût-il\n\nSuivi de cent clairons sonnant des tintamarres,\n\nFût-il tout harnaché d’ordres et de chamarres,\n\nEt marquis, et vicomte, et fils des anciens preux,\n\nN’est pour moi qu’un maraud sinistre et ténébreux\n\nQue je voudrais, pour prix de sa lâcheté vile,\n\nVoir pendre à quatre clous au gibet de la ville !",
+    "gov_inf_hits": [
+     "à + à quatre"
+    ]
+   },
+   {
+    "file": "dumas-kean.txt",
+    "off": 43821,
+    "pass": "B",
+    "window": "Ceux-là, c’est la gloire de la presse… ce sont les anges du jugement de la nation… Mais il en est d’autres, miss, que l’impuissance de produire a jetés dans la critique… Ceux-là sont jaloux de tout, ils flétrissent ce qui est noble… ils ternissent ce qui est beau… ils abaissent ce qui est grand !",
+    "gov_inf_hits": [
+     "de + de produire"
+    ]
+   },
+   {
+    "file": "dumas-kean.txt",
+    "off": 43821,
+    "pass": "C",
+    "window": "Ceux-là, c’est la gloire de la presse… ce sont les anges du jugement de la nation… Mais il en est d’autres, miss, que l’impuissance de produire a jetés dans la critique… Ceux-là sont jaloux de tout, ils flétrissent ce qui est noble… ils ternissent ce qui est beau… ils abaissent ce qui est grand !",
+    "gov_inf_hits": [
+     "de + de produire"
+    ]
+   },
+   {
+    "file": "scribe-verre-d-eau.txt",
+    "off": 36952,
+    "pass": "B",
+    "window": "ceux-là, je ne suis pas libre de les accueillir… lui, surtout… ancien ministre, je ne puis le voir sans exciter la défiance et les plaintes des nouveaux !",
+    "gov_inf_hits": [
+     "de + de les accueillir"
+    ]
+   },
+   {
+    "file": "scribe-verre-d-eau.txt",
+    "off": 36952,
+    "pass": "C",
+    "window": "ceux-là, je ne suis pas libre de les accueillir… lui, surtout… ancien ministre, je ne puis le voir sans exciter la défiance et les plaintes des nouveaux !",
+    "gov_inf_hits": [
+     "de + de les accueillir"
+    ]
+   }
+  ]
+ },
+ "excluded_edition": {
+  "files": [
+   {
+    "file": "hugo-hernani.txt",
+    "chars": 173559,
+    "uncapped_at_400": 0,
+    "still_uncapped_c": 0,
+    "passB_candidate_windows": 0,
+    "passC_candidate_windows": 0
+   }
+  ],
+  "total_chars": 173559,
+  "hits": [],
+  "candidates": []
+ }
+}

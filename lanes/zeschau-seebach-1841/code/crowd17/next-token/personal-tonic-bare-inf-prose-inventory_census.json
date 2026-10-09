@@ -1,0 +1,906 @@
+{
+ "files": [
+  {
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "chars": 769437,
+   "pron_comma_hits": 186,
+   "bare_inf_candidates": 1
+  },
+  {
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "chars": 830700,
+   "pron_comma_hits": 156,
+   "bare_inf_candidates": 1
+  },
+  {
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "chars": 852681,
+   "pron_comma_hits": 174,
+   "bare_inf_candidates": 1
+  },
+  {
+   "file": "guizot-memoires-t5-t6.txt",
+   "chars": 1992545,
+   "pron_comma_hits": 510,
+   "bare_inf_candidates": 0
+  },
+  {
+   "file": "nesselrode-v7.txt",
+   "chars": 521560,
+   "pron_comma_hits": 135,
+   "bare_inf_candidates": 1
+  },
+  {
+   "file": "nesselrode-v8.txt",
+   "chars": 614206,
+   "pron_comma_hits": 135,
+   "bare_inf_candidates": 0
+  },
+  {
+   "file": "nesselrode-v9.txt",
+   "chars": 498642,
+   "pron_comma_hits": 122,
+   "bare_inf_candidates": 0
+  },
+  {
+   "file": "nesselrode-v10.txt",
+   "chars": 556659,
+   "pron_comma_hits": 90,
+   "bare_inf_candidates": 0
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "chars": 3013552,
+   "pron_comma_hits": 579,
+   "bare_inf_candidates": 12
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "chars": 2964405,
+   "pron_comma_hits": 496,
+   "bare_inf_candidates": 7
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "chars": 3054350,
+   "pron_comma_hits": 384,
+   "bare_inf_candidates": 8
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "chars": 3165234,
+   "pron_comma_hits": 515,
+   "bare_inf_candidates": 13
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "chars": 1492023,
+   "pron_comma_hits": 124,
+   "bare_inf_candidates": 2
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "chars": 1723645,
+   "pron_comma_hits": 114,
+   "bare_inf_candidates": 7
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "chars": 926037,
+   "pron_comma_hits": 178,
+   "bare_inf_candidates": 3
+  },
+  {
+   "file": "pozzo-di-borgo-correspondance-v1.txt",
+   "chars": 1001901,
+   "pron_comma_hits": 123,
+   "bare_inf_candidates": 0
+  },
+  {
+   "file": "levant-correspondence-1841-p3.txt",
+   "chars": 1690926,
+   "pron_comma_hits": 50,
+   "bare_inf_candidates": 1
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "chars": 677686,
+   "pron_comma_hits": 230,
+   "bare_inf_candidates": 8
+  },
+  {
+   "file": "gutenberg-30513-tocqueville-t1.txt",
+   "chars": 597763,
+   "pron_comma_hits": 74,
+   "bare_inf_candidates": 1
+  },
+  {
+   "file": "gutenberg-30514-tocqueville-t2.txt",
+   "chars": 712233,
+   "pron_comma_hits": 120,
+   "bare_inf_candidates": 0
+  }
+ ],
+ "total_chars": 27656185,
+ "candidates": [
+  {
+   "file": "guizot-memoires-t1-gutenberg.txt",
+   "offset": 221751,
+   "pron": "nous",
+   "window": "nous, à épurer, à fortifier sans cesse cet\nesprit monarchique et chrétien qui inspire la force de tout sacrifier\nà ses devoirs!",
+   "inf_shaped": [
+    "fortifier",
+    "inspire",
+    "sacrifier",
+    "épurer"
+   ],
+   "context": " / trône. La religion elle-même est en péril dès que le trône et les / lois sont attaqués; car tout se tient du ciel à la terre; tout est en / harmonie entre les lois divines et les lois humaines; on ne saurait / renverser les unes et respecter les autres. Que tous nos soins tendent / donc à recueillir parmi nous, à épurer, à fortifier sans cesse cet / esprit monarchique et chrétien qui inspire la force de tout sacrifier / à ses devoirs! Que nos premiers efforts tendent à faire respecter la / Charte que le Roi nous a donnée! Nos lois, notre Charte peuvent être / perfectionnées sans doute, et nous n'entendons interdire ni tous regrets / du passé, ni toute espéran",
+   "cause": "f/a"
+  },
+  {
+   "file": "guizot-memoires-t2-gutenberg.txt",
+   "offset": 282484,
+   "pron": "lui",
+   "window": "lui,\npour prendre la parole: «Ici, d'Argout!",
+   "inf_shaped": [
+    "prendre"
+   ],
+   "context": " les Chambres, il l'envoyait / à la tribune ou l'en rappelait selon sa propre convenance, ne / s'inquiétant ni de l'user à force de l'employer, ni de le blesser par / la brusque explosion de son autorité. Je l'ai entendu s'écrier un jour, / impatienté que M. d'Argout se mît en mouvement, mal à propos selon lui, / pour prendre la parole: «Ici, d'Argout!» et M. d'Argout revenait, non / sans humeur, mais sans la montrer. /  / La première fois que M. Casimir Périer monta à la tribune de la Chambre / des députés pour y exposer en termes clairs et fermes sa pensée et son / dessein général, il y fit monter immédiatement après lui les ministres / de la guerre, des finance",
+   "cause": "p"
+  },
+  {
+   "file": "guizot-memoires-t3-gutenberg.txt",
+   "offset": 677584,
+   "pron": "eux",
+   "window": "eux, se trouve\nBarthe, le renégat, qui est aussi nommé pair de France!",
+   "inf_shaped": [
+    "pair"
+   ],
+   "context": "nt de Louis-Philippe vient encore / de faire... Par des ordonnances du 7 de ce mois, il a nommé plusieurs / courtisans, ennemis du peuple, à des fonctions très-lucratives. Ce sont / des sangsues de plus qui vont se gorger de l'or que nous avons tant de / peine à amasser pour payer d'écrasants impôts. Parmi eux, se trouve / Barthe, le renégat, qui est aussi nommé pair de France!... Ainsi on / récompense les hommes sans honneur, sans conscience, et on laisse / souffrir de misère tous ceux qui sont utiles au pays, les ouvriers, par / exemple, et les vieux soldats. Pourquoi nous en étonner?... Ceux-ci sont / purs et braves; ils ne chérissent l'existence que parce ",
+   "cause": "c"
+  },
+  {
+   "file": "nesselrode-v7.txt",
+   "offset": 318239,
+   "pron": "nous",
+   "window": "nous;  quel  règne  que  celui \nde  l'Empereur  et  comme  il  est  digne  d'en  avoir  un  plus \ncalme!",
+   "inf_shaped": [
+    "avoir"
+   ],
+   "context": " dit  très  démonté  depuis  ces  fatales  / ordonnances.  La  Princesse  Lieven  me  charge  de  mille  / tendresses  pour  loi;  d'heure  en  heure,  elle  s'entend  / mieux  avec  la  Grande  Duchesse,  fais  part  de  ce  heau  / triomphe  à  Benkendorf.  /  /  / 2  juillet  1831.  /  / Dans  quel  temps  vivons-nous;  quel  règne  que  celui  / de  l'Empereur  et  comme  il  est  digne  d'en  avoir  un  plus  / calme!  J'espère  qu'il  en  sortira  heureusement  sous  / tous  les  rapports.  Au  milieu  de  ces  déboires,  tu  rece-  / vras de  Londres,  au  sujet  de  la  Belgique,  des  nou-  / velles qui  ne  sont  nullement  satisfaisantes.  /  /  / La  même  au  mêm",
+   "cause": "a/c"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 34077,
+   "pron": "moi",
+   "window": "Moi,  j'apprendrai  à  faire  ce  qu'ils  m'au- \nront ordonné,  non  pas  à  ordonner  ce  qu'ils  doivent  faire!",
+   "inf_shaped": [
+    "faire",
+    "ordonner"
+   ],
+   "context": "béissance,  c'est  obéir  à  la  parole  de  Dieu.  /  / Marie  était  devant  lui,  silencieuse  et  terrifiée.  /  / —  Eh  bien!  reprit-elle  après  un  long  silence,  je  le  vois,  mes  / sujets  vous  obéiront,  non  à  moi  ;  ils  feront  ce  que  vous  commanderez,  / non  ce  que  j'aurai  résolu.  Moi,  j'apprendrai  à  faire  ce  qu'ils  m'au-  / ront ordonné,  non  pas  à  ordonner  ce  qu'ils  doivent  faire!  /  / —  A  Dieu  ne  plaise!  ]\\ron  seul  désir  est  que  princes  et  serviteurs  / obéissent  à  Dieu.  Sa  parole  dit  que  les  rois  sont  les  pères  nourriciers  / et  les  reines  les  mères  nourrices  de  son  église.  /  / —  Sans  ",
+   "cause": "c"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 112215,
+   "pron": "elle",
+   "window": "elle ,  que  vous  tenez  dans  la  vôtre, \nj'aurai  pour  ceci  votre  tête  (2)  !",
+   "inf_shaped": [
+    "votre",
+    "vôtre"
+   ],
+   "context": "ndsay,  dit-elle  à  celui  que  nous  avons  vu  paraître  tout  à  / l'heure,  l'un  des  plus  farouches  parmi  les  barons  confédérés  ;  —  / Lyndsay,  votre  main  !  /  / Il  tendit  cette  main ,  dont  il  ôta  le  gantelet  de  fer.  Elle  y  plaça  la  / sienne.  /  / —  Par  cette  main,  s'écria-t-elle ,  que  vous  tenez  dans  la  vôtre,  / j'aurai  pour  ceci  votre  tête  (2)  !  /  / (1)  Du  Croc,  leUrc  à  Catherine  do  Médicis.  Bibliothèque  royale.  /  / (2)  Archives  d'Angleterre,  Drury  à  Cecil ,  18  juin  lô67.  /  /  / DOCUMENS  INÉDITS  SUR  MARIE  STUART.  hS  /  / Malheureuse!  elle  ne  prit  point  la  tête  de  Lyndsay,  et  donna  la ",
+   "cause": "g/c"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 291517,
+   "pron": "moi",
+   "window": "moi ,  seul  sur  cette  terre  étrangère \net  barbare,  seul  avec  les  effroyables  souvenirs  du  passé!",
+   "inf_shaped": [
+    "barbare",
+    "terre",
+    "étrangère"
+   ],
+   "context": "été  assassiné  au  Caire,  puis  enfin  l'armée  française  a  capitulé  et  / abandonné  l'Egypte.  Voilà  donc  à  quels  résultats  devaient  aboutir  / tant  de  peine  et  de  sueur,  tant  de  sang  versé  à  flots,  tant  de  cadavres  /  /  / VINETTI.  16S  /  / glorieux  étendus  sur  les  sables?  Et  moi ,  seul  sur  cette  terre  étrangère  / et  barbare,  seul  avec  les  effroyables  souvenirs  du  passé!  Le  drame  / est  joué,  le  bobémien  reste  pour  l'épilogue.  /  / Le  digne  fellah  qui  m'a  soigné  pendant  ma  maladie,  versait  hier  / des  larmes  d'attendrissement  au  souvenir  de  Desaix.  «  11  était  si  bon  / et  si  juste;  il ",
+   "cause": "g/d"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 599544,
+   "pron": "moi",
+   "window": "moi, \nEt,  pâles  de  leur  crainte  et  de  la  mort  future, \nImplorer  vainement,  même  la  sépulture!",
+   "inf_shaped": [
+    "future",
+    "implorer",
+    "sépulture"
+   ],
+   "context": "jour  doit  être  sourd ,  aveugle ,  inexorable ,  / Et  ne  sera  content  que  du  dernier  coupable.  /  /  / Eumée,  ah!  quelle  joie  /  / De  tenir  dans  mes  mains  et  leur  vie  et  ma  proie,  / De  les  voir,  reculant  à  l'aspect  de  leur  roi ,  / Fuir  sans  trouver  d'asile  où  se  sauver  de  moi,  / Et,  pâles  de  leur  crainte  et  de  la  mort  future,  / Implorer  vainement,  même  la  sépulture!  /  / Les  souvenirs  d'Homère  se  combinent,  se  croisent,  vers  cette  fin,  / avec  ceux  de  Virgile,  et  sans  s'y  affaiblir  :  on  sait  le  pallida  morte  / futura  de  Didon.  Comme  étude  d'imitation  et  de  style,  llysse  garde  / so",
+   "cause": "f/a"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 1289464,
+   "pron": "vous",
+   "window": "vous ,  je  continue  à  vous \nrespecter,  et  vous,  à  qui  j'ai  donné  des  preuves  d'un  loyal  dévouement,  c'est \npar  une  injure  mortelle  que  vous  m'en  récompensez!",
+   "inf_shaped": [
+    "injure",
+    "respecter"
+   ],
+   "context": "ne  puis  ni  fuir  ni  le  nier;  j'y  suis  entré  cette  nuit....  /  / Don  Garcia. —  Pour  me  voler  l'honneur....  Certes  vous  me  payez  bien  / l'hospitalité  que  Blanche  et  moi  nous  vous  avons  donnée.  Votre  conduite  et  la  / mienne  présentent  un  étrange  contraste.  Outragé  par  vous ,  je  continue  à  vous  / respecter,  et  vous,  à  qui  j'ai  donné  des  preuves  d'un  loyal  dévouement,  c'est  / par  une  injure  mortelle  que  vous  m'en  récompensez!  /  / Don  Mendo  (  à  part,  voulant  ramasser  rarquebuse  de  don  Garcia).  —  II  faut  se  / défier  d'un  homme  de  cette  classe,  lorsqu'on  l'a  offensé.  Cette  ar",
+   "cause": "i/a"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 1289511,
+   "pron": "vous",
+   "window": "vous,  à  qui  j'ai  donné  des  preuves  d'un  loyal  dévouement,  c'est \npar  une  injure  mortelle  que  vous  m'en  récompensez!",
+   "inf_shaped": [
+    "injure"
+   ],
+   "context": "ntré  cette  nuit....  /  / Don  Garcia. —  Pour  me  voler  l'honneur....  Certes  vous  me  payez  bien  / l'hospitalité  que  Blanche  et  moi  nous  vous  avons  donnée.  Votre  conduite  et  la  / mienne  présentent  un  étrange  contraste.  Outragé  par  vous ,  je  continue  à  vous  / respecter,  et  vous,  à  qui  j'ai  donné  des  preuves  d'un  loyal  dévouement,  c'est  / par  une  injure  mortelle  que  vous  m'en  récompensez!  /  / Don  Mendo  (  à  part,  voulant  ramasser  rarquebuse  de  don  Garcia).  —  II  faut  se  / défier  d'un  homme  de  cette  classe,  lorsqu'on  l'a  offensé.  Cette  arme  me  servira  / de  défense.  /  / Don  Garcia.  —",
+   "cause": "c"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 1331887,
+   "pron": "moi",
+   "window": "Moi,  voler!",
+   "inf_shaped": [
+    "voler"
+   ],
+   "context": "el  étrange  rêve  je  viens  de  / faire! — Et  là-dessus,  il  se  tourne  de  l'autre  côté  et  se  rendort  de  nou-  / veau; mais  voilà  que  l'ange  l'appelle  une  seconde  fois,  plus  haut  en-  / core que  la  première,  et  lui  ordonne  impérieusement  de  se  lever  et  / d'aller  voler.  —  Moi,  voler!  répond  le  bon  Charlemagne,  mais  il  n'y  / a  pas  sur  la  terre  un  roi  ou  un  comte  plus  riche  que  moi;  depuis  Co-  / logne jusqu'à  Rome,  tout  appartient  à  l'empereur;  je  règne  sur  les  / rives  sauvages  du  Danube,  sur  la  Galice  et  sur  l'Espagne.  Qu'ai-je  / donc  fait,  malheureux  homme  que  je  suis,  po",
+   "cause": "GENUINE"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 1628920,
+   "pron": "moi",
+   "window": "moi,  mon  père,  au  nom  du  ciel ,  aidez-moi  à  sortir  d'ici  !",
+   "inf_shaped": [
+    "père",
+    "sortir"
+   ],
+   "context": "  crut  sentir  ces  voûtes  glacées  peser  / sur  son  ame,  ses  membres  frémirent,  l'air  manqua  à  sa  poitrine,  il  se  / sentit  délaillir  en  voulant  s'élancer  hors  de  cet  abîme,  el  il  s'écria,  / en  étendant  les  bras  vers  le  moine  qui  était  resté  à  l'entrée  :  «  Aidez-  / moi,  mon  père,  au  nom  du  ciel ,  aidez-moi  à  sortir  d'ici  !  /  / —  Eh  bien!  mon  iils,  dit  le  moine  en  lui  tonilant  l.i  main,  ce  que  /  /  / UN  HIVER  AU  MIDI   DE  L  EUROPE.  525  /  / tu  éprouves  en  regardant  maintenant  les  étoiles  briller  sur  ta  tête ,  / imagine  comment  je  l'éprouvai  lorsque  je  revis  le  soleil,  ap",
+   "cause": "h/a"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 1734964,
+   "pron": "lui",
+   "window": "lui , \nune  seule  action  nécessaire,  et  i!",
+   "inf_shaped": [
+    "nécessaire"
+   ],
+   "context": "tion  de  Dieu?  11  n'est  pas  question  d'ailleurs  d'admettre  / en  Dieu  de  la  liberté  pour  une  action  et  de  la  nécessité  pour  une  / autre.  Toutes  ses  actions  sont  libres,  s'il  est  parfait.  Dieu  ne  peut  / pas  être  seulement  parfait  par  quelque  endroit;  un  défaut  en  lui ,  / une  seule  action  nécessaire,  et  i!  n'est  plus  la  perfection  par  essence;  / il  n'est  que  le  moins  imparfait  de  tous  les  êtres  :  or,  il  y  a  l'infini  / entre  ces  deux  termes.  Admettez-vous  la  liberté  de  créer  ou  de  ne  / pas  créer?  Vous  l'admettez;  car,  si  le  monde  a  commencé,  comme  / vous  le  dites,  ",
+   "cause": "g"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 2349364,
+   "pron": "vous",
+   "window": "vous,  Je  veux  mourir!",
+   "inf_shaped": [
+    "mourir"
+   ],
+   "context": "  la  malheureuse  Julie  se  mit  à  pleurer,  / cependant,  au  lieu  de  confier  ses  chagrins  et  de  chercher  les  conso-  / lations que  d'Alembert  brûlait  de  lui  donner,  elle  s'irrita  de  son  in-  / térêt, et  lui  répondit  dans  un  transport  de  dépit  et  de  fureur  :  /  / —  Retirez-vous,  Je  veux  mourir!  / D'Alembert  lui-même  pleura  de  tout  son  cœur.  /  / —  Que  je  suis  malheureux,  disait-il  naïvement,  que  M.  de  Guibert  / ne  soit  pas  ici  !  lui  seul  a  de  l'empire  sur  vous  et  pourrait  vous  calmer.  /  / Cci  mots  produisirent  un  effet  magique,  et  le  nom  tout  puissant  de  / Guibert  suffit  pour  c",
+   "cause": "b"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 2873143,
+   "pron": "elle",
+   "window": "elle, \nje  reconnais  là-bas  le  cheval  noir  du  bey!",
+   "inf_shaped": [
+    "noir"
+   ],
+   "context": " midi,  tandis  que  les  fugitifs  se  reposaient  à  l'ombre,  / étendus  dans  les  hautes  herbes,  ils  virent  s'élever  à  l'extrémité  de  la  / plaine  un  nuage  de  poussière  au  milieu  duquel  brillaient  des  armes.  / Anetta  se  leva  en  palissant. — Nous  sommes  poursuivis,  s'écria-t-elle,  / je  reconnais  là-bas  le  cheval  noir  du  bey! —  En  prononçant  ces  mots,  / elle  sauta  en  selle,  Leonardo  l'imita;  tous  deux  parvinrent  bientôt  à  / franchir  la  chaîne  des  montagnes  arides  qui  sépare  la  plaine  de  Cet-  / tigne de  la  mer.  Le  soleil  allait  se  coucher,  comme  ils  arrivaient  sur  la  / plage.  La  c",
+   "cause": "c/g"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q1.txt",
+   "offset": 2983481,
+   "pron": "vous",
+   "window": "vous,  dans  l'affaire \nd'Orient!",
+   "inf_shaped": [
+    "l'affaire"
+   ],
+   "context": "lus  hardi  et  de  plus  amusant  en  ce  genre.  Il  a  / sans  doute  attendri  les  honnêtes  marchands  qui  l'écoutaient,  lorsqu'il  a  parlé  / avec  tant  d'onction  de  la  bonté  grande  et  de  l'humilité  évangélique  de  l'em-  / pereur JNicolas,  qui,  dans  l'affaire  d'Orient  (comprenez-vous,  dans  l'affaire  / d'Orient!),  a  bien  voulu ,  avec  une  modestie  rare,  servir  de  second ,  que  dis-je  ?  / pas  même  de  témoin ,  mais  de  conseil  à  lord  Palmerston.  Et  voilà  ,  qu'on  le  / sache  bien,  comment  le  gouvernement  russe  est  décidé  à  en  agir  toujours  / avec  son  nouvel  allié  :  tout  pour  les  intérêts",
+   "cause": "g"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "offset": 404825,
+   "pron": "elle",
+   "window": "elle  :  quelle  singulière  chose!",
+   "inf_shaped": [
+    "singulière"
+   ],
+   "context": "e  ces  regards  / si  vifs,  et  me  réjouissant  pourtant  de  tout  cela  comme  d'un  événe-  / ment heureux.  A  quelques  pas  de  distance,  je  me  retournai,  et  je  vis  / jyjme  xeederhart  qui  penchait  la  tête  hors  de  sa  boutique  pour  me  / suivre  du  regard,  et  je  me  dis  comme  elle  :  quelle  singulière  chose!  / Mais  il  me  semblait  que  j'avais  la  conscience  soulagée  d'un  lourd  / fardeau.  /  / En  rentrant  dans  la  maison  où  je  demeurais,  je  trouvai  mes  amis  / assemblés  dans  le  corridor,  et  causant  d'un  air  de  mystère  à  voix  basse.  / L'un  d'eux,  m'ayant  vu  entrer  chez  la  marchande,  était ",
+   "cause": "g"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "offset": 405120,
+   "pron": "eux",
+   "window": "eux,  m'ayant  vu  entrer  chez  la  marchande,  était  venu  en  toute \nhâte  le  raconter  aux  autres,  et  là-dessus  des  [commentaires,  quels \ncommentaires!",
+   "inf_shaped": [
+    "entrer",
+    "raconter"
+   ],
+   "context": "mme  elle  :  quelle  singulière  chose!  / Mais  il  me  semblait  que  j'avais  la  conscience  soulagée  d'un  lourd  / fardeau.  /  / En  rentrant  dans  la  maison  où  je  demeurais,  je  trouvai  mes  amis  / assemblés  dans  le  corridor,  et  causant  d'un  air  de  mystère  à  voix  basse.  / L'un  d'eux,  m'ayant  vu  entrer  chez  la  marchande,  était  venu  en  toute  / hâte  le  raconter  aux  autres,  et  là-dessus  des  [commentaires,  quels  / commentaires!  et,  lorsque  j'arrivai,  des  plaisanteries,  des  paroles  / amères  et  froissantes.  —  C'est  une  folle,  me  disait  l'un;  je  le  sais  /  /  / 138  REVUE  DES  DEUX  MOXDES.  /  / d'un  d",
+   "cause": "a"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "offset": 416485,
+   "pron": "elle",
+   "window": "elle,  muette,  et  moi  cherchant  à  deviner  le  secret  de  son \némotion,  tout  à  coup  entre  une  de  ses  amies,  qui  me  regarde  et \ns'écrie  :  Herr  Jésus!",
+   "inf_shaped": [
+    "deviner",
+    "entre"
+   ],
+   "context": " la  met  à  la  place  de  mon  col  de  satin,  / me  regarde  et  s'écrie  :  0  mon  Dieu  !  ô  mon  Dieu  !  et  me  prenant  les  / mains  dans  les  siennes,  me  contemple  l'œil  ému,  le  cœur  agité,  sans  / pouvoir  proférer  une  parole.  Tandis  que  nous  étions  là  debout  tous  / deux,  elle,  muette,  et  moi  cherchant  à  deviner  le  secret  de  son  / émotion,  tout  à  coup  entre  une  de  ses  amies,  qui  me  regarde  et  / s'écrie  :  Herr  Jésus!  c'est  M.  Charles!  A  ce  nom  magique.  M\"\"\"  Tee-  / derhart  met  ses  mains  sur  son  visage,  pousse  une  exclamation  de  / douleur,  et  s'enfuit  dans  une  autre  chambre",
+   "cause": "a"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "offset": 844171,
+   "pron": "moi",
+   "window": "moi,  qui  jusqu'ici  ne  vous  avais  point  abandonné,  mais  qui  ne  veux \npas  vous  suivre  vers  le  but  où  vous  tendez ,  je  vous  quitte;  allez  seul  !",
+   "inf_shaped": [
+    "suivre"
+   ],
+   "context": "Capodistrias.  Son  interlo-  / cuteur l'accabla  de  reproches:  «  Vous  voilà,  lui  dit-il,  arrivé  au  fond  de  / l'abîme;  les  conseils  les  plus  désintéressés,  vous  les  avez  méconnus;  les  vrais  / amis  du  pays  ont  été,  par  vous,  découragés,  dégoûtés,  éloignés,  révoltés.  / Pour  moi,  qui  jusqu'ici  ne  vous  avais  point  abandonné,  mais  qui  ne  veux  / pas  vous  suivre  vers  le  but  où  vous  tendez ,  je  vous  quitte;  allez  seul  !  »  Un  / moment,  M.  Capodistrias,  reculant  toujours  devant  son  partner,  fut  obligé  / de  rester  acculé  dans  un  coin  de  l'appartement,  et  de  l'écouter  sans  mot  dire.",
+   "cause": "b/c"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "offset": 1157618,
+   "pron": "toi",
+   "window": "toi,  corbeau  au  capuchon  noir,  ménage  le  blé  de  mon  champ!",
+   "inf_shaped": [
+    "noir"
+   ],
+   "context": "  «  Voilà  pour  vous,  souris  et  rats,  mais  vous  ne  mangerez  / plus  mes  gâteaux  et  mon  fromage!  répètent-ils  tour  à  tour;  voilà  / pour  vous ,  belettes ,  mais  vous  ne  croquerez  plus  mes  œufs  !  voilà  / pour  toi,  bon  renard,  épargne  désormais  mes  agneaux!  voilà  pour  / toi,  corbeau  au  capuchon  noir,  ménage  le  blé  de  mon  champ!  voilà  / pour  toi ,  aigle  aux  grandes  ailes ,  ne  dévore  plus  mes  poules  et  mes  / pigeons!  »  Quand  ce  sacrifice  et  ces  voeux  sont  achevés,  tous  ceux  / qui  y  ont  participé  s'asseient  en  cercle  sur  le  gazon  et  se  partagent  / le  reste  de  leurs  provis",
+   "cause": "h/g"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "offset": 1157701,
+   "pron": "toi",
+   "window": "toi ,  aigle  aux  grandes  ailes ,  ne  dévore  plus  mes  poules  et  mes \npigeons!",
+   "inf_shaped": [
+    "dévore"
+   ],
+   "context": "teaux  et  mon  fromage!  répètent-ils  tour  à  tour;  voilà  / pour  vous ,  belettes ,  mais  vous  ne  croquerez  plus  mes  œufs  !  voilà  / pour  toi,  bon  renard,  épargne  désormais  mes  agneaux!  voilà  pour  / toi,  corbeau  au  capuchon  noir,  ménage  le  blé  de  mon  champ!  voilà  / pour  toi ,  aigle  aux  grandes  ailes ,  ne  dévore  plus  mes  poules  et  mes  / pigeons!  »  Quand  ce  sacrifice  et  ces  voeux  sont  achevés,  tous  ceux  / qui  y  ont  participé  s'asseient  en  cercle  sur  le  gazon  et  se  partagent  / le  reste  de  leurs  provisions ,  arrosarit  le  repas  d'ale  mousseuse  et  de  / whiskey.  /  / Comme  chez  tou",
+   "cause": "h/g"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q2.txt",
+   "offset": 1165847,
+   "pron": "lui",
+   "window": "lui; \nprêt  à  franchir  le  seuil  de  !",
+   "inf_shaped": [
+    "franchir"
+   ],
+   "context": "le  de  lueurs  si  profondes,  si  ardentes,  il  y  a  tant  de  déci-  / sion et  de  voluptueuse  impatience  dans  sa  démarche,  que  le  jeune  / homme  se  lève  tout  tremblant;  il  commence  à  soupçonner  que  c'est  / une  créature  surnaturelle,  une  de'i  femmes  vertes  qu'il  a  devant  lui;  / prêt  à  franchir  le  seuil  de  !a  porte,  il  s'arrête  :  /  / —  Attendons  que  mon  camarade  soit  de  retour,  dit-il  à  la  jeune  / fdle.  /  / —  Il  peut  rester  long-temps  dehors,  et  tout  à  l'heure  je  dois  partir;  / allons,  suis-moi,  donne-moi  ta  main  !  /  / TOME  XXVI.  24  /  /  / ^3T4  REVUE   DES  DEUX   MONDES.  /  / —  l'n  moment",
+   "cause": "a"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "offset": 917137,
+   "pron": "elle",
+   "window": "Elle,  portant  l'égide,  et  le  casque,  et  la  lance, \nPourquoi  ne  peut-on  voir  ton  Zens  et  ta  Pahas, \nSans  tomber  à  genoux ,  ô  divin  Phidias!",
+   "inf_shaped": [
+    "tomber",
+    "voir"
+   ],
+   "context": "es  dieux  et  des  humains;  / Si  jamais  une  vierge  aux  allures  hautaines  / Du  beau  sceptre  de  l'art  ne  vint  douer  Athènes  ;  / Si  devant  loi  jamais  ils  n'ont  paru  tous  deux,  / Aux  confins  du  réel  agrandis  à  tes  yeux,  / Lui,  flamboyant  d'éclairs  que  sa  droite  balance,  / Elle,  portant  l'égide,  et  le  casque,  et  la  lance,  / Pourquoi  ne  peut-on  voir  ton  Zens  et  ta  Pahas,  / Sans  tomber  à  genoux ,  ô  divin  Phidias!  /  / LE  CHOEUR.  /  / Une  voix  chante ,  ô  Mer,  et  gronde  sous  tes  lames.  / Une  flamme  en  jaillit,  le  soir,  au  choc  des  rames;  / Un  caprice  inconnu  règne  au  fond  de  tes  eau",
+   "cause": "b/a"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "offset": 1378890,
+   "pron": "nous",
+   "window": "nous,  ouvriers, \nbourgeois  ou  paysans,  qui  voudraient  aller  s'établir  en  Algérie  !",
+   "inf_shaped": [
+    "aller",
+    "s'établir"
+   ],
+   "context": "ce  supportera  seule,  tandis  que  toutes  les  nations  jouiront  com-  / modément des  bénéGces  de  notre  conquête  et  de  notre  occupation.  / Cela  est  vrai,  dirai-je  avec  M.  Baude,  et  cela  est  bon.  A  Dieu  ne  plaise  / que  je  veuille  dissuader  de  leurs  projets  ceux  d'entre  nous,  ouvriers,  / bourgeois  ou  paysans,  qui  voudraient  aller  s'établir  en  Algérie  !  mais,  / comme  en  France,  malgré  les  plaintes,  la  vie  est  douce  et  facile,  / comme  tout  le  monde  y  trouve  à  gagner  son  pain,  peu  d'entre  nous  / quitteront  cette  terre  où  l'on  a  du  travail  pour  vivre  et  même  du  / loisir  pour  ",
+   "cause": "b"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "offset": 1947504,
+   "pron": "lui",
+   "window": "lui,  dans  son  style  extra- \nordinaire et  puissant  :  «  C'est  un  avaleur  de  formules!",
+   "inf_shaped": [
+    "ordinaire"
+   ],
+   "context": "oeil  que  / la  société  tout  entière  était  devenue  mensonge,  que  des  formules  / vaines  et  apparentes  recouvraient  le  néant,  et  qu'il  n'y  avait  plus  / rien  à  faire  que  de  détruire.  Les  autres  maudissaient,  lui  balayait  et  / emportait  les  ruines.  Son  père  avait  dit  de  lui,  dans  son  style  extra-  / ordinaire et  puissant  :  «  C'est  un  avaleur  de  formules!  «  Et  en  effet,  / il  absorbait  tout;  ce  mot  bizarre  comprend  la  description  et  la  défi-  / nition les  plus  complètes  de  son  caractère.  Lui-même  ne  cessait  de  / répéter:  «La  petite  morale  est  ennemie  de  la  grande.  »  A  cette  / ",
+   "cause": "g"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "offset": 2262867,
+   "pron": "moi",
+   "window": "moi,  je  pleure,  et  je  me  couvre  la  tête  de  cendre,  et  je  crie \nà  Dieu  et  au  peuple  :  grâce!",
+   "inf_shaped": [
+    "cendre",
+    "couvre",
+    "pleure"
+   ],
+   "context": "ou-  / leurs.  /  / «  Pauvres  et  affamés,  combien  êtes-vous,  et  combien  sont-ils?  Votre  / vie  est  une  mort  lente  et  honteuse;  échangez-la  contre  une  mort  / prompte  et  glorieuse,  ou  contre  une  victoire  qui  vous  fera  vivre.  / Voilà  ce  que  crie  l'esprit  exterminateur.  /  / «  Et  moi,  je  pleure,  et  je  me  couvre  la  tête  de  cendre,  et  je  crie  / à  Dieu  et  au  peuple  :  grâce!...  Et  ils  répondent:  il  n'y  a  plus  de  / grâce.  /  / «  Arrière,  honnêtes  gens  engraissés  de  rapines,  et  qui  avez  fait  des  / vertus  à  votre  image;  arrière,  hypocrites,  qui  partagez  avec  les  vo-  / leurs, et  qui  prêche",
+   "cause": "c"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "offset": 2568084,
+   "pron": "nous",
+   "window": "nous,  ne  se  hausse \npoint  jusque-là,  non  certes  que  nous  ayons  à  nous  plaindre  sur  le \nchapitre  des  hymnes  patriotiques  ;  à  Dieu  ne  plaise  !",
+   "inf_shaped": [
+    "chapitre",
+    "plaindre"
+   ],
+   "context": "le,  la  fable  de  tout  à  l'heure,  le  lied  devenu  épopée  en  un  clin  / d'œil ,  et  sans  que  sa  nature  s'altère  le  moins  du  monde ,  sans  qu'il  / change  de  nom;  le  poème  guerrier  de  Koerner  s'intitule  le  lied  de  / Vcpée,  —  der  Lied  des  Sc/nvertcs.  Notre  chanson,  à  nous,  ne  se  hausse  / point  jusque-là,  non  certes  que  nous  ayons  à  nous  plaindre  sur  le  / chapitre  des  hymnes  patriotiques  ;  à  Dieu  ne  plaise  !  la  Marseillaise  / vaut  tous  les  chefs-d'œuvre  en  ce  genre;  mais  c'est  autre  chose  :  il  n'est  / encore  venu  à  l'idée  de  personne  d'appeler  l'hymne  de  Rouget  de  Lil",
+   "cause": "a"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "offset": 2806421,
+   "pron": "moi",
+   "window": "moi, \nce  n'est  plus  votre  père  qui  vous  parle ,  c'est  un  homme  que  la  dou- \nleur égare;  mon  Dieul  mon  Dieu!",
+   "inf_shaped": [
+    "père",
+    "votre",
+    "égare"
+   ],
+   "context": "nsidérait  en  silence  et  se  mettait  à  pleurer  sans  / avoir  seulement  le  courage  de  l'apaiser.  Souvent  le  marquis  s'arrêtait  / lui-même,  sa  voix  faiblissait  tout  à  coup,  il  passait  la  main  sur  son  / visage,  et  poussant  un  soupir':  ce  Ah!  ma  pauvre  enfant,  pardonnez-moi,  / ce  n'est  plus  votre  père  qui  vous  parle ,  c'est  un  homme  que  la  dou-  / leur égare;  mon  Dieul  mon  Dieu!  donnez-moi  la  patience.  Vous  êtes  / un  ange,  ma  fille.  —  Il  la  pressait  sur  son  cœur,  tandis  qu'elle  s'ef-  / forçait de  l'excuser,  et  rejetait  son  humeur  sur  quelque  juste  motif  / qu'elle  prétendait  ",
+   "cause": "c"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "offset": 2813594,
+   "pron": "moi",
+   "window": "moi,  Mainvielle ,  laissez-moi;  meure \nvotre  infâme  république,  et  meurent  ces  brigands  comme  ils  le \nméritent  et  comme  je  l'espère!",
+   "inf_shaped": [
+    "l'espère",
+    "meure",
+    "votre"
+   ],
+   "context": "vresse  du  sang  et  du  pillage!  —  Il  y  a  eu  des  / excès,  cela  est  vrai,  mais  pcut-ùlre  ils  étaient  nécessiires;  la|cour  a  /  /  / MADEMOISELLE  DE  LA  CHARNAYE.  909  /  / fait  de  grandes  fautes,  —  Que  Dieu  les  confonde!  cria  le  marquis;  tou-  / jours la  môme  sottise!  Laissez-moi,  Mainvielle ,  laissez-moi;  meure  / votre  infâme  république,  et  meurent  ces  brigands  comme  ils  le  / méritent  et  comme  je  l'espère!...  — Et  la  discussion  se  grossissait,  / s'envenimait  peu  à  peu  jusqu'à  provoquer  un  éclat.  Mainvielle  alors  / se  retirait,  le  marquis  demeurait  pale,  tremblant,  brisait  quelque  / meub",
+   "cause": "h/c"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q3.txt",
+   "offset": 2813622,
+   "pron": "moi",
+   "window": "moi;  meure \nvotre  infâme  république,  et  meurent  ces  brigands  comme  ils  le \nméritent  et  comme  je  l'espère!",
+   "inf_shaped": [
+    "l'espère",
+    "meure",
+    "votre"
+   ],
+   "context": "llage!  —  Il  y  a  eu  des  / excès,  cela  est  vrai,  mais  pcut-ùlre  ils  étaient  nécessiires;  la|cour  a  /  /  / MADEMOISELLE  DE  LA  CHARNAYE.  909  /  / fait  de  grandes  fautes,  —  Que  Dieu  les  confonde!  cria  le  marquis;  tou-  / jours la  môme  sottise!  Laissez-moi,  Mainvielle ,  laissez-moi;  meure  / votre  infâme  république,  et  meurent  ces  brigands  comme  ils  le  / méritent  et  comme  je  l'espère!...  — Et  la  discussion  se  grossissait,  / s'envenimait  peu  à  peu  jusqu'à  provoquer  un  éclat.  Mainvielle  alors  / se  retirait,  le  marquis  demeurait  pale,  tremblant,  brisait  quelque  / meuble  et  tombait  en  des  ac",
+   "cause": "c"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 164600,
+   "pron": "elle",
+   "window": "elle ,  à  la  repousser  du  pied  comme \nun  cadavre!",
+   "inf_shaped": [
+    "cadavre",
+    "repousser"
+   ],
+   "context": " grossières  et  rustiques  de  / l'ancienne  gentilhommerie  !  Comme  Larra ,  Somoza ,  Campo  Alange,  / Minano,  Mesonero  et  tous  les  autres  nous  prouvent  plaisamment  que  / l'Espagne  de  1750  était  mauvaise  et  décrépite  !  Comme  ils  prennent  / plaisir  et  orgueil  à  se  détacher  d'elle ,  à  la  repousser  du  pied  comme  / un  cadavre!  Hélas!  pour  aller  où?  Au  chaos;  car  tout  se  tenait,  et  / le  talisman  qui  donne  l'avenir  aux  peuples,  c'est  le  passé.  /  / Il  était  impossible  que  l'Espagne ,  si  violemment  mêlée  à  tous  les  / mouvemens  de  l'Europe  dans  ces  derniers  temps,  ne  se  détachât  pas  / d",
+   "cause": "a"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 235468,
+   "pron": "lui",
+   "window": "lui,  il  peut  la \nméconnaître;  mais,  dès  qu'une  production  parfaite  se  présente,  il  dit \ndu  premier  coup  :  Cest  cela!",
+   "inf_shaped": [
+    "méconnaître",
+    "premier"
+   ],
+   "context": " on  ne  parlait  que  d'elle  en  môme  temps.  Le  monde ,  si  léger  et  / si  indifférent  qu'il  soit ,  ne  se  trompe  guère  à  ce  qui  est  très  bien.  / Lorsqu'une  œuvre  puissante,  marquée  de  beautés  fortes,  poétiques,  / chargée  aussi  de  bizarrerie  et  d'excès,  se  pose  devant  lui,  il  peut  la  / méconnaître;  mais,  dès  qu'une  production  parfaite  se  présente,  il  dit  / du  premier  coup  :  Cest  cela!  Très  peu  de  gens  sont  allés  en  Corse;  / les  mœurs  de  ce  pays  diffèrent  des  nôtres  autant  qu'il  se  peut;  elles  / sont  souvent  atroces,  sanglantes,  et  le  monde  n'aime  guère  en  soi  / l'atroce ",
+   "cause": "b/c"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 301759,
+   "pron": "eux",
+   "window": "eux,  par  forme  de  plaisanterie,  ayant  môme  poussé \nle  cri  de  la  canaille  romaine  :  Au  Tibre/  au  Tibre!",
+   "inf_shaped": [
+    "tibre"
+   ],
+   "context": "t  des  gens  ivres,  chose  de  tout  temps  / fort  rare  dans  Rome,  se  jeta  au-devant  d'eux  et  commença  assez  in-  / tempestivement  à  les  sermonner.  Ces  jeunes  gens,  loin  d'être  touchés  / de  son  éloquence ,  répondirent  à  ses  véhémentes  apostrophes  par  des  / injures.  L'un  d'eux,  par  forme  de  plaisanterie,  ayant  môme  poussé  / le  cri  de  la  canaille  romaine  :  Au  Tibre/  au  Tibre!  ses  compagnons,  / dont  tout  à  la  fois  le  vin  et  la  colère  troublaient  la  raison,  mirent  / subitement  à  exécution  cette  menace  jetée  inconsidérément.  Ils  sai-  / sirent le  malheureux  prêtre,  et,  s'approchant ",
+   "cause": "g"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 784715,
+   "pron": "vous",
+   "window": "vous,  son  frère!",
+   "inf_shaped": [
+    "frère"
+   ],
+   "context": "  monts  une  vieille  mère  et  une  jeune  sœur  :  / toutes  mes  joies,  madame,  et  toutes  mes  douleurs  sur  la  terre.  /  / —  Vos  joies,  sans  doute;  mais  pourquoi  vos  douleurs?  /  / —  Ma  sœur  est  consumée  par  un  mal  sans  remède.  /  / l  — Vous  dites  sans  remède,  vous,  docteur!  vous,  son  frère!  /  / —  La  science  n'y  peut  rien,  madame,  et,  si  l'amour  d'un  frère  / avait  pu  la  guérir,  je  ne  pleurerais  pas  sur  elle.  /  / —  La  jeunesse  la  sauvera.  /  / —  C'est  la  jeunesse  qui  la  tue.  Hélas  !  son  mal  n'a  pas  de  nom;  c'est  / une  de  ces  âmes  solitaires  qui  se  dévorent  dans  le  silence ,  un ",
+   "cause": "g"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 799065,
+   "pron": "vous",
+   "window": "vous,  je  me  brouillerais  avec  tout  l'Olympe;  pour \nvous,  chère  enfant,  que  ne  ferais-je  pas!",
+   "inf_shaped": [
+    "chère"
+   ],
+   "context": "dont  la  jalousie  était  bien  connue  dans  le  pays;  prenez  garde,  / comme  Paris,  de  vous  brouiller  avec  Junon.  /  / —  Pour  vous,  ravissante  Louise,  s'écria  l'amoureux  Aristide,  qui  / n'avait  jamais  sollicité  de  plus  doux  transports,  ni  rêvé  de  plus  tendre  / langage;  pour  vous,  je  me  brouillerais  avec  tout  l'Olympe;  pour  / vous,  chère  enfant,  que  ne  ferais-je  pas!  /  / Vous  ne  feriez  pas  galoper  Colette!  dit  une  voix  formidable  /  / qui  se  fit  entendre  sous  la  fenêtre  du  salon.  /  / Cette  voix  était  celle  de  M.  Riquemont,  qui  avait  tout  vu  et  tout  / entendu.  Louise  ne  put  s'empêche",
+   "cause": "c"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 799123,
+   "pron": "vous",
+   "window": "vous,  chère  enfant,  que  ne  ferais-je  pas!",
+   "inf_shaped": [
+    "chère"
+   ],
+   "context": "prenez  garde,  / comme  Paris,  de  vous  brouiller  avec  Junon.  /  / —  Pour  vous,  ravissante  Louise,  s'écria  l'amoureux  Aristide,  qui  / n'avait  jamais  sollicité  de  plus  doux  transports,  ni  rêvé  de  plus  tendre  / langage;  pour  vous,  je  me  brouillerais  avec  tout  l'Olympe;  pour  / vous,  chère  enfant,  que  ne  ferais-je  pas!  /  / Vous  ne  feriez  pas  galoper  Colette!  dit  une  voix  formidable  /  / qui  se  fit  entendre  sous  la  fenêtre  du  salon.  /  / Cette  voix  était  celle  de  M.  Riquemont,  qui  avait  tout  vu  et  tout  / entendu.  Louise  ne  put  s'empêcher  de  rire;  pour  Aristide,  il  de-  / meura foudroyé  su",
+   "cause": "c"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 890076,
+   "pron": "moi",
+   "window": "moi,  docteur,  et  pour  vous  aussi,  quelle  joie  de  me  voir  courir \nsur  le  sable  de  votre  jardin  !",
+   "inf_shaped": [
+    "courir",
+    "voir",
+    "votre"
+   ],
+   "context": "omis  d'en  faire  sera  de  m'échapper  de  Riquemont,  et  / d'aller,  par  une  belle  matinée,  vous  surprendre  à  Saint-Léonard.  / Vous  me  recevrez  dans  votre  kiosque,  nous  visiterons  ensemble  tout  / votre  petit  domaine.  Je  le  veux  ;  ne  le  voulez-vous  pas?  Quelle  joie  / pour  moi,  docteur,  et  pour  vous  aussi,  quelle  joie  de  me  voir  courir  / sur  le  sable  de  votre  jardin  !  car  c'est  à  vous,  ami,  que  je  devrai  la  / vie,  la  santé,  la  jeunesse.  /  / Ces  paroles  comblèrent  Aristide  de  bonheur  et  d'effroi ,  et  il  / s'éloigna  ivre  d'orgueil,  mais  aussi  d'épouvante,  en  songeant  à  quels  / ",
+   "cause": "a"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 1039717,
+   "pron": "nous",
+   "window": "nous,  France,  de  seconder  le  parti  mo- \ndéré !",
+   "inf_shaped": [
+    "seconder"
+   ],
+   "context": " contraire  aux  intérêts  français,  faut-il  que  / la  France  aide  par  son  adhésion  morale  ce  gouvernement  à  s'établir,  à  se  / consolider.?  et  tandis  que  l'Angleterre  seconde  ouvertement  en  Espagne  /  /  / REVUE.  —  CHRONIQUE.  347  /  / le  parti  exalté,  il  nous  serait  interdit  à  nous,  France,  de  seconder  le  parti  mo-  / déré !  /  / Quoi  qu'il  en  soit,  notre  gouvernement,  iidèle  à  ses  principes  trop  négatifs,  / a  poussé  la  neutralité  jusqu'au  scrupule.  Il  n'a  pas  empêché  l'infant  don  / François  de  Paule  de  pénétrer  en  Espagne  et  de  porter  à  Espartero  lejsecours  / de  son  nom  et  de  son  ti",
+   "cause": "a/f"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 1119209,
+   "pron": "toi",
+   "window": "toi,  dans  cette  heure; \n\nTriste  raison  que  trop  tôt  n'adviendra  ' \nLn  la  paix  dont  jouis,  s'est  possible,  ah  !",
+   "inf_shaped": [
+    "heure"
+   ],
+   "context": "e  vaudroit ,  hélas!  repos  que  tant  d'alarmes,  /  / Et  roi  si  preux  que  cent  lâches  tyrans?...  /  /  / 37i  /  / REVUE  DES  DEUX  MONDES.  /  / ^Voila  le  meilleur  du  lîprnnin-nn  x,  ^^*  /  / stance  de  Clotilde  '\";'^^\"'\"'  «\"  ^  ^^^rouve  un  accord  avec  cette  /  / ïretous  avons  été,  comme  ez  toi,  dans  cette  heure;  /  / Triste  raison  que  trop  tôt  n'adviendra  '  / Ln  la  paix  dont  jouis,  s'est  possible,  ah  !  demeure  '  /  / A  tes  beaux  jours  même  il  en  souviendra.  /  / qlt'ei;' ':„t  t;;\"''f  '^  '\"\"'\"^  \"^  ■\"'<>\"'  j™-^  «--x  pa™  /  / 4u  eu  comparant  de  près  la  source  pt  l'iisTo-a  t.,^  -  / de  Be.,ui„  a  p„„.  s„|e",
+   "cause": "g"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 1155457,
+   "pron": "toi",
+   "window": "Toi,  là-bas,  mon  petit,  tu  me  fais  l'effet  de  vou- \nloir tourner  casaque  !",
+   "inf_shaped": [
+    "loir",
+    "tourner"
+   ],
+   "context": " selon  que  le  parrain  s'était  montré  plus  ou  moins  féroce  / aux  dernières  séances  de  la  chambre.  /  / —  Bien,  mon  garçon!  disait-il  à  l'un.  —  Bravo,  mou  fils!  criait-il  / à  l'autre.  Vous  avez  bien  mérité  du  pays  !  —  Toi,  mon  vieux,  tu  flé-  / chis, tu  baisses  !  —  Toi,  là-bas,  mon  petit,  tu  me  fais  l'effet  de  vou-  / loir tourner  casaque  !  Allons!  mes  enftms,  courage!  l'horizon  politi-  / que se  rembrunit.  La  mère-patrie  vous  tend  les  bras,  et  demande  / que  vous  brisiez  ses  fers.  —  Et  vous,  vieillards,  ajoutait-il  en  s'adres-  / sant  aux  membres  décrépits  de  la  droite,  vi",
+   "cause": "b"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 1211079,
+   "pron": "elle",
+   "window": "elle;  vous  ne  sauriez  croire  comme  on  est \nbien  ici  !",
+   "inf_shaped": [
+    "croire"
+   ],
+   "context": "nt  se  promettait  un  / malin  plaisir  de  voir  son  vieux  docteur,  en  bas  de  soie  et  en  culotte  / courte,  monter  à  l'échelle  et  venir  se  percher  sur  le  toit.  La  noncha-  / lante se  trouvait  bien  d'ailleurs  et  n'était  pas  pressée  de  descendre.  /  / —  Venez  donc,  lui  dit-elle;  vous  ne  sauriez  croire  comme  on  est  / bien  ici  !  Nous  aurons  un  coucher  de  soleil  magnifique,  et  nous  pour-  / rons causer  à  l'aise,  sans  crainte  d'e  tre  surpris.  Vous  chercheriez  en  / vain  un  lieu  plus  solitaire,  un  endroit  plus  propice.  /  / Mais  le  docteur  Herbeau  n'était  que  médiocrement  tenté  de  se ",
+   "cause": "b"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 1248948,
+   "pron": "vous",
+   "window": "vous ,  au  bout  de  votre  carrière,  rencontrer  moins \nd'épines  que  je  n'en  ai  trouvé  à  la  fin  de  la  mienne!",
+   "inf_shaped": [
+    "carrière",
+    "rencontrer",
+    "votre"
+   ],
+   "context": "  vingt-cinq  ans  une  vie  active  et  labo-  / rieuse. C'est  un  rude  ministère  que  le  nôtre;  jeune  homme,  vous  le  / saurez  plus  tard.  Que  nous  en  revient-il  la  plupart  du  temps?  l'ingra-  / titude, couronnement  inévitable  de  toute  existence  vouée  au  bien  / public.  Puissiez-vous ,  au  bout  de  votre  carrière,  rencontrer  moins  / d'épines  que  je  n'en  ai  trouvé  à  la  fin  de  la  mienne!  /  / —  Quelle  qu'en  doive  être  la  récompense,  puissé-je,  monsieur,,  / répliqua  Savenay,  fournir  une  carrière  aussi  noble,  aussi  belle,  aussi  / bien  remplie  que  la  vôtre!  /  / —  Je  ne  vous  cache  pas,  poursuiv",
+   "cause": "b"
+  },
+  {
+   "file": "revue-deux-mondes-1841-q4.txt",
+   "offset": 1633288,
+   "pron": "eux",
+   "window": "eux;  il  y  avait  donc  eu  d'autres  émissaires  que \nceux  de  la  Porte  envoyés  dans  le  Liban  pour  exciter  la  révolte!",
+   "inf_shaped": [
+    "exciter"
+   ],
+   "context": "iban  de  l'obéissance  qu'ils  devaient  à  / Méhémet-Ali,  aux  termes  de  l'arrangement  de  Kutaya,  arrangement  / que  l'Angleterre  elle-même  avait  garanti?  L'ambassadeur  britannique  / répond  de  l'émir  Béchir  et  de  tous  les  autres  scbeiks!  ïl  s'était  donc  / mis  en  rapport  avec  eux;  il  y  avait  donc  eu  d'autres  émissaires  que  / ceux  de  la  Porte  envoyés  dans  le  Liban  pour  exciter  la  révolte!  Lord  / Ponsonby  avait  donc  abdiqué  son  caractère  de  médiateur  et  d'arbitre!  / il  avait  prêché  la  paix  au  pacha  d'Egypte,  et  la  guerre  aux  montagnards  / de  la  Syrie!  L'on  pourrait  être  tenté  de",
+   "cause": "a"
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "offset": 50484,
+   "pron": "moi",
+   "window": "Moi;  tenant  la  paix  entre  mes  mains  et  connaissant  seul \nles  moyens  de  rassurer,  —  moi  au  lit !",
+   "inf_shaped": [
+    "entre",
+    "rassurer"
+   ],
+   "context": "eul  de  mon  bord,  / c'est-a-dire;  le  seul  homme  d'affaires  au  lit  a  Lemberg;  les  / deux  Empereur's  tete  a  tete  a  Czernowitz.  Comme  resultat,  / deux  seules  eVentualites  possibles,  ou  la  guerre  immediate  / entre  la  Russie  et  la  Porte,  ou  la  paix  egalement  imme-  / diate. Moi;  tenant  la  paix  entre  mes  mains  et  connaissant  seul  / les  moyens  de  rassurer,  —  moi  au  lit !  Je  vous  jure  qu'il  faut  / etre  doue  d'une  force  d'äme  et  de  volonte*  peu  commune  pour  / ne  pas  succomber.  Aussi  n'ai-je  pas  succombe*  moralement,  / mais  mon  pliysique  en  a  re§u  une  secousse  terrible  !  Je  suis",
+   "cause": "a"
+  },
+  {
+   "file": "metternich-papiere-v4.txt",
+   "offset": 700298,
+   "pron": "lui",
+   "window": "lui ;  le  mien  n'^blouit  point, \nmais  il  conserve  ce  que  l'autre  consume !",
+   "inf_shaped": [
+    "l'autre"
+   ],
+   "context": "  n'habitent  pas,  je  me  tiens  place  au  niveau  / des  choses  humaines.  Le  resultat  de  cette  diflförence  sera  que  / Canning  aura  pour  lui  les  romantiques,  tandis  que  je  serai  / reduit  aux  simples  prosateurs.  Son  röle  est  brillant  comme  / un  Eclair,  mais  passager  comme  lui ;  le  mien  n'^blouit  point,  / mais  il  conserve  ce  que  l'autre  consume !  /  / Teile  est  la  simple  mais  indubitable  verite.  Elle  est  tou-  / jours de*couverte  par  l'historien,  mais  eile  echappe  souvent  / aux  contemporains.  Les  hommes  comme  Canning  tombent  vingt  / fois  et  se  relevent  vingt  fois ;  les  hommes  comme  mo",
+   "cause": "g"
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "offset": 161430,
+   "pron": "moi",
+   "window": "moi, \nle  monde  avait  encore  a  attendre  votre  venue  durant  dix-neuf \nlongues  annees!",
+   "inf_shaped": [
+    "attendre",
+    "encore",
+    "votre"
+   ],
+   "context": "  aujourd'hui.  /  / Quand  j'ai  mis  la  main  a  Foeuvre,  je  ne  me  doutais  pas  que  / vous  deviendriez  la  chätelaine  de  c^ans.  A  moins  d'etre  pro-  / phete,  je  n'aurais  pas  pu  y  songer;  quand  j'ai  trouve  Koenigs-  / wart affreux  et  que  la  vell&te  de  Fembellir  a  germe\"  en  moi,  / le  monde  avait  encore  a  attendre  votre  venue  durant  dix-neuf  / longues  annees!  Maintenant  que  vous  aimez  egalement  ce  que  / j'aime,  et  meme  ce  que  je  n'aime  guere,  c'est-a-dire  ma  per-  / sonne, tout  est  bien.  Ce  qui  ne  Fest  pas,  c'est  qu'il  y  ait  / quarante-neuf  ans  que  j'ai  e^e*  a  Koenigswart;  ce  qui",
+   "cause": "a"
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "offset": 188673,
+   "pron": "moi",
+   "window": "moi,  pauvre \nchancelier,  force*  de  faire  mouvoir  toute  cette  masse,  de  la \ndebrouiller  et  de  la  faire  marcher  dans  les  voies  qui  con- \nviennent!",
+   "inf_shaped": [
+    "chancelier",
+    "debrouiller",
+    "faire",
+    "marcher",
+    "mouvoir",
+    "pauvre"
+   ],
+   "context": "  Et  encore,  quel  bal!  Cinquante-quatre  /  /  / 74  gerbincmbeifc^e  Oiegtccunggseit.  ©<S.  9ir.  1231.  /  / Princes  et  Princesses,  autant  de  Grands  Maitres  et  de  Grandes  / Maitresses,  le  double  de  chambellans,  aides  de  camp  et  / demoiselles  d'honneur,  tout  eela  tourbillonnant,  et  moi,  pauvre  / chancelier,  force*  de  faire  mouvoir  toute  cette  masse,  de  la  / debrouiller  et  de  la  faire  marcher  dans  les  voies  qui  con-  / viennent!  Quand  je  dis  que  c'est  moi  qui  fais  mouvoir  la  / machine,  c'est  de  toute  veVite,  et  meme  l'une  des  plus  gene-  / ralement  reconnues  et  appreciees  ici.  /  / J'aurai  qu",
+   "cause": "a"
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "offset": 1080212,
+   "pron": "lui",
+   "window": "lui,  mais  je  n'agirai  jamais  comme  vient  de \nle  faire  le  commodore!",
+   "inf_shaped": [
+    "commodore",
+    "faire"
+   ],
+   "context": "s  ^clatent  dans  la  main  de  celui  qui  s'en  sert.  / Meliemet-Ali,  assez  fin  pour  savoir  ce  que  valent  des  pleins  / pouvoirs,  a  cru  devoir  se  passer  d'en  faire  exhiber  par  le  di-  / plomäte  amateur,  et  dans  la  circonstance  donnee  il  a  eu  raison.  / J'eusse  agi  comme  lui,  mais  je  n'agirai  jamais  comme  vient  de  / le  faire  le  commodore!  /  / Ce  qui  m'importe,  e'est  que  M.  Guizot  soit  le  premier  in-  / forme'  que  Famiral  Stopford   et  la  Porte  ont  refuse'  de  ratifier  /  /  / *)  WapitT,  ber  mit  beut  türfifdjen  $eere  bor  9Ueranbrien  gerücft  mar,  fdjtoß  / mit  9)W)emeb  2Ui  einen  Vertrag",
+   "cause": "c/a"
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "offset": 1092996,
+   "pron": "moi",
+   "window": "moi;  le  present,  qui  est  entierement  de \nma  creation,  c'est  moi;  il  en  est  autrement  de  l'avenir,  car  avec \nmoi  finira  mon  pouvoir!",
+   "inf_shaped": [
+    "l'avenir",
+    "pouvoir"
+   ],
+   "context": "n  plutöt  celle  de  sa  future  et  complete  / emancipation.  /  / Ad  2um-  La  question,  consideree  sous  le  point  de  vue  de  / l'Egypte,  ne  renferme  pas  d'element  qui  puisse  servir  de  base  / a  un  calcul  solide  pour  l'avenir.  Mehemet-Ali  peutajuste  titre  / dire:  L'Egypte,  c'est  moi;  le  present,  qui  est  entierement  de  / ma  creation,  c'est  moi;  il  en  est  autrement  de  l'avenir,  car  avec  / moi  finira  mon  pouvoir!  —  Teile  est  a  l'^gard  de  la  puissance  / egyptienne  la  verite*  et  toute  la  verite.  Ni  Ibrahim  ni  tel  autre  / fils  de  Mehemet-Ali  ne  sera  ce  qu'est  M^hemet-Ali,  car  il  ne  / s",
+   "cause": "g/c"
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "offset": 1093065,
+   "pron": "moi",
+   "window": "moi;  il  en  est  autrement  de  l'avenir,  car  avec \nmoi  finira  mon  pouvoir!",
+   "inf_shaped": [
+    "l'avenir",
+    "pouvoir"
+   ],
+   "context": "um-  La  question,  consideree  sous  le  point  de  vue  de  / l'Egypte,  ne  renferme  pas  d'element  qui  puisse  servir  de  base  / a  un  calcul  solide  pour  l'avenir.  Mehemet-Ali  peutajuste  titre  / dire:  L'Egypte,  c'est  moi;  le  present,  qui  est  entierement  de  / ma  creation,  c'est  moi;  il  en  est  autrement  de  l'avenir,  car  avec  / moi  finira  mon  pouvoir!  —  Teile  est  a  l'^gard  de  la  puissance  / egyptienne  la  verite*  et  toute  la  verite.  Ni  Ibrahim  ni  tel  autre  / fils  de  Mehemet-Ali  ne  sera  ce  qu'est  M^hemet-Ali,  car  il  ne  / saurait  l'etre,  füt-il  meme  doue  des  qualites  de  son  pere,  e",
+   "cause": "g/c"
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "offset": 1307068,
+   "pron": "lui",
+   "window": "lui,  a  sa  maniere  de  voir \net  de  juger  que  cela  semblerait  etre  uniquement  du!",
+   "inf_shaped": [
+    "etre",
+    "juger",
+    "maniere",
+    "voir"
+   ],
+   "context": "vec  une   chance   de   detestable   pratique.    En  /  /  / bezüglichen  23erid)te  be§  93otfd)after§  entnehmen  ttnr  einige  ber  intereffanteften  / ©teilen.  Unter  Stnberent  fogte  ber  Äönig:  „Le  Prince  de  Metternich  attribue  / tout  ce  qui  s'est  fait  de  bien  ä  M.  Guizot;  c'est  ä  lui,  a  sa  maniere  de  voir  / et  de  juger  que  cela  semblerait  etre  uniquement  du!  Je  n'ai  pas  besoin  de  / vous  dire  que  je  suis  enchante  du  suffrage  donne  par  le  Prince  de  Metternich  / ä  M.  Guizot;  il  est  merite,  bien  merite,  j'aime  ä  en  convenir;  mais  il  ne  faut  / jamais  laisser  croire  ä  ces  Messieurs  ",
+   "cause": "a"
+  },
+  {
+   "file": "metternich-papiere-v6.txt",
+   "offset": 1395760,
+   "pron": "moi",
+   "window": "moi,  a  raison  a \nl'egard  de  la  question  de  savoir  si  le  traite  du  15  Juillet  1840 \na  rdtabli  l'alliance  de  Chaumont,  —  oui  ou  non!",
+   "inf_shaped": [
+    "savoir"
+   ],
+   "context": "onfiance.\"       2).  §.  /  / 35*  /  /  / 548  gerbtnonbcifcfje  SKcgierungSaeit.  ©@.  9<tr.  1427.  /  / de  Medem,  et  je  n'en  ai  plus  entendu  parier  depuis.  Le  sujet  / e*tant  d'une  nature  toute  polemique,  je  n'entends  pas  le  ressasser;  / les  faits  prouveront  qui,  de  l'Empereur  ou  de  moi,  a  raison  a  / l'egard  de  la  question  de  savoir  si  le  traite  du  15  Juillet  1840  / a  rdtabli  l'alliance  de  Chaumont,  —  oui  ou  non!  L'attitude  / que  dans  tous  vos  entretiens  vous  devrez  prendre,  c'est  celle  / d'une  parfaite  quietude  politique,  qui  toutefois  ne  s'etendra  / pas  aux  questions  sociales.  /  / Trois  s",
+   "cause": "a"
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "offset": 564934,
+   "pron": "elle",
+   "window": "elle, qu'à cette rupture se joignit l'assassinat \ndes plénipotentiaires français!",
+   "inf_shaped": [
+    "rupture"
+   ],
+   "context": "u roi  / d'Espagne, Charles 11L. 11 avait épousé Marie-Caroline, fille de l'impéra-  / trice Marie-Thérèse.  /  /  / Google JNVERSITY OF CA  /  /  / 266 MÉMOIRES DU PRINCE DE TALLEYRAND.  /  / Son premier intérèt, en reprenant les armes, était de faire  / égociations de Rasta : elle y réussit ; mais il est  / fücheux pour elle, qu'à cette rupture se joignit l'assassinat  / des plénipotentiaires français! Après cet événement, on dut  /  /  /  /  /  / rompre le:  /  /  /  /  /  / s'attendre à un renouvellement furieux de la guerre.  /  / Le directoire avait, pour la faire, assez de soldats; mais  / depuis la proscription de Carnot (au 48 fructidor), il ne lui  / restait plus personne en état d'en diri",
+   "cause": "g"
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "offset": 649477,
+   "pron": "elle",
+   "window": "elle, L'ancienne \ngloire de l'armée prussienne lui imposait; mais après une \naction de quatre heures seulement, le fantôme s'évanouit, et \nla bataille d'léna!",
+   "inf_shaped": [
+    "gloire",
+    "quatre"
+   ],
+   "context": "ous l'influence et la protection  /  /  /  /  /  / de la Prusse. Celle-ci, se voyant jouée, ne prit conseil que de  / l'irritation qui régnait dans toutes les casses de la nation  / et courut aux armes.  /  / Ce n’était pas sans une secrète inquiétude que l'umpereur  /  /  /  /  /  / allait pour la première fois se mesurer contre elle, L'ancienne  / gloire de l'armée prussienne lui imposait; mais après une  / action de quatre heures seulement, le fantôme s'évanouit, et  / la bataille d'léna!, mit la morarchie prussienne complète-  / ment à la merci d'un vainqueur, d'autant plus dur que les  / torts élaient de son côté, et que, de plus il avait eu quelque  / crainte, et qu'on le savait.",
+   "cause": "g"
+  },
+  {
+   "file": "talleyrand-memoires-v1.txt",
+   "offset": 788323,
+   "pron": "eux",
+   "window": "eux; et à \n\n\nmoins de \n\n\n\n\n\ntance que quand il voulait leur Rire quitter les \n\n\n\n\n\n\n\n\na MÉMOIRES DU PRINCE DE TALLEYRAND \n\n\n\n\n\nexercices ct les anusemen!",
+   "inf_shaped": [
+    "quitter",
+    "rire"
+   ],
+   "context": " descendimes mên ; je n'ose dire à  /  /  /  /  /  / jusqu'aux image  /  /  /  /  /  / quel point tout fut inutile. Don Antonio, leur oncle, qui  / redoutait pour eux la grande partis des livres qui composent  /  /  / une bonne bibliothèque, imaginait bientôt quelque mison  /  /  /  /  /  / à il trouvait  /  /  /  /  /  / pour les engager à rentrer chez eux; et à  /  /  / moins de  /  /  /  /  /  / tance que quand il voulait leur Rire quitter les  /  /  /  /  /  /  /  /  / a MÉMOIRES DU PRINCE DE TALLEYRAND  /  /  /  /  /  / exercices ct les anusemen!  /  /  /  /  /  / qui font à la campagne le charme  /  /  /  /  /  / des soirées d'été. À ces distractions pour lesquelles éleun  /  /  /  /  /  / in'aidait, se joignaient pour eux les consolations de la relis  /  /  /  /  /  / la grande infort",
+   "cause": "f/OCR"
+  },
+  {
+   "file": "levant-correspondence-1841-p3.txt",
+   "offset": 923358,
+   "pron": "toi",
+   "window": "toi, mon susdit Vizir!",
+   "inf_shaped": [
+    "vizir"
+   ],
+   "context": "im the  / Government of Nubia, Darfour, Kordufan, and Sennaar, and enjoin-  / ing him to abolish the Negro-hunts, &c.  /  /  / (Traduction.) Wiese Bae  /  / A MON Vizir Méhémet Ali Pacha, Gouverneur d’Egypte, a qui je  / confie 4 présent l’administration des provinces de Nubie, Darfour, Cor-  / dufan, et Senaar.  /  / O toi, mon susdit Vizir! comme ainsi qu’il a été dit dans une autre  / ordonnance Impériale, j’ai jugé 4 propos de te réintégrer dans le Gou-  / vernement de l’Egypte, comprise dans ses limites connues, et d’y ajouter  / Phérédité sous certaines conditions, j’ai pris aussi la gracieuse réso-  / lution de t’accorder sans l’hérédité le Gouvernement de Nubie, D",
+   "cause": "g"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "offset": 348115,
+   "pron": "elle",
+   "window": "elle, qui vivaient dans un rayon d'aurore!",
+   "inf_shaped": [
+    "d'aurore"
+   ],
+   "context": "t que les caresses. / Cosette ne faisait pas un mouvement qui ne fît pleuvoir sur sa tête une / grêle de châtiments violents et immérités. Doux être faible qui ne / devait rien comprendre à ce monde ni à Dieu, sans cesse punie, grondée, / rudoyée, battue et voyant à côté d'elle deux petites créatures comme / elle, qui vivaient dans un rayon d'aurore! /  / La Thénardier étant méchante pour Cosette, Éponine et Azelma furent / méchantes. Les enfants, à cet âge, ne sont que des exemplaires de la / mère. Le format est plus petit, voilà tout. /  / Une année s'écoula, puis une autre. /  / On disait dans le village: /  / --Ces Thénardier sont de braves gens. Ils ne sont pas riche",
+   "cause": "c/g"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "offset": 419551,
+   "pron": "lui",
+   "window": "lui, il lui jetait, avec une\nbouffée de la fumée de son cigare, quelque apostrophe qu'il croyait\nspirituelle et gaie, comme:--Que tu es laide!",
+   "inf_shaped": [
+    "cigare"
+   ],
+   "context": "taient dans les temps froids le costume à / la mode, se divertissait à harceler une créature qui rôdait en robe de / bal et toute décolletée avec des fleurs sur la tête devant la vitre du / café des officiers. Cet élégant fumait, car c'était décidément la mode. /  / Chaque fois que cette femme passait devant lui, il lui jetait, avec une / bouffée de la fumée de son cigare, quelque apostrophe qu'il croyait / spirituelle et gaie, comme:--Que tu es laide!--Veux-tu te cacher!--Tu / n'as pas de dents! etc., etc.--Ce monsieur s'appelait monsieur / Bamatabois. La femme, triste spectre paré qui allait et venait sur la / neige, ne lui répondait pas, ne le regardait même ",
+   "cause": "c"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "offset": 447230,
+   "pron": "elle",
+   "window": "elle, comme je vais être heureuse!",
+   "inf_shaped": [
+    "être"
+   ],
+   "context": "les, ça n'est / pas encore tombé. /  / M. Madeleine l'allait voir deux fois par jour, et chaque fois elle lui / demandait: /  / --Verrai-je bientôt ma Cosette? /  / Il lui répondait: /  / --Peut-être demain matin. D'un moment à l'autre elle arrivera, je / l'attends. /  / Et le visage pâle de la mère rayonnait. /  / --Oh! disait-elle, comme je vais être heureuse! /  / Nous venons de dire qu'elle ne se rétablissait pas. Au contraire, son / état semblait s'aggraver de semaine en semaine. Cette poignée de neige / appliquée à nu sur la peau entre les deux omoplates avait déterminé une / suppression subite de transpiration à la suite de laquelle la maladie / qu'elle couvait depuis plusieur",
+   "cause": "b"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "offset": 460876,
+   "pron": "lui",
+   "window": "Lui, il n'a pas\nl'air de comprendre, il dit: Je suis Champmathieu, je ne sors pas de là!",
+   "inf_shaped": [
+    "comprendre",
+    "l'air"
+   ],
+   "context": "a de quoi se débattre, n'est-ce pas? / Oui, pour un autre que Jean Valjean. Mais Jean Valjean est un sournois. / C'est encore là que je le reconnais. Un autre sentirait que cela / chauffe; il se démènerait, il crierait, la bouilloire chante devant le / feu, il ne voudrait pas être Jean Valjean, et caetera. Lui, il n'a pas / l'air de comprendre, il dit: Je suis Champmathieu, je ne sors pas de là! / Il a l'air étonné, il fait la brute, c'est bien mieux. Oh! le drôle est / habile. Mais c'est égal, les preuves sont là. Il est reconnu par quatre / personnes, le vieux coquin sera condamné. C'est porté aux assises, à / Arras. Je vais y aller pour témoigner. Je suis c",
+   "cause": "a/c"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "offset": 464112,
+   "pron": "vous",
+   "window": "vous, un homme\nrespectable, un maire, un magistrat!",
+   "inf_shaped": [
+    "maire"
+   ],
+   "context": "oint. Voici comment je raisonne. Je / vous ai soupçonné injustement. Cela, ce n'est rien. C'est notre droit à / nous autres de soupçonner, quoiqu'il y ait pourtant abus à soupçonner / au-dessus de soi. Mais, sans preuves, dans un accès de colère, dans le / but de me venger, je vous ai dénoncé comme forçat, vous, un homme / respectable, un maire, un magistrat! ceci est grave. Très grave. J'ai / offensé l'autorité dans votre personne, moi, agent de l'autorité! Si / l'un de mes subordonnés avait fait ce que j'ai fait, je l'aurais déclaré / indigne du service, et chassé. Eh bien? /  / Tenez, monsieur le maire, encore un mot. J'ai souvent été sévère dans ma / vie. Pour",
+   "cause": "d/g"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "offset": 516084,
+   "pron": "toi",
+   "window": "toi, qui va être condamné, qui va finir ses jours\ndans l'abjection et dans l'horreur!",
+   "inf_shaped": [
+    "finir",
+    "être"
+   ],
+   "context": "ds ce Champmathieu! va, c'est bien. Applaudis-toi! Ainsi, c'est / convenu, c'est résolu, c'est dit, voilà un homme, voilà un vieillard qui / ne sait ce qu'on lui veut, qui n'a rien fait peut-être, un innocent, / dont ton nom fait tout le malheur, sur qui ton nom pèse comme un crime, / qui va être pris pour toi, qui va être condamné, qui va finir ses jours / dans l'abjection et dans l'horreur! c'est bien. Sois honnête homme, toi. / Reste monsieur le maire, reste honorable et honoré, enrichis la ville, / nourris des indigents, élève des orphelins, vis heureux, vertueux et / admiré, et pendant ce temps-là, pendant que tu seras ici dans la joie et / dans la lumièr",
+   "cause": "b"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "offset": 620459,
+   "pron": "vous",
+   "window": "vous, monsieur le maire!",
+   "inf_shaped": [
+    "maire"
+   ],
+   "context": " dans le laboratoire de l'infirmerie, / penchée sur ses drogues et sur ses fioles et regardant de très près à / cause de cette brume que le crépuscule répand sur les objets. Tout à / coup elle tourna la tête et fit un léger cri. M. Madeleine était devant / elle. Il venait d'entrer silencieusement. /  / --C'est vous, monsieur le maire! s'écria-t-elle. /  / Il répondit, à voix basse: /  / --Comment va cette pauvre femme? /  / --Pas mal en ce moment. Mais nous avons été bien inquiets, allez! /  / Elle lui expliqua ce qui s'était passé, que Fantine était bien mal la / veille et que maintenant elle était mieux, parce qu'elle croyait que / monsieur le maire était allé chercher so",
+   "cause": "g"
+  },
+  {
+   "file": "gutenberg-17489-miserables1.txt",
+   "offset": 644007,
+   "pron": "elle",
+   "window": "elle, aller chercher mon enfant!",
+   "inf_shaped": [
+    "aller",
+    "chercher"
+   ],
+   "context": ". Vous / m'accompagnerez si vous voulez. /  / --Tu veux rire! cria Javert. Ah çà! je ne te croyais pas bête! Tu me / demandes trois jours pour t'en aller! Tu dis que c'est pour aller / chercher l'enfant de cette fille! Ah! ah! c'est bon! voilà qui est bon! / Fantine eut un tremblement. /  / --Mon enfant! s'écria-t-elle, aller chercher mon enfant! Elle n'est donc / pas ici! Ma soeur, répondez-moi, où est Cosette? Je veux mon enfant! / Monsieur Madeleine! monsieur le maire! /  / Javert frappa du pied. /  / --Voilà l'autre, à présent! Te tairas-tu, drôlesse! Gredin de pays où / les galériens sont magistrats et où les filles publiques sont soignées / comme des comtesses! Ah mai",
+   "cause": "c"
+  },
+  {
+   "file": "gutenberg-30513-tocqueville-t1.txt",
+   "offset": 109189,
+   "pron": "elle",
+   "window": "elle, nous devenons inférieurs\nà nous-mêmes; elle est l'ennemie de la vérité et de la paix; et Dieu a\ncru devoir s'élever contre elle!",
+   "inf_shaped": [
+    "contre",
+    "devoir",
+    "s'élever"
+   ],
+   "context": "ns pas sur ce que nous devons entendre par notre / indépendance. Il y a en effet une sorte de liberté corrompue, dont / l'usage est commun aux animaux comme à l'homme, et qui consiste à faire / tout ce qui plaît. Cette liberté est l'ennemie de toute autorité; elle / souffre impatiemment toutes règles; avec elle, nous devenons inférieurs / à nous-mêmes; elle est l'ennemie de la vérité et de la paix; et Dieu a / cru devoir s'élever contre elle! Mais il est une liberté civile et / morale qui trouve sa force dans l'union, et que la mission du pouvoir / lui-même est de protéger: c'est la liberté de faire sans crainte tout ce / qui est juste et bon. Cette sainte lib",
+   "cause": "b/c"
+  }
+ ],
+ "note": "prose corpus identical to personal-tonic-governed-excl-prose"
+}

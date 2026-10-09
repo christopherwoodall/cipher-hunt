@@ -1,0 +1,3620 @@
+{
+ "corpus": "/tmp/modern-fr/corpus/europarl-fr.txt",
+ "ne_instances": 162756,
+ "bare_candidates": 5435,
+ "n_licensed": 5032,
+ "n_idiom": 12,
+ "n_other": 391,
+ "other": [
+  {
+   "head": "disposait",
+   "head_sa": "disposait",
+   "ne": "ne",
+   "sent": "Lorsque le tremblement de terre a eu lieu en Grèce - et ce fut une grande catastrophe -, la Communauté ne disposait d'aucun instrument pour exprimer sa sympathie ou sa solidarité envers les Grecs.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous avons tous contribué à la libéralisation des transactions financières ; à ce jour, toutefois, nous ne disposons d'aucun cadre réglementaire qui fonctionne et nous en avons fait l'amère expérience avec les répercussions des crises survenues en Asie et en Amérique latine.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "ont",
+   "head_sa": "ont",
+   "ne": "n'",
+   "sent": "Enfin, parmi les paramètres prioritaires qui seront introduits à l' échelle européenne pour permettre les inscriptions locales, une attention particulière devra être accordée à la qualité et à l' originalité des projets qui ont été déjà portés par des GAL dans le cadre de l' initiative Leader II, mais qui n' ont pu aboutir en raison du calendrier e",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "La Commission ne dispose d'aucune information quant à l'impact de la construction du barrage d'Ilisu sur les populations de la région.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "La Commission ne dispose d'aucun instrument lui permettant d'imposer une diminution ou augmentation quelconque des accises sur les produits alcoolisés ou autres.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "font",
+   "head_sa": "font",
+   "ne": "ne",
+   "sent": "Aujourd'hui, environ 9,5 milliards d'euros provenant des ressources précédentes du FED ne font l'objet d'aucun engagement.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "vient",
+   "head_sa": "vient",
+   "ne": "ne",
+   "sent": "Lorsqu'aucun élément ne vient contribuer à un débat parlementaire visant à clarifier les choses et à se positionner, nous devons au moins nous abstenir.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "a",
+   "head_sa": "a",
+   "ne": "n'",
+   "sent": "Depuis le 4 juillet 1990, date de la demande d' adhésion de Chypre, le Parlement européen, par de nombreuses résolutions, n' a cessé de réclamer une solution politique conforme au droit international et aux résolutions pertinentes du Conseil de sécurité des Nations unies.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "C'est pourquoi la Commission regrette de ne pouvoir accepter les amendements suivants à la première proposition.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous manquons de données. Nous ne disposons d'aucune information sur l'impact économique, qui reste encore un mystère.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Je regrette de ne pouvoir en dire autant de certains de ses collègues.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposait",
+   "head_sa": "disposait",
+   "ne": "ne",
+   "sent": "En recommandant le développement de la recherche et l'utilisation de vaccins en vue de contrôler et d'éradiquer l'AIS, le rapporteur rassure également l'industrie pharmaceutique qui, jusqu'à présent, ne disposait d'aucun motif pour investir dans le développement d'un vaccin.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "avons",
+   "head_sa": "avons",
+   "ne": "n'",
+   "sent": "Sur le dossier de la banane, par exemple, nous n' avons pu, jusqu' ici, concilier les intérêts de nos producteurs, ceux des ACP, avec les exigences de l' OMC.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "Dès lors, même les droits fondamentaux ne pouvant être garantis au niveau de l' Union européenne mais pouvant être enfreints par l' Union se doivent d' être inscrits dans cette Charte.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "a",
+   "head_sa": "a",
+   "ne": "n'",
+   "sent": "Mais le peuple n' a cure de ces palinodies et les rejettera un jour ou l' autre, ou bien c' est l' Occident qui disparaîtra.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "ont",
+   "head_sa": "ont",
+   "ne": "n'",
+   "sent": "Aucunes ressources additionnelles n' ont été intégrées au budget de notre assemblée galloise.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "a",
+   "head_sa": "a",
+   "ne": "n'",
+   "sent": "Après le Parlement européen, d' autres assemblées et le Congrès des États-Unis lui-même, avec lequel je me suis mis en rapport, car il n' y a nul anti-américanisme dans notre démarche, se sont saisis de l' affaire.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "a",
+   "head_sa": "a",
+   "ne": "n'",
+   "sent": "Ce partenariat n' a pu répondre aux attentes suscitées par les pays participant à la conférence.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Je regrette donc de ne pouvoir accepter les amendements 3 et 4.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "Les paiements effectués par la Commission européenne ont été, dans une grande majorité des cas, trop élevés car les bénéficiaires ont déclaré des frais ne pouvant faire l' objet de subsides.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous ne disposons d'aucune demande.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "font",
+   "head_sa": "font",
+   "ne": "ne",
+   "sent": "Ces craintes ont été renforcées par la découverte de graines de coton contaminées par des OGM, graines provenant des États-Unis et importées en Grèce pour la culture du coton. Ces graines ne font l'objet d'aucune autorisation commerciale dans l'Union européenne mais ont tout de même réussi à s'introduire à l'intérieur de nos frontières et ont été u",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "parviendrons",
+   "head_sa": "parviendrons",
+   "ne": "ne",
+   "sent": "Sinon, nous ne parviendrons faire de cette CIG une réussite pour l'avenir de l'Union.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "repose",
+   "head_sa": "repose",
+   "ne": "ne",
+   "sent": "Une maison bâtie sur le sable ne repose en effet sur aucunes fondations.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "ont",
+   "head_sa": "ont",
+   "ne": "n'",
+   "sent": "L' UE, après l' Acte Unique et les traités de Maastricht et d' Amsterdam, se dirige à présent, sous la pression de l' élargissement et du Nouvel ordre, vers l'examen des questions qui n' ont pu être résolues au cours des précédentes conférences intergouvernementales.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "ont",
+   "head_sa": "ont",
+   "ne": "n'",
+   "sent": "Quatre-vingts années de conflit n' ont pu venir à bout de la culture du lin dans la région côtière de la mer du Nord.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sortira",
+   "head_sa": "sortira",
+   "ne": "ne",
+   "sent": "Nul ne sortira indemne de cette affaire, Sellafield encore moins.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "ont",
+   "head_sa": "ont",
+   "ne": "n'",
+   "sent": "Monsieur le Président, Monsieur le Commissaire, chers collègues, l' utilisation du spectre radioélectrique pour la transmission de signaux a provoqué une véritable révolution dans les télécommunications. Au cours des décennies qui ont suivi, de nouvelles applications utilisant le spectre radioélectrique n' ont cessé de se développer.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Je ne dispose d'aucune information à ce sujet.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "faisant",
+   "head_sa": "faisant",
+   "ne": "ne",
+   "sent": "Comme ma collègue Karamanou l'a déjà dit, il s'agit en outre d'un programme ne faisant montre d'aucune solidarité entre les États membres.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "a",
+   "head_sa": "a",
+   "ne": "n'",
+   "sent": "D' autres thèmes devant être traités en priorité, elle n' a pu être abordée.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "Monsieur le Président, ne pouvant être présent aujourd' hui, M. Zimeray m' a demandé de défendre ce rapport de la commission juridique et du marché intérieur.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "fait",
+   "head_sa": "fait",
+   "ne": "ne",
+   "sent": "La nocivité de ces produits est définitivement établie et ne fait l'objet d'aucun doute.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "matière",
+   "head_sa": "matiere",
+   "ne": "ne",
+   "sent": "Un certain degré de coordination existe déjà avec les pays concernés dans le cadre des accords internationaux ne matière de protection de la Méditerranée et de la Baltique.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Tout d' abord, il est nécessaire de mieux définir les notions de service public et d' intérêt général en matière de télécommunications sous peine de ne pouvoir avancer.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "Monsieur le Commissaire, M. Fruteau ne pouvant être à Strasbourg avant ce soir pour des raisons de force majeure, il m' a prié de vous remercier pour votre réponse et de vous présenter ses excuses.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "conteste",
+   "head_sa": "conteste",
+   "ne": "ne",
+   "sent": "L' asile constitue, dans toute civilisation, un exemple concret de charité vis-à-vis de ceux qui, pour de multiples raisons, se trouvent en situation de détresse, et nul ne conteste le bien-fondé de l' aide ainsi apportée à ceux qui sont des victimes.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "fait",
+   "head_sa": "fait",
+   "ne": "ne",
+   "sent": "Il faut impérativement établir des conditions relatives à l'état de droit : c'est là une question qui ne fait l'objet d'aucune controverse.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "est",
+   "head_sa": "est",
+   "ne": "n'",
+   "sent": "Monsieur le Président, il y a des morts qui pèsent lourd dans nos curs et dans nos consciences, des morts qui appellent une politique européenne d' accueil, de droits et de devoirs envers les immigrés, une politique qui sache dire : chez nous, nul n' est étranger, nul n' est clandestin.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "est",
+   "head_sa": "est",
+   "ne": "n'",
+   "sent": "Monsieur le Président, il y a des morts qui pèsent lourd dans nos curs et dans nos consciences, des morts qui appellent une politique européenne d' accueil, de droits et de devoirs envers les immigrés, une politique qui sache dire : chez nous, nul n' est étranger, nul n' est clandestin.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "compte",
+   "head_sa": "compte",
+   "ne": "ne",
+   "sent": "Je ne compte sur la Commission pour fournir des informations impartiales.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "fait",
+   "head_sa": "fait",
+   "ne": "Ne",
+   "sent": "Ne fait-il preuve d'aucun respect ?",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "conforment",
+   "head_sa": "conforment",
+   "ne": "ne",
+   "sent": "Nous devons également aborder la question posée par l'espace aérien militaire et les abus qui s'y rapportent dans certains pays et ce, non seulement en ce qui concerne l'espace occupé par les avions militaires mais également l'occupation abusive des couloirs aériens civils par des avions militaires qui ne se conforment par aux procédures aériennes ",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "trompe",
+   "head_sa": "trompe",
+   "ne": "ne",
+   "sent": "Madame la Présidente, je vous prie de bien vouloir déterminer, avec le président en exercice et la Commission, quelle action est susceptible d'être entamée immédiatement afin de prévenir ce problème à l'avenir, en renforçant le règlement - règlement 2679/98, si je ne me trompe.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "connaît",
+   "head_sa": "connait",
+   "ne": "ne",
+   "sent": "Nul ne connaît aujourd'hui les intentions de leurs prochains dirigeants.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "trompe",
+   "head_sa": "trompe",
+   "ne": "ne",
+   "sent": "Si je ne me trompe, nous sommes donc tous sur la même longueur d'ondes.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sont",
+   "head_sa": "sont",
+   "ne": "ne",
+   "sent": "La direction suivie est semblable à celle récemment adoptée pour les accords verticaux et répond principalement à deux objectifs : éviter à la Direction générale de la concurrence de devoir examiner des cas qui ne sont d'aucun intérêt pour la politique de concurrence et permettre aux entreprises d'établir si un accord implique des restrictions de l",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "jouit",
+   "head_sa": "jouit",
+   "ne": "ne",
+   "sent": "La partie nord, sous autorité française, ne jouit d'aucune reconnaissance officielle, en dépit de la volonté évidente des deux tiers des citoyens et des représentants élus d'avoir un département basque qui leur est propre.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "Ne",
+   "sent": "Ne pouvant, quant à moi, sacrifier la sécurité alimentaire sur l'autel du profit des lobbies agro-alimentaires, j'ai retiré mon nom du rapport.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "souffre",
+   "head_sa": "souffre",
+   "ne": "ne",
+   "sent": "À mes yeux, \"de l'étable à l'étal\" constitue l'expression de l'année dans le domaine de la politique des consommateurs de l'UE et ne souffre presque d'aucune concurrence.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous ne disposons d'aucun rapport concernant l'éventuelle exécution de la peine de mort prononcée à l'encontre de Mme Ayubi.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "ai",
+   "head_sa": "ai",
+   "ne": "n'",
+   "sent": "Étant un laïc convaincu, je n' ai pu m'y associer.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "agit",
+   "head_sa": "agit",
+   "ne": "ne",
+   "sent": "Il ne s' agit de remettre en question le modèle de protection budgétaire ou le rôle de la BEI.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "a",
+   "head_sa": "a",
+   "ne": "n'",
+   "sent": "Il n' a cessé de souligner l' importance de ce rapport et a beaucoup uvré en sa faveur.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sont",
+   "head_sa": "sont",
+   "ne": "ne",
+   "sent": "On nous impose des programmes élaborés de traitements des eaux qui ne sont d'aucun intérêt public.\"",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "bis",
+   "head_sa": "bis",
+   "ne": "ne",
+   "sent": "La consécration du principe ne bis in idem embarrasserait le gouvernement britannique, qui a décidé de l'abolir.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "a",
+   "head_sa": "a",
+   "ne": "n'",
+   "sent": "Ces mesures volontaristes sont tout à fait indispensables pour lutter contre ce phénomène, qui n' a cessé de se développer et de s' internationaliser.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "bénéficierait",
+   "head_sa": "beneficierait",
+   "ne": "ne",
+   "sent": "L'idée d'inscrire ces différentes traditions juridiques dans les bureaucraties de l'UE pourrait conduire à un système élitiste et opaque, qui ne bénéficierait d'aucun soutien populaire.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "trouve",
+   "head_sa": "trouve",
+   "ne": "ne",
+   "sent": "Cependant, on ne trouve nulle trace d'un accueil réellement favorable à la décision d'Helsinki d'accorder à la Turquie le statut de candidat.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "vois",
+   "head_sa": "vois",
+   "ne": "ne",
+   "sent": "Dans cette résolution, je ne vois nulle trace de la demande adressée aux représentants des minorités de renoncer à la violence.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "va",
+   "head_sa": "va",
+   "ne": "ne",
+   "sent": "À partir de maintenant, ce programme ne va cesser de se développer chaque jour : un contrat pour des importations d'électricité à hauteur de 30 millions d'euros a été signé aujourd'hui avec la compagnie d'électricité serbe et devrait entrer en application dans les jours à venir.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "aurions",
+   "head_sa": "aurions",
+   "ne": "n'",
+   "sent": "Nous n' aurions pu choisir meilleur moment pour ce débat.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "fait",
+   "head_sa": "fait",
+   "ne": "ne",
+   "sent": "Monsieur le Président, le résultat de Nice est décevant, insuffisant et ne fait montre d'aucune grandeur.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "Monsieur le Président, Monsieur Sjöstedt ne pouvant être présent dans l'hémicycle, je dirai quelques mots en son nom à propos du rapport sur la taxation du carburant d'aviation.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "mérite",
+   "head_sa": "merite",
+   "ne": "ne",
+   "sent": "Par conséquent, nous demandons instamment à la Commission d'assurer un strict suivi des conditions dans ce pays qui ne mérite évidemment d'être considéré comme respectant les droits de l'homme.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "empêche",
+   "head_sa": "empeche",
+   "ne": "n'",
+   "sent": "Il n' empêche, le Conseil d' État des Pays-Bas a paralysé, pour la énième fois, un terrain frontalier destiné aux entreprises.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "ont",
+   "head_sa": "ont",
+   "ne": "n'",
+   "sent": "À l' instar de ce qui se passe dans le secteur social et des soins de santé, on observe également plusieurs insécurités juridiques dans le domaine fiscal, lesquelles n' ont pu être corrigées par les accords bilatéraux conclus par les États membres dans le domaine fiscal.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "En conséquence, ne pouvant cautionner le paragraphe 6, j'ai décidé de m'abstenir sur l'ensemble du texte.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "trouvons",
+   "head_sa": "trouvons",
+   "ne": "ne",
+   "sent": "Si nous ne trouvons d'autre alternative, octroyons l'aide via les États membres.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Je regrette seulement de ne pouvoir participer au forum des 8 et 9 février mais je participe à une visite avec la troïka au cours de ces deux jours.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "souhaite",
+   "head_sa": "souhaite",
+   "ne": "ne",
+   "sent": "Puisqu'aucun collègue ne souhaite s'exprimer contre cette urgence, nous passons au vote.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "m'abuse",
+   "head_sa": "m'abuse",
+   "ne": "ne",
+   "sent": "Si je ne m'abuse, ce terme avait été introduit à la demande du groupe de travail du Conseil composés d'experts.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Monsieur le Président, le Royaume-Uni ne dispose d'aucune législation spécifique contrôlant la vente des compléments vendus comme aliments.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "La présidence a déclaré ne pouvoir être ici avant 4 heures de l'après-midi car - croyez-le ou non - elle discute du statut des députés avec le groupe de contact, ce qui est compréhensible au vu des circonstances et du temps dont ils disposent à Strasbourg.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Et l' on s' étonne d' avoir réussi dans le premier cas et de ne pouvoir faire de même dans le second.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "est",
+   "head_sa": "est",
+   "ne": "n'",
+   "sent": "Il n' est nul besoin de grandes lumières pour le déterminer.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "empêche",
+   "head_sa": "empeche",
+   "ne": "n'",
+   "sent": "Il n' empêche, il reste l' acteur principal d' un scénario écrit et mis en scène par d' autres, l' Angola et le Zimbabwe, mais aussi par les partisans d' une ligne dure issus du gouvernement de son père.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Pour ce qui est de votre propre circonscription de Wexford, Mme Doyle, je ne dispose d'aucune information concernant les rumeurs dont vous avez fait état.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "traduisent",
+   "head_sa": "traduisent",
+   "ne": "ne",
+   "sent": "Ces deux documents resteront lettre morte s'ils ne se traduisent par des faits.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "ont",
+   "head_sa": "ont",
+   "ne": "n'",
+   "sent": "En outre, les prix institutionnels pour le sucre n' ont cessé de baisser depuis 1985, moins 36 % en valeur réelle.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "est",
+   "head_sa": "est",
+   "ne": "n'",
+   "sent": "Nul part il n' y est fait mention de la participation du Parlement dans les débats du 7 mars.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Car sans nationalité, ce citoyen risque de ne pouvoir rester, comme l' a dit notre collègue M. Sjöstedt.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "a",
+   "head_sa": "a",
+   "ne": "n'",
+   "sent": "Premièrement : l' écroulement de l' Union soviétique en décembre 1989 à entraîné la fondation rapide d' États souverains indépendants - un processus qui a pu se dérouler rapidement, presque du jour au lendemain, mais qui n' a pu effacer la spécialisation et la coopération des économies établies depuis des décennies entre les différents états.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "semble",
+   "head_sa": "semble",
+   "ne": "ne",
+   "sent": "Un procès contre ces pays ne nous semble par être la voie à suivre pour résoudre ces problèmes.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "a",
+   "head_sa": "a",
+   "ne": "n'",
+   "sent": "La promesse d' aides financières supplémentaires pour ce pays complètement appauvri n' a pu empêcher ceux qui se nomment eux-mêmes les combattants de dieu de commettre leurs actes honteux.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "souffre",
+   "head_sa": "souffre",
+   "ne": "ne",
+   "sent": "Modifier le règlement 1408/71 est la bonne méthode puisque, dans ce cas-là, nous aurions quelque chose de simple et de cohérent pour donner enfin à nos assistants un statut qui ne souffre d'aucune discussion sur le plan légal.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "trompe",
+   "head_sa": "trompe",
+   "ne": "ne",
+   "sent": "Sous le couvert de cette communication, la Commission a entrepris des actions légales, si je ne me trompe, contre neuf des quinze États membres jusqu'à présent.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "À l'heure actuelle, la présidence ne dispose d'aucune solution toute prête sur ce à quoi doit ressembler un mécanisme de ce type.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "avons",
+   "head_sa": "avons",
+   "ne": "n'",
+   "sent": "Nous n' avons cessé de parler de tous ces problèmes avec les collègues macédoniens et le gouvernement.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "parle",
+   "head_sa": "parle",
+   "ne": "ne",
+   "sent": "Je ne parle par seulement de l' augmentation du nombre de femmes occupant des positions influentes, je parle également de l' égalité de traitement sans distinction des murs sexuelles, de race et de religion.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "est",
+   "head_sa": "est",
+   "ne": "n'",
+   "sent": "Comment la volonté des citoyens européens doit-elle s' exprimer si ce n' est à travers les partis ?",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "s",
+   "head_sa": "s",
+   "ne": "ne",
+   "sent": "Il doit être un instrument au service de la promotion de l'égalité des chances entre tout/(te)s les citoyen(ne)s et un signal politique fort de la part de l'Union européenne.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "est",
+   "head_sa": "est",
+   "ne": "n'",
+   "sent": "Et de quoi ce pays, si durement touché, par la violence a-t-il impérativement besoin, si ce n' est d' un débat politique public et loyal ?",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "bis",
+   "head_sa": "bis",
+   "ne": "ne",
+   "sent": "Il s'agit, précisément, de déterminer quelles sont ces garanties auxquelles on ne peut renoncer, comme le respect du principe ne bis in idem, le respect des droits d'une défense véritable et non uniquement formelle, ou encore le respect des droits des victimes.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "bis",
+   "head_sa": "bis",
+   "ne": "ne",
+   "sent": "La résolution appelle à une application absolue du principe ne bis in idem.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "font",
+   "head_sa": "font",
+   "ne": "ne",
+   "sent": "Dans tant de domaines cruciaux, les États membres ne font preuve d'aucune volonté pour mettre en uvre l'essentiel des accords qui ont été conclus dans le respect de l'équilibre total des pouvoirs de l'Union.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Supprimer cette possibilité du règlement financier reviendrait à nous priver d'une arme importante dans la lutte contre la fraude. Ce serait en outre irresponsable car l'on ne dispose encore, à l'heure actuelle, d'aucune expérience en matière de contrôle ex post décentralisés.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "s",
+   "head_sa": "s",
+   "ne": "ne",
+   "sent": "Cela constituerait un signal politique fort à l'attention de nos concitoyen(ne)s. Nous avons, en effet maintenant, trois ans pour construire enfin des institutions qui assurent \"démocratie\", transparence et citoyenneté au service d' un projet européen social fort.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "trompe",
+   "head_sa": "trompe",
+   "ne": "ne",
+   "sent": "Voici peu, nous débattions encore dans cette enceinte, si je ne me trompe, de la question de la viande aux hormones en provenance des États-Unis.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "ont",
+   "head_sa": "ont",
+   "ne": "n'",
+   "sent": "D' autre part, si nous sommes partisans d' une Commission moderne, réceptive et compétente sur le plan technique, alors nous devons chercher à recruter de nouveaux effectifs pour remplacer certains des fonctionnaires qui n' ont pu s' adapter aux technologies nouvelles.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposions",
+   "head_sa": "disposions",
+   "ne": "ne",
+   "sent": "Pendant les années au cours desquelles l'ONUSIDA s'est constitué, nous ne disposions en fait d'aucun moyen financier pour soutenir les efforts nationaux des pays sévèrement touchés.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "ont",
+   "head_sa": "ont",
+   "ne": "n'",
+   "sent": "En dépit de cet état de fait, les auteurs de la proposition n' ont eu de cesse de colporter dans leurs interventions des accusations outrancières et non fondées.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous ne disposons d'aucune autre information à ce propos.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "bénéficieront",
+   "head_sa": "beneficieront",
+   "ne": "ne",
+   "sent": "En d'autres termes, la responsabilité du maintien de la stabilité du taux de change incombe aux autorités nationales et celles-ci ne bénéficieront d'aucun traitement privilégié, hormis celui qui découle de leur présence dans le mécanisme de changes du système.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Je crains de ne pouvoir le garantir.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "connaît",
+   "head_sa": "connait",
+   "ne": "ne",
+   "sent": "Nos pensées vont également vers María Eraunzetamurgil et son petit-fils, victimes d'un odieux attentat dont nul à ce jour ne connaît l'origine.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Toutefois, nous ne disposons d'aucune information indépendante et objective accréditant la thèse d'une politique de la terre brûlée organisée et mise en uvre à grande échelle par le gouvernement.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "De nombreux ateliers de montage prévoient des formulaires par lesquels le client les décharge de toute responsabilité en cas de montage de pneus ne pouvant résister à une vitesse supérieure à 190 km/h.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "feraient",
+   "head_sa": "feraient",
+   "ne": "ne",
+   "sent": "Ainsi donc, ces substances seraient totalement interdites à partir de 2006 si les évaluations montraient des problèmes, ou ne feraient l'objet d'aucune réglementation dans le cas contraire.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "m'abuse",
+   "head_sa": "m'abuse",
+   "ne": "ne",
+   "sent": "Je m'enthousiasme à voir l'implication manifeste du Parlement en ce qui concerne l'approche du pays d'origine, qui, si je ne m'abuse, a été soutenue par toutes les personnes qui se sont exprimées ce soir sur le sujet.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "ont",
+   "head_sa": "ont",
+   "ne": "n'",
+   "sent": "Nous avons déjà l' expérience de nombreux États, comme le mien - la Grèce - où les accords locaux d' emploi n' ont pu fonctionner.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous ne disposons d'aucun pouvoir fiscal, d'aucun pouvoir en ce qui concerne 50 % des dépenses peu ou prou consacrées à l'agriculture.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "ont",
+   "head_sa": "ont",
+   "ne": "n'",
+   "sent": "Des années durant, eux-mêmes n' ont pu compter sur la solidarité européenne dans leur combat sanglant contre les organisations terroristes turques.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "m'abuse",
+   "head_sa": "m'abuse",
+   "ne": "ne",
+   "sent": "Si je ne m'abuse, un membre du Conseil est arrivé. Oui ?",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "fait",
+   "head_sa": "fait",
+   "ne": "ne",
+   "sent": "Leur mise en uvre ne fait toutefois l'objet d'aucune surveillance.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "résistera",
+   "head_sa": "resistera",
+   "ne": "ne",
+   "sent": "Cela ne résistera d'ailleurs à l'épreuve d'un examen constitutionnel.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "fait",
+   "head_sa": "fait",
+   "ne": "ne",
+   "sent": "En second lieu, on découvre parmi les objectifs de cette \"formation-assistance\", le thème de \"la protection de l'euro à l'extérieur de l'Union\", laquelle pourtant ne fait l'objet d'aucune compétence communautaire.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Je ne dispose donc d'aucun élément permettant de distinguer la Pologne de la Hongrie, ou la Hongrie de la Pologne.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "aurions",
+   "head_sa": "aurions",
+   "ne": "n'",
+   "sent": "C' est tout à fait compréhensible, car sinon nous n' aurions nul besoin de deux commissions et pourrions tout régler au sein d' une seule.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "est",
+   "head_sa": "est",
+   "ne": "n'",
+   "sent": "Comment les investissements dans des infrastructures transfrontalières ont-ils été rendus bien visibles si ce n' est par le biais d'expertises ?",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Je crains bien de ne pouvoir souscrire à la remarque de M. Corbett concernant les votes lors de cette plénière.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "Je ne puis accepter l'amendement 1 qui vise à empêcher les travailleurs salariés d'être \"convertis\" en indépendants ; l'amendement 7 qui propose l'introduction d'une définition communautaire du terme \"travailleur salarié\" ; les amendements 8 et 16 qui proposent d'ajouter des catégories de travailleurs ne pouvant être exclus du champ d'application d",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "reflète",
+   "head_sa": "reflete",
+   "ne": "ne",
+   "sent": "Repousser ce débat à la fin d'une séance de Strasbourg ne reflète notre engagement d'aucune manière.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Mais cela dépend de la capacité de chaque juge de l'Union européenne à comprendre et à appliquer les dispositions de cette convention et l'UE ne dispose d'aucun programme cohérent pour s'en assurer.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Je regrette de ne pouvoir exprimer ma gratitude en acceptant tous les amendements qui ont été déposés.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "Il faut s'assurer une autorité garantissant l'évaluation du risque pour la sécurité des denrées alimentaires, basée sur des avis scientifiques solides ; les autorités compétentes dans chaque État membre ne pouvant démissionner de leurs responsabilités ou se substituer à la Commission au niveau de la gestion du risque de la politique alimentaire com",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous ne disposons à proprement parler d'aucun titre juridique, mais nous avons néanmoins une demande, et cette demande est la suivante : égalité de droits pour les deux branches de l'autorité budgétaire sur toutes les questions relatives au budget commun.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "connaît",
+   "head_sa": "connait",
+   "ne": "ne",
+   "sent": "De pressions politiques en sanctions économiques et de compromis en concessions, c'est tout le dispositif de protection quantitative qui doit être démantelé dès 2006 au profit d'un système de protection uniquement tarifaire dont nul ne connaît à l'heure actuelle l'efficacité pour sauvegarder les intérêts des producteurs traditionnels de bananes ACP",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "seront",
+   "head_sa": "seront",
+   "ne": "ne",
+   "sent": "Malheureusement, les propositions dont nous débattons aujourd'hui ne seront d'aucun secours dans des cas comme celui-ci.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "parlons",
+   "head_sa": "parlons",
+   "ne": "ne",
+   "sent": "Nous ne parlons d'aucun type particulier de partenariat - en soi, ce serait une forme de discrimination - mais de la reconnaissance de partenariats stables.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "fait",
+   "head_sa": "fait",
+   "ne": "ne",
+   "sent": "Est-il raisonnable d'introduire, par exemple, le principe de substitution qui ne fait à l'heure actuelle l'objet d'aucune définition politique et juridique.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposaient",
+   "head_sa": "disposaient",
+   "ne": "ne",
+   "sent": "Il avait utilisé de la main d'uvre illégale non couverte par la sécurité sociale et la rémunérait d'un salaire non conforme à la législation ou aux conventions collectives. Ses chauffeurs ne disposaient en outre d'aucun permis de travail.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposent",
+   "head_sa": "disposent",
+   "ne": "ne",
+   "sent": "Nous le soutiendrons néanmoins car il constitue une avancée majeure dans certains pays comme le Royaume-Uni, qui ne disposent à l'heure actuelle d'aucune protection de ce type pour les travailleurs.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "serait",
+   "head_sa": "serait",
+   "ne": "ne",
+   "sent": "Pour cette raison, et si l' on admet la distribution sélective, je vous pose la question de savoir si, pour parvenir à l' égalité des prix entre les différents pays, il ne serait préférable, par exemple, de limiter l' interdiction faite au distributeur sélectif de vendre exclusivement au consommateur final ou bien aux autres membres du réseau.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "fait",
+   "head_sa": "fait",
+   "ne": "ne",
+   "sent": "Cette question ne fait l'objet d'aucun débat.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "respecterais",
+   "head_sa": "respecterais",
+   "ne": "ne",
+   "sent": "La commissaire chargée du budget est d'ailleurs présente aujourd'hui, prête à me réprimander au cas où je ne respecterais par cette promesse.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "m'abuse",
+   "head_sa": "m'abuse",
+   "ne": "ne",
+   "sent": "Après examen des propositions, la commission juridique et du marché intérieur a remanié considérablement le texte en question, des modifications qui, si je ne m'abuse, sont jugées acceptables par la Commission et le Conseil, et répondent aux préoccupations de la commission.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "signifie",
+   "head_sa": "signifie",
+   "ne": "ne",
+   "sent": "La libéralisation du marché du gaz et de l'électricité fait certainement partie intégrante du processus de Lisbonne, mais cela ne signifie une confusion générale sur ces marchés.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "s",
+   "head_sa": "s",
+   "ne": "ne",
+   "sent": "J'en veux pour preuve l'envoi massif de messages électroniques dont ont été victimes les députés européen(ne)s pour nous inciter à rejeter ce rapport considéré comme \"une menace pour la dignité féminine et pour le droit à la vie de tout être humain jusqu'à sa mort naturelle\".",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Je regrette de ne pouvoir terminer.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "semble",
+   "head_sa": "semble",
+   "ne": "ne",
+   "sent": "Mais l'administration ne semble pouvoir trouver d'autre solution.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "décrètent",
+   "head_sa": "decretent",
+   "ne": "ne",
+   "sent": "Les ségrégations et un véritable terrorisme d'État rythment et conditionnent des vies entières de femmes, s'ils ne décrètent leur mort par des sentiments sauvages comme la lapidation.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "rappelle",
+   "head_sa": "rappelle",
+   "ne": "ne",
+   "sent": "Qui ne se rappelle les journées sportives de sa jeunesse auxquelles tout le monde à l'école, sportif ou non, devait participer ?",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "trompe",
+   "head_sa": "trompe",
+   "ne": "ne",
+   "sent": "Un conseil de coopération a eu lieu à Luxembourg le 16 avril, si je ne me trompe.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "est",
+   "head_sa": "est",
+   "ne": "ne",
+   "sent": "Le programme \"pétrole contre nourriture\" ne leur est d'aucun secours. Peu de mesures leur sont d'une quelconque aide.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "confondons",
+   "head_sa": "confondons",
+   "ne": "Ne",
+   "sent": "Ne confondons par le premier et le troisième piliers.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "suis",
+   "head_sa": "suis",
+   "ne": "ne",
+   "sent": "Je vous propose donc de passer tout de suite au vote du projet de résolution législative sur lequel je ne suis saisi d'aucun amendement.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "portons",
+   "head_sa": "portons",
+   "ne": "ne",
+   "sent": "Nous ne portons préjudice au résultat d'aucune procédure de prise de décision nationale en ce qui concerne la ratification de ce traité.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "bénéficie",
+   "head_sa": "beneficie",
+   "ne": "ne",
+   "sent": "Celui-ci est soutenu par quelques États membres, est soutenu par les Américains, mais ne bénéficie d'aucuns fonds européens.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sachant",
+   "head_sa": "sachant",
+   "ne": "ne",
+   "sent": "De même, l'obligation pour tous les membres ne sachant où aller de participer à un groupe mixte sur le modèle espagnol est à mon avis une aberration.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "tolère",
+   "head_sa": "tolere",
+   "ne": "ne",
+   "sent": "Comme l'a exprimé ce matin le professeur américain dans le Herald Tribune, un journal dont notre collègue Oostlander est également lecteur, les États-Unis se comportent comme un gigantesque gorille qui ne tolère aucunes limites dans son comportement.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "jouissent",
+   "head_sa": "jouissent",
+   "ne": "ne",
+   "sent": "Il y a d'autre part, en Europe, des peuples entiers, des groupes et des minorités linguistiques ou religieuses qui, au sein d'un État déclarant garantir les valeurs de liberté, ne jouissent d'aucune protection en ce qui concerne ces droits fondamentaux.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "trompons",
+   "head_sa": "trompons",
+   "ne": "Ne",
+   "sent": "Ne nous trompons de remède.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "parle",
+   "head_sa": "parle",
+   "ne": "ne",
+   "sent": "La révision à mi-parcours ne parle par de la réforme des quotas laitiers mais indique des options.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Vous l'avez déjà entendu, la Commission a sélectionné un chercheur chargé d'examiner et d'enregistrer les statistiques dans toute l'Europe car, en l'état, les seules données dont nous disposons proviennent des représentations nationales ; nous ne disposons d'aucune représentation sectorielle analytique et d'aucune ventilation par État membre.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "En effet, nous ne disposons d'aucune politique étrangère et de sécurité commune et nous en avons besoin dans le premier pilier avec la participation du Parlement.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Mais son pays ne dispose d'aucuns fonds pour renflouer le bateau et le président Wade parle dès lors déjà d'enterrement en mer.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "serait",
+   "head_sa": "serait",
+   "ne": "ne",
+   "sent": "Qui ne lui serait reconnaissant ?",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "résume",
+   "head_sa": "resume",
+   "ne": "ne",
+   "sent": "L'élargissement, Monsieur le Président, ne se résume à l'addition d'un certain nombre d'exigences techniques.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Monsieur le Président, M. Khanbhai s'excuse sincèrement de ne pouvoir être parmi nous pour présenter son rapport.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sont",
+   "head_sa": "sont",
+   "ne": "ne",
+   "sent": "Les autorités iraniennes ne sont malheureusement d'aucun secours.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "En annonçant le limogeage du Premier ministre et en s'octroyant temporairement les pouvoirs exécutifs, événement sans précédent depuis la fin de la monarchie absolue en 1990, le roi Gyanendra a ouvert une crise politique majeure ; en effet, car même s'il a par la suite procédé à la nomination d'un Premier ministre, celui-ci ne dispose d'aucune repr",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Nous estimons cela inacceptable et nous demandons votre soutien, sous peine, pour ma part du moins, de ne pouvoir approuver cette résolution.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Certains regrettent de ne pouvoir participer à la discussion du rapport Medina Ortega concernant la publicité et le parrainage en faveur des produits du tabac.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Les familles sénégalaises et toutes les familles de France, des Pays-Bas et d'autres États membres ne peuvent vivre avec la terrible pensée de ne pouvoir dire dignement adieu à ceux qui leur sont chers.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "conteste",
+   "head_sa": "conteste",
+   "ne": "ne",
+   "sent": "Nul ne le conteste.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "fait",
+   "head_sa": "fait",
+   "ne": "ne",
+   "sent": "Cela étant, l'intégration de Chypre dans l'Union européenne ne fait nul doute, peu importe les progrès réalisés au niveau de la résolution du problème politique.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "La commission de l'emploi et des affaires sociales a été pratiquement neutralisée - nous ne disposons d'aucun instrument approprié.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Je m'excuse dès à présent de ne pouvoir écouter la réponse, mais je la lirai attentivement.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "bénéficient",
+   "head_sa": "beneficient",
+   "ne": "ne",
+   "sent": "Nous tentons de parvenir à l'équilibre entre flexibilité et sécurité pour des travailleurs qui, dans nombre de pays, ne bénéficient toujours d'aucune sécurité.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Il regrette vivement de ne pouvoir être ici aujourd'hui.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "parle",
+   "head_sa": "parle",
+   "ne": "ne",
+   "sent": "C'est un argument assez primaire, comme s'il était impossible de justifier ces propos si l'on ne parle du développement durable !",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sont",
+   "head_sa": "sont",
+   "ne": "ne",
+   "sent": "Les directives ne sont donc d'aucune aide.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "jouiraient",
+   "head_sa": "jouiraient",
+   "ne": "ne",
+   "sent": "Mon parti, le parti socialiste des Pays-Bas, est partisan d'un règlement en vertu duquel les membres du Parlement européen recevraient tous un montant identique de 2000 euros par mois, par exemple, afin de couvrir uniquement les coûts réels et nécessaires, acquitteraient un impôt normal dans leur pays de résidence et ne jouiraient d'aucun privilège",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "prétend",
+   "head_sa": "pretend",
+   "ne": "ne",
+   "sent": "Nul ne prétend remettre en question le droit des États membres à décider en totale autonomie des affaires de politique extérieure. Mais si le Parlement est censé fournir des fonds, il doit être informé au préalable.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "s'y",
+   "head_sa": "s'y",
+   "ne": "ne",
+   "sent": "Certes, la route est encore longue et difficile, nul ne s'y méprend.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sera",
+   "head_sa": "sera",
+   "ne": "ne",
+   "sent": "Toutes les questions auxquelles il ne sera répondu feront l'objet, comme prévu par le Règlement, d'une réponse écrite.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "reproduisent",
+   "head_sa": "reproduisent",
+   "ne": "ne",
+   "sent": "Concrètement, le Conseil dispose-t-il d'un mécanisme quelconque pour informer le gouvernement turc de ces cas afin d'éviter de tels incidents ne se reproduisent et leur montrer, de façon pratique, en quoi consiste le fonctionnement démocratique des institutions européennes ?",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "De même, le Conseil ne dispose d'aucune agence compétente en vue de contribuer à l'amélioration de la coordination des questions liées à l'égalité.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "réglementons",
+   "head_sa": "reglementons",
+   "ne": "ne",
+   "sent": "Ma proposition est la suivante : tout comme nous réglementons les horaires journaliers, pourquoi ne réglementons-nous par les années de retraite de la même manière : dix années de travail, et puis cinq années de retraite ; puis de nouveau dix ans de travail et cinq de retraite ; et puis, encore une fois dix ans de travail et cinq de retraite ?",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "reçoivent",
+   "head_sa": "recoivent",
+   "ne": "ne",
+   "sent": "Le gouvernement et les entités publiques israéliennes ne reçoivent donc aucuns fonds en provenance du budget d'aide extérieure de l'Union.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "comprends",
+   "head_sa": "comprends",
+   "ne": "ne",
+   "sent": "J'ai cependant une chose sur le c?ur : je ne comprends par les critiques exprimées par les organisations de protection des animaux.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "bénéficient",
+   "head_sa": "beneficient",
+   "ne": "ne",
+   "sent": "Ces réfugiés sont vivants, d'autres ont été torturés, tués ou emprisonnés et ne bénéficient d'aucune liberté d'expression.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "stimulent",
+   "head_sa": "stimulent",
+   "ne": "ne",
+   "sent": "Les propositions de la Commission et du Conseil, par contre, ne stimulent d'aucune sorte l'utilisation de poids lourds non polluants.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "bénéficie",
+   "head_sa": "beneficie",
+   "ne": "ne",
+   "sent": "La Commission s'appuie sur un mandat général d'avant Seattle, désormais caduc ; elle ne bénéficie donc d'aucune légitimité pour imposer ses choix.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "manque",
+   "head_sa": "manque",
+   "ne": "ne",
+   "sent": "La présente directive a connu une genèse un tant soit peu brouillonne mais le résultat final ne manque d'allure.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "remplit",
+   "head_sa": "remplit",
+   "ne": "ne",
+   "sent": "Dans deux domaines, par contre, la Suède ne remplit toujours par les critères de convergence.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "limitent",
+   "head_sa": "limitent",
+   "ne": "ne",
+   "sent": "Les problèmes internes de la Macédoine ne se limitent aux menaces de sécurité militaire ; il existe de nombreux défis de maintien de l'ordre ; de même, la corruption et la criminalité, souvent violente, gangrènent l'État.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "déplaise",
+   "head_sa": "deplaise",
+   "ne": "ne",
+   "sent": "Cela constitue, ne vous en déplaise, une atteinte à la tradition et à la culture de l'Europe.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "m'aventurerais",
+   "head_sa": "m'aventurerais",
+   "ne": "ne",
+   "sent": "Monsieur le Président, à cette heure avancée, je ne m'aventurerais à faire une déclaration.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "tiens",
+   "head_sa": "tiens",
+   "ne": "ne",
+   "sent": "Aujourd'hui encore, je m'en tiens à ce principe et je ne tiens d'aucune façon à devancer le vote des Maltais.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "Je devrai renvoyer cette question à la Conférence des présidents, le Parlement ne pouvant ignorer ses obligations constitutionnelles.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "témoigne",
+   "head_sa": "temoigne",
+   "ne": "ne",
+   "sent": "C'est une réponse qui ne témoigne d'aucun engagement.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Lors d'un débat consacré à la crise du café dans cette Assemblée, l'Ougandais Louis Belinda a répondu à cette question : \"Nous ne disposons d'aucune alternative à la culture du café\", a-t-il déclaré.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "jouiront",
+   "head_sa": "jouiront",
+   "ne": "ne",
+   "sent": "Ce secteur attend un signal fort de la Commission, de l'ASE et du consortium Galileo. Sans quoi, les applications ne jouiront d'aucun crédit auprès des utilisateurs futurs, et Galileo coûte trop cher pour rester inexploité.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "s'est",
+   "head_sa": "s'est",
+   "ne": "ne",
+   "sent": "Aujourd'hui, nous voudrions toutefois recevoir des réponses sur les contradictions possibles - ou plutôt, probables - entre cet accord et le statut de la Cour pénale internationale, sur lequel, Monsieur le Président, on ne s'est attardé.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposent",
+   "head_sa": "disposent",
+   "ne": "ne",
+   "sent": "À titre d'exemples, je peux citer le dialogue énergétique, l'initiative de création d'un espace économique européen commun ou le plan d'action de coopération dans le domaine de la justice et des affaires intérieures, qui ne disposent cependant d'aucune base juridique contractuelle.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "En ma qualité de représentant du Conseil, je suis au regret de ne pouvoir donner davantage de détails. Ceux-ci sont nombreux et auraient éclairé l'honorable député.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Or, si elle a donné sa définition de la politique de stabilité, elle ne dispose d'aucun repère pour juger quand il faut combattre la récession.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "remet",
+   "head_sa": "remet",
+   "ne": "ne",
+   "sent": "(EL) Nul ne remet en question le rôle de l'éducation dans la réduction de la pauvreté.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "seraient",
+   "head_sa": "seraient",
+   "ne": "ne",
+   "sent": "Seuls les agriculteurs qui perçoivent moins de 5 000 euros par an ne seraient exemptés de cette réduction des aides.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "fais",
+   "head_sa": "fais",
+   "ne": "ne",
+   "sent": "Je veux parler de la Galice, mais je ne fais par référence uniquement à mon pays, je parle de pays qui ont besoin d'un relèvement de leur quota laitier, de pays aptes à satisfaire leur marché intérieur sans remettre en question les équilibres européens.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "jouissent",
+   "head_sa": "jouissent",
+   "ne": "ne",
+   "sent": "Les religions chrétiennes ne jouissent d'aucun droit en Turquie.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "serai",
+   "head_sa": "serai",
+   "ne": "ne",
+   "sent": "Je ne serai par le messager. Il prendra connaissance du procès-verbal et donc de vos paroles dans tous les détails, comme il sait parfaitement lire.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposent",
+   "head_sa": "disposent",
+   "ne": "ne",
+   "sent": "Certaines questions, notamment dans le domaine des retraites, de l'emploi, de l'asile, de l'immigration - dont on a déjà fait mention -, exigent d'être traitées au niveau européen mais ne disposent généralement d'aucune base juridique.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "seront",
+   "head_sa": "seront",
+   "ne": "ne",
+   "sent": "Davantage de contrôles officiels ne seront malheureusement d'aucune aide pour purger ce secteur de ses dysfonctionnements.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "font",
+   "head_sa": "font",
+   "ne": "ne",
+   "sent": "Or, dans la mesure où il y a peu de rapports, soi-disant des rapports moins importants, ce Parlement se vide et les rapports, traitant en particulier de droits de l'homme ou autres, ne font l'objet d'aucun débat digne de ce nom pour établir les positions.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "fait",
+   "head_sa": "fait",
+   "ne": "ne",
+   "sent": "L'accès à l'énergie ne fait partie d'aucune convention relative aux droits de l'homme.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": ". (DA) Je voterais normalement contre la levée de l'immunité des députés européens à la suite de déclarations politiques, mais je ne dispose d'aucun mandat permettant au Parlement européen de bloquer une décision légale du Danemark.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "seraient",
+   "head_sa": "seraient",
+   "ne": "ne",
+   "sent": "Même si la traçabilité était encore possible après dix ans, ces informations ne seraient d'aucune utilité pratique.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "soient",
+   "head_sa": "soient",
+   "ne": "ne",
+   "sent": "Très peu de décisions sont prises dans ces activités qui ne soient définies par le marché dans notre partie riche du monde.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "semblent",
+   "head_sa": "semblent",
+   "ne": "ne",
+   "sent": "Il y est également question des références à l'OMS etc. qui ne semblent convenir aux pays ACP.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous ne disposons d'aucunes données concernant la proportion résiduelle d'allergène nécessaire pour provoquer une réaction allergique.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "concerne",
+   "head_sa": "concerne",
+   "ne": "ne",
+   "sent": "Il s'agit d'une directive relative aux déchets qui ne concerne par vraiment les emballages mais plutôt les déchets d'emballages.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "s'en",
+   "head_sa": "s'en",
+   "ne": "ne",
+   "sent": "Nul ne s'en étonnera.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "s'étonnera",
+   "head_sa": "s'etonnera",
+   "ne": "ne",
+   "sent": "Dans ces conditions, nul ne s'étonnera des passages relatifs à l'indépendance de la BCE, et encore moins de l'attaque contre les États membres qui ont rompu le pacte de croissance et de stabilité, ce qui risque de saper la crédibilité de la zone euro!",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "jouissent",
+   "head_sa": "jouissent",
+   "ne": "ne",
+   "sent": "Par exemple, les personnes incarcérées ne jouissent d'aucuns droits.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "bénéficient",
+   "head_sa": "beneficient",
+   "ne": "ne",
+   "sent": "Pour rappel, ce Fonds est destiné à faire face à des catastrophes qui ne bénéficient d'aucune sorte d'aide.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "fait",
+   "head_sa": "fait",
+   "ne": "ne",
+   "sent": "Dans le troisième volet des politiques communes, à la section traitant de l'agriculture et de la pêche, le poisson est considéré comme produit agricole et la PCP ne fait l'objet d'aucune référence.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Pour l'heure, la Commission ne dispose d'aucune information ou étude détaillée indiquant les effets de cet accroissement sur la production au sein de l'Union européenne et sur les prix agricoles.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "La Commission ne dispose donc d'aucune information en la matière.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "fait",
+   "head_sa": "fait",
+   "ne": "ne",
+   "sent": "Si ce rapport ne fait aujourd'hui l'objet d'aucune discussion enflammée, il a fait l'objet d'âpres débats entre députés ces derniers jours et ces dernières semaines, y compris en dehors de cette Assemblée.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sont",
+   "head_sa": "sont",
+   "ne": "ne",
+   "sent": "Des résolutions comme celle-ci ne nous sont d'aucun secours pour restaurer la crédibilité et la confiance à Cuba même ou dans les autres pays en voie de développement, pour lesquels Cuba demeure une référence majeure.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "souhaiterait",
+   "head_sa": "souhaiterait",
+   "ne": "ne",
+   "sent": "Monsieur le Président, après les naufrages du Prestige, de l'Erika et de bien d'autres pétroliers ou chimiquiers qui ont causé des dégâts colossaux, qui ne souhaiterait renforcer la sécurité maritime?",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Conformément à la Convention des Nations unies sur le droit de la mer, un État côtier ne dispose d'aucune autorité sur les navires battant pavillon d'un autre État qui transitent au large de ses côtes et qui naviguent en dehors de ses eaux territoriales.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposerait",
+   "head_sa": "disposerait",
+   "ne": "ne",
+   "sent": "En deuxième lieu, il en résulterait une transmission des données qui - malgré son caractère légal aux États-Unis - ne disposerait toujours d'aucune protection significative du côté américain.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "s'en",
+   "head_sa": "s'en",
+   "ne": "ne",
+   "sent": "Nul ne s'en étonnera: je voterai résolument contre ce rapport.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "peur",
+   "head_sa": "peur",
+   "ne": "ne",
+   "sent": "Monsieur le Président, Mesdames et Messieurs, il y a quelque chose de pourri dans l'État d'Israël, et comme l'écrivait mon ami Avraham Burg, ancien président de la Knesset, dans The International Herald Tribune: \"un État sans justice ne peur survivre\".",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "coûtait",
+   "head_sa": "coutait",
+   "ne": "ne",
+   "sent": "- Monsieur le Président, la façon dont le débat d’aujourd’hui a été organisé serait risible si cela ne coûtait aussi cher.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposent",
+   "head_sa": "disposent",
+   "ne": "ne",
+   "sent": "- les passagers ne disposent d’aucun moyen de contrôle ou de recours extrajudiciaire efficaces;",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposant",
+   "head_sa": "disposant",
+   "ne": "ne",
+   "sent": "Après cela, il sera juridiquement possible, contre l’esprit même de la Convention de Bâle, d’expédier par bateau des déchets vers des pays ne disposant d’aucune politique sociale ou environnementale solide.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "justifie",
+   "head_sa": "justifie",
+   "ne": "ne",
+   "sent": "En soi, cela ne justifie l’arrêt de la procédure.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sont",
+   "head_sa": "sont",
+   "ne": "ne",
+   "sent": "Ils ne sont pourvus d’aucun glossaire.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Le service d’audit interne de la Commission ne dispose absolument d’aucune ressource pour vérifier les transactions individuelles.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Le service d’audit interne ne dispose d’aucune ressource pour examiner les procédures de contrôle des agences.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "- Monsieur le Président, je vais devoir interrompre ce débat consensuel, car je crains de ne pouvoir soutenir le rapport de Mme Honeyball.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "connaît",
+   "head_sa": "connait",
+   "ne": "ne",
+   "sent": "Certains sont inévitables: l’année 2004 est pleine d’incertitudes avec les élections européennes, le renouvellement de la Commission et la Conférence intergouvernementale dont nul ne connaît à l’avance le résultat.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "traduit",
+   "head_sa": "traduit",
+   "ne": "ne",
+   "sent": "Je tiens également à poser de nouveau la question de savoir pourquoi la Commission ne traduit devant la Cour de justice tout État membre qui enfreindrait clairement les règles.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "m'abuse",
+   "head_sa": "m'abuse",
+   "ne": "ne",
+   "sent": "Si je ne m’abuse, cela aussi, c’est une question de droits de l’homme.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "jouissent",
+   "head_sa": "jouissent",
+   "ne": "ne",
+   "sent": "- Monsieur le Président, comme en mai, je tiens à demander instamment à la Commission et au Conseil de se pencher et de prendre des mesures en faveur des populations autochtones protestantes des hauts plateaux du centre du Viêt Nam qui ne jouissent d’aucun droit.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "m'abuse",
+   "head_sa": "m'abuse",
+   "ne": "ne",
+   "sent": "Si je ne m’abuse, celui-ci a donné l’exemple de deux pays qui ont modifié leur position: l’Irlande et le Portugal.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "serait",
+   "head_sa": "serait",
+   "ne": "ne",
+   "sent": ".- Protéger les espèces animales sauvages dont certaines sont menacées de disparition, qui ne serait d’accord avec cette idée générale?",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "déplaise",
+   "head_sa": "deplaise",
+   "ne": "ne",
+   "sent": "Pour ce qui est de la politique interne de l’Union européenne, ne vous en déplaise, je suis le commissaire responsable des droits de l’homme!",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "m'abuse",
+   "head_sa": "m'abuse",
+   "ne": "ne",
+   "sent": "Avant de parvenir à l’indépendance, l’Irlande disposait, si je ne m’abuse, d’un statut transitoire à l’origine d’une querelle considérable opposant radicaux et modérés au sein de votre société.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "Deuxièmement, le président en exercice juge-t-il adéquat pour le Conseil de faire maintenant pression en faveur de l’extension de la liste d’individus frappés d’interdiction - une liste de personnes sanctionnées et ne pouvant obtenir de visas - afin d’inclure les membres de la famille, les personnes décédées ou ayant changé de fonction, etc.?",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "contraint",
+   "head_sa": "contraint",
+   "ne": "ne",
+   "sent": "Nul règle du traité ne contraint actuellement les pays membres de l’Union européenne d’adopter une position commune avant d’aborder les délibérations et les votes décisifs du Conseil de sécurité.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "seront",
+   "head_sa": "seront",
+   "ne": "ne",
+   "sent": "Si le directeur général est un gredin aux intentions malveillantes, les règles ne seront d’aucun secours.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposais",
+   "head_sa": "disposais",
+   "ne": "ne",
+   "sent": "Malheureusement, je ne disposais d’aucun moyen juridique pour me défendre.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "La Commission ne dispose d’aucune force de police, et j’apprécie les tentatives du commissaire d’essayer d’introduire un système qui puisse être mieux appliqué.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sera",
+   "head_sa": "sera",
+   "ne": "ne",
+   "sent": "Comme on l’a avancé tout à l’heure, l’initiative du grand Moyen-Orient est un projet qui ne sera d’aucun secours pour le développement de la démocratie.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Je suis vraiment désolé de ne pouvoir, pour une fois, assister à l’intégralité du débat, mais je vous en ai exposé la raison et je sollicite votre compréhension.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposent",
+   "head_sa": "disposent",
+   "ne": "ne",
+   "sent": "Oui, les centres ne disposent dans les faits d’aucune existence légale, mais, à ce jour, ils ont remporté tous les procès intentés contre l’État.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Le statut des femmes et des Kurdes fait aujourd’hui l’objet d’un débat ouvert, même si je ne dispose d’aucune information concluante indiquant où se termine le pouvoir militaire et où commence le pouvoir civil.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Une certaine tendance de l’opinion de gauche est très déçue à l’idée de ne pouvoir totalement monopoliser les médias.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "fait",
+   "head_sa": "fait",
+   "ne": "ne",
+   "sent": "Dans l’ancienne République yougoslave de Macédoine, les viols de filles albanaises ou roms sont quasi quotidiens et l’acte criminel de la traite des êtres humains ne fait l’objet d’aucune législation.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "portait",
+   "head_sa": "portait",
+   "ne": "ne",
+   "sent": "Je me réjouirais de l’élargissement de l’Union européenne s’il ne portait les stigmates d’une construction guidée non par l’intérêt des peuples, mais par la préoccupation d’assurer la circulation des capitaux et des marchandises.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "crée",
+   "head_sa": "cree",
+   "ne": "ne",
+   "sent": "Je tiens à mettre en garde contre toute attente irréaliste. dans ce qui est en cours de discussion ne crée une nouvelle situation par rapport à ce dont nous traitons ici.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Pourquoi ne disposons-nous aujourd’hui d’aucun plan clair proposé par vous?",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "constitue",
+   "head_sa": "constitue",
+   "ne": "ne",
+   "sent": "En conséquence, cette situation ne constitue une menace pour le peuple bélarussien, mais aussi pour les démocraties voisines.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous ne disposons d’aucune base légale en la matière.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "Win",
+   "head_sa": "win",
+   "ne": "Ne",
+   "sent": "La dictature militaire établie par le général Ne Win a été perpétuée par ses successeurs, étouffant dans l’œuf les efforts libertaires des démocrates birmans à coup de souffrances et de terreur.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Enfin, je souhaite m’excuser auprès des honorables parlementaires de ne pouvoir rester jusqu’au terme de ce débat.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Il est regrettable de ne pouvoir en dire autant de la présidence néerlandaise.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sommes",
+   "head_sa": "sommes",
+   "ne": "ne",
+   "sent": "Vous bénéficierez de notre coopération constructive, mais nous ne sommes pourvus d’aucune autorité.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Ses aveux présumés d’implication dans les attentats à la bombe lui ont été arrachés de force, et on ne dispose d’aucune information sur son état de santé à la suite de plusieurs rapports de torture.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sont",
+   "head_sa": "sont",
+   "ne": "ne",
+   "sent": "Les appels à la moralité ne sont d’aucun secours à l’heure d’arrêter la propagation du virus.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous ne disposons d’aucune marge de manœuvre pour interpréter la législation communautaire, cette responsabilité incombe à la Cour de justice.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "Il s’agit aussi d’un principe fondamental ne pouvant être transformé en une équation variant en fonction des fluctuations de la moyenne européenne, surtout après la baisse de cette moyenne à la suite de l’élargissement.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "faisons",
+   "head_sa": "faisons",
+   "ne": "ne",
+   "sent": "Nous ne faisons preuve d’aucune tolérance vis-à-vis de la culture des drogues.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous ne disposons d’aucun mécanisme efficace envers les États membres existants qui rejettent en toute tranquillité les principes de bonne gouvernance.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "redéployer",
+   "head_sa": "redeployer",
+   "ne": "ne",
+   "sent": "J’invite instamment la Commission à ne redéployer ou reprogrammer les fonds d’aucun projet d’aide destiné à cette région.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "souscrirait",
+   "head_sa": "souscrirait",
+   "ne": "ne",
+   "sent": "Qui ne souscrirait à ces objectifs?",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Je regrette de ne pouvoir y participer.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "refuse",
+   "head_sa": "refuse",
+   "ne": "ne",
+   "sent": "Nul ne refuse de venir en aide aux personnes touchées par le tsunami.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sont",
+   "head_sa": "sont",
+   "ne": "ne",
+   "sent": "Dans ce contexte, les déclarations agressives de Washington ne sont d’aucune aide.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "remet",
+   "head_sa": "remet",
+   "ne": "ne",
+   "sent": ". - Monsieur le Président, Madame la Commissaire, nul dans cette Assemblée ne remet en question la nécessité d’une réforme du secteur sucrier.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "serait",
+   "head_sa": "serait",
+   "ne": "ne",
+   "sent": "Cela ne serait d’aucun bénéfice pour le budget de l’UE.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "va",
+   "head_sa": "va",
+   "ne": "ne",
+   "sent": "Nul ne va passer ses vacances dans un pays méditerranéen ayant une monnaie aussi forte.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "L’Union ne dispose d’aucune prérogative dans ce domaine, lequel relève de l’autorité nationale. La majeure partie des membres de notre groupe, libres de choisir selon leur conscience, ont donc rejeté ces articles.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposant",
+   "head_sa": "disposant",
+   "ne": "ne",
+   "sent": "- Monsieur le Président, Madame la Commissaire, je tiens tout d’abord à féliciter M. Hegyi pour son rapport détaillé, qui découle d’une proposition de la Commission constituée de deux textes différents: une communication, faisant suite à la communication de 2001 sur le cinéma, sur la protection du patrimoine cinématographique et les aides d’État, e",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "trompe",
+   "head_sa": "trompe",
+   "ne": "ne",
+   "sent": "Si je ne me trompe, la Commission a déjà commencé à s’intéresser à la question de savoir comment intégrer cet aspect.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "est",
+   "head_sa": "est",
+   "ne": "ne",
+   "sent": "Son assurance lui permet éventuellement d’obtenir une indemnisation par la suite, mais elle ne lui est d’aucun secours au moment même.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "participe",
+   "head_sa": "participe",
+   "ne": "ne",
+   "sent": "Vous le savez, la Commission européenne ne participe d’aucune manière à cette procédure, mais M. Wolfowitz deviendra président de la Banque mondiale le 1er juin.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "bénéficions",
+   "head_sa": "beneficions",
+   "ne": "ne",
+   "sent": "Néanmoins, nous, les nations libérées de l’occupation soviétique il y a une décennie, nous ne bénéficions d’aucune compassion quant à notre histoire récente.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "s'est",
+   "head_sa": "s'est",
+   "ne": "ne",
+   "sent": "Cela ne s’est avéré d’aucune aide, mais nous pouvons nous en laver les mains».",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "m'abuse",
+   "head_sa": "m'abuse",
+   "ne": "ne",
+   "sent": "Il s’agit d’une disposition revendiquée par Mme Thatcher - en 1984, si je ne m’abuse - qui a été malheureusement et inexplicablement reconduite sous la présidence de M. Prodi; un rabais payé essentiellement par la France et l’Italie.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "cesser",
+   "head_sa": "cesser",
+   "ne": "ne",
+   "sent": "J’encouragerais la Banque centrale européenne à défendre sa volonté d’indépendance et à ne cesser de considérer le maintien de la stabilité de l’euro comme sa fonction première.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "désavoue",
+   "head_sa": "desavoue",
+   "ne": "ne",
+   "sent": "C’est avant tout, et ce depuis le début, une structure politique, une terre de droits, une réalité constitutionnelle qui ne désavoue par nos chères constitutions nationales, mais qui les relie et les complète.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sont",
+   "head_sa": "sont",
+   "ne": "ne",
+   "sent": "Même les meilleures des réglementations ne sont d’aucune utilité sans les fonds nécessaires.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "remet",
+   "head_sa": "remet",
+   "ne": "ne",
+   "sent": "Nul ne remet en cause les efforts de l’Union européenne.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "fait",
+   "head_sa": "fait",
+   "ne": "ne",
+   "sent": "C’est la pire réponse qui soit et, si nous suivions ce conseil, nous pourrions être amenés à fournir des armes à un pays qui ne fait nul mystère de ses intentions agressives à l’égard de ses voisins.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposent",
+   "head_sa": "disposent",
+   "ne": "ne",
+   "sent": "Il deviendrait également possible de fournir des données et des informations très utiles aux États membres qui, actuellement, ne disposent d’aucun service de signalement de ce type, ce qui s’inscrit parfaitement dans la stratégie de protection des mineurs.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "font",
+   "head_sa": "font",
+   "ne": "ne",
+   "sent": "L’Europe doit jouer son rôle, puisque tous les États membres de l’Union ne font par partie de l’Agence internationale de l’énergie.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposent",
+   "head_sa": "disposent",
+   "ne": "ne",
+   "sent": "Les politiques des Nations unies ne disposent d’aucun véritable instrument en la matière.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "m'abuse",
+   "head_sa": "m'abuse",
+   "ne": "ne",
+   "sent": "En créant son registre public des documents, qui est - si je ne m’abuse - devenu opérationnel en janvier 1999, le Conseil a rempli cette condition bien avant l’entrée en vigueur du règlement concerné.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "s'attend",
+   "head_sa": "s'attend",
+   "ne": "ne",
+   "sent": "Nul ne s’attend à un changement du jour au lendemain.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "fait",
+   "head_sa": "fait",
+   "ne": "ne",
+   "sent": "Le rapporteur a rédigé un exposé des motifs extraordinairement inutile, laborieux et qui ne fait grâce d’aucun détail.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "seront",
+   "head_sa": "seront",
+   "ne": "ne",
+   "sent": "À défaut d’accompagner toutes nos paroles et priorités par une volonté politique et le budget nécessaire, elles ne seront d’aucune utilité.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposais",
+   "head_sa": "disposais",
+   "ne": "ne",
+   "sent": "Je suis une députée issue d’un nouvel État membre et, lorsque nous avons débattu du rapport annuel du Médiateur l’année dernière, je ne disposais d’aucune expérience personnelle vis-à-vis de la commission des pétitions ou de l’institution de Médiateur.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "- Monsieur le Président, nous avons un problème: notre rangée ne dispose d’aucune interprétation et d’aucun service micro, et c’est le cas pour toute la rangée.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "formule",
+   "head_sa": "formule",
+   "ne": "ne",
+   "sent": "Nul n’accuse pourtant ces pays d’abriter de tels camps ou ne formule de soupçons en ce sens.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "La Cour a examiné un échantillon de 167 projets et a découvert un large éventail de problèmes, notamment de nombreux cas de dépenses dans des projets ne pouvant bénéficier des subventions.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "confierais",
+   "head_sa": "confierais",
+   "ne": "ne",
+   "sent": "Personnellement, je ne confierais l’argent de poche de mes petits-enfants à la Commission européenne, passée ou présente.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Comment pouvons-nous protéger les travailleurs si nous ne disposons d’aucune information et d’aucune disposition claire concernant l’environnement de travail?",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "conduisait",
+   "head_sa": "conduisait",
+   "ne": "ne",
+   "sent": "Tout cela serait sympathique, si ce pataquès post-Moyenâgeux ne conduisait à un changement de climat économique et social qui fait la régression, celle-là bien réelle, dont nous souffrons.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "s'arrête",
+   "head_sa": "s'arrete",
+   "ne": "ne",
+   "sent": "En cinquième lieu, de nouvelles initiatives en vue d’examiner comment notre action extérieure peut être renforcée, afin de mieux répondre à la mondialisation et aux nouvelles menaces sur la sécurité qui ne s’arrête aux frontières nationales.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "m'abuse",
+   "head_sa": "m'abuse",
+   "ne": "ne",
+   "sent": "Toutefois, si je ne m’abuse, les discussions sont sur la bonne voie.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sont",
+   "head_sa": "sont",
+   "ne": "ne",
+   "sent": "Vingt-cinq plans d’action nationaux ne nous sont d’aucun intérêt.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "saluons",
+   "head_sa": "saluons",
+   "ne": "ne",
+   "sent": "Nous ne saluons pour cela.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "m'abuse",
+   "head_sa": "m'abuse",
+   "ne": "ne",
+   "sent": "Si je ne m’abuse, seuls neuf États membres les appliquent.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "- Monsieur le Commissaire, Monsieur le Président, Mesdames et Messieurs, je voudrais tout d’abord faire part à l’Assemblée des excuses de Mme Kauppi, auteur de ce rapport, qui regrette de ne pouvoir assister, à la suite de problèmes de transport, au débat traitant de son rapport.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "l'ignore",
+   "head_sa": "l'ignore",
+   "ne": "ne",
+   "sent": "Cette liste qui s’allonge - nul d’entre nous ne l’ignore - coûte de l’argent, beaucoup d’argent.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "Ces régions ne pouvant bénéficier des aides régionales continueront à percevoir d’autres types de soutien par l’intermédiaire des mesures d’assistance horizontales couvertes par le programme d’action relatif aux aides d’État: aide aux petites et moyennes entreprises, recherche et développement, innovation, formation, emploi et capital-risque.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "bénéficient",
+   "head_sa": "beneficient",
+   "ne": "ne",
+   "sent": "En raison de leur absence de visibilité, nombre de femmes travaillant dans le secteur ne bénéficient d’aucun droit social et économique.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "En effet, les actions prévues ont tendance à se développer avec l’élargissement et il est impératif de recueillir des données sur les nouvelles mers. Ainsi, à ce jour, on ne dispose pratiquement d’aucune donnée sur la mer Noire.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous ne disposons d’aucune étude fiable au niveau de l’UE.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "souffrant",
+   "head_sa": "souffrant",
+   "ne": "ne",
+   "sent": "Si ce support venait à disparaître, le processus de convergence de ces régions se trouverait hypothéqué en raison du manque d’avantage concurrentiel par rapport aux régions ne souffrant d’aucun handicap de développement, mais aussi aux régions des nouveaux États membres percevant les montants d’aide maximaux.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposent",
+   "head_sa": "disposent",
+   "ne": "ne",
+   "sent": "Ces femmes - et il est principalement question de femmes et de filles - ne disposent actuellement d’aucune protection garantie.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dénoncent",
+   "head_sa": "denoncent",
+   "ne": "ne",
+   "sent": "On peut alors se demander pourquoi elles ne dénoncent par leurs proxénètes.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposent",
+   "head_sa": "disposent",
+   "ne": "ne",
+   "sent": "Ces derniers ne disposent d’aucun moyen technique de communication, et nous tentons donc, en collaboration avec le PNUD, de concevoir des projets qui pourraient être utiles à cet égard.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous ne disposons d’aucune information à ce sujet, mais peut-être en avez-vous.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Je ne dispose d’aucune information à ce stade et ne peux donc en débattre.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous ne disposons par conséquent d’aucune liste de vote et nous allons nous prononcer à l’aveuglette.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "série",
+   "head_sa": "serie",
+   "ne": "ne",
+   "sent": "Nous examinerons ne série de questions à la Commission.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Elle ne dispose d’aucun mandat pour étendre les négociations à d’autres parties.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "suis",
+   "head_sa": "suis",
+   "ne": "ne",
+   "sent": ". - Je ne suis au courant d’aucune divergence.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "jouissent",
+   "head_sa": "jouissent",
+   "ne": "ne",
+   "sent": "Les terroristes présumés ne jouissent d’aucun statut juridique au titre de ces conventions, et c’est une erreur.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sera",
+   "head_sa": "sera",
+   "ne": "ne",
+   "sent": "Même cet amendement sur le regroupement des fonds pour l’efficacité et les énergies renouvelables ne sera toutefois d’aucune utilité pour rectifier le déséquilibre irresponsable en faveur de la recherche nucléaire.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "seront",
+   "head_sa": "seront",
+   "ne": "ne",
+   "sent": "Des mesures individuelles ne seront sans doute d’aucune utilité à cet égard: seul un ensemble efficace de mesures sera utile.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "La Commission ne dispose d’aucun service d’échange de renseignements, à juste titre selon moi.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "Les questions ne pouvant être traitées oralement reçoivent une réponse écrite et votre question n° 54 compte parmi celles-ci.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "m'abuse",
+   "head_sa": "m'abuse",
+   "ne": "ne",
+   "sent": "Le présent règlement vise à uniformiser au moins davantage ces règles et il s’agit d’un objectif auquel aspirent, si je ne m’abuse, tous les groupes de cette Assemblée. Nous pouvons dès lors nous contenter d’apporter des changements dans quelques domaines où ils sont vraiment nécessaires, par exemple sur les points qui désavantagent les membres d’é",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Elle ne dispose d’aucune preuve établie, elle a simplement mis à disposition une plate-forme pour les préjugés anti-américains.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "trompe",
+   "head_sa": "trompe",
+   "ne": "ne",
+   "sent": "Nous sommes actuellement occupés à analyser les résultats de la consultation et, depuis hier - si je ne me trompe -, toutes les contributions sont disponibles sur notre site consacré à la santé publique.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "Certaines entreprises grecques ont investi des millions d’euros, mais, ne pouvant faire face à la mafia qui imposait ses propres taxes exorbitantes, elles ont abandonné leurs usines et leurs machines et ont déménagé.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposant",
+   "head_sa": "disposant",
+   "ne": "ne",
+   "sent": "J’y suis sensible. Ma question concerne en réalité la situation d’un pays ne disposant d’aucun cadre juridique.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "perd",
+   "head_sa": "perd",
+   "ne": "ne",
+   "sent": "Chaque Européen(ne) perd en moyenne huit mois de sa vie à cause de ces particules.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Je voudrais simplement m’excuser de ne pouvoir être présent lors du vote de demain en raison du congrès du parti travailliste à Manchester.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": ". - Madame la Présidente, mon collègue, le commissaire Mandelson, regrette de ne pouvoir être présent pour ce débat très important, mais il a dû partir aux États-Unis pour participer à des discussions multilatérales.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "l'ignore",
+   "head_sa": "l'ignore",
+   "ne": "ne",
+   "sent": "Comme nul n'entre nous ne l'ignore, le secteur audiovisuel constitue un élément essentiel de notre économie.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "conteste",
+   "head_sa": "conteste",
+   "ne": "ne",
+   "sent": "Nul ne conteste l'accroissement de l'utilisation des instruments de défense commerciale à l'encontre de la Communauté.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "faisant",
+   "head_sa": "faisant",
+   "ne": "ne",
+   "sent": "Le référendum sur l'indépendance de la Transnistrie qui a eu lieu récemment dans cette province, contraire à la constitution et ne faisant l'objet d'aucune reconnaissance sur la scène internationale, a constitué un grave recul pour toutes les parties concernées.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "suffit",
+   "head_sa": "suffit",
+   "ne": "ne",
+   "sent": "Il ne suffit de proclamer \"nous souhaitons être capables de nous défendre\", car de toute évidence chacun peut en faire autant.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "trompe",
+   "head_sa": "trompe",
+   "ne": "ne",
+   "sent": "Si je comprends bien, c'était une réunion où tous les gouvernements des États membres et le gouvernement américain étaient représentés et, si je ne me trompe, M. Solana et M. de Vries étaient également présents.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sont",
+   "head_sa": "sont",
+   "ne": "ne",
+   "sent": "Sans remise en cause de la libre circulation des personnes qui ne sont ressortissantes de l'Union, véritable dogme érigé par Bruxelles, l'immigration clandestine continuera à se développer irrésistiblement!",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous ne disposons apparemment d'aucune énergie.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Actuellement, nous ne disposons d'aucune connaissance pour une large majorité d'entre elles.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "Ma principale préoccupation était de voir une bonne idée buter sur une réglementation excessive, ne pouvant ainsi contribuer à améliorer la sécurité routière.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sont",
+   "head_sa": "sont",
+   "ne": "ne",
+   "sent": "J'ai soutenu la proposition de règlement du Conseil modifiant le règlement (CE) n° 539/2001 fixant la liste des pays tiers dont les ressortissants sont soumis à l'obligation de visa pour franchir les frontières extérieures des États membres et la liste de ceux dont les ressortissants sont exemptés de cette obligation, mais nous devons prévoir l'exe",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "seront",
+   "head_sa": "seront",
+   "ne": "ne",
+   "sent": "À cet égard, les brochures publicitaires ne nous seront d'aucun secours.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "céder",
+   "head_sa": "ceder",
+   "ne": "ne",
+   "sent": "Nous devons demander à tous les États membres de conserver une approche commune et cohérente face à la Russie et de ne céder à la pression destinée à nous diviser, par exemple sur les sujets actuellement en discussion.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "Malgré tout, Monsieur le Président, nous attendons des faits concrets, qui nous mettent devant des choix spécifiques ne pouvant demeurer vagues.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous ne disposons d'aucun autre cadre ou système agréé permettant une évaluation adéquate des activités des entreprises dans le domaine de la responsabilité sociale des entreprises.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "européen",
+   "head_sa": "europeen",
+   "ne": "ne",
+   "sent": "Je suis d'accord sur l'objectif final: un(e) citoyen(ne) européen(ne) doit pouvoir recevoir les meilleurs soins de santé là où il ou elle vit.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "participent",
+   "head_sa": "participent",
+   "ne": "ne",
+   "sent": "Elles le sont pour l'égalité entre les hommes et les femmes, car ce sont généralement les femmes qui assument la responsabilité de la garde des enfants et ne participent au marché du travail.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "En ce qui concerne le moratoire, en termes juridiques, la Commission ne dispose d'aucune solution immédiate pour imposer un moratoire sur les importations, les exportations et le commerce de produits dérivés du phoque.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous ne disposons d'aucune stratégie de sortie dans les Balkans occidentaux et au Kosovo, mais uniquement d'une stratégie d'entrée.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "modifierait",
+   "head_sa": "modifierait",
+   "ne": "ne",
+   "sent": "Cela ne modifierait la signification d'aucun des deux amendements et apporterait une solution juridique à ce conflit.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Il vous adresse ses excuses de ne pouvoir être présent aujourd'hui en raison d'autres obligations professionnelles auxquelles il ne peut se soustraire.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sont",
+   "head_sa": "sont",
+   "ne": "ne",
+   "sent": "Les exemples présentés par M. Cohn-Bendit au début de son intervention sur des questions sensiblement différentes, comme la situation des populations minoritaires dans les trois républiques baltes, ne sont d'aucun secours.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "faites",
+   "head_sa": "faites",
+   "ne": "Ne",
+   "sent": "Ne vous faites d'illusions.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "font",
+   "head_sa": "font",
+   "ne": "ne",
+   "sent": "Cinquièmement, les utilisations juridiques prévues desdites données ne font l'objet d'aucun contrôle.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Mais, comme l'Union ne dispose d'aucune expérience dans ces innovations, nous devons déblayer le terrain.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Le Conseil ne dispose d'aucun moyen, comme vous pouvez l'imaginer, pour obliger la Turquie à adopter une législation.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "s'agit",
+   "head_sa": "s'agit",
+   "ne": "ne",
+   "sent": "Il ne s'agit d'une Commission de déréglementation: comme je l'ai indiqué, l'intégration européenne se fonde sur le loi, non sur l'abolition de la loi.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Les autres populations au sujet desquelles nous ne disposons d'aucun type d'évaluation constituent un autre problème.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "seront",
+   "head_sa": "seront",
+   "ne": "ne",
+   "sent": "De meilleurs contrôles ne nous seront donc d'aucune aide.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "Il est dans la nature de l'expérimentation de ne pouvoir prévoir les résultats avec certitude.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "travaille",
+   "head_sa": "travaille",
+   "ne": "ne",
+   "sent": "L'accent doit être mis sur la coopération entre éducation et innovation, puisqu'aucune institution européenne ne travaille de facto à ce lien.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "Ne",
+   "sent": "Ne pouvant répondre seule à ses besoins énergétiques, l'Union européenne s'escrime à diversifier ses sources d'approvisionnement à partir des accords commerciaux noués avec des pays en Amérique latine, en Afrique ou en Eurasie.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Souvent, elle ne dispose par des moyens nécessaires pour contrôler non seulement les frontières officielles, mais aussi nos frontières, car ce sont les frontières de nos pays qui requièrent des contrôles accrus.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Nous savons combien se voient accorder l'asile, mais nous ne disposons d'aucune information sur ceux dont les demandes ont été refusées.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sont",
+   "head_sa": "sont",
+   "ne": "ne",
+   "sent": "Pour qui travaillons-nous depuis des années, lorsque nous parlons du droit à la libre circulation, à l'enseignement, à la santé, au travail et à la dignité, si ce ne sont les citoyens qui nous ont démocratiquement élus?",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "Les moyens de subsistance sont détruits, les pêcheurs, agriculteurs et autres ne pouvant vendre leur production.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "ferions",
+   "head_sa": "ferions",
+   "ne": "Ne",
+   "sent": "Ne ferions fausse route.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "disposons",
+   "head_sa": "disposons",
+   "ne": "ne",
+   "sent": "Hélas, nous ne disposons toujours d'aucune proposition concrète.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvoir",
+   "head_sa": "pouvoir",
+   "ne": "ne",
+   "sent": "vice-président de la Commission. - (EN) Je suis désolé de ne pouvoir répondre immédiatement en finnois; par la suite, nous pourrons poursuivre la discussion dans cette langue.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "bis",
+   "head_sa": "bis",
+   "ne": "ne",
+   "sent": "Je pense tout particulièrement au respect du principe ne bis in idem, au respect d'une défense véritable et non uniquement formelle ou encore au droit des victimes.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "fait",
+   "head_sa": "fait",
+   "ne": "ne",
+   "sent": "L'immigration clandestine - et légale - en Grande-Bretagne ne fait l'objet d'aucun contrôle, d'aucune restriction et elle est aveugle - littéralement.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "bénéficie",
+   "head_sa": "beneficie",
+   "ne": "ne",
+   "sent": "Airbus ne bénéficie d'aucune aide cachée.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "jouit",
+   "head_sa": "jouit",
+   "ne": "ne",
+   "sent": "L'UKIP cherchera toujours à coopérer au niveau international en la matière, mais l'UE ne jouit d'aucune compétence approuvée en matière de défense.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "satisfait",
+   "head_sa": "satisfait",
+   "ne": "ne",
+   "sent": "Nul ne se satisfait d'une qualité médiocre.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "comptent",
+   "head_sa": "comptent",
+   "ne": "ne",
+   "sent": "Certaines destinations touristiques populaires ne comptent de représentation d'aucune sorte.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sont",
+   "head_sa": "sont",
+   "ne": "ne",
+   "sent": "Serait-il possible d'avoir une influence sur les hausses de prix lorsque celles-ci ne sont raisonnablement justifiées?",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "suis",
+   "head_sa": "suis",
+   "ne": "ne",
+   "sent": "Néanmoins, en ce qui concerne les preuves scientifiques supplémentaires quant aux dégâts sur la santé, je ne suis au courant d'aucune nécessité d'aller au-delà de ces recommandations de sécurité de 1999.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "plaît",
+   "head_sa": "plait",
+   "ne": "ne",
+   "sent": "C'est la raison pour laquelle cette journée est tellement exceptionnelle, car à partir d'aujourd'hui, même si cela ne plaît guerre à certains, les droits fondamentaux seront formellement et définitivement intégrés à l'héritage commun de l'Union, un héritage moral, un héritage politique, un héritage de citoyenneté et des meilleurs aspects de la civi",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "sont",
+   "head_sa": "sont",
+   "ne": "ne",
+   "sent": "Les personnes qui ne sont ressortissantes d'aucun pays ne peuvent rester éternellement apatrides, et le Monténégro doit suivre les lignes directrices concernées définies par le Conseil de l'Europe.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "pouvant",
+   "head_sa": "pouvant",
+   "ne": "ne",
+   "sent": "Un quart des membres de cette Assemblée ont été exclus -ne pouvant influencer et faire part de leurs connaissances - en matière de réagencement des articles de la Constitution adaptés au traité de Lisbonne.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "dispose",
+   "head_sa": "dispose",
+   "ne": "ne",
+   "sent": "Néanmoins, je ne dispose d'aucune base législative en dehors de l'Europe.",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "payez",
+   "head_sa": "payez",
+   "ne": "Ne",
+   "sent": "Ne payez aucuns frais, impôts, taxes ou droits\".",
+   "bucket": "other",
+   "lemma": null
+  },
+  {
+   "head": "bénéficiaient",
+   "head_sa": "beneficiaient",
+   "ne": "ne",
+   "sent": "On voudrait donc créer une Agence des droits fondamentaux de l'Union européenne, comme si les droits de l'homme ne bénéficiaient d'aucune protection dans les États membres.",
+   "bucket": "other",
+   "lemma": null
+  }
+ ],
+ "sample_licensed": [
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "Cette situation ne peut laisser l’Union européenne indifférente.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peux",
+   "head_sa": "peux",
+   "ne": "ne",
+   "sent": "Toutefois, je ne peux m'empêcher de me poser quelques questions sur l'appréciation positive de l'accord intervenu entre l'Allemagne et la France dans la perspective de l'élargissement de l'UE.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "pouvons",
+   "head_sa": "pouvons",
+   "ne": "ne",
+   "sent": "La Commission, en demandant l'urgence, le fait de façon inacceptable pour le Parlement, nous privant ainsi de cette attribution essentielle et à laquelle nous ne pouvons renoncer.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "cesse",
+   "head_sa": "cesse",
+   "ne": "ne",
+   "sent": "La quantité des déchets de PVC ne cesse pourtant de croître.",
+   "bucket": "licensed",
+   "lemma": "cesser"
+  },
+  {
+   "head": "pouvons",
+   "head_sa": "pouvons",
+   "ne": "ne",
+   "sent": "Mais, en étudiant ce dossier, nous ne pouvons ignorer les restructurations basées sur des prétextes fallacieux, derrière lesquels se cache la simple recherche du profit immédiat.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "La croissance européenne ne peut se concevoir sans être solidaire.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "Un développement durable ne peut être atteint sans l’élaboration de nouvelles technologies et d’innovations environnementales, en particulier dans le secteur des transports et de l’énergie.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "pouvons",
+   "head_sa": "pouvons",
+   "ne": "ne",
+   "sent": "Dans un monde en globalisation croissante, nous ne pouvons toutefois nous soustraire à notre responsabilité internationale.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "La vie humaine ne peut faire l'objet d'un vote.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peux",
+   "head_sa": "peux",
+   "ne": "ne",
+   "sent": "Libre à une majorité de ce Parlement de souhaiter une application intelligente et flexible du pacte de stabilité selon les modalités proposées par la Commission, ou de soutenir cette dernière lorsqu'elle engage arbitrairement des procédures inquisitoriales à l'encontre d'États qui ne peuvent se plier à une interprétation zélée des dispositions du p",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "pouvons",
+   "head_sa": "pouvons",
+   "ne": "ne",
+   "sent": "Nous devons toutes les faire asseoir autour de la table et nous ne pouvons distribuer les blâmes à l’avance.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "C'est pourquoi la Commission ne peut accepter les amendements qui réduisent la portée de la procédure centralisée.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "Cette concurrence ne peut être évaluée en termes actuels car l'utilisation de ces technologies connaît une croissance exponentielle et, par conséquent, nous devrons analyser la situation avec un peu de recul.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "pouvons",
+   "head_sa": "pouvons",
+   "ne": "ne",
+   "sent": "Sinon, nous ne pouvons envisager une telle réglementation.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "La Commission ne peut accepter les amendements 2, 3, 4, 6, 7, 8, 9, 10, 12, 13 et 19.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "Face à un tel doute et en l'absence d'éclaircissement de la part du Commissaire Nielson, on ne peut voter en faveur cette ligne budgétaire.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "L’Union européenne ne peut gagner la course technologique sans un tel programme, qui vise à combler le fossé qui sépare la recherche de l’innovation. Ce principe sert de base à la stratégie de Lisbonne et de fil conducteur à la construction d’un espace européen commun de recherche et d’innovation.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "pouvons",
+   "head_sa": "pouvons",
+   "ne": "ne",
+   "sent": "C'est précisément la raison pour laquelle nous ne pouvons accepter de nouvelles diminutions des pensions.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "saurait",
+   "head_sa": "saurait",
+   "ne": "ne",
+   "sent": "J’aurais également souhaité entendre votre réponse à la question posée par M. Blokland, une autre question éthique qui ne saurait être laissée sans réponse, car elle préoccupe à la fois la population et le Parlement.",
+   "bucket": "licensed",
+   "lemma": "savoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "On ne peut construire l'Europe contre les femmes.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "pouvons",
+   "head_sa": "pouvons",
+   "ne": "ne",
+   "sent": "Nous ne pouvons faire suivre nos problèmes à notre voisin.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "cessent",
+   "head_sa": "cessent",
+   "ne": "ne",
+   "sent": "Partout dans le monde, les liens entre les hommes ne cessent de se resserrer et leur interdépendance de se renforcer.",
+   "bucket": "licensed",
+   "lemma": "cesser"
+  },
+  {
+   "head": "pouvons",
+   "head_sa": "pouvons",
+   "ne": "ne",
+   "sent": "Ce type de recherche sera donc condamné à disparaître. Nous ne pouvons le tolérer.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "pouvons",
+   "head_sa": "pouvons",
+   "ne": "ne",
+   "sent": "Nous ne pouvons l’accepter.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "L’UE ne peut rester indifférente face à ces problèmes et doit accroître sa contribution financière en conséquence.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "En juillet, le Financial Times écrivait: \"Bruxelles est la capitale réglementaire du monde et on ne peut l'ignorer de Washington à Tokyo\".",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "pouvons",
+   "head_sa": "pouvons",
+   "ne": "ne",
+   "sent": "Nous ne pouvons poursuivre cette politique qui voit chaque année quelque 2 millions de tonnes de poissons sains - 25 % de la totalité des captures en eaux européennes - être rejetés morts dans la mer.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "pouvons",
+   "head_sa": "pouvons",
+   "ne": "ne",
+   "sent": "Nous ne pouvons nous contenter de détourner le regard.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "Notre délégation ne peut accepter la mention dans ce texte d'un produit agricole - le coton - et la recommandation de réviser et de restreindre les aides à ce secteur.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "Néanmoins - selon ce quotidien - le gouvernement indien ne peut s’attribuer le mérite d’aucun de ces résultats, qui sont dus uniquement - affirme-t-il - à la chance, aux réformes passées et aux efforts du secteur privé.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "cesse",
+   "head_sa": "cesse",
+   "ne": "ne",
+   "sent": "À Nice, fin 2000, la coopération renforcée dans le domaine de la défense avait été rejetée, mais, aujourd’hui, le consensus ne cesse de croître à cet égard.",
+   "bucket": "licensed",
+   "lemma": "cesser"
+  },
+  {
+   "head": "pourra",
+   "head_sa": "pourra",
+   "ne": "ne",
+   "sent": "Le consensus élaboré par la Convention ne pourra être amélioré à Rome.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "saurait",
+   "head_sa": "saurait",
+   "ne": "ne",
+   "sent": "Cet équilibre, bien sûr, ne saurait être garanti par une représentation inférieure à 40 % pour chacun des sexes, pourcentage qui a été admis, notamment dans les pays scandinaves où il est appliqué depuis déjà longtemps.",
+   "bucket": "licensed",
+   "lemma": "savoir"
+  },
+  {
+   "head": "peuvent",
+   "head_sa": "peuvent",
+   "ne": "ne",
+   "sent": "À cet égard, la Commission et le Conseil ne peuvent se dégager de leurs responsabilités, compte tenu de la réduction constante des paiements par rapport aux autorisations.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "C'est pourquoi la Commission ne peut accepter les différents amendements supprimant toute référence à la gestion déléguée.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peuvent",
+   "head_sa": "peuvent",
+   "ne": "ne",
+   "sent": "Le rapport de notre commission de l'agriculture inclut également des amendements visant à étendre les aides à la production de lin et de chanvre aux terres non arables, offrant ainsi à des régions de l'Union européenne qui ne peuvent obtenir d'aide financière selon le régime actuel l'occasion de se diversifier.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "L'Union européenne ne peut poursuivre une politique d'immigration purement policière, comme l'a déclaré précisément le président de la Ligue française des droits de l'homme, il y a quelques jours.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "En ce qui concerne les finances publiques, la dette ne peut dépasser 60% du PIB, avec un plafond de 3% pour les nouvelles dettes.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "· réclament une augmentation des ressources des Fonds structurels et du Fonds de cohésion, car une Europe inégale ne peut être viable;",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "cesse",
+   "head_sa": "cesse",
+   "ne": "ne",
+   "sent": "Par ailleurs, la situation ne cesse de fluctuer.",
+   "bucket": "licensed",
+   "lemma": "cesser"
+  },
+  {
+   "head": "pouvons",
+   "head_sa": "pouvons",
+   "ne": "ne",
+   "sent": "Nous ne pouvons, dans ces circonstances, accepter l'instauration de cette écotaxe.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "pouvons",
+   "head_sa": "pouvons",
+   "ne": "ne",
+   "sent": "En l' absence de ces trois éléments, nous ne pouvons octroyer la décharge à la Commission.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peuvent",
+   "head_sa": "peuvent",
+   "ne": "ne",
+   "sent": "Nous parviendrons à construire une Union cohérente, mais nous devons avoir une attitude responsable à l'égard de la question générale consistant à distinguer les fraudes délibérées de simples fautes et erreurs qui, à court terme, ne peuvent être évitées.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peux",
+   "head_sa": "peux",
+   "ne": "ne",
+   "sent": "Ainsi, nous sommes d' accord avec la mention des organismes publics en général, formulée dans l' amendement 37 ; mais je ne peux accepter, en particulier, la référence précise à la police et aux autorités de droit civil.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "pouvons",
+   "head_sa": "pouvons",
+   "ne": "ne",
+   "sent": "C'est pourquoi nous ne pouvons marquer notre accord avec la proposition de la Commission et c'est pourquoi nous avançons quatre propositions qui, nous le pensons, renforceront de manière significative la proposition initiale et assureront donc à cette dernière le soutien de cette Assemblée.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "Sans police qui fonctionne et sans au moins quelques fragments d'État de droit, il ne peut y être question de paix entre les hommes et les groupes ethniques.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "pouvons",
+   "head_sa": "pouvons",
+   "ne": "ne",
+   "sent": "Nous ne pouvons, au sein de cette Assemblée, considérer la lutte actuelle contre le terrorisme à part de ces événements.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peuvent",
+   "head_sa": "peuvent",
+   "ne": "ne",
+   "sent": "Les décisions relatives aux affectations pour l’action extérieure de l’Union ne peuvent être prises sur la seule base de critères comptables ou de critères d’exécution du budget.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "puis",
+   "head_sa": "puis",
+   "ne": "ne",
+   "sent": "C'est pourquoi je ne puis dire...",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peux",
+   "head_sa": "peux",
+   "ne": "ne",
+   "sent": "Par ailleurs, je ne peux m’empêcher de rappeler le travail permanent de construction du marché intérieur, dans le cadre duquel nous avons souvent dû vaincre les réticences et le manque de cohésion des États membres.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "saurait",
+   "head_sa": "saurait",
+   "ne": "ne",
+   "sent": "Mais cela ne saurait durer ad infinitum.",
+   "bucket": "licensed",
+   "lemma": "savoir"
+  },
+  {
+   "head": "cesse",
+   "head_sa": "cesse",
+   "ne": "ne",
+   "sent": "Dans ce domaine, le surplus de production ne cesse d'augmenter et a des conséquences financières.",
+   "bucket": "licensed",
+   "lemma": "cesser"
+  },
+  {
+   "head": "peuvent",
+   "head_sa": "peuvent",
+   "ne": "ne",
+   "sent": "Malheureusement, on compte également parmi les opposants à ces techniques avancées des collègues de groupes et de pays qui sont normalement toujours en première ligne pour défendre la protection de l'environnement et des eaux et ne peuvent aller assez loin.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "pouvez",
+   "head_sa": "pouvez",
+   "ne": "ne",
+   "sent": "En effet, vous ne pouvez prétendre à une meilleure régulation du fonctionnement des entreprises sans octroyer davantage de voix aux employés et aux salariés.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peux",
+   "head_sa": "peux",
+   "ne": "ne",
+   "sent": "Je ne peux sous-estimer l'importance de l'adaptation notre contenu.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "Trois ans après la première proposition présentée par la Commission dans ce domaine, laquelle avait été rejetée à l’époque, nous sommes à nouveau en train de débattre d’une proposition de résolution rejetée par la commission compétente, dont le vote défavorable envoie un message clair au Parlement: on ne peut considérer comme positif un texte susce",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "saurait",
+   "head_sa": "saurait",
+   "ne": "ne",
+   "sent": "Par conséquent, un tissu social capable d' être intégré au monde commercial et au monde occidental ne saurait exister sans l' éducation.",
+   "bucket": "licensed",
+   "lemma": "savoir"
+  },
+  {
+   "head": "saurais",
+   "head_sa": "saurais",
+   "ne": "ne",
+   "sent": "Je ne saurais imaginer le supplice vécu par ces enfants.",
+   "bucket": "licensed",
+   "lemma": "savoir"
+  },
+  {
+   "head": "peuvent",
+   "head_sa": "peuvent",
+   "ne": "ne",
+   "sent": "S'il existe encore des obligations de paiement dans le pays d'origine, elles ne peuvent empêcher un citoyen d'aller travailler à l'étranger.",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  },
+  {
+   "head": "peut",
+   "head_sa": "peut",
+   "ne": "ne",
+   "sent": "Par contre, la Commission ne peut accepter - autrement dit, rejette - les amendements 2, 3, 4, 5 (première, troisième et quatrième parties), 7, 8, 9 (dans la partie relative à l'obligation de justifier la nécessité d'une évaluation stratégique environnementale), 10 (troisième partie), 11, 13, 14, 16, 19, 21, 22, 26, 27, 28 (deuxième partie), 30 et ",
+   "bucket": "licensed",
+   "lemma": "pouvoir"
+  }
+ ]
+}

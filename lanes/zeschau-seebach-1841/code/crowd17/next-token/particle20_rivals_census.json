@@ -1,0 +1,60 @@
+{
+ "diplomatic": {
+  "agg": {
+   "mais": {
+    "n": 2441,
+    "fragment": 1684,
+    "fois_final": 1,
+    "ordinal_final": 0
+   },
+   "or": {
+    "n": 162,
+    "fragment": 113,
+    "fois_final": 1,
+    "ordinal_final": 0
+   },
+   "donc": {
+    "n": 46,
+    "fragment": 30,
+    "fois_final": 0,
+    "ordinal_final": 0
+   },
+   "cependant": {
+    "n": 191,
+    "fragment": 129,
+    "fois_final": 0,
+    "ordinal_final": 0
+   }
+  },
+  "files": 9
+ },
+ "full_french": {
+  "agg": {
+   "mais": {
+    "n": 10698,
+    "fragment": 7306,
+    "fois_final": 10,
+    "ordinal_final": 5
+   },
+   "or": {
+    "n": 523,
+    "fragment": 339,
+    "fois_final": 2,
+    "ordinal_final": 0
+   },
+   "donc": {
+    "n": 273,
+    "fragment": 172,
+    "fois_final": 0,
+    "ordinal_final": 0
+   },
+   "cependant": {
+    "n": 846,
+    "fragment": 571,
+    "fois_final": 1,
+    "ordinal_final": 0
+   }
+  },
+  "files": 59
+ }
+}
