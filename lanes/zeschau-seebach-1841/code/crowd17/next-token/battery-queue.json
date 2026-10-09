@@ -2320,8 +2320,12 @@
    "evidence": "ne-30-1700 null (2026-10-08): 30='pas' FAILED at @1700 ('inf ne pas' categorically ungrammatical; clause-boundary rescue fails since 20 not infinitival); 30='importe' CONDITIONAL ('n'importe' word-formation licensed by n'-elision; @1702 the sole 94-30 adjacency across all 19 windows); @1700 fenced; pas-30 re-open caveat NOT triggered (importe at word-formation level only, not clause level)",
    "id": "importe-30-elision-test",
    "priority": 2,
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "null",
+    "report": "code/crowd17/report_inbox/battery-importe-30-elision-test.md",
+    "date": "2026-10-08"
+   }
   },
   {
    "adverses": "85's value open; 33='dire' unpromoted",
@@ -3938,8 +3942,12 @@
    "queued_at": "2026-10-09T01:08Z",
    "queued_by": "next-token-supervisor follow-up audit",
    "source_report": "code/crowd17/report_inbox/battery-prenne-trigger-348.md",
-   "status": "queued",
-   "verdict": null
+   "status": "verdict",
+   "verdict": {
+    "result": "kill",
+    "report": "code/crowd17/report_inbox/battery-prenne-R3-relative-341.md",
+    "date": "2026-10-08"
+   }
   },
   {
    "adverses": "S5 standing fence — do not decide; feed s5-foundation; 56/85 values open",
@@ -4044,6 +4052,45 @@
    "source_report": "code/crowd17/report_inbox/battery-dict-45-circle-break.md",
    "queued_by": "next-token-supervisor follow-up audit",
    "queued_at": "2026-10-09T01:26Z"
+  },
+  {
+   "id": "wordbound-30-06-importent",
+   "priority": 2,
+   "claim": "resolve the '30-06' x4 word boundary via 06's left-attachment profile",
+   "bars": "resolve iff 06's left-attachment profile decides the boundary (cf. ent-06 battery's 'mentent' x2 legs); one-word gives 'importe' its first non-@1702 word-level leg, two-word is neutral.",
+   "adverses": "boundary underdetermined ('pas [verb]-ent' two-word also parses); coordinate with queued spell-pasent-test, do not duplicate.",
+   "evidence": "importe-30-elision-test null (2026-10-08): '30 06' x4 (@1251/@1327/@1561/@1733) — one word gives 'importent' (real 3pl) vs 'pasent' (non-word); discriminates the vowel-initial rival.",
+   "status": "queued",
+   "verdict": null,
+   "source_report": "code/crowd17/report_inbox/battery-importe-30-elision-test.md",
+   "queued_by": "next-token-supervisor follow-up audit",
+   "queued_at": "2026-10-09T01:31Z"
+  },
+  {
+   "id": "importe-30-subject-sweep",
+   "priority": 2,
+   "claim": "finite-verb vehicle sweep over all 19 @30 windows under granted values only",
+   "bars": "promote-consideration iff >=1 window parses '[subj] importe' with a granted subject; else record 'importe' as @1702-word-formation-confined. @1561 gated on noun-26; @1309 gated on 74/52; @1327 gated on 62 - state gates, do not force.",
+   "adverses": "26's class open (4/19 predecessors); 74/52 and 62 classes open.",
+   "evidence": "importe-30-elision-test null (2026-10-08): finite-verb vehicle ('[subj] importe') swept — no grammatical subject-headed parse under granted values only.",
+   "status": "queued",
+   "verdict": null,
+   "source_report": "code/crowd17/report_inbox/battery-importe-30-elision-test.md",
+   "queued_by": "next-token-supervisor follow-up audit",
+   "queued_at": "2026-10-09T01:31Z"
+  },
+  {
+   "id": "elision-30-retest-after-26",
+   "priority": 3,
+   "claim": "re-run the vowel-initial test for 30 once noun-26 resolves",
+   "bars": "GATED on noun-26 resolving - do not run before. Re-run the vowel-initial test: verb-shaped 26 changes '26 importe' readings; nominal 26 makes 'la [26] importe' testable at @1561.",
+   "adverses": "26's class open; GATED on noun-26 - do not run before.",
+   "evidence": "importe-30-elision-test null (2026-10-08): 26 directly precedes 30 in 4/19 windows (largest predecessor share).",
+   "status": "queued",
+   "verdict": null,
+   "source_report": "code/crowd17/report_inbox/battery-importe-30-elision-test.md",
+   "queued_by": "next-token-supervisor follow-up audit",
+   "queued_at": "2026-10-09T01:31Z"
   }
  ]
 }
