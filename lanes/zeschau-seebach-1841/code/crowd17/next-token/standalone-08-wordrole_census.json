@@ -1,0 +1,152 @@
+[
+ [
+  35,
+  "a1_01",
+  "32",
+  "01",
+  "91",
+  "39",
+  "01-08='en'+t='ent' letter string; 08 medial",
+  "01='en' battery-promote (en-988); 08=t x3 battery"
+ ],
+ [
+  60,
+  "a1_01",
+  "12",
+  "41",
+  "34",
+  "29",
+  "08-34-29 = t-i-er = '-tier' word-medial",
+  "34=i,29=er PENCIL banked (\u00a77)"
+ ],
+ [
+  98,
+  "a1_02",
+  "29",
+  "85",
+  "21",
+  "62",
+  "85-08 = verb-stem + -t (3sg -t)",
+  "85 verb-stem frame A3 (\u00a77)"
+ ],
+ [
+  198,
+  "a2_00",
+  "21",
+  "60",
+  "67",
+  "76",
+  "60-08='60t' word-final t + 67='et'",
+  "67 et/veut positional rule (\u00a77)"
+ ],
+ [
+  534,
+  "a3_01",
+  "32",
+  "16",
+  "24",
+  "82",
+  "'16t'+verb(24) or '16'+'t24'; 08 letter either way",
+  "24 finite-verb class R17-009"
+ ],
+ [
+  631,
+  "a4_01",
+  "78",
+  "67",
+  "52",
+  "67",
+  "'et'+'t52'+'et'; 08 word-initial LETTER",
+  "67='et' positional; 52 split-shaped sub-lexical tier (val-52-630-frame)"
+ ],
+ [
+  779,
+  "a5_04",
+  "73",
+  "37",
+  "29",
+  "89",
+  "37-08-29 = '37ter' word-final -ter",
+  "29=er PENCIL banked (\u00a77)"
+ ],
+ [
+  922,
+  "a5_09",
+  "74",
+  "40",
+  "65",
+  "71",
+  "40-08='et' word-final t",
+  "40=e PENCIL banked (\u00a77)"
+ ],
+ [
+  944,
+  "a5_10",
+  "50",
+  "40",
+  "62",
+  "98",
+  "40-08='et' word-final t",
+  "40=e PENCIL banked (\u00a77)"
+ ],
+ [
+  975,
+  "a6_01",
+  "51",
+  "45",
+  "01",
+  "00",
+  "45-08='cet' word-final t; 'cet 01 pour'",
+  "45='ce' HOLD A11 (\u00a77); 00='pour' A9"
+ ],
+ [
+  1302,
+  "a7_03",
+  "70",
+  "37",
+  "43",
+  "21",
+  "'37t43' letter string",
+  "37 predicative frame A1 (\u00a77)"
+ ],
+ [
+  1323,
+  "a7_04",
+  "29",
+  "80",
+  "62",
+  "98",
+  "80-08='80t' verb-frame + t",
+  "80 verb-frame A8 (\u00a77)"
+ ],
+ [
+  1339,
+  "a7_05",
+  "64",
+  "60",
+  "65",
+  "64",
+  "'60t65' letter string",
+  null
+ ],
+ [
+  1592,
+  "a8_02",
+  "29",
+  "47",
+  "81",
+  "03",
+  "47-08='cet' word-final t",
+  "47='ce' A4 allophone tier (\u00a77)"
+ ],
+ [
+  1610,
+  "a8_03",
+  "65",
+  "23",
+  "55",
+  "83",
+  "'23t55' letter string",
+  "23~26 split hold (\u00a77)"
+ ]
+]

@@ -44,6 +44,10 @@ null, §4) — do not silently rewrite it.
    @-offsets, per-clause pass/fail, verdict, and (for nulls) the 1–3 follow-ups.
 2. Update `battery-queue.json`: set the target's `status` to `"verdict"` and
    fill `verdict: {"result": "promote|kill|null", "report": "code/crowd17/report_inbox/battery-<id>.md", "date": "YYYY-MM-DD"}`.
+   Write through a temp file named `battery-queue.json.<target-id>.tmp` (your
+   target id — unique per worker by construction), then rename over the queue
+   file. Never share a temp name with other workers: a shared tmp path caused
+   lost verdict writes (2026-10-09).
    Never downgrade an existing verdict. If your result contradicts a standing
    red-team verdict, do NOT overwrite it — mark your result `"null"` with the
    contradiction as the headline and escalate to the red team.
